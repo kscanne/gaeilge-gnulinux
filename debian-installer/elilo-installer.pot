@@ -1,0 +1,28 @@
+# Irish translation of installer for IA64, Debian Installer 
+# Copyright (C) 2003 The Debian Project
+# Released under the GPL
+#  Alastair McKinstry <mckinstry@debian.org>
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: elilo-installer 0.0.1\n"
+"POT-Creation-Date: 2002-11-21 15:30-0700\n"
+"PO-Revision-Date: 2003-02-06 14:50+0000\n"
+"Last-Translator: Alastair McKinstry <mckinstry@debian.org>\n"
+"Language-Team: Irish <ga@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Description
+#: ../elilo-installer.templates:4
+msgid "On which device should elilo install the boot block?"
+msgstr ""
+
+#. Description
+#: ../elilo-installer.templates:4
+msgid ""
+"elilo should install the boot block on a bootable device. This is usually "
+"the first hard drive, but could be in a partition if you want to use another "
+"boot manager as the primary boot manager."
+msgstr ""

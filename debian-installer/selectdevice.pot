@@ -1,0 +1,27 @@
+# Debian Installer, selectdevice.pot
+# Copyright (C) 2003 Softwre in the Public Interest (SPI)
+# Released under the GPL
+#   Alastair McKinstry <mckinstry@debian.org>, 2003.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: selectdevice 0.1-2\n"
+"POT-Creation-Date: 2002-10-29 23:17+0100\n"
+"PO-Revision-Date: 2003-02-06 15:13+0000\n"
+"Last-Translator: Alastair McKinstry <mckinstry@debian.org>\n"
+"Language-Team: Irish <ga@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Description
+#: ../selectdevice.templates:5
+msgid "Select a device to partition"
+msgstr ""
+
+#. Description
+#: ../selectdevice.templates:5
+msgid ""
+"You can reorganise the partitions on any of these devices, select the one "
+"you want to change."
+msgstr ""
