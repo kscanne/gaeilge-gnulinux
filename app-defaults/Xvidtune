@@ -1,0 +1,172 @@
+! $XFree86: xc/programs/xvidtune/Xvidtune.ad,v 3.10 1995/07/19 12:46:12 dawes Exp $
+!
+*adInstalled: true
+*borderWidth: 0
+*Scrollbar.borderWidth: 1
+*Scrollbar.width: 250
+*Command.borderWidth: 1
+*HSyncStart-form.fromVert: HDisplay-form
+*HSyncEnd-form.fromVert: HSyncStart-form
+*HTotal-form.fromVert: HSyncEnd-form
+*VSyncStart-form.fromVert: VDisplay-form
+*VSyncEnd-form.fromVert: VSyncStart-form
+*VTotal-form.fromVert: VSyncEnd-form
+*Flags-form.fromVert: HTotal-form
+*Buttons-form.fromVert: Flags-form
+*Buttons2-form.fromVert: Buttons-form
+*Left-button.fromVert: HTotal-scrollbar
+*Right-button.fromVert: HTotal-scrollbar
+*Narrower-button.fromVert: HTotal-scrollbar
+*Wider-button.fromVert: HTotal-scrollbar
+*Up-button.fromVert: VTotal-scrollbar
+*Down-button.fromVert: VTotal-scrollbar
+*Shorter-button.fromVert: VTotal-scrollbar
+*Taller-button.fromVert: VTotal-scrollbar
+*HDisplay-text.fromHoriz: HDisplay-label
+*HSyncStart-text.fromHoriz: HSyncStart-label
+*HSyncStart-scrollbar.fromVert: HSyncStart-label
+*HSyncStart-scrollbar.orientation: horizontal
+*HSyncEnd-text.fromHoriz: HSyncEnd-label
+*HSyncEnd-scrollbar.fromVert: HSyncEnd-label
+*HSyncEnd-scrollbar.orientation: horizontal
+*Right-button.fromHoriz: Left-button
+*Wider-button.fromHoriz: Right-button
+*Narrower-button.fromHoriz: Wider-button
+*HTotal-text.fromHoriz: HTotal-label
+*HTotal-scrollbar.fromVert: HTotal-label
+*HTotal-scrollbar.orientation: horizontal
+*VDisplay-form.fromHoriz: HSyncStart-form
+*VTotal-form.fromHoriz: HSyncStart-form
+*VSyncStart-form.fromHoriz: HSyncStart-form
+*VSyncEnd-form.fromHoriz: HSyncStart-form
+*VDisplay-text.fromHoriz: VDisplay-label
+*VSyncStart-text.fromHoriz: VSyncStart-label
+*VSyncStart-scrollbar.fromVert: VSyncStart-label
+*VSyncStart-scrollbar.orientation: horizontal
+*VSyncStart-text.type: XawAsciiString
+*VSyncEnd-text.fromHoriz: VSyncEnd-label
+*VSyncEnd-scrollbar.fromVert: VSyncEnd-label
+*VSyncEnd-scrollbar.orientation: horizontal
+*VTotal-text.fromHoriz: VTotal-label
+*VTotal-scrollbar.fromVert: VTotal-label
+*VTotal-scrollbar.orientation: horizontal
+*PixelClock-form.fromHoriz: HTotal-form
+*PixelClock-form.fromVert: VTotal-form
+*HSyncRate-form.fromHoriz: HTotal-form
+*HSyncRate-form.fromVert: PixelClock-form
+*VSyncRate-form.fromHoriz: HTotal-form
+*VSyncRate-form.fromVert: HSyncRate-form
+*PixelClock-text.fromHoriz: PixelClock-label
+*HSyncRate-text.fromHoriz: HSyncRate-label
+*VSyncRate-text.fromHoriz: VSyncRate-label
+*PixelClock-label.label: Pixel Clock (MHz): ! FIXME
+*HSyncRate-label.label: Horizontal Sync (kHz): ! FIXME
+*VSyncRate-label.label: Vertical Sync (Hz): ! FIXME
+*Flags-text.fromHoriz: Flags-label
+*HDisplay-label.label: HDisplay: ! FIXME
+*HSyncStart-label.label: HSyncStart: ! FIXME
+*HSyncEnd-label.label: HSyncEnd: ! FIXME
+*HTotal-label.label: HTotal: ! FIXME
+*VDisplay-label.label: VDisplay: ! FIXME
+*VSyncStart-label.label: VSyncStart: ! FIXME
+*VSyncEnd-label.label: VSyncEnd: ! FIXME
+*VTotal-label.label: VTotal: ! FIXME
+*Down-button.fromHoriz: Up-button
+*Shorter-button.fromHoriz: Down-button
+*Taller-button.fromHoriz: Shorter-button
+*Flags-label.label: Flags (hex): Brataí (heacs):
+*Flags-text.borderWidth: 1
+*Flags-text*editType: edit
+!Removed Edit capability -- Jon
+*Flags-text*sensitive: False
+*Apply-button.fromHoriz: Quit-button
+*AutoApply-toggle.fromHoriz: Apply-button
+*AutoApply-toggle.borderWidth: 1
+*Test-button.fromHoriz: AutoApply-toggle
+*Restore-button.fromHoriz: Test-button
+*Show-button.fromHoriz: Fetch-button
+*Next-button.fromHoriz: Show-button
+*Prev-button.fromHoriz: Next-button
+*Quit-button.label: Ealu
+*Fetch-button.label: Fetch ! FIXME
+*Show-button.label: Taispeán
+*Restore-button.label: Restore ! FIXME
+*Test-button.label: Teastáil
+*Apply-button.label: Dean
+*AutoApply-toggle.label: Auto ! FIXME
+*Next-button.label: Next ! FIXME
+*Prev-button.label: Prev ! FIXME
+*Left-button.label: Clé
+*Right-button.label: Deis
+*Wider-button.label: Wider ! FIXME
+*Narrower-button.label: Narrower ! FIXME
+*Up-button.label: Suas
+*Down-button.label: Síos
+*Shorter-button.label: Shorter ! FIXME
+*Taller-button.label: Taller ! FIXME
+*Abort.label: Abort Test Now ! FIXME
+*WarnOK.label: Ceart go Leor
+*WarnCancel.label: Cealaigh
+*Left.label: Clé
+*Right.label: Deis
+*Wider.label: Wider
+*Narrower.label: Narrower ! FIXME
+*Up.label: Suas
+*Down.label: Síos
+*Shorter.label: Shorter ! FIXME
+*Higher.label: Higher ! FIXME
+*AckError.label: Acknowledged ! FIXME
+*ErrorMessage.label: Sorry: You have requested a mode-line\n\ 
+ That is not possible, or not supported by your\n\
+ hardware configuration\n
+*testingMessage.label: Mode test current in progress\n\n     Please wait ! FIXME
+*WarnLabel.label: WARNING     WARNING    WARNING    WARNING    WARNING\
+    WARNING\n\n\
+THE INCORRECT USE OF THIS PROGRAM CAN DO PERMANENT DAMAGE TO YOUR MONITOR\n\
+AND/OR VIDEO CARD.  IF YOU ARE NOT SURE WHAT YOU ARE DOING, HIT CANCEL\n\
+NOW. OTHERWISE, HIT OK TO CONTINUE\n\
+\n\
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,\n\
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\n\
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.\n\
+IN NO EVENT SHALL Kaleb S. KEITHLEY (or his employer) OR \n\
+The XFree86 Project Inc. BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\n\
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING\n\
+FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER\n\
+DEALINGS IN THE SOFTWARE.\n\n
+
+
+	
+*S3-form.fromVert: Buttons2-form
+*EarlySc-toggle.fromHoriz: InvertVclk-toggle
+*Blank1-label.fromHoriz: EarlySc-toggle
+!*Blank1-text.fromHoriz: Blank1-label
+!*Blank2-label.fromHoriz: Blank1-text
+!*Blank2-text.fromHoriz: Blank2-label
+*InvertVclk-toggle.borderWidth: 1
+*EarlySc-toggle.borderWidth: 1
+*Blank1-text.borderWidth: 1
+*Blank2-text.borderWidth: 1
+*Blank1-text*editType: edit
+*Blank2-text*editType: edit
+*Blank1-text*width: 20
+*Blank2-text*width: 20
+*InvertVclk-toggle.label: InvertVCLK
+*EarlySc-toggle.label:EarlySC
+*Blank1-label.label: Blank Delay 1
+*Blank2-label.label: Blank Delay 2
+
+*Blank1Dec-button.fromHoriz: Blank1-label
+*Blank1-text.fromHoriz: Blank1Dec-button
+*Blank1Inc-button.fromHoriz: Blank1-text
+*Blank2-label.fromHoriz: Blank1Inc-button
+*Blank2Dec-button.fromHoriz: Blank2-label
+*Blank2-text.fromHoriz: Blank2Dec-button
+*Blank2Inc-button.fromHoriz: Blank2-text
+*Blank1Inc-button.label: +
+*Blank1Dec-button.label: -
+*Blank2Inc-button.label: +
+*Blank2Dec-button.label: -
+
+*translations:	#override <Key>r: xvidtune-restore()\n\
+			  <Key>q: xvidtune-quit()
