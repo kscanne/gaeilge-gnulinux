@@ -1,0 +1,13 @@
+gaeilge for Debian
+------------------
+
+This package contains the latest translations of Irish for Linux.
+It is packaged as a .deb file for debian, and as a tar file for other systems.
+
+These translations (.po files) should be entered into their respective packages
+for distributions; this package assumes you are using 'sid', and the .po
+files may not match the applications installed on your system otherwise.
+
+It just uses 'dpkg-divert' magic to provide easy updates for translators.
+
+ -- Alastair McKinstry <mckinstry@computer.org>, Mon, 28 Jan 2002 18:26:02 +0000

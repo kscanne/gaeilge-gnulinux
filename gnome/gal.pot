@@ -1,0 +1,643 @@
+# Gaeilge (Irish) translations for Gal
+# Copyright (C) 2001 Free Software Foundation, Inc.
+# Alastair McKinstry, <mckinstry@computer.org>, 2001.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gal VERSION\n"
+"POT-Creation-Date: 2001-09-20 20:09-0400\n"
+"PO-Revision-Date: 2001-09-22 11:30-0000\n"
+"Last-Translator: Alastair McKinstry <mckinstry@computer.org>\n"
+"Language-Team: Irish <ga@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ISO-8859-15\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: gal/e-table/e-cell-date.c:35
+msgid "?"
+msgstr ""
+
+#: gal/e-table/e-cell-date.c:42
+msgid "%l:%M %p"
+msgstr ""
+
+#: gal/e-table/e-cell-date.c:50
+msgid "Today %l:%M %p"
+msgstr "Inniu %l:%M %p"
+
+#: gal/e-table/e-cell-date.c:62
+msgid "Late Yesterday %l:%M %p"
+msgstr ""
+
+#: gal/e-table/e-cell-date.c:65
+msgid "Yesterday %l:%M %p"
+msgstr "Inné %l:%M %p"
+
+#: gal/e-table/e-cell-date.c:80
+msgid "%a %l:%M %p"
+msgstr ""
+
+#: gal/e-table/e-cell-date.c:88
+msgid "%b %d %l:%M %p"
+msgstr ""
+
+#: gal/e-table/e-cell-date.c:90
+msgid "%b %d %Y"
+msgstr ""
+
+#: gal/e-table/e-table-config.c:263 gal/e-table/e-table-config.c:302
+msgid "(Ascending)"
+msgstr ""
+
+#: gal/e-table/e-table-config.c:263 gal/e-table/e-table-config.c:302
+msgid "(Descending)"
+msgstr ""
+
+#: gal/e-table/e-table-config.c:270
+msgid "Not sorted"
+msgstr ""
+
+#: gal/e-table/e-table-config.c:308
+msgid "No grouping"
+msgstr ""
+
+#: gal/e-table/e-table-config-no-group.glade.h:1
+#: gal/e-table/e-table-config.glade.h:1
+msgid "<- _Remove"
+msgstr ""
+
+#: gal/e-table/e-table-config-no-group.glade.h:2
+#: gal/e-table/e-table-config.glade.h:2
+msgid "A_vailable Fields:"
+msgstr ""
+
+#: gal/e-table/e-table-config-no-group.glade.h:3
+#: gal/e-table/e-table-config.glade.h:3
+msgid "Ascending"
+msgstr ""
+
+#: gal/e-table/e-table-config-no-group.glade.h:4
+#: gal/e-table/e-table-config.glade.h:4
+msgid "Clear All"
+msgstr ""
+
+#: gal/e-table/e-table-config-no-group.glade.h:5
+#: gal/e-table/e-table-config.glade.h:5
+msgid "Descending"
+msgstr ""
+
+#: gal/e-table/e-table-config-no-group.glade.h:6
+#: gal/e-table/e-table-config.glade.h:6 gal/menus/gal-define-views.glade.h:3
+msgid "Description"
+msgstr ""
+
+#: gal/e-table/e-table-config-no-group.glade.h:7
+#: gal/e-table/e-table-config.glade.h:7
+msgid "Group"
+msgstr "Grupa"
+
+#: gal/e-table/e-table-config-no-group.glade.h:8
+#: gal/e-table/e-table-config.glade.h:8
+msgid "Group Items By"
+msgstr ""
+
+#: gal/e-table/e-table-config-no-group.glade.h:9
+#: gal/e-table/e-table-config.glade.h:9
+msgid "Move _Down"
+msgstr ""
+
+#: gal/e-table/e-table-config-no-group.glade.h:10
+#: gal/e-table/e-table-config.glade.h:10
+msgid "Move _Up"
+msgstr ""
+
+#: gal/e-table/e-table-config-no-group.glade.h:11
+#: gal/e-table/e-table-config.glade.h:11
+msgid "Sh_ow these fields in order:"
+msgstr ""
+
+#: gal/e-table/e-table-config-no-group.glade.h:12
+#: gal/e-table/e-table-config.glade.h:12
+msgid "Show Fields"
+msgstr ""
+
+#: gal/e-table/e-table-config-no-group.glade.h:13
+#: gal/e-table/e-table-config.glade.h:13
+msgid "Show field in View"
+msgstr ""
+
+#: gal/e-table/e-table-config-no-group.glade.h:14
+#: gal/e-table/e-table-config.glade.h:14
+msgid "Sort"
+msgstr ""
+
+#: gal/e-table/e-table-config-no-group.glade.h:15
+#: gal/e-table/e-table-config.glade.h:15
+msgid "Sort Items By"
+msgstr ""
+
+#: gal/e-table/e-table-config-no-group.glade.h:16
+#: gal/e-table/e-table-config.glade.h:16
+msgid "Then By"
+msgstr ""
+
+#: gal/e-table/e-table-config-no-group.glade.h:17
+#: gal/e-table/e-table-config.glade.h:17
+msgid "_Add ->"
+msgstr ""
+
+#: gal/e-table/e-table-config.glade.h:18
+msgid "_Group By..."
+msgstr ""
+
+#: gal/e-table/e-table-config-no-group.glade.h:18
+#: gal/e-table/e-table-config.glade.h:19
+msgid "_Sort..."
+msgstr ""
+
+#: gal/e-table/e-table-field-chooser.glade.h:1
+msgid "Field Chooser"
+msgstr ""
+
+#: gal/e-table/e-table-field-chooser.glade.h:2
+msgid ""
+"To add a column to your table, drag it into\n"
+"the location in which you want it to appear."
+msgstr ""
+
+#: gal/e-table/e-table-field-chooser-dialog.c:126
+msgid "Add a column..."
+msgstr ""
+
+#: gal/e-table/e-table-group.glade.h:1
+msgid "<< Remove"
+msgstr "<< Scríos"
+
+#: gal/e-table/e-table-group.glade.h:2
+msgid "Add >>"
+msgstr "Suim >>"
+
+#: gal/e-table/e-table-group.glade.h:3
+msgid "Available fields"
+msgstr ""
+
+#: gal/e-table/e-table-group.glade.h:4
+msgid "Show in this order"
+msgstr ""
+
+#: gal/e-table/e-table-group-container.c:341
+#, c-format
+msgid "%s : %s (%d item)"
+msgstr ""
+
+#: gal/e-table/e-table-group-container.c:342
+#, c-format
+msgid "%s : %s (%d items)"
+msgstr ""
+
+#: gal/e-table/e-table-group-container.c:350
+#, c-format
+msgid "%s (%d item)"
+msgstr ""
+
+#: gal/e-table/e-table-group-container.c:351
+#, c-format
+msgid "%s (%d items)"
+msgstr ""
+
+#: gal/e-table/e-table-header-item.c:1278
+msgid "Configuring view: FIXME"
+msgstr ""
+
+#: gal/e-table/e-table-header-item.c:1293
+msgid "Sort Ascending"
+msgstr ""
+
+#: gal/e-table/e-table-header-item.c:1294
+msgid "Sort Descending"
+msgstr ""
+
+#: gal/e-table/e-table-header-item.c:1295
+msgid "Unsort"
+msgstr ""
+
+#: gal/e-table/e-table-header-item.c:1297
+msgid "Group By This Field"
+msgstr ""
+
+#: gal/e-table/e-table-header-item.c:1298
+msgid "Group By Box"
+msgstr ""
+
+#: gal/e-table/e-table-header-item.c:1300
+msgid "Remove This Column"
+msgstr ""
+
+#: gal/e-table/e-table-header-item.c:1301
+msgid "Add a Column..."
+msgstr ""
+
+#: gal/e-table/e-table-header-item.c:1303
+msgid "Alignment"
+msgstr ""
+
+#: gal/e-table/e-table-header-item.c:1304
+msgid "Best Fit"
+msgstr ""
+
+#: gal/e-table/e-table-header-item.c:1305
+msgid "Format Columns..."
+msgstr ""
+
+#: gal/e-table/e-table-header-item.c:1307
+msgid "Customize Current View..."
+msgstr ""
+
+#: gal/menus/gal-define-views.glade.h:2
+#, no-c-format
+msgid "Define Views for \"%s\""
+msgstr ""
+
+#: gal/menus/gal-define-views.glade.h:4
+msgid "Re_set to Factory Defaults..."
+msgstr ""
+
+#: gal/menus/gal-define-views.glade.h:6
+#, no-c-format
+msgid "Views for \"%s\""
+msgstr ""
+
+#: gal/menus/gal-define-views.glade.h:7
+msgid "_Copy..."
+msgstr "_Cóip..."
+
+#: gal/menus/gal-define-views.glade.h:8
+msgid "_Delete..."
+msgstr "_Dealaigh..."
+
+#: gal/menus/gal-define-views.glade.h:9
+msgid "_Edit..."
+msgstr "_Eagar..."
+
+#: gal/menus/gal-define-views.glade.h:10
+msgid "_New..."
+msgstr "_Nua..."
+
+#: gal/menus/gal-view-factory-etable.c:24
+msgid "Table"
+msgstr "Bord"
+
+#: gal/menus/gal-view-new-dialog.glade.h:1
+msgid "Name of new view:"
+msgstr ""
+
+#: gal/menus/gal-view-new-dialog.glade.h:2
+msgid "Type of view:"
+msgstr ""
+
+#: gal/shortcut-bar/e-group-bar.c:633
+#, c-format
+msgid "Group %i"
+msgstr "Grupa %i"
+
+#. This is the default custom color
+#: gal/widgets/color-palette.c:412
+msgid "custom"
+msgstr ""
+
+#. "Custom" color - we'll pop up a GnomeColorPicker
+#: gal/widgets/color-palette.c:454
+msgid "Custom Color:"
+msgstr ""
+
+#: gal/widgets/color-palette.c:462
+msgid "Choose Custom Color"
+msgstr ""
+
+#: gal/widgets/color-palette.c:574
+msgid "black"
+msgstr ""
+
+#: gal/widgets/color-palette.c:575
+msgid "light brown"
+msgstr ""
+
+#: gal/widgets/color-palette.c:576
+msgid "brown gold"
+msgstr ""
+
+#: gal/widgets/color-palette.c:577
+msgid "dark green #2"
+msgstr ""
+
+#: gal/widgets/color-palette.c:578
+msgid "navy"
+msgstr ""
+
+#: gal/widgets/color-palette.c:579 gal/widgets/color-palette.c:635
+msgid "dark blue"
+msgstr ""
+
+#: gal/widgets/color-palette.c:580
+msgid "purple #2"
+msgstr ""
+
+#: gal/widgets/color-palette.c:581
+msgid "very dark gray"
+msgstr ""
+
+#: gal/widgets/color-palette.c:584 gal/widgets/color-palette.c:640
+msgid "dark red"
+msgstr ""
+
+#: gal/widgets/color-palette.c:585
+msgid "red-orange"
+msgstr ""
+
+#: gal/widgets/color-palette.c:586
+msgid "gold"
+msgstr ""
+
+#: gal/widgets/color-palette.c:587
+msgid "dark green"
+msgstr ""
+
+#: gal/widgets/color-palette.c:588 gal/widgets/color-palette.c:641
+msgid "dull blue"
+msgstr ""
+
+#: gal/widgets/color-palette.c:589 gal/widgets/color-palette.c:642
+msgid "blue"
+msgstr ""
+
+#: gal/widgets/color-palette.c:590
+msgid "dull purple"
+msgstr ""
+
+#: gal/widgets/color-palette.c:591
+msgid "dark grey"
+msgstr ""
+
+#: gal/widgets/color-palette.c:594
+msgid "red"
+msgstr ""
+
+#: gal/widgets/color-palette.c:595
+msgid "orange"
+msgstr ""
+
+#: gal/widgets/color-palette.c:596
+msgid "lime"
+msgstr ""
+
+#: gal/widgets/color-palette.c:597
+msgid "dull green"
+msgstr ""
+
+#: gal/widgets/color-palette.c:598
+msgid "dull blue #2"
+msgstr ""
+
+#: gal/widgets/color-palette.c:599
+msgid "sky blue #2"
+msgstr ""
+
+#: gal/widgets/color-palette.c:600 gal/widgets/color-palette.c:639
+msgid "purple"
+msgstr ""
+
+#: gal/widgets/color-palette.c:601
+msgid "gray"
+msgstr ""
+
+#: gal/widgets/color-palette.c:604 gal/widgets/color-palette.c:636
+msgid "magenta"
+msgstr ""
+
+#: gal/widgets/color-palette.c:605
+msgid "bright orange"
+msgstr ""
+
+#: gal/widgets/color-palette.c:606 gal/widgets/color-palette.c:637
+msgid "yellow"
+msgstr ""
+
+#: gal/widgets/color-palette.c:607
+msgid "green"
+msgstr ""
+
+#: gal/widgets/color-palette.c:608 gal/widgets/color-palette.c:638
+msgid "cyan"
+msgstr ""
+
+#: gal/widgets/color-palette.c:609
+msgid "bright blue"
+msgstr ""
+
+#: gal/widgets/color-palette.c:610 gal/widgets/color-palette.c:627
+msgid "red purple"
+msgstr ""
+
+#: gal/widgets/color-palette.c:611
+msgid "light grey"
+msgstr ""
+
+#: gal/widgets/color-palette.c:614 gal/widgets/color-palette.c:631
+msgid "pink"
+msgstr ""
+
+#: gal/widgets/color-palette.c:615
+msgid "light orange"
+msgstr ""
+
+#: gal/widgets/color-palette.c:616 gal/widgets/color-palette.c:628
+msgid "light yellow"
+msgstr ""
+
+#: gal/widgets/color-palette.c:617
+msgid "light green"
+msgstr ""
+
+#: gal/widgets/color-palette.c:618
+msgid "light cyan"
+msgstr ""
+
+#: gal/widgets/color-palette.c:619 gal/widgets/color-palette.c:629
+msgid "light blue"
+msgstr ""
+
+#: gal/widgets/color-palette.c:620 gal/widgets/color-palette.c:633
+msgid "light purple"
+msgstr ""
+
+#: gal/widgets/color-palette.c:621
+msgid "white"
+msgstr ""
+
+#: gal/widgets/color-palette.c:626
+msgid "purplish blue"
+msgstr ""
+
+#: gal/widgets/color-palette.c:630
+msgid "dark purple"
+msgstr ""
+
+#: gal/widgets/color-palette.c:632
+msgid "sky blue"
+msgstr ""
+
+#: gal/widgets/e-categories.c:388
+msgid "Add to global category list"
+msgstr ""
+
+#: gal/widgets/e-categories.c:390
+msgid "Add all to global category list"
+msgstr ""
+
+#: gal/widgets/e-categories.c:392
+msgid "Remove from global category list"
+msgstr ""
+
+#: gal/widgets/e-categories.c:394
+msgid "Remove all from global category list"
+msgstr ""
+
+#: gal/widgets/gal-categories.glade.h:1
+msgid "Edit Master Category List..."
+msgstr ""
+
+#: gal/widgets/gal-categories.glade.h:2
+msgid "Item(s) belong to these _categories:"
+msgstr ""
+
+#: gal/widgets/gal-categories.glade.h:3
+msgid "_Available Categories:"
+msgstr ""
+
+#: gal/widgets/gal-categories.glade.h:4
+msgid "categories"
+msgstr ""
+
+#: gal/widgets/e-categories-master-list-array.c:52
+msgid "Birthday"
+msgstr ""
+
+#: gal/widgets/e-categories-master-list-array.c:53
+msgid "Business"
+msgstr ""
+
+#: gal/widgets/e-categories-master-list-array.c:54
+msgid "Competition"
+msgstr ""
+
+#: gal/widgets/e-categories-master-list-array.c:55
+msgid "Favorites"
+msgstr ""
+
+#: gal/widgets/e-categories-master-list-array.c:56
+msgid "Gifts"
+msgstr ""
+
+#: gal/widgets/e-categories-master-list-array.c:57
+msgid "Goals/Objectives"
+msgstr ""
+
+#: gal/widgets/e-categories-master-list-array.c:58
+msgid "Holiday"
+msgstr ""
+
+#: gal/widgets/e-categories-master-list-array.c:59
+msgid "Holiday Cards"
+msgstr ""
+
+#: gal/widgets/e-categories-master-list-array.c:60
+msgid "Hot Contacts"
+msgstr ""
+
+#: gal/widgets/e-categories-master-list-array.c:61
+msgid "Ideas"
+msgstr ""
+
+#: gal/widgets/e-categories-master-list-array.c:62
+msgid "International"
+msgstr ""
+
+#: gal/widgets/e-categories-master-list-array.c:63
+msgid "Key Customer"
+msgstr ""
+
+#: gal/widgets/e-categories-master-list-array.c:64
+msgid "Miscellaneous"
+msgstr ""
+
+#: gal/widgets/e-categories-master-list-array.c:65
+msgid "Personal"
+msgstr ""
+
+#: gal/widgets/e-categories-master-list-array.c:66
+msgid "Phone Calls"
+msgstr ""
+
+#: gal/widgets/e-categories-master-list-array.c:67
+msgid "Status"
+msgstr ""
+
+#: gal/widgets/e-categories-master-list-array.c:68
+msgid "Strategies"
+msgstr ""
+
+#: gal/widgets/e-categories-master-list-array.c:69
+msgid "Suppliers"
+msgstr ""
+
+#: gal/widgets/e-categories-master-list-array.c:70
+msgid "Time & Expenses"
+msgstr ""
+
+#: gal/widgets/e-categories-master-list-array.c:71
+msgid "VIP"
+msgstr ""
+
+#: gal/widgets/e-categories-master-list-array.c:72
+msgid "Waiting"
+msgstr ""
+
+#: gal/widgets/e-categories-master-list-dialog.c:158
+msgid "* Click here to add a category *"
+msgstr ""
+
+#: gal/widgets/e-categories-master-list-dialog.c:159
+msgid "Category"
+msgstr ""
+
+#: gal/widgets/e-categories-master-list-dialog.glade.h:1
+msgid "Add a category"
+msgstr ""
+
+#: gal/widgets/e-categories-master-list-dialog.glade.h:2
+msgid "Add..."
+msgstr ""
+
+#: gal/widgets/e-categories-master-list-dialog.glade.h:3
+msgid "Edit Global Category List"
+msgstr ""
+
+#: gal/widgets/e-categories-master-list-dialog.glade.h:4
+msgid "Modify a Category"
+msgstr ""
+
+#: gal/widgets/e-categories-master-list-dialog.glade.h:5
+msgid "Modify..."
+msgstr ""
+
+#: gal/widgets/e-categories-master-list-dialog.glade.h:6
+msgid "Remove"
+msgstr ""
+
+#: gal/widgets/e-categories-master-list-dialog.glade.h:7
+msgid "_Category to Add:"
+msgstr ""
+
+#: gal/widgets/e-categories-master-list-dialog.glade.h:8
+msgid "_Category to Modify:"
+msgstr ""

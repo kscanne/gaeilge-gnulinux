@@ -1,0 +1,106 @@
+# Irish Language translations for bonobo
+# Copyright (C) 2000 Free Software Foundation, Inc.
+# Alastair McKinstry, <mckinstry@computer.org>, 2000.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: bonobo cvs \n"
+"POT-Creation-Date: 2000-03-10 23:01+0000\n"
+"PO-Revision-Date: 2000-08-03 21:00:00-0000\n"
+"Last-Translator: Alastair McKinstry, <mckinstry@computer.org>\n"
+"Language-Team: Irish <ga@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ISO-8859-1\n"
+"Content-Transfer-Encoding: 8-bit\n"
+
+#: bonobo/test-container.c:65 bonobo/test-container.c:88
+msgid "Can not activate object_server\n"
+msgstr "Teip ag gníomháil freastalaí oibiacht\n"
+
+#: bonobo/test-container.c:70 bonobo/test-container.c:93
+msgid "Can not bind object server to client_site\n"
+msgstr ""
+
+#: bonobo/test-container.c:268 bonobo/test-container.c:309
+msgid "Could not launch bonobo object."
+msgstr ""
+
+#: bonobo/test-container.c:496 bonobo/test-container.c:526
+msgid "Could not launch Embeddable."
+msgstr ""
+
+#: bonobo/test-container.c:668
+msgid "_Add a new text/plain component"
+msgstr "_Suim compháirt nua teacs/gnáth"
+
+#: bonobo/test-container.c:671
+msgid "_Send progressive data to an existing text/plain component"
+msgstr ""
+
+#: bonobo/test-container.c:674
+msgid "Add a new _view to an existing text/plain component"
+msgstr "Suim an _radharc nua san compháirt teacs/gnáth"
+
+#: bonobo/test-container.c:681
+msgid "_Add a new simple paint component"
+msgstr "_Suim an compháirt nua paint"
+
+#: bonobo/test-container.c:684
+msgid "Add a new _view to an existing paint component"
+msgstr ""
+
+#: bonobo/test-container.c:691
+msgid "_Add a new application/x-png component"
+msgstr ""
+
+#: bonobo/test-container.c:694
+msgid "Add a new _view to an existing application/x-png component"
+msgstr ""
+
+#: bonobo/test-container.c:701
+msgid "_Add a new application/x-pdf component"
+msgstr ""
+
+#: bonobo/test-container.c:708
+msgid "Add a new Gnumeric instance through monikers"
+msgstr ""
+
+#: bonobo/test-container.c:714
+msgid "Add a new _object"
+msgstr ""
+
+#: bonobo/test-container.c:722
+msgid "Add a new Sample-Canvas item on an AA canvas"
+msgstr ""
+
+#: bonobo/test-container.c:725
+msgid "Add a new Sample-Canvas item on a regular canvas"
+msgstr ""
+
+#: bonobo/test-container.c:732
+msgid "_text/plain"
+msgstr "_text/plain"
+
+#: bonobo/test-container.c:733
+msgid "_image/x-png"
+msgstr "_image/x-png"
+
+#: bonobo/test-container.c:734
+msgid "_app/x-pdf"
+msgstr "_app/x-pdf"
+
+#: bonobo/test-container.c:735
+msgid "paint sample"
+msgstr "sampla paint"
+
+#: bonobo/test-container.c:736
+msgid "Gnumeric"
+msgstr "Gnumeric"
+
+#: bonobo/test-container.c:737
+msgid "Canvas-based"
+msgstr ""
+
+#: bonobo/test-container.c:795
+msgid "Can not bonobo_init\n"
+msgstr "Teip ar bonobo_init\n"

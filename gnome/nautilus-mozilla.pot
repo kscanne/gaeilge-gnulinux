@@ -1,0 +1,421 @@
+# Irish language translations for Nautilus.
+# Copyright (C) 2000 Free Software Foundation, Inc.
+# Alastair McKinstry <mckinstry@computer.org>, 2000 
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: nautilus-mozilla 1.0.4.1\n"
+"POT-Creation-Date: 2002-05-10 21:16+0200\n"
+"PO-Revision-Date: 2000-08-24 19:35+0100\n"
+"Last-Translator: Alastair McKinstry <mckinstry@computer.org>\n"
+"Language-Team: Irish <ga@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ISO-8859-1\n"
+"Content-Transfer-Encoding: 8-bit\n"
+
+#: src/Nautilus_View_mozilla.server.in.h:1
+msgid "Mozilla Nautilus view"
+msgstr ""
+
+#: src/Nautilus_View_mozilla.server.in.h:2
+msgid "Mozilla Nautilus view factory"
+msgstr ""
+
+#: src/Nautilus_View_mozilla.server.in.h:3
+msgid "Mozilla content view component"
+msgstr ""
+
+#: src/Nautilus_View_mozilla.server.in.h:4
+msgid "Mozilla content view component's factory"
+msgstr ""
+
+#: src/Nautilus_View_mozilla.server.in.h:5
+msgid "View as Web Page"
+msgstr ""
+
+#: src/Nautilus_View_mozilla.server.in.h:6
+msgid "Web Page"
+msgstr "Leathanach Greasan"
+
+#: src/Nautilus_View_mozilla.server.in.h:7
+msgid "Web Page Viewer"
+msgstr ""
+
+#: src/mozilla-preferences.cpp:125
+#, c-format
+msgid ""
+"GConf error:\n"
+"  %s"
+msgstr ""
+"Earraidh GConf:\n"
+" %s"
+
+#: src/mozilla-preferences.cpp:132
+#, c-format
+msgid ""
+"GConf error:\n"
+"  %s\n"
+"All further errors shown only on terminal"
+msgstr ""
+
+#: src/nautilus-mozilla-content-view.c:356
+msgid "name of icon for the mozilla view"
+msgstr ""
+
+#: src/nautilus-mozilla-content-view.c:358
+msgid "mozilla summary info"
+msgstr ""
+
+#: src/nautilus-mozilla-content-view.c:854
+msgid ""
+"A JavaScript function (small software program) on this page tried to open a "
+"new window, but Nautilus does not support the opening new windows by "
+"JavaScript.\n"
+"\n"
+"Try viewing the page in a different web browser, such as Mozilla."
+msgstr ""
+
+#: src/nautilus-mozilla-content-view.c:858
+msgid "Nautilus JavaScript Warning"
+msgstr ""
+
+#: src/nautilus-mozilla-encoding-tables.c:37
+msgid "Arabic"
+msgstr ""
+
+#: src/nautilus-mozilla-encoding-tables.c:38
+msgid "Baltic"
+msgstr ""
+
+#: src/nautilus-mozilla-encoding-tables.c:39
+msgid "Central European"
+msgstr ""
+
+#: src/nautilus-mozilla-encoding-tables.c:40
+msgid "Chinese"
+msgstr ""
+
+#: src/nautilus-mozilla-encoding-tables.c:41
+msgid "Cyrillic"
+msgstr ""
+
+#: src/nautilus-mozilla-encoding-tables.c:42
+msgid "Greek"
+msgstr ""
+
+#: src/nautilus-mozilla-encoding-tables.c:43
+msgid "Hebrew"
+msgstr ""
+
+#: src/nautilus-mozilla-encoding-tables.c:44
+msgid "Japanese"
+msgstr ""
+
+#: src/nautilus-mozilla-encoding-tables.c:45
+msgid "Turkish"
+msgstr ""
+
+#: src/nautilus-mozilla-encoding-tables.c:46
+msgid "Unicode"
+msgstr "Unicód"
+
+#: src/nautilus-mozilla-encoding-tables.c:47
+msgid "UTF"
+msgstr "UTF"
+
+#: src/nautilus-mozilla-encoding-tables.c:48
+msgid "Vietnamese"
+msgstr ""
+
+#: src/nautilus-mozilla-encoding-tables.c:49
+msgid "Western"
+msgstr ""
+
+#: src/nautilus-mozilla-encoding-tables.c:54
+msgid "Arabic (IBM-864)"
+msgstr ""
+
+#: src/nautilus-mozilla-encoding-tables.c:55
+msgid "Arabic (ISO-8859-6)"
+msgstr ""
+
+#: src/nautilus-mozilla-encoding-tables.c:56
+msgid "Arabic (ISO-8859-6-E)"
+msgstr ""
+
+#: src/nautilus-mozilla-encoding-tables.c:57
+msgid "Arabic (ISO-8859-6-I)"
+msgstr ""
+
+#: src/nautilus-mozilla-encoding-tables.c:58
+msgid "Arabic (Windows-1256)"
+msgstr ""
+
+#: src/nautilus-mozilla-encoding-tables.c:59
+msgid "Armenian (ARMSCII-8)"
+msgstr ""
+
+#: src/nautilus-mozilla-encoding-tables.c:60
+msgid "Baltic (ISO-8859-13)"
+msgstr ""
+
+#: src/nautilus-mozilla-encoding-tables.c:61
+msgid "Baltic (ISO-8859-4)"
+msgstr ""
+
+#: src/nautilus-mozilla-encoding-tables.c:62
+msgid "Baltic (Windows-1257)"
+msgstr ""
+
+#: src/nautilus-mozilla-encoding-tables.c:63
+msgid "Celtic (ISO-8859-14)"
+msgstr ""
+
+#: src/nautilus-mozilla-encoding-tables.c:64
+msgid "Central European (IBM-852)"
+msgstr ""
+
+#: src/nautilus-mozilla-encoding-tables.c:65
+msgid "Central European (ISO-8859-2)"
+msgstr ""
+
+#: src/nautilus-mozilla-encoding-tables.c:66
+msgid "Central European (MacCE)"
+msgstr ""
+
+#: src/nautilus-mozilla-encoding-tables.c:67
+msgid "Central European (Windows-1250)"
+msgstr ""
+
+#: src/nautilus-mozilla-encoding-tables.c:68
+msgid "Chinese Simplified (GB2312)"
+msgstr ""
+
+#: src/nautilus-mozilla-encoding-tables.c:69
+msgid "Chinese Simplified (GBK)"
+msgstr ""
+
+#: src/nautilus-mozilla-encoding-tables.c:70
+msgid "Chinese Simplified (HZ)"
+msgstr ""
+
+#: src/nautilus-mozilla-encoding-tables.c:71
+msgid "Chinese Traditional (Big5)"
+msgstr ""
+
+#: src/nautilus-mozilla-encoding-tables.c:72
+msgid "Chinese Traditional (EUC-TW)"
+msgstr ""
+
+#: src/nautilus-mozilla-encoding-tables.c:73
+msgid "Croatian (MacCroatian)"
+msgstr ""
+
+#: src/nautilus-mozilla-encoding-tables.c:74
+msgid "Cyrillic (IBM-855)"
+msgstr ""
+
+#: src/nautilus-mozilla-encoding-tables.c:75
+msgid "Cyrillic (ISO-8859-5)"
+msgstr ""
+
+#: src/nautilus-mozilla-encoding-tables.c:76
+msgid "Cyrillic (ISO-IR-111)"
+msgstr ""
+
+#: src/nautilus-mozilla-encoding-tables.c:77
+msgid "Cyrillic (MacCyrillic)"
+msgstr ""
+
+#: src/nautilus-mozilla-encoding-tables.c:78
+msgid "Cyrillic (Windows-1251)"
+msgstr ""
+
+#: src/nautilus-mozilla-encoding-tables.c:79
+msgid "Cyrillic/Russian (IBM-866)"
+msgstr ""
+
+#: src/nautilus-mozilla-encoding-tables.c:80
+msgid "Cyrillic/Russian (KOI8-R)"
+msgstr ""
+
+#: src/nautilus-mozilla-encoding-tables.c:81
+msgid "Cyrillic/Ukrainian (KOI8-U)"
+msgstr ""
+
+#: src/nautilus-mozilla-encoding-tables.c:82
+msgid "Cyrillic/Ukrainian (MacUkrainian)"
+msgstr ""
+
+#: src/nautilus-mozilla-encoding-tables.c:83
+msgid "English (US-ASCII)"
+msgstr ""
+
+#: src/nautilus-mozilla-encoding-tables.c:84
+msgid "Greek (ISO-8859-7)"
+msgstr ""
+
+#: src/nautilus-mozilla-encoding-tables.c:85
+msgid "Greek (MacGreek)"
+msgstr ""
+
+#: src/nautilus-mozilla-encoding-tables.c:86
+msgid "Greek (Windows-1253)"
+msgstr ""
+
+#: src/nautilus-mozilla-encoding-tables.c:87
+msgid "Hebrew (IBM-862)"
+msgstr ""
+
+#: src/nautilus-mozilla-encoding-tables.c:88
+msgid "Hebrew (ISO-8859-8-E)"
+msgstr ""
+
+#: src/nautilus-mozilla-encoding-tables.c:89
+msgid "Hebrew (ISO-8859-8-I)"
+msgstr ""
+
+#: src/nautilus-mozilla-encoding-tables.c:90
+msgid "Hebrew (Windows-1255)"
+msgstr ""
+
+#: src/nautilus-mozilla-encoding-tables.c:91
+msgid "Icelandic (MacIcelandic)"
+msgstr ""
+
+#: src/nautilus-mozilla-encoding-tables.c:92
+msgid "Japanese (EUC-JP)"
+msgstr ""
+
+#: src/nautilus-mozilla-encoding-tables.c:93
+msgid "Japanese (ISO-2022-JP)"
+msgstr ""
+
+#: src/nautilus-mozilla-encoding-tables.c:94
+msgid "Japanese (Shift_JIS)"
+msgstr ""
+
+#: src/nautilus-mozilla-encoding-tables.c:95
+msgid "Korean (EUC-KR)"
+msgstr ""
+
+#: src/nautilus-mozilla-encoding-tables.c:96
+msgid "Nordic (ISO-8859-10)"
+msgstr ""
+
+#: src/nautilus-mozilla-encoding-tables.c:97
+msgid "Romanian (MacRomanian)"
+msgstr ""
+
+#: src/nautilus-mozilla-encoding-tables.c:98
+msgid "South European (ISO-8859-3)"
+msgstr ""
+
+#: src/nautilus-mozilla-encoding-tables.c:99
+msgid "T.61-8bit"
+msgstr ""
+
+#: src/nautilus-mozilla-encoding-tables.c:100
+msgid "Thai (TIS-620)"
+msgstr ""
+
+#: src/nautilus-mozilla-encoding-tables.c:101
+msgid "Turkish (IBM-857)"
+msgstr ""
+
+#: src/nautilus-mozilla-encoding-tables.c:102
+msgid "Turkish (ISO-8859-9)"
+msgstr ""
+
+#: src/nautilus-mozilla-encoding-tables.c:103
+msgid "Turkish (MacTurkish)"
+msgstr ""
+
+#: src/nautilus-mozilla-encoding-tables.c:104
+msgid "Turkish (Windows-1254)"
+msgstr ""
+
+#: src/nautilus-mozilla-encoding-tables.c:105
+msgid "Unicode (UTF-7)"
+msgstr ""
+
+#: src/nautilus-mozilla-encoding-tables.c:106
+msgid "Unicode (UTF-8)"
+msgstr ""
+
+#: src/nautilus-mozilla-encoding-tables.c:107
+msgid "User Defined"
+msgstr ""
+
+#: src/nautilus-mozilla-encoding-tables.c:108
+msgid "UTF-16BE"
+msgstr ""
+
+#: src/nautilus-mozilla-encoding-tables.c:109
+msgid "UTF-16LE"
+msgstr ""
+
+#: src/nautilus-mozilla-encoding-tables.c:110
+msgid "UTF-32BE"
+msgstr ""
+
+#: src/nautilus-mozilla-encoding-tables.c:111
+msgid "UTF-32LE"
+msgstr ""
+
+#: src/nautilus-mozilla-encoding-tables.c:112
+msgid "Vietnamese (TCVN)"
+msgstr ""
+
+#: src/nautilus-mozilla-encoding-tables.c:113
+msgid "Vietnamese (VISCII)"
+msgstr ""
+
+#: src/nautilus-mozilla-encoding-tables.c:114
+msgid "Vietnamese (VPS)"
+msgstr ""
+
+#: src/nautilus-mozilla-encoding-tables.c:115
+msgid "Vietnamese (Windows-1258)"
+msgstr ""
+
+#: src/nautilus-mozilla-encoding-tables.c:116
+msgid "Visual Hebrew (ISO-8859-8)"
+msgstr ""
+
+#: src/nautilus-mozilla-encoding-tables.c:117
+msgid "Western (IBM-850)"
+msgstr ""
+
+#: src/nautilus-mozilla-encoding-tables.c:118
+msgid "Western (ISO-8859-1)"
+msgstr ""
+
+#: src/nautilus-mozilla-encoding-tables.c:119
+msgid "Western (ISO-8859-15)"
+msgstr ""
+
+#: src/nautilus-mozilla-encoding-tables.c:120
+msgid "Western (MacRoman)"
+msgstr ""
+
+#: src/nautilus-mozilla-encoding-tables.c:121
+msgid "Western (Windows-1252)"
+msgstr ""
+
+#: src/nautilus-mozilla-encoding-tables.c:122
+msgid "windows-936"
+msgstr ""
+
+#: src/nautilus-mozilla-encoding-tables.c:123
+msgid "x-imap4-modified-utf7"
+msgstr ""
+
+#: src/nautilus-mozilla-encoding-tables.c:124
+msgid "x-u-escaped"
+msgstr ""
+
+#: src/nautilus-mozilla-ui.xml.h:1
+msgid "Charset Encoding"
+msgstr ""
+

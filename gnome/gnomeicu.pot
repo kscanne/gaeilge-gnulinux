@@ -1,0 +1,2850 @@
+# Irish language translation of gnomeicu 
+# Copyright (C) 2000 Free Software Foundation, Inc.
+# Alastair McKinstry <mckinstry@computer.org>, 2000.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnomeicu 0.96.2\n"
+"POT-Creation-Date: 2001-09-20 20:09-0400\n"
+"PO-Revision-Date: 2000-08-24 20:00-0000\n"
+"Last-Translator: Alastair McKinstry <mckinstry@computer.org>\n"
+"Language-Team: Irish <ga@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ISO-8859-1\n"
+"Content-Transfer-Encoding: 8-bit\n"
+
+#: src/applet.c:120
+#, c-format
+msgid "Next message from %s"
+msgstr ""
+
+#: src/applet.c:215
+#, c-format
+msgid "%u: 0 Users Online"
+msgstr ""
+
+#: src/applet.c:217 src/applet.c:225
+#, c-format
+msgid ""
+"%u: 1 User Online\n"
+"%s"
+msgstr ""
+
+#: src/applet.c:219 src/applet.c:227
+#, c-format
+msgid ""
+"%u: %u Users Online\n"
+"%s"
+msgstr ""
+
+#: src/applet.c:223
+#, c-format
+msgid ""
+"%u: 0 Users Online\n"
+"%s"
+msgstr ""
+
+#: src/applet.c:389
+msgid "Change Status"
+msgstr ""
+
+#: src/applet.c:392 src/gtkconf.c:475 src/gtkfunc.c:1221 src/menus.h:23
+#: src/util.c:335
+msgid "Online"
+msgstr ""
+
+#: src/applet.c:397 src/gtkconf.c:451 src/gtkfunc.c:1237 src/menus.h:30
+#: src/util.c:337
+msgid "Away"
+msgstr ""
+
+#: src/applet.c:402 src/gtkconf.c:467 src/gtkfunc.c:1245 src/menus.h:37
+#: src/util.c:339
+msgid "Not Available"
+msgstr ""
+
+#: src/applet.c:407 src/gtkconf.c:459 src/util.c:341
+msgid "Free For Chat"
+msgstr ""
+
+#: src/applet.c:412 src/gtkconf.c:561 src/gtkfunc.c:1261 src/menus.h:51
+#: src/util.c:343
+msgid "Occupied"
+msgstr ""
+
+#: src/applet.c:417 src/gtkfunc.c:1269 src/menus.h:58 src/util.c:345
+msgid "Do Not Disturb"
+msgstr ""
+
+#: src/applet.c:422 src/gtkconf.c:577 src/gtkfunc.c:1277 src/menus.h:65
+#: src/util.c:347
+msgid "Invisible"
+msgstr ""
+
+#: src/applet.c:427 src/gtkconf.c:585 src/gtkfunc.c:1229 src/menus.h:75
+#: src/util.c:331
+msgid "Offline"
+msgstr ""
+
+#: src/applet.c:434
+msgid "Preferences..."
+msgstr ""
+
+#: src/applet.c:440 src/menus.h:185
+msgid "About..."
+msgstr "Faoi..."
+
+#: src/applet.c:446
+msgid "Hide/Show Main Window"
+msgstr ""
+
+#: src/applet.c:535
+msgid ""
+"GnomeICU is a small, fast and functional clone of Mirabilis' ICQ program, "
+"specifically designed for Linux and X."
+msgstr ""
+
+#: src/changeaway.c:43
+msgid "GnomeICU: Away Message"
+msgstr ""
+
+#: src/changeaway.c:51
+msgid "Set Away Message:"
+msgstr ""
+
+#. Following is to add a popup list of popular away messages
+#: src/changeaway.c:67 src/gtkconf.c:1167
+#, fuzzy
+msgid "Away Messages"
+msgstr "  Scéal..."
+
+#: src/changeinfo.c:39 src/gtkfunc.c:2390
+msgid "GnomeICU: User Information"
+msgstr ""
+
+#: src/changeinfo.c:55 src/changeinfo.c:149
+msgid "Not specified"
+msgstr ""
+
+#: src/changeinfo.c:56 src/changeinfo.c:146 src/changeinfo.c:515
+#: src/gtkfunc.c:2919
+msgid "Female"
+msgstr "Bean"
+
+#: src/changeinfo.c:57 src/changeinfo.c:143 src/changeinfo.c:513
+#: src/gtkfunc.c:2917
+msgid "Male"
+msgstr "Fír"
+
+#: src/changeinfo.c:64 src/gtkfunc.c:2407
+msgid "General"
+msgstr "Gnáth"
+
+#: src/changeinfo.c:66 src/gtkconf.c:1422 src/gtkfunc.c:2409
+msgid "UIN:"
+msgstr "UIN:"
+
+#: src/changeinfo.c:71 src/gtkfunc.c:2414
+msgid "Nick:"
+msgstr ""
+
+#: src/changeinfo.c:76 src/gtkfunc.c:2419
+msgid "F. Name:"
+msgstr ""
+
+#: src/changeinfo.c:81 src/gtkfunc.c:2424
+msgid "L. Name:"
+msgstr ""
+
+#: src/changeinfo.c:86 src/gtkfunc.c:2429
+msgid "Sex:"
+msgstr ""
+
+#: src/changeinfo.c:91 src/gtkfunc.c:2434
+msgid "Age:"
+msgstr "Aois:"
+
+#: src/changeinfo.c:96
+msgid "Birthday:"
+msgstr "Breithlá:"
+
+#: src/changeinfo.c:170
+msgid "Require Auth"
+msgstr ""
+
+#: src/changeinfo.c:197 src/gtkfunc.c:2519
+msgid "Internet"
+msgstr "Idirlíon"
+
+#: src/changeinfo.c:199 src/gtkfunc.c:2521
+msgid "IP:"
+msgstr "IP:"
+
+#: src/changeinfo.c:204 src/gtkfunc.c:2526
+msgid "Port:"
+msgstr ""
+
+#: src/changeinfo.c:209 src/gtkfunc.c:352 src/gtkfunc.c:2540
+msgid "Email:"
+msgstr "Rphost:"
+
+#: src/changeinfo.c:214 src/gtkfunc.c:2545
+msgid "Other Email:"
+msgstr "Rpost Eile:"
+
+#: src/changeinfo.c:219 src/gtkfunc.c:2550
+msgid "Old Email:"
+msgstr "Sean Rphost:"
+
+#: src/changeinfo.c:265
+msgid "Hide Email"
+msgstr ""
+
+#: src/changeinfo.c:278 src/gtkfunc.c:2730
+msgid "Location"
+msgstr "Áit"
+
+#: src/changeinfo.c:280 src/gtkfunc.c:2646 src/gtkfunc.c:2761
+msgid "Phone:"
+msgstr "Guthán:"
+
+#: src/changeinfo.c:285 src/gtkfunc.c:2651 src/gtkfunc.c:2766
+msgid "Fax:"
+msgstr "Facs:"
+
+#: src/changeinfo.c:290 src/gtkfunc.c:2771
+msgid "Cellular:"
+msgstr "Guthán poicéad:"
+
+#: src/changeinfo.c:295
+msgid "Street:"
+msgstr "Stráid:"
+
+#: src/changeinfo.c:300 src/gtkfunc.c:2632 src/gtkfunc.c:2737
+msgid "City:"
+msgstr "Cathair:"
+
+#: src/changeinfo.c:305 src/gtkfunc.c:2637 src/gtkfunc.c:2742
+msgid "State:"
+msgstr "Stáit:"
+
+#: src/changeinfo.c:310 src/gtkfunc.c:2747
+msgid "Zip:"
+msgstr "Zip:"
+
+#: src/changeinfo.c:315 src/gtkfunc.c:2752
+msgid "Country:"
+msgstr "Tír:"
+
+#: src/changeinfo.c:320
+msgid "Time Zone:"
+msgstr "Am-Críos:"
+
+#: src/changeinfo.c:426 src/gtkfunc.c:2838
+msgid "About"
+msgstr "Faoi"
+
+#: src/changeinfo.c:428 src/gtkfunc.c:2840
+msgid "Home Page:"
+msgstr "Leathanach Baile:"
+
+#: src/changeinfo.c:433 src/gtkfunc.c:2845
+msgid "About:"
+msgstr "Faoi:"
+
+#: src/changeinfo.c:447 src/gtkfunc.c:2857
+msgid "View"
+msgstr "Radharc"
+
+#: src/changenick.c:40
+msgid "GnomeICU: Rename User"
+msgstr ""
+
+#: src/changenick.c:49
+#, c-format
+msgid "Please enter a new alias for %s:"
+msgstr ""
+
+#: src/chat.c:603
+msgid "Chat Session terminated"
+msgstr ""
+
+#: src/chat.c:635
+msgid "GnomeICU: Save Chat Session"
+msgstr ""
+
+#: src/chat.c:819
+msgid "Connected for a session."
+msgstr ""
+
+#: src/chat.c:1005 src/chat.c:1174 src/chat.c:1297 src/chat.c:1412
+#, c-format
+msgid "%s has left the chat session."
+msgstr ""
+
+#: src/chatdlg.c:69 src/gtkfunc.c:3418
+#, fuzzy, c-format
+msgid "GnomeICU: %s"
+msgstr "GnomeICU: %s, %s"
+
+#: src/chatdlg.c:69 src/chatdlg.c:215 src/log.c:46
+msgid "User"
+msgstr "Úsáideoir"
+
+#: src/chatdlg.c:99
+msgid "Save"
+msgstr "Sábháil"
+
+#: src/chatdlg.c:105
+msgid "Save Chat"
+msgstr ""
+
+#: src/chatdlg.c:111
+msgid "Foreground"
+msgstr "Dulra"
+
+#: src/chatdlg.c:117 src/chatdlg.c:573
+msgid "Set Foreground Color"
+msgstr "Tóg Dath Dulra"
+
+#: src/chatdlg.c:123
+msgid "Background"
+msgstr "Cúlra"
+
+#: src/chatdlg.c:129 src/chatdlg.c:633
+msgid "Set Background Color"
+msgstr "Tóg Dath Cúlra"
+
+#: src/chatdlg.c:135
+msgid "Sound"
+msgstr "Fuaim"
+
+#: src/chatdlg.c:141
+msgid "Enable/Disable Sound"
+msgstr ""
+
+#: src/chatdlg.c:147
+msgid "Send Focus"
+msgstr ""
+
+#: src/chatdlg.c:157
+msgid "Send \"User is Away\" Messages"
+msgstr ""
+
+#.
+#. * This is ugly.
+#. * Change the Cancel buttons caption to Close.
+#.
+#: src/chatdlg.c:163 src/dirbrowser.c:462 src/gtkfunc.c:2890
+msgid "Close"
+msgstr "Dún"
+
+#: src/chatdlg.c:169
+msgid "Close Chat"
+msgstr "Dún `Chat'"
+
+#: src/chatdlg.c:181
+msgid "Split"
+msgstr ""
+
+#: src/chatdlg.c:188
+msgid "IRC"
+msgstr ""
+
+#: src/chatdlg.c:258 src/chatdlg.c:311 src/chatdlg.c:496 src/chatdlg.c:555
+msgid "-adobe-courier-medium-r-normal-*-*-140-*-*-m-*-iso8859-1"
+msgstr "-adobe-courier-medium-r-normal-*-*-140-*-*-m-*-iso8859-1"
+
+#: src/dialog.c:40
+msgid "GnomeICU: Message"
+msgstr "GnomeICU: Scéal"
+
+#: src/dialog.c:67
+msgid "Show Again"
+msgstr "Taispeán Arís"
+
+#: src/dirbrowser.c:283
+msgid "Ok"
+msgstr "Ceart go Leor"
+
+#: src/dirbrowser.c:291 src/filexfer.c:240 src/newsignup.c:151
+msgid "Cancel"
+msgstr "Cealaigh"
+
+#: src/dirbrowser.c:430
+msgid "Send file(s)"
+msgstr ""
+
+#: src/dirbrowser.c:448
+msgid "Add selected files"
+msgstr ""
+
+#: src/dirbrowser.c:452
+msgid "Add all files in directory"
+msgstr ""
+
+#: src/events.c:151
+#, fuzzy
+msgid "UNK"
+msgstr "UIN"
+
+#: src/events.c:153
+msgid "OFF"
+msgstr ""
+
+#: src/events.c:157
+msgid "ON"
+msgstr ""
+
+#: src/events.c:160
+msgid "DND"
+msgstr ""
+
+#: src/events.c:163
+msgid "AWAY"
+msgstr ""
+
+#: src/events.c:166
+msgid "OCC"
+msgstr ""
+
+#: src/events.c:169
+msgid "NA"
+msgstr ""
+
+#: src/events.c:172
+#, fuzzy
+msgid "INV"
+msgstr "UIN"
+
+#: src/events.c:175
+msgid "FFC"
+msgstr ""
+
+#: src/events.c:195 src/gtkfunc.c:2373 src/gtkfunc.c:2374
+msgid "N/A"
+msgstr ""
+
+#: src/filexfer.c:28 src/tcp.c:2193
+msgid "GnomeICU: File Transfer"
+msgstr ""
+
+#: src/filexfer.c:36
+msgid "Current File:"
+msgstr ""
+
+#: src/filexfer.c:60
+msgid "Local File Name:"
+msgstr "Ainm Chomad Aitiúl:"
+
+#: src/filexfer.c:74
+msgid "Current File"
+msgstr ""
+
+#: src/filexfer.c:85 src/filexfer.c:168 src/gtkfunc.c:872
+msgid "Size:"
+msgstr "Meid:"
+
+#: src/filexfer.c:103 src/filexfer.c:186
+msgid "Completed:"
+msgstr ""
+
+#: src/filexfer.c:118 src/filexfer.c:201
+#, fuzzy
+msgid "Time Left:"
+msgstr "Am-Críos:"
+
+#: src/filexfer.c:133 src/filexfer.c:216
+#, fuzzy
+msgid "Speed:"
+msgstr "Stráid:"
+
+#: src/filexfer.c:157
+msgid "Batch"
+msgstr ""
+
+#: src/flash.c:155
+msgid ": Msgs"
+msgstr ": Scéalaí"
+
+#: src/gnomeicu.c:167 src/gnomeicu.c:709
+#, c-format
+msgid "Cannot listen to socket, port %u\n"
+msgstr ""
+
+#: src/gnomeicu.c:302
+msgid "gnomeicu: broken pipe (saving configuration)"
+msgstr ""
+
+#: src/gnomeicu.c:318
+msgid "Use the defined UIN"
+msgstr ""
+
+#: src/gnomeicu.c:318 src/listwindow.c:54 src/response.c:539 src/search.c:132
+#: src/search.c:278
+msgid "UIN"
+msgstr "UIN"
+
+#: src/gnomeicu.c:319
+msgid "Startup without applet support"
+msgstr ""
+
+#: src/gnomeicu.c:320
+msgid "Set IP address to send to ICQ"
+msgstr ""
+
+#: src/gnomeicu.c:320
+#, fuzzy
+msgid "IP"
+msgstr "IP:"
+
+#: src/gnomeicu.c:361
+msgid "GnomeICU"
+msgstr "GnomeICU"
+
+#. The space at the end is because this version of Online is for
+#. * the notebook tab, and adjectives may be inflected in plural,
+#. * so we need to have gettext separate this one out.
+#: src/gnomeicu.c:503
+msgid "Online "
+msgstr ""
+
+#. The space at the end is because this version of Offline is for
+#. * the notebook tab, and adjectives may be inflected in plural,
+#. * so we need to have gettext separate this one out.
+#: src/gnomeicu.c:565
+msgid "Offline "
+msgstr ""
+
+#: src/gnomeicu.c:608
+msgid "Not In List"
+msgstr ""
+
+#: src/gtkconf.c:236
+msgid "Default"
+msgstr ""
+
+#: src/gtkconf.c:425
+#, fuzzy
+msgid "GnomeICU: Preferences"
+msgstr "GnomeICU: Úsáideoir Nua"
+
+#: src/gtkconf.c:436
+msgid "Colors"
+msgstr "Dathanna"
+
+#: src/gtkconf.c:499
+msgid "GnomeICU: Online Color"
+msgstr ""
+
+#: src/gtkconf.c:517
+msgid "GnomeICU: Away Color"
+msgstr ""
+
+#: src/gtkconf.c:535
+msgid "GnomeICU: Free for Chat Color"
+msgstr ""
+
+#: src/gtkconf.c:553
+msgid "GnomeICU: Not Available Color"
+msgstr ""
+
+#: src/gtkconf.c:569
+msgid "Do not Disturb"
+msgstr ""
+
+#: src/gtkconf.c:609
+msgid "GnomeICU: Occupied Color"
+msgstr ""
+
+#: src/gtkconf.c:627
+msgid "GnomeICU: Do not Disturb Color"
+msgstr ""
+
+#: src/gtkconf.c:645
+msgid "GnomeICU: Invisible Color"
+msgstr ""
+
+#: src/gtkconf.c:663
+msgid "GnomeICU: Offline Color"
+msgstr ""
+
+#: src/gtkconf.c:665
+msgid "Sounds"
+msgstr "Fuaimí"
+
+#: src/gtkconf.c:674
+msgid "Enable sounds"
+msgstr ""
+
+#: src/gtkconf.c:679
+msgid "Enable sounds only when online"
+msgstr ""
+
+#: src/gtkconf.c:687
+msgid "Enable beeps"
+msgstr ""
+
+#: src/gtkconf.c:692 src/gtkconf.c:1325
+msgid "Miscellaneous"
+msgstr ""
+
+#: src/gtkconf.c:701
+msgid "Show Main Window on Startup"
+msgstr ""
+
+#: src/gtkconf.c:706
+msgid "Automatically Show Entire Reply Dialog"
+msgstr ""
+
+#: src/gtkconf.c:711
+msgid "Automatically Popup Message Windows"
+msgstr ""
+
+#: src/gtkconf.c:716
+msgid "Online Notify Includes Returning from Away and N/A"
+msgstr ""
+
+#: src/gtkconf.c:721
+msgid "Hide Tooltips"
+msgstr ""
+
+#: src/gtkconf.c:728
+msgid "_Interface"
+msgstr ""
+
+#: src/gtkconf.c:737
+msgid "Packets"
+msgstr ""
+
+#. Russian reencoding toggle button
+#: src/gtkconf.c:748
+msgid "Cyrillic CP1251<->KOI8-U translation"
+msgstr ""
+
+#. Kanji reencoding toggle button
+#: src/gtkconf.c:755
+msgid "Kanji Locale<->SJIS translation"
+msgstr ""
+
+#: src/gtkconf.c:761
+msgid "Dump UDP Packets"
+msgstr ""
+
+#: src/gtkconf.c:766
+msgid "Dump TCP Packets"
+msgstr ""
+
+#: src/gtkconf.c:771
+msgid "Refuse packets from unknown contacts"
+msgstr ""
+
+#: src/gtkconf.c:776
+msgid "Server"
+msgstr "Freastalaí"
+
+#: src/gtkconf.c:791
+msgid "ICQ Server:"
+msgstr "Freastalaí ICQ:"
+
+#: src/gtkconf.c:799
+msgid "Port Number:"
+msgstr ""
+
+#: src/gtkconf.c:827
+msgid "Connect to server on startup"
+msgstr ""
+
+#: src/gtkconf.c:834
+msgid "TCP Port Range"
+msgstr ""
+
+#: src/gtkconf.c:852
+msgid "Range: From "
+msgstr ""
+
+#: src/gtkconf.c:864
+msgid "   to   "
+msgstr ""
+
+#: src/gtkconf.c:874
+msgid "Force messaging through server"
+msgstr ""
+
+#. File transfer stuff
+#: src/gtkconf.c:881
+msgid "File Transfer"
+msgstr ""
+
+#: src/gtkconf.c:890
+msgid "Automatically accept file transfers"
+msgstr ""
+
+#: src/gtkconf.c:899
+msgid "Save files to: "
+msgstr ""
+
+#: src/gtkconf.c:904
+msgid "Browse..."
+msgstr ""
+
+#: src/gtkconf.c:929
+msgid "_Networking"
+msgstr ""
+
+#: src/gtkconf.c:937
+msgid "Run Program On Event"
+msgstr ""
+
+#: src/gtkconf.c:946
+msgid "Receive Message"
+msgstr ""
+
+#: src/gtkconf.c:967
+msgid "Chat Request"
+msgstr ""
+
+#: src/gtkconf.c:987
+msgid "Receive URL"
+msgstr ""
+
+#: src/gtkconf.c:1007
+msgid "File Request"
+msgstr ""
+
+#: src/gtkconf.c:1028
+msgid "User Online"
+msgstr ""
+
+#: src/gtkconf.c:1049
+msgid "User Offline"
+msgstr ""
+
+#: src/gtkconf.c:1070
+msgid "Authorized By User"
+msgstr ""
+
+#: src/gtkconf.c:1091
+msgid "Authorization Request"
+msgstr ""
+
+#: src/gtkconf.c:1112
+msgid "Added to Users List"
+msgstr ""
+
+#: src/gtkconf.c:1133
+msgid "Contact List"
+msgstr ""
+
+#: src/gtkconf.c:1154
+msgid ""
+"Application will be run with 3 arguments:\n"
+"Your current status, contact's UIN, Contact's nickname"
+msgstr ""
+
+#. End of Away Message Stuff
+#. AutoAway/NA Timeout
+#: src/gtkconf.c:1194
+msgid "Auto Away"
+msgstr ""
+
+#: src/gtkconf.c:1208
+msgid "Auto away time out is "
+msgstr ""
+
+#: src/gtkconf.c:1233 src/gtkconf.c:1284
+msgid "minutes"
+msgstr ""
+
+#: src/gtkconf.c:1258
+msgid "Auto away message: "
+msgstr ""
+
+#: src/gtkconf.c:1269
+msgid "Auto N/A time out is "
+msgstr ""
+
+#: src/gtkconf.c:1312
+msgid "Auto N/A message: "
+msgstr ""
+
+#: src/gtkconf.c:1336
+msgid "Allow others to see me on websites"
+msgstr ""
+
+#: src/gtkconf.c:1341
+msgid "Sort the online contact list"
+msgstr ""
+
+#: src/gtkconf.c:1350
+msgid "Check spelling in messages"
+msgstr ""
+
+#: src/gtkconf.c:1363
+msgid "Automatically hide main window after "
+msgstr ""
+
+#: src/gtkconf.c:1375
+msgid "secs"
+msgstr ""
+
+#: src/gtkconf.c:1379
+msgid "User Information"
+msgstr "Eolas Úsáideoir"
+
+#: src/gtkconf.c:1430
+msgid "Nickname:"
+msgstr ""
+
+#: src/gtkconf.c:1437
+msgid "Password:"
+msgstr "Pasfhocal:"
+
+#: src/gtkconf.c:1446
+msgid "_External Programs"
+msgstr ""
+
+#: src/gtkconf.c:1450
+msgid "Icon Theme"
+msgstr ""
+
+#: src/gtkconf.c:1471
+msgid "Download Themes"
+msgstr ""
+
+#: src/gtkconf.c:1486
+#, fuzzy
+msgid "_Away Messages"
+msgstr "  Scéal..."
+
+#: src/gtkconf.c:1497
+msgid "_Miscellaneous"
+msgstr ""
+
+#: src/gtkconf.c:1972
+#, c-format
+msgid "Away Message %d"
+msgstr ""
+
+#: src/gtkconf.c:2023
+msgid "Select Auto-Accept Directory"
+msgstr ""
+
+#: src/gtkfunc.c:279
+msgid "GnomeICU: Message Received"
+msgstr ""
+
+#: src/gtkfunc.c:303
+msgid "Sender:"
+msgstr ""
+
+#: src/gtkfunc.c:313 src/gtkfunc.c:986
+msgid "Time/Date:"
+msgstr "Am/Data:"
+
+#: src/gtkfunc.c:374
+msgid "Sender IP:"
+msgstr ""
+
+#: src/gtkfunc.c:402
+msgid "Subject:"
+msgstr ""
+
+#: src/gtkfunc.c:450
+#, fuzzy
+msgid "_Reply >>"
+msgstr "Freagair >>"
+
+#: src/gtkfunc.c:470
+msgid "Reply to:"
+msgstr ""
+
+#: src/gtkfunc.c:499 src/gtkfunc.c:2145
+msgid "_Multiple"
+msgstr ""
+
+#: src/gtkfunc.c:511
+msgid "_Quote >>"
+msgstr ""
+
+#. End hbox
+#: src/gtkfunc.c:547 src/gtkfunc.c:2118
+msgid "Force message through server"
+msgstr ""
+
+#: src/gtkfunc.c:563 src/gtkfunc.c:2134
+#, fuzzy
+msgid "_History"
+msgstr "Stair"
+
+#: src/gtkfunc.c:571 src/gtkfunc.c:2160 src/gtkfunc.c:3372 src/gtkfunc.c:3603
+#: src/gtkfunc.c:3729 src/sendcontact.c:18
+msgid "Send"
+msgstr ""
+
+#: src/gtkfunc.c:582
+msgid "Read Next"
+msgstr ""
+
+#: src/gtkfunc.c:663
+#, c-format
+msgid "%s has added you to her list"
+msgstr ""
+
+#: src/gtkfunc.c:665
+#, c-format
+msgid "%s has added you to his list"
+msgstr ""
+
+#. No sex specified
+#: src/gtkfunc.c:667
+#, c-format
+msgid "%s has added you to his/her list"
+msgstr ""
+
+#: src/gtkfunc.c:681
+#, c-format
+msgid "You are authorized to add %s to your list"
+msgstr ""
+
+#: src/gtkfunc.c:696 src/gtkfunc.c:3295
+msgid "GnomeICU: Chat Request"
+msgstr ""
+
+#: src/gtkfunc.c:708
+#, c-format
+msgid "Accept Chat Request from %s?\n"
+msgstr ""
+
+#: src/gtkfunc.c:718
+#, c-format
+msgid "Multi-party session:  %s?\n"
+msgstr ""
+
+#: src/gtkfunc.c:725 src/gtkfunc.c:1004 src/gtkfunc.c:3585
+msgid "Reason:"
+msgstr "Fáth:"
+
+#: src/gtkfunc.c:754
+msgid "No reason given"
+msgstr ""
+
+#: src/gtkfunc.c:765 src/gtkfunc.c:3337
+msgid "Invite to session: "
+msgstr ""
+
+#: src/gtkfunc.c:845
+msgid "File transfer timed out."
+msgstr ""
+
+#: src/gtkfunc.c:849
+msgid "GnomeICU: File Offer"
+msgstr ""
+
+#: src/gtkfunc.c:861
+#, c-format
+msgid "Accept file from %s?\n"
+msgstr ""
+
+#: src/gtkfunc.c:880
+msgid "Name:"
+msgstr "Ainm:"
+
+#: src/gtkfunc.c:894
+msgid ""
+"\n"
+"Reason:"
+msgstr ""
+"\n"
+"Fáth:"
+
+#: src/gtkfunc.c:967
+msgid "GnomeICU: Authorization Request"
+msgstr ""
+
+#: src/gtkfunc.c:968
+msgid "Allow"
+msgstr ""
+
+#: src/gtkfunc.c:968
+msgid "Refuse"
+msgstr ""
+
+#: src/gtkfunc.c:975
+#, c-format
+msgid "Auth Request from %s:\n"
+msgstr ""
+
+#: src/gtkfunc.c:1042
+#, c-format
+msgid "Received URL from %s:"
+msgstr ""
+
+#: src/gtkfunc.c:1064
+msgid "GnomeICU: URL"
+msgstr "GnomeICU: URL"
+
+#: src/gtkfunc.c:1100
+msgid "Go To"
+msgstr ""
+
+#: src/gtkfunc.c:1118 src/gtkfunc.c:3692
+msgid "URL:"
+msgstr "URL:"
+
+#: src/gtkfunc.c:1126 src/gtkfunc.c:3700
+msgid "Description:"
+msgstr "Cuntas:"
+
+#: src/gtkfunc.c:1253 src/menus.h:44
+msgid "Free for Chat"
+msgstr ""
+
+#: src/gtkfunc.c:1395
+#, c-format
+msgid "%s status"
+msgstr ""
+
+#: src/gtkfunc.c:1525
+msgid "When sending trough server, you can't exceed the 450 characters limit."
+msgstr ""
+
+#: src/gtkfunc.c:1674
+msgid "  Message..."
+msgstr "  Scéal..."
+
+#: src/gtkfunc.c:1690
+msgid "  URL..."
+msgstr "  URL..."
+
+#: src/gtkfunc.c:1708
+msgid "  Chat Request..."
+msgstr ""
+
+#: src/gtkfunc.c:1724
+msgid "  File Request..."
+msgstr ""
+
+#: src/gtkfunc.c:1740
+msgid "  Contact List..."
+msgstr ""
+
+#: src/gtkfunc.c:1757
+#, fuzzy
+msgid "  Message Chat..."
+msgstr "  Scéal..."
+
+#: src/gtkfunc.c:1777
+msgid "  User Info..."
+msgstr "  Eolas Úsáideoir..."
+
+#: src/gtkfunc.c:1801 src/gtkfunc.c:1813
+msgid "  Read Away Message"
+msgstr ""
+
+#: src/gtkfunc.c:1804
+msgid "  Read N/A Message"
+msgstr ""
+
+#: src/gtkfunc.c:1807
+msgid "  Read Occupied Message"
+msgstr ""
+
+#: src/gtkfunc.c:1810
+msgid "  Read Do not Disturb Message"
+msgstr ""
+
+#: src/gtkfunc.c:1834
+msgid "  Version..."
+msgstr "   Leagan..."
+
+#: src/gtkfunc.c:1850
+msgid "  History..."
+msgstr "   Stair..."
+
+#. On ignore list...
+#: src/gtkfunc.c:1864
+msgid "Move to ignore list"
+msgstr ""
+
+#. On visible list...
+#: src/gtkfunc.c:1871
+msgid "On Visible List"
+msgstr ""
+
+#. On invisible list...
+#: src/gtkfunc.c:1881
+msgid "On Invisible List"
+msgstr ""
+
+#. On online notify list...
+#: src/gtkfunc.c:1891
+msgid "On Notify List"
+msgstr ""
+
+#: src/gtkfunc.c:1907
+#, fuzzy
+msgid "  Lists"
+msgstr "_Liostaí"
+
+#: src/gtkfunc.c:1930
+msgid "  Hide shortcut"
+msgstr ""
+
+#: src/gtkfunc.c:1932
+msgid "  Show shortcut"
+msgstr ""
+
+#: src/gtkfunc.c:1962
+msgid "  Add To List"
+msgstr ""
+
+#: src/gtkfunc.c:1983
+msgid "  Authorize User"
+msgstr ""
+
+#: src/gtkfunc.c:1998
+msgid "  Rename User..."
+msgstr ""
+
+#: src/gtkfunc.c:2013
+msgid "  Remove User..."
+msgstr ""
+
+#: src/gtkfunc.c:2034
+msgid "GnomeICU: Send Message"
+msgstr ""
+
+#: src/gtkfunc.c:2057
+msgid "Send message to:"
+msgstr ""
+
+#: src/gtkfunc.c:2226
+#, fuzzy
+msgid "None"
+msgstr "Guthán:"
+
+#: src/gtkfunc.c:2230
+msgid "All"
+msgstr ""
+
+#: src/gtkfunc.c:2439
+msgid "Alias:"
+msgstr ""
+
+#: src/gtkfunc.c:2444
+msgid "Auth:"
+msgstr ""
+
+#: src/gtkfunc.c:2498
+msgid "Set"
+msgstr ""
+
+#: src/gtkfunc.c:2531
+msgid "Status:"
+msgstr ""
+
+#: src/gtkfunc.c:2606
+msgid "Work"
+msgstr "Obair"
+
+#: src/gtkfunc.c:2608
+msgid "Job Position:"
+msgstr "Post:"
+
+#: src/gtkfunc.c:2613
+msgid "Department:"
+msgstr ""
+
+#: src/gtkfunc.c:2622
+msgid "Company:"
+msgstr ""
+
+#: src/gtkfunc.c:2627 src/gtkfunc.c:2732
+msgid "Address:"
+msgstr "Seoladh"
+
+#: src/gtkfunc.c:2656
+msgid "Homepage:"
+msgstr "Leathanach Baile:"
+
+#: src/gtkfunc.c:2921 src/gtkfunc.c:2926 src/timezone.h:34 src/util.c:349
+msgid "Unknown"
+msgstr "Gan Aithne"
+
+#: src/gtkfunc.c:2933
+msgid "Required"
+msgstr ""
+
+#: src/gtkfunc.c:2935
+msgid "Not Required"
+msgstr ""
+
+#: src/gtkfunc.c:3308
+#, c-format
+msgid ""
+"Send Chat Request to %s:\n"
+"\n"
+"Reason:"
+msgstr ""
+
+#: src/gtkfunc.c:3443
+#, c-format
+msgid "Message Chat with %s\n"
+msgstr ""
+
+#: src/gtkfunc.c:3523
+msgid "GnomeICU: Send File"
+msgstr ""
+
+#: src/gtkfunc.c:3536
+#, c-format
+msgid "Send File to %s:"
+msgstr ""
+
+#: src/gtkfunc.c:3546
+#, fuzzy
+msgid "Files:"
+msgstr "Comhad:"
+
+#: src/gtkfunc.c:3577
+msgid "Add files..."
+msgstr ""
+
+#: src/gtkfunc.c:3581
+msgid "Remove files"
+msgstr ""
+
+#: src/gtkfunc.c:3664
+#, c-format
+msgid "Send URL to: %s"
+msgstr ""
+
+#: src/gtkfunc.c:3666
+msgid "GnomeICU: Send URL"
+msgstr ""
+
+#: src/gtkfunc.c:4286
+msgid "  Online"
+msgstr ""
+
+#: src/gtkfunc.c:4302
+msgid "  Away"
+msgstr ""
+
+#: src/gtkfunc.c:4318
+msgid "  Not Available"
+msgstr ""
+
+#: src/gtkfunc.c:4334
+msgid "  Free for Chat"
+msgstr ""
+
+#: src/gtkfunc.c:4350
+msgid "  Occupied"
+msgstr ""
+
+#: src/gtkfunc.c:4366
+msgid "  Do Not Disturb"
+msgstr ""
+
+#: src/gtkfunc.c:4382
+msgid "  Invisible"
+msgstr ""
+
+#: src/gtkfunc.c:4403
+msgid "  Offline"
+msgstr ""
+
+#: src/gtkfunc.c:4553
+msgid "GnomeICU: Remove Contact"
+msgstr ""
+
+#: src/gtkfunc.c:4562
+#, c-format
+msgid ""
+"Are you sure you wish to remove\n"
+"%s from your contact list?\n"
+msgstr ""
+
+#: src/gtkfunc.c:4569
+msgid "Remove User's History file"
+msgstr ""
+
+#: src/gtkfunc.c:4639
+msgid "Files recieved successfully"
+msgstr ""
+
+#: src/gtkfunc.c:4648
+msgid "The following files have been successfully retrieved."
+msgstr ""
+
+#: src/gtkfunc.c:4667
+msgid "Open File"
+msgstr ""
+
+#: src/gtkfunc.c:4671
+#, fuzzy
+msgid "Delete"
+msgstr "Data"
+
+#: src/gtkfunc.c:4747
+msgid "DELETED"
+msgstr ""
+
+#. Date and time format for strftime, used in history
+#. * dialog
+#: src/history.c:164
+#, no-c-format
+msgid "%c"
+msgstr ""
+
+#: src/history.c:167
+msgid "Received"
+msgstr ""
+
+#: src/history.c:167
+msgid "Sent"
+msgstr ""
+
+#: src/history.c:237 src/history.c:250
+msgid "No message history available."
+msgstr ""
+
+#: src/history.c:402
+msgid "No history to save."
+msgstr ""
+
+#: src/history.c:408
+#, fuzzy
+msgid "Save History"
+msgstr "Stair"
+
+#: src/history.c:455
+msgid "File save error."
+msgstr ""
+
+#: src/history.c:464
+msgid "Clear all stored history?"
+msgstr ""
+
+#: src/history.c:526 src/history.c:597 src/history.c:967
+#, fuzzy
+msgid "Search"
+msgstr "Márta"
+
+#: src/history.c:575
+msgid "No more occurrences found."
+msgstr ""
+
+#: src/history.c:595
+#, fuzzy
+msgid "Search Again"
+msgstr "Taispeán Arís"
+
+#: src/history.c:789
+#, c-format
+msgid "GnomeICU: Message History: %s"
+msgstr ""
+
+#: src/history.c:828
+msgid "Dialog"
+msgstr ""
+
+#: src/history.c:830
+msgid "Incoming"
+msgstr ""
+
+#: src/history.c:832
+msgid "Outgoing"
+msgstr ""
+
+#: src/history.c:881
+msgid "Functions >>"
+msgstr ""
+
+#: src/history.c:961 src/log.c:58
+#, fuzzy
+msgid "Clear"
+msgstr "Dún"
+
+#: src/history.c:964
+#, fuzzy
+msgid "Save As"
+msgstr "Sábháil"
+
+#: src/ignore.c:23
+msgid "GnomeICU: Ignore List"
+msgstr ""
+
+#: src/ignore.c:24
+msgid ""
+"Drag the users you wish to add to your\n"
+"ignore list into this window, and then click\n"
+"the \"Apply\" button below."
+msgstr ""
+
+#: src/invisible.c:22
+msgid "GnomeICU: Invisible List"
+msgstr ""
+
+#: src/invisible.c:23
+msgid ""
+"Drag the users you wish to add to your\n"
+"invisible list into this window, and then click\n"
+"the \"Apply\" button below."
+msgstr ""
+
+#: src/listwindow.c:55
+msgid "Nickname"
+msgstr ""
+
+#: src/listwindow.c:93
+msgid "User's Info"
+msgstr ""
+
+#: src/listwindow.c:102
+msgid "Remove User"
+msgstr ""
+
+#: src/log.c:32
+msgid "GnomeICU: Connection History"
+msgstr ""
+
+#: src/log.c:44
+msgid "Time"
+msgstr "Am"
+
+#: src/log.c:45
+msgid "Date"
+msgstr "Data"
+
+#: src/log.c:47
+msgid "Action"
+msgstr ""
+
+#: src/menus.h:89
+msgid "_Add Contact..."
+msgstr ""
+
+#: src/menus.h:89
+msgid "Add a contact to your list"
+msgstr ""
+
+#: src/menus.h:97
+msgid "_Connection History..."
+msgstr ""
+
+#: src/menus.h:97
+msgid "Display Connection History Window"
+msgstr ""
+
+#: src/menus.h:105
+msgid "_Preferences..."
+msgstr ""
+
+#: src/menus.h:105
+msgid "Configure GnomeICU"
+msgstr "Socraigh GnomeICU"
+
+#: src/menus.h:113
+msgid "Change User _Info..."
+msgstr ""
+
+#: src/menus.h:113
+msgid "Change your personal information"
+msgstr ""
+
+#: src/menus.h:123
+msgid "_Hide Main Window"
+msgstr ""
+
+#: src/menus.h:123
+msgid "Hide Main Window"
+msgstr ""
+
+#: src/menus.h:133
+msgid "E_xit"
+msgstr "_Ealu"
+
+#: src/menus.h:133
+msgid "Exit GnomeICU"
+msgstr "Eirigh as GnomeICU"
+
+#: src/menus.h:146
+msgid "_Ignore List..."
+msgstr ""
+
+#: src/menus.h:146
+msgid "Add/Remove contacts to/from your ignore list"
+msgstr ""
+
+#: src/menus.h:154
+msgid "_Visible List..."
+msgstr ""
+
+#: src/menus.h:154
+msgid "Add/Remove contacts to/from your visible list"
+msgstr ""
+
+#: src/menus.h:162
+msgid "Invi_sible List..."
+msgstr ""
+
+#: src/menus.h:162
+msgid "Add/Remove contacts to/from your invisible list"
+msgstr ""
+
+#: src/menus.h:170
+msgid "_Online Notify List..."
+msgstr ""
+
+#: src/menus.h:170
+msgid "Add/Remove contacts to/from your online notification list"
+msgstr ""
+
+#: src/menus.h:185
+msgid "About GnomeICU"
+msgstr "Faoi GnomeICU"
+
+#: src/menus.h:193
+#, fuzzy
+msgid "GnomeICU Home..."
+msgstr "GnomeICU"
+
+#: src/menus.h:193
+#, fuzzy
+msgid "GnomeICU Homepage"
+msgstr "GnomeICU: Scéal"
+
+#: src/menus.h:201
+#, fuzzy
+msgid "GnomeICU Updates..."
+msgstr "GnomeICU: Roghanna"
+
+#: src/menus.h:201
+#, fuzzy
+msgid "GnomeICU Updates"
+msgstr "GnomeICU: Roghanna"
+
+#: src/menus.h:212
+msgid "_ICQ"
+msgstr "_ICQ"
+
+#: src/menus.h:213
+msgid "_Lists"
+msgstr "_Liostaí"
+
+#: src/menus.h:215
+msgid "_Status"
+msgstr ""
+
+#: src/menus.h:217
+msgid "_Help"
+msgstr "C_abhair"
+
+#: src/newsignup.c:40
+msgid "GnomeICU: New User"
+msgstr "GnomeICU: Úsáideoir Nua"
+
+#: src/newsignup.c:49
+msgid "Welcome to GnomeICU"
+msgstr ""
+
+#: src/newsignup.c:61
+msgid "Welcome to GnomeICU.  To assist you with"
+msgstr ""
+
+#: src/newsignup.c:66
+msgid "configuring this program, please fill"
+msgstr ""
+
+#: src/newsignup.c:71
+msgid "out the following information.  You will"
+msgstr ""
+
+#: src/newsignup.c:76
+msgid "not need to do this again, unless you"
+msgstr ""
+
+#: src/newsignup.c:81
+msgid "somehow remove your ~/.gnome/GnomeICU file."
+msgstr ""
+
+#: src/newsignup.c:89
+msgid "New ICQ # - Select this if you've never used"
+msgstr ""
+
+#: src/newsignup.c:94
+msgid "ICQ before, or if you don't remember your"
+msgstr ""
+
+#: src/newsignup.c:99
+msgid "nick or password."
+msgstr ""
+
+#: src/newsignup.c:115
+msgid "Existing ICQ # - Select this if you already"
+msgstr ""
+
+#: src/newsignup.c:120
+msgid "have an account which you'd like to use with"
+msgstr ""
+
+#: src/newsignup.c:125
+msgid "GnomeICU."
+msgstr ""
+
+#: src/newsignup.c:142
+msgid "Next"
+msgstr "Eile"
+
+#: src/newsignup.c:206
+msgid "Please enter your UIN"
+msgstr ""
+
+#: src/newsignup.c:210 src/newsignup.c:246
+msgid "Please enter your password"
+msgstr ""
+
+#: src/notify.c:21
+msgid "GnomeICU: Online Notify List"
+msgstr ""
+
+#: src/notify.c:22
+msgid ""
+"Drag the users you wish to add to your\n"
+"notify list into this window, and then click\n"
+"the \"Apply\" button below."
+msgstr ""
+
+#: src/response.c:252
+msgid "Logout"
+msgstr "Logann"
+
+#: src/response.c:298
+msgid "Login"
+msgstr "Login"
+
+#: src/response.c:303
+#, c-format
+msgid "%s is online"
+msgstr ""
+
+#: src/response.c:358
+#, c-format
+msgid "Status Change: %s"
+msgstr ""
+
+#: src/response.c:368
+#, c-format
+msgid "%s is back online"
+msgstr ""
+
+#: src/response.c:540
+msgid "Nick"
+msgstr ""
+
+#: src/response.c:541
+msgid "F. Name"
+msgstr ""
+
+#: src/response.c:542
+msgid "L. Name"
+msgstr ""
+
+#: src/response.c:543
+msgid "E-mail"
+msgstr "R-phost"
+
+#: src/response.c:544
+msgid "Authorization"
+msgstr ""
+
+#: src/response.c:580
+msgid "No auth needed"
+msgstr ""
+
+#: src/response.c:581
+msgid "Must request auth"
+msgstr ""
+
+#: src/response.c:797
+msgid "Received Message"
+msgstr ""
+
+#: src/response.c:885
+msgid "Received Chat Request"
+msgstr ""
+
+#: src/response.c:934
+msgid "Received File Request"
+msgstr ""
+
+#: src/search.c:73
+msgid "GnomeICU - Add A Contact"
+msgstr ""
+
+#: src/search.c:93
+msgid "Contact Information"
+msgstr ""
+
+#: src/search.c:99
+msgid ""
+"Please enter the known information\n"
+"in one of the following three pages,\n"
+"and press the \"Next\" button below."
+msgstr ""
+
+#: src/search.c:126
+msgid "Contact's UIN:"
+msgstr ""
+
+#: src/search.c:142
+msgid "Nick Name:"
+msgstr ""
+
+#: src/search.c:150
+msgid "First Name:"
+msgstr ""
+
+#: src/search.c:158
+msgid "Last Name:"
+msgstr ""
+
+#: src/search.c:206
+msgid "Contact Info"
+msgstr ""
+
+#: src/search.c:215
+msgid "Contact's E-Mail Address:"
+msgstr ""
+
+#: src/search.c:234
+msgid "E-Mail Address"
+msgstr ""
+
+#: src/search.c:244
+msgid "Search Results"
+msgstr ""
+
+#: src/search.c:250
+msgid ""
+"Please choose one contact to add and click \"Next\". If the person you were\n"
+"looking for is not listed, go back and try again with different information."
+msgstr ""
+
+#: src/search.c:284
+msgid "Nick Name"
+msgstr ""
+
+#: src/search.c:289
+msgid "First Name"
+msgstr ""
+
+#: src/search.c:295
+msgid "Last Name"
+msgstr ""
+
+#: src/search.c:301
+msgid "E-Mail"
+msgstr "R-phost"
+
+#: src/search.c:469
+#, c-format
+msgid ""
+"The UIN %d has been added.\n"
+"Do you want to add another one?"
+msgstr ""
+
+#: src/sendcontact.c:13
+#, c-format
+msgid ""
+"Drag the users you wish to send\n"
+"to %s to this window, and then click the\n"
+"\"Send\" button below."
+msgstr ""
+
+#: src/sendcontact.c:17
+msgid "GnomeICU: Send Contact List"
+msgstr ""
+
+#: src/sendcontact.c:33
+#, c-format
+msgid ""
+"The following contact list was sent by %s.\n"
+"Please remove the users you don't want to add\n"
+" and then click the \"Add to List\"\n"
+" button below."
+msgstr ""
+
+#: src/sendcontact.c:38
+msgid "GnomeICU: Received Contact List"
+msgstr ""
+
+#: src/sendcontact.c:39
+msgid "Add to List"
+msgstr ""
+
+#: src/sendmsg.c:133
+msgid "Connection unreliable - reconnecting"
+msgstr ""
+
+#: src/sendmsg.c:227
+msgid "Cannot send blank message"
+msgstr ""
+
+#: src/sendmsg.c:240
+msgid "Sent Message (TCP)"
+msgstr ""
+
+#: src/sendmsg.c:265
+msgid "Sent Message (UDP)"
+msgstr ""
+
+#: src/sendmsg.c:311
+msgid "Sent URL (TCP)"
+msgstr ""
+
+#: src/sendmsg.c:333
+msgid "Sent URL (UDP)"
+msgstr ""
+
+#: src/server.c:71
+msgid "Could not create socket\n"
+msgstr ""
+
+#: src/server.c:165
+msgid "Connected to ICQ Server"
+msgstr ""
+
+#. TODO: add "Reconnect" button
+#: src/server.c:242
+msgid "Server has forced disconnection."
+msgstr ""
+
+#: src/server.c:247
+msgid "Your UIN is being used at a different location."
+msgstr ""
+
+#: src/server.c:249
+msgid "Server forced disconnect"
+msgstr ""
+
+#: src/server.c:260
+msgid "Not all matches could be retrieved."
+msgstr ""
+
+#: src/server.c:262
+msgid "No matches found."
+msgstr ""
+
+#: src/server.c:264
+msgid "Search complete."
+msgstr ""
+
+#: src/server.c:288
+msgid ""
+"Bad password:\n"
+"The password you've provided is incorrect."
+msgstr ""
+
+#: src/tcp.c:1505
+msgid "Received Message (TCP)"
+msgstr ""
+
+#: src/tcp.c:1635
+#, c-format
+msgid "User %s is Away:"
+msgstr ""
+
+#: src/tcp.c:1638
+#, c-format
+msgid "User %s is Not Available:"
+msgstr ""
+
+#: src/tcp.c:1641
+#, c-format
+msgid "User %s cannot be disturbed:"
+msgstr ""
+
+#: src/tcp.c:1644
+#, c-format
+msgid "User %s is Occupied:"
+msgstr ""
+
+#: src/tcp.c:1647
+msgid "User is in an unknown mode:"
+msgstr ""
+
+#: src/tcp.c:1701
+msgid "Chat Request Refused"
+msgstr ""
+
+#: src/tcp.c:2189
+msgid "Select destination directory"
+msgstr ""
+
+#. </kludge>
+#: src/tcp.c:2283
+#, c-format
+msgid ""
+"File transfer:\n"
+"Completed transfer of %s from %s."
+msgstr ""
+
+#: src/tcp.c:2291
+#, c-format
+msgid ""
+"File transfer:\n"
+"Completed transfer of %s to %s."
+msgstr ""
+
+#: src/tcp.c:2295
+#, c-format
+msgid "File transfer completed: %s"
+msgstr ""
+
+#: src/tcp.c:2304
+#, c-format
+msgid "File transfer refused: %s"
+msgstr ""
+
+#: src/tcp.c:2309
+#, c-format
+msgid "File transfer terminated: %s"
+msgstr ""
+
+#: src/tcp.c:2566
+#, c-format
+msgid "Unable to send a message directly to %s."
+msgstr ""
+
+#: src/tcp.c:2568
+#, fuzzy
+msgid "Retry"
+msgstr "Freagrair"
+
+#: src/tcp.c:2568
+msgid "Send Through Server"
+msgstr ""
+
+#: src/tcp.c:2571
+#, fuzzy
+msgid "GnomeICU: Question"
+msgstr "GnomeICU: Roghanna"
+
+#: src/timezone.h:9
+msgid "GMT+1300 (Tonga)"
+msgstr "GMT+1300 (Tonga)"
+
+#: src/timezone.h:10
+msgid "GMT+1200 (Fiji)"
+msgstr "GMT+1200 (Fiji)"
+
+#: src/timezone.h:11
+msgid "GMT+1100 (Solomon Islands)"
+msgstr ""
+
+#: src/timezone.h:12
+msgid "GMT+1000 (Guam)"
+msgstr "GMT+1000 (Guam)"
+
+#: src/timezone.h:13
+msgid "GMT+0900 (Japan)"
+msgstr "GMT+0900 (Seapáin)"
+
+#: src/timezone.h:14
+msgid "GMT+0800 (China/Taiwan)"
+msgstr ""
+
+#: src/timezone.h:15
+msgid "GMT+0700 (Cambodia)"
+msgstr ""
+
+#: src/timezone.h:16
+msgid "GMT+0600 (Bangladesh)"
+msgstr ""
+
+#: src/timezone.h:17
+msgid "GMT+0500 (Turkmenistan)"
+msgstr ""
+
+#: src/timezone.h:18
+msgid "GMT+0400 (Yemen/Oman/Armenia)"
+msgstr ""
+
+#: src/timezone.h:19
+msgid "GMT+0300 (Eastern African)"
+msgstr ""
+
+#: src/timezone.h:20
+msgid "GMT+0200 (Eastern European)"
+msgstr ""
+
+#: src/timezone.h:21
+msgid "GMT+0100 (Middle European)"
+msgstr ""
+
+#: src/timezone.h:22
+msgid "GMT (United Kingdom)"
+msgstr "GMT (Éire)"
+
+#: src/timezone.h:23
+msgid "GMT-0100"
+msgstr "GMT-0100"
+
+#: src/timezone.h:24
+msgid "GMT-0200 (Central African)"
+msgstr ""
+
+#: src/timezone.h:25
+msgid "GMT-0300 (Brazil)"
+msgstr "GMT-0300 (Brasail)"
+
+#: src/timezone.h:26
+msgid "GMT-0400 (Atlantic)"
+msgstr "GMT-04000 (Atlantach)"
+
+#: src/timezone.h:27
+msgid "GMT-0500 (Eastern)"
+msgstr ""
+
+#: src/timezone.h:28
+msgid "GMT-0600 (Central)"
+msgstr ""
+
+#: src/timezone.h:29
+msgid "GMT-0700 (Mountain)"
+msgstr ""
+
+#: src/timezone.h:30
+msgid "GMT-0800 (Pacific)"
+msgstr ""
+
+#: src/timezone.h:31
+msgid "GMT-0900 (Alaska)"
+msgstr ""
+
+#: src/timezone.h:32
+msgid "GMT-1000 (Hawaii/Aleutian Islands)"
+msgstr ""
+
+#: src/timezone.h:33
+msgid "GMT-1100 (American Samoa)"
+msgstr ""
+
+#: src/userserver.c:163
+msgid ""
+"No messages available.\n"
+"\n"
+msgstr ""
+
+#: src/util.c:40
+msgid "USA"
+msgstr "USA"
+
+#: src/util.c:41
+msgid "Afghanistan"
+msgstr "Afganastáin"
+
+#: src/util.c:42
+msgid "Albania"
+msgstr "Albáin"
+
+#: src/util.c:43
+msgid "Algeria"
+msgstr "Ailgéir"
+
+#: src/util.c:44
+msgid "American Samoa"
+msgstr ""
+
+#: src/util.c:45
+msgid "Andorra"
+msgstr ""
+
+#: src/util.c:46
+msgid "Angola"
+msgstr ""
+
+#: src/util.c:47
+msgid "Anguilla"
+msgstr ""
+
+#: src/util.c:48
+msgid "Antigua"
+msgstr ""
+
+#: src/util.c:49
+msgid "Argentina"
+msgstr "Argintín"
+
+#: src/util.c:50
+msgid "Armenia"
+msgstr ""
+
+#: src/util.c:51
+msgid "Aruba"
+msgstr ""
+
+#: src/util.c:52
+msgid "Ascention Island"
+msgstr ""
+
+#: src/util.c:53
+msgid "Australia"
+msgstr "Astráil"
+
+#: src/util.c:54
+msgid "Australian Antartic Territory"
+msgstr ""
+
+#: src/util.c:55
+msgid "Austria"
+msgstr ""
+
+#: src/util.c:56
+msgid "Azerbaijan"
+msgstr ""
+
+#: src/util.c:57
+msgid "Bahamas"
+msgstr ""
+
+#: src/util.c:58
+msgid "Bahrain"
+msgstr ""
+
+#: src/util.c:59
+msgid "Bangladesh"
+msgstr ""
+
+#: src/util.c:60
+msgid "Barbados"
+msgstr ""
+
+#: src/util.c:61
+msgid "Belarus"
+msgstr ""
+
+#: src/util.c:62
+msgid "Belgium"
+msgstr "Bheilg"
+
+#: src/util.c:63
+msgid "Belize"
+msgstr ""
+
+#: src/util.c:64
+msgid "Benin"
+msgstr ""
+
+#: src/util.c:65
+msgid "Bermuda"
+msgstr ""
+
+#: src/util.c:66
+msgid "Bhutan"
+msgstr ""
+
+#: src/util.c:67
+msgid "Bolivia"
+msgstr "Bholaiv"
+
+#: src/util.c:68
+msgid "Bosnia Herzegovina"
+msgstr ""
+
+#: src/util.c:69
+msgid "Botswana"
+msgstr ""
+
+#: src/util.c:70
+msgid "Brazil"
+msgstr "Bhruiséil"
+
+#: src/util.c:71
+msgid "British Virgin_Islands"
+msgstr ""
+
+#: src/util.c:72
+msgid "Brunei"
+msgstr ""
+
+#: src/util.c:73
+msgid "Bulgaria"
+msgstr "Bhulgáir"
+
+#: src/util.c:74
+msgid "Burkina Faso"
+msgstr ""
+
+#: src/util.c:75
+msgid "Burundi"
+msgstr ""
+
+#: src/util.c:76
+msgid "Cambodia"
+msgstr ""
+
+#: src/util.c:77
+msgid "Cameroon"
+msgstr "Camarún"
+
+#: src/util.c:78
+msgid "Canada"
+msgstr "Ceanada"
+
+#: src/util.c:79
+msgid "Cape Verde Islands"
+msgstr ""
+
+#: src/util.c:80
+msgid "Cayman Islands"
+msgstr ""
+
+#: src/util.c:81
+msgid "Central African Republic"
+msgstr ""
+
+#: src/util.c:82
+msgid "Chad"
+msgstr ""
+
+#: src/util.c:83
+msgid "Christmas Island"
+msgstr ""
+
+#: src/util.c:84
+msgid "Cocos Keeling Islands"
+msgstr ""
+
+#: src/util.c:85
+msgid "Comoros"
+msgstr ""
+
+#: src/util.c:86
+msgid "Congo"
+msgstr ""
+
+#: src/util.c:87
+msgid "Cook Islands"
+msgstr ""
+
+#: src/util.c:88
+msgid "Chile"
+msgstr ""
+
+#: src/util.c:89
+msgid "China"
+msgstr ""
+
+#: src/util.c:90
+msgid "Columbia"
+msgstr "Cholóim"
+
+#: src/util.c:91
+msgid "Costa Rice"
+msgstr ""
+
+#: src/util.c:92
+msgid "Croatia"
+msgstr ""
+
+#. Observerd
+#: src/util.c:93
+msgid "Cuba"
+msgstr "Cúba"
+
+#: src/util.c:94
+msgid "Cyprus"
+msgstr "Chipir"
+
+#: src/util.c:95
+msgid "Czech Republic"
+msgstr ""
+
+#: src/util.c:96
+msgid "Denmark"
+msgstr "Danmhairg"
+
+#: src/util.c:97
+msgid "Diego Garcia"
+msgstr ""
+
+#: src/util.c:98
+msgid "Djibouti"
+msgstr ""
+
+#: src/util.c:99
+msgid "Dominica"
+msgstr ""
+
+#: src/util.c:100
+msgid "Dominican Republic"
+msgstr ""
+
+#: src/util.c:101
+msgid "Ecuador"
+msgstr ""
+
+#: src/util.c:102
+msgid "Egypt"
+msgstr "Éigipt"
+
+#: src/util.c:103
+msgid "El Salvador"
+msgstr ""
+
+#: src/util.c:104
+msgid "Equitorial Guinea"
+msgstr ""
+
+#: src/util.c:105
+msgid "Eritrea"
+msgstr ""
+
+#: src/util.c:106
+msgid "Estonia"
+msgstr ""
+
+#: src/util.c:107
+msgid "Ethiopia"
+msgstr "Aetóip"
+
+#: src/util.c:108
+msgid "Former Yugoslavia"
+msgstr ""
+
+#: src/util.c:109
+msgid "Faeroe Islands"
+msgstr ""
+
+#: src/util.c:110
+msgid "Falkland Islands"
+msgstr ""
+
+#: src/util.c:111
+msgid "Federated States of Micronesia"
+msgstr ""
+
+#: src/util.c:112
+msgid "Fiji"
+msgstr ""
+
+#: src/util.c:113
+msgid "Finland"
+msgstr "Fhionlainn"
+
+#: src/util.c:114
+msgid "France"
+msgstr "Fhrainc"
+
+#. Leave it
+#: src/util.c:115 src/util.c:116
+msgid "French Antilles"
+msgstr ""
+
+#. Either on or the other is right :)
+#: src/util.c:117
+msgid "French Guiana"
+msgstr ""
+
+#: src/util.c:118
+msgid "French Polynesia"
+msgstr ""
+
+#: src/util.c:119
+msgid "Gabon"
+msgstr ""
+
+#: src/util.c:120
+msgid "Gambia"
+msgstr ""
+
+#: src/util.c:121
+msgid "Georgia"
+msgstr ""
+
+#: src/util.c:122
+msgid "Germany"
+msgstr ""
+
+#: src/util.c:123
+msgid "Ghana"
+msgstr ""
+
+#: src/util.c:124
+msgid "Gibraltar"
+msgstr ""
+
+#: src/util.c:125
+msgid "Greece"
+msgstr ""
+
+#: src/util.c:126
+msgid "Greenland"
+msgstr ""
+
+#: src/util.c:127
+msgid "Grenada"
+msgstr ""
+
+#: src/util.c:128
+msgid "Guadeloupe"
+msgstr ""
+
+#: src/util.c:129
+msgid "Guam"
+msgstr ""
+
+#: src/util.c:130
+msgid "Guantanomo Bay"
+msgstr ""
+
+#: src/util.c:131
+msgid "Guatemala"
+msgstr ""
+
+#: src/util.c:132
+msgid "Guinea"
+msgstr ""
+
+#: src/util.c:133
+msgid "Guinea Bissau"
+msgstr ""
+
+#: src/util.c:134
+msgid "Guyana"
+msgstr ""
+
+#: src/util.c:135
+msgid "Haiti"
+msgstr ""
+
+#: src/util.c:136
+msgid "Honduras"
+msgstr ""
+
+#: src/util.c:137
+msgid "Hong Kong"
+msgstr ""
+
+#: src/util.c:138
+msgid "Hungary"
+msgstr ""
+
+#: src/util.c:139
+msgid "Iceland"
+msgstr ""
+
+#: src/util.c:140
+msgid "India"
+msgstr "India"
+
+#: src/util.c:141
+msgid "Indonesia"
+msgstr ""
+
+#: src/util.c:142
+msgid "INMARSAT"
+msgstr ""
+
+#: src/util.c:143
+msgid "INMARSAT Atlantic East"
+msgstr ""
+
+#: src/util.c:144
+msgid "Iran"
+msgstr "Iaráin"
+
+#: src/util.c:145
+msgid "Iraq"
+msgstr "Iaráic"
+
+#: src/util.c:146
+msgid "Ireland"
+msgstr "Éire"
+
+#: src/util.c:147
+msgid "Israel"
+msgstr "Iosrael"
+
+#: src/util.c:148
+msgid "Italy"
+msgstr ""
+
+#: src/util.c:149
+msgid "Ivory Coast"
+msgstr ""
+
+#: src/util.c:150
+msgid "Japan"
+msgstr "Seapáin"
+
+#: src/util.c:151
+msgid "Jordan"
+msgstr ""
+
+#: src/util.c:152
+msgid "Kenya"
+msgstr ""
+
+#: src/util.c:153
+msgid "South Korea"
+msgstr ""
+
+#: src/util.c:154
+msgid "Kuwait"
+msgstr ""
+
+#: src/util.c:155
+msgid "Liberia"
+msgstr ""
+
+#: src/util.c:156
+msgid "Libya"
+msgstr "Libia"
+
+#: src/util.c:157
+msgid "Liechtenstein"
+msgstr ""
+
+#: src/util.c:158
+msgid "Luxembourg"
+msgstr "Lucsamburg"
+
+#: src/util.c:159
+msgid "Malawi"
+msgstr ""
+
+#: src/util.c:160
+msgid "Malaysia"
+msgstr ""
+
+#: src/util.c:161
+msgid "Mali"
+msgstr ""
+
+#: src/util.c:162
+msgid "Malta"
+msgstr "Málta"
+
+#: src/util.c:163
+msgid "Mexico"
+msgstr ""
+
+#: src/util.c:164
+msgid "Monaco"
+msgstr "Monacó"
+
+#: src/util.c:165
+msgid "Morocco"
+msgstr ""
+
+#: src/util.c:166
+msgid "Namibia"
+msgstr ""
+
+#: src/util.c:167
+msgid "Nepal"
+msgstr "Neipeál"
+
+#: src/util.c:168
+msgid "Netherlands"
+msgstr "Ísiltír"
+
+#: src/util.c:169
+msgid "Netherlands Antilles"
+msgstr ""
+
+#: src/util.c:170
+msgid "New Caledonia"
+msgstr ""
+
+#: src/util.c:171
+msgid "New Zealand"
+msgstr ""
+
+#: src/util.c:172
+msgid "Nicaragua"
+msgstr ""
+
+#: src/util.c:173
+msgid "Nigeria"
+msgstr ""
+
+#: src/util.c:174
+msgid "Norway"
+msgstr ""
+
+#: src/util.c:175
+msgid "Oman"
+msgstr ""
+
+#: src/util.c:176
+msgid "Pakistan"
+msgstr ""
+
+#: src/util.c:177
+msgid "Panama"
+msgstr ""
+
+#: src/util.c:178
+msgid "Papua New Guinea"
+msgstr ""
+
+#: src/util.c:179
+msgid "Paraguay"
+msgstr "Paragua"
+
+#: src/util.c:180
+msgid "Peru"
+msgstr ""
+
+#: src/util.c:181
+msgid "Philippines"
+msgstr "Fhilipíneacha"
+
+#: src/util.c:182
+msgid "Poland"
+msgstr "Pholainn"
+
+#: src/util.c:183
+msgid "Portugal"
+msgstr "Phortaingéil"
+
+#: src/util.c:184
+msgid "Qatar"
+msgstr ""
+
+#: src/util.c:185
+msgid "Romania"
+msgstr ""
+
+#: src/util.c:186
+msgid "Russia"
+msgstr "Rúis"
+
+#: src/util.c:187
+msgid "Saipan"
+msgstr ""
+
+#: src/util.c:188
+msgid "San Marino"
+msgstr ""
+
+#: src/util.c:189
+msgid "Saudia Arabia"
+msgstr ""
+
+#: src/util.c:190
+msgid "Senegal"
+msgstr ""
+
+#: src/util.c:191
+msgid "Singapore"
+msgstr ""
+
+#: src/util.c:192
+msgid "Slovakia"
+msgstr ""
+
+#: src/util.c:193
+msgid "South_Africa"
+msgstr ""
+
+#: src/util.c:194
+msgid "Spain"
+msgstr ""
+
+#: src/util.c:195
+msgid "Sri Lanka"
+msgstr ""
+
+#: src/util.c:196
+msgid "Suriname"
+msgstr ""
+
+#: src/util.c:197
+msgid "Sweden"
+msgstr ""
+
+#: src/util.c:198
+msgid "Switzerland"
+msgstr ""
+
+#: src/util.c:199
+msgid "Taiwan"
+msgstr ""
+
+#: src/util.c:200
+msgid "Tanzania"
+msgstr ""
+
+#: src/util.c:201
+msgid "Thailand"
+msgstr ""
+
+#: src/util.c:202
+msgid "Tunisia"
+msgstr ""
+
+#: src/util.c:203
+msgid "Turkey"
+msgstr ""
+
+#: src/util.c:204
+msgid "United Arab Emirates"
+msgstr ""
+
+#: src/util.c:205
+msgid "Uruguay"
+msgstr ""
+
+#: src/util.c:206
+msgid "UK"
+msgstr ""
+
+#: src/util.c:207
+msgid "Ukraine"
+msgstr ""
+
+#: src/util.c:208
+msgid "Vatican City"
+msgstr ""
+
+#: src/util.c:209
+msgid "Venezuela"
+msgstr ""
+
+#: src/util.c:210
+msgid "Vietnam"
+msgstr ""
+
+#: src/util.c:211
+msgid "Yemen"
+msgstr "Éimin"
+
+#: src/util.c:212
+msgid "Yugoslavia"
+msgstr "Iúgslaiv"
+
+#: src/util.c:213
+msgid "Zaire"
+msgstr ""
+
+#: src/util.c:214
+msgid "Zimbabwe"
+msgstr ""
+
+#: src/util.c:215 src/util.c:216
+msgid "Not entered"
+msgstr ""
+
+#: src/util.c:531
+#, fuzzy
+msgid "Web Message"
+msgstr "  Scéal..."
+
+#: src/util.c:581
+msgid "Unable to create new user"
+msgstr ""
+
+#: src/util.c:602
+#, c-format
+msgid "Your new UIN is %u"
+msgstr ""
+
+#: src/visible.c:22
+msgid "GnomeICU: Visible List"
+msgstr ""
+
+#: src/visible.c:23
+msgid ""
+"Drag the users you wish to add to your\n"
+"visible list into this window, and then click\n"
+"the \"Apply\" button below."
+msgstr ""
+
+msgid "Options..."
+msgstr "Roghanna..."
+
+msgid "December"
+msgstr "Nollag"
+
+msgid "November"
+msgstr "Samhain"
+
+msgid "October"
+msgstr "Deireadh Fómhar"
+
+msgid "September"
+msgstr "Mean Fómhair"
+
+msgid "August"
+msgstr "Lúnasa"
+
+msgid "July"
+msgstr "Iúil"
+
+msgid "June"
+msgstr "Meitheamh"
+
+msgid "May"
+msgstr "Bealtaine"
+
+msgid "April"
+msgstr "Aibreán"
+
+msgid "February"
+msgstr "Feabhra"
+
+msgid "January"
+msgstr "Éanair"
+
+msgid "GnomeICU: Information"
+msgstr "GnomeICU: Eolas"
+
+msgid "Badly formed URL: %s\n"
+msgstr "URL Mícheart: %s\n"
+
+msgid "Time:"
+msgstr "Am:"
+
+msgid "BPS:"
+msgstr "BPS:"
+
+msgid "ETA:"
+msgstr "ETA:"
+
+msgid "label5"
+msgstr "lipéad5"
+
+msgid "label6"
+msgstr "lipéad6"
+
+msgid "label3"
+msgstr "lipéad3"
+
+msgid "label4"
+msgstr "lipéad4"
+
+msgid "label7"
+msgstr "lipéad7"
+
+msgid "label8"
+msgstr "lipéad8"
+
+msgid "Error:"
+msgstr "Earraidh:"
+
+msgid "Error: Bad password"
+msgstr "Earraidh: Pasfhocal mícheart"
+
+msgid "-adobe-helvetica-bold-r-*-*-*-140-*-*-*-*-*-*"
+msgstr "-adobe-helvetica-bold-r-*-*-*-140-*-*-*-*-*-*"
+
+msgid "_Options..."
+msgstr "_Roghanna..."

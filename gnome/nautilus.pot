@@ -1,0 +1,2455 @@
+# Irish language translations for Nautilus.
+# Copyright (C) 2000 Free Software Foundation, Inc.
+# Alastair McKinstry <mckinstry@computer.org>, 2000 
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: nautilus CVS\n"
+"POT-Creation-Date: 2001-06-25 10:13+0200\n"
+"PO-Revision-Date: 2000-08-24 19:35+0100\n"
+"Last-Translator: Alastair McKinstry <mckinstry@computer.org>\n"
+"Language-Team: Irish <ga@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ISO_8859-1\n"
+"Content-Transfer-Encoding: 8-bit\n"
+
+#: components/install-view/Nautilus_View_install.oaf.in.h:1
+#: components/install/server/Trilobite_Service_install.oaf.in.h:2
+#: components/summary-view/nautilus-summary-view.c:111
+msgid "Install"
+msgstr ""
+
+#: components/install-view/Nautilus_View_install.oaf.in.h:2
+msgid "Install View Component"
+msgstr ""
+
+#: components/install-view/Nautilus_View_install.oaf.in.h:3
+msgid "Install View Component's Factory"
+msgstr ""
+
+#: components/install-view/Nautilus_View_install.oaf.in.h:4
+#, fuzzy
+msgid "Install Viewer"
+msgstr "Sampla"
+
+#: components/install-view/Nautilus_View_install.oaf.in.h:5
+#, fuzzy
+msgid "Nautilus Install View"
+msgstr "Nautilus: Leabharmarcanna"
+
+#: components/install-view/Nautilus_View_install.oaf.in.h:6
+#, fuzzy
+msgid "Nautilus Install View Factory"
+msgstr "Nautilus: Leabharmarcanna"
+
+#: components/install-view/Nautilus_View_install.oaf.in.h:7
+#, fuzzy
+msgid "View as Install"
+msgstr "Sampla"
+
+#. this stuff flies by so fast, it's probably enough to just say "info"
+#: components/install-view/callbacks.c:64
+msgid "Getting package information ..."
+msgstr ""
+
+#: components/install-view/callbacks.c:82
+#, c-format
+msgid "Checking \"%s\" for conflicts..."
+msgstr ""
+
+#: components/install-view/callbacks.c:185
+#, c-format
+msgid "Downloading 1 package (%s)"
+msgstr ""
+
+#: components/install-view/callbacks.c:187
+#, c-format
+msgid "Downloading %d packages (%s)"
+msgstr ""
+
+#: components/install-view/callbacks.c:236
+#, c-format
+msgid "Downloading \"%s\""
+msgstr ""
+
+#: components/install-view/callbacks.c:242
+#, c-format
+msgid "0K of %dK"
+msgstr ""
+
+#: components/install-view/callbacks.c:249
+#, c-format
+msgid ""
+"The package \"%s\" requires \"%s\" to run.\n"
+"Downloading \"%s\" now."
+msgstr ""
+
+#: components/install-view/callbacks.c:252
+#, c-format
+msgid "Attempting to download package \"%s\"."
+msgstr ""
+
+#: components/install-view/callbacks.c:262
+#: components/install-view/callbacks.c:333
+msgid "Complete"
+msgstr ""
+
+#: components/install-view/callbacks.c:266
+#, c-format
+msgid ""
+"The package \"%s\" requires \"%s\" to run.\n"
+"\"%s\" has been successfully downloaded."
+msgstr ""
+
+#: components/install-view/callbacks.c:269
+#, c-format
+msgid "The package \"%s\" has been successfully downloaded."
+msgstr ""
+
+#: components/install-view/callbacks.c:287
+#, c-format
+msgid "%dK of %dK"
+msgstr ""
+
+#: components/install-view/callbacks.c:316
+#, c-format
+msgid "Download of package \"%s\" failed!"
+msgstr ""
+
+#: components/install-view/callbacks.c:338
+#, c-format
+msgid ""
+"The package \"%s\" requires \"%s\" to run.\n"
+"\"%s\" has been successfully downloaded and installed."
+msgstr ""
+
+#: components/install-view/callbacks.c:341
+#, c-format
+msgid "\"%s\" has been successfully downloaded and installed."
+msgstr ""
+
+#. starting a new package -- create new progress indicator
+#: components/install-view/callbacks.c:369
+#, c-format
+msgid "Installing package %d of %d"
+msgstr ""
+
+#: components/install-view/callbacks.c:396
+#, c-format
+msgid ""
+"The package \"%s\" requires \"%s\" to run.\n"
+"\"%s\" is now being installed."
+msgstr ""
+
+#: components/install-view/callbacks.c:399
+#, c-format
+msgid "Now installing package \"%s\"."
+msgstr ""
+
+#: components/install-view/callbacks.c:407
+#: components/install-view/nautilus-install-view.c:894
+#, c-format
+msgid "Installing \"%s\""
+msgstr ""
+
+#: components/install-view/callbacks.c:415
+#, c-format
+msgid "%d%%"
+msgstr ""
+
+#: components/install-view/callbacks.c:443
+#, c-format
+msgid "Installation failed on %s"
+msgstr ""
+
+#: components/install-view/callbacks.c:471
+msgid "I ran into problems while installing."
+msgstr ""
+
+#: components/install-view/callbacks.c:472
+msgid "I'd like to try the following :"
+msgstr ""
+
+#: components/install-view/callbacks.c:481
+msgid "Is this ok ?"
+msgstr ""
+
+#: components/install-view/callbacks.c:556
+msgid "Installation cancelled."
+msgstr ""
+
+#: components/install-view/callbacks.c:558
+msgid "This package has already been installed."
+msgstr ""
+
+#: components/install-view/callbacks.c:560
+#: components/install-view/callbacks.c:657
+msgid "Installation complete."
+msgstr ""
+
+#: components/install-view/callbacks.c:564
+msgid "Installation failed."
+msgstr ""
+
+#. some succeeded; some failed
+#: components/install-view/callbacks.c:568
+msgid "Some packages installed successfully:"
+msgstr ""
+
+#: components/install-view/callbacks.c:577
+msgid ""
+"\n"
+"Some packages failed:"
+msgstr ""
+
+#: components/install-view/callbacks.c:626
+msgid "Erase the RPM files?"
+msgstr ""
+
+#: components/install-view/callbacks.c:628
+msgid "Erase the leftover RPM files?"
+msgstr ""
+
+#: components/install-view/callbacks.c:658
+msgid "Ok"
+msgstr ""
+
+#: components/install-view/callbacks.c:673
+msgid ""
+"A core package of Nautilus has been\n"
+"updated.  You should restart Nautilus.\n"
+"\n"
+"Do you wish to do that now?"
+msgstr ""
+
+#. Setup the title
+#: components/install-view/forms.c:201
+msgid "Easy Install"
+msgstr ""
+
+#. Setup the progress header
+#. FIXME: the middle header is all fubar now, so we just say "messages", but the spec
+#. * shows "progress" over the 2nd column of the message box.  it's just too hard to get
+#. * it aligned currently.
+#.
+#: components/install-view/forms.c:327
+msgid "Messages"
+msgstr ""
+
+#: components/install-view/forms.c:358
+#: components/summary-view/nautilus-summary-view.c:635
+#, c-format
+msgid "Version: %s"
+msgstr ""
+
+#: components/install-view/forms.c:407
+msgid "These packages are ready to be downloaded and installed:"
+msgstr ""
+
+#: components/install-view/forms.c:408
+msgid "If you wish to download and install these packages, click Continue."
+msgstr ""
+
+#: components/install-view/forms.c:411
+msgid "These packages are ready to be uninstalled:"
+msgstr ""
+
+#: components/install-view/forms.c:412
+msgid "If you wish to uninstall these packages, click Continue."
+msgstr ""
+
+#: components/install-view/forms.c:415
+msgid "These packages are ready to be reverted:"
+msgstr ""
+
+#: components/install-view/forms.c:416
+msgid "If you wish to revert these packages, click Continue."
+msgstr ""
+
+#: components/install-view/forms.c:464
+#, c-format
+msgid "for a total of %ld MB."
+msgstr ""
+
+#: components/install-view/forms.c:466
+#, c-format
+msgid "for a total of %ld KB."
+msgstr ""
+
+#. buttons
+#: components/install-view/forms.c:478
+msgid "Continue"
+msgstr ""
+
+#: components/install-view/forms.c:482
+msgid "Cancel"
+msgstr "Cealaigh"
+
+#: components/install-view/nautilus-install-view.c:58
+msgid ""
+"Please enter your root password to continue installing. (This password is "
+"not saved or transmitted outside of your system.)"
+msgstr ""
+
+#: components/install-view/nautilus-install-view.c:416
+#, c-format
+msgid "%s is in GNOME (footprint) > %s"
+msgstr ""
+
+#: components/install-view/nautilus-install-view.c:434
+#, c-format
+msgid "%s is in the GNOME (footprint) menu.\n"
+msgstr ""
+
+#: components/install-view/nautilus-install-view.c:449
+#, c-format
+msgid "%s is in the KDE menu.\n"
+msgstr ""
+
+#: components/install-view/nautilus-install-view.c:650
+msgid "Installation Complete"
+msgstr ""
+
+#: components/install-view/nautilus-install-view.c:705
+#, c-format
+msgid ""
+"%sTo start %s, click the Launch button below, or to create a shortcut, drag "
+"the icon on the right to the GNOME panel or your desktop."
+msgstr ""
+
+#. couldn't find an icon
+#: components/install-view/nautilus-install-view.c:713
+#, c-format
+msgid "%sTo start %s, click the Launch button below."
+msgstr ""
+
+#: components/install-view/nautilus-install-view.c:768
+msgid "Incorrect password."
+msgstr ""
+
+#: components/install-view/nautilus-install-view.c:773
+msgid "Authenticate as root"
+msgstr ""
+
+#: components/install-view/nautilus-install-view.c:890
+msgid "Installing packages"
+msgstr ""
+
+#: components/install-view/nautilus-install-view.c:892
+msgid "Installing remote package"
+msgstr ""
+
+#: components/install-view/nautilus-install-view.c:896
+msgid "Installing some package"
+msgstr ""
+
+#: components/install-view/nautilus-install-view.c:913
+msgid ""
+"The trilobite install service is missing:\n"
+"Installs will not work."
+msgstr ""
+
+#: components/install-view/nautilus-install-view.c:962
+msgid "Contacting the Eazel Software Catalog ..."
+msgstr ""
+
+#: components/install-view/nautilus-install-view.c:1020
+msgid "Checking for authorization..."
+msgstr ""
+
+#: components/install-view/nautilus-install-view.c:1092
+msgid "Aborting package downloads (please wait) ..."
+msgstr ""
+
+#: components/install-view/nautilus-install-view.c:1112
+msgid "Package download aborted."
+msgstr ""
+
+#: components/install-view/nautilus-install-view.c:1113
+msgid "Aborted"
+msgstr ""
+
+#: components/install/command-line/trilobite-alt-install-corba.c:106
+msgid "Set the default answer to continue, also default delete to Yes"
+msgstr ""
+
+#: components/install/command-line/trilobite-alt-install-corba.c:107
+msgid "Specify search cgi"
+msgstr ""
+
+#: components/install/command-line/trilobite-alt-install-corba.c:108
+#: components/install/command-line/trilobite-gen-xml.c:43
+#: components/install/command-line/trilobite-test-packsys.c:589
+#: components/install/command-line/trilobite-test-softcat.c:57
+msgid "Show debug output"
+msgstr ""
+
+#: components/install/command-line/trilobite-alt-install-corba.c:109
+msgid "10 sec delay after starting service"
+msgstr ""
+
+#: components/install/command-line/trilobite-alt-install-corba.c:110
+msgid "Allow downgrades"
+msgstr ""
+
+#: components/install/command-line/trilobite-alt-install-corba.c:111
+msgid "Erase packages"
+msgstr ""
+
+#: components/install/command-line/trilobite-alt-install-corba.c:112
+msgid "enable ei2"
+msgstr ""
+
+#: components/install/command-line/trilobite-alt-install-corba.c:113
+msgid "RPM args are filename"
+msgstr ""
+
+#: components/install/command-line/trilobite-alt-install-corba.c:114
+msgid "Use ftp"
+msgstr ""
+
+#: components/install/command-line/trilobite-alt-install-corba.c:115
+msgid "Use local"
+msgstr ""
+
+#: components/install/command-line/trilobite-alt-install-corba.c:116
+msgid "Use http"
+msgstr ""
+
+#: components/install/command-line/trilobite-alt-install-corba.c:117
+msgid "RPM args are Eazel Ids"
+msgstr ""
+
+#: components/install/command-line/trilobite-alt-install-corba.c:118
+msgid "machine readable output"
+msgstr ""
+
+#: components/install/command-line/trilobite-alt-install-corba.c:119
+msgid "Don't print fancy percent output"
+msgstr ""
+
+#: components/install/command-line/trilobite-alt-install-corba.c:120
+msgid "don't use eazel auth stuff"
+msgstr ""
+
+#: components/install/command-line/trilobite-alt-install-corba.c:121
+msgid "Specify package file"
+msgstr ""
+
+#: components/install/command-line/trilobite-alt-install-corba.c:122
+msgid "RPM args are needed files"
+msgstr ""
+
+#: components/install/command-line/trilobite-alt-install-corba.c:123
+msgid "Run Query"
+msgstr ""
+
+#: components/install/command-line/trilobite-alt-install-corba.c:124
+#, fuzzy
+msgid "Revert"
+msgstr "Scríos"
+
+#: components/install/command-line/trilobite-alt-install-corba.c:125
+msgid "Set root"
+msgstr ""
+
+#: components/install/command-line/trilobite-alt-install-corba.c:126
+msgid "Specify server"
+msgstr ""
+
+#: components/install/command-line/trilobite-alt-install-corba.c:127
+msgid "Dont print too much, just problems and download"
+msgstr ""
+
+#: components/install/command-line/trilobite-alt-install-corba.c:128
+msgid "Perform ssl renaming"
+msgstr ""
+
+#: components/install/command-line/trilobite-alt-install-corba.c:129
+msgid "argument is a suite id"
+msgstr ""
+
+#: components/install/command-line/trilobite-alt-install-corba.c:130
+msgid "Test run"
+msgstr ""
+
+#: components/install/command-line/trilobite-alt-install-corba.c:131
+msgid "Allow username"
+msgstr ""
+
+#: components/install/command-line/trilobite-alt-install-corba.c:132
+#: trilobite/libtrilobite-install/trilobite-install-problem.c:1018
+msgid "Allow upgrades"
+msgstr ""
+
+#: components/install/command-line/trilobite-alt-install-corba.c:133
+msgid "Verbose output"
+msgstr ""
+
+#: components/install/command-line/trilobite-alt-install-corba.c:134
+msgid "Install a specific package version"
+msgstr ""
+
+#: components/install/command-line/trilobite-alt-install-corba.c:157
+msgid "*** You cannot specify more then one protocol type.\n"
+msgstr ""
+
+#: components/install/command-line/trilobite-alt-install-corba.c:174
+msgid "*** Erase and revert ?  Somebody set up us the bomb!\n"
+msgstr ""
+
+#: components/install/command-line/trilobite-alt-install-corba.c:283
+#, c-format
+msgid "File conflict checking %s...\n"
+msgstr ""
+
+#: components/install/command-line/trilobite-alt-install-corba.c:297
+#, c-format
+msgid "File uniqueness checking %s...\n"
+msgstr ""
+
+#: components/install/command-line/trilobite-alt-install-corba.c:311
+#, c-format
+msgid "Feature consistency checking %s...\n"
+msgstr ""
+
+#: components/install/command-line/trilobite-alt-install-corba.c:342
+#: trilobite/libtrilobite-install/trilobite-install-protocols.c:110
+#: trilobite/libtrilobite-install/trilobite-install-protocols.c:248
+#, c-format
+msgid "Downloading %s..."
+msgstr ""
+
+#: components/install/command-line/trilobite-alt-install-corba.c:358
+#, c-format
+msgid "Downloading %s... (%d/%d) = %d%% %.1f KB/s"
+msgstr ""
+
+#: components/install/command-line/trilobite-alt-install-corba.c:366
+#, c-format
+msgid "Downloading %s... (%d/%d) = %d%%"
+msgstr ""
+
+#: components/install/command-line/trilobite-alt-install-corba.c:374
+#, c-format
+msgid "Downloading %s... (%d/%d) %.1f KB/s Done      \n"
+msgstr ""
+
+#: components/install/command-line/trilobite-alt-install-corba.c:379
+#, c-format
+msgid "Downloading %s... %3.1f KB/s Done\n"
+msgstr ""
+
+#: components/install/command-line/trilobite-alt-install-corba.c:407
+#, c-format
+msgid "Installing %s (%d/%d), (%d/%d)b - (%d/%d) = %d%%"
+msgstr ""
+
+#: components/install/command-line/trilobite-alt-install-corba.c:415
+#, c-format
+msgid "Uninstalling %s (%d/%d), (%d/%d)b - (%d/%d) = %d%%"
+msgstr ""
+
+#: components/install/command-line/trilobite-alt-install-corba.c:437
+#, c-format
+msgid "Installing %s (%d/%d), (%d/%d)b - (%d/%d) = %d%% Done\n"
+msgstr ""
+
+#: components/install/command-line/trilobite-alt-install-corba.c:444
+#, c-format
+msgid "Uninstalling %s (%d/%d), (%d/%d)b - (%d/%d) = %d%% Done\n"
+msgstr ""
+
+#: components/install/command-line/trilobite-alt-install-corba.c:452
+#, fuzzy
+msgid "Done\n"
+msgstr "Críochnaithe!"
+
+#: components/install/command-line/trilobite-alt-install-corba.c:472
+#, c-format
+msgid "Download of %s FAILED\n"
+msgstr ""
+
+#: components/install/command-line/trilobite-alt-install-corba.c:494
+#, c-format
+msgid "Package %s failed to uninstall.\n"
+msgstr ""
+
+#: components/install/command-line/trilobite-alt-install-corba.c:496
+#, c-format
+msgid "Package %s failed to install.\n"
+msgstr ""
+
+#: components/install/command-line/trilobite-alt-install-corba.c:516
+#, c-format
+msgid "\t* Problem : %s\n"
+msgstr ""
+
+#: components/install/command-line/trilobite-alt-install-corba.c:524
+#, c-format
+msgid "\t* Action : %s\n"
+msgstr ""
+
+#: components/install/command-line/trilobite-alt-install-corba.c:567
+#, fuzzy
+msgid "Cancelling operation\n"
+msgstr "Cealaigh"
+
+#: components/install/command-line/trilobite-alt-install-corba.c:578
+#, c-format
+msgid "About to install a total of %d packages, %dKB\n"
+msgstr ""
+
+#: components/install/command-line/trilobite-alt-install-corba.c:582
+#, c-format
+msgid "About to uninstall a total of %d packages, %dKB\n"
+msgstr ""
+
+#: components/install/command-line/trilobite-alt-install-corba.c:586
+#, c-format
+msgid "About to revert a total of %d packages, %d KB\n"
+msgstr ""
+
+#. I18N note: %s is a package name
+#: components/install/command-line/trilobite-alt-install-corba.c:603
+#, c-format
+msgid "\t* %s and it's dependencies\n"
+msgstr ""
+
+#. I18N note: %s is a package name
+#: components/install/command-line/trilobite-alt-install-corba.c:606
+#, c-format
+msgid "\t* %s\n"
+msgstr ""
+
+#. I18N note: the (y/n) is translateable. There is later a 1 character
+#. string with the context "y" which is the "yes" indicator.
+#. If you eg. translate this to Danish : "Fortsæt (j/n) " and
+#. translated the "y" later to "j", da_DK users can respond with
+#. "j" "ja" "JA" etc.
+#: components/install/command-line/trilobite-alt-install-corba.c:634
+msgid "Save transaction report ? (y/n) "
+msgstr ""
+
+#. I18N note: y is the letter for the word Yes. This is
+#. used in the response for a yes/no questions. Your translation
+#. must be 1 character only.
+#: components/install/command-line/trilobite-alt-install-corba.c:645
+#: components/install/command-line/trilobite-alt-install-corba.c:765
+#: components/install/command-line/trilobite-alt-install-corba.c:807
+msgid "y"
+msgstr ""
+
+#: components/install/command-line/trilobite-alt-install-corba.c:666
+#, c-format
+msgid "Dependency : %s needs %s\n"
+msgstr ""
+
+#. I18N note: %s is a package name
+#: components/install/command-line/trilobite-alt-install-corba.c:684
+#, c-format
+msgid "Package %s failed md5 check!\n"
+msgstr ""
+
+#. I18N note: %s is a 32 byte hex number
+#: components/install/command-line/trilobite-alt-install-corba.c:686
+#, c-format
+msgid "\t* server MD5 checksum is %s\n"
+msgstr ""
+
+#. I18N note: %s is a 32 byte hex number
+#: components/install/command-line/trilobite-alt-install-corba.c:688
+#, c-format
+msgid "\t* actual MD5 checksum is %s\n"
+msgstr ""
+
+#. I18N note: the (y/n) is translateable. There is later a 1 character
+#. string with the context "y" which is the "yes" indicator.
+#. If you eg. translate this to Danish : "Fortsæt (j/n " and
+#. translated the "y" later to "j", da_DK users can respond with
+#. "j" "ja" "JA" etc.
+#: components/install/command-line/trilobite-alt-install-corba.c:754
+msgid "Continue? (y/n) "
+msgstr ""
+
+#. I18N note: the (y/n) is translateable. There is later a 1 character
+#. string with the context "y" which is the "yes" indicator.
+#. If you eg. translate this to Danish : "Fortsæt (j/n " and
+#. translated the "y" later to "j", da_DK users can respond with
+#. "j" "ja" "JA" etc.
+#: components/install/command-line/trilobite-alt-install-corba.c:795
+msgid "Should I delete the RPM files? (y/n) "
+msgstr ""
+
+#: components/install/command-line/trilobite-alt-install-corba.c:827
+msgid "Operation ok\n"
+msgstr ""
+
+#: components/install/command-line/trilobite-alt-install-corba.c:829
+msgid "Operation failed\n"
+msgstr ""
+
+#: components/install/command-line/trilobite-alt-install-corba.c:955
+msgid "Installing"
+msgstr ""
+
+#: components/install/command-line/trilobite-alt-install-corba.c:964
+msgid "Uninstalling"
+msgstr ""
+
+#: components/install/command-line/trilobite-alt-install-corba.c:979
+msgid "Only one operation at a time please."
+msgstr ""
+
+#: components/install/command-line/trilobite-alt-install-corba.c:984
+#: components/install/command-line/trilobite-alt-install-corba.c:992
+#: components/install/command-line/trilobite-alt-install-corba.c:1036
+#: components/install/command-line/trilobite-alt-install-corba.c:1043
+#, c-format
+msgid "%s: --help for usage\n"
+msgstr ""
+
+#: components/install/command-line/trilobite-alt-install-corba.c:1008
+#, c-format
+msgid "Name         : %s\n"
+msgstr ""
+
+#: components/install/command-line/trilobite-alt-install-corba.c:1009
+#, c-format
+msgid "Version      : %s\n"
+msgstr ""
+
+#: components/install/command-line/trilobite-alt-install-corba.c:1010
+#, c-format
+msgid "Minor        : %s\n"
+msgstr ""
+
+#: components/install/command-line/trilobite-alt-install-corba.c:1012
+#, c-format
+msgid "Size         : %d\n"
+msgstr ""
+
+#: components/install/command-line/trilobite-alt-install-corba.c:1013
+#, c-format
+msgid "Arch         : %s\n"
+msgstr ""
+
+#: components/install/command-line/trilobite-alt-install-corba.c:1014
+#, c-format
+msgid "Distribution : %s\n"
+msgstr ""
+
+#: components/install/command-line/trilobite-alt-install-corba.c:1015
+#, c-format
+msgid "Description  : %s\n"
+msgstr ""
+
+#: components/install/command-line/trilobite-alt-install-corba.c:1017
+#, c-format
+msgid "Install root : %s\n"
+msgstr ""
+
+#: components/install/command-line/trilobite-alt-install-corba.c:1020
+msgid "Provides     : \n"
+msgstr ""
+
+#: components/install/command-line/trilobite-alt-install-corba.c:1062
+#, c-format
+msgid "exit code %d\n"
+msgstr ""
+
+#: components/install/command-line/trilobite-gen-xml.c:41
+msgid "Specify package list to use (/var/eazel/service/package-list.xml)"
+msgstr ""
+
+#: components/install/command-line/trilobite-gen-xml.c:42
+msgid "Use specified file to generate a package list, requires --packagelist"
+msgstr ""
+
+#: components/install/command-line/trilobite-test-softcat.c:55
+msgid "Softcat server to connect to"
+msgstr ""
+
+#: components/install/command-line/trilobite-test-softcat.c:56
+msgid "Use alternate CGI path"
+msgstr ""
+
+#: components/install/command-line/trilobite-test-softcat.c:58
+msgid "Connect as a softcat user through ammonite"
+msgstr ""
+
+#: components/install/command-line/trilobite-test-softcat.c:59
+msgid "Number of times to try the request"
+msgstr ""
+
+#: components/install/command-line/trilobite-test-softcat.c:60
+msgid "Delay between request retries, in usec"
+msgstr ""
+
+#: components/install/command-line/trilobite-test-softcat.c:61
+msgid "Lookup by Eazel package id"
+msgstr ""
+
+#: components/install/command-line/trilobite-test-softcat.c:62
+msgid "Lookup package that features a feature/file"
+msgstr ""
+
+#: components/install/command-line/trilobite-test-softcat.c:63
+msgid "Lookup package with a specific version"
+msgstr ""
+
+#: components/install/command-line/trilobite-test-softcat.c:64
+msgid "(with --version) Use >= comparison"
+msgstr ""
+
+#: components/install/command-line/trilobite-test-softcat.c:65
+msgid "use check function (for debugging)"
+msgstr ""
+
+#: components/install/command-line/trilobite-test-softcat.c:66
+msgid "Show detailed sub-package info"
+msgstr ""
+
+#: components/install/command-line/trilobite-test-softcat.c:67
+msgid "enable funk parser"
+msgstr ""
+
+#: components/install/server/Trilobite_Service_install.oaf.in.h:1
+msgid "Factory for the install service"
+msgstr ""
+
+#: components/inventory-view/Nautilus_View_inventory.oaf.in.h:1
+#, fuzzy
+msgid "Nautilus Inventory view"
+msgstr "Nautilus"
+
+#: components/inventory-view/Nautilus_View_inventory.oaf.in.h:2
+#, fuzzy
+msgid "Nautilus Inventory view factory"
+msgstr "Nautilus"
+
+#: components/inventory-view/Nautilus_View_inventory.oaf.in.h:3
+msgid "Nautilus System Inventory component's component's factory"
+msgstr ""
+
+#: components/inventory-view/Nautilus_View_inventory.oaf.in.h:4
+msgid "System Inventory"
+msgstr ""
+
+#: components/inventory-view/Nautilus_View_inventory.oaf.in.h:5
+msgid "System Inventory Viewer"
+msgstr ""
+
+#: components/inventory-view/Nautilus_View_inventory.oaf.in.h:6
+msgid "System inventory view component"
+msgstr ""
+
+#: components/inventory-view/Nautilus_View_inventory.oaf.in.h:7
+msgid "View as System Inventory"
+msgstr ""
+
+#: components/inventory/service/Trilobite_Service_inventory.oaf.in.h:1
+msgid "Factory for the inventory service"
+msgstr ""
+
+#: components/inventory/service/Trilobite_Service_inventory.oaf.in.h:2
+msgid "Inventory"
+msgstr ""
+
+#: components/inventory/service/trilobite-inventory-client.c:70
+msgid "Enable inventory upload."
+msgstr ""
+
+#: components/inventory/service/trilobite-inventory-client.c:72
+msgid "Disable inventory upload."
+msgstr ""
+
+#: components/inventory/service/trilobite-inventory-client.c:73
+msgid "Display information about current inventory settings."
+msgstr ""
+
+#: components/inventory/service/trilobite-inventory-client.c:74
+msgid "Upload inventory now, if not up to date."
+msgstr ""
+
+#: components/password-view/Nautilus_View_change-password.oaf.in.h:1
+msgid "Change Password"
+msgstr ""
+
+#: components/password-view/Nautilus_View_change-password.oaf.in.h:2
+msgid "Change Password Viewer"
+msgstr ""
+
+#: components/password-view/Nautilus_View_change-password.oaf.in.h:3
+msgid "Eazel Change Password View"
+msgstr ""
+
+#: components/password-view/Nautilus_View_change-password.oaf.in.h:4
+msgid "Eazel Change Password view component"
+msgstr ""
+
+#: components/password-view/Nautilus_View_change-password.oaf.in.h:5
+msgid "Nautilus Service Login View Factory"
+msgstr ""
+
+#: components/password-view/Nautilus_View_change-password.oaf.in.h:6
+msgid "Service Login View Component's Factory"
+msgstr ""
+
+#: components/password-view/Nautilus_View_change-password.oaf.in.h:7
+msgid "View as Change Password"
+msgstr ""
+
+#. Setup the title
+#: components/password-view/nautilus-change-password-view.c:151
+msgid "Please Change Your Eazel Password"
+msgstr ""
+
+#. add password boxes
+#: components/password-view/nautilus-change-password-view.c:172
+msgid "User Name:"
+msgstr ""
+
+#: components/password-view/nautilus-change-password-view.c:179
+msgid "Current Password:"
+msgstr ""
+
+#: components/password-view/nautilus-change-password-view.c:186
+msgid "New Password:"
+msgstr ""
+
+#: components/password-view/nautilus-change-password-view.c:193
+msgid "Confirm New Password:"
+msgstr ""
+
+#. allocate the command buttons - first the change_password button
+#: components/password-view/nautilus-change-password-view.c:225
+msgid "Change my password"
+msgstr ""
+
+#. now allocate the account maintenance button
+#: components/password-view/nautilus-change-password-view.c:232
+msgid "I need assistance"
+msgstr ""
+
+#: components/password-view/nautilus-change-password-view.c:295
+msgid "Your password has been changed!"
+msgstr ""
+
+#: components/password-view/nautilus-change-password-view.c:326
+msgid ""
+"I'm sorry, but that password\n"
+"is incorrect.  Please try again."
+msgstr ""
+
+#: components/password-view/nautilus-change-password-view.c:330
+msgid ""
+"I'm sorry, but your new password\n"
+"must be at least six (6) characters long.\n"
+"Please try another one."
+msgstr ""
+
+#: components/password-view/nautilus-change-password-view.c:335
+msgid ""
+"I'm sorry, but your new password\n"
+"can't be ridiculously long.\n"
+"Please try another one."
+msgstr ""
+
+#: components/password-view/nautilus-change-password-view.c:344
+msgid ""
+"I'm sorry, but your new password must\n"
+"contain letters along with at least one\n"
+"number or symbol. Please try another one."
+msgstr ""
+
+#: components/password-view/nautilus-change-password-view.c:348
+msgid ""
+"I'm sorry, but I hit an unexpected\n"
+"error. Please try again, with\n"
+"different passwords."
+msgstr ""
+
+#: components/password-view/nautilus-change-password-view.c:432
+msgid ""
+"I'm sorry, but I got an unexpected\n"
+"error.  Please try again."
+msgstr ""
+
+#: components/password-view/nautilus-change-password-view.c:465
+msgid ""
+"I'm sorry, but your new password\n"
+"wasn't typed the same way twice.\n"
+"Please try again."
+msgstr ""
+
+#: components/summary-view/Nautilus_View_services-summary.oaf.in.h:1
+msgid "Nautilus Service Summary View Factory"
+msgstr ""
+
+#: components/summary-view/Nautilus_View_services-summary.oaf.in.h:2
+#, fuzzy
+msgid "Nautilus Summary View"
+msgstr "Nautilus: Leabharmarcanna"
+
+#: components/summary-view/Nautilus_View_services-summary.oaf.in.h:3
+msgid "Service Summary View Component's Factory"
+msgstr ""
+
+#: components/summary-view/Nautilus_View_services-summary.oaf.in.h:4
+msgid "Service Summary view component"
+msgstr ""
+
+#: components/summary-view/Nautilus_View_services-summary.oaf.in.h:5
+msgid "Summary"
+msgstr ""
+
+#: components/summary-view/Nautilus_View_services-summary.oaf.in.h:6
+#, fuzzy
+msgid "Summary Viewer"
+msgstr "Sampla"
+
+#: components/summary-view/Nautilus_View_services-summary.oaf.in.h:7
+#, fuzzy
+msgid "View as Summary"
+msgstr "Sampla"
+
+#: components/summary-view/nautilus-summary-callbacks.c:93
+msgid ""
+"Sorry, network problems are preventing you from connecting to Eazel Services."
+msgstr ""
+
+#. FIXME we really should use the services alert icon here, eh?
+#: components/summary-view/nautilus-summary-callbacks.c:98
+msgid ""
+"Your Eazel Services account has not yet been activated.  You can't log into "
+"Eazel Services until you activate your account.\n"
+"\n"
+"Please check your email for activation instructions."
+msgstr ""
+
+#. FIXME we really should use the services alert icon here, eh?
+#: components/summary-view/nautilus-summary-callbacks.c:105
+msgid ""
+"Your Eazel Service User Account has been temporarily disabled.\n"
+"\n"
+"Please try again in a few minutes, or contact Eazel support if this problem "
+"continues."
+msgstr ""
+
+#: components/summary-view/nautilus-summary-callbacks.c:127
+msgid "We're sorry, but your name and password are still not recognized."
+msgstr ""
+
+#: components/summary-view/nautilus-summary-dialogs.c:67
+msgid "Eazel Service Login Error"
+msgstr ""
+
+#: components/summary-view/nautilus-summary-dialogs.c:78
+msgid "Service Error"
+msgstr ""
+
+#: components/summary-view/nautilus-summary-dialogs.c:102
+msgid "Register Now"
+msgstr ""
+
+#: components/summary-view/nautilus-summary-dialogs.c:104
+msgid "Help"
+msgstr ""
+
+#: components/summary-view/nautilus-summary-dialogs.c:113
+msgid "Services Login"
+msgstr ""
+
+#: components/summary-view/nautilus-summary-dialogs.c:129
+msgid "Username:"
+msgstr ""
+
+#: components/summary-view/nautilus-summary-dialogs.c:136
+msgid "Password:"
+msgstr ""
+
+#: components/summary-view/nautilus-summary-dialogs.c:144
+#: components/summary-view/nautilus-summary-dialogs.c:153
+msgid "Please log in to Eazel Services"
+msgstr ""
+
+#: components/summary-view/nautilus-summary-dialogs.c:148
+msgid "Your user name or password were not correct.  Please try again."
+msgstr ""
+
+#: components/summary-view/nautilus-summary-view-ui.xml.h:1
+msgid "Configure your service preferences"
+msgstr ""
+
+#: components/summary-view/nautilus-summary-view-ui.xml.h:2
+msgid "Go to the Eazel Services Registration Form"
+msgstr ""
+
+#: components/summary-view/nautilus-summary-view-ui.xml.h:3
+msgid "Log out from Eazel Services"
+msgstr ""
+
+#: components/summary-view/nautilus-summary-view-ui.xml.h:4
+msgid "Service _Preferences"
+msgstr ""
+
+#: components/summary-view/nautilus-summary-view-ui.xml.h:5
+msgid "Show the log-in dialog box"
+msgstr ""
+
+#: components/summary-view/nautilus-summary-view-ui.xml.h:6
+msgid "_Log in to Eazel Services"
+msgstr ""
+
+#: components/summary-view/nautilus-summary-view-ui.xml.h:7
+msgid "_Log out from Eazel Services"
+msgstr ""
+
+#: components/summary-view/nautilus-summary-view-ui.xml.h:8
+msgid "_Register for Eazel Services"
+msgstr ""
+
+#: components/summary-view/nautilus-summary-view.c:105
+msgid "Go There"
+msgstr ""
+
+#: components/summary-view/nautilus-summary-view.c:108
+msgid "More Info"
+msgstr ""
+
+#: components/summary-view/nautilus-summary-view.c:119
+msgid "Account Preferences"
+msgstr ""
+
+#: components/summary-view/nautilus-summary-view.c:120
+msgid "Logout"
+msgstr ""
+
+#: components/summary-view/nautilus-summary-view.c:121
+#: components/summary-view/nautilus-summary-view.c:129
+msgid "Terms of Use"
+msgstr ""
+
+#: components/summary-view/nautilus-summary-view.c:122
+#: components/summary-view/nautilus-summary-view.c:130
+msgid "Privacy Statement"
+msgstr ""
+
+#: components/summary-view/nautilus-summary-view.c:127
+msgid "Register"
+msgstr ""
+
+#: components/summary-view/nautilus-summary-view.c:128
+#, fuzzy
+msgid "Login"
+msgstr "Áit"
+
+#: components/summary-view/nautilus-summary-view.c:158
+#, c-format
+msgid "Eazel Services - Welcome, %s!"
+msgstr ""
+
+#: components/summary-view/nautilus-summary-view.c:163
+msgid "Eazel Services - You are not logged in"
+msgstr ""
+
+#: components/summary-view/nautilus-summary-view.c:170
+msgid "Connecting to Eazel Services..."
+msgstr ""
+
+#: components/summary-view/nautilus-summary-view.c:729
+msgid "Services"
+msgstr ""
+
+#: components/summary-view/nautilus-summary-view.c:740
+msgid "Featured Downloads"
+msgstr ""
+
+#: components/summary-view/nautilus-summary-view.c:870
+msgid ""
+"Unable to get services data from Eazel's server. The server might be "
+"unavailable right now, or your computer might be configured incorrectly. "
+"Please contact support@eazel.com."
+msgstr ""
+
+#: components/summary-view/nautilus-summary-view.c:880
+msgid ""
+"Found a problem with services data on Eazel servers. Please contact "
+"support@eazel.com."
+msgstr ""
+
+#: components/summary-view/nautilus-summary-view.c:903
+msgid ""
+"Information is missing from the redirect data on Eazel servers. Please "
+"contact support@eazel.com."
+msgstr ""
+
+#: components/summary-view/nautilus-summary-view.c:945
+msgid ""
+"Unable to connect to Eazel's server. The server might be unavailable right "
+"now, or your computer might be configured incorrectly. You could try again "
+"later."
+msgstr ""
+
+#: components/summary-view/nautilus-summary-view.c:955
+msgid ""
+"Found a problem with redirect data on Eazel servers. Please contact "
+"support@eazel.com."
+msgstr ""
+
+#: components/summary-view/nautilus-summary-view.c:972
+msgid "Failed to upload system inventory."
+msgstr ""
+
+#: components/summary-view/nautilus-summary-view.c:1035
+msgid "Eazel Services"
+msgstr ""
+
+#: trilobite/libtrilobite-install/trilobite-install-logic2.c:117
+msgid "Failed to lock the downloaded file"
+msgstr ""
+
+#: trilobite/libtrilobite-install/trilobite-install-logic2.c:134
+#, c-format
+msgid "MD5 mismatch, package %s may be compromised"
+msgstr ""
+
+#: trilobite/libtrilobite-install/trilobite-install-logic2.c:150
+#, c-format
+msgid "No MD5 available for %s"
+msgstr ""
+
+#. I18N note: "%is is ok" in the sense that %s=package name and the
+#. package is intact
+#: trilobite/libtrilobite-install/trilobite-install-logic2.c:356
+#, c-format
+msgid "%s is ok"
+msgstr ""
+
+#: trilobite/libtrilobite-install/trilobite-install-logic2.c:462
+#, c-format
+msgid "%s-%s version %s-%s already installed"
+msgstr ""
+
+#: trilobite/libtrilobite-install/trilobite-install-logic2.c:466
+#, c-format
+msgid "%s version %s already installed"
+msgstr ""
+
+#: trilobite/libtrilobite-install/trilobite-install-logic2.c:475
+#: trilobite/libtrilobite-install/trilobite-install-logic2.c:480
+#, c-format
+msgid "%s upgrades from version %s-%s to %s-%s"
+msgstr ""
+
+#: trilobite/libtrilobite-install/trilobite-install-logic2.c:489
+#, c-format
+msgid "%s downgrades from version %s-%s to %s-%s"
+msgstr ""
+
+#: trilobite/libtrilobite-install/trilobite-install-logic2.c:494
+#, c-format
+msgid "%s downgrades from version %s to %s"
+msgstr ""
+
+#: trilobite/libtrilobite-install/trilobite-install-logic2.c:547
+#, c-format
+msgid "%s installs version %s-%s"
+msgstr ""
+
+#: trilobite/libtrilobite-install/trilobite-install-logic2.c:552
+#, c-format
+msgid "%s installs version %s"
+msgstr ""
+
+#: trilobite/libtrilobite-install/trilobite-install-logic2.c:733
+#: trilobite/libtrilobite-install/trilobite-install-logic2.c:915
+#, c-format
+msgid "Loading package info from file %s"
+msgstr ""
+
+#. I18N note: ok is for "package dependencies are ok", "not ok".. well guess...
+#: trilobite/libtrilobite-install/trilobite-install-logic2.c:1203
+msgid "ok"
+msgstr ""
+
+#: trilobite/libtrilobite-install/trilobite-install-logic2.c:1203
+msgid "not ok"
+msgstr ""
+
+#: trilobite/libtrilobite-install/trilobite-install-logic2.c:1384
+#, c-format
+msgid "Checking dependencies for %s"
+msgstr ""
+
+#. I18N note: both %s' are package names.
+#. related is in the sense that the two packages apparently
+#. are connected somehow, eg. foo and foo-devel
+#: trilobite/libtrilobite-install/trilobite-install-logic2.c:2044
+#, c-format
+msgid "%s is related to %s"
+msgstr ""
+
+#: trilobite/libtrilobite-install/trilobite-install-logic2.c:2120
+#, c-format
+msgid "updating %s to version %s-%s solves conflict"
+msgstr ""
+
+#: trilobite/libtrilobite-install/trilobite-install-logic2.c:2143
+#, c-format
+msgid "available update to %s (%s-%s) does not solves conflict"
+msgstr ""
+
+#: trilobite/libtrilobite-install/trilobite-install-logic2.c:2158
+#, c-format
+msgid "could not revive %s"
+msgstr ""
+
+#: trilobite/libtrilobite-install/trilobite-install-logic2.c:2314
+#, c-format
+msgid "file uniqueness checking %s"
+msgstr ""
+
+#: trilobite/libtrilobite-install/trilobite-install-logic2.c:2335
+#, c-format
+msgid "Duplicate file : %s occurs in %s and %s"
+msgstr ""
+
+#: trilobite/libtrilobite-install/trilobite-install-logic2.c:2346
+#: trilobite/libtrilobite-install/trilobite-install-logic2.c:2500
+msgid "... but it's ok, the packages are related"
+msgstr ""
+
+#: trilobite/libtrilobite-install/trilobite-install-logic2.c:2354
+#, c-format
+msgid "(there were %d other conflicts)"
+msgstr ""
+
+#: trilobite/libtrilobite-install/trilobite-install-logic2.c:2449
+#, c-format
+msgid "file conflict checking %s"
+msgstr ""
+
+#: trilobite/libtrilobite-install/trilobite-install-logic2.c:2486
+#, c-format
+msgid "file conflict : package %s already provides file %s also provided by %s"
+msgstr ""
+
+#. the owner of this file is a package that we're upgrading, and the
+#. * new version no longer has this file, so everything's okay.
+#: trilobite/libtrilobite-install/trilobite-install-logic2.c:2496
+#, c-format
+msgid "...but it is okay, we're upgrading %s and it ditched that file"
+msgstr ""
+
+#: trilobite/libtrilobite-install/trilobite-install-logic2.c:2588
+#, c-format
+msgid "checking feature consistency of %s"
+msgstr ""
+
+#: trilobite/libtrilobite-install/trilobite-install-logic2.c:2656
+#, c-format
+msgid ""
+"feature missing : %s breaks if %s is installed (feature %s would be lost"
+msgstr ""
+
+#: trilobite/libtrilobite-install/trilobite-install-logic2.c:2735
+#, c-format
+msgid "downloading %d packages"
+msgstr ""
+
+#: trilobite/libtrilobite-install/trilobite-install-logic2.c:2985
+#, c-format
+msgid "will upgrade %s"
+msgstr ""
+
+#: trilobite/libtrilobite-install/trilobite-install-logic2.c:2988
+#, c-format
+msgid "will downgrade %s"
+msgstr ""
+
+#: trilobite/libtrilobite-install/trilobite-install-logic2.c:2991
+#, c-format
+msgid "will install %s"
+msgstr ""
+
+#: trilobite/libtrilobite-install/trilobite-install-logic2.c:2994
+#, c-format
+msgid "will uninstall %s"
+msgstr ""
+
+#: trilobite/libtrilobite-install/trilobite-install-logic2.c:3079
+#: trilobite/libtrilobite-install/trilobite-install-problem.c:342
+#: trilobite/libtrilobite-install/trilobite-install-problem.c:345
+#, c-format
+msgid "%s requires %s"
+msgstr ""
+
+#: trilobite/libtrilobite-install/trilobite-install-logic2.c:3272
+#, c-format
+msgid "failed %s"
+msgstr ""
+
+#: trilobite/libtrilobite-install/trilobite-install-metadata.c:169
+msgid "Could not set URLType from config file!"
+msgstr ""
+
+#: trilobite/libtrilobite-install/trilobite-install-object.c:718
+msgid "Transactions are not stored, could not find home dir"
+msgstr ""
+
+#: trilobite/libtrilobite-install/trilobite-install-object.c:749
+#, c-format
+msgid "Transactions are stored in %s"
+msgstr ""
+
+#: trilobite/libtrilobite-install/trilobite-install-object.c:1006
+msgid "Getting package list from remote server ...\n"
+msgstr ""
+
+#: trilobite/libtrilobite-install/trilobite-install-object.c:1022
+msgid "Unable to retrieve package-list.xml!\n"
+msgstr ""
+
+#: trilobite/libtrilobite-install/trilobite-install-object.c:1095
+#, c-format
+msgid "Cannot write to file %s, using default log handler"
+msgstr ""
+
+#: trilobite/libtrilobite-install/trilobite-install-object.c:1226
+msgid "Install failed"
+msgstr ""
+
+#: trilobite/libtrilobite-install/trilobite-install-object.c:1272
+msgid "Uninstall failed"
+msgstr ""
+
+#: trilobite/libtrilobite-install/trilobite-install-object.c:1407
+#, c-format
+msgid "Could not create transaction directory (%s)! ***\n"
+msgstr ""
+
+#: trilobite/libtrilobite-install/trilobite-install-object.c:1430
+#, c-format
+msgid "Writing transaction to %s"
+msgstr ""
+
+#: trilobite/libtrilobite-install/trilobite-install-problem.c:163
+#, c-format
+msgid "%s was cancelled"
+msgstr ""
+
+#: trilobite/libtrilobite-install/trilobite-install-problem.c:168
+#: trilobite/libtrilobite-install/trilobite-install-problem.c:334
+#, c-format
+msgid "%s is a source package, which is not yet supported"
+msgstr ""
+
+#: trilobite/libtrilobite-install/trilobite-install-problem.c:182
+#: trilobite/libtrilobite-install/trilobite-install-problem.c:193
+#, c-format
+msgid "%s would break other packages"
+msgstr ""
+
+#: trilobite/libtrilobite-install/trilobite-install-problem.c:185
+#, c-format
+msgid "%s would break"
+msgstr ""
+
+#: trilobite/libtrilobite-install/trilobite-install-problem.c:191
+#, c-format
+msgid "%s would break %s"
+msgstr ""
+
+#: trilobite/libtrilobite-install/trilobite-install-problem.c:197
+#, c-format
+msgid "%s is damaged"
+msgstr ""
+
+#: trilobite/libtrilobite-install/trilobite-install-problem.c:201
+#, c-format
+msgid "%s requires %s, which could not be found on the server"
+msgstr ""
+
+#: trilobite/libtrilobite-install/trilobite-install-problem.c:204
+#, c-format
+msgid "%s for %s could not be found on the server"
+msgstr ""
+
+#: trilobite/libtrilobite-install/trilobite-install-problem.c:215
+#: trilobite/libtrilobite-install/trilobite-install-problem.c:360
+#, c-format
+msgid "%s is already installed"
+msgstr ""
+
+#: trilobite/libtrilobite-install/trilobite-install-problem.c:259
+#, c-format
+msgid "%s, which is newer, needs downgrade and downgrade is not enabled"
+msgstr ""
+
+#: trilobite/libtrilobite-install/trilobite-install-problem.c:263
+#, c-format
+msgid "%s, which is older, needs upgrade and upgrade is not enabled"
+msgstr ""
+
+#: trilobite/libtrilobite-install/trilobite-install-problem.c:353
+#, c-format
+msgid "%s is not installed and could not be found on server"
+msgstr ""
+
+#. TRANSLATORS : This string is a solution to a dependency problem,
+#. %s is a package name or filename
+#: trilobite/libtrilobite-install/trilobite-install-problem.c:920
+#, c-format
+msgid "Check for a new version of %s"
+msgstr ""
+
+#. TRANSLATORS : This string is a solution to a dependency problem,
+#. both %s's are package names or filenames
+#: trilobite/libtrilobite-install/trilobite-install-problem.c:931
+#, c-format
+msgid "Install both %s and %s"
+msgstr ""
+
+#. TRANSLATORS : This string is a solution to a dependency problem,
+#. %s is a package name or filename
+#: trilobite/libtrilobite-install/trilobite-install-problem.c:946
+#, c-format
+msgid "Remove %s from your system"
+msgstr ""
+
+#. TRANSLATORS : This string is a solution to a dependency problem,
+#. %s is a package name or filename. "Force" is in the rpm sense of force,
+#. meaning that no dependency checking etc will be done
+#: trilobite/libtrilobite-install/trilobite-install-problem.c:959
+#, c-format
+msgid "Force the removal of %s from your system"
+msgstr ""
+
+#. TRANSLATORS : This string is a solution to a dependency problem
+#: trilobite/libtrilobite-install/trilobite-install-problem.c:967
+msgid "Package database has an inconsistency"
+msgstr ""
+
+#: trilobite/libtrilobite-install/trilobite-install-problem.c:1015
+msgid "Continue with force"
+msgstr ""
+
+#: trilobite/libtrilobite-install/trilobite-install-problem.c:1021
+msgid "Allow downgrade"
+msgstr ""
+
+#: trilobite/libtrilobite-install/trilobite-install-protocols.c:123
+#: trilobite/libtrilobite/trilobite-core-network-slim.c:169
+#, c-format
+msgid "Could not open target file %s"
+msgstr ""
+
+#: trilobite/libtrilobite-install/trilobite-install-protocols.c:130
+#: trilobite/libtrilobite/trilobite-core-network-slim.c:95
+msgid "Could not create an http request !"
+msgstr ""
+
+#: trilobite/libtrilobite-install/trilobite-install-protocols.c:137
+#: trilobite/libtrilobite/trilobite-core-network-slim.c:102
+msgid "Proxy: Invalid uri !"
+msgstr ""
+
+#: trilobite/libtrilobite-install/trilobite-install-protocols.c:142
+#: trilobite/libtrilobite/trilobite-core-network-slim.c:108
+msgid "Invalid uri !"
+msgstr ""
+
+#: trilobite/libtrilobite-install/trilobite-install-protocols.c:149
+#: trilobite/libtrilobite/trilobite-core-network-slim.c:118
+msgid "Could not prepare http request !"
+msgstr ""
+
+#: trilobite/libtrilobite-install/trilobite-install-protocols.c:154
+#: trilobite/libtrilobite/trilobite-core-network-slim.c:123
+msgid "Couldn't get async mode "
+msgstr ""
+
+#. probably out of disk space
+#: trilobite/libtrilobite-install/trilobite-install-protocols.c:183
+#: trilobite/libtrilobite-install/trilobite-install-protocols.c:212
+#: trilobite/libtrilobite-install/trilobite-install-protocols.c:228
+#, c-format
+msgid "DISK FULL: could not write %s"
+msgstr ""
+
+#: trilobite/libtrilobite-install/trilobite-install-protocols.c:189
+#: trilobite/libtrilobite-install/trilobite-install-protocols.c:217
+msgid "Could not get request body!"
+msgstr ""
+
+#: trilobite/libtrilobite-install/trilobite-install-protocols.c:202
+#, c-format
+msgid "HTTP error: %d %s"
+msgstr ""
+
+#: trilobite/libtrilobite-install/trilobite-install-protocols.c:249
+msgid "FTP not supported yet"
+msgstr ""
+
+#: trilobite/libtrilobite-install/trilobite-install-protocols.c:457
+#, c-format
+msgid "Checking local file %s..."
+msgstr ""
+
+#: trilobite/libtrilobite-install/trilobite-install-protocols.c:578
+#, c-format
+msgid "Failed to retrieve %s!"
+msgstr ""
+
+#: trilobite/libtrilobite-install/trilobite-install-protocols.c:649
+#, c-format
+msgid "Could not get an URL for %s"
+msgstr ""
+
+#: trilobite/libtrilobite-install/trilobite-install-protocols.c:664
+msgid "Downloaded package does not have the correct name"
+msgstr ""
+
+#: trilobite/libtrilobite-install/trilobite-install-protocols.c:665
+#, c-format
+msgid "Package %s should have had name %s"
+msgstr ""
+
+#: trilobite/libtrilobite-install/trilobite-install-protocols.c:693
+msgid "File download failed"
+msgstr ""
+
+#: trilobite/libtrilobite-install/trilobite-install-tests.c:34
+msgid "*** Begin pkg dump ***\n"
+msgstr ""
+
+#: trilobite/libtrilobite-install/trilobite-install-tests.c:41
+msgid "*** End pkg dump ***\n"
+msgstr ""
+
+#: trilobite/libtrilobite-extensions/trilobite-extensions.c:307
+#, fuzzy
+msgid "Unknown Date"
+msgstr "saghas gan aithne"
+
+#: trilobite/libtrilobite-extensions/trilobite-extensions.c:312
+msgid "%A, %B %d"
+msgstr ""
+
+#: trilobite/libtrilobite-extensions/trilobite-extensions.c:332
+#, c-format
+msgid ""
+"GConf error:\n"
+"  %s"
+msgstr ""
+
+#: trilobite/libtrilobite-extensions/trilobite-extensions.c:336
+#, c-format
+msgid ""
+"GConf error:\n"
+"  %s\n"
+"All further errors shown only on terminal"
+msgstr ""
+
+#: trilobite/libtrilobite-extensions/trilobite-extensions.c:340
+msgid "GConf Error"
+msgstr ""
+
+#: trilobite/libtrilobite/trilobite-core-network-slim.c:133
+#, c-format
+msgid "HTTP error %d \"%s\" on uri %s"
+msgstr ""
+
+#: trilobite/libtrilobite/trilobite-core-utils.c:202
+msgid "Could not initialize Bonobo"
+msgstr ""
+
+#: trilobite/libtrilobite/trilobite-core-utils.c:217
+#, c-format
+msgid "Can't write logfile %s -- using default log handler"
+msgstr ""
+
+#: trilobite/libtrilobite-ups/trilobite-ups-xml-package-list.c:156
+msgid "*** No package nodes! (cat has no children) ***"
+msgstr ""
+
+#: trilobite/libtrilobite-ups/trilobite-ups-xml-package-list.c:158
+#: trilobite/libtrilobite-ups/trilobite-ups-xml-package-list.c:166
+#: trilobite/libtrilobite-ups/trilobite-ups-xml-package-list.c:181
+msgid "*** Bailing from package parse! ***"
+msgstr ""
+
+#: trilobite/libtrilobite-ups/trilobite-ups-xml-package-list.c:164
+msgid "*** No package nodes! ***"
+msgstr ""
+
+#: trilobite/libtrilobite-ups/trilobite-ups-xml-package-list.c:170
+msgid "*** Malformed package node!"
+msgstr ""
+
+#: trilobite/libtrilobite-ups/trilobite-ups-xml-package-list.c:179
+msgid "*** No depends nodes! ***"
+msgstr ""
+
+#: trilobite/libtrilobite-ups/trilobite-ups-xml-package-list.c:185
+msgid "*** Malformed depends node!"
+msgstr ""
+
+#: trilobite/libtrilobite-ups/trilobite-ups-xml-package-list.c:209
+#, c-format
+msgid "*** Unknown node type '%s'"
+msgstr ""
+
+#: trilobite/libtrilobite-ups/trilobite-ups-xml-package-list.c:227
+msgid "*** The pkg list file contains no data! ***\n"
+msgstr ""
+
+#: trilobite/libtrilobite-ups/trilobite-ups-xml-package-list.c:232
+msgid "*** Cannot find the CATEGORIES xmlnode! ***\n"
+msgstr ""
+
+#: trilobite/libtrilobite-ups/trilobite-ups-xml-package-list.c:233
+msgid "*** Bailing from categories parse! ***\n"
+msgstr ""
+
+#: trilobite/libtrilobite-ups/trilobite-ups-xml-package-list.c:239
+msgid "*** No Categories! ***\n"
+msgstr ""
+
+#: trilobite/libtrilobite-ups/trilobite-ups-xml-package-list.c:240
+msgid "*** Bailing from category parse! ***\n"
+msgstr ""
+
+#: trilobite/libtrilobite-ups/trilobite-ups-xml-package-list.c:294
+msgid "*** Cannot find the TRANSACTION xmlnode! ***\n"
+msgstr ""
+
+#: trilobite/libtrilobite-ups/trilobite-ups-xml-package-list.c:296
+#: trilobite/libtrilobite-ups/trilobite-ups-xml-package-list.c:304
+msgid "*** Bailing from transaction parse! ***\n"
+msgstr ""
+
+#: trilobite/libtrilobite-ups/trilobite-ups-xml-package-list.c:302
+msgid "*** No packages! ***\n"
+msgstr ""
+
+#: trilobite/libtrilobite-ups/trilobite-ups-xml-package-list.c:338
+msgid "*** No category nodes! ***"
+msgstr ""
+
+#: trilobite/libtrilobite-ups/trilobite-ups-xml-package-list.c:342
+msgid "*** Cannot find the CATEGORIES xmlnode! ***"
+msgstr ""
+
+#: trilobite/libtrilobite-ups/trilobite-ups-xml-package-list.c:376
+#, c-format
+msgid "*** Unknown node %s"
+msgstr ""
+
+#: trilobite/libtrilobite-ups/trilobite-ups-xml-package-list.c:466
+msgid "*** Error generating xml package list! ***\n"
+msgstr ""
+
+#: trilobite/libtrilobite-ups/trilobite-ups-xml-package-list.c:513
+msgid "*** Error reading package list! ***\n"
+msgstr ""
+
+#: trilobite/libtrilobite-ups/trilobite-ups-xml-package-list.c:916
+msgid "*** The osd xml contains no data! ***\n"
+msgstr ""
+
+#: trilobite/libtrilobite-ups/trilobite-ups-xml-package-list.c:921
+msgid "*** Bailing from osd parse! ***\n"
+msgstr ""
+
+#: trilobite/libtrilobite-ups/trilobite-ups-xml-package-list.c:997
+#, c-format
+msgid "Could not parse the xml (length %d)"
+msgstr ""
+
+#: trilobite/libtrilobite-ups/trilobite-ups-rpm3.c:785
+#, c-format
+msgid "Opened packages database in %s"
+msgstr ""
+
+#: trilobite/libtrilobite-ups/trilobite-ups-rpm3.c:790
+#, c-format
+msgid "Opening packages database in %s failed"
+msgstr ""
+
+#: trilobite/libtrilobite-ups/trilobite-ups-rpm3.c:823
+#, c-format
+msgid "Closing db for %s (open)"
+msgstr ""
+
+#: trilobite/libtrilobite-ups/trilobite-ups-rpm3.c:828
+#, c-format
+msgid "Closing db for %s (not open)"
+msgstr ""
+
+#: trilobite/libtrilobite-ups/trilobite-ups-rpm3.c:1159
+#, c-format
+msgid "Cannot open %s"
+msgstr ""
+
+#: trilobite/sample/nautilus-view/Nautilus_View_service-sample.oaf.in.h:1
+msgid "Nautilus eazel sample service view component"
+msgstr ""
+
+#: trilobite/sample/nautilus-view/Nautilus_View_service-sample.oaf.in.h:2
+msgid "Nautilus services startup view factory"
+msgstr ""
+
+#: trilobite/sample/nautilus-view/Nautilus_View_service-sample.oaf.in.h:3
+#, fuzzy
+msgid "Service"
+msgstr "Cuardaigh"
+
+#: trilobite/sample/nautilus-view/Nautilus_View_service-sample.oaf.in.h:4
+#, fuzzy
+msgid "Service Viewer"
+msgstr "Sampla"
+
+#: trilobite/sample/nautilus-view/Nautilus_View_service-sample.oaf.in.h:5
+msgid "Services startup view factory"
+msgstr ""
+
+#: trilobite/sample/nautilus-view/Nautilus_View_service-sample.oaf.in.h:6
+#, fuzzy
+msgid "View as Service"
+msgstr "Sampla"
+
+#: trilobite/sample/nautilus-view/Nautilus_View_service-sample.oaf.in.h:7
+msgid "eazel sample service view"
+msgstr ""
+
+#: trilobite/sample/service/Trilobite_Service_sample.oaf.in.h:1
+msgid "Factory for the sample service"
+msgstr ""
+
+#: trilobite/sample/service/Trilobite_Service_sample.oaf.in.h:2
+msgid "Sample"
+msgstr "Sampla"
+
+#, fuzzy
+#~ msgid "Help Search"
+#~ msgstr "Cuardaigh"
+
+#~ msgid "Home"
+#~ msgstr "Baile"
+
+#~ msgid "Notes"
+#~ msgstr "Notaí"
+
+#, fuzzy
+#~ msgid "Applications"
+#~ msgstr "Áit"
+
+#, fuzzy
+#~ msgid "Games"
+#~ msgstr "Ainm"
+
+#, fuzzy
+#~ msgid "No matches."
+#~ msgstr "Notaí"
+
+#~ msgid "History"
+#~ msgstr "Stair"
+
+#, fuzzy
+#~ msgid "Baltic"
+#~ msgstr "Riomh"
+
+#, fuzzy
+#~ msgid "Dance"
+#~ msgstr "Cealaigh"
+
+#, fuzzy
+#~ msgid "Trance"
+#~ msgstr "Cealaigh"
+
+#, fuzzy
+#~ msgid "House"
+#~ msgstr "Baile"
+
+#, fuzzy
+#~ msgid "Game"
+#~ msgstr "Ainm"
+
+#, fuzzy
+#~ msgid "Noise"
+#~ msgstr "Notaí"
+
+#, fuzzy
+#~ msgid "Comedy"
+#~ msgstr "Baile"
+
+#, fuzzy
+#~ msgid "Rave"
+#~ msgstr "Scríos"
+
+#, fuzzy
+#~ msgid "Latin"
+#~ msgstr "Áit"
+
+#, fuzzy
+#~ msgid "Speech"
+#~ msgstr "Cuardaigh"
+
+#, fuzzy
+#~ msgid "Opera"
+#~ msgstr "_Oscáil"
+
+#, fuzzy
+#~ msgid "Satire"
+#~ msgstr "Meid"
+
+#, fuzzy
+#~ msgid "Duet"
+#~ msgstr "Scríos"
+
+#, fuzzy
+#~ msgid "Dance Hall"
+#~ msgstr "Cealaigh"
+
+#, fuzzy
+#~ msgid "Club-House"
+#~ msgstr "Dún"
+
+#, fuzzy
+#~ msgid "Synthpop"
+#~ msgstr "Stad"
+
+#, fuzzy
+#~ msgid "Track"
+#~ msgstr "Riomh"
+
+#~ msgid "Stop"
+#~ msgstr "Stad"
+
+#, fuzzy
+#~ msgid "%s - %s"
+#~ msgstr "%s%s"
+
+#, fuzzy
+#~ msgid "News"
+#~ msgstr "Notaí"
+
+#, fuzzy
+#~ msgid "Remove Site"
+#~ msgstr "Scríos"
+
+#, fuzzy
+#~ msgid "Remove a Site:"
+#~ msgstr "Scríos"
+
+#, fuzzy
+#~ msgid "Select Sites:"
+#~ msgstr "Tóg gach rud"
+
+#, fuzzy
+#~ msgid "Select Sites"
+#~ msgstr "Tóg gach rud"
+
+#~ msgid "_Sample"
+#~ msgstr "_Sampla"
+
+#, fuzzy
+#~ msgid "Black"
+#~ msgstr "Riomh"
+
+#, fuzzy
+#~ msgid "Blue Type"
+#~ msgstr "Saghas"
+
+#, fuzzy
+#~ msgid "Colors"
+#~ msgstr "Dún"
+
+#, fuzzy
+#~ msgid "Dots"
+#~ msgstr "Notaí"
+
+#, fuzzy
+#~ msgid "Floral"
+#~ msgstr "Eile"
+
+#, fuzzy
+#~ msgid "Shale"
+#~ msgstr "Sampla"
+
+#, fuzzy
+#~ msgid "Silver"
+#~ msgstr "Meid"
+
+#, fuzzy
+#~ msgid "Stucco"
+#~ msgstr "Stad"
+
+#, fuzzy
+#~ msgid "Search Engines"
+#~ msgstr "Cuardaigh"
+
+#, fuzzy
+#~ msgid "Dell"
+#~ msgstr "Scríos"
+
+#, fuzzy
+#~ msgid "Default"
+#~ msgstr "Scríos"
+
+#, fuzzy
+#~ msgid "Sierra"
+#~ msgstr "Meid"
+
+#, fuzzy
+#~ msgid "Deleting files"
+#~ msgstr "Scríos"
+
+#, fuzzy
+#~ msgid "Deleting"
+#~ msgstr "Scríos"
+
+#, fuzzy
+#~ msgid "today at %-I:%M:%S %p"
+#~ msgstr "inniu %-I:%M %p"
+
+#, fuzzy
+#~ msgid "today at %-I:%M %p"
+#~ msgstr "inniu %-I:%M %p"
+
+#, fuzzy
+#~ msgid "today, %-I:%M %p"
+#~ msgstr "inniu %-I:%M %p"
+
+#, fuzzy
+#~ msgid "yesterday at %-I:%M:%S %p"
+#~ msgstr "inné %-I:%M %p"
+
+#, fuzzy
+#~ msgid "yesterday at 00:00 PM"
+#~ msgstr "inné %-I:%M %p"
+
+#, fuzzy
+#~ msgid "yesterday at %-I:%M %p"
+#~ msgstr "inné %-I:%M %p"
+
+#, fuzzy
+#~ msgid "yesterday, 00:00 PM"
+#~ msgstr "inné %-I:%M %p"
+
+#, fuzzy
+#~ msgid "yesterday, %-I:%M %p"
+#~ msgstr "inné %-I:%M %p"
+
+#, fuzzy
+#~ msgid "yesterday"
+#~ msgstr "inné %-I:%M %p"
+
+#, fuzzy
+#~ msgid "%A, %B %-d %Y at %-I:%M:%S %p"
+#~ msgstr "%A %-m/%-d/%y %-I:%M %p"
+
+#, fuzzy
+#~ msgid "%a, %b %-d %Y at %-I:%M:%S %p"
+#~ msgstr "%A %-m/%-d/%y %-I:%M %p"
+
+#, fuzzy
+#~ msgid "%a, %b %-d %Y at %-I:%M %p"
+#~ msgstr "%A %-m/%-d/%y %-I:%M %p"
+
+#, fuzzy
+#~ msgid "%b %-d %Y at %-I:%M %p"
+#~ msgstr "%-m/%-d/%y %-I:%M %p"
+
+#, fuzzy
+#~ msgid "%b %-d %Y, %-I:%M %p"
+#~ msgstr "%-m/%-d/%y %-I:%M %p"
+
+#, fuzzy
+#~ msgid "%m/%-d/%y, %-I:%M %p"
+#~ msgstr "%-m/%-d/%y %-I:%M %p"
+
+#, fuzzy
+#~ msgid "unknown MIME type"
+#~ msgstr "saghas gan aithne"
+
+#, fuzzy
+#~ msgid "unknown"
+#~ msgstr "<gan aithne>"
+
+#~ msgid "program"
+#~ msgstr "ríomhchlár"
+
+#, fuzzy
+#~ msgid "By Name"
+#~ msgstr "Ainm"
+
+#, fuzzy
+#~ msgid "By Size"
+#~ msgstr "Meid"
+
+#, fuzzy
+#~ msgid "By Type"
+#~ msgstr "Saghas"
+
+#~ msgid "size"
+#~ msgstr "meid"
+
+#~ msgid "type"
+#~ msgstr "saghas"
+
+#~ msgid "owner"
+#~ msgstr "úinear"
+
+#~ msgid "group"
+#~ msgstr "grupa"
+
+#~ msgid "MIME type"
+#~ msgstr "saghas MIME"
+
+#, fuzzy
+#~ msgid "none"
+#~ msgstr "Críochnaithe!"
+
+#~ msgid "Name"
+#~ msgstr "Ainm"
+
+#, fuzzy
+#~ msgid "Choose"
+#~ msgstr "Dún"
+
+#~ msgid "Unknown"
+#~ msgstr "Gan aithne"
+
+#~ msgid "Select All"
+#~ msgstr "Tóg gach rud"
+
+#, fuzzy
+#~ msgid "Select _All"
+#~ msgstr "Tóg gach rud"
+
+#~ msgid "Nautilus"
+#~ msgstr "Nautilus"
+
+#, fuzzy
+#~ msgid "Nautilus shell"
+#~ msgstr "Nautilus: %s"
+
+#, fuzzy
+#~ msgid "Search List"
+#~ msgstr "Cuardaigh"
+
+#, fuzzy
+#~ msgid "%s's Home"
+#~ msgstr "Baile"
+
+#, fuzzy
+#~ msgid "Open %d Windows?"
+#~ msgstr "Oscáil ins an Fuinneog _Nua"
+
+#, fuzzy
+#~ msgid "Delete?"
+#~ msgstr "Scríos"
+
+#~ msgid "Delete"
+#~ msgstr "Scríos"
+
+#, fuzzy
+#~ msgid "1 folder selected"
+#~ msgstr "Roghnóir Dathanna"
+
+#, fuzzy
+#~ msgid "%d folders selected"
+#~ msgstr "Roghnóir Dathanna"
+
+#~ msgid "%s%s, %s"
+#~ msgstr "%s%s, %s"
+
+#, fuzzy
+#~ msgid "Open _in This Window"
+#~ msgstr "Oscáil ins an Fuinneog _Nua"
+
+#, fuzzy
+#~ msgid "Open _in New Window"
+#~ msgstr "Oscáil ins an Fuinneog _Nua"
+
+#, fuzzy
+#~ msgid "Open _in %d New Windows"
+#~ msgstr "Oscáil ins an Fuinneog _Nua"
+
+#, fuzzy
+#~ msgid "Delete from _Trash..."
+#~ msgstr "Scríos..."
+
+#, fuzzy
+#~ msgid "De_lete..."
+#~ msgstr "Scríos..."
+
+#, fuzzy
+#~ msgid "De_lete"
+#~ msgstr "Scríos"
+
+#, fuzzy
+#~ msgid "Cancel Rename?"
+#~ msgstr "Cealaigh"
+
+#, fuzzy
+#~ msgid "by _Name"
+#~ msgstr "Ainm"
+
+#, fuzzy
+#~ msgid "by _Size"
+#~ msgstr "Meid"
+
+#, fuzzy
+#~ msgid "by _Type"
+#~ msgstr "Saghas"
+
+#~ msgid "Size"
+#~ msgstr "Meid"
+
+#~ msgid "Type"
+#~ msgstr "Saghas"
+
+#, fuzzy
+#~ msgid "Type:"
+#~ msgstr "Saghas"
+
+#, fuzzy
+#~ msgid "Size:"
+#~ msgstr "Meid: "
+
+#~ msgid "Location:"
+#~ msgstr "Áit:"
+
+#, fuzzy
+#~ msgid "MIME Type:"
+#~ msgstr "saghas MIME"
+
+#, fuzzy
+#~ msgid "Owner:"
+#~ msgstr "úinear"
+
+#, fuzzy
+#~ msgid "Group:"
+#~ msgstr "grupa"
+
+#, fuzzy
+#~ msgid "Read"
+#~ msgstr "Athlód"
+
+#, fuzzy
+#~ msgid "Search Results"
+#~ msgstr "Cuardaigh"
+
+#, fuzzy
+#~ msgid "_Reveal in New Window"
+#~ msgstr "Oscáil ins an Fuinneog _Nua"
+
+#, fuzzy
+#~ msgid "Reveal in %d _New Windows"
+#~ msgstr "Oscáil ins an Fuinneog _Nua"
+
+#, fuzzy
+#~ msgid "Open"
+#~ msgstr "_Oscáil"
+
+#, fuzzy
+#~ msgid "Select All Files"
+#~ msgstr "Tóg gach rud"
+
+#, fuzzy
+#~ msgid "Select _All Files"
+#~ msgstr "Tóg gach rud"
+
+#~ msgid "_Open"
+#~ msgstr "_Oscáil"
+
+#, fuzzy
+#~ msgid "By _Name"
+#~ msgstr "Ainm"
+
+#, fuzzy
+#~ msgid "By _Size"
+#~ msgstr "Meid"
+
+#, fuzzy
+#~ msgid "By _Type"
+#~ msgstr "Saghas"
+
+#, fuzzy
+#~ msgid "Reveal in New Window"
+#~ msgstr "Oscáil ins an Fuinneog _Nua"
+
+#, fuzzy
+#~ msgid "About Nautilus"
+#~ msgstr "Faoi Nautilus..."
+
+#, fuzzy
+#~ msgid "Bookmarks"
+#~ msgstr "_Leabharmarcanna"
+
+#, fuzzy
+#~ msgid "Welcome to Nautilus"
+#~ msgstr "Faoi Nautilus..."
+
+#, fuzzy
+#~ msgid "Updating Nautilus..."
+#~ msgstr "Faoi Nautilus..."
+
+#, fuzzy
+#~ msgid "Quit Nautilus."
+#~ msgstr "Faoi Nautilus..."
+
+#, fuzzy
+#~ msgid "Restart Nautilus."
+#~ msgstr "Faoi Nautilus..."
+
+#, fuzzy
+#~ msgid "Fonts"
+#~ msgstr "Notaí"
+
+#, fuzzy
+#~ msgid "Nautilus Themes"
+#~ msgstr "Nautilus: %s"
+
+#, fuzzy
+#~ msgid "Opening New Windows"
+#~ msgstr "Oscáil ins an Fuinneog _Nua"
+
+#, fuzzy
+#~ msgid "Built-in Bookmarks"
+#~ msgstr "Nautilus: Leabharmarcanna"
+
+#, fuzzy
+#~ msgid "Remove..."
+#~ msgstr "Scríos"
+
+#, fuzzy
+#~ msgid "Color value:"
+#~ msgstr "Roghnóir Dathanna"
+
+#, fuzzy
+#~ msgid "Cancel Remove"
+#~ msgstr "Cealaigh"
+
+#, fuzzy
+#~ msgid "Colors:"
+#~ msgstr "Dún"
+
+#, fuzzy
+#~ msgid "For_get History"
+#~ msgstr "Stair"
+
+#, fuzzy
+#~ msgid "Hide Location _Bar"
+#~ msgstr "Áit"
+
+#, fuzzy
+#~ msgid "Nautilus User _Manual"
+#~ msgstr "Nautilus: %s"
+
+#~ msgid "New Window"
+#~ msgstr "Fuinneog Nua"
+
+#, fuzzy
+#~ msgid "New _Window"
+#~ msgstr "Fuinneog Nua"
+
+#~ msgid "Up"
+#~ msgstr "Suas"
+
+#, fuzzy
+#~ msgid "We_b Search"
+#~ msgstr "Cuardaigh"
+
+#, fuzzy
+#~ msgid "Web Search"
+#~ msgstr "Cuardaigh"
+
+#, fuzzy
+#~ msgid "_About Nautilus..."
+#~ msgstr "Faoi Nautilus..."
+
+#~ msgid "_Add Bookmark"
+#~ msgstr "_Suimigh Leabharmarc"
+
+#, fuzzy
+#~ msgid "_Back"
+#~ msgstr "Riomh"
+
+#~ msgid "_Bookmarks"
+#~ msgstr "_Leabharmarcanna"
+
+#, fuzzy
+#~ msgid "_Close Window"
+#~ msgstr "Fuinneog Nua"
+
+#~ msgid "_Edit Bookmarks..."
+#~ msgstr "_Eagar Leabharmarcanna..."
+
+#, fuzzy
+#~ msgid "_Forward"
+#~ msgstr "Eile"
+
+#, fuzzy
+#~ msgid "_Home"
+#~ msgstr "Baile"
+
+#, fuzzy
+#~ msgid "_Location..."
+#~ msgstr "Áit"
+
+#, fuzzy
+#~ msgid "Open with..."
+#~ msgstr "Fán tamaill..."
+
+#, fuzzy
+#~ msgid "Forget History?"
+#~ msgstr "Stair"
+
+#, fuzzy
+#~ msgid "Show Location _Bar"
+#~ msgstr "Áit"
+
+#~ msgid "Back"
+#~ msgstr "Riomh"
+
+#~ msgid "Forward"
+#~ msgstr "Eile"
+
+#~ msgid "Close"
+#~ msgstr "Dún"
+
+#~ msgid "_General Settings..."
+#~ msgstr "_Roghnachais gnáth..."
+
+#~ msgid "Info about the Nautilus program"
+#~ msgstr "Eolas faoi an ríomhchlár Nautilus"
+
+#~ msgid "Show Color selector..."
+#~ msgstr "Taispeán roghnóir Dath..."
+
+#~ msgid "_Delete..."
+#~ msgstr "_Scríos..."
+
+#~ msgid "unknown owner"
+#~ msgstr "úineár gan aithne"
+
+#~ msgid "unknown group"
+#~ msgstr "grupa gan aithne"
+
+#~ msgid "xxx"
+#~ msgstr "xxx"
+
+#~ msgid "--"
+#~ msgstr "--"
+
+#~ msgid "Reading..."
+#~ msgstr "Ag leámh..."
+
+#~ msgid "License: "
+#~ msgstr "Ceadúnas: "

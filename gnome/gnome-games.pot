@@ -1,0 +1,1297 @@
+# Irish language translations for gnome-games package
+# Copyright (C) 1998 Free Software Foundation, Inc.
+# Alastair McKinstry <mckinstry@computer.org>, 1998.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-games CVS\n"
+"POT-Creation-Date: 2002-01-13 19:14-0300\n"
+"PO-Revision-Date: 2000-03-08 12:30-0000\n"
+"Last-Translator: Alastair McKinstry <mckinstry@computer.org>\n"
+"Language-Team: Irish <ga@li.org> \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=iso-8859-1\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/gturing.c:138
+msgid "No comment for this program."
+msgstr ""
+
+#: src/gturing.c:306
+msgid "States must be numbers. Move can only be 'r' or 'l'."
+msgstr ""
+
+#: src/gturing.c:370 src/gturing.c:788
+msgid "State"
+msgstr "Stádéis"
+
+#: src/gturing.c:370 src/gturing.c:788
+msgid "Read"
+msgstr "Leámh"
+
+#: src/gturing.c:370 src/gturing.c:788
+#, fuzzy
+msgid "Write"
+msgstr "Sríobh"
+
+#: src/gturing.c:370 src/gturing.c:788
+#, fuzzy
+msgid "Move"
+msgstr "_Bog"
+
+#: src/gturing.c:371 src/gturing.c:789
+#, fuzzy
+msgid "New State"
+msgstr "Cluiche Nua"
+
+#: src/gturing.c:380
+msgid "Editing is still alpha. Come back later or hack."
+msgstr ""
+
+#: src/gturing.c:390
+msgid "Edit Or Create Row"
+msgstr ""
+
+#: src/gturing.c:490
+#, c-format
+msgid "State: %d"
+msgstr "Stádéis: %d"
+
+#: src/gturing.c:494 src/gturing.c:595
+msgid "Stopped"
+msgstr "Stad"
+
+#: src/gturing.c:647
+msgid "Save gTuring Program File"
+msgstr ""
+
+#: src/gturing.c:649
+#, fuzzy
+msgid "Comment"
+msgstr "_Faoi..."
+
+#: src/gturing.c:695
+msgid "Open gTuring Program File"
+msgstr ""
+
+#: src/gturing.c:721
+msgid "Tape Setting"
+msgstr ""
+
+#: src/gturing.c:721
+msgid "Please enter the tape:"
+msgstr ""
+
+#: src/gturing.c:798
+msgid "Machine's states"
+msgstr ""
+
+#: src/gturing.c:867
+msgid "Animation Speed"
+msgstr "Gluais Beochain"
+
+#: src/gturing.c:867
+msgid "Miliseconds between steps:"
+msgstr ""
+
+#: src/gturing.c:908
+msgid "A Turing machine for GNOME"
+msgstr ""
+
+#. GtkWidget *graph;
+#. treeview with scrolled window
+#: src/gturing.c:1093
+msgid "A Turing machine"
+msgstr ""
+
+#: src/gturing.c:1105
+#, fuzzy
+msgid "Welcome to gTuring"
+msgstr "Fáilte go gTuring."
+
+#: src/gturing.c:1106
+msgid "^                 "
+msgstr ""
+
+#: gturing.desktop.in.h:1
+msgid "Waste time with a simulated Turing machine"
+msgstr ""
+
+#: gturing.desktop.in.h:2
+msgid "gTuring"
+msgstr ""
+
+#, fuzzy
+msgid "Save"
+msgstr "_Sábháil..."
+
+#, fuzzy
+msgid "Set"
+msgstr "Tóg"
+
+#, fuzzy
+msgid "_Comment..."
+msgstr "_Faoi..."
+
+#, fuzzy
+msgid "_States..."
+msgstr "_Sábháil..."
+
+#, fuzzy
+msgid "_Play Speed..."
+msgstr "Cluiche Nua"
+
+#, fuzzy
+msgid "_Tape..."
+msgstr "_Sábháil..."
+
+#, fuzzy
+msgid "Reset"
+msgstr "Iarthar"
+
+#, fuzzy
+msgid "Stop"
+msgstr "Stad"
+
+msgid "Run"
+msgstr "Rith"
+
+#, fuzzy
+msgid "Step"
+msgstr "Stádéis"
+
+#, fuzzy
+msgid "Agnes"
+msgstr "Miana Gnome"
+
+msgid "Camelot"
+msgstr "Camelot"
+
+#, fuzzy
+msgid "Cover"
+msgstr "Beart"
+
+#, fuzzy
+msgid "Doublets"
+msgstr "Ceannas"
+
+#, fuzzy
+msgid "Easthaven"
+msgstr "Oirthir"
+
+#, fuzzy
+msgid "Eight off"
+msgstr "Airde na greille"
+
+#, fuzzy
+msgid "Elevator"
+msgstr "Glan"
+
+#, fuzzy
+msgid "Fourteen"
+msgstr "Glas"
+
+msgid "Freecell"
+msgstr "Freecell"
+
+msgid "Klondike"
+msgstr "Klondike"
+
+msgid "Odessa"
+msgstr "Odessa"
+
+msgid "Osmosis"
+msgstr "Osmosis"
+
+#, fuzzy
+msgid "Pileon"
+msgstr "Comhad"
+
+#, fuzzy
+msgid "Plait"
+msgstr "Fan:"
+
+#, fuzzy
+msgid "Poker"
+msgstr "Albaltacht"
+
+#, fuzzy
+msgid "Scorpion"
+msgstr "Cnámhscéal"
+
+#, fuzzy
+msgid "Scuffle"
+msgstr "Tsg cluiche"
+
+msgid "Seahaven"
+msgstr ""
+
+#, fuzzy
+msgid "Spiderette"
+msgstr "Spider"
+
+msgid "Spider"
+msgstr "Spider"
+
+msgid "Template"
+msgstr ""
+
+msgid "Thieves"
+msgstr ""
+
+#, fuzzy
+msgid "Thirteen"
+msgstr "Glas"
+
+#, fuzzy
+msgid "Westhaven"
+msgstr "Iarthar"
+
+#, fuzzy
+msgid "Yukon"
+msgstr "Bua agat!"
+
+msgid ""
+"Congratulations\n"
+"\n"
+"You Won!!!"
+msgstr ""
+"Molaim thu!\n"
+"\n"
+"Bua Agat!!!|"
+
+msgid ""
+"\n"
+"Game Over.\n"
+msgstr ""
+"\n"
+"Tá an Cluiche thart.\n"
+
+msgid "New Game"
+msgstr "Cluiche Nua"
+
+#, fuzzy
+msgid "Select Game"
+msgstr "Tóg cluiche"
+
+msgid "Seed"
+msgstr "Síol"
+
+msgid "Rules"
+msgstr "Ceannas"
+
+msgid ""
+"The game is over.\n"
+"No hints are available"
+msgstr ""
+"Tá an Cluiche thart.\n"
+"No hints are available."
+
+#, fuzzy
+msgid "Move the %s on %s."
+msgstr "Beart an "
+
+#, fuzzy
+msgid "Move the %s %s."
+msgstr "Beart an "
+
+#, fuzzy
+msgid "Main program:  Jonathan Blandford (jrb@redhat.com)"
+msgstr "(C) 1998 Jonathan Blandford (jrb@alum.mit.edu)"
+
+#, fuzzy
+msgid "Card Games:    Jonathan Blandford (jrb@redhat.com)"
+msgstr "(C) 1998 Jonathan Blandford (jrb@alum.mit.edu)"
+
+msgid "AisleRiot"
+msgstr "AisleRiot"
+
+#, fuzzy
+msgid "(C) 1998 Jonathan Blandford (jrb@redhat.com)"
+msgstr "(C) 1998 Jonathan Blandford (jrb@alum.mit.edu)"
+
+#, fuzzy
+msgid "Game _options..."
+msgstr "Roghnachais cluiche..."
+
+#, fuzzy
+msgid "New _game of..."
+msgstr "Cluiche Nua"
+
+msgid "_Select..."
+msgstr "_Tóg..."
+
+msgid "New"
+msgstr "Nua"
+
+#, fuzzy
+msgid "Select"
+msgstr "Tóg"
+
+#, fuzzy
+msgid "Select a new game"
+msgstr "Tóg Cluiche nua"
+
+msgid "Hint"
+msgstr "Leathfhocal"
+
+msgid "Undo"
+msgstr "Leasú"
+
+msgid "Redo"
+msgstr "Athdeán"
+
+msgid "Exit"
+msgstr "Éalu"
+
+msgid "Quit Aisleriot"
+msgstr "Éirigh as Aisleriot"
+
+msgid "Help"
+msgstr "Cúidiú"
+
+msgid "Aisleriot"
+msgstr "Aisleriot"
+
+msgid "Score: "
+msgstr "Scór: "
+
+msgid "Time: "
+msgstr "Am:"
+
+msgid "NAME"
+msgstr "AINM"
+
+#, fuzzy
+msgid "Initializing scheme..."
+msgstr "Ag socrú scheme..."
+
+msgid "Unknown color"
+msgstr "Dath anathnid"
+
+msgid "Unknown value"
+msgstr "Luach anaithnid"
+
+msgid "Exit this game?"
+msgstr "Ealu as an cluiche?"
+
+#, fuzzy
+msgid "Freecell #%d"
+msgstr "Freecell #%d"
+
+msgid "Changwoo Ryu."
+msgstr "Changwoo Ruy."
+
+#, fuzzy
+msgid "New game with seed..."
+msgstr "Cluiche Nua"
+
+msgid "Score"
+msgstr "Scór"
+
+msgid "Props"
+msgstr "Ábaltachtaí"
+
+#, fuzzy
+msgid "Configure Freecell"
+msgstr "Cumraigh Freecell"
+
+#, fuzzy
+msgid "Quit Freecell"
+msgstr "Éirigh as Freecell"
+
+msgid "Freecell Properties"
+msgstr "Ábaltachtaí Freecell"
+
+msgid "Options"
+msgstr "Roghnachais"
+
+# , c-format
+msgid "won: %d, lost: %d"
+msgstr "bua: %d, caillte: %d"
+
+msgid "Total: %d%%"
+msgstr "Iomlán: %d%%"
+
+msgid "Clear"
+msgstr "Glan"
+
+msgid "Dark's move"
+msgstr "Beart na dubh"
+
+msgid "Light's move"
+msgstr "Beart na bán"
+
+msgid "Do you really want to quit?"
+msgstr "An bhfuil éalu uait go fírinne?"
+
+#, fuzzy
+msgid "Do you really want to end this game?"
+msgstr "An bhfuil ialu uait go fmrinne?"
+
+#, fuzzy
+msgid "Welcome to gataxx!"
+msgstr "An Gnome Cianna"
+
+msgid "%.2d"
+msgstr "%.2d"
+
+msgid "Animation"
+msgstr "Beochan"
+
+#, fuzzy
+msgid "None"
+msgstr "Tada"
+
+#, fuzzy
+msgid "Partial"
+msgstr "Ingearach:"
+
+#, fuzzy
+msgid "Tile set:"
+msgstr "Comhad"
+
+#, fuzzy
+msgid "Game Over!"
+msgstr "Cluiche thart!"
+
+#, fuzzy
+msgid "(C) 1997-2000 the Free Software Foundation"
+msgstr "(C) 1997-1999 the Free Software Foundation"
+
+#, fuzzy
+msgid "Preferences"
+msgstr "Albaltachtaí"
+
+#, fuzzy
+msgid "Theme"
+msgstr "Am:"
+
+#, fuzzy
+msgid "Select theme:"
+msgstr "Tóg cluiche"
+
+#, fuzzy
+msgid "Select background:"
+msgstr "Cúlra:"
+
+#, fuzzy
+msgid "Fast moves"
+msgstr "Beart na dubh"
+
+#, fuzzy
+msgid "Welcome to Glines!"
+msgstr "An Gnome Cianna"
+
+#, fuzzy
+msgid "Gnibbles"
+msgstr "Gnibbles"
+
+#, fuzzy
+msgid "Gnibbles Preferences"
+msgstr "Cuardaigh Gnibbles"
+
+msgid "Game"
+msgstr "Cluiche"
+
+msgid "Speed"
+msgstr "Luas"
+
+msgid "Sounds"
+msgstr "Fuaimaí"
+
+#, fuzzy
+msgid "Board size"
+msgstr "Méid páirce"
+
+msgid "Up:"
+msgstr "Suas:"
+
+msgid "Down:"
+msgstr "Síos:"
+
+msgid "Left:"
+msgstr "Clé:"
+
+msgid "Right:"
+msgstr "Deis:"
+
+msgid "Color:"
+msgstr "Dath:"
+
+msgid "Red"
+msgstr "Dearg"
+
+msgid "Green"
+msgstr "Glas"
+
+msgid "Blue"
+msgstr "Gorm"
+
+msgid "Yellow"
+msgstr "Buí"
+
+msgid "Gray"
+msgstr "Liath"
+
+msgid "Set game scenario"
+msgstr "Tóg Cnámhscéal cluiche"
+
+msgid "X"
+msgstr "X"
+
+msgid "Y"
+msgstr "Y"
+
+#, fuzzy
+msgid "Gnome Robots II"
+msgstr "Miana Gnome"
+
+#, fuzzy
+msgid "Do you really want to start a new game?"
+msgstr "An bhfuil ialu uait go fírinne?"
+
+#, fuzzy
+msgid "Do you really want to quit the game?"
+msgstr "An bhfuil ialu uait go fírinne?"
+
+#, fuzzy
+msgid "Gnobots II"
+msgstr "Miana Gnome"
+
+#, fuzzy
+msgid "Gnome Robots Game"
+msgstr "Miana Gnome"
+
+#, fuzzy
+msgid "Initial Number of Robots"
+msgstr "Uimhir na Miana:"
+
+#, fuzzy
+msgid "Maximum Number of Robots"
+msgstr "Uimhir na Miana:"
+
+msgid "Yes"
+msgstr "Tá"
+
+msgid "No"
+msgstr "Níl"
+
+#, fuzzy
+msgid "robots"
+msgstr "Miana Gnome"
+
+#, fuzzy
+msgid "gnomes"
+msgstr "Miana Gnome"
+
+#, fuzzy
+msgid "Game Type:"
+msgstr "Saghas Cluiche:"
+
+#, fuzzy
+msgid "Property"
+msgstr "Albaltacht"
+
+msgid "Value"
+msgstr "Luach"
+
+msgid "Sound"
+msgstr "Fuaim"
+
+msgid "Configuration"
+msgstr "Cumasaí"
+
+#, fuzzy
+msgid "SE"
+msgstr "SIZE"
+
+msgid "Wait:"
+msgstr "Fan:"
+
+#, fuzzy
+msgid "Score:"
+msgstr "Scór:"
+
+msgid "Level:"
+msgstr "Cothrom:"
+
+msgid "Gnome-Stones (c) 1998 Carsten Schaar"
+msgstr "Gnome-Stones (c) 1998 Carsten Schaar"
+
+#, fuzzy
+msgid "Game to play"
+msgstr "Cluiche"
+
+#, fuzzy
+msgid "FILENAME"
+msgstr "NAME"
+
+msgid "Game title:"
+msgstr "Tidéal Cluiche:"
+
+msgid "Pause"
+msgstr "Fan"
+
+#, fuzzy
+msgid "Game over!"
+msgstr "Cluiche thart!"
+
+#, fuzzy
+msgid "Gnome-Stones"
+msgstr "Clochaí Gnome"
+
+msgid "A game."
+msgstr "An Cluiche."
+
+#, fuzzy
+msgid "Gnome-Stones Preferences"
+msgstr "Miana Gnome"
+
+#, fuzzy
+msgid "Game title"
+msgstr "Tidéal cluiche"
+
+msgid "Caves"
+msgstr "Póil"
+
+#, fuzzy
+msgid "Filename"
+msgstr "Ainmcomhad"
+
+msgid "Device"
+msgstr "Gaireas"
+
+msgid "Joystick device:"
+msgstr "Gaireas Joystick:"
+
+msgid "disabled"
+msgstr "Míchumasach"
+
+msgid "Cave:"
+msgstr "Póil:"
+
+msgid "LEVEL"
+msgstr "COTHROM"
+
+msgid "Level: "
+msgstr "Cothrom:"
+
+#, fuzzy
+msgid "Gnometris"
+msgstr "Gnometris"
+
+#, fuzzy
+msgid "Gnometris setup"
+msgstr "Cuardaigh Gnometris"
+
+#, fuzzy
+msgid "Number of pre-filled rows:"
+msgstr "Uimhir na Miana:"
+
+msgid "Tiny"
+msgstr "Míon"
+
+msgid "Medium"
+msgstr "Méan"
+
+msgid "Biiiig"
+msgstr "OllMór"
+
+msgid "Custom"
+msgstr "Féindéanamh"
+
+msgid "Gnome Mines"
+msgstr "Miana Gnome"
+
+#, fuzzy
+msgid "Score: HoraPe"
+msgstr "Scór: "
+
+msgid "(C) 1997-1999 the Free Software Foundation"
+msgstr "(C) 1997-1999 the Free Software Foundation"
+
+msgid "Minesweeper clone"
+msgstr "Coip minesweeper"
+
+msgid "Field size"
+msgstr "Méid páirce"
+
+msgid "Custom size"
+msgstr "Méid féindéanta"
+
+msgid "Horizontal:"
+msgstr "Cothrománach:"
+
+msgid "Vertical:"
+msgstr "Ingearach:"
+
+msgid "Number of mines:"
+msgstr "Uimhir na Miana:"
+
+#, fuzzy
+msgid "Mine size:"
+msgstr "Méid Miana:"
+
+#, fuzzy
+msgid "Gnome Mine Preferences"
+msgstr "Miana Gnome"
+
+msgid "Width of grid"
+msgstr "Leitheid na greille"
+
+msgid "Height of grid"
+msgstr "Airde na greille"
+
+msgid "Size of mines"
+msgstr "Mhéid na Miana"
+
+msgid "SIZE"
+msgstr "MÉID"
+
+msgid "Number of mines"
+msgstr "Uimhir na Miana:"
+
+msgid "NUMBER"
+msgstr "UIMHIR"
+
+msgid "Flags:"
+msgstr "Brataí:"
+
+msgid "Time:"
+msgstr "Am:"
+
+#, fuzzy
+msgid "Solve the game"
+msgstr "Tsg cluiche"
+
+msgid "_Up"
+msgstr "S_uas"
+
+msgid "_Left"
+msgstr "_Clé"
+
+msgid "_Right"
+msgstr "_Deis"
+
+msgid "_Down"
+msgstr "Sí_os"
+
+msgid "_Move"
+msgstr "_Bog"
+
+#, fuzzy
+msgid "_Novice"
+msgstr "_Bog"
+
+#, fuzzy
+msgid "_Medium"
+msgstr "Méan"
+
+#, fuzzy
+msgid "Moves:"
+msgstr "Beart"
+
+#, fuzzy
+msgid "Welcome to Gnome Klotski"
+msgstr "Fáilte go Gnome Mahjongg"
+
+#, fuzzy
+msgid "Welcome to the game of Tali"
+msgstr "An Gnome Cianna"
+
+#, fuzzy
+msgid "Gnome Tali"
+msgstr "Miana Gnome"
+
+msgid "Scott Heavner"
+msgstr "Scott Heavner"
+
+msgid "Orest Zborowski - Curses Version (C) 1992"
+msgstr "Orest Zborowski - Leagan Curses (C) 1992"
+
+msgid "(C) 1998 the Free Software Fundation"
+msgstr "(C) 1998 the Free Software Fundation"
+
+#, fuzzy
+msgid "GTali setup"
+msgstr "Cumraigh Mianna Gnome"
+
+#, fuzzy
+msgid "Optional Rules"
+msgstr "Roghnachais"
+
+msgid "Yahtzee [50]"
+msgstr "Yahtzee [50]"
+
+msgid "Chance [total]"
+msgstr "Seans [Iomlán]"
+
+msgid "Total"
+msgstr "Iomlán"
+
+msgid "IOR"
+msgstr "IOR"
+
+msgid "Iagno"
+msgstr "Iagno"
+
+msgid "(C) 1998 Ian Peters"
+msgstr "(C) 1998 Ian Peters"
+
+#, fuzzy
+msgid "Welcome to Iagno!"
+msgstr "An Gnome Cianna"
+
+#, fuzzy
+msgid "New game with _seed..."
+msgstr "Cluiche Nua"
+
+#, fuzzy
+msgid "Shuffle tiles"
+msgstr "Tsg cluiche"
+
+msgid "_Sound"
+msgstr "_Fuaim"
+
+#, fuzzy
+msgid "Prefs"
+msgstr "Albaltachtam"
+
+msgid "Maps"
+msgstr "Mapaí"
+
+#, fuzzy
+msgid "Select Map:"
+msgstr "Tóg Mapa:"
+
+msgid "Colours"
+msgstr "Dathanna"
+
+msgid "Background:"
+msgstr "Cúlra:"
+
+#, fuzzy
+msgid "Gnome Mahjongg"
+msgstr "Gnome Mahjongg"
+
+msgid "Game Number:"
+msgstr "Uimhir Cluiche:"
+
+#, fuzzy
+msgid "Tiles Left: "
+msgstr "Comhad"
+
+#, fuzzy
+msgid "Moves Left: "
+msgstr "Comhad"
+
+msgid "The Same Gnome"
+msgstr "An Gnome Céanna"
+
+msgid "Scenario"
+msgstr "Cnámhscéal"
+
+msgid "Select scenario:"
+msgstr "Tóg Cnámhsceal:"
+
+msgid "Make it the default scenario"
+msgstr "Roghnaigh mar chnámhscéal bunúsach"
+
+msgid "Original idea from KDE's same game program."
+msgstr "Bun chloch o ríomhchlar an chluiche ceanna de KDE."
+
+#, fuzzy
+msgid "Same Gnome"
+msgstr "An Gnome Ceanna"
+
+#, fuzzy
+msgid "Welcome to Same Gnome!"
+msgstr "An Gnome Cianna"
+
+msgid "What ? "
+msgstr "Gabh mo leathsceal ?"
+
+msgid "OK"
+msgstr "Ceart go leor"
+
+msgid "Copyright (C) 1997 Alan Cox"
+msgstr "Coípcheart (C) 1997 Alan Cox"
+
+msgid "North"
+msgstr "Tuaisceart"
+
+#, fuzzy
+msgid "East"
+msgstr "Oirthir"
+
+msgid "South"
+msgstr "Deisceart"
+
+msgid "Up"
+msgstr "Suas"
+
+#, fuzzy
+msgid "Down"
+msgstr "Sí_os"
+
+msgid "List"
+msgstr "Líosta"
+
+#, fuzzy
+msgid "_New"
+msgstr "_Nua"
+
+msgid "."
+msgstr "."
+
+msgid "Ok"
+msgstr "Ceart go leor"
+
+#, fuzzy
+msgid "Random Player Configuration"
+msgstr "Cumasaí"
+
+#, fuzzy
+msgid "Iagno II"
+msgstr "Iagno"
+
+#, fuzzy
+msgid " Welcome to Iagno II!"
+msgstr "An Gnome Cianna"
+
+#, fuzzy
+msgid "(C) 1999-2000 Ian Peters"
+msgstr "(C) 1998 Ian Peters"
+
+#, fuzzy
+msgid ""
+"Game already in progress!\n"
+"Start a new game?"
+msgstr "An bhfuil ialu uait go fírinne?"
+
+#, fuzzy
+msgid "Iagno II Preferences"
+msgstr "Miana Gnome"
+
+#, fuzzy
+msgid "Configure..."
+msgstr "Cumasaí"
+
+msgid "About..."
+msgstr "Faoi..."
+
+#, fuzzy
+msgid "Tileset:"
+msgstr "Comhad"
+
+msgid "Properties"
+msgstr "Albaltachtaí"
+
+#, fuzzy
+msgid "New _seed..."
+msgstr "Cluiche Nua"
+
+msgid "Setup Freecell."
+msgstr "Cuardaigh Freecell"
+
+msgid "Gnomekoban"
+msgstr "Gnomekoban"
+
+msgid "Gnome Mines setup"
+msgstr "Cuardaigh Mianna Gnome"
+
+msgid "Prop."
+msgstr "Albaltachtaí"
+
+msgid "_New Game"
+msgstr "Cluiche _Nua"
+
+msgid "_Properties..."
+msgstr "_Albaltachtaí"
+
+msgid "E_xit"
+msgstr "_Ealu"
+
+msgid "_About..."
+msgstr "_Faoi..."
+
+msgid "_Game"
+msgstr "_Cluiche"
+
+msgid "_Help"
+msgstr "C_abhair"
+
+#, fuzzy
+msgid "_Scores"
+msgstr "_Scóraí..."
+
+msgid "_About Gnometris"
+msgstr "_Faoi Gnometris"
+
+msgid "_Select"
+msgstr "Tóg cluiche"
+
+msgid "_Scores..."
+msgstr "_Scóraí..."
+
+msgid "Exit Gnome Stones"
+msgstr "Ealaigh as cluiche"
+
+msgid "_About Gnome-Stones"
+msgstr "_Faoi Gnome-Stones"
+
+msgid "S_cores"
+msgstr "Scóraí..."
+
+msgid "_Edit"
+msgstr "_Eagar"
+
+msgid "_About Mahjongg"
+msgstr "_Faoi Mahjongg"
+
+msgid "_Options"
+msgstr "_Roghnachais"
+
+#, fuzzy
+msgid "_About Same Gnome"
+msgstr "An Gnome Ceanna"
+
+msgid "ID"
+msgstr "ID"
+
+msgid "Solitaire"
+msgstr "Solitaire"
+
+msgid "F?"
+msgstr "F?"
+
+msgid "Gnome mines"
+msgstr "Miana Gnome"
+
+msgid "About"
+msgstr "Faoi"
+
+msgid "FreeCell"
+msgstr "FreeCell"
+
+msgid "(C) 1997-1998 Changwoo Ryu"
+msgstr "(C) 1997-1998 Changwoo Ryu"
+
+#, fuzzy
+#~ msgid "FreeCell Game"
+#~ msgstr "FreeCell"
+
+#, fuzzy
+#~ msgid "Gnome ataxx game"
+#~ msgstr "Miana Gnome"
+
+#, fuzzy
+#~ msgid "Game over"
+#~ msgstr "Cluiche thart!"
+
+#, fuzzy
+#~ msgid "Gnome color lines"
+#~ msgstr "Miana Gnome"
+
+#, fuzzy
+#~ msgid "Gnome four-in-a-row game"
+#~ msgstr "Coip minesweeper"
+
+#, fuzzy
+#~ msgid "Drawn"
+#~ msgstr "Síos"
+
+#, fuzzy
+#~ msgid "Start a new game"
+#~ msgstr "Tóg Cluiche nua"
+
+#, fuzzy
+#~ msgid "Exit the program"
+#~ msgstr "Ealu as an cluiche?"
+
+#, fuzzy
+#~ msgid " Welcome to Gnect!"
+#~ msgstr "An Gnome Cianna"
+
+#, fuzzy
+#~ msgid "Initial window placement"
+#~ msgstr "Ag socrú scheme..."
+
+#, fuzzy
+#~ msgid "SEED"
+#~ msgstr "SIZE"
+
+#, fuzzy
+#~ msgid "Gnect Preferences"
+#~ msgstr "Cuardaigh Gnibbles"
+
+#, fuzzy
+#~ msgid "Move left"
+#~ msgstr "Comhad"
+
+#, fuzzy
+#~ msgid "Animation:"
+#~ msgstr "Beochan"
+
+#, fuzzy
+#~ msgid "Sound type:"
+#~ msgstr "Fuaim"
+
+#, fuzzy
+#~ msgid "GNOME sound"
+#~ msgstr "Gnome Mahjongg"
+
+#, fuzzy
+#~ msgid "Grey"
+#~ msgstr "Liath"
+
+#, fuzzy
+#~ msgid "Pink"
+#~ msgstr "Comhad"
+
+#, fuzzy
+#~ msgid "Brown"
+#~ msgstr "Síos"
+
+#, fuzzy
+#~ msgid "Gnome Nibbles Game"
+#~ msgstr "Miana Gnome"
+
+#, fuzzy
+#~ msgid "Game Over"
+#~ msgstr "Cluiche thart!"
+
+#, fuzzy
+#~ msgid "GnobotsII"
+#~ msgstr "Miana Gnome"
+
+#, fuzzy
+#~ msgid "Gnome Robots game"
+#~ msgstr "Miana Gnome"
+
+#, fuzzy
+#~ msgid "Bad Move"
+#~ msgstr "_Bog"
+
+#, fuzzy
+#~ msgid "Gnome Stones game"
+#~ msgstr "Clochaí Gnome"
+
+#, fuzzy
+#~ msgid "Gnome Tetris Game"
+#~ msgstr "Miana Gnome"
+
+#, fuzzy
+#~ msgid "Gnome Mines game"
+#~ msgstr "Miana Gnome"
+
+#, fuzzy
+#~ msgid "Time : "
+#~ msgstr "Am:"
+
+#, fuzzy
+#~ msgid "Gnome Tetravex game"
+#~ msgstr "Miana Gnome"
+
+#, fuzzy
+#~ msgid "Gnome Klotski"
+#~ msgstr "Fáilte go Gnome Mahjongg"
+
+#, fuzzy
+#~ msgid "Gnotski"
+#~ msgstr "Gnometris"
+
+#, fuzzy
+#~ msgid "GTali"
+#~ msgstr "Miana Gnome"
+
+#, fuzzy
+#~ msgid "Gnome Dice game"
+#~ msgstr "Miana Gnome"
+
+#, fuzzy
+#~ msgid "Gnome Reversi game"
+#~ msgstr "Miana Gnome"
+
+#, fuzzy
+#~ msgid "New game started"
+#~ msgstr "Cluiche Nua"
+
+#, fuzzy
+#~ msgid "Mahjongg - Preferences"
+#~ msgstr "Miana Gnome"
+
+#, fuzzy
+#~ msgid "Tile background:"
+#~ msgstr "Cúlra:"
+
+#, fuzzy
+#~ msgid "GNOME Mahjongg"
+#~ msgstr "Gnome Mahjongg"
+
+#, fuzzy
+#~ msgid "Really restart this game?"
+#~ msgstr "An bhfuil ialu uait go fmrinne?"
+
+#, fuzzy
+#~ msgid "Really start a new game?"
+#~ msgstr "An bhfuil ialu uait go fírinne?"
+
+#, fuzzy
+#~ msgid "Welcome to GNOME Mahjongg!"
+#~ msgstr "An Gnome Cianna"
+
+#, fuzzy
+#~ msgid "Mahjongg"
+#~ msgstr "Gnome Mahjongg"
+
+#~ msgid "Gnome SameGame program"
+#~ msgstr "An Gnome Cianna"
+
+#, fuzzy
+#~ msgid "New Game?"
+#~ msgstr "Cluiche Nua"
+
+#, fuzzy
+#~ msgid "Pause Game"
+#~ msgstr "Fan"
+
+#, fuzzy
+#~ msgid "Continue"
+#~ msgstr "Cumasaí"
+
+#, fuzzy
+#~ msgid "Story"
+#~ msgstr "Stad"
+
+#, fuzzy
+#~ msgid "Gnome xBill Scores"
+#~ msgstr "Miana Gnome"
+
+#, fuzzy
+#~ msgid "Gnome xBill"
+#~ msgstr "Miana Gnome"
+
+#, fuzzy
+#~ msgid "Done"
+#~ msgstr "Tada"
+
+#, fuzzy
+#~ msgid "gnome-stones:empty"
+#~ msgstr "Clochaí Gnome"
+
+#, fuzzy
+#~ msgid "gnomekoban:empty,0"
+#~ msgstr "Gnomekoban"
+
+#, fuzzy
+#~ msgid "Cancel"
+#~ msgstr "Camelot"
+
+#, fuzzy
+#~ msgid "Iagno2"
+#~ msgstr "Iagno"
+
+#~ msgid "_Score..."
+#~ msgstr "_Scór..."

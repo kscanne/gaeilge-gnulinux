@@ -1,0 +1,4454 @@
+# Gaeilge (Irish) translations for Galeon
+# Copyright (C) 2001 Free Software Foundation, Inc.
+# Alastair McKinstry <mckinstry@computer.org>, 2001..
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: galeon VERSION\n"
+"POT-Creation-Date: 2001-09-20 20:09-0400\n"
+"PO-Revision-Date: 2001-09-22 11:30-0000\n"
+"Last-Translator: Alastair McKinstry, <mckinstry@computer.org>\n"
+"Language-Team: Irish <ga@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ISO-8859-15\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. create the browser window
+#: galeon.desktop.in.h:1 sounds/galeon.soundlist.in.h:1 src/dialog.c:123
+#: src/mozilla/PromptService.cpp:564 src/window.c:188 ui/galeon.glade.h:46
+#: ui/preferences.glade.h:91
+msgid "Galeon"
+msgstr "Galeon"
+
+#: GNOME_Galeon_Automation.oaf.in.h:1 galeon.desktop.in.h:2
+msgid "Galeon Web Browser"
+msgstr ""
+
+#: sounds/galeon.soundlist.in.h:2
+msgid "URL Clicked"
+msgstr ""
+
+#. no, create the folder
+#: src/autobookmarks.c:117 ui/preferences.glade.h:32
+msgid "AutoBookmarks"
+msgstr ""
+
+#: src/bookmarks.c:186 src/prefs.c:410 src/toolbar.c:254
+#: ui/bookmarks.glade.h:3
+msgid "Bookmarks"
+msgstr ""
+
+#: src/bookmarks.c:274
+msgid "Error"
+msgstr "Earraidh"
+
+#: src/bookmarks.c:276
+msgid "An error ocurred loading your bookmarks."
+msgstr ""
+
+#: src/bookmarks.c:611 src/bookmarks.c:618
+msgid "Unable to save bookmark file."
+msgstr ""
+
+#: src/bookmarks.c:1289 src/embed.c:273 src/embed.c:1833 src/history.c:432
+#: src/misc.c:362 src/mozcallbacks.c:209
+msgid "Untitled"
+msgstr "GanTidéal"
+
+#: src/bookmarks_editor.c:843 src/bookmarks_editor.c:1051 src/menubar.c:542
+#: ui/galeon.glade.h:142
+msgid "_File"
+msgstr "_Comhad"
+
+#. File
+#: src/bookmarks_editor.c:844 src/menubar.c:34
+msgid "_Open..."
+msgstr "_Oscail..."
+
+#: src/bookmarks_editor.c:845
+msgid "_Revert"
+msgstr ""
+
+#: src/bookmarks_editor.c:846
+msgid "_Save"
+msgstr "_Sábháil"
+
+#: src/bookmarks_editor.c:847 src/menubar.c:88
+msgid "_Close"
+msgstr "_Dún"
+
+#: src/bookmarks_editor.c:848 src/bookmarks_editor.c:1052 src/menubar.c:543
+msgid "_Edit"
+msgstr "_Eagar"
+
+#. Edit
+#: src/bookmarks_editor.c:849 src/bookmarks_editor.c:1072 src/menubar.c:37
+msgid "C_ut"
+msgstr "_Gearr"
+
+#: src/bookmarks_editor.c:850 src/bookmarks_editor.c:1074 src/menubar.c:38
+msgid "_Copy"
+msgstr "_Cóip"
+
+#: src/bookmarks_editor.c:851 src/bookmarks_editor.c:1076 src/menubar.c:39
+msgid "_Paste"
+msgstr "G_reamaigh"
+
+#: src/bookmarks_editor.c:852 src/bookmarks_editor.c:1053 src/menubar.c:544
+msgid "_View"
+msgstr "_Taispeán"
+
+#: src/bookmarks_editor.c:865
+msgid "New _item"
+msgstr ""
+
+#: src/bookmarks_editor.c:869
+msgid "New _separator"
+msgstr ""
+
+#: src/bookmarks_editor.c:874
+msgid "New _folder"
+msgstr ""
+
+#: src/bookmarks_editor.c:878
+msgid "New _alias"
+msgstr ""
+
+#: src/bookmarks_editor.c:898
+msgid "_One Level"
+msgstr ""
+
+#: src/bookmarks_editor.c:902
+msgid "_Recursive"
+msgstr ""
+
+#: src/bookmarks_editor.c:915 src/bookmarks_editor.c:1078
+#: src/bookmarks_menus.c:561
+msgid "_Remove bookmark"
+msgstr ""
+
+#: src/bookmarks_editor.c:920
+msgid "_Go to bookmark target"
+msgstr ""
+
+#: src/bookmarks_editor.c:924 src/bookmarks_menus.c:537
+msgid "_Set as default folder"
+msgstr ""
+
+#: src/bookmarks_editor.c:929
+msgid "Move _up"
+msgstr "Bod s_uas"
+
+#: src/bookmarks_editor.c:933
+msgid "Move _down"
+msgstr "Bog S_íos"
+
+#: src/bookmarks_editor.c:937
+msgid "_Refresh icon"
+msgstr ""
+
+#: src/bookmarks_editor.c:942
+msgid "Add alias for r_oot bookmark"
+msgstr ""
+
+#: src/bookmarks_editor.c:947
+msgid "Sort folder"
+msgstr ""
+
+#: src/bookmarks_editor.c:950
+msgid "_Find bookmarks..."
+msgstr ""
+
+#: src/bookmarks_editor.c:958
+msgid "_Show editing controls"
+msgstr ""
+
+#: src/bookmarks_editor.c:963
+msgid "_Expand all categories"
+msgstr ""
+
+#: src/bookmarks_editor.c:967
+msgid "_Collapse all categories"
+msgstr ""
+
+#: src/bookmarks_editor.c:980
+msgid "Show only _this folder"
+msgstr ""
+
+#: src/bookmarks_editor.c:984
+msgid "Show _all bookmarks"
+msgstr ""
+
+#: src/bookmarks_editor.c:989
+msgid "_Dock"
+msgstr ""
+
+#: src/bookmarks_editor.c:997
+msgid "Import from _Galeon's own format..."
+msgstr ""
+
+#: src/bookmarks_editor.c:1001
+msgid "Import from _XBEL..."
+msgstr ""
+
+#: src/bookmarks_editor.c:1005
+msgid "Import from _Netscape bookmarks"
+msgstr ""
+
+#: src/bookmarks_editor.c:1010
+msgid "Import from _Mozilla bookmarks"
+msgstr ""
+
+#: src/bookmarks_editor.c:1015
+msgid "Import from _other location..."
+msgstr ""
+
+#: src/bookmarks_editor.c:1021
+msgid "Export bookmarks in X_BEL..."
+msgstr ""
+
+#: src/bookmarks_editor.c:1025
+msgid "Export to Net_scape bookmarks..."
+msgstr ""
+
+#: src/bookmarks_editor.c:1031
+msgid "Export to Mo_zilla bookmarks..."
+msgstr ""
+
+#: src/bookmarks_editor.c:1036
+msgid "Export to o_ther location..."
+msgstr ""
+
+#: src/bookmarks_editor.c:1054
+msgid "I_mport / Export"
+msgstr ""
+
+#: src/bookmarks_editor_callbacks.c:428
+msgid ""
+"You are going to remove (at least) a non empty \n"
+"bookmark folder. All its bookmarks will be deleted.\n"
+"Do you want to continue?"
+msgstr ""
+
+#: src/bookmarks_editor_callbacks.c:731 ui/bookmarks.glade.h:43
+msgid "Separator"
+msgstr ""
+
+#: src/bookmarks_editor_callbacks.c:1510 src/context.c:819
+msgid "_Icons only"
+msgstr ""
+
+#: src/bookmarks_editor_callbacks.c:1514 src/context.c:797 src/context.c:815
+msgid "_Text only"
+msgstr "_Teacs amhain"
+
+#: src/bookmarks_editor_callbacks.c:1518 src/context.c:793 src/context.c:811
+msgid "Text _under icons"
+msgstr ""
+
+#: src/bookmarks_editor_callbacks.c:1538
+msgid "Save as..."
+msgstr "Sábháil mar..."
+
+#: src/bookmarks_editor_callbacks.c:1553
+msgid "Load from..."
+msgstr "Lódáil as..."
+
+#: src/bookmarks_editor_callbacks.c:1557
+#, c-format
+msgid ""
+"Your current set of bookmarks will be replaced with the contents of %s.\n"
+"Do you want to continue?"
+msgstr ""
+
+#: src/bookmarks_editor_dnd.c:481 src/bookmarks_menus_callbacks.c:296
+#: src/bookmarks_menus_callbacks.c:310
+msgid "New folder"
+msgstr "Comhadlann nua"
+
+#: src/bookmarks_menus.c:451
+msgid "_Folder actions"
+msgstr ""
+
+#: src/bookmarks_menus.c:467 src/bookmarks_menus.c:558
+msgid "_Edit..."
+msgstr "_Eagar..."
+
+#: src/bookmarks_menus.c:470
+msgid "_Remove bookmark folder"
+msgstr ""
+
+#: src/bookmarks_menus.c:496
+msgid "Add _bookmark here"
+msgstr ""
+
+#: src/bookmarks_menus.c:499
+msgid "Add _folder here"
+msgstr ""
+
+#: src/bookmarks_menus.c:503
+msgid "_Open whole folder in tabs"
+msgstr ""
+
+#: src/bookmarks_menus.c:515
+msgid "Open whole folder in _windows"
+msgstr ""
+
+#: src/bookmarks_menus.c:529
+msgid "Open folder in My _Portal"
+msgstr ""
+
+#: src/bookmarks_menus.c:533 ui/bookmarks.glade.h:55
+msgid "_Show as toolbar"
+msgstr ""
+
+#: src/bookmarks_menus.c:543
+msgid "Regenerate _autobookmarks"
+msgstr ""
+
+#: src/bookmarks_menus.c:571
+msgid "Open in a new window"
+msgstr ""
+
+#: src/bookmarks_menus.c:574
+msgid "Open in a new tab"
+msgstr ""
+
+#: src/bookmarks_menus.c:577 src/context.c:62
+msgid "Copy link location"
+msgstr ""
+
+#: src/bookmarks_menus_callbacks.c:309
+msgid "Please enter the name of the folder"
+msgstr ""
+
+#: src/bookmarks_menus_callbacks.c:482
+msgid ""
+"Removing this category will remove all its children.\n"
+"Are you sure that you want to continue?"
+msgstr ""
+
+#: src/bookmarks_menus_callbacks.c:539
+msgid "Please enter the name of the bookmark"
+msgstr ""
+
+#: src/bookmarks_menus_callbacks.c:557 src/bookmarks_menus_callbacks.c:576
+#: src/bookmarks_menus_callbacks.c:592
+msgid "Importing bookmarks failed"
+msgstr ""
+
+#: src/bookmarks_menus_callbacks.c:561 src/bookmarks_menus_callbacks.c:574
+#: src/bookmarks_menus_callbacks.c:590
+msgid "Bookmarks successfully imported/merged"
+msgstr ""
+
+#: src/bookmarks_menus_callbacks.c:636 src/bookmarks_menus_callbacks.c:653
+#: src/bookmarks_menus_callbacks.c:667
+msgid "Import from..."
+msgstr ""
+
+#: src/bookmarks_menus_callbacks.c:709
+msgid "Export to..."
+msgstr ""
+
+#: src/bookmarks_menus_callbacks.c:725
+msgid "Export in XBEL as..."
+msgstr ""
+
+#: src/bookmarks_menus_callbacks.c:739
+msgid "Exporting bookmarks failed"
+msgstr ""
+
+#: src/bookmarks_menus_callbacks.c:741
+msgid "Bookmarks successfully exported"
+msgstr ""
+
+#: src/bookmarks_toolbars.c:580
+msgid "Show/hide the smartbookmark's combo box"
+msgstr ""
+
+#: src/bookmarks_toolbars.c:655
+msgid "Search for entered phrase"
+msgstr ""
+
+#: src/bookmarks_toolbars.c:864 src/bookmarks_toolbars.c:924
+msgid "Hide toolbar"
+msgstr ""
+
+#: src/bookmarks_toolbars.c:915
+msgid "_Resize entry..."
+msgstr ""
+
+#: src/mozilla/ContentHandler.cpp:461
+msgid "Save As:"
+msgstr "S,Aa(Bbh,Aa(Bil Mar:"
+
+#: src/mozilla/ContentHandler.cpp:709 src/mozilla/mozilla.cpp:1550
+#: src/prefs_callbacks.c:223
+msgid "None"
+msgstr "Ar Bith"
+
+#: src/mozilla/ContentHandler.cpp:736
+#, c-format
+msgid "The URL %s has MIME type %s"
+msgstr ""
+
+#: src/mozilla/ContentHandler.cpp:817
+#, c-format
+msgid "MIME type: %s"
+msgstr ""
+
+#: src/mozilla/ContentHandler.cpp:1010
+#, c-format
+msgid "%.2f%% - Downloading"
+msgstr ""
+
+#: src/mozilla/ContentHandler.cpp:1062 src/mozilla/ContentHandler.cpp:1144
+msgid "Download Paused"
+msgstr ""
+
+#: src/mozilla/ContentHandler.cpp:1066
+#, c-format
+msgid "%dK of %sK bytes at %sK bytes/sec"
+msgstr ""
+
+#: src/mozilla/ContentHandler.cpp:1084 src/prefs.c:1189
+#: src/prefs_callbacks.c:228 src/prefs_callbacks.c:398
+msgid "Unknown"
+msgstr "Gan Aithne"
+
+#: src/mozilla/ContentHandler.cpp:1135 ui/galeon.glade.h:91
+msgid "Pause"
+msgstr ""
+
+#: src/mozilla/ContentHandler.cpp:1147
+msgid "Resume"
+msgstr ""
+
+#: src/mozilla/ContentHandler.cpp:1348 ui/galeon.glade.h:15
+msgid "Choose Helper Application"
+msgstr ""
+
+#. common menus
+#. are these still needed? do we need to make them all like this?
+#: src/context.c:55 src/toolbar.c:85
+msgid "Back"
+msgstr "Riomh"
+
+#: src/context.c:56 src/toolbar.c:111
+msgid "Forward"
+msgstr "Ar Lean"
+
+#: src/context.c:57 src/toolbar.c:98 ui/bookmarks.glade.h:51
+msgid "Up"
+msgstr "Suas"
+
+#: src/context.c:58 src/toolbar.c:124
+msgid "Reload"
+msgstr ""
+
+#: src/context.c:59
+msgid "Open in new window"
+msgstr ""
+
+#: src/context.c:60
+msgid "Open in new tab"
+msgstr ""
+
+#: src/context.c:61
+msgid "Download link"
+msgstr ""
+
+#: src/context.c:63
+msgid "Add bookmark"
+msgstr ""
+
+#: src/context.c:64
+msgid "Open image in new window"
+msgstr ""
+
+#: src/context.c:65
+msgid "Open image in new tab"
+msgstr ""
+
+#: src/context.c:66
+msgid "Save image"
+msgstr ""
+
+#: src/context.c:67
+msgid "Save image as..."
+msgstr ""
+
+#: src/context.c:68
+msgid "Use image as background"
+msgstr ""
+
+#: src/context.c:69
+msgid "Copy image location"
+msgstr ""
+
+#: src/context.c:70
+msgid "Open frame in window"
+msgstr ""
+
+#: src/context.c:71
+msgid "Open frame in new window"
+msgstr ""
+
+#: src/context.c:72
+msgid "Open frame in new tab"
+msgstr ""
+
+#: src/context.c:73
+msgid "Reload frame"
+msgstr ""
+
+#: src/context.c:74
+msgid "Copy frame location"
+msgstr ""
+
+#: src/context.c:75
+msgid "Add bookmark for frame"
+msgstr ""
+
+#: src/context.c:76
+msgid "View source"
+msgstr ""
+
+#: src/context.c:77
+msgid "Save As..."
+msgstr "S,Aa(Bbh,Aa(Bil Mar ..."
+
+#: src/context.c:78
+msgid "Full screen"
+msgstr ""
+
+#: src/context.c:79
+msgid "Show menubar"
+msgstr ""
+
+#: src/context.c:80
+msgid "Save background as..."
+msgstr ""
+
+#: src/context.c:81
+msgid "Cut"
+msgstr "Gearr"
+
+#: src/context.c:82
+msgid "Copy"
+msgstr "Cóip"
+
+#: src/context.c:83
+msgid "Paste"
+msgstr "Greamaigh"
+
+#: src/context.c:758 ui/preferences.glade.h:250
+msgid "_Appearance"
+msgstr ""
+
+#: src/context.c:789 src/context.c:807
+msgid "Text _beside icons"
+msgstr ""
+
+#: src/context.c:825
+msgid "_Edit toolbar..."
+msgstr ""
+
+#: src/context.c:900
+#, c-format
+msgid "Open image (%s)"
+msgstr ""
+
+#: src/context.c:927
+#, c-format
+msgid "Block images from %s"
+msgstr ""
+
+#: src/context.c:933
+msgid "Block image source"
+msgstr ""
+
+#: src/context.c:941
+#, c-format
+msgid "Allow images from %s"
+msgstr ""
+
+#: src/context.c:947
+msgid "Allow image source"
+msgstr ""
+
+#: src/dialog.c:77
+#, c-format
+msgid ""
+"File %s will be overwritten.\n"
+"(%li bytes, modified %s)\n"
+"If you choose yes, the contents will be lost.\n"
+"\n"
+"Do you want to continue?"
+msgstr ""
+
+#: src/downloader.c:80
+msgid "Choose destination folder"
+msgstr ""
+
+#: src/downloader.c:193
+msgid "Galeon Downloader"
+msgstr ""
+
+#: src/downloader.c:211
+#, c-format
+msgid ""
+"Failed to execute download command:\n"
+"\"%s\""
+msgstr ""
+
+#: src/downloader.c:282
+msgid ""
+"Failed to communicate with GTM.\n"
+"\n"
+"Please check it is installed correctly. Download it from:\n"
+"\thttp://gtm.sourceforge.net"
+msgstr ""
+
+#: src/eel-gconf-extensions.c:78
+#, c-format
+msgid ""
+"GConf error:\n"
+"  %s"
+msgstr ""
+
+#: src/eel-gconf-extensions.c:82
+#, c-format
+msgid ""
+"GConf error:\n"
+"  %s\n"
+"All further errors shown only on terminal"
+msgstr ""
+
+#: src/embed.c:775 src/embed.c:925
+msgid "No document is loaded"
+msgstr ""
+
+#: src/embed.c:822
+msgid "Select the file to save"
+msgstr ""
+
+#: src/embed.c:896
+#, c-format
+msgid "Saved as %s"
+msgstr ""
+
+#: src/embed.c:900
+#, c-format
+msgid "Save as %s failed"
+msgstr ""
+
+#: src/embed.c:956
+msgid "Could not create a temporary file"
+msgstr ""
+
+#. throw the error
+#: src/mozilla/ExternalProtocolService.cpp:111
+msgid ""
+"Galeon cannot handle this protocol,\n"
+"and no GNOME default handler is set"
+msgstr ""
+
+#. offer the choice
+#: src/mozilla/ExternalProtocolService.cpp:119
+msgid ""
+"The protocol specified is not recognised.\n"
+"\n"
+"Would you like to try the GNOME default?"
+msgstr ""
+
+#: src/mozilla/FilePicker.cpp:303 src/mozilla/FilePickerGfs.cpp:498
+#: src/mozilla/FilePickerGfs.cpp:587
+msgid "Save with content"
+msgstr ""
+
+#: src/mozilla/FilePicker.cpp:382 src/mozilla/FilePickerGfs.cpp:331
+msgid "The specified path does not exist."
+msgstr ""
+
+#: src/mozilla/FilePicker.cpp:401 src/mozilla/FilePickerGfs.cpp:350
+msgid "A file was selected when a folder was expected."
+msgstr ""
+
+#: src/mozilla/FilePicker.cpp:407 src/mozilla/FilePickerGfs.cpp:356
+msgid "A folder was selected when a file was expected."
+msgstr ""
+
+#: src/mozilla/FilePickerGfs.cpp:427 src/mozilla/PromptService.cpp:286
+msgid "Save"
+msgstr "S,Aa(Bbh,Aa(Bil"
+
+#: src/mozilla/FilePickerGfs.cpp:427
+msgid "Load"
+msgstr "L,As(Bd,Aa(Bil"
+
+#: src/mozilla/FilePickerGfs.cpp:832
+msgid "All Files"
+msgstr "Gach comhada,Am(B"
+
+#: src/mozilla/FilePickerGfs.cpp:833
+msgid "HTML Files"
+msgstr "Comhada,Am(B HTML"
+
+#: src/mozilla/FilePickerGfs.cpp:834
+msgid "Plain Text"
+msgstr ""
+
+#: src/mozilla/FilePickerGfs.cpp:835
+msgid "Jpeg Image"
+msgstr ""
+
+#: src/mozilla/FilePickerGfs.cpp:836
+msgid "Gif Image"
+msgstr ""
+
+#: src/mozilla/FilePickerGfs.cpp:837
+msgid "Png Image"
+msgstr ""
+
+#: src/favicon.c:31
+msgid "Looking for a bookmarks icon"
+msgstr ""
+
+#. if so, put it in a folder named "Local files"
+#: src/history.c:747
+msgid "Local files"
+msgstr ""
+
+#. seems to happen with https URLs, GnomeVFS bug?
+#: src/history.c:762 src/mozilla_i18n.c:40
+msgid "Other"
+msgstr "Eile"
+
+#: src/main.c:96
+msgid "Open a new tab in an existing Galeon window"
+msgstr ""
+
+#: src/main.c:99
+msgid "Open a new window in an existing Galeon process"
+msgstr ""
+
+#: src/main.c:102
+msgid ""
+"Do not raise the window when opening a page in an existing Galeon process"
+msgstr ""
+
+#: src/main.c:105
+msgid "Run Galeon in full screen mode"
+msgstr ""
+
+#: src/main.c:108
+msgid "Attempt to load URL in existing Galeon window"
+msgstr ""
+
+#: src/main.c:112
+msgid "Open as a panel applet"
+msgstr ""
+
+#: src/main.c:116
+msgid ""
+"Don't open any windows; instead act as a server for quick startup of new "
+"Galeon instances"
+msgstr ""
+
+#: src/main.c:120
+msgid "Add a bookmark (don't open any window)"
+msgstr ""
+
+#: src/main.c:121 ui/bookmarks.glade.h:49 ui/galeon.glade.h:117
+msgid "URL"
+msgstr "URL"
+
+#: src/main.c:123
+msgid ""
+"Create the initial window with the given geometry.\n"
+"see X(1) for the GEOMETRY format"
+msgstr ""
+
+#: src/main.c:125
+msgid "GEOMETRY"
+msgstr ""
+
+#: src/main.c:127
+msgid "Close all Galeon windows"
+msgstr ""
+
+#: src/main.c:130
+msgid "Same as --close, but exits server mode too"
+msgstr ""
+
+#: src/main.c:193
+msgid "Panel mode. Ignoring server mode option."
+msgstr ""
+
+#: src/main.c:215
+msgid "Nothing to close: no opened Galeon windows found."
+msgstr ""
+
+#: src/main.c:369
+msgid "The version of Mozilla Galeon was compiled against ("
+msgstr ""
+
+#: src/main.c:369
+msgid ") does not match the detected version ("
+msgstr ""
+
+#: src/main.c:370
+msgid ""
+").\n"
+"\n"
+"You may experience segfaults and other oddities, please test with a matching "
+"version of Mozilla before reporting any bugs.\n"
+"\n"
+"Continue anyway?"
+msgstr ""
+
+#: src/main.c:378
+msgid "Version mismatch!"
+msgstr ""
+
+#: src/main.c:379
+msgid "Don't ask me again"
+msgstr ""
+
+#. otherwise we'll be opening windows, so warn
+#: src/main.c:519
+msgid "Galeon already running, using existing process"
+msgstr ""
+
+#: src/main.c:545
+msgid ""
+"Galeon remote startup failed.\n"
+"\n"
+"Try exiting other OAF applications\n"
+"(e.g. Evolution and Nautilus), and running\n"
+"\"oaf-slay\" from the command line."
+msgstr ""
+
+#: src/main.c:576
+msgid "Galeon object already active, server registration failed\n"
+msgstr ""
+
+#: src/menubar.c:34
+msgid "Open a file"
+msgstr ""
+
+#: src/menubar.c:35
+msgid "E_xit"
+msgstr "_Ealu As"
+
+#: src/menubar.c:35
+msgid "Exit the program"
+msgstr ""
+
+#: src/menubar.c:37
+msgid "Cut the selection"
+msgstr ""
+
+#: src/menubar.c:38
+msgid "Copy the selection"
+msgstr ""
+
+#: src/menubar.c:39
+msgid "Paste the clipboard"
+msgstr ""
+
+#. Settings
+#: src/menubar.c:41
+msgid "_Preferences..."
+msgstr ""
+
+#: src/menubar.c:41
+msgid "Configure the application"
+msgstr ""
+
+#. Help
+#: src/menubar.c:43
+msgid "_About..."
+msgstr "_Fao,Am(B..."
+
+#: src/menubar.c:43
+msgid "About this application"
+msgstr ""
+
+#: src/menubar.c:50
+msgid "_New window"
+msgstr ""
+
+#: src/menubar.c:50
+msgid "Create a new window"
+msgstr ""
+
+#: src/menubar.c:54
+msgid "New _tab"
+msgstr ""
+
+#: src/menubar.c:54
+msgid "Create a new tab"
+msgstr ""
+
+#: src/menubar.c:59
+msgid "Open _URL..."
+msgstr ""
+
+#: src/menubar.c:59
+msgid "Open a URL"
+msgstr ""
+
+#: src/menubar.c:63
+msgid "Save _as..."
+msgstr ""
+
+#: src/menubar.c:64
+msgid "Save the current page"
+msgstr ""
+
+#: src/menubar.c:69
+msgid "_Print..."
+msgstr ""
+
+#: src/menubar.c:69
+msgid "Print the current page"
+msgstr ""
+
+#: src/menubar.c:74
+msgid "_Work offline"
+msgstr ""
+
+#: src/menubar.c:75
+msgid "Toggle offline mode"
+msgstr ""
+
+#: src/menubar.c:79
+msgid "Sa_ve session as..."
+msgstr ""
+
+#: src/menubar.c:80
+msgid "Save the current session to a file"
+msgstr ""
+
+#: src/menubar.c:83
+msgid "Op_en session..."
+msgstr ""
+
+#: src/menubar.c:84
+msgid "Restore a previous session from a file"
+msgstr ""
+
+#: src/menubar.c:89
+msgid "Close the current tab or window"
+msgstr ""
+
+#: src/menubar.c:93
+msgid "Exit with _session"
+msgstr ""
+
+#: src/menubar.c:94
+msgid "Exit the program, saving the current session"
+msgstr ""
+
+#: src/menubar.c:109
+msgid "_Find..."
+msgstr ""
+
+#: src/menubar.c:110
+msgid "Search for a word or phrase in the current page"
+msgstr ""
+
+#: src/menubar.c:119
+msgid "_In"
+msgstr ""
+
+#: src/menubar.c:119
+msgid "Zoom in"
+msgstr ""
+
+#: src/menubar.c:124
+#, no-c-format
+msgid "_100%"
+msgstr ""
+
+#: src/menubar.c:124
+#, c-format
+msgid "Reset zoom level to 100%"
+msgstr ""
+
+#: src/menubar.c:128
+msgid "_Out"
+msgstr ""
+
+#: src/menubar.c:128
+msgid "Zoom out"
+msgstr ""
+
+#: src/menubar.c:137
+msgid "_Menubar"
+msgstr ""
+
+#: src/menubar.c:138
+msgid "Toggle menubar visibility"
+msgstr ""
+
+#: src/menubar.c:142
+msgid "_Toolbar"
+msgstr ""
+
+#: src/menubar.c:143
+msgid "Toggle toolbar visibility"
+msgstr ""
+
+#: src/menubar.c:147
+msgid "_Bookmarks toolbars"
+msgstr ""
+
+#: src/menubar.c:148
+msgid "Toggle bookmark toolbars visibility"
+msgstr ""
+
+#: src/menubar.c:152
+msgid "_Statusbar"
+msgstr ""
+
+#: src/menubar.c:153
+msgid "Toggle statusbar visiblity"
+msgstr ""
+
+#: src/menubar.c:157
+msgid "_Full screen"
+msgstr ""
+
+#: src/menubar.c:158
+msgid "Toggle full screen mode"
+msgstr ""
+
+#: src/menubar.c:163
+msgid "_Zoom"
+msgstr ""
+
+#: src/menubar.c:164
+msgid "Use a different font size"
+msgstr ""
+
+#: src/menubar.c:168
+msgid "_Encoding"
+msgstr ""
+
+#: src/menubar.c:169
+msgid "Use a different character encoding"
+msgstr ""
+
+#: src/menubar.c:173
+msgid "_Stylesheet"
+msgstr ""
+
+#: src/menubar.c:174
+msgid "Specify stylesheet settings for the current page"
+msgstr ""
+
+#: src/menubar.c:179
+msgid "_Page source"
+msgstr ""
+
+#: src/menubar.c:180
+msgid "View the source code of the current page"
+msgstr ""
+
+#: src/menubar.c:189
+msgid "_Detach tab"
+msgstr ""
+
+#: src/menubar.c:190
+msgid "Move the current tab to a new window"
+msgstr ""
+
+#: src/menubar.c:194
+msgid "_Move tab to another window"
+msgstr ""
+
+#: src/menubar.c:195
+msgid "Move the current tab to a different window"
+msgstr ""
+
+#: src/menubar.c:200
+msgid "_Previous tab"
+msgstr ""
+
+#: src/menubar.c:201
+msgid "Switch to the previous tab"
+msgstr ""
+
+#: src/menubar.c:205
+msgid "_Next tab"
+msgstr ""
+
+#: src/menubar.c:206
+msgid "Switch to the next tab"
+msgstr ""
+
+#: src/menubar.c:211
+msgid "Move tab _left / up"
+msgstr ""
+
+#: src/menubar.c:212
+msgid "Move the current tab left / up"
+msgstr ""
+
+#: src/menubar.c:216
+msgid "Move tab _right / down"
+msgstr ""
+
+#: src/menubar.c:217
+msgid "Move the current tab right / down"
+msgstr ""
+
+#: src/menubar.c:226
+msgid "_Always"
+msgstr ""
+
+#: src/menubar.c:226
+msgid "Load all images"
+msgstr ""
+
+#: src/menubar.c:230
+msgid "_From current server only"
+msgstr ""
+
+#: src/menubar.c:231
+msgid "Load images from current server only"
+msgstr ""
+
+#: src/menubar.c:235 src/menubar.c:261
+msgid "_Never"
+msgstr ""
+
+#: src/menubar.c:235
+msgid "Don't load any images"
+msgstr ""
+
+#: src/menubar.c:251
+msgid "_Continuously"
+msgstr ""
+
+#: src/menubar.c:252
+msgid "Animate images continuously"
+msgstr ""
+
+#: src/menubar.c:256
+msgid "_Once"
+msgstr ""
+
+#: src/menubar.c:257
+msgid "Animate images once through"
+msgstr ""
+
+#: src/menubar.c:262
+msgid "Never animate images"
+msgstr ""
+
+#: src/menubar.c:278
+msgid "View _cookies..."
+msgstr ""
+
+#: src/menubar.c:279
+msgid "View stored cookies"
+msgstr ""
+
+#: src/menubar.c:283
+msgid "View cookie _sites..."
+msgstr ""
+
+#: src/menubar.c:284
+msgid "View sites from which cookies will be accepted or rejected"
+msgstr ""
+
+#: src/menubar.c:289
+msgid "_Allow cookies from this site"
+msgstr ""
+
+#: src/menubar.c:290
+msgid "Allow cookies from this site"
+msgstr ""
+
+#: src/menubar.c:294
+msgid "_Block cookies from this site"
+msgstr ""
+
+#: src/menubar.c:295
+msgid "Block cookies from this site"
+msgstr ""
+
+#: src/menubar.c:304
+msgid "_Allow images from this site"
+msgstr ""
+
+#: src/menubar.c:305
+msgid "Allow images from this site to be loaded"
+msgstr ""
+
+#: src/menubar.c:309
+msgid "_Block images from this site"
+msgstr ""
+
+#: src/menubar.c:310
+msgid "Block images from this site from being loaded"
+msgstr ""
+
+#: src/menubar.c:314
+msgid "_View image sites..."
+msgstr ""
+
+#: src/menubar.c:315
+msgid "View sites for which images will not be loaded"
+msgstr ""
+
+#: src/menubar.c:324
+msgid "View _passwords..."
+msgstr ""
+
+#: src/menubar.c:325
+msgid "View stored passwords"
+msgstr ""
+
+#: src/menubar.c:329
+msgid "View password _sites..."
+msgstr ""
+
+#: src/menubar.c:330
+msgid "View sites for which passwords will not be stored"
+msgstr ""
+
+#: src/menubar.c:339
+msgid "_Disabled"
+msgstr ""
+
+#: src/menubar.c:340
+msgid "Never use proxies"
+msgstr ""
+
+#: src/menubar.c:344
+msgid "_Manual"
+msgstr ""
+
+#: src/menubar.c:345
+msgid "Use manual proxy configuration"
+msgstr ""
+
+#: src/menubar.c:349
+msgid "_Auto"
+msgstr ""
+
+#: src/menubar.c:350
+msgid "Use automatic proxy configuration"
+msgstr ""
+
+#: src/menubar.c:366
+msgid "_Load images"
+msgstr ""
+
+#: src/menubar.c:367
+msgid "Control whether images are displayed"
+msgstr ""
+
+#: src/menubar.c:371
+msgid "_Animate images"
+msgstr ""
+
+#: src/menubar.c:372
+msgid "Control whether images are animated "
+msgstr ""
+
+#: src/menubar.c:377
+msgid "_Proxy"
+msgstr ""
+
+#: src/menubar.c:378
+msgid "Control how proxies should be used"
+msgstr ""
+
+#: src/menubar.c:382
+msgid "Use own _fonts"
+msgstr ""
+
+#: src/menubar.c:383
+msgid "Use default fonts instead of page-requested fonts"
+msgstr ""
+
+#: src/menubar.c:387
+msgid "Use own _colors"
+msgstr ""
+
+#: src/menubar.c:388
+msgid "Use default colors instead of page-requested colors"
+msgstr ""
+
+#: src/menubar.c:392
+msgid "Allow _Java"
+msgstr ""
+
+#: src/menubar.c:393
+msgid "Allow Java code to be executed"
+msgstr ""
+
+#: src/menubar.c:397 ui/preferences.glade.h:16
+msgid "Allow Java_Script"
+msgstr ""
+
+#: src/menubar.c:398
+msgid "Allow JavaScript code to be executed"
+msgstr ""
+
+#: src/menubar.c:402
+msgid "_Allow popups"
+msgstr ""
+
+#: src/menubar.c:403
+msgid "Allow pages to create popup windows"
+msgstr ""
+
+#: src/menubar.c:414
+msgid "Add _bookmark"
+msgstr ""
+
+#: src/menubar.c:415
+msgid "Add a bookmark for the current page to the default folder"
+msgstr ""
+
+#: src/menubar.c:419
+msgid "_Add bookmark to"
+msgstr ""
+
+#: src/menubar.c:420
+msgid "Add a bookmark for the current page to a specified folder"
+msgstr ""
+
+#: src/menubar.c:424
+msgid "_Edit bookmarks..."
+msgstr ""
+
+#: src/menubar.c:425
+msgid "Open the bookmarks editor"
+msgstr ""
+
+#: src/menubar.c:435
+msgid "_Back"
+msgstr ""
+
+#: src/menubar.c:436
+msgid "Go back in history"
+msgstr ""
+
+#: src/menubar.c:440
+msgid "_Forward"
+msgstr ""
+
+#: src/menubar.c:441
+msgid "Go forward in history"
+msgstr ""
+
+#: src/menubar.c:445
+msgid "_Up"
+msgstr ""
+
+#: src/menubar.c:446 src/toolbar.c:99
+msgid "Go up a level from the current location"
+msgstr ""
+
+#: src/menubar.c:450 ui/preferences.glade.h:298
+msgid "_Reload"
+msgstr ""
+
+#: src/menubar.c:451
+msgid "Reload the current page"
+msgstr ""
+
+#: src/menubar.c:455
+msgid "H_ome page"
+msgstr ""
+
+#: src/menubar.c:455 src/toolbar.c:138
+msgid "Go to your home page"
+msgstr ""
+
+#: src/menubar.c:459
+msgid "_Stop"
+msgstr ""
+
+#: src/menubar.c:460
+msgid "Stop the loading of the current page"
+msgstr ""
+
+#: src/menubar.c:470 ui/galeon.glade.h:136
+msgid "_Cookies"
+msgstr ""
+
+#: src/menubar.c:470
+msgid "Cookie management"
+msgstr ""
+
+#: src/menubar.c:474
+msgid "_Images"
+msgstr ""
+
+#: src/menubar.c:474
+msgid "Image blocking management"
+msgstr ""
+
+#: src/menubar.c:478 ui/galeon.glade.h:156
+msgid "_Passwords"
+msgstr ""
+
+#: src/menubar.c:478
+msgid "Password management"
+msgstr ""
+
+#: src/menubar.c:483
+msgid "_Filters..."
+msgstr ""
+
+#: src/menubar.c:483
+msgid "Open the filter editor"
+msgstr ""
+
+#: src/menubar.c:489
+msgid "_History..."
+msgstr ""
+
+#: src/menubar.c:490
+msgid "Log of visited pages"
+msgstr ""
+
+#: src/menubar.c:495
+msgid "_Java console..."
+msgstr ""
+
+#: src/menubar.c:496
+msgid "Open the Java console"
+msgstr ""
+
+#: src/menubar.c:500
+msgid "Java_Script console..."
+msgstr ""
+
+#: src/menubar.c:501
+msgid "Open the JavaScript console"
+msgstr ""
+
+#: src/menubar.c:506
+msgid "_Rerun first time druid..."
+msgstr ""
+
+#: src/menubar.c:507
+msgid "Run the first time druid again"
+msgstr ""
+
+#: src/menubar.c:516
+msgid "Galeon _manual"
+msgstr ""
+
+#: src/menubar.c:517
+msgid "Open the Galeon manual"
+msgstr ""
+
+#: src/menubar.c:521
+msgid "Galeon _home page"
+msgstr ""
+
+#: src/menubar.c:522
+msgid "Go to the Galeon homepage"
+msgstr ""
+
+#: src/menubar.c:526
+msgid "_Report a bug"
+msgstr ""
+
+#: src/menubar.c:527
+msgid "Report a bug in Galeon"
+msgstr ""
+
+#: src/menubar.c:531
+msgid "About _plugins"
+msgstr ""
+
+#: src/menubar.c:532
+msgid "Show information about the currently installed plugins"
+msgstr ""
+
+#: src/menubar.c:545
+msgid "_Tab"
+msgstr ""
+
+#: src/menubar.c:546
+msgid "_Settings"
+msgstr ""
+
+#: src/menubar.c:547
+msgid "_Bookmarks"
+msgstr ""
+
+#: src/menubar.c:548
+msgid "_Go"
+msgstr ""
+
+#: src/menubar.c:549
+msgid "T_ools"
+msgstr ""
+
+#: src/menubar.c:550
+msgid "_Help"
+msgstr ""
+
+#. if your encoding allows it, use aacute (U00E1)
+#. * for the 'a' of 'Fernandez'
+#: src/menu_callbacks.c:343
+msgid "Ricardo Fernandez Pascual <ric@users.sourceforge.net>"
+msgstr ""
+
+#. this one is supposed to be in cyrillic
+#: src/menu_callbacks.c:349
+msgid "Yanko Kaneti <yaneti@declera.com>"
+msgstr ""
+
+#. dont delete the space
+#: src/menu_callbacks.c:355
+msgid "Graphic arts: "
+msgstr ""
+
+#. if your encoding allows it, use eacute (U00E9)
+#. * for the two 'e's of Frederic
+#: src/menu_callbacks.c:358
+msgid "Toussaint Frederic (fred@linuxgraphic.org)"
+msgstr "Toussaint Frederic (fred@linuxgraphic.org)"
+
+#. Translators should localize the following string
+#. * which will be displayed at the bottom of the about
+#. * box to give credit to the translator(s).
+#. * Translate the "Translation:", add your name and an
+#. * email address. You can span several lines with a
+#. * newline character if needed, but it shouldn't be
+#. * too long; vertical space is limited in the about
+#. * dialog.
+#. * If you dont translate it nothing will be added
+#: src/menu_callbacks.c:373 src/menu_callbacks.c:389
+msgid "Translation:"
+msgstr ""
+"Aistriúchan:\n"
+"Alastair McKinstry <mckinstry@computer.org>"
+
+#: src/menu_callbacks.c:378
+msgid "A GNOME browser based on Mozilla"
+msgstr ""
+
+#. Translators: Please change the (C) to a real
+#. * copyright character if your character set allows it
+#. * (Hint: iso-8859-1 is one of the character sets that
+#. * has this symbol).
+#: src/menu_callbacks.c:402
+msgid "Copyright (C) 2000-2001 Marco Pesenti Gritti"
+msgstr ""
+
+#: src/menu_callbacks.c:1220
+msgid "Save session as..."
+msgstr ""
+
+#: src/menu_callbacks.c:1242
+msgid "Open session..."
+msgstr ""
+
+#: src/mime.c:103
+msgid "disabled"
+msgstr ""
+
+#: src/misc.c:152
+#, c-format
+msgid "%s not found"
+msgstr ""
+
+#. TRANSLATOR: Put in this string those characters
+#. that can be skipped without making a word totally
+#. irrecognizable. In most languages, those are the
+#. vowels (with and without accents)
+#: src/misc.c:488
+msgid "aeiouyAEIOUY"
+msgstr ""
+
+#. format into string
+#. this is used whenever a brief date is needed, like
+#. * in the history (for last visited, first time visited)
+#: src/misc.c:1232
+msgid "%Y-%m-%d"
+msgstr ""
+
+#. format into string
+#. this is used when querying overwriting, as in "are you
+#. * sure you want to overwrite file foo, last modified ..."
+#: src/misc.c:1255
+msgid "%Y-%m-%d %H:%M:%S"
+msgstr ""
+
+#: src/mozcallbacks.c:427
+msgid "Redirecting to site..."
+msgstr ""
+
+#: src/mozcallbacks.c:432
+msgid "Transferring data from site..."
+msgstr ""
+
+#: src/mozcallbacks.c:437
+msgid "Waiting for authorization..."
+msgstr ""
+
+#: src/mozcallbacks.c:449
+msgid "Loading site..."
+msgstr ""
+
+#: src/mozcallbacks.c:453
+msgid "Done."
+msgstr "Cr,Am(Bochnaithe."
+
+#: src/mozcallbacks.c:460
+msgid "Site not found."
+msgstr ""
+
+#: src/mozcallbacks.c:464
+msgid "Failed to connect to site."
+msgstr ""
+
+#: src/mozcallbacks.c:468
+msgid "Failed due to connection timeout."
+msgstr ""
+
+#: src/mozilla/mozilla.cpp:758
+msgid "Allowed"
+msgstr ""
+
+#: src/mozilla/mozilla.cpp:760
+msgid "Blocked"
+msgstr ""
+
+#: src/mozilla/mozilla.cpp:1539
+msgid "Default"
+msgstr ""
+
+#: src/mozilla_i18n.c:26 ui/preferences.glade.h:25
+msgid "Arabic"
+msgstr ""
+
+#: src/mozilla_i18n.c:27 ui/preferences.glade.h:39
+msgid "Baltic"
+msgstr ""
+
+#: src/mozilla_i18n.c:28 ui/preferences.glade.h:47
+msgid "Central European"
+msgstr ""
+
+#: src/mozilla_i18n.c:29 ui/preferences.glade.h:49
+msgid "Chinese"
+msgstr ""
+
+#: src/mozilla_i18n.c:30 ui/preferences.glade.h:63
+msgid "Cyrillic"
+msgstr ""
+
+#: src/mozilla_i18n.c:31 ui/preferences.glade.h:96
+msgid "Greek"
+msgstr ""
+
+#: src/mozilla_i18n.c:32 ui/preferences.glade.h:99
+msgid "Hebrew"
+msgstr ""
+
+#: src/mozilla_i18n.c:33
+msgid "Indian"
+msgstr ""
+
+#: src/mozilla_i18n.c:34 ui/preferences.glade.h:114
+msgid "Japanese"
+msgstr ""
+
+#: src/mozilla_i18n.c:35 ui/preferences.glade.h:117
+msgid "Korean"
+msgstr ""
+
+#: src/mozilla_i18n.c:36 ui/preferences.glade.h:224
+msgid "Turkish"
+msgstr ""
+
+#: src/mozilla_i18n.c:37 ui/preferences.glade.h:229
+msgid "Unicode"
+msgstr ""
+
+#: src/mozilla_i18n.c:38
+msgid "Vietnamese"
+msgstr ""
+
+#: src/mozilla_i18n.c:39 ui/preferences.glade.h:239
+msgid "Western"
+msgstr ""
+
+#: src/mozilla_i18n.c:44
+msgid "Arabic (IBM-864)"
+msgstr ""
+
+#: src/mozilla_i18n.c:45
+msgid "Arabic (IBM-864-I)"
+msgstr ""
+
+#: src/mozilla_i18n.c:46
+msgid "Arabic (ISO-8859-6)"
+msgstr ""
+
+#: src/mozilla_i18n.c:47
+msgid "Arabic (ISO-8859-6-E)"
+msgstr ""
+
+#: src/mozilla_i18n.c:48
+msgid "Arabic (ISO-8859-6-I)"
+msgstr ""
+
+#: src/mozilla_i18n.c:49
+msgid "Arabic (MacArabic)"
+msgstr ""
+
+#: src/mozilla_i18n.c:50
+msgid "Arabic (Windows-1256)"
+msgstr ""
+
+#: src/mozilla_i18n.c:51 ui/preferences.glade.h:27
+msgid "Armenian (ARMSCII-8)"
+msgstr ""
+
+#: src/mozilla_i18n.c:52
+msgid "Baltic (ISO-8859-13)"
+msgstr ""
+
+#: src/mozilla_i18n.c:53
+msgid "Baltic (ISO-8859-4)"
+msgstr ""
+
+#: src/mozilla_i18n.c:54
+msgid "Baltic (Windows-1257)"
+msgstr ""
+
+#: src/mozilla_i18n.c:55
+msgid "Celtic (ISO-8859-14)"
+msgstr ""
+
+#: src/mozilla_i18n.c:56
+msgid "Central European (IBM-852)"
+msgstr ""
+
+#: src/mozilla_i18n.c:57
+msgid "Central European (ISO-8859-2)"
+msgstr ""
+
+#: src/mozilla_i18n.c:58
+msgid "Central European (MacCE)"
+msgstr ""
+
+#: src/mozilla_i18n.c:59
+msgid "Central European (Windows-1250)"
+msgstr ""
+
+#: src/mozilla_i18n.c:60
+msgid "Chinese Simplified (GB18030)"
+msgstr ""
+
+#: src/mozilla_i18n.c:61
+msgid "Chinese Simplified (GB2312)"
+msgstr ""
+
+#: src/mozilla_i18n.c:62
+msgid "Chinese Simplified (GBK)"
+msgstr ""
+
+#: src/mozilla_i18n.c:63
+msgid "Chinese Simplified (HZ)"
+msgstr ""
+
+#: src/mozilla_i18n.c:64
+msgid "Chinese Traditional (Big5)"
+msgstr ""
+
+#: src/mozilla_i18n.c:65
+msgid "Chinese Traditional (Big5-HKSCS)"
+msgstr ""
+
+#: src/mozilla_i18n.c:66
+msgid "Chinese Traditional (EUC-TW)"
+msgstr ""
+
+#: src/mozilla_i18n.c:67
+msgid "Croatian (MacCroatian)"
+msgstr ""
+
+#: src/mozilla_i18n.c:68
+msgid "Cyrillic (IBM-855)"
+msgstr ""
+
+#: src/mozilla_i18n.c:69
+msgid "Cyrillic (ISO-8859-5)"
+msgstr ""
+
+#: src/mozilla_i18n.c:70
+msgid "Cyrillic (ISO-IR-111)"
+msgstr ""
+
+#: src/mozilla_i18n.c:71
+msgid "Cyrillic (KOI8-R)"
+msgstr ""
+
+#: src/mozilla_i18n.c:72
+msgid "Cyrillic (MacCyrillic)"
+msgstr ""
+
+#: src/mozilla_i18n.c:73
+msgid "Cyrillic (Windows-1251)"
+msgstr ""
+
+#: src/mozilla_i18n.c:74
+msgid "Cyrillic/Russian (CP-866)"
+msgstr ""
+
+#: src/mozilla_i18n.c:75
+msgid "Cyrillic/Ukrainian (KOI8-U)"
+msgstr ""
+
+#: src/mozilla_i18n.c:76
+msgid "Cyrillic/Ukrainian (MacUkrainian)"
+msgstr ""
+
+#: src/mozilla_i18n.c:77
+msgid "English (US-ASCII)"
+msgstr ""
+
+#: src/mozilla_i18n.c:78
+msgid "Farsi (MacFarsi)"
+msgstr ""
+
+#: src/mozilla_i18n.c:79
+msgid "Greek (ISO-8859-7)"
+msgstr ""
+
+#: src/mozilla_i18n.c:80
+msgid "Greek (MacGreek)"
+msgstr ""
+
+#: src/mozilla_i18n.c:81
+msgid "Greek (Windows-1253)"
+msgstr ""
+
+#: src/mozilla_i18n.c:82
+msgid "Gujarati (MacGujarati)"
+msgstr ""
+
+#: src/mozilla_i18n.c:83
+msgid "Gurmukhi (MacGurmukhi)"
+msgstr ""
+
+#: src/mozilla_i18n.c:84
+msgid "Hebrew (IBM-862)"
+msgstr ""
+
+#: src/mozilla_i18n.c:85
+msgid "Hebrew (ISO-8859-8-E)"
+msgstr ""
+
+#: src/mozilla_i18n.c:86
+msgid "Hebrew (ISO-8859-8-I)"
+msgstr ""
+
+#: src/mozilla_i18n.c:87
+msgid "Hebrew (MacHebrew)"
+msgstr ""
+
+#: src/mozilla_i18n.c:88
+msgid "Hebrew (Windows-1255)"
+msgstr ""
+
+#: src/mozilla_i18n.c:89
+msgid "Hindi (MacDevanagari)"
+msgstr ""
+
+#: src/mozilla_i18n.c:90
+msgid "Icelandic (MacIcelandic)"
+msgstr ""
+
+#: src/mozilla_i18n.c:91
+msgid "Japanese (EUC-JP)"
+msgstr ""
+
+#: src/mozilla_i18n.c:92
+msgid "Japanese (ISO-2022-JP)"
+msgstr ""
+
+#: src/mozilla_i18n.c:93
+msgid "Japanese (Shift_JIS)"
+msgstr ""
+
+#: src/mozilla_i18n.c:94
+msgid "Korean (EUC-KR)"
+msgstr ""
+
+#: src/mozilla_i18n.c:95
+msgid "Korean (JOHAB)"
+msgstr ""
+
+#: src/mozilla_i18n.c:96
+msgid "Korean (UHC)"
+msgstr ""
+
+#: src/mozilla_i18n.c:97
+msgid "Nordic (ISO-8859-10)"
+msgstr ""
+
+#: src/mozilla_i18n.c:98
+msgid "Romanian (MacRomanian)"
+msgstr ""
+
+#: src/mozilla_i18n.c:99
+msgid "South European (ISO-8859-3)"
+msgstr ""
+
+#: src/mozilla_i18n.c:100
+msgid "Thai (TIS-620)"
+msgstr ""
+
+#: src/mozilla_i18n.c:101
+msgid "Turkish (IBM-857)"
+msgstr ""
+
+#: src/mozilla_i18n.c:102
+msgid "Turkish (ISO-8859-9)"
+msgstr ""
+
+#: src/mozilla_i18n.c:103
+msgid "Turkish (MacTurkish)"
+msgstr ""
+
+#: src/mozilla_i18n.c:104
+msgid "Turkish (Windows-1254)"
+msgstr ""
+
+#: src/mozilla_i18n.c:105
+msgid "Unicode (UTF-7)"
+msgstr ""
+
+#: src/mozilla_i18n.c:106
+msgid "Unicode (UTF-8)"
+msgstr ""
+
+#: src/mozilla_i18n.c:107
+msgid "Unicode (UTF-16BE)"
+msgstr ""
+
+#: src/mozilla_i18n.c:108
+msgid "Unicode (UTF-16LE)"
+msgstr ""
+
+#: src/mozilla_i18n.c:109
+msgid "Unicode (UTF-32BE)"
+msgstr ""
+
+#: src/mozilla_i18n.c:110
+msgid "Unicode (UTF-32LE)"
+msgstr ""
+
+#: src/mozilla_i18n.c:111
+msgid "User Defined"
+msgstr ""
+
+#: src/mozilla_i18n.c:112
+msgid "Vietnamese (TCVN)"
+msgstr ""
+
+#: src/mozilla_i18n.c:113
+msgid "Vietnamese (VISCII)"
+msgstr ""
+
+#: src/mozilla_i18n.c:114
+msgid "Vietnamese (VPS)"
+msgstr ""
+
+#: src/mozilla_i18n.c:115
+msgid "Vietnamese (Windows-1258)"
+msgstr ""
+
+#: src/mozilla_i18n.c:116
+msgid "Visual Hebrew (ISO-8859-8)"
+msgstr ""
+
+#: src/mozilla_i18n.c:117
+msgid "Western (IBM-850)"
+msgstr ""
+
+#: src/mozilla_i18n.c:118
+msgid "Western (ISO-8859-1)"
+msgstr ""
+
+#: src/mozilla_i18n.c:119
+msgid "Western (ISO-8859-15)"
+msgstr ""
+
+#: src/mozilla_i18n.c:120
+msgid "Western (MacRoman)"
+msgstr ""
+
+#: src/mozilla_i18n.c:121
+msgid "Western (Windows-1252)"
+msgstr ""
+
+#: src/mozilla_notifiers.c:605 ui/preferences.glade.h:66
+msgid "Default (recommended)"
+msgstr ""
+
+#. set default search engine
+#: src/mozilla_prefs.c:60
+msgid "http://www.google.com/search?q="
+msgstr ""
+
+#: src/mozilla/MyportalProtocolHandler.cpp:228
+msgid "My Portal"
+msgstr ""
+
+#: src/mozilla/MyportalProtocolHandler.cpp:333
+#, c-format
+msgid "%s not found\n"
+msgstr ""
+
+#: src/netscape.c:139
+msgid "Personal Toolbar Folder"
+msgstr ""
+
+#: src/netscape.c:377
+#, c-format
+msgid "Could not open file: %s"
+msgstr ""
+
+#. create the toolbar
+#: src/newuser_callbacks.c:195 ui/galeon.glade.h:108
+msgid "Smart Bookmarks Toolbar"
+msgstr ""
+
+#: src/newuser_callbacks.c:216
+#, c-format
+msgid "http://www.google.com/search?q=%s"
+msgstr ""
+
+#. URL marked as translatable so that non-English
+#. * dictionaries can be used -- don't forget to
+#. * make the equivalent change in the glade file
+#: src/newuser_callbacks.c:251
+msgid "Dictionary"
+msgstr "Focl,As(Bir"
+
+#: src/newuser_callbacks.c:253
+#, no-c-format
+msgid "http://www.m-w.com/cgi-bin/dictionary?va=%s"
+msgstr ""
+
+#: src/newuser_callbacks.c:457
+msgid "More Bookmarklets"
+msgstr ""
+
+#: src/newuser_callbacks.c:459
+msgid "More Info About..."
+msgstr ""
+
+#: src/newuser_callbacks.c:461
+msgid "Zoom on First Image..."
+msgstr ""
+
+#: src/newuser_callbacks.c:462
+msgid "Page Color..."
+msgstr ""
+
+#: src/newuser_callbacks.c:464
+msgid "Scroll Page (very slow)"
+msgstr ""
+
+#: src/newuser_callbacks.c:465
+msgid "Scroll Page (slow)"
+msgstr ""
+
+#: src/newuser_callbacks.c:466
+msgid "Scroll Page (fast)"
+msgstr ""
+
+#: src/newuser_callbacks.c:467
+msgid "Scroll Page (very fast)"
+msgstr ""
+
+#: src/newuser_callbacks.c:468
+msgid "Scroll Page... (variable)"
+msgstr ""
+
+#: src/newuser_callbacks.c:470
+msgid "Page Freshness?"
+msgstr ""
+
+#: src/newuser_callbacks.c:471
+msgid "Go To Selected URL"
+msgstr ""
+
+#: src/newuser_callbacks.c:472
+msgid "Duplicate Page"
+msgstr ""
+
+#: src/newuser_callbacks.c:473
+msgid "Set In-Page Bookmark"
+msgstr ""
+
+#: src/newuser_callbacks.c:474
+msgid "Go To In-Page Bookmark"
+msgstr ""
+
+#: src/newuser_callbacks.c:476
+msgid "Read Cookie for Site"
+msgstr ""
+
+#: src/newuser_callbacks.c:477
+msgid "AutoFill Anonymous"
+msgstr ""
+
+#: src/newuser_callbacks.c:482
+msgid "Bookmarklets"
+msgstr ""
+
+#: src/persistent_data_manager.c:626 ui/galeon.glade.h:92
+msgid "Persistent Data Manager"
+msgstr ""
+
+#: src/prefs.c:408
+msgid "General"
+msgstr ""
+
+#: src/prefs.c:412 src/toolbar.c:267 ui/galeon.glade.h:70
+#: ui/preferences.glade.h:103
+msgid "History"
+msgstr ""
+
+#: src/prefs.c:418
+msgid "Tabs"
+msgstr ""
+
+#: src/prefs.c:420 ui/preferences.glade.h:241
+msgid "Windows"
+msgstr ""
+
+#: src/prefs.c:422
+msgid "Toolbars"
+msgstr ""
+
+#: src/prefs.c:424
+msgid "Mouse"
+msgstr "Luchóg"
+
+#: src/prefs.c:430 ui/galeon.glade.h:30
+msgid "Downloading"
+msgstr ""
+
+#: src/prefs.c:432
+msgid "Programs"
+msgstr ""
+
+#: src/prefs.c:434
+msgid "MIME Types"
+msgstr ""
+
+#: src/prefs.c:440
+msgid "Fonts/Colors"
+msgstr ""
+
+#: src/prefs.c:442 ui/preferences.glade.h:119
+msgid "Languages"
+msgstr ""
+
+#: src/prefs.c:448
+msgid "Network"
+msgstr ""
+
+#: src/prefs.c:450 ui/preferences.glade.h:85
+msgid "Filtering"
+msgstr ""
+
+#: src/prefs.c:452
+msgid "Persistent Data"
+msgstr ""
+
+#: src/prefs.c:454 ui/preferences.glade.h:59
+msgid "Crash Recovery"
+msgstr ""
+
+#: src/prefs.c:460
+msgid "Browsing"
+msgstr ""
+
+#: src/prefs.c:461
+msgid "User Interface"
+msgstr ""
+
+#: src/prefs.c:462
+msgid "Handlers"
+msgstr ""
+
+#: src/prefs.c:463
+msgid "Rendering"
+msgstr ""
+
+#: src/prefs.c:464
+msgid "Advanced"
+msgstr ""
+
+#: src/prefs.c:1183 src/prefs_callbacks.c:386
+msgid "Save to disk"
+msgstr ""
+
+#: src/prefs.c:1186 src/prefs_callbacks.c:390
+msgid "Run with Helper App"
+msgstr ""
+
+#: src/prefs.c:1192
+msgid "Ignored"
+msgstr ""
+
+#: src/prefs.c:1195 src/prefs_callbacks.c:394
+msgid "Ask the user"
+msgstr ""
+
+#: src/prefs.c:1200 src/prefs_callbacks.c:452
+msgid "True"
+msgstr ""
+
+#: src/prefs.c:1202 src/prefs_callbacks.c:230 src/prefs_callbacks.c:454
+msgid "False"
+msgstr ""
+
+#: src/prefs.c:1847
+msgid "GNOME default"
+msgstr ""
+
+#: src/prefs.c:1851
+msgid "Nautilus theme"
+msgstr ""
+
+#: src/prefs_callbacks.c:221
+msgid "New mime item"
+msgstr ""
+
+#: src/prefs_callbacks.c:566
+msgid ""
+"This will delete all items stored in your history.\n"
+"Are you sure you want to do this?"
+msgstr ""
+
+#: src/mozilla/PromptService.cpp:290
+msgid "Revert"
+msgstr ""
+
+#: src/mozilla/PromptService.cpp:294
+msgid "Don't save"
+msgstr ""
+
+#: src/session.c:193
+msgid ""
+"Galeon appears to have crashed or been killed last time it was run\n"
+"\n"
+"Would you like to recover the state of your last browsing session?"
+msgstr ""
+
+#: src/session.c:386
+msgid "URLs opened before crashing"
+msgstr ""
+
+#: src/session.c:618
+#, c-format
+msgid "Couldn't load session from %s"
+msgstr ""
+
+#: src/mozilla/TOCProtocolHandler.cpp:124
+msgid "GNOME Help Index"
+msgstr ""
+
+#: src/mozilla/TOCProtocolHandler.cpp:146
+msgid "GNOME User's Guide"
+msgstr ""
+
+#: src/mozilla/TOCProtocolHandler.cpp:150
+msgid "Man Pages"
+msgstr ""
+
+#: src/mozilla/TOCProtocolHandler.cpp:154
+msgid "Info Pages"
+msgstr ""
+
+#: src/mozilla/TOCProtocolHandler.cpp:158
+msgid "HTML GNOME Documents"
+msgstr ""
+
+#: src/mozilla/TOCProtocolHandler.cpp:162
+msgid "SGML GNOME Documents"
+msgstr ""
+
+#: src/mozilla/TOCProtocolHandler.cpp:243
+#: src/mozilla/TOCProtocolHandler.cpp:337
+msgid "GNOME"
+msgstr ""
+
+#: src/mozilla/TOCProtocolHandler.cpp:245
+msgid "Man"
+msgstr ""
+
+#: src/mozilla/TOCProtocolHandler.cpp:247
+#: src/mozilla/TOCProtocolHandler.cpp:341
+msgid "pages"
+msgstr ""
+
+#: src/toolbar.c:72
+msgid "New"
+msgstr ""
+
+#: src/toolbar.c:73
+msgid "Open new browser"
+msgstr ""
+
+#: src/toolbar.c:86
+msgid "Go back - Right button: History"
+msgstr ""
+
+#: src/toolbar.c:112
+msgid "Go forward - Right button: History"
+msgstr ""
+
+#: src/toolbar.c:125
+msgid "Display the latest content of the current page"
+msgstr ""
+
+#: src/toolbar.c:137
+msgid "Home"
+msgstr "Baile"
+
+#: src/toolbar.c:150
+msgid "Stop"
+msgstr "Stad"
+
+#: src/toolbar.c:151
+msgid "Stop current data transfer"
+msgstr ""
+
+#: src/toolbar.c:163 ui/bookmarks.glade.h:22
+msgid "Go"
+msgstr ""
+
+#: src/toolbar.c:164
+msgid "Go to specified location"
+msgstr ""
+
+#: src/toolbar.c:176
+msgid "Zoom control"
+msgstr ""
+
+#: src/toolbar.c:189
+msgid "Drag handle"
+msgstr ""
+
+#: src/toolbar.c:202
+msgid "Location entry"
+msgstr ""
+
+#: src/toolbar.c:215 ui/preferences.glade.h:209
+msgid "Spinner"
+msgstr ""
+
+#: src/toolbar.c:241
+msgid "Find"
+msgstr ""
+
+#: src/toolbar.c:242
+msgid "Find in page"
+msgstr ""
+
+#: src/toolbar.c:255
+msgid "Toggle Bookmarks Sidebar"
+msgstr ""
+
+#: src/toolbar.c:268
+msgid "Toggle History Sidebar"
+msgstr ""
+
+#: src/toolbar.c:280 ui/galeon.glade.h:95
+msgid "Print"
+msgstr "Pr,Am(Bont,Aa(Bil"
+
+#: src/toolbar.c:281
+msgid "Print Current Page"
+msgstr ""
+
+#: src/toolbar.c:293
+msgid "Back History"
+msgstr ""
+
+#: src/toolbar.c:294
+msgid "Go Back Several Pages"
+msgstr ""
+
+#: src/toolbar.c:306
+msgid "Forward History"
+msgstr ""
+
+#: src/toolbar.c:307
+msgid "Go Forward Several Pages"
+msgstr ""
+
+#: src/toolbar.c:649
+msgid "Drag page location from here"
+msgstr ""
+
+#: src/toolbar_editor.c:85
+msgid "Illegal toolbar item type\n"
+msgstr ""
+
+#: src/window.c:844
+#, c-format
+msgid ", %02d:%02d:%02d remaining"
+msgstr ""
+
+#: src/window.c:850
+#, c-format
+msgid "%s (%d%% complete, %d kB of %d kB loaded%s)"
+msgstr ""
+
+#. fill the status bar text with progress info: only kb
+#: src/window.c:860
+#, c-format
+msgid "%s (%d kB loaded)"
+msgstr ""
+
+#: src/window.c:1080
+msgid "Select the file to open:"
+msgstr ""
+
+#: src/window.c:1353
+msgid "You must specify a Start Page in the Preferences dialog!"
+msgstr ""
+
+#: src/window_callbacks.c:260
+msgid "Set current page as home page"
+msgstr ""
+
+#: src/window_callbacks.c:313
+msgid "Open new window"
+msgstr ""
+
+#: src/window_callbacks.c:315
+msgid "Open new tab"
+msgstr ""
+
+#: src/window_callbacks.c:649
+msgid "Reload all tabs"
+msgstr ""
+
+#: src/window_callbacks.c:651
+msgid "Reload all windows"
+msgstr ""
+
+#: src/window_callbacks.c:654
+msgid "Bypass cache"
+msgstr ""
+
+#: src/window_callbacks.c:656
+msgid "Bypass proxy"
+msgstr ""
+
+#: src/window_callbacks.c:658
+msgid "Bypass cache and proxy"
+msgstr ""
+
+#: ui/bookmarks.glade.h:1
+msgid "Added: "
+msgstr ""
+
+#: ui/bookmarks.glade.h:2
+msgid "Alias"
+msgstr ""
+
+#: ui/bookmarks.glade.h:4 ui/galeon.glade.h:19
+msgid "Close dock"
+msgstr ""
+
+#: ui/bookmarks.glade.h:5
+msgid "Contains"
+msgstr ""
+
+#: ui/bookmarks.glade.h:6
+msgid "Create a new alias"
+msgstr ""
+
+#: ui/bookmarks.glade.h:7
+msgid "Create a new bookmark"
+msgstr ""
+
+#: ui/bookmarks.glade.h:8
+msgid "Create a new folder"
+msgstr ""
+
+#: ui/bookmarks.glade.h:9
+msgid "Create a new separator"
+msgstr ""
+
+#: ui/bookmarks.glade.h:10 ui/galeon.glade.h:27
+msgid "Detach dock"
+msgstr ""
+
+#: ui/bookmarks.glade.h:11
+msgid "Doesn't contain"
+msgstr ""
+
+#: ui/bookmarks.glade.h:12
+msgid "Down"
+msgstr "S,Am(Bos"
+
+#: ui/bookmarks.glade.h:13
+msgid "Edit"
+msgstr "Eagar"
+
+#: ui/bookmarks.glade.h:14
+msgid "Ends with"
+msgstr ""
+
+#: ui/bookmarks.glade.h:15
+msgid "Entry width:"
+msgstr ""
+
+#: ui/bookmarks.glade.h:16
+msgid "Fetch bookmark icon for the site (if available)"
+msgstr ""
+
+#: ui/bookmarks.glade.h:17
+msgid "Find bookmarks"
+msgstr ""
+
+#: ui/bookmarks.glade.h:18
+msgid "Find bookmarks whose"
+msgstr ""
+
+#: ui/bookmarks.glade.h:19
+msgid "Folder"
+msgstr "Comhadlann"
+
+#: ui/bookmarks.glade.h:20
+msgid "Galeon Bookmarks Editor"
+msgstr ""
+
+#: ui/bookmarks.glade.h:21
+msgid "Get Icon"
+msgstr ""
+
+#: ui/bookmarks.glade.h:23
+msgid "Is"
+msgstr ""
+
+#: ui/bookmarks.glade.h:24
+msgid "Is not"
+msgstr ""
+
+#: ui/bookmarks.glade.h:25
+msgid "Load selected bookmark in the browser"
+msgstr ""
+
+#: ui/bookmarks.glade.h:26
+msgid "Modified:"
+msgstr ""
+
+#: ui/bookmarks.glade.h:27
+msgid "Move bookmark down"
+msgstr ""
+
+#: ui/bookmarks.glade.h:28
+msgid "Move bookmark up"
+msgstr ""
+
+#: ui/bookmarks.glade.h:29
+msgid "N_icks:"
+msgstr ""
+
+#: ui/bookmarks.glade.h:30
+msgid "N_otes:"
+msgstr ""
+
+#: ui/bookmarks.glade.h:31
+msgid "Name"
+msgstr "Ainm"
+
+#: ui/bookmarks.glade.h:32
+msgid "Name:"
+msgstr "Ainm:"
+
+#: ui/bookmarks.glade.h:33
+msgid "New Bar"
+msgstr ""
+
+#: ui/bookmarks.glade.h:34
+msgid "New Item"
+msgstr ""
+
+#: ui/bookmarks.glade.h:35
+msgid "Nickname:"
+msgstr "Leasainm:"
+
+#: ui/bookmarks.glade.h:36
+msgid "Nicknames"
+msgstr ""
+
+#: ui/bookmarks.glade.h:37
+msgid "Notes"
+msgstr "Nota,Am(B"
+
+#: ui/bookmarks.glade.h:38
+msgid "Notes:"
+msgstr "Nota,Am(B:"
+
+#: ui/bookmarks.glade.h:39
+msgid "Pick an image file"
+msgstr ""
+
+#: ui/bookmarks.glade.h:40
+msgid "Remove"
+msgstr ""
+
+#: ui/bookmarks.glade.h:41
+msgid "Remove bookmark"
+msgstr ""
+
+#: ui/bookmarks.glade.h:42
+msgid "Search:"
+msgstr ""
+
+#: ui/bookmarks.glade.h:44
+msgid "Set size of smart bookmark entry"
+msgstr ""
+
+#: ui/bookmarks.glade.h:45
+msgid "Set to default"
+msgstr ""
+
+#: ui/bookmarks.glade.h:46
+msgid "Show edit bookmarks controls"
+msgstr ""
+
+#: ui/bookmarks.glade.h:47
+msgid "Show menu"
+msgstr ""
+
+#: ui/bookmarks.glade.h:48
+msgid "Starts with"
+msgstr ""
+
+#: ui/bookmarks.glade.h:50
+msgid "URL:"
+msgstr "URL:"
+
+#: ui/bookmarks.glade.h:52
+msgid "Visited:"
+msgstr ""
+
+#: ui/bookmarks.glade.h:53
+msgid "_Add to context menu"
+msgstr ""
+
+#: ui/bookmarks.glade.h:54
+msgid "_Name:"
+msgstr "_Ainm:"
+
+#: ui/bookmarks.glade.h:56
+msgid "_URL:"
+msgstr "_URL:"
+
+#: ui/galeon.glade.h:2
+#, no-c-format
+msgid "%P %%"
+msgstr ""
+
+#: ui/galeon.glade.h:3
+msgid "0"
+msgstr "0"
+
+#: ui/galeon.glade.h:4
+msgid "0.5"
+msgstr "0.5"
+
+#: ui/galeon.glade.h:5
+msgid "00:00.00"
+msgstr "00:00:00"
+
+#: ui/galeon.glade.h:6
+msgid "A_4"
+msgstr "A_4"
+
+#: ui/galeon.glade.h:7
+msgid ""
+"At some locations, such as behind some corporate firewalls, you'll\n"
+"need to use a proxy to connect to the Internet.\n"
+"\n"
+"If you don't know the settings, ask your systems administrator.\n"
+"\n"
+"If you're not sure whether your location uses a proxy, you can try\n"
+"without by leaving these fields blank, and setup a proxy later in\n"
+"Galeon preferences."
+msgstr ""
+
+#: ui/galeon.glade.h:16
+msgid "Choose a file to print to"
+msgstr ""
+
+#: ui/galeon.glade.h:17
+msgid "Choose helper application"
+msgstr ""
+
+#: ui/galeon.glade.h:18
+msgid "Clear"
+msgstr ""
+
+#: ui/galeon.glade.h:20
+msgid "Configure Internet Connection"
+msgstr ""
+
+#: ui/galeon.glade.h:21
+msgid "Coo_kie Sites"
+msgstr ""
+
+#: ui/galeon.glade.h:22
+msgid "Cookie Information"
+msgstr ""
+
+#: ui/galeon.glade.h:23
+msgid "Cookie Name"
+msgstr ""
+
+#: ui/galeon.glade.h:24
+msgid "Cookies that are being stored"
+msgstr ""
+
+#: ui/galeon.glade.h:25
+msgid "D_ebian Packages"
+msgstr ""
+
+#: ui/galeon.glade.h:26
+msgid "D_ogpile"
+msgstr ""
+
+#: ui/galeon.glade.h:28
+msgid "Do not automatically _wrap search"
+msgstr ""
+
+#: ui/galeon.glade.h:29
+msgid "Dock"
+msgstr ""
+
+#: ui/galeon.glade.h:31
+msgid "E_xecutive"
+msgstr ""
+
+#: ui/galeon.glade.h:32
+msgid "Enter the URL of the location to open:"
+msgstr ""
+
+#: ui/galeon.glade.h:33
+msgid "Ever"
+msgstr ""
+
+#: ui/galeon.glade.h:34
+msgid "FTP download sites"
+msgstr ""
+
+#: ui/galeon.glade.h:35
+msgid "File"
+msgstr "Comhad"
+
+#: ui/galeon.glade.h:36
+msgid "File transfer"
+msgstr ""
+
+#: ui/galeon.glade.h:37
+msgid "Find text or regular expression:"
+msgstr ""
+
+#: ui/galeon.glade.h:38
+msgid "Find text..."
+msgstr ""
+
+#: ui/galeon.glade.h:39
+msgid "Find:"
+msgstr ""
+
+#: ui/galeon.glade.h:40
+msgid "First visited"
+msgstr ""
+
+#: ui/galeon.glade.h:41
+msgid "Fr_om first page"
+msgstr ""
+
+#: ui/galeon.glade.h:42
+msgid "Fro_m last page"
+msgstr ""
+
+#: ui/galeon.glade.h:43
+msgid "GNOME Integration"
+msgstr ""
+
+#: ui/galeon.glade.h:44
+msgid "GNOME help"
+msgstr ""
+
+#: ui/galeon.glade.h:45
+msgid "G_NOME Bugzilla"
+msgstr ""
+
+#: ui/galeon.glade.h:47
+msgid "Galeon New User"
+msgstr ""
+
+#: ui/galeon.glade.h:48
+msgid ""
+"Galeon can be configured as your default web browser when\n"
+"using other GNOME applications.\n"
+"\n"
+"Which protocols would you like Galeon to handle?"
+msgstr ""
+
+#: ui/galeon.glade.h:52
+msgid ""
+"Galeon can import your bookmarks from Netscape or Mozilla.\n"
+"It can also import some of your Netscape preferences.\n"
+"\n"
+"What would you like to do?"
+msgstr ""
+
+#: ui/galeon.glade.h:56
+msgid "Galeon question"
+msgstr ""
+
+#: ui/galeon.glade.h:57
+msgid ""
+"Galeon setup is now complete!\n"
+"\n"
+"\n"
+"\n"
+"Galeon is highly configurable; there are many other\n"
+"configuration options available under the Settings menu."
+msgstr ""
+
+#: ui/galeon.glade.h:63
+msgid ""
+"Galeon uses \"Smart Bookmarks\" for easy web searching.\n"
+"\n"
+"We can create a toolbar which contains some useful web searches now\n"
+"(you can edit this later from the bookmarks editor)."
+msgstr ""
+
+#: ui/galeon.glade.h:67
+msgid "Google G_roups"
+msgstr ""
+
+#: ui/galeon.glade.h:68
+msgid "Group by host"
+msgstr ""
+
+#: ui/galeon.glade.h:69
+msgid "Helper processes _URL"
+msgstr ""
+
+#: ui/galeon.glade.h:71
+msgid "I_nformation"
+msgstr ""
+
+#: ui/galeon.glade.h:72
+msgid "Import Netscape _preferences"
+msgstr ""
+
+#: ui/galeon.glade.h:73
+msgid "Import bookmarks from _Mozilla"
+msgstr ""
+
+#: ui/galeon.glade.h:74
+msgid "Import bookmarks from _Netscape"
+msgstr ""
+
+#: ui/galeon.glade.h:75
+msgid "L_eft"
+msgstr ""
+
+#: ui/galeon.glade.h:76
+msgid "Last visited"
+msgstr ""
+
+#: ui/galeon.glade.h:77
+msgid "Le_gal"
+msgstr ""
+
+#: ui/galeon.glade.h:78
+msgid "Local disk browsing"
+msgstr ""
+
+#: ui/galeon.glade.h:79
+msgid "Location"
+msgstr ""
+
+#: ui/galeon.glade.h:80 ui/preferences.glade.h:124
+msgid "MIME Type"
+msgstr ""
+
+#: ui/galeon.glade.h:81
+msgid "Margins"
+msgstr ""
+
+#: ui/galeon.glade.h:82
+msgid "Match _entire word"
+msgstr ""
+
+#: ui/galeon.glade.h:83
+msgid "Migrate bookmarks and preferences"
+msgstr ""
+
+#: ui/galeon.glade.h:84
+msgid "Month"
+msgstr ""
+
+#: ui/galeon.glade.h:85
+msgid "Normal web sites"
+msgstr ""
+
+#: ui/galeon.glade.h:86
+msgid "Open URL"
+msgstr ""
+
+#: ui/galeon.glade.h:87
+msgid "Order"
+msgstr ""
+
+#: ui/galeon.glade.h:88
+msgid "P_assword Sites"
+msgstr ""
+
+#: ui/galeon.glade.h:89
+msgid "Page_s"
+msgstr ""
+
+#: ui/galeon.glade.h:90
+msgid "Paper size"
+msgstr ""
+
+#: ui/galeon.glade.h:93 ui/preferences.glade.h:157
+msgid "Port"
+msgstr ""
+
+#: ui/galeon.glade.h:94
+msgid "Preview"
+msgstr ""
+
+#: ui/galeon.glade.h:96
+msgid "Print range"
+msgstr ""
+
+#: ui/galeon.glade.h:97
+msgid "Remove _All Cookies"
+msgstr ""
+
+#: ui/galeon.glade.h:98
+msgid "Remove _All Pairs"
+msgstr ""
+
+#: ui/galeon.glade.h:99
+msgid "Remove _All Sites"
+msgstr ""
+
+#: ui/galeon.glade.h:100
+msgid "Remove and _Block Cookie"
+msgstr ""
+
+#: ui/galeon.glade.h:101
+msgid "Secure web sites"
+msgstr ""
+
+#: ui/galeon.glade.h:102
+msgid "Select printer"
+msgstr ""
+
+#: ui/galeon.glade.h:103
+msgid "Servers for which username/password pairs will not be stored"
+msgstr ""
+
+#: ui/galeon.glade.h:104
+msgid "Servers from which images will not be loaded"
+msgstr ""
+
+#: ui/galeon.glade.h:105
+msgid "Servers that can and cannot store cookies"
+msgstr ""
+
+#: ui/galeon.glade.h:106
+msgid "Setup Complete"
+msgstr ""
+
+#: ui/galeon.glade.h:107
+msgid "Site"
+msgstr ""
+
+#: ui/galeon.glade.h:109
+msgid "Status"
+msgstr ""
+
+#: ui/galeon.glade.h:110
+msgid "Time elapsed"
+msgstr ""
+
+#: ui/galeon.glade.h:111
+msgid "Time remaining"
+msgstr ""
+
+#: ui/galeon.glade.h:112
+msgid "Times visited"
+msgstr ""
+
+#: ui/galeon.glade.h:113
+msgid "Title"
+msgstr ""
+
+#: ui/galeon.glade.h:114
+msgid "Today"
+msgstr ""
+
+#: ui/galeon.glade.h:115
+msgid "Toolbar Contents"
+msgstr ""
+
+#: ui/galeon.glade.h:116
+msgid "Two days ago"
+msgstr ""
+
+#: ui/galeon.glade.h:118 ui/prompts.glade.h:3
+msgid "Username"
+msgstr ""
+
+#: ui/galeon.glade.h:119
+msgid "Username/password pairs that are being stored"
+msgstr ""
+
+#: ui/galeon.glade.h:120
+msgid "Week"
+msgstr "Seachtain"
+
+#: ui/galeon.glade.h:121
+msgid ""
+"Welcome to Galeon!\n"
+"\n"
+"\n"
+"\n"
+"Galeon is a GNOME web browser based on the\n"
+"Mozilla rendering engine.\n"
+"\n"
+"The following pages will help you to setup Galeon."
+msgstr ""
+
+#: ui/galeon.glade.h:129
+msgid "What do you want to do with it?"
+msgstr ""
+
+#: ui/galeon.glade.h:130
+msgid "Yesterday"
+msgstr ",AM(Bnne"
+
+#: ui/galeon.glade.h:131
+msgid "_All pages"
+msgstr ""
+
+#: ui/galeon.glade.h:132
+msgid "_Always do the same with this type of file"
+msgstr ""
+
+#: ui/galeon.glade.h:133
+msgid "_Always use this helper in future"
+msgstr ""
+
+#: ui/galeon.glade.h:134
+msgid "_Bookmarklets Collection (requires JavaScript)"
+msgstr ""
+
+#: ui/galeon.glade.h:135
+msgid "_Bottom"
+msgstr ""
+
+#: ui/galeon.glade.h:137
+msgid "_Create Smart Bookmarks toolbar?"
+msgstr ""
+
+#: ui/galeon.glade.h:138
+msgid "_Dictionary"
+msgstr ""
+
+#: ui/galeon.glade.h:139
+msgid "_Don't import bookmarks"
+msgstr ""
+
+#: ui/galeon.glade.h:140
+msgid "_Expires"
+msgstr ""
+
+#: ui/galeon.glade.h:141 ui/preferences.glade.h:271
+msgid "_FTP proxy"
+msgstr ""
+
+#: ui/galeon.glade.h:143
+msgid "_Find:"
+msgstr ""
+
+#: ui/galeon.glade.h:144
+msgid "_Freshmeat"
+msgstr ""
+
+#: ui/galeon.glade.h:145
+msgid "_GNOME helpers"
+msgstr ""
+
+#: ui/galeon.glade.h:146
+msgid "_Google"
+msgstr ""
+
+#: ui/galeon.glade.h:147
+msgid "_Group by host"
+msgstr ""
+
+#: ui/galeon.glade.h:148 ui/preferences.glade.h:275
+msgid "_HTTP proxy"
+msgstr ""
+
+#: ui/galeon.glade.h:149
+msgid "_Helper runs in a terminal"
+msgstr ""
+
+#: ui/galeon.glade.h:150
+msgid "_Host"
+msgstr ""
+
+#: ui/galeon.glade.h:151
+msgid "_Image Sites"
+msgstr ""
+
+#: ui/galeon.glade.h:152
+msgid "_Letter"
+msgstr ""
+
+#: ui/galeon.glade.h:153
+msgid "_Match upper/lower case"
+msgstr ""
+
+#: ui/galeon.glade.h:154
+msgid "_Name"
+msgstr ""
+
+#: ui/galeon.glade.h:155
+msgid "_Other application"
+msgstr ""
+
+#: ui/galeon.glade.h:157
+msgid "_Path"
+msgstr ""
+
+#: ui/galeon.glade.h:158
+msgid "_Printer"
+msgstr ""
+
+#: ui/galeon.glade.h:159
+msgid "_RPMFind"
+msgstr ""
+
+#: ui/galeon.glade.h:160
+msgid "_Remove Cookie"
+msgstr ""
+
+#: ui/galeon.glade.h:161
+msgid "_Remove Pair"
+msgstr ""
+
+#: ui/galeon.glade.h:162
+msgid "_Remove Site"
+msgstr ""
+
+#: ui/galeon.glade.h:163
+msgid "_Right"
+msgstr ""
+
+#: ui/galeon.glade.h:164 ui/preferences.glade.h:304
+msgid "_SSL proxy"
+msgstr ""
+
+#: ui/galeon.glade.h:165 ui/preferences.glade.h:305
+msgid "_Save to disk"
+msgstr ""
+
+#: ui/galeon.glade.h:166
+msgid "_Search in frames"
+msgstr ""
+
+#: ui/galeon.glade.h:167
+msgid "_Server secure"
+msgstr ""
+
+#: ui/galeon.glade.h:168
+msgid "_Time:"
+msgstr ""
+
+#: ui/galeon.glade.h:169
+msgid "_Top"
+msgstr ""
+
+#: ui/galeon.glade.h:170
+msgid "_View with helper application"
+msgstr ""
+
+#: ui/galeon.glade.h:171
+msgid "_Yahoo!"
+msgstr ""
+
+#: ui/galeon.glade.h:172
+msgid "_ftp"
+msgstr ""
+
+#: ui/galeon.glade.h:173
+msgid "_ghelp"
+msgstr ""
+
+#: ui/galeon.glade.h:174
+msgid "_http"
+msgstr ""
+
+#: ui/galeon.glade.h:175
+msgid "f_ile"
+msgstr ""
+
+#: ui/galeon.glade.h:176
+msgid "from:"
+msgstr ""
+
+#: ui/galeon.glade.h:177
+msgid "http_s"
+msgstr ""
+
+#: ui/galeon.glade.h:178
+msgid "lpr"
+msgstr ""
+
+#: ui/galeon.glade.h:179
+msgid "to:"
+msgstr ""
+
+#: ui/preferences.glade.h:2
+#, no-c-format
+msgid "%s"
+msgstr ""
+
+#: ui/preferences.glade.h:4
+#, no-c-format
+msgid "%s - Galeon"
+msgstr ""
+
+#: ui/preferences.glade.h:6
+#, no-c-format
+msgid "\"%s\" will be replaced by the page title"
+msgstr ""
+
+#: ui/preferences.glade.h:7
+msgid "1.0"
+msgstr ""
+
+#: ui/preferences.glade.h:8
+msgid "1.1"
+msgstr ""
+
+#: ui/preferences.glade.h:9
+msgid "Ac_tion"
+msgstr ""
+
+#: ui/preferences.glade.h:10
+msgid "Accept _from current server only"
+msgstr ""
+
+#: ui/preferences.glade.h:11
+msgid "Action"
+msgstr ""
+
+#: ui/preferences.glade.h:12
+msgid "Add URLs to a bookmarks folder"
+msgstr ""
+
+#: ui/preferences.glade.h:13
+msgid "Afrikaans (af)"
+msgstr ""
+
+#: ui/preferences.glade.h:14
+msgid "Al_ways use these colors"
+msgstr ""
+
+#: ui/preferences.glade.h:15
+msgid "Albanian (sq)"
+msgstr ""
+
+#: ui/preferences.glade.h:17
+msgid "Allow _Java (requires plugin)"
+msgstr ""
+
+#: ui/preferences.glade.h:18
+msgid "Allow _other plugins"
+msgstr ""
+
+#: ui/preferences.glade.h:19
+msgid "Allow _popups"
+msgstr ""
+
+#: ui/preferences.glade.h:20
+msgid "Allow statusbar _messages"
+msgstr ""
+
+#: ui/preferences.glade.h:21
+msgid "Always"
+msgstr ""
+
+#: ui/preferences.glade.h:22
+msgid "Always Use"
+msgstr ""
+
+#: ui/preferences.glade.h:23
+msgid "Always _use this helper"
+msgstr ""
+
+#: ui/preferences.glade.h:24
+msgid "Always us_e these fonts"
+msgstr ""
+
+#: ui/preferences.glade.h:26
+msgid "Arabic (ar)"
+msgstr ""
+
+#: ui/preferences.glade.h:28
+msgid "Ask for _destination folder on each download"
+msgstr ""
+
+#: ui/preferences.glade.h:29
+msgid "Ask user"
+msgstr ""
+
+#: ui/preferences.glade.h:30
+msgid "At the _bottom of each folder"
+msgstr ""
+
+#: ui/preferences.glade.h:31
+msgid "At the _top of each folder"
+msgstr ""
+
+#: ui/preferences.glade.h:33
+msgid "Autoconfigure _URL:"
+msgstr ""
+
+#: ui/preferences.glade.h:34
+msgid "Autodetec_t"
+msgstr ""
+
+#: ui/preferences.glade.h:35
+msgid "Automatically"
+msgstr ""
+
+#: ui/preferences.glade.h:36
+msgid "Available Controls"
+msgstr ""
+
+#: ui/preferences.glade.h:37
+msgid "Azerbaidjani (az)"
+msgstr ""
+
+#: ui/preferences.glade.h:38
+msgid "Balsa"
+msgstr "Balsa"
+
+#: ui/preferences.glade.h:40
+msgid "Basque (eu)"
+msgstr ""
+
+#: ui/preferences.glade.h:41
+msgid "Bottom"
+msgstr "Bun"
+
+#: ui/preferences.glade.h:42
+msgid "Breton (br)"
+msgstr ""
+
+#: ui/preferences.glade.h:43
+msgid "Bulgarian (bg)"
+msgstr ""
+
+#: ui/preferences.glade.h:44
+msgid "Byelorussian (be)"
+msgstr ""
+
+#: ui/preferences.glade.h:45
+msgid "Cache"
+msgstr ""
+
+#: ui/preferences.glade.h:46
+msgid "Catalan (ca)"
+msgstr ""
+
+#: ui/preferences.glade.h:48
+msgid "Charsets"
+msgstr ""
+
+#: ui/preferences.glade.h:50
+msgid "Chinese (zh)"
+msgstr ""
+
+#: ui/preferences.glade.h:51
+msgid "Choose Helper App"
+msgstr ""
+
+#: ui/preferences.glade.h:52
+msgid "Clear _Disk Cache"
+msgstr ""
+
+#: ui/preferences.glade.h:53
+msgid "Clear _Memory Cache"
+msgstr ""
+
+#: ui/preferences.glade.h:54
+msgid "Colors"
+msgstr ""
+
+#: ui/preferences.glade.h:55
+msgid "Completions"
+msgstr ""
+
+#: ui/preferences.glade.h:56
+msgid "Context Menus"
+msgstr ""
+
+#: ui/preferences.glade.h:57
+msgid "Cookie _Sites..."
+msgstr ""
+
+#: ui/preferences.glade.h:58
+msgid "Cookies"
+msgstr ""
+
+#: ui/preferences.glade.h:60
+msgid "Croatian (hr)"
+msgstr ""
+
+#: ui/preferences.glade.h:61
+msgid "Current Controls"
+msgstr ""
+
+#: ui/preferences.glade.h:62
+msgid "Custom Stylesheet"
+msgstr ""
+
+#: ui/preferences.glade.h:64
+msgid "Czech (cs)"
+msgstr ""
+
+#: ui/preferences.glade.h:65
+msgid "Danish (da)"
+msgstr ""
+
+#: ui/preferences.glade.h:67
+msgid "Default entry _width"
+msgstr ""
+
+#: ui/preferences.glade.h:68
+msgid "Dis_k cache"
+msgstr ""
+
+#: ui/preferences.glade.h:69
+msgid "Does nothing"
+msgstr ""
+
+#: ui/preferences.glade.h:70
+msgid "Downloader"
+msgstr ""
+
+#: ui/preferences.glade.h:71
+msgid "Dutch (nl)"
+msgstr ""
+
+#: ui/preferences.glade.h:72
+msgid "East asian"
+msgstr ""
+
+#: ui/preferences.glade.h:73
+msgid "Elm"
+msgstr ""
+
+#: ui/preferences.glade.h:74
+msgid "Enable smart bookmarks _history"
+msgstr ""
+
+#: ui/preferences.glade.h:75
+msgid "English (en)"
+msgstr ""
+
+#: ui/preferences.glade.h:76
+msgid "Esperanto (eo)"
+msgstr ""
+
+#: ui/preferences.glade.h:77
+msgid "Estonian (et)"
+msgstr ""
+
+#: ui/preferences.glade.h:78
+msgid "Every time"
+msgstr ""
+
+#: ui/preferences.glade.h:79
+msgid "Evolution"
+msgstr ""
+
+#: ui/preferences.glade.h:80
+msgid "Example"
+msgstr ""
+
+#: ui/preferences.glade.h:81
+msgid "Exit"
+msgstr ""
+
+#: ui/preferences.glade.h:82
+msgid "Exmh"
+msgstr ""
+
+#: ui/preferences.glade.h:83
+msgid "FTP"
+msgstr ""
+
+#: ui/preferences.glade.h:84
+msgid "Faeroese (fo)"
+msgstr ""
+
+#: ui/preferences.glade.h:86
+msgid "Finnish (fi)"
+msgstr ""
+
+#: ui/preferences.glade.h:87
+msgid "Fonts"
+msgstr ""
+
+#: ui/preferences.glade.h:88
+msgid "French (fr)"
+msgstr ""
+
+#: ui/preferences.glade.h:89
+msgid "Fullscreen"
+msgstr ""
+
+#: ui/preferences.glade.h:90
+msgid "GNOME mailto: handler"
+msgstr ""
+
+#: ui/preferences.glade.h:93
+#, no-c-format
+msgid "Galeon - %s"
+msgstr ""
+
+#: ui/preferences.glade.h:94
+msgid "Galician (gl)"
+msgstr ""
+
+#: ui/preferences.glade.h:95
+msgid "German (de)"
+msgstr ""
+
+#: ui/preferences.glade.h:97
+msgid "Greek (el)"
+msgstr ""
+
+#: ui/preferences.glade.h:98
+msgid "HTTP _version"
+msgstr ""
+
+#: ui/preferences.glade.h:100
+msgid "Hebrew (he)"
+msgstr ""
+
+#: ui/preferences.glade.h:101
+msgid "Help"
+msgstr ""
+
+#: ui/preferences.glade.h:102
+msgid "Helper"
+msgstr ""
+
+#: ui/preferences.glade.h:104
+msgid "Home Page"
+msgstr ""
+
+#: ui/preferences.glade.h:105
+msgid "Hungarian (hu)"
+msgstr ""
+
+#: ui/preferences.glade.h:106
+msgid "Icelandic (is)"
+msgstr ""
+
+#: ui/preferences.glade.h:107
+msgid "Icons only"
+msgstr ""
+
+#: ui/preferences.glade.h:108
+msgid "Identif_y as"
+msgstr ""
+
+#: ui/preferences.glade.h:109
+msgid "Image Loading"
+msgstr ""
+
+#: ui/preferences.glade.h:110
+msgid "Indonesian (id)"
+msgstr ""
+
+#: ui/preferences.glade.h:111
+msgid "Insensitive close _buttons"
+msgstr ""
+
+#: ui/preferences.glade.h:112
+msgid "Irish (ga)"
+msgstr ""
+
+#: ui/preferences.glade.h:113
+msgid "Italian (it)"
+msgstr ""
+
+#: ui/preferences.glade.h:115
+msgid "Japanese (ja)"
+msgstr ""
+
+#: ui/preferences.glade.h:116
+msgid "JavaScript"
+msgstr ""
+
+#: ui/preferences.glade.h:118
+msgid "Korean (ko)"
+msgstr ""
+
+#: ui/preferences.glade.h:120
+msgid "Latvian (lv)"
+msgstr ""
+
+#: ui/preferences.glade.h:121
+msgid "Left"
+msgstr ""
+
+#: ui/preferences.glade.h:122
+msgid "Lithuanian (lt)"
+msgstr ""
+
+#: ui/preferences.glade.h:123
+msgid "Loading tab text _color"
+msgstr ""
+
+#: ui/preferences.glade.h:125
+msgid "Macedonian (mk)"
+msgstr ""
+
+#: ui/preferences.glade.h:126
+msgid "Mailer"
+msgstr ""
+
+#: ui/preferences.glade.h:127
+msgid "Manual _proxy configuration"
+msgstr ""
+
+#: ui/preferences.glade.h:128
+msgid "Memor_y cache"
+msgstr ""
+
+#: ui/preferences.glade.h:129
+msgid "Min. Size"
+msgstr ""
+
+#: ui/preferences.glade.h:130
+msgid "Mouse Buttons"
+msgstr ""
+
+#: ui/preferences.glade.h:131
+msgid "Mouse Wheel"
+msgstr ""
+
+#: ui/preferences.glade.h:132
+msgid "Move in the browsing history"
+msgstr ""
+
+#: ui/preferences.glade.h:133
+msgid "Mozilla/5.001 (windows; U; NT4.0; en-us) Gecko/25250101"
+msgstr ""
+
+#: ui/preferences.glade.h:134
+msgid "Mutt"
+msgstr ""
+
+#: ui/preferences.glade.h:135
+msgid "N_o proxy for"
+msgstr ""
+
+#: ui/preferences.glade.h:136
+msgid "Never"
+msgstr ""
+
+#: ui/preferences.glade.h:137
+msgid "Norwegian (no)"
+msgstr ""
+
+#: ui/preferences.glade.h:138
+msgid "Off"
+msgstr ""
+
+#: ui/preferences.glade.h:139
+msgid "On New Page"
+msgstr ""
+
+#: ui/preferences.glade.h:140
+msgid "On Startup"
+msgstr ""
+
+#: ui/preferences.glade.h:141
+msgid "Once per session"
+msgstr ""
+
+#: ui/preferences.glade.h:142
+msgid ""
+"Only change this if you want to access web pages that only accept a limited "
+"set of web browsers. You can put any string here."
+msgstr ""
+
+#: ui/preferences.glade.h:143
+msgid "Only in context _menu"
+msgstr ""
+
+#: ui/preferences.glade.h:144
+msgid "Open _popups in tabs"
+msgstr ""
+
+#: ui/preferences.glade.h:145
+msgid "Options"
+msgstr ""
+
+#: ui/preferences.glade.h:146
+msgid "Page-Specific Settings"
+msgstr ""
+
+#: ui/preferences.glade.h:147
+msgid "Passwor_d Sites..."
+msgstr ""
+
+#: ui/preferences.glade.h:148
+msgid "Passwords"
+msgstr ""
+
+#: ui/preferences.glade.h:149
+msgid "Pastes and loads selection as URL"
+msgstr ""
+
+#: ui/preferences.glade.h:150
+msgid "Pick a Font"
+msgstr ""
+
+#: ui/preferences.glade.h:151
+msgid "Pick the background color"
+msgstr ""
+
+#: ui/preferences.glade.h:152
+msgid "Pick the color for visited links"
+msgstr ""
+
+#: ui/preferences.glade.h:153
+msgid "Pick the color unvisited links"
+msgstr ""
+
+#: ui/preferences.glade.h:154
+msgid "Pick the text color"
+msgstr ""
+
+#: ui/preferences.glade.h:155
+msgid "Pine"
+msgstr ""
+
+#: ui/preferences.glade.h:156
+msgid "Polish (pl)"
+msgstr ""
+
+#: ui/preferences.glade.h:158
+msgid "Portuguese (pt)"
+msgstr ""
+
+#: ui/preferences.glade.h:159
+msgid "Portuguese of Brazil (pt-BR)"
+msgstr ""
+
+#: ui/preferences.glade.h:160
+msgid "Preferences"
+msgstr ""
+
+#: ui/preferences.glade.h:161
+msgid "Protocol"
+msgstr ""
+
+#: ui/preferences.glade.h:162
+msgid "Proxies"
+msgstr ""
+
+#: ui/preferences.glade.h:163
+msgid "Reopen windows"
+msgstr ""
+
+#: ui/preferences.glade.h:164
+msgid "Right"
+msgstr ""
+
+#: ui/preferences.glade.h:165
+msgid "Right click on back/forward items activates _history popup"
+msgstr ""
+
+#: ui/preferences.glade.h:166
+msgid "Romanian (ro)"
+msgstr ""
+
+#: ui/preferences.glade.h:167
+msgid "Run in _terminal"
+msgstr ""
+
+#: ui/preferences.glade.h:168
+msgid "Run in a _terminal"
+msgstr ""
+
+#: ui/preferences.glade.h:169
+msgid "Russian"
+msgstr ""
+
+#: ui/preferences.glade.h:170
+msgid "Russian (ru)"
+msgstr ""
+
+#: ui/preferences.glade.h:171
+msgid "S_ans serif"
+msgstr ""
+
+#: ui/preferences.glade.h:172
+msgid "Sans-serif"
+msgstr ""
+
+#: ui/preferences.glade.h:173
+msgid "Scottish (gd)"
+msgstr ""
+
+#: ui/preferences.glade.h:174
+msgid "Scroll by one page"
+msgstr ""
+
+#: ui/preferences.glade.h:175
+msgid "Scroll by one step"
+msgstr ""
+
+#: ui/preferences.glade.h:176
+msgid "Select Animation Folder"
+msgstr ""
+
+#: ui/preferences.glade.h:177
+msgid "Select Download Folder"
+msgstr ""
+
+#: ui/preferences.glade.h:178
+msgid "Select a file to use as custom stylesheet"
+msgstr ""
+
+#: ui/preferences.glade.h:179
+msgid "Serbian (sr)"
+msgstr ""
+
+#: ui/preferences.glade.h:180
+msgid "Serif"
+msgstr ""
+
+#: ui/preferences.glade.h:181
+msgid "Set to \"_My Portal\""
+msgstr ""
+
+#: ui/preferences.glade.h:182
+msgid "Set to _Current Page"
+msgstr ""
+
+#: ui/preferences.glade.h:183
+msgid "Shorten all _names by dropping common prefixes"
+msgstr ""
+
+#: ui/preferences.glade.h:184
+msgid "Shorten long names by dropping _vowels"
+msgstr ""
+
+#: ui/preferences.glade.h:185
+msgid "Shorten names to fixed _width"
+msgstr ""
+
+#: ui/preferences.glade.h:186
+msgid "Shorten names to target _length"
+msgstr ""
+
+#: ui/preferences.glade.h:187
+msgid "Show \"_go to\" button"
+msgstr ""
+
+#: ui/preferences.glade.h:188
+msgid "Show Folder Actions"
+msgstr ""
+
+#: ui/preferences.glade.h:189
+msgid "Show _blank page"
+msgstr ""
+
+#: ui/preferences.glade.h:190
+msgid "Show _bookmarks toolbars"
+msgstr ""
+
+#: ui/preferences.glade.h:191
+msgid "Show _home page"
+msgstr ""
+
+#: ui/preferences.glade.h:192
+msgid "Show _last page"
+msgstr ""
+
+#: ui/preferences.glade.h:193
+msgid "Show _menubar"
+msgstr ""
+
+#: ui/preferences.glade.h:194
+msgid "Show _statusbar"
+msgstr ""
+
+#: ui/preferences.glade.h:195
+msgid "Show blan_k page"
+msgstr ""
+
+#: ui/preferences.glade.h:196
+msgid "Show hom_e page"
+msgstr ""
+
+#: ui/preferences.glade.h:197
+msgid "Show las_t page"
+msgstr ""
+
+#: ui/preferences.glade.h:198
+msgid "Show t_oolbars"
+msgstr ""
+
+#: ui/preferences.glade.h:199
+msgid "Shows bookmarks"
+msgstr ""
+
+#: ui/preferences.glade.h:200
+msgid "Shows menu on button press"
+msgstr ""
+
+#: ui/preferences.glade.h:201
+msgid "Shows menu on button press + mouse motion"
+msgstr ""
+
+#: ui/preferences.glade.h:202
+msgid "Simplified Chinese"
+msgstr ""
+
+#: ui/preferences.glade.h:203
+msgid "Slovak (sk)"
+msgstr ""
+
+#: ui/preferences.glade.h:204
+msgid "Slovenian (sl)"
+msgstr ""
+
+#: ui/preferences.glade.h:205
+msgid "Smart Bookmarks"
+msgstr ""
+
+#: ui/preferences.glade.h:206
+msgid "Sort on _simplified URL"
+msgstr ""
+
+#: ui/preferences.glade.h:207
+msgid "Sort on _whole URL"
+msgstr ""
+
+#: ui/preferences.glade.h:208
+msgid "Spanish (es)"
+msgstr ""
+
+#: ui/preferences.glade.h:210
+msgid "Ste_p size"
+msgstr ""
+
+#: ui/preferences.glade.h:211
+msgid "Step si_ze"
+msgstr ""
+
+#: ui/preferences.glade.h:212
+msgid "Swedish (sv)"
+msgstr ""
+
+#: ui/preferences.glade.h:213
+msgid "Tab Colors"
+msgstr ""
+
+#: ui/preferences.glade.h:214
+msgid "Tab Names"
+msgstr ""
+
+#: ui/preferences.glade.h:215
+msgid "Tabbed Browsing"
+msgstr ""
+
+#: ui/preferences.glade.h:216
+msgid "Text beside icons"
+msgstr ""
+
+#: ui/preferences.glade.h:217
+msgid "Text only"
+msgstr ""
+
+#: ui/preferences.glade.h:218
+msgid "Text under icons"
+msgstr ""
+
+#: ui/preferences.glade.h:219
+msgid "Thai"
+msgstr ""
+
+#: ui/preferences.glade.h:220
+msgid "Toolbar Appearance"
+msgstr ""
+
+#: ui/preferences.glade.h:221
+msgid "Toolbar Theme"
+msgstr ""
+
+#: ui/preferences.glade.h:222
+msgid "Top"
+msgstr ""
+
+#: ui/preferences.glade.h:223
+msgid "Traditional Chinese"
+msgstr ""
+
+#: ui/preferences.glade.h:225
+msgid "Turkish (tr)"
+msgstr ""
+
+#: ui/preferences.glade.h:226
+msgid "U_nderline links"
+msgstr ""
+
+#: ui/preferences.glade.h:227
+msgid "Ukrainian"
+msgstr ""
+
+#: ui/preferences.glade.h:228
+msgid "Ukrainian (uk)"
+msgstr ""
+
+#: ui/preferences.glade.h:230
+msgid "Use GNOME Transfer _Manager (GTM)"
+msgstr ""
+
+#: ui/preferences.glade.h:231
+msgid "Use _GNOME default FTP handler"
+msgstr ""
+
+#: ui/preferences.glade.h:232
+msgid "Use _Galeon to view GNOME Help documents"
+msgstr ""
+
+#: ui/preferences.glade.h:233
+msgid "Use _built-in downloader"
+msgstr ""
+
+#: ui/preferences.glade.h:234
+msgid "Use _command"
+msgstr ""
+
+#: ui/preferences.glade.h:235
+msgid "User Agent Identification"
+msgstr ""
+
+#: ui/preferences.glade.h:236
+msgid "Vietnamian (vi)"
+msgstr ""
+
+#: ui/preferences.glade.h:237
+msgid "View Source"
+msgstr ""
+
+#: ui/preferences.glade.h:238
+msgid "Walloon (wa)"
+msgstr ""
+
+#: ui/preferences.glade.h:240
+msgid "When Adding Bookmarks"
+msgstr ""
+
+#: ui/preferences.glade.h:242
+msgid "You can always get explicit completions by hitting TAB"
+msgstr ""
+
+#: ui/preferences.glade.h:243
+msgid "Zoom"
+msgstr ""
+
+#: ui/preferences.glade.h:244
+msgid "_Add"
+msgstr ""
+
+#: ui/preferences.glade.h:245
+msgid "_Alt"
+msgstr ""
+
+#: ui/preferences.glade.h:246
+msgid "_Always accept"
+msgstr ""
+
+#: ui/preferences.glade.h:247
+msgid "_Always load"
+msgstr ""
+
+#: ui/preferences.glade.h:248
+msgid "_Always save session at exit"
+msgstr ""
+
+#: ui/preferences.glade.h:249
+msgid "_Always show tab labels"
+msgstr ""
+
+#: ui/preferences.glade.h:251
+msgid "_Ask user"
+msgstr ""
+
+#: ui/preferences.glade.h:252
+msgid "_Ask user for a title"
+msgstr ""
+
+#: ui/preferences.glade.h:253
+msgid "_Auto download enabled"
+msgstr ""
+
+#: ui/preferences.glade.h:254
+msgid "_Autocompletion enabled"
+msgstr ""
+
+#: ui/preferences.glade.h:255
+msgid "_Automatic proxy configuration"
+msgstr ""
+
+#: ui/preferences.glade.h:256
+msgid "_Background"
+msgstr ""
+
+#: ui/preferences.glade.h:257
+msgid "_Clear History"
+msgstr ""
+
+#: ui/preferences.glade.h:258
+msgid "_Clear smart bookmarks after use"
+msgstr ""
+
+#: ui/preferences.glade.h:259
+msgid "_Compare page"
+msgstr ""
+
+#: ui/preferences.glade.h:260
+msgid "_Cookies..."
+msgstr ""
+
+#: ui/preferences.glade.h:261
+msgid "_Ctrl"
+msgstr ""
+
+#: ui/preferences.glade.h:262
+msgid "_Cursive"
+msgstr ""
+
+#: ui/preferences.glade.h:263
+msgid "_Days before expiring history items"
+msgstr ""
+
+#: ui/preferences.glade.h:264
+msgid "_Default charset"
+msgstr ""
+
+#: ui/preferences.glade.h:265
+msgid "_Default font"
+msgstr ""
+
+#: ui/preferences.glade.h:266
+msgid "_Delete"
+msgstr ""
+
+#: ui/preferences.glade.h:267
+msgid "_Display close buttons on tabs"
+msgstr ""
+
+#: ui/preferences.glade.h:268
+msgid "_Enable proxy keep-alive"
+msgstr ""
+
+#: ui/preferences.glade.h:269
+msgid "_Enabled"
+msgstr ""
+
+#: ui/preferences.glade.h:270
+msgid "_External program"
+msgstr ""
+
+#: ui/preferences.glade.h:272
+msgid "_Fantasy"
+msgstr ""
+
+#: ui/preferences.glade.h:273
+msgid "_Fetch bookmark icons"
+msgstr ""
+
+#: ui/preferences.glade.h:274
+msgid "_Folder"
+msgstr ""
+
+#: ui/preferences.glade.h:276
+msgid "_How to recover"
+msgstr ""
+
+#: ui/preferences.glade.h:277
+msgid "_Image Sites..."
+msgstr ""
+
+#: ui/preferences.glade.h:278
+msgid "_Insert new tabs after current tab"
+msgstr ""
+
+#: ui/preferences.glade.h:279
+msgid "_Jump to new tabs automatically"
+msgstr ""
+
+#: ui/preferences.glade.h:280
+msgid "_Keep fullscreen window above all other windows"
+msgstr ""
+
+#: ui/preferences.glade.h:281
+msgid "_Keep location entry on main toolbar"
+msgstr ""
+
+#: ui/preferences.glade.h:282
+msgid "_Language encoding"
+msgstr ""
+
+#: ui/preferences.glade.h:283
+msgid "_Load from current server only"
+msgstr ""
+
+#: ui/preferences.glade.h:284
+msgid "_MIME type"
+msgstr ""
+
+#: ui/preferences.glade.h:285
+msgid "_Mail handler"
+msgstr ""
+
+#: ui/preferences.glade.h:286
+msgid "_Middle button"
+msgstr ""
+
+#: ui/preferences.glade.h:287
+msgid "_Monospace"
+msgstr ""
+
+#: ui/preferences.glade.h:288
+msgid "_Never accept"
+msgstr ""
+
+#: ui/preferences.glade.h:289
+msgid "_Never load"
+msgstr ""
+
+#: ui/preferences.glade.h:290
+msgid "_New"
+msgstr ""
+
+#: ui/preferences.glade.h:291
+msgid "_No modifier key"
+msgstr ""
+
+#: ui/preferences.glade.h:292
+msgid "_No proxies"
+msgstr ""
+
+#: ui/preferences.glade.h:293
+msgid "_Number to generate"
+msgstr ""
+
+#: ui/preferences.glade.h:294
+msgid "_Open in tabs by default"
+msgstr ""
+
+#: ui/preferences.glade.h:295
+msgid "_Passwords..."
+msgstr ""
+
+#: ui/preferences.glade.h:296
+msgid "_Processes URL"
+msgstr ""
+
+#: ui/preferences.glade.h:297
+msgid "_Recover from crashes"
+msgstr ""
+
+#: ui/preferences.glade.h:299
+msgid "_Remember passwords"
+msgstr ""
+
+#: ui/preferences.glade.h:300
+msgid "_Remember zoom settings"
+msgstr ""
+
+#: ui/preferences.glade.h:301
+msgid "_Remove"
+msgstr ""
+
+#: ui/preferences.glade.h:302
+msgid "_Right button"
+msgstr ""
+
+#: ui/preferences.glade.h:303
+msgid "_Run with helper"
+msgstr ""
+
+#: ui/preferences.glade.h:306
+msgid "_Serif"
+msgstr ""
+
+#: ui/preferences.glade.h:307
+msgid "_Shift"
+msgstr ""
+
+#: ui/preferences.glade.h:308
+msgid "_Shorten long names by looking for common separators"
+msgstr ""
+
+#: ui/preferences.glade.h:309
+msgid "_Shorten titles to length"
+msgstr ""
+
+#: ui/preferences.glade.h:310
+msgid "_Tabs appear along"
+msgstr ""
+
+#: ui/preferences.glade.h:311
+msgid "_Text"
+msgstr ""
+
+#: ui/preferences.glade.h:312
+msgid "_Title"
+msgstr ""
+
+#: ui/preferences.glade.h:313
+msgid "_URL"
+msgstr ""
+
+#: ui/preferences.glade.h:314
+msgid "_Unviewed tab text color"
+msgstr ""
+
+#: ui/preferences.glade.h:315
+msgid "_Unvisited link"
+msgstr ""
+
+#: ui/preferences.glade.h:316
+msgid "_Use built-in FTP handler"
+msgstr ""
+
+#: ui/preferences.glade.h:317
+msgid "_Use external program to view source files"
+msgstr ""
+
+#: ui/preferences.glade.h:318
+msgid "_Use page title"
+msgstr ""
+
+#: ui/preferences.glade.h:319
+msgid "_Use system default step size"
+msgstr ""
+
+#: ui/preferences.glade.h:320
+msgid "_Visited link"
+msgstr ""
+
+#: ui/preferences.glade.h:321
+msgid "_Warn before accepting a cookie"
+msgstr ""
+
+#: ui/preferences.glade.h:323
+#, no-c-format
+msgid "darxget %s"
+msgstr ""
+
+#: ui/preferences.glade.h:324
+msgid "emacs"
+msgstr ""
+
+#: ui/preferences.glade.h:325
+msgid "gedit"
+msgstr ""
+
+#: ui/preferences.glade.h:326
+msgid "gless"
+msgstr ""
+
+#: ui/preferences.glade.h:327
+msgid "gnome-edit"
+msgstr ""
+
+#: ui/preferences.glade.h:328
+msgid "gnp"
+msgstr ""
+
+#: ui/preferences.glade.h:329
+msgid "gvim"
+msgstr ""
+
+#: ui/preferences.glade.h:330
+msgid "kB"
+msgstr ""
+
+#: ui/preferences.glade.h:332
+#, no-c-format
+msgid "nt %s"
+msgstr ""
+
+#: ui/preferences.glade.h:334
+#, no-c-format
+msgid "wget -N -c %s"
+msgstr ""
+
+#: ui/preferences.glade.h:335
+msgid "xemacs"
+msgstr ""
+
+#: ui/prompts.glade.h:1
+msgid "DYNAMIC"
+msgstr ""
+
+#: ui/prompts.glade.h:2
+msgid "Password"
+msgstr ""

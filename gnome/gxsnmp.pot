@@ -1,0 +1,1140 @@
+# Irish (gaeilge) translation for gxsnmp
+# Copyright (C) 2000 Free Software Foundation, Inc.
+# Alastair McKinstry <mckinstry@computer.org>, 2000.
+msgid ""
+msgstr ""
+"Project-Id-Version: gxsnmp CVS\n"
+"POT-Creation-Date: 2000-03-10 23:11+0000\n"
+"PO-Revision-Date: 2000-03-13 19:00+0100\n"
+"Last-Translator:Alastair McKinstry <mckinstry@computer.org>\n"
+"Language-Team: Irish <ga@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=iso-8859-1\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: app/about.c:50
+msgid ""
+"GXSNMP is a basic SNMP management application that allows you to better "
+"manage your networks."
+msgstr ""
+
+#: app/browser.c:34
+msgid "Object Type"
+msgstr ""
+
+#: app/browser.c:34
+msgid "Module"
+msgstr ""
+
+#: app/browser.c:34
+msgid "OID"
+msgstr "OID"
+
+#: app/browser.c:34 app/events.c:59
+msgid "Status"
+msgstr ""
+
+#: app/browser.c:34
+msgid "Label"
+msgstr "Lipéid"
+
+#: app/browser.c:35 app/snmp_host.c:213
+msgid "Value"
+msgstr "Luach"
+
+#. Text entry field for displaying description
+#: app/browser.c:180 app/network_list.c:43 app/widgets/host_panel.c:42
+#: app/widgets/map_panel.c:37 app/widgets/network_panel.c:36
+msgid "Description"
+msgstr ""
+
+#: app/browser.c:210
+msgid "First"
+msgstr "Cead"
+
+#: app/browser.c:212
+msgid "Next"
+msgstr "Eile"
+
+#: app/browser.c:215
+msgid "Get"
+msgstr ""
+
+#: app/browser.c:218
+msgid "Put"
+msgstr ""
+
+#: app/browser.c:303
+msgid ""
+"\n"
+"\n"
+"Available values:\n"
+"\n"
+msgstr ""
+
+#: app/browser.c:356
+msgid "None"
+msgstr "tada"
+
+#: app/browser.c:361
+msgid "Integer32"
+msgstr "Integer32"
+
+#: app/browser.c:364
+msgid "String"
+msgstr "String"
+
+#: app/browser.c:367
+msgid "Object ID"
+msgstr ""
+
+#: app/browser.c:370
+msgid "Unsigned32"
+msgstr "Unsigned32"
+
+#: app/browser.c:373
+msgid "Integer64"
+msgstr "Integer64"
+
+#: app/browser.c:376
+msgid "Unsigned64"
+msgstr ""
+
+#: app/browser.c:379
+msgid "Float32"
+msgstr "Float32"
+
+#: app/browser.c:382
+msgid "Float64"
+msgstr "Float64"
+
+#: app/browser.c:385
+msgid "Float128"
+msgstr "Float128"
+
+#: app/browser.c:388
+msgid "Enum"
+msgstr "Enum"
+
+#: app/browser.c:391
+msgid "Bits"
+msgstr ""
+
+#: app/browser.c:395 app/browser.c:417
+msgid "Unknown"
+msgstr ""
+
+#: app/browser.c:401
+msgid "Current"
+msgstr ""
+
+#: app/browser.c:404
+msgid "Deprecated"
+msgstr ""
+
+#: app/browser.c:407
+msgid "Mandatory"
+msgstr ""
+
+#: app/browser.c:410
+msgid "Optional"
+msgstr ""
+
+#: app/browser.c:413
+msgid "Obsolete"
+msgstr ""
+
+#: app/config_panel.c:62
+msgid "General"
+msgstr ""
+
+#: app/config_panel.c:63
+msgid "SNMP Defaults"
+msgstr ""
+
+#: app/config_panel.c:64
+msgid "SQL"
+msgstr "SQL"
+
+#: app/config_panel.c:65
+msgid "MENU"
+msgstr "CLÁR"
+
+#: app/config_panel.c:66
+msgid "Collector"
+msgstr ""
+
+#: app/config_panel.c:67
+msgid "MIBs"
+msgstr ""
+
+#: app/config_panel.c:79
+msgid "GXSNMP Configuration"
+msgstr "Cumraigh GXSNMP"
+
+#. *****************************************************************************
+#. **
+#. **  Static Data
+#. **
+#. *****************************************************************************
+#: app/database_dialog.c:53
+msgid "GXSNMP Database Configuration"
+msgstr ""
+
+#.
+#. **  First comes the list of all existing configurations
+#.
+#: app/database_dialog.c:136
+msgid "Existing Configurations"
+msgstr ""
+
+#.
+#. **  Now the "Database Connection" part of the dialog
+#.
+#: app/database_dialog.c:206
+msgid "Database Connection"
+msgstr ""
+
+#: app/database_dialog.c:224
+msgid "Engine"
+msgstr ""
+
+#.
+#. **  Next the list of databases available on the connected server
+#.
+#: app/database_dialog.c:287
+msgid "Available Databases"
+msgstr ""
+
+#: app/events.c:57
+msgid "Event ID"
+msgstr ""
+
+#: app/events.c:58
+msgid "Category"
+msgstr "Ranga"
+
+#: app/events.c:60
+msgid "Timestamp"
+msgstr ""
+
+#: app/events.c:61
+msgid "Summary"
+msgstr ""
+
+#: app/events.c:71
+msgid "Save"
+msgstr "Sábháil"
+
+#: app/events.c:74
+msgid "Save as..."
+msgstr "Sábháil Le..."
+
+#: app/events.c:78
+msgid "Print"
+msgstr "Priontáil"
+
+#: app/events.c:82 app/menus.c:177
+msgid "Close"
+msgstr "Dún"
+
+#: app/events.c:85 app/menus.c:179
+msgid "Exit"
+msgstr "Ealu"
+
+#: app/events.c:92
+msgid "Filter..."
+msgstr ""
+
+#: app/events.c:99
+msgid "File"
+msgstr "Comhad"
+
+#: app/events.c:101
+msgid "Edit"
+msgstr "Eagar"
+
+#: app/events.c:121
+msgid "Events"
+msgstr ""
+
+#: app/events.c:164
+msgid "Acknowledge"
+msgstr ""
+
+#: app/events.c:170
+msgid "Delete"
+msgstr "Dealaigh"
+
+#: app/events.c:200
+msgid "Refresh"
+msgstr ""
+
+#: app/events.c:361
+msgid "Informative"
+msgstr ""
+
+#: app/events.c:364
+msgid "Warning"
+msgstr "Rabhadh"
+
+#: app/events.c:367
+msgid "Alarm"
+msgstr "Alairm"
+
+#: app/gxsnmp_window.c:126
+msgid "GXSNMP Network Management Tool"
+msgstr "Uirlis bainistoireacht Greasán GXSNMP"
+
+#.
+#. **  Column one contains the host editing panel and the Discover button
+#.
+#: app/host_dialog.c:252
+msgid "Host Information"
+msgstr "Eolas na h-Óst"
+
+#: app/host_dialog.c:261
+msgid "Discovery parameters"
+msgstr ""
+
+#: app/host_dialog.c:271 app/host_dialog.c:333 app/menus.c:222
+msgid "SNMP"
+msgstr "SNMP"
+
+#: app/host_dialog.c:280 app/widgets/interface_panel.c:42
+msgid "Transport"
+msgstr ""
+
+#.
+#. **  Column two is the interface editing panel and the interface list
+#.
+#: app/host_dialog.c:308
+msgid "Interface Information"
+msgstr ""
+
+#.
+#. **  Column three is the display editing panel and display list
+#.
+#: app/host_dialog.c:391 app/network_dialog.c:160
+msgid "Display Information"
+msgstr ""
+
+#: app/host_list.c:45 app/rmon_panel.c:35
+msgid "Display Name"
+msgstr ""
+
+#: app/host_list.c:45 app/rmon_panel.c:35 app/widgets/host_panel.c:41
+msgid "DNS Name"
+msgstr "Ainm DNS"
+
+#: app/host_list.c:45 app/rmon_panel.c:35 app/widgets/host_panel.c:43
+#: app/widgets/network_panel.c:37
+msgid "Contact"
+msgstr ""
+
+#: app/host_list.c:45 app/network_list.c:43 app/rmon_panel.c:35
+msgid "Last Modification"
+msgstr ""
+
+#: app/host_list.c:151
+msgid "Delete host"
+msgstr "Dealaigh óst"
+
+#: app/host_list.c:153
+msgid "Edit host"
+msgstr "Eagar óst"
+
+#: app/host_list.c:155
+msgid "Add host"
+msgstr "Suimigh óst"
+
+#: app/main.c:87
+msgid "Full path to the pixmap files"
+msgstr ""
+
+#: app/main.c:87 app/main.c:89
+msgid "PATH"
+msgstr "SLÍ"
+
+#: app/main.c:89
+msgid "Path to where the MIB file(s) are located."
+msgstr ""
+
+#: app/main.c:91
+msgid "Enables debugging messages."
+msgstr ""
+
+#: app/main.c:91
+msgid "LEVEL"
+msgstr "COTHROM"
+
+#: app/main.c:158
+msgid "Version 1"
+msgstr "Leagan 1"
+
+#: app/main.c:162
+msgid "Version 2c"
+msgstr "Leagan 2c"
+
+#: app/main.c:166
+msgid "Version 2"
+msgstr "Leagan 2"
+
+#: app/main.c:170
+msgid "Version 3"
+msgstr "Leagan 3"
+
+#: app/map.c:50
+msgid "(not in database)"
+msgstr ""
+
+#: app/map_dialog.c:46
+msgid "Map Name"
+msgstr "Ainm Carta"
+
+#: app/map_dialog.c:47
+msgid "Notebook Tab"
+msgstr ""
+
+#: app/map_dialog.c:50 app/widgets/map_panel.c:44
+msgid "The name of this map."
+msgstr ""
+
+#: app/map_dialog.c:51
+msgid "What should be shown in the notebook tab."
+msgstr ""
+
+#: app/map_dialog.c:463
+msgid "<New Map>"
+msgstr "<Carta Nua>"
+
+#: app/map_dialog.c:464
+msgid "<New>"
+msgstr "<Nua>"
+
+#: app/menus.c:153
+msgid "Map"
+msgstr "Carta"
+
+#: app/menus.c:155
+msgid "Window"
+msgstr "Fuinneog"
+
+#: app/menus.c:170
+msgid "New"
+msgstr "Nua"
+
+#: app/menus.c:173
+msgid "Print..."
+msgstr "Printáil..."
+
+#: app/menus.c:199
+msgid "Undo"
+msgstr "Leasú"
+
+#: app/menus.c:201
+msgid "Redo"
+msgstr ""
+
+#: app/menus.c:216 app/widgets/sql_panel.c:47
+msgid "Database"
+msgstr ""
+
+#: app/menus.c:217
+msgid "Configure and select the database engine to use."
+msgstr ""
+
+#: app/menus.c:220
+msgid "Properties"
+msgstr "Roghanna"
+
+#: app/menus.c:239
+msgid "Enable Grid"
+msgstr ""
+
+#: app/menus.c:240
+msgid "Toggle the visability of the grid on/off"
+msgstr ""
+
+#: app/menus.c:242
+msgid "Snap to grid"
+msgstr ""
+
+#: app/menus.c:243
+msgid "Enable alignment on the grid."
+msgstr ""
+
+#: app/menus.c:258
+msgid "Add host..."
+msgstr "Suimigh Óst..."
+
+#: app/menus.c:259
+msgid "Add a new host node to the map(s)"
+msgstr ""
+
+#: app/menus.c:262
+msgid "Delete Host..."
+msgstr "Dealaigh Óst..."
+
+#: app/menus.c:263
+msgid "Delete a host from the database and all maps"
+msgstr ""
+
+#: app/menus.c:267
+msgid "Add Network..."
+msgstr "Suimigh Greasán..."
+
+#: app/menus.c:270
+msgid "Delete Network..."
+msgstr "Dealaigh Greasán..."
+
+#: app/menus.c:288
+msgid "Host List..."
+msgstr "Líosta na h-Óstaí..."
+
+#: app/menus.c:289
+msgid "Open up the list of all known host nodes."
+msgstr ""
+
+#: app/menus.c:292
+msgid "Network List..."
+msgstr "Líosta Greasán..."
+
+#: app/menus.c:293
+msgid "Open up the list of all known networks."
+msgstr ""
+
+#: app/menus.c:296
+msgid "RMON..."
+msgstr "RMON..."
+
+#: app/menus.c:299
+msgid "Events List..."
+msgstr ""
+
+#: app/menus.c:302
+msgid "Summary..."
+msgstr ""
+
+#: app/menus.c:337
+msgid "SNMP Set..."
+msgstr ""
+
+#: app/menus.c:339
+msgid "SNMP Get..."
+msgstr ""
+
+#: app/menus.c:341
+msgid "Monitor Mib..."
+msgstr ""
+
+#: app/menus.c:343
+msgid "Mib Editor..."
+msgstr "Eagarthóir MIB"
+
+#: app/menus.c:361
+msgid "About GXSNMP"
+msgstr "Faoi GXSNMP"
+
+#: app/menus.c:362
+msgid "Information about this program."
+msgstr "Eolais faoi an ríomhchlár seo"
+
+#: app/menus.c:379
+msgid "_File"
+msgstr "_Comhad"
+
+#: app/menus.c:381
+msgid "_Edit"
+msgstr "_Eagar"
+
+#: app/menus.c:383
+msgid "_Configure"
+msgstr "_Cumraigh"
+
+#: app/menus.c:385
+msgid "_Map"
+msgstr "_Carta"
+
+#: app/menus.c:387
+msgid "_Tools"
+msgstr "_Uirlisí"
+
+#: app/menus.c:389
+msgid "_Windows"
+msgstr "_Fuinneoga"
+
+#: app/menus.c:391 app/menus.c:798 app/menus.c:821
+msgid "_Dialogs"
+msgstr ""
+
+#: app/menus.c:393 plugins/route_table/route_table.c:128
+msgid "_Plugins"
+msgstr "_Plogálí"
+
+#: app/menus.c:395
+msgid "_SNMP Functions"
+msgstr ""
+
+#: app/menus.c:397
+msgid "_Help"
+msgstr "C_abhair"
+
+#: app/menus.c:422 app/menus.c:488
+msgid "Add Host"
+msgstr "Suimigh Óst"
+
+#: app/menus.c:423
+msgid "Add a new host to the database."
+msgstr ""
+
+#: app/menus.c:427 app/menus.c:510
+msgid "Edit Host"
+msgstr "Eagar Óst"
+
+#: app/menus.c:428
+msgid "Edit an existing host."
+msgstr ""
+
+#: app/menus.c:432 app/menus.c:512
+msgid "Delete Host"
+msgstr "Dealaigh Óst"
+
+#: app/menus.c:433
+msgid "Delete a host from the database."
+msgstr ""
+
+#: app/menus.c:437
+msgid "Host List"
+msgstr "Líosta na h-Óstaí"
+
+#: app/menus.c:438
+msgid "Open the list of known hosts."
+msgstr ""
+
+#: app/menus.c:442 app/menus.c:490
+msgid "Add Network"
+msgstr "Suimigh Greasán"
+
+#: app/menus.c:443
+msgid "Add a new network to the map/database."
+msgstr ""
+
+#: app/menus.c:447 app/menus.c:540
+msgid "Delete Network"
+msgstr ""
+
+#: app/menus.c:448
+msgid "Delete a network from the map/database."
+msgstr ""
+
+#: app/menus.c:452
+msgid "Network List"
+msgstr ""
+
+#: app/menus.c:453
+msgid "Open the list of known networks."
+msgstr ""
+
+#: app/menus.c:457
+msgid "Event Browser"
+msgstr ""
+
+#: app/menus.c:458
+msgid "Open the event list."
+msgstr ""
+
+#: app/menus.c:462
+msgid "Map List"
+msgstr "'Liosta na Carta"
+
+#: app/menus.c:463
+msgid "Open the map list."
+msgstr ""
+
+#: app/menus.c:492
+msgid "Add Group"
+msgstr "Suimigh Grupa"
+
+#: app/menus.c:514
+msgid "Query Host"
+msgstr ""
+
+#: app/menus.c:516
+msgid "Browse MIB"
+msgstr ""
+
+#: app/menus.c:518
+msgid "Wire Host"
+msgstr ""
+
+#: app/menus.c:538
+msgid "Edit Network"
+msgstr ""
+
+#: app/menus.c:553
+msgid "Expand Group"
+msgstr ""
+
+#: app/menus.c:555
+msgid "Collapse Group"
+msgstr ""
+
+#: app/menus.c:557
+msgid "Delete Group"
+msgstr "Dealaigh Grupa"
+
+#: app/menus.c:1396
+msgid "Add a new network"
+msgstr ""
+
+#.
+#. * Column one contains the network editing panel. (and a discover button?)
+#.
+#: app/network_dialog.c:146
+msgid "Network Information"
+msgstr ""
+
+#: app/network_dialog.c:168
+msgid "Network not displayed on this map"
+msgstr ""
+
+#: app/network_dialog.c:193
+msgid "Show"
+msgstr ""
+
+#: app/network_dialog.c:198
+msgid "Hide"
+msgstr ""
+
+#: app/network_list.c:43 app/widgets/interface_panel.c:41
+#: app/widgets/map_panel.c:36 app/widgets/network_panel.c:32
+msgid "Name"
+msgstr "Ainm"
+
+#: app/network_list.c:155
+msgid "Delete network"
+msgstr "Dealaigh greasán"
+
+#: app/network_list.c:157
+msgid "Edit network"
+msgstr "Eagar greasán"
+
+#: app/network_list.c:159
+msgid "Add network"
+msgstr "Suimigh greasán"
+
+#: app/snmp_dialog.c:677
+msgid "Default Config"
+msgstr ""
+
+#: app/snmp_dialog.c:678
+msgid "public"
+msgstr "poiblí"
+
+#: app/snmp_dialog.c:679
+msgid "private"
+msgstr "priobhádach"
+
+#: app/snmp_host.c:69
+msgid "Set A Mib"
+msgstr ""
+
+#: app/snmp_host.c:95 app/snmp_host.c:240
+msgid "Query"
+msgstr ""
+
+#: app/snmp_host.c:193
+msgid "Get A Mib"
+msgstr ""
+
+#: app/snmp_host.c:207
+msgid "Mib "
+msgstr "Mib"
+
+#: app/snmp_host.c:210 app/widgets/menu_panel.c:38
+msgid "Host"
+msgstr "Óst"
+
+#: app/snmp_host.c:244
+msgid "Clear"
+msgstr "Glan"
+
+#: app/widgets/graph_panel.c:37
+msgid "X location"
+msgstr "Áitiúl X"
+
+#: app/widgets/graph_panel.c:38
+msgid "Y location"
+msgstr "Áitiúl Y"
+
+#: app/widgets/graph_panel.c:39 app/widgets/host_panel.c:44
+#: app/widgets/interface_panel.c:45 app/widgets/map_panel.c:39
+#: app/widgets/network_panel.c:38
+msgid "Created"
+msgstr ""
+
+#: app/widgets/graph_panel.c:40 app/widgets/host_panel.c:45
+#: app/widgets/interface_panel.c:46 app/widgets/map_panel.c:40
+#: app/widgets/network_panel.c:39
+msgid "Modified"
+msgstr ""
+
+#: app/widgets/graph_panel.c:48
+msgid "The X location on the specified map"
+msgstr ""
+
+#: app/widgets/graph_panel.c:49
+msgid "The Y location on the specified map"
+msgstr ""
+
+#: app/widgets/graph_panel.c:50
+msgid "Date and time this host was added to this map."
+msgstr ""
+
+#: app/widgets/graph_panel.c:51
+msgid "Date and time this host map entry was changed in the database."
+msgstr ""
+
+#: app/widgets/graph_panel.c:165
+msgid "Choose a Pixmap"
+msgstr "Tóg pixmap"
+
+#: app/widgets/host_panel.c:40
+msgid "Host Name"
+msgstr "Óstainm"
+
+#: app/widgets/host_panel.c:53
+msgid "The name to display under the map icon."
+msgstr ""
+
+#: app/widgets/host_panel.c:54
+msgid "The DNS name to use when accessing the primary interface on this node."
+msgstr ""
+
+#: app/widgets/host_panel.c:55
+msgid "Your description of the host."
+msgstr ""
+
+#: app/widgets/host_panel.c:56
+msgid "Your contact information for the host."
+msgstr ""
+
+#: app/widgets/host_panel.c:57
+msgid "Date and time this host was added to the database."
+msgstr ""
+
+#: app/widgets/host_panel.c:58
+msgid "Date and time this host was modified in the database."
+msgstr ""
+
+#: app/widgets/interface_panel.c:43 app/widgets/network_panel.c:33
+msgid "Address"
+msgstr "Seoladh"
+
+#: app/widgets/interface_panel.c:44 app/widgets/route_panel.c:34
+msgid "Netmask"
+msgstr ""
+
+#: app/widgets/interface_panel.c:54
+msgid "Name assigned to this interface, e.g. 'eth0'"
+msgstr ""
+
+#: app/widgets/interface_panel.c:55
+msgid "Transport type used by this interface"
+msgstr ""
+
+#: app/widgets/interface_panel.c:56
+msgid "The network address of the interface"
+msgstr ""
+
+#: app/widgets/interface_panel.c:57
+msgid "The netmask used by the interface"
+msgstr ""
+
+#: app/widgets/interface_panel.c:58
+msgid "Date and time this interface was added to the database."
+msgstr ""
+
+#: app/widgets/interface_panel.c:59
+msgid "Date and time this interface was modified in the database."
+msgstr ""
+
+#: app/widgets/interface_panel.c:74
+msgid "Netmask:"
+msgstr ""
+
+#: app/widgets/interface_panel.c:77
+msgid "(n/a)"
+msgstr "(n/a)"
+
+#: app/widgets/interface_panel.c:80
+msgid "Prefixlen:"
+msgstr ""
+
+#: app/widgets/interface_panel.c:86
+msgid "The netmask used by the interface, e.g. '255.255.255.0'"
+msgstr ""
+
+#: app/widgets/interface_panel.c:89
+msgid "IPX has fixed network lenghts. No configuration possible."
+msgstr ""
+
+#: app/widgets/interface_panel.c:92
+msgid "The prefix length used by the interface, e.g. '96'"
+msgstr ""
+
+#: app/widgets/interface_panel.c:98
+msgid "The network address of the interface, e.g. '192.168.1.1'"
+msgstr ""
+
+#: app/widgets/interface_panel.c:101
+msgid "The network address of the interface, e.g. '01:02:03:04:05:06.1'"
+msgstr ""
+
+#: app/widgets/interface_panel.c:104
+msgid "The network address of the interface, e.g. 'fcc0:1:2:a::1'"
+msgstr ""
+
+#: app/widgets/map_panel.c:38
+msgid "Tab"
+msgstr ""
+
+#: app/widgets/map_panel.c:41
+msgid "Display"
+msgstr "Taispeán"
+
+#: app/widgets/map_panel.c:45
+msgid "Your description of this map."
+msgstr ""
+
+#: app/widgets/map_panel.c:46
+msgid ""
+"A short descriptive tag that will be displayed on the notebook tab for this "
+"map."
+msgstr ""
+
+#: app/widgets/map_panel.c:48 app/widgets/network_panel.c:49
+msgid "Date and time this network was added to the database."
+msgstr ""
+
+#: app/widgets/map_panel.c:49 app/widgets/network_panel.c:50
+msgid "Date and time this network was modified in the database."
+msgstr ""
+
+#: app/widgets/map_panel.c:50
+msgid ""
+"Check this item if the map should be displayed in the notebook tabs of the "
+"main window."
+msgstr ""
+
+#: app/widgets/menu_panel.c:39
+msgid "Network"
+msgstr "Greasán"
+
+#: app/widgets/menu_panel.c:43
+msgid "Menu Entry"
+msgstr ""
+
+#: app/widgets/menu_panel.c:44
+msgid "Command"
+msgstr "Ordú"
+
+#: app/widgets/network_panel.c:34
+msgid "Mask"
+msgstr ""
+
+#: app/widgets/network_panel.c:35
+msgid "Speed"
+msgstr "Luas"
+
+#: app/widgets/network_panel.c:43
+msgid "The name of the network to display under the map icon."
+msgstr ""
+
+#: app/widgets/network_panel.c:44
+msgid "The network address of this network."
+msgstr ""
+
+#: app/widgets/network_panel.c:45
+msgid "The network mask, if applicable, for this network."
+msgstr ""
+
+#: app/widgets/network_panel.c:46
+msgid "The speed, in KBytes per second, of this network."
+msgstr ""
+
+#: app/widgets/network_panel.c:47
+msgid "Your discription of this network."
+msgstr ""
+
+#: app/widgets/network_panel.c:48
+msgid "Your contact information for this network."
+msgstr ""
+
+#: app/widgets/route_panel.c:32
+msgid "Protocol"
+msgstr ""
+
+#: app/widgets/route_panel.c:33
+msgid "Destination"
+msgstr ""
+
+#: app/widgets/route_panel.c:35
+msgid "Gateway"
+msgstr ""
+
+#: app/widgets/route_panel.c:36
+msgid "Interface"
+msgstr ""
+
+#: app/widgets/route_panel.c:37
+msgid "Metric"
+msgstr ""
+
+#: app/widgets/route_panel.c:38
+msgid "Route Age"
+msgstr ""
+
+#: app/widgets/route_panel.c:39
+msgid "Type"
+msgstr "Saghas"
+
+#: app/widgets/snmp_panel.c:43
+msgid "Read Community"
+msgstr ""
+
+#: app/widgets/snmp_panel.c:44
+msgid "Write Community"
+msgstr ""
+
+#: app/widgets/snmp_panel.c:45
+msgid "Version"
+msgstr "Leagan"
+
+#: app/widgets/snmp_panel.c:46 app/widgets/sql_panel.c:44
+msgid "Port"
+msgstr ""
+
+#: app/widgets/snmp_panel.c:47
+msgid "Timeout"
+msgstr ""
+
+#: app/widgets/snmp_panel.c:48
+msgid "Retries"
+msgstr ""
+
+#: app/widgets/sql_panel.c:43
+msgid "Server"
+msgstr "Freastalaí"
+
+#: app/widgets/sql_panel.c:45
+msgid "User"
+msgstr "Úsáideoir"
+
+#: app/widgets/sql_panel.c:46
+msgid "Password"
+msgstr "Pasfhocal"
+
+#: app/widgets/sql_panel.c:51
+msgid "The hostname or ip address of the database server."
+msgstr ""
+
+#: app/widgets/sql_panel.c:52
+msgid ""
+"The port that should be used when connecting to a remote server, this is not "
+"used for the localhost server."
+msgstr ""
+
+#: app/widgets/sql_panel.c:54
+msgid "The user name to use when accessing the database."
+msgstr ""
+
+#: app/widgets/sql_panel.c:55
+msgid ""
+"The password to use when accessing the database, if left blank you will be "
+"prompted for it."
+msgstr ""
+
+#: app/widgets/sql_panel.c:57
+msgid "The database that holds all the tables."
+msgstr ""
+
+#: app/widgets/summary_dialog.c:38
+msgid "Known Hosts"
+msgstr ""
+
+#: app/widgets/summary_dialog.c:39
+msgid "Known Networks"
+msgstr ""
+
+#: app/widgets/summary_dialog.c:40
+msgid "Outstanding Alarms"
+msgstr ""
+
+#: app/widgets/summary_dialog.c:41
+msgid "Pending events"
+msgstr ""
+
+#: app/widgets/summary_dialog.c:42
+msgid "Pending Tasks"
+msgstr ""
+
+#: app/widgets/summary_dialog.c:45
+msgid "GXSNMP Status Summary"
+msgstr ""
+
+#.
+#. **  The title label
+#.
+#: plugins/keepalive/keepalive_dialog.c:133
+msgid "Interface Keepalive Status Monitor"
+msgstr ""
+
+#.
+#. **  The title label
+#.
+#: plugins/route_table/route_dialog.c:124
+msgid "Node route table"
+msgstr ""
+
+#: plugins/route_table/route_table.c:170
+msgid ""
+"The selected host has no interfaces defined on it,\n"
+"there must be at least one defined to load the route\n"
+"table from.\n"
+"\n"
+"The route table can not be loaded.\n"
+msgstr ""
+
+#: plugins/route_table/route_table.c:183
+msgid ""
+"The selected host has interfaces defined, but\n"
+"there appears to be a problem with the SNMP\n"
+"configuration for the interface.\n"
+"\n"
+"The route table can not be loaded.\n"
+msgstr ""
+
+#: plugins/route_table/route_table.c:222
+msgid ""
+"No interfaces on the selected host.\n"
+"\n"
+"Route Table will not be loaded.\n"
+msgstr ""
+
+#: plugins/route_table/route_table.c:228
+msgid ""
+"Interface defined but no snmp configuration found.\n"
+"\n"
+"Route table will not be loaded."
+msgstr ""
+
+#: plugins/route_table/route_table.c:234
+msgid ""
+"There was no address associated with this interface.\n"
+"An address must be specified in order to load the\n"
+"route table from the host.\n"
+"\n"
+"Route table will not be loaded."
+msgstr ""

@@ -1,0 +1,19 @@
+Source: gaeilge
+Section: misc 
+Priority: optional
+Maintainer: Alastair McKinstry <mckinstry@computer.org>
+Build-Depends: debhelper (>> 3.0.0)
+Standards-Version: 3.5.2
+
+Package: gaeilge
+Architecture: any
+Recommends: language-env
+Description: Development snapshot of Irish translations
+ WARNING: This is not an official Debian package!
+ .
+ This is a snapshot of the current Irish translations. These translations
+ should be entered into their main packages for distribution. This package
+ is just a convenience for translators to easily install the latest versions.
+ .
+ These translations are visible if you use the locale:
+ LC_ALL=ga_IE.ISO-8859-15

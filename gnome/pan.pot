@@ -1,0 +1,4606 @@
+#  Irish language translation of pan
+# Copyright (C) 2000 Free Software Foundation, Inc.
+# Alastair McKinstry <mckinstry@computer.org>, 2000.
+msgid ""
+msgstr ""
+"Project-Id-Version: pan CVS\n"
+"POT-Creation-Date: 2002-02-04 02:21+0100\n"
+"PO-Revision-Date: 000-08-24 20:48+0100\n"
+"Last-Translator: Alastair McKinstry <mckinstry@computer.org>\n"
+"Language-Team: Irish <ga@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ISO_8859-15\n"
+"Content-Transfer-Encoding: 8-bit\n"
+
+#: pan/grouplist.c:108
+msgid " (Moderated)"
+msgstr ""
+
+#: pan/grouplist.c:114
+msgid " (Read-Only)"
+msgstr ""
+
+#: pan/grouplist.c:504 pan/grouplist.c:883
+msgid "All Groups"
+msgstr "Gach Grupaí"
+
+#: pan/grouplist.c:505
+msgid "Subscribed"
+msgstr ""
+
+#: pan/grouplist.c:506 pan/grouplist.c:884
+msgid "New Groups"
+msgstr "Grupaí Nua"
+
+#: pan/grouplist.c:507 pan/grouplist.c:885
+msgid "Folders"
+msgstr "Fillteáin"
+
+#: pan/grouplist.c:618 pan/grouplist.c:653 pan/gui-notebook.c:77
+msgid "Groups"
+msgstr "Grupaí"
+
+#: pan/grouplist.c:619 pan/rules/rule-edit-ui.c:174
+msgid "Unread"
+msgstr ""
+
+#: pan/grouplist.c:620
+msgid "Total"
+msgstr "Iomlán"
+
+#: pan/grouplist.c:621 pan/task-manager.c:856
+msgid "Description"
+msgstr ""
+
+#: pan/grouplist.c:660
+msgid "Find:"
+msgstr "Cuardaigh:"
+
+#: pan/grouplist.c:672
+msgid "Type in a group search string and press ENTER.  Wildcards are allowed."
+msgstr ""
+
+#: pan/grouplist.c:882
+msgid "Subscribed Groups"
+msgstr ""
+
+#: pan/grouplist.c:886
+msgid "Bug in Code"
+msgstr ""
+
+#: pan/grouplist.c:973
+#, c-format
+msgid ""
+"We don't have a group list for server \"%s\".\n"
+"Shall we get one?"
+msgstr ""
+
+#: pan/article-actions.c:128
+msgid "Cancelling article"
+msgstr ""
+
+#: pan/article-actions.c:157
+msgid ""
+"Unable to cancel article: Couldn't find matching article in folder `pan."
+"sent'!"
+msgstr ""
+
+#: pan/article-actions.c:191
+msgid ""
+"Unable to supersede article: Couldn't find matching article in folder `pan."
+"sent'!"
+msgstr ""
+
+#. log
+#: pan/article-actions.c:579
+#, c-format
+msgid "Deleted %u articles from `%s'"
+msgstr ""
+
+#: pan/article-find.c:290
+#, fuzzy
+msgid "Pan: Find Message"
+msgstr "Cuardaigh Scéal"
+
+#. set the subject of the new message
+#: pan/article-find.c:298 pan/message-window.c:995
+msgid "Subject:"
+msgstr "Abair:"
+
+#: pan/article-find.c:317
+msgid "Author:"
+msgstr "Údar:"
+
+#: pan/article-find.c:337
+msgid "Unread Only"
+msgstr ""
+
+#: pan/article-find.c:350
+msgid "Case Sensitive"
+msgstr ""
+
+#: pan/article-filter-ui.c:170
+msgid ""
+"Addresses and Subjects can be changed before being added\n"
+"to the Spam/Bozo filters.\n"
+"\n"
+"For example, a subject of `-->MAKE MONEY FAST<--' will\n"
+"likey find more spam if shortened to just `MAKE MONEY FAST'.\n"
+"\n"
+"Likewise, \"Dudley Dursley\" <ddursley@spambot.com>' could\n"
+"be shortened to `<ddurseley@spambot.com>' or even `<*@spambot.com>'.\n"
+"\n"
+"Wildcards are supported and comparisons are case-insensitive.\n"
+"For more complex pattern matching, enable the regular expression\n"
+"button.  http://pan.rebelbase.com/regexp.txt for a tutorial.\n"
+msgstr ""
+
+#: pan/article-filter-ui.c:210
+msgid "Pan: Filter Out Articles"
+msgstr ""
+
+#. bozo author
+#: pan/article-filter-ui.c:227
+msgid "Add Author to Bozo Filter"
+msgstr ""
+
+#: pan/article-filter-ui.c:236 pan/article-filter-ui.c:252
+#: pan/article-filter-ui.c:270
+msgid "regexp"
+msgstr ""
+
+#. spam author
+#: pan/article-filter-ui.c:243
+msgid "Add Author to Spam Filter"
+msgstr ""
+
+#. spam subject
+#: pan/article-filter-ui.c:259
+msgid "Add Subject to Spam Filter"
+msgstr ""
+
+#: pan/article-toolbar.c:122
+msgid "On the Fly"
+msgstr ""
+
+#. add the "no custom filter" radio button
+#: pan/article-toolbar.c:503
+msgid "No Custom Filter"
+msgstr ""
+
+#. add "edit on-the-fly"
+#: pan/article-toolbar.c:532
+#, c-format
+msgid "Edit \"%s\" Filter"
+msgstr ""
+
+#. add "edit filters"
+#: pan/article-toolbar.c:540
+msgid "Edit Other Filters..."
+msgstr ""
+
+#. *
+#. ***  What to show when there's a match
+#. *
+#: pan/article-toolbar.c:659
+msgid "Which Articles to Show"
+msgstr ""
+
+#: pan/article-toolbar.c:667
+msgid "Show Matching Articles"
+msgstr ""
+
+#: pan/article-toolbar.c:675
+msgid "Show Matching Articles and Replies"
+msgstr ""
+
+#: pan/article-toolbar.c:684
+msgid "Show Matching Articles and References"
+msgstr ""
+
+#: pan/article-toolbar.c:693
+msgid "Show Threads with Matching Articles"
+msgstr ""
+
+#. user-defined filters
+#: pan/article-toolbar.c:705
+msgid "Custom Filters"
+msgstr ""
+
+#. built-in filters
+#: pan/article-toolbar.c:710
+msgid "Show New Articles"
+msgstr ""
+
+#: pan/article-toolbar.c:713
+msgid "Show Old Articles"
+msgstr ""
+
+#: pan/article-toolbar.c:717
+msgid "Show Unread Articles"
+msgstr ""
+
+#: pan/article-toolbar.c:720
+msgid "Show Read Articles"
+msgstr ""
+
+#: pan/article-toolbar.c:724
+msgid "Show Complete Binary Articles"
+msgstr ""
+
+#: pan/article-toolbar.c:727
+msgid "Show Incomplete Binary Articles"
+msgstr ""
+
+#: pan/article-toolbar.c:730
+msgid "Show Text Articles"
+msgstr ""
+
+#: pan/article-toolbar.c:734
+msgid "Show Saved Articles"
+msgstr ""
+
+#: pan/article-toolbar.c:737
+msgid "Show Queued Articles"
+msgstr ""
+
+#: pan/article-toolbar.c:740
+msgid "Show Articles Neither Queued nor Saved"
+msgstr ""
+
+#: pan/article-toolbar.c:744
+msgid "Show Articles which are Cached Locally"
+msgstr ""
+
+#: pan/article-toolbar.c:747
+msgid "Show Articles which are not Cached Locally"
+msgstr ""
+
+#: pan/article-toolbar.c:751
+msgid "Show Articles posted by Me"
+msgstr ""
+
+#: pan/article-toolbar.c:754
+msgid "Show Articles posted by Others"
+msgstr ""
+
+#: pan/article-toolbar.c:758
+msgid "Show Watched Threads"
+msgstr ""
+
+#: pan/article-toolbar.c:761
+msgid "Show Ignored Threads"
+msgstr ""
+
+#: pan/article-toolbar.c:764
+msgid "Show Threads Neither Watched nor Ignored"
+msgstr ""
+
+#. clist
+#: pan/article-toolbar.c:771 pan/filter-ui.c:373 pan/rules/rule-edit-ui.c:861
+#, fuzzy
+msgid "Filters"
+msgstr "Fillteáin"
+
+#: pan/article-toolbar.c:874 pan/articlelist.c:889 pan/filter-edit-ui.c:751
+#: pan/prefs.c:1839 pan/task-save.c:647
+msgid "Subject"
+msgstr "Abair"
+
+#: pan/article-toolbar.c:875 pan/articlelist.c:891 pan/filter-edit-ui.c:756
+#: pan/prefs.c:1831 pan/task-save.c:649
+msgid "Author"
+msgstr "Údar"
+
+#: pan/article-toolbar.c:876 pan/filter-edit-ui.c:761
+#, fuzzy
+msgid "Message-ID"
+msgstr "Scéal"
+
+#: pan/article-toolbar.c:900
+msgid ""
+"Type in a search string and press ENTER. Wildcards are allowed; see http://"
+"pan.rebelbase.com/wildmat.html for more information."
+msgstr ""
+
+#: pan/articlelist.c:890 pan/task-save.c:648
+msgid "Lines"
+msgstr ""
+
+#: pan/articlelist.c:892 pan/prefs.c:1832 pan/task-save.c:650
+msgid "Date"
+msgstr "Data"
+
+#: pan/articlelist.c:897
+msgid "BUG!!"
+msgstr ""
+
+#: pan/articlelist.c:1448
+msgid "Please Select a Folder from the Group list."
+msgstr ""
+
+#: pan/articlelist.c:3087
+msgid "_Mark as Read"
+msgstr ""
+
+#: pan/articlelist.c:3088
+msgid "Mark Selected Articles as Read"
+msgstr ""
+
+#: pan/articlelist.c:3091
+msgid "Mark _Threads as Read"
+msgstr ""
+
+#: pan/articlelist.c:3092
+msgid "Mark Threads as Read"
+msgstr ""
+
+#: pan/articlelist.c:3095
+msgid "Mark as _Unread"
+msgstr ""
+
+#: pan/articlelist.c:3096
+msgid "Mark as Unread"
+msgstr ""
+
+#: pan/articlelist.c:3098
+msgid "Mark Threads as U_nread"
+msgstr ""
+
+#: pan/articlelist.c:3099
+msgid "Mark Threads as Unread"
+msgstr ""
+
+#: pan/articlelist.c:3102 pan/articlelist.c:3205
+msgid "D_ownload Flagged"
+msgstr ""
+
+#: pan/articlelist.c:3103 pan/articlelist.c:3206
+msgid "Download Flagged Articles"
+msgstr ""
+
+#: pan/articlelist.c:3107 pan/articlelist.c:3210
+msgid "_Flag"
+msgstr ""
+
+#: pan/articlelist.c:3108 pan/articlelist.c:3211
+msgid "Flag Selected Articles"
+msgstr ""
+
+#: pan/articlelist.c:3111 pan/articlelist.c:3214
+msgid "Flag T_hreads"
+msgstr ""
+
+#: pan/articlelist.c:3112 pan/articlelist.c:3215
+msgid "Flag Selected Threads"
+msgstr ""
+
+#: pan/articlelist.c:3115 pan/articlelist.c:3218
+msgid "Unflag"
+msgstr ""
+
+#: pan/articlelist.c:3116 pan/articlelist.c:3219
+msgid "Unf_lag Selected Articles"
+msgstr ""
+
+#: pan/articlelist.c:3119 pan/articlelist.c:3222
+msgid "Unflag Thr_eads"
+msgstr ""
+
+#: pan/articlelist.c:3120 pan/articlelist.c:3223
+msgid "Unflag Selected Threads"
+msgstr ""
+
+#: pan/articlelist.c:3124 pan/dialogs/dialog-headers.c:166
+msgid "Download"
+msgstr ""
+
+#: pan/articlelist.c:3125
+msgid "Download Selected Articles"
+msgstr ""
+
+#: pan/articlelist.c:3127
+msgid "Download Threads"
+msgstr ""
+
+#: pan/articlelist.c:3128
+msgid "Download Selected Threads"
+msgstr ""
+
+#: pan/articlelist.c:3132
+msgid "_Watch Threads"
+msgstr ""
+
+#: pan/articlelist.c:3133
+msgid "Watch Selected Threads"
+msgstr ""
+
+#: pan/articlelist.c:3136
+msgid "_Ignore Threads"
+msgstr ""
+
+#: pan/articlelist.c:3137
+msgid "Ignore Selected Threads"
+msgstr ""
+
+#: pan/articlelist.c:3140
+msgid "Add to Bo_zo or Spam Filter"
+msgstr ""
+
+#: pan/articlelist.c:3141
+msgid "Add to Bozo or Spam Filter"
+msgstr ""
+
+#: pan/articlelist.c:3145
+msgid "Cop_y to Folder"
+msgstr ""
+
+#: pan/articlelist.c:3146
+msgid "Copy to Folder"
+msgstr ""
+
+#: pan/articlelist.c:3149
+msgid "Co_py Threads to Folder"
+msgstr ""
+
+#: pan/articlelist.c:3150
+msgid "Copy Threads to Folder"
+msgstr ""
+
+#: pan/articlelist.c:3153
+msgid "Mo_ve to Folder"
+msgstr ""
+
+#: pan/articlelist.c:3154
+#, fuzzy
+msgid "Move to Folder"
+msgstr "Scríos Fillteán..."
+
+#: pan/articlelist.c:3157 pan/articlelist.c:3158
+msgid "Move Thread to Folder"
+msgstr ""
+
+#: pan/articlelist.c:3162
+msgid "_Cancel..."
+msgstr ""
+
+#: pan/articlelist.c:3163
+msgid "Cancel Selected Article which you Posted"
+msgstr ""
+
+#: pan/articlelist.c:3165
+msgid "_Supersede..."
+msgstr ""
+
+#: pan/articlelist.c:3166
+msgid "Supersede Selected Article which you Posted"
+msgstr ""
+
+#: pan/articlelist.c:3169 pan/articlelist.c:3227
+msgid "_Delete"
+msgstr "_Scríos"
+
+#. delete server button
+#: pan/articlelist.c:3170 pan/articlelist.c:3228 pan/prefs.c:2985
+msgid "Delete"
+msgstr "Scríos"
+
+#: pan/articlelist.c:3173 pan/articlelist.c:3231
+msgid "Delete Th_reads"
+msgstr ""
+
+#: pan/articlelist.c:3174 pan/articlelist.c:3232
+#, fuzzy
+msgid "Delete Threads"
+msgstr "Scríos"
+
+#: pan/articlelist.c:3177 pan/articlelist.c:3235
+#, fuzzy
+msgid "Delete All"
+msgstr "Tóg gach rud"
+
+#: pan/articlelist.c:3178 pan/articlelist.c:3236
+#, fuzzy
+msgid "Delete All Articles"
+msgstr "Tóg Comhad"
+
+#: pan/articlelist.c:3187
+msgid "_Read Article"
+msgstr ""
+
+#: pan/articlelist.c:3188
+#, fuzzy
+msgid "Read the selected article."
+msgstr "Bain as an eolaire tógtha."
+
+#: pan/articlelist.c:3192 pan/gui.c:139
+msgid "Save _Articles"
+msgstr ""
+
+#: pan/articlelist.c:3193 pan/gui.c:140
+msgid "Save the selected articles and their attachments."
+msgstr ""
+
+#: pan/articlelist.c:3196 pan/gui.c:143
+msgid "_Save Articles As..."
+msgstr ""
+
+#: pan/articlelist.c:3197 pan/gui.c:144
+msgid "Dialog to set how you want to save the selected articles"
+msgstr ""
+
+#: pan/articlelist.c:3200 pan/gui.c:147
+msgid "Save Articles (A_ttachments only)"
+msgstr ""
+
+#: pan/articlelist.c:3201 pan/gui.c:148
+msgid "Save the selected articles' attachments."
+msgstr ""
+
+#: pan/articlelist.c:3339
+msgid "Reloading Group"
+msgstr ""
+
+#: pan/articlelist.c:3345
+msgid "Resorting Articles"
+msgstr ""
+
+#: pan/articlelist.c:3356
+msgid "Refiltering Articles"
+msgstr ""
+
+#: pan/articlelist.c:3359
+msgid "Rebuilding Header Pane..."
+msgstr ""
+
+#. create the status-item
+#: pan/articlelist.c:3394
+#, c-format
+msgid "Refreshing Group \"%s\""
+msgstr ""
+
+#. massage them into shape
+#: pan/articlelist.c:3534
+msgid "Sorting Articles"
+msgstr ""
+
+#: pan/articlelist.c:3542
+msgid "Filtering Articles"
+msgstr ""
+
+#: pan/articlelist.c:3547
+msgid "Updating Header Pane..."
+msgstr ""
+
+#. create the status-item
+#: pan/articlelist.c:3571
+#, fuzzy, c-format
+msgid "Loading Group \"%s\""
+msgstr "Ag sábháil %s"
+
+#: pan/group-ui.c:93
+#, c-format
+msgid "Empty %u groups"
+msgstr ""
+
+#: pan/group-ui.c:96
+#, c-format
+msgid "Empty group \"%s\""
+msgstr "Grupa Folamh \\\"%s\\\""
+
+#: pan/group-ui.c:106
+#, c-format
+msgid "Remove all messages from these %u groups?"
+msgstr ""
+
+#: pan/group-ui.c:111
+#, c-format
+msgid "Remove all messages from \"%s\"?"
+msgstr ""
+
+#: pan/group-ui.c:119
+msgid "Reset \"new message\" counters"
+msgstr ""
+
+#: pan/group-ui.c:120
+msgid "Reset \"new message\" counter"
+msgstr ""
+
+#: pan/group-ui.c:156
+#, c-format
+msgid "Invalid folder name: \"%s\""
+msgstr ""
+
+#: pan/group-ui.c:165
+#, c-format
+msgid "Folder \"%s\" already exists."
+msgstr ""
+
+#: pan/group-ui.c:172
+msgid "Please don't begin folders with \"pan.\"; it confuses me terribly."
+msgstr ""
+
+#: pan/group-ui.c:191
+msgid "New Folder Name:"
+msgstr "Ainm Comhadlann Nua:"
+
+#: pan/message-check-ui.c:62
+msgid "Post anyway, despite these problems?"
+msgstr ""
+
+#: pan/message-check-ui.c:63
+msgid "Post anyway, despite this problem?"
+msgstr ""
+
+#: pan/gui-headers.c:117
+msgid "<More>"
+msgstr "<Mór>"
+
+#: pan/gui-headers.c:230
+msgid "From: "
+msgstr "As: "
+
+#: pan/gui-headers.c:237
+msgid "Newsgroups: "
+msgstr ""
+
+#: pan/gui-headers.c:243
+msgid "Message-Id: "
+msgstr ""
+
+#: pan/gui-headers.c:247
+msgid "References: "
+msgstr ""
+
+#: pan/gui-headers.c:251
+msgid "Date: "
+msgstr "Data: "
+
+#: pan/gui-headers.c:258
+msgid "Reply-To: "
+msgstr ""
+
+#: pan/gui-headers.c:269
+msgid "Followup-To: "
+msgstr ""
+
+#: pan/gui-headers.c:282
+msgid "Newsreader:"
+msgstr ""
+
+#: pan/gui-headers.c:290
+msgid "Subject: "
+msgstr "Abair: "
+
+#: pan/gui-notebook.c:78
+msgid "Articles"
+msgstr ""
+
+#: pan/gui-notebook.c:79 pan/message-window.c:1046
+msgid "Message"
+msgstr "Scéal"
+
+#: pan/gui.c:151
+msgid "_Open Attachments..."
+msgstr ""
+
+#: pan/gui.c:152
+msgid "Open Attachment..."
+msgstr ""
+
+#: pan/gui.c:156 pan/gui.c:157
+msgid "_Print Article..."
+msgstr ""
+
+#: pan/gui.c:161
+msgid "_New Folder..."
+msgstr "Comhadlann Nua..."
+
+#: pan/gui.c:162
+msgid "Create a new folder."
+msgstr "Deanamh comhadlann nua."
+
+#: pan/gui.c:165
+msgid "_Delete Folder..."
+msgstr "_Dealaigh Comhadlann..."
+
+#: pan/gui.c:166
+msgid "Delete the selected folder."
+msgstr "Bain as an comhadlann tógtha."
+
+#: pan/gui.c:169
+msgid "_Edit Article in Folder"
+msgstr ""
+
+#: pan/gui.c:170
+msgid "Edit Selected Article in Folder"
+msgstr ""
+
+#: pan/gui.c:247
+msgid "Select all _Groups"
+msgstr "Tóg _Gach Grupaí"
+
+#: pan/gui.c:248
+msgid "Select all Groups in the Group List"
+msgstr ""
+
+#: pan/gui.c:250
+msgid "_Deselect all Groups"
+msgstr ""
+
+#: pan/gui.c:251
+msgid "Deselect all Groups in the Group List"
+msgstr ""
+
+#: pan/gui.c:254
+#, fuzzy
+msgid "Select all Arti_cles"
+msgstr "Tóg Comhad"
+
+#: pan/gui.c:255
+msgid "Select all Articles in the Article List"
+msgstr ""
+
+#: pan/gui.c:257
+msgid "Add R_eplies to Selection"
+msgstr ""
+
+#: pan/gui.c:258
+msgid "Add replies to the Article List selection"
+msgstr ""
+
+#: pan/gui.c:260
+msgid "Add _Threads to Selection"
+msgstr ""
+
+#: pan/gui.c:261
+msgid "Add Thread to the Article List selection"
+msgstr ""
+
+#: pan/gui.c:263
+msgid "Deselect a_ll Articles"
+msgstr ""
+
+#: pan/gui.c:264
+msgid "Deselect all Articles in the Article List"
+msgstr ""
+
+#: pan/gui.c:267 pan/gui.c:268
+#, fuzzy
+msgid "Select Article _Body"
+msgstr "Tóg Comhad"
+
+#: pan/gui.c:274
+msgid "Filter_s..."
+msgstr ""
+
+#: pan/gui.c:275
+msgid "Filter Tool."
+msgstr ""
+
+#: pan/gui.c:278
+msgid "_Rules..."
+msgstr ""
+
+#: pan/gui.c:279
+msgid "Rules Tool."
+msgstr ""
+
+#: pan/gui.c:282
+msgid "Pr_ofiles..."
+msgstr ""
+
+#: pan/gui.c:283
+msgid "Profiles Tool."
+msgstr ""
+
+#: pan/gui.c:286
+msgid "_Online/Offline Settings..."
+msgstr ""
+
+#: pan/gui.c:287
+msgid "Online/Offline Settings..."
+msgstr ""
+
+#: pan/gui.c:296
+msgid "_Post to newsgroup"
+msgstr ""
+
+#: pan/gui.c:297
+msgid "Post a new message to the current group."
+msgstr ""
+
+#: pan/gui.c:300 pan/text.c:104
+msgid "_Follow-Up to newsgroup"
+msgstr ""
+
+#: pan/gui.c:301 pan/text.c:105
+msgid "Post a reply to the message on the news server."
+msgstr ""
+
+#: pan/gui.c:304 pan/text.c:108
+msgid "_Reply by E-mail"
+msgstr ""
+
+#: pan/gui.c:305 pan/text.c:109
+msgid "Create a mail reply to the sender."
+msgstr ""
+
+#: pan/gui.c:308 pan/text.c:112
+msgid "Follow-Up _and Reply"
+msgstr ""
+
+#: pan/gui.c:309 pan/text.c:113
+msgid "Send a reply both to the author in mail, and to the news server."
+msgstr ""
+
+#: pan/gui.c:312 pan/text.c:116
+msgid "For_ward article by E-mail"
+msgstr ""
+
+#: pan/gui.c:313 pan/text.c:117
+msgid "Forward article by E-mail"
+msgstr ""
+
+#: pan/gui.c:316
+msgid "Send Pending _Messages"
+msgstr ""
+
+#: pan/gui.c:317
+msgid "Send Messages Queued in \"pan.sendlater\""
+msgstr ""
+
+#: pan/gui.c:351
+msgid "S_kip Uncached Articles:"
+msgstr ""
+
+#: pan/gui.c:352
+msgid "Skip Uncached Articles:"
+msgstr ""
+
+#: pan/gui.c:360
+msgid "_Load Articles When Selected:"
+msgstr ""
+
+#: pan/gui.c:361
+msgid "Load Articles When Selected:"
+msgstr ""
+
+#: pan/gui.c:367 pan/gui.c:368
+msgid "Space Reading"
+msgstr ""
+
+#: pan/gui.c:371
+msgid "_Next Unread Article"
+msgstr ""
+
+#: pan/gui.c:372
+msgid "Next Unread Article"
+msgstr ""
+
+#: pan/gui.c:375
+msgid "Next _Article"
+msgstr ""
+
+#: pan/gui.c:376
+msgid "Next Article"
+msgstr ""
+
+#: pan/gui.c:379
+msgid "Next Unread _Thread"
+msgstr ""
+
+#: pan/gui.c:380
+msgid "Next Unread Thread"
+msgstr ""
+
+#: pan/gui.c:383
+msgid "Next Threa_d"
+msgstr ""
+
+#: pan/gui.c:384
+msgid "Next Thread"
+msgstr ""
+
+#: pan/gui.c:387
+msgid "Pre_vious Article"
+msgstr ""
+
+#: pan/gui.c:388
+msgid "Previous Article"
+msgstr ""
+
+#: pan/gui.c:391
+msgid "Previo_us Thread"
+msgstr ""
+
+#: pan/gui.c:392
+msgid "Previous Thread"
+msgstr ""
+
+#: pan/gui.c:395
+msgid "_Parent Article"
+msgstr ""
+
+#: pan/gui.c:396
+msgid "Parent Article"
+msgstr ""
+
+#: pan/gui.c:399
+msgid "T_op of Thread"
+msgstr ""
+
+#: pan/gui.c:400
+msgid "Top of Thread"
+msgstr ""
+
+#: pan/gui.c:404
+msgid "Next Unread _Group"
+msgstr ""
+
+#: pan/gui.c:405
+msgid "Move to the Next Group with Unread Messages."
+msgstr ""
+
+#: pan/gui.c:408
+#, fuzzy
+msgid "Next G_roup"
+msgstr "Grupaí Nua"
+
+#: pan/gui.c:409
+msgid "Move to the Next Group."
+msgstr ""
+
+#: pan/gui.c:420
+msgid "Get List of _All Groups"
+msgstr ""
+
+#: pan/gui.c:421
+msgid "Refresh a list of groups from the selected servers."
+msgstr ""
+
+#: pan/gui.c:424
+msgid "Get List of _New Groups"
+msgstr ""
+
+#: pan/gui.c:425
+msgid "Download a list of new groups from the selected servers."
+msgstr ""
+
+#: pan/gui.c:429
+msgid "_Import .newsrc..."
+msgstr ""
+
+#: pan/gui.c:430
+msgid "Import .newsrc..."
+msgstr ""
+
+#: pan/gui.c:433
+msgid "_Export .newsrc..."
+msgstr ""
+
+#: pan/gui.c:434
+msgid "Export .newsrc..."
+msgstr ""
+
+#: pan/gui.c:500
+msgid "Pan _Homepage..."
+msgstr ""
+
+#: pan/gui.c:501
+msgid "Pan _Homepage"
+msgstr ""
+
+#: pan/gui.c:504
+msgid "Online Users _Manual..."
+msgstr ""
+
+#: pan/gui.c:505
+msgid "Online Users _Manual"
+msgstr ""
+
+#: pan/gui.c:509
+msgid "_Feedback..."
+msgstr ""
+
+#: pan/gui.c:510
+msgid "Mail Feedback to the Pan Authors"
+msgstr ""
+
+#: pan/gui.c:513
+msgid "Report a _Bug..."
+msgstr ""
+
+#: pan/gui.c:514
+msgid "Submit a Pan Bug Report to the GNOME Bug Tracker"
+msgstr ""
+
+#: pan/gui.c:642
+msgid "_Task Manager..."
+msgstr ""
+
+#: pan/gui.c:643 pan/gui.c:1078
+msgid "Open the Task Manager"
+msgstr ""
+
+#: pan/gui.c:646
+msgid "Lo_g Viewer..."
+msgstr ""
+
+#: pan/gui.c:647
+msgid "Open the Log Viewer"
+msgstr ""
+
+#: pan/gui.c:651
+msgid "View Pa_nes as Tabs"
+msgstr ""
+
+#: pan/gui.c:652
+msgid "Zoom/Unzoom"
+msgstr ""
+
+#: pan/gui.c:657
+#, fuzzy
+msgid "_View Group Tab"
+msgstr "Grupaí Nua"
+
+#: pan/gui.c:658
+#, fuzzy
+msgid "View Group Tab"
+msgstr "Grupaí Nua"
+
+#: pan/gui.c:666
+msgid "View Header Ta_b"
+msgstr ""
+
+#: pan/gui.c:667
+msgid "View Header Tab"
+msgstr ""
+
+#: pan/gui.c:675
+msgid "View _Article Tab"
+msgstr ""
+
+#: pan/gui.c:676
+msgid "View Article Tab"
+msgstr ""
+
+#: pan/gui.c:685
+msgid "Sho_w Group Pane"
+msgstr ""
+
+#: pan/gui.c:686
+msgid "Show Group Pane"
+msgstr ""
+
+#: pan/gui.c:694
+msgid "Show Hea_der Pane"
+msgstr ""
+
+#: pan/gui.c:695
+msgid "Show Header Pane"
+msgstr ""
+
+#: pan/gui.c:703
+msgid "Show Art_icle Pane"
+msgstr ""
+
+#: pan/gui.c:704
+msgid "Show Article Pane"
+msgstr ""
+
+#: pan/gui.c:713
+msgid "Collapse Names in Gro_up Pane"
+msgstr ""
+
+#: pan/gui.c:714
+msgid "Collapse Names in Group Pane"
+msgstr ""
+
+#: pan/gui.c:722
+msgid "Thr_ead/Unthread Header Pane"
+msgstr ""
+
+#: pan/gui.c:723
+msgid "Thread/Unthread Header Pane"
+msgstr ""
+
+#: pan/gui.c:731
+msgid "_Rot13 Article Body"
+msgstr ""
+
+#: pan/gui.c:732
+msgid "Rot13 Article Body"
+msgstr ""
+
+#: pan/gui.c:740
+#, fuzzy
+msgid "Fil_l/Wrap Article Body"
+msgstr "Tóg Comhad"
+
+#: pan/gui.c:741
+msgid "Fill/Wrap Article Body"
+msgstr ""
+
+#: pan/gui.c:749
+msgid "Mute _Quoted Text"
+msgstr ""
+
+#: pan/gui.c:750
+msgid "Mute Quoted Text"
+msgstr ""
+
+#: pan/gui.c:758
+msgid "Show All _Headers in Article Pane"
+msgstr ""
+
+#: pan/gui.c:759
+msgid "Show All Headers in Article Pane"
+msgstr ""
+
+#: pan/gui.c:767
+msgid "Use Monospa_ce Font in Article Pane"
+msgstr ""
+
+#: pan/gui.c:768
+msgid "Use Monospace Font in Article Pane"
+msgstr ""
+
+#. 19
+#: pan/gui.c:775
+msgid "E_xpand Selected Threads"
+msgstr ""
+
+#: pan/gui.c:776
+msgid "Expand Selected Threads"
+msgstr ""
+
+#: pan/gui.c:778
+msgid "Expand all Thread_s"
+msgstr ""
+
+#: pan/gui.c:779
+msgid "Expand all Threads"
+msgstr ""
+
+#: pan/gui.c:781
+msgid "C_ollapse Selected Threads"
+msgstr ""
+
+#: pan/gui.c:782
+msgid "Collapse Selected Threads"
+msgstr ""
+
+#: pan/gui.c:784
+msgid "Colla_pse all Threads"
+msgstr ""
+
+#: pan/gui.c:785
+msgid "Collapse all Threads"
+msgstr ""
+
+#: pan/gui.c:808
+msgid "_Mark Group as Read"
+msgstr ""
+
+#: pan/gui.c:809
+msgid "Mark All Articles in Selected Groups as Read"
+msgstr ""
+
+#: pan/gui.c:815
+msgid "Get Bodies along _with Articles:"
+msgstr ""
+
+#: pan/gui.c:816
+msgid "Get Bodies along with Articles"
+msgstr ""
+
+#: pan/gui.c:822
+#, fuzzy
+msgid "Get _New Articles"
+msgstr "Tóg Comhad"
+
+#: pan/gui.c:823
+#, fuzzy
+msgid "Get New Articles"
+msgstr "Tóg Comhad"
+
+#: pan/gui.c:826
+#, fuzzy
+msgid "Get A_ll Articles"
+msgstr "Tóg Comhad"
+
+#: pan/gui.c:827
+#, fuzzy
+msgid "Get All Articles"
+msgstr "Tóg Comhad"
+
+#: pan/gui.c:830
+msgid "Get New Articles in all Su_bscribed Groups"
+msgstr ""
+
+#: pan/gui.c:831
+msgid "Get New Articles in all Subscribed Groups"
+msgstr ""
+
+#: pan/gui.c:834
+msgid "_Download Articles.."
+msgstr ""
+
+#: pan/gui.c:835
+#, fuzzy
+msgid "Specify and Download Articles"
+msgstr "Tóg Comhad"
+
+#: pan/gui.c:840
+msgid "Refresh Article _Counts"
+msgstr ""
+
+#: pan/gui.c:841
+msgid "Refresh Article Counts"
+msgstr ""
+
+#: pan/gui.c:845
+msgid "_Subscribe"
+msgstr ""
+
+#: pan/gui.c:846
+msgid "Subscribe"
+msgstr ""
+
+#: pan/gui.c:849
+msgid "_Unsubscribe"
+msgstr ""
+
+#: pan/gui.c:850
+msgid "Unsubscribe"
+msgstr ""
+
+#: pan/gui.c:854
+msgid "_Properties..."
+msgstr ""
+
+#: pan/gui.c:855
+msgid "Set the properties for the selected group."
+msgstr ""
+
+#: pan/gui.c:859
+#, fuzzy
+msgid "_Empty..."
+msgstr "Eagar..."
+
+#: pan/gui.c:860
+msgid "Remove all Articles from Selected Groups"
+msgstr ""
+
+#: pan/gui.c:863
+msgid "Dele_te"
+msgstr "_Dealaigh"
+
+#: pan/gui.c:864
+msgid "Delete the selected group(s) from Pan."
+msgstr ""
+
+#: pan/gui.c:877
+msgid "_View"
+msgstr "_Radharc"
+
+#. insert the menus
+#: pan/gui.c:878 pan/server-ui.c:180
+msgid "_Servers"
+msgstr ""
+
+#: pan/gui.c:879
+msgid "_Groups"
+msgstr "_Grupaí"
+
+#: pan/gui.c:880
+msgid "_Articles"
+msgstr ""
+
+#: pan/gui.c:881
+msgid "_Navigate"
+msgstr ""
+
+#: pan/gui.c:882
+msgid "_Post"
+msgstr "_Post"
+
+#: pan/gui.c:1066
+msgid "Open the Connection Manager"
+msgstr ""
+
+#: pan/gui.c:1103
+msgid "Open the Status Log"
+msgstr ""
+
+#: pan/gui.c:1133
+msgid ""
+"1 task still active or queued.\n"
+"Are you sure you want to exit Pan?"
+msgstr ""
+
+#: pan/gui.c:1139
+#, c-format
+msgid ""
+"%d tasks still active or queued.\n"
+"Are you sure you want to exit Pan?"
+msgstr ""
+
+#: pan/gui.c:1504
+#, c-format
+msgid "Unable to parse the geometry string \"%s\""
+msgstr ""
+
+#: pan/gui.c:1918
+#, c-format
+msgid "%d @ %.1f KB/s"
+msgstr ""
+
+#: pan/gui.c:1919
+#, c-format
+msgid "%d connections at %.1f KB per second"
+msgstr ""
+
+#: pan/gui.c:1923 pan/task-manager.c:437
+msgid "Connecting"
+msgstr ""
+
+#: pan/gui.c:1924
+msgid "Connecting to a Remote News Server to Execute a Task"
+msgstr ""
+
+#: pan/gui.c:1928 pan/task-manager.c:445
+msgid "Offline"
+msgstr ""
+
+#: pan/gui.c:1929
+msgid "No Connections"
+msgstr ""
+
+#: pan/gui.c:1960
+#, c-format
+msgid "News server connection count: %d"
+msgstr ""
+
+#: pan/gui.c:2023
+msgid "No Tasks"
+msgstr ""
+
+#: pan/gui.c:2024
+msgid "The Task Manager is Empty"
+msgstr ""
+
+#: pan/gui.c:2027
+#, c-format
+msgid "Tasks: %u/%u"
+msgstr ""
+
+#: pan/gui.c:2028
+#, c-format
+msgid "%u Tasks Running, %u Tasks Total"
+msgstr ""
+
+#: pan/gui.c:2163
+#, c-format
+msgid "Couldn't load font \"%s\""
+msgstr ""
+
+#: pan/group-action.c:274
+#, c-format
+msgid ""
+"Are you sure you want to delete these %d groups/folders and their articles?"
+msgstr ""
+
+#: pan/filter-edit-ui.c:180 pan/rules/rule-edit-ui.c:406
+msgid "  (No conditions -- no articles will match"
+msgstr ""
+
+#: pan/filter-edit-ui.c:182 pan/rules/rule-edit-ui.c:408
+msgid "  (No conditions -- all articles will match)"
+msgstr ""
+
+#. dialog
+#: pan/filter-edit-ui.c:658
+msgid "Pan: Edit Filter"
+msgstr ""
+
+#: pan/filter-edit-ui.c:671
+#, fuzzy
+msgid "Filter Name: "
+msgstr "Ainm Comhad:"
+
+#: pan/filter-edit-ui.c:678
+msgid "Show in Filter Menu"
+msgstr ""
+
+#: pan/filter-edit-ui.c:699
+msgid "Move Up"
+msgstr ""
+
+#: pan/filter-edit-ui.c:702
+msgid "Move the selected line up one line"
+msgstr ""
+
+#: pan/filter-edit-ui.c:703
+msgid "Move Down"
+msgstr ""
+
+#: pan/filter-edit-ui.c:706
+msgid "Move the selected line down one line"
+msgstr ""
+
+#: pan/filter-edit-ui.c:707
+#, fuzzy
+msgid "Negate"
+msgstr "Ainm"
+
+#: pan/filter-edit-ui.c:710
+msgid "Negate the selected line"
+msgstr ""
+
+#: pan/filter-edit-ui.c:711
+msgid "AND"
+msgstr "AGUS"
+
+#: pan/filter-edit-ui.c:714
+msgid "OR"
+msgstr "NÓ"
+
+#: pan/filter-edit-ui.c:717
+msgid "Delete Line"
+msgstr "Dealaigh Líne"
+
+#: pan/filter-edit-ui.c:720
+msgid "Delete the selected line"
+msgstr ""
+
+#: pan/filter-edit-ui.c:728
+msgid "Add new Line to Filter"
+msgstr ""
+
+#. hoo-boy, the conditions
+#: pan/filter-edit-ui.c:732
+msgid "New Filter Line"
+msgstr ""
+
+#: pan/filter-edit-ui.c:744
+msgid "_Article"
+msgstr ""
+
+#: pan/filter-edit-ui.c:767
+msgid "contains the phrase"
+msgstr ""
+
+#: pan/filter-edit-ui.c:772
+msgid "Regular Expression"
+msgstr ""
+
+#: pan/filter-edit-ui.c:773
+msgid ""
+"See http://pan.rebelbase.com/regexp.txt for a tutorial on how to use regular "
+"expressions.  If regular expressions are turned off, a simple case-"
+"insensitive wildcard match is used."
+msgstr ""
+
+#: pan/filter-edit-ui.c:777
+#, c-format
+msgid "(%s for user-specified text)"
+msgstr ""
+
+#: pan/filter-edit-ui.c:785
+msgid "Article has been"
+msgstr ""
+
+#: pan/filter-edit-ui.c:791
+#, fuzzy
+msgid "Saved"
+msgstr "Sábháil"
+
+#: pan/filter-edit-ui.c:796
+msgid "Queued for Saving"
+msgstr ""
+
+#: pan/filter-edit-ui.c:801
+msgid "Neither Saved nor Queued"
+msgstr ""
+
+#: pan/filter-edit-ui.c:812
+msgid "Article _thread is"
+msgstr ""
+
+#: pan/filter-edit-ui.c:818
+msgid "Watched"
+msgstr ""
+
+#: pan/filter-edit-ui.c:823
+msgid "Ignored"
+msgstr ""
+
+#: pan/filter-edit-ui.c:828
+msgid "Neither Watched nor Ignored"
+msgstr ""
+
+#: pan/filter-edit-ui.c:839
+msgid "Article h_as"
+msgstr ""
+
+#. **
+#. ****  Attachments Pane
+#. **
+#: pan/filter-edit-ui.c:845 pan/message-window.c:1051 pan/save-ui.c:410
+msgid "Attachments"
+msgstr ""
+
+#: pan/filter-edit-ui.c:850
+msgid "Incomplete Attachments"
+msgstr ""
+
+#: pan/filter-edit-ui.c:855
+msgid "No Attachments"
+msgstr ""
+
+#: pan/filter-edit-ui.c:866
+msgid "Article _is"
+msgstr ""
+
+#: pan/filter-edit-ui.c:872 pan/rules/rule-edit-ui.c:172
+msgid "Read"
+msgstr ""
+
+#: pan/filter-edit-ui.c:877
+#, fuzzy
+msgid "New"
+msgstr "Nua..."
+
+#: pan/filter-edit-ui.c:882
+msgid "Cached Locally"
+msgstr ""
+
+#: pan/filter-edit-ui.c:887
+msgid "Posted by Me"
+msgstr ""
+
+#: pan/filter-edit-ui.c:898
+msgid "Article has at _least N lines:"
+msgstr ""
+
+#: pan/filter-edit-ui.c:910
+msgid "Article was _posted to at least N groups:"
+msgstr ""
+
+#: pan/filter-edit-ui.c:922
+msgid "Article is at least N days _old"
+msgstr ""
+
+#: pan/filter-edit-ui.c:934
+msgid "Article _score is at least"
+msgstr ""
+
+#: pan/filter-ui.c:203
+#, c-format
+msgid ""
+"This filter is still used by the following rules:\n"
+"%s\n"
+"Please remove this dependency  first."
+msgstr ""
+
+#. dialog
+#: pan/filter-ui.c:363
+msgid "Pan: Filters"
+msgstr ""
+
+#. add button
+#: pan/filter-ui.c:393 pan/identities/identity-ui.c:478
+#: pan/rules/rule-ui.c:515
+msgid "Add New"
+msgstr "Suim Nua ..."
+
+#: pan/filter-ui.c:395
+msgid "Add a new filter"
+msgstr ""
+
+#. edit button
+#: pan/filter-ui.c:399 pan/identities/identity-ui.c:491
+#: pan/rules/rule-ui.c:521
+msgid "Edit"
+msgstr "Eagar"
+
+#: pan/filter-ui.c:401
+msgid "Edit the selected filter"
+msgstr ""
+
+#. remove button
+#: pan/filter-ui.c:406 pan/identities/identity-ui.c:498
+#: pan/rules/rule-ui.c:528
+msgid "Remove"
+msgstr "Scríos"
+
+#: pan/filter-ui.c:408
+msgid "Remove the selected filter"
+msgstr ""
+
+#: pan/server-ui.c:134 pan/server-ui.c:135
+msgid "No Servers Defined"
+msgstr ""
+
+#: pan/server-ui.c:169
+msgid "Servers"
+msgstr ""
+
+#: pan/server-ui.c:233
+#, c-format
+msgid "Go Online for Server \"%s\"?"
+msgstr ""
+
+#: pan/message-send.c:334
+#, c-format
+msgid "Posting and Mailing Article ``%s''"
+msgstr ""
+
+#: pan/message-send.c:336
+#, c-format
+msgid "Posting Article ``%s''"
+msgstr ""
+
+#: pan/message-send.c:338
+#, c-format
+msgid "Mailing Article ``%s''"
+msgstr ""
+
+#: pan/message-send.c:340
+#, c-format
+msgid "I have no idea what I'm doing with Article ``%s''"
+msgstr ""
+
+#: pan/message-send.c:386
+msgid "E-Mail send failed.\n"
+msgstr ""
+
+#: pan/message-send.c:388
+msgid "Usenet posting failed.\n"
+msgstr ""
+
+#: pan/message-send.c:392
+msgid "Your message was saved in the folder ``pan.sendlater''"
+msgstr ""
+
+#: pan/message-send.c:453
+#, c-format
+msgid "[This is an email copy of a Usenet post to \"%s\"]"
+msgstr ""
+
+#: pan/message-send.c:462
+#, c-format
+msgid "E-mail Message \"%s\" sent."
+msgstr ""
+
+#: pan/message-send.c:467
+#, c-format
+msgid "E-mail Message \"%s\" not sent."
+msgstr ""
+
+#: pan/message-send.c:487
+#, c-format
+msgid "Posting article \"%s\" part %d of %d."
+msgstr ""
+
+#: pan/message-send.c:492
+#, c-format
+msgid "NNTP Article \"%s\" (%d of %d) posted."
+msgstr ""
+
+#: pan/message-send.c:496
+#, c-format
+msgid "NNTP Article \"%s\" (%d of %d) not posted."
+msgstr ""
+
+#: pan/message-send.c:600
+#, c-format
+msgid "Article \"%s\" not flagged for any particular server; using current"
+msgstr ""
+
+#: pan/message-window.c:243
+msgid "Save Changes"
+msgstr ""
+
+#: pan/message-window.c:256 pan/message-window.c:257 pan/message-window.c:319
+msgid "Send Now"
+msgstr ""
+
+#: pan/message-window.c:265 pan/message-window.c:266 pan/message-window.c:323
+msgid "Send Later"
+msgstr ""
+
+#: pan/message-window.c:285
+msgid "_Rot13 Selected Text"
+msgstr ""
+
+#: pan/message-window.c:286
+msgid "Rot13 Selected Text"
+msgstr ""
+
+#: pan/message-window.c:290
+msgid "Edit with E_xternal Editor"
+msgstr ""
+
+#: pan/message-window.c:291 pan/message-window.c:343
+msgid "Edit with External Editor"
+msgstr ""
+
+#: pan/message-window.c:320
+msgid "Send this Message Now"
+msgstr ""
+
+#: pan/message-window.c:324
+msgid "Send this Message Later"
+msgstr ""
+
+#: pan/message-window.c:328
+msgid "Rewrap"
+msgstr ""
+
+#: pan/message-window.c:329
+msgid "Rewrap all the text in the Message Body."
+msgstr ""
+
+#: pan/message-window.c:334
+msgid "Wrap Text"
+msgstr ""
+
+#: pan/message-window.c:335
+msgid "Turn line wrap on/off in the Message Body"
+msgstr ""
+
+#: pan/message-window.c:342
+#, fuzzy
+msgid "External Editor"
+msgstr "Oscáil an t-Eagarthóir"
+
+#: pan/message-window.c:601
+msgid "Mime BASE64 Encoding - Single Articles Only "
+msgstr ""
+
+#: pan/message-window.c:603 pan/message-window.c:621 pan/message-window.c:636
+#, c-format
+msgid "(%lu lines in 1 article)"
+msgstr ""
+
+#: pan/message-window.c:605 pan/message-window.c:623 pan/message-window.c:638
+#, c-format
+msgid "(%lu lines in %lu articles)"
+msgstr ""
+
+#: pan/message-window.c:619
+msgid "UUEncoding - Universally Accepted "
+msgstr ""
+
+#: pan/message-window.c:634
+msgid "Yenc - Smaller files, less universal "
+msgstr ""
+
+#: pan/message-window.c:677
+msgid "Select the file to attach."
+msgstr ""
+
+#. *
+#. ***  Files Frame
+#. *
+#: pan/message-window.c:741
+msgid "Files to Attach"
+msgstr ""
+
+#. Files clist
+#: pan/message-window.c:750
+#, fuzzy
+msgid "Filename"
+msgstr "Ainmchomad"
+
+#: pan/message-window.c:751
+#, fuzzy
+msgid "Kilobytes"
+msgstr "Fillteáin"
+
+#: pan/message-window.c:777
+msgid "Add a File to the Attachment List"
+msgstr ""
+
+#: pan/message-window.c:789
+msgid "Remove a File from the Attachment List"
+msgstr ""
+
+#. *
+#. ***  Parts Frame
+#. *
+#: pan/message-window.c:796
+#, fuzzy
+msgid "Parts"
+msgstr "Priontail"
+
+#: pan/message-window.c:804
+#, fuzzy
+msgid "Lines Per Article:"
+msgstr "Tóg Comhad"
+
+#. *
+#. ***  Encoding Frame
+#. *
+#: pan/message-window.c:818
+msgid "Encoding"
+msgstr ""
+
+#: pan/message-window.c:826
+msgid "UUEncoded (universally accepted)"
+msgstr ""
+
+#: pan/message-window.c:829
+msgid "Yenc (30 percent smaller than UUEnc but less universal)"
+msgstr ""
+
+#: pan/message-window.c:832
+msgid "Mime (single-part posts only)"
+msgstr ""
+
+#: pan/message-window.c:868
+msgid "Followup-To:"
+msgstr ""
+
+#: pan/message-window.c:873
+msgid ""
+"The newsgroup or newsgroups where replies to your posted message should go.  "
+"This is only needed if it differs from the \"Post To Groups\" header. \n"
+"To direct all replies to your email address, use \"Followup-To: poster\""
+msgstr ""
+
+#: pan/message-window.c:888
+msgid "Reply-To:"
+msgstr ""
+
+#: pan/message-window.c:893
+msgid ""
+"The e-mail account where mail replies to your posted message should go.  "
+"This is only needed if it differs from the \"From\" header."
+msgstr ""
+
+#: pan/dialogs/dialog-newuser.c:272 pan/identities/identity-edit-ui.c:217
+#: pan/message-window.c:907
+msgid "Organization:"
+msgstr ""
+
+#: pan/message-window.c:912
+msgid "The organization you're associated with."
+msgstr ""
+
+#: pan/message-window.c:939
+msgid "Don't add the \"User-Agent\" identification header"
+msgstr ""
+
+#: pan/identities/identity-edit-ui.c:420 pan/identities/identity-edit-ui.c:549
+#: pan/message-window.c:947
+msgid "Custom Headers"
+msgstr ""
+
+#. set the From: field
+#: pan/message-window.c:986
+msgid "From:"
+msgstr "As:"
+
+#. set the Post To Groups:
+#: pan/message-window.c:1009
+msgid "Post To Groups:"
+msgstr ""
+
+#. set the Mail To:
+#: pan/message-window.c:1021
+msgid "Mail To:"
+msgstr ""
+
+#: pan/message-window.c:1048
+msgid "More Headers"
+msgstr ""
+
+#: pan/message-window.c:1735
+msgid "``Followup-To: poster'': sending email to author."
+msgstr ""
+
+#: pan/message-window.c:2553
+msgid "Save message to file"
+msgstr ""
+
+#: pan/message-window.c:2591
+#, c-format
+msgid "Couldn't open file `%s'"
+msgstr ""
+
+#. failed
+#: pan/message-window.c:2640
+msgid "Couldn't exec external editor"
+msgstr ""
+
+#: pan/message-window.c:2644
+msgid "Couldn't write to file"
+msgstr ""
+
+#: pan/message-window.c:2647
+msgid "Pipe read failed"
+msgstr ""
+
+#: pan/message-window.c:2669
+#, c-format
+msgid "Unable to open file `%s'"
+msgstr ""
+
+#: pan/message-window.c:2675
+msgid "Unable to change file mode"
+msgstr ""
+
+#: pan/message-window.c:2682
+msgid "Unable to write to temp file"
+msgstr ""
+
+#: pan/newsrc-ui.c:74
+msgid "Pan: Import .newsrc File"
+msgstr ""
+
+#: pan/newsrc-ui.c:81
+msgid "Select .newsrc File to Read:"
+msgstr ""
+
+#: pan/newsrc-ui.c:131
+msgid "Pan: Export .newsrc File"
+msgstr ""
+
+#: pan/newsrc-ui.c:138
+msgid "Select .newsrc File to Write:"
+msgstr ""
+
+#: pan/nntp.c:193
+#, c-format
+msgid "QUIT failed: %s"
+msgstr ""
+
+#: pan/nntp.c:224
+#, c-format
+msgid "Handshake: %s"
+msgstr ""
+
+#: pan/nntp.c:226
+#, c-format
+msgid "NNTP handshake failed: %s"
+msgstr ""
+
+#: pan/nntp.c:227
+#, c-format
+msgid "Handshake failed: %s"
+msgstr ""
+
+#: pan/nntp.c:272
+msgid "Authentication failed: bad handshake for SPA password"
+msgstr ""
+
+#: pan/nntp.c:284
+#, c-format
+msgid "Bad SPA handshake: %s"
+msgstr ""
+
+#: pan/nntp.c:292 pan/nntp.c:395
+msgid "Authentication failed: need a password"
+msgstr ""
+
+#: pan/nntp.c:313 pan/nntp.c:387 pan/nntp.c:404
+#, c-format
+msgid "Authentication failed: %s"
+msgstr ""
+
+#: pan/nntp.c:353
+#, c-format
+msgid "Unsupported authentication mechanism: %s"
+msgstr ""
+
+#: pan/nntp.c:367
+msgid "No supported authentication mechanism"
+msgstr ""
+
+#: pan/nntp.c:447
+#, c-format
+msgid "MODE READER check failed: %s"
+msgstr ""
+
+#: pan/nntp.c:481 pan/nntp.c:785
+#, c-format
+msgid "Unable to set group `%s': %s"
+msgstr ""
+
+#: pan/nntp.c:520
+#, c-format
+msgid "Posting failed: %s"
+msgstr ""
+
+#: pan/nntp.c:527
+#, c-format
+msgid "Posting complete: %s"
+msgstr ""
+
+#. do work
+#: pan/nntp.c:553
+#, c-format
+msgid "\"stay connected\" sent to %s"
+msgstr ""
+
+#: pan/nntp.c:627
+#, c-format
+msgid "Getting article `%s' (Message-ID: %s) body failed: %s"
+msgstr ""
+
+#: pan/nntp.c:850
+#, c-format
+msgid "No articles found for group \"%s\""
+msgstr ""
+
+#: pan/nntp.c:860
+#, c-format
+msgid "Getting header list failed: %s"
+msgstr ""
+
+#: pan/nntp.c:967
+#, c-format
+msgid "Corrupt header skipped: %s"
+msgstr ""
+
+#: pan/nntp.c:1134
+#, fuzzy, c-format
+msgid "Getting %d of %d: \"%s\""
+msgstr "Ag scríos comhad \"%s\""
+
+#. let the user know what we're doing
+#: pan/nntp.c:1192
+#, c-format
+msgid "Cancelling message \"%s\""
+msgstr ""
+
+#: pan/pan.c:79
+msgid "Specify the geometry of the window."
+msgstr ""
+
+#: pan/pan.c:80
+msgid "GEOMETRY"
+msgstr ""
+
+#: pan/pan.c:82
+msgid ""
+"Send outgoing messages to stdout instead of smtp/nntp servers for debugging "
+"purposes."
+msgstr ""
+
+#: pan/pan.c:84
+msgid "Turn on article cache debugging messages."
+msgstr ""
+
+#: pan/pan.c:86
+msgid "Turn on socket input debugging messages."
+msgstr ""
+
+#: pan/pan.c:88
+msgid "Turn on socket output debugging messages."
+msgstr ""
+
+#: pan/pan.c:90
+msgid "Turn on socket input/output debugging messages."
+msgstr ""
+
+#: pan/pan.c:92
+msgid "Same as --debug-socket"
+msgstr ""
+
+#: pan/pan.c:94
+msgid "Trace function calls"
+msgstr ""
+
+#: pan/pan.c:96
+msgid "Turn on task scheduler debugging messages."
+msgstr ""
+
+#: pan/pan.c:98
+msgid "Turn on attachment decoding debugging messages."
+msgstr ""
+
+#: pan/pan.c:100
+msgid "Turn on newsrc decoding debugging messages."
+msgstr ""
+
+#: pan/pan.c:102
+msgid "Turn on gui thread lock debugging messages."
+msgstr ""
+
+#: pan/pan.c:104
+msgid "Turn on debugging of GNKSA code."
+msgstr ""
+
+#: pan/pan.c:106
+msgid "Turn on pan object system debugging messages."
+msgstr ""
+
+#: pan/pan.c:108
+msgid ""
+"Turn on most of the generally-useful debug flags.  A good first choice when "
+"preparing a bug report."
+msgstr ""
+
+#: pan/pan.c:128
+msgid "Error reading from socket."
+msgstr ""
+
+#: pan/pan.c:129
+msgid "Error writing to socket."
+msgstr ""
+
+#: pan/pan.c:130
+msgid "pan.sent"
+msgstr ""
+
+#: pan/pan.c:131
+msgid "pan.sendlater"
+msgstr ""
+
+#: pan/pan.c:158
+#, fuzzy, c-format
+msgid "Pan %s Started"
+msgstr "Draíodóir Socrú do Pan"
+
+#: pan/prefs.c:276
+msgid ""
+"%a - abbreviated weekday name\n"
+"%A - full weekday name\n"
+"%b - abbreviated month name\n"
+"%B - full month name\n"
+"%c - local date & time\n"
+"%d - day of the month\n"
+"%H - hour (24-hour clock)\n"
+"%I - hour (12-hour clock)\n"
+"%j - day of the year (001-366)\n"
+"%m - month (01-12)\n"
+"%M - minute (00-59)\n"
+"%p - local equivalent of AM/PM\n"
+"%S - second (00-61)\n"
+"%x - local date\n"
+"%X - local time\n"
+"%y - two-digit year\n"
+"%Y - four-digit year\n"
+"%% - %"
+msgstr ""
+
+#: pan/prefs.c:1192 pan/prefs.c:1236
+msgid "Not Named"
+msgstr ""
+
+#: pan/prefs.c:1193 pan/prefs.c:1237
+msgid "No Address"
+msgstr "Gan Seoladh"
+
+#: pan/prefs.c:1304
+#, fuzzy
+msgid "Pan: New/Edit Server"
+msgstr "Nua/Eagar Freastal"
+
+#. *
+#. ***  FRAME:  server information
+#. *
+#: pan/prefs.c:1327
+msgid "Server Information"
+msgstr ""
+
+#. profile name label
+#: pan/identities/identity-edit-ui.c:132 pan/prefs.c:1335
+msgid "Profile Name"
+msgstr ""
+
+#. server address label
+#: pan/prefs.c:1352
+msgid "Server Address"
+msgstr ""
+
+#. server port label
+#: pan/prefs.c:1368
+msgid "Server Port"
+msgstr ""
+
+#. FRAME: Authorization
+#: pan/prefs.c:1392
+msgid "Authorization"
+msgstr ""
+
+#. needs autorization information checkbox
+#: pan/prefs.c:1400
+msgid "My server requires my username and password"
+msgstr ""
+
+#. server username
+#: pan/prefs.c:1412
+msgid "Username"
+msgstr "Ainm Úsáideoir"
+
+#: pan/prefs.c:1430
+msgid "Password"
+msgstr "Pasfhocal"
+
+#. FRAME: Misc
+#: pan/prefs.c:1453
+msgid "Misc"
+msgstr ""
+
+#: pan/prefs.c:1460
+msgid "Idle Seconds Before Timeout:"
+msgstr ""
+
+#. TOGGLE: Generate Message-ID
+#: pan/prefs.c:1478
+msgid "Generate Message-ID"
+msgstr ""
+
+#. gdk_font_load
+#: pan/prefs.c:1602
+msgid "Use gdk_fontset_load instead of gdk_font_load"
+msgstr ""
+
+#: pan/prefs.c:1606
+msgid ""
+"Toggling this and restarting Pan is a good idea if your fonts aren't being "
+"displayed properly."
+msgstr ""
+
+#: pan/prefs.c:1612
+msgid ""
+"Automatically guess which articles to decode \n"
+"when duplicate parts appear in a multipart post"
+msgstr ""
+
+#: pan/prefs.c:1615
+msgid ""
+"If this disabled, the user will be prompted in a dialog to choose which "
+"posts to use."
+msgstr ""
+
+#: pan/prefs.c:1622
+msgid "Wrap body of the original message when replying"
+msgstr ""
+
+#: pan/prefs.c:1624
+msgid ""
+"If this is disabled, Pan will not wrap the original message when creating "
+"the reply."
+msgstr ""
+
+#: pan/prefs.c:1663
+msgid "External Editor (%t will be replaced with filename)"
+msgstr ""
+
+#: pan/prefs.c:1695
+#, c-format
+msgid "External Web Browser (%s will be replaced with URL)"
+msgstr ""
+
+#: pan/prefs.c:1723
+#, c-format
+msgid ""
+"If this field contains the string \"%s\", the URL to be viewed is "
+"substituted there.\n"
+" \n"
+"If this field is left blank, then your $BROWSER environmental variable will "
+"be used (see http://www.tuxedo.org/~esr/BROWSER/).  If that isn't set "
+"either, then the default Gnome setting will be used."
+msgstr ""
+
+#: pan/prefs.c:1833
+msgid "Followup-To"
+msgstr ""
+
+#: pan/prefs.c:1834
+msgid "Message-Id"
+msgstr ""
+
+#: pan/prefs.c:1835
+msgid "Newsgroups (if more than one group)"
+msgstr ""
+
+#: pan/prefs.c:1836
+msgid "References (if article is a reply)"
+msgstr ""
+
+#: pan/prefs.c:1837
+msgid "Reply-To (if different from Author)"
+msgstr ""
+
+#: pan/prefs.c:1838
+msgid "Newsreader"
+msgstr ""
+
+#: pan/prefs.c:1860
+msgid "Headers to Show"
+msgstr ""
+
+#: pan/prefs.c:1906
+msgid "Message Body"
+msgstr ""
+
+#: pan/prefs.c:1908
+msgid "Message Body (Monospace)"
+msgstr ""
+
+#: pan/prefs.c:1910 pan/prefs.c:2069 pan/prefs.c:2453
+msgid "Fonts"
+msgstr "Chlófhoireanna"
+
+#: pan/prefs.c:1920
+msgid "Body Background"
+msgstr ""
+
+#: pan/prefs.c:1922
+msgid "Use System Background"
+msgstr ""
+
+#: pan/prefs.c:1928
+msgid "Body Foreground"
+msgstr ""
+
+#: pan/prefs.c:1930
+msgid "Use System Foreground"
+msgstr ""
+
+#: pan/prefs.c:1935
+msgid "Quoted Text 1"
+msgstr ""
+
+#: pan/prefs.c:1937
+msgid "Quoted Text 2"
+msgstr ""
+
+#: pan/prefs.c:1939
+msgid "Quoted Text 3"
+msgstr ""
+
+#: pan/prefs.c:1941
+msgid "URLs"
+msgstr ""
+
+#: pan/prefs.c:1943 pan/prefs.c:2086
+msgid "Colors"
+msgstr "Dathanna"
+
+#: pan/prefs.c:1955
+msgid "Smooth Scrolling at speed:"
+msgstr ""
+
+#: pan/prefs.c:1969
+msgid "Fill articles for reading at column"
+msgstr ""
+
+#: pan/prefs.c:1983 pan/prefs.c:2128
+msgid "Article date format:"
+msgstr ""
+
+#: pan/prefs.c:1990 pan/prefs.c:2135
+msgid "Help"
+msgstr ""
+
+#. frame
+#: pan/prefs.c:1996 pan/prefs.c:2142 pan/prefs.c:2470
+msgid "Options"
+msgstr ""
+
+#: pan/prefs.c:2024 pan/prefs.c:2412
+msgid "Left Mouse Button:"
+msgstr ""
+
+#: pan/prefs.c:2026 pan/prefs.c:2040
+#, fuzzy
+msgid "Selects Article"
+msgstr "Tóg Comhad"
+
+#: pan/prefs.c:2030 pan/prefs.c:2044
+msgid "Loads Article"
+msgstr ""
+
+#: pan/prefs.c:2038 pan/prefs.c:2425
+msgid "Middle Mouse Button:"
+msgstr ""
+
+#: pan/prefs.c:2055 pan/prefs.c:2441
+#, fuzzy
+msgid "Selection"
+msgstr "Tóg Comhad"
+
+#: pan/prefs.c:2065
+msgid "Old Articles with no New Replies"
+msgstr ""
+
+#: pan/prefs.c:2067
+msgid "New Articles / Articles with New Replies"
+msgstr ""
+
+#: pan/prefs.c:2078
+msgid "Unread Articles / Articles with Unread Replies"
+msgstr ""
+
+#: pan/prefs.c:2080
+msgid "Read Articles with no Unread Replies"
+msgstr ""
+
+#: pan/prefs.c:2082
+msgid "Ignored Threads"
+msgstr ""
+
+#: pan/prefs.c:2084
+msgid "Watched Threads"
+msgstr ""
+
+#. break threads when subject changes?
+#: pan/prefs.c:2099
+msgid "When a followup changes the subject, show as new thread"
+msgstr ""
+
+#. expand threads by default?
+#: pan/prefs.c:2106
+msgid "Expand all threads by default"
+msgstr ""
+
+#. multipart: one node or all
+#: pan/prefs.c:2113
+msgid "Show only the first part of complete multipart binary posts"
+msgstr ""
+
+#. utc or local time
+#: pan/prefs.c:2120
+msgid "Display article dates in local time instead of UTC"
+msgstr ""
+
+#: pan/prefs.c:2203
+#, fuzzy
+msgid "Grouplist Pane"
+msgstr "Grupaí"
+
+#: pan/prefs.c:2204
+msgid "Article Pane"
+msgstr ""
+
+#: pan/prefs.c:2205
+msgid "Thread Pane"
+msgstr ""
+
+#: pan/filters/filter-aggregate.c:72 pan/filters/filter-binary.c:79
+#: pan/filters/filter-phrase.c:104 pan/filters/filter-saved.c:79
+#: pan/filters/filter-thread.c:75 pan/prefs.c:2206 pan/task-headers.c:450
+msgid "Error"
+msgstr ""
+
+#. Label for the layout buttons
+#: pan/prefs.c:2274
+#, fuzzy
+msgid "Selected layout: "
+msgstr "Tóg Comhad"
+
+#. Label for layout clist
+#: pan/prefs.c:2329
+msgid "Assigned panes: "
+msgstr ""
+
+#. Frame it
+#: pan/prefs.c:2376
+msgid "Layout"
+msgstr ""
+
+#: pan/prefs.c:2414 pan/prefs.c:2427
+#, fuzzy
+msgid "Selects Group"
+msgstr "Gach Grupaí"
+
+#: pan/prefs.c:2418 pan/prefs.c:2431
+#, fuzzy
+msgid "Loads Group"
+msgstr "Grupa"
+
+#: pan/prefs.c:2451
+msgid "Group list font"
+msgstr ""
+
+#. download new headers
+#: pan/prefs.c:2464
+msgid "Download New Headers when the Group is Loaded"
+msgstr ""
+
+#: pan/prefs.c:2516 pan/prefs.c:2650
+#, c-format
+msgid "Server \"%s\" is Online"
+msgstr ""
+
+#: pan/prefs.c:2517 pan/prefs.c:2651
+#, c-format
+msgid "Server \"%s\" is Offline; no new tasks will be processed"
+msgstr ""
+
+#: pan/prefs.c:2551
+msgid "Maximum Total Number of Connections"
+msgstr ""
+
+#: pan/prefs.c:2562
+msgid "Maximum Number of Task Retries before Giving Up"
+msgstr ""
+
+#: pan/prefs.c:2573
+msgid "Pan should ask before going online"
+msgstr ""
+
+#: pan/prefs.c:2576
+msgid "Pan should go online as needed without asking"
+msgstr ""
+
+#: pan/prefs.c:2579
+msgid "Pan should quietly stay offline until told otherwise"
+msgstr ""
+
+#. pack the vbox into a frame, which is itself the first element in a new vbox
+#: pan/prefs.c:2596
+msgid "Global Settings"
+msgstr ""
+
+#: pan/dialogs/dialog-newuser.c:577 pan/prefs.c:2607
+msgid "News Server"
+msgstr ""
+
+#: pan/prefs.c:2610
+msgid ""
+"Maximum\n"
+"Connections"
+msgstr ""
+
+#: pan/prefs.c:2613
+msgid "Online Status"
+msgstr ""
+
+#: pan/prefs.c:2616
+msgid ""
+"Reserve a connection\n"
+"for reading articles"
+msgstr ""
+
+#. reserve
+#: pan/prefs.c:2659
+msgid "Reserve"
+msgstr ""
+
+#: pan/prefs.c:2669
+msgid "Per-Server Settings"
+msgstr ""
+
+#: pan/prefs.c:2695
+msgid "Download Directory:"
+msgstr ""
+
+#: pan/prefs.c:2700 pan/save-ui.c:316
+msgid "Download Directory"
+msgstr ""
+
+#. Data Directory:
+#: pan/prefs.c:2712
+msgid "Data Directory:"
+msgstr ""
+
+#: pan/prefs.c:2717
+msgid "Data Directory"
+msgstr ""
+
+#. explanation
+#: pan/prefs.c:2766
+msgid ""
+"The cache is used to keep local copies of articles\n"
+"to reduce the time connected to the network."
+msgstr ""
+
+#: pan/prefs.c:2774
+msgid "Disk Cache:"
+msgstr ""
+
+#: pan/prefs.c:2785
+#, fuzzy
+msgid "Megs"
+msgstr "_Sceálaí"
+
+#. clear cache
+#: pan/prefs.c:2789
+msgid "Clear Disk Cache"
+msgstr ""
+
+#: pan/prefs.c:2800
+msgid "Delete Cache when exiting Pan"
+msgstr ""
+
+#. frame
+#: pan/prefs.c:2806
+msgid "Article Cache"
+msgstr ""
+
+#. address
+#: pan/prefs.c:2826
+#, fuzzy
+msgid "Address:"
+msgstr "Seoladh"
+
+#. port
+#: pan/dialogs/dialog-newuser.c:451 pan/prefs.c:2836
+msgid "Port:"
+msgstr "Port:"
+
+#. frame
+#: pan/prefs.c:2846
+msgid "Mail Server"
+msgstr ""
+
+#: pan/prefs.c:2880
+msgid ""
+".newsrc files are used by many newsreaders to remember\n"
+"which articles you've read and which groups you're subscribed to.\n"
+"If you plan on using other newsreaders along with Pan,\n"
+"you can set Pan automatically import them on startup and\n"
+"export them on exit."
+msgstr ""
+
+#. import/export togglebutton
+#: pan/prefs.c:2887
+msgid "Import/Export .newsrc files automatically"
+msgstr ""
+
+#: pan/prefs.c:2897
+#, fuzzy
+msgid ".newsrc filename:"
+msgstr "Ainm Comhad:"
+
+#. use subscribed only?
+#: pan/prefs.c:2910
+msgid "read/write subscribed groups only"
+msgstr ""
+
+#: pan/prefs.c:2915
+msgid ""
+"Many users prefer to save memory and disk space by only keeping subscribed "
+"groups in their .newsrc file."
+msgstr ""
+
+#. backup old .newsrc file?
+#: pan/prefs.c:2919
+msgid "backup previous .newsrc file before exporting"
+msgstr ""
+
+#. frame
+#: pan/prefs.c:2927 pan/prefs.c:3056
+msgid ".Newsrc Files"
+msgstr ""
+
+#: pan/prefs.c:2946
+msgid "Name"
+msgstr "Ainm"
+
+#: pan/prefs.c:2947
+msgid "Address"
+msgstr "Seoladh"
+
+#. new server button
+#: pan/prefs.c:2973
+msgid "New..."
+msgstr "Nua..."
+
+#. edit server button
+#: pan/prefs.c:2979
+msgid "Edit..."
+msgstr "Eagar..."
+
+#: pan/prefs.c:3035
+msgid "Pan: Preferences"
+msgstr "Pan: Roghnachais"
+
+#. add all the pages...
+#: pan/prefs.c:3048
+msgid "Cache"
+msgstr ""
+
+#: pan/prefs.c:3049
+msgid "Directories"
+msgstr "Eolairí"
+
+#: pan/prefs.c:3050
+#, fuzzy
+msgid "Display - Layout"
+msgstr "Gach Grupaí"
+
+#: pan/prefs.c:3051
+#, fuzzy
+msgid "Display - Groups"
+msgstr "Gach Grupaí"
+
+#: pan/prefs.c:3052
+msgid "Display - Threads"
+msgstr ""
+
+#: pan/prefs.c:3053
+#, fuzzy
+msgid "Display - Articles"
+msgstr "Gach Grupaí"
+
+#: pan/prefs.c:3054
+#, fuzzy
+msgid "Display - Headers"
+msgstr "Gach Grupaí"
+
+#: pan/prefs.c:3055
+msgid "General"
+msgstr ""
+
+#: pan/prefs.c:3057
+msgid "Online Settings"
+msgstr ""
+
+#: pan/prefs.c:3058
+msgid "Servers - News"
+msgstr ""
+
+#: pan/prefs.c:3059
+msgid "Servers - Mail"
+msgstr ""
+
+#: pan/print.c:167
+#, fuzzy
+msgid "Pan: Print"
+msgstr "Priontail"
+
+#: pan/print.c:168
+msgid "Print"
+msgstr "Priontail"
+
+#. print command label
+#: pan/print.c:178
+msgid "Print Command:"
+msgstr ""
+
+#: pan/print.c:239
+msgid "You haven't loaded an article to print."
+msgstr ""
+
+#: pan/queue.c:945
+msgid "Connect Failure"
+msgstr ""
+
+#: pan/queue.c:1045
+msgid "Sending 'stay connected' request"
+msgstr ""
+
+#: pan/queue.c:1051
+msgid "Disconnecting"
+msgstr ""
+
+#: pan/queue.c:1132
+#, c-format
+msgid "Closing connection %p after %d seconds idle"
+msgstr ""
+
+#. create & parent the dialog
+#: pan/save-ui.c:285
+msgid "Pan: Save Attachments As"
+msgstr ""
+
+#. cancel
+#. "Location" pane
+#: pan/save-ui.c:292
+msgid "Location"
+msgstr ""
+
+#. append group name to the path?
+#: pan/save-ui.c:340
+#, c-format
+msgid "Add ``/%s'' to path"
+msgstr ""
+
+#. **
+#. ****  Message Pane
+#. **
+#: pan/save-ui.c:359
+msgid "Article Text"
+msgstr ""
+
+#. don't save bodies
+#: pan/save-ui.c:364
+msgid "Don't Save Article Text"
+msgstr ""
+
+#: pan/save-ui.c:371
+#, fuzzy
+msgid "Use Message-ID"
+msgstr "Sceál Nua"
+
+#: pan/save-ui.c:378
+#, fuzzy
+msgid "Use Subject"
+msgstr "- Abair"
+
+#: pan/save-ui.c:386 pan/save-ui.c:437
+msgid "Use Custom Filename"
+msgstr ""
+
+#. don't save attachments
+#: pan/save-ui.c:415
+msgid "Don't Save Attachments"
+msgstr ""
+
+#: pan/save-ui.c:422
+msgid "Use Encoded Filename"
+msgstr ""
+
+#: pan/save-ui.c:429
+msgid "Use Article Subject"
+msgstr ""
+
+#. **
+#. ****  Priority Pane
+#. **
+#. "Priority" pane
+#: pan/save-ui.c:462
+msgid "Priority"
+msgstr ""
+
+#. front of queue
+#: pan/save-ui.c:467
+msgid "Add Task to the Front of the Queue"
+msgstr ""
+
+#: pan/save-ui.c:474
+msgid "Add Task to the Back of the Queue"
+msgstr ""
+
+#: pan/smtp.c:80
+#, c-format
+msgid "Got unexpected response from mail server: expected %d; got %s"
+msgstr ""
+
+#: pan/smtp.c:187
+msgid "Preparing to Send Mail"
+msgstr ""
+
+#: pan/smtp.c:197
+msgid "No Recipients!"
+msgstr ""
+
+#: pan/smtp.c:206
+msgid "Can't parse the From: line; hope for the best."
+msgstr ""
+
+#: pan/smtp.c:228
+msgid "No Sender Specified!"
+msgstr ""
+
+#: pan/smtp.c:237
+msgid "Sending Mail"
+msgstr ""
+
+#: pan/smtp.c:294
+msgid "No Known Recipients"
+msgstr ""
+
+#: pan/smtp.c:379
+msgid "Mail Sent!"
+msgstr ""
+
+#: pan/smtp.c:397
+msgid "Handshaking with mail server"
+msgstr ""
+
+#. get smtp address/port
+#: pan/smtp.c:444
+msgid "Connecting to mail server"
+msgstr ""
+
+#: pan/smtp.c:450
+#, c-format
+msgid "Unable to open connection to mail server \"%s\""
+msgstr ""
+
+#: pan/smtp.c:458
+msgid "Mail Server Not Ready"
+msgstr ""
+
+#: pan/sockets.c:148
+#, c-format
+msgid "Can't resolve %s: %s"
+msgstr ""
+
+#: pan/sockets.c:158
+#, c-format
+msgid "Can't connect to %s: %s"
+msgstr ""
+
+#: pan/sockets.c:166
+#, c-format
+msgid "Connection to %s, port %d failed: %s"
+msgstr ""
+
+#: pan/sockets.c:175
+#, c-format
+msgid "Socket keepalive option failed: %s"
+msgstr ""
+
+#: pan/sockets.c:179
+#, c-format
+msgid "New connection %p for %s, port %d, sockfd %d"
+msgstr ""
+
+#: pan/sockets.c:250
+msgid "Timed out waiting to read from the server."
+msgstr ""
+
+#. did the server hang up?
+#: pan/sockets.c:267
+msgid "Lost connection to server"
+msgstr ""
+
+#: pan/sockets.c:274
+#, c-format
+msgid "Error: reading from socket returned %d."
+msgstr ""
+
+#: pan/sockets.c:319
+#, c-format
+msgid ""
+"socket [%p] failed its read:\n"
+"%s"
+msgstr ""
+
+#: pan/sockets.c:321
+#, c-format
+msgid "socket [%p] failed its read"
+msgstr ""
+
+#: pan/sockets.c:392
+#, c-format
+msgid "Timed out waiting for the goahead to write to the server: %s"
+msgstr ""
+
+#: pan/sockets.c:394
+msgid "Timed out waiting for the goahead to write to the server."
+msgstr ""
+
+#: pan/sockets.c:403
+msgid "An error occurred writing to the server."
+msgstr ""
+
+#: pan/base/acache.c:197
+#, c-format
+msgid "Error reading \"%s\": %s."
+msgstr ""
+
+#: pan/base/acache.c:199
+#, fuzzy, c-format
+msgid "Error reading \"%s\"."
+msgstr "Ag sábháil \"%s\""
+
+#: pan/base/acache.c:230
+#, c-format
+msgid "Article cache contains %.1f MB in %d files"
+msgstr ""
+
+#: pan/base/acache.c:361
+#, c-format
+msgid "Error saving article \"%s\" (is %s full?)"
+msgstr ""
+
+#: pan/base/acache.c:540
+#, c-format
+msgid "Removed %d articles from local cache"
+msgstr ""
+
+#: pan/base/acache.c:541
+#, c-format
+msgid "Article cache now has %.1f MB in %d articles"
+msgstr ""
+
+#: pan/base/message-check.c:95
+msgid "WARNING: Signature prefix with no signature."
+msgstr ""
+
+#: pan/base/message-check.c:102
+msgid "WARNING: signature is more than 4 lines long"
+msgstr ""
+
+#: pan/base/message-check.c:109
+#, c-format
+msgid "WARNING: %d lines too wide in signature"
+msgstr ""
+
+#: pan/base/message-check.c:142
+#, c-format
+msgid "WARNING: %d lines >80 characters in the message."
+msgstr ""
+
+#: pan/base/message-check.c:177
+msgid "ERROR: Message is empty."
+msgstr ""
+
+#: pan/base/message-check.c:226
+msgid "WARNING: The message is entirely quoted text!"
+msgstr ""
+
+#: pan/base/message-check.c:227
+msgid "WARNING: The message is mostly quoted text."
+msgstr ""
+
+#: pan/base/message-check.c:318
+msgid "ERROR: Message appears to have no new content."
+msgstr ""
+
+#: pan/base/message-check.c:367 pan/base/message-check.c:420
+#, c-format
+msgid "WARNING: Unknown group: \"%s\"."
+msgstr ""
+
+#: pan/base/message-check.c:376
+msgid "WARNING: Following-Up to many groups."
+msgstr ""
+
+#: pan/base/message-check.c:392
+msgid "ERROR: No subject specified."
+msgstr ""
+
+#: pan/base/message-check.c:426
+#, c-format
+msgid "WARNING: Group \"%s\" is read-only."
+msgstr ""
+
+#: pan/base/message-check.c:432
+#, c-format
+msgid ""
+"INFORMATION: Please be aware that posts to \"%s\" will not appear until "
+"approved by the group's moderator."
+msgstr ""
+
+#: pan/base/message-check.c:441
+msgid "ERROR: Posting to a very large number of groups."
+msgstr ""
+
+#: pan/base/message-check.c:448
+msgid "WARNING: Posting to a large number of groups."
+msgstr ""
+
+#: pan/base/message-check.c:457
+msgid "WARNING: Crossposting without setting Followup-To."
+msgstr ""
+
+#: pan/base/message-check.c:481
+#, fuzzy, c-format
+msgid "ERROR: invalid address ``%s''"
+msgstr "EARRAIDH:  %s ``%s''"
+
+#: pan/base/message-check.c:563
+msgid "ERROR: Must have one author in From: line"
+msgstr ""
+
+#: pan/base/message-check.c:574
+msgid "ERROR: No recipients specified."
+msgstr ""
+
+#: pan/base/article.c:1308
+msgid "Couldn't parse a Message-ID from the raw message!"
+msgstr ""
+
+#: pan/base/article.c:1312
+msgid "Unparseable Subject"
+msgstr ""
+
+#: pan/base/base-prefs.c:32
+msgid "Unknown"
+msgstr ""
+
+#: pan/base/base-prefs.c:33
+msgid "unknown@spammesenseless.net"
+msgstr ""
+
+#: pan/base/decode.c:86 pan/task-save.c:292
+msgid "UNKNOWN"
+msgstr ""
+
+#: pan/base/decode.c:202
+#, c-format
+msgid ""
+"Couldn't find body for message `%s' - decoding may be incomplete or incorrect"
+msgstr ""
+
+#: pan/base/decode.c:216 pan/base/decode.c:253
+#, c-format
+msgid "Couldn't write to temporary file \"%s\" (is the disk full?)"
+msgstr ""
+
+#: pan/base/decode.c:352
+#, c-format
+msgid "Waiting to decode \"%s\""
+msgstr ""
+
+#. let the client know what we're doing
+#: pan/base/decode.c:358
+#, fuzzy, c-format
+msgid "Processing \"%s\""
+msgstr "Ag sábháil \"%s\""
+
+#. get the decodable parts
+#: pan/base/decode.c:366
+#, fuzzy, c-format
+msgid "Decoding \"%s\""
+msgstr "Ag sábháil \"%s\""
+
+#: pan/base/decode.c:389
+#, c-format
+msgid "Decode can't access path \"%s\""
+msgstr ""
+
+#: pan/base/decode.c:400
+#, c-format
+msgid "Decode unable to create file \"%s\" %s"
+msgstr ""
+
+#: pan/base/decode.c:419
+#, fuzzy, c-format
+msgid "Saved \"%s\""
+msgstr "Ag sábháil \"%s\""
+
+#: pan/base/decode.c:425
+#, c-format
+msgid "Decoded \"%s\" from group \"%s\", \"%s\" part #%d"
+msgstr ""
+
+#: pan/base/file-grouplist.c:270
+#, c-format
+msgid "Loading %u of %d groups"
+msgstr ""
+
+#: pan/base/file-grouplist.c:276
+#, c-format
+msgid ""
+"Unsupported data version %d for `%s' data file.\n"
+"Are you running an old version of Pan by accident?"
+msgstr ""
+
+#: pan/base/file-grouplist.c:374
+#, c-format
+msgid "Loaded %d groups for server `%s' in %.1f seconds (%.0f groups/sec)"
+msgstr ""
+
+#: pan/base/file-grouplist.c:454
+#, c-format
+msgid "Saved %d of %u groups"
+msgstr ""
+
+#: pan/base/file-grouplist.c:567
+#, c-format
+msgid "Saved %d groups in \"%s\" in %.1f seconds (%.0f groups/sec)"
+msgstr ""
+
+#: pan/base/file-headers.c:67
+#, fuzzy, c-format
+msgid "Loading %s"
+msgstr "Ag sábháil %s"
+
+#: pan/base/file-headers.c:185
+#, c-format
+msgid "Loaded %d of %d articles"
+msgstr ""
+
+#: pan/base/file-headers.c:199
+#, c-format
+msgid ""
+"Pan skipped %d corrupt headers from the local cache for group %s.\n"
+"You may want to empty this group and download fresh headers."
+msgstr ""
+
+#: pan/base/file-headers.c:213
+#, c-format
+msgid ""
+"Unsupported data version for %s headers: %d.\n"
+"Are you running an old version of Pan by accident?"
+msgstr ""
+
+#: pan/base/file-headers.c:355
+#, c-format
+msgid "Loaded %d articles for group `%s' in %.1f seconds (%.0f art/sec)"
+msgstr ""
+
+#: pan/base/file-headers.c:424 pan/base/file-headers.c:546
+#, c-format
+msgid "Can't create directory \"%s\""
+msgstr ""
+
+#: pan/base/file-headers.c:436 pan/base/file-headers.c:558
+#: pan/base/file-headers.c:570
+#, c-format
+msgid "The group will not be saved -- can't create file \"%s\""
+msgstr ""
+
+#: pan/base/file-headers.c:495
+#, c-format
+msgid "The group will not be saved -- can't move \"%s\" to \"%s\""
+msgstr ""
+
+#: pan/base/file-headers.c:736
+#, c-format
+msgid "Saved %d articles in \"%s\" in %.1f seconds (%.0f art/sec)"
+msgstr ""
+
+#: pan/base/gnksa.c:910
+#, c-format
+msgid "No email address provided; generating message-id with domain \"%s\""
+msgstr ""
+
+#: pan/base/group.c:893
+#, c-format
+msgid "Expired %u articles from `%s'"
+msgstr ""
+
+#: pan/base/group.c:1003
+#, fuzzy
+msgid "(No Group)"
+msgstr "Grupaí Nua"
+
+#: pan/base/newsrc-port.c:104
+#, c-format
+msgid "Error reading file `%s'"
+msgstr ""
+
+#. log our progress
+#: pan/base/newsrc-port.c:172
+#, c-format
+msgid "Imported %d groups (%d new) from `%s'"
+msgstr ""
+
+#: pan/base/newsrc-port.c:222
+#, c-format
+msgid "Couldn't create file `%s' to export newsrc file %s"
+msgstr ""
+
+#. log
+#: pan/base/newsrc-port.c:271
+#, c-format
+msgid "Exported %d groups (%d subscribed) to `%s'"
+msgstr ""
+
+#: pan/base/serverlist.c:87
+msgid "Articles/Mail queued for posting via the \"Send Later\" button"
+msgstr ""
+
+#: pan/base/serverlist.c:90
+msgid "Created folder pan.sendlater"
+msgstr ""
+
+#: pan/base/serverlist.c:97
+msgid "Articles/Mail posted before"
+msgstr ""
+
+#: pan/base/serverlist.c:100
+msgid "Created folder pan.sent"
+msgstr ""
+
+#: pan/base/util-file.c:228
+#, c-format
+msgid "Couldn't create directory `%s': %s"
+msgstr ""
+
+#: pan/base/util-file.c:246
+#, c-format
+msgid "Unable to access or create directory \"%s\""
+msgstr ""
+
+#: pan/base/util-file.c:329
+msgid "unknown@spammesenseless.com"
+msgstr ""
+
+#: pan/base/util-file.c:409 pan/base/util-file.c:414
+#, c-format
+msgid "Can't open file `%s'"
+msgstr ""
+
+#: pan/base/util-file.c:439
+#, c-format
+msgid "Error renaming `%s' as `%s': %s."
+msgstr ""
+
+#: pan/base/util-wrap.c:293
+msgid "> [quoted text muted]"
+msgstr ""
+
+#. nickname label
+#: pan/dialogs/dialog-group-props.c:100
+#, fuzzy
+msgid "Group Name"
+msgstr "Do Ainm"
+
+#. download dir label
+#: pan/dialogs/dialog-group-props.c:125
+msgid "Directory for saving attached files"
+msgstr ""
+
+#: pan/dialogs/dialog-group-props.c:179
+msgid "Group Properties"
+msgstr ""
+
+#: pan/dialogs/dialog-about.c:52
+msgid "A newsreader for GNOME"
+msgstr ""
+
+#: pan/dialogs/dialog-about.c:53
+#, fuzzy
+msgid "Copyright (C) 1999-2001, Pan Development Team"
+msgstr "Cóipcheart © 1999,2000 the Pan Development Group"
+
+#: pan/dialogs/dialog-about.c:59
+msgid "Lead Programmer"
+msgstr ""
+
+#: pan/dialogs/dialog-about.c:61
+msgid "Programmer"
+msgstr ""
+
+#: pan/dialogs/dialog-about.c:63
+msgid "Programmer & Documentation"
+msgstr ""
+
+#: pan/dialogs/dialog-about.c:65
+msgid "Project Originator, Programmer"
+msgstr ""
+
+#: pan/dialogs/dialog-about.c:67
+msgid "Programmer, 0.6 - 0.7"
+msgstr ""
+
+#: pan/dialogs/dialog-about.c:72
+#, c-format
+msgid ""
+"Many thanks to the following people, whose contributions\n"
+"are a large part of why Open Source software development\n"
+"is so fun.\n"
+"\n"
+"Pan %s Translations\n"
+"%s\n"
+"\n"
+"Pan %s Code or Patches\n"
+"%s\n"
+"\n"
+"Pan %s Suggestions and Testing\n"
+"%s\n"
+"\n"
+"If you should have been in this list but you're not,\n"
+"send us mail and we'll add you next time.\n"
+"\n"
+"Contributors to previous versions are listed at\n"
+"http://pan.rebelbase.com/CREDITS"
+msgstr ""
+
+#: pan/dialogs/dialog-about.c:90
+msgid "Thanks"
+msgstr ""
+
+#: pan/dialogs/dialog-log-viewer.c:85
+msgid "Save"
+msgstr "Sábháil"
+
+#: pan/dialogs/dialog-log-viewer.c:85
+msgid "Save this log to a file."
+msgstr ""
+
+#: pan/dialogs/dialog-log-viewer.c:87
+msgid "Clear"
+msgstr "Glan"
+
+#: pan/dialogs/dialog-log-viewer.c:87
+msgid "Clear this log."
+msgstr ""
+
+#: pan/dialogs/dialog-log-viewer.c:89
+msgid "Close"
+msgstr "Dún"
+
+#: pan/dialogs/dialog-log-viewer.c:89
+msgid "Close the Log Viewer."
+msgstr ""
+
+#: pan/dialogs/dialog-log-viewer.c:99
+msgid "Save the log to file"
+msgstr ""
+
+#: pan/dialogs/dialog-log-viewer.c:252
+msgid "Pan - Log Viewer"
+msgstr ""
+
+#: pan/dialogs/dialog-log-viewer.c:289
+msgid "Time"
+msgstr "Am"
+
+#: pan/dialogs/dialog-log-viewer.c:290
+msgid "Log Entry"
+msgstr ""
+
+#: pan/dialogs/dialog-headers.c:138
+#, c-format
+msgid "Pan: Download Headers for group `%s'"
+msgstr ""
+
+#: pan/dialogs/dialog-headers.c:152
+msgid "Download New Headers"
+msgstr ""
+
+#. all headers, if group->articles is NULL, this is the default
+#: pan/dialogs/dialog-headers.c:157
+msgid "Download All Headers"
+msgstr ""
+
+#: pan/dialogs/dialog-headers.c:174
+msgid "Most Recent Headers"
+msgstr ""
+
+#. 'download bodies too?' togglebutton
+#: pan/dialogs/dialog-headers.c:181
+msgid "Also Download Article Bodies"
+msgstr ""
+
+#: pan/dialogs/dialog-newuser.c:248
+msgid ""
+"When you post a message to a newsgroup, your display name will appear in the "
+"From field.  Type your name in as you would like it to appear."
+msgstr ""
+
+#: pan/dialogs/dialog-newuser.c:254
+msgid "Display Name:"
+msgstr ""
+
+#: pan/dialogs/dialog-newuser.c:262
+msgid "For example: John Doe"
+msgstr ""
+
+#: pan/dialogs/dialog-newuser.c:266
+msgid ""
+"If you belong to an organization and would like for your organization's name "
+"to appear with your posts, type in your organization name below.  This "
+"information is optional, you may leave it blank."
+msgstr ""
+
+#: pan/dialogs/dialog-newuser.c:301
+msgid ""
+"People can reply to your posts by sending you an e-mail message at the "
+"following address."
+msgstr ""
+
+#: pan/dialogs/dialog-newuser.c:307
+msgid "E-mail address:"
+msgstr ""
+
+#: pan/dialogs/dialog-newuser.c:316
+msgid "For example: user@host.com"
+msgstr ""
+
+#: pan/dialogs/dialog-newuser.c:320
+msgid ""
+"Please enter the name of the mail server to use when sending e-mail messages."
+msgstr ""
+
+#: pan/dialogs/dialog-newuser.c:326
+msgid "SMTP Server:"
+msgstr ""
+
+#: pan/dialogs/dialog-newuser.c:338
+msgid "SMTP Port:"
+msgstr ""
+
+#: pan/dialogs/dialog-newuser.c:411
+msgid "default"
+msgstr ""
+
+#: pan/dialogs/dialog-newuser.c:432
+msgid "Type the name of your Internet news server."
+msgstr ""
+
+#: pan/dialogs/dialog-newuser.c:438
+msgid "News (NNTP) server:"
+msgstr ""
+
+#: pan/dialogs/dialog-newuser.c:459
+msgid ""
+"If you must log on to your news (NNTP) server, then select the check box "
+"below."
+msgstr ""
+
+#: pan/dialogs/dialog-newuser.c:465
+msgid "My server requires a password."
+msgstr ""
+
+#: pan/dialogs/dialog-newuser.c:469
+msgid "Account name:"
+msgstr ""
+
+#: pan/dialogs/dialog-newuser.c:476
+msgid "Password:"
+msgstr "Pasfhocal:"
+
+#: pan/dialogs/dialog-newuser.c:505
+msgid ""
+"Type in the name you would like Pan to show when referring to this profile "
+"you have just setup.  You can name the profile anything you want to."
+msgstr ""
+
+#: pan/dialogs/dialog-newuser.c:511
+msgid "Profile Name:"
+msgstr ""
+
+#: pan/dialogs/dialog-newuser.c:521
+msgid "For example: UUNET Server"
+msgstr ""
+
+#: pan/dialogs/dialog-newuser.c:549
+msgid "Pan Setup Wizard"
+msgstr "Draíodóir Socrú do Pan"
+
+#: pan/dialogs/dialog-newuser.c:571
+#, fuzzy
+msgid "Welcome to Pan"
+msgstr "Fáilte"
+
+#: pan/dialogs/dialog-newuser.c:572
+msgid ""
+"Thank you for trying Pan!\n"
+" \n"
+"If you are new to Usenet,\n"
+"http://pan.rebelbase.com/intro.php\n"
+"is a starting point to see what Usenet is,\n"
+"where to find a free news server,\n"
+"and how to use Pan.\n"
+" \n"
+"Since this is your first time running Pan,\n"
+" we'll need to gather some information.\n"
+msgstr ""
+
+#: pan/dialogs/dialog-newuser.c:575
+msgid "Your Name"
+msgstr "Do Ainm"
+
+#: pan/dialogs/dialog-newuser.c:576
+msgid "E-mail"
+msgstr ""
+
+#: pan/dialogs/dialog-newuser.c:578
+msgid "Save Profile"
+msgstr ""
+
+#: pan/dialogs/dialog-newuser.c:580
+msgid "Congratulations"
+msgstr "Comhairghdeas"
+
+#: pan/dialogs/dialog-newuser.c:581
+msgid ""
+"You have successfully entered all of\n"
+"the information required to set up Pan.\n"
+"\n"
+"To save these settings, click Finish."
+msgstr ""
+
+#: pan/dialogs/pan-about.c:151
+#, c-format
+msgid "About %s"
+msgstr ""
+
+#: pan/dialogs/pan-about.c:210
+msgid "About"
+msgstr ""
+
+#: pan/dialogs/pan-about.c:224
+msgid "License"
+msgstr ""
+
+#: pan/dialogs/pan-about.c:284 pan/dialogs/pan-about.c:331
+#, fuzzy
+msgid "Authors"
+msgstr "Údar"
+
+#: pan/dialogs/pan-about.c:349
+msgid "Thanks to"
+msgstr ""
+
+#: pan/task-bodies.c:177
+#, c-format
+msgid "Downloading %d articles from group %s"
+msgstr ""
+
+#: pan/task-body.c:159
+#, c-format
+msgid "Downloading body of \"%s\" (%s) from group %s"
+msgstr ""
+
+#: pan/task-body.c:166
+#, c-format
+msgid "Cached article \"%s\" (%s) from group %s"
+msgstr ""
+
+#: pan/task-body.c:214
+#, c-format
+msgid "Cached Article \"%s\""
+msgstr ""
+
+#: pan/task-body.c:231
+#, c-format
+msgid "Couldn't select group \"%s\""
+msgstr ""
+
+#: pan/task-body.c:255
+#, c-format
+msgid "Downloading article \"%s\" failed."
+msgstr ""
+
+#: pan/task-save.c:100
+#, c-format
+msgid "Saving \"%s\""
+msgstr "Ag sábháil \"%s\""
+
+#: pan/task-save.c:416
+#, c-format
+msgid "Unable to save `%s': the article(s) couldn't be downloaded."
+msgstr ""
+
+#: pan/task-save.c:472
+#, c-format
+msgid "Unable to open file `%s' %s"
+msgstr ""
+
+#: pan/task-save.c:480
+#, c-format
+msgid "Saved article body to `%s'"
+msgstr ""
+
+#: pan/task-save.c:631
+msgid "Pan: Save Multipart Message"
+msgstr ""
+
+#: pan/task-save.c:643
+msgid ""
+"Pan found multiple copies of some of the parts of this post.\n"
+"Please select the parts to use for this save."
+msgstr ""
+
+#: pan/task-group-count.c:130
+#, c-format
+msgid "Updating article counts for %u groups from server `%s'"
+msgstr ""
+
+#: pan/task-group-count.c:159
+#, c-format
+msgid "Updated counts for %u groups out of %u"
+msgstr ""
+
+#: pan/task-group-count.c:177
+#, c-format
+msgid "Unable to update counts for group `%s'"
+msgstr ""
+
+#: pan/task-grouplist.c:142
+msgid "all groups"
+msgstr "gach grupa"
+
+#: pan/task-grouplist.c:143
+msgid "new groups"
+msgstr "grupaí nua"
+
+#: pan/task-grouplist.c:144 pan/task-headers.c:477
+msgid "BUG IN CODE"
+msgstr ""
+
+#: pan/task-grouplist.c:147
+#, c-format
+msgid "Getting %s from %s"
+msgstr ""
+
+#: pan/task-grouplist.c:160 pan/task-grouplist.c:239
+#, c-format
+msgid "Got %u groups for \"%s\""
+msgstr ""
+
+#: pan/task-grouplist.c:190
+#, fuzzy, c-format
+msgid "Adding groups to \"%s\""
+msgstr "Ag sábháil %s"
+
+#: pan/task-grouplist.c:287
+#, c-format
+msgid "Got %s groups for \"%s\""
+msgstr ""
+
+#. no big deal; possibly server doesn't support this command
+#: pan/task-grouplist.c:329
+#, c-format
+msgid "List Newsgroups failed: %s"
+msgstr ""
+
+#: pan/task-grouplist.c:364
+#, c-format
+msgid "Got %s descriptions for \"%s\""
+msgstr ""
+
+#: pan/task-grouplist.c:394
+#, c-format
+msgid "Got %d groups for server `%s'"
+msgstr ""
+
+#: pan/task-grouplist.c:423
+#, c-format
+msgid "Retrieving 0 new groups for \"%s\""
+msgstr ""
+
+#: pan/task-grouplist.c:442
+#, c-format
+msgid "New groups retrieval failed: %s"
+msgstr ""
+
+#: pan/task-grouplist.c:470
+#, c-format
+msgid "Retrieving %d new groups for \"%s\""
+msgstr ""
+
+#: pan/task-grouplist.c:479
+#, fuzzy, c-format
+msgid "Got %d new groups"
+msgstr "grupaí nua"
+
+#: pan/task-grouplist.c:482
+#, c-format
+msgid "Got %d news groups for \"%s\""
+msgstr ""
+
+#. log
+#: pan/task-headers.c:305
+#, c-format
+msgid "Fetched %u headers for `%s'"
+msgstr ""
+
+#: pan/task-headers.c:421
+#, c-format
+msgid "No new articles in group \"%s\""
+msgstr ""
+
+#: pan/task-headers.c:427
+#, c-format
+msgid "New %lu of %lu"
+msgstr ""
+
+#: pan/task-headers.c:434
+#, c-format
+msgid "Sampling %d articles"
+msgstr ""
+
+#: pan/task-headers.c:437
+#, c-format
+msgid "Sampling %lu of %lu"
+msgstr ""
+
+#: pan/task-headers.c:443
+#, c-format
+msgid "All %lu of %lu"
+msgstr ""
+
+#: pan/task-headers.c:474
+msgid "all headers"
+msgstr ""
+
+#: pan/task-headers.c:475
+msgid "new headers"
+msgstr ""
+
+#: pan/task-headers.c:476
+msgid "sample"
+msgstr ""
+
+#: pan/task-headers.c:480
+#, c-format
+msgid "Getting %s for \"%s\""
+msgstr ""
+
+#: pan/task-manager.c:215
+msgid "The Queue is Paused"
+msgstr ""
+
+#: pan/task-manager.c:216
+msgid "The Queue is not Paused"
+msgstr ""
+
+#: pan/task-manager.c:407
+#, c-format
+msgid "%.2f KB/s, %d:%02d:%02d remaining"
+msgstr ""
+
+#: pan/task-manager.c:422
+msgid "Not Queued"
+msgstr ""
+
+#: pan/task-manager.c:425
+msgid "Queued"
+msgstr ""
+
+#: pan/task-manager.c:428
+msgid "Running"
+msgstr ""
+
+#: pan/task-manager.c:431
+msgid "Failed"
+msgstr ""
+
+#: pan/task-manager.c:434
+msgid "Aborting"
+msgstr ""
+
+#: pan/task-manager.c:440
+msgid "???"
+msgstr ""
+
+#: pan/task-manager.c:449
+#, c-format
+msgid "%s (%d tries)"
+msgstr ""
+
+#: pan/task-manager.c:633
+#, c-format
+msgid "Pan %s Task Manager (%d Queued, %d Running, %d Failed)"
+msgstr ""
+
+#: pan/task-manager.c:635
+#, c-format
+msgid "Pan %s Task Manager (%d Queued, %d Running)"
+msgstr ""
+
+#: pan/task-manager.c:637
+#, c-format
+msgid "Pan %s Task Manager"
+msgstr ""
+
+#: pan/task-manager.c:773
+msgid "Move Selected Task(s) Up"
+msgstr ""
+
+#: pan/task-manager.c:782
+msgid "Move Selected Task(s) To Top"
+msgstr ""
+
+#: pan/task-manager.c:794
+msgid "Move Selected Task(s) Down"
+msgstr ""
+
+#: pan/task-manager.c:803
+msgid "Move Selected Task(s) To Bottom"
+msgstr ""
+
+#: pan/task-manager.c:816
+msgid "Requeue selected failed Task(s)"
+msgstr ""
+
+#: pan/task-manager.c:827
+msgid "Set Per-Server Connection Limits"
+msgstr ""
+
+#: pan/task-manager.c:835
+msgid "Clear Queue"
+msgstr ""
+
+#: pan/task-manager.c:844
+msgid "Cancel Selected Task(s)"
+msgstr ""
+
+#. queue list
+#: pan/task-manager.c:852
+msgid "Status"
+msgstr ""
+
+#: pan/task-manager.c:853
+msgid "% Done"
+msgstr ""
+
+#: pan/task-manager.c:854
+msgid "Server"
+msgstr ""
+
+#: pan/task-manager.c:855
+msgid "Transfer Rate"
+msgstr ""
+
+#: pan/task-manager.c:928
+msgid "Pan - Task Manager"
+msgstr ""
+
+#: pan/text.c:616
+msgid "Can't load the image."
+msgstr ""
+
+#: pan/text.c:733
+#, c-format
+msgid "Attachment: %s - %s - %s\n"
+msgstr ""
+
+#: pan/text.c:734
+msgid "Unknown Content Type"
+msgstr ""
+
+#: pan/text.c:735
+msgid "Unknown Encoding"
+msgstr ""
+
+#: pan/text.c:736
+#, fuzzy
+msgid "No Filename"
+msgstr "Ainmchomad"
+
+#: pan/util.c:170
+#, c-format
+msgid ""
+"thread %lu attempted double lock!\n"
+"first lock was in %s:%d (%s),\n"
+"now trying for another one from %s:%d (%s)"
+msgstr ""
+
+#: pan/util.c:200
+#, c-format
+msgid "thread %lu attempted to remove a lock it didn't have from %s:%d (%s)"
+msgstr ""
+
+#. try to execute it
+#: pan/util.c:407
+#, c-format
+msgid "Trying to open URL `%s' with `%s'"
+msgstr ""
+
+#: pan/filters/filter-aggregate.c:62
+msgid "NONE OF:"
+msgstr ""
+
+#: pan/filters/filter-aggregate.c:64
+msgid "ALL OF:"
+msgstr ""
+
+#: pan/filters/filter-aggregate.c:68
+msgid "NOT ANY OF:"
+msgstr ""
+
+#: pan/filters/filter-aggregate.c:70
+msgid "ANY OF:"
+msgstr ""
+
+#: pan/filters/filter-binary.c:63
+msgid "Article does not have complete attachments"
+msgstr ""
+
+#: pan/filters/filter-binary.c:65
+msgid "Article has complete attachments"
+msgstr ""
+
+#: pan/filters/filter-binary.c:69
+msgid "Article does not have incomplete attachments"
+msgstr ""
+
+#: pan/filters/filter-binary.c:71
+msgid "Article has incomplete attachments"
+msgstr ""
+
+#: pan/filters/filter-binary.c:75
+msgid "Article has complete or incomplete attachments"
+msgstr ""
+
+#: pan/filters/filter-binary.c:77
+msgid "Article has no attachments"
+msgstr ""
+
+#: pan/filters/filter-cached.c:52
+msgid "Article body isn't cached locally"
+msgstr ""
+
+#: pan/filters/filter-cached.c:54
+msgid "Article body is cached locally"
+msgstr ""
+
+#: pan/filters/filter-crosspost.c:55
+#, c-format
+msgid "Article is crossposted to less than %d groups"
+msgstr ""
+
+#: pan/filters/filter-crosspost.c:57
+#, c-format
+msgid "Article is crossposted to at least %d groups"
+msgstr ""
+
+#: pan/filters/filter-date.c:56
+#, c-format
+msgid "Article was posted in the last %d days"
+msgstr ""
+
+#: pan/filters/filter-date.c:58
+#, c-format
+msgid "Article is more than %d days old"
+msgstr ""
+
+#: pan/filters/filter-linecount.c:55
+#, c-format
+msgid "Article is less than %d lines long"
+msgstr ""
+
+#: pan/filters/filter-linecount.c:57
+#, c-format
+msgid "Article is %d or more lines long"
+msgstr ""
+
+#: pan/filters/filter-manager.c:105
+msgid "Bozos"
+msgstr ""
+
+#: pan/filters/filter-manager.c:106
+msgid "Spam"
+msgstr ""
+
+#: pan/filters/filter-mine.c:50
+msgid "Article was not posted by me"
+msgstr ""
+
+#: pan/filters/filter-mine.c:51
+msgid "Article was posted by me"
+msgstr ""
+
+#: pan/filters/filter-new.c:55
+msgid "Article is old"
+msgstr ""
+
+#: pan/filters/filter-new.c:57
+msgid "Article is new"
+msgstr ""
+
+#: pan/filters/filter-phrase.c:65
+#, c-format
+msgid "Subject doesn't match the regex `%s'"
+msgstr ""
+
+#: pan/filters/filter-phrase.c:67
+#, c-format
+msgid "Subject matches the regex `%s'"
+msgstr ""
+
+#: pan/filters/filter-phrase.c:71
+#, c-format
+msgid "Subject doesn't match the phrase `%s'"
+msgstr ""
+
+#: pan/filters/filter-phrase.c:73
+#, c-format
+msgid "Subject matches the phrase `%s'"
+msgstr ""
+
+#: pan/filters/filter-phrase.c:79
+#, c-format
+msgid "Author doesn't match regular expression `%s'"
+msgstr ""
+
+#: pan/filters/filter-phrase.c:81
+#, c-format
+msgid "Author matches regular expression `%s'"
+msgstr ""
+
+#: pan/filters/filter-phrase.c:85
+#, c-format
+msgid "Author doesn't match phrase `%s'"
+msgstr ""
+
+#: pan/filters/filter-phrase.c:87
+#, c-format
+msgid "Author matches phrase `%s'"
+msgstr ""
+
+#: pan/filters/filter-phrase.c:93
+#, c-format
+msgid "Message-ID doesn't match regular expression `%s'"
+msgstr ""
+
+#: pan/filters/filter-phrase.c:95
+#, c-format
+msgid "Message-ID matches regular expression `%s'"
+msgstr ""
+
+#: pan/filters/filter-phrase.c:99
+#, c-format
+msgid "Message-ID doesn't match phrase `%s'"
+msgstr ""
+
+#: pan/filters/filter-phrase.c:101
+#, c-format
+msgid "Message-ID matches phrase `%s'"
+msgstr ""
+
+#: pan/filters/filter-read.c:51
+msgid "Article is unread"
+msgstr ""
+
+#: pan/filters/filter-read.c:52
+msgid "Article is read"
+msgstr ""
+
+#: pan/filters/filter-saved.c:63
+msgid "Article has not been saved or decoded"
+msgstr ""
+
+#: pan/filters/filter-saved.c:65
+msgid "Article has been saved or decoded"
+msgstr ""
+
+#: pan/filters/filter-saved.c:69
+msgid "Article is not queued for saving or decoding"
+msgstr ""
+
+#: pan/filters/filter-saved.c:71
+msgid "Article is queued for saving or decoding"
+msgstr ""
+
+#: pan/filters/filter-saved.c:75
+msgid "Article is either saved or queued for saving"
+msgstr ""
+
+#: pan/filters/filter-saved.c:77
+msgid "Article is neither saved nor queued for saving"
+msgstr ""
+
+#: pan/filters/filter-score.c:55
+#, c-format
+msgid "Article's score is less than %d"
+msgstr ""
+
+#: pan/filters/filter-score.c:57
+#, c-format
+msgid "Article's score is %d or higher"
+msgstr ""
+
+#: pan/filters/filter-thread.c:59
+msgid "Thread isn't watched"
+msgstr ""
+
+#: pan/filters/filter-thread.c:61
+msgid "Thread is watched"
+msgstr ""
+
+#: pan/filters/filter-thread.c:65
+msgid "Thread isn't ignored"
+msgstr ""
+
+#: pan/filters/filter-thread.c:67
+msgid "Thread is ignored"
+msgstr ""
+
+#: pan/filters/filter-thread.c:71
+msgid "Thread is watched or ignored"
+msgstr ""
+
+#: pan/filters/filter-thread.c:73
+msgid "Thread is neither watched nor ignored"
+msgstr ""
+
+#: pan/filters/filter-xml.c:532
+#, c-format
+msgid "Wrote filters to `%s'"
+msgstr ""
+
+#: pan/filters/filter-xml.c:537
+#, c-format
+msgid "Can't write filters to `%s': %s"
+msgstr ""
+
+#: pan/rules/rule-action.c:242
+msgid "HEY you forgot to put a message here! :)"
+msgstr ""
+
+#: pan/rules/rule-action.c:244
+#, c-format
+msgid ""
+"%s\n"
+"\n"
+"Matches: %u\n"
+"Group: %s\n"
+"Rule: %s"
+msgstr ""
+
+#: pan/rules/rule-edit-ui.c:150
+msgid "_Play a Sound:"
+msgstr ""
+
+#: pan/rules/rule-edit-ui.c:155
+msgid "Test Sound"
+msgstr ""
+
+#: pan/rules/rule-edit-ui.c:161
+msgid "Show a_lert:"
+msgstr ""
+
+#: pan/rules/rule-edit-ui.c:169
+msgid "Mark as"
+msgstr ""
+
+#: pan/rules/rule-edit-ui.c:183
+msgid "Save attchments in:"
+msgstr ""
+
+#: pan/rules/rule-edit-ui.c:192
+msgid "_Flag body for download"
+msgstr ""
+
+#: pan/rules/rule-edit-ui.c:199
+msgid "_Retrieve body"
+msgstr ""
+
+#: pan/rules/rule-edit-ui.c:206
+msgid "_Watch thread (highlights the thread)"
+msgstr ""
+
+#: pan/rules/rule-edit-ui.c:213
+msgid "_Ignore thread (hides the thread by default)"
+msgstr ""
+
+#: pan/rules/rule-edit-ui.c:220
+#, fuzzy
+msgid "_Delete article"
+msgstr "_Scríos"
+
+#: pan/rules/rule-edit-ui.c:531
+msgid "Edit Filters"
+msgstr ""
+
+#: pan/rules/rule-edit-ui.c:539
+#, fuzzy
+msgid "Select Filter:"
+msgstr "Tóg Comhad"
+
+#. rule applies to all
+#: pan/rules/rule-edit-ui.c:645
+msgid "Rule applies to all newsgroups"
+msgstr ""
+
+#: pan/rules/rule-edit-ui.c:651
+msgid "Wildcard group specification:"
+msgstr ""
+
+#: pan/rules/rule-edit-ui.c:654
+msgid "(e.g., *anime*)"
+msgstr ""
+
+#: pan/rules/rule-edit-ui.c:659
+msgid "Rule applies to specific newsgroups:"
+msgstr ""
+
+#: pan/rules/rule-edit-ui.c:675
+msgid "Subscribed Newsgroups"
+msgstr ""
+
+#: pan/rules/rule-edit-ui.c:689
+msgid "Rule applies to:"
+msgstr ""
+
+#. dialog
+#: pan/rules/rule-edit-ui.c:828
+msgid "Pan: Edit Rule"
+msgstr ""
+
+#: pan/rules/rule-edit-ui.c:839
+#, fuzzy
+msgid "Rule Name:"
+msgstr "Do Ainm"
+
+#: pan/rules/rule-edit-ui.c:848
+msgid ""
+"If enabled, this rule will be applied to headers when they are downloaded."
+msgstr ""
+
+#: pan/rules/rule-edit-ui.c:858
+msgid "Newsgroups"
+msgstr ""
+
+#: pan/rules/rule-edit-ui.c:864
+msgid "Actions"
+msgstr ""
+
+#. populate
+#: pan/rules/rule-edit-ui.c:868
+msgid "New Rule"
+msgstr ""
+
+#: pan/rules/rule-manager.c:107
+msgid "Delete Articles by Bozos"
+msgstr ""
+
+#: pan/rules/rule-manager.c:108
+#, fuzzy
+msgid "Delete Spam"
+msgstr "Scríos"
+
+#: pan/rules/rule-ui.c:352
+msgid "Applying Rule to Selected Groups"
+msgstr ""
+
+#: pan/rules/rule-ui.c:377
+#, c-format
+msgid "Loading group `%s'"
+msgstr ""
+
+#: pan/rules/rule-ui.c:381
+#, c-format
+msgid "Applying rule `%s' to Group `%s'"
+msgstr ""
+
+#: pan/rules/rule-ui.c:387
+#, fuzzy, c-format
+msgid "Saving group `%s'"
+msgstr "Ag sábháil %s"
+
+#: pan/rules/rule-ui.c:394
+#, c-format
+msgid "Refreshing group `%s'"
+msgstr ""
+
+#. dialog
+#: pan/rules/rule-ui.c:483
+#, fuzzy
+msgid "Pan: Rules"
+msgstr "Pan %s"
+
+#. clist
+#: pan/rules/rule-ui.c:493
+msgid "Rules"
+msgstr ""
+
+#: pan/rules/rule-ui.c:494
+msgid "Hit Ratio"
+msgstr ""
+
+#: pan/rules/rule-ui.c:517
+msgid "Add a new rule."
+msgstr ""
+
+#: pan/rules/rule-ui.c:523
+msgid "Edit the selected rule."
+msgstr ""
+
+#: pan/rules/rule-ui.c:530
+msgid "Remove the selected rule."
+msgstr ""
+
+#. apply to selected
+#: pan/rules/rule-ui.c:535
+msgid ""
+"Apply to\n"
+"Selected\n"
+"Groups"
+msgstr ""
+
+#: pan/rules/rule-ui.c:537
+msgid "Apply the Selected Rule to the Selected Groups."
+msgstr ""
+
+#. apply to subscribed
+#: pan/rules/rule-ui.c:542
+msgid ""
+"Apply to\n"
+"Subscribed\n"
+"Groups"
+msgstr ""
+
+#: pan/rules/rule-ui.c:544
+msgid "Apply the Selected Rule to all Subscribed Groups."
+msgstr ""
+
+#: pan/rules/rule-xml.c:268
+#, c-format
+msgid "Wrote rules to `%s'"
+msgstr ""
+
+#: pan/rules/rule-xml.c:273
+#, c-format
+msgid "Can't write rules to `%s': %s"
+msgstr ""
+
+#: pan/rules/rule.c:285
+#, c-format
+msgid "Can't find filter `%s' needed by rule `%s', so no articles match."
+msgstr ""
+
+#: pan/rules/rule.c:295
+#, c-format
+msgid "%u articles match rule %s"
+msgstr ""
+
+#: pan/identities/identity-edit-ui.c:122
+msgid "Profile Information"
+msgstr ""
+
+#: pan/identities/identity-edit-ui.c:143
+msgid "Make this the default profile for news"
+msgstr ""
+
+#: pan/identities/identity-edit-ui.c:149
+msgid "Make this the default profile for mail"
+msgstr ""
+
+#: pan/identities/identity-edit-ui.c:154
+msgid "Required Information"
+msgstr ""
+
+#: pan/identities/identity-edit-ui.c:164
+#, fuzzy
+msgid "Full User Name:"
+msgstr "Do Ainm"
+
+#: pan/identities/identity-edit-ui.c:175
+#, fuzzy
+msgid "Email Address:"
+msgstr "Seoladh"
+
+#: pan/identities/identity-edit-ui.c:185
+msgid "Optional Information"
+msgstr ""
+
+#: pan/identities/identity-edit-ui.c:195
+msgid "Reply To:"
+msgstr ""
+
+#: pan/identities/identity-edit-ui.c:205
+#, fuzzy
+msgid "Message ID FQDN:"
+msgstr "Scéal"
+
+#: pan/identities/identity-edit-ui.c:227
+msgid "Attribution:"
+msgstr ""
+
+#: pan/identities/identity-edit-ui.c:241 pan/identities/identity-edit-ui.c:247
+msgid "Signature File:"
+msgstr ""
+
+#: pan/identities/identity-edit-ui.c:311 pan/identities/identity.c:48
+#, c-format
+msgid "On %d, %n wrote:"
+msgstr ""
+
+#. dialog
+#: pan/identities/identity-edit-ui.c:534
+#, fuzzy
+msgid "Pan: Edit Profile"
+msgstr "Nua/Eagar Freastal"
+
+#: pan/identities/identity-edit-ui.c:546
+msgid "User Profile"
+msgstr ""
+
+#: pan/identities/identity-ui.c:213
+msgid "You need at least one profile"
+msgstr ""
+
+#: pan/identities/identity-ui.c:254 pan/identities/identity-ui.c:357
+msgid "Incomplete Profile."
+msgstr ""
+
+#: pan/identities/identity-ui.c:322
+#, fuzzy
+msgid "New Profile"
+msgstr "Tóg Comhad"
+
+#. dialog
+#: pan/identities/identity-ui.c:448
+#, fuzzy
+msgid "Pan: Profile"
+msgstr "Priontail"
+
+#. clist
+#: pan/identities/identity-ui.c:458
+msgid "Profile"
+msgstr ""
+
+#: pan/identities/identity-ui.c:480
+msgid "Add a new profile"
+msgstr ""
+
+#. copy from button
+#: pan/identities/identity-ui.c:484
+msgid "Copy From"
+msgstr ""
+
+#: pan/identities/identity-ui.c:486
+msgid "Use the selected profile to create a new profile"
+msgstr ""
+
+#: pan/identities/identity-ui.c:493
+msgid "Edit the selected profile"
+msgstr ""
+
+#: pan/identities/identity-ui.c:500
+msgid "Remove the selected profile"
+msgstr ""
+
+#: pan/identities/identity-xml.c:286
+#, c-format
+msgid "Wrote %d profiles to '%s'"
+msgstr ""
+
+#: pan/identities/identity-xml.c:290
+#, c-format
+msgid "Can't write profiles to `%s': %s"
+msgstr ""
+
+#, fuzzy
+msgid "Dele_te..."
+msgstr "Scríos"
+
+#, fuzzy
+msgid "No Subject"
+msgstr "- Abair"
+
+#, fuzzy
+msgid "newsgroups"
+msgstr "grupaí nua"
+
+msgid "Okay"
+msgstr "Ceart go Leor"
+
+msgid "Internal Error"
+msgstr "Earraidh intíre"
+
+msgid "+ Date"
+msgstr "+ Data"
+
+msgid "- Date"
+msgstr "- Data"
+
+msgid "_Group"
+msgstr "_Grupa"
+
+msgid "Fo_lder"
+msgstr "_Comhadlann"
+
+msgid " [%s]"
+msgstr " [%s]"
+
+msgid "[Any]"
+msgstr "[Gach rud]"
+
+msgid "groups"
+msgstr "grupaí"
+
+msgid "Written by"
+msgstr "Scríobh le"
+
+msgid "_Message"
+msgstr "_Scéal"
+
+msgid "Print this message"
+msgstr "Priontáil an sceál seo"
+
+msgid "Close this Window"
+msgstr "Dún an fhuinneog seo"
+
+msgid "User"
+msgstr "Úsáideoir"
+
+msgid "Opening %s"
+msgstr "Ag oscailt %s"
+
+msgid "Yes"
+msgstr "Tá"
+
+msgid "_Add"
+msgstr "_Suim"
+
+msgid "_Copy"
+msgstr "_Cóip"
+
+msgid "_Edit"
+msgstr "_Eagar"
+
+msgid "_Up"
+msgstr "S_uas"
+
+msgid "_Down"
+msgstr "S_íos"
+
+#, fuzzy
+#~ msgid "Newsrc Files"
+#~ msgstr "Tóg Comhad"

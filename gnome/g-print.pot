@@ -1,0 +1,282 @@
+# Irish translations for g-print
+# Copyright (C) 2000 Free Software Foundation, Inc.
+# ALastair McKinstry <mckinstry@computer.org>, 2000.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: g-print 0.2\n"
+"POT-Creation-Date: 2000-02-13 22:33+0100\n"
+"PO-Revision-Date: 2000-03-10 23:03+0000\n"
+"Last-Translator: Alastair McKinstry <mckinstry@computer.org>\n"
+"Language-Team: Irish <ga@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=iso-8859-1\n"
+"Content-Transfer-Encoding: 8-bit\n"
+
+#: src/config.c:62
+msgid ""
+"Choose the queue that you want to configure from the\n"
+"following list."
+msgstr ""
+
+#: src/config.c:76
+msgid "Printer queue:"
+msgstr ""
+
+#: src/config.c:121
+msgid "No conversion (pass this verbatim to printer)"
+msgstr ""
+
+#: src/config.c:122
+msgid "PostScript printer"
+msgstr "Printéir PostScript"
+
+#: src/config.c:123
+msgid "HP LaserJet 3 at 300dpi"
+msgstr "HP LaserJet 3 (300dpi)"
+
+#: src/config.c:124
+msgid "HP LaserJet 4 at 300dpi"
+msgstr "HP LaserJet 4 (300dpi)"
+
+#: src/config.c:125
+msgid "HP LaserJet 4 at 600dpi"
+msgstr "HP LaserJet 4 (600dpi)"
+
+#: src/config.c:126
+msgid "HP LaserJet"
+msgstr "HP LaserJet"
+
+#: src/config.c:127
+msgid "HP LaserJet Plus"
+msgstr "HP LaserJet Plus"
+
+#: src/config.c:128
+msgid "HP LaserJet 2P"
+msgstr "HP LaserJet 2P"
+
+#: src/config.c:129
+msgid "HP LaserJet 3D"
+msgstr "HP LaserJet 3D"
+
+#: src/config.c:130
+msgid "HP DeskJet"
+msgstr "HP DeskJet"
+
+#: src/config.c:131
+msgid "HP DeskJet 500"
+msgstr "HP DeskJet 500"
+
+#: src/config.c:132
+msgid "HP DeskJet 500c"
+msgstr "HP DeskJet 500c"
+
+#: src/config.c:133 src/config.c:136
+msgid "HP Color DeskJet"
+msgstr "HP Color DeskJet"
+
+#: src/config.c:134
+msgid "HP Color DeskJet 500"
+msgstr "HP Color DeskJet 500"
+
+#: src/config.c:135
+msgid "HP Color DeskJet 550"
+msgstr "HP Color DeskJet 550"
+
+#: src/config.c:137
+msgid "PJXL"
+msgstr "PJXL"
+
+#: src/config.c:138
+msgid "PJXL at 300dpi"
+msgstr "PJXL at 300dpi"
+
+#: src/config.c:139
+msgid "Bubble Jet 10e"
+msgstr "Bubble Jet 10e"
+
+#: src/config.c:140
+msgid "Bubble Jet 200"
+msgstr "Bubble Jet 200"
+
+#: src/config.c:141
+msgid "Bubble Jet Color 600"
+msgstr "Bubble Jet Color 600"
+
+#: src/config.c:142
+msgid "FAX, g3 format"
+msgstr "FAX, formóid g3"
+
+#: src/config.c:143
+msgid "FAX, g32d format"
+msgstr "FAX, formóid g32d "
+
+#: src/config.c:144
+msgid "FAX, g4 format"
+msgstr "FAX, formóidd 64"
+
+#: src/config.c:145
+msgid "Epson color"
+msgstr "Epson color"
+
+#: src/config.c:146
+msgid "IBM ProPrinter"
+msgstr "IBM ProPrinter"
+
+#: src/config.c:206
+msgid "Letter"
+msgstr "US Letter"
+
+#: src/config.c:207
+msgid "Legal"
+msgstr "Legal"
+
+#: src/config.c:208
+msgid "A4"
+msgstr "A4"
+
+#: src/config.c:265 src/config.c:309
+msgid ""
+"Select whether this queue will do automatic conversions\n"
+"of the data passed to one of the following designated types\n"
+msgstr ""
+
+#: src/config.c:270
+msgid "No format conversion"
+msgstr ""
+
+#: src/config.c:273
+msgid "Convert to this type:"
+msgstr ""
+
+#.
+#. * Paper type
+#.
+#: src/config.c:319
+msgid "Paper type:"
+msgstr ""
+
+#: src/config.c:339
+msgid "The printer queue has now been configured"
+msgstr ""
+
+#: src/config.c:355
+msgid "Choose Printer Queue"
+msgstr ""
+
+#: src/config.c:356
+msgid "Select Printer Type"
+msgstr ""
+
+#: src/config.c:357
+msgid "Select Paper Size"
+msgstr "Tóg mhéid do paipéir"
+
+#: src/config.c:358
+msgid "Finish"
+msgstr "Criochnaigh"
+
+#: src/config.c:365
+msgid ""
+"Printer configuration cancelled.\n"
+"Do you want to configure another printer queue?"
+msgstr ""
+
+#: src/config.c:396
+msgid "Congratulations!  You have successfully configured your printer"
+msgstr ""
+
+#: src/config.c:415
+msgid "I did not find any printer queues configured on this system"
+msgstr ""
+
+#: src/config.c:422
+msgid "Printer Configuration"
+msgstr "Cumraigh Printéir"
+
+#: src/printcap.c:55
+#, c-format
+msgid "Could not open printcap file: %s"
+msgstr ""
+
+#: src/xprint.c:28
+msgid "Specifies the printer queue name"
+msgstr ""
+
+#: src/xprint.c:28
+msgid "QUEUE"
+msgstr ""
+
+#: src/xprint.c:30
+msgid "Specifies a spooler command"
+msgstr ""
+
+#: src/xprint.c:30
+msgid "SPOOLER"
+msgstr ""
+
+#: src/xprint.c:32
+msgid "Specifies the mime-type of the printer accepted input"
+msgstr ""
+
+#: src/xprint.c:32
+msgid "MIME-TYPE"
+msgstr "SAGHAS-MIME"
+
+#: src/xprint.c:34
+msgid "Specifies that no conversions should be done"
+msgstr ""
+
+#: src/xprint.c:35 src/xprint.c:37
+msgid "DESKTOP-DIR"
+msgstr "DEASC-COMHAD"
+
+#: src/xprint.c:36 src/xprint.c:38
+msgid "Creates links to this program in the directory specified"
+msgstr ""
+
+#: src/xprint.c:111
+msgid ""
+"I can not locate the printer spooler program.\n"
+"Try using the --spooler option to specify the command format.\n"
+msgstr ""
+
+#: src/xprint.c:129
+msgid "Error starting up the spooler program."
+msgstr ""
+
+#: src/xprint.c:162
+#, c-format
+msgid "Can not open file `%s' for printing."
+msgstr ""
+
+#: src/xprint.c:225
+#, c-format
+msgid "File `%s' could not be opened for reading."
+msgstr ""
+
+#: src/xprint.c:250
+#, c-format
+msgid ""
+"Cannot figure out the mime type for %s,\n"
+"do I print this without conversion?"
+msgstr ""
+
+#: src/xprint.c:281
+#, c-format
+msgid ""
+"Conversion of file %s from %s to %s failed.\n"
+"Do you want to send the raw file to the printer?"
+msgstr ""
+
+#: src/xprint.c:323
+#, c-format
+msgid ""
+"There are %d printers defined on this system.\n"
+"Do you want to create shortcuts to every one?"
+msgstr ""
+
+#: src/xprint.c:352
+#, c-format
+msgid "Printer %s"
+msgstr "Printéir %s"

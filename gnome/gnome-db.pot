@@ -1,0 +1,1651 @@
+# Irish (Gaeilge) translations for gnome-db
+# Copyright (C) 2000 Free Software Foundation, Inc.
+# Alastair McKinstry <mckinstry@computer.org>, 2000.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-db CVS\n"
+"POT-Creation-Date: 2001-11-18 19:26+0100\n"
+"PO-Revision-Date: 2000-03-13 18:23+0000\n"
+"Last-Translator:  Alastair McKinstry <mckinstry@computer.org>\n"
+"Language-Team: Irish <ga@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=iso-8859-1\n"
+"Content-Transfer-Encoding: 8-bit\n"
+
+#: builder/GNOME_DB_Builder.oaf.in.h:1
+#, fuzzy
+msgid "Builder"
+msgstr "Bainisteoir GNOME-DB"
+
+#: builder/GNOME_DB_Builder.oaf.in.h:2
+#, fuzzy
+msgid "GNOME-DB application builder component factory"
+msgstr "Bainisteoir GNOME-DB"
+
+#: builder/gnomedb-builder-control.c:24 builder/gnomedb-builder-control.c:33
+#, fuzzy
+msgid "Perl script..."
+msgstr "Priontáil..."
+
+#: builder/gnomedb-builder-control.c:24
+msgid "Create a new Perl script"
+msgstr ""
+
+#: builder/gnomedb-builder-control.c:27 builder/gnomedb-builder-control.c:36
+msgid "Report..."
+msgstr ""
+
+#: builder/gnomedb-builder-control.c:27
+msgid "Create new report"
+msgstr ""
+
+#: builder/gnomedb-builder-control.c:33
+msgid "Open an existing Perl script"
+msgstr ""
+
+#: builder/gnomedb-builder-control.c:36
+msgid "Open an existing report"
+msgstr ""
+
+#: builder/gnomedb-builder-control.c:42 ui/gnomedb-com-designer.xml.h:14
+#: ui/gnomedb-fe.xml.h:37 ui/gnomedb-manager.xml.h:13
+#, fuzzy
+msgid "_New"
+msgstr "Nua"
+
+#: builder/gnomedb-builder-control.c:43 ui/gnomedb-com-designer.xml.h:15
+#, fuzzy
+msgid "_Open"
+msgstr "Oscail"
+
+#: builder/gnomedb-builder-control.c:47 ui/gnomedb-com-connection.xml.h:33
+#: ui/gnomedb-com-designer.xml.h:13 ui/gnomedb-com-log.xml.h:8
+#: ui/gnomedb-fe.xml.h:35 ui/gnomedb-manager.xml.h:12
+#, fuzzy
+msgid "_File"
+msgstr "Comhad"
+
+#: builder/gnomedb-builder-control.c:51 lib/gnome-db-browser.c:93
+#: manager/gnomedb-mgr-providers.c:25 ui/gnomedb-com-designer.xml.h:4
+msgid "New"
+msgstr "Nua"
+
+#: builder/gnomedb-builder-control.c:51
+msgid "Add new module to project"
+msgstr ""
+
+#: builder/gnomedb-builder-control.c:54
+#: components/gnomedb-com-connection.c:229 ui/gnomedb-com-designer.xml.h:6
+msgid "Open"
+msgstr "Oscail"
+
+#: builder/gnomedb-builder-control.c:54
+msgid "Open an existing module"
+msgstr ""
+
+#: components/GNOME_DB_ComponentFactory.oaf.in.h:1
+#, fuzzy
+msgid "Database Component factory"
+msgstr "Bainisteoir GNOME-DB"
+
+#: components/GNOME_DB_Export.oaf.in.h:1 ui/gnomedb-com-connection.xml.h:14
+#, fuzzy
+msgid "Export"
+msgstr "Ealu"
+
+#: components/GNOME_DB_Designer.oaf.in.h:1
+msgid "Designer"
+msgstr ""
+
+#: components/GNOME_DB_Monikers.oaf.in.h:1
+msgid "Database Moniker"
+msgstr ""
+
+#: components/GNOME_DB_Monikers.oaf.in.h:2
+msgid "Database Moniker factory"
+msgstr ""
+
+#. create the information widgets
+#: components/GNOME_DB_Connection.oaf.in.h:1 lib/gnome-db-export.c:471
+msgid "Database"
+msgstr ""
+
+#: components/GNOME_DB_Log.oaf.in.h:1
+msgid "Logs"
+msgstr ""
+
+#: components/gnomedb-com-connection.c:159
+#: components/gnomedb-com-connection.c:226
+#, fuzzy
+msgid "Select"
+msgstr "Tóg gach rud"
+
+#: components/gnomedb-com-connection.c:159
+#, fuzzy
+msgid "State"
+msgstr "Sábháil"
+
+#: components/gnomedb-com-connection.c:159
+msgid "File name"
+msgstr "Ainm comhad"
+
+#. create tollbar
+#. create file options area
+#: components/gnomedb-com-connection.c:171 lib/gnome-db-export.c:502
+msgid "Options"
+msgstr "Roghnachais"
+
+#: components/gnomedb-com-connection.c:187
+msgid "Transaction mode"
+msgstr ""
+
+#. create log window
+#: components/gnomedb-com-connection.c:194 lib/gnome-db-export.c:593
+msgid "Log"
+msgstr ""
+
+#: components/gnomedb-com-connection.c:207
+msgid "Batch"
+msgstr ""
+
+#: components/gnomedb-com-connection.c:219 ui/gnomedb-com-connection.xml.h:5
+msgid "Browser"
+msgstr ""
+
+#: components/gnomedb-com-connection.c:223
+msgid "Run"
+msgstr "Rith"
+
+#: components/gnomedb-com-connection.c:223
+msgid "Execute current command"
+msgstr ""
+
+#: components/gnomedb-com-connection.c:226
+msgid "Select command from previous"
+msgstr ""
+
+#. create dialog
+#: components/gnomedb-com-connection.c:229
+#: components/gnomedb-com-connection.c:729
+#, fuzzy
+msgid "Open SQL command"
+msgstr "Oscail Comhad"
+
+#: components/gnomedb-com-connection.c:232 ui/gnomedb-com-designer.xml.h:10
+#: ui/gnomedb-com-log.xml.h:4
+msgid "Save"
+msgstr "Sábháil"
+
+#: components/gnomedb-com-connection.c:232
+msgid "Save command for later retrieval"
+msgstr ""
+
+#: components/gnomedb-com-connection.c:236
+msgid "Cut"
+msgstr "Gearr"
+
+#: components/gnomedb-com-connection.c:236
+msgid "Cut selected text"
+msgstr ""
+
+#: components/gnomedb-com-connection.c:239 lib/gnome-db-grid.c:216
+msgid "Copy"
+msgstr "Cóip"
+
+#: components/gnomedb-com-connection.c:239
+msgid "Copy selected text"
+msgstr ""
+
+#: components/gnomedb-com-connection.c:242
+msgid "Paste"
+msgstr "Greamhaigh"
+
+#: components/gnomedb-com-connection.c:242
+msgid "Paste text from clipboard"
+msgstr ""
+
+#: components/gnomedb-com-connection.c:245
+msgid "Clear"
+msgstr "Glan"
+
+#: components/gnomedb-com-connection.c:245
+msgid "Clear widget contents"
+msgstr ""
+
+#: components/gnomedb-com-connection.c:287 ui/gnomedb-com-connection.xml.h:24
+msgid "SQL"
+msgstr ""
+
+#: components/gnomedb-com-connection.c:350
+msgid "Transaction started"
+msgstr ""
+
+#: components/gnomedb-com-connection.c:354
+#: components/gnomedb-com-connection.c:373
+#: components/gnomedb-com-connection.c:619
+msgid "Transactions not supported"
+msgstr ""
+
+#: components/gnomedb-com-connection.c:370
+msgid "Transaction finished successfully"
+msgstr ""
+
+#: components/gnomedb-com-connection.c:401
+msgid "Connection closed"
+msgstr ""
+
+#. create the dialog box
+#: components/gnomedb-com-connection.c:487
+msgid "Export database"
+msgstr ""
+
+#: components/gnomedb-com-connection.c:515
+msgid "1 row returned"
+msgstr ""
+
+#: components/gnomedb-com-connection.c:517
+#, c-format
+msgid "%d rows returned"
+msgstr ""
+
+#. create login dialog box
+#: components/gnomedb-com-connection.c:543 lib/gnome-db-export.c:229
+msgid "Open connection"
+msgstr ""
+
+#: components/gnomedb-com-connection.c:594
+msgid "Connection opened"
+msgstr ""
+
+#: components/gnomedb-com-connection.c:616
+msgid "Transaction aborted"
+msgstr ""
+
+#: components/gnomedb-com-connection.c:638
+msgid "Connection Properties"
+msgstr ""
+
+#: components/gnomedb-com-connection.c:644 lib/gnome-db-dsn-config.c:56
+#: lib/gnome-db-login.c:149
+msgid "GDA Name"
+msgstr "Ainm GDA"
+
+#: components/gnomedb-com-connection.c:651 lib/gnome-db-dsn-config-druid.c:327
+#: lib/gnome-db-dsn-config.c:64 manager/gnomedb-mgr-dsn.c:298
+msgid "Provider"
+msgstr ""
+
+#: components/gnomedb-com-connection.c:657
+#, fuzzy
+msgid "User name"
+msgstr "Úsáidtheoir"
+
+#: components/gnomedb-com-connection.c:663
+msgid "Version"
+msgstr ""
+
+#: components/gnomedb-com-connection.c:698
+msgid "Text copied to clipboard"
+msgstr ""
+
+#: components/gnomedb-com-connection.c:709
+msgid "Text cut into the clipboard"
+msgstr ""
+
+#: components/gnomedb-com-connection.c:723
+#: components/gnomedb-com-connection.c:923 frontend/gnomedb-fe-wizard.c:54
+#: lib/gnome-db-designer.c:121 lib/gnome-db-designer.c:248
+#: lib/gnome-db-dsn-config-druid.c:318 manager/gnomedb-mgr-dsn.c:298
+#: manager/gnomedb-mgr-providers.c:98
+msgid "Name"
+msgstr "Ainm"
+
+#: components/gnomedb-com-connection.c:723
+#: components/gnomedb-com-connection.c:922
+#: components/gnomedb-com-connection.c:923 lib/gnome-db-error.c:264
+msgid "Command"
+msgstr "Ordú"
+
+#. from config stuff
+#: components/gnomedb-com-connection.c:739
+msgid "From saved query"
+msgstr ""
+
+#. from file stuff
+#: components/gnomedb-com-connection.c:752
+#, fuzzy
+msgid "From file"
+msgstr "Comhad"
+
+#: components/gnomedb-com-connection.c:774
+#, c-format
+msgid "Error loading file %s"
+msgstr ""
+
+#: components/gnomedb-com-connection.c:803
+msgid "Text pasted from the clipboard"
+msgstr ""
+
+#: components/gnomedb-com-connection.c:823
+msgid "Command executed successfully"
+msgstr ""
+
+#. create dialog
+#: components/gnomedb-com-connection.c:845
+msgid "Save SQL command"
+msgstr ""
+
+#. to saved query stuff
+#: components/gnomedb-com-connection.c:854
+msgid "To query"
+msgstr ""
+
+#: components/gnomedb-com-connection.c:857
+msgid "Save command to a named query"
+msgstr ""
+
+#. to file stuff
+#: components/gnomedb-com-connection.c:861
+msgid "To file"
+msgstr ""
+
+#: components/gnomedb-com-connection.c:864
+msgid "Select the file to save the command to"
+msgstr ""
+
+#: components/gnomedb-com-connection.c:882
+msgid "Query must have a name"
+msgstr ""
+
+#: components/gnomedb-com-connection.c:890
+#, c-format
+msgid "Could not save file %s"
+msgstr ""
+
+#. create the dialog
+#: components/gnomedb-com-connection.c:928
+msgid "Select SQL Command"
+msgstr ""
+
+#: components/gnomedb-com-connection.c:944
+msgid "Here is shown the currently selected command's text"
+msgstr ""
+
+#. create list of last commands
+#: components/gnomedb-com-connection.c:948
+#, fuzzy
+msgid "Last commands"
+msgstr "Ordú"
+
+#: components/gnomedb-com-connection.c:957
+msgid "This is a list of the last commands you've executed"
+msgstr ""
+
+#. create list of saved queries
+#: components/gnomedb-com-connection.c:980
+#, fuzzy
+msgid "Saved queries"
+msgstr "Sábháil le"
+
+#: components/gnomedb-com-connection.c:989
+msgid "This is a list of all the named queries you've stored"
+msgstr ""
+
+#: components/gnomedb-com-connection-pool.c:34
+msgid "Error Viewer"
+msgstr ""
+
+#. create the dialog
+#: components/gnomedb-com-designer.c:55
+msgid "Add new table"
+msgstr ""
+
+#: components/gnomedb-com-designer.c:60
+msgid "Enter the name of the table to add"
+msgstr ""
+
+#: components/gnomedb-com-designer.c:84
+msgid "Select database design"
+msgstr ""
+
+#: components/gnomedb-com-log.c:90
+#, c-format
+msgid "Error loading log for '%s'"
+msgstr ""
+
+#: components/gnomedb-com-log.c:105
+#, fuzzy
+msgid "Save Log File"
+msgstr "Oscail Comhad"
+
+#: components/gnomedb-monikers-database.c:61
+msgid "Could not create 'database:' moniker instance"
+msgstr ""
+
+#: frontend/gnomedb-fe-callbacks.c:168
+msgid "Open Perl script"
+msgstr ""
+
+#: frontend/gnomedb-fe-config.c:144 frontend/gnomedb-fe-config.c:160
+msgid "Load"
+msgstr ""
+
+#: frontend/gnomedb-fe-config.c:144
+msgid "Component"
+msgstr ""
+
+#: frontend/gnomedb-fe-config.c:144
+msgid "OAFIID"
+msgstr ""
+
+#: frontend/gnomedb-fe-config.c:167
+msgid "Unload"
+msgstr ""
+
+#: frontend/gnomedb-fe-config.c:174
+msgid "Components"
+msgstr ""
+
+#: frontend/gnomedb-fe-config.c:225
+msgid "General"
+msgstr ""
+
+#. 'save window position' option
+#: frontend/gnomedb-fe-config.c:228
+msgid "Save window position"
+msgstr ""
+
+#: frontend/gnomedb-fe-config.c:230
+msgid "If enabled, save the window position on exit"
+msgstr ""
+
+#. 'show tooltips' option
+#: frontend/gnomedb-fe-config.c:235
+msgid "Show tooltips"
+msgstr ""
+
+#: frontend/gnomedb-fe-config.c:237
+msgid "Show tooltips for UI widgets"
+msgstr ""
+
+#. create dialog
+#: frontend/gnomedb-fe-config.c:275
+msgid "Preferences"
+msgstr "Roghnachais"
+
+#. create the dialog
+#: frontend/gnomedb-fe-wizard.c:39
+msgid "New database"
+msgstr ""
+
+#: frontend/gnomedb-fe-wizard.c:50
+msgid "Create a new data source for this database"
+msgstr ""
+
+#: frontend/gnomedb-fe-wizard.c:60 lib/gnome-db-dsn-config-druid.c:360
+#: lib/gnome-db-dsn-config.c:90 lib/gnome-db-error.c:223
+#: manager/gnomedb-mgr-dsn.c:298 manager/gnomedb-mgr-providers.c:98
+msgid "Description"
+msgstr ""
+
+#: frontend/gnomedb-fe-wizard.c:66
+msgid "Directory"
+msgstr "Comhadlann"
+
+#: frontend/gnomedb-fe-wizard.c:90
+msgid "You must specify a name for the data source"
+msgstr ""
+
+#: frontend/gnomedb-fe-wizard.c:94
+msgid "You must specify a directory for the new database"
+msgstr ""
+
+#: frontend/gnomedb-fe-wizard.c:110
+msgid "Could not save GDA data source"
+msgstr ""
+
+#: frontend/gnomedb-fe.desktop.in.h:1
+msgid "GNOME-DB Front End"
+msgstr ""
+
+#: frontend/gnomedb-fe.desktop.in.h:2
+msgid "GNOME-DB Front End Application"
+msgstr ""
+
+#: lib/gnome-db-browser.c:66
+msgid "Data"
+msgstr ""
+
+#: lib/gnome-db-browser.c:66
+msgid "Show table data"
+msgstr ""
+
+#: lib/gnome-db-browser.c:79 lib/gnome-db-designer.c:74
+#: lib/gnome-db-export.c:548
+msgid "Tables"
+msgstr ""
+
+#: lib/gnome-db-browser.c:81 lib/gnome-db-designer.c:62
+msgid "Views"
+msgstr "Radharcanna"
+
+#: lib/gnome-db-browser.c:83
+msgid "Procedures"
+msgstr ""
+
+#: lib/gnome-db-browser.c:85
+msgid "Types"
+msgstr "Saghasanna"
+
+#: lib/gnome-db-browser.c:87
+msgid "Aggregates"
+msgstr ""
+
+#: lib/gnome-db-browser.c:89
+msgid "Sequences"
+msgstr ""
+
+#: lib/gnome-db-browser.c:93
+msgid "Create new object of selected type"
+msgstr ""
+
+#: lib/gnome-db-browser.c:96 manager/gnomedb-mgr-dsn.c:45
+msgid "Remove"
+msgstr "Scríos"
+
+#: lib/gnome-db-browser.c:96
+msgid "Remove selected object"
+msgstr ""
+
+#: lib/gnome-db-browser.c:99 manager/gnomedb-mgr-dsn.c:48
+#: manager/gnomedb-mgr-providers.c:31 ui/gnomedb-com-designer.xml.h:8
+#: ui/gnomedb-com-log.xml.h:2
+msgid "Refresh"
+msgstr ""
+
+#: lib/gnome-db-browser.c:99
+msgid "Refresh current list of objects"
+msgstr ""
+
+#: lib/gnome-db-browser.c:102
+msgid "Info"
+msgstr "Eolas"
+
+#: lib/gnome-db-browser.c:102
+msgid "Show extra information about selected object"
+msgstr ""
+
+#. build the dialog
+#: lib/gnome-db-browser.c:303
+#, fuzzy
+msgid "Extra information"
+msgstr "Eirigh as fiedhmchlár"
+
+#. create dialog
+#: lib/gnome-db-browser.c:366
+#, fuzzy
+msgid "Table data"
+msgstr "Ainm comhad"
+
+#: lib/gnome-db.c:106
+#, fuzzy
+msgid "Select Color"
+msgstr "Tóg gach rud"
+
+#: lib/gnome-db.c:156
+msgid "Select File"
+msgstr "Tóg Comhad"
+
+#: lib/gnome-db.c:174
+#, fuzzy
+msgid "Select Font"
+msgstr "Tóg Comhad"
+
+#: lib/gnome-db-control-widget.c:408
+msgid "Could not get GNOME_Database_UIControl interface"
+msgstr ""
+
+#: lib/gnome-db-designer.c:45
+msgid "Add field..."
+msgstr ""
+
+#: lib/gnome-db-designer.c:45
+msgid "Add a new field to this table"
+msgstr ""
+
+#: lib/gnome-db-designer.c:48
+msgid "Edit field..."
+msgstr ""
+
+#: lib/gnome-db-designer.c:48
+msgid "Edit the selected field properties"
+msgstr ""
+
+#: lib/gnome-db-designer.c:121
+msgid "GDA Type"
+msgstr "Saghas  GDA"
+
+#: lib/gnome-db-designer.c:121
+msgid "Size"
+msgstr "Méid"
+
+#: lib/gnome-db-designer.c:121
+msgid "Scale"
+msgstr ""
+
+#: lib/gnome-db-designer.c:135
+msgid "Table name"
+msgstr "Ainm bord"
+
+#: lib/gnome-db-designer.c:142
+msgid "Owner"
+msgstr "Úinéar"
+
+#. create dialog
+#: lib/gnome-db-designer.c:240
+msgid "Add field"
+msgstr ""
+
+#: lib/gnome-db-designer.c:264
+msgid "You must specify a name for the new field"
+msgstr ""
+
+#: lib/gnome-db-designer.c:270
+#, c-format
+msgid "Could not find table %s"
+msgstr ""
+
+#: lib/gnome-db-designer.c:277
+#, c-format
+msgid "There is already a field named %s"
+msgstr ""
+
+#: lib/gnome-db-designer.c:481
+#, c-format
+msgid "File %s is not a valid XML file"
+msgstr ""
+
+#: lib/gnome-db-designer.c:502
+msgid "Select file"
+msgstr "Tóg Comhad"
+
+#: lib/gnome-db-dsn-config.c:82
+msgid "DSN"
+msgstr "DSN"
+
+#: lib/gnome-db-dsn-config-druid.c:369 lib/gnome-db-dsn-config.c:98
+#: lib/gnome-db-login.c:166 manager/gnomedb-mgr-dsn.c:256
+msgid "Username"
+msgstr "Úsáidtheoir"
+
+#: lib/gnome-db-dsn-config.c:106
+msgid "Config"
+msgstr ""
+
+#: lib/gnome-db-dsn-config.c:217
+msgid "Error while saving configuration!"
+msgstr ""
+
+#: lib/gnome-db-dsn-config.c:220
+msgid "Data source has no name!"
+msgstr ""
+
+#: lib/gnome-db-dsn-config-druid.c:160
+msgid "You must enter a name for the new data source"
+msgstr ""
+
+#: lib/gnome-db-dsn-config-druid.c:294
+msgid "Add a new data source..."
+msgstr ""
+
+#: lib/gnome-db-dsn-config-druid.c:296
+msgid ""
+"This wizard will guide you through the process of\n"
+"creating a new data source for your GNOME-DB\n"
+"installation. Just follow the steps!"
+msgstr ""
+
+#. create the general info page
+#: lib/gnome-db-dsn-config-druid.c:302
+#, fuzzy
+msgid "General Information"
+msgstr "Eirigh as fiedhmchlár"
+
+#: lib/gnome-db-dsn-config-druid.c:307
+msgid ""
+"The following fields represent the basic information\n"
+"items for your new data source. Some of them (description,\n"
+"username) are optional, whereas the others are mandatory.\n"
+"If you don't know which provider to use, just select\n"
+"the default one"
+msgstr ""
+
+#: lib/gnome-db-dsn-config-druid.c:323
+msgid "Enter the name you want to use to refer to this data source"
+msgstr ""
+
+#: lib/gnome-db-dsn-config-druid.c:332
+msgid ""
+"Select the provider for the backend you want to use in your new data source. "
+"If you don't know which one to use, just select the **default** provider"
+msgstr ""
+
+#: lib/gnome-db-dsn-config-druid.c:365
+msgid "Enter a meaningful description of this data source (Optional)"
+msgstr ""
+
+#: lib/gnome-db-dsn-config-druid.c:374
+msgid ""
+"Enter the username you'll be using for connecting to this data source "
+"(Optional)"
+msgstr ""
+
+#. create the provider-specific page
+#: lib/gnome-db-dsn-config-druid.c:382
+msgid "Connection String"
+msgstr ""
+
+#: lib/gnome-db-dsn-config-druid.c:390
+msgid "All information retrieved"
+msgstr ""
+
+#: lib/gnome-db-dsn-config-druid.c:392
+msgid ""
+"All information needed to create a new data source \n"
+"has been retrieved. Now, press 'Finish' to close \n"
+"this dialog. To open your newly created data source, \n"
+"click on the 'Database' Icon on the left bar, and \n"
+"then the 'Connect' button, which will open a \n"
+"dialog box to let you open a new connection"
+msgstr ""
+
+#: lib/gnome-db-error.c:110 lib/gnome-db-error.c:215
+msgid "Show detail >>"
+msgstr ""
+
+#: lib/gnome-db-error.c:114
+msgid "<< Hide detail"
+msgstr ""
+
+#: lib/gnome-db-error.c:209
+msgid "Error number"
+msgstr ""
+
+#. create the detail container
+#: lib/gnome-db-error.c:233
+msgid "Detail"
+msgstr ""
+
+#: lib/gnome-db-error.c:240
+msgid "Source"
+msgstr ""
+
+#: lib/gnome-db-error.c:246
+msgid "Help"
+msgstr "Cúidiú"
+
+#: lib/gnome-db-error.c:252
+msgid "SQL state"
+msgstr ""
+
+#: lib/gnome-db-error.c:258
+msgid "Native message"
+msgstr ""
+
+#: lib/gnome-db-error-dlg.c:113
+msgid "Error viewer"
+msgstr ""
+
+#: lib/gnome-db-export.c:289
+msgid "The export process was cancelled due to an error."
+msgstr ""
+
+#: lib/gnome-db-export.c:302
+msgid "Would you like to view the database before saving it?"
+msgstr ""
+
+#: lib/gnome-db-export.c:306
+#, fuzzy
+msgid "Database exported"
+msgstr "Sábháil le"
+
+#: lib/gnome-db-export.c:320
+#, c-format
+msgid "The database has been successfully saved to %s"
+msgstr ""
+
+#: lib/gnome-db-export.c:330
+msgid "No database was generated. There is a bug."
+msgstr ""
+
+#: lib/gnome-db-export.c:409
+msgid "You must specify a file name"
+msgstr ""
+
+#: lib/gnome-db-export.c:504
+#, fuzzy
+msgid "Output file"
+msgstr "Oscail Comhad"
+
+#: lib/gnome-db-export.c:512
+#, fuzzy
+msgid "Export table data"
+msgstr "Ainm comhad"
+
+#: lib/gnome-db-export.c:516
+msgid "Compression level"
+msgstr ""
+
+#: lib/gnome-db-export.c:527
+msgid "Objects"
+msgstr ""
+
+#: lib/gnome-db-grid.c:196
+msgid "Record View"
+msgstr ""
+
+#: lib/gnome-db-grid.c:216
+msgid "Copy selection to clipboard"
+msgstr ""
+
+#: lib/gnome-db-grid.c:219
+msgid "Select all"
+msgstr "Tóg gach rud"
+
+#: lib/gnome-db-grid.c:219
+#, fuzzy
+msgid "Select all rows"
+msgstr "Tóg gach rud"
+
+#: lib/gnome-db-grid.c:222
+msgid "Clear selection"
+msgstr ""
+
+#: lib/gnome-db-grid.c:222
+msgid "Clear all selected rows"
+msgstr ""
+
+#: lib/gnome-db-grid.c:225
+msgid "Record view..."
+msgstr ""
+
+#: lib/gnome-db-grid.c:225
+msgid "View recordset record-by-record"
+msgstr ""
+
+#: lib/gnome-db-grid.c:229
+msgid "Refresh grid"
+msgstr ""
+
+#: lib/gnome-db-grid.c:229
+msgid "Refresh grid contents"
+msgstr ""
+
+#: lib/gnome-db-grid.c:232
+#, fuzzy
+msgid "Print grid"
+msgstr "Priontáil"
+
+#: lib/gnome-db-grid.c:232
+msgid "Print grid contents"
+msgstr ""
+
+#: lib/gnome-db-grid.c:235
+msgid "Show columns"
+msgstr ""
+
+#: lib/gnome-db-grid.c:235
+msgid "Show column titles"
+msgstr ""
+
+#: lib/gnome-db-grid.c:238
+msgid "Hide columns"
+msgstr ""
+
+#: lib/gnome-db-grid.c:238
+msgid "Hide column titles"
+msgstr ""
+
+#: lib/gnome-db-init.c:44
+msgid "Could not initialize Bonobo\n"
+msgstr ""
+
+#: lib/gnome-db-login.c:149
+#, fuzzy
+msgid "User Name"
+msgstr "Úsáidtheoir"
+
+#: lib/gnome-db-login.c:157
+msgid "GDA Datasource"
+msgstr ""
+
+#: lib/gnome-db-login.c:173 manager/gnomedb-mgr-dsn.c:262
+msgid "Password"
+msgstr "Pasfhocal"
+
+#: lib/gnome-db-login.c:181
+msgid "Last Connections"
+msgstr ""
+
+#: lib/gnome-db-log-viewer.c:89
+#, c-format
+msgid "Entry %d of %d"
+msgstr ""
+
+#. create entries
+#: lib/gnome-db-log-viewer.c:151 lib/gnome-db-log-viewer.c:326
+msgid "Date"
+msgstr "Dáta"
+
+#: lib/gnome-db-log-viewer.c:151 lib/gnome-db-log-viewer.c:332
+msgid "Time"
+msgstr "Am"
+
+#: lib/gnome-db-log-viewer.c:151
+msgid "Message"
+msgstr "Scéala"
+
+#. create dialog
+#: lib/gnome-db-log-viewer.c:311
+msgid "Log Entry"
+msgstr ""
+
+#: lib/gnome-db-log-viewer.c:387
+#, c-format
+msgid "Could not create file %s"
+msgstr ""
+
+#: lib/gnome-db-print.c:34
+msgid "Setup Printer"
+msgstr ""
+
+#: lib/gnome-db-util.c:82
+msgid "Copyright The Free Software Foundation (C) 1998-2000"
+msgstr ""
+
+#: lib/gnome-db-util.c:84
+msgid ""
+"This program is part of the GNOME project for LINUX. GNOME Data Access comes "
+"with ABSOLUTELY NO WARRANTY. This is free software, and you are welcome to "
+"redistribute it under the conditions of the GNU General Public Licence."
+msgstr ""
+
+#: lib/gnome-db-util.c:135
+#, c-format
+msgid ""
+"Could not open file\n"
+"%s"
+msgstr ""
+
+#: lib/gnome-db-util.c:302
+msgid "Bug-buddy was not found in your $PATH"
+msgstr ""
+
+#: lib/gnome-db-util.c:308
+msgid "Unable to execute Bug Report Tool"
+msgstr ""
+
+#. build the dialog
+#: lib/gnome-db-util.c:327
+msgid "Question"
+msgstr "Ceist"
+
+#: manager/GNOME_DB_Manager.oaf.in.h:1
+msgid "GNOME-DB manager component factory"
+msgstr ""
+
+#: manager/GNOME_DB_Manager.oaf.in.h:2
+msgid "Manager"
+msgstr "Bainisteóir"
+
+#: manager/gnomedb-mgr-dsn.c:39
+msgid "Add"
+msgstr "Suim"
+
+#: manager/gnomedb-mgr-dsn.c:39
+msgid "Add new data source"
+msgstr ""
+
+#: manager/gnomedb-mgr-dsn.c:42 manager/gnomedb-mgr-providers.c:28
+msgid "Edit"
+msgstr "Eagar"
+
+#: manager/gnomedb-mgr-dsn.c:42
+msgid "Edit selected data source"
+msgstr ""
+
+#: manager/gnomedb-mgr-dsn.c:45
+msgid "Remove current data source"
+msgstr ""
+
+#: manager/gnomedb-mgr-dsn.c:48
+msgid "Refresh Data Sources list"
+msgstr ""
+
+#: manager/gnomedb-mgr-dsn.c:51
+msgid "Test"
+msgstr "Teast"
+
+#: manager/gnomedb-mgr-dsn.c:51
+msgid "Test settings for this datasource"
+msgstr ""
+
+#. create dialog
+#: manager/gnomedb-mgr-dsn.c:165
+msgid "Edit data source"
+msgstr ""
+
+#: manager/gnomedb-mgr-dsn.c:237
+#, c-format
+msgid "No data source found with name %s"
+msgstr ""
+
+#. create the dialog
+#: manager/gnomedb-mgr-dsn.c:242
+msgid "Test data source"
+msgstr ""
+
+#: manager/gnomedb-mgr-dsn.c:250
+msgid "Data source name"
+msgstr ""
+
+#: manager/gnomedb-mgr-dsn.c:277
+msgid "The connection was successful!"
+msgstr ""
+
+#: manager/gnomedb-mgr-dsn.c:281
+msgid "There was an error while testing connection"
+msgstr ""
+
+#: manager/gnomedb-mgr-dsn.c:328
+msgid "Data Sources"
+msgstr ""
+
+#: manager/gnomedb-mgr-providers.c:25
+msgid "Add new provider"
+msgstr ""
+
+#: manager/gnomedb-mgr-providers.c:28
+msgid "Edit selected provider"
+msgstr ""
+
+#: manager/gnomedb-mgr-providers.c:31
+msgid "Refresh providers list"
+msgstr ""
+
+#: manager/gnomedb-mgr-providers.c:35
+msgid "Start"
+msgstr ""
+
+#: manager/gnomedb-mgr-providers.c:35
+msgid "Start selected provider"
+msgstr ""
+
+#: manager/gnomedb-mgr-providers.c:38
+msgid "Stop"
+msgstr "Stad"
+
+#: manager/gnomedb-mgr-providers.c:38
+msgid "Stop selected provider"
+msgstr ""
+
+#: manager/gnomedb-mgr-providers.c:117 ui/gnomedb-manager.xml.h:9
+msgid "Providers"
+msgstr ""
+
+#: tools/rolodex/gnomedb-rolodex.desktop.in.h:1
+msgid "Rolodex"
+msgstr ""
+
+#: tools/rolodex/gnomedb-rolodex.desktop.in.h:2
+#, fuzzy
+msgid "Rolodex Application"
+msgstr "Eirigh as fiedhmchlár"
+
+#: ui/gnomedb-com-connection.xml.h:1
+#, fuzzy
+msgid "Activate SQL window"
+msgstr "Fuinneog"
+
+#: ui/gnomedb-com-connection.xml.h:2
+msgid "Activate the database browser"
+msgstr ""
+
+#: ui/gnomedb-com-connection.xml.h:3
+msgid "Begin _transaction"
+msgstr ""
+
+#: ui/gnomedb-com-connection.xml.h:4
+msgid "Begin transaction"
+msgstr ""
+
+#: ui/gnomedb-com-connection.xml.h:6
+msgid "Close current connection"
+msgstr ""
+
+#: ui/gnomedb-com-connection.xml.h:7
+msgid "Co_mmit transaction"
+msgstr ""
+
+#: ui/gnomedb-com-connection.xml.h:8
+msgid "Commit current transaction"
+msgstr ""
+
+#: ui/gnomedb-com-connection.xml.h:9
+msgid "Connect"
+msgstr ""
+
+#: ui/gnomedb-com-connection.xml.h:10
+#, fuzzy
+msgid "Connection _Properties"
+msgstr "Albachtaí"
+
+#: ui/gnomedb-com-connection.xml.h:11
+#, fuzzy
+msgid "Database _Browser"
+msgstr "Sábháil le"
+
+#: ui/gnomedb-com-connection.xml.h:12
+msgid "Disconnect"
+msgstr ""
+
+#: ui/gnomedb-com-connection.xml.h:13
+#, fuzzy
+msgid "E_xport database"
+msgstr "Sábháil le"
+
+#: ui/gnomedb-com-connection.xml.h:15
+#, fuzzy
+msgid "I_mport database"
+msgstr "Sábháil le"
+
+#: ui/gnomedb-com-connection.xml.h:16
+#, fuzzy
+msgid "Import"
+msgstr "Ealu"
+
+#: ui/gnomedb-com-connection.xml.h:17
+msgid "Import data into an existing database"
+msgstr ""
+
+#: ui/gnomedb-com-connection.xml.h:18 ui/gnomedb-com-designer.xml.h:3
+#: ui/gnomedb-com-log.xml.h:1 ui/gnomedb-fe.xml.h:13
+#: ui/gnomedb-manager.xml.h:8
+msgid "Main toolbar"
+msgstr ""
+
+#: ui/gnomedb-com-connection.xml.h:19
+msgid "Make a copy of a database"
+msgstr ""
+
+#: ui/gnomedb-com-connection.xml.h:20
+msgid "Open a command previously saved"
+msgstr ""
+
+#: ui/gnomedb-com-connection.xml.h:21
+msgid "Open a new database connection"
+msgstr ""
+
+#: ui/gnomedb-com-connection.xml.h:22
+#, fuzzy
+msgid "Properties"
+msgstr "Albachtaí"
+
+#: ui/gnomedb-com-connection.xml.h:23
+msgid "Rollback current transaction"
+msgstr ""
+
+#: ui/gnomedb-com-connection.xml.h:25
+msgid "Save current command"
+msgstr ""
+
+#: ui/gnomedb-com-connection.xml.h:26
+msgid "Show connection properties"
+msgstr ""
+
+#: ui/gnomedb-com-connection.xml.h:27
+msgid "Start a new transaction"
+msgstr ""
+
+#: ui/gnomedb-com-connection.xml.h:28
+msgid "_Browser"
+msgstr ""
+
+#: ui/gnomedb-com-connection.xml.h:29
+#, fuzzy
+msgid "_Commit"
+msgstr "Ordú"
+
+#: ui/gnomedb-com-connection.xml.h:30
+msgid "_Connect"
+msgstr ""
+
+#: ui/gnomedb-com-connection.xml.h:31 ui/gnomedb-fe.xml.h:32
+#, fuzzy
+msgid "_Database"
+msgstr "Sábháil le"
+
+#: ui/gnomedb-com-connection.xml.h:32
+msgid "_Disconnect"
+msgstr ""
+
+#: ui/gnomedb-com-connection.xml.h:34
+#, fuzzy
+msgid "_Open command"
+msgstr "Ordú"
+
+#: ui/gnomedb-com-connection.xml.h:35
+#, fuzzy
+msgid "_Properties"
+msgstr "Albachtaí"
+
+#: ui/gnomedb-com-connection.xml.h:36
+msgid "_Rollback"
+msgstr ""
+
+#: ui/gnomedb-com-connection.xml.h:37
+msgid "_Rollback transaction"
+msgstr ""
+
+#: ui/gnomedb-com-connection.xml.h:38
+msgid "_SQL"
+msgstr ""
+
+#: ui/gnomedb-com-connection.xml.h:39
+#, fuzzy
+msgid "_SQL window"
+msgstr "Fuinneog"
+
+#: ui/gnomedb-com-connection.xml.h:40
+#, fuzzy
+msgid "_Save command"
+msgstr "Ordú"
+
+#: ui/gnomedb-com-connection.xml.h:41 ui/gnomedb-com-designer.xml.h:21
+#: ui/gnomedb-fe.xml.h:41 ui/gnomedb-manager.xml.h:15
+msgid "_Tools"
+msgstr ""
+
+#: ui/gnomedb-com-designer.xml.h:1
+msgid "Create a new database design"
+msgstr ""
+
+#: ui/gnomedb-com-designer.xml.h:2
+msgid "Create a new table"
+msgstr ""
+
+#: ui/gnomedb-com-designer.xml.h:5
+msgid "New _table"
+msgstr ""
+
+#: ui/gnomedb-com-designer.xml.h:7
+msgid "Open a database design"
+msgstr ""
+
+#: ui/gnomedb-com-designer.xml.h:9
+msgid "Refresh database view"
+msgstr ""
+
+#: ui/gnomedb-com-designer.xml.h:11
+msgid "Save database design"
+msgstr ""
+
+#: ui/gnomedb-com-designer.xml.h:12
+#, fuzzy
+msgid "_Database design"
+msgstr "Sábháil le"
+
+#: ui/gnomedb-com-designer.xml.h:16
+msgid "_Open database design"
+msgstr ""
+
+#: ui/gnomedb-com-designer.xml.h:17 ui/gnomedb-com-log.xml.h:9
+msgid "_Refresh"
+msgstr ""
+
+#: ui/gnomedb-com-designer.xml.h:18 ui/gnomedb-com-log.xml.h:10
+#, fuzzy
+msgid "_Save"
+msgstr "Sábháil"
+
+#: ui/gnomedb-com-designer.xml.h:19
+msgid "_Save database design"
+msgstr ""
+
+#: ui/gnomedb-com-designer.xml.h:20
+#, fuzzy
+msgid "_Table"
+msgstr "Ainm comhad"
+
+#: ui/gnomedb-com-log.xml.h:3
+msgid "Refresh log view"
+msgstr ""
+
+#: ui/gnomedb-com-log.xml.h:5
+#, fuzzy
+msgid "Save log to a file"
+msgstr "Oscail Comhad"
+
+#: ui/gnomedb-com-log.xml.h:6
+msgid "View"
+msgstr "Radharc"
+
+#: ui/gnomedb-com-log.xml.h:7
+msgid "View the current entry in detail"
+msgstr ""
+
+#: ui/gnomedb-com-log.xml.h:11 ui/gnomedb-fe.xml.h:42
+msgid "_View"
+msgstr "_Radharc"
+
+#: ui/gnomedb-fe.xml.h:1
+msgid "About GNOME-DB..."
+msgstr ""
+
+#: ui/gnomedb-fe.xml.h:2
+#, fuzzy
+msgid "C_ut"
+msgstr "Gearr"
+
+#: ui/gnomedb-fe.xml.h:3
+msgid "Configure printing system"
+msgstr ""
+
+#: ui/gnomedb-fe.xml.h:4
+msgid "Copy selected items to the clipboard"
+msgstr ""
+
+#: ui/gnomedb-fe.xml.h:5
+msgid "Create a new database"
+msgstr ""
+
+#: ui/gnomedb-fe.xml.h:6
+msgid "Customi_ze Toolbars..."
+msgstr ""
+
+#: ui/gnomedb-fe.xml.h:7
+msgid "Customize"
+msgstr ""
+
+#: ui/gnomedb-fe.xml.h:8
+msgid "Customize toolbars"
+msgstr ""
+
+#: ui/gnomedb-fe.xml.h:9
+msgid "Cut selected items to the clipboard"
+msgstr ""
+
+#: ui/gnomedb-fe.xml.h:10
+msgid "E_xit"
+msgstr "_Ealu"
+
+#: ui/gnomedb-fe.xml.h:11
+msgid "Edit a script in your favorite editor"
+msgstr ""
+
+#: ui/gnomedb-fe.xml.h:12
+#, fuzzy
+msgid "Exit the program"
+msgstr "Faoi ríomhchlár seo"
+
+#: ui/gnomedb-fe.xml.h:14
+#, fuzzy
+msgid "Online GNOME-DB manual"
+msgstr "Bainisteoir GNOME-DB"
+
+#: ui/gnomedb-fe.xml.h:15
+msgid "Online libgda manual"
+msgstr ""
+
+#: ui/gnomedb-fe.xml.h:16
+#, fuzzy
+msgid "Open _Perl script"
+msgstr "Socraigh Printéir..."
+
+#: ui/gnomedb-fe.xml.h:17
+msgid "Open and execute a Perl script"
+msgstr ""
+
+#: ui/gnomedb-fe.xml.h:18
+msgid "Paste items from the clipboard"
+msgstr ""
+
+#: ui/gnomedb-fe.xml.h:19
+#, fuzzy
+msgid "Print _setup"
+msgstr "Socraigh Printéir..."
+
+#: ui/gnomedb-fe.xml.h:20
+msgid "S_cripts"
+msgstr ""
+
+#: ui/gnomedb-fe.xml.h:21
+msgid "Set program configuration"
+msgstr ""
+
+#: ui/gnomedb-fe.xml.h:22
+msgid "Shortcut _bar"
+msgstr ""
+
+#: ui/gnomedb-fe.xml.h:23
+msgid "Show information about GNOME-DB"
+msgstr ""
+
+#: ui/gnomedb-fe.xml.h:24
+msgid "Show/Hide the shortcut bar"
+msgstr ""
+
+#: ui/gnomedb-fe.xml.h:25
+msgid "Submit Bug Report"
+msgstr ""
+
+#: ui/gnomedb-fe.xml.h:26
+msgid "Submit _Bug Report"
+msgstr ""
+
+#: ui/gnomedb-fe.xml.h:27
+msgid "Submit bug report using Bug Buddy."
+msgstr ""
+
+#: ui/gnomedb-fe.xml.h:28
+msgid "View the GNOME-DB manual online."
+msgstr ""
+
+#: ui/gnomedb-fe.xml.h:29
+msgid "View the libgda manual online."
+msgstr ""
+
+#: ui/gnomedb-fe.xml.h:30
+msgid "_About GNOME-DB..."
+msgstr ""
+
+#: ui/gnomedb-fe.xml.h:31
+msgid "_Copy"
+msgstr "_Cóip"
+
+#: ui/gnomedb-fe.xml.h:33
+msgid "_Edit"
+msgstr "_Eagar"
+
+#: ui/gnomedb-fe.xml.h:34
+msgid "_Edit script"
+msgstr ""
+
+#: ui/gnomedb-fe.xml.h:36
+msgid "_Help"
+msgstr "_Cúidií"
+
+#: ui/gnomedb-fe.xml.h:38
+msgid "_Paste"
+msgstr "_Greamhaigh"
+
+#: ui/gnomedb-fe.xml.h:39
+#, fuzzy
+msgid "_Perl script"
+msgstr "Socraigh Printéir..."
+
+#: ui/gnomedb-fe.xml.h:40
+msgid "_Settings"
+msgstr ""
+
+#: ui/gnomedb-manager.xml.h:1
+#, fuzzy
+msgid "Activate data source configuration window"
+msgstr "Fuinneog"
+
+#: ui/gnomedb-manager.xml.h:2
+#, fuzzy
+msgid "Activate providers configuration window"
+msgstr "Fuinneog"
+
+#: ui/gnomedb-manager.xml.h:3
+msgid "Configure _Data sources"
+msgstr ""
+
+#: ui/gnomedb-manager.xml.h:4
+#, fuzzy
+msgid "Configure _Providers"
+msgstr "Albachtaí"
+
+#: ui/gnomedb-manager.xml.h:5
+msgid "Create new data source"
+msgstr ""
+
+#: ui/gnomedb-manager.xml.h:6
+msgid "Data _source"
+msgstr ""
+
+#: ui/gnomedb-manager.xml.h:7
+msgid "Data sources"
+msgstr ""
+
+#: ui/gnomedb-manager.xml.h:10
+#, fuzzy
+msgid "_Data source"
+msgstr "Sábháil le"
+
+#: ui/gnomedb-manager.xml.h:11
+#, fuzzy
+msgid "_Data sources"
+msgstr "Sábháil le"
+
+#: ui/gnomedb-manager.xml.h:14
+#, fuzzy
+msgid "_Providers"
+msgstr "Albachtaí"
+
+#, fuzzy
+msgid "Activate batch job window"
+msgstr "Fuinneog"
+
+#, fuzzy
+msgid "_Database..."
+msgstr "Sábháil le"
+
+#, fuzzy
+msgid "_Quit"
+msgstr "Ealu"
+
+#, fuzzy
+msgid "Exit application"
+msgstr "Eirigh as fiedhmchlár"
+
+#, fuzzy
+msgid "_Options"
+msgstr "Roghnachais"
+
+#, fuzzy
+msgid "Do Print"
+msgstr "Priontáil"
+
+#, fuzzy
+msgid "Open SQL file"
+msgstr "Oscail Comhad"
+
+#, fuzzy
+msgid "Project..."
+msgstr "Priontáil..."
+
+#, fuzzy
+msgid "New..."
+msgstr "Nua"
+
+#, fuzzy
+msgid "Open..."
+msgstr "Oscail"
+
+msgid "About gnome-db..."
+msgstr "Faoi gnome-db..."
+
+msgid "Close"
+msgstr "Dún"
+
+#, fuzzy
+msgid "Revert"
+msgstr "Scríos"
+
+msgid "Delete"
+msgstr "Dealaigh"
+
+#, fuzzy
+msgid "View logs"
+msgstr "Radharc"
+
+msgid "Preferences..."
+msgstr "Roghnachais..."
+
+#, fuzzy
+msgid "Users"
+msgstr "Úsáidtheoir"
+
+msgid "Close this window"
+msgstr "Dún an fhuinneog seo"
+
+msgid "Environment"
+msgstr "Imshaoil"
+
+msgid "Value"
+msgstr "Luach"
+
+msgid "Shell"
+msgstr "Blaosc"
+
+msgid "Top"
+msgstr "Barr"
+
+msgid "Bottom"
+msgstr "Bun"
+
+msgid "Left"
+msgstr "Clé"
+
+msgid "Right"
+msgstr "Deis"
+
+msgid "Save As..."
+msgstr "Sábháil Le..."
+
+msgid "Running '%s'"
+msgstr "Ag rith '%s'"
+
+msgid "Find"
+msgstr "Faigh"
+
+msgid "GDA logs"
+msgstr "Loganna GDA"
+
+msgid "Text editor"
+msgstr "Eagathóir teacs"
+
+msgid "Calculator"
+msgstr "Aireamhán"
+
+msgid "Close all"
+msgstr "Dún gach rud"
+
+msgid "Close all open windows"
+msgstr "Dún gach fhuinneog oscailte"
+
+#~ msgid "Window"
+#~ msgstr "Fuinneog"

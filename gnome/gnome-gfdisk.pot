@@ -1,0 +1,654 @@
+# Irish (Gaeilge) translations for gnome-gfdisk (GNOME)
+# Copyright (C) 1998 Free Software Foundation, Inc.
+# Alastair McKinstry <mckinstry@computer.org>, 1998.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-gfdisk CVS\n"
+"POT-Creation-Date: 1999-10-10 11:59+0200\n"
+"PO-Revision-Date: 2000-03-08 11:00+0100\n"
+"Last-Translator:Alastair McKinstry <mckinstry@computer.org>\n"
+"Language-Team: Irish <ga@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=iso-8859-1\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: gfdisk/gfdisk.c:20
+msgid "Reload"
+msgstr "Athlód"
+
+#: gfdisk/gfdisk.c:21 gfdisk/menu.c:60
+msgid "Reload the partition table from the harddisk"
+msgstr ""
+
+#: gfdisk/gfdisk.c:23
+msgid "Save"
+msgstr "Sábháil"
+
+#: gfdisk/gfdisk.c:24 gfdisk/menu.c:57
+msgid "Save the partition table to the harddisk"
+msgstr ""
+
+#: gfdisk/gfdisk.c:27 gfdisk/gfdisk.c:583
+msgid "Create"
+msgstr "Cruthaigh"
+
+#: gfdisk/gfdisk.c:28 gfdisk/menu.c:143
+#, fuzzy
+msgid "Create a new partition"
+msgstr "Cruthaigh Deighilt nua"
+
+#: gfdisk/gfdisk.c:30
+msgid "Delete"
+msgstr "Dealaigh"
+
+#: gfdisk/gfdisk.c:31 gfdisk/menu.c:146
+#, fuzzy
+msgid "Delete the selected partition"
+msgstr "Dealaigh Deighilt"
+
+#: gfdisk/gfdisk.c:48
+msgid "Partition Table has been changed"
+msgstr ""
+
+#: gfdisk/gfdisk.c:229
+msgid "Category"
+msgstr "Rangú"
+
+#: gfdisk/gfdisk.c:229
+msgid "Value"
+msgstr "Luach"
+
+#: gfdisk/gfdisk.c:237
+msgid "Device Information"
+msgstr "Eolas Gaireas"
+
+#: gfdisk/gfdisk.c:292 gfdisk/print.c:141
+msgid "Filesystem Path"
+msgstr "Slí comhadcorás"
+
+#: gfdisk/gfdisk.c:295 gfdisk/print.c:149
+msgid "Capacity"
+msgstr "Acmhainn"
+
+#: gfdisk/gfdisk.c:297 gfdisk/gfdisk.c:298 gfdisk/print.c:157
+msgid "Host Type"
+msgstr "Cineál hOst"
+
+#: gfdisk/gfdisk.c:301 gfdisk/print.c:165
+msgid "Controller Number"
+msgstr "Uimhir Rialaitheoir"
+
+#: gfdisk/gfdisk.c:304 gfdisk/print.c:173
+msgid "Device ID"
+msgstr "ID Gaireas"
+
+#: gfdisk/gfdisk.c:307 gfdisk/print.c:181
+msgid "Heads"
+msgstr "Cnogaí"
+
+#: gfdisk/gfdisk.c:309 gfdisk/print.c:189
+msgid "Sectors"
+msgstr "Teascánaí"
+
+#: gfdisk/gfdisk.c:311 gfdisk/print.c:197
+msgid "Cylinders"
+msgstr "Sorcóirí"
+
+#: gfdisk/gfdisk.c:314 gfdisk/print.c:205
+msgid "Cylinder Size"
+msgstr "Meíd Sorcóir"
+
+#: gfdisk/gfdisk.c:335
+msgid ""
+"This program is part of the GNOME project for Linux. Gnome FDisk comes with "
+"ABSOLUTELY NO WARRANTY. This is free software, and you are welcome to "
+"redistribute it under the conditions of the GNU General Public License. "
+"Please report bugs to dm@vlsivie.tuwien.ac.at"
+msgstr ""
+
+#: gfdisk/gfdisk.c:579
+msgid "Create Primary/Logical Partition"
+msgstr "Cruithigh Deighilt Príomhúil/Loighce"
+
+#: gfdisk/gfdisk.c:580
+msgid "Create Primary Partition"
+msgstr "Cruithigh Deighilt Príomhúil"
+
+#: gfdisk/gfdisk.c:581
+msgid "Create Logical Partition"
+msgstr "Cruithigh Deighilt Loighce"
+
+#: gfdisk/gfdisk.c:612 gfdisk/gfdisk.c:697
+#, fuzzy
+msgid "Size:"
+msgstr "Méid:"
+
+#: gfdisk/gfdisk.c:644
+msgid "Auto"
+msgstr "Uath."
+
+#: gfdisk/gfdisk.c:660 gfdisk/pstat.c:155 gfdisk/pstat.c:224
+msgid "Primary"
+msgstr "príomhúil"
+
+#: gfdisk/gfdisk.c:669 gfdisk/pstat.c:156 gfdisk/pstat.c:246
+msgid "Logical"
+msgstr "Loighce"
+
+#: gfdisk/gfdisk.c:687
+msgid "DC"
+msgstr ""
+
+#: gfdisk/gfdisk.c:716
+#, fuzzy
+msgid "Position:"
+msgstr "Deighilt"
+
+#: gfdisk/gfdisk.c:799
+msgid "Select a device"
+msgstr "Tóg gaireas"
+
+#: gfdisk/gfdisk.c:908
+msgid "Advanced mode"
+msgstr "Mód Buntáisteach"
+
+# FIXME
+#: gfdisk/gfdisk.c:910
+msgid "Geometry for starting up"
+msgstr "Céimseata do bunaigh"
+
+#: gfdisk/gfdisk.c:910
+msgid "GEOMETRY"
+msgstr "CÉIMSEATA"
+
+#: gfdisk/gfdisk.c:945
+msgid "Gnome FDisk"
+msgstr "Gnome FDisk"
+
+#: gfdisk/menu.c:56
+#, fuzzy
+msgid "_Save Table"
+msgstr "Sábháil Tabla"
+
+#: gfdisk/menu.c:59
+#, fuzzy
+msgid "_Reload Table"
+msgstr "Athlód Tabla"
+
+#: gfdisk/menu.c:62
+#, fuzzy
+msgid "_Clear Table"
+msgstr "Glan Bord"
+
+#: gfdisk/menu.c:63
+#, fuzzy
+msgid "Delete all partitions"
+msgstr "Dealaigh Deighilt"
+
+#: gfdisk/menu.c:67
+#, fuzzy
+msgid "_Print..."
+msgstr "Priontáil..."
+
+#: gfdisk/menu.c:68
+msgid "Print partition and hardisk information"
+msgstr ""
+
+#: gfdisk/menu.c:72
+#, fuzzy
+msgid "_Exit"
+msgstr "Ealu"
+
+#: gfdisk/menu.c:73
+#, fuzzy
+msgid "Exit Gnome FDisk"
+msgstr "Gnome FDisk"
+
+#: gfdisk/menu.c:135
+msgid "DOS/Windows"
+msgstr "DOS/Windows"
+
+#: gfdisk/menu.c:136
+msgid "Unix"
+msgstr "Unix"
+
+#: gfdisk/menu.c:137
+msgid "Miscellaneous"
+msgstr "Teibi."
+
+#: gfdisk/menu.c:142
+#, fuzzy
+msgid "_Create..."
+msgstr "Cruthaigh"
+
+#: gfdisk/menu.c:145
+#, fuzzy
+msgid "_Delete"
+msgstr "Dealaigh"
+
+#: gfdisk/menu.c:148
+#, fuzzy
+msgid "_Type"
+msgstr "Cineál"
+
+#: gfdisk/menu.c:149
+#, fuzzy
+msgid "Set the partition type"
+msgstr "Dealaigh Deighilt"
+
+#: gfdisk/menu.c:152
+#, fuzzy
+msgid "_Maximize"
+msgstr "Uaslaighdaigh"
+
+#: gfdisk/menu.c:153
+msgid "Maximize the selected partition"
+msgstr ""
+
+#: gfdisk/menu.c:155
+#, fuzzy
+msgid "_Activate"
+msgstr "Gníomhachtaigh"
+
+#: gfdisk/menu.c:156
+msgid "Activate the selected partition"
+msgstr ""
+
+#: gfdisk/menu.c:162
+#, fuzzy
+msgid "_Cylinders"
+msgstr "Sorcóirí"
+
+#: gfdisk/menu.c:166
+#, fuzzy
+msgid "_Sectors"
+msgstr "Teascánaí"
+
+#: gfdisk/menu.c:177
+#, fuzzy
+msgid "_About"
+msgstr "_Faoi"
+
+#: gfdisk/menu.c:178
+#, fuzzy
+msgid "Copyright Information"
+msgstr "Eolas Cóipcheart"
+
+#: gfdisk/menu.c:187
+#, fuzzy
+msgid "_Units"
+msgstr "_Aonadaí"
+
+#: gfdisk/menu.c:188
+msgid "Select the display unit"
+msgstr ""
+
+#: gfdisk/menu.c:192
+#, fuzzy
+msgid "_Advanced mode"
+msgstr "Mód Buntáisteach"
+
+#: gfdisk/menu.c:193
+msgid "Toggle between advanced and normal mode"
+msgstr ""
+
+#: gfdisk/menu.c:196
+#, fuzzy
+msgid "_Device Information..."
+msgstr "Eolas _Gaireas"
+
+#: gfdisk/menu.c:197
+msgid "Displays information about the device"
+msgstr ""
+
+#: gfdisk/menu.c:210
+#, fuzzy
+msgid "_File"
+msgstr "Comhad"
+
+#: gfdisk/menu.c:211
+#, fuzzy
+msgid "_Partition"
+msgstr "Deighilt"
+
+#: gfdisk/menu.c:212
+#, fuzzy
+msgid "_Options"
+msgstr "Roghnachais"
+
+#: gfdisk/menu.c:213
+#, fuzzy
+msgid "_Help"
+msgstr "C_abhair"
+
+#: gfdisk/part.c:26
+msgid "Linux/MINIX"
+msgstr "Linux/MINIX"
+
+#: gfdisk/part.c:27
+msgid "Linux Swap"
+msgstr "Linux Swap"
+
+#: gfdisk/part.c:28
+msgid "Linux"
+msgstr "Linux"
+
+#: gfdisk/part.c:29
+msgid "Free Space"
+msgstr ""
+
+#: gfdisk/part.c:30 gfdisk/pstat.c:157 gfdisk/pstat.c:266
+msgid "Extended"
+msgstr "Sínte"
+
+#: gfdisk/part.c:31
+#, fuzzy
+msgid "Linux extended"
+msgstr "Sínte Linux"
+
+#: gfdisk/part.c:32
+msgid "DOS FAT12"
+msgstr ""
+
+#: gfdisk/part.c:33
+msgid "DOS FAT16"
+msgstr ""
+
+#: gfdisk/part.c:34
+msgid "DOS FAT16 (big)"
+msgstr ""
+
+#: gfdisk/part.c:35
+msgid "OS/2 HPFS or NTFS"
+msgstr ""
+
+#: gfdisk/part.c:36
+msgid "OS/2 Boot Manager"
+msgstr ""
+
+#: gfdisk/part.c:37
+msgid "Win95 FAT32"
+msgstr ""
+
+#: gfdisk/part.c:38
+msgid "Win95 FAT32 (LBA)"
+msgstr ""
+
+#: gfdisk/part.c:39
+msgid "Win95 FAT16 (LBA)"
+msgstr ""
+
+#: gfdisk/part.c:40
+msgid "Win95 Extended (LBA)"
+msgstr ""
+
+#: gfdisk/part.c:41
+msgid "Hidden DOS FAT12"
+msgstr ""
+
+#: gfdisk/part.c:42
+msgid "Hidden DOS FAT16"
+msgstr ""
+
+#: gfdisk/part.c:43
+msgid "Hidden DOS FAT16 (big)"
+msgstr ""
+
+#: gfdisk/part.c:44
+msgid "BSD/386"
+msgstr ""
+
+#: gfdisk/part.c:45
+msgid "XENIX root"
+msgstr ""
+
+#: gfdisk/part.c:46
+msgid "XENIX usr"
+msgstr ""
+
+#: gfdisk/part.c:47
+msgid "AIX"
+msgstr ""
+
+#: gfdisk/part.c:48
+msgid "AIX bootable"
+msgstr ""
+
+#: gfdisk/part.c:49
+msgid "Venix 80286"
+msgstr ""
+
+#: gfdisk/part.c:50
+msgid "Novell?"
+msgstr ""
+
+#: gfdisk/part.c:51
+msgid "Microport"
+msgstr ""
+
+#: gfdisk/part.c:52
+msgid "GNU HURD"
+msgstr ""
+
+#: gfdisk/part.c:53
+msgid "Novell Netware 286"
+msgstr ""
+
+#: gfdisk/part.c:54
+msgid "Novell Netware 386"
+msgstr ""
+
+#: gfdisk/part.c:55
+msgid "PC/IX"
+msgstr ""
+
+#: gfdisk/part.c:56
+msgid "Old MINIX"
+msgstr ""
+
+#: gfdisk/part.c:57
+msgid "Amoeba"
+msgstr ""
+
+#: gfdisk/part.c:58
+msgid "Amoeba BBT"
+msgstr ""
+
+#: gfdisk/part.c:59
+msgid "BSDI fs"
+msgstr ""
+
+#: gfdisk/part.c:60
+msgid "BSDI swap"
+msgstr ""
+
+#: gfdisk/part.c:61
+msgid "Syrinx"
+msgstr ""
+
+#: gfdisk/part.c:62
+msgid "CP/M"
+msgstr ""
+
+#: gfdisk/part.c:63
+msgid "DOS access"
+msgstr ""
+
+#: gfdisk/part.c:64
+msgid "DOS R/O"
+msgstr ""
+
+#: gfdisk/part.c:65
+msgid "DOS secondary"
+msgstr ""
+
+#: gfdisk/part.c:66
+msgid "BBT"
+msgstr ""
+
+#: gfdisk/part.c:73
+msgid "Unknown"
+msgstr ""
+
+#. print head
+#: gfdisk/print.c:61 gfdisk/pview.c:29
+msgid "Part. #"
+msgstr "Deig. #"
+
+#: gfdisk/print.c:63 gfdisk/pview.c:30
+msgid "Size(MB)"
+msgstr "Toirt (MB)"
+
+#: gfdisk/print.c:62 gfdisk/pview.c:31
+msgid "Active"
+msgstr "Gníomhach"
+
+#: gfdisk/print.c:64 gfdisk/pview.c:32
+msgid "Start"
+msgstr "Bíog"
+
+#: gfdisk/print.c:65 gfdisk/pview.c:33
+msgid "End"
+msgstr "Deireadh"
+
+#: gfdisk/print.c:66 gfdisk/pview.c:34
+msgid "Offset"
+msgstr ""
+
+#: gfdisk/print.c:67 gfdisk/pview.c:35
+msgid "ID"
+msgstr "ID"
+
+#: gfdisk/print.c:68 gfdisk/pview.c:36
+msgid "System"
+msgstr "Corás"
+
+#: gfdisk/pview.c:194
+msgid "Free/P"
+msgstr "Saor/L"
+
+#: gfdisk/pview.c:195
+msgid "Free/L"
+msgstr "Saor/L"
+
+#: gfdisk/pview.c:196
+msgid "Free/PL"
+msgstr "Saol/PL"
+
+#: gfdisk/pview.c:197
+msgid "Unusable"
+msgstr "Gan maith"
+
+#: gfdisk/print.c:76 gfdisk/pview.c:226
+msgid "Yes"
+msgstr "Ceart"
+
+#: gfdisk/pview.c:260
+msgid "modified"
+msgstr ""
+
+#: gfdisk/elist.c:18
+msgid "Sorry, no help available."
+msgstr "Tá brón orm, Níl Cúidiú ar fáil."
+
+#: gfdisk/elist.c:79
+msgid "Error during initialization of Error Database."
+msgstr ""
+
+#: gfdisk/elist.c:187
+msgid "Information"
+msgstr "Eolas"
+
+#: gfdisk/elist.c:190
+msgid "Error"
+msgstr "Earraid"
+
+#: gfdisk/elist.c:193
+msgid "Warning"
+msgstr "Rabhadh"
+
+#: gfdisk/elist.c:259
+msgid "Type"
+msgstr "Cineál"
+
+#: gfdisk/elist.c:260
+#, fuzzy
+msgid "Description"
+msgstr " Cúntas"
+
+#: gfdisk/etexts.h:3
+#, c-format
+msgid ""
+"Writing to this device is not enabled.\n"
+"(ALLOW_WRITE = %s)"
+msgstr ""
+
+#: gfdisk/etexts.h:5
+msgid "Sorry, not implemented yet."
+msgstr ""
+
+#: gfdisk/etexts.h:6
+msgid "No partition selected."
+msgstr "Níl aon deighilt tógtha."
+
+#: gfdisk/etexts.h:7
+msgid "Maximum number of partitions reached."
+msgstr ""
+
+#: gfdisk/etexts.h:8
+msgid "Please select a free space."
+msgstr "Tóg spás saor, le do thóil."
+
+#: gfdisk/etexts.h:9
+msgid ""
+"Wrote partition table, but re-read table failed.\n"
+"Reboot the system to ensure the partition table\n"
+"is correctly updated."
+msgstr ""
+
+#: gfdisk/etexts.h:12
+msgid "Wrote partition table to disk."
+msgstr ""
+
+#: gfdisk/etexts.h:13
+msgid "Writing partition table failed."
+msgstr ""
+
+#: gfdisk/etexts.h:14
+msgid "Extended partition already exists."
+msgstr ""
+
+#: gfdisk/etexts.h:15
+msgid ""
+"Some partitions have been modified. \n"
+"Do you realy want to exit Gnome FDisk?"
+msgstr ""
+
+#: gfdisk/etexts.h:17
+msgid ""
+"No devices found - make sure that you have permissions to access the "
+"devices.\n"
+" On many systems only root is allowed to partition the disks."
+msgstr ""
+
+#: gfdisk/print.c:119
+msgid "Harddisk and Partition Info"
+msgstr "Eolais Cruadhiosca agus Deighilt"
+
+#: gfdisk/print.c:126
+msgid "Harddisk Info"
+msgstr "Eolais Cruadhiosca"
+
+#: gfdisk/print.c:133
+msgid "Model"
+msgstr "Samhail"
+
+#: gfdisk/print.c:217
+msgid "Partition Info"
+msgstr "Eolais Deighilt"
+
+#: gfdisk/print.c:246
+#, c-format
+msgid "Printed from %s@%s; Date: %s"
+msgstr ""

@@ -1,0 +1,373 @@
+# Irish (Gaeilge) translations for gnome-chess (GNOME)
+# Copyright (C) 1998 Free Software Foundation, Inc.
+# Alastair McKinstry <mckinstry@computer.org>, 1999-2001.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-chess 0.3.3\n"
+"POT-Creation-Date: 2001-08-17 00:58+0200\n"
+"PO-Revision-Date: 1998-11-20 11:00+0100\n"
+"Last-Translator: Alastair McKinstry <mckinstry@computer.org>\n"
+"Language-Team: Irish <ga@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=iso-8859-1\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Date: 1998-11-19 15:12:29+0000\n"
+
+#. Players
+#: src/board_info.c:125 src/engine-pgn.c:101 src/movlist.c:132
+msgid "White"
+msgstr "Bán"
+
+#: src/board_info.c:129 src/engine-pgn.c:101 src/movlist.c:132
+msgid "Black"
+msgstr "Dubh"
+
+#: src/board_info.c:338 src/dialogs/prefs.glade.h:24
+msgid "Playing"
+msgstr ""
+
+#: src/board_info.c:341
+msgid "Paused"
+msgstr ""
+
+#: src/board_info.c:344
+msgid "Aborted"
+msgstr ""
+
+#: src/board_info.c:347
+msgid "1-0"
+msgstr "1-0"
+
+#: src/board_info.c:350
+msgid "0-1"
+msgstr "0-1"
+
+#: src/board_info.c:353
+msgid "1/2-1/2"
+msgstr "1/2-1/2"
+
+#: src/board-window.c:151
+#, c-format
+msgid "Board %d"
+msgstr "Bord %d"
+
+#: src/board_window_menu.c:48 src/dialogs/prefs.glade.h:26
+msgid "Programs"
+msgstr "Ríomhchlaranna"
+
+#: src/board_window_menu.c:50
+msgid "_Servers"
+msgstr "_Freastalaí"
+
+#: src/engine-pgn.c:101
+msgid "Result"
+msgstr ""
+
+#: src/engine-pgn.c:241
+msgid "_PGN Info..."
+msgstr ""
+
+#: src/engine_ics.c:323
+msgid "_Draw"
+msgstr ""
+
+#: src/engine_ics.c:327
+msgid "_Flag"
+msgstr ""
+
+#: src/engine_ics.c:332
+msgid "_Resign"
+msgstr ""
+
+#: src/engine_ics.c:338
+msgid "Re_match"
+msgstr ""
+
+#: src/engine_local.c:356
+msgid "Computer _White"
+msgstr ""
+
+#: src/engine_local.c:360
+msgid "Computer _Black"
+msgstr ""
+
+#: src/engine_local.c:364
+msgid "_Analyze Mode"
+msgstr ""
+
+#: src/engine_local.c:381
+msgid "_Mode"
+msgstr "_Mód"
+
+#: src/engine_local.c:383
+msgid "_Level..."
+msgstr ""
+
+#: src/engine_local.c:387
+msgid "_Take Back"
+msgstr ""
+
+#: src/engine_local.c:392
+msgid "Move _Now"
+msgstr ""
+
+#: src/main.c:48
+msgid "Enables some debugging functions"
+msgstr ""
+
+#: src/main.c:48
+msgid "LEVEL"
+msgstr "COTHROM"
+
+#: src/main.c:50
+msgid "First Chess Program"
+msgstr ""
+
+#: src/main.c:50
+msgid "PROGRAM"
+msgstr "RÍOMHCHLAR"
+
+#: src/main.c:52
+msgid "Start in ICS mode"
+msgstr ""
+
+#: src/main.c:54
+msgid "ICS Server"
+msgstr "Freastalaí ICS"
+
+#: src/main.c:54
+msgid "SERVER"
+msgstr "Freastalaí"
+
+#: src/main.c:56
+msgid "ICS User"
+msgstr ""
+
+#: src/main.c:56
+msgid "USERNAME"
+msgstr "AINM ÚSÁIDEOIR"
+
+#: src/main.c:58
+msgid "ICS Password"
+msgstr "Pasfhocal ICS"
+
+#: src/main.c:58
+msgid "PASSWORD"
+msgstr "PASFHOCAL"
+
+#: src/main.c:60
+msgid "ICS Port"
+msgstr "Pasfhocal ICS"
+
+#: src/main.c:60
+msgid "PORT"
+msgstr "POIRT"
+
+#: src/main.c:62
+msgid "ICS Telnet Programm"
+msgstr ""
+
+#: src/main.c:62
+msgid "TELNET"
+msgstr "TELNET"
+
+#: src/movlist.c:132
+msgid "Number"
+msgstr "Uimhir"
+
+#: src/dialogs/level.glade.h:1
+msgid "Level"
+msgstr ""
+
+#: src/dialogs/level.glade.h:2
+msgid "Number of moves"
+msgstr ""
+
+#: src/dialogs/level.glade.h:3
+msgid "Time (in minutes)"
+msgstr ""
+
+#: src/dialogs/login.glade.h:1
+msgid "Chess Server Login"
+msgstr ""
+
+#: src/dialogs/login.glade.h:2
+msgid "Password:"
+msgstr "Pasfhocal:"
+
+#: src/dialogs/login.glade.h:3
+msgid "Username:"
+msgstr "Ainm Úsáideoir:"
+
+#: src/dialogs/prefs.glade.h:1
+msgid "Add"
+msgstr "Cuir le"
+
+#: src/dialogs/prefs.glade.h:2
+msgid "Always promote to queen"
+msgstr ""
+
+#: src/dialogs/prefs.glade.h:3
+msgid "Autoflag"
+msgstr ""
+
+#: src/dialogs/prefs.glade.h:4
+msgid "Beep when a move is made"
+msgstr ""
+
+#: src/dialogs/prefs.glade.h:5
+msgid "Board"
+msgstr "Bord"
+
+#: src/dialogs/prefs.glade.h:6
+msgid "Board & Pieces"
+msgstr ""
+
+#: src/dialogs/prefs.glade.h:7
+msgid "Connect Program"
+msgstr ""
+
+#: src/dialogs/prefs.glade.h:8
+msgid "Dark Coloured Squares"
+msgstr ""
+
+#: src/dialogs/prefs.glade.h:9
+msgid "Default Connect Program"
+msgstr ""
+
+#: src/dialogs/prefs.glade.h:10
+msgid "Delete"
+msgstr "Scríos"
+
+#: src/dialogs/prefs.glade.h:11
+msgid "Game Play"
+msgstr ""
+
+#: src/dialogs/prefs.glade.h:12
+msgid "Gnome Chess Preferences"
+msgstr "Gnome-Chess"
+
+#: src/dialogs/prefs.glade.h:13
+msgid "Light Coloured Squares"
+msgstr ""
+
+#: src/dialogs/prefs.glade.h:14
+msgid "Location"
+msgstr "Áit"
+
+#: src/dialogs/prefs.glade.h:15
+msgid "Modify"
+msgstr ""
+
+#: src/dialogs/prefs.glade.h:16
+msgid "Move list in Coordinate Notation"
+msgstr ""
+
+#: src/dialogs/prefs.glade.h:17
+msgid "Move list in Standard Algebraic Notation"
+msgstr ""
+
+#: src/dialogs/prefs.glade.h:18
+msgid "Name"
+msgstr "Ainm"
+
+#: src/dialogs/prefs.glade.h:19
+msgid "Password"
+msgstr "Pasfhocal"
+
+#: src/dialogs/prefs.glade.h:20
+msgid "Path"
+msgstr "Slí"
+
+#: src/dialogs/prefs.glade.h:21
+msgid "Pick a color"
+msgstr "Tóg Dath"
+
+#: src/dialogs/prefs.glade.h:22
+msgid "Piece directory..."
+msgstr ""
+
+#: src/dialogs/prefs.glade.h:23
+msgid "Pieces"
+msgstr ""
+
+#: src/dialogs/prefs.glade.h:25
+#, fuzzy
+msgid "Port"
+msgstr "Pasfhocal ICS"
+
+#: src/dialogs/prefs.glade.h:27
+msgid "Server"
+msgstr "Freastalaí"
+
+#: src/dialogs/prefs.glade.h:28
+msgid "Servers"
+msgstr "Freastalaí ICS"
+
+#: src/dialogs/prefs.glade.h:29
+msgid "Username"
+msgstr "Ainm Úsáideoir"
+
+#: src/dialogs/promotion.glade.h:1
+msgid "Bishop"
+msgstr ""
+
+#: src/dialogs/promotion.glade.h:2
+msgid "Knight"
+msgstr ""
+
+#: src/dialogs/promotion.glade.h:3
+msgid "Promote to which piece?"
+msgstr ""
+
+#: src/dialogs/promotion.glade.h:4
+msgid "Promotion"
+msgstr ""
+
+#: src/dialogs/promotion.glade.h:5
+msgid "Queen"
+msgstr "Banríon"
+
+#: src/dialogs/promotion.glade.h:6
+msgid "Rook"
+msgstr ""
+
+#~ msgid "0:00"
+#~ msgstr "0:00"
+
+#~ msgid "_Load Game..."
+#~ msgstr "_Lódáil cluiche..."
+
+#~ msgid "_Save Game..."
+#~ msgstr "Sábháil cluiche mar.."
+
+#~ msgid "_New"
+#~ msgstr "_Nua"
+
+#~ msgid "_Close All Windows"
+#~ msgstr "_Dúnadh gach fhuinneoga"
+
+#~ msgid "New File"
+#~ msgstr "Comhad Nua"
+
+#~ msgid "New Board"
+#~ msgstr "Bord Nua"
+
+#~ msgid "Prefs"
+#~ msgstr "Roghnachais"
+
+#~ msgid "Quit"
+#~ msgstr "_Ealu"
+
+#~ msgid "Copyright (C) 1998-1999"
+#~ msgstr "Coípcheart © 1998-1999"
+
+#~ msgid "FILE"
+#~ msgstr "COMHAD"
+
+#~ msgid "Login information..."
+#~ msgstr "Eolas Logann..."
+
+#~ msgid "Preferences"
+#~ msgstr "Roghnachais"

@@ -1,0 +1,515 @@
+# Irish (gaeilge) translations for ggv.pot (GNOME)
+# Copyright (C) 1998 Free Software Foundation, Inc.
+# Alastair McKinstry <mckinstry@computer.org>, 1998.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: ggv2 1.99.0\n"
+"POT-Creation-Date: 2002-03-08 10:55+0100\n"
+"PO-Revision-Date: 2000-03-24 16:22+0100\n"
+"Last-Translator: Alastair McKinstry <mckinstry@computer.org>\n"
+"Language-Team: Gaeilge\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=iso-8859-1\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Date: 1998-08-07 11:52:50-0400\n"
+"From:  <jrb@aware-of-vacuity.labs.redhat.com>\n"
+
+#: bonobo/ggv-control-ui.xml.h:1
+#, fuzzy
+msgid "Zoom _In"
+msgstr "Géarardú"
+
+#: bonobo/ggv-control-ui.xml.h:2
+#, fuzzy
+msgid "Zoom _Out"
+msgstr "Géarardú"
+
+#: bonobo/ggv-control-ui.xml.h:3
+#, fuzzy
+msgid "Zoom to _Default"
+msgstr "Géarardú"
+
+#: bonobo/ggv-control-ui.xml.h:4
+#, fuzzy
+msgid "Zoom to _Fit"
+msgstr "Géarardú"
+
+#: bonobo/ggv-control-ui.xml.h:5
+#, fuzzy
+msgid "_Zoom"
+msgstr "Géarardú"
+
+#: bonobo/ggv-postscript-view-ui.xml.h:1
+msgid "Go to first page"
+msgstr ""
+
+#: bonobo/ggv-postscript-view-ui.xml.h:2
+msgid "Go to last page"
+msgstr ""
+
+#: bonobo/ggv-postscript-view-ui.xml.h:3
+#, fuzzy
+msgid "Move to next page"
+msgstr "an cheád Leathanach eile"
+
+#: bonobo/ggv-postscript-view-ui.xml.h:4
+#, fuzzy
+msgid "Move to previous page"
+msgstr "Riomh Leathanach"
+
+#: bonobo/ggv-postscript-view-ui.xml.h:5
+#, fuzzy
+msgid "Override Orientation"
+msgstr "Treosuíomh"
+
+#: bonobo/ggv-postscript-view-ui.xml.h:6
+#, fuzzy
+msgid "_First page"
+msgstr "an cheád Leathanach eile"
+
+#: bonobo/ggv-postscript-view-ui.xml.h:7
+#, fuzzy
+msgid "_Landscape"
+msgstr "Radharc Tíre"
+
+#: bonobo/ggv-postscript-view-ui.xml.h:8
+#, fuzzy
+msgid "_Last page"
+msgstr "an cheád Leathanach eile"
+
+#: bonobo/ggv-postscript-view-ui.xml.h:9
+#, fuzzy
+msgid "_Next page"
+msgstr "an cheád Leathanach eile"
+
+#: bonobo/ggv-postscript-view-ui.xml.h:10
+msgid "_Orientation"
+msgstr "_Treosuíomh"
+
+#: bonobo/ggv-postscript-view-ui.xml.h:11
+msgid "_Override Size"
+msgstr ""
+
+#: bonobo/ggv-postscript-view-ui.xml.h:12
+msgid "_Portrait"
+msgstr "_Portráid"
+
+#: bonobo/ggv-postscript-view-ui.xml.h:13
+msgid "_Previous page"
+msgstr "_Riomh Leathanach"
+
+#: bonobo/ggv-postscript-view-ui.xml.h:14
+msgid "_Seascape"
+msgstr "Radharc _Mara"
+
+#: bonobo/ggv-postscript-view-ui.xml.h:15
+msgid "_Size"
+msgstr ""
+
+#: bonobo/ggv-postscript-view-ui.xml.h:16
+msgid "_Upside down"
+msgstr "_Bunoscionn"
+
+#: bonobo/ggv-postscript-view-ui.xml.h:17
+msgid "_View"
+msgstr ""
+
+#: bonobo/ggv-postscript-view.c:1263
+msgid "Display"
+msgstr ""
+
+#: bonobo/ggv-postscript-view.c:1346
+#, fuzzy
+msgid "Document title"
+msgstr "Cáipéis"
+
+#: bonobo/ggv-postscript-view.c:1350
+msgid "GGV control status"
+msgstr ""
+
+#: bonobo/ggv-postscript-view.c:1354
+msgid "Number of pages"
+msgstr ""
+
+#: bonobo/ggv-postscript-view.c:1358
+msgid "Page names"
+msgstr ""
+
+#: bonobo/ggv-postscript-view.c:1362
+#, fuzzy
+msgid "Current page number"
+msgstr "Athlár Leathanach"
+
+#: bonobo/ggv-postscript-view.c:1366
+#, fuzzy
+msgid "Document width"
+msgstr "Cáipéis"
+
+#: bonobo/ggv-postscript-view.c:1370
+#, fuzzy
+msgid "Document height"
+msgstr "Cáipéis"
+
+#: bonobo/ggv-postscript-view.c:1374
+#, fuzzy
+msgid "Document orientation"
+msgstr "Treosuíomh"
+
+#: bonobo/ggv-postscript-view.c:1378
+#, fuzzy
+msgid "Default orientation"
+msgstr "Treosuíomh"
+
+#: bonobo/ggv-postscript-view.c:1382
+msgid "Default size"
+msgstr ""
+
+#: bonobo/ggv-postscript-view.c:1386
+#, fuzzy
+msgid "Override document orientation"
+msgstr "Treosuíomh"
+
+#: bonobo/ggv-postscript-view.c:1390
+#, fuzzy
+msgid "Override document size"
+msgstr "Treosuíomh"
+
+#: bonobo/ggv-postscript-view.c:1394
+msgid "Respect EOF comment"
+msgstr ""
+
+#: bonobo/ggv-postscript-view.c:1398
+msgid "Watch displayed file for changes"
+msgstr ""
+
+#: bonobo/ggv-postscript-view.c:1402
+msgid "Antialiasing"
+msgstr ""
+
+#: bonobo/GNOME_GGV.server.in.h:1
+msgid "GGV PostScript Document Control"
+msgstr ""
+
+#: bonobo/GNOME_GGV.server.in.h:2
+msgid "GGV PostScript View"
+msgstr ""
+
+#: bonobo/GNOME_GGV.server.in.h:3
+msgid "GGV PostScript viewer factory"
+msgstr ""
+
+#: src/main.c:85
+msgid "Could not initialize Bonobo!\n"
+msgstr ""
+
+#: src/ggv-window.c:48
+msgid "GGV: "
+msgstr ""
+
+#: src/ggv-window.c:120
+msgid "Select a PostScript document"
+msgstr ""
+
+#: src/ggv-window.c:258 src/ggv-window.c:630
+msgid "Gnome Ghostview"
+msgstr ""
+
+#: src/ggv-window.c:260
+msgid "Copyright (C) 1998-2002 The Free Software Foundation"
+msgstr ""
+
+#: src/ggv-window.c:261
+msgid "The GNOME PostScript document previewer"
+msgstr ""
+
+#: src/ggvutils.c:42
+msgid "Portrait"
+msgstr "Portráid"
+
+#: src/ggvutils.c:43
+#, fuzzy
+msgid "Landscape"
+msgstr "Radharc Tíre"
+
+#: src/ggvutils.c:44
+#, fuzzy
+msgid "Upside Down"
+msgstr "Bunoscionn"
+
+#: src/ggvutils.c:45
+msgid "Seascape"
+msgstr "Radharc Mara"
+
+#: src/ggvutils.c:53
+msgid "inch"
+msgstr ""
+
+#: src/ggvutils.c:54
+msgid "mm"
+msgstr ""
+
+#: src/ggvutils.c:55
+msgid "cm"
+msgstr ""
+
+#: src/ggvutils.c:56
+msgid "point"
+msgstr ""
+
+#: src/gtkgs.c:994
+msgid "Broken pipe."
+msgstr ""
+
+#. report error
+#: src/gtkgs.c:1267
+#, c-format
+msgid "Error while decompressing file %s:\n"
+msgstr ""
+
+#: src/gtkgs.c:1329
+#, c-format
+msgid "Error while scanning pdf file %s:\n"
+msgstr ""
+
+#: src/gtkgs.c:1622
+#, c-format
+msgid "Cannot open file %s\n"
+msgstr ""
+
+#: src/gtkgs.c:1644
+#, c-format
+msgid "Error while scanning file %s\n"
+msgstr ""
+
+#: src/ggv-ui.xml.h:1
+msgid "About this application"
+msgstr ""
+
+#: src/ggv-ui.xml.h:2
+msgid "About..."
+msgstr "Faoi..."
+
+#: src/ggv-ui.xml.h:3
+msgid "Close"
+msgstr ""
+
+#: src/ggv-ui.xml.h:4
+msgid "Close this window"
+msgstr ""
+
+#: src/ggv-ui.xml.h:5
+msgid "E_xit"
+msgstr "_Ealu"
+
+#: src/ggv-ui.xml.h:6
+msgid "Exit the program"
+msgstr ""
+
+#: src/ggv-ui.xml.h:7
+msgid "New _window"
+msgstr ""
+
+#: src/ggv-ui.xml.h:8
+msgid "New window"
+msgstr ""
+
+#: src/ggv-ui.xml.h:9
+#, fuzzy
+msgid "Open"
+msgstr "Oscail"
+
+#: src/ggv-ui.xml.h:10
+msgid "Open a new PostScript document"
+msgstr ""
+
+#: src/ggv-ui.xml.h:11
+msgid "Open a new window"
+msgstr ""
+
+#: src/ggv-ui.xml.h:12
+msgid "Open the preferences dialog"
+msgstr ""
+
+#: src/ggv-ui.xml.h:13
+#, fuzzy
+msgid "Show Side_bar"
+msgstr "Taispéain/Fol Taobhpaineál"
+
+#: src/ggv-ui.xml.h:14
+#, fuzzy
+msgid "Show _Menus"
+msgstr "Taispéain/Fol Cláranna"
+
+#: src/ggv-ui.xml.h:15
+#, fuzzy
+msgid "Show _Statusbar"
+msgstr "Taispéain/Fol Cláranna"
+
+#: src/ggv-ui.xml.h:16
+msgid "Show _Toolbar"
+msgstr ""
+
+#: src/ggv-ui.xml.h:17
+#, fuzzy
+msgid "Show/hide the menus"
+msgstr "Taispéain/Fol Cláranna"
+
+#: src/ggv-ui.xml.h:18
+msgid "Show/hide the sidebar"
+msgstr ""
+
+#: src/ggv-ui.xml.h:19
+msgid "Show/hide the statusbar"
+msgstr ""
+
+#: src/ggv-ui.xml.h:20
+msgid "Show/hide the toolbar"
+msgstr ""
+
+#: src/ggv-ui.xml.h:21
+msgid "_Close"
+msgstr ""
+
+#: src/ggv-ui.xml.h:22
+#, fuzzy
+msgid "_File"
+msgstr "Comhad"
+
+#: src/ggv-ui.xml.h:23
+#, fuzzy
+msgid "_Help"
+msgstr "Cabhair"
+
+#: src/ggv-ui.xml.h:24
+#, fuzzy
+msgid "_Open"
+msgstr "Oscail"
+
+#: src/ggv-ui.xml.h:25
+#, fuzzy
+msgid "_Preferences..."
+msgstr "Roghnachais..."
+
+#: src/ggv-ui.xml.h:26
+msgid "_Settings"
+msgstr ""
+
+#: ggv.desktop.in.h:1
+msgid "A Ghostscript frontend to visualize PostScript files"
+msgstr ""
+
+#: ggv.desktop.in.h:2
+msgid "GNOME Ghostview"
+msgstr ""
+
+#~ msgid "Next Page"
+#~ msgstr "an cheád Leathanach eile"
+
+#~ msgid "Previous Page"
+#~ msgstr "Riomh Leathanach"
+
+#~ msgid "Recenter Page"
+#~ msgstr "Athlár Leathanach"
+
+#, fuzzy
+#~ msgid "Landscape orientation"
+#~ msgstr "Treosuíomh"
+
+#, fuzzy
+#~ msgid "Seascape orientation"
+#~ msgstr "Treosuíomh"
+
+#, fuzzy
+#~ msgid "S_how Side Panel"
+#~ msgstr "Taispéain/Fol Taobhpaineál"
+
+#, fuzzy
+#~ msgid "_Open..."
+#~ msgstr "Oscail"
+
+#, fuzzy
+#~ msgid "_Reload"
+#~ msgstr "Athchur"
+
+#, fuzzy
+#~ msgid "_Print"
+#~ msgstr "Priontáil..."
+
+#, fuzzy
+#~ msgid "Prin_t marked pages"
+#~ msgstr "Sabháil le..."
+
+#, fuzzy
+#~ msgid "Save _marked pages..."
+#~ msgstr "Sabháil le..."
+
+#, fuzzy
+#~ msgid "Exit GGv"
+#~ msgstr "Ealu"
+
+#, fuzzy
+#~ msgid "_Next Page"
+#~ msgstr "an cheád Leathanach eile"
+
+#, fuzzy
+#~ msgid "_Previous Page"
+#~ msgstr "Riomh Leathanach"
+
+#, fuzzy
+#~ msgid "_Recenter Page"
+#~ msgstr "Athlár Leathanach"
+
+#, fuzzy
+#~ msgid "_Document"
+#~ msgstr "Cáipéis"
+
+#, fuzzy
+#~ msgid "Reload"
+#~ msgstr "Athchur"
+
+#, fuzzy
+#~ msgid "Save marked"
+#~ msgstr "Sabháil le..."
+
+#, fuzzy
+#~ msgid "Zoom in"
+#~ msgstr "Géarardú"
+
+#, fuzzy
+#~ msgid "GGV Preferences"
+#~ msgstr "Roghnachais..."
+
+#, fuzzy
+#~ msgid "Fallback media orientation"
+#~ msgstr "Treosuíomh"
+
+#, fuzzy
+#~ msgid "Printing"
+#~ msgstr "Treosuíomh"
+
+#, fuzzy
+#~ msgid ""
+#~ "PostScript(TM) document viewer.\n"
+#~ "Based on Tim Theisen's excellent Ghostview application."
+#~ msgstr "Bun ar an Ríomhchlar an fheabhas 'Ghostview' le Tim Theisen."
+
+#, fuzzy
+#~ msgid "GGv: Save marked pages"
+#~ msgstr "Sabháil le..."
+
+#, fuzzy
+#~ msgid "_Automatic"
+#~ msgstr "Uathoibríoch"
+
+#~ msgid "Ghostview for Gnome"
+#~ msgstr "Ghostview do Gnome"
+
+#~ msgid "Save"
+#~ msgstr "Sabháil"
+
+#~ msgid "Recently Used Docs"
+#~ msgstr "Cáipéisí Deireanach Úsáidithe"
+
+#~ msgid "Help with ggv..."
+#~ msgstr "Cabhair le ggv..."

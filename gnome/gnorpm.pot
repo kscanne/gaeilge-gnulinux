@@ -1,0 +1,1457 @@
+# Irish (gaeilge) translations for gnorpm 
+# Copyright (C) 2000 Free Software Foundation, Inc.
+# Alastair McKinstry <mckinstry@computer.org>, 2000
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnorpm CVS\n"
+"POT-Creation-Date: 2001-09-20 20:09-0400\n"
+"PO-Revision-Date: 2000-03-13 19:00+0100\n"
+"Last-Translator:Alastair McKinstry <mckinstry@computer.org>\n"
+"Language-Team: Irish <ga@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=iso-8859-1\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: checksig.c:43 verify.c:30
+msgid "File"
+msgstr "Comhad"
+
+#: checksig.c:43
+msgid "Sig"
+msgstr ""
+
+#: checksig.c:43
+msgid "Details"
+msgstr ""
+
+#: checksig.c:54
+msgid "Checking Signatures"
+msgstr ""
+
+#: checksig.c:100
+msgid "error"
+msgstr "earráid"
+
+#: checksig.c:104
+msgid "couldn't open file"
+msgstr ""
+
+#: checksig.c:111
+msgid "could not read lead bytes"
+msgstr ""
+
+#: checksig.c:119
+msgid "file version doesn't support signatures"
+msgstr ""
+
+#: checksig.c:127
+msgid "could not read signature block"
+msgstr ""
+
+#: checksig.c:135
+msgid "no signatures"
+msgstr ""
+
+#: checksig.c:151
+msgid "error reading file"
+msgstr ""
+
+#: checksig.c:160
+msgid "error writing temp file"
+msgstr ""
+
+#: checksig.c:183 checksig.c:226
+msgid "size"
+msgstr "méid"
+
+#: checksig.c:184 checksig.c:210
+msgid "size does not match signature"
+msgstr ""
+
+#: checksig.c:192 checksig.c:233
+msgid "md5"
+msgstr "md5"
+
+#: checksig.c:193
+msgid "md5 sum does not match signature"
+msgstr ""
+
+#: checksig.c:204 checksig.c:209 checksig.c:238
+msgid "pgp"
+msgstr "pgp"
+
+#: checksig.c:217 checksig.c:243
+msgid "unknown"
+msgstr "gan aithne"
+
+#: checksig.c:218
+msgid "unknown signature test failed"
+msgstr ""
+
+#: checksig.c:227 checksig.c:234 checksig.c:239 checksig.c:244
+msgid "OK"
+msgstr "Ceart go Leor"
+
+#: dbhandle.c:64
+msgid "Could not open database"
+msgstr ""
+
+#: gnorpm.c:51
+msgid "geometry of main window"
+msgstr ""
+
+#: gnorpm.c:51
+msgid "wxh+x+y"
+msgstr "wxh+x+y"
+
+#: gnorpm.c:53
+msgid "the file system root"
+msgstr ""
+
+#: gnorpm.c:53
+msgid "ROOT"
+msgstr ""
+
+#: gnorpm.c:55
+msgid "query packages"
+msgstr ""
+
+#: gnorpm.c:57
+msgid "packages are in files (rather than db)"
+msgstr ""
+
+#: gnorpm.c:59
+msgid "install packages"
+msgstr ""
+
+#: gnorpm.c:61
+msgid "upgrade packages"
+msgstr ""
+
+#: gnorpm.c:63
+msgid "verify packages"
+msgstr ""
+
+#: gnorpm.c:65
+msgid "check signatures"
+msgstr ""
+
+#: gnorpm.c:138 mainwin.c:375 mainwin.c:443 mainwin.c:713
+#, c-format
+msgid "%d packages couldn't be uninstalled"
+msgstr ""
+
+#: gnorpm.c:155 mainwin.c:487
+#, c-format
+msgid "Couldn't install %s"
+msgstr ""
+
+#: gnorpm.c:167 mainwin.c:497
+#, c-format
+msgid "Couldn't upgrade %s"
+msgstr ""
+
+#: gnorpm.c:199
+msgid "You need to be the superuser to use this option."
+msgstr ""
+
+#: gnorpm.c:235 gnorpm.c:264 gnorpm.c:328 gnorpm.c:339
+msgid "You must give a package name to query"
+msgstr ""
+
+#: gnorpm.c:297
+#, c-format
+msgid "%s of %d packages failed."
+msgstr ""
+
+#: gnorpm.c:298 rpminstalldlg.c:359 rpmquery.c:409
+msgid "Upgrade"
+msgstr ""
+
+#: gnorpm.c:298 mainwin.c:283 mainwin.c:582 mainwin.c:604 rpminstalldlg.c:350
+#: rpmquery.c:397 rpmwebfind.c:615
+msgid "Install"
+msgstr ""
+
+#: install.c:100
+msgid " requires "
+msgstr ""
+
+#: install.c:102
+msgid " conflicts with "
+msgstr ""
+
+#: install.c:176
+msgid "Dependency Problems"
+msgstr ""
+
+#: install.c:185
+msgid "The following dependency problems occured:"
+msgstr ""
+
+#: install.c:211 install.c:266
+msgid ""
+"Do you want to ignore these problems?\n"
+"(saying yes may make your system unstable)"
+msgstr ""
+
+#: install.c:227
+msgid "Installation Problems"
+msgstr ""
+
+#: install.c:236
+msgid "The following installation problems occured:"
+msgstr ""
+
+#: install.c:348
+msgid "Dependency check failed."
+msgstr ""
+
+#: install.c:373
+msgid "Upgrading"
+msgstr ""
+
+#: install.c:375
+msgid "Installing"
+msgstr ""
+
+#: install.c:421
+msgid "Continue Removal"
+msgstr ""
+
+#: install.c:430
+msgid "Remove the following packages?"
+msgstr ""
+
+#: mainwin.c:136
+msgid "Gnome RPM"
+msgstr "Gnome RPM"
+
+#: mainwin.c:154
+msgid "Packages Selected: 0"
+msgstr ""
+
+#: mainwin.c:196
+#, c-format
+msgid "Packages selected: %d"
+msgstr ""
+
+#: mainwin.c:231
+msgid "_Query..."
+msgstr ""
+
+#: mainwin.c:232 mainwin.c:730 mainwin.c:743
+msgid "Get information about the selected packages"
+msgstr ""
+
+#: mainwin.c:235 mainwin.c:732
+msgid "_Uninstall"
+msgstr ""
+
+#: mainwin.c:236 mainwin.c:733
+msgid "Uninstall the selected packages"
+msgstr ""
+
+#: mainwin.c:239 mainwin.c:735
+msgid "_Verify"
+msgstr ""
+
+#: mainwin.c:240 mainwin.c:736
+msgid "Verify the selected packages"
+msgstr ""
+
+#: mainwin.c:242
+msgid "_Create desktop entry..."
+msgstr ""
+
+#: mainwin.c:243
+msgid "Create desktop entries (for panel) for the selected packages"
+msgstr ""
+
+#: mainwin.c:246
+msgid "_Quit"
+msgstr "_Ealu"
+
+#: mainwin.c:246
+msgid "Quit GnoRPM"
+msgstr "Eirigh as GnoRPM"
+
+#: mainwin.c:251
+msgid "_Find..."
+msgstr "_Faigh..."
+
+#: mainwin.c:252
+msgid "Search RPM database for packages"
+msgstr ""
+
+#: mainwin.c:255
+msgid "Web find..."
+msgstr ""
+
+#: mainwin.c:256 mainwin.c:304
+msgid "Find packages on the web with rpmfind"
+msgstr ""
+
+#: mainwin.c:260
+msgid "_Install..."
+msgstr ""
+
+#: mainwin.c:261
+msgid "Install some new packages"
+msgstr ""
+
+#: mainwin.c:264
+msgid "_Preferences..."
+msgstr "_Roghnachais..."
+
+#: mainwin.c:265
+msgid "Alter GnoRPM's preferences"
+msgstr "Cuardaigh roghnachais GnoRPM"
+
+#: mainwin.c:270
+msgid "_About..."
+msgstr "_Faoi..."
+
+#: mainwin.c:270
+msgid "Bring up the about box"
+msgstr ""
+
+#: mainwin.c:277
+msgid "_Packages"
+msgstr ""
+
+#: mainwin.c:278
+msgid "_Operations"
+msgstr ""
+
+#: mainwin.c:279
+msgid "_Help"
+msgstr "C_abhair"
+
+#: mainwin.c:284
+msgid "Select packages for installation"
+msgstr ""
+
+#: mainwin.c:287
+msgid "Unselect"
+msgstr ""
+
+#: mainwin.c:287
+msgid "Unselect all packages"
+msgstr ""
+
+#: mainwin.c:290 rpmfinddlg.c:183 rpmquery.c:453
+msgid "Uninstall"
+msgstr ""
+
+#: mainwin.c:291
+msgid "Uninstall selected packages"
+msgstr ""
+
+#: mainwin.c:294 rpmfinddlg.c:174 rpminstalldlg.c:339
+msgid "Query"
+msgstr ""
+
+#: mainwin.c:294
+msgid "Query selected packages"
+msgstr ""
+
+#: mainwin.c:297 rpmfinddlg.c:192 rpmquery.c:445
+msgid "Verify"
+msgstr ""
+
+#: mainwin.c:297
+msgid "Verify selected packages"
+msgstr ""
+
+#: mainwin.c:300 rpmfinddlg.c:152
+msgid "Find"
+msgstr ""
+
+#: mainwin.c:300
+msgid "Find packages"
+msgstr ""
+
+#: mainwin.c:303
+msgid "Web find"
+msgstr ""
+
+#: mainwin.c:322 mainwin.c:368 mainwin.c:436
+msgid "You need to be the superuser to uninstall packages."
+msgstr ""
+
+#: mainwin.c:338 mainwin.c:348 mainwin.c:457
+msgid "You need to be the superuser to verify packages."
+msgstr ""
+
+#: mainwin.c:413
+msgid "About GnoRPM"
+msgstr "Faoi GnoRPM"
+
+#: mainwin.c:416
+msgid ""
+"May be distributed under the terms of the GPL2\n"
+"This program uses rpmlib, written by Red Hat"
+msgstr ""
+
+#: mainwin.c:528 mainwin.c:546 mainwin.c:564 verify.c:48
+msgid "No packages selected"
+msgstr ""
+
+#: mainwin.c:535
+#, c-format
+msgid "Install of %d packages failed."
+msgstr ""
+
+#: mainwin.c:555
+#, c-format
+msgid "Upgrade of %d packages failed."
+msgstr ""
+
+#: mainwin.c:575 rpmwebfind.c:609
+msgid "You need to be the superuser to install packages."
+msgstr ""
+
+#: mainwin.c:629 rpmprops.c:664
+msgid "Rpmfind"
+msgstr "Rpmfind"
+
+#: mainwin.c:729 mainwin.c:742
+msgid "_Query"
+msgstr ""
+
+#: rpmdentry.c:87
+msgid "Desktop Entry Editor"
+msgstr ""
+
+#: rpmdentry.c:353
+msgid "Save Desktop Entry"
+msgstr ""
+
+#: rpmfinddlg.c:100
+msgid "/contain file"
+msgstr ""
+
+#: rpmfinddlg.c:102
+msgid "/are in the group"
+msgstr ""
+
+#: rpmfinddlg.c:104
+msgid "/provide"
+msgstr ""
+
+#: rpmfinddlg.c:106
+msgid "/require"
+msgstr ""
+
+#: rpmfinddlg.c:108
+msgid "/conflict with"
+msgstr ""
+
+#: rpmfinddlg.c:110
+msgid "/match label"
+msgstr ""
+
+#: rpmfinddlg.c:118
+msgid "Find Packages"
+msgstr ""
+
+#: rpmfinddlg.c:130
+msgid "Find packages that"
+msgstr ""
+
+#: rpminstalldlg.c:182 rpmprops.c:135 rpmwebfind.c:84
+msgid "Name"
+msgstr "Ainm"
+
+#: rpminstalldlg.c:185
+msgid "/All packages"
+msgstr ""
+
+#: rpminstalldlg.c:187
+msgid "/All but installed packages"
+msgstr ""
+
+#: rpminstalldlg.c:189
+msgid "/Only uninstalled packages"
+msgstr ""
+
+#: rpminstalldlg.c:191
+msgid "/Only newer packages"
+msgstr ""
+
+#: rpminstalldlg.c:193
+msgid "/Uninstalled or newer packages"
+msgstr ""
+
+#: rpminstalldlg.c:222
+msgid "Filter:"
+msgstr ""
+
+#: rpminstalldlg.c:274 rpmpackagelist.c:131 rpmprogress.c:85
+msgid "Packages"
+msgstr ""
+
+#: rpminstalldlg.c:298 rpminstalldlg.c:873
+msgid "Add"
+msgstr "Suim"
+
+#: rpminstalldlg.c:305
+msgid ""
+"Select\n"
+"All"
+msgstr ""
+"Tóg\n"
+"Gach rud"
+
+#: rpminstalldlg.c:312
+msgid ""
+"Unselect\n"
+"All"
+msgstr ""
+
+#: rpminstalldlg.c:319
+msgid ""
+"Expand\n"
+"Tree"
+msgstr ""
+
+#: rpminstalldlg.c:326
+msgid ""
+"Collapse\n"
+"Tree"
+msgstr ""
+
+#: rpminstalldlg.c:368 rpmquery.c:421
+msgid "Check Sig"
+msgstr ""
+
+#: rpminstalldlg.c:658
+#, c-format
+msgid "Can't open file %s"
+msgstr ""
+
+#: rpminstalldlg.c:667
+#, c-format
+msgid "%s doesn't appear to be a RPM package"
+msgstr ""
+
+#: find/rdf.c:143 find/rdf.c:149 rpminstalldlg.c:685 rpminstalldlg.c:731
+msgid "Unknown"
+msgstr "Gan aithne"
+
+#: rpminstalldlg.c:865
+msgid "Add Packages"
+msgstr "Suimigh Pacaístí"
+
+#: rpminstalldlg.c:880 rpmquery.c:433
+msgid "Close"
+msgstr "Dun"
+
+#: rpminstalldlg.c:1114 rpmquerydlg.c:57
+msgid "Package Info"
+msgstr ""
+
+#: rpmpackagelist.c:113 verify.c:30
+msgid "Package"
+msgstr ""
+
+#: rpmpackagelist.c:113
+msgid "Version"
+msgstr "Leagan"
+
+#: rpmpackagelist.c:114
+msgid "Release"
+msgstr ""
+
+#: rpmpackagelist.c:114
+msgid "Summary"
+msgstr ""
+
+#: rpmprogress.c:66
+msgid "Done"
+msgstr "Rinneadh"
+
+#: rpmprogress.c:72
+msgid "Remaining"
+msgstr ""
+
+#: rpmprogress.c:78
+msgid "Total"
+msgstr "Íomlán"
+
+#: rpmprogress.c:110
+msgid "Size"
+msgstr "Méid"
+
+#: rpmprogress.c:135
+msgid "Time"
+msgstr "Am"
+
+#. install options
+#: rpmprops.c:76
+msgid "No dependency checks"
+msgstr ""
+
+#: rpmprops.c:77
+msgid "Do not check for dependencies on other rpms. Equivalent to --nodeps"
+msgstr ""
+
+#: rpmprops.c:78
+msgid "No reordering"
+msgstr ""
+
+#: rpmprops.c:79
+msgid ""
+"Do not reorder package installation to satisfy dependencies. Equivalent to --"
+"noorder"
+msgstr ""
+
+#: rpmprops.c:81
+msgid "Don't run scripts"
+msgstr ""
+
+#: rpmprops.c:82
+msgid "Do not run the pre and post install scripts. Equivalent to --noscripts."
+msgstr ""
+
+#: rpmprops.c:85
+msgid "Allow replacement of packages"
+msgstr ""
+
+#: rpmprops.c:86
+msgid ""
+"Replace packages with a new copy of itself. Equivalent to --replacepkgs."
+msgstr ""
+
+#: rpmprops.c:88
+msgid "Allow replacement of files"
+msgstr ""
+
+#: rpmprops.c:89
+msgid "Replace files owned by another package. Equivalent to --replacefiles."
+msgstr ""
+
+#: rpmprops.c:91
+msgid "Allow upgrade to old version"
+msgstr ""
+
+#: rpmprops.c:92
+msgid ""
+"Upgrade packages to an older package if need be. Equivalent to --oldpackage"
+msgstr ""
+
+#: rpmprops.c:94
+msgid "Keep packages made obsolete"
+msgstr ""
+
+#: rpmprops.c:95
+msgid "If a package has been obsoleted, keep it anyway."
+msgstr ""
+
+#: rpmprops.c:98
+msgid "Don't install documentation"
+msgstr ""
+
+#: rpmprops.c:99
+msgid "Do not install any of the doc files. Equivalent to --excludedocs."
+msgstr ""
+
+#: rpmprops.c:101 rpmprops.c:102
+msgid "Install all files"
+msgstr ""
+
+#: rpmprops.c:105
+msgid "Just update database"
+msgstr ""
+
+#: rpmprops.c:106
+msgid ""
+"Do not change any files, just update the database as though you did. "
+"Equivalent to --justdb"
+msgstr ""
+
+#: rpmprops.c:108
+msgid "Just test"
+msgstr ""
+
+#: rpmprops.c:109
+msgid "Do not actually change anything, just test.  Equivalent to --test"
+msgstr ""
+
+#: rpmprops.c:112
+msgid "Don't check package architecture"
+msgstr ""
+
+#: rpmprops.c:113
+msgid ""
+"Do not check the system and rpm architectures. Equivalent to --ignorearch"
+msgstr ""
+
+#: rpmprops.c:115
+msgid "Don't check package OS"
+msgstr ""
+
+#: rpmprops.c:116
+msgid "Do not check the package OS field. Equivalent to --ignoreos"
+msgstr ""
+
+#: rpmprops.c:135
+msgid "ID"
+msgstr "ID"
+
+#: rpmprops.c:135
+msgid "Rating"
+msgstr ""
+
+#: rpmprops.c:135
+msgid "mirror"
+msgstr ""
+
+#: rpmprops.c:141
+msgid "Preferences"
+msgstr "Roghnachais"
+
+#: rpmprops.c:154
+msgid "Install Options"
+msgstr ""
+
+#: rpmprops.c:158
+msgid "Upgrade Options"
+msgstr ""
+
+#: rpmprops.c:166
+msgid "Other Options"
+msgstr ""
+
+#: rpmprops.c:170
+msgid "Database Options"
+msgstr ""
+
+#: rpmprops.c:174
+msgid "Architecture Options"
+msgstr ""
+
+#: rpmprops.c:179
+msgid "Behaviour"
+msgstr ""
+
+#: rpmprops.c:187 rpmprops.c:220
+msgid "Package Listing"
+msgstr ""
+
+#: rpmprops.c:196
+msgid "View as list"
+msgstr ""
+
+#: rpmprops.c:198
+msgid "Display packages in a list format"
+msgstr ""
+
+#: rpmprops.c:205
+msgid "View as icons"
+msgstr ""
+
+#: rpmprops.c:207
+msgid "Display packages as icons in package list"
+msgstr ""
+
+#: rpmprops.c:229
+msgid "Package Colours"
+msgstr ""
+
+#: rpmprops.c:239
+msgid "Older Colour:"
+msgstr ""
+
+#: rpmprops.c:247
+msgid ""
+"Set the colour used to highlight packages older than the installed version"
+msgstr ""
+
+#: rpmprops.c:261
+msgid "Current Colour:"
+msgstr ""
+
+#: rpmprops.c:269
+msgid ""
+"Set the colour used to highlight packages that are same as the installed "
+"version"
+msgstr ""
+
+#: rpmprops.c:283
+msgid "Newer Colour:"
+msgstr ""
+
+#: rpmprops.c:291
+msgid ""
+"Set the colour used to highlight packages newer than the installed version"
+msgstr ""
+
+#: rpmprops.c:305
+msgid "Default File Selection Dialog Path"
+msgstr ""
+
+#: rpmprops.c:315
+msgid "The default directory where the file selection dialog points at"
+msgstr ""
+
+#: rpmprops.c:327
+msgid "RPM Directories"
+msgstr "Fillteáin RPM"
+
+#: rpmprops.c:340
+msgid "Newline separated list of directories where RPMs may be stored"
+msgstr ""
+
+#: rpmprops.c:365
+msgid "Install Window"
+msgstr ""
+
+#: rpmprops.c:374
+msgid "Network Settings"
+msgstr "Roghnachais Idirlíon"
+
+#: rpmprops.c:385
+msgid "HTTP Proxy:"
+msgstr ""
+
+#: rpmprops.c:392 rpmprops.c:410
+msgid "Format: http://proxyhost:port/"
+msgstr ""
+
+#: rpmprops.c:403
+msgid "FTP Proxy:"
+msgstr ""
+
+#: rpmprops.c:421
+msgid "Proxy User:"
+msgstr ""
+
+#: rpmprops.c:428
+msgid "The user name to send to the proxy server"
+msgstr ""
+
+#: rpmprops.c:439
+msgid "Proxy Password:"
+msgstr ""
+
+#: rpmprops.c:446
+msgid "Your password will be not securely stored!"
+msgstr ""
+
+#: rpmprops.c:461
+msgid "Cache expire:"
+msgstr ""
+
+#: rpmprops.c:475
+msgid "The number of days til a downloaded file expires"
+msgstr ""
+
+#: rpmprops.c:484
+msgid "days"
+msgstr "lae"
+
+#: rpmprops.c:488
+msgid "Local Hostname:"
+msgstr "Óstainm áitiúl"
+
+#: rpmprops.c:495
+msgid "The hostname of the computer -- used to guess distances to mirrors"
+msgstr ""
+
+#: rpmprops.c:506
+msgid "Network"
+msgstr "Greasán"
+
+#: rpmprops.c:514
+msgid "Rpmfind Options"
+msgstr "Roghanna Rpmfind"
+
+#: rpmprops.c:524
+msgid "Metadata Server:"
+msgstr ""
+
+#: rpmprops.c:532
+msgid "The server used to download metadata from"
+msgstr ""
+
+#: rpmprops.c:555
+msgid "Download dir:"
+msgstr ""
+
+#: rpmprops.c:563
+msgid "The directory to place downloaded RPMs in"
+msgstr ""
+
+#: rpmprops.c:576 rpmquery.c:201
+msgid "Vendor:"
+msgstr ""
+
+#: rpmprops.c:583
+msgid "The vendor of your distribution (used to sort package alternates)"
+msgstr ""
+
+#: rpmprops.c:593
+msgid "Distrib:"
+msgstr ""
+
+#: rpmprops.c:600
+msgid "The name of your distribution (used to sort package alternates)"
+msgstr ""
+
+#: rpmprops.c:611
+msgid "Want sources"
+msgstr ""
+
+#: rpmprops.c:613
+msgid "Check this if you want to download source rather than binary packages"
+msgstr ""
+
+#: rpmprops.c:622
+msgid "Want latest version"
+msgstr ""
+
+#: rpmprops.c:624
+msgid ""
+"Check this if you want the latest version rather than the most compatible "
+"version of a package"
+msgstr ""
+
+#: rpmprops.c:634
+msgid "No Upgrade List:"
+msgstr ""
+
+#: rpmprops.c:649
+msgid "A newline separated list of packages to never update with rpmfind"
+msgstr ""
+
+#: rpmprops.c:672
+msgid "Distribution Settings"
+msgstr ""
+
+#: rpmprops.c:727
+msgid "Name:"
+msgstr "Ainm:"
+
+#: rpmprops.c:738
+msgid "Origin:"
+msgstr ""
+
+#: rpmprops.c:749
+msgid "Sources:"
+msgstr ""
+
+#: rpmprops.c:760
+msgid "Rating:"
+msgstr ""
+
+#: rpmprops.c:769
+msgid "The rating for this distribution (use -1 to ignore this distribution)"
+msgstr ""
+
+#: rpmprops.c:774
+msgid "Preferred Mirror:"
+msgstr ""
+
+#: rpmprops.c:781
+msgid "The mirror to use for this distribution when downloading packages"
+msgstr ""
+
+#: rpmprops.c:787
+msgid "Change"
+msgstr ""
+
+#: rpmprops.c:789
+msgid "Make the changes to this distribution's settings"
+msgstr ""
+
+#: rpmprops.c:798
+msgid "Distributions"
+msgstr ""
+
+#: rpmquery.c:128
+#, fuzzy
+msgid "D"
+msgstr "ID"
+
+#: rpmquery.c:128
+msgid "C"
+msgstr ""
+
+#: rpmquery.c:128
+msgid "S"
+msgstr ""
+
+#: rpmquery.c:128
+msgid "Path"
+msgstr ""
+
+#: rpmquery.c:140
+msgid "Size:"
+msgstr "Méid:"
+
+#: rpmquery.c:152
+msgid "Install Date:"
+msgstr ""
+
+#: rpmquery.c:157
+msgid "not installed"
+msgstr ""
+
+#: rpmquery.c:164
+msgid "Build Host:"
+msgstr ""
+
+#: rpmquery.c:176
+msgid "Build Date:"
+msgstr ""
+
+#: rpmquery.c:188
+msgid "Distribution:"
+msgstr ""
+
+#: rpmquery.c:214
+msgid "Group:"
+msgstr "Grupa:"
+
+#: rpmquery.c:227
+msgid "Packager:"
+msgstr ""
+
+#: rpmquery.c:244
+msgid "URL:"
+msgstr "URL:"
+
+#: rpmquery.c:466 rpmquery.c:468 rpmquery.c:469 rpmquery.c:470 rpmquery.c:608
+#: rpmquery.c:616 rpmquery.c:618 rpmquery.c:621 rpmquery.c:653 rpmquery.c:735
+#: rpmquery.c:739 rpmquery.c:740 rpmquery.c:741 rpmquery.c:770 rpmquery.c:775
+#: rpmquery.c:842
+msgid "<none>"
+msgstr "<tada>"
+
+#: rpmwebfind.c:84
+msgid "Distribution"
+msgstr ""
+
+#: rpmwebfind.c:102
+msgid "Search"
+msgstr ""
+
+#: rpmwebfind.c:143
+msgid "Download"
+msgstr ""
+
+#: rpmwebfind.c:280 rpmwebfind.c:311
+#, c-format
+msgid "have %s-%s"
+msgstr ""
+
+#: rpmwebfind.c:526
+msgid "No packages to download"
+msgstr ""
+
+#: rpmwebfind.c:536
+msgid "Download files?"
+msgstr ""
+
+#: rpmwebfind.c:545
+msgid "Download these packages?"
+msgstr ""
+
+#: rpmwebfind.c:580
+msgid "Couldn't download files"
+msgstr ""
+
+#: verify.c:30
+msgid "Problem"
+msgstr ""
+
+#: verify.c:42
+msgid "Verifying Packages"
+msgstr ""
+
+#: verify.c:127
+msgid "missing"
+msgstr ""
+
+#: verify.c:129
+msgid ", md5"
+msgstr ""
+
+#: verify.c:130
+msgid ", file size"
+msgstr ""
+
+#: verify.c:132
+msgid ", symbolic link problem"
+msgstr ""
+
+#: verify.c:133
+msgid ", user"
+msgstr ", úsáideoir"
+
+#: verify.c:134
+msgid ", group"
+msgstr ". grupa"
+
+#: verify.c:136
+msgid ", modification time"
+msgstr ""
+
+#: verify.c:137
+msgid ", file mode"
+msgstr ""
+
+#: verify.c:139
+msgid ", device file type"
+msgstr ""
+
+#: verify.c:147 verify.c:153
+msgid "*script*"
+msgstr ""
+
+#: verify.c:154
+msgid "script problem"
+msgstr ""
+
+#: verify.c:163
+#, c-format
+msgid "%d problems found."
+msgstr ""
+
+#: verify.c:166
+msgid "No problems found."
+msgstr ""
+
+#: find/deps.c:96
+#, c-format
+msgid "Error looking up rpm database for %s"
+msgstr ""
+
+#: find/distrib.c:72 find/distrib.c:174
+#, c-format
+msgid "XML file '%s' doesn't seem to be an RDF schema"
+msgstr ""
+
+#: find/distrib.c:79 find/distrib.c:181
+#, c-format
+msgid "RDF schema '%s' doesn't contain rpm namespace"
+msgstr ""
+
+#: find/distrib.c:86 find/distrib.c:188
+#, c-format
+msgid "no descriptions in RDF schema '%s'"
+msgstr ""
+
+#: find/distrib.c:94
+#, c-format
+msgid "RDF schema '%s' not valid: no ID"
+msgstr ""
+
+#: find/distrib.c:100
+#, c-format
+msgid "RDF schema '%s' doesn't match ID %s"
+msgstr ""
+
+#: find/distrib.c:139
+#, c-format
+msgid "%s: malformed Mirrors bag"
+msgstr ""
+
+#: find/distrib.c:142
+#, c-format
+msgid "%s doesn't export any mirrors"
+msgstr ""
+
+#: find/distrib.c:200
+#, fuzzy
+msgid "description without href"
+msgstr "gan fáth !"
+
+#: find/distrib.c:206
+#, c-format
+msgid "no ID for distrib href=%s"
+msgstr ""
+
+#: find/distrib.c:327
+msgid "Couldn't grab metadata server list"
+msgstr ""
+
+#: find/distrib.c:335
+msgid "metadata.rdf is not an RDF schema"
+msgstr ""
+
+#: find/distrib.c:341
+msgid "Metadata.rdf is not an RPM specific RDF schema"
+msgstr ""
+
+#: find/distrib.c:347
+msgid "Metadata.rdf seems to be empty"
+msgstr ""
+
+#: find/distrib.c:355
+msgid "Metadata.rdf schema is invalid: description without href"
+msgstr ""
+
+#: find/distrib.c:361
+msgid "Metadata.rdf schema is invalid: no URI"
+msgstr ""
+
+#: find/ftp.c:548
+msgid "Bad FTP server response"
+msgstr ""
+
+#: find/ftp.c:551
+msgid "FTP IO error"
+msgstr ""
+
+#: find/ftp.c:554
+msgid "FTP server timeout"
+msgstr ""
+
+#: find/ftp.c:557
+msgid "Unable to lookup FTP server host address"
+msgstr ""
+
+#: find/ftp.c:560
+msgid "Unable to lookup FTP server host name"
+msgstr ""
+
+#: find/ftp.c:563
+msgid "Failed to connect to FTP server"
+msgstr ""
+
+#: find/ftp.c:566
+msgid "Failed to establish data connection to FTP server"
+msgstr ""
+
+#: find/ftp.c:569
+msgid "IO error to local file"
+msgstr ""
+
+#: find/ftp.c:572
+msgid "Error setting remote server to passive mode"
+msgstr ""
+
+#: find/ftp.c:575
+msgid "File not found on server"
+msgstr ""
+
+#: find/ftp.c:579
+msgid "FTP Unknown or unexpected error"
+msgstr ""
+
+#: find/guess.c:386
+msgid "No packages installed!"
+msgstr ""
+
+#: find/rdf.c:61 find/search.c:395
+#, c-format
+msgid "%s is not an RDF schema"
+msgstr ""
+
+#: find/rdf.c:67 find/search.c:401
+#, c-format
+msgid "%s is not an RPM specific RDF schema"
+msgstr ""
+
+#: find/rdf.c:73 find/search.c:407
+#, c-format
+msgid "%s RDF schema seems empty"
+msgstr ""
+
+#: find/rdf.c:84
+msgid "rpmOpenRdf: out of memory !"
+msgstr ""
+
+#: find/rdf.c:99 find/search.c:430
+#, c-format
+msgid "%s RDF schema invalid: no Name"
+msgstr ""
+
+#: find/rdf.c:108 find/search.c:441
+#, c-format
+msgid "%s RDF schema invalid: no Version"
+msgstr ""
+
+#: find/rdf.c:117 find/search.c:452
+#, c-format
+msgid "%s RDF schema invalid: no Release"
+msgstr ""
+
+#: find/rdf.c:131
+msgid "None"
+msgstr "Tada"
+
+#: find/rdf.c:161
+msgid "unknown/group"
+msgstr "anathnid/grupa"
+
+#: find/rdf.c:167
+msgid "no summary"
+msgstr ""
+
+#: find/rdf.c:173
+msgid "No description !"
+msgstr "gan fáth !"
+
+#: find/rdf.c:211
+msgid "unknown.host"
+msgstr "óst.gan-aithne"
+
+#: find/rdf.c:242 find/rdf.c:271
+#, c-format
+msgid "%s: malformed Resource element"
+msgstr ""
+
+#: find/rdf.c:244 find/rdf.c:273
+#, c-format
+msgid "%s: malformed Provides bag"
+msgstr ""
+
+#: find/rdf.c:249
+#, c-format
+msgid "%s: doesn't export any resource"
+msgstr ""
+
+#: find/rdf.c:314
+#, c-format
+msgid "Unknown distribution %s"
+msgstr ""
+
+#: find/search.c:151
+#, c-format
+msgid "Expected %s as toplevel element -- got %s"
+msgstr ""
+
+#: find/search.c:157 find/search.c:170
+#, c-format
+msgid "Was not expecting a %s element"
+msgstr ""
+
+#: find/search.c:174
+#, c-format
+msgid "was not expecting a %s element"
+msgstr ""
+
+#: find/search.c:181
+msgid "This state should not have been reached"
+msgstr ""
+
+#: find/search.c:384
+#, c-format
+msgid "Couldn't get info for resource %s"
+msgstr ""
+
+#: find/search.c:417
+#, c-format
+msgid "%s RDF schema invalid: description without href"
+msgstr ""
+
+#: find/trans.c:102
+msgid "Setting of proxy failed"
+msgstr ""
+
+#: find/trans.c:115
+msgid "Setting proxy user/password pair failed"
+msgstr ""
+
+#: find/trans.c:124
+msgid "Setting of uri failed"
+msgstr ""
+
+#: find/trans.c:130
+msgid "Preparing request failed"
+msgstr ""
+
+#: find/trans.c:134
+msgid "Couldn't set async mode"
+msgstr ""
+
+#: find/trans.c:144
+msgid "User aborted transfer"
+msgstr ""
+
+#: find/trans.c:150
+msgid "Processing request failed"
+msgstr ""
+
+#: find/trans.c:154
+#, c-format
+msgid "HTTP error: %d %s"
+msgstr ""
+
+#: find/trans.c:177
+#, c-format
+msgid "Couldn't connect to FTP server: %s"
+msgstr ""
+
+#: find/trans.c:184
+#, c-format
+msgid "FTP transfer failed: %s"
+msgstr ""
+
+#: find/trans.c:198
+#, c-format
+msgid "Downloading %s"
+msgstr ""
+
+#: find/trans.c:202
+msgid "Already busy doing a transfer"
+msgstr ""
+
+#: find/trans.c:211
+msgid "Invalid URL"
+msgstr ""
+
+#: find/trans.c:235
+#, c-format
+msgid "Unsupported URL format '%s'"
+msgstr ""
+
+#: find/trans.c:298 find/trans.c:331
+msgid "Couldn't get data"
+msgstr ""
+
+#: find/trans.c:306
+#, c-format
+msgid "Couldn't rename workfile to '%s'"
+msgstr ""
+
+#: find/trans.c:346
+#, c-format
+msgid "couldn't create directory %s"
+msgstr ""
+
+#: find/trans.c:354
+#, c-format
+msgid "Couldn't get data at %s"
+msgstr ""
+
+#: find/trans.c:368 find/trans.c:373 find/trans.c:377
+#, c-format
+msgid "Couldn't create directory %s"
+msgstr ""
+
+msgid "Logging in..."
+msgstr "Ag logann..."
+
+msgid "Reading..."
+msgstr "Ag leámh..."
+
+msgid "Writing %d bytes"
+msgstr "Ag scríobh %d bytanna"
+
+msgid "Writing..."
+msgstr "Ag Scríobh..."
+
+msgid "Done!"
+msgstr "Rinneadh!"
+
+msgid "Interrupted!"
+msgstr "Idirbriste!"
+
+msgid "Please wait..."
+msgstr "Fan, le do thoil..."

@@ -1,0 +1,2105 @@
+# Irish translations for GENIUS
+# Copyright (C) 2000 Free Software Foundation, Inc.
+# ALastair McKinstry <mckinstry@computer.org>, 2000.
+msgid ""
+msgstr ""
+"Project-Id-Version: genius 0.5.10\n"
+"POT-Creation-Date: 2001-05-21 18:18+0200\n"
+"PO-Revision-Date: 2000-03-10 23:03+0000\n"
+"Last-Translator: Alastair McKinstry <mckinstry@computer.org>\n"
+"Language-Team: Irish <ga@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=iso-8859-1\n"
+"Content-Transfer-Encoding: 8-bit\n"
+
+#: drgenius_main.c:29
+msgid "File to load"
+msgstr ""
+
+#: drgenius_main.c:30
+msgid "MESSAGE"
+msgstr "SCEAL"
+
+#: drgenius_mdi.c:25
+#, fuzzy
+msgid "Dr Genius"
+msgstr "Leathanach Baile Dr Genius"
+
+#: drgenius_mdi.c:202
+msgid "Windows/"
+msgstr "Fhuinneoga/"
+
+#: drgenius_mdi.c:296
+#, c-format
+msgid "%s is not a Dr Genius XML file\n"
+msgstr ""
+
+#: drgenius_menus.c:78
+msgid "_Figure"
+msgstr ""
+
+#: drgenius_menus.c:79 drgenius_menus.c:177
+msgid "Create a new geometric figure"
+msgstr ""
+
+#: drgenius_menus.c:82 genius/gnome-genius.c:700
+msgid "_Calculator"
+msgstr "_Aireamhán"
+
+#: drgenius_menus.c:83 drgenius_menus.c:179
+#, fuzzy
+msgid "Create a new calculator"
+msgstr "Aireamhán"
+
+#: drgenius_menus.c:86
+msgid "_GEL file"
+msgstr ""
+
+#: drgenius_menus.c:87 drgenius_menus.c:181
+msgid "Create a GEL script"
+msgstr ""
+
+#: drgenius_menus.c:95
+msgid "Export figure to Latex"
+msgstr ""
+
+#: drgenius_menus.c:96
+msgid "Export current figure to Latex (using PSTrick package)"
+msgstr ""
+
+#: drgenius_menus.c:101
+msgid "Export figure to PostScript"
+msgstr ""
+
+#: drgenius_menus.c:102
+msgid "Export current figure to PostScript (eps)"
+msgstr ""
+
+#: drgenius_menus.c:110
+msgid "_New..."
+msgstr "_Nua..."
+
+#: drgenius_menus.c:120
+#, fuzzy
+msgid "Save _multiple"
+msgstr "Sábháil gach rud"
+
+#: drgenius_menus.c:121
+msgid ""
+"Save several data (figure, GEL buffer, macro-construction, etc.) in one file"
+msgstr ""
+
+#: drgenius_menus.c:125 drgenius_menus.c:657 drgenius_menus.c:702
+msgid "Export As..."
+msgstr ""
+
+#: drgenius_menus.c:184
+msgid "Undo modification"
+msgstr ""
+
+#: drgenius_menus.c:185
+msgid "Redo change"
+msgstr ""
+
+#: drgenius_menus.c:209
+msgid "This does nothing; it is only a demonstration."
+msgstr ""
+
+#: drgenius_menus.c:245
+#, c-format
+msgid "Can't open file '%s'!"
+msgstr ""
+
+#: drgenius_menus.c:289
+msgid "Open..."
+msgstr "Oscail..."
+
+#: drgenius_menus.c:326 drgenius_menus.c:354
+#, c-format
+msgid "Error saving to '%s'!"
+msgstr ""
+
+#: drgenius_menus.c:384 drgenius_menus.c:412
+#, c-format
+msgid "Error exporting to '%s'!"
+msgstr ""
+
+#: drgenius_menus.c:435 drgenius_menus.c:510 drgenius_menus.c:535
+#: drgenius_menus.c:560
+#, c-format
+msgid ""
+"File '%s' exists!\n"
+"Overwrite?"
+msgstr ""
+
+#: drgenius_menus.c:461
+msgid "Save As..."
+msgstr "Sábháil Le..."
+
+#. we got one selected row
+#: drgenius_menus.c:581 drgenius_menus.c:829
+msgid "Interactive 2D Figure"
+msgstr ""
+
+#: drgenius_menus.c:582 drgenius_menus.c:838
+msgid "Console"
+msgstr "Consóil"
+
+#: drgenius_menus.c:583 drgenius_menus.c:839
+msgid "GEL Buffer"
+msgstr ""
+
+#. Next we add the list of avalaible macro-construction
+#: drgenius_menus.c:620 drgenius_menus.c:840 drgeo/msgDrGeoGUI:43
+#: drgeo/msgDrGeoGUI:62
+msgid "Macro-construction"
+msgstr ""
+
+#: drgenius_menus.c:642
+msgid ""
+"Only geometric figure\n"
+"can be exported to LaTex!"
+msgstr ""
+
+#: drgenius_menus.c:687
+msgid ""
+"Only geometric figure\n"
+"can be exported to PostScript!"
+msgstr ""
+
+#: drgenius_menus.c:772
+msgid "George Lebl: main programmer, Genius"
+msgstr ""
+
+#: drgenius_menus.c:773
+msgid "Hilaire Fernandes: main programmer, Dr Geo"
+msgstr ""
+
+#: drgenius_menus.c:774
+msgid "Laurent Gauthier: MDI interface, many contributions in Dr Geo code"
+msgstr ""
+
+#: drgenius_menus.c:775
+msgid "Nils Barth: math. library written in GEL, documentation"
+msgstr ""
+
+#. if your charset allows it, replace both 'e' of
+#. * 'Frederic' with eacute (U00E9)
+#: drgenius_menus.c:778
+msgid "Frederic Toussaint: graphic art"
+msgstr ""
+
+#: drgenius_menus.c:785
+msgid ""
+"Dr Genius Refers to Geometry Exploration and Numeric Intuitive User System."
+msgstr ""
+
+#: drgenius_menus.c:790
+msgid "Dr Genius Home Page"
+msgstr "Leathanach Baile Dr Genius"
+
+#: drgenius_menus.c:852
+#, fuzzy
+msgid "Save Session As..."
+msgstr "Sábháil Le..."
+
+#: drgeo/drgeo_angle.cc:214 drgeo/drgeo_angle.cc:246
+#, c-format
+msgid "this angle %1"
+msgstr ""
+
+#: drgeo/drgeo_arcCircle.cc:281 drgeo/drgeo_arcCircle.cc:285
+#, c-format
+msgid "this arc %1"
+msgstr ""
+
+#: drgeo/drgeo_circle.cc:252 drgeo/drgeo_circle.cc:256
+#, c-format
+msgid "this circle %1"
+msgstr ""
+
+#: drgeo/drgeo_dialog.cc:68
+msgid "Enter a value"
+msgstr ""
+
+#: drgeo/drgeo_dialog.cc:77
+msgid "Value"
+msgstr "Luach"
+
+#: drgeo/drgeo_equation.cc:180 drgeo/drgeo_equation.cc:189
+#, c-format
+msgid "the equation of %1"
+msgstr ""
+
+#. Create the dialog to change object style
+#: drgeo/drgeo_gtkmacro.cc:692
+msgid "Change the object style"
+msgstr ""
+
+#: drgeo/drgeo_gtkmacro.cc:890
+msgid "Rename this object : "
+msgstr ""
+
+#: drgeo/drgeo_gtkmacro.cc:915
+msgid "Expression : "
+msgstr ""
+
+#: drgeo/drgeo_halfLine.cc:158 drgeo/drgeo_halfLine.cc:178
+#, c-format
+msgid "this half-line %1"
+msgstr ""
+
+#: drgeo/drgeo_line.cc:199 drgeo/drgeo_line.cc:219
+#, c-format
+msgid "this line %1"
+msgstr ""
+
+#. compute the string length
+#: drgeo/drgeo_locus.cc:212 drgeo/drgeo_locus.cc:221
+msgid "%1's locus when %2 describes %3"
+msgstr ""
+
+#: drgeo/drgeo_menu.cc:79
+msgid "Free _point"
+msgstr ""
+
+#: drgeo/drgeo_menu.cc:80 drgeo/msgDrGeoGUI:54
+msgid "Point on an object or the background plane"
+msgstr ""
+
+#: drgeo/drgeo_menu.cc:85
+msgid "_Middle"
+msgstr ""
+
+#: drgeo/drgeo_menu.cc:86 drgeo/msgDrGeoGUI:55
+msgid "The midpoint of a segment or between two points"
+msgstr ""
+
+#: drgeo/drgeo_menu.cc:91
+#, fuzzy
+msgid "_Intersection"
+msgstr "_Idirbhris"
+
+#: drgeo/drgeo_menu.cc:92 drgeo/msgDrGeoGUI:56
+msgid "The point(s) of intersection between two objects"
+msgstr ""
+
+#: drgeo/drgeo_menu.cc:96
+msgid "_Coordinates"
+msgstr ""
+
+#: drgeo/drgeo_menu.cc:96 drgeo/msgDrGeoGUI:57
+msgid "Point given its coordinates"
+msgstr ""
+
+#: drgeo/drgeo_menu.cc:105
+msgid "_Line"
+msgstr "_Líne"
+
+#: drgeo/drgeo_menu.cc:105 drgeo/msgDrGeoGUI:76
+msgid "Line defined by two points"
+msgstr ""
+
+#: drgeo/drgeo_menu.cc:109
+msgid "_Half-line"
+msgstr "_Leith-Líne"
+
+#: drgeo/drgeo_menu.cc:110 drgeo/msgDrGeoGUI:77
+msgid "Half-Line defined by two points, the first selected point is the origin"
+msgstr ""
+
+#: drgeo/drgeo_menu.cc:115
+msgid "_Segment"
+msgstr ""
+
+#: drgeo/drgeo_menu.cc:115 drgeo/msgDrGeoGUI:78
+msgid "Segment defined by two points"
+msgstr ""
+
+#: drgeo/drgeo_menu.cc:120
+msgid "_Vector"
+msgstr ""
+
+#: drgeo/drgeo_menu.cc:120 drgeo/msgDrGeoGUI:79
+msgid "Vector defined by two points"
+msgstr ""
+
+#: drgeo/drgeo_menu.cc:124
+msgid "_Circle"
+msgstr ""
+
+#: drgeo/drgeo_menu.cc:125 drgeo/msgDrGeoGUI:80
+msgid "Circle defines by center and point, radius or segment"
+msgstr ""
+
+#: drgeo/drgeo_menu.cc:129
+msgid "_Arc Circle"
+msgstr ""
+
+#: drgeo/drgeo_menu.cc:130 drgeo/msgDrGeoGUI:81
+msgid "Arc circle defined by three points"
+msgstr ""
+
+#: drgeo/drgeo_menu.cc:136
+msgid "_Geometric locus"
+msgstr ""
+
+#: drgeo/drgeo_menu.cc:137 drgeo/msgDrGeoGUI:82
+msgid "Locus defined by a free point and a relative point"
+msgstr ""
+
+#: drgeo/drgeo_menu.cc:147
+msgid "_Parallel line"
+msgstr ""
+
+#: drgeo/drgeo_menu.cc:148 drgeo/msgDrGeoGUI:84
+msgid "Line passing through one point and parallel to a line, half-line, etc."
+msgstr ""
+
+#: drgeo/drgeo_menu.cc:153
+msgid "_Orthogonal line"
+msgstr ""
+
+#: drgeo/drgeo_menu.cc:154 drgeo/msgDrGeoGUI:85
+msgid ""
+"Line passing through one point and orthogonal to a line, half-line, etc."
+msgstr ""
+
+#: drgeo/drgeo_menu.cc:159
+msgid "_Axial symmetry"
+msgstr ""
+
+#: drgeo/drgeo_menu.cc:160 drgeo/msgDrGeoGUI:86
+msgid ""
+"Axial symmetry of an object. When ambiguity, the first selected line is the "
+"line to transform"
+msgstr ""
+
+#: drgeo/drgeo_menu.cc:164
+msgid "_Central symmetry"
+msgstr ""
+
+#: drgeo/drgeo_menu.cc:165 drgeo/msgDrGeoGUI:87
+msgid ""
+"Central symmetry of an object. When ambiguity, the first selected point is "
+"the point to transform"
+msgstr ""
+
+#: drgeo/drgeo_menu.cc:169
+msgid "_Translation"
+msgstr ""
+
+#: drgeo/drgeo_menu.cc:170 drgeo/msgDrGeoGUI:88
+msgid ""
+"Translation of an object. When ambiguity, the first selected vector is the "
+"vector to translate"
+msgstr ""
+
+#: drgeo/drgeo_menu.cc:175
+msgid "_Rotation"
+msgstr ""
+
+#: drgeo/drgeo_menu.cc:176 drgeo/msgDrGeoGUI:89
+msgid ""
+"Rotation of an object. When ambiguity, the first selected point is the point "
+"to rotate"
+msgstr ""
+
+#: drgeo/drgeo_menu.cc:180
+msgid "_Scale"
+msgstr ""
+
+#: drgeo/drgeo_menu.cc:181 drgeo/msgDrGeoGUI:90
+msgid ""
+"Scale an object. When ambiguity, the first selected point is the point to "
+"transform"
+msgstr ""
+
+#: drgeo/drgeo_menu.cc:190
+msgid "_Distance & length"
+msgstr ""
+
+#: drgeo/drgeo_menu.cc:191 drgeo/msgDrGeoGUI:92
+msgid "Distance between objects, curve length, or edit free value"
+msgstr ""
+
+#: drgeo/drgeo_menu.cc:196
+msgid "_Angle"
+msgstr ""
+
+#: drgeo/drgeo_menu.cc:197 drgeo/msgDrGeoGUI:93
+msgid "Angle defined by three points or two vectors"
+msgstr ""
+
+#: drgeo/drgeo_menu.cc:201
+msgid "_Coordinates & equation"
+msgstr ""
+
+#: drgeo/drgeo_menu.cc:202 drgeo/msgDrGeoGUI:94
+msgid "Vector and point coordinates, line and circle equation"
+msgstr ""
+
+#: drgeo/drgeo_menu.cc:211
+msgid "_Construct macro"
+msgstr ""
+
+#: drgeo/drgeo_menu.cc:211 drgeo/msgDrGeoGUI:96
+msgid "Construct a macro"
+msgstr ""
+
+#: drgeo/drgeo_menu.cc:215
+msgid "_Execute macro"
+msgstr ""
+
+#: drgeo/drgeo_menu.cc:216 drgeo/msgDrGeoGUI:97
+msgid "Execute pre-built macro"
+msgstr ""
+
+#: drgeo/drgeo_menu.cc:224
+#, c-format
+msgid "Default 100%"
+msgstr ""
+
+#: drgeo/drgeo_menu.cc:224
+#, c-format
+msgid "Zoom to 100%"
+msgstr ""
+
+#: drgeo/drgeo_menu.cc:226
+#, c-format
+msgid "Zoom to 200%"
+msgstr ""
+
+#: drgeo/drgeo_menu.cc:228
+#, c-format
+msgid "Zoom to 175%"
+msgstr ""
+
+#: drgeo/drgeo_menu.cc:230
+#, c-format
+msgid "Zoom to 150%"
+msgstr ""
+
+#: drgeo/drgeo_menu.cc:232
+#, c-format
+msgid "Zoom to 125%"
+msgstr ""
+
+#: drgeo/drgeo_menu.cc:234
+#, c-format
+msgid "Zoom to 75%"
+msgstr ""
+
+#: drgeo/drgeo_menu.cc:236
+#, c-format
+msgid "Zoom to 50%"
+msgstr ""
+
+#: drgeo/drgeo_menu.cc:238
+#, c-format
+msgid "Zoom to 25%"
+msgstr ""
+
+#: drgeo/drgeo_menu.cc:251
+#, fuzzy
+msgid "_Point"
+msgstr "Pointe"
+
+#: drgeo/drgeo_menu.cc:252
+msgid "_Curve"
+msgstr ""
+
+#: drgeo/drgeo_menu.cc:253
+#, fuzzy
+msgid "_Transformation"
+msgstr "Eolas"
+
+#: drgeo/drgeo_menu.cc:254
+msgid "_Numeric"
+msgstr ""
+
+#: drgeo/drgeo_menu.cc:255
+msgid "_Macro"
+msgstr ""
+
+#: drgeo/drgeo_menu.cc:256
+msgid "_Zoom"
+msgstr ""
+
+#: drgeo/drgeo_menu.cc:259
+msgid "M_ove an object"
+msgstr ""
+
+#: drgeo/drgeo_menu.cc:260 drgeo/msgDrGeoGUI:99
+msgid "Select and move an object"
+msgstr ""
+
+#: drgeo/drgeo_menu.cc:264
+msgid "_Delete an object"
+msgstr ""
+
+#: drgeo/drgeo_menu.cc:265 drgeo/msgDrGeoGUI:101
+msgid "Delete an object and its relatives"
+msgstr ""
+
+#: drgeo/drgeo_menu.cc:269
+#, fuzzy
+msgid "_Style"
+msgstr "Stíl"
+
+#: drgeo/drgeo_menu.cc:270 drgeo/msgDrGeoGUI:100
+msgid "Change the style of an object"
+msgstr ""
+
+#: drgeo/drgeo_numeric.cc:264 drgeo/drgeo_numeric.cc:273
+msgid "%1's length"
+msgstr ""
+
+#: drgeo/drgeo_numeric.cc:278 drgeo/drgeo_numeric.cc:287
+msgid "%1's magnitude"
+msgstr ""
+
+#: drgeo/drgeo_numeric.cc:292 drgeo/drgeo_numeric.cc:301
+msgid "%1's perimeter"
+msgstr ""
+
+#: drgeo/drgeo_numeric.cc:306 drgeo/drgeo_numeric.cc:315
+#, c-format
+msgid "the slope of %1"
+msgstr ""
+
+#: drgeo/drgeo_numeric.cc:323 drgeo/drgeo_numeric.cc:333
+msgid "the distance between %1 and %2"
+msgstr ""
+
+#: drgeo/drgeo_numeric.cc:346 drgeo/drgeo_numeric.cc:355
+#, c-format
+msgid "the abscissa of %1"
+msgstr ""
+
+#: drgeo/drgeo_numeric.cc:361 drgeo/drgeo_numeric.cc:370
+#, c-format
+msgid "the ordinate of %1"
+msgstr ""
+
+#: drgeo/drgeo_point.cc:383 drgeo/drgeo_point.cc:387
+#, c-format
+msgid "this point %1"
+msgstr ""
+
+#: drgeo/drgeo_segment.cc:158 drgeo/drgeo_segment.cc:178
+#, c-format
+msgid "this segment %1"
+msgstr ""
+
+#: drgeo/drgeo_tool.cc:611
+#, c-format
+msgid "Remove %s ?"
+msgstr ""
+
+#: drgeo/drgeo_tool.cc:614
+msgid "Remove selected item ?"
+msgstr ""
+
+#: drgeo/drgeo_value.cc:55
+msgid "this value"
+msgstr ""
+
+#: drgeo/drgeo_vector.cc:171 drgeo/drgeo_vector.cc:191
+#, c-format
+msgid "this vector %1"
+msgstr ""
+
+#.
+#. * Translatable strings file generated by Glade.
+#. * Add this file to your project's POTFILES.in.
+#. * DO NOT compile it as part of your application.
+#.
+#: drgeo/msgDrGeniusGUI:7
+msgid "Save a Dr Genius session"
+msgstr ""
+
+#: drgeo/msgDrGeniusGUI:8
+msgid "Save selection"
+msgstr ""
+
+#: drgeo/msgDrGeniusGUI:9
+msgid "Save all"
+msgstr "Sábháil gach rud"
+
+#: drgeo/msgDrGeniusGUI:10
+msgid "Select data to save"
+msgstr ""
+
+#: drgeo/msgDrGeniusGUI:11
+msgid "Data Type"
+msgstr "Saghas Data"
+
+#: drgeo/msgDrGeniusGUI:12
+msgid "Data Name"
+msgstr "Ainm Data"
+
+#: drgeo/msgDrGeniusGUI:13
+msgid "Properties"
+msgstr "Albachtaí"
+
+#: drgeo/msgDrGeniusGUI:14 drgeo/msgDrGeniusGUI:16 drgeo/msgDrGeniusGUI:18
+#: drgeo/msgDrGeniusGUI:22
+msgid "Nothing here for the moment."
+msgstr ""
+
+#: drgeo/msgDrGeniusGUI:15
+msgid "Global"
+msgstr ""
+
+#: drgeo/msgDrGeniusGUI:17
+msgid "Figure"
+msgstr ""
+
+#: drgeo/msgDrGeniusGUI:19
+msgid "Canvas"
+msgstr ""
+
+#: drgeo/msgDrGeniusGUI:20
+msgid "Number of digits :"
+msgstr ""
+
+#: drgeo/msgDrGeniusGUI:21 gobobjs/console-mdi-child.gob:120
+msgid "Calculator"
+msgstr "Aireamhán"
+
+#: drgeo/msgDrGeniusGUI:23
+msgid "Gel"
+msgstr ""
+
+#.
+#. * Chaînes de caractères à traduire générées par
+#. * Glade. Ajouter ce fichier au fichier POTFILE.in
+#. * de votre projet. NE PAS compiler ce fichier
+#. * avec le reste de votre application.
+#.
+#: drgeo/msgDrGeoGUI:8 drgeo/msgDrGeoGUI:9
+msgid "Build a macro-construction"
+msgstr ""
+
+#: drgeo/msgDrGeoGUI:10
+msgid ""
+"To build a macro construction,\n"
+"\n"
+"1. First select the input parameters,\n"
+"2. Next select the output parameters,\n"
+"3. Last chose a name and a description."
+msgstr ""
+
+#: drgeo/msgDrGeoGUI:15
+msgid "Select input parameters"
+msgstr ""
+
+#: drgeo/msgDrGeoGUI:16
+msgid "Select output parameters"
+msgstr ""
+
+#: drgeo/msgDrGeoGUI:17
+msgid "Choose name & description"
+msgstr ""
+
+#: drgeo/msgDrGeoGUI:18
+msgid "Name"
+msgstr "Ainm"
+
+#: drgeo/msgDrGeoGUI:19
+msgid "Enter the macro-construction name there"
+msgstr ""
+
+#: drgeo/msgDrGeoGUI:20
+#, fuzzy
+msgid "Macro Name"
+msgstr "Ainm Data"
+
+#: drgeo/msgDrGeoGUI:21 drgeo/msgDrGeoGUI:45
+msgid "Description"
+msgstr ""
+
+#: drgeo/msgDrGeoGUI:22
+msgid "Enter the macro-construction description there"
+msgstr ""
+
+#: drgeo/msgDrGeoGUI:23
+msgid "Write down your description there."
+msgstr ""
+
+#: drgeo/msgDrGeoGUI:24
+msgid "Finish macro-construction"
+msgstr ""
+
+#: drgeo/msgDrGeoGUI:25
+msgid ""
+"You've selected all the needed\n"
+"information to build a macro-construction.\n"
+"\n"
+"Press Finish to build it !\n"
+"\n"
+"Or you can change selection with the Back button."
+msgstr ""
+
+#: drgeo/msgDrGeoGUI:31 drgeo/msgDrGeoGUI:32
+msgid "Play a macro-construction"
+msgstr ""
+
+#: drgeo/msgDrGeoGUI:33
+msgid ""
+"To play a macro construction,\n"
+"\n"
+"1. First select a macro-construction from the list,\n"
+"2. Select items on the figure. Only relevant items \n"
+"to the selected macro-construction are selectable.\n"
+"Once enought items are selected, the macro is\n"
+"automaticly constructed.\n"
+"To start press the button \"next\".\n"
+msgstr ""
+
+#: drgeo/msgDrGeoGUI:42 drgeo/msgDrGeoGUI:44
+msgid "Avalaible macro-construction"
+msgstr ""
+
+#: drgeo/msgDrGeoGUI:46
+msgid "You can edit the description"
+msgstr ""
+
+#: drgeo/msgDrGeoGUI:47
+msgid "Tips"
+msgstr "Leathfhocail"
+
+#: drgeo/msgDrGeoGUI:48
+msgid ""
+"If you select another macro-construction,\n"
+"all the selected item will be unselected.\n"
+"\n"
+"You can edit the description text, your change\n"
+"will be recorded next time you save the macro."
+msgstr ""
+
+#: drgeo/msgDrGeoGUI:53
+msgid "Point"
+msgstr "Pointe"
+
+#: drgeo/msgDrGeoGUI:58
+msgid "Create point"
+msgstr ""
+
+#: drgeo/msgDrGeoGUI:59
+msgid "Create curve"
+msgstr ""
+
+#: drgeo/msgDrGeoGUI:60
+msgid "Tools based on properties and transformations"
+msgstr ""
+
+#: drgeo/msgDrGeoGUI:61
+msgid "Create numeric object"
+msgstr ""
+
+#: drgeo/msgDrGeoGUI:63
+msgid "Other"
+msgstr ""
+
+#: drgeo/msgDrGeoGUI:64
+msgid ""
+"200%\n"
+"175%\n"
+"150%\n"
+"125%\n"
+"100%\n"
+"75%\n"
+"50%\n"
+"25%\n"
+msgstr ""
+"200%\n"
+"175%\n"
+"150%\n"
+"125%\n"
+"100%\n"
+"75%\n"
+"50%\n"
+"25%\n"
+
+#: drgeo/msgDrGeoGUI:73
+msgid "Adjust the zoom factor"
+msgstr ""
+
+#: drgeo/msgDrGeoGUI:74
+#, c-format
+msgid "100%"
+msgstr "100%"
+
+#: drgeo/msgDrGeoGUI:75
+msgid "Curve"
+msgstr ""
+
+#: drgeo/msgDrGeoGUI:83
+#, fuzzy
+msgid "transformation"
+msgstr "Eolas"
+
+#: drgeo/msgDrGeoGUI:91
+#, fuzzy
+msgid "Numeric"
+msgstr "uimhir"
+
+#: drgeo/msgDrGeoGUI:95
+msgid "macro"
+msgstr ""
+
+#: drgeo/msgDrGeoGUI:98
+msgid "other"
+msgstr ""
+
+#: genius/genius.c:102 genius_stuff.c:51
+#, c-format
+msgid "line %d: %s\n"
+msgstr "líne %d: %s\n"
+
+#: genius/calc.c:453 genius/calc.c:460
+msgid "Bad identifier for function node!"
+msgstr ""
+
+#: genius/calc.c:490 genius/eval.c:3814 genius/eval.c:3936
+msgid "Unexpected operator!"
+msgstr ""
+
+#: genius/calc.c:562
+msgid "NULL tree!"
+msgstr "Crann NULL!"
+
+#: genius/calc.c:609
+msgid "NULL function!"
+msgstr ""
+
+#. variable and reference functions should
+#. never be in the etree
+#: genius/calc.c:641
+msgid "Unexpected function type!"
+msgstr ""
+
+#: genius/calc.c:650 genius/eval.c:4015
+msgid "Unexpected node!"
+msgstr ""
+
+#: genius/calc.c:816
+#, c-format
+msgid "File '%s' is a wrong version of GEL"
+msgstr ""
+
+#: genius/calc.c:849 genius/calc.c:858 genius/calc.c:863 genius/calc.c:872
+#: genius/calc.c:879 genius/calc.c:887 genius/calc.c:893 genius/calc.c:900
+#: genius/calc.c:909 genius/calc.c:915 genius/calc.c:924
+msgid "Badly formed record"
+msgstr ""
+
+#: genius/calc.c:852
+msgid "Record out of place"
+msgstr ""
+
+#: genius/calc.c:935
+msgid "Missing value for function"
+msgstr ""
+
+#: genius/calc.c:970 genius/calc.c:1032 genius/calc.c:1069
+#, c-format
+msgid "Can't open file: '%s'"
+msgstr ""
+
+#: genius/calc.c:1164
+#, c-format
+msgid "Cannot open plugin '%s'!"
+msgstr ""
+
+#: genius/calc.c:1271
+msgid "ERROR: Probably corrupt stack!"
+msgstr ""
+
+#: genius/calc.c:1291
+msgid "ERROR: Can't execute more things at once!"
+msgstr ""
+
+#: genius/calc.c:1388 genius/calc.c:1390 genius/calc.c:1396
+msgid "ERROR: "
+msgstr "EARRÁID: "
+
+#: genius/calc.c:1388
+#, fuzzy
+msgid " before newline"
+msgstr " riomh "
+
+#: genius/calc.c:1390
+msgid " at end of input"
+msgstr ""
+
+#: genius/calc.c:1396
+msgid " before '"
+msgstr " riomh "
+
+#: genius/compil.c:399 genius/compil.c:405
+msgid "Bad tree record when decompiling"
+msgstr ""
+
+#: genius/eval.c:964 genius/eval.c:1001 genius/eval.c:1015
+msgid "Cannot compare non value-only matrixes"
+msgstr ""
+
+#: genius/eval.c:1228
+msgid "Can't add/subtract two matricies of different sizes"
+msgstr ""
+
+#: genius/eval.c:1283
+msgid "Can't multiply matricies of wrong sizes"
+msgstr ""
+
+#: genius/eval.c:1322
+msgid "Powers are defined on (square matrix)^(integer) only"
+msgstr ""
+
+#: genius/eval.c:1329
+msgid "Exponent too large"
+msgstr ""
+
+#: genius/eval.c:1353 genius/eval.c:1459 genius/eval.c:1516
+msgid "Matrix appears singular and can't be inverted"
+msgstr ""
+
+#: genius/eval.c:1439
+msgid "Can't divide matrices of different sizes or non-square matrices"
+msgstr ""
+
+#: genius/eval.c:1501
+msgid "Can't divide by a non-square matrix"
+msgstr ""
+
+#: genius/eval.c:1984 genius/eval.c:2706
+msgid "Unevaluatable function type encountered!"
+msgstr ""
+
+#: genius/eval.c:1996 genius/eval.c:2014 genius/eval.c:2589
+#, c-format
+msgid "Variable '%s' used uninitialized"
+msgstr ""
+
+#: genius/eval.c:2019 genius/eval.c:2610
+#, c-format
+msgid ""
+"Call of '%s' with the wrong number of arguments!\n"
+"(should be %d)"
+msgstr ""
+
+#: genius/eval.c:2024
+#, c-format
+msgid "Trying to dereference '%s' which is not a reference!\n"
+msgstr ""
+
+#: genius/eval.c:2030
+msgid "NULL reference encountered!"
+msgstr ""
+
+#: genius/eval.c:2150
+msgid "Cannot compare matrixes"
+msgstr ""
+
+#: genius/eval.c:2194
+msgid "Primitives must get numeric/matrix/string arguments"
+msgstr ""
+
+#: genius/eval.c:2575
+#, c-format
+msgid "Function '%s' used uninitialized"
+msgstr ""
+
+#: genius/eval.c:2595
+#, c-format
+msgid "Can't dereference '%s'!"
+msgstr ""
+
+#: genius/eval.c:2602
+msgid "Can't call a non-function!"
+msgstr ""
+
+#: genius/eval.c:2633 genius/eval.c:3258 genius/eval.c:3297
+msgid "Referencing an undefined variable!"
+msgstr ""
+
+#: genius/eval.c:2685
+msgid "Reference function with arguments encountered!"
+msgstr ""
+
+#: genius/eval.c:2690
+msgid "Unnamed reference function encountered!"
+msgstr ""
+
+#: genius/eval.c:2772
+#, fuzzy
+msgid "Bad type for 'for' loop!"
+msgstr "Droch saghas do `%s'"
+
+#: genius/eval.c:2777
+msgid "'for' loop increment can't be 0"
+msgstr ""
+
+#: genius/eval.c:2833
+#, fuzzy
+msgid "Bad type for 'for in' loop!"
+msgstr "Droch saghas do `%s'"
+
+#: genius/eval.c:2977 genius/eval.c:3005
+msgid "Continue or break outside a loop, assuming \"return null\""
+msgstr ""
+
+#: genius/eval.c:3055
+msgid "Wrong argument type as matrix index"
+msgstr ""
+
+#: genius/eval.c:3065
+msgid "Matrix index too large"
+msgstr ""
+
+#: genius/eval.c:3068
+msgid "Matrix index less than 1"
+msgstr ""
+
+#: genius/eval.c:3086
+msgid "Matrix 'to' index less then 'from' index"
+msgstr ""
+
+#: genius/eval.c:3133 genius/eval.c:3199 genius/eval.c:3248 genius/eval.c:3286
+msgid "Trying to set a protected id"
+msgstr ""
+
+#: genius/eval.c:3150 genius/eval.c:3195
+msgid "Indexed Lvalue not user function"
+msgstr ""
+
+#: genius/eval.c:3179 genius/eval.c:3271
+msgid "Dereference of non-identifier!"
+msgstr ""
+
+#: genius/eval.c:3185 genius/eval.c:3277
+msgid "Dereference of undefined variable!"
+msgstr ""
+
+#: genius/eval.c:3189 genius/eval.c:3281
+msgid "Dereference of non-reference!"
+msgstr ""
+
+#: genius/eval.c:3222
+msgid "Indexed Lvalue not an identifier or a dereference"
+msgstr ""
+
+#: genius/eval.c:3242
+msgid "Lvalue not an identifier/dereference/matrix location!"
+msgstr ""
+
+#: genius/eval.c:3389
+msgid "Can't set a region to a region of a different size"
+msgstr ""
+
+#: genius/eval.c:3448 genius/eval.c:3486
+msgid "Index works only on matricies"
+msgstr ""
+
+#: genius/eval.c:3467
+msgid "Matrix index out of range"
+msgstr ""
+
+#: genius/eval.c:3518
+msgid "Index out of range"
+msgstr ""
+
+#: genius/eval.c:3552
+msgid "number"
+msgstr "uimhir"
+
+#: genius/eval.c:3553
+msgid "matrix"
+msgstr ""
+
+#: genius/eval.c:3554
+msgid "string"
+msgstr ""
+
+#: genius/eval.c:3555
+msgid "function"
+msgstr ""
+
+#: genius/eval.c:3577
+msgid "Absolute value"
+msgstr ""
+
+#: genius/eval.c:3578
+msgid "Addition"
+msgstr ""
+
+#: genius/eval.c:3579
+msgid "Subtraction"
+msgstr ""
+
+#: genius/eval.c:3580
+msgid "Multiplication"
+msgstr ""
+
+#: genius/eval.c:3581
+msgid "Division"
+msgstr ""
+
+#: genius/eval.c:3582
+msgid "Back division"
+msgstr ""
+
+#: genius/eval.c:3583
+msgid "Modulo"
+msgstr ""
+
+#: genius/eval.c:3584
+msgid "Negation"
+msgstr ""
+
+#: genius/eval.c:3585
+msgid "Power"
+msgstr ""
+
+#: genius/eval.c:3586
+msgid "Factorial"
+msgstr ""
+
+#: genius/eval.c:3587
+msgid "Transpose"
+msgstr ""
+
+#: genius/eval.c:3588
+msgid "Comparison (<=>)"
+msgstr ""
+
+#: genius/eval.c:3589
+msgid "XOR"
+msgstr "XOR"
+
+#: genius/eval.c:3590
+msgid "NOT"
+msgstr "NOT"
+
+#: genius/eval.c:3611
+#, fuzzy, c-format
+msgid "Bad types for '%s'"
+msgstr "Droch saghas do `%s'"
+
+#: genius/eval.c:3623
+#, c-format
+msgid "%s not defined on <%s> and <%s>"
+msgstr ""
+
+#: genius/eval.c:3645
+#, c-format
+msgid "Bad type for '%s'"
+msgstr "Droch saghas do `%s'"
+
+#: genius/eval.c:3656
+#, c-format
+msgid "%s not defined on <%s>"
+msgstr ""
+
+#: genius/funclib.c:77
+#, c-format
+msgid ""
+"Genius %s\n"
+"Copyright (c) 1997,1998,1999 Free Software Foundation, Inc.\n"
+"\n"
+"    This program is free software; you can redistribute it and/or modify\n"
+"    it under the terms of the GNU General Public License as published by\n"
+"    the Free Software Foundation; either version 2 of the License , or\n"
+"    (at your option) any later version.\n"
+"\n"
+"    This program is distributed in the hope that it will be useful,\n"
+"    but WITHOUT ANY WARRANTY; without even the implied warranty of\n"
+"    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\n"
+"    GNU General Public License for more details.\n"
+"\n"
+"    You should have received a copy of the GNU General Public License\n"
+"    along with this program. If not, write to the Free Software\n"
+"    Foundation,  Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307,\n"
+"    USA.\n"
+msgstr ""
+
+#: genius/funclib.c:174
+msgid "display: first argument must be string!"
+msgstr ""
+
+#: genius/funclib.c:216
+msgid "Cannot apply function to two differently sized matrixes"
+msgstr ""
+
+#: genius/funclib.c:329
+msgid "sin: argument not a number"
+msgstr ""
+
+#: genius/funclib.c:350
+msgid "sinh: argument not a number"
+msgstr ""
+
+#: genius/funclib.c:371
+msgid "cos: argument not a number"
+msgstr ""
+
+#: genius/funclib.c:392
+msgid "cosh: argument not a number"
+msgstr ""
+
+#: genius/funclib.c:415
+msgid "tan: argument not a real number"
+msgstr ""
+
+#: genius/funclib.c:442
+msgid "atan: argument not a number"
+msgstr ""
+
+#: genius/funclib.c:596
+msgid "trunc: argument not a number"
+msgstr ""
+
+#: genius/funclib.c:612
+msgid "floor: argument not a number"
+msgstr ""
+
+#: genius/funclib.c:628
+msgid "ceil: argument not a number"
+msgstr ""
+
+#: genius/funclib.c:644
+msgid "round: argument not a number"
+msgstr ""
+
+#: genius/funclib.c:660
+msgid "float: argument not a number"
+msgstr ""
+
+#: genius/funclib.c:677
+msgid "numerator: argument not a number"
+msgstr ""
+
+#: genius/funclib.c:699
+msgid "denominator: argument not a number"
+msgstr ""
+
+#: genius/funclib.c:721
+msgid "Re: argument not a number"
+msgstr ""
+
+#: genius/funclib.c:738
+msgid "Im: argument not a number"
+msgstr ""
+
+#: genius/funclib.c:755
+msgid "sqrt: argument not a number"
+msgstr ""
+
+#: genius/funclib.c:771
+msgid "exp: matrix argument is not square"
+msgstr ""
+
+#: genius/funclib.c:778
+msgid "exp: argument not a number"
+msgstr ""
+
+#: genius/funclib.c:795
+msgid "ln: argument not a number"
+msgstr ""
+
+#: genius/funclib.c:820
+msgid "gcd: arguments must be numbers"
+msgstr ""
+
+#: genius/funclib.c:850
+msgid "lcm: arguments must be numbers"
+msgstr ""
+
+#: genius/funclib.c:885
+msgid "jacobi: arguments must be numbers"
+msgstr ""
+
+#: genius/funclib.c:914
+msgid "legendre: arguments must be numbers"
+msgstr ""
+
+#: genius/funclib.c:939
+msgid "perfect_square: argument must be a number"
+msgstr ""
+
+#: genius/funclib.c:964
+msgid "max: arguments must be numbers"
+msgstr ""
+
+#: genius/funclib.c:989
+msgid "min: arguments must be numbers"
+msgstr ""
+
+#: genius/funclib.c:1008
+msgid "is_value_only: argument not a matrix"
+msgstr ""
+
+#: genius/funclib.c:1027
+msgid "I: argument not an integer"
+msgstr ""
+
+#: genius/funclib.c:1037
+msgid "I: argument can't be negative or 0"
+msgstr ""
+
+#: genius/funclib.c:1041
+msgid "I: argument too large"
+msgstr ""
+
+#: genius/funclib.c:1065
+msgid "rows: argument not a matrix"
+msgstr ""
+
+#: genius/funclib.c:1074
+msgid "columns: argument not a matrix"
+msgstr ""
+
+#: genius/funclib.c:1087
+msgid "set_size: wrong argument type"
+msgstr ""
+
+#: genius/funclib.c:1101
+msgid "set_size: rows/columns negative or 0"
+msgstr ""
+
+#: genius/funclib.c:1105
+msgid "set_size: rows/columns too large"
+msgstr ""
+
+#: genius/funclib.c:1119
+msgid "det: argument not a value only matrix"
+msgstr ""
+
+#: genius/funclib.c:1135
+msgid "ref: argument not a value only matrix"
+msgstr ""
+
+#: genius/funclib.c:1152
+msgid "rref: argument not a value only matrix"
+msgstr ""
+
+#: genius/funclib.c:1190
+msgid "prime: argument not an integer"
+msgstr ""
+
+#: genius/funclib.c:1200
+msgid "prime: argument can't be negative or 0"
+msgstr ""
+
+#: genius/funclib.c:1204 genius/funclib.c:1234
+msgid "prime: argument is too large"
+msgstr ""
+
+#: genius/funclib.c:1266
+#, c-format
+msgid "%s: arguments not horizontal vectors"
+msgstr ""
+
+#: genius/funclib.c:1276
+#, c-format
+msgid "%s: arguments not numeric only vectors"
+msgstr ""
+
+#: genius/funclib.c:1540
+msgid "polytostring: 2nd argument not a string"
+msgstr ""
+
+#: genius/funclib.c:1726
+msgid "sethelp: arguments must be strings (function name,help text)"
+msgstr ""
+
+#: genius/funclib.c:1741
+msgid "protect: argument must be a string"
+msgstr ""
+
+#: genius/funclib.c:1757
+msgid "unprotect: argument must be a string"
+msgstr ""
+
+#: genius/funclib.c:1774
+msgid "set_float_prec: argument not an integer"
+msgstr ""
+
+#: genius/funclib.c:1784
+msgid "set_float_prec: argument should be between 60 and 16384"
+msgstr ""
+
+#: genius/funclib.c:1811
+msgid "set_max_digits: argument not an integer"
+msgstr ""
+
+#: genius/funclib.c:1821
+msgid "set_max_digits: argument should be between 0 and 256"
+msgstr ""
+
+#: genius/funclib.c:1844
+msgid "set_results_as_floats: argument not a value"
+msgstr ""
+
+#: genius/funclib.c:1868
+msgid "set_scientific_notation: argument not a value"
+msgstr ""
+
+#: genius/funclib.c:1892
+msgid "set_full_expressions: argument not a value"
+msgstr ""
+
+#: genius/funclib.c:1920
+msgid "set_max_errors: argument not an integer"
+msgstr ""
+
+#: genius/funclib.c:1930
+msgid "set_max_errors: argument should be larger or equal to 0"
+msgstr ""
+
+#: genius/funclib.c:1953
+msgid "set_mixed_fractions: argument not a value"
+msgstr ""
+
+#: genius/funclib.c:1981
+msgid "set_integer_output_base: argument not an integer"
+msgstr ""
+
+#: genius/funclib.c:1991
+msgid "set_integer_output_base: argument should be between 2 and 36"
+msgstr ""
+
+#: genius/funclib.c:2015
+msgid "Gives the warranty information"
+msgstr ""
+
+#: genius/funclib.c:2017 genius/funclib.c:2019
+msgid "Exits the program"
+msgstr ""
+
+#: genius/funclib.c:2021
+msgid "Prints a string to the error stream"
+msgstr ""
+
+#: genius/funclib.c:2023
+msgid "Prints an expression"
+msgstr ""
+
+#: genius/funclib.c:2025
+msgid "Prints an expression without a trailing newline"
+msgstr ""
+
+#: genius/funclib.c:2027
+msgid "Display a string and an expression"
+msgstr ""
+
+#: genius/funclib.c:2030
+msgid "Set floating point precision"
+msgstr ""
+
+#: genius/funclib.c:2032
+msgid "Get floating point precision"
+msgstr ""
+
+#: genius/funclib.c:2034
+msgid "Set maximum digits to display"
+msgstr ""
+
+#: genius/funclib.c:2036
+msgid "Get maximum digits to display"
+msgstr ""
+
+#: genius/funclib.c:2044
+msgid "Set maximum number of errors printed"
+msgstr ""
+
+#: genius/funclib.c:2046
+msgid "Get maximum number of errors printed"
+msgstr ""
+
+#: genius/funclib.c:2048
+msgid "Set if we print fractions in mixed format"
+msgstr ""
+
+#: genius/funclib.c:2050
+msgid "Get if we print fractions in mixed format"
+msgstr ""
+
+#: genius/funclib.c:2052
+msgid "Set the integer output base"
+msgstr ""
+
+#: genius/funclib.c:2054
+msgid "Get the integer output base"
+msgstr ""
+
+#: genius/funclib.c:2059
+msgid "Calculates the sine function"
+msgstr ""
+
+#: genius/funclib.c:2061
+msgid "Calculates the cosine function"
+msgstr ""
+
+#: genius/funclib.c:2063
+msgid "Calculates the hyperbolic sine function"
+msgstr ""
+
+#: genius/funclib.c:2065
+msgid "Calculates the hyperbolic cosine function"
+msgstr ""
+
+#: genius/funclib.c:2067
+msgid "Calculates the tan function"
+msgstr ""
+
+#: genius/funclib.c:2069
+msgid "Calculates the arctan function"
+msgstr ""
+
+#: genius/funclib.c:2071
+#, fuzzy
+msgid "The number pi"
+msgstr "uimhir"
+
+#: genius/funclib.c:2073
+msgid "The natural number e"
+msgstr ""
+
+#: genius/funclib.c:2075
+msgid "The square root"
+msgstr ""
+
+#: genius/funclib.c:2077
+msgid "The exponential function"
+msgstr ""
+
+#: genius/funclib.c:2079
+msgid "The natural logarithm function"
+msgstr ""
+
+#: genius/funclib.c:2081
+msgid "Greatest common divisor"
+msgstr ""
+
+#: genius/funclib.c:2083
+msgid "Least common multiplier"
+msgstr ""
+
+#: genius/funclib.c:2087
+msgid "Check a number for being a perfect square"
+msgstr ""
+
+#: genius/funclib.c:2089
+msgid "Return the larger of two arguments"
+msgstr ""
+
+#: genius/funclib.c:2091
+msgid "Return the smaller of two arguments"
+msgstr ""
+
+#: genius/funclib.c:2093
+msgid "Return the n'th prime (up to a limit)"
+msgstr ""
+
+#: genius/funclib.c:2095
+#, fuzzy
+msgid "Round a number"
+msgstr "uimhir"
+
+#: genius/funclib.c:2097
+msgid "Get the highest integer less then or equal to n"
+msgstr ""
+
+#: genius/funclib.c:2099
+msgid "Get the lowest integer more then or equal to n"
+msgstr ""
+
+#: genius/funclib.c:2101
+msgid "Truncate a number to an integer"
+msgstr ""
+
+#: genius/funclib.c:2103
+msgid "Make number a float"
+msgstr ""
+
+#: genius/funclib.c:2105
+msgid "Get the numerator of a rational"
+msgstr ""
+
+#: genius/funclib.c:2107
+msgid "Get the denominator of a rational"
+msgstr ""
+
+#: genius/funclib.c:2109
+msgid "Get the real part of a complex number"
+msgstr ""
+
+#: genius/funclib.c:2111
+msgid "Get the imaginary part of a complex number"
+msgstr ""
+
+#: genius/funclib.c:2113
+msgid "Make an identity matrix of a given size"
+msgstr ""
+
+#: genius/funclib.c:2115
+msgid "Get the rows of a matrix"
+msgstr ""
+
+#: genius/funclib.c:2117
+msgid "Get the columns of a matrix"
+msgstr ""
+
+#: genius/funclib.c:2119
+msgid "Make new matrix of given size from old one"
+msgstr ""
+
+#: genius/funclib.c:2121
+msgid "Get the determinant of a matrix"
+msgstr ""
+
+#: genius/funclib.c:2123
+msgid "Get the row echelon form of a matrix"
+msgstr ""
+
+#: genius/funclib.c:2125
+msgid "Get the reduced row echelon form of a matrix"
+msgstr ""
+
+#: genius/funclib.c:2127
+msgid "Check if a matrix is a value only matrix"
+msgstr ""
+
+#: genius/funclib.c:2129
+msgid "Check if null"
+msgstr ""
+
+#: genius/funclib.c:2131
+msgid "Check if a number"
+msgstr ""
+
+#: genius/funclib.c:2133
+msgid "Check if a string"
+msgstr ""
+
+#: genius/funclib.c:2135
+msgid "Check if a matrix"
+msgstr ""
+
+#: genius/funclib.c:2137
+msgid "Check if a function"
+msgstr ""
+
+#: genius/funclib.c:2139
+msgid "Check if a function reference"
+msgstr ""
+
+#: genius/funclib.c:2141
+msgid "Check if a number is complex"
+msgstr ""
+
+#: genius/funclib.c:2143
+msgid "Check if a number is real"
+msgstr ""
+
+#: genius/funclib.c:2145
+msgid "Check if a real number is an integer"
+msgstr ""
+
+#: genius/funclib.c:2147
+msgid "Check if a real number is rational"
+msgstr ""
+
+#: genius/funclib.c:2149
+msgid "Check if a real number is a float"
+msgstr ""
+
+#: genius/funclib.c:2160
+msgid "Display function list with small help"
+msgstr ""
+
+#: genius/funclib.c:2162
+msgid "Set the help line for a function"
+msgstr ""
+
+#: genius/funclib.c:2164
+msgid "Protect a variable from being modified"
+msgstr ""
+
+#: genius/funclib.c:2166
+msgid "Unprotect a variable from being modified"
+msgstr ""
+
+#: genius/genius.c:120
+#, c-format
+msgid "Too many errors! (%d followed)\n"
+msgstr ""
+
+#: genius/genius.c:239
+#, c-format
+msgid ""
+"Genius %s usage:\n"
+"\n"
+"genius [options] [files]\n"
+"\n"
+"\t--precision=num   \tFloating point precision [256]\n"
+"\t--maxdigits=num   \tMaximum digits to display (0=no limit) [0]\n"
+"\t--[no]floatresult \tAll results as floats [OFF]\n"
+"\t--[no]scinot      \tResults in scientific notation [OFF]\n"
+"\t--[no]fullexp     \tAlways print full expressions [OFF]\n"
+"\t--maxerrors=num   \tMaximum errors to display (0=no limit) [5]\n"
+"\t--[no]mixed       \tPrint fractions in mixed format\n"
+"\t--intoutbase=num  \tBase to use to print out integers [10]\n"
+"\t--[no]readline    \tUse readline if it is available [ON]\n"
+"\t--[no]compile     \tCompile everything and dump it to stdout [OFF]\n"
+"\t--[no]quiet       \tBe quiet during non-interactive mode,\n"
+"\t                  \t(always on when compiling) [OFF]\n"
+"\n"
+msgstr ""
+
+#: genius/genius.c:265
+#, c-format
+msgid ""
+"Genius %s\n"
+"Copyright (c) 1997,1998,1999 Free Software Foundation, Inc.\n"
+"This is free software with ABSOLUTELY NO WARRANTY.\n"
+"For details type `warranty'.\n"
+"\n"
+msgstr ""
+
+#: genius/genius.c:312 genius/genius.c:364
+msgid "Can't open file"
+msgstr ""
+
+#: genius/gnome-genius.c:134 gobobjs/console-mdi-child.gob:266
+msgid "Error"
+msgstr "Earráid"
+
+#: genius/gnome-genius.c:134 gobobjs/console-mdi-child.gob:266
+msgid "Information"
+msgstr "Eolas"
+
+#: genius/gnome-genius.c:166 gobobjs/console-mdi-child.gob:299
+#, c-format
+msgid ""
+"\n"
+"Too many errors! (%d followed)"
+msgstr ""
+
+#: genius/gnome-genius.c:176 gobobjs/console-mdi-child.gob:310
+#, c-format
+msgid "\\e[01;31mToo many errors! (%d followed)\\e[0m\n"
+msgstr ""
+
+#: genius/gnome-genius.c:271 genius/gnome-genius.c:722
+msgid "GnomENIUS Calculator"
+msgstr "Aireamhán GnomENIUS"
+
+#. another comments
+#: genius/gnome-genius.c:276
+msgid "The Gnome calculator style edition of genius"
+msgstr ""
+
+#: genius/gnome-genius.c:398
+msgid "GnomENIUS Calculator setup"
+msgstr "Socraigh Aireamhán GnomENIUS"
+
+#: genius/gnome-genius.c:404
+msgid "Output"
+msgstr "Aschur"
+
+#: genius/gnome-genius.c:407
+msgid "Number/Expression output options"
+msgstr ""
+
+#: genius/gnome-genius.c:417
+msgid "Maximum digits to output (0=unlimited)"
+msgstr ""
+
+#: genius/gnome-genius.c:437
+msgid "Results as floats"
+msgstr ""
+
+#: genius/gnome-genius.c:445
+msgid "Floats in scientific notation"
+msgstr ""
+
+#: genius/gnome-genius.c:453
+msgid "Always print full expressions"
+msgstr ""
+
+#: genius/gnome-genius.c:462
+msgid "Error/Info output options"
+msgstr ""
+
+#: genius/gnome-genius.c:470
+msgid "Display errors in a dialog"
+msgstr ""
+
+#: genius/gnome-genius.c:478
+msgid "Display information messages in a dialog"
+msgstr ""
+
+#: genius/gnome-genius.c:489
+msgid "Maximum errors to display (0=unlimited)"
+msgstr ""
+
+#: genius/gnome-genius.c:513
+msgid "Precision"
+msgstr ""
+
+#: genius/gnome-genius.c:516
+msgid "Floating point precision"
+msgstr ""
+
+#: genius/gnome-genius.c:523
+msgid ""
+"NOTE: The floating point precision might not take effect\n"
+"for all numbers immediately, only new numbers calculated\n"
+"and new variables will be affected."
+msgstr ""
+
+#: genius/gnome-genius.c:532
+msgid "Floating point precision (bits)"
+msgstr ""
+
+#: genius/gnome-genius.c:556
+msgid "Terminal"
+msgstr "Teirmineal"
+
+#: genius/gnome-genius.c:559
+msgid "Terminal options"
+msgstr "Cumraigh Teirmineal"
+
+#: genius/gnome-genius.c:568
+msgid "Scrollback lines"
+msgstr ""
+
+#: genius/gnome-genius.c:591
+msgid "Font:"
+msgstr "Clófhoireann:"
+
+#: genius/gnome-genius.c:630
+msgid "Can not open file!"
+msgstr ""
+
+#: genius/gnome-genius.c:651
+msgid "Load GEL file"
+msgstr ""
+
+#: genius/gnome-genius.c:673
+msgid "_Load"
+msgstr "_Lódáil"
+
+#: genius/gnome-genius.c:673
+msgid "Load and execute a file in genius"
+msgstr ""
+
+#: genius/gnome-genius.c:684
+msgid "_Interrupt"
+msgstr "_Idirbhris"
+
+#: genius/gnome-genius.c:684 genius/gnome-genius.c:710
+msgid "Interrupt current calculation"
+msgstr ""
+
+#: genius/gnome-genius.c:702
+msgid "_Plugins"
+msgstr "_Plogáilí"
+
+#: genius/gnome-genius.c:710
+msgid "Interrupt"
+msgstr "Idirbhris"
+
+#: genius/gnome-genius.c:1013
+#, c-format
+msgid ""
+"Genius %s\n"
+"Copyright (c) 1997-2000 Free Software Foundation, Inc.\n"
+"This is free software with ABSOLUTELY NO WARRANTY.\n"
+"For details type `warranty'.\n"
+"\n"
+msgstr ""
+
+#: genius/matop.c:305
+msgid "Determinant of a non-square matrix is undefined"
+msgstr ""
+
+#: genius/mpwrap.c:570
+msgid "Number too large to compute exponential!"
+msgstr ""
+
+#: genius/mpwrap.c:2120
+msgid "Can't do modulo of floats or rationals!"
+msgstr ""
+
+#: genius/mpwrap.c:2159
+msgid "Can't do GCD of floats or rationals!"
+msgstr ""
+
+#: genius/mpwrap.c:2190
+msgid "Can't get jacobi symbols of floats or rationals!"
+msgstr ""
+
+#: genius/mpwrap.c:2221
+msgid "Can't get legendre symbols of floats or rationals!"
+msgstr ""
+
+#: genius/mpwrap.c:2239
+msgid "perfect_square: can't work on non-integers!"
+msgstr ""
+
+#: genius/mpwrap.c:2283
+msgid "Can't do factorials of rationals or floats!"
+msgstr ""
+
+#: genius/mpwrap.c:2289
+msgid "Number too large to compute factorial!"
+msgstr ""
+
+#: genius/mpwrap.c:2294 genius/mpwrap.c:2301
+msgid "Can't do factorials of negative numbers!"
+msgstr ""
+
+#: genius/mpwrap.c:2567
+msgid "0^0 is undefined"
+msgstr ""
+
+#: genius/mpwrap.c:2875 genius/mpwrap.c:2902
+msgid "Can't get numerator of floating types"
+msgstr ""
+
+#: genius/mpwrap.c:3460 genius/mpwrap.c:4273 genius/mpwrap.c:4285
+msgid "Can't compare complex numbers"
+msgstr ""
+
+#: genius/mpwrap.c:3669 genius/mpwrap.c:3684 genius/mpwrap.c:3735
+#: genius/mpwrap.c:3758 genius/mpwrap.c:3771 genius/mpwrap.c:3816
+msgid "Division by zero!"
+msgstr ""
+
+#: genius/mpwrap.c:3825
+msgid "Can't modulo complex numbers"
+msgstr ""
+
+#: genius/mpwrap.c:3838
+msgid "Can't GCD complex numbers"
+msgstr ""
+
+#: genius/mpwrap.c:3850
+msgid "Can't get jacobi symbols of complex numbers"
+msgstr ""
+
+#: genius/mpwrap.c:3862
+msgid "Can't get legendre symbols complex numbers"
+msgstr ""
+
+#: genius/mpwrap.c:3872
+msgid "perfect_square: can't work on complex numbers"
+msgstr ""
+
+#: genius/mpwrap.c:3965
+msgid "ln: can't take logarithm of 0"
+msgstr ""
+
+#: genius/mpwrap.c:4323
+msgid "Can't make factorials of complex numbers"
+msgstr ""
+
+#: genius/mpwrap.c:4527 genius/mpwrap.c:4538 genius/mpwrap.c:4549
+msgid "Can't determine type of a complex number"
+msgstr ""
+
+#: genius/mpwrap.c:4630
+msgid "Can't convert complex number into integer"
+msgstr ""
+
+#: genius/mpwrap.c:4636
+msgid "Can't convert real number to integer"
+msgstr ""
+
+#: genius/mpwrap.c:4640
+msgid "Integer too large for this operation"
+msgstr ""
+
+#: genius/plugin.c:136
+msgid "Can't open plugin!"
+msgstr ""
+
+#: genius/plugin.c:148
+msgid "Can't initialize plugin!"
+msgstr ""
+
+#: genius/util.c:136
+msgid "Stack underflow!"
+msgstr ""
+
+#: gobobjs/console-mdi-child.gob:216
+#, c-format
+msgid ""
+"Dr.Genius %s\n"
+"Copyright (c) 1997,1998,1999 Free Software Foundation, Inc.\n"
+"This is free software with ABSOLUTELY NO WARRANTY.\n"
+"For details type `warranty'.\n"
+"\n"
+msgstr ""
+
+#: gobobjs/drgeo-mdi-child.gob:54
+#, c-format
+msgid "Untitled Figure %d"
+msgstr ""
+
+#: gobobjs/geledit-mdi-child.gob:44
+#, c-format
+msgid "Untitled GEL Script %d"
+msgstr ""
+
+#: gobobjs/geledit-mdi-child.gob:77
+msgid "Can't open file!"
+msgstr ""
+
+#~ msgid "Misc"
+#~ msgstr "Teibi."
+
+#~ msgid "Undo"
+#~ msgstr "Leasú"
+
+#~ msgid "Settings..."
+#~ msgstr "Cumraigh..."
+
+#~ msgid "Save"
+#~ msgstr "Sábháil"
+
+#~ msgid "Settings"
+#~ msgstr "Cumraigh"
+
+#~ msgid "None"
+#~ msgstr "Tada"
+
+#~ msgid "Icon"
+#~ msgstr "Dealbh"
+
+#~ msgid "Colors"
+#~ msgstr "Dathanna"
+
+#~ msgid "OK"
+#~ msgstr "Ceart go Leor"
+
+#~ msgid "Cancel"
+#~ msgstr "Cealaigh"
+
+#~ msgid "Background"
+#~ msgstr "Cúlra"
+
+#~ msgid "Save as image..."
+#~ msgstr "Sábháil le íomha..."
+
+#~ msgid "Print..."
+#~ msgstr "Priontáil..."
+
+#~ msgid "Delete"
+#~ msgstr "Dealaigh"

@@ -1,0 +1,17 @@
+Package: gaeilge
+Version: 20020221
+Section: misc
+Priority: optional
+Architecture: i386
+Recommends: language-env
+Installed-Size: 864
+Maintainer: Alastair McKinstry <mckinstry@computer.org>
+Description: Development snapshot of Irish translations
+ WARNING: This is not an official Debian package!
+ .
+ This is a snapshot of the current Irish translations. These translations
+ should be entered into their main packages for distribution. This package
+ is just a convenience for translators to easily install the latest versions.
+ .
+ These translations are visible if you use the locale:
+ LC_ALL=ga_IE.ISO-8859-15

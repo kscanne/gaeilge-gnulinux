@@ -1,0 +1,266 @@
+# Irish Translations for gernel 
+# Copyright (C) 2000 Free Software Foundation, Inc.
+# Seán Ó Ceallaigh <s_oceallaigh@yahoo.com>, 2000.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Gernel CVS\n"
+"POT-Creation-Date: 2000-08-26 18:41+0000\n"
+"PO-Revision-Date: 2000-08-26 18:41+0000\n"
+"Last-Translator: Seán Ó Ceallaigh <s_oceallaigh@yahoo.com>\n"
+"Language-Team: Gaeilge <gaeilge-a@listserv.heanet.ie>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=iso-8859-1\n"
+"Content-Transfer-Encoding: 8-bit\n"
+
+#: src/gernel.c:23
+#, c-format
+msgid "Dependants of %s:"
+msgstr ""
+
+#: src/gernel.c:79
+#, c-format
+msgid "Prerequisites for %s:"
+msgstr ""
+
+#: src/gernel.c:619 src/gernel.c:730
+msgid "[Nothing selected]"
+msgstr ""
+
+#: src/gernel.c:815
+#, c-format
+msgid ""
+"item_selected:\tDon't know which button to display (variable %s, value %s).\n"
+msgstr ""
+
+#: src/gernel.c:975
+#, c-format
+msgid "Ignoring line '%s'.\n"
+msgstr ""
+
+#: src/gernel.c:1191
+msgid "Could not open file "
+msgstr ""
+
+#: src/gernel.c:1337
+msgid "These values were defined but not requested:\n"
+msgstr ""
+
+#: src/gernel.c:1393
+#, c-format
+msgid "'%s' does not look like a kernel source path."
+msgstr ""
+
+#: src/gernel.c:1407
+msgid "Initiating kernel parse..."
+msgstr ""
+
+#: src/gernel.c:1420
+msgid "Select Kernel Source Path"
+msgstr ""
+
+#: src/gernel.c:1434
+msgid "Select Template File"
+msgstr ""
+
+#. read in all the config.in files
+#: src/gernel.c:1518
+msgid "Parsing kernel source..."
+msgstr ""
+
+#: src/gernel.c:1601
+msgid "Internal Name:"
+msgstr ""
+
+#: src/gernel.c:1602
+msgid "Description"
+msgstr ""
+
+#: src/gernel.c:1683
+#, c-format
+msgid "Kernel configuration parse took %f seconds.\n"
+msgstr ""
+
+#: src/gernel_var_item.c:232
+#, c-format
+msgid " using best match '%s'.\n"
+msgstr ""
+
+#: src/gernel_var_item.c:244
+msgid " cannot correct error.\n"
+msgstr ""
+
+#: src/gernel_var_item.c:245
+msgid "Syntax Error in Configuration"
+msgstr ""
+
+#: src/gernel_var_item.c:439
+#, c-format
+msgid "%d dependant:"
+msgstr ""
+
+#: src/gernel_var_item.c:440
+#, c-format
+msgid "%d dependants:"
+msgstr ""
+
+#: src/parse.c:113
+#, c-format
+msgid "bad if-condition: ...%s %s\n"
+msgstr ""
+
+#: src/splash.c:100
+msgid "The Gernel"
+msgstr "An Gernel"
+
+#: src/toolbar.c:109
+msgid "Search in Variable Names (e.g. 'CONFIG_QUOTA')"
+msgstr ""
+
+#: src/toolbar.c:110
+msgid "Search in Descriptions (e.g. 'Quota support')"
+msgstr ""
+
+#: src/toolbar.c:121
+msgid "Please Enter a String to Search for:"
+msgstr ""
+
+#: src/toolbar.c:129
+msgid "Search Mode"
+msgstr ""
+
+#: src/toolbar.c:237
+msgid "_Load..."
+msgstr ""
+
+#: src/toolbar.c:238
+msgid "Load configuration from kernel source directory"
+msgstr ""
+
+#: src/toolbar.c:249
+msgid "Load _Template..."
+msgstr ""
+
+#: src/toolbar.c:250
+msgid "Load different template from file"
+msgstr ""
+
+#: src/toolbar.c:278
+msgid "_Prerequisites..."
+msgstr ""
+
+#: src/toolbar.c:279
+msgid "Show prerequisites for this variable"
+msgstr ""
+
+#: src/toolbar.c:289
+msgid "_Dependants..."
+msgstr ""
+
+#: src/toolbar.c:290
+msgid "Show variables that depend on this variable"
+msgstr ""
+
+#: src/toolbar.c:310 src/toolbar.c:470
+msgid "Back"
+msgstr ""
+
+#: src/toolbar.c:311 src/toolbar.c:471
+msgid "Move back in history"
+msgstr ""
+
+#: src/toolbar.c:333
+msgid "Forward"
+msgstr ""
+
+#: src/toolbar.c:334 src/toolbar.c:483
+msgid "Move forward in history"
+msgstr ""
+
+#: src/toolbar.c:348
+msgid "Previous"
+msgstr ""
+
+#: src/toolbar.c:349 src/toolbar.c:513
+msgid "Go to previous item"
+msgstr ""
+
+#: src/toolbar.c:360 src/toolbar.c:548
+msgid "Next"
+msgstr ""
+
+#: src/toolbar.c:361 src/toolbar.c:549
+msgid "Go to next item"
+msgstr ""
+
+#: src/toolbar.c:372 src/toolbar.c:524
+msgid "Up"
+msgstr ""
+
+#: src/toolbar.c:373
+msgid "Go to item on higher level"
+msgstr ""
+
+#: src/toolbar.c:384 src/toolbar.c:536
+msgid "Down"
+msgstr ""
+
+#: src/toolbar.c:385
+msgid "Go to item on lower level"
+msgstr ""
+
+#: src/toolbar.c:399
+msgid "_Reload"
+msgstr ""
+
+#: src/toolbar.c:400
+msgid "Reload Current Configuration"
+msgstr ""
+
+#: src/toolbar.c:414
+msgid "_Attributes"
+msgstr ""
+
+#: src/toolbar.c:415
+msgid "View attributes of currently selected item"
+msgstr ""
+
+#: src/toolbar.c:482
+msgid "Fwd"
+msgstr ""
+
+#: src/toolbar.c:497
+msgid "Find..."
+msgstr ""
+
+#: src/toolbar.c:498
+msgid "Find a variable"
+msgstr ""
+
+#: src/toolbar.c:512
+msgid "Prev"
+msgstr ""
+
+#: src/toolbar.c:525
+msgid "Go to next higher level item"
+msgstr ""
+
+#: src/toolbar.c:537
+msgid "Go to next lower level item"
+msgstr ""
+
+#: src/toolbar.c:563
+msgid "Close"
+msgstr "Dún"
+
+#: src/toolbar.c:564
+msgid "Close this window"
+msgstr "Dún an fhuinneog seo"
+
+#: src/toolbar.c:575
+msgid "Exit"
+msgstr "Eírigh as"
+
+#: src/toolbar.c:576
+msgid "Exit the application"
+msgstr "Éirigh as an ríomhchlar"

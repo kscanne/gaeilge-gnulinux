@@ -1,0 +1,114 @@
+# Irish (gaeilge) translations for gnome-objc
+# Copyright (C) 2000 Free Software Foundation, Inc.
+# Alastair McKinstry <mckinstry@computer.org>, 2000.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-objc 1.0.40\n"
+"POT-Creation-Date: 2000-03-10 23:09+0000\n"
+"PO-Revision-Date: 2000-03-13 18:23+0000\n"
+"Last-Translator:  Alastair McKinstry <mckinstry@computer.org>\n"
+"Language-Team: Irish <ga@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=iso-8859-1\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: obgnome/obgnome-hello.m:42
+msgid "Click me!"
+msgstr ""
+
+#: obgnome/obgnome-hello.m:46
+msgid "Page #1"
+msgstr "Leathanach #1"
+
+#: obgnome/obgnome-hello.m:48
+msgid "Button Fun"
+msgstr ""
+
+#: obgnome/obgnome-hello.m:52
+msgid "Page #2"
+msgstr "Leathanach #2"
+
+#: obgnome/obgnome-hello.m:54 obgnome/obgnome-hello.m:156
+msgid "Button1"
+msgstr "Cnaip1"
+
+#: obgnome/obgnome-hello.m:63
+msgid "Page #3"
+msgstr "Leathanach #3"
+
+#: obgnome/obgnome-hello.m:76
+#, c-format
+msgid "Applied changed on page #%d"
+msgstr ""
+
+#: obgnome/obgnome-hello.m:91 obgnome/obgnome-hello.m:187
+msgid "Button1\n"
+msgstr "Cnaip1\n"
+
+#. FIXME: [need better explanation] pass
+#. along main Object to new Object
+#: obgnome/obgnome-hello.m:124
+msgid "GNOME Obj-C Hello"
+msgstr "Fáilte go dti GNOME Obj-C"
+
+#: obgnome/obgnome-hello.m:128
+msgid "GNOME is cool. yup."
+msgstr ""
+
+#: obgnome/obgnome-hello.m:129
+msgid "Font Selection Test"
+msgstr ""
+
+#: obgnome/obgnome-hello.m:150
+msgid "connectObjMethod"
+msgstr "connectObjMethod"
+
+#: obgnome/obgnome-hello.m:160
+msgid "Button2"
+msgstr "Cnaip2"
+
+#: obgnome/obgnome-hello.m:164
+msgid "Button3"
+msgstr "Cnaip3"
+
+#: obgnome/obgnome-hello.m:170
+msgid "Show a Great Canvas"
+msgstr ""
+
+#: obgnome/obgnome-hello.m:174
+msgid "Show a Great AntiAliased Canvas"
+msgstr ""
+
+#: obgnome/obgnome-hello.m:193
+msgid "Button2\n"
+msgstr "Cnaip2\n"
+
+#: obgnome/obgnome-hello.m:199
+msgid "Button3\n"
+msgstr "Cnaip3\n"
+
+#: obgnome/obgnome-hello.m:234
+#, c-format
+msgid "font: %s\n"
+msgstr "clófhoireann%s\n"
+
+#: obgnome/obgnome-hello.m:247
+msgid "obHello"
+msgstr "obFáilte"
+
+#: obgnome/obgnome-hello.m:249
+msgid "Copyright (C) 1998 the Free Software Foundation"
+msgstr "Cóipcheart (C) 1998 the Free Software Foundation"
+
+#: obgnome/obgnome-hello.m:251
+msgid "The Civilized GNOME Objective-C Hello..."
+msgstr ""
+
+#: obgnome/obgnome-hello-canvas.m:233
+msgid "Click on the curve to move it"
+msgstr ""
+
+#: obgnome/obgnome-hello-canvas.m:356
+msgid "This is a simple Koch Curve"
+msgstr ""

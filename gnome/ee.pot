@@ -1,0 +1,641 @@
+# Irish (Gaeilge) translations for ee.pot (GNOME)
+# Copyright (C) 1998 Free Software Foundation, Inc.
+# Alastair McKinstry <mckinstry@computer.org>, 1998.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: ee 0.3.8\n"
+"POT-Creation-Date: 1999-09-28 18:41-0400\n"
+"PO-Revision-Date: 1999-08-20 18:33+0100\n"
+"Last-Translator: Alastair McKinstry <mckinstry@computer.org>\n"
+"Language-Team: Gaeilge\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=iso-8859-1\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Date: 1998-09-18 12:39:43-0400\n"
+"From: Carsten Haitzler,RHAD Labs,,, <raster@implant.labs.redhat.com>\n"
+
+#: ee_edit.c:1113
+msgid "Electric Eyes - Edit Controls"
+msgstr "Súil Sult - Rialúcháin Eagar"
+
+#: ee_edit.c:1124
+#, fuzzy
+msgid "Color Settings"
+msgstr "Roghnachais Dath"
+
+#: ee_edit.c:1230
+msgid "Gray Controls"
+msgstr "Rialúcháin Liath"
+
+#: ee_edit.c:1258
+msgid "Red Controls"
+msgstr "Riailúcháin Dearg"
+
+#: ee_edit.c:1286
+msgid "Green Controls"
+msgstr "Riailúcháin Glas"
+
+#: ee_edit.c:1314
+msgid "Blue Controls"
+msgstr "Riailúcháin Gorm"
+
+#: ee_edit.c:1343
+#, fuzzy
+msgid "Color Modifications:"
+msgstr "Mionathraí Dathanna:"
+
+#: ee_edit.c:1351
+msgid "Apply"
+msgstr "Deán"
+
+#: ee_edit.c:1352 ee_edit.c:1353
+msgid "Apply the current color changes to the main image"
+msgstr ""
+
+#: ee_edit.c:1355
+msgid "Keep"
+msgstr "Coinnigh"
+
+#: ee_edit.c:1356 ee_edit.c:1357
+msgid "Apply the current color changes to the image data, and reset"
+msgstr ""
+
+#: ee_edit.c:1359
+msgid "Reset"
+msgstr "Athshocraigh"
+
+#: ee_edit.c:1360 ee_edit.c:1361
+msgid "Reset all the color changes to normal values"
+msgstr ""
+
+#: ee_edit.c:1363
+msgid "Always Apply"
+msgstr "Deán i gconaí"
+
+#: ee_edit.c:1369 ee_edit.c:1370
+msgid "Always apply any changes to the main image"
+msgstr ""
+
+#: ee_edit.c:1372
+msgid "Geometry Settings"
+msgstr "Roghnachais Céimseata"
+
+#: ee_edit.c:1384
+msgid "Image Size:"
+msgstr "Meídd Pictiúr:"
+
+#: ee_edit.c:1389
+msgid "Crop:"
+msgstr "Bearr:"
+
+#: ee_edit.c:1403 ee_edit.c:1404
+msgid "Halve the size of the image"
+msgstr ""
+
+#: ee_edit.c:1408 ee_edit.c:1409
+#, c-format
+msgid "Reduce the image size by 10%"
+msgstr ""
+
+#: ee_edit.c:1412
+msgid "Normal"
+msgstr "Gnáth"
+
+#: ee_edit.c:1413 ee_edit.c:1414
+msgid "Set the image size to its normal size"
+msgstr ""
+
+#: ee_edit.c:1418 ee_edit.c:1419
+#, c-format
+msgid "Increase the image size by 10%"
+msgstr ""
+
+#: ee_edit.c:1423 ee_edit.c:1424
+msgid "Double the size of the image"
+msgstr ""
+
+#: ee_edit.c:1427
+msgid "Max Aspect"
+msgstr "Uasta"
+
+#: ee_edit.c:1428 ee_edit.c:1429
+msgid "Maximize image size retaining aspect"
+msgstr ""
+
+#: ee_edit.c:1432
+msgid "Max"
+msgstr "Uas."
+
+#: ee_edit.c:1433 ee_edit.c:1434
+msgid "Maximize image size"
+msgstr ""
+
+#: ee_edit.c:1441
+msgid "Set Size"
+msgstr "Cuardaigh Méid"
+
+#: ee_edit.c:1442 ee_edit.c:1443
+msgid "Set a custom size for the image"
+msgstr ""
+
+#: ee_edit.c:1446
+msgid "Apply Size"
+msgstr "Déan Méid"
+
+#: ee_edit.c:1447 ee_edit.c:1448
+msgid "Apply the current view size to the image"
+msgstr ""
+
+#: ee_edit.c:1452 ee_edit.c:1453
+msgid "Flip image horizontally"
+msgstr ""
+
+#: ee_edit.c:1457 ee_edit.c:1458
+msgid "Flip image vertically"
+msgstr ""
+
+#: ee_edit.c:1462 ee_edit.c:1463
+msgid "Rotate image"
+msgstr "Rothlaigh an pictiúr"
+
+#: ee_edit.c:1466
+msgid "Snapshot Screen Now"
+msgstr ""
+
+#: ee_edit.c:1467 ee_edit.c:1468
+msgid "Grab the contents of the entire screen now"
+msgstr ""
+
+#: ee_edit.c:1471
+msgid "Snapshot Custom"
+msgstr ""
+
+#: ee_edit.c:1472 ee_edit.c:1473
+msgid "Select a custom window on the screen to snapshot"
+msgstr ""
+
+#: ee_edit.c:1479 ee_image.c:129 ee_image.c:447
+#, c-format
+msgid "Image Size: (%i x %i)"
+msgstr "Toirt pictiúr (%i x %i)"
+
+#: ee_filesel.c:63
+msgid "Select a file to save"
+msgstr "Tosaigh an comhad a sábhail"
+
+#: ee_filesel.c:76 ee_filesel.c:128 ee_filesel.c:572
+msgid "Select a file to load"
+msgstr "Tosaigh an comhad a lódáil"
+
+#: ee_filesel.c:103
+msgid "Set Printout settings"
+msgstr "Cuir roghnachais Priontáil"
+
+#: ee_filesel.c:527
+msgid "Yes"
+msgstr "Tá"
+
+#: ee_filesel.c:529
+msgid "No"
+msgstr "Níl"
+
+#: ee_filesel.c:571
+#, fuzzy
+msgid "Image Viewer"
+msgstr "Meídd Pictiúr:"
+
+#: ee_filesel.c:599
+msgid "Saved Image Settings"
+msgstr "Cuir Roghnachais Sábháilte"
+
+#: ee_filesel.c:606
+msgid "Print Command:"
+msgstr "Ordú priontáil:"
+
+#: ee_filesel.c:619 ee_menu.c:28 ee_toolbar.c:57
+msgid "Print"
+msgstr "Priontáil"
+
+#: ee_filesel.c:625
+msgid "Cancel"
+msgstr "Ceallaigh"
+
+#: ee_filesel.c:637
+msgid "Image Format:"
+msgstr "Formóid Pictiúr:"
+
+#: ee_filesel.c:669
+msgid "PS (PostScript)"
+msgstr ""
+
+#: ee_filesel.c:697
+msgid "Other (Automatic by extension)"
+msgstr ""
+
+#: ee_filesel.c:708
+msgid "Quality Settings"
+msgstr "Roghnachais Mianach"
+
+#: ee_filesel.c:720
+msgid "Page Settings"
+msgstr "Roghnachais Leathanach"
+
+#: ee_filesel.c:793
+msgid "Color"
+msgstr "Dath"
+
+#: ee_filesel.c:806
+msgid "Scaling Factor:"
+msgstr "Fachtóir Scála:"
+
+#: ee_filesel.c:835
+msgid "Select a file"
+msgstr "Tosaigh an comhad"
+
+#: ee_filesel.c:846
+msgid "Load all files in directory"
+msgstr ""
+
+#: ee_filesel.c:860
+msgid "Use Previews"
+msgstr ""
+
+#: ee_filesel.c:870
+msgid "Image Information"
+msgstr "Eolais Pictiurí"
+
+#: ee_filesel.c:915
+#, fuzzy
+msgid "Filename:"
+msgstr "Comhad"
+
+#: ee_filesel.c:921
+#, fuzzy
+msgid "Format:"
+msgstr "Formóid Pictiúr:"
+
+#: ee_filesel.c:927
+msgid "Dimensions:"
+msgstr ""
+
+#: ee_filesel.c:933
+#, fuzzy
+msgid "File Size:"
+msgstr "Meíd Pictiúr:"
+
+#: ee_filesel.c:939
+msgid "Has Transparency:"
+msgstr ""
+
+#: ee_filesel.c:945
+msgid "Last Modified Date:"
+msgstr ""
+
+#: ee_grab.c:361
+msgid "Grab Options"
+msgstr "Roghnachais Sciob"
+
+#: ee_grab.c:373
+msgid "Number of seconds to wait:"
+msgstr ""
+
+#: ee_grab.c:384
+msgid "Hide EE windows"
+msgstr "Folaigh fuinneogaí SS"
+
+#: ee_grab.c:390
+msgid "Selected window hierachy depth:"
+msgstr ""
+
+#: ee_image.c:384 ee_image.c:538 ee_image.c:875
+#, c-format
+msgid "Crop: (%i, %i) (%i x %i)"
+msgstr "Bearr: (%i, %i) (%i x %i)"
+
+#: ee_image.c:916
+msgid "Electric Eyes"
+msgstr "Súil Sult"
+
+#: ee_list.c:346
+msgid "Do you wish to delete the file on disk?"
+msgstr ""
+
+#: ee_list.c:350
+msgid "Do you wish to delete the disk file:"
+msgstr "An bhfuil scríos uait an comhaid diosca?"
+
+#: ee_list.c:486
+msgid "Electric Eyes - Images"
+msgstr "Súil Sult - Pictiurí"
+
+#: ee_list.c:502 ee_menu.c:55 ee_menu.c:132
+msgid "Quit"
+msgstr "Dún"
+
+#: ee_list.c:503 ee_list.c:504 ee_menu.c:56 ee_menu.c:133
+msgid "Exit this program"
+msgstr "Ealu as an riomhchár seo"
+
+#: ee_list.c:510 ee_menu.c:15 ee_toolbar.c:33
+msgid "Open"
+msgstr "Oscáil"
+
+#: ee_list.c:511 ee_list.c:512 ee_toolbar.c:34 ee_toolbar.c:35
+msgid "Open a new file"
+msgstr "Oscail an comahd nua"
+
+#: ee_list.c:518 ee_toolbar.c:65
+msgid "First"
+msgstr "Chead"
+
+#: ee_list.c:519 ee_list.c:520
+msgid "Select first item in list"
+msgstr "Tosaigh an cheád poinnte san líosta"
+
+#: ee_list.c:526 ee_toolbar.c:73
+msgid "Previous"
+msgstr "Riomh pointe"
+
+#: ee_list.c:527 ee_list.c:528
+msgid "Select previous item in list"
+msgstr "Tosaigh an riomh pointe 'san líosta"
+
+#: ee_list.c:534 ee_toolbar.c:81
+msgid "Next"
+msgstr "Pointe eile"
+
+#: ee_list.c:535 ee_list.c:536
+msgid "Select next item in list"
+msgstr "Tosaigh an cheád pointe eile 'san líosta"
+
+#: ee_list.c:542
+msgid "Last Item"
+msgstr "Deireadh Pointe"
+
+#: ee_list.c:543 ee_list.c:544
+msgid "Select last item in list"
+msgstr "Tosaigh deireadh pointe 'san líosta"
+
+#: ee_list.c:560
+msgid "Remove"
+msgstr "Bain"
+
+#: ee_list.c:561 ee_list.c:562
+msgid "Remove filename from list"
+msgstr "Bain comhad as líosta"
+
+#: ee_list.c:568
+msgid "Delete"
+msgstr "Dealaigh"
+
+#: ee_list.c:569 ee_list.c:570
+msgid "Delete file on disk and remove from the list"
+msgstr "Dealaigh comhad as diosca agus bain as an líosta"
+
+#: ee_list.c:597
+msgid "Use Large Thumbnails"
+msgstr "Usáid Mionpictiúrí mhór"
+
+#: ee_list.c:605
+msgid "Generate Thumbnails"
+msgstr "Cruthaigh Mionpictiúrí"
+
+#: ee_menu.c:16
+msgid "Open up a new image file"
+msgstr "Oscáil an comhad pictiúr nua"
+
+#: ee_menu.c:19 ee_toolbar.c:41
+msgid "Save"
+msgstr "Sábháil"
+
+#: ee_menu.c:20
+msgid "Save this image"
+msgstr "Sábháil an pictiúr seo"
+
+#: ee_menu.c:23 ee_toolbar.c:49
+msgid "Save As"
+msgstr "Sabháil as"
+
+#: ee_menu.c:24
+msgid "Save this image as a new file"
+msgstr ""
+
+#: ee_menu.c:29
+msgid "Print this Image"
+msgstr "Priontáil an pictiúr seo"
+
+#: ee_menu.c:33
+msgid "Last Image"
+msgstr "Deireadh Pictiúr"
+
+#: ee_menu.c:34
+msgid "Display the last image in the image list"
+msgstr "Taispeán an deireadh pioctiúr ins na líosta"
+
+#: ee_menu.c:37
+msgid "Next Image"
+msgstr "an Cheád Pictiúr Eile"
+
+#: ee_menu.c:38
+msgid "Display the next image in the image list"
+msgstr "Taispeán an cheád pictiúr eile san líosta"
+
+#: ee_menu.c:41
+msgid "Previous Image"
+msgstr "Riomh Pictiúr"
+
+#: ee_menu.c:42
+msgid "Display the previous image in the image list"
+msgstr "Taispeán an riomh pictíur san líosts"
+
+#: ee_menu.c:45
+msgid "First Image"
+msgstr "Cead Pictiúr"
+
+#: ee_menu.c:46
+msgid "Display the first image in the image list"
+msgstr "Taispeán an chéad pictiúr san líosta"
+
+#: ee_menu.c:50 ee_menu.c:51
+msgid "Set as Desktop Background"
+msgstr "Cuir chomh Cúlra Deasc"
+
+#: ee_menu.c:64
+msgid "Top"
+msgstr "Thar"
+
+#: ee_menu.c:65
+msgid "Add Toolbar To Top"
+msgstr "Suim Barra Uirlís chomh Thar"
+
+#: ee_menu.c:68
+msgid "Bottom"
+msgstr "Bún"
+
+#: ee_menu.c:69
+msgid "Add Toolbar To Bottom"
+msgstr ""
+
+#: ee_menu.c:72
+msgid "Left"
+msgstr "Clé"
+
+#: ee_menu.c:73
+msgid "Add Toolbar To Left"
+msgstr ""
+
+#: ee_menu.c:76
+msgid "Right"
+msgstr "Deis"
+
+#: ee_menu.c:77
+msgid "Add Toolbar To Right"
+msgstr ""
+
+#: ee_menu.c:81
+msgid "Hide"
+msgstr "Folaigh"
+
+#: ee_menu.c:82
+msgid "Hide the Toolbar"
+msgstr "Folaigh an barra uirlis"
+
+#: ee_menu.c:90
+msgid "Show/Hide Edit Window"
+msgstr "Taispeán/Folaigh Fuinneog Eagar"
+
+#: ee_menu.c:91
+msgid "Toggle Edit Window visability"
+msgstr ""
+
+#: ee_menu.c:94
+msgid "Show/Hide List Window"
+msgstr "Taispeán/Folaigh Fuinneog Líosta"
+
+#: ee_menu.c:95
+msgid "Toggle List Window visability"
+msgstr ""
+
+#: ee_menu.c:98
+msgid "Toggle Scrolled View"
+msgstr ""
+
+#: ee_menu.c:99
+msgid "Toggle Scrollbars in a scrolled view"
+msgstr ""
+
+#: ee_menu.c:102
+msgid "Tool Bar"
+msgstr "Barra Uirlis"
+
+#: ee_menu.c:115
+msgid "File"
+msgstr "Comhad"
+
+#: ee_menu.c:117
+msgid "View"
+msgstr "Taispeáin"
+
+#: ee_menu.c:120
+msgid "Crop Selection"
+msgstr "Bearr"
+
+#: ee_menu.c:121
+msgid "Crop the current crop selection"
+msgstr ""
+
+#: ee_menu.c:124
+msgid "Save Settings"
+msgstr ""
+
+#: ee_menu.c:125
+msgid "Save the current settings"
+msgstr ""
+
+#: ee_toolbar.c:25
+msgid "Exit"
+msgstr "Éirigh as"
+
+#: ee_toolbar.c:26 ee_toolbar.c:27
+msgid "Exit Electric Eyes"
+msgstr "Ealu as Súil Sult"
+
+#: ee_toolbar.c:42 ee_toolbar.c:43
+msgid "Save as original filename"
+msgstr ""
+
+#: ee_toolbar.c:50 ee_toolbar.c:51
+msgid "Save as new file"
+msgstr ""
+
+#: ee_toolbar.c:58 ee_toolbar.c:59
+msgid "Print image"
+msgstr ""
+
+#: ee_toolbar.c:66 ee_toolbar.c:67
+msgid "View the first image in the list"
+msgstr ""
+
+#: ee_toolbar.c:74 ee_toolbar.c:75
+msgid "View the previous image in the list"
+msgstr ""
+
+#: ee_toolbar.c:82 ee_toolbar.c:83
+msgid "View the next image in the list"
+msgstr ""
+
+#: ee_toolbar.c:89
+msgid "Last"
+msgstr "Deireadh"
+
+#: ee_toolbar.c:90 ee_toolbar.c:91
+msgid "View the last image in the list"
+msgstr ""
+
+#: ee_toolbar.c:97
+msgid "Crop"
+msgstr "Bearr"
+
+#: ee_toolbar.c:98 ee_toolbar.c:99
+msgid "Crop the current selection"
+msgstr ""
+
+#: functions.c:652
+msgid "Select a window"
+msgstr "Tosaigh an fuinneog"
+
+#: functions.c:655
+msgid "Please press OK then click on a window to grab"
+msgstr ""
+
+#: main.c:25
+msgid "Set root window image and leave"
+msgstr ""
+
+msgid "Clear List"
+msgstr "Glan Lmosta"
+
+msgid "[FILE ...]"
+msgstr "[COMHAD ...]"
+
+msgid "Electric Eyes: Select File"
+msgstr "Súil Sult:Tóg Comhad"
+
+msgid "OK"
+msgstr "Ceart og Leor"
+
+msgid "Help"
+msgstr "Cúidiú"
+
+msgid "About"
+msgstr "Faoi"
+
+msgid "Preferences"
+msgstr "Roghnaí"
+
+msgid "-10% size"
+msgstr "-10% miid"
+
+msgid "Electric Eyes - Preferences"
+msgstr "Súil Sult - Roghnachais"

@@ -1,0 +1,149 @@
+gaeilge (20020603) unstable; urgency=low
+
+  * gnome/gnome-games.pot: Updated. 
+
+ -- Alastair McKinstry <mckinstry@computer.org>  Sun,  2 Jun 2002 18:55:55 +0200
+
+gaeilge (20020522) unstable; urgency=low
+
+  * gnome/nautilus-mozilla.pot: New file 
+  * gnome/dia.pot: Updated.
+  * gnome/gimp-freetype.pot: Updated.
+  * gnome/gdm2.pot: Updated, from Clifford Nolan <clifford.nolan@ul.ie>
+
+ -- Alastair McKinstry <mckinstry@computer.org>  Wed, 22 May 2002 09:20:51 +0100
+
+gaeilge (20020501) unstable; urgency=low
+
+  * gnome/libgnomedb.pot: New file. 
+
+ -- Alastair McKinstry <mckinstry@computer.org>  Wed,  1 May 2002 11:45:46 +0100
+
+gaeilge (20020430) unstable; urgency=low
+
+  * gnome/bug-buggy.pot: update.
+  * gnome/gnome-vfs.pot: Updated.
+
+ -- Alastair McKinstry <mckinstry@computer.org>  Tue, 30 Apr 2002 18:57:05 +0100
+
+gaeilge (20020429) unstable; urgency=low
+
+  * gnome/gnome-games.pot: Update. 
+
+ -- Alastair McKinstry <mckinstry@computer.org>  Mon, 29 Apr 2002 15:38:27 +0100
+
+gaeilge (20020310) unstable; urgency=low
+
+  * other/gnupg.pot: Added initial translation (1.0.6)
+  * gnome/ggv2.pot: Update. 
+
+ -- Alastair McKinstry <mckinstry@computer.org>  Mon, 11 Mar 2002 10:24:42 +0000
+
+gaeilge (20020307) unstable; urgency=low
+
+  * mandrake/gtk+mdk.pot: update. 
+
+ -- Alastair McKinstry <mckinstry@computer.org>  Fri,  8 Mar 2002 09:39:15 +0000
+
+gaeilge (20020301) unstable; urgency=low
+
+  * mandrake/mdkonline.pot: update. 
+
+ -- Alastair McKinstry <mckinstry@computer.org>  Fri,  1 Mar 2002 09:40:53 +0000
+
+gaeilge (20020221) unstable; urgency=low
+
+  * mandrake/drakconf.pot: update.
+  * gnome/gdm.pot: Now have gdm.mo alias for gdm2.mo
+  * mandrake/rpmdrake.pot: update.
+  * gnome/gnome-libs1.pot: update. 
+
+ -- Alastair McKinstry <mckinstry@computer.org>  Thu, 21 Feb 2002 17:32:43 +0000
+
+gaeilge (20020220) unstable; urgency=low
+
+  * mandrake/gtk+mdk.pot: update. 
+
+ -- Alastair McKinstry <mckinstry@computer.org>  Wed, 20 Feb 2002 09:09:17 +0000
+
+gaeilge (20020214) unstable; urgency=low
+
+  * mandrake/userdrake.pot: update. 
+
+ -- Alastair McKinstry <mckinstry@computer.org>  Thu, 14 Feb 2002 11:05:28 +0000
+
+gaeilge (20020212) unstable; urgency=low
+
+  * mandrake/menudrake.pot: update.
+  * mandrake/drakconf.pot: update.
+
+ -- Alastair McKinstry <mckinstry@computer.org>  Tue, 12 Feb 2002 09:35:12 +0000
+
+gaeilge (20020211) unstable; urgency=low
+
+  * gnome/gnome-libs.pot: update.
+  * gnome/nautilus.pot: update.
+  * gnome/gnome-pim.pot: update.
+  * mandrake/menudrake.pot: update.
+  * mandrake/userdrake.pot: update.
+  * mandrake/drakfw.pot: update.
+  * gnome/evolution.pot: update.
+  * gnome/MandrakeUpdate.pot: update.
+
+ -- Alastair McKinstry <mckinstry@computer.org>  Mon, 11 Feb 2002 12:21:10 +0000
+
+gaeilge (20020209) unstable; urgency=low
+
+  * gnome/evolution.pot: Patch from Ken Guest <kwg@renre-europe.com>
+  * gnome/evolution.pot: Submitted upstream.
+
+ -- Alastair McKinstry <mckinstry@computer.org>  Sat,  9 Feb 2002 10:44:02 +0000
+
+gaeilge (20020207) unstable; urgency=low
+
+  * mandrake/rpmdrake.pot: update from Mandrake.
+  * gnome/gdm2.pot: Update.
+  * mandrake/HardDrake.pot : update.
+  * mandrake/initscripts.pot: update.
+  * gnome/pan.pot: update.
+  * mandrake/menudrake.pot: update.
+  * mandrake/mdkonline.pot: update.
+  * mandrake/drakfloppy.pot: update.
+  * mandrake/drakfont.pot: update.
+
+ -- Alastair McKinstry <mckinstry@computer.org>  Thu,  7 Feb 2002 10:31:07 +0000
+
+gaeilge (20020131) unstable; urgency=low
+
+  * mandrake/usermode.pot: update from Mandrake.
+  * mandrake/gtk+mdk.pot: update from Mandrake.
+  * mandrake/drakconf.pot: update from Mandrake.
+  * mandrake/imlib.pot: update from Mandrake.
+
+ -- Alastair McKinstry <mckinstry@computer.org>  Thu, 31 Jan 2002 17:11:38 +0000
+
+gaeilge (20020129) unstable; urgency=low
+
+  * Build package properly for general release.  
+
+ -- Alastair McKinstry <alastair@europa.pdd.3com.com>  Thu, 31 Jan 2002 17:05:27 +0000
+
+gaeilge (20020122) unstable; urgency=low
+
+  * mandrake/drakfw.pot: Update from Mandrake.
+  * mandrake/mdkonline.pot: Update from Mandrake.
+
+ -- Alastair McKinstry <mckinstry@computer.org>  Mon, 28 Jan 2002 19:04:28 +0000
+
+gaeilge (20020121) unstable; urgency=low
+
+  * gnome/evolution.pot: updated.
+  * gnome/evolution.pot: submitted upstream.
+
+ -- Alastair McKinstry <mckinstry@computer.org>  Mon, 21 Jan 2002 19:01:11 +0000
+
+gaeilge (20020120) unstable; urgency=low
+
+  * Initial Release.
+
+ -- Alastair McKinstry <mckinstry@computer.org>  Sun, 20 Jan 2002 18:59:41 +0000s

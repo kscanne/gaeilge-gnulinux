@@ -1,0 +1,623 @@
+# Irish (Gaeilge) translations for gnome-db
+# Copyright (C) 2000 Free Software Foundation, Inc.
+# Alastair McKinstry <mckinstry@computer.org>, 2000.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: libgnomedb CVS\n"
+"POT-Creation-Date: 2002-05-01 11:17+0200\n"
+"PO-Revision-Date: 2000-03-13 18:23+0000\n"
+"Last-Translator:  Alastair McKinstry <mckinstry@computer.org>\n"
+"Language-Team: Irish <ga@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=iso-8859-1\n"
+"Content-Transfer-Encoding: 8-bit\n"
+
+#: libgnomedb/gnome-db-browser-tables.c:77
+msgid "Structure"
+msgstr ""
+
+#: libgnomedb/gnome-db-browser-tables.c:85
+#: libgnomedb/gnome-db-browser-views.c:74
+#, fuzzy
+msgid "Data"
+msgstr "Greamhaigh"
+
+#: libgnomedb/gnome-db-browser.c:126
+msgid "Loading..."
+msgstr ""
+
+#: libgnomedb/gnome-db-browser.c:175
+#, fuzzy
+msgid "Databases"
+msgstr "Sábháil le"
+
+#: libgnomedb/gnome-db-browser.c:182 libgnomedb/gnome-db-init.c:39
+#, fuzzy
+msgid "Tables"
+msgstr "Ainm comhad"
+
+#: libgnomedb/gnome-db-browser.c:189
+#, fuzzy
+msgid "Types"
+msgstr "Ainm GDA"
+
+#: libgnomedb/gnome-db-browser.c:196
+#, fuzzy
+msgid "Views"
+msgstr "Radharc"
+
+#: libgnomedb/gnome-db-browser.c:203
+#, fuzzy
+msgid "Procedures"
+msgstr "Albachtaí"
+
+#: libgnomedb/gnome-db-browser.c:210
+msgid "Aggregates"
+msgstr ""
+
+#: libgnomedb/gnome-db-browser.c:217
+msgid "Triggers"
+msgstr ""
+
+#: libgnomedb/gnome-db-browser.c:453
+msgid "Loading database schemas..."
+msgstr ""
+
+#: libgnomedb/gnome-db-browser.c:513
+msgid "Refreshing data..."
+msgstr ""
+
+#: libgnomedb/gnome-db-dsn-config-druid.c:176
+msgid "You must enter a name for the new data source"
+msgstr ""
+
+#: libgnomedb/gnome-db-dsn-config-druid.c:183
+msgid "You must select a provider for the new data source"
+msgstr ""
+
+#: libgnomedb/gnome-db-dsn-config-druid.c:191
+msgid "Provider not found in your configuration"
+msgstr ""
+
+#: libgnomedb/gnome-db-dsn-config-druid.c:278
+msgid "Add a new data source..."
+msgstr ""
+
+#: libgnomedb/gnome-db-dsn-config-druid.c:279
+msgid ""
+"This druid will guide you through the process of\n"
+"creating a new data source for your GNOME-DB\n"
+"installation. Just follow the steps!"
+msgstr ""
+
+#: libgnomedb/gnome-db-dsn-config-druid.c:291
+#, fuzzy
+msgid "General Information"
+msgstr "Eirigh as fiedhmchlár"
+
+#: libgnomedb/gnome-db-dsn-config-druid.c:295
+msgid ""
+"The following fields represent the basic information\n"
+"items for your new data source. Some of them (description,\n"
+"username) are optional, whereas the others are mandatory.\n"
+"If you don't know which provider to use, just select\n"
+"the default one"
+msgstr ""
+
+#: libgnomedb/gnome-db-dsn-config-druid.c:306
+#: libgnomedb/gnome-db-dsn-config.c:80
+msgid "Data source name"
+msgstr ""
+
+#: libgnomedb/gnome-db-dsn-config-druid.c:312
+#: libgnomedb/gnome-db-dsn-config.c:86
+#, fuzzy
+msgid "Provider"
+msgstr "Albachtaí"
+
+#: libgnomedb/gnome-db-dsn-config-druid.c:317
+#: libgnomedb/gnome-db-dsn-config.c:99 libgnomedb/gnome-db-error.c:176
+msgid "Description"
+msgstr ""
+
+#: libgnomedb/gnome-db-dsn-config-druid.c:322
+#: libgnomedb/gnome-db-dsn-config.c:105 libgnomedb/gnome-db-login.c:205
+msgid "Username"
+msgstr "Úsáidtheoir"
+
+#: libgnomedb/gnome-db-dsn-config-druid.c:335
+#, fuzzy
+msgid "Provider Parameters"
+msgstr "Albachtaí"
+
+#: libgnomedb/gnome-db-dsn-config-druid.c:339
+msgid ""
+"The following fields represent the information needed by the\n"
+"provider you selected in the previous page to open a given\n"
+"connection. This information is provider-specific, so check\n"
+"the manual for more information"
+msgstr ""
+
+#: libgnomedb/gnome-db-dsn-config-druid.c:360
+msgid "All information retrieved"
+msgstr ""
+
+#: libgnomedb/gnome-db-dsn-config-druid.c:361
+msgid ""
+"All information needed to create a new data source\n"
+"has been retrieved. Now, press 'Apply' to close\n"
+"this dialog. To open your newly created data source,\n"
+"just select it when asked for a data source"
+msgstr ""
+
+#: libgnomedb/gnome-db-dsn-config.c:93
+msgid "Connection string"
+msgstr ""
+
+#: libgnomedb/gnome-db-error-dialog.c:99
+msgid "Error"
+msgstr ""
+
+#: libgnomedb/gnome-db-error.c:102 libgnomedb/gnome-db-error.c:168
+#, fuzzy
+msgid "Show detail >>"
+msgstr "Cabhair"
+
+#: libgnomedb/gnome-db-error.c:106
+msgid "<< Hide detail"
+msgstr ""
+
+#: libgnomedb/gnome-db-error.c:162
+msgid "Error number"
+msgstr ""
+
+#. create the detail container
+#: libgnomedb/gnome-db-error.c:186
+#, fuzzy
+msgid "Detail"
+msgstr "Greamhaigh"
+
+#: libgnomedb/gnome-db-error.c:193
+msgid "Source"
+msgstr ""
+
+#: libgnomedb/gnome-db-error.c:199
+#, fuzzy
+msgid "SQL state"
+msgstr "Greamhaigh"
+
+#: libgnomedb/gnome-db-form.c:186 libgnomedb/gnome-db-form.c:264
+#: libgnomedb/gnome-db-form.c:297
+msgid "No records"
+msgstr ""
+
+#: libgnomedb/gnome-db-form.c:318
+#, c-format
+msgid "Record %d of %d"
+msgstr ""
+
+#: libgnomedb/gnome-db-grid.c:98
+msgid "Recordset description"
+msgstr ""
+
+#: libgnomedb/gnome-db-grid.c:131
+#, fuzzy
+msgid "Save as"
+msgstr "Sábháil"
+
+#: libgnomedb/gnome-db-grid.c:141
+#, fuzzy
+msgid "Save to"
+msgstr "Sábháil"
+
+#: libgnomedb/gnome-db-grid.c:143
+msgid "Select File"
+msgstr "Tóg Comhad"
+
+#: libgnomedb/gnome-db-grid.c:146
+msgid "Tab-delimited file"
+msgstr ""
+
+#: libgnomedb/gnome-db-grid.c:150
+msgid "Comma-delimited file"
+msgstr ""
+
+#: libgnomedb/gnome-db-grid.c:154
+msgid "XML file"
+msgstr ""
+
+#: libgnomedb/gnome-db-grid.c:175
+#, c-format
+msgid "Could not save file %s"
+msgstr ""
+
+#: libgnomedb/gnome-db-grid.c:179
+msgid "You must specify a file name"
+msgstr ""
+
+#: libgnomedb/gnome-db-grid.c:216
+#, fuzzy
+msgid "View detail"
+msgstr "Cabhair"
+
+#: libgnomedb/gnome-db-grid.c:289
+#, fuzzy
+msgid "Select All"
+msgstr "Tóg gach rud"
+
+#: libgnomedb/gnome-db-grid.c:289
+#, fuzzy
+msgid "Select all items in list"
+msgstr "Tóg gach rud"
+
+#: libgnomedb/gnome-db-grid.c:292
+#, fuzzy
+msgid "Unselect All"
+msgstr "Tóg gach rud"
+
+#: libgnomedb/gnome-db-grid.c:292
+msgid "Unselect all selected items in list"
+msgstr ""
+
+#: libgnomedb/gnome-db-grid.c:296
+#, fuzzy
+msgid "Save as..."
+msgstr "Sábháil Le..."
+
+#: libgnomedb/gnome-db-grid.c:296
+msgid "Export data to different formats"
+msgstr ""
+
+#: libgnomedb/gnome-db-grid.c:300
+#, fuzzy
+msgid "Describe..."
+msgstr "Socraigh Printéir..."
+
+#: libgnomedb/gnome-db-grid.c:300
+msgid "Describe current data set"
+msgstr ""
+
+#: libgnomedb/gnome-db-grid.c:303
+msgid "View detail..."
+msgstr ""
+
+#: libgnomedb/gnome-db-grid.c:303
+msgid "View current data in more detail"
+msgstr ""
+
+#: libgnomedb/gnome-db-init.c:34
+msgid "Connect"
+msgstr ""
+
+#: libgnomedb/gnome-db-init.c:35
+#, fuzzy
+msgid "Database"
+msgstr "Sábháil le"
+
+#: libgnomedb/gnome-db-init.c:36
+msgid "Designer"
+msgstr ""
+
+#: libgnomedb/gnome-db-init.c:37
+msgid "Disconnect"
+msgstr ""
+
+#: libgnomedb/gnome-db-init.c:38
+msgid "SQL"
+msgstr ""
+
+#: libgnomedb/gnome-db-init.c:59
+#, c-format
+msgid "Error: %s"
+msgstr ""
+
+#: libgnomedb/gnome-db-init.c:106
+msgid "Attempt to initialize an already initialized client"
+msgstr ""
+
+#: libgnomedb/gnome-db-login.c:198
+msgid "Data Source"
+msgstr ""
+
+#: libgnomedb/gnome-db-login.c:211
+msgid "Password"
+msgstr ""
+
+#: libgnomedb/gnome-db-table-editor.c:80
+#, fuzzy
+msgid "Table name"
+msgstr "Ainm comhad"
+
+#: libgnomedb/gnome-db-util.c:781
+msgid "Question"
+msgstr ""
+
+#~ msgid "Close"
+#~ msgstr "Dún"
+
+#, fuzzy
+#~ msgid "Builder"
+#~ msgstr "Bainisteoir GNOME-DB"
+
+#, fuzzy
+#~ msgid "_New"
+#~ msgstr "Nua"
+
+#, fuzzy
+#~ msgid "_Open"
+#~ msgstr "Oscail"
+
+#, fuzzy
+#~ msgid "_File"
+#~ msgstr "Comhad"
+
+#~ msgid "New"
+#~ msgstr "Nua"
+
+#~ msgid "Open"
+#~ msgstr "Oscail"
+
+#, fuzzy
+#~ msgid "Export"
+#~ msgstr "Ealu"
+
+#, fuzzy
+#~ msgid "Activate SQL window"
+#~ msgstr "Fuinneog"
+
+#, fuzzy
+#~ msgid "Activate dbatch job window"
+#~ msgstr "Fuinneog"
+
+#, fuzzy
+#~ msgid "Commit"
+#~ msgstr "Ordú"
+
+#, fuzzy
+#~ msgid "Properties"
+#~ msgstr "Albachtaí"
+
+#, fuzzy
+#~ msgid "Import database"
+#~ msgstr "Sábháil le"
+
+#, fuzzy
+#~ msgid "_Help"
+#~ msgstr "Cabhair"
+
+#, fuzzy
+#~ msgid "Activate batch job window"
+#~ msgstr "Fuinneog"
+
+#, fuzzy
+#~ msgid "Select"
+#~ msgstr "Tóg gach rud"
+
+#, fuzzy
+#~ msgid "File name"
+#~ msgstr "Ainm comhad"
+
+#~ msgid "Options"
+#~ msgstr "Roghnachais"
+
+#~ msgid "Run"
+#~ msgstr "Rith"
+
+#, fuzzy
+#~ msgid "Open SQL command"
+#~ msgstr "Oscail Comhad"
+
+#~ msgid "Cut"
+#~ msgstr "Gearr"
+
+#~ msgid "Copy"
+#~ msgstr "Cóip"
+
+#~ msgid "Paste"
+#~ msgstr "Greamhaigh"
+
+#~ msgid "Clear"
+#~ msgstr "Glan"
+
+#~ msgid "GDA Name"
+#~ msgstr "Ainm GDA"
+
+#, fuzzy
+#~ msgid "User name"
+#~ msgstr "Úsáidtheoir"
+
+#~ msgid "Name"
+#~ msgstr "Ainm"
+
+#, fuzzy
+#~ msgid "Command"
+#~ msgstr "Ordú"
+
+#, fuzzy
+#~ msgid "From file"
+#~ msgstr "Comhad"
+
+#~ msgid "Remove"
+#~ msgstr "Scríos"
+
+#, fuzzy
+#~ msgid "_Edit"
+#~ msgstr "Eagarthóir"
+
+#~ msgid "Add"
+#~ msgstr "Suim"
+
+#, fuzzy
+#~ msgid "Save Log File"
+#~ msgstr "Oscail Comhad"
+
+#, fuzzy
+#~ msgid "Save window position"
+#~ msgstr "Sábháil le"
+
+#, fuzzy
+#~ msgid "Show tooltips"
+#~ msgstr "Cabhair"
+
+#~ msgid "Preferences"
+#~ msgstr "Roghnachais"
+
+#, fuzzy
+#~ msgid "_Database..."
+#~ msgstr "Sábháil le"
+
+#, fuzzy
+#~ msgid "_Quit"
+#~ msgstr "Ealu"
+
+#~ msgid "Exit application"
+#~ msgstr "Eirigh as fiedhmchlár"
+
+#, fuzzy
+#~ msgid "GNOME-DB Manual"
+#~ msgstr "Bainisteoir GNOME-DB"
+
+#, fuzzy
+#~ msgid "_View"
+#~ msgstr "Radharc"
+
+#, fuzzy
+#~ msgid "_Options"
+#~ msgstr "Roghnachais"
+
+#, fuzzy
+#~ msgid "GNOME-DB Front End"
+#~ msgstr "Bainisteoir GNOME-DB"
+
+#, fuzzy
+#~ msgid "GNOME-DB Front End Application"
+#~ msgstr "Eirigh as fiedhmchlár"
+
+#, fuzzy
+#~ msgid "Select Color"
+#~ msgstr "Tóg gach rud"
+
+#, fuzzy
+#~ msgid "Select Font"
+#~ msgstr "Tóg Comhad"
+
+#, fuzzy
+#~ msgid "Scale"
+#~ msgstr "Sábháil"
+
+#, fuzzy
+#~ msgid "Select file"
+#~ msgstr "Tóg Comhad"
+
+#, fuzzy
+#~ msgid "User Name"
+#~ msgstr "Úsáidtheoir"
+
+#, fuzzy
+#~ msgid "Manager"
+#~ msgstr "Teanga"
+
+#, fuzzy
+#~ msgid "Edit"
+#~ msgstr "Eagarthóir"
+
+#, fuzzy
+#~ msgid "Rolodex Application"
+#~ msgstr "Eirigh as fiedhmchlár"
+
+#, fuzzy
+#~ msgid "Do Print"
+#~ msgstr "Priontáil"
+
+#, fuzzy
+#~ msgid "Open SQL file"
+#~ msgstr "Oscail Comhad"
+
+#, fuzzy
+#~ msgid "Project..."
+#~ msgstr "Priontáil..."
+
+#, fuzzy
+#~ msgid "New..."
+#~ msgstr "Nua"
+
+#, fuzzy
+#~ msgid "Open..."
+#~ msgstr "Oscail"
+
+#~ msgid "About gnome-db..."
+#~ msgstr "Faoi gnome-db..."
+
+#~ msgid "About this program"
+#~ msgstr "Faoi ríomhchlár seo"
+
+#, fuzzy
+#~ msgid "Revert"
+#~ msgstr "Scríos"
+
+#~ msgid "Delete"
+#~ msgstr "Dealaigh"
+
+#, fuzzy
+#~ msgid "SQL Window"
+#~ msgstr "Fuinneog"
+
+#, fuzzy
+#~ msgid "View logs"
+#~ msgstr "Radharc"
+
+#~ msgid "Preferences..."
+#~ msgstr "Roghnachais..."
+
+#, fuzzy
+#~ msgid "Users"
+#~ msgstr "Úsáidtheoir"
+
+#~ msgid "Close this window"
+#~ msgstr "Dún an fhuinneog seo"
+
+#~ msgid "Environment"
+#~ msgstr "Imshaoil"
+
+#~ msgid "Value"
+#~ msgstr "Luach"
+
+#~ msgid "Shell"
+#~ msgstr "Blaosc"
+
+#~ msgid "Top"
+#~ msgstr "Barr"
+
+#~ msgid "Bottom"
+#~ msgstr "Bun"
+
+#~ msgid "Left"
+#~ msgstr "Clé"
+
+#~ msgid "Right"
+#~ msgstr "Deis"
+
+#~ msgid "Directory"
+#~ msgstr "Fillteán"
+
+#~ msgid "Running '%s'"
+#~ msgstr "Ag rith '%s'"
+
+#~ msgid "Find"
+#~ msgstr "Faigh"
+
+#~ msgid "GDA logs"
+#~ msgstr "Loganna GDA"
+
+#~ msgid "Text editor"
+#~ msgstr "Eagathóir teacs"
+
+#~ msgid "Calculator"
+#~ msgstr "Aireamhán"
+
+#~ msgid "Close all"
+#~ msgstr "Dún gach rud"
+
+#~ msgid "Close all open windows"
+#~ msgstr "Dún gach fhuinneog oscailte"

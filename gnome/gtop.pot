@@ -1,0 +1,1049 @@
+# Irish (gaeilge) translation for gtop.pot (GNOME)
+# Copyright (C) 1998 Free Software Foundation, Inc.
+# Alastair McKinstry <mckinstry@computer.org>, 1998. 
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gtop CVS\n"
+"POT-Creation-Date: 2000-03-09 12:06+0000\n"
+"PO-Revision-Date: 1998-11-20 11:00+0100\n"
+"Last-Translator:Alastair McKinstry <mckinstry@computer.org>\n"
+"Language-Team: Irish <ga@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=iso-8859-1\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Date: 1998-08-23 19:03:08+0200\n"
+"From: Martin Baulig,,,, <norwegen@voyager.home-of-linux.com>\n"
+"Xgettext-Options: --default-domain=gtop "
+"--directory=/home/norwegen/gnomecvs/gtop --add-comments --keyword=_ "
+"--keyword=N_ --files-from=/home/norwegen/gnomecvs/gtop/po/POTFILES.in\n"
+"Files: details.c fromtop.c fsview.cc graph.c main.c memusage.c perfview.cc "
+"proc.c procbar.c procview.c properties.c sysview.c details.h dummy.h "
+"fromtop.h fsview.h global.h graph.h memusage.h perfview.h proc.h procbar.h "
+"procview.h properties.h sysview.h\n"
+
+#: details.c:54
+#, c-format
+msgid "Process %d Memory Maps"
+msgstr ""
+
+#: details.c:71
+msgid "Update"
+msgstr ""
+
+#: details.c:107 procview.c:1333
+msgid "Automatically update details dialog"
+msgstr ""
+
+#: details.c:172
+#, c-format
+msgid "Process %d details"
+msgstr ""
+
+#: details.c:264 procview.c:1109
+msgid "<unknown>"
+msgstr "<anathnid>"
+
+#: details.c:328
+msgid "Process info"
+msgstr ""
+
+#: details.c:330
+msgid "Attribute"
+msgstr "Cáilíocht"
+
+#: details.c:331
+msgid "Value"
+msgstr "Luach"
+
+#: details.c:589 details.c:695
+msgid "Raw memory map"
+msgstr ""
+
+#: details.c:591 details.c:697
+msgid "VM start"
+msgstr ""
+
+#: details.c:592 details.c:698
+msgid "VM end"
+msgstr ""
+
+#: details.c:593 details.c:699
+msgid "Flags"
+msgstr "Brataí"
+
+#: details.c:594 details.c:700
+msgid "VM offset"
+msgstr ""
+
+#: details.c:595 details.c:701
+msgid "Device"
+msgstr "Gaireas"
+
+#: details.c:596 details.c:702
+msgid "Inode"
+msgstr "Inód"
+
+#: details.c:597 details.c:703
+msgid "Filename"
+msgstr "Comhadainm"
+
+#: details.c:799
+msgid "Data"
+msgstr "Data"
+
+#: details.c:801
+msgid "Text"
+msgstr "Teacs"
+
+#: details.c:807
+msgid "Stack"
+msgstr "Cruach"
+
+#: details.c:809
+msgid "Hole"
+msgstr "Poll"
+
+#: details.c:902
+msgid "Graphical memory map"
+msgstr ""
+
+#: fsusage.c:41
+msgid "ufs"
+msgstr "ufs"
+
+#: fsusage.c:42
+msgid "nfs"
+msgstr "nfs"
+
+#: fsusage.c:43
+msgid "msdos"
+msgstr "msdos"
+
+#: fsusage.c:44
+msgid "iso9660"
+msgstr "iso9660"
+
+#: fsusage.c:45
+msgid "ext2"
+msgstr "ext2"
+
+#: fsusage.c:46
+msgid "minix"
+msgstr "minix"
+
+#: fsusage.c:47
+msgid "other"
+msgstr "eile"
+
+#: fsusage.c:51
+msgid "User Filesystem (FreeBSD)"
+msgstr "Coráscomhad (FreeBSD)"
+
+#: fsusage.c:52
+msgid "Network Filesystem"
+msgstr "Córascomhad Líonra"
+
+#: fsusage.c:53
+msgid "MSDOS Filesystem"
+msgstr "Córascomhad MSDOS"
+
+#: fsusage.c:54
+msgid "CDROM Filesystem"
+msgstr "Córascomhad CDROM"
+
+#: fsusage.c:55
+msgid "Second Extended Filesystem (Linux)"
+msgstr ""
+
+#: fsusage.c:56
+msgid "Minix Filesystem (Linux)"
+msgstr "Córascomhad Minix (Linux)"
+
+#: fsusage.c:57
+msgid "Other Filesystems"
+msgstr "Córascomhaid Eile"
+
+#: fsusage.c:62
+msgid "File System Usage"
+msgstr ""
+
+#: fsusage.c:83 main.c:125 memusage.c:66 procview.c:671
+msgid "Show menubar"
+msgstr ""
+
+#: fsusage.c:90 main.c:130 memusage.c:73 procview.c:678
+msgid "Show toolbar"
+msgstr ""
+
+#: fsusage.c:154
+msgid "Total Filesystem Sizes (including reserved blocks)"
+msgstr ""
+
+#: fsusage.c:156 fsusage.c:174 memusage.c:142
+#, c-format
+msgid "Sum of Total Sizes: %ldk"
+msgstr ""
+
+#: fsusage.c:159
+msgid "Used Space on Filesystems (including reserved blocks)"
+msgstr ""
+
+#: fsusage.c:161 fsusage.c:178
+#, c-format
+msgid "Sum of Uses Space: %ldk"
+msgstr ""
+
+#: fsusage.c:164
+msgid "Free Space on Filesystems (including reserved blocks)"
+msgstr ""
+
+#: fsusage.c:166 fsusage.c:182
+#, c-format
+msgid "Sum of Free Space: %ldk"
+msgstr ""
+
+#: fsusage.c:173
+msgid "Total Filesystem Sizes"
+msgstr ""
+
+#: fsusage.c:177
+msgid "Used Space on Filesystems"
+msgstr ""
+
+#: fsusage.c:181
+msgid "Free Space on Filesystems"
+msgstr ""
+
+#: fsusage.c:189
+msgid "Total Number of Inodes"
+msgstr ""
+
+#: fsusage.c:190
+#, c-format
+msgid "Sum of Total Number of Inodes: %ld"
+msgstr ""
+
+#: fsusage.c:193
+msgid "Used Inodes on Filesystems"
+msgstr ""
+
+#: fsusage.c:194
+#, c-format
+msgid "Sum of Used Inodes: %ld"
+msgstr ""
+
+#: fsusage.c:197
+msgid "Free Inodes on Filesystems"
+msgstr ""
+
+#: fsusage.c:198
+#, c-format
+msgid "Sum of Free Inodes: %ld"
+msgstr ""
+
+#. avoids some trouble.
+#: fsusage.c:399 summary.c:754
+msgid "unknown"
+msgstr "anathnid"
+
+#: fsusage.c:522
+msgid "Select information to show"
+msgstr ""
+
+#: fsusage.c:527
+msgid "Show 1k-blocks reserved blocks"
+msgstr ""
+
+#: fsusage.c:541
+msgid "Show 1k-blocks"
+msgstr ""
+
+#: fsusage.c:555
+msgid "Show inodes"
+msgstr "Taispeán inódaí"
+
+#: fsusage.c:576
+msgid "Only show selected filesystems"
+msgstr ""
+
+#: global.c:18
+msgid "Global"
+msgstr ""
+
+#: global.c:89
+msgid "Session management"
+msgstr ""
+
+#: global.c:93
+msgid "Always save session"
+msgstr ""
+
+#: global.c:109
+msgid "Update times"
+msgstr ""
+
+#: global.c:115
+msgid "Process List"
+msgstr ""
+
+#: global.c:134 global.c:157 global.c:180 global.c:213 global.c:236
+#: global.c:259 global.c:292 global.c:315 global.c:338 global.c:361
+#: global.c:384
+msgid "ms"
+msgstr ""
+
+#: global.c:138 gtop-memusage.c:215 memusage.c:45
+msgid "Memory Usage"
+msgstr "Úsáid Cuimhne"
+
+#: global.c:161
+msgid "Filesystem Usage"
+msgstr "Úsáid Coráschomaid"
+
+#: global.c:188
+msgid "Update times (graphical summary)"
+msgstr ""
+
+#: global.c:194 summary.c:1346
+msgid "Summary CPU"
+msgstr ""
+
+#: global.c:217
+msgid "Summary Mem and Swap"
+msgstr ""
+
+#: global.c:240
+msgid "Load Average"
+msgstr "Meán Lód"
+
+#: global.c:267
+msgid "Update times (textual summary)"
+msgstr ""
+
+#: global.c:273
+msgid "CPU statistics"
+msgstr "Sonraí CPU"
+
+#: global.c:296
+msgid "Memory statistics"
+msgstr "Sonraí Cuimhne"
+
+#: global.c:319
+msgid "Uptime"
+msgstr ""
+
+#: global.c:342
+msgid "Load average"
+msgstr "Meán Lód"
+
+#: global.c:365
+msgid "Details dialog"
+msgstr ""
+
+#: global.c:392
+msgid "MDI Mode"
+msgstr ""
+
+#: global.c:396
+msgid "Notebook"
+msgstr ""
+
+#: global.c:411
+msgid "Toplevel"
+msgstr ""
+
+#: global.c:426
+msgid "Modal"
+msgstr ""
+
+#: graph.c:37
+msgid "Graph"
+msgstr "Graf"
+
+#: graph.c:547 graph.c:549
+msgid "Graph Font"
+msgstr "Clófhoirinne Graif"
+
+#: graph.c:557
+msgid "Graph Geometry"
+msgstr ""
+
+#: graph.c:562
+msgid "Default width:"
+msgstr "Gnáth leitheid:"
+
+#: graph.c:580
+msgid "Default height:"
+msgstr "Gnáth airde:"
+
+#: graph.c:598
+msgid "Horizontal border:"
+msgstr ""
+
+#: graph.c:616
+msgid "Vertical border height:"
+msgstr ""
+
+#: graph.c:634
+msgid "Line width:"
+msgstr ""
+
+#: graph.c:652
+msgid "Pad width:"
+msgstr ""
+
+#: graph.c:670
+msgid "Graph width:"
+msgstr "Leitheid graf:"
+
+#: graph.c:688
+msgid "Extra height:"
+msgstr ""
+
+#: graph.c:709
+msgid "Foreground"
+msgstr "Dulra"
+
+#: graph.c:710
+msgid "Background"
+msgstr "Cúlra"
+
+#: graph.c:716
+#, c-format
+msgid "Color %d"
+msgstr "Dath %d"
+
+#: graph.c:721
+msgid "Graph Colors"
+msgstr "Dathanna Graif"
+
+#: gtop-fsusage.c:24 mdi.c:93
+msgid "_Total Filesystem Sizes"
+msgstr ""
+
+#: gtop-fsusage.c:25 mdi.c:94
+msgid "Show total filesystem sizes"
+msgstr ""
+
+#: gtop-fsusage.c:29 mdi.c:98
+msgid "_Used Filesystem Sizes"
+msgstr ""
+
+#: gtop-fsusage.c:30 mdi.c:99
+msgid "Show used filesystem sizes"
+msgstr ""
+
+#: gtop-fsusage.c:34 mdi.c:103
+msgid "_Free Filesystem Sizes"
+msgstr ""
+
+#: gtop-fsusage.c:35 mdi.c:104
+msgid "Show free filesystem sizes"
+msgstr ""
+
+#: gtop-fsusage.c:189
+msgid "Filesystems (total)"
+msgstr "Córaschomhaid (Iomlán)"
+
+#: gtop-fsusage.c:192
+msgid "Filesystems (used)"
+msgstr "Córaschomhaid  (úsáidte)"
+
+#: gtop-fsusage.c:195
+msgid "Filesystems (free)"
+msgstr "Córaschomhaid (saor)"
+
+#: gtop-fsusage.c:198
+msgid "Filesystems"
+msgstr "Coráschomhaid"
+
+#: gtop-memusage.c:24 mdi.c:64
+msgid "_Resident Sizes of Processes"
+msgstr ""
+
+#: gtop-memusage.c:25 mdi.c:65
+msgid "Show resident sizes of processes"
+msgstr ""
+
+#: gtop-memusage.c:29 mdi.c:69
+msgid "_Shared Sizes of Processes"
+msgstr ""
+
+#: gtop-memusage.c:30 mdi.c:70
+msgid "Show shared sizes of processes"
+msgstr ""
+
+#: gtop-memusage.c:34 mdi.c:74
+msgid "_Total Sizes of Processes"
+msgstr ""
+
+#: gtop-memusage.c:35 mdi.c:75
+msgid "Show total sizes of processes"
+msgstr ""
+
+#: gtop-memusage.c:39 mdi.c:79
+msgid "_Virtual Sizes of Processes"
+msgstr ""
+
+#: gtop-memusage.c:40 mdi.c:80
+msgid "Show virtual sizes of processes"
+msgstr ""
+
+#: gtop-memusage.c:44 mdi.c:84
+msgid "S_wapped Sizes of Processes"
+msgstr ""
+
+#: gtop-memusage.c:45 mdi.c:85
+msgid "Show swapped sizes of processes"
+msgstr ""
+
+#: gtop-memusage.c:199
+msgid "Memory Usage (resident)"
+msgstr ""
+
+#: gtop-memusage.c:202
+msgid "Memory Usage (shared)"
+msgstr ""
+
+#: gtop-memusage.c:205
+msgid "Memory Usage (size)"
+msgstr ""
+
+#: gtop-memusage.c:208
+msgid "Memory Usage (virtual)"
+msgstr ""
+
+#: gtop-memusage.c:211
+msgid "Memory Usage (swap)"
+msgstr ""
+
+#: gtop-page.c:229 gtop-page.c:242
+#, c-format
+msgid "Memory Map (process %d)"
+msgstr ""
+
+#: gtop-procview.c:28 mdi.c:50
+msgid "_All Processes"
+msgstr ""
+
+#: gtop-procview.c:29 mdi.c:51 memusage.c:470
+msgid "Show all processes"
+msgstr ""
+
+#: gtop-procview.c:33 mdi.c:55
+msgid "_User Processes"
+msgstr ""
+
+#: gtop-procview.c:34 mdi.c:56 memusage.c:479
+msgid "Only show user processes"
+msgstr ""
+
+#: gtop-procview.c:48
+msgid "Only _TTY Processes"
+msgstr ""
+
+#: gtop-procview.c:49
+msgid "Only show processes with a controlling TTY"
+msgstr ""
+
+#: gtop-procview.c:53
+msgid "Hide _Idle Processes"
+msgstr ""
+
+#: gtop-procview.c:53
+msgid "Hide idle processes"
+msgstr ""
+
+#: gtop-procview.c:57
+msgid "Hide _System Processes"
+msgstr ""
+
+#: gtop-procview.c:57
+msgid "Hide system processes"
+msgstr ""
+
+#: gtop-procview.c:247
+msgid "Processes (all)"
+msgstr ""
+
+#: gtop-procview.c:250
+msgid "Processes (user)"
+msgstr ""
+
+#: gtop-procview.c:253 procview.c:76
+msgid "Processes"
+msgstr ""
+
+#: main.c:72
+msgid "GTop"
+msgstr "GTop"
+
+#. copyright notice
+#: main.c:74
+msgid "(C) 1998 the Free Software Foundation"
+msgstr "(C) 1998 the Free Software Foundation"
+
+#. another comments
+#: main.c:77
+msgid "The GNOME System Monitor program"
+msgstr "An Monatóir Córáis GNOME"
+
+#: main.c:101
+msgid "Start / Stop sampling"
+msgstr ""
+
+#: main.c:105
+msgid "Set gtop properties"
+msgstr "Cuardaigh gtop"
+
+#: main.c:125
+msgid "Show _menubar"
+msgstr ""
+
+#: main.c:130
+msgid "Show _toolbar"
+msgstr ""
+
+#. prepare MDI interface.
+#: main.c:233
+msgid "GNOME System Monitor"
+msgstr ""
+
+#: mdi.c:30
+msgid "New _View"
+msgstr "_Radharc _Nua"
+
+#: mdi.c:30
+msgid "Create new MDI view"
+msgstr ""
+
+#: mdi.c:32
+msgid "New _Window"
+msgstr "_Fuinneog Nua"
+
+#: mdi.c:32
+msgid "Create new MDI toplevel view"
+msgstr ""
+
+#: mdi.c:43
+msgid "_Process View"
+msgstr ""
+
+#: mdi.c:44
+msgid "_Memory Usage"
+msgstr "Úsáid C_uimhne"
+
+#: mdi.c:45
+msgid "_Filesystem Usage"
+msgstr "Úsáid Corás _Chomaid"
+
+#: memusage.c:133
+msgid "Resident Sizes of Processes"
+msgstr ""
+
+#: memusage.c:134
+#, c-format
+msgid "Sum of Resident Sizes: %ldk"
+msgstr ""
+
+#: memusage.c:137
+msgid "Shared Sizes of Processes"
+msgstr ""
+
+#: memusage.c:138
+#, c-format
+msgid "Sum of Shared Sizes: %ldk"
+msgstr ""
+
+#: memusage.c:141
+msgid "Total Sizes of Processes"
+msgstr ""
+
+#: memusage.c:145
+msgid "Virtual Sizes of Processes"
+msgstr ""
+
+#: memusage.c:146
+#, c-format
+msgid "Sum of Virtual Sizes: %ldk"
+msgstr ""
+
+#: memusage.c:149
+msgid "Swapped Sizes of Processes"
+msgstr ""
+
+#: memusage.c:150
+#, c-format
+msgid "Sum of Swapped Sizes: %ldk"
+msgstr ""
+
+#: memusage.c:465
+msgid "Select Processes"
+msgstr ""
+
+#: memusage.c:488
+msgid "Only show processes with a controlling tty"
+msgstr ""
+
+#: memusage.c:503
+msgid "Minimum Resident Memory Size"
+msgstr ""
+
+#: memusage.c:522
+msgid "Minimum Shared Memory Size"
+msgstr ""
+
+#: memusage.c:541
+msgid "Minimum Total Process Size"
+msgstr ""
+
+#: memusage.c:560
+msgid "Minimum Virtual Memory Size"
+msgstr ""
+
+#: memusage.c:579
+msgid "Minimum Swapped Memory Size"
+msgstr ""
+
+#: procview.c:89
+msgid "Process Fields"
+msgstr ""
+
+#: procview.c:157
+msgid "PID"
+msgstr "PID"
+
+#: procview.c:157
+msgid "Process ID"
+msgstr ""
+
+#: procview.c:159 summary.c:32
+msgid "User"
+msgstr "Úsáideoir"
+
+#: procview.c:159
+msgid "User name"
+msgstr "Ainm Úineár"
+
+#: procview.c:161
+msgid "Pri"
+msgstr ""
+
+#: procview.c:161
+msgid "Priority"
+msgstr ""
+
+#: procview.c:163
+msgid "Ni"
+msgstr "De"
+
+#: procview.c:163 summary.c:32
+msgid "Nice"
+msgstr "Deas"
+
+#: procview.c:165
+msgid "Size"
+msgstr "Méid"
+
+#: procview.c:165
+msgid "Used memory size"
+msgstr ""
+
+#: procview.c:167
+msgid "RSS"
+msgstr ""
+
+#: procview.c:167
+msgid "Resident memory set size"
+msgstr ""
+
+#: procview.c:169
+msgid "Resident"
+msgstr ""
+
+#: procview.c:169
+msgid "Resident memory size"
+msgstr ""
+
+#: procview.c:171
+msgid "Share"
+msgstr ""
+
+#: procview.c:171
+msgid "Shared memory size"
+msgstr ""
+
+#: procview.c:173
+msgid "Stat"
+msgstr "Sonraí"
+
+#: procview.c:173
+msgid "Process state"
+msgstr ""
+
+#: procview.c:175
+msgid "CPU"
+msgstr ""
+
+#: procview.c:175
+msgid "Percent CPU usage"
+msgstr ""
+
+#: procview.c:177
+msgid "MEM"
+msgstr "CUI"
+
+#: procview.c:177
+msgid "Percent memory usage"
+msgstr ""
+
+#: procview.c:179
+msgid "Time"
+msgstr "Am"
+
+#: procview.c:179
+msgid "Time consumed"
+msgstr ""
+
+#: procview.c:181
+msgid "UTime"
+msgstr ""
+
+#: procview.c:181
+msgid "User time consumed"
+msgstr ""
+
+#: procview.c:183
+msgid "STime"
+msgstr ""
+
+#: procview.c:183
+msgid "System time consumed"
+msgstr ""
+
+#: procview.c:185
+msgid "Cmd"
+msgstr "Ordú"
+
+#: procview.c:185
+msgid "Command"
+msgstr "Ordú"
+
+#: procview.c:470
+#, c-format
+msgid "Cannot locate process %d"
+msgstr ""
+
+#: procview.c:475
+msgid "Only root can set negative priority"
+msgstr ""
+
+#: procview.c:478
+msgid "Permission denied"
+msgstr ""
+
+#: procview.c:527
+msgid "Renice"
+msgstr ""
+
+#: procview.c:539
+msgid "Set priority"
+msgstr ""
+
+#: procview.c:584
+msgid "Send"
+msgstr ""
+
+#: procview.c:608
+msgid "More ..."
+msgstr "Mór ..."
+
+#: procview.c:622
+msgid "Kill nicely (SIGTERM)"
+msgstr ""
+
+#: procview.c:631
+msgid "Kill now (SIGKILL)"
+msgstr ""
+
+#: procview.c:645
+msgid "Renice ..."
+msgstr ""
+
+#: procview.c:652
+msgid "Memory Maps ..."
+msgstr ""
+
+#: procview.c:659
+msgid "Details ..."
+msgstr ""
+
+#: procview.c:1316
+msgid "Process View Font"
+msgstr ""
+
+#: procview.c:1319
+msgid "ProcView Font"
+msgstr ""
+
+#: procview.c:1327
+msgid "Details Dialog"
+msgstr ""
+
+#: procview.c:1350
+msgid "Use full pathnames in memory maps"
+msgstr ""
+
+#: procview.c:1367
+msgid "Remember dialog position"
+msgstr ""
+
+#: procview.c:1387
+msgid "Misc"
+msgstr "Eile"
+
+#: procview.c:1393
+msgid "Use cumulative timings"
+msgstr ""
+
+#: properties.c:59
+msgid "GTop - Preferences"
+msgstr "GTop - Roghnachais"
+
+#: session.c:13
+msgid ""
+"Set initial geometry to GEOMETRY where\n"
+"GEOMETRY is <width>x<height>+<x>+<y>.\n"
+"Disabled when using session management."
+msgstr ""
+
+#: session.c:16
+msgid "GEOMETRY"
+msgstr ""
+
+#: summary.c:32
+msgid "System"
+msgstr "Corás"
+
+#: summary.c:32
+msgid "Idle"
+msgstr "Díomhaoin"
+
+#: summary.c:36
+msgid "Other"
+msgstr "Eile"
+
+#: summary.c:36
+msgid "Shared"
+msgstr ""
+
+#: summary.c:36
+msgid "Buffers"
+msgstr "Maolánachaí"
+
+#: summary.c:36 summary.c:40 summary.c:44
+msgid "Free"
+msgstr "Saor"
+
+#: summary.c:40 summary.c:44
+msgid "Used"
+msgstr ""
+
+#: summary.c:105
+msgid "Summary Colors"
+msgstr ""
+
+#: summary.c:118
+msgid "Summary"
+msgstr ""
+
+#: summary.c:918 summary.c:921
+msgid "Statusbar Font"
+msgstr ""
+
+#: summary.c:929
+msgid "Graphical Summary"
+msgstr ""
+
+#: summary.c:937
+msgid "Show graphical summary"
+msgstr ""
+
+#: summary.c:954
+msgid "Show cpu usage"
+msgstr ""
+
+#: summary.c:971
+msgid "Enable SMP support"
+msgstr ""
+
+#: summary.c:988
+msgid "Show physical memory usage"
+msgstr ""
+
+#: summary.c:1005
+msgid "Show swap memory usage"
+msgstr ""
+
+#: summary.c:1022 summary.c:1195
+msgid "Show load average"
+msgstr ""
+
+#: summary.c:1045
+msgid "Maximum load average:"
+msgstr ""
+
+#: summary.c:1072
+msgid "Textual Summary"
+msgstr ""
+
+#: summary.c:1077
+msgid "Show text summary"
+msgstr ""
+
+#: summary.c:1092
+msgid "Show statusbar"
+msgstr ""
+
+#: summary.c:1105
+msgid "include hostname"
+msgstr ""
+
+#: summary.c:1118
+msgid "use fully qualified name"
+msgstr ""
+
+#: summary.c:1131
+msgid "Show cpu statistics"
+msgstr ""
+
+#: summary.c:1147
+msgid "Show memory statistics"
+msgstr ""
+
+#: summary.c:1163
+msgid "include swap statistics"
+msgstr ""
+
+#: summary.c:1179
+msgid "Show uptime"
+msgstr ""
+
+#: summary.c:1352
+msgid "Summary physical memory"
+msgstr ""
+
+#: summary.c:1358
+msgid "Summary swap memory"
+msgstr ""
+
+#: summary.c:1364
+msgid "Summary load average"
+msgstr ""
+
+#~ msgid "SIGTERM"
+#~ msgstr "SIGTERM"
+
+#~ msgid "SIGKILL"
+#~ msgstr "SIGKILL"

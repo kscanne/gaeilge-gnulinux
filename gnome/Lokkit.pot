@@ -1,0 +1,566 @@
+# Gaeilge (Irish) translations for Lokkit
+# Copyright (C) 2001 Free Software Foundation, Inc.
+# Alastair McKinstry, <mckinstry@computer.org>, 2001.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Lokkit VERSION\n"
+"POT-Creation-Date: 2001-09-19 04:37-0400\n"
+"PO-Revision-Date: 2001-09-21 09:30-0000\n"
+"Last-Translator: Alastair McKinstry <mckinstry@computer.org>\n"
+"Language-Team: Irish <ga@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ISO-8859-1\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/gnome.c:33 src/newt.c:601
+msgid ""
+"Write Red Hat style /etc/sysconfig/ipchains rules, instead of a shell script"
+msgstr ""
+
+#: src/gnome.c:38
+msgid ""
+"Lokkit is a tool to provide firewalling for the average\n"
+"Linux end user. Instead of having to configure firewall\n"
+"rules the Lokkit program asks a small number of simple\n"
+"questions and writes a firewall rule set for you.\n"
+"\n"
+"Lokkit is not designed to configure arbitary firewalls.\n"
+"To make it simple to understand it is solely designed to\n"
+"handle typical dialup user and cable modem setups.\n"
+"\n"
+"It is not the equal of an expert firewall designer."
+msgstr ""
+
+#: src/gnome.c:48
+msgid ""
+"Lokkit is about to activate firewalling on this system.\n"
+"It is strongly recommended you only activate the \n"
+"firewalling facilities while you have direct access \n"
+"to the machine, as you may not be able to get access \n"
+"to deactivate them remotely.\n"
+msgstr ""
+
+#: src/gnome.c:105 src/gnome.c:499
+msgid "Configure Firewalling"
+msgstr ""
+
+#: src/gnome.c:135
+msgid "Activate The Firewall"
+msgstr ""
+
+#. Error dialog
+#: src/gnome.c:434
+msgid "Unable to write firewall rules"
+msgstr ""
+
+#: src/gnome.c:448
+msgid "Mail services are enabled. Checking for relaying"
+msgstr ""
+
+#: src/gnome.c:476
+msgid "You need to be the superuser to use this application."
+msgstr ""
+
+#: src/gnome.c:485
+msgid ""
+"You are about to override your old firewall configuration.\n"
+" Are you sure you want to continue?\n"
+msgstr ""
+
+#: src/gnome.c:507
+msgid "Basic Configuration"
+msgstr ""
+
+#: src/gnome.c:508
+msgid ""
+"Lokkit can set up either a low or high security configuration. A high "
+"security configuration blocks all incoming accesses but requires you use "
+"specific ftp configurations and blocks irc dcc. The lower security option "
+"blocks system services but is not so intrusive. "
+msgstr ""
+
+#: src/gnome.c:513
+msgid "High Security - more intrusive"
+msgstr ""
+
+#: src/gnome.c:514
+msgid "Low Security  - less intrusive"
+msgstr ""
+
+#: src/gnome.c:515
+msgid "Disable Firewall - no protection"
+msgstr ""
+
+#: src/gnome.c:523 src/gnome.c:535
+msgid "Local Hosts"
+msgstr ""
+
+#: src/gnome.c:524
+msgid ""
+"You seem to have an ethernet (eth0) attached to your machine. Shall I trust "
+"the hosts that are connected via this card? If this connection is your link "
+"to the internet (eg cable modem) you should say no."
+msgstr ""
+
+#: src/gnome.c:528 src/gnome.c:540 src/gnome.c:550 src/gnome.c:560
+#: src/gnome.c:573 src/gnome.c:584 src/gnome.c:596 src/gnome.c:608
+msgid "   Yes   "
+msgstr "   Tá    "
+
+#: src/gnome.c:529 src/gnome.c:541 src/gnome.c:551 src/gnome.c:561
+#: src/gnome.c:574 src/gnome.c:585 src/gnome.c:597 src/gnome.c:609
+msgid "   No    "
+msgstr "   Níl   "
+
+#: src/gnome.c:536
+msgid ""
+"You seem to have a second ethernet (eth1) attached to your machine. Shall I "
+"trust the hosts that are connected via this card? If this connection is your "
+"link to the internet (eg cable modem) you should say no."
+msgstr ""
+
+#: src/gnome.c:546 src/newt.c:421
+msgid "DHCP"
+msgstr "DHCP"
+
+#: src/gnome.c:547
+msgid ""
+"Are you using DHCP on any of your interfaces? If you are then say yes and "
+"the firewall rules will allow DHCP clients to negotiate addresses with your "
+"provider."
+msgstr ""
+
+#: src/gnome.c:555
+msgid "Services"
+msgstr "Seirbishí"
+
+#: src/gnome.c:556
+msgid ""
+"You can enable access to some of the incoming services on your machine. "
+"Before doing so you should check you are up to date with any errata from "
+"your Linux vendor.\n"
+"Do you wish to select services to enable.\n"
+msgstr ""
+
+#: src/gnome.c:568
+msgid "Web Server"
+msgstr ""
+
+#: src/gnome.c:569
+msgid ""
+"This allows people to access and view the web server on your computer. You "
+"do not need to enable this to use the web server directly from the machine "
+"itself for things like developing pages."
+msgstr ""
+
+#: src/gnome.c:580
+msgid "Incoming Mail"
+msgstr ""
+
+#: src/gnome.c:581
+msgid ""
+"Allow incoming SMTP mail delivery. You do not need to enable this if you "
+"collect your mail from your ISP's server by POP3 or IMAP, or if you use a "
+"tool such as fetchmail."
+msgstr ""
+
+#: src/gnome.c:591
+msgid "Secure Shell"
+msgstr ""
+
+#: src/gnome.c:592
+msgid ""
+"Allow incoming secure shell access. This is an encrypted way to talk to your "
+"computer over the internet. You may also wish to read the ssh documentation "
+"and set up a list of hosts permitted to connect."
+msgstr ""
+
+#: src/gnome.c:603 src/newt.c:427
+msgid "Telnet"
+msgstr "Telnet"
+
+#: src/gnome.c:604
+msgid ""
+"Allow incoming telnet access. This allows access to the command line shell "
+"of the machine from outside, if you have a username and password. It is not "
+"encrypted and can therefore be spied upon. If possible avoid enabling this."
+msgstr ""
+
+#: src/libinternet.c:82
+msgid "Unable to allocate a socket"
+msgstr ""
+
+#: src/libinternet.c:88
+msgid "Unable to set connection nonblocking"
+msgstr ""
+
+#. Time out
+#: src/libinternet.c:113
+msgid "Connection failed!"
+msgstr ""
+
+#. Ermm.. ??
+#: src/libinternet.c:118
+msgid "Select failed!"
+msgstr ""
+
+#: src/libinternet.c:140
+#, c-format
+msgid "Unable to resolve '%s'."
+msgstr ""
+
+#: src/libinternet.c:157
+#, c-format
+msgid "Unable to connect to '%s'."
+msgstr ""
+
+#: src/scanomatic.c:34
+msgid "Mail relay testing"
+msgstr ""
+
+#: src/scanomatic.c:37
+msgid "Beginning mail test."
+msgstr ""
+
+#: src/scanomatic.c:48
+#, c-format
+msgid "Mail relay check %p%% complete"
+msgstr ""
+
+#: src/scanomatic.c:145 src/scanomatic.c:159
+msgid "Relay test result."
+msgstr ""
+
+#: src/scanomatic.c:170
+msgid "Beginning mail tests"
+msgstr ""
+
+#: src/scanomatic.c:201
+msgid "EOF - passed"
+msgstr ""
+
+#: src/scanomatic.c:204
+msgid "Failed test sequence is: \n"
+msgstr ""
+
+#: src/scanomatic.c:206
+msgid "missing!\n"
+msgstr ""
+
+#: src/scanomatic.c:210
+msgid "http://maps.vix.com/tsi/"
+msgstr ""
+
+#: src/scanomatic.c:224
+msgid "Unexpected end of file"
+msgstr ""
+
+#: src/newt.c:64
+msgid ""
+"\n"
+"Firewall Configuration\n"
+"\n"
+"   Red Hat Linux also offers you firewall protection\n"
+"   for enhanced system security. A firewall sits\n"
+"   between your computer and the network, and\n"
+"   determines which resources on your computer remote\n"
+"   users on the network are able to access. A\n"
+"   properly configured firewall can greatly increase\n"
+"   the out-of-the-box security of your system.\n"
+"\n"
+"   Choose the appropriate security level for your\n"
+"   system.\n"
+"\n"
+"   High Security -- By choosing High Security, your\n"
+"   system will not accept connections that are not\n"
+"   explicitly defined by you. By default, only the\n"
+"   following connections are allowed:\n"
+"\n"
+"     * DNS replies\n"
+"     * DHCP -- so any network interfaces that use\n"
+"       DHCP can be properly configured.\n"
+"\n"
+"   Using this High Security will not allow the\n"
+"   following:\n"
+"\n"
+"     * Active mode FTP (Passive mode FTP, used by\n"
+"       default in most clients, should work fine.)\n"
+"     * IRC DCC file transfers\n"
+"     * RealAudio(tm)\n"
+"     * Remote X Window System clients\n"
+"\n"
+"   If you are connecting your system to the Internet,\n"
+"   but do not plan to run a server, this is the\n"
+"   safest choice. If additional services are needed,\n"
+"   you can choose Customize to allow specific\n"
+"   services through the firewall.\n"
+"\n"
+"   Medium Security -- Choosing Medium Security will\n"
+"   not allow your system to have access to certain\n"
+"   resources. By default, access to the following\n"
+"   resources are not allowed:\n"
+"\n"
+"     * ports lower than 1023 -- these are the\n"
+"       standard reserved ports, used by most system\n"
+"       services, such as FTP, SSH, telnet, and HTTP.\n"
+"     * NFS server port (2049)\n"
+"     * the local X Window System display for remote X\n"
+"       clients\n"
+"     * the X Font server port (This is disabled by\n"
+"       default in the font server.)\n"
+"\n"
+"   If you want to allow resources such as\n"
+"   RealAudio(tm), while still blocking access to\n"
+"   normal system services, choose Medium Security.\n"
+"   You can choose Customize to allow specific\n"
+"   services through the firewall.\n"
+"\n"
+"   No Firewall -- No firewall allows complete access\n"
+"   and does no security checking. It is recommended\n"
+"   that this only be selected if you are running on a\n"
+"   trusted network (not the Internet), or if you plan\n"
+"   to do more detailed firewall configuration later.\n"
+"\n"
+"   Choose Customize to add trusted devices or to\n"
+"   allow additional incoming interfaces.\n"
+msgstr ""
+
+#: src/newt.c:130
+msgid ""
+"\n"
+"Firewall Customization\n"
+"\n"
+"   Choose which trusted devices and incoming services\n"
+"   should be allowed for your network security\n"
+"   settings.\n"
+"\n"
+"   Trusted Devices -- Checking these for any of your\n"
+"   devices allows all traffic coming from that device\n"
+"   to be allowed. For example, if you are running a\n"
+"   local network, but are connecting to the Internet\n"
+"   via a PPP dialup, you could check that eth0 is\n"
+"   trusted to allow any traffic coming from your\n"
+"   local network.\n"
+"\n"
+"   It is not recommended to enable this for devices\n"
+"   that are connected to public networks, such as the\n"
+"   Internet.\n"
+"\n"
+"   Allow Incoming -- Enabling these options allow the\n"
+"   specified services to pass through the firewall.\n"
+"   Note, during a workstation-class installation, the\n"
+"   majority of these services are not present on the\n"
+"   system.\n"
+"\n"
+"     * DHCP -- This allows DHCP queries and replies,\n"
+"       and allows any network interfaces that use\n"
+"       DHCP to determine their IP address. DHCP is\n"
+"       normally enabled.\n"
+"     * SSH -- Secure Shell (SSH) is a protocol for\n"
+"       logging into and executing commands on remote\n"
+"       machines. It provides secure encrypted\n"
+"       communications. If you plan on accessing your\n"
+"       machine remotely via SSH over a firewalled\n"
+"       interface, enable this option. You need the\n"
+"       openssh-server package installed for this\n"
+"       option to be useful.\n"
+"     * Telnet -- Telnet is a protocol for logging\n"
+"       into remote machines. It is unencrypted, and\n"
+"       provides little security from network snooping\n"
+"       attacks. Enabling telnet is not recommended.\n"
+"       You need the telnet-server package installed\n"
+"       for this option to be useful.\n"
+"     * WWW (HTTP) -- HTTP is the protocol used by\n"
+"       Apache to serve Web pages. If you plan on\n"
+"       making your Web server publicly available,\n"
+"       enable this option. This option is not\n"
+"       required for viewing pages locally or\n"
+"       developing Web pages. You need the Apache\n"
+"       package installed for this option to be\n"
+"       useful.\n"
+"     * Mail (SMTP) -- This allows incoming SMTP mail\n"
+"       delivery. If you need to allow remote hosts to\n"
+"       connect directly to your machine to deliver\n"
+"       mail, enable this option. You do not need to\n"
+"       enable this if you collect your mail from your\n"
+"       ISP's server by POP3 or IMAP, or if you use a\n"
+"       tool such as fetchmail. Note that an\n"
+"       improperly configured SMTP server can allow\n"
+"       remote machines to use your server to send\n"
+"       spam.\n"
+"     * FTP -- FTP is a protocol used for remote file\n"
+"       transfer. If you plan on making your FTP\n"
+"       server publicly available, enable this option.\n"
+"       You need the wu-ftpd (and possibly anonftp)\n"
+"       packages installed for this option to be\n"
+"       useful.\n"
+"     * Other ports -- You can specify that other\n"
+"       ports not listed here be allowed through the\n"
+"       firewall. The format to use is\n"
+"       'port:protocol'. For example, if you wanted to\n"
+"       allow IMAP access through your firewall, you\n"
+"       can specify 'imap:tcp'. You can also specify\n"
+"       numeric ports explicitly; to allow UDP packets\n"
+"       on port 1234 through, specify '1234:udp'. To\n"
+"       specify multiple ports, separate them by\n"
+"       commas.\n"
+msgstr ""
+
+#: src/newt.c:210 src/newt.c:479
+msgid "Firewall Configuration"
+msgstr ""
+
+#: src/newt.c:210 src/newt.c:212 src/newt.c:498
+msgid "Ok"
+msgstr "Ceart go Leor"
+
+#: src/newt.c:212
+msgid "Firewall Customization"
+msgstr ""
+
+#: src/newt.c:306 src/newt.c:501
+msgid "OK"
+msgstr "CEART GO LEOR"
+
+#: src/newt.c:306
+msgid "Customize"
+msgstr ""
+
+#: src/newt.c:306
+msgid "Cancel"
+msgstr "Cealaigh"
+
+#: src/newt.c:309
+msgid ""
+"A firewall protects against unauthorized network intrusions. High security "
+"blocks all incoming accesses. Medium blocks access to system services (such "
+"as telnet or printing), but allows other connections. No firewall allows all "
+"connections and is not recommended. "
+msgstr ""
+
+#: src/newt.c:323
+msgid "Security Level:"
+msgstr ""
+
+#: src/newt.c:325
+msgid "High"
+msgstr "Árd"
+
+#: src/newt.c:328
+msgid "Medium"
+msgstr "Gnáth"
+
+#: src/newt.c:331
+msgid "No firewall"
+msgstr ""
+
+#: src/newt.c:355
+msgid "Trusted Devices:"
+msgstr ""
+
+#: src/newt.c:386
+msgid "Allow incoming:"
+msgstr ""
+
+#: src/newt.c:424
+msgid "SSH"
+msgstr "SSH"
+
+#: src/newt.c:430
+msgid "WWW (HTTP)"
+msgstr "WWW (HTTP)"
+
+#: src/newt.c:433
+msgid "Mail (SMTP)"
+msgstr "Rphost (SMTP)"
+
+#: src/newt.c:436
+msgid "FTP"
+msgstr "FTP"
+
+#: src/newt.c:441
+msgid "Other ports"
+msgstr "Portaí Eile"
+
+#: src/newt.c:467
+msgid ""
+" <Tab>/<Alt-Tab> between elements   |   <Space> selects  |   <F12> next "
+"screen"
+msgstr ""
+
+#: src/newt.c:470
+#, c-format
+msgid "lokkit %s                     (C) 2001 Red Hat, Inc."
+msgstr "lokkit %s                     © 2001 Red Hat, Inc."
+
+#: src/newt.c:498
+msgid "Invalid Choice"
+msgstr ""
+
+#: src/newt.c:499
+msgid "You cannot customize a disabled firewall."
+msgstr ""
+
+#: src/newt.c:506
+msgid ""
+"You can customize your firewall in two ways. First, you can select to allow "
+"all traffic from certain network interfaces. Second, you can allow certain "
+"protocols explicitly through the firewall. Specify additional ports in the "
+"form 'service:protocol', such as 'imap:tcp'. "
+msgstr ""
+
+#: src/newt.c:525
+msgid "Firewall Configuration - Customize"
+msgstr ""
+
+#: src/newt.c:605
+msgid "Run noninteractively; process only command-line arguments"
+msgstr ""
+
+#: src/newt.c:608
+msgid "Configure firewall but do not activate it"
+msgstr ""
+
+#: src/newt.c:612
+msgid "Enable 'high' security level (default)"
+msgstr ""
+
+#: src/newt.c:616
+msgid "Enable 'medium' security level"
+msgstr ""
+
+#: src/newt.c:620
+msgid "Disable firewall"
+msgstr ""
+
+#: src/newt.c:624
+msgid "Allow DHCP through the firewall"
+msgstr ""
+
+#: src/newt.c:628
+msgid "Allow specific ports through the firewall"
+msgstr ""
+
+#: src/newt.c:629
+msgid "port:protocol (e.g, ssh:tcp)"
+msgstr ""
+
+#: src/newt.c:632
+msgid "Allow all traffic on the specified device"
+msgstr ""
+
+#: src/newt.c:633
+msgid "device to trust"
+msgstr ""
+
+#: src/newt.c:640
+msgid ""
+"\n"
+"ERROR - You must be root to run lokkit.\n"
+msgstr ""
+
+#: src/newt.c:659
+msgid ""
+"ERROR - only one of 'high', 'medium', and 'disabled' may be specified.\n"
+msgstr ""

@@ -1,0 +1,10 @@
+THIS IS NOT  A STANDARD PACKAGE: IT SHOULD NOT GO INTO A DISTRIBUTION.
+
+Instead, it is a hack to update various .po files with the latest translations,
+for use mostly by developers.
+
+Report errors directly to me, and if you don't agree with the translations,
+then help...
+
+Share and Enjoy, 
+- Alastair McKinstry <mckinstry@computer.org>
