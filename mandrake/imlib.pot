@@ -1,0 +1,226 @@
+# Irish language translations for IMBLIB
+# Copyright (C) 2000 Free Software Foundation, Inc.
+# Alastair McKinstry, <mckinstry@computer.org>, 2000
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: imlib VERSION\n"
+"POT-Creation-Date: 1999-07-08 22:40+0200\n"
+"PO-Revision-Date: 2000-09-07 19:00-0000\n"
+"Last-Translator: Alastair McKinstry <mckinstry@computer.org>\n"
+"Language-Team: Irish <ga@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ISO_8859-1\n"
+"Content-Transfer-Encoding: 8-bit\n"
+
+#: utils/imlib_config.c:185
+msgid "Imlib Config Editor"
+msgstr "Eagathóir Cumasach Imlib"
+
+#: utils/imlib_config.c:948
+msgid "Base Levels"
+msgstr ""
+
+#: utils/imlib_config.c:964
+msgid "Red Levels"
+msgstr ""
+
+#: utils/imlib_config.c:980
+msgid "Green Levels"
+msgstr ""
+
+#: utils/imlib_config.c:996
+msgid "Blue Levels"
+msgstr ""
+
+#: utils/imlib_config.c:1038
+msgid "Small colour set"
+msgstr ""
+
+#: utils/imlib_config.c:1043
+msgid "Medium colour set"
+msgstr ""
+
+#: utils/imlib_config.c:1048
+msgid "Large colour set"
+msgstr ""
+
+#: utils/imlib_config.c:1057
+msgid "Select Palette File"
+msgstr "Tóg comhad Paleid"
+
+#: utils/imlib_config.c:1066
+msgid "Select"
+msgstr "Tóg"
+
+#: utils/imlib_config.c:1081
+msgid "Save"
+msgstr "Sábháil"
+
+#: utils/imlib_config.c:1113
+msgid "Copy To"
+msgstr "Cóip Do"
+
+#: utils/imlib_config.c:1118
+msgid "Spread To"
+msgstr ""
+
+#: utils/imlib_config.c:1127
+msgid "Set Last"
+msgstr "Tóg Deireadh"
+
+#: utils/imlib_config.c:1132
+msgid "Delete"
+msgstr "Scríos"
+
+#: utils/imlib_config.c:1372
+msgid "Save User Config"
+msgstr "Sábháil cumasach Usáideoir"
+
+#: utils/imlib_config.c:1379
+msgid "Save System Config"
+msgstr "Cábháil cumasach Coráis"
+
+#: utils/imlib_config.c:1385
+msgid "Close"
+msgstr "Dún"
+
+#: utils/imlib_config.c:1525
+msgid "Colors"
+msgstr "Dathanna"
+
+#: utils/imlib_config.c:1525
+msgid "Rendering"
+msgstr ""
+
+#: utils/imlib_config.c:1525
+msgid "Display"
+msgstr "Taispeán"
+
+#: utils/imlib_config.c:1525
+msgid "Color Correction"
+msgstr ""
+
+#: utils/imlib_config.c:1526
+msgid "Select Palette"
+msgstr "Tóg Paleid"
+
+#: utils/imlib_config.c:1527
+msgid "Force Palette"
+msgstr ""
+
+#: utils/imlib_config.c:1528
+msgid "Dither in Palette Mode"
+msgstr ""
+
+#: utils/imlib_config.c:1529
+msgid "Fast Remapping in Palette Mode"
+msgstr ""
+
+#: utils/imlib_config.c:1530
+msgid "High Quality in 15/16bpp"
+msgstr ""
+
+#: utils/imlib_config.c:1531
+msgid "Limit Maximum Shared memory Size (bytes)"
+msgstr ""
+
+#: utils/imlib_config.c:1533
+msgid "256 Kb"
+msgstr "256 kb"
+
+#: utils/imlib_config.c:1534 utils/imlib_config.c:1546
+msgid "512 Kb"
+msgstr "512 kb"
+
+#: utils/imlib_config.c:1535
+msgid "1   Mb"
+msgstr ""
+
+#: utils/imlib_config.c:1536
+msgid "2   Mb"
+msgstr ""
+
+#: utils/imlib_config.c:1537
+msgid "3   Mb"
+msgstr ""
+
+#: utils/imlib_config.c:1538
+msgid "4   Mb"
+msgstr ""
+
+#: utils/imlib_config.c:1539
+msgid "Use Ordered Dithering (Faster)"
+msgstr ""
+
+#: utils/imlib_config.c:1540
+msgid "MIT-SHM Shared Memory Enabled"
+msgstr ""
+
+#: utils/imlib_config.c:1541
+msgid "Shared Pixmaps"
+msgstr ""
+
+#: utils/imlib_config.c:1542
+msgid "Fast Render"
+msgstr ""
+
+#: utils/imlib_config.c:1543
+msgid "Imagemagick & NETPBM Fallback"
+msgstr ""
+
+#: utils/imlib_config.c:1544
+msgid "Image Cache (bytes)"
+msgstr ""
+
+#: utils/imlib_config.c:1547
+msgid "1 Mb"
+msgstr "1 Mb"
+
+#: utils/imlib_config.c:1548
+msgid "2 Mb"
+msgstr "2 Mb"
+
+#: utils/imlib_config.c:1549
+msgid "4 Mb"
+msgstr "4 Mb"
+
+#: utils/imlib_config.c:1550
+msgid "6 Mb"
+msgstr "6 Mb"
+
+#: utils/imlib_config.c:1551
+msgid "10 Mb"
+msgstr "10 Mb"
+
+#: utils/imlib_config.c:1552
+msgid "Pixmap Cache (bits)"
+msgstr ""
+
+#: utils/imlib_config.c:1554
+msgid "5120 Kbits"
+msgstr "5120 kgiotáin"
+
+#: utils/imlib_config.c:1555
+msgid "10 Mbits"
+msgstr "10 Mgitáin"
+
+#: utils/imlib_config.c:1556
+msgid "20 Mbits"
+msgstr "20 Mgiotáin"
+
+#: utils/imlib_config.c:1557
+msgid "40 Mbits"
+msgstr "40 Mgiotáin"
+
+#: utils/imlib_config.c:1558
+msgid "60 Mbits"
+msgstr "60 Mgiotáin"
+
+#: utils/imlib_config.c:1559
+msgid "100 Mbits"
+msgstr "100 Mgiotáin"
+
+#: utils/imlib_config.c:1560
+msgid "Force Visual ID"
+msgstr ""

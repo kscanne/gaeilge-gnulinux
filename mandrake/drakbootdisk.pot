@@ -1,0 +1,129 @@
+# Irish translations for drakbootdisk
+# Copyright (C) 2000 Free Software Foundation, Inc.
+# Alastair McKinstry <mckinstry@computer.org>, 2000.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: drakbootdisk 0.30\n"
+"POT-Creation-Date: 2000-05-09 17:55+0200\n"
+"PO-Revision-Date: 2000-08-24 12:00-0000\n"
+"Last-Translator: Alastair McKinstry <mckinstry@computer.org>\n"
+"Language-Team: Irish <ga@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ISO-8859-1\n"
+"Content-Transfer-Encoding: 8-bit\n"
+
+#: drakfloppy.c:181 drakfloppy.c:518 drakfloppy.c:710
+msgid "OK"
+msgstr "Ceart go Leor"
+
+#: drakfloppy.c:184 drakfloppy.c:521
+msgid "Cancel"
+msgstr "Cealaigh"
+
+#: drakfloppy.c:234
+#, c-format
+msgid ""
+"If %s is a removing peripheral,\n"
+" verify that a media is inserted."
+msgstr ""
+
+#: drakfloppy.c:307
+msgid "unknown"
+msgstr "gan aithne"
+
+#: drakfloppy.c:353
+msgid "hide expert mode"
+msgstr ""
+
+#: drakfloppy.c:361
+msgid "show expert mode"
+msgstr ""
+
+#: drakfloppy.c:460
+msgid "Select a module or write his name:"
+msgstr ""
+
+#: drakfloppy.c:468
+msgid "Category"
+msgstr ""
+
+#: drakfloppy.c:477
+msgid "Module"
+msgstr ""
+
+#: drakfloppy.c:485
+msgid "preload module"
+msgstr ""
+
+#: drakfloppy.c:514
+msgid "click on a category"
+msgstr ""
+
+#: drakfloppy.c:573
+msgid "Remove"
+msgstr "Scríos"
+
+#: drakfloppy.c:629
+msgid "drakfloppy"
+msgstr "drakfloppy"
+
+#: drakfloppy.c:635
+msgid "Tool for boot disk creation"
+msgstr ""
+
+#: drakfloppy.c:641
+msgid "device"
+msgstr "feist"
+
+#: drakfloppy.c:645
+msgid "kernel version"
+msgstr "leagan `kernel'"
+
+#: drakfloppy.c:649
+msgid "experts only"
+msgstr ""
+
+#: drakfloppy.c:657 drakfloppy.c:661
+msgid "default"
+msgstr ""
+
+#: drakfloppy.c:671
+msgid "Show expert mode"
+msgstr ""
+
+#: drakfloppy.c:678
+msgid "force"
+msgstr ""
+
+#: drakfloppy.c:680
+msgid "if needed"
+msgstr ""
+
+#: drakfloppy.c:684
+msgid "omit scsi modules"
+msgstr ""
+
+#: drakfloppy.c:686
+msgid "omit raid modules"
+msgstr ""
+
+#: drakfloppy.c:688
+msgid "modules"
+msgstr ""
+
+#: drakfloppy.c:694
+msgid "Add"
+msgstr "Suim"
+
+#: drakfloppy.c:697
+msgid "Output"
+msgstr "Aschur"
+
+#: drakfloppy.c:716
+msgid "Quit"
+msgstr "Ealu"
+
+#: drakfloppy.c:783
+msgid "Boot disk maker. Still in early stage.\n"
+msgstr ""

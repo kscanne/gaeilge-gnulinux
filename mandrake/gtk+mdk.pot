@@ -1,0 +1,128 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: gtk+mdk 1.0.0\n"
+"POT-Creation-Date: 2000-05-19 17:13+0200\n"
+"PO-Revision-Date: 2000-05-10 17:41+0200\n"
+"Last-Translator: Alastair McKinstry <mckinstry@computer.org>\n"
+"Language-Team: Irish <ga@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=iso-8859-1\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid " ... "
+msgstr " ... "
+
+msgid " Cancel "
+msgstr " Cealaigh "
+
+msgid " Help "
+msgstr " Cabhair "
+
+msgid " No "
+msgstr " Níl "
+
+msgid " OK "
+msgstr " Ceart go Leor "
+
+msgid " Yes "
+msgstr " Tá "
+
+msgid "Answer"
+msgstr "Freagra"
+
+msgid "Blue"
+msgstr "Gorm"
+
+msgid "Close"
+msgstr "Dún"
+
+msgid "Color"
+msgstr "Dath"
+
+msgid "File selector"
+msgstr "Roghnoir comhad"
+
+msgid "Green"
+msgstr "Glas"
+
+msgid "New value for directory: %s\n"
+msgstr "Luach nua do fillteán: %s\n"
+
+msgid "Red"
+msgstr "Dearg"
+
+msgid "Select new directory"
+msgstr "Tóg fillteán nua"
+
+msgid "Temp Dir: "
+msgstr "Fillteán Sealadach: "
+
+msgid "Test Ask Dialog"
+msgstr ""
+
+msgid "Test Bang Dialog"
+msgstr ""
+
+msgid "Test Modal Dialog"
+msgstr ""
+
+msgid "Test Stop Dialog"
+msgstr ""
+
+msgid "The help file was not found\n"
+msgstr ""
+
+msgid ""
+"This a test\n"
+"for the ask dialog"
+msgstr ""
+
+msgid ""
+"This a test\n"
+"for the bang dialog"
+msgstr ""
+
+msgid ""
+"This a test\n"
+"for the stop dialog"
+msgstr ""
+
+
+msgid ""
+"This dialog should\n"
+"be modal"
+msgstr ""
+
+msgid ""
+"You've pressed\n"
+"the \"No\" Button"
+msgstr ""
+
+msgid ""
+"You've pressed\n"
+"the \"Yes\" Button"
+msgstr ""
+
+msgid "about dialog"
+msgstr ""
+
+msgid "ask dialog"
+msgstr ""
+
+msgid "bang dialog"
+msgstr ""
+
+msgid "directory selector"
+msgstr ""
+
+msgid "framed combo"
+msgstr ""
+
+msgid "help button"
+msgstr "cnaipe 'cabhair'"
+
+msgid "modal dialog"
+msgstr ""
+
+msgid "stop dialog"
+msgstr ""

@@ -1,0 +1,280 @@
+# Irish language translations for drakfont
+# Copyright (C) 2000 Free Software Foundation, Inc.
+# Alastair McKinstry, <mckinstry@computer.org>, 2000
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: drakfont VERSION\n"
+"POT-Creation-Date: 2000-09-01 19:57+0200\n"
+"PO-Revision-Date: 2000-09-05 19:00-0000\n"
+"Last-Translator: Alastair McKinstry <alastairmck@sourceforge.net>\n"
+"Language-Team: Irish <ga@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ISO_8859-1\n"
+"Content-Transfer-Encoding: 8-bit\n"
+
+#: drakfont.c:270 drakfont.c:273 drakfont.c:276
+msgid " Error "
+msgstr " Earraidh "
+
+#: drakfont.c:326
+#, c-format
+msgid ""
+"I have to create the directory '%s'.\n"
+"Do you agree?\n"
+"(See Help for details)"
+msgstr ""
+
+#: drakfont.c:328
+msgid "Please Confirm"
+msgstr ""
+
+#: drakfont.c:336
+#, c-format
+msgid "Error while creating the directory '%s'"
+msgstr ""
+
+#: drakfont.c:359
+#, c-format
+msgid ""
+"Error while executing '%s'\n"
+"Command:'%s'"
+msgstr ""
+"Earraidh ag rith '%s'\n"
+"Ordú:'%s'"
+
+#: drakfont.c:399
+#, c-format
+msgid ""
+"Building of fonts.dir returned an error.\n"
+"It is possible that some fonts are corrupted.\n"
+"Command:'%s'"
+msgstr ""
+
+#: drakfont.c:462 drakfont.c:570 drakfont.c:837 drakfont.c:1003
+msgid "Cancel"
+msgstr "Cealaigh"
+
+#: drakfont.c:491
+msgid "Do you really want to remove these fonts?\n"
+msgstr ""
+
+#: drakfont.c:492 drakfont.c:1512
+msgid "Remove fonts"
+msgstr "Scríos chlófhoireanna"
+
+#: drakfont.c:514
+#, c-format
+msgid ""
+"Error while removing the fonts from '%s'\n"
+"Command:'%s'"
+msgstr ""
+
+#: drakfont.c:562
+msgid ""
+"Before installing any fonts, be sure that you have the right to use and "
+"install them on your system.\n"
+"\n"
+"-You can install the fonts using the normal way. In rare cases, bogus fonts "
+"may hang up your X Server.\n"
+"-You can install the fonts with strong verification. In this case, bogus "
+"fonts won't be installed, but some useable fonts won't be too.\n"
+"\n"
+"If you have many fonts, or exotic fonts, I recommend strong verification "
+"mode."
+msgstr ""
+
+#: drakfont.c:566
+msgid "Normal"
+msgstr "Gnáth"
+
+#: drakfont.c:568
+msgid "Strong verification"
+msgstr ""
+
+#: drakfont.c:589
+msgid "Installing fonts..."
+msgstr ""
+
+#: drakfont.c:601
+msgid "Installation aborted"
+msgstr ""
+
+#: drakfont.c:776 drakfont.c:1359 drakfont.c:1387
+#, c-format
+msgid "Error while opening '%s' "
+msgstr "Earraidh ag oscailt '%s' "
+
+#: drakfont.c:783 drakfont.c:1366 drakfont.c:1395
+#, c-format
+msgid "There is no font in the directory '%s' "
+msgstr "Níl aon chlófhoireann amhain san fillteán '%s' "
+
+#: drakfont.c:813
+msgid "Fonts directories you can select:"
+msgstr ""
+
+#: drakfont.c:834 drakfont.c:881
+msgid "OK"
+msgstr "Ceart go Leor"
+
+#: drakfont.c:865
+msgid "Error"
+msgstr "Earraidh"
+
+#: drakfont.c:875
+msgid "You can still go to see other fonts...\n"
+msgstr ""
+
+#: drakfont.c:884 drakfont.c:984
+msgid "Other Fonts"
+msgstr "Clófhoreann Eile"
+
+#: drakfont.c:923
+msgid "not available"
+msgstr ""
+
+#: drakfont.c:926
+msgid "Windows Fonts"
+msgstr "Chlófhoirrean Fhuinneoga"
+
+#: drakfont.c:928
+msgid "Fonts"
+msgstr "Clófhoireann"
+
+#: drakfont.c:935
+msgid ""
+"DrakFont found Windows.\n"
+"Here are the fonts that you can install:"
+msgstr ""
+
+#: drakfont.c:937
+msgid ""
+"DrakFont found Windows but no fonts.\n"
+"DrakFont probably misfunctionned.\n"
+msgstr ""
+
+#: drakfont.c:941
+#, c-format
+msgid ""
+"Fonts list\n"
+"Directory: %s"
+msgstr ""
+"Liosta Chlófhoireanna\n"
+"Fillteán: %s"
+
+#: drakfont.c:943
+#, c-format
+msgid ""
+"There is no fonts\n"
+"Directory: %s"
+msgstr ""
+"Níl aon chlófhoireanna ann\n"
+"Fillteán: %s"
+
+#: drakfont.c:949
+msgid ""
+"DrakFont didn't find Windows fonts \n"
+"There are some reasons for that:\n"
+"-Windows is not installed on your machine\n"
+"-Your Windows partition is not mounted; Mount it and try again.\n"
+"-DrakFont didn't manage to find the Windows fonts directory; Use the `Add "
+"Fonts' button"
+msgstr ""
+
+#: drakfont.c:970
+msgid "Font Name"
+msgstr "Ainm Chlófhoireann"
+
+#: drakfont.c:975
+msgid "Font Type"
+msgstr "Saghas Chlófhoireann"
+
+#: drakfont.c:992
+msgid "Install all"
+msgstr "Feistigh gach rud"
+
+#: drakfont.c:994
+msgid "Remove all"
+msgstr "Scríos gach rud"
+
+#: drakfont.c:998
+msgid "Install selected fonts"
+msgstr ""
+
+#: drakfont.c:1000
+msgid "Remove selected fonts"
+msgstr ""
+
+#: drakfont.c:1253
+msgid "Error while opening /etc/mtab"
+msgstr ""
+
+#: drakfont.c:1292 drakfont.c:1314
+msgid "Error while opening /etc/fstab"
+msgstr ""
+
+#: drakfont.c:1307
+msgid "Memory allocation error"
+msgstr "Earraidh cuimhne"
+
+#: drakfont.c:1414
+msgid "Select directory"
+msgstr "Tóg fillteán"
+
+#: drakfont.c:1509
+msgid "Add fonts"
+msgstr "Suimigh Chloófhoireann"
+
+#: drakfont.c:1515
+msgid "Get Windows fonts"
+msgstr ""
+
+#: drakfont.c:1518
+msgid "Quit"
+msgstr "Ealu"
+
+#: drakfont.c:1556 drakfont.c:1583 drakfont.c:1593
+msgid "You need to be root\n"
+msgstr ""
+
+#: drakfont.c:1582
+msgid ""
+"You are launching drakfont in rescue mode.\n"
+"It will remove all bogus fonts but unfortunally some good fonts too.\n"
+"You will have to re-add these fonts.\n"
+msgstr ""
+
+#: drakfont.c:1602
+msgid ""
+"Font configuration has been checked.\n"
+"You can restart drakfont under X.\n"
+"If X or xfs don't want to start, use drakfont -r"
+msgstr ""
+
+#: drakfont.c:1626
+msgid "TrueType fonts manager. Still in early stage.\n"
+msgstr ""
+
+#: drakfont.c:1627
+msgid "  -p, --pos                  launch at specified position x, y\n"
+msgstr ""
+
+#: drakfont.c:1628
+msgid "  -c, --check                check fonts locations\n"
+msgstr ""
+
+#: drakfont.c:1629
+msgid ""
+"Report any bug at damien@mandrakesoft.com\n"
+"\n"
+msgstr ""
+
+#: drakfont.c:1642
+#, c-format
+msgid "drakfont: invalide option -- %s\n"
+msgstr "drakfont: rogha mícheart --%s\n"
+
+#: drakfont.c:1643
+msgid "Try `drakfont --help' for more information.\n"
+msgstr ""

@@ -1,0 +1,108 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: DrakConf VERSION\n"
+"POT-Creation-Date: 2000-01-09 21:03+0100\n"
+"PO-Revision-Date: 1999-08-25 11:07+0200\n"
+"Last-Translator: Proinnsis Breathnach <breatpro@dublin.ml.com>\n"
+"Language-Team: ga\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=iso-8859-14\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+
+msgid "X Configuration"
+msgstr "Cumraigh X"
+
+msgid "XFDrake allows you to configure easily the X Window System."
+msgstr "Cuireann XFDrake ar do chumas an gcomhéadan úsáideora X a chumrú go héasca"
+
+msgid "Change X resolution"
+msgstr ""
+
+msgid "Xdrakres allows you to easily modify your screen resolution"
+msgstr "Ligeann Xdrakres dhuit méid do scáilean a chumrú go héasca"
+
+msgid "User addition"
+msgstr "Úsáideoirí nua"
+
+msgid "Adduser Drake lets you add new users to the system"
+msgstr "Cuireann Adduser Drake ar do chumas úsáideoirí nua a cur leis an chóras"
+
+msgid "DiskDrake - Partition table manipulator"
+msgstr ""
+
+msgid "DiskDrake allows you to examin/modify your partition tables. BE EXTREMLY CAREFULY when you use it."
+msgstr "Cuireann DiskDrake ar do chumas do chlár ranna a scrudú/athrú. BÍ FÍOR CURAMACH á núsáid."
+
+msgid "DrakBoot"
+msgstr ""
+
+msgid "Configure your boot manager, format a floppy disk or make a boot floppy disk"
+msgstr ""
+
+msgid "DrakFont"
+msgstr ""
+
+msgid "Easy to use font manager"
+msgstr ""
+
+msgid "Security Level"
+msgstr ""
+
+msgid "draksec: modify the security level"
+msgstr "draksec: athraigh an leibhéal slándála"
+
+msgid "Startup Services"
+msgstr ""
+
+msgid "Boot services manager"
+msgstr "Bainisteóir seirbhísí túsach"
+
+msgid "Hardware configuration"
+msgstr ""
+
+msgid "Central Hardware Configuration Tool"
+msgstr "Is é HardDrake an príomh-uirlis cumrú crua-earraí"
+
+msgid "Keyboard choice"
+msgstr ""
+
+msgid "KeyboardDrake allows you to modify easily your keyboard."
+msgstr "Cuireann KeyboardDrake ar do chumas do mhéarchlár a chumrú"
+
+msgid "Linuxconf - system configuration"
+msgstr ""
+
+msgid "LinuxConf is an advanced system configuration tool. It can for example configure your SendMail mail-server, Web Apache, manage the users, the files permissions, services startup and so on."
+msgstr "Is úrlis cumrú cumhachtach é LinuxConf. I measc a gcuid fheidhmeanna ligeann sé dhuit seirbhísí mar SendMail agus Apache a chumrú, úsáideoirí agus comhadceadanna a bhainistiú, agus na seirbhisí tosaithe a rialiú."
+
+msgid "Mandrake Update"
+msgstr "Nuashonraí Mandrake"
+
+msgid "Let you download and install security-related packages updates"
+msgstr ""
+
+msgid "MouseDrake"
+msgstr ""
+
+msgid "MouseDrake allows you to configure easily you mouse device. If your is not in list, please choose a generic model. Choose one in conformyty with your interface (PS2, serial or USB)."
+msgstr "Ligeann MouseDrake dhuit do ghaireas luchóige a chumrú go héasca. Muna bhfuil sé ar an liosta, roghnaigh an gnáth leagan a oireann ded' ríomhaire féin (PS/2, Serial, USB)."
+
+msgid "Network Configuration"
+msgstr ""
+
+msgid "NetConf allows you to configure easily your network interface."
+msgstr "Ligeann NetConf dhuit do comhéadan gréasánach a chumrú go héasca."
+
+msgid "Printer Configuration"
+msgstr ""
+
+msgid "PrinterDrake allows you to easily configure your printer. This one can be a local or a remote printer. PrinterDrake can configure access for Netware, SMB or Unix network printer."
+msgstr "Ligeann PrinterDrake dhuit do printéir a chumrú go héasca. Is féidir leis bheith ceangailte go díreach nó go hindíreach. Is féidir le PrinterDrake printéir ar Netware, SMB, nó Unix a chumrú"
+
+msgid "RpmDrake"
+msgstr ""
+
+msgid "Install/uninstall RPM packages"
+msgstr ""
+

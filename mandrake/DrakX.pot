@@ -1,0 +1,5108 @@
+# Irish translations for DrakX, the Mandrake Installer.
+# Copyright (C) 1999 Free Software Foundation, Inc.
+# Irish Linux Users Group <ilug@linux.ie>, 1999
+#
+# Credits where due:
+#   Proinnsias Breathnach <breatpro@dublin.ml.com-nospam>
+#   Donncha Ó'Caoimh <donncha.ocaoimh@tradesignals.com-nospam>
+#   Barra Ó'Caoimh <Care of donncha.ocaoimh@tradesignals.com-nospam>
+#   John McDonnell <johnmc@student.nuigalway.ie-nospam>
+#   Alastair McKinstry <mckinstry@comput
+# Who've all contributed so far. 
+# Proinnsias 16-Dec-1999
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: DrakX VERSION\n"
+"POT-Creation-Date: 2000-09-06 00:08+0200\n"
+"PO-Revision-Date: 1999-12-16 10:33+0100\n"
+"Last-Translator: Proinnsias Breathnach <breatpro@dublin.ml.com>\n"
+"Language-Team: Gaeilge <ga@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=iso-8859-1\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../Xconfigurator.pm_.c:123 ../../Xconfigurator.pm_.c:289
+msgid "Generic"
+msgstr "Gnáth"
+
+#: ../../Xconfigurator.pm_.c:179
+msgid "Graphic card"
+msgstr "Carta Grafach"
+
+#: ../../Xconfigurator.pm_.c:179
+msgid "Select a graphic card"
+msgstr "Roghnaigh carta grafachach"
+
+#: ../../Xconfigurator.pm_.c:180
+msgid "Choose a X server"
+msgstr "Roghnaigh freastalaí X"
+
+#: ../../Xconfigurator.pm_.c:180
+msgid "X server"
+msgstr "X freastalaí"
+
+#: ../../Xconfigurator.pm_.c:204
+msgid "Do you want support for hardware 3D acceleration?"
+msgstr ""
+
+#: ../../Xconfigurator.pm_.c:212
+msgid ""
+"Your card can have 3D acceleration but only with XFree 3.3.\n"
+"Do You want to use XFree 3.3 instead of XFree 4.0?"
+msgstr ""
+
+#: ../../Xconfigurator.pm_.c:236
+msgid "Select the memory size of your graphic card"
+msgstr "Roghnaigh an méid cuimhne atá id' charta grafachach"
+
+#: ../../Xconfigurator.pm_.c:278
+msgid "Choose options for server"
+msgstr "Roghnaigh cumraíocht an freastalaí"
+
+#: ../../Xconfigurator.pm_.c:289
+msgid "Choose a monitor"
+msgstr "Roghnaigh scáileán"
+
+#: ../../Xconfigurator.pm_.c:289
+msgid "Monitor"
+msgstr "Scáileán"
+
+#: ../../Xconfigurator.pm_.c:292
+msgid ""
+"The two critical parameters are the vertical refresh rate, which is the "
+"rate\n"
+"at which the whole screen is refreshed, and most importantly the horizontal\n"
+"sync rate, which is the rate at which scanlines are displayed.\n"
+"\n"
+"It is VERY IMPORTANT that you do not specify a monitor type with a sync "
+"range\n"
+"that is beyond the capabilities of your monitor: you may damage your "
+"monitor.\n"
+" If in doubt, choose a conservative setting."
+msgstr ""
+
+#: ../../Xconfigurator.pm_.c:299
+msgid "Horizontal refresh rate"
+msgstr "Ráta athnuachana cothrománach"
+
+#: ../../Xconfigurator.pm_.c:299
+msgid "Vertical refresh rate"
+msgstr "Ráta athnuachana ingearach"
+
+#: ../../Xconfigurator.pm_.c:338
+msgid "Monitor not configured"
+msgstr "Níl aon scáileán cumraithe"
+
+#: ../../Xconfigurator.pm_.c:341
+msgid "Graphic card not configured yet"
+msgstr "Níl aon carta grafachach cumraithe"
+
+#: ../../Xconfigurator.pm_.c:344
+msgid "Resolutions not chosen yet"
+msgstr "Níl aoin réiteach cumraithe"
+
+#: ../../Xconfigurator.pm_.c:357
+msgid "Do you want to test the configuration?"
+msgstr "An bhfuil tú ag iarraidh an cumraíocht a thrial?"
+
+#: ../../Xconfigurator.pm_.c:361
+msgid "Warning: testing is dangerous on this graphic card"
+msgstr ""
+
+#: ../../Xconfigurator.pm_.c:364
+msgid "Test of the configuration"
+msgstr "Trialaigh an cumraíocht"
+
+#: ../../Xconfigurator.pm_.c:403
+msgid ""
+"\n"
+"try to change some parameters"
+msgstr ""
+"\n"
+"bain trial as roinnt paraiméadair a athrú"
+
+#: ../../Xconfigurator.pm_.c:403
+msgid "An error has occurred:"
+msgstr "Tharla Earráid:"
+
+#: ../../Xconfigurator.pm_.c:426
+#, c-format
+msgid "Leaving in %d seconds"
+msgstr "Ag éalú i %d siocand"
+
+#: ../../Xconfigurator.pm_.c:430
+msgid "Is this the correct setting?"
+msgstr "An bhfuil seo ceart?"
+
+#: ../../Xconfigurator.pm_.c:438
+msgid "An error has occurred, try to change some parameters"
+msgstr "Tharla earráid, bain trial as roinnt paraiméadair a athrú"
+
+#: ../../Xconfigurator.pm_.c:446 ../../Xconfigurator.pm_.c:630
+msgid "Automatic resolutions"
+msgstr "Uath-Réiteach"
+
+#: ../../Xconfigurator.pm_.c:447
+msgid ""
+"To find the available resolutions I will try different ones.\n"
+"Your screen will blink...\n"
+"You can switch if off if you want, you'll hear a beep when it's over"
+msgstr ""
+
+#: ../../Xconfigurator.pm_.c:506 ../../printerdrake.pm_.c:274
+msgid "Resolution"
+msgstr "Réiteach"
+
+#: ../../Xconfigurator.pm_.c:541
+msgid "Choose the resolution and the color depth"
+msgstr ""
+
+#: ../../Xconfigurator.pm_.c:543
+#, c-format
+msgid "Graphic card: %s"
+msgstr "Carta Grafach: %s"
+
+#: ../../Xconfigurator.pm_.c:544
+#, c-format
+msgid "XFree86 server: %s"
+msgstr "Freastalaí XFree86: %s"
+
+#: ../../Xconfigurator.pm_.c:553
+msgid "Show all"
+msgstr "Taispéan gach ceann"
+
+#: ../../Xconfigurator.pm_.c:577
+msgid "Resolutions"
+msgstr "Réiteachaí"
+
+#: ../../Xconfigurator.pm_.c:631
+msgid ""
+"I can try to find the available resolutions (eg: 800x600).\n"
+"Sometimes, though, it may hang the machine.\n"
+"Do you want to try?"
+msgstr ""
+
+#: ../../Xconfigurator.pm_.c:636
+msgid ""
+"No valid modes found\n"
+"Try with another video card or monitor"
+msgstr ""
+
+#: ../../Xconfigurator.pm_.c:1008
+#, c-format
+msgid "Keyboard layout: %s\n"
+msgstr "Leagan amach eocharchlára: %s\n"
+
+#: ../../Xconfigurator.pm_.c:1009
+#, c-format
+msgid "Mouse type: %s\n"
+msgstr "Cineál luchóg: %s\n"
+
+#: ../../Xconfigurator.pm_.c:1010
+#, c-format
+msgid "Mouse device: %s\n"
+msgstr "Gaireas luchóige: %s\n"
+
+#: ../../Xconfigurator.pm_.c:1011
+#, c-format
+msgid "Monitor: %s\n"
+msgstr "Scáileán: %s\n"
+
+#: ../../Xconfigurator.pm_.c:1012
+#, c-format
+msgid "Monitor HorizSync: %s\n"
+msgstr ""
+
+#: ../../Xconfigurator.pm_.c:1013
+#, c-format
+msgid "Monitor VertRefresh: %s\n"
+msgstr ""
+
+#: ../../Xconfigurator.pm_.c:1014
+#, c-format
+msgid "Graphic card: %s\n"
+msgstr "Carta Grafach: %s\n"
+
+#: ../../Xconfigurator.pm_.c:1015
+#, c-format
+msgid "Graphic memory: %s kB\n"
+msgstr "Cuimhne grafach: %s kb\n"
+
+#: ../../Xconfigurator.pm_.c:1016
+#, c-format
+msgid "XFree86 server: %s\n"
+msgstr "Freastalaí XFree86: %s\n"
+
+#: ../../Xconfigurator.pm_.c:1031
+msgid "Preparing X-Window configuration"
+msgstr "Ag ullmhú cumraíocht X-Windows"
+
+#: ../../Xconfigurator.pm_.c:1045
+msgid "Change Monitor"
+msgstr "Athraigh Scáileán"
+
+#: ../../Xconfigurator.pm_.c:1046
+msgid "Change Graphic card"
+msgstr "Athraigh carta grafach"
+
+#: ../../Xconfigurator.pm_.c:1047
+msgid "Change Server options"
+msgstr "Athraigh cumraíocht an freastalaí"
+
+#: ../../Xconfigurator.pm_.c:1048
+msgid "Change Resolution"
+msgstr "Athraigh Réiteach"
+
+#: ../../Xconfigurator.pm_.c:1049
+msgid "Automatical resolutions search"
+msgstr "Uath-cuardaigh réiteach"
+
+#: ../../Xconfigurator.pm_.c:1053
+msgid "Show information"
+msgstr "Taispeán Eolas"
+
+#: ../../Xconfigurator.pm_.c:1054
+msgid "Test again"
+msgstr "Bain trial as arís"
+
+#: ../../Xconfigurator.pm_.c:1055 ../../standalone/rpmdrake_.c:46
+msgid "Quit"
+msgstr "Éalaigh"
+
+#: ../../Xconfigurator.pm_.c:1059 ../../standalone/drakboot_.c:40
+msgid "What do you want to do?"
+msgstr "Céard a theastaíonn uait a dhéanamh?"
+
+#: ../../Xconfigurator.pm_.c:1066
+msgid "Forget the changes?"
+msgstr ""
+
+#: ../../Xconfigurator.pm_.c:1084
+#, c-format
+msgid "Please relog into %s to activate the changes"
+msgstr ""
+
+#: ../../Xconfigurator.pm_.c:1100
+msgid "Please log out and then use Ctrl-Alt-BackSpace"
+msgstr ""
+
+#: ../../Xconfigurator.pm_.c:1103
+msgid "X at startup"
+msgstr "X ag tús"
+
+#: ../../Xconfigurator.pm_.c:1104
+msgid ""
+"I can set up your computer to automatically start X upon booting.\n"
+"Would you like X to start when you reboot?"
+msgstr ""
+"Is féidir linn do ríomhaire a shocrú le X a thosnú i ndhiadh bootáil.\n"
+"An dteastaíonn uait go dtosnófar X nuair a aththosnítear an ríomhaire?"
+
+#: ../../Xconfigurator.pm_.c:1121
+msgid "Autologin"
+msgstr "Uath-Logann"
+
+#: ../../Xconfigurator.pm_.c:1122
+#, fuzzy
+msgid ""
+"I can set up your computer to automatically log on one user.\n"
+"If you don't want to use this feature, click on the cancel button."
+msgstr ""
+"Is féidir linn do ríomhaire a shocrú le X a thosnú i ndhiadh bootáil.\n"
+"An dteastaíonn uait go dtosnófar X nuair a aththosnítear an ríomhaire?"
+
+#: ../../Xconfigurator.pm_.c:1124
+msgid "Choose the default user:"
+msgstr "Roghnagih an úsáidoer gneás:"
+
+#: ../../Xconfigurator.pm_.c:1125
+msgid "Choose the window_manager to run:"
+msgstr "Roghnaigh an Bainistéoir Fhuinneoga a úsásd:"
+
+#: ../../Xconfigurator_consts.pm_.c:6
+msgid "256 colors (8 bits)"
+msgstr "256 dath (8 giotáin)"
+
+#: ../../Xconfigurator_consts.pm_.c:7
+msgid "32 thousand colors (15 bits)"
+msgstr "32 míle dath (15 giotáin)"
+
+#: ../../Xconfigurator_consts.pm_.c:8
+msgid "65 thousand colors (16 bits)"
+msgstr "65 míle dath (16 giotáin)"
+
+#: ../../Xconfigurator_consts.pm_.c:9
+msgid "16 million colors (24 bits)"
+msgstr "16 milliún dath (24 giotáin)"
+
+#: ../../Xconfigurator_consts.pm_.c:10
+msgid "4 billion colors (32 bits)"
+msgstr "4 billiún dath (32 giotáin)"
+
+#: ../../Xconfigurator_consts.pm_.c:105
+msgid "256 kB"
+msgstr "256 kB"
+
+#: ../../Xconfigurator_consts.pm_.c:106
+msgid "512 kB"
+msgstr "512 kB"
+
+#: ../../Xconfigurator_consts.pm_.c:107
+msgid "1 MB"
+msgstr "1 MB"
+
+#: ../../Xconfigurator_consts.pm_.c:108
+msgid "2 MB"
+msgstr "2 MB"
+
+#: ../../Xconfigurator_consts.pm_.c:109
+msgid "4 MB"
+msgstr "4 MB"
+
+#: ../../Xconfigurator_consts.pm_.c:110
+msgid "8 MB"
+msgstr "8 MB"
+
+#: ../../Xconfigurator_consts.pm_.c:111
+msgid "16 MB or more"
+msgstr "16 MB nó níos mó"
+
+#: ../../Xconfigurator_consts.pm_.c:116 ../../Xconfigurator_consts.pm_.c:117
+msgid "Standard VGA, 640x480 at 60 Hz"
+msgstr "Gnáth VGA, 640x480 ag 60Hz"
+
+#: ../../Xconfigurator_consts.pm_.c:118
+msgid "Super VGA, 800x600 at 56 Hz"
+msgstr "Super VGA, 800x600 ag 56 Hz"
+
+#: ../../Xconfigurator_consts.pm_.c:119
+msgid "8514 Compatible, 1024x768 at 87 Hz interlaced (no 800x600)"
+msgstr "Cinéal 8514, 1024x768 ag 87 Hz Idirdhuillith (gan 800x600)"
+
+#: ../../Xconfigurator_consts.pm_.c:120
+msgid "Super VGA, 1024x768 at 87 Hz interlaced, 800x600 at 56 Hz"
+msgstr "Super VGA, 1024x768 ag 87 Hz Idirdhuillithe, 800x600 ag 56 Hz"
+
+#: ../../Xconfigurator_consts.pm_.c:121
+msgid "Extended Super VGA, 800x600 at 60 Hz, 640x480 at 72 Hz"
+msgstr "SVGA Leathnaithe, 800x600 ag 60 Hz, 640x480 ag 72 Hz"
+
+#: ../../Xconfigurator_consts.pm_.c:122
+msgid "Non-Interlaced SVGA, 1024x768 at 60 Hz, 800x600 at 72 Hz"
+msgstr "SVGA Neamh-idirdhuillithe, 1024x768 ag 60 Hz, 800x600 ag 72 Hz"
+
+#: ../../Xconfigurator_consts.pm_.c:123
+msgid "High Frequency SVGA, 1024x768 at 70 Hz"
+msgstr "SVGA d'árd minicíocht, 1024x768 ag 70 Hz"
+
+#: ../../Xconfigurator_consts.pm_.c:124
+msgid "Multi-frequency that can do 1280x1024 at 60 Hz"
+msgstr "Scáileán ilmhinicíocht a bhfuil in ann do 1280x1024 ag 60 Hz"
+
+#: ../../Xconfigurator_consts.pm_.c:125
+msgid "Multi-frequency that can do 1280x1024 at 74 Hz"
+msgstr "Scáileán ilmhinicíocht a bhfuil in ann do 1280x1024 ag 74 Hz"
+
+#: ../../Xconfigurator_consts.pm_.c:126
+msgid "Multi-frequency that can do 1280x1024 at 76 Hz"
+msgstr "Scáileán ilmhinicíocht a bhfuil in ann do 1280x1024 ag 76 Hz"
+
+#: ../../Xconfigurator_consts.pm_.c:127
+msgid "Monitor that can do 1600x1200 at 70 Hz"
+msgstr "Scáileán a bhfuil in ann do 1600x1200 ag 70Hz"
+
+#: ../../Xconfigurator_consts.pm_.c:128
+msgid "Monitor that can do 1600x1200 at 76 Hz"
+msgstr "Scáileán a bhfuil in ann do 1600x1200 ag 76Hz"
+
+#: ../../any.pm_.c:91 ../../any.pm_.c:121
+msgid "First sector of boot partition"
+msgstr ""
+
+#: ../../any.pm_.c:91 ../../any.pm_.c:121 ../../any.pm_.c:150
+msgid "First sector of drive (MBR)"
+msgstr ""
+
+#: ../../any.pm_.c:95
+msgid "SILO Installation"
+msgstr "Roghnaigh rang feistiú"
+
+#: ../../any.pm_.c:96 ../../any.pm_.c:102
+msgid "Where do you want to install the bootloader?"
+msgstr ""
+
+#: ../../any.pm_.c:101
+msgid "LILO/grub Installation"
+msgstr "Feistiú LILO/grub"
+
+#: ../../any.pm_.c:111
+msgid "None"
+msgstr "Ar bith"
+
+#: ../../any.pm_.c:111
+#, fuzzy
+msgid "Which bootloader(s) do you want to use?"
+msgstr "Cén tescán ag a dteastaíonn uait é a bhogadh?"
+
+#: ../../any.pm_.c:125
+msgid "Bootloader installation"
+msgstr ""
+
+#: ../../any.pm_.c:127
+msgid "Boot device"
+msgstr ""
+
+#: ../../any.pm_.c:128
+msgid "LBA (doesn't work on old BIOSes)"
+msgstr ""
+
+#: ../../any.pm_.c:129
+msgid "Compact"
+msgstr ""
+
+#: ../../any.pm_.c:129
+msgid "compact"
+msgstr ""
+
+#: ../../any.pm_.c:130
+msgid "Video mode"
+msgstr "Mód fís"
+
+#: ../../any.pm_.c:132
+msgid "Delay before booting default image"
+msgstr ""
+
+#: ../../any.pm_.c:134 ../../install_steps_interactive.pm_.c:606
+#: ../../install_steps_interactive.pm_.c:657 ../../netconnect.pm_.c:522
+#: ../../printerdrake.pm_.c:91 ../../printerdrake.pm_.c:125
+#: ../../standalone/adduserdrake_.c:42
+msgid "Password"
+msgstr "Pasfhocal"
+
+#: ../../any.pm_.c:135 ../../install_steps_interactive.pm_.c:607
+#: ../../install_steps_interactive.pm_.c:658
+#: ../../standalone/adduserdrake_.c:43
+msgid "Password (again)"
+msgstr "Pasfhocal (arís)"
+
+#: ../../any.pm_.c:136
+msgid "Restrict command line options"
+msgstr ""
+
+#: ../../any.pm_.c:136
+msgid "restrict"
+msgstr ""
+
+#: ../../any.pm_.c:142
+msgid "Bootloader main options"
+msgstr ""
+
+#: ../../any.pm_.c:145
+msgid ""
+"Option ``Restrict command line options'' is of no use without a password"
+msgstr ""
+
+#: ../../any.pm_.c:146 ../../install_steps_interactive.pm_.c:616
+#: ../../install_steps_interactive.pm_.c:671
+#: ../../standalone/adduserdrake_.c:56
+msgid "Please try again"
+msgstr "Aththrialaigh"
+
+#: ../../any.pm_.c:146 ../../install_steps_interactive.pm_.c:616
+#: ../../install_steps_interactive.pm_.c:671
+#: ../../standalone/adduserdrake_.c:56
+msgid "The passwords do not match"
+msgstr "Ní mar a chéile na pasfhocail"
+
+#: ../../any.pm_.c:157
+msgid ""
+"Here are the different entries.\n"
+"You can add some more or change the existing ones."
+msgstr ""
+
+#: ../../any.pm_.c:165 ../../printerdrake.pm_.c:350
+#: ../../standalone/rpmdrake_.c:302
+msgid "Add"
+msgstr "Suim"
+
+#: ../../any.pm_.c:165 ../../diskdrake.pm_.c:45
+#: ../../install_steps_interactive.pm_.c:651 ../../printerdrake.pm_.c:350
+#: ../../standalone/adduserdrake_.c:36
+msgid "Done"
+msgstr "Críochnithe"
+
+#: ../../any.pm_.c:174
+msgid "Which type of entry do you want to add?"
+msgstr ""
+
+#: ../../any.pm_.c:175
+msgid "Linux"
+msgstr "Linux"
+
+#: ../../any.pm_.c:175
+msgid "Other OS (SunOS...)"
+msgstr "CO Eile (SunOS...)"
+
+#: ../../any.pm_.c:175
+msgid "Other OS (windows...)"
+msgstr "CO Eile (windows...)"
+
+#: ../../any.pm_.c:196
+msgid "Image"
+msgstr "Iomha"
+
+#: ../../any.pm_.c:197 ../../any.pm_.c:205
+msgid "Root"
+msgstr "Root"
+
+#: ../../any.pm_.c:198
+msgid "Append"
+msgstr "Append"
+
+#: ../../any.pm_.c:199
+msgid "Initrd"
+msgstr "Initrd"
+
+#: ../../any.pm_.c:200
+msgid "Read-write"
+msgstr "Léamh-Scríobh"
+
+#: ../../any.pm_.c:207
+msgid "Table"
+msgstr "Table"
+
+#: ../../any.pm_.c:208
+msgid "Unsafe"
+msgstr ""
+
+#: ../../any.pm_.c:214
+msgid "Label"
+msgstr ""
+
+#: ../../any.pm_.c:216
+msgid "Default"
+msgstr "Gnáth"
+
+#: ../../any.pm_.c:219 ../../install_steps_gtk.pm_.c:609
+#: ../../install_steps_interactive.pm_.c:604 ../../interactive.pm_.c:74
+#: ../../interactive.pm_.c:84 ../../interactive.pm_.c:234
+#: ../../interactive_newt.pm_.c:49 ../../interactive_newt.pm_.c:98
+#: ../../interactive_stdio.pm_.c:27 ../../my_gtk.pm_.c:210
+#: ../../my_gtk.pm_.c:445 ../../my_gtk.pm_.c:620 ../../printerdrake.pm_.c:383
+#: ../../printerdrake.pm_.c:395
+msgid "Ok"
+msgstr "Ok"
+
+#: ../../any.pm_.c:219
+msgid "Remove entry"
+msgstr ""
+
+#: ../../any.pm_.c:222
+msgid "Empty label not allowed"
+msgstr ""
+
+#: ../../any.pm_.c:223
+msgid "This label is already used"
+msgstr "Is ann cheana don ainm úsáideora seo"
+
+#: ../../any.pm_.c:411
+msgid "Configuring PCMCIA cards..."
+msgstr "Cumraigh Cártaí PCMCIA"
+
+#: ../../any.pm_.c:411
+msgid "PCMCIA"
+msgstr "PCMCIA"
+
+#: ../../any.pm_.c:432
+#, c-format
+msgid "Found %s %s interfaces"
+msgstr ""
+
+#: ../../any.pm_.c:433
+msgid "Do you have another one?"
+msgstr "An bhfuil ceann eile agat?"
+
+#: ../../any.pm_.c:434
+#, c-format
+msgid "Do you have any %s interfaces?"
+msgstr "An bhfuil comhéadan %s agat?"
+
+#: ../../any.pm_.c:436 ../../interactive.pm_.c:79 ../../my_gtk.pm_.c:444
+#: ../../netconnect.pm_.c:80 ../../netconnect.pm_.c:444
+#: ../../printerdrake.pm_.c:231
+msgid "No"
+msgstr "Níl"
+
+#: ../../any.pm_.c:436 ../../interactive.pm_.c:79 ../../my_gtk.pm_.c:444
+#: ../../netconnect.pm_.c:78 ../../netconnect.pm_.c:442
+msgid "Yes"
+msgstr "Tá"
+
+#: ../../any.pm_.c:437
+msgid "See hardware info"
+msgstr "Leámh an t-eolais crua-earra"
+
+#. -PO: the first %s is the card type (scsi, network, sound,...)
+#. -PO: the second is the vendor+model name
+#: ../../any.pm_.c:454
+#, c-format
+msgid "Installing driver for %s card %s"
+msgstr "Ag feistáil tiomanaí do %s, carta %s"
+
+#: ../../any.pm_.c:455
+#, c-format
+msgid "(module %s)"
+msgstr ""
+
+#. -PO: the %s is the driver type (scsi, network, sound,...)
+#: ../../any.pm_.c:465
+#, c-format
+msgid "Which %s driver should I try?"
+msgstr ""
+
+#: ../../any.pm_.c:473
+#, c-format
+msgid ""
+"In some cases, the %s driver needs to have extra information to work\n"
+"properly, although it normally works fine without. Would you like to "
+"specify\n"
+"extra options for it or allow the driver to probe your machine for the\n"
+"information it needs? Occasionally, probing will hang a computer, but it "
+"should\n"
+"not cause any damage."
+msgstr ""
+
+#: ../../any.pm_.c:478
+msgid "Autoprobe"
+msgstr ""
+
+#: ../../any.pm_.c:478
+msgid "Specify options"
+msgstr "Cumraigh roghanna"
+
+#: ../../any.pm_.c:482
+#, c-format
+msgid "You may now provide its options to module %s."
+msgstr ""
+
+#: ../../any.pm_.c:488
+#, c-format
+msgid ""
+"You may now provide its options to module %s.\n"
+"Options are in format ``name=value name2=value2 ...''.\n"
+"For instance, ``io=0x300 irq=7''"
+msgstr ""
+
+#: ../../any.pm_.c:491
+msgid "Module options:"
+msgstr ""
+
+#: ../../any.pm_.c:501
+#, c-format
+msgid ""
+"Loading module %s failed.\n"
+"Do you want to try again with other parameters?"
+msgstr ""
+
+# NOTE: this message will be displayed at boot time; that is
+# only the ascii charset will be available on most machines
+# so use only 7bit for this message (and do transliteration or
+# leave it in English, as it is the best for your language)
+# 
+#: ../../bootloader.pm_.c:230
+#, c-format
+msgid ""
+"Welcome to %s the operating system chooser!\n"
+"\n"
+"To list the possible choices, press <TAB>.\n"
+"\n"
+"To load one of them, write its name and press <ENTER> or\n"
+"wait %d seconds for default boot.\n"
+"\n"
+msgstr ""
+
+# NOTE: this message will be displayed by grub at boot time; that is
+# using the BIOS font; that means cp437 charset on 99.99% of PC computers
+# out there. It is the nsuggested that for non latin languages an ascii
+# transliteration be used; or maybe the english text be used; as it is best
+#
+# The lines must fit on screen, aka length < 80
+# and only one line per string for the GRUB messages
+#
+#: ../../bootloader.pm_.c:602
+msgid "Welcome to GRUB the operating system chooser!"
+msgstr ""
+
+#: ../../bootloader.pm_.c:603
+#, c-format
+msgid "Use the %c and %c keys for selecting which entry is highlighted."
+msgstr ""
+
+#: ../../bootloader.pm_.c:604
+msgid "Press enter to boot the selected OS, 'e' to edit the"
+msgstr ""
+
+#: ../../bootloader.pm_.c:605
+msgid "commands before booting, or 'c' for a command-line."
+msgstr ""
+
+#: ../../bootloader.pm_.c:606
+#, c-format
+msgid "The highlighted entry will be booted automatically in %d seconds."
+msgstr ""
+
+#: ../../bootloader.pm_.c:610
+msgid "not enough room in /boot"
+msgstr ""
+
+#. -PO: "Desktop" and "Start Menu" are the name of the directories found in c:\windows
+#: ../../bootloader.pm_.c:689
+msgid "Desktop"
+msgstr ""
+
+#: ../../bootloader.pm_.c:689
+msgid "Start Menu"
+msgstr "Clár Tosnú"
+
+#: ../../diskdrake.pm_.c:20 ../../diskdrake.pm_.c:419
+msgid "Create"
+msgstr "Cruthaigh"
+
+#: ../../diskdrake.pm_.c:21
+msgid "Unmount"
+msgstr ""
+
+#: ../../diskdrake.pm_.c:22 ../../diskdrake.pm_.c:421
+msgid "Delete"
+msgstr "Dealaigh"
+
+#: ../../diskdrake.pm_.c:22
+msgid "Format"
+msgstr "Formáidigh"
+
+#: ../../diskdrake.pm_.c:22 ../../diskdrake.pm_.c:595
+msgid "Resize"
+msgstr "Athméidigh"
+
+#: ../../diskdrake.pm_.c:22 ../../diskdrake.pm_.c:419
+#: ../../diskdrake.pm_.c:472
+msgid "Type"
+msgstr "Cineál"
+
+#: ../../diskdrake.pm_.c:23 ../../diskdrake.pm_.c:492
+msgid "Mount point"
+msgstr ""
+
+#: ../../diskdrake.pm_.c:37
+msgid "Write /etc/fstab"
+msgstr "Scríobh /etc/fstab"
+
+#: ../../diskdrake.pm_.c:38
+msgid "Toggle to expert mode"
+msgstr ""
+
+#: ../../diskdrake.pm_.c:39
+msgid "Toggle to normal mode"
+msgstr ""
+
+#: ../../diskdrake.pm_.c:40
+msgid "Restore from file"
+msgstr "Aisig ó comhad"
+
+#: ../../diskdrake.pm_.c:41
+msgid "Save in file"
+msgstr "Sabháil i gcomhad"
+
+#: ../../diskdrake.pm_.c:42
+msgid "Wizard"
+msgstr ""
+
+#: ../../diskdrake.pm_.c:43
+msgid "Restore from floppy"
+msgstr "Aisig ó dhiosca flapach"
+
+#: ../../diskdrake.pm_.c:44
+msgid "Save on floppy"
+msgstr "Sabháil ar dhiosca flapach"
+
+#: ../../diskdrake.pm_.c:48
+msgid "Clear all"
+msgstr "Glan gach ceann"
+
+#: ../../diskdrake.pm_.c:49
+msgid "Format all"
+msgstr "Formáidigh gach ceann"
+
+#: ../../diskdrake.pm_.c:50
+msgid "Auto allocate"
+msgstr ""
+
+#: ../../diskdrake.pm_.c:53
+msgid "All primary partitions are used"
+msgstr "Tá na ranna príofa uilig úsáidthe"
+
+#: ../../diskdrake.pm_.c:53
+msgid "I can't add any more partition"
+msgstr "Ní féidir liom rann eile a cur isteach"
+
+#: ../../diskdrake.pm_.c:53
+msgid ""
+"To have more partitions, please delete one to be able to create an extended "
+"partition"
+msgstr ""
+"Le breis ranna a bheith agat, dealaigh ceann amháin le bheith in ann "
+"rannsínithe a cruthú"
+
+#: ../../diskdrake.pm_.c:56
+msgid "Rescue partition table"
+msgstr ""
+
+#: ../../diskdrake.pm_.c:57
+msgid "Undo"
+msgstr "Cealaigh"
+
+#: ../../diskdrake.pm_.c:58
+msgid "Write partition table"
+msgstr "Scriobh clár-ranna"
+
+#: ../../diskdrake.pm_.c:59
+msgid "Reload"
+msgstr "Athlódaigh"
+
+#: ../../diskdrake.pm_.c:100
+msgid "loopback"
+msgstr ""
+
+#: ../../diskdrake.pm_.c:113
+msgid "Ext2"
+msgstr "Ext2"
+
+#: ../../diskdrake.pm_.c:113
+msgid "FAT"
+msgstr "FAT"
+
+#: ../../diskdrake.pm_.c:113
+msgid "HFS"
+msgstr "HFS"
+
+#: ../../diskdrake.pm_.c:113
+msgid "SunOS"
+msgstr "SunOS"
+
+#: ../../diskdrake.pm_.c:113
+msgid "Swap"
+msgstr "Malairte"
+
+#: ../../diskdrake.pm_.c:114
+msgid "Empty"
+msgstr "Folamh"
+
+#: ../../diskdrake.pm_.c:114
+msgid "Other"
+msgstr "Eile"
+
+#: ../../diskdrake.pm_.c:120
+msgid "Filesystem types:"
+msgstr "Cineál córais-comhadlanna"
+
+#: ../../diskdrake.pm_.c:129
+msgid "Details"
+msgstr "Sonraí"
+
+#: ../../diskdrake.pm_.c:143
+msgid ""
+"You have one big FAT partition\n"
+"(generally used by MicroSoft Dos/Windows).\n"
+"I suggest you first resize that partition\n"
+"(click on it, then click on \"Resize\")"
+msgstr ""
+"Tá rann mór FAT amháin agat.\n"
+"Molaim dhuit an rann sin a athmhéadú ar dtús\n"
+"(roghnaigh an rann agus brú ar \"Athméidigh\")"
+
+#: ../../diskdrake.pm_.c:148
+msgid "Please make a backup of your data first"
+msgstr ""
+
+#: ../../diskdrake.pm_.c:148 ../../diskdrake.pm_.c:165
+#: ../../diskdrake.pm_.c:174 ../../diskdrake.pm_.c:524
+#: ../../diskdrake.pm_.c:546
+msgid "Read carefully!"
+msgstr "Léigh go curamach"
+
+#: ../../diskdrake.pm_.c:151
+msgid ""
+"If you plan to use aboot, be carefull to leave a free space (2048 sectors is "
+"enough)\n"
+"at the beginning of the disk"
+msgstr ""
+
+#: ../../diskdrake.pm_.c:165
+msgid "Be careful: this operation is dangerous."
+msgstr ""
+
+#: ../../diskdrake.pm_.c:202 ../../install_steps.pm_.c:75
+#: ../../install_steps_interactive.pm_.c:42
+#: ../../install_steps_interactive.pm_.c:222 ../../standalone/diskdrake_.c:60
+#: ../../standalone/rpmdrake_.c:294 ../../standalone/rpmdrake_.c:304
+msgid "Error"
+msgstr "Earráid"
+
+#: ../../diskdrake.pm_.c:227 ../../diskdrake.pm_.c:688
+msgid "Mount point: "
+msgstr ""
+
+#: ../../diskdrake.pm_.c:228 ../../diskdrake.pm_.c:269
+msgid "Device: "
+msgstr "Gaireas: "
+
+#: ../../diskdrake.pm_.c:229
+#, c-format
+msgid "DOS drive letter: %s (just a guess)\n"
+msgstr "Litir Dioscthiománt DOS: %s (buile faoi thuraim)\n"
+
+#: ../../diskdrake.pm_.c:230 ../../diskdrake.pm_.c:272
+msgid "Type: "
+msgstr "Cineál: "
+
+#: ../../diskdrake.pm_.c:231
+#, c-format
+msgid "Start: sector %s\n"
+msgstr "Tús: teascán %s\n"
+
+#: ../../diskdrake.pm_.c:232
+#, c-format
+msgid "Size: %d MB"
+msgstr "Méid: %d MB"
+
+#: ../../diskdrake.pm_.c:234
+#, c-format
+msgid ", %s sectors"
+msgstr ", %s teascáin"
+
+#: ../../diskdrake.pm_.c:236
+#, c-format
+msgid "Cylinder %d to cylinder %d\n"
+msgstr "Sorcóir %d go sorcóir %d\n"
+
+#: ../../diskdrake.pm_.c:237
+msgid "Formatted\n"
+msgstr "Formáidithe\n"
+
+#: ../../diskdrake.pm_.c:238
+msgid "Not formatted\n"
+msgstr "Neamhformáidithe\n"
+
+#: ../../diskdrake.pm_.c:239
+msgid "Mounted\n"
+msgstr ""
+
+#: ../../diskdrake.pm_.c:240
+#, c-format
+msgid "RAID md%s\n"
+msgstr "RAID md%s\n"
+
+#: ../../diskdrake.pm_.c:241
+#, c-format
+msgid "Loopback file(s): %s\n"
+msgstr ""
+
+#: ../../diskdrake.pm_.c:242
+msgid ""
+"Partition booted by default\n"
+"    (for MS-DOS boot, not for lilo)\n"
+msgstr ""
+"Rann tosaithe de ghnáth\n"
+"    (do thosnú MS-DOS, ní lilo)\n"
+
+#: ../../diskdrake.pm_.c:244
+#, c-format
+msgid "Level %s\n"
+msgstr "Leibhéal %s\n"
+
+#: ../../diskdrake.pm_.c:245
+#, c-format
+msgid "Chunk size %s\n"
+msgstr "Méid smután %s\n"
+
+#: ../../diskdrake.pm_.c:246
+#, c-format
+msgid "RAID-disks %s\n"
+msgstr "Dioscaí RAID %s\n"
+
+#: ../../diskdrake.pm_.c:248
+#, c-format
+msgid "Loopback file name: %s"
+msgstr ""
+
+#: ../../diskdrake.pm_.c:265
+msgid "Please click on a partition"
+msgstr ""
+
+#: ../../diskdrake.pm_.c:270
+#, c-format
+msgid "Size: %d MB\n"
+msgstr "Méid: %d MB\n"
+
+#: ../../diskdrake.pm_.c:271
+#, c-format
+msgid "Geometry: %s cylinders, %s heads, %s sectors\n"
+msgstr "Céimseasamh: %s sorcóir, %s ceann, %s teascán\n"
+
+#: ../../diskdrake.pm_.c:273
+#, c-format
+msgid "Partition table type: %s\n"
+msgstr "Cinéal tabla rann: %s\n"
+
+#: ../../diskdrake.pm_.c:274
+#, c-format
+msgid "on bus %d id %d\n"
+msgstr "ar bhús %d, id %d\n"
+
+#: ../../diskdrake.pm_.c:287
+msgid "Mount"
+msgstr ""
+
+#: ../../diskdrake.pm_.c:288
+msgid "Active"
+msgstr "Gníomhach"
+
+#: ../../diskdrake.pm_.c:289
+msgid "Add to RAID"
+msgstr "Cur le RAID"
+
+#: ../../diskdrake.pm_.c:290
+msgid "Remove from RAID"
+msgstr "Bain ó RAID"
+
+#: ../../diskdrake.pm_.c:291
+msgid "Modify RAID"
+msgstr "Athraigh RAID"
+
+#: ../../diskdrake.pm_.c:292
+msgid "Use for loopback"
+msgstr ""
+
+#: ../../diskdrake.pm_.c:299
+msgid "Choose action"
+msgstr "Roghnaigh gníomh"
+
+#: ../../diskdrake.pm_.c:392
+msgid ""
+"Sorry I won't accept to create /boot so far onto the drive (on a cylinder > "
+"1024).\n"
+"Either you use LILO and it won't work, or you don't use LILO and you don't "
+"need /boot"
+msgstr ""
+"Níl mé sasta /boot a cruthú comh fada sin isteach sa diosca, (ar sorcóir > "
+"1024).\n"
+"Má tá tú ag úsáid LILO ní oibróidh sé, nó níl /boot uait muna n-úsáideann tú "
+"LILO"
+
+#: ../../diskdrake.pm_.c:396
+msgid ""
+"The partition you've selected to add as root (/) is physically located "
+"beyond\n"
+"the 1024th cylinder of the hard drive, and you have no /boot partition.\n"
+"If you plan to use the LILO boot manager, be careful to add a /boot partition"
+msgstr ""
+"Tá an rann atá roghnaithe agat don fréamh (/) suitithe i ndhiadh an 1024ú\n"
+"sorcóir ar an dhiosca, agus níl aon rann /boot agat.\n"
+"Má tá tú chun LILO a úsáid, beidh ort rann /boot a cruthú ar ball."
+
+#: ../../diskdrake.pm_.c:402
+msgid ""
+"You've selected a software RAID partition as root (/).\n"
+"No bootloader is able to handle this without a /boot partition.\n"
+"So be careful to add a /boot partition"
+msgstr ""
+
+#: ../../diskdrake.pm_.c:419 ../../diskdrake.pm_.c:421
+#, c-format
+msgid "Use ``%s'' instead"
+msgstr ""
+
+#: ../../diskdrake.pm_.c:424
+msgid "Use ``Unmount'' first"
+msgstr ""
+
+#: ../../diskdrake.pm_.c:425 ../../diskdrake.pm_.c:467
+#, c-format
+msgid ""
+"After changing type of partition %s, all data on this partition will be lost"
+msgstr ""
+
+#: ../../diskdrake.pm_.c:437
+msgid "Continue anyway?"
+msgstr "Lean ar aghaidh ar aon nós?"
+
+#: ../../diskdrake.pm_.c:442
+msgid "Quit without saving"
+msgstr "Éalaigh gan sabháil"
+
+#: ../../diskdrake.pm_.c:442
+msgid "Quit without writing the partition table?"
+msgstr "Éalaigh gan an clár-ranna a scríobh?"
+
+#: ../../diskdrake.pm_.c:470
+msgid "Change partition type"
+msgstr "Athraigh cineál ranna"
+
+#: ../../diskdrake.pm_.c:471
+msgid "Which partition type do you want?"
+msgstr "Cén rann atá uait?"
+
+#: ../../diskdrake.pm_.c:474 ../../diskdrake.pm_.c:720
+msgid "You can't use ReiserFS for partitions smaller than 32MB"
+msgstr ""
+
+#: ../../diskdrake.pm_.c:490
+#, c-format
+msgid "Where do you want to mount loopback file %s?"
+msgstr ""
+
+#: ../../diskdrake.pm_.c:491
+#, c-format
+msgid "Where do you want to mount device %s?"
+msgstr ""
+
+#: ../../diskdrake.pm_.c:496
+msgid ""
+"Can't unset mount point as this partition is used for loop back.\n"
+"Remove the loopback first"
+msgstr ""
+
+#: ../../diskdrake.pm_.c:515
+#, c-format
+msgid "After formatting partition %s, all data on this partition will be lost"
+msgstr ""
+
+#: ../../diskdrake.pm_.c:517
+msgid "Formatting"
+msgstr "Ag formáidiú"
+
+#: ../../diskdrake.pm_.c:518
+#, c-format
+msgid "Formatting loopback file %s"
+msgstr ""
+
+#: ../../diskdrake.pm_.c:519 ../../install_steps_interactive.pm_.c:302
+#, c-format
+msgid "Formatting partition %s"
+msgstr "Ag formáidiú rann %s"
+
+#: ../../diskdrake.pm_.c:524
+msgid "After formatting all partitions,"
+msgstr "I ndhiadh na rann ar fad formáidiú,"
+
+#: ../../diskdrake.pm_.c:524
+msgid "all data on these partitions will be lost"
+msgstr "caillfear gach sonra ar na ranna"
+
+#: ../../diskdrake.pm_.c:530
+msgid "Move"
+msgstr "Bog"
+
+#: ../../diskdrake.pm_.c:531
+msgid "Which disk do you want to move it to?"
+msgstr "Cén diosca ag a dteastaíonn uait é a bhogadh?"
+
+#: ../../diskdrake.pm_.c:532
+msgid "Sector"
+msgstr "Teascán"
+
+#: ../../diskdrake.pm_.c:533
+msgid "Which sector do you want to move it to?"
+msgstr "Cén tescán ag a dteastaíonn uait é a bhogadh?"
+
+#: ../../diskdrake.pm_.c:536
+msgid "Moving"
+msgstr "Ag bogadh"
+
+#: ../../diskdrake.pm_.c:536
+msgid "Moving partition..."
+msgstr "Ag bogadh rann..."
+
+#: ../../diskdrake.pm_.c:546
+#, c-format
+msgid "Partition table of drive %s is going to be written to disk!"
+msgstr "Scríobhfar clár diosca %s go dhiosca!"
+
+#: ../../diskdrake.pm_.c:548
+msgid "You'll need to reboot before the modification can take place"
+msgstr "Beidh ort an ríomhaire a aththosnú sula ndéanfar an athrú"
+
+#: ../../diskdrake.pm_.c:569 ../../install_interactive.pm_.c:94
+msgid "Computing FAT filesystem bounds"
+msgstr "Ag ríomhadh teorainn na córais-comhadlanna FAT"
+
+#: ../../diskdrake.pm_.c:569 ../../diskdrake.pm_.c:623
+#: ../../install_interactive.pm_.c:94
+msgid "Resizing"
+msgstr "Ag athméadú"
+
+#: ../../diskdrake.pm_.c:590
+#, fuzzy
+msgid "All data on this partition should be backed-up"
+msgstr "caillfear gach sonra ar an rann seo"
+
+#: ../../diskdrake.pm_.c:592
+#, c-format
+msgid "After resizing partition %s, all data on this partition will be lost"
+msgstr ""
+
+#: ../../diskdrake.pm_.c:602
+msgid "Choose the new size"
+msgstr "Roghnaigh an méid nua"
+
+#: ../../diskdrake.pm_.c:602 ../../install_steps_graphical.pm_.c:287
+#: ../../install_steps_graphical.pm_.c:334 ../../partition_table_raw.pm_.c:101
+msgid "MB"
+msgstr "MB"
+
+#: ../../diskdrake.pm_.c:660
+msgid "Create a new partition"
+msgstr "Cruthaigh rann nua"
+
+#: ../../diskdrake.pm_.c:680
+msgid "Start sector: "
+msgstr "Teascán tosasch: "
+
+#: ../../diskdrake.pm_.c:684 ../../diskdrake.pm_.c:759
+msgid "Size in MB: "
+msgstr "Méid i MB: "
+
+#: ../../diskdrake.pm_.c:687 ../../diskdrake.pm_.c:762
+msgid "Filesystem type: "
+msgstr "Cineál córas-comhadlanna"
+
+#: ../../diskdrake.pm_.c:690
+msgid "Preference: "
+msgstr "Tosaíocht: "
+
+#: ../../diskdrake.pm_.c:738
+msgid "This partition can't be used for loopback"
+msgstr ""
+
+#: ../../diskdrake.pm_.c:748
+msgid "Loopback"
+msgstr ""
+
+#: ../../diskdrake.pm_.c:758
+msgid "Loopback file name: "
+msgstr ""
+
+#: ../../diskdrake.pm_.c:784
+msgid "File already used by another loopback, choose another one"
+msgstr ""
+
+#: ../../diskdrake.pm_.c:785
+msgid "File already exists. Use it?"
+msgstr ""
+
+#: ../../diskdrake.pm_.c:807 ../../diskdrake.pm_.c:823
+msgid "Select file"
+msgstr "Roghnaigh Comhad"
+
+#: ../../diskdrake.pm_.c:816
+msgid ""
+"The backup partition table has not the same size\n"
+"Still continue?"
+msgstr ""
+"Níl an méid céanna ar an rann cúltaca\n"
+"Lean ar aghaidh ar aon nós?"
+
+#: ../../diskdrake.pm_.c:824
+msgid "Warning"
+msgstr "Rabhadh"
+
+#: ../../diskdrake.pm_.c:825
+msgid ""
+"Insert a floppy in drive\n"
+"All data on this floppy will be lost"
+msgstr ""
+"Cur diosca flapach sa dioscthiomant\n"
+"Caillfear gach sonra ar an dhiosca seo"
+
+#: ../../diskdrake.pm_.c:836
+msgid "Trying to rescue partition table"
+msgstr "Ag iarraidh an clár-ranna a tarrtháil"
+
+#: ../../diskdrake.pm_.c:847
+msgid "device"
+msgstr "gaireas"
+
+#: ../../diskdrake.pm_.c:848
+msgid "level"
+msgstr "leibhéal"
+
+#: ../../diskdrake.pm_.c:849
+msgid "chunk size"
+msgstr "méid smután"
+
+#: ../../diskdrake.pm_.c:861
+msgid "Choose an existing RAID to add to"
+msgstr "Roghnaigh RAID atá ann le méadú"
+
+#: ../../diskdrake.pm_.c:862
+msgid "new"
+msgstr "nua"
+
+#: ../../fs.pm_.c:89 ../../fs.pm_.c:95 ../../fs.pm_.c:101 ../../fs.pm_.c:107
+#, c-format
+msgid "%s formatting of %s failed"
+msgstr "Formáidiú %s de %s teipithe"
+
+#: ../../fs.pm_.c:133
+#, c-format
+msgid "I don't know how to format %s in type %s"
+msgstr "níl a fhios agam conas %s a formáidiú go %s"
+
+#: ../../fs.pm_.c:190
+msgid "nfs mount failed"
+msgstr ""
+
+#: ../../fs.pm_.c:217
+msgid "mount failed: "
+msgstr ""
+
+#: ../../fs.pm_.c:228
+#, c-format
+msgid "error unmounting %s: %s"
+msgstr ""
+
+#: ../../fsedit.pm_.c:242
+msgid "Mount points must begin with a leading /"
+msgstr ""
+
+#: ../../fsedit.pm_.c:245
+#, c-format
+msgid "There is already a partition with mount point %s\n"
+msgstr ""
+
+#: ../../fsedit.pm_.c:253
+#, c-format
+msgid "Circular mounts %s\n"
+msgstr ""
+
+#: ../../fsedit.pm_.c:265
+msgid "You need a true filesystem (ext2, reiserfs) for this mount point\n"
+msgstr ""
+
+#: ../../fsedit.pm_.c:341
+#, c-format
+msgid "Error opening %s for writing: %s"
+msgstr "Earráid ag oscailt %s do scríobh: %s"
+
+#: ../../fsedit.pm_.c:423
+msgid ""
+"An error has occurred - no valid devices were found on which to create new "
+"filesystems. Please check your hardware for the cause of this problem"
+msgstr ""
+"Tharla earráid - ní fhuaireadh aon gaireas ar a bhféadfaí córais-comhadlanna "
+"nua a cruthu. Ba chóir duit do chuid crua-earraí a seiceáil le cúis an fadhb "
+"a aimsiú"
+
+#: ../../fsedit.pm_.c:437
+msgid "You don't have any partitions!"
+msgstr "Níl aon ranna agat!"
+
+#: ../../help.pm_.c:7
+msgid "Choose preferred language for install and system usage."
+msgstr ""
+
+#: ../../help.pm_.c:10
+msgid "Choose the layout corresponding to your keyboard from the list above"
+msgstr ""
+
+#: ../../help.pm_.c:13
+#, c-format
+msgid ""
+"Choose \"Install\" if there are no previous versions of GNU/Linux\n"
+"installed, or if you wish to use multiple distributions or versions.\n"
+"\n"
+"Choose \"Rescue\" if you wish to rescue a previous version of Mandrake "
+"Linux:\n"
+"%s or %s.\n"
+"\n"
+"\n"
+"Select:\n"
+"\n"
+"  - Recommended: If you have never installed GNU/Linux before, choose this.\n"
+"\n"
+"  - Customized: If you are familiar enough with GNU/Linux, you may then "
+"choose\n"
+"    the primary usage for your machine. See below for details.\n"
+"\n"
+"  - Expert: This supposes that you are fluent with GNU/Linux and want to\n"
+"    perform a highly customized installation. As for a \"Customized\"\n"
+"    installation class, you will be able to select the usage for your "
+"system.\n"
+"    But please, please, DO NOT CHOOSE THIS UNLESS YOU KNOW WHAT YOU ARE "
+"DOING!\n"
+msgstr ""
+
+#: ../../help.pm_.c:34
+msgid ""
+"Select:\n"
+"\n"
+"  - Customized: If you are familiar enough with GNU/Linux, you may then "
+"choose\n"
+"    the primary usage for your machine. See below for details.\n"
+"\n"
+"  - Expert: This supposes that you are fluent with GNU/Linux and want to\n"
+"    perform a highly customized installation. As for a \"Customized\"\n"
+"    installation class, you will be able to select the usage for your "
+"system.\n"
+"    But please, please, DO NOT CHOOSE THIS UNLESS YOU KNOW WHAT YOU ARE "
+"DOING!\n"
+msgstr ""
+
+#: ../../help.pm_.c:46
+msgid ""
+"The different choices for your machine's usage (provided, hence, that you "
+"have\n"
+"chosen either \"Custom\" or \"Expert\" as an installation class) are the\n"
+"following:\n"
+"\n"
+"  - Normal: choose this if you intend to use your machine primarily for\n"
+"    everyday use (office work, graphics manipulation and so on). Do not\n"
+"    expect any compiler, development utility et al. installed.\n"
+"\n"
+"  - Development: as its name says. Choose this if you intend to use your\n"
+"    machine primarily for software development. You will then have a "
+"complete\n"
+"    collection of software installed in order to compile, debug and format\n"
+"    source code, or create software packages.\n"
+"\n"
+"  - Server: choose this if the machine which you're installing "
+"Linux-Mandrake\n"
+"    on is intended to be used as a server. Either a file server (NFS or "
+"SMB),\n"
+"    a print server (Unix' lp (Line Printer) protocol or Windows style SMB\n"
+"    printing), an authentication server (NIS), a database server and so on. "
+"As\n"
+"    such, do not expect any gimmicks (KDE, GNOME...) to be installed.\n"
+msgstr ""
+
+#: ../../help.pm_.c:67
+msgid ""
+"DrakX will attempt to look for PCI SCSI adapter(s). \n"
+"If DrakX finds a SCSI adapter and knows which driver to use it will\n"
+"automatically install it (or them).\n"
+"\n"
+"If you have no SCSI adapter, an ISA SCSI adapter, or a\n"
+"PCI SCSI adapter that DrakX doesn't recognize you will be asked if a\n"
+"SCSI adapter is present in your system. If there is no adapter present\n"
+"you can just click 'No'. If you click 'Yes' a list of drivers will be\n"
+"presented from which you can select your specific adapter.\n"
+"\n"
+"\n"
+"If you had to manually specify your adapter, DrakX will\n"
+"ask if you want to specify options for it.  You should allow DrakX to\n"
+"probe the hardware for the options. This usually works well.\n"
+"\n"
+"If not, you will need to provide options to the driver.\n"
+"Review the Installation Guide for hints on retrieving this\n"
+"information from Windows (if you have it on your system),\n"
+"from hardware documentation, or from the manufacturer's\n"
+"website (if you have Internet access)."
+msgstr ""
+
+#: ../../help.pm_.c:89
+msgid ""
+"At this point, you may choose what partition(s) to use to install\n"
+"your Linux-Mandrake system if they have been already defined (from a\n"
+"previous install of GNU/Linux or from another partitioning tool). In other\n"
+"cases, hard drive partitions must be defined. This operation consists of\n"
+"logically dividing the computer's hard drive capacity into separate\n"
+"areas for use.\n"
+"\n"
+"\n"
+"If you have to create new partitions, use \"Auto allocate\" to "
+"automatically\n"
+"create partitions for GNU/Linux. You can select the disk for partitioning "
+"by\n"
+"clicking on \"hda\" for the first IDE drive,\n"
+"\"hdb\" for the second or \"sda\" for the first SCSI drive and so on.\n"
+"\n"
+"\n"
+"Two common partition are: the root partition (/), which is the starting\n"
+"point of the filesystem's directory hierarchy, and /boot, which contains\n"
+"all files necessary to start the operating system when the\n"
+"computer is first turned on.\n"
+"\n"
+"\n"
+"Because the effects of this process are usually irreversible, partitioning\n"
+"can be intimidating and stressful to the unexperienced user. DiskDrake\n"
+"simplifies the process so that it must not be. Consult the documentation\n"
+"and take your time before proceeding.\n"
+"\n"
+"\n"
+"You can reach any option using the keyboard: navigate through the "
+"partitions\n"
+"using Tab and Up/Down arrows. When a partition is selected, you can use:\n"
+"\n"
+"- Ctrl-c  to create a new partition (when an empty partition is selected)\n"
+"\n"
+"- Ctrl-d  to delete a partition\n"
+"\n"
+"- Ctrl-m  to set the mount point\n"
+msgstr ""
+
+#: ../../help.pm_.c:126
+msgid ""
+"Any partitions that have been newly defined must be formatted for\n"
+"use (formatting meaning creating a filesystem). At this time, you may\n"
+"wish to re-format some already existing partitions to erase the data\n"
+"they contain. Note: it is not necessary to re-format pre-existing\n"
+"partitions, particularly if they contain files or data you wish to keep.\n"
+"Typically retained are /home and /usr/local."
+msgstr ""
+
+#: ../../help.pm_.c:134
+msgid ""
+"You may now select the group of packages you wish to\n"
+"install or upgrade.\n"
+"\n"
+"DrakX will then check whether you have enough room to install them all. If "
+"not,\n"
+"it will warn you about it. If you want to go on anyway, it will proceed "
+"onto\n"
+"the installation of all selected groups but will drop some packages of "
+"lesser\n"
+"interest. At the bottom of the list you can select the option\n"
+"\"Individual package selection\"; in this case you will have to browse\n"
+"through more than 1000 packages..."
+msgstr ""
+
+#: ../../help.pm_.c:145
+msgid ""
+"If you have all the CDs in the list above, click Ok.\n"
+"If you have none of those CDs, click Cancel.\n"
+"If only some CDs are missing, unselect them, then click Ok."
+msgstr ""
+
+#: ../../help.pm_.c:150
+msgid ""
+"The packages selected are now being installed. This operation\n"
+"should take a few minutes unless you have chosen to upgrade an\n"
+"existing system, in that case it can take more time even before\n"
+"upgrade starts."
+msgstr ""
+
+#: ../../help.pm_.c:156
+msgid ""
+"If DrakX failed to find your mouse, or if you want to\n"
+"check what it has done, you will be presented the list of mice\n"
+"above.\n"
+"\n"
+"\n"
+"If you agree with DrakX's settings, just click 'Ok'.\n"
+"Otherwise you may choose the mouse that more closely matches your own\n"
+"from the menu above.\n"
+"\n"
+"\n"
+"In case of a serial mouse, you will also have to tell DrakX\n"
+"which serial port it is connected to."
+msgstr ""
+
+#: ../../help.pm_.c:170
+msgid ""
+"Please select the correct port. For example, the COM1 port under MS Windows\n"
+"is named ttyS0 under GNU/Linux."
+msgstr ""
+
+#: ../../help.pm_.c:174
+msgid ""
+"This section is dedicated to configuring a local area\n"
+"network (LAN) or a modem.\n"
+"\n"
+"Choose \"Local LAN\" and DrakX will\n"
+"try to find an Ethernet adapter on your machine. PCI adapters\n"
+"should be found and initialized automatically.\n"
+"However, if your peripheral is ISA, autodetection will not work,\n"
+"and you will have to choose a driver from the list that will appear then.\n"
+"\n"
+"\n"
+"As for SCSI adapters, you can let the driver probe for the adapter\n"
+"in the first time, otherwise you will have to specify the options\n"
+"to the driver that you will have fetched from documentation of your\n"
+"hardware.\n"
+"\n"
+"\n"
+"If you install a Linux-Mandrake system on a machine which is part\n"
+"of an already existing network, the network administrator will\n"
+"have given you all necessary information (IP address, network\n"
+"submask or netmask for short, and hostname). If you're setting\n"
+"up a private network at home for example, you should choose\n"
+"addresses.\n"
+"\n"
+"\n"
+"Choose \"Dialup with modem\" and the Internet connection with\n"
+"a modem will be configured. DrakX will try to find your modem,\n"
+"if it fails you will have to select the right serial port where\n"
+"your modem is connected to."
+msgstr ""
+
+#: ../../help.pm_.c:204
+msgid ""
+"Enter:\n"
+"\n"
+"  - IP address: if you don't know it, ask your network administrator or "
+"ISP.\n"
+"\n"
+"\n"
+"  - Netmask: \"255.255.255.0\" is generally a good choice. If you are not\n"
+"sure, ask your network administrator or ISP.\n"
+"\n"
+"\n"
+"  - Automatic IP: If your network uses BOOTP or DHCP protocol, select \n"
+"this option. If selected, no value is needed in \"IP address\". If you are\n"
+"not sure, ask your network administrator or ISP.\n"
+msgstr ""
+
+#: ../../help.pm_.c:219
+msgid ""
+"You may now enter dialup options. If you're not sure what to enter, the\n"
+"correct information can be obtained from your ISP."
+msgstr ""
+
+#: ../../help.pm_.c:223
+msgid ""
+"If you will use proxies, please configure them now. If you don't know if\n"
+"you should use proxies, ask your network administrator or your ISP."
+msgstr ""
+
+#: ../../help.pm_.c:227
+msgid ""
+"You can install cryptographic package if your internet connection has been\n"
+"set up correctly. First choose a mirror where you wish to download packages "
+"and\n"
+"after that select the packages to install.\n"
+"\n"
+"Note you have to select mirror and cryptographic packages according\n"
+"to your legislation."
+msgstr ""
+
+#: ../../help.pm_.c:235
+msgid ""
+"You can now select your timezone according to where you live.\n"
+"\n"
+"\n"
+"GNU/Linux manages time in GMT or \"Greenwich Mean Time\" and translates it\n"
+"in local time according to the time zone you have selected."
+msgstr ""
+
+#: ../../help.pm_.c:242
+msgid ""
+"You may now choose which services you want to see started at boot time.\n"
+"When your mouse comes over an item, a small balloon help will popup which\n"
+"describes the role of the service.\n"
+"\n"
+"Be especially careful in this step if you intend to use your machine as a\n"
+"server: you will probably want not to start any services which you don't\n"
+"want."
+msgstr ""
+
+#: ../../help.pm_.c:251
+msgid ""
+"GNU/Linux can deal with many types of printer. Each of these\n"
+"types require a different setup. Note however that the print\n"
+"spooler uses 'lp' as the default printer name; so you\n"
+"must have one printer with such a name; but you can give\n"
+"several names, separated by '|' characters, to a printer.\n"
+"So, if you prefer to have a more meaningful name you just have\n"
+"to put it first, eg: \"My Printer|lp\".\n"
+"The printer having \"lp\" in its name(s) will be the default printer.\n"
+"\n"
+"\n"
+"If your printer is physically connected to your computer, select\n"
+"\"Local printer\". You will then have to tell which port your\n"
+"printer is connected to, and select the appropriate filter.\n"
+"\n"
+"\n"
+"If you want to access a printer located on a remote Unix machine,\n"
+"you will have to select \"Remote lpd\". In order to make\n"
+"it work, no username or password is required, but you will need\n"
+"to know the name of the printing queue on this server.\n"
+"\n"
+"\n"
+"If you want to access a SMB printer (which means, a printer located\n"
+"on a remote Windows 9x/NT machine), you will have to specify its\n"
+"SMB name (which is not its TCP/IP name), and possibly its IP address,\n"
+"plus the username, workgroup and password required in order to\n"
+"access the printer, and of course the name of the printer. The same goes\n"
+"for a NetWare printer, except that you need no workgroup information."
+msgstr ""
+
+#: ../../help.pm_.c:280
+msgid ""
+"You can now enter the root password for your Linux-Mandrake\n"
+"system. The password must be entered twice to verify that both\n"
+"password entries are identical.\n"
+"\n"
+"\n"
+"Root is the administrator of the system, and is the only user\n"
+"allowed to modify the system configuration. Therefore, choose\n"
+"this password carefully! Unauthorized use of the root account can\n"
+"be extremely dangerous to the integrity of the system and its data,\n"
+"and other systems connected to it. The password should be a\n"
+"mixture of alphanumeric characters and a least 8 characters long. It\n"
+"should NEVER be written down. Do not make the password too long or\n"
+"complicated, though: you must be able to remember without too much\n"
+"effort."
+msgstr ""
+
+#: ../../help.pm_.c:296
+msgid ""
+"To enable a more secure system, you should select \"Use shadow file\" and\n"
+"\"Use MD5 passwords\"."
+msgstr ""
+
+#: ../../help.pm_.c:300
+msgid ""
+"If your network uses NIS, select \"Use NIS\". If you don't know, ask your\n"
+"network administrator."
+msgstr ""
+
+#: ../../help.pm_.c:304
+msgid ""
+"You may now create one or more \"regular\" user account(s), as\n"
+"opposed to the \"privileged\" user account, root. You can create\n"
+"one or more account(s) for each person you want to allow to use\n"
+"the computer. Note that each user account will have its own\n"
+"preferences (graphical environment, program settings, etc.)\n"
+"and its own \"home directory\", in which these preferences are\n"
+"stored.\n"
+"\n"
+"\n"
+"First of all, create an account for yourself! Even if you will be the only "
+"user\n"
+"of the machine, you may NOT connect as root for daily use of the system: "
+"it's a\n"
+"very high security risk. Making the system unusable is very often a typo "
+"away.\n"
+"\n"
+"\n"
+"Therefore, you should connect to the system using the user account\n"
+"you will have created here, and login as root only for administration\n"
+"and maintenance purposes."
+msgstr ""
+
+#: ../../help.pm_.c:323
+msgid ""
+"It is strongly recommended that you answer \"Yes\" here. If you install\n"
+"Microsoft Windows at a later date it will overwrite the boot sector.\n"
+"Unless you have made a bootdisk as suggested, you will not be able to\n"
+"boot into GNU/Linux any more."
+msgstr ""
+
+#: ../../help.pm_.c:329
+msgid ""
+"You need to indicate where you wish\n"
+"to place the information required to boot to GNU/Linux.\n"
+"\n"
+"\n"
+"Unless you know exactly what you are doing, choose \"First sector of\n"
+"drive (MBR)\"."
+msgstr ""
+
+#: ../../help.pm_.c:337
+msgid ""
+"Unless you know specifically otherwise, the usual choice is \"/dev/hda\"\n"
+" (primary master IDE disk) or \"/dev/sda\" (first SCSI disk)."
+msgstr ""
+
+#: ../../help.pm_.c:341
+msgid ""
+"LILO (the LInux LOader) and Grub are bootloaders: they are able to boot\n"
+"either GNU/Linux or any other operating system present on your computer.\n"
+"Normally, these other operating systems are correctly detected and\n"
+"installed. If this is not the case, you can add an entry by hand in this\n"
+"screen. Be careful as to choose the correct parameters.\n"
+"\n"
+"\n"
+"You may also want not to give access to these other operating systems to\n"
+"anyone, in which case you can delete the corresponding entries. But\n"
+"in this case, you will need a boot disk in order to boot them!"
+msgstr ""
+
+#: ../../help.pm_.c:353
+msgid ""
+"LILO and grub main options are:\n"
+"  - Boot device: Sets the name of the device (e.g. a hard disk\n"
+"partition) that contains the boot sector. Unless you know specifically\n"
+"otherwise, choose \"/dev/hda\".\n"
+"\n"
+"\n"
+"  - Delay before booting default image: Specifies the number in tenths\n"
+"of a second the boot loader should wait before booting the first image.\n"
+"This is useful on systems that immediately boot from the hard disk after\n"
+"enabling the keyboard. The boot loader doesn't wait if \"delay\" is\n"
+"omitted or is set to zero.\n"
+"\n"
+"\n"
+"  - Video mode: This specifies the VGA text mode that should be selected\n"
+"when booting. The following values are available: \n"
+"    * normal: select normal 80x25 text mode.\n"
+"    * <number>:  use the corresponding text mode."
+msgstr ""
+
+#: ../../help.pm_.c:372
+msgid ""
+"SILO is a bootloader for SPARC: it is able to boot\n"
+"either GNU/Linux or any other operating system present on your computer.\n"
+"Normally, these other operating systems are correctly detected and\n"
+"installed. If this is not the case, you can add an entry by hand in this\n"
+"screen. Be careful as to choose the correct parameters.\n"
+"\n"
+"\n"
+"You may also want not to give access to these other operating systems to\n"
+"anyone, in which case you can delete the corresponding entries. But\n"
+"in this case, you will need a boot disk in order to boot them!"
+msgstr ""
+
+#: ../../help.pm_.c:384
+msgid ""
+"SILO main options are:\n"
+"  - Bootloader installation: Indicate where you want to place the\n"
+"information required to boot to GNU/Linux. Unless you know exactly\n"
+"what you are doing, choose \"First sector of drive (MBR)\".\n"
+"\n"
+"\n"
+"  - Delay before booting default image: Specifies the number in tenths\n"
+"of a second the boot loader should wait before booting the first image.\n"
+"This is useful on systems that immediately boot from the hard disk after\n"
+"enabling the keyboard. The boot loader doesn't wait if \"delay\" is\n"
+"omitted or is set to zero."
+msgstr ""
+
+#: ../../help.pm_.c:397
+msgid ""
+"Now it's time to configure the X Window System, which is the\n"
+"core of the GNU/Linux GUI (Graphical User Interface). For this purpose,\n"
+"you must configure your video card and monitor. Most of these\n"
+"steps are automated, though, therefore your work may only consist\n"
+"of verifying what has been done and accept the settings :)\n"
+"\n"
+"\n"
+"When the configuration is over, X will be started (unless you\n"
+"ask DrakX not to) so that you can check and see if the\n"
+"settings suit you. If they don't, you can come back and\n"
+"change them, as many times as necessary."
+msgstr ""
+
+#: ../../help.pm_.c:410
+msgid ""
+"If something is wrong in X configuration, use these options to correctly\n"
+"configure the X Window System."
+msgstr ""
+
+#: ../../help.pm_.c:414
+msgid ""
+"If you prefer to use a graphical login, select \"Yes\". Otherwise, select\n"
+"\"No\"."
+msgstr ""
+
+#: ../../help.pm_.c:418
+msgid ""
+"You can now select some miscellaneous options for your system.\n"
+"\n"
+"  - Use hard drive optimizations: this option can improve hard disk "
+"performance\n"
+"    but is only for advanced users: some buggy chipsets can ruin your data, "
+"so\n"
+"    beware. Note that the kernel has a builtin blacklist of drives and\n"
+"    chipsets, but if you want to avoid bad surprises, leave this option "
+"unset.\n"
+"\n"
+"  - Choose security level: you can choose a security level for your\n"
+"    system. Please refer to the manual for complete information. Basically: "
+"if\n"
+"    you don't know, select \"Medium\".\n"
+"\n"
+"  - Precise RAM size if needed: unfortunately, in today's PC world, there is "
+"no\n"
+"    standard method to ask the BIOS about the amount of RAM present in your\n"
+"    computer. As a consequence, GNU/Linux may fail to detect your amount of "
+"RAM\n"
+"    correctly. If this is the case, you can specify the correct amount of "
+"RAM\n"
+"    here. Note that a difference of 2 or 4 MB is normal.\n"
+"\n"
+"  - Removable media automounting: if you would prefer not to manually\n"
+"    mount removable media (CD-ROM, Floppy, Zip) by typing \"mount\" and\n"
+"    \"umount\", select this option. \n"
+"\n"
+"  - Enable NumLock at startup: if you want NumLock enabled after booting,\n"
+"    select this option (Note: NumLock may or may not work under X)."
+msgstr ""
+
+#: ../../help.pm_.c:443
+msgid ""
+"Your system is going to reboot.\n"
+"\n"
+"After rebooting, your new Linux Mandrake system will load automatically.\n"
+"If you want to boot into another existing operating system, please read\n"
+"the additional instructions."
+msgstr ""
+
+#: ../../install2.pm_.c:43
+msgid "Choose your language"
+msgstr "Roghnaigh do theanga"
+
+#: ../../install2.pm_.c:44
+msgid "Select installation class"
+msgstr "Roghnaigh rang feistiú"
+
+#: ../../install2.pm_.c:45
+msgid "Hard drive detection"
+msgstr ""
+
+#: ../../install2.pm_.c:46
+msgid "Configure mouse"
+msgstr "Cumraigh luchóg"
+
+#: ../../install2.pm_.c:47
+msgid "Choose your keyboard"
+msgstr "Roghnaigh mhéarchlár"
+
+#: ../../install2.pm_.c:48 ../../install_steps_interactive.pm_.c:372
+msgid "Miscellaneous"
+msgstr "Eile"
+
+#: ../../install2.pm_.c:49
+msgid "Setup filesystems"
+msgstr "Socraigh córas chomhad"
+
+#: ../../install2.pm_.c:50
+msgid "Format partitions"
+msgstr "Formáidigh ranna"
+
+#: ../../install2.pm_.c:51
+msgid "Choose packages to install"
+msgstr "Roghnaigh pacáistí ..."
+
+#: ../../install2.pm_.c:52
+msgid "Install system"
+msgstr "Feistigh córas"
+
+#: ../../install2.pm_.c:53
+msgid "Configure networking"
+msgstr "Cumraigh gréasánú"
+
+#: ../../install2.pm_.c:54
+msgid "Cryptographic"
+msgstr "Rúnscríobhach"
+
+#: ../../install2.pm_.c:55
+msgid "Configure timezone"
+msgstr "Cumraigh crios ama"
+
+#: ../../install2.pm_.c:56
+msgid "Configure services"
+msgstr "Cumraigh seirbhisí"
+
+#: ../../install2.pm_.c:57
+msgid "Configure printer"
+msgstr "Cumraigh printéir"
+
+#: ../../install2.pm_.c:58 ../../install_steps_interactive.pm_.c:604
+#: ../../install_steps_interactive.pm_.c:605
+msgid "Set root password"
+msgstr "Socraigh pasfhocal root"
+
+#: ../../install2.pm_.c:59
+msgid "Add a user"
+msgstr "Úsáideoir Nua ..."
+
+#: ../../install2.pm_.c:61
+msgid "Create a bootdisk"
+msgstr ""
+
+#: ../../install2.pm_.c:63
+msgid "Install bootloader"
+msgstr ""
+
+#: ../../install2.pm_.c:64
+msgid "Configure X"
+msgstr "Cumraigh X"
+
+#: ../../install2.pm_.c:66
+msgid "Auto install floppy"
+msgstr ""
+
+#: ../../install2.pm_.c:68
+msgid "Exit install"
+msgstr "Eirigh as Feistiú"
+
+#: ../../install_any.pm_.c:573
+msgid "Error reading file $f"
+msgstr "Earráid ag léamh comhad $f"
+
+#: ../../install_interactive.pm_.c:30
+msgid ""
+"You must have a root partition.\n"
+"For this, create a partition (or click on an existing one).\n"
+"Then choose action ``Mount point'' and set it to `/'"
+msgstr ""
+
+#: ../../install_interactive.pm_.c:35 ../../install_steps_graphical.pm_.c:259
+msgid "You must have a swap partition"
+msgstr ""
+
+#: ../../install_interactive.pm_.c:36 ../../install_steps_graphical.pm_.c:261
+msgid ""
+"You don't have a swap partition\n"
+"\n"
+"Continue anyway?"
+msgstr ""
+"Níl aon ranna malairte agat\n"
+"\n"
+"x1Lean ar aghaidh ar aon nós?"
+
+#: ../../install_interactive.pm_.c:57
+msgid "Use free space"
+msgstr "Úsáid spás saor"
+
+#: ../../install_interactive.pm_.c:59
+msgid "Not enough free space to allocate new partitions"
+msgstr ""
+
+#: ../../install_interactive.pm_.c:68
+msgid "Use existing partition"
+msgstr ""
+
+#: ../../install_interactive.pm_.c:70
+#, fuzzy
+msgid "There is no existing partition to use"
+msgstr "Ag iarraidh an clár-ranna a tarrtháil"
+
+#: ../../install_interactive.pm_.c:77
+msgid "Use the FAT partition for loopback"
+msgstr ""
+
+#: ../../install_interactive.pm_.c:80
+#, fuzzy
+msgid "Which partition do you want to use to put Linux4Win?"
+msgstr "Cén rann a bhfuil tú ag iarraidh úsáid mar rann fréamhach"
+
+#: ../../install_interactive.pm_.c:81
+msgid "Choose the sizes"
+msgstr "Roghnaigh an méid nua"
+
+#: ../../install_interactive.pm_.c:82
+msgid "Root partition size in MB: "
+msgstr "Méid i MB do Rhann Fréamhach:"
+
+#: ../../install_interactive.pm_.c:83
+msgid "Swap partition size in MB: "
+msgstr "Méid i MB do rhann malairte:"
+
+#: ../../install_interactive.pm_.c:91
+msgid "Use the free space on the FAT partition"
+msgstr ""
+
+#: ../../install_interactive.pm_.c:93
+msgid "Which partition do you want to resize?"
+msgstr ""
+
+#: ../../install_interactive.pm_.c:96
+#, c-format
+msgid ""
+"The FAT resizer is unable to handle your partition, \n"
+"the following error occured: %s"
+msgstr ""
+
+#: ../../install_interactive.pm_.c:99
+msgid "Your windows partition is too fragmented, please run ``defrag'' first"
+msgstr ""
+
+#: ../../install_interactive.pm_.c:100
+msgid ""
+"WARNING!\n"
+"\n"
+"DrakX will now resize your Windows partition. Be careful: this operation is\n"
+"dangerous. If you have not already done so, you should first exit the\n"
+"installation, run scandisk under Windows (and optionally run defrag), then\n"
+"restart the installation. You should also backup your data.\n"
+"When sure, press Ok."
+msgstr ""
+
+#: ../../install_interactive.pm_.c:109
+msgid "Which size do you want to keep for windows on"
+msgstr ""
+
+#: ../../install_interactive.pm_.c:110
+#, c-format
+msgid "partition %s"
+msgstr "rann %s"
+
+#: ../../install_interactive.pm_.c:116
+#, c-format
+msgid "FAT resizing failed: %s"
+msgstr "Theip ar uathathmhéadú FAT: %s"
+
+#: ../../install_interactive.pm_.c:131
+msgid ""
+"There is no FAT partitions to resize or to use as loopback (or not enough "
+"space left)"
+msgstr ""
+
+#: ../../install_interactive.pm_.c:136
+msgid "Erase entire disk"
+msgstr ""
+
+#: ../../install_interactive.pm_.c:136
+msgid "Remove Windows(TM)"
+msgstr "Dealaigh Windows(TM)"
+
+#: ../../install_interactive.pm_.c:138
+msgid "You have more than one hard drive, which one do you install linux on?"
+msgstr ""
+
+#: ../../install_interactive.pm_.c:140
+#, c-format
+msgid "ALL existing partitions and their data will be lost on drive %s"
+msgstr ""
+
+#: ../../install_interactive.pm_.c:149
+msgid "Expert mode"
+msgstr "Mód Saineolaí"
+
+#: ../../install_interactive.pm_.c:149
+msgid "Use diskdrake"
+msgstr "úsáid diskdrake"
+
+#: ../../install_interactive.pm_.c:153
+msgid "Use fdisk"
+msgstr "úsáid fdisk"
+
+#: ../../install_interactive.pm_.c:156
+#, c-format
+msgid ""
+"You can now partition %s.\n"
+"When you are done, don't forget to save using `w'"
+msgstr ""
+
+#: ../../install_interactive.pm_.c:183
+msgid "The DrakX Partitioning wizard found the following solutions:"
+msgstr ""
+
+#: ../../install_interactive.pm_.c:187
+#, c-format
+msgid "Partitioning failed: %s"
+msgstr "Theip ar rannú: %s"
+
+#: ../../install_interactive.pm_.c:202
+msgid "Bringing up the network"
+msgstr "Ag tosnú suas an ghréasán"
+
+#: ../../install_interactive.pm_.c:207
+msgid "Bringing down the network"
+msgstr "Ag dúnadh síos an ghreasán"
+
+#: ../../install_steps.pm_.c:76
+msgid ""
+"An error occurred, but I don't know how to handle it nicely.\n"
+"Continue at your own risk."
+msgstr ""
+"Ta earraid ann, níl a fhios agam conas é a cheartú.\n"
+"Lean ort, ar do phriacal féin."
+
+#: ../../install_steps.pm_.c:192
+#, c-format
+msgid "Duplicate mount point %s"
+msgstr "Pointe taca dublach %s"
+
+#: ../../install_steps.pm_.c:357
+msgid ""
+"Some important packages didn't get installed properly.\n"
+"Either your cdrom drive or your cdrom is defective.\n"
+"Check the cdrom on an installed computer using \"rpm -qpl "
+"Mandrake/RPMS/*.rpm\"\n"
+msgstr ""
+
+#: ../../install_steps.pm_.c:426
+#, c-format
+msgid "Welcome to %s"
+msgstr "Fáilte go %s"
+
+#: ../../install_steps.pm_.c:650
+msgid "No floppy drive available"
+msgstr "Níl dioscthiománt flapach ar fáil"
+
+#: ../../install_steps_auto_install.pm_.c:46
+#: ../../install_steps_stdio.pm_.c:26
+#, c-format
+msgid "Entering step `%s'\n"
+msgstr "Ag tosnú ar céim `%s'\n"
+
+#: ../../install_steps_graphical.pm_.c:287
+msgid "Choose the size you want to install"
+msgstr ""
+
+#: ../../install_steps_graphical.pm_.c:334
+msgid "Total size: "
+msgstr "Méid iomlán: "
+
+#: ../../install_steps_graphical.pm_.c:346 ../../install_steps_gtk.pm_.c:357
+#: ../../standalone/rpmdrake_.c:136
+#, c-format
+msgid "Version: %s\n"
+msgstr "Leagan: %s\n"
+
+#: ../../install_steps_graphical.pm_.c:347 ../../install_steps_gtk.pm_.c:358
+#: ../../standalone/rpmdrake_.c:137
+#, c-format
+msgid "Size: %d KB\n"
+msgstr "Méid: %d KB\n"
+
+#: ../../install_steps_graphical.pm_.c:462 ../../install_steps_gtk.pm_.c:264
+msgid "Choose the packages you want to install"
+msgstr ""
+
+#: ../../install_steps_graphical.pm_.c:465 ../../install_steps_gtk.pm_.c:267
+msgid "Info"
+msgstr "Eolas"
+
+#: ../../install_steps_graphical.pm_.c:473 ../../install_steps_gtk.pm_.c:272
+#: ../../install_steps_interactive.pm_.c:132 ../../standalone/rpmdrake_.c:161
+msgid "Install"
+msgstr "Feistiú"
+
+#: ../../install_steps_graphical.pm_.c:492 ../../install_steps_gtk.pm_.c:468
+#: ../../install_steps_interactive.pm_.c:442
+msgid "Installing"
+msgstr "Ag Feistiú"
+
+#: ../../install_steps_graphical.pm_.c:499 ../../install_steps_gtk.pm_.c:474
+msgid "Please wait, "
+msgstr "Fan tamall, "
+
+#: ../../install_steps_graphical.pm_.c:501 ../../install_steps_gtk.pm_.c:476
+msgid "Time remaining "
+msgstr "Am fagtha "
+
+#: ../../install_steps_graphical.pm_.c:502 ../../install_steps_gtk.pm_.c:477
+msgid "Total time "
+msgstr "Am iomlán "
+
+#: ../../install_steps_graphical.pm_.c:507 ../../install_steps_gtk.pm_.c:486
+#: ../../install_steps_interactive.pm_.c:442
+msgid "Preparing installation"
+msgstr ""
+
+#: ../../install_steps_graphical.pm_.c:528 ../../install_steps_gtk.pm_.c:502
+#, c-format
+msgid "Installing package %s"
+msgstr "Ag feistiál  pacáiste %s"
+
+#: ../../install_steps_graphical.pm_.c:553 ../../install_steps_gtk.pm_.c:543
+#: ../../install_steps_gtk.pm_.c:547
+msgid "Go on anyway?"
+msgstr "Lean ar aghaidh ar aon nós?"
+
+#: ../../install_steps_graphical.pm_.c:553 ../../install_steps_gtk.pm_.c:543
+msgid "There was an error ordering packages:"
+msgstr ""
+
+#: ../../install_steps_graphical.pm_.c:577
+#: ../../install_steps_interactive.pm_.c:841
+msgid "Use existing configuration for X11?"
+msgstr "Bain úsáid as an cumraíocht X11 atá ann?"
+
+#: ../../install_steps_gtk.pm_.c:154
+msgid ""
+"Your system is low on resource. You may have some problem installing\n"
+"Linux-Mandrake. If that occurs, you can try a text install instead. For "
+"this,\n"
+"press `F1' when booting on CDROM, then enter `text'."
+msgstr ""
+
+#: ../../install_steps_gtk.pm_.c:167
+msgid "Please, choose one of the following classes of installation:"
+msgstr ""
+
+#: ../../install_steps_gtk.pm_.c:220
+#, c-format
+msgid ""
+"The total size for the groups you have selected is approximately %d MB.\n"
+msgstr ""
+
+#: ../../install_steps_gtk.pm_.c:222
+msgid ""
+"If you wish to install less than this size,\n"
+"select the percentage of packages that you want to install.\n"
+"\n"
+"A low percentage will install only the most important packages;\n"
+"a percentage of 100%% will install all selected packages."
+msgstr ""
+
+#: ../../install_steps_gtk.pm_.c:227
+msgid ""
+"You have space on your disk for only %d%% of these packages.\n"
+"\n"
+"If you wish to install less than this,\n"
+"select the percentage of packages that you want to install.\n"
+"A low percentage will install only the most important packages;\n"
+"a percentage of %d%% will install as many packages as possible."
+msgstr ""
+
+#: ../../install_steps_gtk.pm_.c:233
+msgid "You will be able to choose them more specifically in the next step."
+msgstr ""
+
+#: ../../install_steps_gtk.pm_.c:235
+msgid "Percentage of packages to install"
+msgstr ""
+
+#: ../../install_steps_gtk.pm_.c:276
+msgid "Automatic dependencies"
+msgstr ""
+
+#: ../../install_steps_gtk.pm_.c:336 ../../standalone/rpmdrake_.c:101
+msgid "Expand Tree"
+msgstr ""
+
+#: ../../install_steps_gtk.pm_.c:337 ../../standalone/rpmdrake_.c:102
+msgid "Collapse Tree"
+msgstr ""
+
+#: ../../install_steps_gtk.pm_.c:338
+msgid "Toggle between flat and group sorted"
+msgstr ""
+
+#: ../../install_steps_gtk.pm_.c:355
+msgid "Bad package"
+msgstr  "Pacáiste mícheart"
+
+#: ../../install_steps_gtk.pm_.c:356
+#, c-format
+msgid "Name: %s\n"
+msgstr "Ainm: %s\n"
+
+#: ../../install_steps_gtk.pm_.c:359
+#, c-format
+msgid "Importance: %s\n"
+msgstr ""
+
+#: ../../install_steps_gtk.pm_.c:367
+#, c-format
+msgid "Total size: %d / %d MB"
+msgstr "Méid iomlán: %d / %d MB"
+
+#: ../../install_steps_gtk.pm_.c:386
+msgid ""
+"You can't select this package as there is not enough space left to install it"
+msgstr ""
+
+#: ../../install_steps_gtk.pm_.c:389
+msgid "The following packages are going to be installed/removed"
+msgstr ""
+
+#: ../../install_steps_gtk.pm_.c:398
+msgid "You can't select/unselect this package"
+msgstr ""
+
+#: ../../install_steps_gtk.pm_.c:417
+msgid "This is a mandatory package, it can't be unselected"
+msgstr ""
+
+#: ../../install_steps_gtk.pm_.c:419
+msgid "You can't unselect this package. It is already installed"
+msgstr ""
+
+#: ../../install_steps_gtk.pm_.c:423
+msgid ""
+"This package must be upgraded\n"
+"Are you sure you want to deselect it?"
+msgstr ""
+
+#: ../../install_steps_gtk.pm_.c:426
+msgid "You can't unselect this package. It must be upgraded"
+msgstr ""
+
+#: ../../install_steps_gtk.pm_.c:471
+msgid "Estimating"
+msgstr "Ag meastú"
+
+#: ../../install_steps_gtk.pm_.c:483 ../../install_steps_interactive.pm_.c:579
+#: ../../interactive.pm_.c:84 ../../interactive.pm_.c:233
+#: ../../interactive_newt.pm_.c:49 ../../interactive_newt.pm_.c:98
+#: ../../interactive_stdio.pm_.c:27 ../../my_gtk.pm_.c:211
+#: ../../my_gtk.pm_.c:445
+msgid "Cancel"
+msgstr "Cealaigh"
+
+#: ../../install_steps_gtk.pm_.c:497
+#, c-format
+msgid "%d packages"
+msgstr "%d pacáistí"
+
+#: ../../install_steps_gtk.pm_.c:528
+#, c-format
+msgid ""
+"Change your Cd-Rom!\n"
+"\n"
+"Please insert the Cd-Rom labelled \"%s\" in your drive and press Ok when "
+"done.\n"
+"If you don't have it, press Cancel to avoid installation from this Cd-Rom."
+msgstr ""
+
+#: ../../install_steps_gtk.pm_.c:547
+msgid "There was an error installing packages:"
+msgstr ""
+
+#: ../../install_steps_interactive.pm_.c:42
+msgid "An error occurred"
+msgstr "Tharla earráid"
+
+#: ../../install_steps_interactive.pm_.c:58
+msgid "Please, choose a language to use."
+msgstr ""
+
+#: ../../install_steps_interactive.pm_.c:80
+#: ../../standalone/keyboarddrake_.c:21
+msgid "Keyboard"
+msgstr "Eocharclár"
+
+#: ../../install_steps_interactive.pm_.c:81
+#: ../../standalone/keyboarddrake_.c:22
+msgid "Please, choose your keyboard layout."
+msgstr "Cén leagan amach atá ar d'eocharchlársa"
+
+#: ../../install_steps_interactive.pm_.c:90
+msgid "You can choose other languages that will be available after install"
+msgstr ""
+
+#: ../../install_steps_interactive.pm_.c:99
+#: ../../install_steps_interactive.pm_.c:143
+#, fuzzy
+msgid "Install Class"
+msgstr "Feistigh córas"
+
+#: ../../install_steps_interactive.pm_.c:99
+#, fuzzy
+msgid "Which installation class do you want?"
+msgstr "Cén teanga atá uait?"
+
+#: ../../install_steps_interactive.pm_.c:101
+msgid "Install/Rescue"
+msgstr ""
+
+#: ../../install_steps_interactive.pm_.c:101
+#, fuzzy
+msgid "Is this an install or a rescue?"
+msgstr "Feistigh nó uasgrádaigh ?"
+
+#: ../../install_steps_interactive.pm_.c:110
+msgid "Recommended"
+msgstr "Molta"
+
+#: ../../install_steps_interactive.pm_.c:112
+#: ../../install_steps_interactive.pm_.c:127
+msgid "Customized"
+msgstr "Socraithe"
+
+#: ../../install_steps_interactive.pm_.c:113
+#: ../../install_steps_interactive.pm_.c:127
+msgid "Expert"
+msgstr "Saineolaí"
+
+#: ../../install_steps_interactive.pm_.c:122
+msgid ""
+"Are you sure you are an expert? \n"
+"You will be allowed to make powerful but dangerous things here.\n"
+"\n"
+"You will be asked questions such as: ``Use shadow file for passwords?'',\n"
+"are you ready to answer that kind of questions?"
+msgstr ""
+
+#: ../../install_steps_interactive.pm_.c:132
+msgid "Rescue"
+msgstr ""
+
+#: ../../install_steps_interactive.pm_.c:138
+msgid "Workstation"
+msgstr "Stáisiún Oibre"
+
+#: ../../install_steps_interactive.pm_.c:139
+msgid "Development"
+msgstr "Forbairt"
+
+#: ../../install_steps_interactive.pm_.c:140
+msgid "Server"
+msgstr "Freastalaí"
+
+#: ../../install_steps_interactive.pm_.c:144
+#, fuzzy
+msgid "Which usage is your system used for ?"
+msgstr ""
+
+#: ../../install_steps_interactive.pm_.c:158
+msgid "Please, choose the type of your mouse."
+msgstr "Cén cinéal luchóg atá agat?"
+
+#: ../../install_steps_interactive.pm_.c:165 ../../standalone/mousedrake_.c:38
+msgid "Mouse Port"
+msgstr "Gaireas luchóige"
+
+#: ../../install_steps_interactive.pm_.c:166
+msgid "Please choose on which serial port your mouse is connected to."
+msgstr ""
+
+#: ../../install_steps_interactive.pm_.c:184
+msgid "Configuring IDE"
+msgstr "Ag cumraigh IDE"
+
+#: ../../install_steps_interactive.pm_.c:184
+msgid "IDE"
+msgstr "IDE"
+
+#: ../../install_steps_interactive.pm_.c:195
+msgid "no available partitions"
+msgstr "níl aon ranna saora ann"
+
+#: ../../install_steps_interactive.pm_.c:206
+msgid "Choose the mount points"
+msgstr ""
+
+#: ../../install_steps_interactive.pm_.c:223
+#, fuzzy, c-format
+msgid ""
+"I can't read your partition table, it's too corrupted for me :(\n"
+"I can try to go on blanking bad partitions (ALL DATA will be lost!).\n"
+"The other solution is to disallow DrakX to modify the partition table.\n"
+"(the error is %s)\n"
+"\n"
+"Do you agree to loose all the partitions?\n"
+msgstr ""
+"Ni féidir liom an tábla rainn a léamh, tá máchaillí ann :(\n"
+"Leanfaidh mé orm ag cealú droch rainn"
+
+#: ../../install_steps_interactive.pm_.c:236
+msgid ""
+"DiskDrake failed to read correctly the partition table.\n"
+"Continue at your own risk!"
+msgstr ""
+"Theip ar DiskDrake an tabla rainn a léamh i gceart.\n"
+"Lean ort, ar do phriacal féin!"
+
+#: ../../install_steps_interactive.pm_.c:244
+msgid "Root Partition"
+msgstr "Rann Fréamhach"
+
+#: ../../install_steps_interactive.pm_.c:245
+msgid "What is the root partition (/) of your system?"
+msgstr "Céard é an rann fréamhach (/) ded' chóras?"
+
+#: ../../install_steps_interactive.pm_.c:259
+#, fuzzy
+msgid "You need to reboot for the partition table modifications to take place"
+msgstr "Beidh ort an ríomhaire a aththosnú sula ndéanfar an athrú"
+
+#: ../../install_steps_interactive.pm_.c:285
+msgid "Choose the partitions you want to format"
+msgstr "Roghnaigh na ranna atá le formáidiú"
+
+#: ../../install_steps_interactive.pm_.c:289
+msgid "Check bad blocks?"
+msgstr ""
+
+#: ../../install_steps_interactive.pm_.c:297
+msgid "Formatting partitions"
+msgstr "Ag formáidiú ranna"
+
+#: ../../install_steps_interactive.pm_.c:301
+#, c-format
+msgid "Creating and formatting file %s"
+msgstr ""
+
+#: ../../install_steps_interactive.pm_.c:304
+msgid "Not enough swap to fulfill installation, please add some"
+msgstr "Nil dothain spas malartu chun insealbhu, chuir leis an spas"
+
+#: ../../install_steps_interactive.pm_.c:310
+msgid "Looking for available packages"
+msgstr "Ag curdach do na pacáistí atá ar fáil"
+
+#: ../../install_steps_interactive.pm_.c:316
+msgid "Finding packages to upgrade"
+msgstr "Ag cúrdach pacáistí le húasgrádú"
+
+#: ../../install_steps_interactive.pm_.c:333
+#, c-format
+msgid ""
+"Your system has not enough space left for installation or upgrade (%d > %d)"
+msgstr ""
+
+#: ../../install_steps_interactive.pm_.c:348
+#,c-format
+msgid "Complete (%dMB)"
+msgstr "Críochnaithe (%dMB)"
+
+#: ../../install_steps_interactive.pm_.c:348
+#, c-format
+msgid "Minimum (%dMB)"
+msgstr "Íosta (%dMB)"
+
+#: ../../install_steps_interactive.pm_.c:348
+#, c-format
+msgid "Recommended (%dMB)"
+msgstr "Molta (%d MB)"
+
+#: ../../install_steps_interactive.pm_.c:349
+msgid "Select the size you want to install"
+msgstr ""
+
+#: ../../install_steps_interactive.pm_.c:371
+msgid "Package Group Selection"
+msgstr "Roghnú Grúpa Pacáistí"
+
+#: ../../install_steps_interactive.pm_.c:374
+msgid "Individual package selection"
+msgstr ""
+
+#: ../../install_steps_interactive.pm_.c:420
+msgid ""
+"If you have all the CDs in the list below, click Ok.\n"
+"If you have none of those CDs, click Cancel.\n"
+"If only some CDs are missing, unselect them, then click Ok."
+msgstr ""
+
+#: ../../install_steps_interactive.pm_.c:423
+#, c-format
+msgid "Cd-Rom labeled \"%s\""
+msgstr ""
+
+#: ../../install_steps_interactive.pm_.c:451
+msgid ""
+"Installing package %s\n"
+"%d%%"
+msgstr ""
+"Ag feisteáil pacáiste %s\n"
+"%d%%"
+
+#: ../../install_steps_interactive.pm_.c:460
+msgid "Post-install configuration"
+msgstr ""
+
+#: ../../install_steps_interactive.pm_.c:484
+msgid ""
+"You have now the possibility to download software aimed for encryption.\n"
+"\n"
+"WARNING:\n"
+"\n"
+"Due to different general requirements applicable to these software and "
+"imposed\n"
+"by various jurisdictions, customer and/or end user of theses software "
+"should\n"
+"ensure that the laws of his/their jurisdiction allow him/them to download, "
+"stock\n"
+"and/or use these software.\n"
+"\n"
+"In addition customer and/or end user shall particularly be aware to not "
+"infringe\n"
+"the laws of his/their jurisdiction. Should customer and/or end user not\n"
+"respect the provision of these applicable laws, he/they will incure serious\n"
+"sanctions.\n"
+"\n"
+"In no event shall Mandrakesoft nor its manufacturers and/or suppliers be "
+"liable\n"
+"for special, indirect or incidental damages whatsoever (including, but not\n"
+"limited to loss of profits, business interruption, loss of commercial data "
+"and\n"
+"other pecuniary losses, and eventual liabilities and indemnification to be "
+"paid\n"
+"pursuant to a court decision) arising out of use, possession, or the sole\n"
+"downloading of these software, to which customer and/or end user could\n"
+"eventually have access after having sign up the present agreement.\n"
+"\n"
+"\n"
+"For any queries relating to these agreement, please contact \n"
+"Mandrakesoft, Inc.\n"
+"2400 N. Lincoln Avenue Suite 243\n"
+"Altadena California 91001\n"
+"USA"
+msgstr ""
+
+#: ../../install_steps_interactive.pm_.c:515
+msgid "Choose a mirror from which to get the packages"
+msgstr ""
+
+#: ../../install_steps_interactive.pm_.c:523
+msgid "Contacting the mirror to get the list of available packages"
+msgstr ""
+
+#: ../../install_steps_interactive.pm_.c:527
+msgid "Please choose the packages you want to install."
+msgstr ""
+
+#: ../../install_steps_interactive.pm_.c:540
+msgid "Which is your timezone?"
+msgstr "Cén ceann do chrois ama"
+
+#: ../../install_steps_interactive.pm_.c:541
+msgid "Is your hardware clock set to GMT?"
+msgstr "An bhfuil an clog cruaearrach ar GMT?"
+
+#: ../../install_steps_interactive.pm_.c:578
+msgid "What printing system do you want to use?"
+msgstr ""
+
+#: ../../install_steps_interactive.pm_.c:604
+msgid "No password"
+msgstr "Gan pasfhocal"
+
+#: ../../install_steps_interactive.pm_.c:609
+msgid "Use shadow file"
+msgstr "Bain úsáid as scáilcomhad"
+
+#: ../../install_steps_interactive.pm_.c:609
+msgid "shadow"
+msgstr "scáil"
+
+#: ../../install_steps_interactive.pm_.c:610
+msgid "MD5"
+msgstr "MD5"
+
+#: ../../install_steps_interactive.pm_.c:610
+msgid "Use MD5 passwords"
+msgstr "Bain úsáid as pasfhocail MD5"
+
+#: ../../install_steps_interactive.pm_.c:612
+msgid "Use NIS"
+msgstr "Bain úsáid as NIS"
+
+#: ../../install_steps_interactive.pm_.c:612
+msgid "yellow pages"
+msgstr "leathanaigh buí"
+
+#: ../../install_steps_interactive.pm_.c:618
+#, c-format
+msgid "This password is too simple (must be at least %d characters long)"
+msgstr ""
+
+#: ../../install_steps_interactive.pm_.c:625
+msgid "Authentification NIS"
+msgstr ""
+
+#: ../../install_steps_interactive.pm_.c:626
+msgid "NIS Domain"
+msgstr "Fearannas NIS"
+
+#: ../../install_steps_interactive.pm_.c:626
+msgid "NIS Server"
+msgstr "Freastalaí NIS"
+
+#: ../../install_steps_interactive.pm_.c:651
+#: ../../standalone/adduserdrake_.c:36
+msgid "Accept user"
+msgstr ""
+
+#: ../../install_steps_interactive.pm_.c:651
+#: ../../standalone/adduserdrake_.c:36
+msgid "Add user"
+msgstr "Suimigh úsáideoir"
+
+#: ../../install_steps_interactive.pm_.c:652
+#: ../../standalone/adduserdrake_.c:37
+#, c-format
+msgid "(already added %s)"
+msgstr ""
+
+#: ../../install_steps_interactive.pm_.c:652
+#: ../../standalone/adduserdrake_.c:37
+#, c-format
+msgid ""
+"Enter a user\n"
+"%s"
+msgstr ""
+
+#: ../../install_steps_interactive.pm_.c:654
+#: ../../standalone/adduserdrake_.c:39
+msgid "Real name"
+msgstr "Fíor ainm"
+
+#: ../../install_steps_interactive.pm_.c:655 ../../printerdrake.pm_.c:90
+#: ../../printerdrake.pm_.c:124 ../../standalone/adduserdrake_.c:40
+msgid "User name"
+msgstr "Ainm úsáideora"
+
+#: ../../install_steps_interactive.pm_.c:660
+#: ../../standalone/adduserdrake_.c:45
+msgid "Shell"
+msgstr "Blaosc"
+
+#: ../../install_steps_interactive.pm_.c:662
+#: ../../standalone/adduserdrake_.c:47
+msgid "Icon"
+msgstr "Dealbh"
+
+#: ../../install_steps_interactive.pm_.c:672
+#: ../../standalone/adduserdrake_.c:57
+msgid "This password is too simple"
+msgstr "Tá an pasfhocal seo ro-shimplí"
+
+#: ../../install_steps_interactive.pm_.c:673
+#: ../../standalone/adduserdrake_.c:58
+msgid "Please give a user name"
+msgstr ""
+
+#: ../../install_steps_interactive.pm_.c:674
+#: ../../standalone/adduserdrake_.c:59
+msgid ""
+"The user name must contain only lower cased letters, numbers, `-' and `_'"
+msgstr ""
+
+#: ../../install_steps_interactive.pm_.c:675
+#: ../../standalone/adduserdrake_.c:60
+msgid "This user name is already added"
+msgstr "Is ann cheana don ainm úsáideora seo"
+
+#: ../../install_steps_interactive.pm_.c:699
+msgid ""
+"A custom bootdisk provides a way of booting into your Linux system without\n"
+"depending on the normal bootloader. This is useful if you don't want to "
+"install\n"
+"SILO on your system, or another operating system removes SILO, or SILO "
+"doesn't\n"
+"work with your hardware configuration. A custom bootdisk can also be used "
+"with\n"
+"the Mandrake rescue image, making it much easier to recover from severe "
+"system\n"
+"failures.\n"
+"\n"
+"If you want to create a bootdisk for your system, insert a floppy in the "
+"first\n"
+"drive and press \"Ok\"."
+msgstr ""
+
+#: ../../install_steps_interactive.pm_.c:715
+msgid "First floppy drive"
+msgstr ""
+
+#: ../../install_steps_interactive.pm_.c:716
+#, fuzzy
+msgid "Second floppy drive"
+msgstr "Cur isteach diosca sa dioscthiomant %s"
+
+#: ../../install_steps_interactive.pm_.c:717
+msgid "Skip"
+msgstr ""
+
+#: ../../install_steps_interactive.pm_.c:722
+msgid ""
+"A custom bootdisk provides a way of booting into your Linux system without\n"
+"depending on the normal bootloader. This is useful if you don't want to "
+"install\n"
+"LILO (or grub) on your system, or another operating system removes LILO, or "
+"LILO doesn't\n"
+"work with your hardware configuration. A custom bootdisk can also be used "
+"with\n"
+"the Mandrake rescue image, making it much easier to recover from severe "
+"system\n"
+"failures. Would you like to create a bootdisk for your system?"
+msgstr ""
+
+#: ../../install_steps_interactive.pm_.c:731
+msgid "Sorry, no floppy drive available"
+msgstr "Brón orm, níl aon dioscthiománt flapach ar fáil"
+
+#: ../../install_steps_interactive.pm_.c:734
+#, fuzzy
+msgid "Choose the floppy drive you want to use to make the bootdisk"
+msgstr "Roghnaigh na ranna atá le formáidiú"
+
+#: ../../install_steps_interactive.pm_.c:740
+#, c-format
+msgid "Insert a floppy in drive %s"
+msgstr "Cur isteach diosca sa dioscthiomant %s"
+
+#: ../../install_steps_interactive.pm_.c:743
+msgid "Creating bootdisk"
+msgstr ""
+
+#: ../../install_steps_interactive.pm_.c:750
+#, fuzzy
+msgid "Preparing bootloader"
+msgstr "Feistigh córas"
+
+#: ../../install_steps_interactive.pm_.c:758
+#, fuzzy
+msgid "Do you want to use aboot?"
+msgstr "Céard a theastaíonn uait a dhéanamh?"
+
+#: ../../install_steps_interactive.pm_.c:761
+msgid ""
+"Error installing aboot, \n"
+"try to force installation even if that destroys the first partition?"
+msgstr ""
+
+#: ../../install_steps_interactive.pm_.c:770
+msgid "Installation of bootloader failed. The following error occured:"
+msgstr ""
+
+#: ../../install_steps_interactive.pm_.c:784 ../../standalone/draksec_.c:20
+msgid "Welcome To Crackers"
+msgstr ""
+
+#: ../../install_steps_interactive.pm_.c:785 ../../standalone/draksec_.c:21
+msgid "Poor"
+msgstr "Bocht"
+
+#: ../../install_steps_interactive.pm_.c:786 ../../standalone/draksec_.c:22
+msgid "Low"
+msgstr "Bun"
+
+#: ../../install_steps_interactive.pm_.c:787 ../../standalone/draksec_.c:23
+msgid "Medium"
+msgstr "Gnáth"
+
+#: ../../install_steps_interactive.pm_.c:788 ../../standalone/draksec_.c:24
+msgid "High"
+msgstr "Árd"
+
+#: ../../install_steps_interactive.pm_.c:789 ../../standalone/draksec_.c:25
+msgid "Paranoid"
+msgstr ""
+
+#: ../../install_steps_interactive.pm_.c:802
+msgid "Miscellaneous questions"
+msgstr "Ceisteanna eile"
+
+#: ../../install_steps_interactive.pm_.c:803
+msgid "(may cause data corruption)"
+msgstr ""
+
+#: ../../install_steps_interactive.pm_.c:803
+#, fuzzy
+msgid "Use hard drive optimisations?"
+msgstr "Athraigh cumraíocht an freastalaí"
+
+#: ../../install_steps_interactive.pm_.c:804 ../../standalone/draksec_.c:46
+msgid "Choose security level"
+msgstr ""
+
+#: ../../install_steps_interactive.pm_.c:805
+#, c-format
+msgid "Precise RAM size if needed (found %d MB)"
+msgstr ""
+
+#: ../../install_steps_interactive.pm_.c:807
+msgid "Removable media automounting"
+msgstr ""
+
+#: ../../install_steps_interactive.pm_.c:809
+msgid "Clean /tmp at each boot"
+msgstr ""
+
+#: ../../install_steps_interactive.pm_.c:812
+msgid "Enable multi profiles"
+msgstr ""
+
+#: ../../install_steps_interactive.pm_.c:814
+#, fuzzy
+msgid "Enable num lock at startup"
+msgstr "X ag tús"
+
+#: ../../install_steps_interactive.pm_.c:817
+msgid "Give the ram size in MB"
+msgstr ""
+
+#: ../../install_steps_interactive.pm_.c:819
+msgid "Can't use supermount in high security level"
+msgstr ""
+
+#: ../../install_steps_interactive.pm_.c:821
+msgid ""
+"beware: IN THIS SECURITY LEVEL, ROOT LOGIN AT CONSOLE IS NOT ALLOWED!\n"
+"If you want to be root, you have to login as a user and then use \"su\".\n"
+"More generally, do not expect to use your machine for anything but as a "
+"server.\n"
+"You have been warned."
+msgstr ""
+
+#: ../../install_steps_interactive.pm_.c:826
+msgid ""
+"Be carefull, having numlock enabled causes a lot of keystrokes to\n"
+"give digits instead of normal letters (eg: pressing `p' gives `6')"
+msgstr ""
+
+#: ../../install_steps_interactive.pm_.c:847
+msgid ""
+"DrakX will generate config files for both XFree 3.3 and XFree 4.0.\n"
+"By default, the 4.0 server is used unless your card is not supported.\n"
+"\n"
+"Do you want to keep XFree 3.3?"
+msgstr ""
+
+#: ../../install_steps_interactive.pm_.c:878
+msgid "Do you want to generate an auto install floppy for linux replication?"
+msgstr ""
+
+#: ../../install_steps_interactive.pm_.c:880
+#, c-format
+msgid "Insert a blank floppy in drive %s"
+msgstr "Cur isteach diosca folamh sa dioscthiomant %s"
+
+#: ../../install_steps_interactive.pm_.c:894
+msgid "Creating auto install floppy"
+msgstr ""
+
+#: ../../install_steps_newt.pm_.c:22
+#, c-format
+msgid "Linux-Mandrake Installation %s"
+msgstr "Feistiú Linux-Mandrake %s"
+
+#: ../../install_steps_newt.pm_.c:33
+msgid ""
+"  <Tab>/<Alt-Tab> between elements  | <Space> selects | <F12> next screen "
+msgstr ""
+
+#: ../../interactive.pm_.c:254
+msgid "Please wait"
+msgstr "Fan tamall"
+
+#: ../../interactive_stdio.pm_.c:35
+#, c-format
+msgid "Ambiguity (%s), be more precise\n"
+msgstr "Débhríoch (%s), bí níos cruinn\n"
+
+#: ../../interactive_stdio.pm_.c:36 ../../interactive_stdio.pm_.c:51
+#: ../../interactive_stdio.pm_.c:70
+msgid "Bad choice, try again\n"
+msgstr "Droch rogha, aththrialaigh\n"
+
+#: ../../interactive_stdio.pm_.c:39
+#, c-format
+msgid " ? (default %s) "
+msgstr " ? (gnás %s)"
+
+#: ../../interactive_stdio.pm_.c:52
+#, c-format
+msgid "Your choice? (default %s) "
+msgstr "Do rogha? (gnás %s)"
+
+#: ../../interactive_stdio.pm_.c:71
+#, c-format
+msgid "Your choice? (default %s  enter `none' for none) "
+msgstr "Do rogha? (gnás %s úsáid `none' do ceann ar bith) "
+
+#: ../../keyboard.pm_.c:104 ../../keyboard.pm_.c:134
+msgid "Czech"
+msgstr "Ceichís"
+
+#: ../../keyboard.pm_.c:105 ../../keyboard.pm_.c:118 ../../keyboard.pm_.c:135
+msgid "German"
+msgstr "Gearmáinis"
+
+#: ../../keyboard.pm_.c:106
+msgid "Dvorak"
+msgstr "Dvorak"
+
+#: ../../keyboard.pm_.c:107 ../../keyboard.pm_.c:141
+msgid "Spanish"
+msgstr ""
+
+#: ../../keyboard.pm_.c:108 ../../keyboard.pm_.c:142
+msgid "Finnish"
+msgstr ""
+
+#: ../../keyboard.pm_.c:109 ../../keyboard.pm_.c:119 ../../keyboard.pm_.c:143
+msgid "French"
+msgstr "Francaigh"
+
+#: ../../keyboard.pm_.c:110 ../../keyboard.pm_.c:162
+msgid "Norwegian"
+msgstr ""
+
+#: ../../keyboard.pm_.c:111
+msgid "Polish"
+msgstr ""
+
+#: ../../keyboard.pm_.c:112 ../../keyboard.pm_.c:167
+msgid "Russian"
+msgstr "Ruislís"
+
+#: ../../keyboard.pm_.c:113 ../../keyboard.pm_.c:176
+msgid "UK keyboard"
+msgstr "Méarchlár UK"
+
+#: ../../keyboard.pm_.c:114 ../../keyboard.pm_.c:117 ../../keyboard.pm_.c:177
+msgid "US keyboard"
+msgstr "Meárchlár US"
+
+#: ../../keyboard.pm_.c:121
+msgid "Armenian (old)"
+msgstr ""
+
+#: ../../keyboard.pm_.c:122
+msgid "Armenian (typewriter)"
+msgstr ""
+
+#: ../../keyboard.pm_.c:123
+msgid "Armenian (phonetic)"
+msgstr ""
+
+#: ../../keyboard.pm_.c:126
+msgid "Azerbaidjani (latin)"
+msgstr ""
+
+#: ../../keyboard.pm_.c:127
+msgid "Azerbaidjani (cyrillic)"
+msgstr ""
+
+#: ../../keyboard.pm_.c:128
+msgid "Belgian"
+msgstr ""
+
+#: ../../keyboard.pm_.c:129
+msgid "Bulgarian"
+msgstr ""
+
+#: ../../keyboard.pm_.c:130
+msgid "Brazilian (ABNT-2)"
+msgstr ""
+
+#: ../../keyboard.pm_.c:131
+msgid "Belarusian"
+msgstr ""
+
+#: ../../keyboard.pm_.c:132
+msgid "Swiss (German layout)"
+msgstr ""
+
+#: ../../keyboard.pm_.c:133
+msgid "Swiss (French layout)"
+msgstr ""
+
+#: ../../keyboard.pm_.c:136
+msgid "German (no dead keys)"
+msgstr ""
+
+#: ../../keyboard.pm_.c:137
+msgid "Danish"
+msgstr ""
+
+#: ../../keyboard.pm_.c:138
+msgid "Dvorak (US)"
+msgstr "Dvorak (Meiriceá)"
+
+#: ../../keyboard.pm_.c:139
+msgid "Dvorak (Norwegian)"
+msgstr ""
+
+#: ../../keyboard.pm_.c:140
+msgid "Estonian"
+msgstr ""
+
+#: ../../keyboard.pm_.c:144
+msgid "Georgian (\"Russian\" layout)"
+msgstr ""
+
+#: ../../keyboard.pm_.c:145
+msgid "Georgian (\"Latin\" layout)"
+msgstr ""
+
+#: ../../keyboard.pm_.c:146
+msgid "Greek"
+msgstr "Greicís"
+
+#: ../../keyboard.pm_.c:147
+msgid "Hungarian"
+msgstr ""
+
+#: ../../keyboard.pm_.c:148
+msgid "Croatian"
+msgstr ""
+
+#: ../../keyboard.pm_.c:149
+msgid "Israeli"
+msgstr ""
+
+#: ../../keyboard.pm_.c:150
+msgid "Israeli (Phonetic)"
+msgstr ""
+
+#: ../../keyboard.pm_.c:151
+msgid "Iranian"
+msgstr ""
+
+#: ../../keyboard.pm_.c:152
+msgid "Icelandic"
+msgstr ""
+
+#: ../../keyboard.pm_.c:153
+msgid "Italian"
+msgstr ""
+
+#: ../../keyboard.pm_.c:154
+msgid "Japanese 106 keys"
+msgstr ""
+
+#: ../../keyboard.pm_.c:155
+msgid "Latin American"
+msgstr ""
+
+#: ../../keyboard.pm_.c:156
+msgid "Dutch"
+msgstr ""
+
+#: ../../keyboard.pm_.c:157
+msgid "Lithuanian AZERTY (old)"
+msgstr ""
+
+#: ../../keyboard.pm_.c:159
+msgid "Lithuanian AZERTY (new)"
+msgstr ""
+
+#: ../../keyboard.pm_.c:160
+msgid "Lithuanian \"number row\" QWERTY"
+msgstr ""
+
+#: ../../keyboard.pm_.c:161
+msgid "Lithuanian \"phonetic\" QWERTY"
+msgstr ""
+
+#: ../../keyboard.pm_.c:163
+msgid "Polish (qwerty layout)"
+msgstr ""
+
+#: ../../keyboard.pm_.c:164
+msgid "Polish (qwertz layout)"
+msgstr ""
+
+#: ../../keyboard.pm_.c:165
+msgid "Portuguese"
+msgstr ""
+
+#: ../../keyboard.pm_.c:166
+msgid "Canadian (Quebec)"
+msgstr ""
+
+#: ../../keyboard.pm_.c:168
+msgid "Russian (Yawerty)"
+msgstr ""
+
+#: ../../keyboard.pm_.c:169
+msgid "Swedish"
+msgstr ""
+
+#: ../../keyboard.pm_.c:170
+msgid "Slovenian"
+msgstr ""
+
+#: ../../keyboard.pm_.c:171
+msgid "Slovakian"
+msgstr ""
+
+#: ../../keyboard.pm_.c:172
+msgid "Thai keyboard"
+msgstr ""
+
+#: ../../keyboard.pm_.c:173
+msgid "Turkish (traditional \"F\" model)"
+msgstr ""
+
+#: ../../keyboard.pm_.c:174
+msgid "Turkish (modern \"Q\" model)"
+msgstr ""
+
+#: ../../keyboard.pm_.c:175
+msgid "Ukrainian"
+msgstr ""
+
+#: ../../keyboard.pm_.c:178
+msgid "US keyboard (international)"
+msgstr ""
+
+#: ../../keyboard.pm_.c:179
+msgid "Vietnamese \"numeric row\" QWERTY"
+msgstr ""
+
+#: ../../keyboard.pm_.c:180
+msgid "Yugoslavian (latin layout)"
+msgstr ""
+
+#: ../../mouse.pm_.c:21
+msgid "Sun - Mouse"
+msgstr "Luchóg - Sun"
+
+#: ../../mouse.pm_.c:23
+msgid "Apple ADB Mouse"
+msgstr "Luchóg ADB Apple"
+
+#: ../../mouse.pm_.c:24
+msgid "Apple ADB Mouse (2 Buttons)"
+msgstr "Luchóg ADB Apple (2 Cnaipí)"
+
+#: ../../mouse.pm_.c:25
+msgid "Apple ADB Mouse (3+ Buttons)"
+msgstr "Luchóg Apple ADB (3+ Cnaipí)"
+
+#: ../../mouse.pm_.c:26
+msgid "Apple USB Mouse"
+msgstr "Luchóg USB  Apple"
+
+#: ../../mouse.pm_.c:27
+msgid "Apple USB Mouse (2 Buttons)"
+msgstr "Luchóg USB Apple (2 Cnaipí)"
+
+#: ../../mouse.pm_.c:28
+msgid "Apple USB Mouse (3+ Buttons)"
+msgstr "Luchóg USB  Apple (3+ Cnaipí)"
+
+#: ../../mouse.pm_.c:30
+msgid "Generic Mouse (PS/2)"
+msgstr ""
+
+#: ../../mouse.pm_.c:31
+msgid "Logitech MouseMan/FirstMouse (ps/2)"
+msgstr ""
+
+#: ../../mouse.pm_.c:32
+msgid "Generic 3 Button Mouse (PS/2)"
+msgstr ""
+
+#: ../../mouse.pm_.c:33
+msgid "ALPS GlidePoint (PS/2)"
+msgstr "ALPS GlidePoint (PS/2)"
+
+#: ../../mouse.pm_.c:34
+msgid "Logitech MouseMan+/FirstMouse+ (PS/2)"
+msgstr "Logitech MouseMan+/FirstMouse+ (PS/2)"
+
+#: ../../mouse.pm_.c:35
+msgid "Kensington Thinking Mouse (PS/2)"
+msgstr "Kensington Thinking Mouse (PS/2)"
+
+#: ../../mouse.pm_.c:36
+msgid "ASCII MieMouse (PS/2)"
+msgstr "ASCII MieMouse (PS/2)"
+
+#: ../../mouse.pm_.c:37
+msgid "Genius NetMouse (PS/2)"
+msgstr "Genius NetMouse (PS/2)"
+
+#: ../../mouse.pm_.c:38
+msgid "Genius NetMouse Pro (PS/2)"
+msgstr "Genius NetMouse Pro (PS/2)"
+
+#: ../../mouse.pm_.c:39
+msgid "Genius NetScroll (PS/2)"
+msgstr "Genius NetScroll (PS/2)"
+
+#: ../../mouse.pm_.c:40
+msgid "Microsoft IntelliMouse (PS/2)"
+msgstr "Microsoft IntelliMouse (PS/2)"
+
+#: ../../mouse.pm_.c:41
+msgid "ATI Bus Mouse"
+msgstr "Luchóg Bus ATI"
+
+#: ../../mouse.pm_.c:42
+msgid "Microsoft Bus Mouse"
+msgstr "Luchóg Bus Microsoft"
+
+#: ../../mouse.pm_.c:43
+msgid "Logitech Bus Mouse"
+msgstr "Luchóg Bus Logitech"
+
+#: ../../mouse.pm_.c:44
+msgid "USB Mouse"
+msgstr "Luchóg USB"
+
+#: ../../mouse.pm_.c:45
+msgid "USB Mouse (3 buttons or more)"
+msgstr "Luchóg USB (3 cnaipí nó níos mó)"
+
+#: ../../mouse.pm_.c:47
+msgid "No Mouse"
+msgstr "Luchóg ar bith"
+
+#: ../../mouse.pm_.c:48
+msgid "Microsoft Rev 2.1A or higher (serial)"
+msgstr ""
+
+#: ../../mouse.pm_.c:49
+msgid "Logitech CC Series (serial)"
+msgstr ""
+
+#: ../../mouse.pm_.c:50
+msgid "Logitech MouseMan+/FirstMouse+ (serial)"
+msgstr ""
+
+#: ../../mouse.pm_.c:51
+msgid "ASCII MieMouse (serial)"
+msgstr ""
+
+#: ../../mouse.pm_.c:52
+msgid "Genius NetMouse (serial)"
+msgstr ""
+
+#: ../../mouse.pm_.c:53
+msgid "Microsoft IntelliMouse (serial)"
+msgstr ""
+
+#: ../../mouse.pm_.c:54
+msgid "MM Series (serial)"
+msgstr ""
+
+#: ../../mouse.pm_.c:55
+msgid "MM HitTablet (serial)"
+msgstr ""
+
+#: ../../mouse.pm_.c:56
+msgid "Logitech Mouse (serial, old C7 type)"
+msgstr ""
+
+#: ../../mouse.pm_.c:57
+msgid "Logitech MouseMan/FirstMouse (serial)"
+msgstr ""
+
+#: ../../mouse.pm_.c:58
+msgid "Generic Mouse (serial)"
+msgstr ""
+
+#: ../../mouse.pm_.c:59
+msgid "Microsoft compatible (serial)"
+msgstr ""
+
+#: ../../mouse.pm_.c:60
+msgid "Generic 3 Button Mouse (serial)"
+msgstr ""
+
+#: ../../mouse.pm_.c:61
+msgid "Kensington Thinking Mouse (serial)"
+msgstr ""
+
+#: ../../mouse.pm_.c:62
+msgid "Mouse Systems (serial)"
+msgstr ""
+
+#: ../../my_gtk.pm_.c:445
+msgid "Is this correct?"
+msgstr "An bhfuil seo ceart?"
+
+#: ../../netconnect.pm_.c:83
+msgid "Internet configuration"
+msgstr "Cumraigh Idirlíon"
+
+#: ../../netconnect.pm_.c:84
+msgid "Do you want to try to connect to the internet now?"
+msgstr "An bhfuil tú ag iarraidh an cumraíocht a thrial?"
+
+#: ../../netconnect.pm_.c:118 ../../netconnect.pm_.c:138
+#: ../../netconnect.pm_.c:192 ../../netconnect.pm_.c:212
+#: ../../netconnect.pm_.c:224 ../../netconnect.pm_.c:236
+msgid "ISDN Configuration"
+msgstr "Cumraigh ISDN"
+
+#: ../../netconnect.pm_.c:119
+msgid ""
+"Select your provider.\n"
+" If it's not in the list, choose Unlisted"
+msgstr ""
+
+#: ../../netconnect.pm_.c:139
+msgid "Please fill or check the field below"
+msgstr ""
+
+#: ../../netconnect.pm_.c:141
+msgid "Card IRQ"
+msgstr "IRQ na Carta"
+
+#: ../../netconnect.pm_.c:142
+msgid "Card mem (DMA)"
+msgstr "Cuimhne Charta (DMA)"
+
+#: ../../netconnect.pm_.c:143
+msgid "Card IO"
+msgstr "I/A Carta"
+
+#: ../../netconnect.pm_.c:144
+msgid "Card IO_0"
+msgstr "I/A_0 Carta"
+
+#: ../../netconnect.pm_.c:145
+msgid "Card IO_1"
+msgstr "I/A_1 Carta"
+
+#: ../../netconnect.pm_.c:146 ../../netconnect.pm_.c:519
+msgid "Connection name"
+msgstr ""
+
+#: ../../netconnect.pm_.c:147
+msgid "Your personnal phone number"
+msgstr ""
+
+#: ../../netconnect.pm_.c:148
+msgid "Provider name (ex provider.net)"
+msgstr ""
+
+#: ../../netconnect.pm_.c:149
+msgid "Provider phone number"
+msgstr "Uimhir fón"
+
+#: ../../netconnect.pm_.c:150
+msgid "Provider dns 1"
+msgstr ""
+
+#: ../../netconnect.pm_.c:151
+msgid "Provider dns 2"
+msgstr ""
+
+#: ../../netconnect.pm_.c:152
+msgid "Dialing mode"
+msgstr ""
+
+#: ../../netconnect.pm_.c:153
+msgid "Account Login"
+msgstr ""
+
+#: ../../netconnect.pm_.c:154
+msgid "Account Password"
+msgstr "Pasfhocal"
+
+#: ../../netconnect.pm_.c:155
+msgid "Confirm Password"
+msgstr "Pasfhocal (arís)"
+
+#: ../../netconnect.pm_.c:185
+msgid "Germany (1TR6)"
+msgstr ""
+
+#: ../../netconnect.pm_.c:187
+msgid "Europe (EDSS1)"
+msgstr "Eorap (EDS11)"
+
+#: ../../netconnect.pm_.c:189
+msgid "Rest of the world - no D-Channel (leased lines)"
+msgstr ""
+
+#: ../../netconnect.pm_.c:193
+msgid "Which protocol do you want to use ?"
+msgstr ""
+
+#: ../../netconnect.pm_.c:204
+#, fuzzy
+msgid "ISA / PCMCIA"
+msgstr "PCMCIA"
+
+#: ../../netconnect.pm_.c:206
+msgid "PCI"
+msgstr "PCI"
+
+#: ../../netconnect.pm_.c:208
+msgid "I don't know"
+msgstr "Níl fhíos agam"
+
+#: ../../netconnect.pm_.c:213
+msgid "What kind of card do you have?"
+msgstr "Cén cinéal c atá uait?"
+
+#: ../../netconnect.pm_.c:219
+#, fuzzy
+msgid "Continue"
+msgstr "Lean ar aghaidh ar aon nós?"
+
+#: ../../netconnect.pm_.c:221
+msgid "Abort"
+msgstr ""
+
+#: ../../netconnect.pm_.c:225
+msgid ""
+"\n"
+"If you have an ISA card, the values on the next screen should be right.\n"
+"\n"
+"If you have a PCMCIA card, you have to know the irq and io of your card.\n"
+msgstr ""
+
+#: ../../netconnect.pm_.c:237
+msgid "Which is your ISDN card ?"
+msgstr ""
+
+#: ../../netconnect.pm_.c:274
+msgid "I have found an ISDN Card:\n"
+msgstr ""
+
+#: ../../netconnect.pm_.c:282
+msgid ""
+"I have detected an ISDN PCI Card, but I don't know the type. Please select "
+"one PCI card on the next screen."
+msgstr ""
+
+#: ../../netconnect.pm_.c:289
+msgid "No ISDN PCI card found. Please select one on the next screen."
+msgstr ""
+
+#: ../../netconnect.pm_.c:329
+msgid "Internet Configuration."
+msgstr "Cumraíocht Idirlíon."
+
+#: ../../netconnect.pm_.c:330
+msgid ""
+"I need to configure your network adaptater to be able to connect to internet."
+msgstr ""
+
+#: ../../netconnect.pm_.c:332 ../../netconnect.pm_.c:348
+#: ../../standalone/drakgw_.c:198
+msgid "Choose the network interface"
+msgstr "Roghnaigh an cláréadan ghréasán"
+
+#: ../../netconnect.pm_.c:333
+msgid ""
+"Please choose which network adaptater do you want to use to connect to "
+"internet.\n"
+"If you don't know, choose eth0.\n"
+msgstr ""
+
+#: ../../netconnect.pm_.c:344 ../../netconnect.pm_.c:373
+msgid "Network interface"
+msgstr "Cláréadan Gréasán"
+
+#: ../../netconnect.pm_.c:345
+msgid ""
+"There is only one configured network adapter on your system:\n"
+"\n"
+"$interface\n"
+"\n"
+"Would you like to setup your internet connection with that adapter?"
+msgstr ""
+
+#: ../../netconnect.pm_.c:349
+msgid ""
+"Please choose which network adaptater do you want to use to connect to "
+"internet"
+msgstr ""
+
+#: ../../netconnect.pm_.c:374
+msgid "I'm about to restart the network interface. Do you agree?"
+msgstr ""
+
+#: ../../netconnect.pm_.c:447
+msgid "ADSL configuration"
+msgstr "Cumraigh ADSL"
+
+#: ../../netconnect.pm_.c:448
+msgid "Do you want to start your connection at boot?"
+msgstr ""
+
+#: ../../netconnect.pm_.c:502
+msgid "Try to find a modem?"
+msgstr "Déan iarracht móideam a aimsiú?"
+
+#: ../../netconnect.pm_.c:512
+#, fuzzy
+msgid "Please choose which serial port your modem is connected to."
+msgstr "Cén cinéal luchóg atá agat?"
+
+#: ../../netconnect.pm_.c:518
+msgid "Dialup options"
+msgstr "Roghanna 'Dialup'"
+
+#: ../../netconnect.pm_.c:520
+msgid "Phone number"
+msgstr "Uimhir fón"
+
+#: ../../netconnect.pm_.c:521
+msgid "Login ID"
+msgstr "Ainm Login:"
+
+#: ../../netconnect.pm_.c:523
+msgid "Authentication"
+msgstr ""
+
+#: ../../netconnect.pm_.c:523
+msgid "CHAP"
+msgstr "CHAP"
+
+#: ../../netconnect.pm_.c:523
+msgid "PAP"
+msgstr "PAP"
+
+#: ../../netconnect.pm_.c:523
+msgid "Script-based"
+msgstr "Script-bhunaithe"
+
+#: ../../netconnect.pm_.c:523
+msgid "Terminal-based"
+msgstr "Teirminéal-bhunaithe"
+
+#: ../../netconnect.pm_.c:524
+msgid "Domain name"
+msgstr "Ainm Fearannas"
+
+#: ../../netconnect.pm_.c:526
+msgid "First DNS Server"
+msgstr "Cead Freastalaí DNS"
+
+#: ../../netconnect.pm_.c:527
+msgid "Second DNS Server"
+msgstr ""
+
+#: ../../netconnect.pm_.c:545
+msgid "Connect to internet"
+msgstr ""
+
+#: ../../netconnect.pm_.c:547
+msgid "Disconnect from internet"
+msgstr ""
+
+#: ../../netconnect.pm_.c:549
+msgid "Configure internet connexion"
+msgstr "Cumraigh gréasánú"
+
+#: ../../netconnect.pm_.c:552
+#, fuzzy
+msgid "Internet connection & configuration"
+msgstr "Printéir"
+
+#: ../../netconnect.pm_.c:553
+msgid "What do you wish to do?"
+msgstr "Céard a theastaíonn uait a dhéanamh?"
+
+#: ../../netconnect.pm_.c:568
+msgid "Connect to internet with a normal modem"
+msgstr ""
+
+#: ../../netconnect.pm_.c:570
+msgid "Connect to internet using ISDN"
+msgstr ""
+
+#: ../../netconnect.pm_.c:572
+msgid "Connect to internet using DSL (or ADSL)"
+msgstr ""
+
+#: ../../netconnect.pm_.c:574
+msgid "Connect to internet using Cable"
+msgstr ""
+
+#: ../../netconnect.pm_.c:576
+msgid "Configure LAN"
+msgstr "Cumraigh LAN"
+
+#: ../../netconnect.pm_.c:578
+msgid "End configuration"
+msgstr "Éirigh  as cumraíocht"
+
+#: ../../netconnect.pm_.c:581
+msgid "Connect to the Internet / Configure LAN"
+msgstr ""
+
+#: ../../netconnect.pm_.c:582
+#, fuzzy
+msgid "How do you want to connect to the Internet?"
+msgstr "Cén diosca ag a dteastaíonn uait é a bhogadh?"
+
+#: ../../netconnect.pm_.c:603
+msgid "Internal ISDN card"
+msgstr "Carta ISDN inmheánamach"
+
+#: ../../netconnect.pm_.c:605
+msgid "External modem"
+msgstr "Móideam seantrach"
+
+#: ../../netconnect.pm_.c:608 ../../netconnect.pm_.c:643
+#: ../../netconnect.pm_.c:654 ../../netconnect.pm_.c:680
+msgid "Connect to the Internet"
+msgstr ""
+
+#: ../../netconnect.pm_.c:609
+#, fuzzy
+msgid "What kind is your ISDN connection?"
+msgstr "Cén ceann do chrois ama"
+
+#: ../../netconnect.pm_.c:628
+msgid "Cable connection"
+msgstr ""
+
+#: ../../netconnect.pm_.c:629 ../../network.pm_.c:278
+msgid ""
+"Please enter your host name if you know it.\n"
+"Some DHCP servers require the hostname to work.\n"
+"Your host name should be a fully-qualified host name,\n"
+"such as ``mybox.mylab.myco.com''."
+msgstr ""
+
+#: ../../netconnect.pm_.c:633 ../../network.pm_.c:282 ../../network.pm_.c:322
+msgid "Host name:"
+msgstr "Ainm úsáideora"
+
+#: ../../netconnect.pm_.c:638
+msgid "France"
+msgstr ""
+
+#: ../../netconnect.pm_.c:640
+msgid "Other countries"
+msgstr "Tír Eile"
+
+#: ../../netconnect.pm_.c:644
+msgid "On which country are you located ?"
+msgstr ""
+
+#: ../../netconnect.pm_.c:649
+msgid "alcatel modem"
+msgstr "móideim alcatel"
+
+#: ../../netconnect.pm_.c:651
+msgid "ECI modem"
+msgstr "móideim ECI"
+
+#: ../../netconnect.pm_.c:655
+msgid "If your adsl modem is an alcatel one, choose alcatel. Otherwise, ECI."
+msgstr ""
+
+#: ../../netconnect.pm_.c:675
+msgid "use pppoe"
+msgstr "úsáid pppoe"
+
+#: ../../netconnect.pm_.c:677
+msgid "don't use pppoe"
+msgstr "ná úsáid pppoe"
+
+#: ../../netconnect.pm_.c:681
+msgid ""
+"The most common way to connect with adsl is dhcp + pppoe.\n"
+"However, it exists some connexion that only use dhcp. If you don't know, "
+"choose 'use pppoe'"
+msgstr ""
+
+#: ../../network.pm_.c:242
+msgid "Keep the current IP configuration"
+msgstr "Coimead an cumraíocht IP atá ann"
+
+#: ../../network.pm_.c:243
+msgid "Reconfigure network now"
+msgstr "Athchumraigh an gréasánú anois"
+
+#: ../../network.pm_.c:244
+#, fuzzy
+msgid "Do not set up networking"
+msgstr "Cumraigh gréasánú"
+
+#: ../../network.pm_.c:247 ../../network.pm_.c:252
+msgid "Network Configuration"
+msgstr "Cumraíocht Gréasánú"
+
+#: ../../network.pm_.c:248
+msgid "Local networking has already been configured. Do you want to:"
+msgstr "Tá gréasánú lóganta cumraithe cheana féin. An dteastaíonn uait:"
+
+#: ../../network.pm_.c:253
+#, fuzzy
+msgid "Do you want to configure a local network for your system?"
+msgstr "An dteastaíonn uait gréasánú a chumrú ded' chóras?"
+
+#: ../../network.pm_.c:259
+msgid "no network card found"
+msgstr "ní fuaireathas cárta gréasánú"
+
+#: ../../network.pm_.c:277 ../../network.pm_.c:317
+msgid "Configuring network"
+msgstr "Cumraigh gréasánú"
+
+#: ../../network.pm_.c:296
+msgid "Proxies configuration"
+msgstr ""
+
+#: ../../network.pm_.c:297
+msgid "HTTP proxy"
+msgstr ""
+
+#: ../../network.pm_.c:298
+msgid "FTP proxy"
+msgstr ""
+
+#: ../../network.pm_.c:304
+msgid "Proxy should be http://..."
+msgstr ""
+
+#: ../../network.pm_.c:305
+msgid "Proxy should be ftp://..."
+msgstr ""
+
+#: ../../network.pm_.c:318
+msgid ""
+"Please enter your host name.\n"
+"Your host name should be a fully-qualified host name,\n"
+"such as ``mybox.mylab.myco.com''.\n"
+"You may also enter the IP address of the gateway if you have one"
+msgstr ""
+
+#: ../../network.pm_.c:322
+msgid "DNS server:"
+msgstr "freastalaí DNS:"
+
+#: ../../network.pm_.c:322
+msgid "Gateway device:"
+msgstr "Gaireas na hInneal Geata:"
+
+#: ../../network.pm_.c:322
+msgid "Gateway:"
+msgstr "Inneal Geata:"
+
+#: ../../network.pm_.c:356 ../../network.pm_.c:357
+#, c-format
+msgid "Configuring network device %s"
+msgstr "Ag cumrú gléas gréasánú %s"
+
+#: ../../network.pm_.c:358
+msgid ""
+"Please enter the IP configuration for this machine.\n"
+"Each item should be entered as an IP address in dotted-decimal\n"
+"notation (for example, 1.2.3.4)."
+msgstr ""
+
+#: ../../network.pm_.c:361
+msgid "Automatic IP"
+msgstr "Uath-IP"
+
+#: ../../network.pm_.c:361
+msgid "IP address:"
+msgstr "Seoladh IP:"
+
+#: ../../network.pm_.c:361
+msgid "Netmask:"
+msgstr ""
+
+#: ../../network.pm_.c:362
+msgid "(bootp/dhcp)"
+msgstr "(bootp/dhcp)"
+
+#: ../../network.pm_.c:368 ../../printerdrake.pm_.c:95
+msgid "IP address should be in format 1.2.3.4"
+msgstr ""
+
+#: ../../partition_table.pm_.c:542
+msgid "Extended partition not supported on this platform"
+msgstr ""
+
+#: ../../partition_table.pm_.c:560
+msgid ""
+"You have a hole in your partition table but I can't use it.\n"
+"The only solution is to move your primary partitions to have the hole next "
+"to the extended partitions"
+msgstr ""
+
+#: ../../partition_table.pm_.c:653
+#, c-format
+msgid "Error reading file %s"
+msgstr "Earráid ag léamh comhad %s"
+
+#: ../../partition_table.pm_.c:660
+#, c-format
+msgid "Restoring from file %s failed: %s"
+msgstr ""
+
+#: ../../partition_table.pm_.c:662
+msgid "Bad backup file"
+msgstr "Droch comhad chúltaca"
+
+#: ../../partition_table.pm_.c:683
+#, c-format
+msgid "Error writing to file %s"
+msgstr "Earráidh ag scríobh comhad %s"
+
+#: ../../pkgs.pm_.c:20
+msgid "mandatory"
+msgstr ""
+
+#: ../../pkgs.pm_.c:21
+msgid "must have"
+msgstr ""
+
+#: ../../pkgs.pm_.c:22
+msgid "important"
+msgstr "tábhachtach"
+
+#: ../../pkgs.pm_.c:24
+msgid "very nice"
+msgstr "an-dheas"
+
+#: ../../pkgs.pm_.c:25
+msgid "nice"
+msgstr "deas"
+
+#: ../../pkgs.pm_.c:26 ../../pkgs.pm_.c:27
+msgid "interesting"
+msgstr ""
+
+#: ../../pkgs.pm_.c:28 ../../pkgs.pm_.c:29 ../../pkgs.pm_.c:30
+#: ../../pkgs.pm_.c:31
+msgid "maybe"
+msgstr ""
+
+#: ../../pkgs.pm_.c:34
+msgid "i18n (important)"
+msgstr "i18n (tábhachtach)"
+
+#: ../../pkgs.pm_.c:35
+msgid "i18n (very nice)"
+msgstr "i18n (an-dheas)"
+
+#: ../../pkgs.pm_.c:36
+msgid "i18n (nice)"
+msgstr "i18n (deas)"
+
+#: ../../placeholder.pm_.c:5
+#, fuzzy
+msgid "Show less"
+msgstr "Taispéan gach ceann"
+
+#: ../../placeholder.pm_.c:6
+msgid "Show more"
+msgstr ""
+
+#: ../../printer.pm_.c:19
+msgid "Local printer"
+msgstr "Printéir áitiúl"
+
+#: ../../printer.pm_.c:20
+msgid "Network printer (lpd)"
+msgstr "Printéir Gréasán (lpd)"
+
+#: ../../printer.pm_.c:21
+msgid "SMB/Windows 95/98/NT"
+msgstr "SMB/Windows 95/98/NT"
+
+#: ../../printer.pm_.c:22
+msgid "NetWare"
+msgstr "NetWare"
+
+#: ../../printer.pm_.c:23
+msgid "Socket"
+msgstr ""
+
+#: ../../printer.pm_.c:24 ../../printerdrake.pm_.c:151
+#: ../../printerdrake.pm_.c:153
+#, fuzzy
+msgid "Printer Device URI"
+msgstr "Printéir"
+
+#: ../../printerdrake.pm_.c:19
+msgid "Detecting devices..."
+msgstr ""
+
+#: ../../printerdrake.pm_.c:19
+msgid "Test ports"
+msgstr ""
+
+#: ../../printerdrake.pm_.c:35
+#, c-format
+msgid "A printer, model \"%s\", has been detected on "
+msgstr ""
+
+#: ../../printerdrake.pm_.c:45
+msgid "Local Printer Device"
+msgstr "Gaireas na Printéir Áitiúl"
+
+#: ../../printerdrake.pm_.c:46
+msgid ""
+"What device is your printer connected to \n"
+"(note that /dev/lp0 is equivalent to LPT1:)?\n"
+msgstr ""
+
+#: ../../printerdrake.pm_.c:48
+msgid "Printer Device"
+msgstr "Gaireas Printéir"
+
+#: ../../printerdrake.pm_.c:66
+msgid "Remote lpd Printer Options"
+msgstr ""
+
+#: ../../printerdrake.pm_.c:67
+msgid ""
+"To use a remote lpd print queue, you need to supply\n"
+"the hostname of the printer server and the queue name\n"
+"on that server which jobs should be placed in."
+msgstr ""
+
+#: ../../printerdrake.pm_.c:70
+msgid "Remote hostname"
+msgstr ""
+
+#: ../../printerdrake.pm_.c:71
+msgid "Remote queue"
+msgstr ""
+
+#: ../../printerdrake.pm_.c:81
+msgid "SMB (Windows 9x/NT) Printer Options"
+msgstr ""
+
+#: ../../printerdrake.pm_.c:82
+msgid ""
+"To print to a SMB printer, you need to provide the\n"
+"SMB host name (Note! It may be different from its\n"
+"TCP/IP hostname!) and possibly the IP address of the print server, as\n"
+"well as the share name for the printer you wish to access and any\n"
+"applicable user name, password, and workgroup information."
+msgstr ""
+
+#: ../../printerdrake.pm_.c:87
+#, fuzzy
+msgid "SMB server host"
+msgstr "freastalaí"
+
+#: ../../printerdrake.pm_.c:88
+msgid "SMB server IP"
+msgstr "IP freastalaí SMP"
+
+#: ../../printerdrake.pm_.c:89
+msgid "Share name"
+msgstr ""
+
+#: ../../printerdrake.pm_.c:92
+msgid "Workgroup"
+msgstr "Grupa na hOibre"
+
+#: ../../printerdrake.pm_.c:117
+msgid "NetWare Printer Options"
+msgstr "Roghanna Printéir NetWare"
+
+#: ../../printerdrake.pm_.c:118
+msgid ""
+"To print to a NetWare printer, you need to provide the\n"
+"NetWare print server name (Note! it may be different from its\n"
+"TCP/IP hostname!) as well as the print queue name for the printer you\n"
+"wish to access and any applicable user name and password."
+msgstr ""
+
+#: ../../printerdrake.pm_.c:122
+msgid "Printer Server"
+msgstr "Freastalaí Printéir"
+
+#: ../../printerdrake.pm_.c:123
+msgid "Print Queue Name"
+msgstr ""
+
+#: ../../printerdrake.pm_.c:135
+msgid "Socket Printer Options"
+msgstr ""
+
+#: ../../printerdrake.pm_.c:136
+msgid ""
+"To print to a socket printer, you need to provide the\n"
+"hostname of the printer and optionally the port number."
+msgstr ""
+
+#: ../../printerdrake.pm_.c:138
+msgid "Printer Hostname"
+msgstr "Óstainm Printéir"
+
+#: ../../printerdrake.pm_.c:139
+msgid "Port"
+msgstr ""
+
+#: ../../printerdrake.pm_.c:152
+msgid "You can specify directly the URI to access the printer with CUPS."
+msgstr ""
+
+#: ../../printerdrake.pm_.c:185 ../../printerdrake.pm_.c:238
+msgid "What type of printer do you have?"
+msgstr ""
+
+#: ../../printerdrake.pm_.c:198 ../../printerdrake.pm_.c:305
+#, fuzzy
+msgid "Do you want to test printing?"
+msgstr "An bhfuil tú ag iarraidh an cumraíocht a thrial?"
+
+#: ../../printerdrake.pm_.c:201 ../../printerdrake.pm_.c:316
+msgid "Printing test page(s)..."
+msgstr ""
+
+#: ../../printerdrake.pm_.c:208 ../../printerdrake.pm_.c:324
+#, c-format
+msgid ""
+"Test page(s) have been sent to the printer daemon.\n"
+"This may take a little time before printer start.\n"
+"Printing status:\n"
+"%s\n"
+"\n"
+"Does it work properly?"
+msgstr ""
+
+#: ../../printerdrake.pm_.c:212 ../../printerdrake.pm_.c:328
+msgid ""
+"Test page(s) have been sent to the printer daemon.\n"
+"This may take a little time before printer start.\n"
+"Does it work properly?"
+msgstr ""
+
+#: ../../printerdrake.pm_.c:228
+msgid "Yes, print ASCII test page"
+msgstr ""
+
+#: ../../printerdrake.pm_.c:229
+msgid "Yes, print PostScript test page"
+msgstr ""
+
+#: ../../printerdrake.pm_.c:230
+msgid "Yes, print both test pages"
+msgstr ""
+
+#: ../../printerdrake.pm_.c:237
+msgid "Configure Printer"
+msgstr "Cumraigh Printéir"
+
+#: ../../printerdrake.pm_.c:270
+msgid "Printer options"
+msgstr "Roghanna Printéir"
+
+#: ../../printerdrake.pm_.c:271
+msgid "Paper Size"
+msgstr "Méid Páipéir"
+
+#: ../../printerdrake.pm_.c:272
+msgid "Eject page after job?"
+msgstr ""
+
+#: ../../printerdrake.pm_.c:277
+#, fuzzy
+msgid "Uniprint driver options"
+msgstr "Athraigh cumraíocht an freastalaí"
+
+#: ../../printerdrake.pm_.c:278
+msgid "Color depth options"
+msgstr ""
+
+#: ../../printerdrake.pm_.c:280
+msgid "Print text as PostScript?"
+msgstr ""
+
+#: ../../printerdrake.pm_.c:281
+msgid "Reverse page order"
+msgstr ""
+
+#: ../../printerdrake.pm_.c:283
+msgid "Fix stair-stepping text?"
+msgstr ""
+
+#: ../../printerdrake.pm_.c:286
+msgid "Number of pages per output pages"
+msgstr ""
+
+#: ../../printerdrake.pm_.c:287
+msgid "Right/Left margins in points (1/72 of inch)"
+msgstr ""
+
+#: ../../printerdrake.pm_.c:288
+msgid "Top/Bottom margins in points (1/72 of inch)"
+msgstr ""
+
+#: ../../printerdrake.pm_.c:291
+msgid "Extra GhostScript options"
+msgstr ""
+
+#: ../../printerdrake.pm_.c:294
+msgid "Extra Text options"
+msgstr ""
+
+#: ../../printerdrake.pm_.c:344
+msgid "Printer"
+msgstr "Printéir"
+
+#: ../../printerdrake.pm_.c:345
+msgid "Would you like to configure a printer?"
+msgstr "An dteastaìonn uait printéir a chumrú?"
+
+#: ../../printerdrake.pm_.c:348
+msgid ""
+"Here are the following print queues.\n"
+"You can add some more or change the existing ones."
+msgstr ""
+
+#: ../../printerdrake.pm_.c:376 ../../printerdrake.pm_.c:383
+#: ../../printerdrake.pm_.c:395
+msgid "Select Printer Connection"
+msgstr ""
+
+#: ../../printerdrake.pm_.c:377
+msgid "How is the printer connected?"
+msgstr ""
+
+#: ../../printerdrake.pm_.c:383 ../../printerdrake.pm_.c:395
+msgid "Remove queue"
+msgstr ""
+
+#: ../../printerdrake.pm_.c:384
+msgid ""
+"Every printer need a name (for example lp).\n"
+"Other parameters such as the description of the printer or its location\n"
+"can be defined. What name should be used for this printer and\n"
+"how is the printer connected?"
+msgstr ""
+
+#: ../../printerdrake.pm_.c:388
+msgid "Name of printer"
+msgstr "Ainm Printéir"
+
+#: ../../printerdrake.pm_.c:389
+msgid "Description"
+msgstr "Eolas"
+
+#: ../../printerdrake.pm_.c:390
+msgid "Location"
+msgstr "'Áit"
+
+#: ../../printerdrake.pm_.c:391 ../../printerdrake.pm_.c:401
+#, fuzzy
+msgid "Printer Connection"
+msgstr "Printéir"
+
+#: ../../printerdrake.pm_.c:396
+msgid ""
+"Every print queue (which print jobs are directed to) needs a\n"
+"name (often lp) and a spool directory associated with it. What\n"
+"name and directory should be used for this queue and how is the printer "
+"connected?"
+msgstr ""
+
+#: ../../printerdrake.pm_.c:399
+msgid "Name of queue"
+msgstr ""
+
+#: ../../printerdrake.pm_.c:400
+msgid "Spool directory"
+msgstr ""
+
+#: ../../raid.pm_.c:36
+#, c-format
+msgid "Can't add a partition to _formatted_ RAID md%d"
+msgstr ""
+
+#: ../../raid.pm_.c:106
+msgid "Can't write file $file"
+msgstr ""
+
+#: ../../raid.pm_.c:131
+msgid "mkraid failed"
+msgstr "teip ar 'mkraid'"
+
+#: ../../raid.pm_.c:131
+msgid "mkraid failed (maybe raidtools are missing?)"
+msgstr ""
+
+#: ../../raid.pm_.c:147
+#, c-format
+msgid "Not enough partitions for RAID level %d\n"
+msgstr ""
+
+#: ../../services.pm_.c:15
+msgid "Anacron a periodic command scheduler."
+msgstr ""
+
+#: ../../services.pm_.c:16
+msgid ""
+"apmd is used for monitoring batery status and logging it via syslog.\n"
+"It can also be used for shutting down the machine when the battery is low."
+msgstr ""
+
+#: ../../services.pm_.c:18
+msgid ""
+"Runs commands scheduled by the at command at the time specified when\n"
+"at was run, and runs batch commands when the load average is low enough."
+msgstr ""
+
+#: ../../services.pm_.c:20
+msgid ""
+"cron is a standard UNIX program that runs user-specified programs\n"
+"at periodic scheduled times. vixie cron adds a number of features to the "
+"basic\n"
+"UNIX cron, including better security and more powerful configuration options."
+msgstr ""
+
+#: ../../services.pm_.c:23
+msgid ""
+"GPM adds mouse support to text-based Linux applications such the\n"
+"Midnight Commander. It also allows mouse-based console cut-and-paste "
+"operations,\n"
+"and includes support for pop-up menus on the console."
+msgstr ""
+
+#: ../../services.pm_.c:26
+msgid ""
+"Apache is a World Wide Web server.  It is used to serve HTML files\n"
+"and CGI."
+msgstr ""
+
+#: ../../services.pm_.c:28
+msgid ""
+"The internet superserver daemon (commonly called inetd) starts a\n"
+"variety of other internet services as needed. It is responsible for "
+"starting\n"
+"many services, including telnet, ftp, rsh, and rlogin. Disabling inetd "
+"disables\n"
+"all of the services it is responsible for."
+msgstr ""
+
+#: ../../services.pm_.c:32
+msgid ""
+"This package loads the selected keyboard map as set in\n"
+"/etc/sysconfig/keyboard.  This can be selected using the kbdconfig utility.\n"
+"You should leave this enabled for most machines."
+msgstr ""
+
+#: ../../services.pm_.c:35
+msgid ""
+"lpd is the print daemon required for lpr to work properly. It is\n"
+"basically a server that arbitrates print jobs to printer(s)."
+msgstr ""
+
+#: ../../services.pm_.c:37
+msgid ""
+"named (BIND) is a Domain Name Server (DNS) that is used to resolve\n"
+"host names to IP addresses."
+msgstr ""
+
+#: ../../services.pm_.c:39
+msgid ""
+"Mounts and unmounts all Network File System (NFS), SMB (Lan\n"
+"Manager/Windows), and NCP (NetWare) mount points."
+msgstr ""
+
+#: ../../services.pm_.c:41
+msgid ""
+"Activates/Deactivates all network interfaces configured to start\n"
+"at boot time."
+msgstr ""
+
+#: ../../services.pm_.c:43
+msgid ""
+"NFS is a popular protocol for file sharing across TCP/IP networks.\n"
+"This service provides NFS server functionality, which is configured via the\n"
+"/etc/exports file."
+msgstr ""
+
+#: ../../services.pm_.c:46
+msgid ""
+"NFS is a popular protocol for file sharing across TCP/IP\n"
+"networks. This service provides NFS file locking functionality."
+msgstr ""
+
+#: ../../services.pm_.c:48
+msgid ""
+"PCMCIA support is usually to support things like ethernet and\n"
+"modems in laptops.  It won't get started unless configured so it is safe to "
+"have\n"
+"it installed on machines that don't need it."
+msgstr ""
+
+#: ../../services.pm_.c:51
+msgid ""
+"The portmapper manages RPC connections, which are used by\n"
+"protocols such as NFS and NIS. The portmap server must be running on "
+"machines\n"
+"which act as servers for protocols which make use of the RPC mechanism."
+msgstr ""
+
+#: ../../services.pm_.c:54
+msgid ""
+"Postfix is a Mail Transport Agent, which is the program that\n"
+"moves mail from one machine to another."
+msgstr ""
+
+#: ../../services.pm_.c:56
+msgid ""
+"Saves and restores system entropy pool for higher quality random\n"
+"number generation."
+msgstr ""
+
+#: ../../services.pm_.c:58
+msgid ""
+"The routed daemon allows for automatic IP router table updated via\n"
+"the RIP protocol. While RIP is widely used on small networks, more complex\n"
+"routing protocols are needed for complex networks."
+msgstr ""
+
+#: ../../services.pm_.c:61
+msgid ""
+"The rstat protocol allows users on a network to retrieve\n"
+"performance metrics for any machine on that network."
+msgstr ""
+
+#: ../../services.pm_.c:63
+msgid ""
+"The rusers protocol allows users on a network to identify who is\n"
+"logged in on other responding machines."
+msgstr ""
+
+#: ../../services.pm_.c:65
+msgid ""
+"The rwho protocol lets remote users get a list of all of the users\n"
+"logged into a machine running the rwho daemon (similiar to finger)."
+msgstr ""
+
+#: ../../services.pm_.c:67
+msgid ""
+"Syslog is the facility by which many daemons use to log messages\n"
+"to various system log files.  It is a good idea to always run syslog."
+msgstr ""
+
+#: ../../services.pm_.c:69
+msgid "This startup script try to load your modules for your usb mouse."
+msgstr ""
+
+#: ../../services.pm_.c:70
+msgid "Starts and stops the X Font Server at boot time and shutdown."
+msgstr ""
+
+#: ../../services.pm_.c:96
+msgid "Choose which services should be automatically started at boot time"
+msgstr ""
+
+#: ../../standalone/diskdrake_.c:61
+msgid ""
+"I can't read your partition table, it's too corrupted for me :(\n"
+"I'll try to go on blanking bad partitions"
+msgstr ""
+"Ni féidir liom an tábla rainn a léamh, tá máchaillí ann :(\n"
+"Leanfaidh mé orm ag cealú droch rainn"
+
+#: ../../standalone/drakboot_.c:25
+msgid "Configure LILO/GRUB"
+msgstr "Cumraigh LILO/GRUB"
+
+#: ../../standalone/drakboot_.c:26
+msgid "Create a boot floppy"
+msgstr ""
+
+#: ../../standalone/drakboot_.c:28
+msgid "Format floppy"
+msgstr ""
+
+#: ../../standalone/drakboot_.c:40
+msgid "Choice"
+msgstr "Rogha"
+
+#: ../../standalone/drakboot_.c:59
+msgid "Installation of LILO failed. The following error occured:"
+msgstr ""
+
+#: ../../standalone/drakgw_.c:86
+msgid "Internet Connection Sharing currently enabled"
+msgstr ""
+
+#: ../../standalone/drakgw_.c:87 ../../standalone/drakgw_.c:105
+msgid "The setup of Internet connection sharing has already been done.\n"
+msgstr ""
+
+#: ../../standalone/drakgw_.c:104
+msgid "Internet Connection Sharing currently disabled"
+msgstr ""
+
+#: ../../standalone/drakgw_.c:122
+msgid "Config file content could not be interpreted."
+msgstr ""
+
+#: ../../standalone/drakgw_.c:132
+#, fuzzy
+msgid "Internet Connection Sharing"
+msgstr "Printéir"
+
+#: ../../standalone/drakgw_.c:133
+msgid ""
+"Your computer can be configured to share its Internet connection.\n"
+"\n"
+msgstr ""
+
+#: ../../standalone/drakgw_.c:186
+msgid "No network adapter on your system!"
+msgstr ""
+
+#: ../../standalone/drakgw_.c:187
+msgid ""
+"No ethernet network adapter has been detected on your system. Please run the "
+"hardware configuration tool."
+msgstr ""
+
+#: ../../standalone/drakgw_.c:199
+msgid ""
+"Please choose what network adapter will be connected to your Local Area "
+"Network."
+msgstr ""
+
+#: ../../standalone/drakgw_.c:208
+msgid ""
+"Warning, the network adapter is already configured.\n"
+"Would you like to reconfigure?"
+msgstr ""
+
+#: ../../standalone/drakgw_.c:233
+msgid "Potential LAN address conflict found in current config of $_!\n"
+msgstr ""
+
+#: ../../standalone/drakgw_.c:243
+#, fuzzy
+msgid "Firewalling configuration detected!"
+msgstr "Trialaigh an cumraíocht"
+
+#: ../../standalone/drakgw_.c:244
+msgid ""
+"Warning! An existing firewalling configuration has been detected. You may "
+"need some manual fix after installation. Proceed?"
+msgstr ""
+
+#: ../../standalone/drakgw_.c:258
+msgid "Configuring scripts, installing software, starting servers..."
+msgstr ""
+
+#: ../../standalone/drakgw_.c:282
+msgid "Could not install ipchains RPM with urpmi."
+msgstr ""
+
+#: ../../standalone/drakgw_.c:432
+msgid "Could not install dhcp RPM with urpmi."
+msgstr ""
+
+#: ../../standalone/drakgw_.c:456
+msgid "Could not install linuxconf RPM with urpmi."
+msgstr ""
+
+#: ../../standalone/drakgw_.c:472
+msgid "Could not install bind RPM with urpmi."
+msgstr ""
+
+#: ../../standalone/drakgw_.c:476
+msgid "Could not install caching-nameserver RPM with urpmi."
+msgstr ""
+
+#: ../../standalone/drakgw_.c:488
+msgid "Congratulations!"
+msgstr "Comhghairdeas!"
+
+#: ../../standalone/drakgw_.c:489
+msgid "Everything has been configured.\n"
+msgstr ""
+
+#: ../../standalone/draksec_.c:28
+msgid ""
+"This level is to be used with care. It makes your system more easy to use,\n"
+"but very sensitive: it must not be used for a machine connected to others\n"
+"or to the Internet. There is no password access."
+msgstr ""
+
+#: ../../standalone/draksec_.c:31
+msgid ""
+"Password are now enabled, but use as a networked computer is still not "
+"recommended."
+msgstr ""
+
+#: ../../standalone/draksec_.c:32
+msgid ""
+"Few improvements for this security level, the main one is that there are\n"
+"more security warnings and checks."
+msgstr ""
+
+#: ../../standalone/draksec_.c:34
+msgid ""
+"This is the standard security recommended for a computer that will be used\n"
+"to connect to the Internet as a client. There are now security checks. "
+msgstr ""
+
+#: ../../standalone/draksec_.c:36
+msgid ""
+"With this security level, the use of this system as a server becomes "
+"possible.\n"
+"The security is now high enough to use the system as a server which accept\n"
+"connections from many clients. "
+msgstr ""
+
+#: ../../standalone/draksec_.c:39
+msgid ""
+"We take level 4 features, but now the system is entirely closed.\n"
+"Security features are at their maximum."
+msgstr ""
+
+#: ../../standalone/draksec_.c:49
+msgid "Setting security level"
+msgstr ""
+
+#: ../../standalone/drakxconf_.c:21
+msgid "Choose the tool you want to use"
+msgstr ""
+
+#: ../../standalone/mousedrake_.c:25
+msgid "What is the type of your mouse?"
+msgstr "Cén cinéal luchóg atá agat?"
+
+#: ../../standalone/mousedrake_.c:30
+msgid "no serial_usb found\n"
+msgstr ""
+
+#: ../../standalone/mousedrake_.c:35
+msgid "Emulate third button?"
+msgstr ""
+
+#: ../../standalone/mousedrake_.c:39
+msgid "Which serial port is your mouse connected to?"
+msgstr ""
+
+#: ../../standalone/rpmdrake_.c:25
+#, fuzzy
+msgid "reading configuration"
+msgstr "Trialaigh an cumraíocht"
+
+#: ../../standalone/rpmdrake_.c:45 ../../standalone/rpmdrake_.c:50
+#: ../../standalone/rpmdrake_.c:253
+msgid "File"
+msgstr "Comhad"
+
+#: ../../standalone/rpmdrake_.c:48 ../../standalone/rpmdrake_.c:229
+#: ../../standalone/rpmdrake_.c:253 ../../standalone/rpmdrake_.c:269
+msgid "Search"
+msgstr "Cuardaigh"
+
+#: ../../standalone/rpmdrake_.c:49 ../../standalone/rpmdrake_.c:56
+msgid "Package"
+msgstr "Pacáiste"
+
+#: ../../standalone/rpmdrake_.c:51
+msgid "Text"
+msgstr "Teacs"
+
+#: ../../standalone/rpmdrake_.c:53
+msgid "Tree"
+msgstr "Crann"
+
+#: ../../standalone/rpmdrake_.c:54
+msgid "Sort by"
+msgstr ""
+
+#: ../../standalone/rpmdrake_.c:55
+msgid "Category"
+msgstr "Saghas"
+
+#: ../../standalone/rpmdrake_.c:58
+msgid "See"
+msgstr ""
+
+#: ../../standalone/rpmdrake_.c:59 ../../standalone/rpmdrake_.c:163
+#, fuzzy
+msgid "Installed packages"
+msgstr "%d pacáistí"
+
+#: ../../standalone/rpmdrake_.c:60
+#, fuzzy
+msgid "Available packages"
+msgstr "Ag curdach do na pacáistí atá ar fáil"
+
+#: ../../standalone/rpmdrake_.c:62
+#, fuzzy
+msgid "Show only leaves"
+msgstr "Taispéan gach ceann"
+
+#: ../../standalone/rpmdrake_.c:67
+msgid "Expand all"
+msgstr ""
+
+#: ../../standalone/rpmdrake_.c:68
+#, fuzzy
+msgid "Collapse all"
+msgstr "Glan gach ceann"
+
+#: ../../standalone/rpmdrake_.c:70
+#, fuzzy
+msgid "Configuration"
+msgstr "Trialaigh an cumraíocht"
+
+#: ../../standalone/rpmdrake_.c:71
+msgid "Add location of packages"
+msgstr ""
+
+#: ../../standalone/rpmdrake_.c:75
+msgid "Update location"
+msgstr ""
+
+#: ../../standalone/rpmdrake_.c:79 ../../standalone/rpmdrake_.c:328
+msgid "Remove"
+msgstr "Scríos"
+
+#: ../../standalone/rpmdrake_.c:100
+msgid "Configuration: Add Location"
+msgstr ""
+
+#: ../../standalone/rpmdrake_.c:103
+msgid "Find Package"
+msgstr "Cuardaigh Pacáiste"
+
+#: ../../standalone/rpmdrake_.c:104
+msgid "Find Package containing file"
+msgstr ""
+
+#: ../../standalone/rpmdrake_.c:105
+msgid "Toggle between Installed and Available"
+msgstr ""
+
+#: ../../standalone/rpmdrake_.c:139
+msgid "Files:\n"
+msgstr "Comhaid:\n"
+
+#: ../../standalone/rpmdrake_.c:161 ../../standalone/rpmdrake_.c:209
+msgid "Uninstall"
+msgstr "Eirigh as Feistiú"
+
+#: ../../standalone/rpmdrake_.c:163
+#, fuzzy
+msgid "Choose package to install"
+msgstr "Roghnaigh pacáistí ..."
+
+#: ../../standalone/rpmdrake_.c:190
+msgid "Checking dependencies"
+msgstr ""
+
+#: ../../standalone/rpmdrake_.c:190 ../../standalone/rpmdrake_.c:409
+msgid "Wait"
+msgstr "Fan tamall"
+
+#: ../../standalone/rpmdrake_.c:209
+#, fuzzy
+msgid "The following packages are going to be uninstalled"
+msgstr "Roghnaigh pacáistí ..."
+
+#: ../../standalone/rpmdrake_.c:210
+msgid "Uninstalling the RPMs"
+msgstr ""
+
+#: ../../standalone/rpmdrake_.c:229 ../../standalone/rpmdrake_.c:269
+msgid "Regexp"
+msgstr "Regexp"
+
+#: ../../standalone/rpmdrake_.c:229
+msgid "Which package are looking for"
+msgstr ""
+
+#: ../../standalone/rpmdrake_.c:238 ../../standalone/rpmdrake_.c:262
+#: ../../standalone/rpmdrake_.c:278
+#, c-format
+msgid "%s not found"
+msgstr "Teip ag cuardach %s"
+
+#: ../../standalone/rpmdrake_.c:238 ../../standalone/rpmdrake_.c:262
+#: ../../standalone/rpmdrake_.c:278
+msgid "No match"
+msgstr ""
+
+#: ../../standalone/rpmdrake_.c:238 ../../standalone/rpmdrake_.c:262
+#: ../../standalone/rpmdrake_.c:278
+msgid "No more match"
+msgstr ""
+
+#: ../../standalone/rpmdrake_.c:246
+msgid ""
+"rpmdrake is currently in ``low memory'' mode.\n"
+"I'm going to relaunch rpmdrake to allow searching files"
+msgstr ""
+
+#: ../../standalone/rpmdrake_.c:253
+msgid "Which file are you looking for?"
+msgstr ""
+
+#: ../../standalone/rpmdrake_.c:269
+msgid "What are looking for?"
+msgstr ""
+
+#: ../../standalone/rpmdrake_.c:289
+msgid "Give a name (eg: `extra', `commercial')"
+msgstr ""
+
+#: ../../standalone/rpmdrake_.c:291
+msgid "Directory"
+msgstr "Fillteán"
+
+#: ../../standalone/rpmdrake_.c:294
+msgid "No cdrom available (nothing in /mnt/cdrom)"
+msgstr ""
+
+#: ../../standalone/rpmdrake_.c:298
+msgid "URL of the directory containing the RPMs"
+msgstr ""
+
+#: ../../standalone/rpmdrake_.c:299
+msgid ""
+"For FTP and HTTP, you need to give the location for hdlist\n"
+"It must be relative to the URL above"
+msgstr ""
+
+#: ../../standalone/rpmdrake_.c:302
+msgid "Please submit the following information"
+msgstr ""
+
+#: ../../standalone/rpmdrake_.c:304
+#, c-format
+msgid "%s is already in use"
+msgstr ""
+
+#: ../../standalone/rpmdrake_.c:315 ../../standalone/rpmdrake_.c:321
+#: ../../standalone/rpmdrake_.c:329
+msgid "Updating the RPMs base"
+msgstr ""
+
+#: ../../standalone/rpmdrake_.c:328
+#, c-format
+msgid "Going to remove entry %s"
+msgstr ""
+
+#: ../../standalone/rpmdrake_.c:360
+msgid "Finding leaves"
+msgstr ""
+
+#: ../../standalone/rpmdrake_.c:360
+msgid "Finding leaves takes some time"
+msgstr ""
+
+#, fuzzy
+#~ msgid "Local Printer Device (URI)"
+#~ msgstr "Printéir"
+
+#, fuzzy
+#~ msgid "default"
+#~ msgstr " ? (gnás %s)"
+
+#, fuzzy
+#~ msgid "tie"
+#~ msgstr "Gníomhach"
+
+#, fuzzy
+#~ msgid "automagic"
+#~ msgstr "Uath-IP"
+
+#~ msgid "Upgrade"
+#~ msgstr "Uasgrádú"
+
+#, fuzzy
+#~ msgid "Do not connect to internet"
+#~ msgstr "Ná cumraigh gréasánú anois"
+
+#, fuzzy
+#~ msgid "Everything configured!"
+#~ msgstr "Trialaigh an cumraíocht"
+
+#~ msgid "What is your keyboard layout?"
+#~ msgstr "Cén leagan amach atá ar d'eocharchlársa"
+
+#~ msgid "Normal"
+#~ msgstr "Gnáth"
+
+#, fuzzy
+#~ msgid "Install/Upgrade"
+#~ msgstr "Uasgrádú"
+
+#, fuzzy
+#~ msgid "Configure my card"
+#~ msgstr "Cumraigh X"
+
+#~ msgid "Try to find PCMCIA cards?"
+#~ msgstr "Déan iarracht cartaí PCMCIA a lorg?"
+
+#, fuzzy
+#~ msgid "Try to find %s devices?"
+#~ msgstr "Déan iarracht móideam a aimsiú?"
+
+#, fuzzy
+#~ msgid "Small(%dMB)"
+#~ msgstr "(%dMB)"
+
+#, fuzzy
+#~ msgid "Modem Configuration"
+#~ msgstr "Trialaigh an cumraíocht"
+
+#, fuzzy
+#~ msgid ""
+#~ "Do you want to configure a dialup connection with modem for your system?"
+#~ msgstr "An dteastaíonn uait gréasánú a chumrú ded' chóras?"
+
+#, fuzzy
+#~ msgid "Do you want to configure a ISDN connection for your system?"
+#~ msgstr "An dteastaíonn uait gréasánú a chumrú ded' chóras?"
+
+#~ msgid "Searching root partition."
+#~ msgstr "Ag cúrdach an rann fréamhach."
+
+#~ msgid "%s: This is not a root partition, please select another one."
+#~ msgstr "%s: Ní rann fréamhach atá anseo, roghnaigh ceann eile."
+
+#~ msgid "No root partition found"
+#~ msgstr "Ní fuaireathas rann fréamhach"
+
+#~ msgid "Can't use broadcast with no NIS domain"
+#~ msgstr "Ni feidir craoladh gan fearann NIS"
+
+#, fuzzy
+#~ msgid "Please choose a partition to use as your root partition."
+#~ msgstr "Cén rann a bhfuil tú ag iarraidh úsáid mar rann fréamhach"
+
+#, fuzzy
+#~ msgid "Autologin - Choose default user"
+#~ msgstr "Roghnaigh an méid nua"
+
+#, fuzzy
+#~ msgid "You don't have any windows partitions!"
+#~ msgstr "Níl aon ranna agat!"
+
+#, fuzzy
+#~ msgid "You don't have any enough room for Lnx4win"
+#~ msgstr "Níl aon ranna agat!"
+
+#~ msgid ", %U MB"
+#~ msgstr ", %U MB"
+
+#, fuzzy
+#~ msgid "Automated"
+#~ msgstr "Uath-IP"
+
+#~ msgid "Shutting down"
+#~ msgstr "Ag dúnadh síos"
+
+#, fuzzy
+#~ msgid "Choose other CD to install"
+#~ msgstr "Roghnaigh pacáistí ..."
+
+#~ msgid "Help"
+#~ msgstr "Cabhair"
+
+#~ msgid "Downloading cryptographic packages"
+#~ msgstr "Ag thíoslódáil pacáistí rúneolaíochta"
+
+#~ msgid "Setup SCSI"
+#~ msgstr "Cumraigh SCSI"
+
+#~ msgid "Which language do you want?"
+#~ msgstr "Cén teanga atá uait?"
+
+#~ msgid "Local LAN"
+#~ msgstr "Gréasán Lógánta"
+
+#~ msgid "Bad kickstart file %s (failed %s)"
+#~ msgstr "Droch comhad kickstart %s (theip %s)"
+
+#~ msgid "Size: %s MB"
+#~ msgstr "Méid: %s MB"
+
+#~ msgid "resizing"
+#~ msgstr "ag athméadú"
+
+#~ msgid "formatting"
+#~ msgstr "ag formáidiú"
+
+#~ msgid "changing type of"
+#~ msgstr "athraigh an cineál de"
+
+#~ msgid "After %s partition %s,"
+#~ msgstr "I ndhiadh %s rann %s,"
+
+#~ msgid "server"
+#~ msgstr "freastalaí"
+
+#~ msgid "expert"
+#~ msgstr "saineolaí"
+
+#~ msgid "developer"
+#~ msgstr "foirbreoir"
+
+#~ msgid "beginner"
+#~ msgstr "tosaitheoir"

@@ -1,0 +1,158 @@
+
+   -----------------------------------------------
+   | Linux-Mandrake - Conas é a cur ar do chóras |
+   -----------------------------------------------
+
+
+         * Required configuration *
+      - Proisealaí Pentium nó den cumhacht céanna
+      - Dlúthdhioscthiomant (CDROM)
+      - Ar a laighead 32 MB RAM
+      - Carta Graifeach VESA 2.0 
+
+
+Go bhunúsach tá ceithre bealaí gur féidir Linux-Mandrake a cur ar 
+do chóras, ba chóir iad a thriail in órd:
+
+======================================================================
+
+1 - Is féidir bootáil ón CD seo. Dé gnáth níl uait ach é a cur sa 
+dlúthdhioscthiomant, agus an ríomhaire a aththosnú. Lean na treoir 
+ar an scáilean agus beidh tú críochnaithe sar i bhfad.
+
+======================================================================
+
+2 - Má tá MS-DOS ar do ríomhaire agat, is féidir leat an dlúthdhiosca a
+thosnú gan aon dioscaí flapacha a úsáid.
+
+Le seo a dhéanamh (agus D: mar an dlúthdhioscthiomant agat), bain úsáid 
+as na treoir seo a leanas:
+
+C:\> D:
+D:\> cd \dosutils\autoboot
+D:\dosutils\autoboot> autoboot.bat
+
+Nóta: Ní oibreoidh seo i bhfuinneog DOS faoi MS-Windows, caithfear an 
+autoboot.bat a rith ó DOS féin, GAN Windows a bheith ag rith. Tá seans 
+ann go ndéanfidh sé damáiste don chóras má ritear faoi Windows é.
+
+======================================================================
+
+3 - Más rud é nach féidir led' ríomhaire bootáil ón CD agus nár oibrigh 
+na modhanna go dtí seo, beidh ort 'diosca bootála' a cruthú mar a leanas:
+
+    * Cur isteach an dhlúthdhiosca, téigh isteach i "My Computer", roghnaigh
+      an CD, brú ar dhéis-cnaipe na lúchóige, agus roghnaigh "Open"
+    * téigh isteach sa filltéan "dosutils" agus tosnaigh "rawwritewin"
+    * cur diosca flapach glan isteach sa dhiosctiomant
+    * roghnaigh "D:\images\cdrom.img" sa bhosca "Image File" (arís athraigh
+      D: mar is gá)
+    * roghnaigh "A:" sa bhosca "Floppy Drive" agus brú ar an cnaipe "Write".
+
+Le tosnú, cur isteach an CD, maraon leis an dhiosca bootála, agus athtosnaigh
+an ríomhaire.
+
+======================================================================
+
+4 - Muna bhfuil tú sásta na modhanna thuas a úsáid (ní thaitnaíonn 
+comhéadan graifeach leat, teastaíonn uait é a dhéanamh thar líonra ...)
+beidh ort dhiosca bootála a cruthú.
+
+Seo iad thíos príomh céimeanna an córas feistiú:
+
+ Feistiú Dhiosca-bootála Mandrake
+ ================================
+Faoi Windows, lean na treoir mar i 3. (thuas) ach ag úsáid
+xxxxx.img (féach thíos) in ionad cdrom.img.
+
+Faoi Linux (nó cuid mór unix eile) déan :
+
+$ dd if=xxxxx.img of=/dev/fd0
+
+Faoi MS-Windows nó MS-DOS is féidir an treoirlíne a úsáid :
+D:\dosutils\rawrite.exe -f D:\images\xxxxx.img -d A
+
+is é xxxxx.img an íomhá bootála:
+-----------------------------------------
+ Feistiú DrakX (grafach) 
+-----------------------------------------
+cdrom.img:
+        feistigh ó dhlúthdhiosca (CD-ROM)
+hd.img:
+        feistigh ó dhiosca crua
+network.img:
+        feistigh thar ftp/nfs/http
+pcmcia.img:
+        feistigh ó fearas PCMCIA
+
+féach ar http://www.linux-mandrake.com/drakx/README do níos mó 
+eolas teicniúil
+-----------------------------------------
+ Feistiú Téacs
+-----------------------------------------
+Tacaíonn DrakX feistiú téacs-bunaithe. Lena úsáid, cló :
+
+text 
+
+ag an líne syslinux. (I ndhiadh an lógó graifeach ag am bootáil)
+Má theastaíonn uait an sean-leagan den feistitheóir téacsbunaithe
+bain úsáid as:
+
+txt_bootnet.img: 
+        feistigh ó FTP agus HTTP
+txt_boot.img: 
+        feistigh ó dhlúthdhiosca (CD) nó Dhiosca Crua
+-----------------------------------------
+ Sábháil
+-----------------------------------------
+Ta dhá diosca ag teastail uait, cheann don feistiú, agus 
+cheann don dealbh rescue.img
+Usáid an diosca feistigh chun an riomhaire a chuir ar 
+siúl. Nuair is feidir, brú isteach "rescue". Fan go dti go
+gcuireann sé ceist ort an diosca sábháil a cuir isteach.
+
+======================================================================
+TREOIREACHA FEISTIU TEACS
+
+1 - Chuir do diosca feistiu isteach sa riomhaire agus a-thosnaigh e.
+
+2 - Bru 'Enter' go dti go dtagann "boot:" ar an scathalan agus lean
+na treoireacha ann.
+
+3 - Pioc do teanga don feistiú (mar shampla fr-latin1), pioc 
+"Disk Druid" chun do rann a cruthú. Ar a laghaidh, crothaigh dhá
+rann:
+
+* Do phriomh rann Linux, suífidh se ar "/" ("Mount point : / "). 
+Seo é an rann fréamhach (" root directory "). Caithfidh an rann seo
+bheith ar a laghaidh 300MB. Is feidir rann a chuir ar /usr agus
+/home freisin.
+á ó ú í é
+* Spás malartú. Biodh se dhá uair an méid RAM atá agat, nó nios mó.
+
+4 - Tar eis seo, bí curamach agus lean na treoireacha, agus bí cinnte 
+LILO a chuir ar an MBR ar do dhiosca crua.
+
+5 - Nuair a bhíonn se criochnaithe, bain an diosca feistigh, agus 
+an dhlúthdhiosca on riomhaire agus a-tosnaigh e.
+
+6 - Ba cheart go dtosnódh Linux. Buail isteach mar "root". Ma
+ta X-Window socraithe i gceart, beidh tú ábalta KDE a thosnú má
+brúinn tu "startx".
+
+Nóta tabhachtach : Is feidir aon rud a dheanamh dod' choras mar "root".
+Ná úsáid é, ach amhain chun do chorais a socru. Do gnath úsáid bain
+usaid as gnath usaideoir. (adduser USAIDEOIR agus passwd USAIDEOIR)
+
+Go n'eiri an bóthair leat le Linux-Mandrake :-)
+
+-----------------------------------------------------------------------
+
+Do cabhair feistiu, feach ar an Mandrake diffusion list agus FAQ ar 
+láthair Mandrake ar an Idirlinn.
+
+                                          http://www.linux-mandrake.com
+
+-----------------------------------------------------------------------
+
+

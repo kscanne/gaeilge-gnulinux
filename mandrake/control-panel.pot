@@ -1,0 +1,26 @@
+# Leagan Gaeilge de control-panel.po.
+# Copyright (C) 2000 Free Software Foundation, Inc.
+# Proinnsias Breathnach <breatpro@dublin.ml.com>, 2000.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: control-panel 3.11\n"
+"POT-Creation-Date: 1999-07-09 03:07+0200\n"
+"PO-Revision-Date: 2000-04-06 10:25+0100\n"
+"Last-Translator: Proinnsias Breathnach <breatpro@dublin.ml.com>\n"
+"Language-Team: Gaeilge <ga@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=iso-8859-1\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: control-panel.c:247
+msgid "Change Orientation"
+msgstr "Athraigh Treo"
+
+#: control-panel.c:257
+msgid "Exit"
+msgstr "Éalaigh"
+
+#: control-panel.c:265
+msgid "File"
+msgstr "Comhad"

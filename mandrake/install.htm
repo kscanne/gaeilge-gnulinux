@@ -1,0 +1,240 @@
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+<html>
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+   <title>Linux-Mandrake: Conas é a cur ar do chóras</title>
+</head>
+<body bgcolor="#FFFFFF">
+<a NAME="top"></a>
+<center>
+<h1>
+&nbsp;<img SRC="../images/LMDK-en.gif" NOSAVE height=100 width=250></h1></center>
+
+<center>
+<h1>
+&nbsp;Conas é a cur ar do chóras</h1></center>
+<b>&nbsp;Required configuration</b>
+<ul>
+<li>
+Proisealaí Pentium nó den cumhacht céanna</li>
+
+<li>
+Dlúthdhioscthiomant (CDROM)</li>
+
+<li>
+Ar a laighead 32 MB RAM</li>
+
+<li>
+Carta Graifeach VESA 2.0</li>
+</ul>
+
+<p>Go bhunúsach tá ceithre bealaí gur féidir Linux-Mandrake a cur ar
+do chóras, ba chóir iad a thriail in órd:
+<br>&nbsp;
+<ol>
+<li>
+<a href="#cd">Is féidir bootáil ón CD seo.</a></li>
+
+<li>
+<a href="#msdos">Launch install from MS-DOS</a></li>
+
+<li>
+<a href="#floppy">Make a boot floppy with windows</a></li>
+
+<li>
+<a href="#other">Other install methods</a></li>
+</ol>
+
+<hr WIDTH="100%">
+<h3>
+<a NAME="cd"></a>1 - Is féidir bootáil ón CD seo.</h3>
+
+<p><br>Is féidir bootáil ón CD seo. Dé gnáth níl uait ach é a cur sa
+dlúthdhioscthiomant, agus an ríomhaire a aththosnú. Lean na treoir
+ar an scáilean agus beidh tú críochnaithe sar i bhfad.
+
+<p><a href="#top">Top of this page</a>
+<br>
+<hr WIDTH="100%">
+<h3>
+<a NAME="msdos"></a>2 - Launch install from MS-DOS</h3>
+
+<p><br>Má tá MS-DOS ar do ríomhaire agat, is féidir leat an dlúthdhiosca a
+thosnú gan aon dioscaí flapacha a úsáid.
+<p>Le seo a dhéanamh (agus D: mar an dlúthdhioscthiomant agat), bain úsáid
+as na treoir seo a leanas:
+
+<p>C:\> D:
+<br>D:\> cd \dosutils\autoboot
+<br>D:\dosutils\autoboot> autoboot.bat
+
+<p>Nóta: Ní oibreoidh seo i bhfuinneog DOS faoi MS-Windows, caithfear an
+autoboot.bat a rith ó DOS féin, GAN Windows a bheith ag rith. Tá seans
+ann go ndéanfidh sé damáiste don chóras má ritear faoi Windows é.
+
+<p><a href="#top">Top of this page</a>
+<br>
+<hr WIDTH="100%">
+<h3>
+<a NAME="floppy"></a>3 - Make a boot floppy with Windows</h3>
+
+<p><br>Más rud é nach féidir led' ríomhaire bootáil ón CD agus nár oibrigh
+na modhanna go dtí seo, beidh ort 'diosca bootála' a cruthú mar a leanas:
+<ul>
+<li>
+Cur isteach an dhlúthdhiosca, téigh isteach i "My Computer", roghnaigh
+an CD, brú ar dhéis-cnaipe na lúchóige, agus roghnaigh "Open"</li>
+
+<li>
+téigh isteach sa filltéan "dosutils" agus tosnaigh "rawwritewin"</li>
+
+<li>
+cur diosca flapach glan isteach sa dhiosctiomant</li>
+
+<li>
+roghnaigh "D:\images\cdrom.img" sa bhosca "Image File" (arís athraigh
+D: mar is gá)</li>
+
+<li>
+roghnaigh "A:" sa bhosca "Floppy Drive" agus brú ar an cnaipe "Write".</li>
+</ul>
+
+<p><br>Le tosnú, cur isteach an CD, maraon leis an dhiosca bootála, 
+agus athtosnaigh an ríomhaire.
+
+<p><a href="#top">Top of this page</a>
+<br>
+<hr WIDTH="100%">
+<h3>
+<a NAME="other"></a>4 - Other install methods</h3>
+
+<p><br>Muna bhfuil tú sásta na modhanna thuas a úsáid (ní thaitnaíonn
+comhéadan graifeach leat, teastaíonn uait é a dhéanamh thar líonra ...)
+beidh ort dhiosca bootála a cruthú.
+
+<p>Seo iad thíos príomh céimeanna an córas feistiú:
+
+<p><b>i -</b> Feistiú Dhiosca-bootála Mandrake.<br>
+
+<ul>
+<li>
+Faoi Windows, lean na treoir mar i 3. (thuas) ach ag úsáid
+xxxxx.img (féach thíos) in ionad cdrom.img.</li>
+</ul>
+
+<ul>
+<li>
+Faoi Linux (nó cuid mór unix eile) déan:</li>
+
+<br>$ dd if=xxxxx.img of=/dev/fd0</ul>
+
+<ul>
+<li>
+Faoi MS-Windows nó MS-DOS is féidir an treoirlíne a úsáid:</li>
+
+<br>D:\dosutils\rawrite.exe -f D:\images\xxxxx.img -d A</ul>
+
+<p><br>is <i>xxxxx.image</i> an íomhá bootála
+<br>&nbsp;
+<table BORDER NOSAVE >
+<tr>
+<td><b>Feistiú DrakX (grafach)</b></td>
+
+<td>cdrom.img:
+<br>hd.img:&nbsp;
+<br>network.img:&nbsp;
+<br>pcmcia.img:&nbsp;</td>
+
+<td>feistigh ó dhlúthdhiosca (CD-ROM)
+<br>feistigh ó dhiosca crua
+<br>feistigh thar ftp/nfs/http
+<br>feistigh ó fearas PCMCIA
+
+<p>féach ar
+<a href="http://www.linux-mandrake.com/drakx/README">http://www.linux-mandrake.com/drakx/README</a>
+do níos mó eolas teicniúil</td>
+</tr>
+
+<tr>
+<td><b>Feistiú Téacs</b></td>
+
+<td>
+<br>&nbsp;
+<br>&nbsp;
+<p>txt_bootnet.img:&nbsp;
+<br>txt_boot.img:&nbsp;</td>
+
+<td>Tacaíonn DrakX feistiú téacs-bunaithe. Lena úsáid, cló:
+<b><i> text&nbsp;</i></b>ag an líne syslinux. (I ndhiadh an lógó graifeach
+ag am bootáil).
+<p>Má theastaíonn uait an sean-leagan den feistitheóir téacsbunaithe
+bain úsáid as:
+<br>feistigh ó FTP agus HTTP
+<br>feistigh ó dhlúthdhiosca (CD) nó Dhiosca Crua
+</td>
+</tr>
+
+<tr>
+<td><b>Sábháil</b></td>
+
+<td>rescue.img</td>
+
+<td>Ta dhá diosca ag teastail uait, cheann don feistiú, agus
+cheann don dealbh rescue.img
+<br>Usáid an diosca feistigh chun an riomhaire a chuir ar
+siúl. Nuair is feidir, brú isteach "rescue". Fan go dti go
+gcuireann sé ceist ort an diosca sábháil a cuir isteach.
+</td>
+</tr>
+</table>
+
+<p><b>ii -</b> Chuir do diosca feistiu isteach sa riomhaire agus a-thosnaigh e.
+<p><b>iii -</b> Bru 'Enter' go dti go dtagann "boot:" ar an scathalan agus lean
+na treoireacha ann.
+<p><b>iv -</b> Pioc do teanga don feistiú (mar shampla fr-latin1), pioc
+"Disk Druid" chun do rann a cruthú. Ar a laghaidh, crothaigh dhá rann:
+
+<ul>
+<li>
+Do phriomh rann Linux, suífidh se ar "/" ("Mount point : / ").
+Seo é an rann fréamhach (" root directory "). Caithfidh an rann seo
+bheith ar a laghaidh 300MB. Is feidir rann a chuir ar /usr agus
+/home freisin.
+á ó ú í é</li>
+
+<li>Spás malartú. Biodh se dhá uair an méid RAM atá agat, nó nios mó.</li>
+</ul>
+
+<p><b>v -</b> Tar eis seo, bí curamach agus lean na treoireacha,
+agus bí cinnte LILO a chuir ar an MBR ar do dhiosca crua.
+
+<p><b>vi -</b> Nuair a bhíonn se criochnaithe, bain an diosca feistigh, agus
+an dhlúthdhiosca on riomhaire agus a-tosnaigh e.
+
+<p><b>vii -</b> Ba cheart go dtosnódh Linux. Buail isteach mar "root". Ma
+ta X-Window socraithe i gceart, beidh tú ábalta KDE a thosnú má
+brúinn tu "startx".
+
+<p><i>Nóta tabhachtach : Is feidir aon rud a dheanamh dod' choras mar "root".
+Ná úsáid é, ach amhain chun do chorais a socru. Do gnath úsáid bain
+usaid as gnath usaideoir. (adduser USAIDEOIR agus passwd USAIDEOIR)</i>
+
+<br>&nbsp;
+<br>&nbsp;
+<br>
+<br>
+<center>
+<p>Go n'eiri an bóthair leat le Linux-Mandrake :-)</center>
+
+<p><a href="#top">Top of this page</a>
+<br>
+<hr WIDTH="100%">
+<br>Do cabhair feistiu, feach ar an Mandrake diffusion list agus FAQ ar
+láthair Mandrake ar an Idirlinn.
+<center>
+<p><a href="http://www.linux-mandrake.com">http://www.linux-mandrake.com</a>
+</center>
+<br>
+<hr WIDTH="100%">
+</body>
+</html>

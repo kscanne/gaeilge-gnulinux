@@ -1,0 +1,407 @@
+# Irish language translations for detect
+# Copyright (C) 2000 Free Software Foundation, Inc.
+# Alastair McKinstry, <mckinstry@computer.org>, 2000
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: detect VERSION\n"
+"POT-Creation-Date: 2000-09-01 11:23+0200\n"
+"PO-Revision-Date:  2000-09-07 19:00-0000\n"
+"Last-Translator:Alastair McKinstry, <mckinstry@computer.org >\n"
+"Language-Team: Irish <ga@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ISO_8859-1\n"
+"Content-Transfer-Encoding: 8-bit\n"
+
+#. Note to translators: This are the device types, as they will be
+#. shown e.g. in HardDrake's device list
+#: src/conv.c:225
+msgid "CPU"
+msgstr "CPU"
+
+#: src/conv.c:226
+msgid "Memory"
+msgstr "Cuimhne"
+
+#: src/conv.c:227
+msgid "Floppy Drives"
+msgstr ""
+
+#: src/conv.c:228
+msgid "Disks"
+msgstr "Dioscanna"
+
+#: src/conv.c:229
+msgid "CD-ROMs"
+msgstr "CD-ROMs"
+
+#: src/conv.c:230
+msgid "Tapes"
+msgstr "Teipeanna"
+
+#: src/conv.c:231
+msgid "Network Device Cards"
+msgstr ""
+
+#: src/conv.c:232
+msgid "Modem"
+msgstr "Móideam"
+
+#: src/conv.c:233
+msgid "Videocards"
+msgstr "Cartaí físeanna"
+
+#: src/conv.c:234
+msgid "TV Cards"
+msgstr "Cartai Telefís"
+
+#: src/conv.c:235
+msgid "Soundcards"
+msgstr "Cartaí Fuaim"
+
+#: src/conv.c:236
+msgid "Mouse"
+msgstr "Luchóg"
+
+#: src/conv.c:237
+msgid "Printer"
+msgstr "Printéir"
+
+#: src/conv.c:238
+msgid "Scanner"
+msgstr ""
+
+#: src/conv.c:239
+msgid "Other Devices"
+msgstr "Gaireaseanna Eile"
+
+#: src/conv.c:240
+msgid "IDE Interfaces"
+msgstr "Cláréadanna IDE"
+
+#: src/conv.c:241
+msgid "SCSI Interfaces"
+msgstr "Cláréadanna SCSI"
+
+#: src/conv.c:242
+msgid "USB Interfaces"
+msgstr "Cláréadanna USB"
+
+#: src/conv.c:243
+msgid "Joystick"
+msgstr ""
+
+#: src/conv.c:244
+msgid "ISDN Adapters"
+msgstr ""
+
+#: src/conv.c:245
+msgid "WebCams"
+msgstr "Camera Greasánaí"
+
+#: src/conv.c:246
+msgid "Bridge"
+msgstr "Droichead"
+
+#: src/conv.c:247
+msgid "Unknown Devices"
+msgstr "Gaireasanna gan aithne"
+
+#: src/detect.c:43
+msgid "You must be root to run this software."
+msgstr ""
+
+#: src/detect.c:47
+msgid "Detection in progress, please wait ..."
+msgstr ""
+
+#: src/detect.c:50
+msgid "Error in report function\n"
+msgstr ""
+
+#: src/floppy.c:65
+msgid ""
+"\n"
+"Probing floppy drive...\n"
+msgstr ""
+"\n"
+"Ag teastáil diosca flapach...\n"
+
+#: src/floppy.c:72
+msgid "\tProbing FDC floppy drive...\n"
+msgstr ""
+
+#: src/floppy.c:103 src/floppy.c:171 src/floppy.c:198
+#, c-format
+msgid "\t\tFound %s on %s\n"
+msgstr ""
+
+#: src/floppy.c:137
+#, c-format
+msgid "\t\tFound %s"
+msgstr ""
+
+#: src/floppy.c:147
+msgid "\tProbing IDE floppy drive...\n"
+msgstr ""
+
+#: src/floppy.c:180
+msgid "\tProbing SCSI floppy drive...\n"
+msgstr ""
+
+#: src/floppy.c:208
+msgid "\tProbing PowerPC interface...\n"
+msgstr ""
+
+#: src/floppy.c:264
+#, c-format
+msgid "\t\tFound %s %s\n"
+msgstr ""
+
+#: src/isa.c:58 src/isa.c:217
+msgid "!!! Error while trying to interrogate the ISA PnP cards !!!\n"
+msgstr ""
+
+#: src/isa.c:64
+msgid "!!! Error while trying to get IRQ/DMA information !!!\n"
+msgstr ""
+
+#: src/options.c:34
+msgid "(c)2000 MandrakeSoft"
+msgstr "(c)2000 MandrakeSoft"
+
+#. Note to translators: Next strings will be the explanations for
+#. the commandline options:
+#: src/options.c:45
+#, c-format
+msgid ""
+"\n"
+"Usage: %s [OPTION]\n"
+"\n"
+msgstr ""
+"\n"
+"Úsáid: %s [ROGHA]\n"
+"\n"
+
+#. --help
+#: src/options.c:47
+msgid "Show this help and exit"
+msgstr "Taispeán an sceal cúidiú seo agus éirigh"
+
+#. --serial-modem
+#: src/options.c:49
+msgid "Detect serial modem and exit"
+msgstr ""
+
+#. --debug
+#: src/options.c:51
+msgid "Show debug message"
+msgstr ""
+
+#. --version
+#: src/options.c:53
+msgid "Show version info and exit"
+msgstr "Taispeán eolas leagain agus éirigh"
+
+#. --verbose
+#: src/options.c:55
+msgid "Create a more user readable report file"
+msgstr ""
+
+#. How to report bugs (like awfull english strings ;-)
+#: src/options.c:58
+msgid "Report bugs to <harddrake@mandrakesoft.com>."
+msgstr ""
+
+#: src/options.c:138
+msgid "Your Modem has been detected:\n"
+msgstr ""
+
+#. endif
+#: src/options.c:139 src/options.c:141 src/options.c:144 src/options.c:147
+#, c-format
+msgid "\t%s: %s\n"
+msgstr "\t%s: %s\n"
+
+#: src/options.c:139 src/report.c:97 src/report.c:149 src/report.c:172
+#: src/report.c:193 src/report.c:214 src/report.c:234 src/report.c:262
+#: src/report.c:282 src/report.c:302 src/report.c:322 src/report.c:343
+#: src/report.c:364 src/report.c:390 src/report.c:410 src/report.c:432
+#: src/report.c:452 src/report.c:472 src/report.c:494 src/report.c:518
+#: src/report.c:564 src/report.c:580 src/report.c:601
+msgid "vendor"
+msgstr "Díoloir"
+
+#: src/options.c:141 src/report.c:98 src/report.c:150 src/report.c:173
+#: src/report.c:194 src/report.c:215 src/report.c:235 src/report.c:263
+#: src/report.c:283 src/report.c:303 src/report.c:323 src/report.c:344
+#: src/report.c:365 src/report.c:391 src/report.c:411 src/report.c:433
+#: src/report.c:453 src/report.c:473 src/report.c:495 src/report.c:519
+#: src/report.c:565 src/report.c:581 src/report.c:602
+msgid "model"
+msgstr ""
+
+#: src/options.c:144 src/report.c:151 src/report.c:174 src/report.c:195
+#: src/report.c:216 src/report.c:392 src/report.c:413 src/report.c:434
+#: src/report.c:475 src/report.c:498 src/report.c:520 src/report.c:603
+msgid "module"
+msgstr ""
+
+#: src/options.c:147 src/report.c:236 src/report.c:264 src/report.c:284
+#: src/report.c:304 src/report.c:324 src/report.c:345 src/report.c:454
+#: src/report.c:474 src/report.c:496 src/report.c:536 src/report.c:550
+#: src/report.c:582
+msgid "device"
+msgstr "gaireas"
+
+#. Note to translators: `%s %s' = `PACKAGE VERSION'
+#: src/report.c:83
+#, c-format
+msgid "This report has been generated by %s %s\n"
+msgstr ""
+
+#: src/report.c:99
+msgid "frequency"
+msgstr "minicíocht"
+
+#: src/report.c:100 src/report.c:412
+msgid "flags"
+msgstr "brataí"
+
+#: src/report.c:101
+msgid "bogomips"
+msgstr "bogomipeanna"
+
+#: src/report.c:102
+msgid "bugs"
+msgstr ""
+
+#: src/report.c:121
+msgid "total"
+msgstr "iomlán"
+
+#: src/report.c:122
+msgid "free"
+msgstr "saor"
+
+#: src/report.c:123
+msgid "shared"
+msgstr ""
+
+#: src/report.c:124
+msgid "buffers"
+msgstr ""
+
+#: src/report.c:125
+msgid "cached"
+msgstr ""
+
+#: src/report.c:126
+msgid "free_swap"
+msgstr "mailirte_saor"
+
+#: src/report.c:127
+msgid "total_swap"
+msgstr "mailirte_iomlán"
+
+#: src/report.c:148 src/report.c:171 src/report.c:192 src/report.c:213
+#: src/report.c:233 src/report.c:261 src/report.c:281 src/report.c:301
+#: src/report.c:321 src/report.c:342 src/report.c:363 src/report.c:389
+#: src/report.c:409 src/report.c:431 src/report.c:451 src/report.c:471
+#: src/report.c:493 src/report.c:517 src/report.c:579 src/report.c:600
+msgid "bus"
+msgstr "bus"
+
+#: src/report.c:237
+msgid "size(512k-blocks)"
+msgstr "méid(512-blocanna)"
+
+#: src/report.c:238
+msgid "heads"
+msgstr "ceann"
+
+#: src/report.c:239
+msgid "sectors"
+msgstr "teascán"
+
+#: src/report.c:240
+msgid "cylinders"
+msgstr "sorcóir"
+
+#: src/report.c:366
+msgid "server"
+msgstr "freastalaí"
+
+#: src/report.c:367
+msgid "memory"
+msgstr "cuimhne"
+
+#: src/report.c:368
+msgid "ramdac"
+msgstr "ramdac"
+
+#: src/report.c:369
+msgid "clockchip"
+msgstr "clockchip"
+
+#: src/report.c:497
+msgid "speed"
+msgstr "luas"
+
+#: src/report.c:537 src/report.c:551
+msgid "DOS_equivalent"
+msgstr "DOS_equivalent"
+
+#: src/report.c:599
+msgid "ID"
+msgstr "ID"
+
+#: src/report.c:633
+msgid "IRQ"
+msgstr "IRQ"
+
+#: src/report.c:646
+msgid "DMA"
+msgstr "DMA"
+
+#: src/utils.h:69
+msgid "Can't allocate memory!\n"
+msgstr ""
+
+#: src/utils.h:71
+#, c-format
+msgid "Can't open file `%s' for reading!\n"
+msgstr ""
+
+#: src/utils.h:73
+#, c-format
+msgid "Can't open file `%s' for writing!\n"
+msgstr ""
+
+#: src/utils.h:75
+msgid "Can't get kernel version\n"
+msgstr ""
+
+#: src/utils.h:77
+msgid "You must have a kernel version superior at 2.1.120\n"
+msgstr ""
+
+#: src/utils.h:79
+msgid "Error in ioctl request!\n"
+msgstr ""
+
+#: src/utils.c:31
+msgid "Unknown"
+msgstr "Gan atihne"
+
+#: src/utils.c:33
+msgid "Not Available"
+msgstr ""
+
+#: src/utils.c:35
+msgid "(none)"
+msgstr "(ar bith)"
+
+#: src/utils.c:37
+msgid "ignore"
+msgstr ""

@@ -1,0 +1,60 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: mandrake_desk VERSION\n"
+"POT-Creation-Date: 2000-01-09 21:03+0100\n"
+"PO-Revision-Date: 1999-08-25 11:07+0200\n"
+"Last-Translator: Sean Kelley <skelley@planetkc.com>\n"
+"Language-Team: ga\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=iso-8859-14\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+
+#: ../../cooker/soft/mandrake_desk/kdelnk/Doc.kdelnk
+msgid "Mandrake and KDE documentation"
+msgstr "Doiciméid KDE agus Mandrake"
+
+#: ../../cooker/soft/mandrake_desk/kdelnk/Doc.kdelnk
+msgid "Mandrake and KDE documentation."
+msgstr "Doiciméid KDE agus Mandrake"
+
+#: ../../cooker/soft/mandrake_desk/kdelnk/Home.kdelnk
+msgid "Home Directory"
+msgstr "Eolaire Cinn"
+
+#: ../../cooker/soft/mandrake_desk/kdelnk/Internet.kdelnk
+msgid "Internet connection"
+msgstr "Nasc idirlíon"
+
+#: ../../cooker/soft/mandrake_desk/kdelnk/Internet.kdelnk
+msgid "Internet connection."
+msgstr "Nasc idirlíon"
+
+#: ../../cooker/soft/mandrake_desk/kdelnk/News.kdelnk
+msgid "Linux Mandrake News"
+msgstr "Nuacht Linux Mandrake"
+
+#: ../../cooker/soft/mandrake_desk/kdelnk/Printer.kdelnk
+msgid "Printer"
+msgstr "Printéir"
+
+#: ../../cooker/soft/mandrake_desk/kdelnk/Printer.kdelnk
+msgid "Drop text and postscript files onto the PRINTER icon"
+msgstr "Cuir comhaid téacsa agus postscript ar an dealbh printéir"
+
+#: ../../cooker/soft/mandrake_desk/kdelnk/Updates.kdelnk
+msgid "Mandrake Updates"
+msgstr "Nuashonraí Mandrake"
+
+#: ../../cooker/soft/mandrake_desk/kdelnk/XKill.kdelnk
+msgid "XKill"
+msgstr "XKill"
+
+#: ../../cooker/soft/mandrake_desk/kdelnk/XKill.kdelnk
+msgid "Can't close a window ? use 'XKill'"
+msgstr "Déan úsáid de XKill chun fuinneog a dhruidim"
+
+#: ../../cooker/soft/mandrake_desk/special/Gnome_and_X
+msgid "Gnome and X Apps"
+msgstr "Gnome agus Feidhmchláir X"
+

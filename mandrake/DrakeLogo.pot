@@ -1,0 +1,97 @@
+# Irish translations for DrakeLogo
+# Copyright (C) 2000 Free Software Foundation, Inc.
+# Alastair McKinstry, <mckinstry@computer.org>, 2000
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: DrakeLogo VERSION\n"
+"POT-Creation-Date: 2000-05-17 00:19+0200\n"
+"PO-Revision-Date: 2000-09-07 19:00-0000\n"
+"Last-Translator: Alastair McKinstry <mckinstry@computer.org>\n"
+"Language-Team: Irish <ga@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ISO_8859-1\n"
+"Content-Transfer-Encoding: 8-bit\n"
+
+#: DrakeLogo.c:68
+msgid "Error..."
+msgstr "Earraidh..."
+
+#: DrakeLogo.c:116
+msgid "Cannot load image :(\n"
+msgstr "Teip ag lódáil iomha: (\n"
+
+#: DrakeLogo.c:171
+msgid "Select New 214 Colors Logo"
+msgstr "Tóg Logo nua (214 dath)"
+
+#: DrakeLogo.c:175
+msgid "Select New 16 Colors Logo"
+msgstr "Tóg Logo nua (16 dath)"
+
+#: DrakeLogo.c:179
+msgid "Select New B & N Logo"
+msgstr "Tóg Logo Nua Dubh & Bán"
+
+#: DrakeLogo.c:214
+#, c-format
+msgid ""
+"Cannot save linux-logo.h:\n"
+"%s"
+msgstr ""
+"Téip ag sábháil linux-logo.h:\n"
+"%s"
+
+#: DrakeLogo.c:227
+#, c-format
+msgid ""
+"Cannot patch fbcon.c:\n"
+"%s"
+msgstr ""
+
+#: DrakeLogo.c:259
+msgid "Congratulations"
+msgstr "Comhghairdeas"
+
+#: DrakeLogo.c:260
+msgid ""
+"linux_logo.h and fbcon.c\n"
+"have been updated\n"
+"\n"
+"You'll now have to recompile your kernel\n"
+"for these changes to take effects"
+msgstr ""
+
+#. Full colors
+#: DrakeLogo.c:319
+msgid "214 colors"
+msgstr "214 dath"
+
+#. 16 colors
+#: DrakeLogo.c:343
+msgid "16 colors"
+msgstr "16 dath"
+
+#. B&W
+#: DrakeLogo.c:368
+msgid "Black & White"
+msgstr "Dubh & Bán"
+
+# FIXME TRANSLATION FOR KERNEL ?
+#: DrakeLogo.c:400
+msgid "Kernel directory: "
+msgstr "Fillteán Kernel: "
+
+#: DrakeLogo.c:402
+msgid "Select Kernel Source dir"
+msgstr "Tóg fillteán bhunchód kernel:"
+
+#. Files Generation Button
+#: DrakeLogo.c:415
+msgid "Do it!"
+msgstr "Dean Seo!"
+
+#. Quit Button
+#: DrakeLogo.c:421
+msgid "Quit"
+msgstr "Ealaigh"

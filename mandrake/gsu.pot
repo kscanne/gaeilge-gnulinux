@@ -1,0 +1,47 @@
+# Leagan Gaeilge de gsu.po.
+# Copyright (C) 2000 Free Software Foundation, Inc.
+# Proinnsias Breathnach <breatpro@dublin.ml.com>, 2000.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gsu 5.3\n"
+"POT-Creation-Date: 2000-01-21 14:30+0100\n"
+"PO-Revision-Date: 2000-04-06 10:25+0100\n"
+"Last-Translator: Proinnsias Breathnach <breatpro@dublin.ml.com>\n"
+"Language-Team: Gaeilge <ga@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=iso-8859-1\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: gsu.c:36
+#, c-format
+msgid "oops %s not found\n"
+msgstr "Ní raibh mé in ann %s a aimsiú\n"
+
+#: gsu.c:74
+msgid "Incorrect password"
+msgstr "Pasfhocal míceart"
+
+#: gsu.c:74 gsu.c:100
+msgid "Ok"
+msgstr "Ok"
+
+#: gsu.c:90
+msgid ""
+"The action you requested requires root priviliges.\n"
+"Please enter the root password"
+msgstr ""
+"Caithfear bheith root le seo a dhéanamh.\n"
+"Ionchur pasfhocal root le d'thoil"
+
+#: gsu.c:93
+msgid "Password:"
+msgstr "Pasfhocal:"
+
+#: gsu.c:101
+msgid "Cancel"
+msgstr "Cealaigh"
+
+#: gsu.c:128
+msgid "usage: gsu [-c] command [args]\n"
+msgstr "úsáid: gsu [-c] treoir [paraiméadar]\n"
