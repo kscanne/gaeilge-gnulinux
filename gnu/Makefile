@@ -18,9 +18,14 @@ all: ${MO_FILES}
 
 install: ${TARGETS}
 
-${INSTALL_DIR}/%.mo: %.pot ${INSTALL_DIR}
-	msgfmt --verbose $< -o $@
-	touch --date="Jan 1,1990" $@
+${INSTALL_DIR}/%.mo: %.mo ${INSTALL_DIR}
+	cp $< $@
+
+%.mo: %.pot
+	msgfmt --check --verbose $< -o $@
 
 ${INSTALL_DIR}:
 	mkdir -p ${INSTALL_DIR}
+
+clean:
+	rm -f *~ messages *.mo *#
