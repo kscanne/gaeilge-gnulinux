@@ -1,0 +1,2721 @@
+# Irish (gaeilge) translation for gcal (GNU)
+# Copyright (C) 1999 Free Software Foundation, Inc.
+# Alastair McKinstry <mckinstry@computer.org>, 1999.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gcal 2.40\n"
+"POT-Creation-Date: 1997-04-09 23:31+0000\n"
+"PO-Revision-Date: 1999-01-06 18:01-0000\n"
+"Last-Translator: Alastair McKinstry <mckinstry@computer.org>\n"
+"Language-Team: Irish <ga@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=iso-8859-1\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/file-io.c:1364 src/file-io.c:1382 src/file-io.c:1394 src/gcal.c:2758
+#: src/rc-insert.c:1560
+msgid ":"
+msgstr ":"
+
+#: src/file-io.c:1495
+#, c-format
+msgid "Try to write %s `%s'... %s%s%s"
+msgstr ""
+
+#: src/file-io.c:1497 src/file-io.c:1595 src/file-io.c:1609
+msgid "failed"
+msgstr ""
+
+#: src/file-io.c:1497 src/file-io.c:1595 src/file-io.c:1609
+msgid "success"
+msgstr ""
+
+#: src/file-io.c:1592
+#, c-format
+msgid "Try to open%sresource file `%s'... %s%s%s"
+msgstr ""
+
+#: src/file-io.c:1593
+msgid " `HERE' "
+msgstr ""
+
+#: src/file-io.c:1606
+#, c-format
+msgid "Try to open (level: %02d) include file `%s'... %s%s%s"
+msgstr ""
+
+#. e.g.: "OTHER",
+#: src/gcal.c:522 src/gcal.c:667 src/gcal.c:1745
+msgid "ARG"
+msgstr "ARG"
+
+#: src/gcal.c:1023
+msgid "legal holidays"
+msgstr ""
+
+#: src/gcal.c:1024
+msgid "holidays"
+msgstr ""
+
+#: src/gcal.c:1025
+msgid "Mondays"
+msgstr ""
+
+#: src/gcal.c:1026
+msgid "Tuesdays"
+msgstr ""
+
+#: src/gcal.c:1027
+msgid "Wednesdays"
+msgstr ""
+
+#: src/gcal.c:1028
+msgid "Thursdays"
+msgstr ""
+
+#: src/gcal.c:1029
+msgid "Fridays"
+msgstr ""
+
+#: src/gcal.c:1030
+msgid "Saturdays"
+msgstr ""
+
+#: src/gcal.c:1031
+msgid "Sundays"
+msgstr ""
+
+#: src/gcal.c:1032
+msgid "Mondays...Thursdays"
+msgstr ""
+
+#: src/gcal.c:1033
+msgid "Mondays...Fridays"
+msgstr ""
+
+#: src/gcal.c:1075
+msgid "Day group (exactly one member must be defined):"
+msgstr ""
+
+#: src/gcal.c:1076
+msgid "Day number with leading zeroes"
+msgstr ""
+
+#: src/gcal.c:1077
+msgid "Day number with leading spaces"
+msgstr ""
+
+#: src/gcal.c:1078
+msgid "Day number with leading zeroes and trailing suffix"
+msgstr ""
+
+#: src/gcal.c:1079
+msgid "Day number with leading spaces and trailing suffix"
+msgstr ""
+
+#: src/gcal.c:1080
+msgid "Month group (exactly one member must be defined):"
+msgstr ""
+
+#: src/gcal.c:1081
+msgid "Complete month name"
+msgstr ""
+
+#: src/gcal.c:1082
+msgid "Abbreviated month name (3 letters)"
+msgstr ""
+
+#: src/gcal.c:1083
+msgid "Month number with leading zero"
+msgstr ""
+
+#: src/gcal.c:1084
+msgid "Month number with leading space"
+msgstr ""
+
+#: src/gcal.c:1085
+msgid "Year group (exactly one member must be defined):"
+msgstr ""
+
+#: src/gcal.c:1086
+msgid "Complete year number with leading zeroes"
+msgstr ""
+
+#: src/gcal.c:1087
+msgid "Complete year number with leading spaces"
+msgstr ""
+
+#: src/gcal.c:1088
+msgid "Last two digits of year number with leading zero"
+msgstr ""
+
+#: src/gcal.c:1089
+msgid "Last two digits of year number with leading space"
+msgstr ""
+
+#: src/gcal.c:1090
+msgid "Weekday name group (one member may be defined):"
+msgstr ""
+
+#: src/gcal.c:1091
+msgid "Complete weekday name"
+msgstr ""
+
+#: src/gcal.c:1092
+msgid "Abbreviated weekday name (3 letters)"
+msgstr ""
+
+#: src/gcal.c:1093
+msgid "Abbreviated weekday name (2 letters)"
+msgstr ""
+
+#: src/gcal.c:1094
+msgid "Highlighting group (all members must be defined):"
+msgstr ""
+
+#: src/gcal.c:1095
+msgid "Start of highlighting sequence/marking character"
+msgstr ""
+
+#: src/gcal.c:1096
+msgid "End of highlighting sequence/marking character"
+msgstr ""
+
+#: src/gcal.c:1097
+msgid "Character replacement:"
+msgstr ""
+
+#: src/gcal.c:1098
+msgid "Space/blank (' ') character"
+msgstr ""
+
+#: src/gcal.c:1099
+msgid "Underscore ('_') character"
+msgstr ""
+
+#: src/gcal.c:1100
+msgid "Percent ('%') character"
+msgstr ""
+
+#: src/gcal.c:1134
+msgid "Germany"
+msgstr "An Ghearmáin"
+
+#: src/gcal.c:1135
+msgid "U.S.A."
+msgstr "U.S.A."
+
+#: src/gcal.c:1136
+msgid "Great Britain"
+msgstr "An Ríocht Aontaithe"
+
+#: src/gcal.c:1595
+msgid "default"
+msgstr "gnáth"
+
+#: src/gcal.c:1707
+msgid "y"
+msgstr "b"
+
+#: src/gcal.c:1708
+msgid "m"
+msgstr "m"
+
+#: src/gcal.c:1709
+msgid "w"
+msgstr "s"
+
+#: src/gcal.c:1710
+msgid "d"
+msgstr "l"
+
+#: src/gcal.c:1787 src/gcal.c:1802
+msgid "environment variable"
+msgstr ""
+
+#: src/gcal.c:1951
+#, c-format
+msgid ""
+"%s: command in environment variable `%s' found -- %s\n"
+"%s\n"
+msgstr ""
+
+#: src/gcal.c:2190 src/gcal.c:4925 src/gcal2txt.c:298 src/gcal2txt.c:302
+#: src/rc-use.c:1657 src/rc-use.c:1732 src/rc-use.c:1796 src/rc-use.c:1977
+#: src/rc-utils.c:717 src/rc-utils.c:749 src/tcal.c:359 src/tcal.c:366
+#: src/txt2gcal.c:298 src/txt2gcal.c:302 src/utils.c:661 src/utils.c:680
+#: src/utils.c:706 src/utils.c:986
+msgid "Internal"
+msgstr ""
+
+#: src/gcal.c:2248
+#, c-format
+msgid ""
+"%s: invalid date given -- %c%s\n"
+"%s\n"
+msgstr ""
+
+#: src/gcal.c:2582
+msgid "response file"
+msgstr ""
+
+#: src/gcal.c:2582 src/gcal.c:2594
+msgid "Created"
+msgstr ""
+
+#: src/gcal.c:2594
+msgid "shell script"
+msgstr ""
+
+#: src/gcal.c:2756
+#, c-format
+msgid "Mail from \\`%s' (%02d-%s-%04d %02d%s%02d%s%02d"
+msgstr ""
+
+#: src/gcal.c:3959 src/gcal.c:3983
+msgid "command line"
+msgstr "líne ordu"
+
+#: src/gcal.c:5210
+#, c-format
+msgid "%s: option `%s' is ambiguous"
+msgstr ""
+
+#: src/gcal.c:5219 src/gcal2txt.c:521 src/tcal.c:739 src/txt2gcal.c:523
+#, c-format
+msgid "%s: unrecognized option `%s'"
+msgstr ""
+
+#: src/gcal.c:5227
+#, c-format
+msgid "%s: invalid option -- %s"
+msgstr ""
+
+#: src/gcal.c:5235
+#, c-format
+msgid "%s: option `%s' doesn't allow an argument"
+msgstr ""
+
+#: src/gcal.c:5244 src/tcal.c:715
+#, c-format
+msgid "%s: option `%s' requires an argument"
+msgstr ""
+
+#: src/gcal.c:5252
+#, c-format
+msgid "%s: option requires an argument -- %s"
+msgstr ""
+
+#: src/gcal.c:5260 src/tcal.c:775
+#, c-format
+msgid "%s: option with invalid argument -- %s"
+msgstr ""
+
+#: src/gcal.c:5267
+#, c-format
+msgid "%s: option with ambiguous argument -- %s"
+msgstr ""
+
+#: src/hd-data.c:893
+msgid "Austrian"
+msgstr "Óstairis"
+
+#: src/hd-data.c:894
+msgid "Australian"
+msgstr "Astráilis"
+
+#: src/hd-data.c:895
+msgid "Belgian"
+msgstr "Beilgis"
+
+#: src/hd-data.c:896
+msgid "Canadian"
+msgstr "Ceanadis"
+
+#: src/hd-data.c:897
+msgid "Swiss"
+msgstr "Eilvéis"
+
+#: src/hd-data.c:898
+msgid "Czech"
+msgstr "Seicis"
+
+#: src/hd-data.c:899
+msgid "German"
+msgstr "Gearmáinis"
+
+#: src/hd-data.c:900
+msgid "Danish"
+msgstr "Danmhairgis"
+
+#: src/hd-data.c:901
+msgid "Spanish"
+msgstr "Spáinnis"
+
+#: src/hd-data.c:902
+msgid "Finnish"
+msgstr "Fionlainnis"
+
+#: src/hd-data.c:903
+msgid "French"
+msgstr "Fraincis"
+
+#: src/hd-data.c:904
+msgid "British"
+msgstr ""
+
+#: src/hd-data.c:905
+msgid "Greek"
+msgstr ""
+
+#: src/hd-data.c:906
+msgid "Hungarian"
+msgstr ""
+
+#: src/hd-data.c:907
+msgid "Italian"
+msgstr ""
+
+#: src/hd-data.c:908
+msgid "Mexican"
+msgstr ""
+
+#: src/hd-data.c:909
+msgid "Dutch"
+msgstr ""
+
+#: src/hd-data.c:910
+msgid "Norwegian"
+msgstr ""
+
+#: src/hd-data.c:911
+msgid "Polish"
+msgstr ""
+
+#: src/hd-data.c:912
+msgid "Portuguese"
+msgstr ""
+
+#: src/hd-data.c:913
+msgid "Swedish"
+msgstr ""
+
+#: src/hd-data.c:914
+msgid "Slovenian"
+msgstr ""
+
+#: src/hd-data.c:915
+msgid "Thai"
+msgstr ""
+
+#: src/hd-data.c:916
+msgid "U.S. American"
+msgstr ""
+
+#: src/hd-data.c:991
+msgid "Std"
+msgstr "Gná"
+
+#: src/hd-data.c:992
+msgid "All Fool's Day"
+msgstr ""
+
+#: src/hd-data.c:1063
+msgid "Chr"
+msgstr ""
+
+#: src/hd-data.c:1064
+msgid "Trinity Sunday"
+msgstr ""
+
+#: src/hd-data.c:1068
+msgid "St. Nicholas' Day"
+msgstr ""
+
+#: src/hd-data.c:1071
+msgid "4th Advent"
+msgstr ""
+
+#: src/hd-data.c:1074
+msgid "3rd Advent"
+msgstr ""
+
+#: src/hd-data.c:1077
+msgid "2nd Advent"
+msgstr ""
+
+#: src/hd-data.c:1081 src/hd-data.c:1084
+msgid "1st Advent"
+msgstr ""
+
+#: src/hd-data.c:1216
+msgid "Anzac Day"
+msgstr ""
+
+#: src/hd-data.c:1273
+msgid "Flemish Culture Day"
+msgstr ""
+
+#: src/hd-data.c:1277
+msgid "French Culture Day"
+msgstr ""
+
+#: src/hd-data.c:1279
+msgid "Dynasty Day"
+msgstr ""
+
+#: src/hd-data.c:1336
+msgid "Victoria Day"
+msgstr ""
+
+#: src/hd-data.c:1340
+msgid "St. Jean Baptiste Day"
+msgstr ""
+
+#: src/hd-data.c:1396
+msgid "St. Berchtold's Day"
+msgstr ""
+
+#: src/hd-data.c:1465
+msgid "Czech People's May Uprising"
+msgstr ""
+
+#: src/hd-data.c:1470
+msgid "Slav Missionaries Method's Day"
+msgstr ""
+
+#: src/hd-data.c:1475
+msgid "Burning of Jan Hus"
+msgstr ""
+
+#: src/hd-data.c:1477
+msgid "Day of Students Revolt"
+msgstr ""
+
+#: src/hd-data.c:1548
+msgid "Women's shrove day"
+msgstr ""
+
+#: src/hd-data.c:1553 src/hd-data.c:1557
+msgid "German Unity Day"
+msgstr ""
+
+#: src/hd-data.c:1561
+msgid "Day of Prayer and Repentance"
+msgstr ""
+
+#: src/hd-data.c:1565
+msgid "Death Sunday"
+msgstr ""
+
+#: src/hd-data.c:1568
+msgid "National Affliction Day"
+msgstr ""
+
+#: src/hd-data.c:1644
+msgid "Prayer Day"
+msgstr ""
+
+#: src/hd-data.c:1717
+msgid "St. Josef's Day"
+msgstr ""
+
+#: src/hd-data.c:1721
+msgid "St. James' Day"
+msgstr ""
+
+#: src/hd-data.c:1890
+msgid "Burns Night"
+msgstr ""
+
+#: src/hd-data.c:1894
+msgid "St. David's Day"
+msgstr ""
+
+#: src/hd-data.c:1896
+msgid "Swallow Day"
+msgstr ""
+
+#: src/hd-data.c:1898
+msgid "St. George's Day"
+msgstr ""
+
+#: src/hd-data.c:1900
+msgid "Battle of Boyne"
+msgstr ""
+
+#: src/hd-data.c:1902
+msgid "Grotto Day"
+msgstr ""
+
+#: src/hd-data.c:1904
+msgid "St. Edward's Day"
+msgstr ""
+
+#: src/hd-data.c:1907
+msgid "Guy Fawke's Day"
+msgstr ""
+
+#: src/hd-data.c:2017
+msgid "Feast of Our Theotokos"
+msgstr ""
+
+#: src/hd-data.c:2120
+msgid "Ferragosto"
+msgstr ""
+
+#: src/hd-data.c:2124
+msgid "St. Stephen's Day"
+msgstr ""
+
+#: src/hd-data.c:2201
+msgid "Benito Juarez Day"
+msgstr "An Lá Benito Juarez"
+
+#: src/hd-data.c:2205
+msgid "Puebla's Battle"
+msgstr ""
+
+#: src/hd-data.c:2207
+msgid "Teacher's Day"
+msgstr ""
+
+#: src/hd-data.c:2209
+msgid "President's Inform"
+msgstr ""
+
+#: src/hd-data.c:2211
+msgid "Independence proclamation"
+msgstr ""
+
+#: src/hd-data.c:2213
+msgid "Breed fusion Day"
+msgstr ""
+
+#: src/hd-data.c:2215
+msgid "Revolution Day"
+msgstr ""
+
+#: src/hd-data.c:2217
+msgid "Guadalupe Virgin's Day"
+msgstr ""
+
+#: src/hd-data.c:2279
+msgid "Eindhoven's Liberation"
+msgstr ""
+
+#: src/hd-data.c:2284
+msgid "Princess' Day"
+msgstr ""
+
+#: src/hd-data.c:2286
+msgid "World Animal Day"
+msgstr ""
+
+#: src/hd-data.c:2288
+msgid "St. Nicholas' Eve"
+msgstr ""
+
+#: src/hd-data.c:2354
+msgid "Lapp National Holiday"
+msgstr ""
+
+#: src/hd-data.c:2358
+msgid "Union with Sweden dissolved"
+msgstr ""
+
+#: src/hd-data.c:2360
+msgid "Olsok Eve"
+msgstr ""
+
+#: src/hd-data.c:2362
+msgid "United Nations Day"
+msgstr ""
+
+#: src/hd-data.c:2429
+msgid "Victory Day"
+msgstr ""
+
+#: src/hd-data.c:2567
+msgid "St. Canute's Day"
+msgstr ""
+
+#: src/hd-data.c:2571
+msgid "The King's Name-Day"
+msgstr ""
+
+#: src/hd-data.c:2573
+msgid "The Crown Princesse's Name-Day"
+msgstr ""
+
+#: src/hd-data.c:2575
+msgid "Whitsun Eve"
+msgstr ""
+
+#: src/hd-data.c:2577
+msgid "The Crown Princesse's Birthday"
+msgstr ""
+
+#: src/hd-data.c:2579
+msgid "The Queen's Name-Day"
+msgstr ""
+
+#: src/hd-data.c:2581
+msgid "Gustavus Adolphus' Day"
+msgstr ""
+
+#: src/hd-data.c:2583
+msgid "Nobel Day"
+msgstr ""
+
+#: src/hd-data.c:2585
+msgid "St. Lucia's Day"
+msgstr ""
+
+#: src/hd-data.c:2587
+msgid "Holy Innocent's Day"
+msgstr ""
+
+#: src/hd-data.c:2672
+msgid "Culture Day"
+msgstr ""
+
+#: src/hd-data.c:2676
+msgid "National Resistance Day"
+msgstr ""
+
+#: src/hd-data.c:2728
+msgid "Coronation Day"
+msgstr ""
+
+#: src/hd-data.c:2798
+msgid "Martin L. King's Day"
+msgstr ""
+
+#: src/hd-data.c:2803
+msgid "President's Day"
+msgstr ""
+
+#: src/hd-data.c:2805
+msgid "St. Patrick's Day"
+msgstr "An Lá le Phádraig"
+
+#: src/hd-data.c:2808
+msgid "Armed Forces' Day"
+msgstr ""
+
+#: src/hd-data.c:2810
+msgid "Flag Day"
+msgstr ""
+
+#: src/hd-data.c:2813
+msgid "Columbus Day"
+msgstr ""
+
+#: src/hd-data.c:2815
+msgid "Halloween"
+msgstr "Samhain"
+
+#: src/hd-data.c:2820
+msgid "Election Day"
+msgstr ""
+
+#: src/hd-data.c:2823
+msgid "Veteran's Day"
+msgstr ""
+
+#: src/hd-data.c:2892
+msgid "All Saints' Day"
+msgstr ""
+
+#: src/hd-data.c:2920
+msgid "All Souls' Day"
+msgstr ""
+
+#: src/hd-data.c:2948
+msgid "Ash Monday"
+msgstr ""
+
+#: src/hd-data.c:2976
+msgid "Ash Wednesday"
+msgstr ""
+
+#: src/hd-data.c:3004
+msgid "Armistice Day"
+msgstr ""
+
+#: src/hd-data.c:3032
+msgid "Bank Holiday"
+msgstr ""
+
+#: src/hd-data.c:3060
+msgid "Boxing Day"
+msgstr ""
+
+#: src/hd-data.c:3088
+msgid "Children's Day"
+msgstr ""
+
+#: src/hd-data.c:3116
+msgid "Christmas Day"
+msgstr ""
+
+#: src/hd-data.c:3144
+msgid "Christmas Eve"
+msgstr ""
+
+#: src/hd-data.c:3172
+msgid "Christ's Ascension Day"
+msgstr ""
+
+#: src/hd-data.c:3200
+msgid "Constitution Anniversary"
+msgstr ""
+
+#: src/hd-data.c:3228
+msgid "Easter Sunday"
+msgstr ""
+
+#: src/hd-data.c:3256
+msgid "Easter Monday"
+msgstr ""
+
+#: src/hd-data.c:3284
+msgid "Father's Day"
+msgstr ""
+
+#: src/hd-data.c:3312
+msgid "Feast of Corpus Christi"
+msgstr ""
+
+#: src/hd-data.c:3340
+msgid "Good Friday"
+msgstr ""
+
+#: src/hd-data.c:3368
+msgid "Good Saturday/Easter Eve"
+msgstr ""
+
+#: src/hd-data.c:3396
+msgid "Independence Day"
+msgstr ""
+
+#: src/hd-data.c:3424
+msgid "St. John's Day"
+msgstr ""
+
+#: src/hd-data.c:3452
+msgid "St. John's Eve"
+msgstr ""
+
+#: src/hd-data.c:3480
+msgid "The King's Birthday"
+msgstr ""
+
+#: src/hd-data.c:3508
+msgid "Labour Day"
+msgstr ""
+
+#: src/hd-data.c:3536
+msgid "Liberation Day"
+msgstr ""
+
+#: src/hd-data.c:3564
+msgid "Martinimas"
+msgstr ""
+
+#: src/hd-data.c:3592
+msgid "Mary's Annunciation Day"
+msgstr ""
+
+#: src/hd-data.c:3620
+msgid "Mary's Ascension Day"
+msgstr ""
+
+#: src/hd-data.c:3646
+msgid "Mary's Immaculate Conception"
+msgstr ""
+
+#: src/hd-data.c:3674
+msgid "Maundy Thursday"
+msgstr ""
+
+#: src/hd-data.c:3702
+msgid "May Day"
+msgstr ""
+
+#: src/hd-data.c:3730
+msgid "Midsummer's Day"
+msgstr ""
+
+#: src/hd-data.c:3758
+msgid "Midsummer's Eve"
+msgstr ""
+
+#: src/hd-data.c:3786
+msgid "Mother's Day"
+msgstr ""
+
+#: src/hd-data.c:3814
+msgid "National Holiday"
+msgstr ""
+
+#: src/hd-data.c:3842
+msgid "New Year's Day"
+msgstr ""
+
+#: src/hd-data.c:3870
+msgid "Whitsunday/Pentecost"
+msgstr ""
+
+#: src/hd-data.c:3898
+msgid "Palm Sunday"
+msgstr ""
+
+#: src/hd-data.c:3926
+msgid "Reformation Day"
+msgstr ""
+
+#: src/hd-data.c:3954
+msgid "Remembrance/Memorial Day"
+msgstr ""
+
+#: src/hd-data.c:3982
+msgid "Republic Day"
+msgstr ""
+
+#: src/hd-data.c:4010
+msgid "Shrove Tuesday/Mardi Gras"
+msgstr ""
+
+#: src/hd-data.c:4038
+msgid "Sylvester"
+msgstr ""
+
+#: src/hd-data.c:4066
+msgid "Thanksgiving"
+msgstr ""
+
+#: src/hd-data.c:4094
+msgid "Epiphany/Three King's Day"
+msgstr ""
+
+#: src/hd-data.c:4122
+msgid "The Queen's Birthday"
+msgstr ""
+
+#: src/hd-data.c:4150
+msgid "St. Valentine's Day"
+msgstr ""
+
+#: src/hd-data.c:4178
+msgid "Walpurgis Night"
+msgstr ""
+
+#: src/hd-data.c:4206
+msgid "Whit Monday"
+msgstr ""
+
+#: src/hd-data.c:4234
+msgid "International Women's Day"
+msgstr ""
+
+#: src/hd-use.c:513 src/hd-use.c:514
+msgid " day"
+msgstr ""
+
+#: src/hd-use.c:811 src/hd-use.c:816 src/hd-use.c:819 src/hd-use.c:825
+#: src/hd-use.c:828 src/hd-use.c:930 src/hd-use.c:1115
+msgid "Eternal holiday list"
+msgstr ""
+
+#: src/hd-use.c:815
+#, c-format
+msgid "%s:%*sThe year %0*d is A leap year"
+msgstr ""
+
+#: src/hd-use.c:818
+#, c-format
+msgid "%s:%*sThe year %0*d is NO leap year"
+msgstr ""
+
+#: src/hd-use.c:824
+#, c-format
+msgid "%s:%*sThe year %d is A leap year"
+msgstr ""
+
+#: src/hd-use.c:827
+#, c-format
+msgid "%s:%*sThe year %d is NO leap year"
+msgstr ""
+
+#: src/hd-use.c:1082
+#, c-format
+msgid " = %+4d day"
+msgstr ""
+
+#: src/hd-use.c:1084
+#, c-format
+msgid " = %+4d days"
+msgstr ""
+
+#: src/hd-use.c:1114
+#, c-format
+msgid "%s%s contains %d maximum entries now!%s"
+msgstr ""
+
+#: src/help.c:172
+#, c-format
+msgid "Compiled with %s%s for %s%s%s%s"
+msgstr ""
+
+#: src/help.c:202
+#, c-format
+msgid "%s: Use `%s %s' with one of these arguments"
+msgstr ""
+
+#: src/help.c:277
+#, c-format
+msgid "Usage:  %s [[OPTION...] [%cDATE] [%cFILE...]] [COMMAND]"
+msgstr ""
+
+#: src/help.c:284
+#, c-format
+msgid "Usage:  %s [[OPTION...] [%cFILE...]] [COMMAND]"
+msgstr ""
+
+#: src/help.c:292
+msgid "OPTION"
+msgstr ""
+
+#: src/help.c:1261
+msgid "          Display help text and quit program"
+msgstr ""
+
+#: src/help.c:1274
+msgid "          Display extended help text and quit program"
+msgstr ""
+
+#: src/help.c:1288
+msgid "          Display software license and quit program"
+msgstr ""
+
+#: src/help.c:1296
+msgid "          Display version number and quit program"
+msgstr ""
+
+#: src/help.c:1304
+#, c-format
+msgid "          Create response file for the `%cFILE' option"
+msgstr ""
+
+#: src/help.c:1306
+#, c-format
+msgid "   %-3s    = Store arguments of command line in file %s"
+msgstr ""
+
+#: src/help.c:1315
+msgid ""
+"          Create shell script which contains the arguments of command line"
+msgstr ""
+
+#: src/help.c:1317
+#, c-format
+msgid "   %-3s    = File name of the shell script"
+msgstr ""
+
+#: src/help.c:1327
+msgid "          Define global date variable(s) \"dvar->a...d|f...s|u...|z\""
+msgstr ""
+
+#: src/help.c:1329
+#, c-format
+msgid ""
+"   %-3s    = Definition of \"dvar%s`%s%s'\" separated by `%s' characters"
+msgstr ""
+
+#: src/help.c:1332
+#, c-format
+msgid ""
+"            e.g.  %sv a%s1127%sb%s054   Set `a' to Nov 27 and `b' to May 4"
+msgstr ""
+
+#: src/help.c:1341
+msgid "          Export local date variables from file to file"
+msgstr ""
+
+#: src/help.c:1349
+#, c-format
+msgid "          Define global text variable(s) \"tvar->%ca...%cz\""
+msgstr ""
+
+#: src/help.c:1352
+#, c-format
+msgid ""
+"   %-3s    = Definition of \"tvar%s`text'\" separated by `%s' characters"
+msgstr ""
+
+#: src/help.c:1355
+#, c-format
+msgid ""
+"            e.g.  %sr %ca%sfoo%s%cb%sbar   Set `%ca' to `foo' and `%cb' to "
+"`bar'"
+msgstr ""
+
+#: src/help.c:1365
+msgid "          Export local text variables from file to file"
+msgstr ""
+
+#: src/help.c:1373 src/help.c:1391
+#, c-format
+msgid ""
+"          Display only those fixed dates, whose date is not excluded by %s"
+msgstr ""
+
+#: src/help.c:1375
+#, c-format
+msgid "   %-3s    = One or more of the following characters.  If character"
+msgstr ""
+
+#: src/help.c:1377
+msgid "            is a LOWER CASE LETTER, it means a `non'-exclusion!"
+msgstr ""
+
+#: src/help.c:1381
+#, c-format
+msgid "            %c = Exclusion of all %s"
+msgstr ""
+
+#: src/help.c:1393
+#, c-format
+msgid "   %-3s    = List of `%c[DATE][%c[DATE]]' and/or `%c[DATE][%c[DATE]]'"
+msgstr ""
+
+#: src/help.c:1396
+#, c-format
+msgid "            expressions separated by `%s' characters"
+msgstr ""
+
+#: src/help.c:1404
+#, c-format
+msgid "          Display only those fixed dates, whose text is matched by %s"
+msgstr ""
+
+#: src/help.c:1407
+#, c-format
+msgid "   %-3s    = Any text you like, metacharacters are not respected"
+msgstr ""
+
+#: src/help.c:1409
+#, c-format
+msgid "   %-3s    = Any text respectively \"regular expression\" you like"
+msgstr ""
+
+#: src/help.c:1419
+msgid "          Display some debug informations"
+msgstr ""
+
+#: src/help.c:1421
+#, c-format
+msgid ""
+"  [%-3s]   = internal    Informations if program internal maximums are "
+"reached"
+msgstr ""
+
+#: src/help.c:1423
+msgid ""
+"          = handled     Like `internal' and file names which are handled"
+msgstr ""
+
+#: src/help.c:1425
+msgid ""
+"          = unhandled   Like `internal' and file names which are unhandled"
+msgstr ""
+
+#: src/help.c:1427
+msgid "          = all         Like `handled' and `unhandled' together"
+msgstr ""
+
+#: src/help.c:1429
+msgid ""
+"          = abort       Like `all' and abort if file name can't be handled"
+msgstr ""
+
+#: src/help.c:1437
+msgid "          Use special format for calendar sheet"
+msgstr ""
+
+#: src/help.c:1439
+msgid "  [MOD]   = -   Use standard format for calendar sheet"
+msgstr ""
+
+#: src/help.c:1447
+msgid "          Use leap year rule of Eastern orthodox churches"
+msgstr ""
+
+#: src/help.c:1455
+msgid "          Provide calendar sheet with ISO week numbers"
+msgstr ""
+
+#: src/help.c:1463
+msgid "          Suppress output of calendar sheet explicitly"
+msgstr ""
+
+#: src/help.c:1474
+#, c-format
+msgid "          Direct output through external `%s' pager"
+msgstr ""
+
+#: src/help.c:1477 src/help.c:1479
+msgid "          Direct output through simple internal pager"
+msgstr ""
+
+#: src/help.c:1491
+msgid "          Disable highlighting of text, holiday resp., actual day"
+msgstr ""
+
+#: src/help.c:1501
+msgid "          Forces highlighting sequences if output is redirected/piped"
+msgstr ""
+
+#: src/help.c:1509
+msgid ""
+"          Set highlighting sequence pairs 1 (=actual day) and 2 (=holiday)"
+msgstr ""
+
+#: src/help.c:1511
+#, c-format
+msgid "   %-3s    = Highlighting sequence pairs separated by `%s' characters"
+msgstr ""
+
+#: src/help.c:1514
+#, c-format
+msgid ""
+"            e.g.  %sH \\x2%s\\xAE   Use hex values 2 and AE for sequence 1"
+msgstr ""
+
+#: src/help.c:1517
+#, c-format
+msgid ""
+"            e.g.  %sH %s%s*%s*      Use characters `*' and `*' for sequence 2"
+msgstr ""
+
+#: src/help.c:1526
+msgid "          Modify format of year calendar"
+msgstr ""
+
+#: src/help.c:1528
+#, c-format
+msgid "   %-3s    = 1|2|3|4|6|12   Number of blocks"
+msgstr ""
+
+#: src/help.c:1536
+msgid "          Use consecutive day of year in calendar sheet"
+msgstr ""
+
+#: src/help.c:1538
+msgid "  [MOD]   = b   Use both date notations (day of month+year)"
+msgstr ""
+
+#: src/help.c:1546
+msgid "          Use consecutive day of year in eternal holiday list"
+msgstr ""
+
+#: src/help.c:1548 src/help.c:1559
+msgid "   [MOD]  = b   Use both date notations (day of month+year)"
+msgstr ""
+
+#: src/help.c:1557
+msgid "          Use consecutive day of year in fixed date list"
+msgstr ""
+
+#: src/help.c:1568
+msgid "          Set starting day of week"
+msgstr ""
+
+#: src/help.c:1597
+#, c-format
+msgid "          Send output via `%s' program to user"
+msgstr ""
+
+#: src/help.c:1599
+#, c-format
+msgid "   %-3s    = Email address"
+msgstr ""
+
+#: src/help.c:1611
+#, c-format
+msgid "          Display eternal holiday list (Year in range: %d...%d)"
+msgstr ""
+
+#: src/help.c:1614
+msgid " n        = Legal days and memorial days"
+msgstr ""
+
+#: src/help.c:1616
+msgid "   N      = Legal days only"
+msgstr ""
+
+#: src/help.c:1618 src/help.c:1757
+#, c-format
+msgid "    [MOD] = %s   Descending sort order"
+msgstr ""
+
+#: src/help.c:1626
+msgid "          Exclude title of eternal holiday list"
+msgstr ""
+
+#: src/help.c:1634
+msgid "          Provide eternal holiday list without standard holidays"
+msgstr ""
+
+#: src/help.c:1642
+msgid "          Provide eternal holiday list with Christian holidays"
+msgstr ""
+
+#: src/help.c:1650
+msgid "          Provide eternal holiday list with country specific holidays"
+msgstr ""
+
+#: src/help.c:1652
+#, c-format
+msgid "   %-3s    = Single country code or list of country codes"
+msgstr ""
+
+#: src/help.c:1654
+#, c-format
+msgid "            which are connected by `%s' characters"
+msgstr ""
+
+#: src/help.c:1658
+#, c-format
+msgid "            %s = %s holidays"
+msgstr ""
+
+#: src/help.c:1667
+msgid "          Set period of Gregorian Reformation"
+msgstr ""
+
+#: src/help.c:1669
+#, c-format
+msgid "          Actual respected period:  %02d-%02d %s %0*d"
+msgstr ""
+
+#: src/help.c:1675
+#, c-format
+msgid "   %-*d%*s = Set period to:  %02d-%02d %s %0*d"
+msgstr ""
+
+#: src/help.c:1681
+#, c-format
+msgid "   %-3s    = %s%s%s%s%s%s%s   Set period explicitly"
+msgstr ""
+
+#: src/help.c:1690
+#, c-format
+msgid "          Set order of date elements using the %s format text"
+msgstr ""
+
+#: src/help.c:1692
+#, c-format
+msgid "          Actual format:  (%s) `%s' (%s)"
+msgstr ""
+
+#: src/help.c:1693 src/help.c:2586
+msgid "self-defined"
+msgstr ""
+
+#: src/help.c:1698
+#, c-format
+msgid "   %-6s = Set format to:  `%s' (%s)"
+msgstr ""
+
+#: src/help.c:1702
+#, c-format
+msgid "   %-3s    = Define personal format. Respected format elements are:"
+msgstr ""
+
+#: src/help.c:1718
+msgid "          Set EXIT status of program to 127 on --help, --version etc."
+msgstr ""
+
+#: src/help.c:1727
+msgid "+++ FIXED DATES +++"
+msgstr ""
+
+#: src/help.c:1744
+#, c-format
+msgid "          Use standard resource file `.%s%s' for fixed date list"
+msgstr ""
+
+#: src/help.c:1747
+#, c-format
+msgid "          Use standard resource file `%s%s' for fixed date list"
+msgstr ""
+
+#: src/help.c:1751 src/help.c:2111
+msgid "          Implies period:  Today"
+msgstr ""
+
+#: src/help.c:1753
+msgid " c        = Display only those dates, for which fixed dates exists"
+msgstr ""
+
+#: src/help.c:1755
+msgid ""
+"   C      = Display those dates, for which fixed dates doesn't exist, too"
+msgstr ""
+
+#: src/help.c:1765
+msgid ""
+"    [MOD] = One or more of the following modifiers which are marked by #"
+msgstr ""
+
+#: src/help.c:1775
+msgid "          # g[MOD]       = Group fixed dates by day using text MOD"
+msgstr ""
+
+#: src/help.c:1786
+msgid "          1. Representation of text"
+msgstr ""
+
+#: src/help.c:1795
+msgid "                         = Set width of the biorhythm text graphics"
+msgstr ""
+
+#: src/help.c:1797
+#, c-format
+msgid "                           %-3s = %d...%d   Length of a single axis"
+msgstr ""
+
+#: src/help.c:1806
+msgid "                         = Set height of the moonphase text graphics"
+msgstr ""
+
+#: src/help.c:1808
+#, c-format
+msgid "                           %-3s = %d...%d   Total number of lines"
+msgstr ""
+
+#: src/help.c:1817
+msgid "          # a            = Display origin of fixed date"
+msgstr ""
+
+#: src/help.c:1825
+msgid "          # A            = Display using alternative list format"
+msgstr ""
+
+#: src/help.c:1833
+#, c-format
+msgid "          # B            = Don't execute `%c%c[%s]' shell commands"
+msgstr ""
+
+#: src/help.c:1842
+msgid "          # e            = Include legal days and memorial days"
+msgstr ""
+
+#: src/help.c:1844
+msgid "          # E            = Include legal days only"
+msgstr ""
+
+#: src/help.c:1852
+msgid "          # k            = Display ISO week number"
+msgstr ""
+
+#: src/help.c:1860
+msgid "          # o            = Omit repeating date part of fixed dates"
+msgstr ""
+
+#: src/help.c:1868
+msgid "          # U            = Suppress date part of fixed dates"
+msgstr ""
+
+#: src/help.c:1876
+msgid "          # x            = Exclude title of fixed date list"
+msgstr ""
+
+#: src/help.c:1884
+msgid "          # z            = Display consecutive number of fixed date"
+msgstr ""
+
+#: src/help.c:1892
+msgid ""
+"          # Z            = Display dates, for which fixed dates doesn't exist"
+msgstr ""
+
+#: src/help.c:1900
+msgid "          2. Respected period"
+msgstr ""
+
+#: src/help.c:1909
+msgid "                         = Manage `29-FEBRUARY' in non-leap years"
+msgstr ""
+
+#.
+#. *** Translators, please don't translate the word `february',
+#. *** because it is used textually AS IS as an option argument.
+#.
+#: src/help.c:1915
+#, c-format
+msgid "                           %-3s = february   Respect at `28-FEBRUARY'"
+msgstr ""
+
+#.
+#. *** Translators, please don't translate the word `march',
+#. *** because it is used textually AS IS as an option argument.
+#.
+#: src/help.c:1921
+#, c-format
+msgid "                           %-3s = march      Respect at `01-MARCH'"
+msgstr ""
+
+#: src/help.c:1929
+msgid ""
+"          # d            = Include actual date if list of periods is "
+"generated"
+msgstr ""
+
+#: src/help.c:1937
+msgid ""
+"          # l            = Generate list of periods instead of a single "
+"period"
+msgstr ""
+
+#: src/help.c:1951
+msgid "          # Nd           = Single absolute day N"
+msgstr ""
+
+#: src/help.c:1953
+#, c-format
+msgid "          # %cdN          = Single absolute day N"
+msgstr ""
+
+#: src/help.c:1956
+msgid "          # NMOD         = Single day N relative to today"
+msgstr ""
+
+#: src/help.c:1958
+#, c-format
+msgid "             MOD           = %s   Forwards"
+msgstr ""
+
+#: src/help.c:1960
+#, c-format
+msgid "                           = %s   Backwards"
+msgstr ""
+
+#: src/help.c:1963
+msgid "          # Nw           = Complete week N"
+msgstr ""
+
+#: src/help.c:1965
+msgid ""
+"                           N = 0        1st week / last week of previous year"
+msgstr ""
+
+#: src/help.c:1967
+msgid "                           N = 1...52   1st...52nd week (always)"
+msgstr ""
+
+#: src/help.c:1969
+msgid "                           N = 53       53rd week (sometimes)"
+msgstr ""
+
+#: src/help.c:1971
+msgid "                           N = 99       Last week"
+msgstr ""
+
+#: src/help.c:1974
+#, c-format
+msgid "          # `%s%s'       = Single day `%s' of month `%s'"
+msgstr ""
+
+#: src/help.c:1978
+#, c-format
+msgid "          # `%s%s'N     = Single N'th weekday `%s' of month `%s'"
+msgstr ""
+
+#: src/help.c:1981
+#, c-format
+msgid "                           N = 1...4   1st...4th weekday `%s' (always)"
+msgstr ""
+
+#: src/help.c:1983
+#, c-format
+msgid "                           N = 5       5th weekday `%s' (sometimes)"
+msgstr ""
+
+#: src/help.c:1985
+#, c-format
+msgid "                           N = 9       Last weekday `%s'"
+msgstr ""
+
+#: src/help.c:1988
+#, c-format
+msgid "          # %cdN`%s'     = Single N'th weekday `%s'"
+msgstr ""
+
+#: src/help.c:1991
+#, c-format
+msgid ""
+"                           N = 1...51   1st...51st weekday `%s' (always)"
+msgstr ""
+
+#: src/help.c:1993
+#, c-format
+msgid ""
+"                           N = 52|53    52|53rd weekday `%s' (sometimes)"
+msgstr ""
+
+#: src/help.c:1995
+#, c-format
+msgid "                           N = 99       Last weekday `%s'"
+msgstr ""
+
+#: src/help.c:1998
+#, c-format
+msgid "          # %cwN`%s'     = Single weekday `%s' of N'th week"
+msgstr ""
+
+#: src/help.c:2001
+#, c-format
+msgid ""
+"                           N = 0        `%s' which isn't located in 1st week"
+msgstr ""
+
+#: src/help.c:2003
+#, c-format
+msgid ""
+"                           N = 1...51   `%s' of 1st...51st week (always)"
+msgstr ""
+
+#: src/help.c:2005
+#, c-format
+msgid ""
+"                           N = 52|53    `%s' of 52|53rd week (sometimes)"
+msgstr ""
+
+#: src/help.c:2007
+#, c-format
+msgid "                           N = 99       `%s' of last week"
+msgstr ""
+
+#: src/help.c:2010
+#, c-format
+msgid "          # %c%c[[%s|%s]N]   = Single day N relative to Easter Sunday"
+msgstr ""
+
+#: src/help.c:2014
+#, c-format
+msgid ""
+"          # %c%c[%s|%s]N`%s'= Single N'th weekday relative to Easter Sunday"
+msgstr ""
+
+#: src/help.c:2018
+#, c-format
+msgid "          # %c%c[[%s|%s]N]   = Single day N relative to today's date"
+msgstr ""
+
+#: src/help.c:2022
+#, c-format
+msgid ""
+"          # %c%c[%s|%s]N`%s'= Single N'th weekday relative to today's date"
+msgstr ""
+
+#: src/help.c:2026
+#, c-format
+msgid "          # %c?[[%s|%s]N]   = Single day N relative to date variable"
+msgstr ""
+
+#: src/help.c:2030
+#, c-format
+msgid ""
+"          # %c?[%s|%s]N`%s'= Single N'th weekday relative to date variable"
+msgstr ""
+
+#: src/help.c:2037
+msgid "          # t|T          = List tomorrow"
+msgstr ""
+
+#: src/help.c:2051
+msgid "          # w|W[MOD]     = List complete week"
+msgstr ""
+
+#: src/help.c:2053
+#, c-format
+msgid ""
+"               [MOD]       = %s   List tomorrow until ending day of week"
+msgstr ""
+
+#: src/help.c:2056
+#, c-format
+msgid ""
+"                           = %s   List yesterday until starting day of week"
+msgstr ""
+
+#: src/help.c:2073
+msgid "          # m|M[MOD]     = List complete month"
+msgstr ""
+
+#: src/help.c:2075
+#, c-format
+msgid ""
+"               [MOD]       = %s   List tomorrow until ending day of month"
+msgstr ""
+
+#: src/help.c:2078
+#, c-format
+msgid ""
+"                           = %s   List yesterday until starting day of month"
+msgstr ""
+
+#: src/help.c:2095
+msgid "          # y|Y[MOD]     = List complete year"
+msgstr ""
+
+#: src/help.c:2097
+#, c-format
+msgid ""
+"               [MOD]       = %s   List tomorrow until ending day of year"
+msgstr ""
+
+#: src/help.c:2100
+#, c-format
+msgid ""
+"                           = %s   List yesterday until starting day of year"
+msgstr ""
+
+#: src/help.c:2109
+msgid "          Use alternative file(s) instead of standard resource file"
+msgstr ""
+
+#: src/help.c:2113
+msgid " f        = Display only those dates, for which fixed dates exists"
+msgstr ""
+
+#: src/help.c:2115
+msgid ""
+"   F      = Display those dates, for which fixed dates doesn't exist, too"
+msgstr ""
+
+#: src/help.c:2117
+#, c-format
+msgid "     %-3s  = Single file or list of files connected by `%s' characters"
+msgstr ""
+
+#: src/help.c:2126
+msgid "          Define additional resource file line"
+msgstr ""
+
+#: src/help.c:2128
+#, c-format
+msgid "   %-3s    = Any possible resource file line"
+msgstr ""
+
+#: src/help.c:2139
+#, c-format
+msgid "%cDATE"
+msgstr ""
+
+#: src/help.c:2144
+msgid "Use given `DATE' instead of today's date"
+msgstr ""
+
+#: src/help.c:2146
+#, c-format
+msgid ""
+"Date format:  %s[%s[%s|%s[N]]], %s%c%c|%c|dvar[[%s|%s]N[%s]], %s%cdN[%s]"
+msgstr ""
+
+#: src/help.c:2150
+#, c-format
+msgid "              %s%cwN[%s], month name[%s], weekday name[N] or %s"
+msgstr ""
+
+#: src/help.c:2161
+#, c-format
+msgid "%cFILE"
+msgstr ""
+
+#: src/help.c:2166
+msgid "Preload options and commands from `FILE'"
+msgstr ""
+
+#: src/help.c:2172
+msgid "COMMAND"
+msgstr ""
+
+#: src/help.c:2176
+#, c-format
+msgid "%s        = Month in range:  %d...%d"
+msgstr ""
+
+#: src/help.c:2178
+#, c-format
+msgid "                        or:  month name | %s | %s%s | %s%s | %s%s"
+msgstr ""
+
+#: src/help.c:2182
+#, c-format
+msgid "            List:   %s[%s%s]%s...%s%s[%s%s]"
+msgstr ""
+
+#: src/help.c:2185
+#, c-format
+msgid "            Range:  %s[%s%s]%s%s[%s%s] | %s%s%s%s%s | %s %s%s%s"
+msgstr ""
+
+#: src/help.c:2191
+#, c-format
+msgid "%s%*s    = Year  in range:  %d...%d"
+msgstr ""
+
+#: src/help.c:2195
+#, c-format
+msgid "            List:   [%s%s]%s%s...%s[%s%s]%s"
+msgstr ""
+
+#: src/help.c:2198
+#, c-format
+msgid "            Range:  [%s%s]%s%s[%s%s]%s"
+msgstr ""
+
+#: src/help.c:2301
+#, c-format
+msgid ""
+"%sh|hh   = Help screen; %sL = License; %sV = Version; %su = Suppress "
+"calendar sheet"
+msgstr ""
+
+#: src/help.c:2304
+#, c-format
+msgid "%si[-]   = Special calendar format; "
+msgstr ""
+
+#: src/help.c:2306
+#, c-format
+msgid "%sp = Simple pager; "
+msgstr ""
+
+#.
+#. *** Translators, please don't translate the word `yes',
+#. *** because it is used textually AS IS as an option argument.
+#.
+#: src/help.c:2313
+#, c-format
+msgid "%sH yes = Use highlighting"
+msgstr ""
+
+#.
+#. *** Translators, please don't translate the word `no',
+#. *** because it is used textually AS IS as an option argument.
+#.
+#: src/help.c:2320
+#, c-format
+msgid ""
+"%sb %-3s  = Year calendar with 1|2|3|4|6|12 blocks; %sH no = Disable "
+"highlighting"
+msgstr ""
+
+#: src/help.c:2323
+#, c-format
+msgid "%sj[]    = Output of consecutive day of year (Modifiers: [b n nb"
+msgstr ""
+
+#.
+#. *** Translators, please don't translate the word `today',
+#. *** because it is used textually AS IS as an option argument.
+#.
+#: src/help.c:2336 src/help.c:2344
+#, c-format
+msgid ""
+"%ss %-3s  = Starting day of week (%s = 0|today | %d|%s | %d|%s | ... | %d|%s)"
+msgstr ""
+
+#: src/help.c:2348
+#, c-format
+msgid "%sn|N[%s] = Display eternal holiday list (Year in range: %d...%d)"
+msgstr ""
+
+#: src/help.c:2353
+#, c-format
+msgid ""
+"%sc|C[]  = Fixed date list of file `.%s%s'; %sf|F %s[%s%s%s...]=Use file %s"
+msgstr ""
+
+#: src/help.c:2356
+#, c-format
+msgid ""
+"%sc|C[]  = Fixed date list of file `%s%s'; %sf|F %s[%s%s%s...]=Use file %s"
+msgstr ""
+
+#: src/help.c:2364
+#, c-format
+msgid ""
+"%s    = Month in range: %d...%d                 List:  "
+"%s[%s%s]%s...%s%s[%s%s]"
+msgstr ""
+
+#: src/help.c:2368
+#, c-format
+msgid ""
+"                    or: month name|%s[%s|%s|%s]    Range: %s[%s%s]%s%s[%s%s]"
+msgstr ""
+
+#: src/help.c:2372
+#, c-format
+msgid ""
+"%s  = Year  in range: %d...%d%*s%*s           List:  [%s%s]%s%s...%s[%s%s]%s"
+msgstr ""
+
+#: src/help.c:2376
+#, c-format
+msgid ""
+"                                               Range: [%s%s]%s%s[%s%s]%s"
+msgstr ""
+
+#: src/help.c:2420
+msgid "This software doesn't claim completeness, correctness or usability."
+msgstr ""
+
+#: src/help.c:2422
+msgid "On principle I will not be liable for ANY damages or losses (implicit"
+msgstr ""
+
+#: src/help.c:2424
+msgid "or explicit), which result from using or handling my software."
+msgstr ""
+
+#: src/help.c:2426
+msgid "If you use this software, you agree without any exception to this"
+msgstr ""
+
+#: src/help.c:2428
+msgid "agreement, which binds you LEGALLY !!"
+msgstr ""
+
+#: src/help.c:2431
+msgid "This program is free software; you can redistribute it and/or modify"
+msgstr ""
+
+#: src/help.c:2433
+msgid "it under the terms of the `GNU General Public License' as published by"
+msgstr ""
+
+#: src/help.c:2435
+msgid "the `Free Software Foundation'; either version 2, or (at your option)"
+msgstr ""
+
+#: src/help.c:2437
+msgid "any later version."
+msgstr ""
+
+#: src/help.c:2440
+msgid "You should have received a copy of the `GNU General Public License'"
+msgstr ""
+
+#: src/help.c:2442
+msgid "along with this program; if not, write to the:"
+msgstr ""
+
+#: src/help.c:2477
+msgid "Compilation options:"
+msgstr ""
+
+#: src/help.c:2576
+#, c-format
+msgid "Gregorian Reformation: %02d-%02d %s %0*d"
+msgstr ""
+
+#: src/help.c:2585
+#, c-format
+msgid "Date format: (%s) `%s' (%s)"
+msgstr "Formóid Dáta: (%s) `%s' (%s)"
+
+#: src/gcal2txt.c:145 src/help.c:2596 src/tcal.c:203 src/txt2gcal.c:145
+msgid "Email bug reports to <esken@uni-muenster.de>"
+msgstr ""
+
+#: src/gcal2txt.c:147 src/help.c:2598 src/tcal.c:205 src/txt2gcal.c:147
+msgid "or (if this fails) to <bug-gnu-utils@prep.ai.mit.edu>."
+msgstr ""
+
+#: src/help.c:2623
+#, c-format
+msgid ""
+"Usage:  %s [%s|%s{[?|h|??|hh|L|V]|{%sHKNOR%sXb%sijn%sq%ssu%s}}] [[%s] [%s]]"
+msgstr ""
+
+#: src/help.c:2648
+#, c-format
+msgid "Use `%s %s' or "
+msgstr ""
+
+#: src/help.c:2650
+#, c-format
+msgid "`%s %s|[%s?]' for more information."
+msgstr ""
+
+#: src/gcal2txt.c:179 src/help.c:2744 src/tcal.c:237 src/txt2gcal.c:179
+msgid "This is free software; see the source for copying conditions."
+msgstr ""
+
+#: src/gcal2txt.c:181 src/help.c:2746 src/tcal.c:239 src/txt2gcal.c:181
+msgid "There is NO warranty, without even the implied warranty of"
+msgstr ""
+
+#: src/gcal2txt.c:183 src/help.c:2748 src/tcal.c:241 src/txt2gcal.c:183
+msgid "MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE."
+msgstr ""
+
+#: src/help.c:2778
+#, c-format
+msgid ":%*s The GNU calendar program  ("
+msgstr ":%*s An Riomhchlár Féilire GNU ("
+
+#: src/help.c:2816
+#, c-format
+msgid ""
+"   +++  If you specify two digits for the year I DON'T assume %2d%s  +++"
+msgstr ""
+
+#: src/help.c:2819
+#, c-format
+msgid "   +++  `%s' is free software, enjoy   =8^)  +++"
+msgstr ""
+
+#: src/help.c:2950 src/help.c:3132
+msgid " 4.0 or 4.02"
+msgstr " 4.0 no 4.02"
+
+#: src/help.c:2962 src/help.c:3144
+msgid " later than 5.0"
+msgstr ""
+
+#: src/help.c:2977 src/help.c:3155
+msgid "++ 3.0 or later"
+msgstr ""
+
+#: src/help.c:3008 src/help.c:3288
+msgid "5.1 or earlier"
+msgstr ""
+
+#: src/help.c:3015 src/help.c:3295 src/help.c:3501 src/help.c:3599
+msgid "unknown compiler"
+msgstr ""
+
+#: src/help.c:3058 src/help.c:3179 src/help.c:3340 src/help.c:3375
+#: src/help.c:3519 src/help.c:3550 src/help.c:3629 src/help.c:3867
+msgid " on "
+msgstr ""
+
+#: src/help.c:3103
+msgid "(bad version)"
+msgstr "(droch leagan)"
+
+#: src/help.c:3169
+msgid "unknown compiler (SDK?)"
+msgstr ""
+
+#: src/help.c:3247
+msgid " later than 4.5"
+msgstr ""
+
+#: src/help.c:3261
+msgid "++ 1.0 or later"
+msgstr ""
+
+#: src/help.c:3273
+msgid " 1.0 or 1.5?"
+msgstr "1.0 no 1.5?"
+
+#: src/help.c:3420
+msgid "unknown "
+msgstr "anathnid "
+
+#: src/help.c:3437
+#, c-format
+msgid "version %d.%d"
+msgstr "leagan %d.%d"
+
+#: src/help.c:3444 src/help.c:3492 src/help.c:3672
+#, c-format
+msgid "version %d"
+msgstr "leagan %d"
+
+#: src/help.c:3450
+msgid "unknown version"
+msgstr "leagan anathnid"
+
+#: src/help.c:3459
+#, c-format
+msgid " on %s"
+msgstr ""
+
+#: src/help.c:3465
+msgid " unknown date"
+msgstr " dáta anathind"
+
+#: src/help.c:3611
+#, c-format
+msgid " (%.4s for Alpha)"
+msgstr " (%.4s faoi Alpha)"
+
+#: src/help.c:3618
+#, c-format
+msgid " (%.4s for VAX)"
+msgstr "  (%.4s faoi VAX)"
+
+#: src/help.c:3784
+msgid " (NetBSD before 0.9)"
+msgstr " (NetBSD riomh 0.9)"
+
+#: src/help.c:3784
+msgid " (NetBSD 1.2 or later)"
+msgstr ""
+
+#: src/help.c:3795
+msgid " (FreeBSD 2.0 or later)"
+msgstr ""
+
+#: src/help.c:3802
+msgid " (BSD/386 1.1 or later)"
+msgstr ""
+
+#: src/print.c:618 src/print.c:997 src/print.c:1042
+msgid "CW"
+msgstr ""
+
+#: src/print.c:642
+msgid "Week"
+msgstr "Seachtain"
+
+#: src/rc-insert.c:1543
+msgid "pm"
+msgstr "in"
+
+#: src/rc-insert.c:1552
+msgid "am"
+msgstr "rn"
+
+#: src/rc-insert.c:1904
+#, c-format
+msgid ""
+"Cannot execute command in file `%s'\n"
+"Line: %ld %s"
+msgstr ""
+
+#: src/rc-insert.c:1926
+#, c-format
+msgid ""
+"Command executed (exit code=%d) in file `%s'\n"
+"Line %ld: %s"
+msgstr ""
+
+#: src/rc-use.c:478
+msgid "Emo"
+msgstr ""
+
+#: src/rc-use.c:479
+msgid "Int"
+msgstr ""
+
+#: src/rc-use.c:480
+msgid "Phy"
+msgstr ""
+
+#: src/rc-use.c:988 src/rc-use.c:1087
+msgid "`Eternal holiday list'"
+msgstr ""
+
+#: src/rc-use.c:1714 src/rc-use.c:1778
+msgid "`Internal'"
+msgstr ""
+
+#: src/rc-use.c:1935
+msgid "Fixed date list"
+msgstr ""
+
+#: src/rc-use.c:2117
+#, c-format
+msgid " ; Week %s"
+msgstr " ; Seachtain %s"
+
+#: src/rc-use.c:2131
+#, c-format
+msgid "Week %s"
+msgstr "Seachtain %s"
+
+#: src/rc-utils.c:728 src/rc-utils.c:757
+#, c-format
+msgid ""
+"%s: invalid date given -- %s\n"
+"%s\n"
+msgstr ""
+
+#: src/rc-utils.c:3308
+#, c-format
+msgid "Leap-day set to `%02d-%s' in file `%s'."
+msgstr ""
+
+#: src/rc-utils.c:3315
+#, c-format
+msgid "Line %ld: %s"
+msgstr ""
+
+#: src/rc-utils.c:4242
+#, c-format
+msgid "Date variable `%c' undefined in file `%s'."
+msgstr ""
+
+#: src/rc-utils.c:4249
+#, c-format
+msgid "Invalid date value (variable `%c') in file `%s'."
+msgstr ""
+
+#: src/rc-utils.c:4269
+#, c-format
+msgid "Argument `%s' of command line ignored"
+msgstr ""
+
+#: src/rc-utils.c:4271
+#, c-format
+msgid "Line %ld ignored: %s"
+msgstr ""
+
+#: src/rc-utils.c:4279
+msgid "Abort!"
+msgstr ""
+
+#: src/regexp.c:239
+msgid "NULL argument"
+msgstr ""
+
+#: src/regexp.c:256
+msgid "regexp too big"
+msgstr ""
+
+#: src/regexp.c:265
+msgid "out of space"
+msgstr ""
+
+#: src/regexp.c:343
+msgid "too many ()"
+msgstr ""
+
+#: src/regexp.c:386 src/regexp.c:393
+msgid "unmatched ()"
+msgstr ""
+
+#: src/regexp.c:399
+msgid "junk on end"
+msgstr ""
+
+#: src/regexp.c:474
+msgid "*+ operand could be empty"
+msgstr ""
+
+#: src/regexp.c:509
+msgid "nested *?+"
+msgstr ""
+
+#: src/regexp.c:566
+msgid "invalid [] range"
+msgstr ""
+
+#: src/regexp.c:580
+msgid "unmatched []"
+msgstr ""
+
+#: src/regexp.c:598
+msgid "internal urp"
+msgstr ""
+
+#: src/regexp.c:608
+msgid "?+* follows nothing"
+msgstr ""
+
+#: src/regexp.c:617
+msgid "trailing \\"
+msgstr ""
+
+#: src/regexp.c:634
+msgid "internal disaster"
+msgstr ""
+
+#: src/regexp.c:810
+msgid "NULL parameter"
+msgstr ""
+
+#: src/regexp.c:820
+msgid "corrupted program"
+msgstr ""
+
+#: src/regexp.c:1080
+msgid "memory corruption"
+msgstr ""
+
+#: src/regexp.c:1097
+msgid "corrupted pointers"
+msgstr ""
+
+#: src/regexp.c:1142
+msgid "internal foulup"
+msgstr ""
+
+#: src/regexp.c:1216
+#, c-format
+msgid "start `%c' "
+msgstr ""
+
+#: src/regexp.c:1222
+msgid "anchored "
+msgstr ""
+
+#: src/regexp.c:1228
+#, c-format
+msgid "must have \"%s\""
+msgstr ""
+
+#: src/regexp.c:1310
+msgid "corrupted opcode"
+msgstr ""
+
+#: src/tty.c:528
+#, c-format
+msgid "<Return> for more , <%s> to quit..."
+msgstr ""
+
+#: src/tty.c:1137
+#, c-format
+msgid ""
+"\n"
+"Environment variable `%s' not found"
+msgstr ""
+
+#: src/tty.c:1149
+#, c-format
+msgid ""
+"\n"
+"Environment variable `%s' not set"
+msgstr ""
+
+#: src/tty.c:1191
+msgid ""
+"\n"
+"`termcap' file not found"
+msgstr ""
+
+#: src/tty.c:1201
+#, c-format
+msgid ""
+"\n"
+"Unknown terminal type defined in `%s'"
+msgstr ""
+
+#: src/gcal2txt.c:275 src/tcal.c:333 src/txt2gcal.c:275 src/utils.c:473
+#, c-format
+msgid ""
+"\n"
+"%s: abort, "
+msgstr ""
+
+#: src/utils.c:594
+#, c-format
+msgid ""
+"invalid year for computing Easter Sundays date\n"
+"Year must be in range (%d...%d)"
+msgstr ""
+
+#: src/gcal2txt.c:293 src/tcal.c:354 src/txt2gcal.c:293 src/utils.c:598
+#, c-format
+msgid "`%s' line %ld: virtual memory exhausted (%s=%d)"
+msgstr ""
+
+#: src/utils.c:603
+#, c-format
+msgid ""
+"invalid date part in file `%s'\n"
+"Line %ld: %s"
+msgstr ""
+
+#: src/utils.c:607
+#, c-format
+msgid ""
+"invalid month field(%02d) in file `%s'\n"
+"Line %ld: %s"
+msgstr ""
+
+#: src/utils.c:611
+#, c-format
+msgid ""
+"invalid day field(%02d) in file `%s'\n"
+"Line %ld: %s"
+msgstr ""
+
+#: src/utils.c:615
+#, c-format
+msgid ""
+"malformed %s in file `%s'\n"
+"Line %ld: %s"
+msgstr ""
+
+#: src/utils.c:619
+#, c-format
+msgid ""
+"invalid recursive/cyclic %s in file `%s'\n"
+"Line %ld: %s"
+msgstr ""
+
+#: src/utils.c:623
+#, c-format
+msgid "file `%s' not found"
+msgstr ""
+
+#: src/utils.c:626
+#, c-format
+msgid ""
+"invalid N'th weekday field(%d) in file `%s'\n"
+"Line %ld: %s"
+msgstr ""
+
+#: src/utils.c:630
+#, c-format
+msgid ""
+"missing `whitespace' character after date part in file `%s'\n"
+"Line %ld: %s"
+msgstr ""
+
+#: src/utils.c:635
+#, c-format
+msgid ""
+"illegal date variable operation in file `%s'\n"
+"Line %ld: %s"
+msgstr ""
+
+#: src/utils.c:639
+#, c-format
+msgid ""
+"illegal date variable operation (%s)\n"
+"%s\n"
+msgstr ""
+
+#: src/utils.c:646
+#, c-format
+msgid ""
+"file `%s' can't be written\n"
+"Storage media full!"
+msgstr ""
+
+#: src/utils.c:651
+#, c-format
+msgid "sending eMail to `%s' have failed"
+msgstr ""
+
+#: src/utils.c:653 src/utils.c:670
+#, c-format
+msgid ""
+"\n"
+"`%s' line %ld: "
+msgstr ""
+
+#: src/utils.c:660
+#, c-format
+msgid "`%s' line %ld: (`%s') `%s%d' have failed"
+msgstr ""
+
+#: src/utils.c:668
+#, c-format
+msgid "read error in file `%s'"
+msgstr ""
+
+#: src/utils.c:675
+#, c-format
+msgid ""
+"illegal character in response file `%s'\n"
+"Line %ld: %s"
+msgstr ""
+
+#: src/gcal2txt.c:297 src/tcal.c:358 src/txt2gcal.c:297 src/utils.c:679
+#, c-format
+msgid "`%s' line %ld: (`%s') invalid value for table size `sizeof %s>%d'"
+msgstr ""
+
+#: src/utils.c:683
+#, c-format
+msgid "(`%s') date format `%s' is invalid"
+msgstr ""
+
+#: src/utils.c:688
+#, c-format
+msgid ""
+"illegal text variable definition in file `%s'\n"
+"Line %ld: %s"
+msgstr ""
+
+#: src/utils.c:692
+#, c-format
+msgid ""
+"illegal text variable definition (%s)\n"
+"%s\n"
+msgstr ""
+
+#: src/utils.c:699
+#, c-format
+msgid "%s in search pattern `%s'"
+msgstr ""
+
+#: src/utils.c:701
+#, c-format
+msgid "invalid search pattern `%s' specified"
+msgstr ""
+
+#: src/gcal2txt.c:301 src/tcal.c:365 src/txt2gcal.c:301 src/utils.c:705
+#, c-format
+msgid "`%s' line %ld: (`%s') unmanaged error (%d)"
+msgstr ""
+
+#: src/gcal2txt.c:324 src/tcal.c:388 src/txt2gcal.c:324 src/utils.c:728
+#, c-format
+msgid ""
+"\n"
+"%s: program aborted by signal %d\n"
+msgstr ""
+
+#: src/utils.c:1385
+msgid "th"
+msgstr ""
+
+#: src/utils.c:1385
+msgid "st"
+msgstr ""
+
+#: src/utils.c:1385
+msgid "nd"
+msgstr ""
+
+#: src/utils.c:1385
+msgid "rd"
+msgstr ""
+
+#: src/utils.c:1430 src/utils.c:1459 src/utils.c:1489
+msgid "invalid day"
+msgstr "lá mícheart"
+
+#: src/utils.c:1431
+msgid "Mon"
+msgstr "Lua"
+
+#: src/utils.c:1431
+msgid "Tue"
+msgstr "Mai"
+
+#: src/utils.c:1431
+msgid "Wed"
+msgstr "Ceá"
+
+#: src/utils.c:1431
+msgid "Thu"
+msgstr "Deá"
+
+#: src/utils.c:1432
+msgid "Fri"
+msgstr "Áoi"
+
+#: src/utils.c:1432
+msgid "Sat"
+msgstr "Sat"
+
+#: src/utils.c:1432
+msgid "Sun"
+msgstr "Dom"
+
+#: src/utils.c:1460
+msgid "Mo"
+msgstr "Lu"
+
+#: src/utils.c:1460
+msgid "Tu"
+msgstr "Ma"
+
+#: src/utils.c:1460
+msgid "We"
+msgstr "Ce"
+
+#: src/utils.c:1460
+msgid "Th"
+msgstr "De"
+
+#: src/utils.c:1461
+msgid "Fr"
+msgstr "Áo"
+
+#: src/utils.c:1461
+msgid "Sa"
+msgstr "Sa"
+
+#: src/utils.c:1461
+msgid "Su"
+msgstr "Do"
+
+#: src/utils.c:1490
+msgid "Monday"
+msgstr "Luain"
+
+#: src/utils.c:1490
+msgid "Tuesday"
+msgstr "Mairt"
+
+#: src/utils.c:1490
+msgid "Wednesday"
+msgstr "Ceádaoin"
+
+#: src/utils.c:1490
+msgid "Thursday"
+msgstr "Deárdaoin"
+
+#: src/utils.c:1491
+msgid "Friday"
+msgstr "Áoine"
+
+#: src/utils.c:1491
+msgid "Saturday"
+msgstr "Sathairn"
+
+#: src/utils.c:1491
+msgid "Sunday"
+msgstr "Domhnaigh"
+
+#: src/utils.c:1525 src/utils.c:1562
+msgid "invalid month"
+msgstr "mí mícheart"
+
+#: src/utils.c:1526
+msgid "Jan"
+msgstr "Ean"
+
+#: src/utils.c:1526
+msgid "Feb"
+msgstr "Fea"
+
+#: src/utils.c:1526
+msgid "Mar"
+msgstr "Már"
+
+#: src/utils.c:1526
+msgid "Apr"
+msgstr "Áib"
+
+#: src/utils.c:1526 src/utils.c:1564
+msgid "May"
+msgstr "Bea"
+
+#: src/utils.c:1526
+msgid "Jun"
+msgstr "Mei"
+
+#: src/utils.c:1527
+msgid "Jul"
+msgstr "Íul"
+
+#: src/utils.c:1527
+msgid "Aug"
+msgstr "Lún"
+
+#: src/utils.c:1527
+msgid "Sep"
+msgstr "MFó"
+
+#: src/utils.c:1527
+msgid "Oct"
+msgstr "DFó"
+
+#: src/utils.c:1527
+msgid "Nov"
+msgstr "Sam"
+
+#: src/utils.c:1527
+msgid "Dec"
+msgstr "Nol"
+
+#: src/utils.c:1563
+msgid "January"
+msgstr "Éanair"
+
+#: src/utils.c:1563
+msgid "February"
+msgstr "Feabhra"
+
+#: src/utils.c:1563
+msgid "March"
+msgstr "Márta"
+
+#: src/utils.c:1564
+msgid "April"
+msgstr "Áibreán"
+
+#: src/utils.c:1564
+msgid "June"
+msgstr "Meitheamh"
+
+#: src/utils.c:1565
+msgid "July"
+msgstr "Íuil"
+
+#: src/utils.c:1565
+msgid "August"
+msgstr "Lúnasa"
+
+#: src/utils.c:1565
+msgid "September"
+msgstr "Meán Fómhair"
+
+#: src/utils.c:1566
+msgid "October"
+msgstr "Deireadh Fómhair"
+
+#: src/utils.c:1566
+msgid "November"
+msgstr "Samhain"
+
+#: src/utils.c:1566
+msgid "December"
+msgstr "Nollag"
+
+#: src/tcal.c:199
+#, c-format
+msgid ""
+"Usage:  %s  [--help | --version] | [--shift=[+|-]NUMBER] [ARGUMENT...]\n"
+msgstr ""
+"Usáid:  %s  [--help | --version] | [--shift=[+|-]UIMHIR] [ARGOINT ...]\n"
+
+#: src/tcal.c:362
+#, c-format
+msgid "shift value `%s' is invalid"
+msgstr ""
+
+#: src/tcal.c:864
+#, c-format
+msgid "%s: error during program execution of `%s'\n"
+msgstr ""
+
+#: src/txt2gcal.c:141
+#, c-format
+msgid "Usage:  %s  [--help | --version] | [TEXT-FILE | -] [DATE-PART]\n"
+msgstr ""
+
+#: src/gcal2txt.c:562 src/txt2gcal.c:564
+#, c-format
+msgid "%s: no regular file\n"
+msgstr ""
+
+#: src/gcal2txt.c:570 src/txt2gcal.c:572
+#, c-format
+msgid "%s: file not found\n"
+msgstr ""
+
+#: src/gcal2txt.c:141
+#, c-format
+msgid "Usage:  %s  [--help | --version] | [RESOURCE-FILE | -]\n"
+msgstr ""

@@ -1,0 +1,465 @@
+# Irish (Gaeilge) translations for diffutils (GNU)
+# Copyright (C) 1998 Free Software Foundation, Inc.
+# Alastair McKinstry <mckinstry@computer.org>, 1998.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: diffutils 2.6.90\n"
+"PO-Revision-Date: 2000-07-26 13:00:00I\n"
+"Last-Translator: Alastair McKinstry <mckinstry@computer.org>\n"
+"Language-Team: Irish <ga@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ISO-8859-1\n"
+"Content-Transfer-Encoding: 8-bit\n"
+
+msgid "%s %s differ: char %lu, line %lu is %3o %s %3o %s\n"
+msgstr ""
+
+msgid "%s %s differ: char %lu, line %lu\n"
+msgstr ""
+
+msgid "%s: diff failed: "
+msgstr "%s: teip 'diff' ann"
+
+msgid "%s: illegal option -- %c\n"
+msgstr "%s: rogha mícheart -- %c\n"
+
+msgid "%s: invalid option -- %c\n"
+msgstr "%s: rogha mícheart -- %c\n"
+
+msgid "%s: option `%c%s' doesn't allow an argument\n"
+msgstr ""
+
+msgid "%s: option `%s' is ambiguous\n"
+msgstr ""
+
+msgid "%s: option `%s' requires an argument\n"
+msgstr ""
+
+msgid "%s: option `--%s' doesn't allow an argument\n"
+msgstr ""
+
+msgid "%s: option requires an argument -- %c\n"
+msgstr ""
+
+msgid "%s: unrecognized option `%c%s'\n"
+msgstr "%s: rogha anathnid `%c%s'\n"
+
+msgid "%s: unrecognized option `--%s'\n"
+msgstr "%s: rogha anathnid `--%s'\n"
+
+msgid "--GTYPE-group-format=GFMT  Similar, but format GTYPE input groups with GFMT."
+msgstr ""
+
+msgid "--LTYPE-line-format=LFMT  Similar, but format LTYPE input lines with LFMT."
+msgstr ""
+
+msgid "--binary  Read and write data in binary mode."
+msgstr ""
+
+msgid "--help  Output this help."
+msgstr ""
+
+msgid "--horizon-lines=NUM  Keep NUM lines of the common prefix and suffix."
+msgstr ""
+
+msgid "--ignore-initial value must be a nonnegative integer"
+msgstr ""
+
+msgid "--line-format=LFMT  Similar, but format all input lines with LFMT."
+msgstr ""
+
+msgid "-3  --easy-only  Output unmerged nonoverlapping changes."
+msgstr ""
+
+msgid "-A  --show-all  Output all changes, bracketing conflicts."
+msgstr ""
+
+msgid "-B  --ignore-blank-lines  Ignore changes whose lines are all blank."
+msgstr ""
+
+msgid "-D NAME  --ifdef=NAME  Output merged file to show `#ifdef NAME' diffs."
+msgstr ""
+
+msgid "-D option not supported with directories"
+msgstr ""
+
+msgid "-E  --show-overlap  Output unmerged changes, bracketing conflicts."
+msgstr ""
+
+msgid "-H  --speed-large-files  Assume large files and many scattered small changes."
+msgstr ""
+
+msgid "-I RE  --ignore-matching-lines=RE  Ignore changes whose lines all match RE."
+msgstr ""
+
+msgid "-L LABEL  --label=LABEL  Use LABEL instead of file name."
+msgstr ""
+
+msgid "-N  --new-file  Treat absent files as empty."
+msgstr ""
+
+msgid "-P  --unidirectional-new-file  Treat absent first files as empty."
+msgstr ""
+
+msgid "-S FILE  --starting-file=FILE  Start with FILE when comparing directories."
+msgstr ""
+
+msgid "-T  --initial-tab  Make tabs line up by prepending a tab."
+msgstr ""
+
+msgid "-W  --ignore-all-space  Ignore all white space."
+msgstr ""
+
+msgid "-X  Output overlapping changes, bracketing them."
+msgstr ""
+
+msgid "-X FILE  --exclude-from=FILE  Exclude files that match any pattern in FILE."
+msgstr ""
+
+msgid "-a  --text  Treat all files as text."
+msgstr ""
+
+msgid "-b  --ignore-space-change  Ignore changes in the amount of white space."
+msgstr ""
+
+msgid "-c  --print-chars  Output differing bytes as characters."
+msgstr ""
+
+msgid ""
+"-c  -C NUM  --context[=NUM]  Output NUM (default 2) lines of copied context.\n"
+"-u  -U NUM  --unified[=NUM]  Output NUM (default 2) lines of unified context.\n"
+"  -NUM  Use NUM context lines.\n"
+"  -L LABEL  --label LABEL  Use LABEL instead of file name.\n"
+"  -p  --show-c-function  Show which C function each change is in.\n"
+"  -F RE  --show-function-line=RE  Show the most recent line matching RE."
+msgstr ""
+
+msgid "-d  --minimal  Try hard to find a smaller set of changes."
+msgstr ""
+
+msgid "-e  --ed  Output an ed script."
+msgstr ""
+
+msgid "-e  --ed  Output unmerged changes from OLDFILE to YOURFILE into MYFILE."
+msgstr ""
+
+msgid "-i  --ignore-case  Consider upper- and lower-case to be the same."
+msgstr ""
+
+msgid "-i  Append `w' and `q' commands to ed scripts."
+msgstr ""
+
+msgid "-i N  --ignore-initial=N  Ignore differences in the first N bytes of input."
+msgstr ""
+
+msgid "-l  --left-column  Output only the left column of common lines."
+msgstr ""
+
+msgid "-l  --paginate  Pass the output through `pr' to paginate it."
+msgstr ""
+
+msgid "-l  --verbose  Output offsets and codes of all differing bytes."
+msgstr ""
+
+msgid "-m  --merge  Output merged file instead of ed script (default -A)."
+msgstr ""
+
+msgid "-n  --rcs  Output an RCS format diff."
+msgstr ""
+
+msgid "-o FILE  --output=FILE  Operate interactively, sending output to FILE."
+msgstr ""
+
+msgid "-q  --brief  Output only whether files differ."
+msgstr ""
+
+msgid "-r  --recursive  Recursively compare any subdirectories found."
+msgstr ""
+
+msgid "-s  --quiet  --silent  Output nothing; yield exit status only."
+msgstr ""
+
+msgid "-s  --report-identical-files  Report when two files are the same."
+msgstr ""
+
+msgid "-s  --suppress-common-lines  Do not output common lines."
+msgstr ""
+
+msgid "-t  --expand-tabs  Expand tabs to spaces in output."
+msgstr ""
+
+msgid "-v  --version  Output version info."
+msgstr ""
+
+msgid "-w  --ignore-all-space  Ignore all white space."
+msgstr ""
+
+msgid "-w NUM  --width=NUM  Output at most NUM (default 130) characters per line."
+msgstr ""
+
+msgid "-x  --overlap-only  Output overlapping changes."
+msgstr ""
+
+msgid "-x PAT  --exclude=PAT  Exclude files that match PAT."
+msgstr ""
+
+msgid ""
+"-y  --side-by-side  Output in two columns.\n"
+"  -w NUM  --width=NUM  Output at most NUM (default 130) characters per line.\n"
+"  --left-column  Output only the left column of common lines.\n"
+"  --suppress-common-lines  Do not output common lines."
+msgstr ""
+
+msgid ": not found\n"
+msgstr ""
+
+msgid "Binary files %s and %s differ\n"
+msgstr ""
+
+msgid "Common subdirectories: %s and %s\n"
+msgstr ""
+
+msgid ""
+"Either GFMT or LFMT may contain:\n"
+"  %%  %\n"
+"  %c'C'  the single character C\n"
+"  %c'\\OOO'  the character with octal code OOO"
+msgstr ""
+
+msgid "File %s is a %s while file %s is a %s\n"
+msgstr ""
+
+msgid "Files %s and %s are identical\n"
+msgstr ""
+
+msgid "Files %s and %s differ\n"
+msgstr ""
+
+msgid ""
+"GFMT may contain:\n"
+"  %<  lines from FILE1\n"
+"  %>  lines from FILE2\n"
+"  %=  lines common to FILE1 and FILE2\n"
+"  %[-][WIDTH][.[PREC]]{doxX}LETTER  printf-style spec for LETTER\n"
+"    LETTERs are as follows for new group, lower case for old group:\n"
+"      F  first line number\n"
+"      L  last line number\n"
+"      N  number of lines = L-F+1\n"
+"      E  F-1\n"
+"      M  L+1"
+msgstr ""
+
+msgid "If a FILE is `-' or missing, read standard input.\n"
+msgstr ""
+
+msgid "If a FILE is `-', read standard input.\n"
+msgstr ""
+
+msgid "Invalid back reference"
+msgstr ""
+
+msgid "Invalid character class name"
+msgstr ""
+
+msgid "Invalid collation character"
+msgstr ""
+
+msgid "Invalid content of \\{\\}"
+msgstr ""
+
+msgid "Invalid preceding regular expression"
+msgstr ""
+
+msgid "Invalid range end"
+msgstr ""
+
+msgid "Invalid regular expression"
+msgstr ""
+
+msgid ""
+"LFMT may contain:\n"
+"  %L  contents of line\n"
+"  %l  contents of line, excluding any trailing newline\n"
+"  %[-][WIDTH][.[PREC]]{doxX}n  printf-style spec for input line number"
+msgstr ""
+
+msgid "LTYPE is `old', `new', or `unchanged'.  GTYPE is LTYPE or `changed'."
+msgstr ""
+
+msgid "Memory exhausted"
+msgstr "Cuimhne usáidithe."
+
+msgid "No match"
+msgstr ""
+
+msgid "No newline at end of file"
+msgstr ""
+
+msgid "No previous regular expression"
+msgstr ""
+
+msgid "Only in %s: %s\n"
+msgstr ""
+
+msgid "Premature end of regular expression"
+msgstr ""
+
+msgid "Regular expression too big"
+msgstr ""
+
+msgid "Success"
+msgstr ""
+
+msgid "Trailing backslash"
+msgstr ""
+
+msgid "Try `%s --help' for more information."
+msgstr ""
+
+msgid "Unmatched ( or \\("
+msgstr ""
+
+msgid "Unmatched ) or \\)"
+msgstr ""
+
+msgid "Unmatched [ or [^"
+msgstr ""
+
+msgid "Unmatched \\{"
+msgstr ""
+
+msgid "Usage: %s [OPTION]... FILE1 FILE2\n"
+msgstr "Usáid: %s [ROGHA]... COMHAD1 COMHAD2\n"
+
+msgid "Usage: %s [OPTION]... FILE1 [FILE2]\n"
+msgstr "Usáid: %s [ROGHA]... COMHAD1 [COMHAD2]\n"
+
+msgid "Usage: %s [OPTION]... MYFILE OLDFILE YOURFILE\n"
+msgstr ""
+
+msgid "`-' specified for more than one input file"
+msgstr ""
+
+msgid "block special file"
+msgstr ""
+
+msgid "both files to be compared are directories"
+msgstr ""
+
+msgid "cannot compare `-' to a directory"
+msgstr ""
+
+msgid "cannot interactively merge standard input"
+msgstr ""
+
+msgid "character special file"
+msgstr ""
+
+msgid "cmp: EOF on %s\n"
+msgstr ""
+
+msgid "column width must be a positive integer"
+msgstr ""
+
+msgid "conflicting #ifdef format"
+msgstr ""
+
+msgid "conflicting group format"
+msgstr ""
+
+msgid "conflicting line format"
+msgstr ""
+
+msgid "conflicting specifications of output style"
+msgstr ""
+
+msgid "context length must be a nonnegative integer"
+msgstr ""
+
+msgid "context length specified twice"
+msgstr ""
+
+msgid "directory"
+msgstr "fillteán"
+
+msgid "extra operand"
+msgstr ""
+
+msgid "fifo"
+msgstr "fifo"
+
+msgid "horizon must be a nonnegative integer"
+msgstr ""
+
+msgid "incompatible options"
+msgstr ""
+
+msgid "input file shrank"
+msgstr ""
+
+msgid "internal error: invalid diff type in process_diff"
+msgstr ""
+
+msgid "internal error: invalid diff type passed to output"
+msgstr ""
+
+msgid "internal error: screwup in format of diff blocks"
+msgstr ""
+
+msgid "invalid diff format; incomplete last line"
+msgstr ""
+
+msgid "invalid diff format; incorrect leading line chars"
+msgstr ""
+
+msgid "invalid diff format; invalid change separator"
+msgstr ""
+
+msgid ""
+"l:\tUse the left version.\n"
+"r:\tUse the right version.\n"
+"e l:\tEdit then use the left version.\n"
+"e r:\tEdit then use the right version.\n"
+"e b:\tEdit then use the left and right versions concatenated.\n"
+"e:\tEdit a new version.\n"
+"s:\tSilently include common lines.\n"
+"v:\tVerbosely include common lines.\n"
+"q:\tQuit.\n"
+msgstr ""
+
+msgid "message queue"
+msgstr ""
+
+msgid "missing operand"
+msgstr ""
+
+msgid "read failed"
+msgstr "Teip an léamh seo."
+
+msgid "regular empty file"
+msgstr ""
+
+msgid "regular file"
+msgstr "gnáth comhad"
+
+msgid "semaphore"
+msgstr ""
+
+msgid "shared memory object"
+msgstr ""
+
+msgid "socket"
+msgstr ""
+
+msgid "subsidiary program failed"
+msgstr ""
+
+msgid "too many file label options"
+msgstr ""
+
+msgid "weird file"
+msgstr ""
+
+msgid "write failed"
+msgstr "Theip an scríobh ann"

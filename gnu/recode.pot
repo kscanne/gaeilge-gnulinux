@@ -1,0 +1,268 @@
+# Irish (Gaeilge) translations for recode (GNU)
+# Copyright (C) 1998 Free Software Foundation, Inc.
+# Alastair McKinstry <mckinstry@computer.org>, 1998.
+#
+# , fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: recode 3.4.2\n"
+"PO-Revision-Date: 1999-01-07 12:45-0000\n"
+"Last-Translator: Alastair McKinstry <mckinstry@computer.org> \n"
+"Language-Team: Irish <ga@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ISO-8859-1\n"
+"Content-Transfer-Encoding: 8-bit\n"
+
+msgid "   Each input char transforms into an output string,\n"
+msgstr ""
+#
+msgid "   Each input char transforms into an output string.\n"
+msgstr ""
+#
+msgid "   Generated mechanically by GNU %s %s.\n"
+msgstr ""
+#
+msgid "   Programming is needed to handle multichar input.\n"
+msgstr ""
+#
+msgid "   The recoding might not be reversible.\n"
+msgstr ""
+#
+msgid "   The recoding should be reversible.\n"
+msgstr ""
+#
+msgid "   programming is needed to handle multichar input.\n"
+msgstr ""
+#
+msgid "  UNACHIEVABLE\n"
+msgstr ""
+#
+msgid " done\n"
+msgstr ""
+#
+msgid "%s: Recoding is not reversible"
+msgstr ""
+#
+msgid ", %d saved by merging"
+msgstr ""
+#
+msgid "/* Conversion table from `%s' charset to `%s' charset.\n"
+msgstr ""
+#
+msgid "Ambiguous charset `%s'"
+msgstr ""
+#
+msgid "Ambiguous format `%s'"
+msgstr ""
+#
+msgid "Ambiguous sequence `%s'"
+msgstr ""
+#
+msgid "Cannot auto check on %s"
+msgstr ""
+#
+msgid "Cannot auto check the ignored charset"
+msgstr ""
+#
+msgid "Cannot complete table from set of known pairs"
+msgstr ""
+#
+msgid "Cannot invert given one-to-one table"
+msgstr ""
+#
+msgid "Cannot list `%s', no 10646 names available for this charset"
+msgstr ""
+#
+msgid "Charset %s already exists and is not %s"
+msgstr ""
+#
+msgid "Child process wait status is 0x%0.2x"
+msgstr ""
+#
+msgid "Codes %3d and %3d both recode to %3d"
+msgstr ""
+#
+msgid "Currently, -s is ignored when -g is selected"
+msgstr ""
+#
+msgid "Following diagnostics for `%s' to `%s'"
+msgstr ""
+#
+msgid "Hash stats: %d names using %d buckets out of %d\n"
+msgstr ""
+#
+msgid "Internal error - strategy undecided"
+msgstr ""
+#
+msgid "MAX_CHARSETS is too small"
+msgstr ""
+#
+msgid "MAX_SEQUENCE is too small"
+msgstr ""
+#
+msgid "MAX_SINGLE_STEPS is too small"
+msgstr ""
+#
+msgid "Mere copy for the trivial recoding\n"
+msgstr ""
+#
+msgid "No character recodes to %3d"
+msgstr ""
+#
+msgid "No table to print"
+msgstr ""
+#
+msgid "No way to recode from %s to %s"
+msgstr ""
+#
+msgid "ONE to SAME"
+msgstr ""
+#
+msgid "Pair no. %d: { %3d, %3d } conflicts with { %3d, %3d }"
+msgstr ""
+#
+msgid "Recoding %s..."
+msgstr ""
+#
+msgid "Recoding is not reversible"
+msgstr ""
+#
+msgid "Recoding is too complex for a mere table"
+msgstr ""
+#
+msgid "Recoding is trivial, not worth a table"
+msgstr ""
+#
+msgid "Simplified to: "
+msgstr ""
+#
+msgid "Sorry, no 10646 names available for `%s'"
+msgstr ""
+#
+msgid "Try `%s %s' for more information.\n"
+msgstr ""
+#
+msgid "UNACHIEVABLE recoding!\n"
+msgstr ""
+#
+msgid "Unknown charset `%s'"
+msgstr ""
+#
+msgid "Unknown format `%s'"
+msgstr ""
+#
+msgid "Unknown sequence `%s'"
+msgstr ""
+#
+msgid "You may not explicitly recode from RFC 1345"
+msgstr ""
+#
+msgid "  -o, --sequence=popen    same as -i (on this system)\n"
+msgstr ""
+#
+msgid "  -o, --sequence=popen    use popen machinery for sequencing passes\n"
+msgstr ""
+#
+msgid "  -p, --sequence=pipe     same as -o (on this system)\n"
+msgstr ""
+#
+msgid "  -p, --sequence=pipe     use pipe machinery for sequencing passes\n"
+msgstr ""
+#
+msgid ""
+"  -q, --quiet, --silent   inhibit messages about irreversible recodings\n"
+"  -s, --strict            use strict mappings, even loose characters\n"
+"  -t, --touch             touch the recoded files after replacement\n"
+"  -v, --verbose           explain sequence of steps and report progress\n"
+"  -x, --ignore=CHARSET    ignore CHARSET while choosing a recoding path\n"
+"\n"
+"If none of -i, -o and -p are given, presume -p if no FILE, else -i.\n"
+"Each FILE is recoded over itself, destroying the original.  If no\n"
+"FILE is specified, then act as a filter and recode stdin to stdout.\n"
+msgstr ""
+#
+msgid "BEFORE and AFTER both default to `%s' when needed.\n"
+msgstr ""
+#
+msgid ""
+"Mandatory or optional arguments to long options are mandatory or optional\n"
+"for short options too.\n"
+"\n"
+"  -C, --copyright       display Copyright and copying conditions\n"
+"  -a, --auto-check      report about some or all recoding paths, then exit\n"
+"  -l, --list[=FORMAT]   list one or all known charsets\n"
+"  -k, --known=PAIRS     restrict charsets according to known PAIRS list\n"
+"      --help            display this help and exit\n"
+"      --version         output version information and exit\n"
+"\n"
+"FORMAT is a word among decimal, octal, hexadecimal or full (which may be\n"
+"abbreviated to one of `dohf'), it defaults to just the canonical name.\n"
+"With -k, possible before charsets are listed for the given after CHARSET,\n"
+"both being RFC1345 charsets, with PAIRS of the form `BEF1:AFT1,BEF2:AFT2,...\n"
+"and BEFs and AFTs being codes.  All codes are given as decimal numbers.\n"
+msgstr ""
+#
+msgid ""
+"Option -l with no FORMAT nor CHARSET list all charsets, also see the Texinfo\n"
+"documentation.  My preferred charsets are (each user has preferences):\n"
+"\n"
+"  ascii-bs   ASCII (7-bit), using backspace to apply diacritics\n"
+"  ibmpc      IBM-PC 8-bit characters, with proper newlines\n"
+"  latex      LaTeX coding of foreign and diacriticized characters\n"
+"  latin1     ISO Latin-1 8-bit extension of ASCII\n"
+"  texte      Easy French convention for transmitting email messages\n"
+msgstr ""
+#
+msgid ""
+"This program is free software; you can redistribute it and/or modify\n"
+"it under the terms of the GNU General Public License as published by\n"
+"the Free Software Foundation; either version 2, or (at your option)\n"
+"any later version.\n"
+"\n"
+"This program is distributed in the hope that it will be useful,\n"
+"but WITHOUT ANY WARRANTY; without even the implied warranty of\n"
+"MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\n"
+"GNU General Public License for more details.\n"
+"\n"
+"You should have received a copy of the GNU General Public License\n"
+"along with this program; if not, write to the Free Software Foundation,\n"
+"Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307, USA.\n"
+msgstr ""
+#
+msgid ""
+"\n"
+"  -c, --colons            use colons instead of double quotes for diaeresis\n"
+"  -d, --diacritics        limit conversion to diacritics or alike for LaTeX\n"
+"  -f, --force             force recodings even if they are not reversible\n"
+"                          (BEWARE: in this version, -f is always selected)\n"
+"  -g, --graphics          approximate IBMPC rulers by ASCII graphics\n"
+"  -h, --header[=NAME]     write C code with table NAME on stdout, then exit\n"
+"  -i, --sequence=files    use intermediate files for sequencing passes\n"
+msgstr ""
+#
+msgid "\nUsage: %s [OPTION]... [BEFORE]:[AFTER] [FILE]...\n"
+msgstr ""
+#
+msgid "\nUsage: %s [OPTION]... [CHARSET]\n"
+msgstr ""
+#
+msgid "dec  oct hex    ch   %s\n"
+msgstr ""
+#
+msgid "many to many"
+msgstr ""
+#
+msgid "many to one"
+msgstr ""
+#
+msgid "one to many"
+msgstr ""
+#
+msgid "one to one"
+msgstr ""
+#
+msgid "reversible"
+msgstr ""
+#
+msgid "steps: %d"
+msgstr ""
