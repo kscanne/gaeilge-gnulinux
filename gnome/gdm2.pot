@@ -731,7 +731,6 @@ msgstr ""
 #. Ask gdmgreeter for the user's login. Just for good measure
 #: daemon/verify-crypt.c:67 daemon/verify-pam.c:168 daemon/verify-shadow.c:66
 #: gui/gdmlogin.c:2851
-#, fuzzy
 msgid "Login:"
 msgstr "Logann:"
 
@@ -1127,16 +1126,15 @@ msgstr ""
 
 #: gui/gdmlogin.c:60
 msgid "Gnome"
-msgstr ""
+msgstr "Gnome"
 
 #: gui/gdmlogin.c:61
 msgid "KDE"
-msgstr ""
+msgstr "KDE"
 
 #: gui/gdmlogin.c:62
-#, fuzzy
 msgid "XSession"
-msgstr "Seisiún"
+msgstr "XSeisiún"
 
 #: gui/gdmconfig-strings.c:197 gui/gdmlogin.c:63 gui/gdmlogin.c:1295
 msgid "Gnome Chooser"
@@ -1313,16 +1311,15 @@ msgstr ""
 
 #: gui/gdmlogin.c:2401
 msgid "%a %b %d, %I:%M %p"
-msgstr ""
+msgstr "%a %b %d, %:%M %p"
 
 #: gui/gdmlogin.c:2460
 msgid "Finger"
 msgstr ""
 
 #: gui/gdmlogin.c:2529
-#, fuzzy
 msgid "GDM Login"
-msgstr "Logann:"
+msgstr "Logann GDM"
 
 #: gui/gdmlogin.c:2575
 msgid "Session"
@@ -1391,9 +1388,8 @@ msgid ""
 msgstr ""
 
 #: gui/gdmlogin.c:3393 gui/gdmlogin.c:3428
-#, fuzzy
 msgid "Reboot"
-msgstr "Aththosnú..."
+msgstr "Aththosnú"
 
 #: gui/gdmlogin.c:3420
 #, c-format
@@ -1404,7 +1400,6 @@ msgid ""
 msgstr ""
 
 #: gui/gdmlogin.c:3427
-#, fuzzy
 msgid "Restart"
 msgstr "Athleámh"
 
@@ -1907,9 +1902,8 @@ msgid "General Appearance"
 msgstr ""
 
 #: gui/gdmconfig-strings.c:19
-#, fuzzy
 msgid "Logo: "
-msgstr "Logann:"
+msgstr "Logo: "
 
 #: gui/gdmconfig-strings.c:20
 msgid "Select a logo to be displayed during login"
@@ -1976,9 +1970,9 @@ msgid "Show title bar on login window"
 msgstr ""
 
 #: gui/gdmconfig-strings.c:34
-#, fuzzy, c-format
+#, c-format
 msgid "Welcome to %n"
-msgstr "Fáilte do %s"
+msgstr "Fáilte do %n"
 
 #: gui/gdmconfig-strings.c:35
 #, c-format
@@ -1999,9 +1993,8 @@ msgid "Default font: "
 msgstr ""
 
 #: gui/gdmconfig-strings.c:40
-#, fuzzy
 msgid "Welcome message: "
-msgstr "Fáilte do %s"
+msgstr "Scéal Fáiltú: "
 
 #: gui/gdmconfig-strings.c:41
 msgid "The font to use on the welcome message"
@@ -2397,9 +2390,8 @@ msgid "Select how relaxed permissions are"
 msgstr ""
 
 #: gui/gdmconfig-strings.c:141
-#, fuzzy
 msgid "Permissions: "
-msgstr "Seisiún"
+msgstr ""
 
 #: gui/gdmconfig-strings.c:142
 msgid "Allow world writable files and directories"
@@ -2546,7 +2538,7 @@ msgstr ""
 
 #: gui/gdmconfig-strings.c:175
 msgid "XDMCP"
-msgstr ""
+msgstr "XDMCP"
 
 #: gui/gdmconfig-strings.c:176
 msgid "Server Definitions"
@@ -2653,9 +2645,8 @@ msgid "Xterm Failsafe"
 msgstr ""
 
 #: gui/gdmconfig-strings.c:202
-#, fuzzy
 msgid "Add session"
-msgstr "Seisiún"
+msgstr "Suimigh Seisiún"
 
 #: gui/gdmconfig-strings.c:203
 msgid "Remove session"
@@ -2702,7 +2693,7 @@ msgstr ""
 
 #: gui/gdmconfig-strings.c:216
 msgid "Hosts"
-msgstr ""
+msgstr "Óstanna:"
 
 #: gui/gdmconfig-strings.c:217
 msgid "Send a query to the local network and list all servers that respond"
@@ -2927,7 +2918,3 @@ msgstr "Úsáideoir gan aithne"
 
 msgid "Incorrect password"
 msgstr "Pasfhocal Mícheart"
-
-#, fuzzy
-#~ msgid "Disconnect"
-#~ msgstr "Ceangáil"

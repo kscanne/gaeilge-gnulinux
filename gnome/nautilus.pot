@@ -155,7 +155,7 @@ msgstr ""
 #: components/install-view/callbacks.c:415
 #, c-format
 msgid "%d%%"
-msgstr ""
+msgstr "%d%%"
 
 #: components/install-view/callbacks.c:443
 #, c-format
@@ -212,7 +212,7 @@ msgstr ""
 
 #: components/install-view/callbacks.c:658
 msgid "Ok"
-msgstr ""
+msgstr "Ceart go Leor"
 
 #: components/install-view/callbacks.c:673
 msgid ""
@@ -240,7 +240,7 @@ msgstr ""
 #: components/summary-view/nautilus-summary-view.c:635
 #, c-format
 msgid "Version: %s"
-msgstr ""
+msgstr "Leagan: %s"
 
 #: components/install-view/forms.c:407
 msgid "These packages are ready to be downloaded and installed:"

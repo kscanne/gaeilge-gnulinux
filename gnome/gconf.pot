@@ -1339,19 +1339,19 @@ msgid "Type: %s\n"
 msgstr "Saghas: %s\n"
 
 #: gconf/gconftool.c:998
-#, fuzzy, c-format
+#, c-format
 msgid "List Type: %s\n"
-msgstr "Saghas: %s\n"
+msgstr "Saghas Líosta: %s\n"
 
 #: gconf/gconftool.c:999
-#, fuzzy, c-format
+#, c-format
 msgid "Car Type: %s\n"
-msgstr "Saghas: %s\n"
+msgstr "Saghas 'Car': %s\n"
 
 #: gconf/gconftool.c:1000
-#, fuzzy, c-format
+#, c-format
 msgid "Cdr Type: %s\n"
-msgstr "Saghas: %s\n"
+msgstr "Saghas 'Cdr': %s\n"
 
 #: gconf/gconftool.c:1005
 #, c-format
@@ -1426,9 +1426,9 @@ msgid "Error setting value: %s\n"
 msgstr ""
 
 #: gconf/gconftool.c:1207
-#, fuzzy, c-format
+#, c-format
 msgid "Error syncing: %s\n"
-msgstr "Earráid: %s\n"
+msgstr ""
 
 #: gconf/gconftool.c:1230
 msgid "Must specify a key or keys on the command line\n"
@@ -1697,9 +1697,9 @@ msgid ""
 msgstr ""
 
 #: wrappers/gtk/gconf-client.c:287 wrappers/gtk/gconf-client.c:304
-#, fuzzy, c-format
+#, c-format
 msgid "GConf Error: %s\n"
-msgstr "Earráid: %s\n"
+msgstr "Earráid GConf: %s\n"
 
 #: wrappers/gtk/gconf-client.c:795
 #, c-format

@@ -104,52 +104,45 @@ msgid "*** ERROR: Mailbox Stream Closed: %s ***\n"
 msgstr ""
 
 #: libbalsa/identity.c:30
-#, fuzzy
 msgid "Default"
-msgstr "Dealaigh"
+msgstr ""
 
 #. should "re" be localized ?
 #: libbalsa/identity.c:135 src/balsa-index-threading.c:854
 #: src/balsa-index-threading.c:856 src/sendmsg-window.c:1392
 #: src/sendmsg-window.c:1393
 msgid "Re:"
-msgstr ""
+msgstr "Re:"
 
 #: libbalsa/identity.c:136 src/sendmsg-window.c:1421 src/sendmsg-window.c:1422
 msgid "Fwd:"
-msgstr ""
+msgstr "Fwd:"
 
 #: libbalsa/identity.c:419 libbalsa/identity.c:1022
-#, fuzzy
 msgid "Edit"
-msgstr "_Eagar"
+msgstr "Eagar"
 
 #: libbalsa/identity.c:424 libbalsa/identity.c:1023
 msgid "Set Default"
 msgstr ""
 
 #: libbalsa/identity.c:587
-#, fuzzy
 msgid "Create Identity"
-msgstr "Comhionannas"
+msgstr ""
 
 #: libbalsa/identity.c:588
-#, fuzzy
 msgid "Edit Identity"
-msgstr "Comhionannas"
+msgstr ""
 
 #: libbalsa/identity.c:622 libbalsa/identity.c:1130
-#, fuzzy
 msgid "Identity Name:"
-msgstr "Comhionannas"
+msgstr ""
 
 #: libbalsa/identity.c:627 libbalsa/identity.c:1132
-#, fuzzy
 msgid "Full Name:"
-msgstr "Ainm"
+msgstr "Ainm Fhada:"
 
 #: libbalsa/identity.c:632 libbalsa/identity.c:636 libbalsa/identity.c:1134
-#, fuzzy
 msgid "Mailing Address:"
 msgstr "Seoladh E-Post:"
 
@@ -159,35 +152,30 @@ msgid "Reply To:"
 msgstr "Freagrair"
 
 #: libbalsa/identity.c:644 libbalsa/identity.c:1138
-#, fuzzy
 msgid "Domain:"
-msgstr "Ordú"
+msgstr ""
 
 #. bcc:
 #: libbalsa/identity.c:647 libbalsa/identity.c:1140 src/balsa-message.c:710
 #: src/print.c:393 src/sendmsg-window.c:1092
 msgid "Bcc:"
-msgstr ""
+msgstr "Bcc:"
 
 #: libbalsa/identity.c:650 libbalsa/identity.c:1142
-#, fuzzy
 msgid "Reply String:"
-msgstr "Freagrair"
+msgstr ""
 
 #: libbalsa/identity.c:653 libbalsa/identity.c:1144
-#, fuzzy
 msgid "Forward String:"
-msgstr "Sheoladh Chuig duine"
+msgstr ""
 
 #: libbalsa/identity.c:656 libbalsa/identity.c:1146
-#, fuzzy
 msgid "Signature Path:"
-msgstr "Síniú"
+msgstr ""
 
 #: libbalsa/identity.c:660 libbalsa/identity.c:1149
-#, fuzzy
 msgid "Append Signature"
-msgstr "Síniú"
+msgstr ""
 
 #: libbalsa/identity.c:664 libbalsa/identity.c:1151
 msgid "Append Signature When Forwarding"
@@ -202,9 +190,8 @@ msgid "Include Signature Separator"
 msgstr ""
 
 #: libbalsa/identity.c:673 libbalsa/identity.c:1160
-#, fuzzy
 msgid "Prepend Signature"
-msgstr "Síniú"
+msgstr ""
 
 #: libbalsa/identity.c:847
 msgid "Error: The identity does not have a name"
@@ -238,23 +225,22 @@ msgid "Manage Identities"
 msgstr ""
 
 #: libbalsa/identity.c:1244
-#, fuzzy
 msgid "Do"
-msgstr "Síos"
+msgstr ""
 
 #: libbalsa/identity.c:1244
 msgid "Do Not"
 msgstr ""
 
 #: libbalsa/mailbox.c:314
-#, fuzzy, c-format
+#, c-format
 msgid "Cannot load mailbox %s"
-msgstr "Dún an bosca phoist"
+msgstr ""
 
 #: libbalsa/mailbox.c:322
-#, fuzzy, c-format
+#, c-format
 msgid "No such mailbox type: %s"
-msgstr "Cineál boscaphost Nua:"
+msgstr ""
 
 #: libbalsa/mailbox.c:339
 #, c-format
@@ -262,14 +248,14 @@ msgid "Could not create a mailbox of type %s"
 msgstr ""
 
 #: libbalsa/mailbox_imap.c:319
-#, fuzzy, c-format
+#, c-format
 msgid "LibBalsaMailboxImap: Opening %s Refcount: %d\n"
-msgstr "Boscaphoist: Ag oscáil: %s ref-uimhir: %d\n"
+msgstr ""
 
 #: libbalsa/mailbox_local.c:281
-#, fuzzy, c-format
+#, c-format
 msgid "LibBalsaMailboxLocal: Opening %s Refcount: %d\n"
-msgstr "Boscaphoist: Ag oscáil: %s ref-uimhir: %d\n"
+msgstr ""
 
 #: libbalsa/mailbox_maildir.c:114
 #, c-format
@@ -328,9 +314,9 @@ msgid "Could not create MH structure at %s (%s)"
 msgstr ""
 
 #: libbalsa/mailbox_pop3.c:191
-#, fuzzy, c-format
+#, c-format
 msgid "LibBalsaMailboxPop3: Opening %s Refcount: %d\n"
-msgstr "Boscaphoist: Ag oscáil: %s ref-uimhir: %d\n"
+msgstr ""
 
 #: libbalsa/mailbox_pop3.c:246
 #, c-format
@@ -387,9 +373,8 @@ msgid "POP command exection failed"
 msgstr ""
 
 #: libbalsa/pop3.c:57
-#, fuzzy
 msgid "Could not write the message"
-msgstr "Príontáil an scéala seo"
+msgstr ""
 
 #: libbalsa/pop3.c:58
 msgid "Could not run the delivery program (procmail)"
@@ -466,16 +451,15 @@ msgstr ""
 #: libbalsa/send.c:772
 #, c-format
 msgid "%d %s"
-msgstr ""
+msgstr "%d %s"
 
 #: libbalsa/send.c:785
 msgid "Disconnected"
 msgstr ""
 
 #: libbalsa/source-viewer.c:60
-#, fuzzy
 msgid "Message Source"
-msgstr "_Sceál"
+msgstr ""
 
 #.
 #. ISPRIME(9)
@@ -596,9 +580,8 @@ msgid ""
 msgstr ""
 
 #: libinit_balsa/balsa-initdruid.gob:119
-#, fuzzy
 msgid "GnomeCard Address Book"
-msgstr "Leabhar Sheoladh"
+msgstr "Leabhar Sheoladh GnomeCard"
 
 #: libinit_balsa/helper.c:142
 #, c-format
@@ -761,9 +744,8 @@ msgid "LOGIN disabled on this server."
 msgstr ""
 
 #: libmutt/imap/auth_login.c:43
-#, fuzzy
 msgid "Logging in..."
-msgstr "Ag Lódáil..."
+msgstr ""
 
 #: libmutt/imap/auth_login.c:63
 msgid "Login failed."
@@ -786,24 +768,20 @@ msgid "Getting folder list..."
 msgstr ""
 
 #: libmutt/imap/browse.c:308
-#, fuzzy
 msgid "Create mailbox: "
-msgstr "Dún an bosca phoist"
+msgstr ""
 
 #: libmutt/imap/browse.c:313
-#, fuzzy
 msgid "Mailbox must have a name."
-msgstr "Ainm boscaphoist"
+msgstr ""
 
 #: libmutt/imap/browse.c:326
-#, fuzzy
 msgid "Mailbox created."
-msgstr "Ainm boscaphoist"
+msgstr ""
 
 #: libmutt/imap/command.c:289
-#, fuzzy
 msgid "Mailbox closed"
-msgstr "Ainm boscaphoist"
+msgstr ""
 
 #. something is wrong because the server reported fewer messages
 #. * than we previously saw
@@ -840,9 +818,8 @@ msgid "Selecting %s..."
 msgstr ""
 
 #: libmutt/imap/imap.c:677
-#, fuzzy
 msgid "Error opening mailbox"
-msgstr "Oscáil Boscaphoist"
+msgstr ""
 
 #. STATUS not supported
 #: libmutt/imap/imap.c:730
@@ -879,7 +856,7 @@ msgstr ""
 
 #: libmutt/imap/imap.c:1085
 msgid "CLOSE failed"
-msgstr ""
+msgstr "Theip ar DUNADH"
 
 #: libmutt/imap/imap.c:1352
 #, c-format
@@ -902,9 +879,8 @@ msgid "Fetching message headers... [%d/%d]"
 msgstr ""
 
 #: libmutt/imap/message.c:239
-#, fuzzy
 msgid "Fetching message..."
-msgstr "Scéala nua"
+msgstr ""
 
 #: libmutt/imap/message.c:282
 msgid "The message index is incorrect. Try reopening the mailbox."
@@ -939,14 +915,12 @@ msgid "Reading %s... %d (%d%%)"
 msgstr ""
 
 #: libmutt/mbox.c:158 libmutt/mbox.c:217
-#, fuzzy
 msgid "Mailbox is corrupt!"
-msgstr "Pasfhocal Boscaphoist"
+msgstr ""
 
 #: libmutt/mbox.c:666
-#, fuzzy
 msgid "Mailbox was corrupted!"
-msgstr "Pasfhocal Boscaphoist:"
+msgstr ""
 
 #: libmutt/mbox.c:703 libmutt/mbox.c:978
 msgid "Fatal error!  Could not reopen mailbox!"
@@ -1007,9 +981,9 @@ msgid "Error talking to %s (%s)"
 msgstr ""
 
 #: libmutt/mutt_socket.c:400 libmutt/mutt_socket.c:441
-#, fuzzy, c-format
+#, c-format
 msgid "Looking up %s..."
-msgstr "Ag Lódáil..."
+msgstr ""
 
 #: libmutt/mutt_socket.c:405 libmutt/mutt_socket.c:445
 #, c-format
@@ -1125,17 +1099,16 @@ msgid "(r)eject, accept (o)nce"
 msgstr ""
 
 #: libmutt/mutt_ssl.c:628
-#, fuzzy
 msgid "ro"
-msgstr "Ó"
+msgstr "(leamh amhain)"
 
 #: libmutt/mutt_ssl.c:632
 msgid "Exit  "
-msgstr ""
+msgstr "Ealú  "
 
 #: libmutt/mutt_ssl.c:634
 msgid "Help"
-msgstr ""
+msgstr "Cuidiú"
 
 #: libmutt/mutt_ssl.c:658
 msgid "Warning: Couldn't save certificate"

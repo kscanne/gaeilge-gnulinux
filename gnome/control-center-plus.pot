@@ -18,9 +18,8 @@ msgid "Advanced"
 msgstr ""
 
 #: capplets/desktop-links/Advanced.directory.in.in.h:2
-#, fuzzy
 msgid "Advanced Settings"
-msgstr "Ábaltachtaí Panail"
+msgstr ""
 
 #: capplets/desktop-links/panel.desktop.in.in.h:1
 msgid "Global panel properties"
@@ -35,9 +34,8 @@ msgid "Configure which non-session aware programs are started up"
 msgstr ""
 
 #: capplets/desktop-links/session.desktop.in.in.h:2
-#, fuzzy
 msgid "Startup Programs"
-msgstr "Riomhchlár"
+msgstr ""
 
 #: capplets/file-types/file-types-capplet-dialogs.c:387
 msgid "Edit Applications List"
@@ -104,9 +102,8 @@ msgid "Add..."
 msgstr "Suimigh..."
 
 #: capplets/file-types/file-types-capplet-dialogs.c:972
-#, fuzzy
 msgid "    Remove    "
-msgstr "Scríos"
+msgstr "   Scríos   "
 
 #: capplets/file-types/file-types-capplet-dialogs.c:1041
 msgid "Add New Extension"
@@ -156,9 +153,8 @@ msgid "Bad Application Command"
 msgstr ""
 
 #: capplets/file-types/file-types-capplet-dialogs.c:1258
-#, fuzzy
 msgid "Add Application"
-msgstr "Bog mionuirlis"
+msgstr ""
 
 #: capplets/file-types/file-types-capplet-dialogs.c:1259
 msgid "Edit Application"
@@ -176,9 +172,8 @@ msgstr ""
 
 #. Open Behavior frame
 #: capplets/file-types/file-types-capplet-dialogs.c:1293
-#, fuzzy
 msgid "Open Behavior"
-msgstr "Fograiocht"
+msgstr ""
 
 #: capplets/file-types/file-types-capplet-dialogs.c:1299
 msgid "Can open multiple files"
@@ -191,23 +186,20 @@ msgstr ""
 
 #: capplets/file-types/file-types-capplet.c:735
 #: capplets/file-types/file-types-capplet.c:1883
-#, fuzzy
 msgid "MIME Type"
-msgstr "Saghas MIME:"
+msgstr "Saghas MIME"
 
 #: capplets/file-types/file-types-capplet.c:742
-#, fuzzy
 msgid "Change Icon"
-msgstr "Cealaigh Logann"
+msgstr ""
 
 #: capplets/file-types/file-types-capplet.c:749
 msgid "Change File Extensions"
 msgstr ""
 
 #: capplets/file-types/file-types-capplet.c:757
-#, fuzzy
 msgid "Default Action:"
-msgstr "Luach gnáth"
+msgstr ""
 
 #: capplets/file-types/file-types-capplet.c:769
 msgid "Use Viewer"
@@ -218,14 +210,12 @@ msgid "Open With Application"
 msgstr ""
 
 #: capplets/file-types/file-types-capplet.c:786
-#, fuzzy
 msgid "Edit List"
-msgstr "Eagar"
+msgstr "Eagar Líosta"
 
 #: capplets/file-types/file-types-capplet.c:811
-#, fuzzy
 msgid "Add New MIME Type..."
-msgstr "Cuir le Painial"
+msgstr ""
 
 #: capplets/file-types/file-types-capplet.c:817
 msgid "Delete This MIME Type"
@@ -237,9 +227,8 @@ msgstr ""
 
 #: capplets/file-types/file-types-capplet.c:1075
 #: capplets/file-types/file-types-capplet.c:1219
-#, fuzzy
 msgid "None"
-msgstr "tada"
+msgstr "Tada"
 
 #: capplets/file-types/file-types-capplet.c:1324
 msgid ""
@@ -252,7 +241,6 @@ msgstr ""
 #: capplets/file-types/file-types-capplet.c:1393
 #: capplets/file-types/file-types-capplet.c:1593
 #: capplets/file-types/file-types-capplet.c:1719
-#, fuzzy
 msgid "none"
 msgstr "tada"
 
@@ -264,9 +252,8 @@ msgid "View as %s"
 msgstr ""
 
 #: capplets/file-types/file-types-capplet.c:1882
-#, fuzzy
 msgid "Description"
-msgstr "Áit"
+msgstr ""
 
 #: capplets/file-types/file-types-capplet.c:1884
 #: capplets/mime-type/mime-data.c:385
@@ -274,9 +261,8 @@ msgid "Extension"
 msgstr ""
 
 #: capplets/file-types/file-types-capplet.c:1885
-#, fuzzy
 msgid "Default Action"
-msgstr "Tóg dealbh..."
+msgstr ""
 
 #: capplets/file-types/file-types.desktop.in.in.h:1
 msgid "File Types and Programs"
@@ -296,9 +282,8 @@ msgid "Preview"
 msgstr ""
 
 #: capplets/file-types/file-types-icon-entry.c:381
-#, fuzzy
 msgid "Select an icon"
-msgstr "Tóg dealbh..."
+msgstr ""
 
 #. icon box
 #: capplets/mime-type/edit-window.c:266
@@ -437,9 +422,8 @@ msgid "Configure how files are associated and started"
 msgstr ""
 
 #: capplets/mime-type/mime-type.desktop.in.in.h:2
-#, fuzzy
 msgid "Mime Types"
-msgstr "Saghas MIME:"
+msgstr ""
 
 #: capplets/mime-type/new-mime-window.c:25
 msgid "Add Mime Type"
@@ -668,9 +652,8 @@ msgid "Help browser"
 msgstr ""
 
 #: capplets/url-properties/url-properties.c:115
-#, fuzzy
 msgid "Help browser (new window)"
-msgstr "Netscape (fuinneog nua)"
+msgstr ""
 
 #: capplets/url-properties/url-properties.c:127
 msgid "Set"
@@ -701,28 +684,24 @@ msgid "Default  (Spread out - big)"
 msgstr ""
 
 #: capplets/ui-properties/behavior-properties.glade.h:5
-#, fuzzy
 msgid "Dialog Buttons"
-msgstr "Leathfhocail Dialog"
+msgstr ""
 
 #: capplets/ui-properties/behavior-properties.glade.h:6
-#, fuzzy
 msgid "Dialog buttons have icons"
-msgstr "Leathfhocail Dialog"
+msgstr ""
 
 #: capplets/ui-properties/behavior-properties.glade.h:7
-#, fuzzy
 msgid "Dialogs"
-msgstr "Leathfhocail Dialog"
+msgstr ""
 
 #: capplets/ui-properties/behavior-properties.glade.h:8
 msgid "Dialogs are treated"
 msgstr ""
 
 #: capplets/ui-properties/behavior-properties.glade.h:9
-#, fuzzy
 msgid "Dialogs open"
-msgstr "Leathfhocail Dialog"
+msgstr ""
 
 #: capplets/ui-properties/behavior-properties.glade.h:10
 msgid "Interface"
@@ -733,14 +712,12 @@ msgid "Left"
 msgstr "Clé"
 
 #: capplets/ui-properties/behavior-properties.glade.h:12
-#, fuzzy
 msgid "Left aligned"
-msgstr "Ciotach"
+msgstr ""
 
 #: capplets/ui-properties/behavior-properties.glade.h:13
-#, fuzzy
 msgid "Like any other window"
-msgstr "Netscape (fuinneog nua)"
+msgstr ""
 
 #: capplets/ui-properties/behavior-properties.glade.h:14
 msgid "Menu bars are detachable"
@@ -751,9 +728,8 @@ msgid "Menu bars have a border"
 msgstr ""
 
 #: capplets/ui-properties/behavior-properties.glade.h:16
-#, fuzzy
 msgid "Menu items have icons"
-msgstr "Cumraigh Chlar"
+msgstr ""
 
 #: capplets/ui-properties/behavior-properties.glade.h:17
 msgid "Menus"
@@ -793,14 +769,12 @@ msgid "Right"
 msgstr "Deis"
 
 #: capplets/ui-properties/behavior-properties.glade.h:26
-#, fuzzy
 msgid "Right aligned"
-msgstr "Deasach"
+msgstr ""
 
 #: capplets/ui-properties/behavior-properties.glade.h:27
-#, fuzzy
 msgid "Seperate windows"
-msgstr "Netscape (fuinneog nua)"
+msgstr ""
 
 #: capplets/ui-properties/behavior-properties.glade.h:28
 msgid "Settings will not take effect until applications restart"
@@ -827,9 +801,8 @@ msgid "Status bar is interactive when possible"
 msgstr ""
 
 #: capplets/ui-properties/behavior-properties.glade.h:34
-#, fuzzy
 msgid "The same window"
-msgstr "Netscape (fuinneog nua)"
+msgstr ""
 
 #: capplets/ui-properties/behavior-properties.glade.h:35
 msgid "Tool Bars"
@@ -1010,9 +983,8 @@ msgid "You cannot delete the current Window Manager"
 msgstr ""
 
 #: capplets/wm-properties/wm-properties-capplet.c:1089
-#, fuzzy
 msgid "Window Manager Selector"
-msgstr "Rogha Paipiar balla"
+msgstr ""
 
 #: capplets/wm-properties/wm-properties-capplet.c:1191
 msgid ""
@@ -1022,23 +994,23 @@ msgstr ""
 
 #: capplets/wm-properties/wm-desktops/Enlightenment.desktop.in.in.h:1
 msgid "Enlightenment"
-msgstr ""
+msgstr "Enlightenment"
 
 #: capplets/wm-properties/wm-desktops/IceWM.desktop.in.in.h:1
 msgid "Ice WM"
-msgstr ""
+msgstr "Ice WM"
 
 #: capplets/wm-properties/wm-desktops/Scwm.desktop.in.in.h:1
 msgid "Scwm"
-msgstr ""
+msgstr "Scwm"
 
 #: capplets/wm-properties/wm-desktops/WindowMaker.desktop.in.in.h:1
 msgid "Window Maker"
-msgstr ""
+msgstr "Window Maker"
 
 #: capplets/wm-properties/wm-desktops/twm.desktop.in.in.h:1
 msgid "twm"
-msgstr ""
+msgstr "twm"
 
 #: capplets/desktop-links/Sawfish/Sawfish.directory.in.in.h:1
 msgid "Control Center Menu"
@@ -1069,19 +1041,16 @@ msgid "Configure window focusing"
 msgstr ""
 
 #: capplets/desktop-links/Sawfish/focus-properties.desktop.in.h:2
-#, fuzzy
 msgid "Focus behavior"
-msgstr "Fograiocht"
+msgstr ""
 
 #: capplets/desktop-links/Sawfish/match-properties.desktop.in.h:1
-#, fuzzy
 msgid "Configure window properties"
-msgstr "Ábaltachtaí Printéir"
+msgstr ""
 
 #: capplets/desktop-links/Sawfish/match-properties.desktop.in.h:2
-#, fuzzy
 msgid "Matched Windows"
-msgstr "Netscape (fuinneog nua)"
+msgstr ""
 
 #: capplets/desktop-links/Sawfish/maximize-properties.desktop.in.h:1
 msgid "Configure window minimization and maximization"
@@ -1124,9 +1093,8 @@ msgid "Enable window manager sound events"
 msgstr ""
 
 #: capplets/desktop-links/Sawfish/sound-properties.desktop.in.h:2
-#, fuzzy
 msgid "Sound"
-msgstr "Tóg dealbh..."
+msgstr "Fuaim"
 
 #: capplets/desktop-links/Sawfish/workspace-properties.desktop.in.h:1
 msgid "Configure workspaces"
@@ -1175,21 +1143,17 @@ msgstr "Míchumasach"
 msgid "Colors"
 msgstr "Dathanna"
 
-#, fuzzy
 msgid "Effect"
 msgstr "Tuairim"
 
-#, fuzzy
 msgid "Solid Color"
 msgstr "Dath"
 
-#, fuzzy
 msgid "Vertical Gradient"
-msgstr "Gradan"
+msgstr "Gradán Ingearach"
 
-#, fuzzy
 msgid "Horizontal Gradient"
-msgstr "Cothromanach"
+msgstr "Gradán Cothromanach"
 
 msgid "Wallpaper"
 msgstr "Paipiar balla"
@@ -1203,28 +1167,23 @@ msgstr "Leacaithe"
 msgid "Centered"
 msgstr "Sa Lar"
 
-#, fuzzy
 msgid "Browse..."
-msgstr " Dearcadh.."
+msgstr ""
 
 msgid "Test"
 msgstr "Triail"
 
-#, fuzzy
 msgid "Enable Keyboard Repeat"
-msgstr "Uath-atriall"
+msgstr ""
 
-#, fuzzy
 msgid "...a"
-msgstr "Suimigh..."
+msgstr "...a"
 
-#, fuzzy
 msgid "Key Repeat Rate"
-msgstr "Rata atriallach"
+msgstr ""
 
-#, fuzzy
 msgid "Enable Keyboard Click"
-msgstr " Miarchlar "
+msgstr ""
 
 msgid "Keyboard click"
 msgstr " Miarchlar "
@@ -1232,9 +1191,8 @@ msgstr " Miarchlar "
 msgid "Click volume"
 msgstr "Laine Cnioga"
 
-#, fuzzy
 msgid "Type here to test setting"
-msgstr "Cumriagh"
+msgstr ""
 
 msgid "Left handed"
 msgstr "Ciotach"
@@ -1263,156 +1221,122 @@ msgstr "Mór"
 msgid "Small"
 msgstr "Beag"
 
-#, fuzzy
 msgid "Black screen only"
-msgstr "Glasal an scathan"
+msgstr ""
 
 msgid "Settings..."
 msgstr "Cumasaí..."
 
-#, fuzzy
 msgid "Demo"
-msgstr "Scríos"
+msgstr ""
 
-#, fuzzy
 msgid "Demo Previous"
-msgstr "Albaltachtam Luch"
+msgstr ""
 
-#, fuzzy
 msgid "Screensaver Selection"
-msgstr "Rogha Paipiar balla"
+msgstr ""
 
 msgid "General Properties"
 msgstr "Albaltachtaí"
 
-#, fuzzy
 msgid "Low"
-msgstr "Lag."
+msgstr "Lag"
 
-#, fuzzy
 msgid "High"
-msgstr "Ard."
+msgstr "Ard"
 
-#, fuzzy
 msgid "Be verbose"
-msgstr " Dearcadh.."
+msgstr ""
 
-#, fuzzy
 msgid "Effects"
-msgstr "Tuairim"
+msgstr ""
 
-#, fuzzy
 msgid "Fade Duration"
-msgstr "Tsg iomha"
+msgstr ""
 
-#, fuzzy
 msgid "Twist:"
-msgstr "Triail"
+msgstr ""
 
-#, fuzzy
 msgid "Full Color"
-msgstr "Dath"
+msgstr ""
 
-#, fuzzy
 msgid "Balls"
-msgstr "Beag"
+msgstr "Liathróidí"
 
-#, fuzzy
 msgid "Tails"
-msgstr "Leacaithe"
+msgstr ""
 
-#, fuzzy
 msgid "Color Contrast"
-msgstr "Xterm Dath"
+msgstr ""
 
-#, fuzzy
 msgid "Faster"
 msgstr "Gluaisigh"
 
-#, fuzzy
 msgid "Slower"
 msgstr "Mallaigh"
 
 msgid "Colors:"
 msgstr "Dathanna:"
 
-#, fuzzy
 msgid "Count:"
-msgstr "Tuairim"
+msgstr ""
 
-#, fuzzy
 msgid "Denser"
-msgstr "tada"
+msgstr ""
 
-#, fuzzy
 msgid "Center image."
-msgstr "Sa Lar"
+msgstr ""
 
-#, fuzzy
 msgid "Cell"
-msgstr "Cealaigh"
+msgstr ""
 
-#, fuzzy
 msgid "Iterations:"
-msgstr "Brostú"
+msgstr ""
 
-#, fuzzy
 msgid "Closer"
-msgstr "Dún"
+msgstr ""
 
-#, fuzzy
 msgid "Longer"
-msgstr "tada"
+msgstr ""
 
-#, fuzzy
 msgid "Smaller"
-msgstr "Beag"
+msgstr ""
 
-#, fuzzy
 msgid "Larger"
-msgstr "Mór"
+msgstr ""
 
-#, fuzzy
 msgid "Points:"
-msgstr "Leathfhocail Dialog"
+msgstr ""
 
-#, fuzzy
 msgid "Length"
-msgstr "Clé"
+msgstr ""
 
 msgid "Width"
 msgstr "Fan"
 
-#, fuzzy
 msgid "Wide"
-msgstr "Fan"
+msgstr ""
 
-#, fuzzy
 msgid "Color contrast"
-msgstr "Xterm Dath"
+msgstr ""
 
-#, fuzzy
 msgid "Offset"
-msgstr "Tuairim"
+msgstr ""
 
 msgid "Event"
 msgstr "Tuairim"
 
-#, fuzzy
 msgid "Browse with single window"
-msgstr "Dûn Fhuinneog"
+msgstr ""
 
-#, fuzzy
 msgid "Icon List"
-msgstr "Iomha"
+msgstr ""
 
-#, fuzzy
 msgid "Unknown user."
-msgstr "Gan aithne"
+msgstr ""
 
-#, fuzzy
 msgid "Unknown error."
-msgstr "Gan aithne"
+msgstr ""
 
 msgid "Color 1"
 msgstr "Dath 1"
@@ -1426,9 +1350,8 @@ msgstr "Ingearach"
 msgid "Auto-repeat"
 msgstr "Uath-atriall"
 
-#, fuzzy
 msgid "Repeat delay"
-msgstr "Moill atriallach"
+msgstr ""
 
 msgid "Click on keypress"
 msgstr "Cniog ar eochair"
@@ -1436,13 +1359,11 @@ msgstr "Cniog ar eochair"
 msgid "Toolbar Options"
 msgstr "Cumraigh Toolbar"
 
-#, fuzzy
 msgid "Dialog position:"
-msgstr "Leathfhocail Dialog"
+msgstr ""
 
-#, fuzzy
 msgid "ID"
-msgstr "XID"
+msgstr "ID"
 
 msgid "CAPID"
 msgstr "CAPID"
@@ -1453,9 +1374,8 @@ msgstr "XID"
 msgid "IOR"
 msgstr "IOR"
 
-#, fuzzy
 msgid "About"
-msgstr "Faoi:"
+msgstr "Faoi"
 
 msgid "Set background image."
 msgstr "Cuir pictiúr culra."

@@ -478,7 +478,7 @@ msgstr ""
 
 #: gnome-ppp/account-window.c:1389
 msgid "Text"
-msgstr ""
+msgstr "Teacs"
 
 #. script list
 #: gnome-ppp/account-window.c:1397

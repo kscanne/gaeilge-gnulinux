@@ -20,9 +20,8 @@ msgid "Electric Eyes - Edit Controls"
 msgstr "Súil Sult - Rialúcháin Eagar"
 
 #: ee_edit.c:1124
-#, fuzzy
 msgid "Color Settings"
-msgstr "Roghnachais Dath"
+msgstr ""
 
 #: ee_edit.c:1230
 msgid "Gray Controls"
@@ -41,9 +40,8 @@ msgid "Blue Controls"
 msgstr "Riailúcháin Gorm"
 
 #: ee_edit.c:1343
-#, fuzzy
 msgid "Color Modifications:"
-msgstr "Mionathraí Dathanna:"
+msgstr ""
 
 #: ee_edit.c:1351
 msgid "Apply"
@@ -201,9 +199,8 @@ msgid "No"
 msgstr "Níl"
 
 #: ee_filesel.c:571
-#, fuzzy
 msgid "Image Viewer"
-msgstr "Meídd Pictiúr:"
+msgstr ""
 
 #: ee_filesel.c:599
 msgid "Saved Image Settings"
@@ -266,23 +263,20 @@ msgid "Image Information"
 msgstr "Eolais Pictiurí"
 
 #: ee_filesel.c:915
-#, fuzzy
 msgid "Filename:"
-msgstr "Comhad"
+msgstr "Comhad Ainm:"
 
 #: ee_filesel.c:921
-#, fuzzy
 msgid "Format:"
-msgstr "Formóid Pictiúr:"
+msgstr "Formóid:"
 
 #: ee_filesel.c:927
 msgid "Dimensions:"
 msgstr ""
 
 #: ee_filesel.c:933
-#, fuzzy
 msgid "File Size:"
-msgstr "Meíd Pictiúr:"
+msgstr "Meíd Chomhad:"
 
 #: ee_filesel.c:939
 msgid "Has Transparency:"

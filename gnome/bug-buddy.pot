@@ -30,7 +30,6 @@ msgid "crashed application"
 msgstr ""
 
 #: src/bug-buddy.c:63
-#, fuzzy
 msgid "core file"
 msgstr "Comhad Core"
 
@@ -193,9 +192,8 @@ msgid ""
 msgstr ""
 
 #: src/bugzilla.c:616
-#, fuzzy
 msgid "ID"
-msgstr "PID"
+msgstr "ID"
 
 #: src/bugzilla.c:630 src/bugzilla.c:665
 msgid "Product"
@@ -300,28 +298,24 @@ msgid "Bug Description"
 msgstr ""
 
 #: src/united-states-of-bug-buddy.c:54
-#, fuzzy
 msgid "Mail Configuration"
-msgstr "Cumasaíocht coráis"
+msgstr "Cumasaíocht phoist"
 
 #: src/united-states-of-bug-buddy.c:55
-#, fuzzy
 msgid "Confirmation"
-msgstr "Cumasaíocht coráis"
+msgstr ""
 
 #: src/united-states-of-bug-buddy.c:56
 msgid "Finished!"
-msgstr ""
+msgstr "Críochnaithe!"
 
 #: src/united-states-of-bug-buddy.c:95
-#, fuzzy
 msgid "Bug Buddy"
-msgstr "bug-buddy"
+msgstr "Bug Buddy"
 
 #: src/united-states-of-bug-buddy.c:98
-#, fuzzy
 msgid "The graphical bug reporting tool for GNOME."
-msgstr "An Uirlís GNOME graphice"
+msgstr ""
 
 #: src/united-states-of-bug-buddy.c:109
 msgid "The lame Bug Buddy web page"
@@ -455,16 +449,14 @@ msgstr "%P %%"
 msgid "About"
 msgstr "Faoi"
 
-#, fuzzy
 msgid "Binary file"
-msgstr "Comhad Core"
+msgstr ""
 
 msgid "Core file"
 msgstr "Comhad Core"
 
-#, fuzzy
 msgid "Name"
-msgstr "Do Ainm"
+msgstr "Ainm"
 
 msgid "Stop"
 msgstr "Stad"
@@ -472,9 +464,8 @@ msgstr "Stad"
 msgid "To"
 msgstr "Do"
 
-#, fuzzy
 msgid "To:"
-msgstr "Do"
+msgstr "Do:"
 
 msgid "Version"
 msgstr "Leagan"
@@ -482,7 +473,6 @@ msgstr "Leagan"
 msgid "Package"
 msgstr "Packáiste"
 
-#, fuzzy
 msgid "system"
 msgstr "Corás"
 
