@@ -10,7 +10,7 @@ msgstr ""
 "Last-Translator: Alastair McKinstry <mckinstry@computer.org>\n"
 "Language-Team: Irish <ga@li.org>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=ISO-8859_1\n"
+"Content-Type: text/plain; charset=ISO_8859-1\n"
 "Content-Transfer-Encoding: 8-bit\n"
 
 #: compat/getopt.c:628
@@ -374,7 +374,7 @@ msgstr ""
 #: src/main.c:1771
 #, c-format
 msgid "  option %d = \"%s\"\n"
-msgstr "  rogha %s = \"%s\"\n"
+msgstr "  rogha %d = \"%s\"\n"
 
 #: src/main.c:1862
 msgid "file alignment must be larger than zero"
@@ -545,6 +545,8 @@ msgid ""
 "\n"
 "Report bugs to mtr@iki.fi.\n"
 msgstr ""
+"\n"
+"Tuairisc fabhtanna do mtr@iki.fi.\n"
 
 #: src/psgen.c:304
 #, c-format

@@ -1,4 +1,4 @@
-# Irish (Gaeilge) translations for make (GNU)
+#Irish (Gaeilge) translations for make (GNU)
 # Copyright (C) 1998 Free Software Foundation, Inc.
 # Alastair McKinstry <mckinstry@computer.org>, 1998.
 #
@@ -119,7 +119,7 @@ msgid ""
 "# Directories\n"
 msgstr ""
 "\n"
-"# Fillteáin\n"
+"# Eolairí\n"
 
 #: dir.c:920
 #, c-format
@@ -143,9 +143,8 @@ msgid "# %s (device %ld, inode %ld): could not be opened.\n"
 msgstr "# %s (feist %d, inód %d): could not be opened.\n"
 
 #: dir.c:949
-#, fuzzy, c-format
 msgid "# %s (key %s, mtime %d): "
-msgstr "# %s (eochair %d, mtime %d): "
+msgstr "# %s (eochair %s, mtime %d): "
 
 #: dir.c:953
 #, c-format
@@ -190,7 +189,7 @@ msgstr ""
 #, c-format
 # INCOMPLETE
 msgid "warning: undefined variable `%.*s'"
-msgstr "rabhadh: variable gan aithne `%.s'"
+msgstr "rabhadh: variable gan aithne `%.*s'"
 
 #. Unterminated variable reference.
 #: expand.c:248
@@ -538,7 +537,7 @@ msgstr "*** [%s] Earraidh 0x%x"
 #: job.c:258
 #, c-format
 msgid "[%s] Error %d (ignored)"
-msgstr "[%s] Earraidh %s (ná tóg ceann ar bith)"
+msgstr "[%s] Earraidh %d (ná tóg ceann ar bith)"
 
 #: job.c:259
 #, c-format
@@ -743,7 +742,7 @@ msgstr ""
 
 #: main.c:261 main.c:288
 msgid "DIRECTORY"
-msgstr "FILLTEÁN"
+msgstr "COMHADLANN"
 
 #: main.c:262
 msgid "Change to DIRECTORY before doing anything"
@@ -1088,20 +1087,20 @@ msgstr ""
 
 #: main.c:2798
 msgid "Entering"
-msgstr ""
+msgstr "Tar isteach"
 
 #: main.c:2798
 msgid "Leaving"
-msgstr ""
+msgstr "Cead insteach"
 
 #: main.c:2817
 msgid "an unknown directory"
-msgstr "filltéan gan aithne"
+msgstr "comhadlann gan fhios"
 
 #: main.c:2819
 #, c-format
 msgid "directory `%s'\n"
-msgstr "fillteán `%s'\n"
+msgstr "comhadlann `%s'\n"
 
 #: misc.c:308
 msgid ".  Stop.\n"

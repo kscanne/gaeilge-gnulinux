@@ -661,7 +661,7 @@ msgstr ""
 #: src/pathchk.c:227
 #, c-format
 msgid "`%s' is not a directory"
-msgstr "Níl filltán atá ann: `%s'"
+msgstr "Níl comhadlann atá ann: `%s'"
 
 #: src/pathchk.c:238
 #, c-format
@@ -692,7 +692,7 @@ msgstr "???\n"
 
 #: src/pinky.c:315
 msgid "Directory: "
-msgstr "Fillteán: "
+msgstr "Comhadlann: "
 
 #: src/pinky.c:317
 msgid "Shell: "

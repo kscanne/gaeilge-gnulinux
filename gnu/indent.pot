@@ -160,7 +160,7 @@ msgstr ""
 #: src/io.c:540
 #, c-format
 msgid "Warning: Zero-length file %s"
-msgstr "Rabhadh: comhad "
+msgstr ""
 
 #: src/io.c:756
 #, c-format

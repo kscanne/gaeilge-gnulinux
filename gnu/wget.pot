@@ -79,9 +79,7 @@ msgstr ""
 msgid ""
 "No such directory `%s'.\n"
 "\n"
-msgstr ""
-"Níl aon fillteán ann: `%s'.\n"
-"\n"
+msgstr "Níl aon comhadlann ann: `%s'.\n\n"
 
 #: src/ftp.c:331 src/ftp.c:599 src/ftp.c:647 src/url.c:1431
 msgid "done.\n"
@@ -138,9 +136,7 @@ msgstr ""
 msgid ""
 "No such file or directory `%s'.\n"
 "\n"
-msgstr ""
-"Níl aon comhad no fillteán `%s' ann.\n"
-"\n"
+msgstr "Níl aon comhad no comhadlann `%s' ann.\n\n"
 
 #: src/ftp.c:692 src/ftp.c:699
 #, c-format
@@ -314,7 +310,7 @@ msgstr ""
 #: src/getopt.c:528
 #, c-format
 msgid "%s: unrecognized option `--%s'\n"
-msgstr ""
+msgstr "%s: rogha gan aithne `--%s'\n"
 
 #. +option or -option
 #: src/getopt.c:532
@@ -391,7 +387,7 @@ msgstr "Comhad      "
 
 #: src/html.c:470
 msgid "Directory   "
-msgstr "Fillteán    "
+msgstr "Comhadlann     "
 
 #: src/html.c:473
 msgid "Link        "

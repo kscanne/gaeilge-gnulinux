@@ -1123,7 +1123,7 @@ msgstr ""
 
 #: info/session.c:3574
 msgid "Search"
-msgstr ""
+msgstr "Cuardaigh"
 
 #: info/session.c:3575
 msgid " case-sensitively "
@@ -1351,7 +1351,7 @@ msgstr ""
 #: lib/getopt.c:755
 #, c-format
 msgid "%s: unrecognized option `--%s'\n"
-msgstr "s: rogha gan aithne `--%s'\n"
+msgstr "%s: rogha gan aithne `--%s'\n"
 
 #. +option or -option
 #: lib/getopt.c:759
@@ -1464,7 +1464,7 @@ msgstr ""
 
 #: makeinfo/cmds.c:1104 makeinfo/makeinfo.c:3680
 msgid "none"
-msgstr "tada"
+msgstr "ar bith"
 
 #: makeinfo/defun.c:83
 msgid "Missing `}' in @def arg"
@@ -1988,11 +1988,11 @@ msgstr "Nód:"
 
 #: makeinfo/node.c:783 makeinfo/sectioning.c:528
 msgid "Next:"
-msgstr ""
+msgstr "Ar Lean:"
 
 #: makeinfo/node.c:793
 msgid "Previous:"
-msgstr ""
+msgstr "Riomh:"
 
 #: makeinfo/node.c:803
 msgid "Up:"
@@ -2023,7 +2023,7 @@ msgstr ""
 
 #: makeinfo/node.c:1133
 msgid "Prev"
-msgstr ""
+msgstr "Riomh"
 
 #: makeinfo/node.c:1176
 #, c-format

@@ -497,7 +497,7 @@ msgstr ""
 #: src/incremen.c:263
 #, c-format
 msgid "%s: Directory is new"
-msgstr "%s: Is filltéan nua"
+msgstr "%s: Is comhadlann nua"
 
 #: src/incremen.c:410
 msgid "Invalid time stamp"
@@ -625,7 +625,7 @@ msgstr ""
 
 #: src/list.c:1106
 msgid "Creating directory:"
-msgstr ""
+msgstr "Ag Cruthaigh comhadlann:"
 
 #: src/mangle.c:57
 msgid "Unexpected EOF in mangled names"
@@ -1177,9 +1177,7 @@ msgstr "Patrún gan aithne `%s'"
 msgid ""
 "\n"
 "Copyright (C) 1995, 1996, 1997 Free Software Foundation, Inc.\n"
-msgstr ""
-"\n"
-"Cóipcheart (C) 1995, 1996, 1997 Free Software Foundation, Inc.\n"
+msgstr "Copyright (C) 1995, 1996, 1997 Free Software Foundation, Inc.\n"
 
 #: tests/genfile.c:161
 msgid ""

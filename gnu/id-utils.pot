@@ -10,7 +10,7 @@ msgstr ""
 "Last-Translator: Alastair McKinstry, <mckinstry@computer.org>\n"
 "Language-Team: Gaeilge (Irish) <ga@li.org>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=ISO-8859_1\n"
+"Content-Type: text/plain; charset=ISO_8859-1\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 #: libidu/hash.c:52
@@ -159,7 +159,7 @@ msgstr "comhad"
 
 #: libidu/walker.c:171 libidu/walker.c:172
 msgid "directory"
-msgstr "fillteán"
+msgstr "comhadlann"
 
 #: libidu/walker.c:291
 #, c-format
@@ -380,7 +380,7 @@ msgstr ""
 #. FIXME: i18n of responses
 #: src/lid.c:634
 msgid "edit? [y1-9^S/nq] "
-msgstr ""
+msgstr "eagar? [y1-9^S/nq] "
 
 #: src/lid.c:703
 msgid "can't fork"

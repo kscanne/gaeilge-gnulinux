@@ -84,7 +84,7 @@ msgstr "%s: ordú ar iarriadh"
 
 #: execute_cmd.c:2523
 msgid "%s: is a directory"
-msgstr "%s: fillteán atá ann"
+msgstr "%s: comhadlann atá ann"
 
 #: execute_cmd.c:2564 shell.c:728
 msgid "%s: cannot execute binary file"

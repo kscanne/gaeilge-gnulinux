@@ -30,7 +30,7 @@ msgstr ""
 #: src/builtin.c:278
 #, c-format
 msgid "Warning: Excess arguments to built-in `%s' ignored"
-msgstr "Rabhadh:"
+msgstr ""
 
 #: src/builtin.c:298
 #, c-format

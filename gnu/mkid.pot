@@ -150,7 +150,7 @@ msgstr ""
 
 #: lid.c:120
 msgid "Usage: %s [-f<file>] [-u<n>] [-r<dir>] [-mewdoxasknc] pattern...\n"
-msgstr ""
+msgstr "Úsáid : %s [-f<comhad>] [-f<file>] [-u<n>] [-r<dir>] [-mewdoxasknc] patrún...\n"
 
 #: lid.c:216
 msgid "%s: please use only one of -c or -r\n"
@@ -174,7 +174,7 @@ msgstr "Eagar? [y1-9^S/nq] "
 
 #: lid.c:527
 msgid "%s: Cannot fork (%s)\n"
-msgstr ""
+msgstr "%s: Teip ag fork (%s)\n"
 
 #: lid.c:539
 msgid "exec"
@@ -277,7 +277,7 @@ msgstr ""
 
 #: mkid.c:328
 msgid "Freq=%ld/%ld=%.2f\n"
-msgstr ""
+msgstr "Minic.=%ld/%d=$2f\n"
 
 #: mkid.c:431
 msgid "%s: Use -u, -f<file>, or cmd-line for file args!\n"
@@ -305,7 +305,7 @@ msgstr "Ag scríobg `%s'...\n"
 
 #: mkid.c:572
 msgid "create"
-msgstr ""
+msgstr "cruthaigh"
 
 #: mkid.c:731
 msgid ""
@@ -371,7 +371,7 @@ msgstr ""
 
 #: scanners.c:683
 msgid "junk: `\\%3o'"
-msgstr ""
+msgstr "bruscar: `\\%3o'`"
 
 #: scanners.c:712
 msgid "Usage: %s does not accept %s scanner arguments\n"
@@ -388,11 +388,11 @@ msgstr ""
 
 #: scanners.c:952 scanners.c:1135
 msgid "junk: `\\%03o'"
-msgstr ""
+msgstr "bruscar: `\\%03o'"
 
 #: scanners.c:986
 msgid "Usage: %s -S%s([-c<cc>] [-u] [(+|-)a<cc>] [(+|-)p] [(+|-)C])\n"
-msgstr ""
+msgstr "Úsáid: %s -S%s([-c<cc>] [-u] [(+|-)a<cc>] [(+|-)p] [(+|-)C])\n"
 
 #: scanners.c:990
 msgid ""
@@ -407,7 +407,7 @@ msgstr ""
 
 #: scanners.c:1133
 msgid "junk: `%c'"
-msgstr ""
+msgstr "bruscar: `%c'"
 
 #: scanners.c:1166
 msgid "Usage: %s -S%s([(+|-)a<cc>] [(+|-)s<cc>]\n"

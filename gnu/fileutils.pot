@@ -268,6 +268,8 @@ msgid ""
 "\n"
 "Report bugs to <bug-fileutils@gnu.org>."
 msgstr ""
+"\n"
+"Tuairisc fabhtanna do <bug-fileutils@gnu.org>"
 
 #: src/chgrp.c:414 src/chmod.c:347 src/chown.c:380 src/install.c:323
 #: src/mkdir.c:120 src/mkfifo.c:111 src/mknod.c:134 src/rm.c:168
@@ -603,7 +605,7 @@ msgstr ""
 
 #: src/cp.c:459 src/mv.c:476
 msgid "specified target, `%s' is not a directory"
-msgstr "Níl aon filltéan: `%s'"
+msgstr "Níl aon comhadlann: `%s'"
 
 #: src/cp.c:466
 #, c-format
@@ -920,12 +922,12 @@ msgstr ""
 #: src/install.c:410
 #, c-format
 msgid "creating directory `%s'"
-msgstr ""
+msgstr "ag cruthaigh comhadlann `%s'"
 
 #: src/install.c:478
 #, c-format
 msgid "`%s' is a directory"
-msgstr "`%s': fillteán atá ann"
+msgstr "`%s': comhadlann atá ann"
 
 #: src/install.c:568
 msgid "cannot fork"
@@ -1073,7 +1075,7 @@ msgstr ""
 
 #: src/ln.c:512
 msgid "specified target directory, `%s' is not a directory"
-msgstr "Níl aon filltéan: `%s'"
+msgstr "Níl aon comhadlann: `%s'"
 
 #: src/ln.c:530
 msgid "when making multiple links, last argument must be a directory"
@@ -1210,7 +1212,7 @@ msgstr ""
 #: src/mkdir.c:63
 #, c-format
 msgid "Usage: %s [OPTION] DIRECTORY...\n"
-msgstr "Usáid: %s [ROGHA] FILLTEÁN...\n"
+msgstr "Usáid: %s [ROGHA] COMHADLANN...\n"
 
 #: src/mkdir.c:64
 msgid ""
@@ -1358,7 +1360,7 @@ msgstr ""
 #: src/remove.c:631
 #, c-format
 msgid "%s: remove directory `%s'? "
-msgstr "%s: scríos fillteán `%s'? "
+msgstr "%s: scríos comhadlann `%s'? "
 
 #: src/remove.c:632
 #, c-format
@@ -1368,7 +1370,7 @@ msgstr "%s: bain `%s'? "
 #: src/remove.c:639
 #, c-format
 msgid "removing %s\n"
-msgstr ""
+msgstr "ag scríos %s\n"
 
 #: src/remove.c:643
 #, c-format
@@ -1378,7 +1380,7 @@ msgstr ""
 #: src/remove.c:665
 #, c-format
 msgid "%s: is a directory"
-msgstr "%s: fillteán atá ann."
+msgstr "%s: comhadlann atá ann."
 
 #: src/remove.c:672
 #, c-format
@@ -1401,9 +1403,9 @@ msgid "cannot change back to directory %s via `..'"
 msgstr ""
 
 #: src/remove.c:734
-#, c-format
+#, c-format, fuzzy
 msgid "%s: remove directory `%s'%s? "
-msgstr "%s: bain fillteán as `%s'%s? "
+msgstr "%s: bain comhadlann as `%s'%s? "
 
 #: src/remove.c:737
 msgid " (might be nonempty)"
@@ -1467,7 +1469,7 @@ msgstr ""
 #: src/rmdir.c:146
 #, c-format
 msgid "Usage: %s [OPTION]... DIRECTORY...\n"
-msgstr "Usáid: %s [ROGHA]... FILLTEÁN...\n"
+msgstr "Usáid: %s [ROGHA]... COMHADLANN...\n"
 
 #: src/rmdir.c:147
 msgid ""

@@ -381,7 +381,7 @@ msgid "context length specified twice"
 msgstr ""
 
 msgid "directory"
-msgstr "fillteán"
+msgstr "comhadlann"
 
 msgid "extra operand"
 msgstr ""

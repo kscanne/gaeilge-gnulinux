@@ -150,13 +150,14 @@ msgid ""
 "Copyright (C) 1994, 1997 Free Software Foundation, Inc.\n"
 msgstr ""
 "\n"
-"Coípcheart (C) 1994, 1997 Free Software Foundation, Inc.\n"
+"Coípcheart © 1994, 1997 Free Software Foundation, Inc.\n"
 
 #: src/unify.c:411
 msgid ""
 "\n"
 "Written by Wayne Davison <davison@borland.com>.\n"
 msgstr ""
+"\n"
 "Scríobh le  Wayne Davison <davison@borland.com>.\n"
 
 #: src/unify.c:550
