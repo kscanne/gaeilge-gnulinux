@@ -1,0 +1,201 @@
+# Advanced Package Transfer - APT message translation catalog
+# Alastair McKinstry <mckinstry@computer.org>, 2002.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: apt 0.5.4\n"
+"POT-Creation-Date: 2002-01-01 18:03+0100\n"
+"PO-Revision-Date: 2002-01-26 19:00+0000\n"
+"Last-Translator: Alastair McKinstry <mckinstry@computer.org>\n"
+"Language-Team: Irish <ga@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ISO-8859-15\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: apt-pkg/depcache.cc:60 apt-pkg/depcache.cc:89
+msgid "Building Dependency Tree"
+msgstr ""
+
+#. Build the status cache
+#: apt-pkg/pkgcachegen.cc:579 apt-pkg/pkgcachegen.cc:622
+#: apt-pkg/pkgcachegen.cc:627 apt-pkg/pkgcachegen.cc:746
+msgid "Reading Package Lists"
+msgstr ""
+
+#: cmdline/acqprogress.cc:55
+msgid "Hit "
+msgstr ""
+
+#: cmdline/acqprogress.cc:79
+msgid "Get:"
+msgstr ""
+
+#: cmdline/acqprogress.cc:110
+msgid "Ign "
+msgstr ""
+
+#: cmdline/acqprogress.cc:114
+msgid "Err "
+msgstr "Ear."
+
+#: cmdline/acqprogress.cc:135
+#, c-format
+msgid "Fetched %sB in %s (%sB/s)\n"
+msgstr ""
+
+#: cmdline/acqprogress.cc:225
+msgid " [Working]"
+msgstr ""
+
+#: cmdline/acqprogress.cc:271
+#, c-format
+msgid ""
+"Media Change: Please insert the disc labeled '%s' in the drive '%s' and "
+"press enter\n"
+msgstr ""
+
+#. This needs to be a capital
+#: cmdline/apt-get.cc:108
+msgid "Y"
+msgstr "T"
+
+#: cmdline/apt-get.cc:185
+msgid "Sorry, but the following packages have unmet dependencies:"
+msgstr ""
+
+#: cmdline/apt-get.cc:275
+#, c-format
+msgid "but %s is installed"
+msgstr ""
+
+#: cmdline/apt-get.cc:277
+#, c-format
+msgid "but %s is to be installed"
+msgstr ""
+
+#: cmdline/apt-get.cc:284
+msgid "but it is not installable"
+msgstr ""
+
+#: cmdline/apt-get.cc:286
+msgid "but it is a virtual package"
+msgstr ""
+
+#: cmdline/apt-get.cc:289
+msgid "but it is not installed"
+msgstr ""
+
+#: cmdline/apt-get.cc:289
+msgid "but it is not going to be installed"
+msgstr ""
+
+#: cmdline/apt-get.cc:294
+msgid " or"
+msgstr " no"
+
+#: cmdline/apt-get.cc:320
+msgid "The following NEW packages will be installed:"
+msgstr ""
+
+#: cmdline/apt-get.cc:343
+msgid "The following packages will be REMOVED:"
+msgstr ""
+
+#: cmdline/apt-get.cc:363
+msgid "The following packages have been kept back"
+msgstr ""
+
+#: cmdline/apt-get.cc:382
+msgid "The following packages will be upgraded"
+msgstr ""
+
+#: cmdline/apt-get.cc:401
+msgid "The following packages will be DOWNGRADED"
+msgstr ""
+
+#: cmdline/apt-get.cc:418
+msgid "The following held packages will be changed:"
+msgstr ""
+
+#: cmdline/apt-get.cc:469
+#, c-format
+msgid "%s (due to %s) "
+msgstr ""
+
+#: cmdline/apt-get.cc:476
+msgid ""
+"WARNING: The following essential packages will be removed\n"
+"This should NOT be done unless you know exactly what you are doing!"
+msgstr ""
+
+#: cmdline/apt-get.cc:506
+#, c-format
+msgid "%lu packages upgraded, %lu newly installed, "
+msgstr ""
+
+#: cmdline/apt-get.cc:510
+#, c-format
+msgid "%lu reinstalled, "
+msgstr ""
+
+#: cmdline/apt-get.cc:512
+#, c-format
+msgid "%lu downgraded, "
+msgstr ""
+
+#: cmdline/apt-get.cc:514
+#, c-format
+msgid "%lu to remove and %lu  not upgraded.\n"
+msgstr ""
+
+#: cmdline/apt-get.cc:518
+#, c-format
+msgid "%lu packages not fully installed or removed.\n"
+msgstr ""
+
+#: cmdline/apt-get.cc:589
+msgid " Done"
+msgstr " Críochnaithe"
+
+#: cmdline/apt-get.cc:593
+msgid "You might want to run `apt-get -f install' to correct these."
+msgstr ""
+
+#: cmdline/apt-get.cc:705
+#, c-format
+msgid "Need to get %sB/%sB of archives. "
+msgstr ""
+
+#: cmdline/apt-get.cc:708
+#, c-format
+msgid "Need to get %sB of archives. "
+msgstr ""
+
+#: cmdline/apt-get.cc:713
+#, c-format
+msgid "After unpacking %sB will be used.\n"
+msgstr ""
+
+#: cmdline/apt-get.cc:716
+#, c-format
+msgid "After unpacking %sB will be freed.\n"
+msgstr ""
+
+#: cmdline/apt-get.cc:757 cmdline/apt-get.cc:776
+msgid "Abort."
+msgstr ""
+
+#: cmdline/apt-get.cc:772
+msgid "Do you want to continue? [Y/n] "
+msgstr ""
+
+#: cmdline/apt-get.cc:1014
+#, c-format
+msgid "Sorry, %s is already the newest version.\n"
+msgstr ""
+
+#: cmdline/apt-get.cc:1321 cmdline/apt-get.cc:1354
+#, c-format
+msgid "Couldn't find package %s"
+msgstr ""
+
