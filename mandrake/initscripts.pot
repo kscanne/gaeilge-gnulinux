@@ -1,0 +1,2254 @@
+# Irish (Gaeilge) translations for initscripts.pot
+# Copyright (C) 2001 Free Software Foundation, Inc.
+# Alastair McKinstry, <mckinstry@computer.org>, 2001.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: initscripts 5.96\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: 2001-07-24 21:00+0100\n"
+"Last-Translator: Alastair McKinstry <mckinstry@computer.org>\n"
+"Language-Team: Irish <ga@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ISO-8859-1\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: etc/rc.d/init.d/atalk:54
+#, c-format
+msgid "  Registering %s:netatalk%s:"
+msgstr ""
+
+#: etc/rc.d/init.d/oki4daemon:63
+#, fuzzy
+msgid "Usage: oki4daemon {start|stop|restart|status|condrestart}\n"
+msgstr "Úsáid: %s {start|stop|restart|status|condrestart}\n"
+
+#: etc/rc.d/init.d/proftpd:87
+msgid "Allowing proftpd sessions again "
+msgstr ""
+
+#: etc/rc.d/init.d/usb:202
+#, fuzzy
+msgid "Loading USB visor"
+msgstr "Ag Lódáil an tiomáin `HiSax'\n"
+
+#: etc/rc.d/init.d/rwhod:23
+msgid "Starting rwho services: "
+msgstr "Ag Tosnú Seirbishí `rwho': "
+
+#: etc/rc.d/init.d/smb:48
+msgid "Shutting down SMB services: "
+msgstr "Ag Stoppadh Seirbishí `SMB': "
+
+#: ../rc.d/init.d/functions:328 ../rc.d_old/init.d/functions:263
+#: ../rc.d_old/init.d/functions:286 etc/rc.d/init.d/functions:328
+msgid "Usage: pidofproc {program}\n"
+msgstr "Úsáid: pidofproc {ríomhchlár}\n"
+
+#: etc/rc.d/init.d/ipsec:548
+msgid "ipsec stop"
+msgstr ""
+
+#: ../rc.d_old/init.d/netfs:73 etc/rc.d/init.d/netfs:119
+msgid "Configured NFS mountpoints: \n"
+msgstr ""
+
+#: etc/rc.d/init.d/medusa:25
+#, fuzzy
+msgid "Starting Medusa search daemon: "
+msgstr "Ag Tosnú Seirbhís APM: "
+
+#: etc/rc.d/init.d/halt:208
+#, fuzzy
+msgid "Shutting down LVM:"
+msgstr "Ag Stoppadh `%s': "
+
+#: etc/rc.d/init.d/fwctl:38
+msgid "Updating IP packet filters"
+msgstr ""
+
+#: etc/rc.d/init.d/nfs:63
+msgid "Starting NFS mountd: "
+msgstr "Ag Tosnú `NFS mountd': "
+
+#: ../rc.d/init.d/functions:372 ../rc.d_old/init.d/functions:328
+#: etc/rc.d/init.d/functions:372
+#, c-format
+msgid "%s dead but pid file exists\n"
+msgstr ""
+
+#: etc/rc.d/init.d/inet:40
+msgid "Starting INET services: "
+msgstr "Ag Tosnú Seirbishí `INET': "
+
+#: ../rc.d_old/rc.sysinit:641
+msgid "Mounting loopback filesystems: "
+msgstr ""
+
+#: etc/rc.d/init.d/amd:91
+#, fuzzy, c-format
+msgid "Reloading %s:"
+msgstr "Ag Athlódáil an tSeirbhís '%s':  "
+
+#: etc/rc.d/init.d/httpd:122
+msgid "Shutting down httpd-perl: "
+msgstr "Ag Stoppadh `httpd-perl':  "
+
+#: ../rc.d/rc.sysinit:917 ../rc.d_old/rc.sysinit:708
+msgid "Turning on user and group quotas for local filesystems: "
+msgstr ""
+
+#: etc/rc.d/init.d/postfix:26
+msgid "Starting postfix: "
+msgstr "Ag Tosnú postfix: "
+
+#: ../rc.d/init.d/network:84 ../rc.d_old/init.d/network:63
+#: etc/rc.d/init.d/network:84
+msgid "Enabling IPv4 packet forwarding"
+msgstr ""
+
+#: etc/rc.d/init.d/atalk:66 etc/rc.d/init.d/atalk:73
+#, fuzzy
+msgid "  Starting timelord"
+msgstr "Ag Tosnú an tSeirbhís ldirectord"
+
+#: etc/rc.d/init.d/adsl:60 etc/rc.d/init.d/xntpd:55
+#, c-format
+msgid "Usage: %s {start|stop|restart|status}\n"
+msgstr "Úsáid: %s {start|stop|restart|status}\n"
+
+#: etc/rc.d/init.d/halt:171 etc/rc.d/init.d/netfs:58
+#, fuzzy
+msgid "Unmounting loopback filesystems: "
+msgstr "Ag Mountáil na chorais comhaid eile: "
+
+#: ../rc.d_old/init.d/rawdevices:55 etc/rc.d/init.d/rawdevices:55
+msgid "Assigning devices: \n"
+msgstr ""
+
+#: etc/rc.d/init.d/drakxtools_http:16
+#, c-format
+msgid "Shutting down %s: "
+msgstr "Ag Stoppadh `%s': "
+
+#: etc/rc.d/init.d/drakfont:18
+msgid "Checking drakfont fonts"
+msgstr ""
+
+#: ../rc.d_old/init.d/netfs:40 etc/rc.d/init.d/netfs:41
+msgid "Mounting SMB filesystems: "
+msgstr ""
+
+#: etc/rc.d/init.d/httpd:200
+msgid "Reloading httpd-perl: "
+msgstr "Ag Athlódáil `httpd-perl': "
+
+#: ../rc.d/rc.sysinit:280 ../rc.d_old/rc.sysinit:249
+#, c-format
+msgid "Loading default keymap (%s): "
+msgstr "Ag Lódáil an keymap lociead (%s): "
+
+#: ../rc.d/init.d/functions:170 ../rc.d/init.d/functions:194
+#: ../rc.d_old/init.d/functions:141 ../rc.d_old/init.d/functions:168
+#: etc/rc.d/init.d/functions:170 etc/rc.d/init.d/functions:194
+#, c-format
+msgid "%s: Usage: daemon [+/-nicelevel] {program}\n"
+msgstr "%s: Úsáid: daemon [+/-leibhéil `nice'] {ríomhchlar}\n"
+
+#: etc/rc.d/init.d/proftpd:101
+msgid "|suspend}\n"
+msgstr ""
+
+#: etc/rc.d/init.d/ipvsadm:63 etc/rc.d/init.d/ipvsadm:64
+#, fuzzy
+msgid "Applying IPVS configuration"
+msgstr "Ag athlódáil an comraíocht na tseirbhís USB"
+
+#: etc/rc.d/init.d/dhcrelay:47
+#, fuzzy
+msgid "Starting dhcrelay: "
+msgstr "Ag Tosnú `ldap': "
+
+#: etc/rc.d/init.d/proftpd:74
+#, fuzzy
+msgid "Suspending proftpd NOW "
+msgstr "Ag Tosnú proftpd: "
+
+#: etc/rc.d/init.d/mysql:152
+msgid " gave up waiting!"
+msgstr ""
+
+#: ../rc.d_old/init.d/halt:198 etc/rc.d/init.d/halt:234
+msgid "Please ensure that the UPS has powered off before rebooting\n"
+msgstr ""
+
+#: ../rc.d_old/init.d/halt:134 etc/rc.d/init.d/halt:145
+msgid "Syncing hardware clock to system time"
+msgstr ""
+
+#: etc/rc.d/init.d/mosix:115
+#, fuzzy
+msgid "Usage: mosix {start|stop|status|restart|reload}\n"
+msgstr "Úsáid: %s {start|stop|status|restart|reload}\n"
+
+#: etc/rc.d/init.d/smb:52
+msgid "Shutting down NMB services: "
+msgstr "Ag Stoppadh na tSeirbhís NMB: "
+
+#: ../rc.d_old/rc.sysinit:371
+msgid "Remounting root filesystem in read-write mode: "
+msgstr ""
+
+#: etc/rc.d/init.d/usbd:25
+msgid "Starting USB daemon"
+msgstr ""
+
+#: etc/rc.d/init.d/anacron:31
+msgid "Shutting down anacron "
+msgstr "Ag Stoppadh `anacron' "
+
+#: ../rc.d/rc.sysinit:697
+#, fuzzy
+msgid "Checking filesystems\n"
+msgstr "Ag Mountáil na chorais comhaid eile: "
+
+#: etc/rc.d/init.d/syslog:51
+msgid "Starting system logger: "
+msgstr ""
+
+#: ../rc.d/init.d/functions:520 ../rc.d_old/init.d/functions:463
+#: etc/rc.d/init.d/functions:520
+msgid "nN"
+msgstr "nN"
+
+#: etc/rc.d/init.d/mandrake_firstime:27
+msgid "Registering Mozilla chrome"
+msgstr ""
+
+#: etc/rc.d/init.d/mars-nwe:23
+msgid "Starting NetWare emulator-server: "
+msgstr ""
+
+#: etc/rc.d/init.d/lvs:38
+msgid "Flushing all current rules :"
+msgstr ""
+
+#: etc/rc.d/init.d/smb:96
+#, c-format
+msgid "Usage: %s {start|stop|restart|status|condrestart}\n"
+msgstr "Úsáid: %s {start|stop|restart|status|condrestart}\n"
+
+#: etc/rc.d/init.d/xntpd:31
+msgid "Starting xntpd: "
+msgstr "Ag Tosnú `xntpd': "
+
+#: ../rc.d/rc.sysinit:285 ../rc.d_old/rc.sysinit:254
+msgid "Loading default keymap"
+msgstr ""
+
+#: etc/rc.d/init.d/xfs:36
+#, fuzzy
+msgid "Restarting X Font Server. "
+msgstr "Ag Stoppadh an tSeirbhís Chlófhoireann X:  "
+
+#: etc/rc.d/init.d/postgresql:91
+msgid "Initializing database: "
+msgstr ""
+
+#: ../rc.d_old/init.d/rawdevices:68 etc/rc.d/init.d/rawdevices:68
+msgid "You need to be root to use this command ! \n"
+msgstr ""
+
+#: etc/rc.d/init.d/gated:85
+#, fuzzy, c-format
+msgid "Usage: %s {start|stop|reload|restart|restart|status}\n"
+msgstr "Úsáid: %s {start|stop|restart|condrestart|status}\n"
+
+#: etc/rc.d/init.d/sensors:32
+#, fuzzy
+msgid "Shutting down sensord: "
+msgstr "Ag  Stoppadh an tSeirbhís 'snmpd':  "
+
+#: ../rc.d_old/init.d/halt:60 etc/rc.d/init.d/halt:66
+#, c-format
+msgid "%s: call me as 'rc.halt' or 'rc.reboot' please!\n"
+msgstr ""
+
+#: ../rc.d_old/init.d/random:26 etc/rc.d/init.d/random:26
+msgid "Initializing random number generator: "
+msgstr "Ag Tosnú an tSeirbhís uimhir random: "
+
+#: ../rc.d_old/init.d/halt:208 etc/rc.d/init.d/halt:244
+msgid "On the next boot fsck will be skipped.\n"
+msgstr ""
+
+#: etc/rc.d/init.d/drakxtools_http:48
+#, fuzzy, c-format
+msgid "Usage: %s {start|stop|restart|status|reload|condrestart}\n"
+msgstr "Úsáid: %s {start|stop|restart|status|condrestart}\n"
+
+#: ../rc.d/rc.sysinit:440 ../rc.d/rc.sysinit:685 ../rc.d/rc.sysinit:724
+#: ../rc.d/rc.sysinit:800 ../rc.d_old/rc.sysinit:344
+#: ../rc.d_old/rc.sysinit:552 ../rc.d_old/rc.sysinit:589
+#: ../rc.d_old/rc.sysinit:633
+msgid "Automatic reboot in progress.\n"
+msgstr ""
+
+#: ../rc.d_old/rc.sysinit:314
+msgid "Checking root filesystem"
+msgstr ""
+
+#: etc/rc.d/init.d/rwalld:23
+msgid "Starting rwall services: "
+msgstr "Ag Tosnú an Seirbhís `rwall':  "
+
+#: etc/rc.d/init.d/usb:105
+#, fuzzy
+msgid "Mount USB filesystem"
+msgstr "Ag Mountáil na chorais comhaid eile: "
+
+#: ../rc.d/rc.sysinit:431 ../rc.d/rc.sysinit:676 ../rc.d/rc.sysinit:715
+#: ../rc.d/rc.sysinit:791 ../rc.d_old/rc.sysinit:335
+#: ../rc.d_old/rc.sysinit:543 ../rc.d_old/rc.sysinit:580
+#: ../rc.d_old/rc.sysinit:624
+msgid "*** when you leave the shell.\n"
+msgstr ""
+
+#: etc/rc.d/init.d/apcupsd:49 etc/rc.d/init.d/netfs:154
+#: etc/rc.d/init.d/postfix:56
+#, c-format
+msgid "Usage: %s {start|stop|restart|reload|status}\n"
+msgstr "Úsáid: %s {start|stop|restart|reload|status}\n"
+
+#: etc/rc.d/init.d/httpd:177
+msgid "Apache is *not* running.\n"
+msgstr ""
+
+#: etc/rc.d/init.d/atalk:144
+#, fuzzy
+msgid "  Stopping afpd:"
+msgstr "Ag Stoppadh `amd': "
+
+#: ../rc.d_old/init.d/rawdevices:57 etc/rc.d/init.d/rawdevices:57
+msgid "done\n"
+msgstr "críochnaithe\n"
+
+#: ../rc.d_old/init.d/netfs:53 etc/rc.d/init.d/netfs:99
+msgid "Unmounting NFS filesystems (retry): "
+msgstr ""
+
+#: etc/rc.d/init.d/fwctl:41
+#, c-format
+msgid "Usage: %s {start|stop|check|restart|flush|reload}\n"
+msgstr "Úsáid: %s {start|stop|check|restart|flush|reload}\n"
+
+#: etc/rc.d/init.d/fwctl:35
+msgid "WARNING: Flushing all firewall rules"
+msgstr ""
+
+#: ../rc.d/init.d/functions:283 etc/rc.d/init.d/functions:283
+#, c-format
+msgid "%s %s"
+msgstr ""
+
+#: etc/rc.d/init.d/nfs:95
+#, fuzzy
+msgid "Restarting NFS services: "
+msgstr "Ag Tosnú seirbishí NFS: "
+
+#: ../rc.d/rc.sysinit:282 ../rc.d_old/rc.sysinit:251
+msgid "Loading default keymap: "
+msgstr "Ag Lódáil keymap de gnáth: "
+
+#: etc/rc.d/init.d/lvs:37
+msgid "IPv4 packet forwarding enabled"
+msgstr ""
+
+#: ../rc.d/rc.sysinit:593 ../rc.d/rc.sysinit:595 ../rc.d_old/rc.sysinit:474
+#: ../rc.d_old/rc.sysinit:476
+msgid "Finding module dependencies: "
+msgstr ""
+
+#: etc/rc.d/init.d/postgresql:202 etc/rc.d/init.d/syslog:98
+#, c-format
+msgid "Usage: %s {start|stop|status|restart|condrestart}\n"
+msgstr "Ísáid: %s {start|stop|status|restart|condrestart}\n"
+
+#: ../rc.d_old/init.d/network:182 ../rc.d_old/init.d/network:185
+#: etc/rc.d/init.d/network:249 etc/rc.d/init.d/network:252
+#, c-format
+msgid "Shutting down device %s: "
+msgstr "Ag Stoppadh an gairead %s: "
+
+#: etc/rc.d/init.d/medusa:35
+#, fuzzy
+msgid "Shutting down Medusa search daemon: "
+msgstr "Ag Stoppadh an Seirbhís `APM': "
+
+#: ../rc.d/rc.sysinit:292 ../rc.d_old/rc.sysinit:266
+msgid "Activating swap partitions: "
+msgstr ""
+
+#: etc/rc.d/init.d/acon:25
+msgid "Pashto"
+msgstr ""
+
+#: etc/rc.d/init.d/keytable:93
+#, fuzzy
+msgid "Usage: keytable {start|stop|restart|reload|status}\n"
+msgstr "Úsáid: %s {start|stop|restart|reload|status}\n"
+
+#: etc/rc.d/init.d/autofs:230
+msgid "Active Mount Points:\n"
+msgstr ""
+
+#: etc/rc.d/init.d/httpd:168
+msgid "httpd: `pidof httpd`\n"
+msgstr ""
+
+#: ../rc.d/rc.sysinit:977 ../rc.d_old/rc.sysinit:750
+msgid "Enabling swap space: "
+msgstr ""
+
+#: etc/rc.d/init.d/sensors:25
+#, fuzzy
+msgid "Starting sensord: "
+msgstr "Ag Tosnú `sshd': "
+
+#: etc/rc.d/init.d/ipvsadm:60 etc/rc.d/init.d/ipvsadm:70
+#: etc/rc.d/init.d/ipvsadm:82
+msgid "Clearing the current IPVS table:"
+msgstr ""
+
+#: etc/rc.d/init.d/proftpd:102
+msgid "suspend accepts additional arguments which are passed to ftpshut(8)\n"
+msgstr ""
+
+#: etc/rc.d/init.d/oki4daemon:27
+msgid "Starting oki4daemon printer driver daemon: "
+msgstr ""
+
+#: etc/rc.d/init.d/atalk:53
+#, c-format
+msgid "  Registering %s:Workstation%s:"
+msgstr ""
+
+#: ../rc.d/rc.sysinit:674 ../rc.d_old/rc.sysinit:541
+msgid "*** An error occurred during the RAID startup\n"
+msgstr ""
+
+#: etc/rc.d/init.d/nfslock:53
+msgid "Starting NFS statd: "
+msgstr "Ag Tosnún na tSeirbhís `NFS Statd': "
+
+#: etc/rc.d/init.d/halt:175 etc/rc.d/init.d/netfs:62
+#, fuzzy, c-format
+msgid "Detaching loopback device %s: "
+msgstr "Ag Stoppadh an gairead %s: "
+
+#: etc/rc.d/init.d/xntpd:39
+msgid "Shutting down xntpd: "
+msgstr "Ag Stoppadh an tSeirbhís "
+
+#: etc/rc.d/init.d/mysql:116
+#, fuzzy
+msgid "Starting MySQL Server"
+msgstr "Ag Tosnú `jserver': "
+
+#: ../rc.d_old/rc.sysinit:636 ../rc.d_old/rc.sysinit:668
+msgid "Checking filesystem quotas: "
+msgstr ""
+
+#: etc/rc.d/init.d/httpd:101
+msgid "Starting httpd-perl: "
+msgstr "Ag Tosnú `httpd-perl': "
+
+#: etc/rc.d/init.d/ypserv:32
+msgid "Starting YP server services: "
+msgstr ""
+
+#: etc/rc.d/init.d/rwalld:42
+msgid "There is no way to reload rwalld as their isn't any config file.\n"
+msgstr ""
+
+#: etc/rc.d/init.d/httpd:155 etc/rc.d/init.d/httpd:160
+msgid "#######################################"
+msgstr ""
+
+#: etc/rc.d/init.d/halt:58
+#, fuzzy
+msgid "Halting system..."
+msgstr "Ag Tosnú na seirbishí nuacht `innd': "
+
+#: etc/rc.d/init.d/sshd:159
+#, fuzzy
+msgid "Usage: sshd {start|stop|restart|status|condrestart}\n"
+msgstr "Úsáid: %s {start|stop|restart|status|condrestart}\n"
+
+#: ../rc.d_old/init.d/halt:138 etc/rc.d/init.d/halt:149
+msgid "Turning off swap: "
+msgstr ""
+
+#: etc/rc.d/init.d/drakfont:33 etc/rc.d/init.d/psacct:28
+#, c-format
+msgid "Usage: %s {start|stop|restart}\n"
+msgstr "Úsáid: %s {start|stop|restart}\n"
+
+#: etc/rc.d/init.d/webmin:33
+msgid "Stopping Webmin"
+msgstr "Ag Stoppadh na tSeirbhís Webmin"
+
+#: etc/rc.d/init.d/syslog:62
+msgid "Shutting down kernel logger: "
+msgstr ""
+
+#: ../rc.d_old/rc.sysinit:77
+msgid "Setting default font"
+msgstr ""
+
+#: etc/rc.d/init.d/drakxtools_http:26
+#, c-format
+msgid "%s (pid %s) is running\n"
+msgstr ""
+
+#: etc/rc.d/init.d/mars-nwe:76 etc/rc.d/init.d/nscd:107
+#: etc/rc.d/init.d/usbd:54 etc/rc.d/init.d/yppasswdd:68
+#: etc/rc.d/init.d/ypxfrd:61
+#, c-format
+msgid "Usage: %s {start|stop|status|restart|reload|condrestart}\n"
+msgstr "Úsáid: %s {start|stop|status|restart|reload|condrestart}\n"
+
+#: ../rc.d_old/init.d/network:163 etc/rc.d/init.d/network:230
+msgid "Devices with modified configuration:\n"
+msgstr ""
+
+#: ../rc.d/init.d/functions:424 ../rc.d_old/init.d/functions:378
+#: etc/rc.d/init.d/functions:424
+msgid "PASSED"
+msgstr ""
+
+#: ../rc.d_old/init.d/rawdevices:34 ../rc.d_old/init.d/rawdevices:41
+#: etc/rc.d/init.d/rawdevices:34 etc/rc.d/init.d/rawdevices:41
+msgid "   you'll have to upgrade your util-linux package\n"
+msgstr ""
+
+#: etc/rc.d/init.d/mysql:126
+#, c-format
+msgid "Can't execute %s/safe_mysqld\n"
+msgstr ""
+
+#: etc/rc.d/init.d/ldirectord:43
+#, fuzzy
+msgid "Stopping ldirectord"
+msgstr "Ag stoppadh an tSeirbhís ldirectord"
+
+#: etc/rc.d/init.d/atalk:131
+#, c-format
+msgid "  Unregistering %s:netatalk%s:"
+msgstr ""
+
+#: etc/rc.d/init.d/xfs:20
+msgid "Starting X Font Server: "
+msgstr ""
+
+#: ../rc.d_old/init.d/halt:194 etc/rc.d/init.d/halt:230
+msgid "APCUPSD will now power off the UPS!\n"
+msgstr ""
+
+#: etc/rc.d/init.d/mandrake_everytime:66
+msgid "Creating /mnt/disk"
+msgstr ""
+
+#: ../rc.d/rc.sysinit:481 ../rc.d_old/rc.sysinit:364
+msgid "Skipping ISA PNP configuration at users request: "
+msgstr ""
+
+#: etc/rc.d/init.d/postgresql:84
+#, c-format
+msgid "See %s/postgresql-%s/README.rpm-dist for more information.\n"
+msgstr ""
+
+#: etc/rc.d/init.d/mon:30
+msgid "Stopping mon daemon: "
+msgstr ""
+
+#: ../rc.d_old/init.d/single:31 etc/rc.d/init.d/single:31
+msgid "Sending all processes the TERM signal...\n"
+msgstr ""
+
+#: etc/rc.d/init.d/atalk:135
+#, fuzzy
+msgid "  Stopping atalk:"
+msgstr "Ag Stoppadh `amd': "
+
+#: etc/rc.d/init.d/keytable:67
+#, c-format
+msgid "Loading compose keys: compose.%s.inc"
+msgstr ""
+
+#: ../rc.d/rc.sysinit:80 ../rc.d/rc.sysinit:82
+#, fuzzy, c-format
+msgid "\t\t\tWelcome to %sMandrake%s Linux"
+msgstr "\t\tFáilte go dtí Linux %sMandrake%s"
+
+#: ../rc.d/init.d/functions:356 ../rc.d_old/init.d/functions:313
+#: etc/rc.d/init.d/functions:356
+msgid "Usage: status {program}\n"
+msgstr "Úsáid: status {ríomhchlár}\n"
+
+#: etc/rc.d/init.d/network:184
+#, fuzzy, c-format
+msgid "Shutting down interface %s: "
+msgstr "Ag Stoppadh an gairead %s: "
+
+#: etc/rc.d/init.d/autofs:344
+#, fuzzy, c-format
+msgid "Usage: %s {start|stop|restart|reload|condrestart|status}"
+msgstr "Úsáid: %s {start|stop|restart|reload|condrestart|status}\n"
+
+#: ../rc.d_old/init.d/network:138 etc/rc.d/init.d/network:198
+msgid "Disabling IPv4 packet forwarding: "
+msgstr ""
+
+#: etc/rc.d/init.d/usb:196
+#, fuzzy
+msgid "Loading USB storage"
+msgstr "Ag Tosnú HardDrake"
+
+#: etc/rc.d/init.d/mysql:167
+#, c-format
+msgid "No mysqld pid file found. Looked for %s."
+msgstr ""
+
+#: ../rc.d/init.d/functions:237 ../rc.d_old/init.d/functions:199
+#: etc/rc.d/init.d/functions:237
+msgid "Usage: killproc {program} [signal]\n"
+msgstr "Úsáid: killproc {ríomhchlár} [comhairc]\n"
+
+#: etc/rc.d/init.d/sshd:62
+msgid "Generating SSH1 RSA host key: "
+msgstr ""
+
+#: etc/rc.d/init.d/ipchains:66 etc/rc.d/init.d/ipchains:97
+msgid "Removing user defined chains:"
+msgstr ""
+
+#: etc/rc.d/init.d/atalk:110
+#, fuzzy
+msgid "  Stopping papd:"
+msgstr "Ag Stoppadh `amd': "
+
+#: etc/rc.d/init.d/acon:23
+msgid "Farsi"
+msgstr ""
+
+#: ../rc.d/rc.sysinit:114
+msgid " #### you should disable devfs (add 'devfs=nomount' to the paramaters"
+msgstr ""
+
+#: etc/rc.d/init.d/atalk:154
+msgid "\n"
+msgstr ""
+
+#: ../rc.d_old/init.d/rawdevices:33 ../rc.d_old/init.d/rawdevices:40
+#: etc/rc.d/init.d/rawdevices:33 etc/rc.d/init.d/rawdevices:40
+msgid "  If the command 'raw' still refers to /dev/raw as a file.\n"
+msgstr ""
+
+#: etc/rc.d/init.d/atalk:130
+#, c-format
+msgid "  Unregistering %s:Workstation%s:"
+msgstr ""
+
+#: etc/rc.d/init.d/nfs:31
+msgid "#\n"
+msgstr ""
+
+#: etc/rc.d/init.d/httpd:90
+msgid "Checking configuration sanity for httpd-perl: "
+msgstr ""
+
+#: etc/rc.d/init.d/halt:62
+msgid "Please stand by while rebooting the system..."
+msgstr ""
+
+#: ../rc.d_old/rc.sysinit:496
+msgid "Starting up RAID devices: "
+msgstr ""
+
+#: ../rc.d_old/init.d/single:34 etc/rc.d/init.d/single:34
+msgid "Sending all processes the KILL signal..\n"
+msgstr ""
+
+#: etc/rc.d/init.d/ipchains:36
+msgid "Install Backward Compatibility with ipchains for kernel 2.4"
+msgstr ""
+
+#: ../rc.d/rc.sysinit:113
+msgid " #### your system is currently using devfs but devfsd isn't availlable"
+msgstr ""
+
+#: ../rc.d_old/init.d/rawdevices:31 ../rc.d_old/init.d/rawdevices:38
+#: etc/rc.d/init.d/rawdevices:31 etc/rc.d/init.d/rawdevices:38
+msgid "  Please correct your /etc/sysconfig/rawdevices:\n"
+msgstr ""
+
+#: etc/rc.d/init.d/acon:24
+msgid "Hebrew"
+msgstr ""
+
+#: etc/rc.d/init.d/halt:83
+#, fuzzy
+msgid "Creating initrd directory"
+msgstr "Ag Tosnú an tSeirbhís ldirectord"
+
+#: etc/rc.d/init.d/atalk:23
+msgid "[could not load appletalk module]\n"
+msgstr ""
+
+#: etc/rc.d/init.d/nfs:57
+msgid "Starting NFS services: "
+msgstr "Ag Tosnú seirbishí NFS: "
+
+#: etc/rc.d/init.d/sshd:103
+#, fuzzy
+msgid "Configuration file or keys"
+msgstr "Ag cumraíocht na scagairí IP"
+
+#: etc/rc.d/init.d/sshd:122 etc/rc.d/init.d/sshd:125
+msgid "sshd startup"
+msgstr "Ag Tosnú na tSeirbhís `sshd'"
+
+#: ../rc.d/rc.sysinit:295
+#, fuzzy, c-format
+msgid "Setting hostname %s: "
+msgstr "Ag athlódáil an t-óstainm %s: "
+
+#: ../rc.d_old/init.d/network:189 etc/rc.d/init.d/network:256
+#, c-format
+msgid "Bringing up alias %s: "
+msgstr ""
+
+#: ../rc.d/rc.sysinit:96 ../rc.d_old/rc.sysinit:53
+msgid "Mounting proc filesystem"
+msgstr ""
+
+#: etc/rc.d/init.d/medusa:32
+#, fuzzy
+msgid "Shutting down Medusa index daemon: "
+msgstr "Ag Stoppadh an Seirbhís `APM': "
+
+#: etc/rc.d/init.d/nfs:66
+msgid "Starting NFS daemon: "
+msgstr "Ag Tosní seibhís NFS: "
+
+#: etc/rc.d/init.d/dhcpd:68
+msgid "Shutting down dhcpd: "
+msgstr "Ag Stoppadh seirbhís dhcpd: "
+
+#: ../rc.d/rc.sysinit:479 ../rc.d_old/rc.sysinit:362
+msgid "Setting up ISA PNP devices: "
+msgstr "Ag Tosnú na gaireasaí ISA PNP: "
+
+#: etc/rc.d/init.d/nfs:81
+msgid "Shutting down NFS quotas: "
+msgstr ""
+
+#: ../rc.d/rc.sysinit:260
+#, fuzzy, c-format
+msgid "Setting clock %s: `date`"
+msgstr "Ag Stoppadh `%s': "
+
+#: ../rc.d/rc.sysinit:143 ../rc.d_old/rc.sysinit:101
+msgid "Booting Aurora..."
+msgstr "Ag Tosnú Aurora..."
+
+#: etc/rc.d/init.d/oki4daemon:35
+msgid "Stopping oki4daemon printer driver daemon: "
+msgstr ""
+
+#: etc/rc.d/init.d/keytable:29
+#, fuzzy, c-format
+msgid "Loading keymap: %s"
+msgstr "Ag Lódáil keymap de gnáth: "
+
+#: ../rc.d/init.d/functions:305 etc/rc.d/init.d/functions:305
+#, fuzzy
+msgid "Usage: pidfileofproc {program}\n"
+msgstr "Úsáid: pidofproc {ríomhchlár}\n"
+
+#: etc/rc.d/init.d/halt:18
+#, c-format
+msgid "%s "
+msgstr ""
+
+#: etc/rc.d/init.d/kudzu:43
+msgid "Checking for new hardware"
+msgstr ""
+
+#: etc/rc.d/init.d/proftpd:46
+msgid "Shutting down proftpd: "
+msgstr "Ag Stoppadh na tSeirbhís `proftpd': "
+
+#: ../rc.d/init.d/functions:519 ../rc.d_old/init.d/functions:462
+#: etc/rc.d/init.d/functions:519
+msgid "yY"
+msgstr "tT"
+
+#: etc/rc.d/init.d/postgresql:114
+msgid "Postmaster already running.\n"
+msgstr ""
+
+#: ../rc.d_old/init.d/random:56 etc/rc.d/init.d/inet:69
+#: etc/rc.d/init.d/nfs:121 etc/rc.d/init.d/random:56
+#, c-format
+msgid "Usage: %s {start|stop|status|restart|reload}\n"
+msgstr "Úsáid: %s {start|stop|status|restart|reload}\n"
+
+#: etc/rc.d/init.d/dhcrelay:90
+#, fuzzy
+msgid "Usage: dhcrelay {start|stop|restart|condrestart|status}\n"
+msgstr "Úsáid: %s {start|stop|restart|condrestart|status}\n"
+
+#: ../rc.d_old/init.d/netfs:41 etc/rc.d/init.d/netfs:42
+msgid "Mounting NCP filesystems: "
+msgstr ""
+
+#: etc/rc.d/init.d/sshd:131
+msgid "Shutting down sshd: "
+msgstr ""
+
+#: etc/rc.d/init.d/autofs:323
+#, c-format
+msgid "Stop %s\n"
+msgstr "Stad an %s\n"
+
+#: etc/rc.d/init.d/smb:65
+msgid "Reloading smb.conf file: "
+msgstr ""
+
+#: etc/rc.d/init.d/smb:39
+msgid "Starting NMB services: "
+msgstr ""
+
+#: etc/rc.d/init.d/jserver:41
+msgid "Shutting down jserver: "
+msgstr "Ag Stoppadh na seirbhís `jserver': "
+
+#: etc/rc.d/init.d/ntpd:25
+msgid "Syncing time for ntpd. "
+msgstr ""
+
+#: etc/rc.d/init.d/nfs:96
+msgid "rpc.mountd "
+msgstr ""
+
+#: ../rc.d_old/init.d/random:37 etc/rc.d/init.d/random:37
+msgid "Saving random seed: "
+msgstr ""
+
+#: etc/rc.d/init.d/nfslock:49
+msgid "Starting NFS lockd: "
+msgstr "Ag Tosnú na seirbishí NFS `lockd': "
+
+#: etc/rc.d/init.d/ipchains:71 etc/rc.d/init.d/ipchains:72
+msgid "Resetting built-in chains to the default ACCEPT policy"
+msgstr ""
+
+#: ../rc.d_old/init.d/network:161 etc/rc.d/init.d/network:228
+msgid "Devices that are down:\n"
+msgstr ""
+
+#: etc/rc.d/init.d/proftpd:90
+#, fuzzy
+msgid "Starting proftpd; was not suspended "
+msgstr "Ag Tosnú proftpd: "
+
+#: ../rc.d/rc.sysinit:429 ../rc.d/rc.sysinit:713 ../rc.d/rc.sysinit:789
+#: ../rc.d_old/rc.sysinit:333 ../rc.d_old/rc.sysinit:578
+#: ../rc.d_old/rc.sysinit:622
+msgid "*** An error occurred during the file system check.\n"
+msgstr ""
+
+#: etc/rc.d/init.d/kudzu:56
+msgid "Run '/usr/sbin/kudzu' from the command line to re-detect."
+msgstr ""
+
+#: etc/rc.d/init.d/mysql:139
+#, c-format
+msgid "(pid %s)"
+msgstr ""
+
+#: etc/rc.d/init.d/postgresql:63
+#, fuzzy
+msgid "Starting postgresql service: \n"
+msgstr "Ag Tosnú an Seirbhís `postgresql': "
+
+#: etc/rc.d/init.d/postgresql:118 etc/rc.d/init.d/postgresql:124
+#: etc/rc.d/init.d/postgresql:129 etc/rc.d/init.d/sshd:37
+#: etc/rc.d/init.d/sshd:40 etc/rc.d/init.d/sshd:53 etc/rc.d/init.d/sshd:56
+#, c-format
+msgid "%s"
+msgstr ""
+
+#: etc/rc.d/init.d/psacct:19
+#, fuzzy
+msgid "Stopping process accounting: "
+msgstr "Ag Stoppadh an Séirbhís `cron': "
+
+#: ../rc.d_old/init.d/halt:157 etc/rc.d/init.d/halt:196
+msgid "Unmounting file systems: "
+msgstr ""
+
+#: ../rc.d_old/rc.sysinit:307
+msgid "Setting up LVM:"
+msgstr "Ag Tosnú LVM:"
+
+#: etc/rc.d/init.d/mandrake_everytime:12
+msgid "Building Window Manager Sessions"
+msgstr ""
+
+#: ../rc.d/rc.sysinit:838
+#, fuzzy, c-format
+msgid "Setting profile to %s: "
+msgstr "Ag Tosnú proftpd: "
+
+#: etc/rc.d/init.d/dhcpd:101
+#, fuzzy
+msgid "Usage: dhcpd {start|stop|restart|condrestart|status}\n"
+msgstr "Úsáid: %s {start|stop|restart|condrestart|status}\n"
+
+#: ../rc.d_old/init.d/netfs:66 etc/rc.d/init.d/netfs:112
+msgid "Unmounting SMB filesystems: "
+msgstr ""
+
+#: etc/rc.d/init.d/mosix:88
+msgid "you just edited, because MOSIX uses a different or separate network,\n"
+msgstr ""
+
+#: ../rc.d/rc.sysinit:117
+msgid " Disabling devfs (was mounted on /dev)"
+msgstr ""
+
+#: etc/rc.d/init.d/inet:48
+msgid "Stopping INET services: "
+msgstr "Ag Stoppadh na Seirbishí INET: "
+
+#: ../rc.d/init.d/functions:378 ../rc.d_old/init.d/functions:334
+#: etc/rc.d/init.d/functions:378
+#, c-format
+msgid "%s dead but subsys locked\n"
+msgstr ""
+
+#: ../rc.d/rc.sysinit:87 ../rc.d_old/rc.sysinit:45
+msgid "\t\tPress 'I' to enter interactive startup."
+msgstr ""
+
+#: ../rc.d_old/init.d/netfs:38 etc/rc.d/init.d/netfs:39
+msgid "Mounting NFS filesystems: "
+msgstr ""
+
+#: ../rc.d_old/init.d/halt:88 etc/rc.d/init.d/sound:36
+msgid "Saving mixer settings"
+msgstr ""
+
+#: ../rc.d_old/init.d/halt:142 etc/rc.d/init.d/halt:153
+msgid "Turning off quotas: "
+msgstr ""
+
+#: etc/rc.d/init.d/proftpd:97
+#, fuzzy, c-format
+msgid "Usage: %s {start|stop|status|restart|reload|resume"
+msgstr "Úsáid: %s {start|stop|status|restart|reload}\n"
+
+#: etc/rc.d/init.d/sshd:77 etc/rc.d/init.d/sshd:80
+msgid "RSA key generation"
+msgstr ""
+
+#: etc/rc.d/init.d/sshd:64 etc/rc.d/init.d/sshd:67
+msgid "RSA1 key generation"
+msgstr ""
+
+#: etc/rc.d/init.d/ypserv:41
+msgid "Stopping YP server services: "
+msgstr ""
+
+#: ../rc.d/init.d/functions:381 ../rc.d_old/init.d/functions:337
+#: etc/rc.d/init.d/drakxtools_http:28 etc/rc.d/init.d/drakxtools_http:31
+#: etc/rc.d/init.d/functions:381
+#, c-format
+msgid "%s is stopped\n"
+msgstr "Is `%s' stoppadh.\n"
+
+#: etc/rc.d/init.d/fwctl:27
+msgid "Configuring IP packet filters for loopback"
+msgstr ""
+
+#: ../rc.d_old/init.d/functions:456
+#, c-format
+msgid "Do you want to start the service %s?\n"
+msgstr ""
+
+#: etc/rc.d/init.d/sshd:90 etc/rc.d/init.d/sshd:93
+msgid "DSA key generation"
+msgstr ""
+
+#: etc/rc.d/init.d/gated:49
+#, fuzzy, c-format
+msgid "Stopping %s"
+msgstr "Ag Stoppadh %s: "
+
+#: etc/rc.d/init.d/sshd:117
+msgid "Starting sshd: "
+msgstr "Ag Tosnú `sshd': "
+
+#: etc/rc.d/init.d/httpd:180
+#, c-format
+msgid "Use %s extendedstatus for more information.\n"
+msgstr ""
+
+#: etc/rc.d/init.d/webmin:29
+msgid "Starting Webmin"
+msgstr "Ag Tosnú `Webmin'"
+
+#: etc/rc.d/init.d/httpd:128
+msgid "Shutting down httpd: "
+msgstr "Ag Stoppadh `httpd': "
+
+#: etc/rc.d/init.d/mysql:135
+#, fuzzy
+msgid "Stopping MySQL Server"
+msgstr "Ag Stoppadh na tSeirbhís `innd'"
+
+#: etc/rc.d/init.d/mosix:61
+msgid "Editor to use [q to quit] - [vi] :- "
+msgstr ""
+
+#: ../rc.d_old/rc.sysinit:443
+msgid "Checking root filesystem quotas: "
+msgstr ""
+
+#: ../rc.d_old/init.d/netfs:93 etc/rc.d/init.d/netfs:139
+msgid "Active NCP mountpoints: \n"
+msgstr ""
+
+#: etc/rc.d/init.d/mandrake_firstime:26
+msgid "Building Mozilla registry"
+msgstr ""
+
+#: etc/rc.d/init.d/autofs:226
+#, fuzzy
+msgid "Configured Mount Points:\n"
+msgstr "Gaireasanna Cumraíocht:\n"
+
+#: etc/rc.d/init.d/yppasswdd:38
+msgid "Stopping YP passwd service: "
+msgstr ""
+
+#: etc/rc.d/init.d/syslog:55
+msgid "Starting kernel logger: "
+msgstr ""
+
+#: ../rc.d_old/init.d/random:46 etc/rc.d/init.d/random:46
+msgid "The random data source is missing\n"
+msgstr ""
+
+#: etc/rc.d/init.d/dhcpd:58
+msgid "Starting dhcpd: "
+msgstr ""
+
+#: etc/rc.d/init.d/proftpd:39
+msgid "Starting proftpd: "
+msgstr "Ag Tosnú proftpd: "
+
+#: ../rc.d_old/init.d/netfs:89 etc/rc.d/init.d/netfs:135
+msgid "Active SMB mountpoints: \n"
+msgstr ""
+
+#: etc/rc.d/init.d/nfs:32
+msgid "/etc/exports does not exist\n"
+msgstr ""
+
+#: etc/rc.d/init.d/xfs:47
+#, fuzzy
+msgid "*** Usage: xfs {start|stop|status|restart}\n"
+msgstr "Úsáid: %s {start|stop|status|restart}\n"
+
+#: etc/rc.d/init.d/ntpd:36
+msgid "Shutting down ntpd: "
+msgstr "Ag Stoppadh na tSeirbhís ntpd: "
+
+#: ../rc.d_old/init.d/halt:80 etc/rc.d/init.d/halt:97
+msgid "Sending all processes the KILL signal..."
+msgstr ""
+
+#: ../rc.d_old/init.d/netfs:77 etc/rc.d/init.d/netfs:123
+msgid "Configured SMB mountpoints: \n"
+msgstr ""
+
+#: etc/rc.d/init.d/proftpd:78
+msgid "No way to suspend, shutting down instead "
+msgstr ""
+
+#: etc/rc.d/init.d/mandrake_firstime:34
+msgid "Building your KDE menu"
+msgstr ""
+
+#: etc/rc.d/init.d/atalk:166
+#, fuzzy
+msgid "Usage: atalk {start|stop|restart|status}\n"
+msgstr "Úsáid: %s {start|stop|restart|status}\n"
+
+#: etc/rc.d/init.d/httpd:205
+msgid "Reloading httpd: "
+msgstr "Ag athlódail `httpd': "
+
+#: etc/rc.d/init.d/acon:27
+msgid "Yiddish"
+msgstr ""
+
+#: ../rc.d/rc.sysinit:299
+#, fuzzy, c-format
+msgid "Setting NIS domain name %s: "
+msgstr "Ag athlódáil an t-óstainm %s: "
+
+#: ../rc.d_old/init.d/netfs:85 etc/rc.d/init.d/netfs:131
+msgid "Active NFS mountpoints: \n"
+msgstr ""
+
+#: etc/rc.d/init.d/syslog:65
+msgid "Shutting down system logger: "
+msgstr ""
+
+#: ../rc.d_old/rc.sysinit:39 ../rc.d_old/rc.sysinit:41
+#, c-format
+msgid "\t\t\tWelcome to Linux %sMandrake%s"
+msgstr "\t\tFáilte go dtí Linux %sMandrake%s"
+
+#: ../rc.d/init.d/functions:224 ../rc.d/init.d/functions:227
+#: etc/rc.d/init.d/autofs:271 etc/rc.d/init.d/autofs:275
+#: etc/rc.d/init.d/functions:224 etc/rc.d/init.d/functions:227
+#, fuzzy, c-format
+msgid "%s startup"
+msgstr "Ag Tosnú na tSeirbhís `sshd'"
+
+#: etc/rc.d/init.d/smb:35
+msgid "Starting SMB services: "
+msgstr "Ag Tosnú na tSeirbishí SMB"
+
+#: etc/rc.d/init.d/proftpd:99
+msgid "}\n"
+msgstr ""
+
+#: etc/rc.d/init.d/mosix:91
+msgid "Otherwise please press only <Enter> :- "
+msgstr ""
+
+#: etc/rc.d/init.d/mandrake_everytime:20
+msgid "Disabling Supermount"
+msgstr ""
+
+#: ../rc.d/rc.sysinit:430 ../rc.d/rc.sysinit:675 ../rc.d/rc.sysinit:714
+#: ../rc.d/rc.sysinit:790 ../rc.d_old/rc.sysinit:334
+#: ../rc.d_old/rc.sysinit:542 ../rc.d_old/rc.sysinit:579
+#: ../rc.d_old/rc.sysinit:623
+msgid "*** Dropping you to a shell; the system will reboot\n"
+msgstr ""
+
+#: etc/rc.d/init.d/keytable:75
+msgid "The BackSpace key sends: ^?"
+msgstr ""
+
+#: etc/rc.d/init.d/adsl:38
+msgid "Shutting down ADSL link"
+msgstr ""
+
+#: etc/rc.d/init.d/anacron:69
+#, fuzzy
+msgid "Usage: anacron {start|stop|restart|condrestart|status}\n"
+msgstr "Úsáid: %s {start|stop|restart|condrestart|status}\n"
+
+#: etc/rc.d/init.d/amd:94
+#, c-format
+msgid "Usage: %s {start|stop|restart|reload|condrestart|status}\n"
+msgstr "Úsáid: %s {start|stop|restart|reload|condrestart|status}\n"
+
+#: etc/rc.d/init.d/dhcrelay:57
+#, fuzzy
+msgid "Shutting down dhcrelay: "
+msgstr "Ag Stoppadh seirbhís dhcpd: "
+
+#: etc/rc.d/init.d/usb:190
+#, fuzzy
+msgid "Loading USB mouse"
+msgstr "Ag Stoppadh an tSeirbhís 'USB': "
+
+#: etc/rc.d/init.d/nfs:59
+msgid "Starting NFS quotas: "
+msgstr ""
+
+#: etc/rc.d/init.d/autofs:266
+#, fuzzy, c-format
+msgid "Starting %s:"
+msgstr "Ag Tosnú %s: "
+
+#: etc/rc.d/init.d/medusa:22
+#, fuzzy
+msgid "Starting Medusa index daemon: "
+msgstr "Ag Tosnú an tSeirbhís mon"
+
+#: etc/rc.d/init.d/ntpd:29
+msgid "Starting ntpd: "
+msgstr "Ag Tosnú `ntpd': "
+
+#: ../rc.d_old/init.d/network:179 ../rc.d_old/init.d/network:186
+#: etc/rc.d/init.d/network:246 etc/rc.d/init.d/network:253
+#, c-format
+msgid "Bringing up device %s: "
+msgstr "Ag Tosnú an gaireas %s: "
+
+#: ../rc.d/rc.sysinit:101 ../rc.d_old/rc.sysinit:151
+msgid "Running DevFs deamon"
+msgstr "Ag Tosnú an tSeirbhís DevFS"
+
+#: etc/rc.d/init.d/ipchains:53
+msgid "Clearing all current rules and user defined chains:"
+msgstr ""
+
+#: etc/rc.d/init.d/atalk:58
+#, fuzzy
+msgid "  Starting papd:"
+msgstr "Ag Tosnú `acpid': "
+
+#: etc/rc.d/init.d/ldirectord:39
+msgid "Starting ldirectord"
+msgstr "Ag Tosnú an tSeirbhís ldirectord"
+
+#: etc/rc.d/init.d/mon:43
+#, fuzzy
+msgid "Usage: mon {start|stop|status|restart|reload}\n"
+msgstr "Úsáid: %s {start|stop|status|restart|reload}\n"
+
+#: ../rc.d_old/init.d/functions:455
+msgid "START SERVICE:\n"
+msgstr ""
+
+#: etc/rc.d/init.d/acon:42
+#, c-format
+msgid "Stopping %s console support: "
+msgstr ""
+
+#: etc/rc.d/init.d/nfslock:47
+msgid "Starting NFS file locking services: \n"
+msgstr ""
+
+#: etc/rc.d/init.d/yppasswdd:29
+msgid "Starting YP passwd service: "
+msgstr "Ag Tosnú an tSeirbhís 'YP passwd'"
+
+#: ../rc.d_old/init.d/netfs:97 etc/rc.d/init.d/netfs:143
+msgid "/proc filesystem unavailable\n"
+msgstr ""
+
+#: ../rc.d_old/init.d/halt:140 etc/rc.d/init.d/halt:151
+msgid "Turning off accounting: "
+msgstr ""
+
+#: etc/rc.d/init.d/sensors:48
+#, fuzzy
+msgid "Usage: sensors {start|stop|restart|reload|status}\n"
+msgstr "Úsáid: %s {start|stop|restart|reload|status}\n"
+
+#: etc/rc.d/init.d/atalk:47
+#, fuzzy
+msgid "  Starting atalkd:"
+msgstr "Ag Tosnú an seirbhís `gated': "
+
+#: etc/rc.d/init.d/rwhod:42
+msgid "There is no way to reload rwhod as their isn't any config file.\n"
+msgstr ""
+
+#: etc/rc.d/init.d/postgresql:143
+msgid "Stopping postgresql service: "
+msgstr ""
+
+#: etc/rc.d/init.d/httpd:77
+msgid "."
+msgstr ""
+
+#: etc/rc.d/init.d/proftpd:62
+msgid "Re-reading proftpd config: "
+msgstr ""
+
+#: ../rc.d_old/rc.sysinit:600
+msgid "Mounting local filesystems: "
+msgstr ""
+
+#: ../rc.d/init.d/functions:521 ../rc.d_old/init.d/functions:464
+#: etc/rc.d/init.d/functions:521
+msgid "cC"
+msgstr "cC"
+
+#: ../rc.d/rc.sysinit:437 ../rc.d/rc.sysinit:682 ../rc.d/rc.sysinit:721
+#: ../rc.d/rc.sysinit:797 ../rc.d_old/rc.sysinit:341
+#: ../rc.d_old/rc.sysinit:549 ../rc.d_old/rc.sysinit:586
+#: ../rc.d_old/rc.sysinit:630
+msgid "Unmounting file systems\n"
+msgstr ""
+
+#: etc/rc.d/init.d/psacct:14
+msgid "Starting process accounting: "
+msgstr ""
+
+#: ../rc.d_old/init.d/network:232 etc/rc.d/init.d/network:299
+#, c-format
+msgid "Usage: %s {start|stop|restart|reload|status|probe}\n"
+msgstr "Úsáid: %s {start|stop|restart|reload|status|probe}\n"
+
+#: ../rc.d_old/rc.sysinit:545
+msgid "(RAID Repair) \\# # "
+msgstr ""
+
+#: ../rc.d/init.d/functions:518 ../rc.d_old/init.d/functions:461
+#: etc/rc.d/init.d/functions:518
+#, c-format
+msgid "Start service %s (Y)es/(N)o/(C)ontinue? [Y] \n"
+msgstr ""
+
+#: etc/rc.d/init.d/usbd:30
+msgid "Stoping USB daemon"
+msgstr "Ag Stoppadh an tSeirbhís 'USB': "
+
+#: etc/rc.d/init.d/keytable:71
+msgid "The BackSpace key sends: ^H"
+msgstr ""
+
+#: etc/rc.d/init.d/mon:23
+msgid "Starting mon daemon: "
+msgstr "Ag Tosnú an tSeirbhís mon"
+
+#: ../rc.d/rc.sysinit:557
+#, c-format
+msgid "Setting hard drive parameters for %s: "
+msgstr ""
+
+#: ../rc.d_old/init.d/halt:210 etc/rc.d/init.d/halt:246
+msgid "On the next boot fsck will be forced.\n"
+msgstr ""
+
+#: ../rc.d/init.d/functions:364 ../rc.d_old/init.d/functions:320
+#: etc/rc.d/init.d/functions:364
+#, c-format
+msgid "%s (pid %s) is running...\n"
+msgstr ""
+
+#: ../rc.d/rc.sysinit:202 ../rc.d_old/rc.sysinit:171
+msgid "Configuring kernel parameters: "
+msgstr ""
+
+#: etc/rc.d/init.d/atalk:98
+msgid "(backgrounded)"
+msgstr ""
+
+#: etc/rc.d/init.d/netfs:81
+#, fuzzy
+msgid "Unmounting network block filesystems: "
+msgstr "Ag Mountáil na chorais comhaid eile: "
+
+#: ../rc.d_old/init.d/halt:189 etc/rc.d/init.d/halt:225
+msgid "Unmounting proc file system: "
+msgstr ""
+
+#: etc/rc.d/init.d/httpd:109
+msgid "Starting httpd: "
+msgstr "Ag Stoppadh an tSeirbhís 'httpd': "
+
+#: etc/rc.d/init.d/acon:22 etc/rc.d/init.d/acon:28
+msgid "Arabic"
+msgstr "Araibis"
+
+#: ../rc.d_old/init.d/netfs:81 etc/rc.d/init.d/netfs:127
+msgid "Configured NCP mountpoints: \n"
+msgstr ""
+
+#: ../rc.d_old/rc.sysinit:604
+msgid "Checking loopback filesystems"
+msgstr ""
+
+#: ../rc.d_old/init.d/network:192 etc/rc.d/init.d/network:259
+#, c-format
+msgid "Bringing up route %s: "
+msgstr "Ag Tosnú bealach %s: "
+
+#: etc/rc.d/init.d/ipchains:65 etc/rc.d/init.d/ipchains:96
+#: etc/rc.d/init.d/lvs:48
+msgid "Flushing all chains:"
+msgstr ""
+
+#: etc/rc.d/init.d/usb:199
+#, fuzzy
+msgid "Loading USB printer"
+msgstr "Ag Lódáil an tiomáin `HiSax'\n"
+
+#: ../rc.d_old/init.d/netfs:67 etc/rc.d/init.d/netfs:113
+msgid "Unmounting NCP filesystems: "
+msgstr ""
+
+#: etc/rc.d/init.d/apcupsd:24
+msgid "Starting UPS monitoring:"
+msgstr ""
+
+#: ../rc.d/rc.sysinit:412
+#, fuzzy
+msgid "Checking root filesystem\n"
+msgstr "Ag Mountáil na chorais comhaid eile: "
+
+#: etc/rc.d/init.d/postfix:40
+msgid "Shutting down postfix: "
+msgstr ""
+
+#: etc/rc.d/init.d/lvs:35
+msgid "IPv4 packet forwarding disabled"
+msgstr ""
+
+#: ../rc.d_old/init.d/rawdevices:32 ../rc.d_old/init.d/rawdevices:39
+#: etc/rc.d/init.d/rawdevices:32 etc/rc.d/init.d/rawdevices:39
+msgid "     rawdevices are now located in the directory /dev/raw/ \n"
+msgstr ""
+
+#: etc/rc.d/init.d/acon:35
+#, c-format
+msgid "Loading %s console support: "
+msgstr ""
+
+#: ../rc.d_old/init.d/network:197 ../rc.d_old/init.d/network:206
+#: etc/rc.d/init.d/network:264 etc/rc.d/init.d/network:273
+msgid "Deleting internal IPX network: "
+msgstr ""
+
+#: etc/rc.d/init.d/nfs:76
+msgid "Shutting down NFS daemon: "
+msgstr "Ag Stoppadh an Seirbhís  `NFS':  "
+
+#: etc/rc.d/init.d/named:93
+#, fuzzy, c-format
+msgid "Usage: %s {start|stop|status|restart|condrestart|reload|probe}\n"
+msgstr "Úsáid: %s {start|stop|status|restart|cond-restart|reload|probe}\n"
+
+#: ../rc.d_old/init.d/netfs:55 etc/rc.d/init.d/netfs:101
+msgid "Unmounting NFS filesystems: "
+msgstr ""
+
+#: ../rc.d_old/init.d/network:47 etc/rc.d/init.d/network:64
+msgid "Setting network parameters: "
+msgstr ""
+
+#: etc/rc.d/init.d/mars-nwe:32
+msgid "Stopping NetWare emulator-server: "
+msgstr ""
+
+#: etc/rc.d/init.d/sound:26
+msgid "Loading mixer settings"
+msgstr ""
+
+#: etc/rc.d/init.d/anacron:17
+msgid "Starting anacron: "
+msgstr "Ag Tosnú `anacron': "
+
+#: ../rc.d_old/init.d/netfs:43 etc/rc.d/init.d/netfs:44
+msgid "Mounting other filesystems: "
+msgstr "Ag Mountáil na chorais comhaid eile: "
+
+#: etc/rc.d/init.d/kudzu:55
+msgid "Hardware configuration timed out."
+msgstr ""
+
+#: ../rc.d_old/rc.sysinit:337 ../rc.d_old/rc.sysinit:582
+msgid "(Repair filesystem) \\# # "
+msgstr ""
+
+#: ../rc.d/init.d/functions:392 etc/rc.d/init.d/functions:392
+msgid "  OK  "
+msgstr "CEART"
+
+#: etc/rc.d/init.d/autofs:274
+msgid "No Mountpoints Defined"
+msgstr ""
+
+#: ../rc.d_old/init.d/halt:78 etc/rc.d/init.d/halt:95
+msgid "Sending all processes the TERM signal..."
+msgstr ""
+
+#: etc/rc.d/init.d/netfs:79
+#, fuzzy
+msgid "Unmounting network block filesystems (retry): "
+msgstr "Ag Mountáil na chorais comhaid eile: "
+
+#: ../rc.d_old/init.d/halt:69 etc/rc.d/init.d/halt:75
+msgid "Usage: (halt|reboot) {start}\n"
+msgstr "Úsáid: (halt|reboot) {start}\n"
+
+#: etc/rc.d/init.d/httpd:172
+msgid "Apache-mod_perl is running.\n"
+msgstr ""
+
+#: ../rc.d_old/init.d/halt:155 etc/rc.d/init.d/halt:194
+msgid "Unmounting file systems (retry): "
+msgstr ""
+
+#: etc/rc.d/init.d/httpd:173
+msgid "httpd-perl: `pidof httpd-perl`\n"
+msgstr ""
+
+#: etc/rc.d/init.d/amd:38 etc/rc.d/init.d/named:43 etc/rc.d/init.d/nscd:58
+#, c-format
+msgid "Stopping %s: "
+msgstr "Ag Stoppadh %s: "
+
+#: etc/rc.d/init.d/httpd:216
+#, c-format
+msgid ""
+"Usage: %s {start|stop|restart|reload/graceful|update|status|configtest}\n"
+msgstr ""
+"Úsáid: %s {start|stop|restart|reload/graceful|update|status|configtest}\n"
+
+#: etc/rc.d/init.d/anacron:36
+#, fuzzy
+msgid "anacron shutdown"
+msgstr "Ag Stoppadh an Seirbhís `ncsd'"
+
+#: etc/rc.d/init.d/kudzu:85
+#, c-format
+msgid "Usage: %s {start|stop}\n"
+msgstr "Úsáid: %s {start|stop}\n"
+
+#: etc/rc.d/init.d/httpd:84
+msgid "Checking configuration sanity for httpd: "
+msgstr ""
+
+#: etc/rc.d/init.d/usb:193
+msgid "Loading USB keyboard"
+msgstr ""
+
+#: etc/rc.d/init.d/network:114 etc/rc.d/init.d/network:140
+#, fuzzy, c-format
+msgid "Bringing up interface %s: "
+msgstr "Ag Tosnú an gaireas %s: "
+
+#: etc/rc.d/init.d/httpd:167
+msgid "Apache is running.\n"
+msgstr ""
+
+#: etc/rc.d/init.d/amd:29 etc/rc.d/init.d/drakxtools_http:10
+#: etc/rc.d/init.d/gated:39 etc/rc.d/init.d/named:31 etc/rc.d/init.d/nscd:49
+#, c-format
+msgid "Starting %s: "
+msgstr "Ag Tosnú %s: "
+
+#: etc/rc.d/init.d/ntpd:59
+#, fuzzy
+msgid "Usage: ntpd {start|stop|restart|status}\n"
+msgstr "Úsáid: dhcpd {start|stop|restart|status}\n"
+
+#: ../rc.d_old/init.d/network:49 etc/rc.d/init.d/network:70
+msgid "Bringing up interface lo: "
+msgstr ""
+
+#: etc/rc.d/init.d/sound:24
+msgid "Setting mixer settings"
+msgstr ""
+
+#: etc/rc.d/init.d/postgresql:82
+msgid "An old version of the database format was found.\n"
+msgstr ""
+
+#: etc/rc.d/init.d/mosix:89
+msgid "you need to type this node's MOSIX-number now.\n"
+msgstr ""
+
+#: ../rc.d_old/init.d/halt:37 ../rc.d_old/init.d/halt:56
+msgid "Please stand by while rebooting the system...\n"
+msgstr ""
+
+#: ../rc.d/rc.sysinit:68 ../rc.d/rc.sysinit:70 ../rc.d/rc.sysinit:825
+#: ../rc.d_old/rc.sysinit:648
+msgid "Setting default font: "
+msgstr ""
+
+#: etc/rc.d/init.d/acon:54
+#, fuzzy, c-format
+msgid "Usage: %s\n"
+msgstr "Saghas Carta: %s\n"
+
+#: ../rc.d_old/init.d/halt:199 etc/rc.d/init.d/halt:235
+msgid "Otherwise, the UPS may cut the power during the reboot!!!\n"
+msgstr ""
+
+#: ../rc.d_old/init.d/single:61 etc/rc.d/init.d/single:61
+msgid "Telling INIT to go to single user mode.\n"
+msgstr ""
+
+#: ../rc.d_old/init.d/network:143 etc/rc.d/init.d/network:203
+msgid "Disabling IPv4 automatic defragmentation: "
+msgstr ""
+
+#: etc/rc.d/init.d/atalk:81
+#, fuzzy
+msgid "  Starting afpd:"
+msgstr "Ag Tosnú `acpid': "
+
+#: etc/rc.d/init.d/xfs:27
+msgid "Shutting down X Font Server: "
+msgstr "Ag Stoppadh an tSeirbhís Chlófhoireann X:  "
+
+#: etc/rc.d/init.d/network:67
+msgid "Storing ARP mapping"
+msgstr ""
+
+#: etc/rc.d/init.d/autofs:311
+msgid "Checking for changes to /etc/auto.master ....\n"
+msgstr ""
+
+#: ../rc.d/init.d/functions:276 ../rc.d/init.d/functions:287
+#: etc/rc.d/init.d/autofs:283 etc/rc.d/init.d/functions:276
+#: etc/rc.d/init.d/functions:287 etc/rc.d/init.d/nscd:67
+#: etc/rc.d/init.d/nscd:69
+#, fuzzy, c-format
+msgid "%s shutdown"
+msgstr "Ag Stoppadh an Seirbhís `ncsd'"
+
+#: ../rc.d_old/init.d/rawdevices:77 etc/rc.d/init.d/nfslock:112
+#: etc/rc.d/init.d/rawdevices:77 etc/rc.d/init.d/rwalld:45
+#: etc/rc.d/init.d/rwhod:45
+#, c-format
+msgid "Usage: %s {start|stop|status|restart}\n"
+msgstr "Úsáid: %s {start|stop|status|restart}\n"
+
+#: etc/rc.d/init.d/ipchains:52
+msgid "Flushing all current rules and user defined chains:"
+msgstr ""
+
+#: ../rc.d/rc.sysinit:903 ../rc.d_old/rc.sysinit:694
+#, c-format
+msgid "Resetting hostname %s: "
+msgstr "Ag athlódáil an t-óstainm %s: "
+
+#: etc/rc.d/init.d/rwhod:29
+msgid "Stopping rwho services: "
+msgstr "Ag Stoppadh na tSeirbhís `rwho': "
+
+#: etc/rc.d/init.d/mysql:188
+#, fuzzy, c-format
+msgid "usage: %s start|stop|status|reload|restart\n"
+msgstr "Úsáid: %s {start|stop|status|reload|restart}\n"
+
+#: etc/rc.d/init.d/xntpd:27
+msgid "Syncing time for xntpd. "
+msgstr ""
+
+#: etc/rc.d/init.d/acon:26
+msgid "Urdu"
+msgstr "Urdú"
+
+#: etc/rc.d/init.d/nfslock:63
+msgid "Shutting down NFS file locking services: \n"
+msgstr ""
+
+#: etc/rc.d/init.d/nfs:73
+msgid "Shutting down NFS mountd: "
+msgstr ""
+
+#: ../rc.d/init.d/functions:408 ../rc.d_old/init.d/functions:363
+#: etc/rc.d/init.d/functions:408
+msgid "FAILED"
+msgstr "TEIP"
+
+#: ../rc.d/rc.sysinit:970
+#, c-format
+msgid "Making encrypted swap for %s: "
+msgstr ""
+
+#: etc/rc.d/init.d/adsl:25
+msgid "Bringing up ADSL link"
+msgstr "Ag Tosnú bealach ADSL"
+
+#: etc/rc.d/init.d/nfs:79
+msgid "Shutting down NFS services: "
+msgstr "Ag Tosnú na seirbishí NFS: "
+
+#: etc/rc.d/init.d/usbd:35
+msgid "Reloading USB daemon configuration."
+msgstr "Ag athlódáil an comraíocht na tseirbhís USB"
+
+#: etc/rc.d/init.d/httpd:156 etc/rc.d/init.d/httpd:161
+msgid "#######################################\n"
+msgstr ""
+
+#: etc/rc.d/init.d/mosix:87
+msgid "If this node's standard IP address is not part of the table that\n"
+msgstr ""
+
+#: etc/rc.d/init.d/ibod:24
+msgid "start"
+msgstr ""
+
+#: etc/rc.d/init.d/fwctl:21
+msgid "Configuring IP packet filters"
+msgstr "Ag cumraíocht na scagairí IP"
+
+#: etc/rc.d/init.d/sshd:88
+msgid "Generating SSH2 DSA host key: "
+msgstr ""
+
+#: etc/rc.d/init.d/ipchains:57 etc/rc.d/init.d/ipchains:58
+msgid "Applying ipchains firewall rules"
+msgstr ""
+
+#: ../rc.d_old/init.d/halt:180
+msgid "Turning off RAID: "
+msgstr ""
+
+#: etc/rc.d/init.d/halt:169 etc/rc.d/init.d/netfs:56
+#, fuzzy
+msgid "Unmounting loopback filesystems (retry):"
+msgstr "Ag Mountáil na chorais comhaid eile: "
+
+#: etc/rc.d/init.d/mosix:109
+#, fuzzy
+msgid "Restarting MOSIX...\n"
+msgstr "Ag Tosnú `iprofd' ...\n"
+
+#: etc/rc.d/init.d/ipchains:93 etc/rc.d/init.d/ipchains:94
+msgid "Changing target policies to DENY"
+msgstr ""
+
+#: etc/rc.d/init.d/mosix:104
+#, fuzzy
+msgid "Stopping MOSIX...\n"
+msgstr "Ag Stopadh iprofd ...\n"
+
+#: etc/rc.d/init.d/sshd:75
+msgid "Generating SSH2 RSA host key: "
+msgstr ""
+
+#: etc/rc.d/init.d/keytable:89
+msgid "No status available for this package\n"
+msgstr ""
+
+#: ../rc.d_old/rc.sysinit:626
+msgid "(Repair filesystem) \\#"
+msgstr ""
+
+#: ../rc.d_old/init.d/network:166 etc/rc.d/init.d/network:233
+msgid "Currently active devices:\n"
+msgstr ""
+
+#: etc/rc.d/init.d/postgresql:83
+msgid "You need to upgrade the data format before using PostgreSQL.\n"
+msgstr ""
+
+#: etc/rc.d/init.d/ypserv:71
+#, fuzzy, c-format
+msgid "Usage: %s {start|stop|status|reload|restart|condrestart}\n"
+msgstr "Ísáid: %s {start|stop|status|restart|condrestart}\n"
+
+#: etc/rc.d/init.d/apcupsd:34
+msgid "Shutting down UPS monitoring:"
+msgstr ""
+
+#: ../rc.d_old/rc.local:54
+#, c-format
+msgid "Welcome to %s\n"
+msgstr "Fáilte go dtí %s\n"
+
+#: etc/rc.d/init.d/gated:30
+#, fuzzy, c-format
+msgid "Not starting %s: "
+msgstr "Ag Tosnú %s: "
+
+#: etc/rc.d/init.d/mosix:57
+msgid "Initializing MOSIX...\n"
+msgstr ""
+
+#: etc/rc.d/init.d/nfslock:65
+msgid "Shutting down NFS lockd: "
+msgstr "Ag Stoppadh `lockd NFS': "
+
+#: etc/rc.d/init.d/ipsec:62 etc/rc.d/init.d/ipsec:440
+#: etc/rc.d/init.d/ipsec:448 etc/rc.d/init.d/ipsec:490
+#, fuzzy
+msgid "ipsec startup"
+msgstr "Ag Tosnú na tSeirbhís `sshd'"
+
+#: ../rc.d_old/init.d/netfs:108
+#, c-format
+msgid "Usage: %s {start|stop|restart|reload|status}"
+msgstr "Úsáid: %s {start|stop|restart|reload|status}"
+
+#: ../rc.d_old/init.d/network:156 etc/rc.d/init.d/network:223
+msgid "Configured devices:\n"
+msgstr "Gaireasanna Cumraíocht:\n"
+
+#: etc/rc.d/init.d/rwalld:29
+msgid "Stopping rwall services: "
+msgstr "Ag Stoppadh na Seirbhísí 'rwall': "
+
+#: etc/rc.d/init.d/jabber:54 etc/rc.d/init.d/jabber:55
+#: etc/rc.d/init.d/jabber:64 etc/rc.d/init.d/jabber:67
+#: etc/rc.d/init.d/jabber:91 etc/rc.d/init.d/jabber:92
+#: etc/rc.d/init.d/jabber-icq:54 etc/rc.d/init.d/jabber-icq:55
+#: etc/rc.d/init.d/jabber-icq:65 etc/rc.d/init.d/jabber-icq:67
+#: etc/rc.d/init.d/jabber-icq:90 etc/rc.d/init.d/jabber-icq:91
+msgid " "
+msgstr ""
+
+#: ../rc.d/rc.sysinit:115
+msgid " #### that your bootloader gives to the kernel"
+msgstr ""
+
+#: ../rc.d/rc.sysinit:907 ../rc.d_old/rc.sysinit:698
+#, c-format
+msgid "Resetting NIS domain name %s: "
+msgstr ""
+
+#: ../rc.d_old/init.d/network:198 etc/rc.d/init.d/network:265
+#: etc/rc.d/init.d/network:269
+#, c-format
+msgid "Adding internal IPX network %s %s: "
+msgstr ""
+
+#: etc/rc.d/init.d/ypxfrd:22
+#, fuzzy
+msgid "Starting YP map server: "
+msgstr "Ag Tosnú `jserver': "
+
+#: ../rc.d_old/init.d/halt:52
+msgid "The system is halted\n"
+msgstr "Tá an corás stoppadh.\n"
+
+#: etc/rc.d/init.d/atalk:118 etc/rc.d/init.d/atalk:125
+#, fuzzy
+msgid "  Stopping timelord:"
+msgstr "Ag Stoppadh `amd': "
+
+#: etc/rc.d/init.d/nfslock:69
+msgid "Shutting down NFS statd: "
+msgstr "Ag Stoppadh an tSeirbhís  `NFS statd': "
+
+#: ../rc.d_old/rc.sysinit:561
+msgid "Checking filesystems"
+msgstr ""
+
+#: etc/rc.d/init.d/lvs:41 etc/rc.d/init.d/lvs:43
+msgid "Applying ipvsadm rules"
+msgstr ""
+
+#: ../rc.d_old/init.d/random:44 etc/rc.d/init.d/random:44
+msgid "The random data source exists\n"
+msgstr ""
+
+#: etc/rc.d/init.d/ypxfrd:31
+#, fuzzy
+msgid "Stopping YP map server: "
+msgstr "Ag Stoppadh na Seirbhísí 'rwall': "
+
+msgid " cardmgr is already running.\n"
+msgstr ""
+
+msgid " done\n"
+msgstr " críochnaithe.\n"
+
+msgid ""
+"$alias device does not seem to be present, delaying ${DEVICE} initialization."
+msgstr ""
+
+msgid "%s: Cannot find myself"
+msgstr ""
+
+msgid "%s: Unknown system, please port and contact autofs@linux.kernel.org"
+msgstr ""
+
+msgid "(Try '/usr/local/bin/isdn' for configuration)\n"
+msgstr ""
+
+msgid "(no mouse is configured)"
+msgstr ""
+
+msgid "Adding local broadcast host route: "
+msgstr ""
+
+msgid "Automounter not running\n"
+msgstr ""
+
+msgid "Automounter not stopped yet: retrying... (attempt %s)"
+msgstr ""
+
+msgid "Binding to the NIS domain... "
+msgstr ""
+
+msgid "CardID: %s\n"
+msgstr "CardID: %s\n"
+
+msgid "CardName: %s\n"
+msgstr "Ainm Carta: %s\n"
+
+msgid "CardType: %s\n"
+msgstr "Saghas Carta: %s\n"
+
+msgid "Check parameters in '/etc/sysconfig/isdn'!\n"
+msgstr ""
+
+msgid "Checking postgresql installation: "
+msgstr ""
+
+msgid "Configuring kernel for dynamic ip re-routing\n"
+msgstr ""
+
+msgid "Creating postgres database (waiting 5 seconds)\n"
+msgstr ""
+
+msgid "Giving up on automounter\n"
+msgstr ""
+
+msgid "HFC-2BS0 based cards"
+msgstr ""
+
+msgid "HardDrake loaded\n"
+msgstr ""
+
+msgid "HylaFAX ERROR (old setup.cache) please run  faxsetup -server\n"
+msgstr ""
+
+msgid "ISDN-Module not defined in isdn4linux!\n"
+msgstr ""
+
+msgid "Initialization of ISDN failed!\n"
+msgstr ""
+
+msgid "Killing host route we defined at startup: "
+msgstr ""
+
+msgid "Killing mysqld with pid %s\n"
+msgstr ""
+
+msgid "Listening for an NIS domain server: "
+msgstr ""
+
+msgid "Loading (old) Teles driver ...\n"
+msgstr ""
+
+msgid "Loading ICN driver ...\n"
+msgstr ""
+
+msgid "Module settings from /etc/conf.modules"
+msgstr ""
+
+msgid "PCIC module not defined in startup options!\n"
+msgstr ""
+
+msgid "Parameters: %s\n"
+msgstr "Paramadéirí: %s\n"
+
+msgid "Reloading X Font Server config: "
+msgstr ""
+
+msgid "Reloading automounter: checking for changes ... \n"
+msgstr ""
+
+msgid "Reloading fetchmailrc file: "
+msgstr ""
+
+msgid "Restarting High-Availability services: "
+msgstr ""
+
+msgid "Restarting NFS file locking services: "
+msgstr ""
+
+msgid "Sedlbauer PC/104 or Speed card"
+msgstr ""
+
+msgid "Shutting Fechmail services: "
+msgstr "Ag Stoppadh Seirbishí `Fetchmail': "
+
+msgid "Shutting down cfd: "
+msgstr "Ag Stoppadh an tSeirbhís cfd "
+
+msgid "Shutting down console mouse services: "
+msgstr ""
+
+msgid "Shutting down gated: "
+msgstr "Ag Stoppadh `gated': "
+
+msgid "Shutting down isdn/ippp devices (if any)\n"
+msgstr ""
+
+msgid "Shutting down isdn4linux\n"
+msgstr "Ag Stoppadh `isdn4linux'\n"
+
+msgid "Shutting down mcserv services: "
+msgstr "Ag Stoppadh na Seirbishí mcserv "
+
+msgid "Shutting down snmpd: "
+msgstr "Ag  Stoppadh an tSeirbhís 'snmpd':  "
+
+msgid "Start %s\n"
+msgstr "Tosnú %s\n"
+
+msgid "Starting Fechmail services: "
+msgstr ""
+
+msgid "Starting ISDN for Linux...\n"
+msgstr "Ag Tosnú na tSeirbhís ISDN...\n"
+
+msgid "Starting Name Switch Cache Daemon: "
+msgstr ""
+
+msgid "Starting automounter:"
+msgstr "Ag Tosnú  `automounter': "
+
+msgid "Starting automounter: "
+msgstr "Ag Tosnú `automounter': "
+
+msgid "Starting cfd: "
+msgstr "Ag Tosnú an seirbhís `cfd': "
+
+msgid "Starting console mouse services: "
+msgstr ""
+
+msgid "Starting cron daemon: "
+msgstr "ag Tosnú an tSeirbhís cron"
+
+msgid "Starting iprofd ...\n"
+msgstr "Ag Tosnú `iprofd' ...\n"
+
+msgid "Starting portmapper: "
+msgstr ""
+
+msgid "Starting routed (RIP) services: "
+msgstr "Ag Tosnú na seirbishí `routed' (RIP): "
+
+msgid "Starting snmpd: "
+msgstr "Ag Tosnú snmpd: "
+
+msgid "Starting xinetd: "
+msgstr "Ag Tosnú xinetd: "
+
+msgid "Stopping Name Switch Cache Daemon: "
+msgstr ""
+
+msgid "Stopping automounter.\n"
+msgstr ""
+
+msgid "Stopping automounter:"
+msgstr "iAg Stoppadh na  tSeirbhís `automounter':"
+
+msgid "Stopping automounter: %s\n"
+msgstr ""
+
+msgid "Stopping portmap services: "
+msgstr ""
+
+msgid "Stopping routed (RIP) services: "
+msgstr ""
+
+msgid "Stopping xinetd: "
+msgstr "Ag Stoppadh `xinetd': "
+
+msgid "Suspending with '%s' "
+msgstr ""
+
+msgid "There is no way to reload %s as their isn't any config file.\n"
+msgstr ""
+
+msgid "Trying harder\n"
+msgstr ""
+
+msgid "USR Sportster internal"
+msgstr "Modéim intíre USR Sportster"
+
+msgid "Unknown ISDN driver %s!\n"
+msgstr "Tá Tíomáin ISDN %s gan aithne!\n"
+
+msgid "Unknown card. Using PCI mode (no parameters)"
+msgstr ""
+
+msgid "Unloading ISDN drivers ...\n"
+msgstr ""
+
+msgid "Usage: %s start|stop|restart|status}\n"
+msgstr "Usáid: %s start|stop|restart|status}\n"
+
+msgid "Usage: %s { start | stop | status | restart | condrestart }\n"
+msgstr "Úsáid: %s { start | stop | status | restart | condrestart }\n"
+
+msgid "Usage: %s {start|stop|restart\n"
+msgstr "Úsáid: %s {start|stop|restart}\n"
+
+msgid "Usage: %s {start|stop|restart|status|panic|save}"
+msgstr "Úsáid: %s {start|stop|restart|status|panic|save}"
+
+msgid "Usage: %s {start|stop|restart|status|reread|resume"
+msgstr "Úsáid: %s {start|stop|restart|status|reread|resume"
+
+msgid "Usage: %s {start|stop|status|restart|condrestart|faxgettyreset}\n"
+msgstr "Úsáid: %s {start|stop|status|restart|condrestart|faxgettyreset}\n"
+
+msgid "Usage: %s {start|stop|status|restart|condrestart|reload}\n"
+msgstr "Úsáid: %s {start|stop|status|restart|condrestart|reload}\n"
+
+msgid "Usage: %s {start|stop|status|save|restart|reload}\n"
+msgstr "Úsáid: %s {start|stop|status|save|restart|reload}\n"
+
+msgid "Wait for mysqld to exit"
+msgstr ""
+
+msgid "Warning, Webmin installation failed\n"
+msgstr "Rabdadh: Teip ag feistiú Webmin\n"
+
+msgid "Was not suspended "
+msgstr ""
+
+msgid "autofs shutdown"
+msgstr ""
+
+msgid "cardmgr (pid %s) is running...\n"
+msgstr ""
+
+msgid "cardmgr is stopped\n"
+msgstr ""
+
+msgid "could not make temp file\n"
+msgstr ""
+
+msgid "gated done"
+msgstr "Is 'gated' críochnaithe."
+
+msgid "isdn4linux is disabled\n"
+msgstr "Is `isdn4linux' míchumarsadach\n"
+
+msgid "isdn4linux is enabled\n"
+msgstr ""
+
+msgid "looks good!\n"
+msgstr ""
+
+msgid "miniserv.pl (pid %s) is running...\n"
+msgstr ""
+
+msgid "miniserv.pl is stopped\n"
+msgstr "Is miniserv.pl stoppadh.\n"
+
+msgid "no database files found.\n"
+msgstr ""
+
+msgid "no dhcp in /etc/conf.linuxconf, get eth0 as default interface \n"
+msgstr ""
+
+msgid "numlock is disabled\n"
+msgstr "Tá 'numlock' míchumarsaid.\n"
+
+msgid "numlock is enabled\n"
+msgstr "Is 'numlock' cumasach\n"
+
+msgid "old version. Need to Upgrade.\n"
+msgstr ""
+
+msgid "postmaster [%s]"
+msgstr "postmaster [%s]"
+
+msgid "reload jabber"
+msgstr ""
+
+msgid "usage: %s {start|stop}\n"
+msgstr "úsáid:  %s {start|stop}\n"
+
+msgid "Starting identd: "
+msgstr "Ag Tosnú identd: "
+
+msgid "Shutting down lpd: "
+msgstr "Ag Stoppadh `lpd':"
+
+msgid "Starting VNC server: "
+msgstr "Ag Tosnú an Seirbhís `VNC': "
+
+msgid "Restarting INN Service: "
+msgstr "Ag athlódáil an Seirbhís INN: "
+
+msgid "Starting sendmail: "
+msgstr "Ag Tosnú `sendmail': "
+
+msgid "Starting numlock: "
+msgstr "Ag Tosnú `numlock': "
+
+msgid "Shutting down ldap: "
+msgstr "Ag Stoppadh `ldap': "
+
+msgid "Starting Jabber: "
+msgstr "Ag Tosnú Jabber: "
+
+msgid "Starting amd: "
+msgstr "Ag Tosnú `amd': "
+
+msgid "Stopping identd services: "
+msgstr "Ag Stoppadh na Seirbhisí `identd': "
+
+msgid "Stopping arpwatch: "
+msgstr "Ag Stoppadh `arpwatch': "
+
+msgid "Starting lpd: "
+msgstr "Ag Tosnú `lpd': "
+
+msgid "Stopping rusers services: "
+msgstr "Ag Stoppadh an Seirbhishí `rusers': "
+
+msgid "Stopping INNWatch service: "
+msgstr "Ag Stoppadh an tSeirbhís INNWatch"
+
+#, fuzzy
+msgid "Welcome to Mandrake Linux"
+msgstr "Fáilte go dtí Linux-Mandrake"
+
+msgid "Shutting down HylaFAX server: "
+msgstr "Ag stopadh "
+
+msgid "Shutting down acpid: "
+msgstr "Ag Stoppadh na seirbhís `acpid': "
+
+msgid "Starting bootparamd services: "
+msgstr "Ag Tosnú na tSeirbhís `bootparamd':"
+
+msgid "Stopping portsentry: "
+msgstr "Ag Stoppadh `portsentry': "
+
+msgid "Starting PCMCIA services:"
+msgstr "Ag Tosnú na tSeirbhís PCMCIA: "
+
+msgid "Shutting down sendmail: "
+msgstr "Ag Stoppadh an tSeirbhís 'sendmail': "
+
+msgid "Starting named: "
+msgstr "Ag Tosnú `named': "
+
+msgid "Shutting down PCMCIA services:"
+msgstr "Ag Stoppadh na seribhishí PCMCIA: "
+
+msgid "Starting IrDA: "
+msgstr "Ag Tosnú IrDA: "
+
+msgid "Shutting down NIS services: "
+msgstr "Ag Stoppadh an tSeirbhís `NIS': "
+
+msgid "Shutting down IrDA: "
+msgstr "Ag Stoppadh IrDA: "
+
+msgid "Starting HylaFAX server: "
+msgstr "Ag Tosnú an Seirbhís `HylaFax' : "
+
+msgid "Starting arpwatch: "
+msgstr "Ag Tosnú `arpwatch': "
+
+#~ msgid "OK"
+#~ msgstr "CEART"
+
+#~ msgid "Reloading INN Service: "
+#~ msgstr "Ag athlódáil an tSeirbhís INN: "

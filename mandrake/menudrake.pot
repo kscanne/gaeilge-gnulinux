@@ -1,0 +1,507 @@
+# translation messages for Menudrake.
+# Copyright (C) 2000 Free Software Foundation, Inc.
+# Copyright (c) 2000 MandrakeSoft.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: menudrake 0.2\n"
+"POT-Creation-Date: 2002-02-11 19:19+0100\n"
+"PO-Revision-Date: 2000-10-03 19:47+0200\n"
+"Last-Translator: Alastair McKinstry <mckinstry@computer.org>\n"
+"Language-Team: Irish <ga@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ISO-8859-15\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/menudrake.c:53
+msgid "-h\t--help\t\tDisplay this help"
+msgstr "-h\t--help\tTaispeán an scéal cúidiú seo"
+
+#: src/menudrake.c:54
+msgid "-u\t--usermenu\tEdit user menu"
+msgstr "-u\t--usermenu\tEagar chlár úsáideoir"
+
+#: src/menudrake.c:55
+msgid "-s\t--systemmenu\tEdit System menu"
+msgstr "-s\t--systemmenu\tEagar Chlár Coráis"
+
+#: src/menudrake.c:56
+msgid "-m\t--menu-style\tOpen Menu Style dialog"
+msgstr ""
+
+#: src/menudrake.c:272
+msgid "Loading menu structure"
+msgstr ""
+
+#: src/menudrake.c:287
+msgid "Loading available applications"
+msgstr ""
+
+#: src/menudrake.c:300
+msgid "-adobe-helvetica-*-r-normal-*-24-*-*-*-p-*-*-*,*"
+msgstr "-adobe-helvetica-*-r-normal-*-24-*-*-*-p-*-*-*,*"
+
+#: menudrake.glade.h:34 src/menudrake.c:304 src/menudrake.c:308
+msgid "Menu Style"
+msgstr ""
+
+#: src/menudrake.c:360
+msgid "Unable to find menudrake.glade file"
+msgstr ""
+
+#. grr, need to set real title to applications ctree, libglade doesn't show it
+#: menudrake.glade.h:15 src/menudrake.c:366
+msgid "Available applications"
+msgstr ""
+
+#: src/callbacks.c:2294 src/objmenu.c:181
+#, c-format
+msgid "Cannot get stat for file %s"
+msgstr ""
+
+#: src/callbacks.c:2301 src/objmenu.c:183 src/objmenu.c:197
+#, c-format
+msgid "Cannot close dir: %s"
+msgstr "Téip ag dúnadh comhadlann: %s"
+
+#: src/objmenu.c:307
+#, c-format
+msgid "Unable to open file %s\n"
+msgstr "Téip ag oscailt comhad: %s\n"
+
+#: src/objmenu.c:397
+#, c-format
+msgid "Too long value for attribute %s in entry %s, attribute not saved"
+msgstr ""
+
+#: src/objmenu.c:403
+msgid "cannot write menu to file"
+msgstr ""
+
+#: src/objmenu.c:414 src/objmenu.c:417 src/objmenu.c:421 src/objmenu.c:496
+msgid "cannot write menu entry to the menu edit file"
+msgstr ""
+
+#: src/callbacks.c:1794 src/callbacks.c:1843 src/callbacks.c:1894
+#: src/objmenu.c:440
+#, c-format
+msgid "cannot create directory:%s"
+msgstr "Teip ag cruthaigh eoilaire: %s"
+
+#: src/objmenu.c:480
+#, c-format
+msgid "cannot read menu file:%s"
+msgstr "Teip ag leámh comhad chlár: %s"
+
+#: src/objmenu.c:490
+#, c-format
+msgid "Cannot create file: %s"
+msgstr "Téip ag cruthaigh comhad: %s"
+
+#: src/objmenu.c:513
+#, c-format
+msgid "couldn't open the user menu file \"%s\" for writing"
+msgstr ""
+
+#: src/callbacks.c:200 src/callbacks.c:257
+msgid "Free older menu structure"
+msgstr ""
+
+#: src/callbacks.c:211
+msgid "Loading pixmap"
+msgstr "Ag Lódáil iomha"
+
+#: src/callbacks.c:224
+msgid "Creating standard menu structure"
+msgstr ""
+
+#: src/callbacks.c:245
+msgid "Inserting in tree"
+msgstr ""
+
+#: src/callbacks.c:279
+msgid "Sorting applications"
+msgstr ""
+
+#: src/callbacks.c:661
+msgid "couldn't find blue color in /usr/lib/X11/rgb.txt file"
+msgstr ""
+
+#: src/callbacks.c:744
+#, c-format
+msgid "Main window %p does not contain context attribute"
+msgstr ""
+
+#: src/callbacks.c:752 src/callbacks.c:953
+msgid "All environments"
+msgstr ""
+
+#: src/callbacks.c:824
+msgid "GtkCTreeNode hasn't associed data or isn't a GtkObject"
+msgstr ""
+
+#: src/callbacks.c:829
+msgid "Cannot found associed selected object with the node in menu list"
+msgstr ""
+
+#: src/callbacks.c:953 src/callbacks.c:956
+#, c-format
+msgid "Environment : %s"
+msgstr ""
+
+#: src/callbacks.c:1388
+msgid "No icon"
+msgstr "Gan dealbh"
+
+#: src/callbacks.c:1484
+msgid "Update menu configuration finished"
+msgstr ""
+
+#: src/callbacks.c:1488 src/callbacks.c:1525
+msgid "Update menu configuration finished with error !!!"
+msgstr ""
+
+#: src/callbacks.c:1514 src/callbacks.c:1530
+msgid "Update menu configuration"
+msgstr ""
+
+#: src/callbacks.c:1523
+msgid "cannot update menu"
+msgstr ""
+
+#: src/callbacks.c:1535 src/callbacks.c:1728
+msgid "Already busy"
+msgstr ""
+
+#: src/callbacks.c:1580 src/callbacks.c:1583
+#, c-format
+msgid "Submenu %d"
+msgstr "fó-chlar %d"
+
+#: src/callbacks.c:1601 src/callbacks.c:1604
+#, c-format
+msgid "Application %d"
+msgstr "Ríomhchlar %d"
+
+#: src/callbacks.c:1619
+msgid "select a node before\n"
+msgstr ""
+
+#: src/callbacks.c:1666
+msgid "Select a system application before"
+msgstr ""
+
+#: src/callbacks.c:1712
+msgid "Save menu configuration"
+msgstr ""
+
+#: src/callbacks.c:1722
+msgid "Menu configuration saved"
+msgstr ""
+
+#: src/callbacks.c:2013
+msgid "cannot change path to another entry with the same name"
+msgstr ""
+
+#: src/callbacks.c:2030
+msgid "Title changed for an anonymous object"
+msgstr ""
+
+#: src/callbacks.c:2047
+msgid "Command changed for an anonymous object"
+msgstr ""
+
+#: src/callbacks.c:2061
+msgid "Long title changed for an anonymous object"
+msgstr ""
+
+#: src/callbacks.c:2078
+msgid "Needs changed for an anonymous object"
+msgstr ""
+
+#: src/callbacks.c:2207
+msgid "Add attribute"
+msgstr ""
+
+#: src/callbacks.c:2213
+msgid "Modify attribute"
+msgstr ""
+
+#: src/callbacks.c:2220
+msgid "Delete attribute"
+msgstr "Dealaigh"
+
+#: src/callbacks.c:2288
+#, c-format
+msgid "Cannot open directory: %s"
+msgstr "Téip ag oscailt comhadlann: %s"
+
+#: src/callbacks.c:2797
+msgid "Security warning : menudrake won't start browser as root"
+msgstr ""
+
+#. error
+#: src/callbacks.c:2816
+msgid "Unable to run browser"
+msgstr ""
+
+#: menudrake.glade.h:2
+#, no-c-format
+msgid "%P %%"
+msgstr "%P %%"
+
+#: menudrake.glade.h:3
+msgid "\"All applications\" menu (also called Mandrake menu)"
+msgstr ""
+
+#: menudrake.glade.h:4
+msgid "\"What to do ?\" menu (also called Simplified menu)"
+msgstr ""
+
+#: menudrake.glade.h:5
+msgid "About"
+msgstr "Fá"
+
+#: menudrake.glade.h:6
+msgid "About MenuDrake"
+msgstr "Faoi MenuDrake"
+
+#: menudrake.glade.h:7
+msgid "Action"
+msgstr ""
+
+#: menudrake.glade.h:8
+msgid "Add application"
+msgstr "Cuir Ríomhchlár"
+
+#: menudrake.glade.h:9
+msgid "Add directory"
+msgstr "Cuir comhadlann"
+
+#: menudrake.glade.h:10
+msgid "Add entry"
+msgstr ""
+
+#: menudrake.glade.h:11
+msgid "Add link to \"All applications\" menu"
+msgstr ""
+
+#: menudrake.glade.h:12
+msgid "Add link to \"What to do ?\" menu"
+msgstr ""
+
+#: menudrake.glade.h:13
+msgid "Attribute:\t"
+msgstr "Airi:\t"
+
+#: menudrake.glade.h:14
+msgid "Attributes"
+msgstr ""
+
+#: menudrake.glade.h:16
+msgid "Cancel"
+msgstr "Cealaigh"
+
+#: menudrake.glade.h:17
+msgid "Choose your menu style :"
+msgstr ""
+
+#: menudrake.glade.h:18
+msgid "Command:"
+msgstr "Ordu:"
+
+#: menudrake.glade.h:19
+msgid "Delete"
+msgstr "Dealaigh"
+
+#: menudrake.glade.h:20
+msgid "Delete entry"
+msgstr ""
+
+#: menudrake.glade.h:21
+msgid "Do you want to edit:"
+msgstr ""
+
+#: menudrake.glade.h:22
+msgid "Environment"
+msgstr ""
+
+#: menudrake.glade.h:23
+msgid "Exiting Menudrake"
+msgstr ""
+
+#: menudrake.glade.h:24
+msgid "Extended"
+msgstr ""
+
+#: menudrake.glade.h:25
+msgid "File"
+msgstr "Comhad"
+
+#: menudrake.glade.h:26
+msgid "General"
+msgstr "Gnáth"
+
+#: menudrake.glade.h:27
+msgid "Help"
+msgstr "Cuidigh"
+
+#: menudrake.glade.h:28
+msgid "Icon selector"
+msgstr ""
+
+#: menudrake.glade.h:29
+msgid "Icon:"
+msgstr "Dealbh:"
+
+#: menudrake.glade.h:30
+msgid "Long title:"
+msgstr "Tideal Fada:"
+
+#: menudrake.glade.h:31
+msgid "Mandrake customizations"
+msgstr ""
+
+#: menudrake.glade.h:32
+msgid "MandrakeCampus.com"
+msgstr "MandrakeCampus.com"
+
+#: menudrake.glade.h:33
+msgid "MandrakeExpert.com"
+msgstr "MandrakeExpert.com"
+
+#: menudrake.glade.h:35
+msgid "Menu to edit"
+msgstr ""
+
+#: menudrake.glade.h:36
+msgid "MenuDrake"
+msgstr "MenuDrake"
+
+#: menudrake.glade.h:37
+msgid "Menudrake Startup"
+msgstr "Socrú MenuDrake"
+
+#: menudrake.glade.h:38
+msgid ""
+"Menudrake is an application to edit  \n"
+"personal menu on Linux-Mandrake\n"
+"distribution.\n"
+"\n"
+"This application is under GNU GPL license \n"
+"and delivered without any warranty.\n"
+"\n"
+"\n"
+"You can send bug report to: \n"
+"http://www.mandrakeexpert.com/"
+msgstr ""
+
+#: menudrake.glade.h:48
+msgid ""
+"Menus have not been saved.\n"
+"Do you really want to quit?"
+msgstr ""
+
+#: menudrake.glade.h:50
+msgid "Modifications not saved"
+msgstr ""
+
+#: menudrake.glade.h:51
+msgid "Modifications of Menu style will be effective at your next login."
+msgstr ""
+
+#: menudrake.glade.h:52
+msgid "Modify Menu style"
+msgstr ""
+
+#: menudrake.glade.h:53
+msgid "No"
+msgstr "Níl"
+
+#: menudrake.glade.h:54
+msgid "OK"
+msgstr "Ceart go Leor"
+
+#: menudrake.glade.h:55
+msgid "Open in a terminal"
+msgstr ""
+
+#: menudrake.glade.h:56
+msgid ""
+"Original menu (default menu from KDE / GNOME, may not contains all "
+"applications)"
+msgstr ""
+
+#: menudrake.glade.h:57
+msgid "Path:"
+msgstr "Slí:"
+
+#: menudrake.glade.h:58
+msgid "Quit"
+msgstr "Éalaigh"
+
+#: menudrake.glade.h:59
+msgid "Reload system menu"
+msgstr ""
+
+#: menudrake.glade.h:60
+msgid "Reload user config"
+msgstr ""
+
+#: menudrake.glade.h:61
+msgid "Root menu"
+msgstr "Príomhchlár"
+
+#: menudrake.glade.h:62
+msgid "Save"
+msgstr "Sábháil"
+
+#: menudrake.glade.h:63
+msgid "System menu"
+msgstr "Coráschlár"
+
+#: menudrake.glade.h:64
+msgid "Title:"
+msgstr "Tideal:"
+
+#: menudrake.glade.h:65
+msgid "Toolbar"
+msgstr ""
+
+#: menudrake.glade.h:66
+msgid "Use system administrator settings"
+msgstr ""
+
+#: menudrake.glade.h:67
+msgid "Value:"
+msgstr "Luach:"
+
+#: menudrake.glade.h:68
+msgid "Values"
+msgstr ""
+
+#: menudrake.glade.h:69
+msgid "View"
+msgstr "Radharc"
+
+#: menudrake.glade.h:70
+msgid "Window Attribute"
+msgstr ""
+
+#: menudrake.glade.h:71
+msgid "Yes"
+msgstr "Tá"
+
+#: menudrake.glade.h:72
+msgid "You are running MenuDrake as root."
+msgstr ""
+
+#: menudrake.glade.h:73
+msgid "Your changes have not been saved. Do you want to continue?"
+msgstr ""
+
+msgid "title"
+msgstr "tidéal:"
+
+msgid "Mandrake menu"
+msgstr "Clár Mandrake"

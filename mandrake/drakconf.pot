@@ -1,0 +1,772 @@
+# Irish translations for DrakConf
+# Copyright (C) 2000 Free Software Foundation, Inc.
+# Copyright (c) 2000 MandrakeSoft
+# Proinnsis Breathnach <breatpro@dublin.ml.com>, 2000
+# Alastair McKinstry <mckinstry@computer.org>
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: DrakConf 0.52\n"
+"POT-Creation-Date: 2002-03-17 00:28+0100\n"
+"PO-Revision-Date: 2000-09-07 16:24+0200\n"
+"Last-Translator: Alastair McKinstry <mckinstry@computer.org>\n"
+"Language-Team: Gaeilge <ga@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=iso-8859-1\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: placeholder.h:7
+msgid "DrakConf: error"
+msgstr "DrakConf: earraidh"
+
+#: logdrake:210 placeholder.h:8
+msgid "Quit"
+msgstr "Éalaigh"
+
+#: placeholder.h:9
+msgid ""
+"Error while parsing\n"
+"config file."
+msgstr ""
+"Teip ag parsáil\n"
+"comhad cumraíocht."
+
+#: placeholder.h:10
+msgid "Can't find any program\n"
+msgstr "Níl aon ríomhchlár ann\n"
+
+#: control-center:62
+#, fuzzy
+msgid "Mandrake Control Center"
+msgstr "Ionad Bainisteoireacht Mandrake %s"
+
+#: control-center:67
+#, fuzzy
+msgid "Loading... Please wait"
+msgstr "Ag Lódail, fam tamall le do thoil ..."
+
+#: control-center:83 control-center:138
+msgid "Boot Disk"
+msgstr "Diosca Bootáil"
+
+#: control-center:84 control-center:139
+msgid "Boot Config"
+msgstr "Cumraigh Boot"
+
+#: control-center:85 control-center:140
+msgid "Auto Install"
+msgstr "Uath-Feistiú"
+
+#: control-center:86 control-center:146
+msgid "Display"
+msgstr "Taispeántas"
+
+#: control-center:87 control-center:145
+#, fuzzy
+msgid "Hardware List"
+msgstr "Crua-earraí"
+
+#: control-center:88 control-center:148
+msgid "Mouse"
+msgstr "Luchóg"
+
+#: control-center:89 control-center:149
+msgid "Printer"
+msgstr "Clódóir"
+
+#: control-center:90 control-center:150
+msgid "Scanner"
+msgstr ""
+
+#: control-center:91 control-center:147
+msgid "Keyboard"
+msgstr "Eocharchlár"
+
+#: control-center:92 control-center:156
+#, fuzzy
+msgid "Hard Drives"
+msgstr "Crua-earraí"
+
+#: control-center:93 control-center:178
+msgid "NFS mount points"
+msgstr ""
+
+#: control-center:94 control-center:179
+msgid "Samba mount points"
+msgstr ""
+
+#: control-center:95 control-center:180
+msgid "Partition Sharing"
+msgstr ""
+
+#: control-center:96 control-center:185
+msgid "Connection"
+msgstr "Nasc"
+
+#: control-center:97 control-center:187
+msgid "Connection Sharing"
+msgstr ""
+
+#: control-center:98 control-center:186
+msgid "Proxy Configuration"
+msgstr ""
+
+#: control-center:99 control-center:192
+msgid "Security Level"
+msgstr "Leibhéil Slándáilach"
+
+#: control-center:100 control-center:198
+msgid "Menus"
+msgstr "Chlaranna"
+
+#: control-center:101 control-center:199
+msgid "Services"
+msgstr "Seirbishí"
+
+#: control-center:102 control-center:200
+msgid "Fonts"
+msgstr "Chlofhoireanna"
+
+#: control-center:103 control-center:201
+msgid "Date & Time"
+msgstr "Data & Am"
+
+#: control-center:104 control-center:202
+msgid "Software Manager"
+msgstr "Bainisteóir Bóg-Earraí"
+
+#: control-center:105 control-center:203 control-center:355
+msgid "Logs"
+msgstr ""
+
+#: control-center:106 control-center:204
+msgid "Console"
+msgstr "Consóil"
+
+#: control-center:109 control-center:122
+msgid "DNS Client"
+msgstr ""
+
+#: control-center:110 control-center:123
+msgid "DHCP"
+msgstr ""
+
+#: control-center:111 control-center:124
+msgid "DNS"
+msgstr "DNS"
+
+#: control-center:112 control-center:125
+msgid "FTP"
+msgstr ""
+
+#: control-center:113 control-center:126
+#, fuzzy
+msgid "News"
+msgstr "nuacht"
+
+#: control-center:114 control-center:127
+msgid "Postfix"
+msgstr ""
+
+#: control-center:115 control-center:128
+msgid "Proxy"
+msgstr "Seach-freastáil"
+
+#: control-center:116 control-center:129
+msgid "Samba"
+msgstr ""
+
+#: control-center:117 control-center:130
+#, fuzzy
+msgid "Server"
+msgstr "Seirbishí"
+
+#: control-center:118 control-center:131
+msgid "Time"
+msgstr "Am"
+
+#: control-center:119 control-center:132
+msgid "Web"
+msgstr ""
+
+#: control-center:136
+msgid "Boot"
+msgstr "Bootáil"
+
+#: control-center:143
+msgid "Hardware"
+msgstr "Crua-earraí"
+
+#: control-center:154
+msgid "Mount Points"
+msgstr ""
+
+#: control-center:171
+msgid "CD-ROM"
+msgstr "CD-ROM"
+
+#: control-center:172
+msgid "DVD"
+msgstr ""
+
+#: control-center:173
+msgid "CD Burner"
+msgstr ""
+
+#: control-center:174
+msgid "Floppy"
+msgstr ""
+
+#: control-center:175
+msgid "Zip"
+msgstr ""
+
+#: control-center:183
+msgid "Network & Internet"
+msgstr "Idirlíon"
+
+#: control-center:190
+msgid "Security"
+msgstr "Slándáil"
+
+#: control-center:196
+msgid "System"
+msgstr "Coras"
+
+#: control-center:210
+msgid "Server Configuration"
+msgstr ""
+
+#: control-center:224
+#, c-format
+msgid "Mandrake Control Center %s"
+msgstr "Ionad Bainisteoireacht Mandrake %s"
+
+#: control-center:288
+msgid "The modifications done in the current module won't be saved."
+msgstr ""
+
+#: control-center:337
+#, fuzzy
+msgid "Please wait..."
+msgstr "Ag Lódail, fam tamall le do thoil ..."
+
+#: clock.pl:131 control-center:340 control-center:662 logdrake:210
+#: logdrake:490
+msgid "Cancel"
+msgstr "Cealaigh"
+
+#: control-center:431 control-center:684 control-center:708
+#, fuzzy
+msgid "-*-helvetica-medium-r-normal-*-20-*-100-100-p-*-iso8859-1,*-r-*"
+msgstr "-adobe-times-bold-r-normal--14-*-100-100-p-*-iso8859-*,*-r-*"
+
+#: control-center:432
+#, fuzzy
+msgid "Welcome to the Mandrake Control Center"
+msgstr "Faoi Ionad Bainisteoireacht Mandrake"
+
+#: control-center:434
+#, c-format
+msgid "cannot open this file for read: %s"
+msgstr ""
+
+#: control-center:440
+msgid "System:"
+msgstr "Corás:"
+
+#: control-center:441
+msgid "Hostname:"
+msgstr "Ostainm:"
+
+#: control-center:442
+msgid "Kernel Version:"
+msgstr "Leagan Kernel:"
+
+#: control-center:443
+msgid "Machine:"
+msgstr "Meaisín:"
+
+#: control-center:558 control-center:575 control-center:597
+#, c-format
+msgid "cannot fork: %s"
+msgstr "Teip ag fork: %s"
+
+#: clock.pl:114 control-center:661 logdrake:483
+msgid "OK"
+msgstr "Ceart go Leor"
+
+#: control-center:661 control-center:682 control-center:704
+msgid "Close"
+msgstr "Dún"
+
+#: control-center:680
+msgid "More themes"
+msgstr ""
+
+#: control-center:686
+msgid "Getting new themes"
+msgstr ""
+
+#: control-center:687
+msgid "Additional themes"
+msgstr ""
+
+#: control-center:689
+msgid "Get additional themes on www.damz.net"
+msgstr ""
+
+#: control-center:702
+msgid "About - Mandrake Control Center"
+msgstr "Faoi Ionad Bainisteoireacht Mandrake"
+
+#: control-center:711
+#, fuzzy
+msgid "Author: "
+msgstr "Údáir: "
+
+#: control-center:714
+#, fuzzy
+msgid "Artwork: "
+msgstr "Údáir: "
+
+#: control-center:714
+msgid "Helene Durosini"
+msgstr "Hélène Durosini"
+
+#: control-center:725
+#, fuzzy, c-format
+msgid "Mandrake Control Center %s\n"
+msgstr "Ionad Bainisteoireacht Mandrake %s"
+
+#: control-center:727
+#, fuzzy
+msgid "Copyright (C) 2001 Mandrakesoft SA"
+msgstr ""
+"Ionad Bainisteoiréacht Mandrake %s\n"
+"\n"
+" Cóipcheart © 2001 Mandrakesoft SA\n"
+
+#: control-center:743
+msgid "Warning: No browser specified"
+msgstr ""
+
+#: control-center:751
+msgid ""
+"Security Warning: I'm not allowed to connect to the internet as root user"
+msgstr ""
+
+#: control-center:773 logdrake:97
+msgid "/_File"
+msgstr "/C_omhad"
+
+#: control-center:775
+msgid "/File"
+msgstr "/Comhad"
+
+#: control-center:775
+msgid "/_Quit"
+msgstr "/_Ériggh"
+
+#: control-center:776 logdrake:103
+msgid "<control>Q"
+msgstr "<control>E"
+
+#: control-center:778 logdrake:104
+msgid "/_Options"
+msgstr "/_Roghanna"
+
+#: control-center:780 control-center:783 control-center:810 control-center:811
+#, fuzzy
+msgid "/Options"
+msgstr "/_Roghanna"
+
+#: control-center:780
+#, fuzzy
+msgid "/Display _Logs"
+msgstr "Taispeántas"
+
+#: control-center:783
+msgid "/_Embedded Mode"
+msgstr ""
+
+#: control-center:787 control-center:800
+msgid "/_Themes"
+msgstr ""
+
+#: control-center:791
+msgid "/Themes"
+msgstr ""
+
+#: control-center:795
+msgid ""
+"This action will restart the control center.\n"
+"Any change not applied will be lost."
+msgstr ""
+
+#: control-center:800
+msgid "/_More themes"
+msgstr ""
+
+#: control-center:803 logdrake:106
+msgid "/_Help"
+msgstr "/C_úidiú"
+
+#: control-center:805
+msgid "/Help"
+msgstr "/Cúidiú"
+
+#: control-center:805
+msgid "/_About..."
+msgstr "/_Faoi..."
+
+#: control-center:810
+#, fuzzy
+msgid "/Display Logs"
+msgstr "Taispeántas"
+
+#: control-center:811
+msgid "/Embedded Mode"
+msgstr ""
+
+#: clock.pl:48
+msgid "DrakClock"
+msgstr "Chlóg"
+
+#: clock.pl:60
+msgid "Time Zone"
+msgstr "Am Críos"
+
+#: clock.pl:67
+msgid "Timezone - DrakClock"
+msgstr "Am Críos - DrakClock"
+
+#: clock.pl:67
+msgid "Which is your timezone?"
+msgstr "Cén ceann do chrois ama"
+
+#: clock.pl:69
+msgid "GMT - DrakClock"
+msgstr "DrakClock - GMT"
+
+#: clock.pl:69
+msgid "Is your hardware clock set to GMT?"
+msgstr "An bhfuil an clog cruaearrach ar GMT?"
+
+#: clock.pl:132
+msgid "Reset"
+msgstr ""
+
+#: menus_launcher.pl:34 menus_launcher.pl:36
+msgid "Menu Configuration Center"
+msgstr ""
+
+#: menus_launcher.pl:36
+msgid ""
+"\n"
+"\n"
+"Choose which menu you want to configure"
+msgstr ""
+
+#: menus_launcher.pl:45
+msgid "System menu"
+msgstr "Clar Choras"
+
+#: menus_launcher.pl:46 menus_launcher.pl:59 print_launcher.pl:46
+msgid "Configure..."
+msgstr "Cumraigh..."
+
+#: menus_launcher.pl:49
+msgid "User menu"
+msgstr "Clar Úsáideoir"
+
+#: menus_launcher.pl:70 print_launcher.pl:53
+msgid "Done"
+msgstr "Críochnaithe."
+
+#: print_launcher.pl:34 print_launcher.pl:36
+msgid "Printing configuration"
+msgstr ""
+
+#: print_launcher.pl:45
+msgid "Click here to configure the printing system"
+msgstr ""
+
+#: logdrake:81 logdrake:479
+msgid "logdrake"
+msgstr "logdrake"
+
+#: logdrake:91
+msgid "Show only for this day"
+msgstr ""
+
+#: logdrake:98
+msgid "/File/_New"
+msgstr "/Comhad/_Nua"
+
+#: logdrake:98
+msgid "<control>N"
+msgstr "<control>N"
+
+#: logdrake:99
+msgid "/File/_Open"
+msgstr "/Comhad/_Oscail"
+
+#: logdrake:99
+msgid "<control>O"
+msgstr "<control>O"
+
+#: logdrake:100
+msgid "/File/_Save"
+msgstr "/Comhad/_Sábháil"
+
+#: logdrake:100
+msgid "<control>S"
+msgstr "<control>S"
+
+#: logdrake:101
+msgid "/File/Save _As"
+msgstr "/Comhad/Sábháil _Le"
+
+#: logdrake:102
+msgid "/File/-"
+msgstr "/Conmhad/-"
+
+#: logdrake:103
+msgid "/File/_Quit"
+msgstr "'Comhad/_Éirigh"
+
+#: logdrake:105
+msgid "/Options/Test"
+msgstr "/Roghanna/Teastáil"
+
+#: logdrake:107
+msgid "/Help/_About..."
+msgstr "/Cúidiú/_Faoi..."
+
+#: logdrake:114
+msgid "-misc-fixed-medium-r-*-*-*-100-*-*-*-*-*-*,*"
+msgstr "-misc-fixed-medium-r-*-*-*-100-*-*-*-*-*-*,*"
+
+#: logdrake:115
+msgid "-misc-fixed-bold-r-*-*-*-100-*-*-*-*-*-*,*"
+msgstr "-misc-fixed-bold-r-*-*-*-100-*-*-*-*-*-*,*"
+
+#: logdrake:168
+msgid "authentification"
+msgstr "údarú"
+
+#: logdrake:169
+msgid "user"
+msgstr "úsáideoir"
+
+#: logdrake:170
+msgid "messages"
+msgstr "scéalaí"
+
+#: logdrake:171
+msgid "syslog"
+msgstr ""
+
+#: logdrake:172
+#, fuzzy
+msgid "Mandrake Tools Explanations"
+msgstr "Ionad Bainisteoireacht Mandrake %s"
+
+#: logdrake:178
+msgid "A tool to monitor your logs"
+msgstr ""
+
+#: logdrake:179
+msgid "Settings"
+msgstr "Roghnachais"
+
+#: logdrake:184
+msgid "matching"
+msgstr ""
+
+#: logdrake:185
+msgid "but not matching"
+msgstr ""
+
+#: logdrake:189
+msgid "Choose file"
+msgstr "Tóg comhad"
+
+#: logdrake:194
+msgid "Calendar"
+msgstr "Feilire"
+
+#: logdrake:200
+msgid "search"
+msgstr "faigh"
+
+#: logdrake:204
+msgid "Content of the file"
+msgstr ""
+
+#: logdrake:208 logdrake:373
+msgid "Mail/SMS alert"
+msgstr ""
+
+#: logdrake:209
+msgid "Save"
+msgstr "Sábháil"
+
+#: logdrake:253
+#, c-format
+msgid "please wait, parsing file: %s"
+msgstr "Ag Parsáil an comhad %s, fan tamall"
+
+#: logdrake:388
+msgid "Mail/SMS alert configuration"
+msgstr ""
+
+#: logdrake:389
+msgid ""
+"Welcome to the mail/SMS configuration utility.\n"
+"\n"
+"Here, you'll be able to set up \n"
+msgstr ""
+
+#: logdrake:395
+msgid ""
+"Apache is a World Wide Web server. It is used to serve HTML files and CGI."
+msgstr ""
+
+#: logdrake:396
+msgid ""
+"named (BIND) is a Domain Name Server (DNS) that is used to resolve host "
+"names to IP addresses."
+msgstr ""
+
+#: logdrake:397
+msgid "proftpd"
+msgstr ""
+
+#: logdrake:398
+msgid ""
+"Postfix is a Mail Transport Agent, which is the program that moves mail from "
+"one machine to another."
+msgstr ""
+
+#: logdrake:400
+msgid "sshd"
+msgstr ""
+
+#: logdrake:401
+#, fuzzy
+msgid "webmin"
+msgstr "greasán"
+
+#: logdrake:402
+msgid "xinetd"
+msgstr ""
+
+#: logdrake:405
+#, fuzzy
+msgid "service setting"
+msgstr "Seirbishí"
+
+#: logdrake:406
+msgid ""
+"You will receive an alert if one of the selected service is no more running"
+msgstr ""
+
+#: logdrake:416
+#, fuzzy
+msgid "load setting"
+msgstr "Roghnachais"
+
+#: logdrake:417
+msgid "You will receive an alert if the load is higher than this value"
+msgstr ""
+
+#: logdrake:428
+msgid "window title - ask_from"
+msgstr ""
+
+#: logdrake:429
+msgid ""
+"message\n"
+"examples of utilisation of ask_from"
+msgstr ""
+
+#: logdrake:456
+msgid "Save as.."
+msgstr "Sábháil mar..."
+
+#, fuzzy
+msgid "Install"
+msgstr "Uath-Feistiú"
+
+#, fuzzy
+msgid "Users"
+msgstr "úsáideoir"
+
+#, fuzzy
+msgid "-*-helvetica-medium-r-bold-*-14-*-100-100-p-*-iso8859-1,*-r-*"
+msgstr "-adobe-times-bold-r-normal--14-*-100-100-p-*-iso8859-*,*-r-*"
+
+#, fuzzy
+msgid "Technology Contributor: "
+msgstr "Údáir: "
+
+#, fuzzy
+msgid "-*-times-bold-r-normal-*-14-*-*-*-p-*-iso8859-1,*-r-*"
+msgstr "-adobe-times-bold-r-normal--14-*-100-100-p-*-iso8859-*,*-r-*"
+
+#, fuzzy
+msgid "-*-helvetica-medium-r-normal-*-*-190-*-*-p-*-iso8859-1,*-r-*"
+msgstr "-adobe-times-bold-r-normal--14-*-100-100-p-*-iso8859-*,*-r-*"
+
+#, fuzzy
+msgid "-*-helvetica-medium-r-normal-*-*-90-*-*-p-*-iso8859-1,*-r-*"
+msgstr "-adobe-times-bold-r-normal--14-*-100-100-p-*-iso8859-*,*-r-*"
+
+#, fuzzy
+msgid "-*-times-bold-r-normal--14-*-100-100-p-*-iso8859-*,*-r-*"
+msgstr "-adobe-times-bold-r-normal--14-*-100-100-p-*-iso8859-*,*-r-*"
+
+msgid "/_Report Bug"
+msgstr "/_Tuairaisc Fabht"
+
+msgid "/Help/-"
+msgstr "/Cúidiú/-"
+
+msgid "/Mandrake_Campus"
+msgstr "/Scoil_Mandrake"
+
+msgid "/Mandrake_Expert"
+msgstr "/Saineoli_Mandrake"
+
+#, fuzzy
+msgid "-urw-helvetica-medium-r-normal-*-*-90-*-*-p-*-iso8859-1"
+msgstr "-adobe-times-bold-r-normal--17-*-100-100-p-*-iso8859-*,*-r-*"
+
+msgid "Wizard"
+msgstr "Draíodóir"
+
+msgid "Dhcp Server"
+msgstr "Freastalaí Dhcp"
+
+msgid "Ftp Server"
+msgstr "Freastalaí Ftp"
+
+msgid "News Server"
+msgstr "Freastalaí Nuacht"
+
+msgid "Mail Server"
+msgstr "Freastalaí Post"
+
+msgid "Samba Server"
+msgstr "Freastalaí Samba"
+
+msgid "server"
+msgstr "freastalaí"
+
+msgid "Web Server"
+msgstr "Freastalaí Greasán"
+
+msgid "usage: logdrake [--version]\n"
+msgstr "Úsáid: logdrake [--version]\n"

@@ -1,0 +1,166 @@
+# Translation file of DrakProfile
+# Copyright (C) 2000 Mandrakesoft
+msgid ""
+msgstr ""
+"Project-Id-Version: DrakProfile 4\n"
+"POT-Creation-Date: 2000-10-28 00:25+0200\n"
+"PO-Revision-Date: 2000-10-03 19:47+0200\n"
+"Last-Translator: Alastair McKinstry <mckinstry@computer.org>\n"
+"Language-Team: Irish <ga@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ISO-8859-1\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. NOTE: replace 'oe' in Moeller by odiaeresis if your charset has it
+#: drakprofileBin:19 placeholder.h:12
+msgid ""
+"Copyright (C) 2000 by MandrakeSoft,\n"
+"RedHog (Egil Moeller) <redhog@mandrakesoft.com>"
+msgstr ""
+"Cpcheart © 2000 by MandrakeSoft,\n"
+"RedHog (Egil Möller) <redhog@mandrakesoft.com>"
+
+#: drakprofileBin:18
+msgid " version "
+msgstr " leagan "
+
+#: drakprofileBin:22
+msgid ""
+"This program is free software; you can redistribute it and/or modify\n"
+"it under the terms of the GNU General Public License as published by\n"
+"the Free Software Foundation; either version 2 of the License, or\n"
+"(at your option) any later version.\n"
+"\n"
+"This program is distributed in the hope that it will be useful, but\n"
+"WITHOUT ANY WARRANTY; without even the implied warranty of\n"
+"MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU\n"
+"General Public License for more details.\n"
+"\n"
+"You should have received a copy of the GNU General Public License\n"
+"along with this program; if not, write to the Free Software\n"
+"Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA\n"
+"02111-1307, USA."
+msgstr ""
+
+#: drakprofileBin:138
+msgid "Quit"
+msgstr "Éirigh"
+
+#: drakprofileBin:157 drakprofileBin:316
+msgid "Add"
+msgstr "Suim"
+
+#: drakprofileBin:160 drakprofileBin:317
+msgid "Remove"
+msgstr "Scríos"
+
+#: drakprofileBin:163 drakprofileBin:318
+msgid "Activate"
+msgstr ""
+
+#: drakprofileBin:166 drakprofileBin:319
+msgid "Configure"
+msgstr ""
+
+#: drakprofileBin:193 drakprofileBin:220
+msgid "Help"
+msgstr "Cúidiú"
+
+#: drakprofileBin:196 drakprofileBin:207
+msgid "About"
+msgstr "Fá"
+
+#: drakprofileBin:207 drakprofileBin:389 drakprofileBin:428
+msgid " - "
+msgstr " - "
+
+#: drakprofileBin:207 drakprofileBin:389
+msgid "OK"
+msgstr "Ceart go Leor"
+
+#: drakprofileBin:216
+msgid "File"
+msgstr "Comhad"
+
+#: drakprofileBin:218
+msgid "Profile"
+msgstr ""
+
+#: drakprofileBin:316
+msgid "Add a new profile"
+msgstr ""
+
+#: drakprofileBin:317
+msgid "Remove an existing profile"
+msgstr ""
+
+#: drakprofileBin:318
+msgid "Activate a profile (make it the current one)"
+msgstr ""
+
+#: drakprofileBin:319
+msgid "Configure a profile"
+msgstr ""
+
+#: drakprofileBin:369
+#, c-format
+msgid "Current active profile is `%s'."
+msgstr ""
+
+#: drakprofileBin:389
+msgid "Add new profile"
+msgstr ""
+
+#: drakprofileBin:389
+msgid "Please enter a name for the new profile:"
+msgstr ""
+
+#: drakprofileBin:389
+msgid "Cancel"
+msgstr "Cealaigh"
+
+#: drakprofileBin:393
+msgid "Adding profile. Please wait..."
+msgstr ""
+
+#: drakprofileBin:402
+msgid "Deleting profile. Please wait..."
+msgstr ""
+
+#: drakprofileBin:408
+#, c-format
+msgid "Can not remove the current profile (%s)"
+msgstr ""
+
+#: drakprofileBin:410 drakprofileBin:423 drakprofileBin:433
+msgid "Please select a profile first..."
+msgstr ""
+
+#: drakprofileBin:415
+msgid "Switching profile. Please wait..."
+msgstr ""
+
+#: drakprofileBin:421
+#, c-format
+msgid "Unable to switch to `%s'..."
+msgstr ""
+
+#: drakprofileBin:428
+msgid "The selected profile is not the current profile"
+msgstr ""
+
+#: drakprofileBin:428
+msgid ""
+"The selected profile is not the current profile,\n"
+"and you can only configure the current profile.\n"
+"Do you want to switch to the selected profile?"
+msgstr ""
+
+#: drakprofileBin:428
+msgid "Yes"
+msgstr "Níl"
+
+#: drakprofileBin:428
+msgid "No"
+msgstr "Tá"
+

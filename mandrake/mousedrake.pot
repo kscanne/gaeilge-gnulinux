@@ -1,0 +1,167 @@
+# Leagan Gaeilge de mouseconfig.po.
+# Copyright (C) 2000 Free Software Foundation, Inc.
+#   Proinnsias Breathnach <breatpro@dublin.ml.com>, 2000.
+#  Alastair McKinstry, <mckinstry@computer.org>, 2000.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: mouseconfig 0.1\n"
+"POT-Creation-Date: 2000-09-09 03:00+0200\n"
+"PO-Revision-Date: 2000-00-11 11:35+0100\n"
+"Last-Translator: Alastair McKinstry <mckinstry@computer.org>\n"
+"Language-Team: Gaeilge <ga@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=iso-8859-1\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/mouseconfig.c:46
+msgid "GlidePoint PS/2"
+msgstr "GlidePoint PS/2"
+
+#: src/mouseconfig.c:47
+msgid "MieMouse Serial"
+msgstr "MieMouse Serial"
+
+#: src/mouseconfig.c:48
+msgid "MieMouse PS/2"
+msgstr "MieMouse PS/2"
+
+#: src/mouseconfig.c:49 src/mouseconfig.c:61
+msgid "Bus Mouse"
+msgstr "Luchóg Bus"
+
+#: src/mouseconfig.c:50 src/mouseconfig.c:51 src/mouseconfig.c:52
+msgid "generic"
+msgstr "gnáth"
+
+#: src/mouseconfig.c:50 src/mouseconfig.c:71
+msgid "Serial"
+msgstr "Srathach"
+
+#: src/mouseconfig.c:51
+msgid "3 Buttons Serial"
+msgstr "Srathach, 3 Cnaipe"
+
+#: src/mouseconfig.c:52
+msgid "PS/2"
+msgstr "PS/2"
+
+#: src/mouseconfig.c:53
+msgid "3 Buttons PS/2"
+msgstr "PS/2, 3 Cnaipe"
+
+#: src/mouseconfig.c:54
+msgid "NetMouse Serial"
+msgstr "NetMouse Srathach"
+
+#: src/mouseconfig.c:55
+msgid "NetMouse PS/2"
+msgstr "NetMouse PS/2"
+
+#: src/mouseconfig.c:56
+msgid "NetMouse Pro PS/2"
+msgstr "NetMouse Pro PS/2"
+
+#: src/mouseconfig.c:57
+msgid "NetScroll PS/2"
+msgstr "NetScroll PS/2"
+
+#: src/mouseconfig.c:58
+msgid "Thinking Mouse PS/2"
+msgstr "Thinking Mouse PS/2"
+
+#: src/mouseconfig.c:59
+msgid "Serial or old C7 type"
+msgstr "Serial, nó sean-cineál C7"
+
+#: src/mouseconfig.c:60
+msgid "CC Series Serial"
+msgstr "Serial de sraith CC"
+
+#: src/mouseconfig.c:62
+msgid "MouseMan/FirstMouse Serial"
+msgstr "MouseMan/FirstMouse Serial"
+
+#: src/mouseconfig.c:63
+msgid "MouseMan/FirstMouse PS/2"
+msgstr "MouseMan/FirstMouse PS/2"
+
+#: src/mouseconfig.c:64
+msgid "MouseMan+/FirstMouse Serial"
+msgstr "MouseMan+/FirstMouse Serial"
+
+#: src/mouseconfig.c:65
+msgid "MouseMan+/FirstMouse+ PS/2"
+msgstr "MouseMan+/FirstMouse+ PS/2"
+
+#: src/mouseconfig.c:66
+msgid "compatible Serial"
+msgstr "comhoriúnach Serial"
+
+#: src/mouseconfig.c:67
+msgid "Rev 2.1A or higher Serial"
+msgstr "Serial de leagan 2.1A nó níos airde"
+
+#: src/mouseconfig.c:68
+msgid "IntelliMouse Serial"
+msgstr "IntelliMouse Srathach"
+
+#: src/mouseconfig.c:69
+msgid "IntelliMouse PS/2"
+msgstr "IntelliMouse PS/2"
+
+#: src/mouseconfig.c:70
+msgid "BusMouse"
+msgstr "BusMouse"
+
+#: src/mouseconfig.c:72
+msgid "Series Serial"
+msgstr "Series Srathach"
+
+#: src/mouseconfig.c:73
+msgid "HitTablet Serial"
+msgstr "HitTablet Srathach"
+
+#: src/mouseconfig.c:109
+msgid "You must be root to run this software.\n"
+msgstr "Caithfidh tú bheith mar root leis an clár seo a rith.\n"
+
+#: src/mouseconfig.c:126
+msgid "MouseConfig 0.1"
+msgstr "MouseConfig 0.1"
+
+#: src/mouseconfig.c:156
+msgid "Exit"
+msgstr "Éalaigh"
+
+#: src/mouseconfig.c:163 src/utils.c:72
+msgid "OK"
+msgstr "OK"
+
+#. ********************************************************************
+#. ***************************MOUSE LIST*******************************
+#. ********************************************************************
+#: src/mouseconfig.c:182
+msgid "Select a mouse"
+msgstr "Roghnaigh Luchóg"
+
+#. file format is pretty static, if you change then
+#. this program wont read it right.
+#: src/mouseconfig.c:313
+msgid "# THIS FILE IS WRITTEN BY MouseDrake\n"
+msgstr "# TÁ AN COMHAD SEO SCRÍOFA MouseDrake\n"
+
+#: src/mouseconfig.c:314
+msgid "# PLEASE USE MouseDrake TO MODIFY IT!\n"
+msgstr "# BAIN ÚSÁID AS MouseDrake LENA ATHRÚ\n"
+
+#: src/mouseconfig.c:315
+msgid "# There should be no spaces at the start of a line\n"
+msgstr "# Ní comhair spásanna ar bith bheith ag tús líne\n"
+
+#: src/mouseconfig.c:316
+msgid "# or around the '=' sign\n"
+msgstr "# ná thart ar an comhartha '='\n"
+
+#~ msgid "# TO CHANGE THIS FILE!\n"
+#~ msgstr "# LEIS AN COMHAD SEO A ATHRÚ!\n"

@@ -1,0 +1,1516 @@
+# Gaeilge (Irish) translations for drakfw
+# Copyright (C) 2001 Free Software Foundation, Inc.
+# Alastair McKinstry <mckinstry@computer.org>, 2001
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: drakfw VERSION\n"
+"POT-Creation-Date: 2002-01-22 16:45+0100\n"
+"PO-Revision-Date: 2001-09-06 19:00-0000\n"
+"Last-Translator: Alastair McKinstry <mckinstry@computer.org>\n"
+"Language-Team: Irish <ga@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ISO-8859-1\n"
+"Content-Transfer-Encoding: 8-bit\n"
+
+#: drakfw:66 drakfw:581 drakfw:587
+msgid "United States"
+msgstr "Stáit Aontaithe Mheiriceá"
+
+#: drakfw:67
+msgid "Afghanistan"
+msgstr "An Afghanastáin"
+
+#: drakfw:68
+msgid "Albania"
+msgstr "An Albáin"
+
+#: drakfw:69
+msgid "Algeria"
+msgstr "An Algéir"
+
+#: drakfw:70 drakfw:361
+msgid "American Samoa"
+msgstr ""
+
+#: drakfw:71
+msgid "Andorra"
+msgstr ""
+
+#: drakfw:72
+msgid "Angola"
+msgstr ""
+
+#: drakfw:73
+msgid "Anguilla"
+msgstr ""
+
+#: drakfw:74
+msgid "Antarctica"
+msgstr ""
+
+#: drakfw:75
+msgid "Antigua and Barbuda"
+msgstr ""
+
+#: drakfw:76
+msgid "Argentina"
+msgstr ""
+
+#: drakfw:77
+msgid "Armenia"
+msgstr ""
+
+#: drakfw:78
+msgid "Aruba"
+msgstr ""
+
+#: drakfw:79
+msgid "Australia"
+msgstr "An Aistráil"
+
+#: drakfw:80
+msgid "Austria"
+msgstr "An Ostair"
+
+#: drakfw:81
+msgid "Azerbaijan"
+msgstr ""
+
+#: drakfw:82
+msgid "Bahamas"
+msgstr ""
+
+#: drakfw:83
+msgid "Bahrain"
+msgstr ""
+
+#: drakfw:84
+msgid "Bangladesh"
+msgstr "An Bhanglaidéis"
+
+#: drakfw:85
+msgid "Barbados"
+msgstr ""
+
+#: drakfw:86
+msgid "Belarus"
+msgstr ""
+
+#: drakfw:87
+msgid "Belgium"
+msgstr "An Bheilg"
+
+#: drakfw:88
+msgid "Belize"
+msgstr ""
+
+#: drakfw:89
+msgid "Benin"
+msgstr ""
+
+#: drakfw:90
+msgid "Bermuda"
+msgstr ""
+
+#: drakfw:91
+msgid "Bhutan"
+msgstr ""
+
+#: drakfw:92
+msgid "Bolivia"
+msgstr "An Bholaiv"
+
+#: drakfw:93
+msgid "Bosnia and Herzegovina"
+msgstr ""
+
+#: drakfw:94
+msgid "Botswana"
+msgstr ""
+
+#: drakfw:95
+msgid "Bouvet Island"
+msgstr ""
+
+#: drakfw:96
+msgid "Brazil"
+msgstr "An Bhrasail"
+
+#: drakfw:97
+msgid "British Indian Ocean Territory"
+msgstr ""
+
+#: drakfw:98
+msgid "Brunei Darussalam"
+msgstr ""
+
+#: drakfw:99
+msgid "Bulgaria"
+msgstr "An Bhulgáir"
+
+#: drakfw:100
+msgid "Burkina Faso"
+msgstr ""
+
+#: drakfw:101
+msgid "Burundi"
+msgstr ""
+
+#: drakfw:102
+msgid "Cambodia"
+msgstr ""
+
+#: drakfw:103
+msgid "Cameroon"
+msgstr "Camarún"
+
+#: drakfw:104 drakfw:587
+msgid "Canada"
+msgstr "Ceanada"
+
+#: drakfw:105
+msgid "Cape Verde"
+msgstr ""
+
+#: drakfw:106
+msgid "Cayman Islands"
+msgstr ""
+
+#: drakfw:107
+msgid "Central African Republic"
+msgstr ""
+
+#: drakfw:108
+msgid "Chad"
+msgstr ""
+
+#: drakfw:109
+msgid "Chile"
+msgstr "An tSile"
+
+#: drakfw:110
+msgid "China"
+msgstr "An tSín"
+
+#: drakfw:111
+msgid "Christmas Island"
+msgstr ""
+
+#: drakfw:112
+msgid "Cocos (Keeling) Islands"
+msgstr ""
+
+#: drakfw:113
+msgid "Colombia"
+msgstr "AN Cholóim"
+
+#: drakfw:114
+msgid "Comoros"
+msgstr ""
+
+#: drakfw:115
+msgid "Congo"
+msgstr "An Congó"
+
+#: drakfw:116
+msgid "Cook Islands"
+msgstr ""
+
+#: drakfw:117
+msgid "Costa Rica"
+msgstr ""
+
+#: drakfw:118
+msgid "Cote d'Ivoire"
+msgstr ""
+
+#: drakfw:119
+msgid "Croatia"
+msgstr ""
+
+#: drakfw:120
+msgid "Cuba"
+msgstr "Cúba"
+
+#: drakfw:121
+msgid "Cyprus"
+msgstr "An Chipir"
+
+#: drakfw:122
+msgid "Czech Republic"
+msgstr "An Phoblacht nc tSeic"
+
+#: drakfw:123
+msgid "Denmark"
+msgstr "An Danmhairg"
+
+#: drakfw:124
+msgid "Djibouti"
+msgstr ""
+
+#: drakfw:125
+msgid "Dominica"
+msgstr ""
+
+#: drakfw:126
+msgid "Dominican Republic"
+msgstr ""
+
+#: drakfw:127
+msgid "East Timor"
+msgstr ""
+
+#: drakfw:128
+msgid "Ecuador"
+msgstr "Eacuadór"
+
+#: drakfw:129
+msgid "Egypt"
+msgstr "An Éigipt"
+
+#: drakfw:130
+msgid "El Salvador"
+msgstr "An tSalvadóir"
+
+#: drakfw:131
+msgid "Equatorial Guinea"
+msgstr ""
+
+#: drakfw:132
+msgid "Eritrea"
+msgstr ""
+
+#: drakfw:133
+msgid "Estonia"
+msgstr ""
+
+#: drakfw:134
+msgid "Ethiopia"
+msgstr "An Aetóip"
+
+#: drakfw:135
+msgid "Falkland Islands (Malvinas)"
+msgstr ""
+
+#: drakfw:136
+msgid "Faroe Islands"
+msgstr ""
+
+#: drakfw:137
+msgid "Fiji"
+msgstr ""
+
+#: drakfw:138
+msgid "Finland"
+msgstr "An Fhionlainn"
+
+#: drakfw:139
+msgid "France"
+msgstr "An Fhrainc"
+
+#: drakfw:140
+msgid "France, Metropolitan"
+msgstr ""
+
+#: drakfw:141
+msgid "French Guiana"
+msgstr ""
+
+#: drakfw:142
+msgid "French Polynesia"
+msgstr ""
+
+#: drakfw:143
+msgid "French Southern Territories"
+msgstr ""
+
+#: drakfw:144
+msgid "Gabon"
+msgstr ""
+
+#: drakfw:145
+msgid "Gambia"
+msgstr ""
+
+#: drakfw:146 drakfw:320
+msgid "Georgia"
+msgstr ""
+
+#: drakfw:147
+msgid "Germany"
+msgstr "An Ghearmáin"
+
+#: drakfw:148
+msgid "Ghana"
+msgstr "Gána"
+
+#: drakfw:149
+msgid "Gibraltar"
+msgstr ""
+
+#: drakfw:150
+msgid "Greece"
+msgstr "An Ghréig"
+
+#: drakfw:151
+msgid "Greenland"
+msgstr "An Ghraonlainn"
+
+#: drakfw:152
+msgid "Grenada"
+msgstr ""
+
+#: drakfw:153
+msgid "Guadeloupe"
+msgstr ""
+
+#: drakfw:154 drakfw:365
+msgid "Guam"
+msgstr ""
+
+#: drakfw:155
+msgid "Guatemala"
+msgstr "Guatamala"
+
+#: drakfw:156
+msgid "Guinea"
+msgstr ""
+
+#: drakfw:157
+msgid "Guinea-Bissau"
+msgstr ""
+
+#: drakfw:158
+msgid "Guyana"
+msgstr "An Ghuáin"
+
+#: drakfw:159
+msgid "Haiti"
+msgstr "Háiti"
+
+#: drakfw:160
+msgid "Heard Island and McDonald Islands"
+msgstr ""
+
+#: drakfw:161
+msgid "Honduras"
+msgstr ""
+
+#: drakfw:162
+msgid "Hong Kong"
+msgstr ""
+
+#: drakfw:163
+msgid "Hungary"
+msgstr "An Ungáir"
+
+#: drakfw:164
+msgid "Iceland"
+msgstr "An Íoslainn"
+
+#: drakfw:165
+msgid "India"
+msgstr "An India"
+
+#: drakfw:166
+msgid "Indonesia"
+msgstr "An Indinéis"
+
+#: drakfw:167
+msgid "Iran (Islamic Republic of)"
+msgstr "An Iarain"
+
+#: drakfw:168
+msgid "Iraq"
+msgstr "An Iaráic"
+
+#: drakfw:169
+msgid "Ireland"
+msgstr "Éireann"
+
+#: drakfw:170
+msgid "Israel"
+msgstr "Iosrael"
+
+#: drakfw:171
+msgid "Italy"
+msgstr "An Iodáil"
+
+#: drakfw:172
+msgid "Jamaica"
+msgstr "Iamáice"
+
+#: drakfw:173
+msgid "Japan"
+msgstr "An tSeapáin"
+
+#: drakfw:174
+msgid "Jordan"
+msgstr "An Iordáin"
+
+#: drakfw:175
+msgid "Kazakhstan"
+msgstr ""
+
+#: drakfw:176
+msgid "Kenya"
+msgstr "An Chéinia"
+
+#: drakfw:177
+msgid "Kiribati"
+msgstr ""
+
+#: drakfw:178
+msgid "Korea, Democratic People's Republic of"
+msgstr ""
+
+#: drakfw:179
+msgid "Korea, Republic of"
+msgstr ""
+
+#: drakfw:180
+msgid "Kuwait"
+msgstr ""
+
+#: drakfw:181
+msgid "Kyrgyzstan"
+msgstr ""
+
+#: drakfw:182
+msgid "Lao People's Democratic Republic"
+msgstr ""
+
+#: drakfw:183
+msgid "Latin America"
+msgstr ""
+
+#: drakfw:184
+msgid "Latvia"
+msgstr ""
+
+#: drakfw:185
+msgid "Lebanon"
+msgstr ""
+
+#: drakfw:186
+msgid "Lesotho"
+msgstr ""
+
+#: drakfw:187
+msgid "Liberia"
+msgstr ""
+
+#: drakfw:188
+msgid "Libyan Arab Jamahiriya"
+msgstr ""
+
+#: drakfw:189
+msgid "Liechtenstein"
+msgstr ""
+
+#: drakfw:190
+msgid "Lithuania"
+msgstr ""
+
+#: drakfw:191
+msgid "Luxembourg"
+msgstr ""
+
+#: drakfw:192
+msgid "Macau"
+msgstr ""
+
+#: drakfw:193
+msgid "Macedonia"
+msgstr ""
+
+#: drakfw:194
+msgid "Madagascar"
+msgstr ""
+
+#: drakfw:195
+msgid "Malawi"
+msgstr ""
+
+#: drakfw:196
+msgid "Malaysia"
+msgstr ""
+
+#: drakfw:197
+msgid "Maldives"
+msgstr ""
+
+#: drakfw:198
+msgid "Mali"
+msgstr ""
+
+#: drakfw:199
+msgid "Malta"
+msgstr ""
+
+#: drakfw:200 drakfw:366
+msgid "Marshall Islands"
+msgstr ""
+
+#: drakfw:201
+msgid "Martinique"
+msgstr ""
+
+#: drakfw:202
+msgid "Mauritania"
+msgstr ""
+
+#: drakfw:203
+msgid "Mauritius"
+msgstr ""
+
+#: drakfw:204
+msgid "Mayotte"
+msgstr ""
+
+#: drakfw:205
+msgid "Mexico"
+msgstr ""
+
+#: drakfw:206
+msgid "Micronesia (Federated States of)"
+msgstr ""
+
+#: drakfw:207
+msgid "Moldova"
+msgstr ""
+
+#: drakfw:208
+msgid "Monaco"
+msgstr ""
+
+#: drakfw:209
+msgid "Mongolia"
+msgstr ""
+
+#: drakfw:210
+msgid "Montserrat"
+msgstr ""
+
+#: drakfw:211
+msgid "Morocco"
+msgstr ""
+
+#: drakfw:212
+msgid "Mozambique"
+msgstr ""
+
+#: drakfw:213
+msgid "Myanmar"
+msgstr ""
+
+#: drakfw:214
+msgid "Namibia"
+msgstr ""
+
+#: drakfw:215
+msgid "Nauru"
+msgstr ""
+
+#: drakfw:216
+msgid "Nepal"
+msgstr "Neipeál"
+
+#: drakfw:217
+msgid "Netherlands"
+msgstr "An Isiltír"
+
+#: drakfw:218
+msgid "Netherlands Antilles"
+msgstr ""
+
+#: drakfw:219
+msgid "New Caledonia"
+msgstr ""
+
+#: drakfw:220
+msgid "New Zealand"
+msgstr "An Nua-Shéalainn"
+
+#: drakfw:221
+msgid "Nicaragua"
+msgstr "Nicaragua"
+
+#: drakfw:222
+msgid "Niger"
+msgstr "An Nígir"
+
+#: drakfw:223
+msgid "Nigeria"
+msgstr "An Nigéir"
+
+#: drakfw:224
+msgid "Niue"
+msgstr ""
+
+#: drakfw:225
+msgid "Norfolk Island"
+msgstr ""
+
+#: drakfw:226
+msgid "Northern Mariana Islands"
+msgstr ""
+
+#: drakfw:227
+msgid "Norway"
+msgstr "An Iorua"
+
+#: drakfw:228
+msgid "Oman"
+msgstr ""
+
+#: drakfw:229
+msgid "Pakistan"
+msgstr "An Phacastán"
+
+#: drakfw:230 drakfw:369
+msgid "Palau"
+msgstr ""
+
+#: drakfw:231
+msgid "Panama"
+msgstr ""
+
+#: drakfw:232
+msgid "Papua New Guinea"
+msgstr ""
+
+#: drakfw:233
+msgid "Paraguay"
+msgstr "Paraguay"
+
+#: drakfw:234
+msgid "Peru"
+msgstr "Peiriú"
+
+#: drakfw:235
+msgid "Philippines"
+msgstr ""
+
+#: drakfw:236
+msgid "Pitcairn"
+msgstr ""
+
+#: drakfw:237
+msgid "Poland"
+msgstr "An Pholainn"
+
+#: drakfw:238
+msgid "Portugal"
+msgstr ""
+
+#: drakfw:239 drakfw:370
+msgid "Puerto Rico"
+msgstr ""
+
+#: drakfw:240
+msgid "Qatar"
+msgstr ""
+
+#: drakfw:241
+msgid "Reunion"
+msgstr ""
+
+#: drakfw:242
+msgid "Romania"
+msgstr ""
+
+#: drakfw:243
+msgid "Russian Federation"
+msgstr ""
+
+#: drakfw:244
+msgid "Rwanda"
+msgstr ""
+
+#: drakfw:245
+msgid "Saint Helena"
+msgstr ""
+
+#: drakfw:246
+msgid "Saint Kitts and Nevis"
+msgstr ""
+
+#: drakfw:247
+msgid "Saint Lucia"
+msgstr ""
+
+#: drakfw:248
+msgid "Saint Pierre and Miquelon"
+msgstr ""
+
+#: drakfw:249
+msgid "Saint Vincent and the Grenadines"
+msgstr ""
+
+#: drakfw:250
+msgid "Samoa"
+msgstr ""
+
+#: drakfw:251
+msgid "San Marino"
+msgstr ""
+
+#: drakfw:252
+msgid "Sao Tome and Principe"
+msgstr ""
+
+#: drakfw:253
+msgid "Saudi Arabia"
+msgstr ""
+
+#: drakfw:254
+msgid "Senegal"
+msgstr ""
+
+#: drakfw:255
+msgid "Seychelles"
+msgstr ""
+
+#: drakfw:256
+msgid "Sierra Leone"
+msgstr ""
+
+#: drakfw:257
+msgid "Singapore"
+msgstr ""
+
+#: drakfw:258
+msgid "Slovakia"
+msgstr ""
+
+#: drakfw:259
+msgid "Slovenia"
+msgstr ""
+
+#: drakfw:260
+msgid "Solomon Islands"
+msgstr ""
+
+#: drakfw:261
+msgid "Somalia"
+msgstr ""
+
+#: drakfw:262
+msgid "South Africa"
+msgstr ""
+
+#: drakfw:263
+msgid "South Georgia and the South Sandwich Island"
+msgstr ""
+
+#: drakfw:264
+msgid "Spain"
+msgstr ""
+
+#: drakfw:265
+msgid "Sri Lanka"
+msgstr ""
+
+#: drakfw:266
+msgid "Sudan"
+msgstr ""
+
+#: drakfw:267
+msgid "Suriname"
+msgstr ""
+
+#: drakfw:268
+msgid "Svalbard and Jan Mayen Islands"
+msgstr ""
+
+#: drakfw:269
+msgid "Swaziland"
+msgstr ""
+
+#: drakfw:270
+msgid "Sweden"
+msgstr ""
+
+#: drakfw:271
+msgid "Switzerland"
+msgstr ""
+
+#: drakfw:272
+msgid "Syrian Arab Republic"
+msgstr ""
+
+#: drakfw:273
+msgid "Taiwan, Republic of China"
+msgstr ""
+
+#: drakfw:274
+msgid "Tajikistan"
+msgstr ""
+
+#: drakfw:275
+msgid "Tanzania, United Republic of"
+msgstr ""
+
+#: drakfw:276
+msgid "Thailand"
+msgstr ""
+
+#: drakfw:277
+msgid "Togo"
+msgstr ""
+
+#: drakfw:278
+msgid "Tokelau"
+msgstr ""
+
+#: drakfw:279
+msgid "Tonga"
+msgstr ""
+
+#: drakfw:280
+msgid "Trinidad and Tobago"
+msgstr ""
+
+#: drakfw:281
+msgid "Tunisia"
+msgstr ""
+
+#: drakfw:282
+msgid "Turkey"
+msgstr ""
+
+#: drakfw:283
+msgid "Turkmenistan"
+msgstr ""
+
+#: drakfw:284
+msgid "Turks and Caicos Islands"
+msgstr ""
+
+#: drakfw:285
+msgid "Tuvalu"
+msgstr ""
+
+#: drakfw:286
+msgid "Uganda"
+msgstr ""
+
+#: drakfw:287
+msgid "Ukraine"
+msgstr ""
+
+#: drakfw:288
+msgid "United Arab Emirates"
+msgstr ""
+
+#: drakfw:289
+msgid "United Kingdom"
+msgstr ""
+
+#: drakfw:290
+msgid "United States Minor Outlying Islands"
+msgstr ""
+
+#: drakfw:291
+msgid "Uruguay"
+msgstr ""
+
+#: drakfw:292
+msgid "Uzbekistan"
+msgstr ""
+
+#: drakfw:293
+msgid "Vanuatu"
+msgstr ""
+
+#: drakfw:294
+msgid "Vatican City State (Holy See)"
+msgstr ""
+
+#: drakfw:295
+msgid "Venezuela"
+msgstr ""
+
+#: drakfw:296
+msgid "Viet Nam"
+msgstr ""
+
+#: drakfw:297
+msgid "Virgin Islands (British)"
+msgstr ""
+
+#: drakfw:298
+msgid "Virgin Islands (U.S.)"
+msgstr ""
+
+#: drakfw:299
+msgid "Wallis and Futuna Islands"
+msgstr ""
+
+#: drakfw:300
+msgid "Western Sahara"
+msgstr ""
+
+#: drakfw:301
+msgid "Yemen"
+msgstr ""
+
+#: drakfw:302
+msgid "Yugoslavia"
+msgstr ""
+
+#: drakfw:303
+msgid "Zaire"
+msgstr ""
+
+#: drakfw:304
+msgid "Zambia"
+msgstr ""
+
+#: drakfw:305
+msgid "Zimbabwe"
+msgstr ""
+
+#: drakfw:309 drakfw:580
+msgid "Non US/Canada"
+msgstr ""
+
+#: drakfw:310
+msgid "Alabama"
+msgstr ""
+
+#: drakfw:311
+msgid "Alaska"
+msgstr ""
+
+#: drakfw:312
+msgid "Arizona"
+msgstr ""
+
+#: drakfw:313
+msgid "Arkansas"
+msgstr ""
+
+#: drakfw:314
+msgid "California"
+msgstr ""
+
+#: drakfw:315
+msgid "Colorado"
+msgstr ""
+
+#: drakfw:316
+msgid "Connecticut"
+msgstr ""
+
+#: drakfw:317
+msgid "Delaware"
+msgstr ""
+
+#: drakfw:318
+msgid "District of Columbia"
+msgstr ""
+
+#: drakfw:319
+msgid "Florida"
+msgstr ""
+
+#: drakfw:321
+msgid "Hawaii"
+msgstr ""
+
+#: drakfw:322
+msgid "Idaho"
+msgstr ""
+
+#: drakfw:323
+msgid "Illinois"
+msgstr ""
+
+#: drakfw:324
+msgid "Indiana"
+msgstr ""
+
+#: drakfw:325
+msgid "Iowa"
+msgstr ""
+
+#: drakfw:326
+msgid "Kansas"
+msgstr ""
+
+#: drakfw:327
+msgid "Kentucky"
+msgstr ""
+
+#: drakfw:328
+msgid "Louisiana"
+msgstr ""
+
+#: drakfw:329
+msgid "Maine"
+msgstr ""
+
+#: drakfw:330
+msgid "Maryland"
+msgstr ""
+
+#: drakfw:331
+msgid "Massachusetts"
+msgstr ""
+
+#: drakfw:332
+msgid "Michigan"
+msgstr ""
+
+#: drakfw:333
+msgid "Minnesota"
+msgstr ""
+
+#: drakfw:334
+msgid "Mississippi"
+msgstr ""
+
+#: drakfw:335
+msgid "Missouri"
+msgstr ""
+
+#: drakfw:336
+msgid "Montana"
+msgstr ""
+
+#: drakfw:337
+msgid "Nebraska"
+msgstr ""
+
+#: drakfw:338
+msgid "Nevada"
+msgstr ""
+
+#: drakfw:339
+msgid "New Hampshire"
+msgstr ""
+
+#: drakfw:340
+msgid "New Jersey"
+msgstr ""
+
+#: drakfw:341
+msgid "New Mexico"
+msgstr "Nua Meicsiceo"
+
+#: drakfw:342
+msgid "New York"
+msgstr "Nua Eabhraic"
+
+#: drakfw:343
+msgid "North Carolina"
+msgstr ""
+
+#: drakfw:344
+msgid "North Dakota"
+msgstr ""
+
+#: drakfw:345
+msgid "Ohio"
+msgstr ""
+
+#: drakfw:346
+msgid "Oklahoma"
+msgstr ""
+
+#: drakfw:347
+msgid "Oregon"
+msgstr ""
+
+#: drakfw:348
+msgid "Pennsylvania"
+msgstr ""
+
+#: drakfw:349
+msgid "Rhode Island"
+msgstr ""
+
+#: drakfw:350
+msgid "South Carolina"
+msgstr ""
+
+#: drakfw:351
+msgid "South Dakota"
+msgstr ""
+
+#: drakfw:352
+msgid "Tennessee"
+msgstr ""
+
+#: drakfw:353
+msgid "Texas"
+msgstr ""
+
+#: drakfw:354
+msgid "Utah"
+msgstr ""
+
+#: drakfw:355
+msgid "Vermont"
+msgstr ""
+
+#: drakfw:356
+msgid "Virginia"
+msgstr ""
+
+#: drakfw:357
+msgid "Washington"
+msgstr ""
+
+#: drakfw:358
+msgid "West Virginia"
+msgstr ""
+
+#: drakfw:359
+msgid "Wisconsin"
+msgstr ""
+
+#: drakfw:360
+msgid "Wyoming"
+msgstr ""
+
+#: drakfw:362
+msgid "Armed Forces(AA)"
+msgstr ""
+
+#: drakfw:363
+msgid "Armed Forces(AE)"
+msgstr ""
+
+#: drakfw:364
+msgid "Armed Forces(AP)"
+msgstr ""
+
+#: drakfw:367
+msgid "Micronesia"
+msgstr ""
+
+#: drakfw:368
+msgid "Northern Marianas"
+msgstr ""
+
+#: drakfw:371
+msgid "Trust Territories"
+msgstr ""
+
+#: drakfw:372
+msgid "Virgin Islands"
+msgstr ""
+
+#: drakfw:373
+msgid "Alberta"
+msgstr ""
+
+#: drakfw:374
+msgid "British Columbia"
+msgstr ""
+
+#: drakfw:375
+msgid "Manitoba"
+msgstr ""
+
+#: drakfw:376
+msgid "New Brunswick"
+msgstr ""
+
+#: drakfw:377
+msgid "Newfoundland"
+msgstr ""
+
+#: drakfw:378
+msgid "Northwest Territory"
+msgstr ""
+
+#: drakfw:379
+msgid "Nova Scotia"
+msgstr ""
+
+#: drakfw:380
+msgid "Ontario"
+msgstr ""
+
+#: drakfw:381
+msgid "Prince Edward Island"
+msgstr ""
+
+#: drakfw:382
+msgid "Quebec"
+msgstr ""
+
+#: drakfw:383
+msgid "Saskatchewan"
+msgstr ""
+
+#: drakfw:384
+msgid "Yukon Territory"
+msgstr ""
+
+#: drakfw:391
+msgid "First Time Wizard"
+msgstr ""
+
+#: drakfw:396
+msgid "  Next  > "
+msgstr " Mór > "
+
+#: drakfw:397
+msgid "  Finish "
+msgstr "  Críoch "
+
+#: drakfw:398
+msgid " Cancel "
+msgstr " Cealaigh "
+
+#: drakfw:399
+msgid " <  Back  "
+msgstr " < Ríomh "
+
+#: drakfw:434 drakfw:838 drakfw:869
+msgid "Default KDE"
+msgstr ""
+
+#: drakfw:435 drakfw:839 drakfw:878
+msgid "KDE Redmond"
+msgstr "KDE Redmond"
+
+#: drakfw:436 drakfw:840 drakfw:921
+msgid "KDE Platinum"
+msgstr ""
+
+#: drakfw:437 drakfw:841 drakfw:964
+msgid "KDE Sunshine"
+msgstr ""
+
+#: drakfw:438 drakfw:844
+msgid "Default Gnome"
+msgstr ""
+
+#: drakfw:439 drakfw:845
+msgid "Cheese Sawtech"
+msgstr ""
+
+#: drakfw:440 drakfw:846
+msgid "Brushed Gtk"
+msgstr ""
+
+#: drakfw:441 drakfw:847
+msgid "Helix"
+msgstr ""
+
+#: drakfw:518
+msgid "Welcome to First Time Wizard"
+msgstr ""
+
+#: drakfw:519
+msgid ""
+"This is the Mandrake First Time Wizard. This assistant will help you "
+"configure\n"
+"the basic setup of your desktop in very few steps.\n"
+" If you have an internet connection you'll be able to register for \n"
+"Mandrake services.\n"
+"\n"
+"If you don't want to use this wizard you can press Cancel right now \n"
+" and you'll be logged into the default environment\n"
+msgstr ""
+
+#: drakfw:522
+msgid "welcome"
+msgstr "fáilte"
+
+#: drakfw:524
+msgid "Desktop Appearance"
+msgstr ""
+
+#: drakfw:525
+msgid ""
+"\n"
+"Now you can choose your Desktop and the theme you want to be set\n"
+msgstr ""
+
+#: drakfw:538
+msgid "Themes"
+msgstr ""
+
+#: drakfw:548
+msgid "No themes available"
+msgstr ""
+
+#: drakfw:549
+msgid "Select desktop first"
+msgstr ""
+
+#: drakfw:567
+msgid "Mandrake Privacy Policy"
+msgstr ""
+
+#: drakfw:571
+msgid "Personal Identity"
+msgstr ""
+
+#: drakfw:574
+msgid "First Name:"
+msgstr ""
+
+#: drakfw:574
+msgid "Last Name:"
+msgstr ""
+
+#: drakfw:574
+msgid "Job title:"
+msgstr ""
+
+#: drakfw:574
+msgid "Company:"
+msgstr "Gnó:"
+
+#: drakfw:577
+msgid "Email:"
+msgstr "Rphost:"
+
+#: drakfw:578
+msgid "Address:"
+msgstr "Seoladh:"
+
+#: drakfw:578
+msgid "Zip Code:"
+msgstr ""
+
+#: drakfw:579
+msgid "State/Province:"
+msgstr "Stáit/Cuige:"
+
+#: drakfw:579
+msgid "Country:"
+msgstr "Tír:"
+
+#: drakfw:593
+msgid "Phone:"
+msgstr "Fón:"
+
+#: drakfw:593
+msgid "Fax:"
+msgstr "Facs:"
+
+#: drakfw:596
+msgid "Mail configuration"
+msgstr ""
+
+#: drakfw:597
+msgid ""
+"\n"
+"You can configure your client mailer there"
+msgstr ""
+
+#: drakfw:598
+msgid "Mail Parameters"
+msgstr ""
+
+#: drakfw:600
+msgid "News Parameters"
+msgstr ""
+
+#: drakfw:606
+msgid "Mail client:"
+msgstr ""
+
+#: drakfw:606
+msgid "Server type:"
+msgstr ""
+
+#: drakfw:609
+#, fuzzy
+msgid "Mail Address:"
+msgstr "Seoladh:"
+
+#: drakfw:609
+msgid "Incoming Server name(POP/IMAP):"
+msgstr ""
+
+#: drakfw:610
+msgid "Outgoing server name(SMTP):"
+msgstr ""
+
+#: drakfw:610
+msgid "Login:"
+msgstr ""
+
+#: drakfw:614
+msgid "News Server:"
+msgstr ""
+
+#: drakfw:619
+msgid ""
+"Congratulations on using Mandrake Linux\n"
+" The ideal Operating System for beginers and experts. We hope that \n"
+"it will be an enjoyable experience.\n"
+"\n"
+" MandrakeOnline: also discover MandrakeSoft's new online services to "
+"easily \n"
+"keep your system up to date with security updates and enhanced software.\n"
+msgstr ""
+
+#: drakfw:747
+msgid "My news"
+msgstr ""
+
+#: drakfw:766 drakfw:1105
+msgid "Netscape"
+msgstr ""
+
+#: drakfw:818 drakfw:1098
+msgid "Choose desktop"
+msgstr ""
+
+#: drakfw:1072
+msgid "Close"
+msgstr "Dún"
+
+#: drakfw:1104
+msgid "KMail"
+msgstr ""
+
+#: drakfw:1108
+msgid "None"
+msgstr "Ar Bith:"
+
+#: drakfw:1168
+msgid "Quitting Wizard\n"
+msgstr "Ag Éirigh as Draíodóir\n"
+
+#: drakfw:1181
+msgid "-adobe-times-bold-r-normal--17-*-100-100-p-*-iso8859-*,*-r-*"
+msgstr "-adobe-times-bold-r-normal--27-*-100-100-p-*-iso8859-*,*-r-*"
+
+#: drakfw:1182
+msgid "Welcome"
+msgstr "Fáilte"
+
+msgid "Address (2nd line):"
+msgstr "Seoladh (2ra líne):"
+
+#, fuzzy
+msgid "Kmail"
+msgstr "Rphost:"
+
+msgid "Cancel"
+msgstr "Cealaigh"
+
+msgid "Quit"
+msgstr "Éalú"
+
+msgid "-adobe-times-bold-r-normal--14-*-100-100-p-*-iso8859-*,*-r-*"
+msgstr "-adobe-times-bold-r-normal--14-*-100-100-p-*-iso8859-*,*-r-*"
+
+msgid "KDE Web"
+msgstr "KDE Greasán"
+
+msgid "club"
+msgstr "club"

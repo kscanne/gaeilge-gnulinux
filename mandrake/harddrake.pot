@@ -1,0 +1,1208 @@
+# Irish language translations for HardDrake
+# Copyright (C) 2000 Free Software Foundation, Inc.
+# Alastair McKinstry <mckinstry@computer.org>, 2000
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: HardDrake 0.9.3\n"
+"POT-Creation-Date: 2001-07-28 08:45+0200\n"
+"PO-Revision-Date: 2000-09-07 16:00:00-0000\n"
+"Last-Translator: Alastair McKinstry <mckinstry@computer.org>\n"
+"Language-Team: Irish <ga@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ISO-8859-1\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Note to translators: Next strings will be the explanations for
+#. the HardDrake commandline options:
+#: src/libcommon/options.c:74
+msgid "Usage: harddrake [OPTIONS]"
+msgstr "Úsáid: harddrake [ROGHANNA]"
+
+#. --help
+#: src/libcommon/options.c:76
+msgid "Show this help and exit"
+msgstr "Taispeán an sceal cúidiú seo agus éirigh"
+
+#. --report <%s>, with %s = `file'
+#: src/libcommon/options.c:78
+msgid "file"
+msgstr "Comhad"
+
+#: src/libcommon/options.c:78
+msgid "Use report file <file> to create the tree"
+msgstr ""
+
+#. --version
+#: src/libcommon/options.c:80
+msgid "Show version info and exit"
+msgstr "Taispeán eolas leagain agus éirigh"
+
+#. --kudzu
+#: src/libcommon/options.c:82
+msgid "Enable Kudzu mode"
+msgstr ""
+
+#. --boot
+#: src/libcommon/options.c:84
+msgid "Enable boot mode (used to configure ISA PnP devices at boot)"
+msgstr ""
+
+#. --timeout sec
+#: src/libcommon/options.c:86
+msgid "Time out (in kudzu mode)"
+msgstr ""
+
+#. --sortby
+#: src/libcommon/options.c:88
+msgid "Sort devices by specified mode"
+msgstr ""
+
+#: src/libcommon/options.c:165
+msgid "You haven't passed the detect report file to be used\n"
+msgstr ""
+
+#: src/libcommon/options.c:196
+msgid "You haven't passed the timeout delay(in sec)\n"
+msgstr ""
+
+#: src/libcommon/options.c:208 src/ui-newt/harddrake-text.c:302
+#: src/ui-newt/harddrake-text.c:520 src/ui-newt/wizard.c:63
+msgid "(c)2000 MandrakeSoft"
+msgstr "(c)2000 MandrakeSoft"
+
+#: src/libcommon/options.c:242
+msgid "No configuration file found. Creating a new one...\n"
+msgstr ""
+
+#: src/libcommon/options.c:338
+msgid "No configuration file found\n"
+msgstr ""
+
+#: src/libcommon/calls.c:100
+#, c-format
+msgid "Can't open `%s' for writing!\n"
+msgstr ""
+
+#: src/libcommon/calls.c:103
+msgid "No volume mixer available. So I'll not be able to adjust volume\n"
+msgstr ""
+
+#: src/libcommon/calls.c:107
+msgid "No pcm mixer available. So I'll not be able to adjust pcm volume\n"
+msgstr ""
+
+#: src/libcommon/calls.c:111
+msgid "No synth mixer available. So I'll not be able to adjust synth volume\n"
+msgstr ""
+
+#: src/libcommon/settings.c:414 src/libcommon/settings.c:530
+msgid "Can't create temporary file!\n"
+msgstr "Teip ag cruthaigh comhad sealasach!\n"
+
+#: src/ui-gtk/harddrake.c:118
+msgid "Load a report file..."
+msgstr "Lódáil comhad Tuarascáil..."
+
+#: src/ui-gtk/harddrake.c:141
+msgid "Information"
+msgstr "Eolas"
+
+#: src/ui-gtk/harddrake.c:142
+msgid "HardDrake Report File saved."
+msgstr ""
+
+#: src/ui-gnome/gnome-harddrake.c:709 src/ui-gtk/harddrake.c:152
+msgid "Save a report file..."
+msgstr "Sábháil an comhad tuarascáil..."
+
+#: src/ui-gtk/harddrake.c:210
+msgid "Internal error in manual call\n"
+msgstr "Earráidh inmheánach san glaoch lámhleabhar\n"
+
+#: src/ui-gnome/gnome-harddrake.c:470 src/ui-gnome/gnome-harddrake.c:471
+#: src/ui-gnome/gnome-harddrake.c:552 src/ui-gnome/gnome-harddrake.c:553
+#: src/ui-gnome/gnome-harddrake.c:1014 src/ui-gnome/gnome-harddrake.c:1017
+#: src/ui-gnome/gnome-harddrake.c:1020 src/ui-gnome/gnome-harddrake.c:1073
+#: src/ui-gnome/gnome-harddrake.c:1076 src/ui-gnome/gnome-harddrake.c:1079
+#: src/ui-gnome/gnome-harddrake.c:1082 src/ui-gnome/gnome-harddrake.c:1085
+#: src/ui-gnome/gnome-harddrake.c:1088 src/ui-gnome/gnome-harddrake.c:1091
+#: src/ui-gnome/gnome-harddrake.c:1094 src/ui-gnome/gnome-harddrake.c:1097
+#: src/ui-gnome/gnome-harddrake.c:1100 src/ui-gtk/harddrake.c:236
+#: src/ui-gtk/harddrake.c:397 src/ui-gtk/harddrake.c:935
+#: src/ui-gtk/harddrake.c:938 src/ui-gtk/harddrake.c:941
+#: src/ui-gtk/harddrake.c:976 src/ui-gtk/harddrake.c:979
+#: src/ui-gtk/harddrake.c:982 src/ui-gtk/harddrake.c:985
+#: src/ui-gtk/harddrake.c:988 src/ui-gtk/harddrake.c:991
+#: src/ui-gtk/harddrake.c:994 src/ui-gtk/harddrake.c:997
+#: src/ui-gtk/harddrake.c:1000 src/ui-gtk/harddrake.c:1003
+msgid "yes"
+msgstr "tá"
+
+#: src/ui-gnome/gnome-harddrake.c:474 src/ui-gnome/gnome-harddrake.c:475
+#: src/ui-gnome/gnome-harddrake.c:555 src/ui-gnome/gnome-harddrake.c:556
+#: src/ui-gtk/harddrake.c:239 src/ui-gtk/harddrake.c:398
+msgid "no"
+msgstr "níl"
+
+#. Third column
+#: src/ui-gnome/gnome-harddrake.c:448 src/ui-gnome/gnome-harddrake.c:484
+#: src/ui-gnome/gnome-harddrake.c:489 src/ui-gnome/gnome-harddrake.c:491
+#: src/ui-gnome/gnome-harddrake.c:564 src/ui-gnome/gnome-harddrake.c:565
+#: src/ui-gtk/harddrake.c:245 src/ui-gtk/harddrake.c:248
+#: src/ui-gtk/harddrake.c:305 src/ui-gtk/harddrake.c:402
+msgid "None"
+msgstr "Ar Bith"
+
+#: src/ui-gtk/harddrake.c:280
+msgid "Change selection..."
+msgstr "Athriagh roghanna..."
+
+#: src/ui-gtk/harddrake.c:288 src/ui-gtk/harddrake.c:1301
+msgid "Options"
+msgstr "Roghanna"
+
+#: src/ui-gnome/gnome-harddrake.c:516 src/ui-gnome/gnome-harddrake.c:590
+#: src/ui-gtk/harddrake.c:294 src/ui-gtk/harddrake.c:351
+msgid "Disabled"
+msgstr "Míchumasach"
+
+#: src/ui-gnome/gnome-harddrake.c:596 src/ui-gtk/harddrake.c:312
+msgid "Apply"
+msgstr "Deán"
+
+#: src/ui-gtk/harddrake.c:322 src/ui-gtk/harddrake.c:426
+#: src/ui-gtk/harddrake.c:511 src/ui-gtk/harddrake.c:714
+#: src/ui-newt/wizard.c:144
+msgid "Cancel"
+msgstr "Cealaigh"
+
+#: src/ui-gnome/gnome-harddrake.c:61 src/ui-gnome/gnome-harddrake.c:515
+#: src/ui-gnome/gnome-harddrake.c:527 src/ui-gtk/harddrake.c:350
+#: src/ui-gtk/harddrake.c:374
+msgid "Devices"
+msgstr "Gaireasaí"
+
+#: src/ui-gnome/gnome-harddrake.c:517 src/ui-gtk/harddrake.c:352
+msgid "Configuration Tool"
+msgstr "Uirlís Cumasach"
+
+#: src/ui-gtk/harddrake.c:363 src/ui-gtk/harddrake.c:1277
+msgid "Probing Options..."
+msgstr ""
+
+#: src/ui-gtk/harddrake.c:412
+msgid "Changes..."
+msgstr ""
+
+#: src/ui-gtk/harddrake.c:420 src/ui-gtk/harddrake.c:506
+#: src/ui-gtk/harddrake.c:708 src/ui-gtk/wizard.c:172 src/ui-newt/wizard.c:143
+#: src/ui-newt/wizard.c:324 src/ui-newt/wizard.c:442 src/ui-newt/wizard.c:449
+#: src/ui-newt/wizard.c:456 src/ui-newt/wizard.c:468 src/ui-newt/wizard.c:486
+#: src/ui-newt/wizard.c:501 src/ui-newt/wizard.c:512 src/ui-newt/wizard.c:522
+#: src/ui-newt/wizard.c:534 src/ui-newt/wizard.c:541
+msgid "OK"
+msgstr "Ceart go Leor"
+
+#: src/ui-gtk/harddrake.c:465
+msgid "Boot Options..."
+msgstr "Roghanna Toasithe..."
+
+#: src/ui-gtk/harddrake.c:473
+msgid "Enable Automatic Hardware Detection"
+msgstr ""
+
+#: src/ui-gtk/harddrake.c:485
+msgid "Timeout"
+msgstr ""
+
+#: src/ui-gtk/harddrake.c:494
+msgid "Exit interactive mode after the specified timeout(in sec.)"
+msgstr ""
+
+#: src/ui-gtk/harddrake.c:537
+msgid "Font selector"
+msgstr "Roghnóir Chlófhoireann"
+
+#: src/ui-gtk/harddrake.c:585
+msgid "Color selector"
+msgstr "Roghnóir Dath"
+
+#: src/ui-gtk/harddrake.c:623 src/ui-gtk/harddrake.c:1294
+msgid "Preferences..."
+msgstr "Roghnachais..."
+
+#: src/ui-gnome/gnome-harddrake.c:252 src/ui-gtk/harddrake.c:631
+#: src/ui-gtk/harddrake.c:636
+msgid "Foreground color"
+msgstr "Dath Culra"
+
+#: src/ui-gtk/harddrake.c:639 src/ui-gtk/harddrake.c:649
+#: src/ui-gtk/harddrake.c:660 src/ui-gtk/harddrake.c:671
+msgid "Palette..."
+msgstr "Paleid..."
+
+#: src/ui-gnome/gnome-harddrake.c:273 src/ui-gtk/harddrake.c:646
+msgid "Background color"
+msgstr "Dath Dúlra"
+
+#: src/ui-gnome/gnome-harddrake.c:294 src/ui-gtk/harddrake.c:657
+msgid "Foreground Unknown Device Color"
+msgstr "Dath Culra Gaireas Gan Aithne"
+
+#: src/ui-gnome/gnome-harddrake.c:315 src/ui-gtk/harddrake.c:668
+msgid "Background Unknown Device Color"
+msgstr "Dath Dúlra Gairead Gan Aithne"
+
+#: src/ui-gnome/gnome-harddrake.c:343 src/ui-gtk/harddrake.c:679
+msgid "Tree font"
+msgstr "Clófhoireann Crann"
+
+#: src/ui-gtk/harddrake.c:682 src/ui-gtk/harddrake.c:693
+msgid "Fonts..."
+msgstr "Chlófhoireann..."
+
+#: src/ui-gnome/gnome-harddrake.c:365 src/ui-gtk/harddrake.c:690
+msgid "Unknown Tree font"
+msgstr "Clófhoireann chrann gan aithne"
+
+#: src/ui-gtk/harddrake.c:698
+msgid "Show tree lines"
+msgstr "Taispeán líne crainn"
+
+#: src/ui-gnome/gnome-harddrake.c:793 src/ui-gtk/harddrake.c:738
+msgid "Abdulmajid Sharif <sharif@hive.SUS.McGill.CA>"
+msgstr "Abdulmajid Sharif <sharif@hive.SUS.McGill.CA>"
+
+#. if your charset allows it, replace the 'ae' of 'Rosenkraenzer' with auml
+#: src/ui-gnome/gnome-harddrake.c:796 src/ui-gtk/harddrake.c:741
+msgid "Bernhard Rosenkraenzer <bero@berolinux.za.net>"
+msgstr "Bernhard Rosenkraenzer <bero@berolinux.za.net>"
+
+#. if your charset allows it, replace the 'a' of 'Marquez' with aacute
+#: src/ui-gnome/gnome-harddrake.c:798 src/ui-gtk/harddrake.c:743
+msgid "Felipe Rivera Marquez <felipe@informador.com.mx>"
+msgstr "Felipe Rivera Marquez <felipe@informador.com.mx>"
+
+#. Note to translators:
+#. * change this string to: "Translation to [yourlanguage] done by:"
+#. * of course, written in your language (whereas [yourlanguage]
+#. * should be replaced by your language ... ;-).
+#. * Try to make the line about ~40 char or less
+#. * (the output is much nicer like that)
+#.
+#: src/ui-gnome/gnome-harddrake.c:810 src/ui-gtk/harddrake.c:756
+msgid "... and our marvelous translation team."
+msgstr ".. agus an Fhoireann Aistriuchán Gaeilge:"
+
+#. Note to translators:
+#. * change this string to your name like:
+#. * "yourname <youraddress@yourisp>"
+#. * Try to make the line about ~40 char or less
+#. * (the output is much nicer like that)
+#.
+#: src/ui-gnome/gnome-harddrake.c:817 src/ui-gtk/harddrake.c:763
+msgid " ~ # ~ "
+msgstr ""
+"Proinnsias Breathnach <breatpro@dublin.ml.com-nospam>\n"
+"Barra Ó'Caoimh <Care of donncha.ocaoimh@tradesignals.com-nospam>\n"
+"Donncha Ó'Caoimh <donncha.ocaoimh@tradesignals.com-nospam>\n"
+"Seán O'Ceallaigh <s_oceallaigh@yahoo.com.nospam>John McDonnell "
+"<johnmc@student.nuigalway.ie-nospam>\n"
+"Alastair McKinstry <mckinstry@computer.org.nospam>"
+
+#: src/ui-gtk/harddrake.c:776
+msgid "HardDrake Contributors"
+msgstr "Schríbhneoirí HardDrake"
+
+#: src/ui-gnome/gnome-harddrake.c:938 src/ui-gtk/harddrake.c:795
+msgid "Internal error in configure call\n"
+msgstr "Earráidh inmheánamach san glaoch cumasach\n"
+
+#: src/ui-gnome/gnome-harddrake.c:987 src/ui-gtk/harddrake.c:912
+#: src/ui-newt/harddrake-text.c:113 src/ui-newt/harddrake-text.c:115
+msgid "Vendor"
+msgstr "Díolóir"
+
+#: src/ui-gnome/gnome-harddrake.c:989 src/ui-gtk/harddrake.c:913
+#: src/ui-newt/harddrake-text.c:118 src/ui-newt/harddrake-text.c:120
+msgid "Model"
+msgstr "Samhail"
+
+#: src/ui-gnome/gnome-harddrake.c:994 src/ui-gtk/harddrake.c:918
+#: src/ui-newt/harddrake-text.c:129
+msgid "Device"
+msgstr "Gaireas"
+
+#: src/ui-gnome/gnome-harddrake.c:1000 src/ui-gtk/harddrake.c:924
+#: src/ui-newt/harddrake-text.c:138
+msgid "Kernel Module"
+msgstr "Modúl Eitnne"
+
+#: src/ui-gnome/gnome-harddrake.c:1005 src/ui-gtk/harddrake.c:928
+#: src/ui-newt/harddrake-text.c:146
+msgid "Bus Type"
+msgstr "Cinéal Bus: "
+
+#: src/ui-gnome/gnome-harddrake.c:1014 src/ui-gtk/harddrake.c:935
+#: src/ui-newt/harddrake-text.c:155
+msgid "FPU"
+msgstr "FPU"
+
+#: src/ui-gnome/gnome-harddrake.c:1017 src/ui-gtk/harddrake.c:938
+#: src/ui-newt/harddrake-text.c:158
+msgid "MMX"
+msgstr "MMX"
+
+#: src/ui-gnome/gnome-harddrake.c:1020 src/ui-gtk/harddrake.c:941
+#: src/ui-newt/harddrake-text.c:161
+msgid "3DNOW"
+msgstr "3DNOW"
+
+#. endif
+#: src/ui-gnome/gnome-harddrake.c:1022 src/ui-gtk/harddrake.c:943
+#: src/ui-newt/harddrake-text.c:164
+msgid "BogoMIPS"
+msgstr "BogoMIPeanna"
+
+#: src/ui-gnome/gnome-harddrake.c:1023 src/ui-gtk/harddrake.c:944
+#: src/ui-newt/harddrake-text.c:166
+msgid "Known Bugs"
+msgstr "Fabhtanna cuimhne"
+
+#: src/ui-gnome/gnome-harddrake.c:1028 src/ui-gnome/gnome-harddrake.c:1044
+#: src/ui-gnome/gnome-harddrake.c:1047 src/ui-gnome/gnome-harddrake.c:1052
+#: src/ui-gnome/gnome-harddrake.c:1055 src/ui-gnome/gnome-harddrake.c:1058
+#: src/ui-gnome/gnome-harddrake.c:1061 src/ui-gnome/gnome-harddrake.c:1064
+#: src/ui-gnome/gnome-harddrake.c:1066 src/ui-gtk/harddrake.c:959
+#: src/ui-gtk/harddrake.c:967
+#, c-format
+msgid "%d MB"
+msgstr "%d MB"
+
+#: src/ui-gnome/gnome-harddrake.c:1050 src/ui-gtk/harddrake.c:961
+#: src/ui-newt/harddrake-text.c:178
+msgid "Used"
+msgstr "Úsáidte"
+
+#: src/ui-gnome/gnome-harddrake.c:1065 src/ui-gtk/harddrake.c:968
+#: src/ui-newt/harddrake-text.c:194
+msgid "Swap Total"
+msgstr "Malairte Iomlán"
+
+#: src/ui-gnome/gnome-harddrake.c:1073 src/ui-gtk/harddrake.c:976
+#: src/ui-newt/harddrake-text.c:219
+msgid "OPL3"
+msgstr "OPL3"
+
+#: src/ui-gnome/gnome-harddrake.c:1076 src/ui-gtk/harddrake.c:979
+#: src/ui-newt/harddrake-text.c:222
+msgid "MPU401"
+msgstr "MPU401"
+
+#: src/ui-gnome/gnome-harddrake.c:1079 src/ui-gtk/harddrake.c:982
+#: src/ui-newt/harddrake-text.c:225
+msgid "DMA2/16"
+msgstr "DMA2/16"
+
+#: src/ui-gnome/gnome-harddrake.c:1082 src/ui-gtk/harddrake.c:985
+#: src/ui-newt/harddrake-text.c:228
+msgid "AWE"
+msgstr "AWE"
+
+#: src/ui-gnome/gnome-harddrake.c:1085 src/ui-gtk/harddrake.c:988
+#: src/ui-newt/harddrake-text.c:231
+msgid "DREAM"
+msgstr "DREAM"
+
+#: src/ui-gnome/gnome-harddrake.c:1088 src/ui-gtk/harddrake.c:991
+#: src/ui-newt/harddrake-text.c:234
+msgid "MAD16"
+msgstr "MAD16"
+
+#: src/ui-gnome/gnome-harddrake.c:1091 src/ui-gtk/harddrake.c:994
+#: src/ui-newt/harddrake-text.c:237
+msgid "TRIX"
+msgstr "TRIX"
+
+#: src/ui-gnome/gnome-harddrake.c:1094 src/ui-gtk/harddrake.c:997
+#: src/ui-newt/harddrake-text.c:240
+msgid "PAS2"
+msgstr "PAS2"
+
+#: src/ui-gnome/gnome-harddrake.c:1097 src/ui-gtk/harddrake.c:1000
+#: src/ui-newt/harddrake-text.c:243
+msgid "SMGAMES"
+msgstr "SMGAMES"
+
+#: src/ui-gnome/gnome-harddrake.c:1100 src/ui-gtk/harddrake.c:1003
+#: src/ui-newt/harddrake-text.c:247
+msgid "Joystick port"
+msgstr ""
+
+#: src/ui-gnome/gnome-harddrake.c:1123 src/ui-gtk/harddrake.c:1009
+#: src/ui-newt/harddrake-text.c:258
+#, c-format
+msgid ""
+"This device hasn't been identified by HardDrake, please send a pnpdump "
+"output and this device ID `%s' to: harddrake@mandrakesoft.com"
+msgstr ""
+
+#: src/ui-gnome/gnome-harddrake.c:1128 src/ui-gtk/harddrake.c:1014
+#: src/ui-newt/harddrake-text.c:264
+#, c-format
+msgid ""
+"It seems you have an unidentified Modem. Please send a `detect --serial-"
+"modem' output and this device ID `%s' to: harddrake@mandrakesoft.com"
+msgstr ""
+
+#: src/ui-gtk/harddrake.c:1019 src/ui-newt/harddrake-text.c:270
+#, c-format
+msgid ""
+"This device hasn't been identified by HardDrake, please send `/proc/bus/*' "
+"files and this device ID `%08lx' to: harddrake@mandrakesoft.com"
+msgstr ""
+
+#. endif
+#: src/ui-gnome/gnome-harddrake.c:958 src/ui-gnome/gnome-harddrake.c:1138
+#: src/ui-gnome/gnome-harddrake.c:1538 src/ui-gtk/harddrake.c:1024
+#: src/ui-gtk/harddrake.c:1220 src/ui-newt/harddrake-text.c:254
+msgid "Informations"
+msgstr "Eolas"
+
+#: src/ui-gtk/harddrake.c:1107
+msgid ""
+"Welcome to HardDrake!\n"
+"\n"
+"To consult the HardDrake manual, go to the 'Help'\n"
+" menu and select 'Manual'\n"
+"\n"
+" Please report bugs to harddrake@mandrakesoft.com\n"
+"\n"
+" Don't forget to visit the HardDrake web site at\n"
+" http://www.linux-mandrake.com/harddrake"
+msgstr ""
+
+#: src/ui-gnome/gnome-harddrake.c:1441 src/ui-gtk/harddrake.c:1111
+msgid ""
+"You must be root to run this software.\n"
+"\n"
+msgstr ""
+"Caithfidh tú bheith mar root leis an clár seo a rith.\n"
+"\n"
+
+#: src/ui-gtk/harddrake.c:1151
+msgid "Couldn't allocate color\n"
+msgstr ""
+
+#: src/ui-gnome/gnome-harddrake.c:746 src/ui-gnome/gnome-harddrake.c:1463
+#: src/ui-gtk/harddrake.c:1154 src/ui-newt/harddrake-text.c:522
+#: src/ui-newt/harddrake-text.c:525
+msgid "Detection in progress, please wait ..."
+msgstr ""
+
+#: src/ui-gnome/gnome-harddrake.c:1521 src/ui-gtk/harddrake.c:1191
+msgid "Harddrake List"
+msgstr "Liosta HardDrake"
+
+#: src/ui-gnome/gnome-harddrake.c:1549 src/ui-gtk/harddrake.c:1234
+#: src/ui-newt/harddrake-text.c:561
+msgid "Run Configuration tool"
+msgstr "Ritheann Uirlis cumraíocht"
+
+#: src/ui-gtk/harddrake.c:1240
+msgid "Run the configuration tool associed to this device"
+msgstr ""
+
+#: src/ui-gtk/harddrake.c:1244
+msgid "Load Report File"
+msgstr "Lódail comhad Tuairascáil"
+
+#: src/ui-gtk/harddrake.c:1245
+msgid "Save Report File"
+msgstr "Sábháil Comhad Tuairascáil"
+
+#: src/ui-gtk/harddrake.c:1246
+msgid "Reload"
+msgstr "Athlódáil"
+
+#: src/ui-gtk/harddrake.c:1247 src/ui-newt/harddrake-text.c:559
+msgid "Exit"
+msgstr "Éirigh"
+
+#: src/ui-gtk/harddrake.c:1272
+msgid "File"
+msgstr "Comhad"
+
+#: src/ui-gtk/harddrake.c:1286
+msgid "Boot..."
+msgstr "Tosnaigh..."
+
+#: src/ui-gtk/harddrake.c:1317
+msgid "Tools"
+msgstr "Uirlisí"
+
+#: src/ui-gtk/harddrake.c:1322
+msgid "Manual"
+msgstr "Lámhleabhar"
+
+#: src/ui-gtk/harddrake.c:1329
+msgid "About"
+msgstr "Faoi"
+
+#: src/ui-gtk/harddrake.c:1331
+msgid "Help"
+msgstr "Cúidiú"
+
+#: src/ui-gnome/wizard.c:468 src/ui-gtk/wizard.c:106 src/ui-newt/wizard.c:44
+#, c-format
+msgid "Your `modprobe' is too old! Update to a version > %d.%d.%d!\n"
+msgstr ""
+
+#: src/ui-gtk/wizard.c:111 src/ui-newt/wizard.c:48
+msgid "Modprobe error"
+msgstr "Earraidh `modprobe'"
+
+#. Note to translators: %s[1] = Device (e.g. ethernetcard)
+#. %s[2] = PACKAGE (HardDrake)
+#. %s[3] = VERSION (e.g. 0.9)
+#: src/ui-gnome/wizard.c:494 src/ui-gnome/wizard.c:499 src/ui-gtk/wizard.c:132
+#: src/ui-newt/wizard.c:133
+#, c-format
+msgid "%s - %s %s Configuration Wizard"
+msgstr "%s - %s %s Draíodóir Cumraíocht"
+
+#: src/ui-gtk/wizard.c:164
+msgid "Close"
+msgstr "Dún"
+
+#: src/ui-gtk/wizard.c:183
+msgid "Exit without saving configuration."
+msgstr ""
+
+#: src/ui-gtk/wizard.c:189
+msgid "Test and write the configuration and exit."
+msgstr ""
+
+#: src/ui-gnome/wizard.c:102 src/ui-gtk/wizard.c:199
+msgid "I/O"
+msgstr "I/O"
+
+#: src/ui-gnome/wizard.c:135 src/ui-gtk/wizard.c:200 src/ui-newt/wizard.c:249
+msgid "MSS I/O"
+msgstr "MSS I/O"
+
+#: src/ui-gnome/gnome-harddrake.c:1109 src/ui-gnome/wizard.c:150
+#: src/ui-gtk/wizard.c:201 src/ui-newt/wizard.c:227
+msgid "IRQ"
+msgstr "IRQ"
+
+#: src/ui-gnome/gnome-harddrake.c:1112 src/ui-gnome/wizard.c:165
+#: src/ui-gtk/wizard.c:202
+msgid "DMA8"
+msgstr "DMA8"
+
+#: src/ui-gnome/gnome-harddrake.c:1116 src/ui-gnome/wizard.c:181
+#: src/ui-gtk/wizard.c:203
+msgid "DMA16/2"
+msgstr "DMA16/2"
+
+#: src/ui-gtk/wizard.c:204 src/ui-newt/wizard.c:287
+msgid "MPU401 I/O"
+msgstr "MPU401 I/O"
+
+#: src/ui-gnome/wizard.c:213 src/ui-gtk/wizard.c:205 src/ui-newt/wizard.c:294
+msgid "MPU401 IRQ"
+msgstr "MPU401 IRQ "
+
+#: src/ui-gnome/wizard.c:230 src/ui-gtk/wizard.c:206 src/ui-newt/wizard.c:311
+msgid "OPL3 I/O"
+msgstr "OPL3 I/O"
+
+#. ******************************************************************
+#. ************************* CARDS LIST *****************************
+#. ******************************************************************
+#: src/ui-gtk/wizard.c:212
+msgid "Select a card"
+msgstr "Roghnaigh Carta"
+
+#: src/ui-gtk/wizard.c:369 src/ui-gtk/wizard.c:378 src/ui-gtk/wizard.c:384
+#: src/ui-newt/wizard.c:442 src/ui-newt/wizard.c:449 src/ui-newt/wizard.c:456
+msgid "Special card!"
+msgstr "Carta Spéisialta!"
+
+#: src/ui-gtk/wizard.c:370 src/ui-newt/wizard.c:443
+msgid "I can't configure this type of card (yet)."
+msgstr ""
+
+#: src/ui-gtk/wizard.c:379 src/ui-newt/wizard.c:450
+msgid ""
+"I can't configure sotfware modem commonly called 'WinModem'. Go to http://"
+"www.idir.net/~gromitkc/winmodem.html for more informations..."
+msgstr ""
+
+#: src/ui-gtk/wizard.c:385 src/ui-newt/wizard.c:457
+msgid ""
+"This card is currently not supported in Linux Mandrake,\n"
+"because the existing kernel module for aureal cards are binary-only.\n"
+" You have to get the kernel module for your card from http://linux.aureal."
+"com/ and install it before continuing."
+msgstr ""
+
+#: src/ui-gtk/wizard.c:408
+msgid "Bad configuration"
+msgstr "Cumraíocht micheart"
+
+#: src/ui-gtk/wizard.c:409
+msgid ""
+"You should at least configure IO and IRQ for properly setting your card!"
+msgstr ""
+
+#: src/ui-gtk/wizard.c:420 src/ui-gtk/wizard.c:453 src/ui-gtk/wizard.c:466
+#: src/ui-gtk/wizard.c:476 src/ui-gtk/wizard.c:523 src/ui-newt/wizard.c:468
+#: src/ui-newt/wizard.c:486 src/ui-newt/wizard.c:501 src/ui-newt/wizard.c:534
+msgid "Error in modprobe call!"
+msgstr "Earráid san glao 'modprobe'!"
+
+#: src/ui-gnome/wizard.c:338 src/ui-gtk/wizard.c:484 src/ui-newt/wizard.c:508
+msgid "Now playing a 8 bit sample..."
+msgstr ""
+
+#: src/ui-gtk/wizard.c:491 src/ui-gtk/wizard.c:509 src/ui-newt/wizard.c:512
+#: src/ui-newt/wizard.c:522
+msgid "Error in play call!"
+msgstr "Earráidh san glaoch 'play`!"
+
+#: src/ui-gnome/wizard.c:357 src/ui-gtk/wizard.c:501 src/ui-newt/wizard.c:519
+msgid "Now playing a 16 bit sample..."
+msgstr ""
+
+#. endif
+#: src/ui-gnome/wizard.c:391 src/ui-gtk/wizard.c:531 src/ui-newt/wizard.c:531
+msgid "Now playing a midi sample..."
+msgstr ""
+
+#: src/ui-gtk/wizard.c:539 src/ui-newt/wizard.c:541
+msgid "Error in playmidi call!"
+msgstr "Earraid 'san glao 'playmidi'.!"
+
+#: src/ui-gtk/wizard.c:551
+msgid "Confirmation of the sound and midi test"
+msgstr ""
+
+#: src/ui-gtk/wizard.c:552 src/ui-newt/wizard.c:550
+msgid "Have you heard the sound and midi samples (if MIDI available)?"
+msgstr ""
+
+#: src/ui-gtk/wizard.c:555 src/ui-newt/wizard.c:549 src/ui-newt/wizard.c:552
+msgid "Confirmation"
+msgstr "Cinntiú"
+
+#: src/ui-gtk/wizard.c:556 src/ui-newt/wizard.c:553
+msgid "Are you sure you want to keep these settings?"
+msgstr ""
+
+#: src/ui-newt/newtstuff.c:78
+#, c-format
+msgid ""
+"Segmentation fault in %s.\n"
+"Please debug."
+msgstr ""
+
+#: src/ui-gnome/wizard.c:266 src/ui-gnome/wizard.c:301
+#: src/ui-gnome/wizard.c:316 src/ui-gnome/wizard.c:329
+#: src/ui-gnome/wizard.c:346 src/ui-gnome/wizard.c:366
+#: src/ui-gnome/wizard.c:382 src/ui-gnome/wizard.c:399
+#: src/ui-gnome/wizard.c:474 src/ui-newt/newtstuff.c:79
+#: src/ui-newt/wizard.c:48
+msgid "Ok"
+msgstr "Ceart go Leor"
+
+#: src/ui-newt/harddrake-text.c:519 src/ui-newt/harddrake-text.c:524
+#: src/ui-newt/harddrake-text.c:538 src/ui-newt/harddrake-text.c:573
+#: src/ui-newt/wizard.c:62
+msgid "HardDrake"
+msgstr "HardDrake"
+
+#: src/ui-newt/wizard.c:141
+msgid "Please select your card:"
+msgstr ""
+
+#: src/ui-newt/wizard.c:226
+msgid "I/O PORT"
+msgstr "PORT I/O"
+
+#: src/ui-newt/wizard.c:265
+msgid "DMA"
+msgstr "DMA"
+
+#: src/ui-newt/wizard.c:278
+msgid "DMA2"
+msgstr "DMA2"
+
+#: src/ui-newt/wizard.c:324
+msgid "Back"
+msgstr "Riomh"
+
+#: src/ui-newt/wizard.c:349
+msgid "Card Settings"
+msgstr "Cumraigh Carta"
+
+#. Disabling midi test with AWE subchipset
+#: src/ui-newt/wizard.c:507 src/ui-newt/wizard.c:518 src/ui-newt/wizard.c:530
+msgid "Testing card"
+msgstr "Ag teastáil carta"
+
+#: src/ui-newt/wizard.c:549 src/ui-newt/wizard.c:552
+msgid "Yes"
+msgstr "Tá"
+
+#: src/ui-newt/wizard.c:549 src/ui-newt/wizard.c:552
+msgid "No"
+msgstr "Níl"
+
+#: src/ui-newt/harddrake-text.c:52
+msgid "Internal error\n"
+msgstr "Earraidh inmheánamach\n"
+
+#: src/ui-newt/harddrake-text.c:79
+msgid "Memory information"
+msgstr "Eolas Chuimhe"
+
+#: src/ui-newt/harddrake-text.c:86
+msgid "Unknown Device"
+msgstr "Gaireas gan aithne"
+
+#. Note to translators: You'll find some lines like those:
+#. `%s%s: %s\n' or `%s%s: %d\n'. They are over all syntax
+#. translations. Explanation: Don't touch the leading `%s'
+#. (simply forget it ...). The second `%s' stands for a
+#. string like `Vendor', the third one is a placeholder for
+#. the detected value. E.g.: `%s%s: %s\n' => `Vendor: IBM\n'
+#: src/ui-newt/harddrake-text.c:112 src/ui-newt/harddrake-text.c:114
+#: src/ui-newt/harddrake-text.c:117 src/ui-newt/harddrake-text.c:119
+#: src/ui-newt/harddrake-text.c:128 src/ui-newt/harddrake-text.c:137
+#: src/ui-newt/harddrake-text.c:145 src/ui-newt/harddrake-text.c:163
+#: src/ui-newt/harddrake-text.c:165 src/ui-newt/harddrake-text.c:254
+#, c-format
+msgid "%s%s: %s\n"
+msgstr "%s%s: %s\n"
+
+#: src/ui-newt/harddrake-text.c:115 src/ui-newt/harddrake-text.c:120
+msgid "Unknown"
+msgstr "Gan aithne"
+
+#: src/ui-newt/harddrake-text.c:152
+#, c-format
+msgid "%sFrequency: %d MHz\n"
+msgstr "%sMinicíocht: %d MHz\n"
+
+#: src/ui-newt/harddrake-text.c:155 src/ui-newt/harddrake-text.c:158
+#: src/ui-newt/harddrake-text.c:161 src/ui-newt/harddrake-text.c:219
+#: src/ui-newt/harddrake-text.c:222 src/ui-newt/harddrake-text.c:225
+#: src/ui-newt/harddrake-text.c:228 src/ui-newt/harddrake-text.c:231
+#: src/ui-newt/harddrake-text.c:234 src/ui-newt/harddrake-text.c:237
+#: src/ui-newt/harddrake-text.c:240 src/ui-newt/harddrake-text.c:243
+#: src/ui-newt/harddrake-text.c:246
+#, c-format
+msgid "%s%s: yes\n"
+msgstr "%s%s: tá\n"
+
+#: src/ui-newt/harddrake-text.c:174 src/ui-newt/harddrake-text.c:177
+#: src/ui-newt/harddrake-text.c:181 src/ui-newt/harddrake-text.c:184
+#: src/ui-newt/harddrake-text.c:190 src/ui-newt/harddrake-text.c:193
+#: src/ui-newt/harddrake-text.c:196 src/ui-newt/harddrake-text.c:204
+#, c-format
+msgid "%s%s: %d MB\n"
+msgstr "%s%s: %d MB\n"
+
+#: src/ui-gnome/gnome-harddrake.c:1045 src/ui-newt/harddrake-text.c:175
+msgid "Total"
+msgstr "Iomlán"
+
+#: src/ui-gnome/gnome-harddrake.c:1053 src/ui-newt/harddrake-text.c:182
+msgid "Free"
+msgstr "Saor"
+
+#: src/ui-gnome/gnome-harddrake.c:1056 src/ui-newt/harddrake-text.c:185
+msgid "Shared"
+msgstr "Comh."
+
+#: src/ui-newt/harddrake-text.c:187 src/ui-newt/harddrake-text.c:206
+#: src/ui-newt/harddrake-text.c:208 src/ui-newt/harddrake-text.c:210
+#, c-format
+msgid "%s%s: %d\n"
+msgstr "%s%s: %d\n"
+
+#: src/ui-gnome/gnome-harddrake.c:1059 src/ui-newt/harddrake-text.c:188
+msgid "Buffers"
+msgstr "Maolánachta"
+
+#: src/ui-gnome/gnome-harddrake.c:1062 src/ui-newt/harddrake-text.c:191
+msgid "Cached"
+msgstr "Taisce"
+
+#: src/ui-gnome/gnome-harddrake.c:1067 src/ui-newt/harddrake-text.c:197
+msgid "Swap Free"
+msgstr "Malairte Saor"
+
+#: src/ui-gnome/gnome-harddrake.c:1029 src/ui-newt/harddrake-text.c:205
+msgid "Capacity"
+msgstr "Lucht"
+
+#: src/ui-gnome/gnome-harddrake.c:1033 src/ui-newt/harddrake-text.c:207
+msgid "Heads"
+msgstr "Ceann"
+
+#: src/ui-gnome/gnome-harddrake.c:1036 src/ui-newt/harddrake-text.c:209
+msgid "Sectors"
+msgstr "Teascán"
+
+#: src/ui-gnome/gnome-harddrake.c:1039 src/ui-newt/harddrake-text.c:211
+msgid "Cylinders"
+msgstr "Sorcóir"
+
+#: src/ui-newt/harddrake-text.c:310
+msgid "Welcome to HardDrake!"
+msgstr "Fáilte go HardDrake!"
+
+#: src/ui-newt/harddrake-text.c:320
+#, c-format
+msgid ""
+"Welcome to HardDrake, the Linux Mandrake hardware detection and "
+"configuration tool.\n"
+"\n"
+"On the following screens you will be able to configure any new hardware for "
+"your computer.\n"
+"\n"
+"                Press any key to continue.\n"
+"\n"
+"         Normal bootup will continue in %d seconds."
+msgstr ""
+
+#: src/ui-newt/harddrake-text.c:329
+msgid ""
+"Welcome to HardDrake, the Linux Mandrake hardware detection and "
+"configuration tool.\n"
+"\n"
+"On the following screens you will be able to configure any new hardware for "
+"your computer.\n"
+"\n"
+"                Press any key to continue."
+msgstr ""
+
+#: src/ui-newt/harddrake-text.c:344
+msgid "Welcome to HardDrake"
+msgstr "Fáilte go dtí HardDrake"
+
+#: src/ui-newt/harddrake-text.c:345
+msgid ""
+"Welcome to HardDrake, the Linux Mandrake hardware detection and "
+"configuration tool.\n"
+"\n"
+"\n"
+"\n"
+"                             Timeout exceeded."
+msgstr ""
+
+#: src/ui-newt/harddrake-text.c:357
+msgid "Hardware Added"
+msgstr ""
+
+#: src/ui-newt/harddrake-text.c:357
+msgid "Configure"
+msgstr "Cumraigh"
+
+#: src/ui-newt/harddrake-text.c:358 src/ui-newt/harddrake-text.c:372
+msgid "Ignore"
+msgstr ""
+
+#: src/ui-newt/harddrake-text.c:358 src/ui-newt/harddrake-text.c:372
+msgid "Do Nothing"
+msgstr ""
+
+#: src/ui-newt/harddrake-text.c:359
+#, c-format
+msgid ""
+"%s has been added to your system:\n"
+"        %s %s\n"
+"\n"
+"You can choose to:\n"
+"\n"
+"1) Configure the device.\n"
+"2) Ignore the device. No configuration will be added, but you will not be "
+"prompted if the device is detected on subsequent reboots.\n"
+"3) Do nothing. No configuration will be added, and the device will show up "
+"as new if it is detected on subsequent reboots."
+msgstr ""
+
+#: src/ui-newt/harddrake-text.c:371
+msgid "Hardware Removed"
+msgstr ""
+
+#: src/ui-newt/harddrake-text.c:371
+msgid "Remove"
+msgstr "Scríos"
+
+#. 1st %s holds the device type (eg: "sound cards", etc;
+#. * the text is in plural (the list is from 'detect'
+#. * module) 2nd %s is the vendor name, 3d %s is the model
+#. * of the device
+#: src/ui-newt/harddrake-text.c:377
+#, c-format
+msgid ""
+"%s has been removed from your system:\n"
+"        %s %s\n"
+"\n"
+"You can choose to:\n"
+"\n"
+"1) Remove device configuration settings.\n"
+"2) Ignore the device. No configuration will be added, but you will not be "
+"prompted if the device is detected on subsequent reboots.\n"
+"3) Do nothing. No configuration will be added, and the device will show up "
+"as new if it is detected on subsequent reboots."
+msgstr ""
+
+#: src/ui-newt/harddrake-text.c:436
+msgid "You must be root to run this software.\n"
+msgstr ""
+
+#: src/ui-newt/harddrake-text.c:454
+#, c-format
+msgid "Error in modprobe call: %s\n"
+msgstr "Earraid 'san 'modprobe' %s\n"
+
+#. Note to translators: This is the helpline you'll get on
+#. bottom of HardDrake's text UI.
+#: src/ui-newt/harddrake-text.c:535 src/ui-newt/harddrake-text.c:572
+msgid ""
+"  <Tab>/<Alt-Tab> between elements  | <Space> selects | <F12> next screen "
+msgstr ""
+
+#: src/ui-gnome/gnome-harddrake.c:48
+msgid "_Refresh"
+msgstr ""
+
+#: src/ui-gnome/gnome-harddrake.c:49 src/ui-gnome/gnome-harddrake.c:94
+#, fuzzy
+msgid "Refresh HardDrake"
+msgstr "HardDrake"
+
+#: src/ui-gnome/gnome-harddrake.c:61
+msgid "Sort by device type"
+msgstr ""
+
+#: src/ui-gnome/gnome-harddrake.c:62 src/ui-gnome/gnome-harddrake.c:397
+#, fuzzy
+msgid "Busses"
+msgstr "Maolánachta"
+
+#: src/ui-gnome/gnome-harddrake.c:62
+msgid "Sort by bus"
+msgstr ""
+
+#: src/ui-gnome/gnome-harddrake.c:63 src/ui-gnome/gnome-harddrake.c:404
+msgid "Categories"
+msgstr ""
+
+#: src/ui-gnome/gnome-harddrake.c:63
+msgid "Sort by category"
+msgstr ""
+
+#: src/ui-gnome/gnome-harddrake.c:94
+msgid "Refresh"
+msgstr ""
+
+#: src/ui-gnome/gnome-harddrake.c:95
+msgid "Open"
+msgstr "Oscáil"
+
+#: src/ui-gnome/gnome-harddrake.c:95
+msgid "Open HardDrake Report File"
+msgstr "Lódail comhad Tuairascáil do HardDrake"
+
+#: src/ui-gnome/gnome-harddrake.c:96
+msgid "Save"
+msgstr "Sábháil"
+
+#: src/ui-gnome/gnome-harddrake.c:96
+#, fuzzy
+msgid "Save HardDrake Report File"
+msgstr "Sábháil Comhad Tuairascáil"
+
+#: src/ui-gnome/gnome-harddrake.c:97
+msgid "Print"
+msgstr "Clódáil"
+
+#: src/ui-gnome/gnome-harddrake.c:97
+#, fuzzy
+msgid "Print HardDrake Report File"
+msgstr "Lódail comhad Tuairascáil"
+
+#: src/ui-gnome/gnome-harddrake.c:98
+#, fuzzy
+msgid "Preferences"
+msgstr "Roghnachais..."
+
+#: src/ui-gnome/gnome-harddrake.c:98
+#, fuzzy
+msgid "Set Preferences"
+msgstr "Roghnachais..."
+
+#: src/ui-gnome/gnome-harddrake.c:138
+msgid "Kudzu Mode"
+msgstr ""
+
+#: src/ui-gnome/gnome-harddrake.c:143
+msgid "Enable Kudzu"
+msgstr ""
+
+#: src/ui-gnome/gnome-harddrake.c:157
+msgid "Kudzu Timeout"
+msgstr ""
+
+#: src/ui-gnome/gnome-harddrake.c:243
+msgid "Colors"
+msgstr "Dathanna"
+
+#: src/ui-gnome/gnome-harddrake.c:334
+#, fuzzy
+msgid "Fonts"
+msgstr "Chlófhoireann..."
+
+#: src/ui-gnome/gnome-harddrake.c:384
+msgid "Sort by"
+msgstr ""
+
+#: src/ui-gnome/gnome-harddrake.c:390
+#, fuzzy
+msgid "Devices types"
+msgstr "Gaireasaí"
+
+#: src/ui-gnome/gnome-harddrake.c:652
+#, fuzzy
+msgid "Boot"
+msgstr "Tosnaigh..."
+
+#: src/ui-gnome/gnome-harddrake.c:654
+msgid "Detect Library"
+msgstr ""
+
+#: src/ui-gnome/gnome-harddrake.c:656
+msgid "Interface"
+msgstr ""
+
+#: src/ui-gnome/gnome-harddrake.c:676
+#, fuzzy
+msgid "Open a report file..."
+msgstr "Sábháil an comhad tuarascáil..."
+
+#: src/ui-gnome/gnome-harddrake.c:703
+msgid "Report saved"
+msgstr ""
+
+#: src/ui-gnome/gnome-harddrake.c:766
+msgid "Not yet implemented."
+msgstr ""
+
+#: src/ui-gnome/gnome-harddrake.c:818
+msgid "Dedicated for Pauline, a pretty girl ;-)"
+msgstr ""
+
+#: src/ui-gnome/gnome-harddrake.c:826 src/ui-gnome/gnome-harddrake.c:1492
+msgid "The Hardware Central Information/Configuration Tool"
+msgstr ""
+
+#: src/ui-gnome/gnome-harddrake.c:982
+msgid "Type"
+msgstr "Cinéal"
+
+#: src/ui-gnome/gnome-harddrake.c:1011
+#, c-format
+msgid "%d MHz"
+msgstr "%d MHz"
+
+#: src/ui-gnome/gnome-harddrake.c:1012
+msgid "Frequency"
+msgstr "Minicíocht"
+
+#: src/ui-gnome/gnome-harddrake.c:1106
+msgid "IO"
+msgstr "IO"
+
+#: src/ui-gnome/gnome-harddrake.c:1133
+#, c-format
+msgid ""
+"This device hasn't been identified by HardDrake, please send `/proc/bus/*' "
+"files and this device ID `%08x' to: harddrake@mandrakesoft.com"
+msgstr ""
+
+#: src/ui-gnome/gnome-harddrake.c:1198
+msgid "Normal View"
+msgstr ""
+
+#: src/ui-gnome/gnome-harddrake.c:1232
+msgid "Busses view"
+msgstr ""
+
+#: src/ui-gnome/gnome-harddrake.c:1262
+msgid "Categories view"
+msgstr ""
+
+#: src/ui-gnome/gnome-harddrake.c:1275
+msgid "System"
+msgstr "Corás"
+
+#: src/ui-gnome/gnome-harddrake.c:1289
+msgid "Multimedia"
+msgstr ""
+
+#: src/ui-gnome/gnome-harddrake.c:1300
+msgid "Network"
+msgstr "Idirlíon"
+
+#: src/ui-gnome/gnome-harddrake.c:1312
+msgid "Storage"
+msgstr ""
+
+#: src/ui-gnome/gnome-harddrake.c:1323
+msgid "Input/Output"
+msgstr ""
+
+#: src/ui-gnome/wizard.c:21 src/ui-gnome/wizard.c:91 src/ui-gnome/wizard.c:420
+#: src/ui-gnome/wizard.c:434
+#, fuzzy
+msgid "HardDrake Wizard"
+msgstr "HardDrake"
+
+#: src/ui-gnome/wizard.c:95
+msgid "You must set up IO, IRQ (and DMA for soundcard)"
+msgstr ""
+
+#: src/ui-gnome/wizard.c:434
+msgid "Now I'm ready to write configuration files, press 'Finish' to confirm"
+msgstr ""
+
+#~ msgid "%ld MB"
+#~ msgstr "%ld MB"
+
+#~ msgid "%d"
+#~ msgstr "%d"
+
+#~ msgid " OK "
+#~ msgstr " Ceart go Leor "
+
+#~ msgid " Cancel "
+#~ msgstr " Cealaigh "
+
+#~ msgid " Yes "
+#~ msgstr " Tá "
+
+#~ msgid " No "
+#~ msgstr " Níl "
+
+#~ msgid "Can't allocate memory!\n"
+#~ msgstr "Cuimhne úsáidte!\n"
+
+#~ msgid "Usage: harddrake [--help] [--report file]"
+#~ msgstr "Úsáid: harddrake [--help] [--report comhad]"

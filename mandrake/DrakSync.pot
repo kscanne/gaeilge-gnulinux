@@ -1,0 +1,785 @@
+# Translatrion file of DrakSync
+# Copyright (C) 2000 Mandrakesoft
+msgid ""
+msgstr ""
+"Project-Id-Version: DrakSync 7.2\n"
+"POT-Creation-Date: 2001-06-19 18:17:25+0000\n"
+"PO-Revision-Date: 2000-10-03 19:47+0200\n"
+"Last-Translator: Nobody yet\n"
+"Language-Team: Irish <ga@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ISO-8859-1\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../modules/DrakSync.py:1619
+msgid "Quit without saving"
+msgstr ""
+
+#: ../modules/Constants.py:180
+msgid "/Help/MandrakeCampus.com"
+msgstr "/Cúidiú/MandrakeCampus.com"
+
+#: ../modules/DrakSync.py:1491 ../modules/DrakSync.py:1678
+#: ../modules/DrakSync.py:1787
+msgid "Remove the current connection?"
+msgstr ""
+
+#: ../modules/DrakSync.py:524
+msgid "Permission denied."
+msgstr ""
+
+#: ../modules/FileTree.py:64
+msgid "Visited directory has a different base than the root directory (%s:%s)"
+msgstr ""
+
+#: ../modules/DrakSync.py:804
+msgid "Synchronizing %s with %s@%s:%s."
+msgstr ""
+
+#: ../modules/DrakSync.py:570 ../modules/DrakSync.py:601
+msgid "Service not available, remote server closed the connection"
+msgstr ""
+
+#: ../modules/DrakSync.py:778
+msgid "The protocol specified is not supported."
+msgstr ""
+
+#: ../modules/Constants.py:181
+msgid "/Help/MandrakeExpert.com"
+msgstr ""
+
+#: ../modules/DrakSync.py:804 ../modules/DrakSync.py:806
+#: ../modules/DrakSync.py:808
+msgid "Please wait."
+msgstr "Fan Tamall."
+
+#: ../modules/DrakSync.py:1084
+msgid "User:"
+msgstr "Úsáideoir:"
+
+#: ../modules/DrakSync.py:1447 ../modules/DrakSync.py:1492
+#: ../modules/DrakSync.py:1621 ../modules/DrakSync.py:1639
+#: ../modules/DrakSync.py:1679 ../modules/DrakSync.py:1778
+#: ../modules/DrakSync.py:1788
+msgid "Yes"
+msgstr "Tá"
+
+#: ../modules/DrakSync.py:1712
+msgid ""
+"If you wish to report a bug, please connect to\n"
+"%s\n"
+"and fill in a bug report"
+msgstr ""
+
+#: ../modules/DrakSync.py:778
+msgid "This is a bug - please report this."
+msgstr ""
+
+#: ../modules/DrakSync.py:523
+msgid "%s - Permission denied"
+msgstr ""
+
+#: ../modules/DrakSync.py:517
+msgid "%s - Password required for remote host"
+msgstr ""
+
+#: ../modules/DrakSync.py:331 ../modules/DrakSync.py:699
+#: ../modules/DrakSync.py:871
+msgid "An unknown error '%s' has occurred."
+msgstr ""
+
+#: ../modules/DrakSync.py:1156
+msgid "Options:"
+msgstr "Roghanna:"
+
+#: ../modules/DrakSync.py:861
+msgid "You don't have any ssh identity."
+msgstr ""
+
+#: ../modules/Constants.py:196
+msgid "/Synchronize all"
+msgstr ""
+
+#: ../modules/DrakSync.py:808
+msgid "Synchronizing %s and %s@%s:%s."
+msgstr ""
+
+#: ../modules/DrakSync.py:691
+msgid "Remote host closed the connection"
+msgstr ""
+
+#: ../modules/DrakSync.py:1159
+msgid "Delete files"
+msgstr ""
+
+#: ../modules/Constants.py:189
+msgid "/Add group"
+msgstr "/Cuir grupa"
+
+#: ../modules/Constants.py:165
+msgid "/File/_Save and quit"
+msgstr "/Comhad/Sábnháil agus Éirigh"
+
+#: ../modules/Constants.py:183
+msgid "/Help/_About..."
+msgstr "/_Cúdiú/Faoi..."
+
+#: ../modules/DrakSync.py:319 ../modules/DrakSync.py:683
+#: ../modules/DrakSync.py:855
+msgid "Permission denied"
+msgstr ""
+
+#: ../modules/Constants.py:32
+msgid ""
+"This program is free software; you can redistribute it and/or modify\n"
+"it under the terms of the GNU General Public License as published by\n"
+"the Free Software Foundation; either version 2 of the License, or\n"
+"(at your option) any later version.\n"
+"\n"
+"This program is distributed in the hope that it will be useful, but\n"
+"WITHOUT ANY WARRANTY; without even the implied warranty of\n"
+"MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU\n"
+"General Public License for more details.\n"
+"\n"
+"You should have received a copy of the GNU General Public License\n"
+"along with this program; if not, write to the Free Software\n"
+"Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA\n"
+"02111-1307, USA."
+msgstr ""
+
+#: ../modules/DrakSync.py:519
+msgid "Please enter your password:"
+msgstr ""
+
+#: ../modules/DrakSync.py:1697
+msgid "About"
+msgstr "Fá"
+
+#: ../modules/Constants.py:173
+msgid "/Connection/S_ynchronize"
+msgstr ""
+
+#: ../modules/DrakSync.py:575 ../modules/DrakSync.py:577
+msgid "remote"
+msgstr ""
+
+#: ../modules/Constants.py:182
+msgid "/Help/_Bug report..."
+msgstr "/_Cúidiú/Tuairisc Fabhtanna..."
+
+#: ../modules/DrakSync.py:569 ../modules/DrakSync.py:600
+msgid "%s - Connection closed"
+msgstr ""
+
+#: ../modules/DrakSync.py:1456 ../modules/DrakSync.py:1646
+msgid "Please enter the new name for the group:"
+msgstr ""
+
+#: ../modules/Constants.py:167
+msgid "/_Group"
+msgstr "/_Grupa"
+
+#: ../modules/DrakSync.py:565
+msgid ""
+"Remote host (%s) was not found. Please check the host name is correctly "
+"spelled and make sure you are online."
+msgstr ""
+
+#: ../modules/DrakSync.py:278
+msgid "The two passwords you entered do not match."
+msgstr ""
+
+#: ../modules/DrakSync.py:1091
+msgid "Host:"
+msgstr "Óst:"
+
+#: ../modules/DrakSync.py:1711
+msgid "Bug report"
+msgstr "Tuairisc Fabht"
+
+#: ../modules/DrakSync.py:954
+msgid "You already have an ssh identity."
+msgstr ""
+
+#: ../modules/DrakSync.py:1111
+msgid "Synchronization"
+msgstr ""
+
+#: ../modules/Constants.py:28
+msgid ""
+"Copyright (C) 2000-2001 MandrakeSoft SA\n"
+"RedHog (Egil Moeller) <redhog@mandrakesoft.com>\n"
+"Gwenole Beauchesne <gbeauchesne@mandrakesoft.com>"
+msgstr ""
+"Copyright (C) 2000-2001 by MandrakeSoft,\n"
+"RedHog (Egil Möller) <redhog@mandrakesoft.com>\n"
+"Gwenole Beauchesne <gbeauchesne@mandrakesoft.com>"
+
+#: ../modules/SyncFileTree.py:252
+msgid "Unknown type of synchronization"
+msgstr ""
+
+#: ../modules/Constants.py:195
+msgid "/Edit connection"
+msgstr ""
+
+#: ../modules/DrakSync.py:694
+msgid "Please create the directory/ies before attempting to synchronize them."
+msgstr ""
+
+#: ../modules/DrakSync.py:1728
+msgid "Remove the current group of connections"
+msgstr ""
+
+#: ../modules/Constants.py:191
+msgid "/Rename group"
+msgstr ""
+
+#: ../modules/DrakSync.py:1121
+msgid "Copy local files to remote"
+msgstr ""
+
+#: ../modules/DrakSync.py:1731
+msgid "Remove the current connection"
+msgstr ""
+
+#: ../modules/DrakSync.py:1445 ../modules/DrakSync.py:1637
+#: ../modules/DrakSync.py:1776
+msgid "Remove group"
+msgstr "Scríos Grupa"
+
+#: ../modules/DrakSync.py:1728
+msgid ""
+"Remove\n"
+"Group"
+msgstr ""
+"Scríos\n"
+"Grupa"
+
+#: ../modules/Constants.py:171
+msgid "/Group/Re_name"
+msgstr ""
+
+#: ../modules/DrakSync.py:345
+msgid "Passphrase required for ssh identity"
+msgstr ""
+
+#: ../modules/DrakSync.py:1435 ../modules/DrakSync.py:1627
+#: ../modules/DrakSync.py:1669 ../modules/DrakSync.py:1750
+#: ../modules/DrakSync.py:1770
+msgid "New group"
+msgstr "Grupa Nua"
+
+#: ../modules/DrakSync.py:564
+msgid "Unknown host name"
+msgstr ""
+
+#: ../modules/DrakSync.py:1282
+msgid "Please enter your passphrase for %s@%s:"
+msgstr ""
+
+#: ../modules/DrakSync.py:1740
+msgid "Synchronize all connections in the current group"
+msgstr ""
+
+#: ../modules/Constants.py:164
+msgid "/File/S_ynchronize all"
+msgstr ""
+
+#: ../modules/DrakSync.py:1734
+msgid ""
+"Edit\n"
+"Connection"
+msgstr ""
+
+#: ../modules/DrakSync.py:1490 ../modules/DrakSync.py:1677
+#: ../modules/DrakSync.py:1786
+msgid "Remove connection"
+msgstr ""
+
+#: ../modules/DrakSync.py:692
+msgid "The remote host closed the connection for %s@%s."
+msgstr ""
+
+#: ../modules/DrakSync.py:1725
+msgid "Add a new connection"
+msgstr ""
+
+#: ../modules/DrakSync.py:885
+msgid "Transferring identity to %s@%s..."
+msgstr ""
+
+#: ../modules/DrakSync.py:684 ../modules/DrakSync.py:856
+msgid "Permission denied. Please reenter passphrase for %s@%s:"
+msgstr ""
+
+#: ../modules/Constants.py:166
+msgid "/File/_Quit without saving"
+msgstr ""
+
+#: ../modules/DrakSync.py:1261
+msgid "External program not found"
+msgstr ""
+
+#: ../modules/DrakSync.py:1135
+msgid "Rsync over SSH (Secure SHell) - secure"
+msgstr ""
+
+#: ../modules/DrakSync.py:806
+msgid "Synchronizing %s@%s:%s with %s."
+msgstr ""
+
+#: ../modules/DrakSync.py:810
+msgid "Files:"
+msgstr "Comhaid:"
+
+#: ../modules/DrakSync.py:882 ../modules/DrakSync.py:958
+msgid "An unknown warning '%s' was issued."
+msgstr ""
+
+#: ../modules/Constants.py:178
+msgid "/Help/_Manual"
+msgstr "/Cúdiú/Lámhleabhar"
+
+#: ../modules/DrakSync.py:1740
+msgid ""
+"Sync\n"
+"Group"
+msgstr ""
+
+#: ../modules/DrakSync.py:1734
+msgid "Edit the current connection"
+msgstr ""
+
+#: ../modules/DrakSync.py:678
+msgid "The remote host requires a passphrase for %s@%s."
+msgstr ""
+
+#: ../modules/DrakSync.py:1446 ../modules/DrakSync.py:1638
+#: ../modules/DrakSync.py:1777
+msgid "Remove the current group and all its connections?"
+msgstr ""
+
+#: ../modules/DrakSync.py:1744
+msgid ""
+"Sync\n"
+"Connection"
+msgstr ""
+
+#: ../modules/DrakSync.py:887
+msgid "Installing identity on %s@%s..."
+msgstr ""
+
+#: ../modules/DrakSync.py:575 ../modules/DrakSync.py:588
+msgid ""
+"Please create the %s directory before attempting to synchronize your files."
+msgstr ""
+
+#: ../modules/FileTree.py:110
+msgid "Unknown connection type"
+msgstr ""
+
+#: ../modules/Constants.py:188
+msgid "/Synchronize group"
+msgstr ""
+
+#: ../modules/DrakSync.py:525
+msgid "Please enter your password again for %s@%s:"
+msgstr ""
+
+#: ../modules/DrakSync.py:560 ../modules/DrakSync.py:605
+msgid "FTP connection problem"
+msgstr ""
+
+#: ../modules/DrakSync.py:576 ../modules/DrakSync.py:589
+msgid "%s - Directory not found"
+msgstr ""
+
+#: ../modules/Constants.py:172
+msgid "/_Connection"
+msgstr ""
+
+#: ../modules/DrakSync.py:881 ../modules/DrakSync.py:957
+msgid "Unknown warning"
+msgstr ""
+
+#: ../modules/DrakSync.py:268 ../modules/DrakSync.py:322
+#: ../modules/DrakSync.py:349 ../modules/DrakSync.py:481
+#: ../modules/DrakSync.py:521 ../modules/DrakSync.py:527
+#: ../modules/DrakSync.py:681 ../modules/DrakSync.py:686
+#: ../modules/DrakSync.py:821 ../modules/DrakSync.py:858
+#: ../modules/DrakSync.py:1283 ../modules/DrakSync.py:1437
+#: ../modules/DrakSync.py:1457 ../modules/DrakSync.py:1629
+#: ../modules/DrakSync.py:1647 ../modules/DrakSync.py:1671
+#: ../modules/DrakSync.py:1752 ../modules/DrakSync.py:1772
+msgid "Cancel"
+msgstr "Cealaigh"
+
+#: ../modules/DrakSync.py:1132
+msgid "Protocol:"
+msgstr ""
+
+#: ../modules/DrakSync.py:1149
+msgid "FTP (File Transfer Protocol) - insecure"
+msgstr ""
+
+#: ../modules/DrakSync.py:1436 ../modules/DrakSync.py:1628
+#: ../modules/DrakSync.py:1670 ../modules/DrakSync.py:1751
+#: ../modules/DrakSync.py:1771
+msgid "Please enter a name for the new group:"
+msgstr ""
+
+#: ../modules/FileTree.py:334
+msgid "Unknown file type"
+msgstr ""
+
+#: ../modules/DrakSync.py:918
+msgid "Uploading ssh identity"
+msgstr ""
+
+#: ../modules/Constants.py:176
+msgid "/Connection/_Edit"
+msgstr ""
+
+#: ../modules/DrakSync.py:577 ../modules/DrakSync.py:590
+msgid "The specificed %s directory (%s) does not exist."
+msgstr ""
+
+#: ../modules/DrakSync.py:1114
+msgid "Direction:"
+msgstr "Treoshuiomh:"
+
+#: ../modules/DrakSync.py:1262
+msgid ""
+"Could not find the required program '%s' for synchronization.\n"
+"Please make sure it is correctly installed and that your PATH\n"
+"contains the installation directory for it."
+msgstr ""
+
+#: ../modules/DrakSync.py:347 ../modules/DrakSync.py:679
+msgid "Please enter your passphrase:"
+msgstr ""
+
+#: ../modules/DrakSync.py:1722
+msgid "Add a new group of connections"
+msgstr ""
+
+#: ../modules/DrakSync.py:920
+msgid "Connecting to %s@%s..."
+msgstr ""
+
+#: ../modules/DrakSync.py:1293
+msgid "Please select local directory"
+msgstr ""
+
+#: ../modules/DrakSync.py:346
+msgid "Your ssh identity requires a passphrase."
+msgstr ""
+
+#: ../modules/Constants.py:177
+msgid "/_Help"
+msgstr "/_Cúidiú"
+
+#: ../modules/DrakSync.py:268 ../modules/DrakSync.py:280
+#: ../modules/DrakSync.py:322 ../modules/DrakSync.py:327
+#: ../modules/DrakSync.py:332 ../modules/DrakSync.py:349
+#: ../modules/DrakSync.py:521 ../modules/DrakSync.py:527
+#: ../modules/DrakSync.py:561 ../modules/DrakSync.py:566
+#: ../modules/DrakSync.py:571 ../modules/DrakSync.py:578
+#: ../modules/DrakSync.py:591 ../modules/DrakSync.py:602
+#: ../modules/DrakSync.py:606 ../modules/DrakSync.py:681
+#: ../modules/DrakSync.py:686 ../modules/DrakSync.py:695
+#: ../modules/DrakSync.py:700 ../modules/DrakSync.py:779
+#: ../modules/DrakSync.py:858 ../modules/DrakSync.py:867
+#: ../modules/DrakSync.py:872 ../modules/DrakSync.py:879
+#: ../modules/DrakSync.py:883 ../modules/DrakSync.py:910
+#: ../modules/DrakSync.py:955 ../modules/DrakSync.py:959
+#: ../modules/DrakSync.py:1265 ../modules/DrakSync.py:1283
+#: ../modules/DrakSync.py:1437 ../modules/DrakSync.py:1457
+#: ../modules/DrakSync.py:1629 ../modules/DrakSync.py:1647
+#: ../modules/DrakSync.py:1671 ../modules/DrakSync.py:1697
+#: ../modules/DrakSync.py:1713 ../modules/DrakSync.py:1752
+#: ../modules/DrakSync.py:1772
+msgid "OK"
+msgstr "Ceart go Leor"
+
+#: ../modules/Constants.py:193
+msgid "/Add connection"
+msgstr ""
+
+#: ../modules/DrakSync.py:324
+msgid "Installation problem"
+msgstr ""
+
+#: ../modules/DrakSync.py:777
+msgid "Unsupported protocol"
+msgstr ""
+
+#: ../modules/Constants.py:174
+msgid "/Connection/_Add"
+msgstr ""
+
+#: ../modules/DrakSync.py:878
+msgid "Your ssh identity has already been uploaded to %s@%s."
+msgstr ""
+
+#: ../modules/DrakSync.py:1725
+msgid ""
+"Add\n"
+"Connection"
+msgstr ""
+
+#: ../modules/DrakSync.py:862
+msgid "If you want to create one, enter a passphrase for it and press OK:"
+msgstr ""
+
+#: ../modules/DrakSync.py:1281
+msgid "Uploading ssh identity always requires a passphrase for the account."
+msgstr ""
+
+#: ../modules/Constants.py:170
+msgid "/Group/_Remove"
+msgstr "/Grupa/_Scríos"
+
+#: ../modules/Constants.py:168
+msgid "/Group/S_ynchronize"
+msgstr ""
+
+#: ../modules/DrakSync.py:1171
+msgid "Synchronize"
+msgstr ""
+
+#: ../modules/DrakSync.py:1125
+msgid "Copy remote files to local"
+msgstr ""
+
+#: ../modules/DrakSync.py:877
+msgid "Ssh identity already installed"
+msgstr ""
+
+#: ../modules/DrakSync.py:953
+msgid "Ssh identity already created"
+msgstr ""
+
+#: ../modules/DrakSync.py:518
+msgid "The remote host requires a password for %s@%s."
+msgstr ""
+
+#: ../modules/DrakSync.py:1737
+msgid "Synchronize all connections (in all groups)"
+msgstr ""
+
+#: ../modules/DrakSync.py:1174
+msgid "Close"
+msgstr "Dún"
+
+#: ../modules/DrakSync.py:1117
+msgid "Copy most recent files"
+msgstr ""
+
+#: ../modules/DrakSync.py:1744
+msgid "Synchronize the current connection"
+msgstr ""
+
+#: ../modules/DrakSync.py:1080
+msgid "Remote"
+msgstr ""
+
+#: ../modules/DrakSync.py:1737
+msgid ""
+"Synchronize\n"
+"All"
+msgstr ""
+
+#: ../modules/DrakSync.py:1074
+msgid "..."
+msgstr "..."
+
+#: ../modules/DrakSync.py:279
+msgid "Please retry."
+msgstr ""
+
+#: ../modules/DrakSync.py:1057
+msgid "Edit connection"
+msgstr ""
+
+#: ../modules/DrakSync.py:588 ../modules/DrakSync.py:590
+msgid "local"
+msgstr "áitiúl"
+
+#: ../modules/DrakSync.py:750
+msgid ":"
+msgstr ":"
+
+#: ../modules/Constants.py:192
+msgid "/Synchronize connection"
+msgstr ""
+
+#: ../modules/DrakSync.py:1069 ../modules/DrakSync.py:1098
+msgid "Directory:"
+msgstr "Comhadlann:"
+
+#: ../modules/Constants.py:163
+msgid "/_File"
+msgstr "/_Comhad"
+
+#: ../modules/DrakSync.py:1722
+msgid ""
+"Add\n"
+"Group"
+msgstr ""
+"Cuir\n"
+"Grupa"
+
+#: ../modules/Constants.py:190
+msgid "/Remove group"
+msgstr "/Scríos grupa"
+
+#: ../modules/Constants.py:175
+msgid "/Connection/_Remove"
+msgstr ""
+
+#: ../modules/DrakSync.py:909
+msgid "Unable to create ssh identity"
+msgstr ""
+
+#: ../modules/Constants.py:169
+msgid "/Group/_Add"
+msgstr "/Grupa/_Cuir"
+
+#: ../modules/DrakSync.py:1455 ../modules/DrakSync.py:1645
+msgid "Rename group"
+msgstr ""
+
+#: ../modules/DrakSync.py:469 ../modules/DrakSync.py:800
+msgid "Synchronization in progress"
+msgstr ""
+
+#: ../modules/DrakSync.py:910
+msgid ""
+"An error occurred while creating your ssh identity. This may be a bug, or a) "
+"you don't have permission to create files in your own homedir, or b) you "
+"don't have ssh properly installed."
+msgstr ""
+
+#: ../modules/DrakSync.py:860
+msgid "Create ssh identity"
+msgstr ""
+
+#: ../modules/DrakSync.py:1620
+msgid "Quit without saving changes?"
+msgstr ""
+
+#: ../modules/Constants.py:194
+msgid "/Remove connection"
+msgstr ""
+
+#: ../modules/DrakSync.py:1143
+msgid "Rsync over RSH (Remote SHell) - insecure"
+msgstr ""
+
+#: ../modules/DrakSync.py:777
+msgid "Bug: "
+msgstr "Fabht: "
+
+#: ../modules/DrakSync.py:693
+msgid ""
+"This is probably due to that either the destination or the source directory "
+"(or both) does not exist."
+msgstr ""
+
+#: ../modules/DrakSync.py:1447 ../modules/DrakSync.py:1492
+#: ../modules/DrakSync.py:1621 ../modules/DrakSync.py:1639
+#: ../modules/DrakSync.py:1679 ../modules/DrakSync.py:1778
+#: ../modules/DrakSync.py:1788
+msgid "No"
+msgstr "Níl"
+
+#: ../modules/DrakSync.py:320
+msgid "Permission denied. Please reenter the passphrase for your ssh identity:"
+msgstr ""
+
+#: ../modules/DrakSync.py:1066
+msgid "Local"
+msgstr ""
+
+#: ../modules/Constants.py:179
+msgid "/Help/-"
+msgstr "Cúidiú/-"
+
+
+#: ../modules/DrakSync.py:330 ../modules/DrakSync.py:698
+#: ../modules/DrakSync.py:870
+msgid "Unknown error"
+msgstr "Earraidh gan aithne"
+
+#: ../modules/DrakSync.py:815
+msgid "Current file:"
+msgstr ""
+
+#: ../modules/DrakSync.py:473
+msgid "Please wait while determining the number of files to synchronize"
+msgstr ""
+
+#: ../modules/DrakSync.py:866
+msgid ""
+"The connection was closed by %s@%s. Please ensure that sshd is running on "
+"the remote host."
+msgstr ""
+
+#: ../modules/FileTree.py:61
+msgid "Depth of visited directory is lower than depth of root directory"
+msgstr ""
+
+#: ../modules/DrakSync.py:325
+msgid "You seem not to have ssh-agent installed."
+msgstr ""
+
+#: ../modules/DrakSync.py:326
+msgid ""
+"Please verify that you have ssh installed correctly and your PATH set up to "
+"include the installation directory of ssh."
+msgstr ""
+
+#: ../modules/DrakSync.py:865
+msgid "Connection closed"
+msgstr ""
+
+#: ../modules/DrakSync.py:1104
+msgid "Upload public ssh key to remote host"
+msgstr ""
+
+#: ../modules/Constants.py:27
+msgid " version "
+msgstr " leagan "
+
+#: ../modules/DrakSync.py:1731
+msgid ""
+"Remove\n"
+"Connection"
+msgstr ""
+
+#: ../modules/DrakSync.py:677 ../modules/DrakSync.py:1280
+msgid "Passphrase required for host"
+msgstr ""
+
+#: ../modules/DrakSync.py:277
+msgid "Passwords do not match"
+msgstr ""
+
+#: ../modules/DrakSync.py:477 ../modules/DrakSync.py:616
+msgid "Current file: %s"
+msgstr ""
+
+#: ../modules/DrakSync.py:628 ../modules/DrakSync.py:639
+msgid "Files remaining to process: %d"
+msgstr ""
+
+#~ msgid "/File/_Preferences"
+#~ msgstr "/Comhad/_Roghnachais"
+
+#~ msgid "/File/-"
+#~ msgstr "/Comhad/-"
+
+#~ msgid "/File/_Quit"
+#~ msgstr "/Comhad/_Ealu"
