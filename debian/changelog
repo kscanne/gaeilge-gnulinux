@@ -1,3 +1,94 @@
+gaeilge (20030221) unstable; urgency=low
+
+  * mandrake/drakfw.pot: Updated.
+  * mandrake/initscripts.pot: Updated.
+  * mandrake/mdkonline.pot: Updated.
+  * mandrake/menudrake.pot: Updated.
+  * mandrake/userdrake.pot: Updated.
+  * debian-installer/silo-installer.pot: New file. 
+
+ -- Alastair McKinstry <mckinstry@computer.org>  Fri, 21 Feb 2003 13:08:57 +0000
+
+gaeilge (20030219) unstable; urgency=low
+
+  * mandrake/mdkonline.pot: Updated. 
+  * mandrake/drakfw.pot: Updated. 
+
+ -- Alastair McKinstry <mckinstry@computer.org>  Mon, 17 Feb 2003 10:00:06 +0000
+
+gaeilge (20030212) unstable; urgency=low
+
+  * Initial copies of the Debian Installer files, in ./debian-installer
+  * mandrake/drakcronat.pot: new file.
+  * mandrake/rfbdrake.pot: new file.
+  * mandrake/krootwarning.pot: new file.
+  * mandrake/drakwizard.pot: new file.
+  * mandrake/moneydrake.pot: new file.
+  * gnome/nautilus-media.pot: New file, thanks to Paul Duffy
+
+ -- Alastair McKinstry <mckinstry@computer.org>  Wed, 12 Feb 2003 20:58:16 +0000
+
+gaeilge (20030115) unstable; urgency=low
+
+  * mandrake/menudrake.pot: Updated. 
+
+ -- Alastair McKinstry <mckinstry@computer.org>  Wed, 15 Jan 2003 21:04:07 +0000
+
+gaeilge (20020905) unstable; urgency=low
+
+  * mandrake/rpmdrake.pot: Updated.
+  * mandrake/DrakX.pot: Updated.
+  * mandrake/drakconf.pot: Updated.
+
+ -- Alastair McKinstry <mckinstry@computer.org>  Thu,  5 Sep 2002 09:08:58 +0200
+
+gaeilge (20020903) unstable; urgency=low
+
+  * mandrake/drakfw.pot: Updated.
+  * mandrake/menudrake.pot: Updated.
+  * mandrake/gtk+mdk.pot: Updated.
+  * mandrake/rpmdrake.pot: Updated.
+  * mandrake/grpmi.pot: Updated.
+  * mandrake/initscripts.pot: Updated.
+  * mandrake/mdkonline.pot: Updated.
+  * mandrake/userdrake.pot: Updated.
+
+ -- Alastair McKinstry <mckinstry@computer.org>  Tue,  3 Sep 2002 22:55:44 +0200
+
+gaeilge (20020827) unstable; urgency=low
+
+  * mandrake/drakconf.pot: Updated. 
+
+ -- Alastair McKinstry <mckinstry@computer.org>  Tue, 27 Aug 2002 11:19:22 +0200
+
+gaeilge (20020824) unstable; urgency=low
+
+  * mandrake/rpmdrake.pot: Updated.
+  * mandrake/menudrake.pot: Updated.
+
+ -- Alastair McKinstry <mckinstry@computer.org>  Sat, 24 Aug 2002 10:47:36 +0200
+
+gaeilge (20020818) unstable; urgency=low
+
+  * mandrake/drakconf.pot: Updated.
+  * mandrake/drakfw.pot: Updated.
+  * mandrake/gtk+mdk.pot: Updated.
+  * mandrake/initscripts.pot: Updated.
+  * mandrake/grpmi.pot: Updated.
+  * mandrake/mdkonline.pot: Updated.
+  * mandrake/menudrake.pot: Updated.
+  * mandrake/rpmdrake.pot: Updated.
+  * mandrake/userdrake.pot: Updated.
+
+ -- Alastair McKinstry <mckinstry@computer.org>  Sun, 18 Aug 2002 12:42:54 +0200
+
+gaeilge (20020807) unstable; urgency=low
+
+  * mandrake/rpmdrake.pot: Updated.
+  * mandrake/grpmi.pot: Updated.
+
+ -- Alastair McKinstry <mckinstry@computer.org>  Wed,  7 Aug 2002 11:42:41 +0200
+
 gaeilge (20020720) unstable; urgency=low
 
   * debian/rules: Now works without top-level Makefile (needed for 
