@@ -37,14 +37,18 @@ msgstr "Ag Tosnú `arpwatch': "
 msgid "The random data source exists\n"
 msgstr ""
 
-#: ../../EXTRACTS/freeswan/init.d/ipsec:138
-#, fuzzy, c-format
-msgid "Usage: %s {--start|--stop|--restart|--status}\n"
-msgstr "Úsáid: %s {start|stop|restart|status}\n"
+#: ../../EXTRACTS/ypserv/init.d/ypserv:41
+msgid "Stopping YP server services: "
+msgstr ""
 
 #: ../sysconfig/network-scripts/ifup-sit:63
 msgid "Missing remote IPv4 address of tunnel, configuration is not valid"
 msgstr ""
+
+#: ../../EXTRACTS/netatalk/init.d/atalk:166
+#, fuzzy
+msgid "Usage: atalk {start|stop|restart|status}\n"
+msgstr "Úsáid: %s {start|stop|restart|status}\n"
 
 #: ../../EXTRACTS/vixie-cron/init.d/crond:51
 #, fuzzy
@@ -55,11 +59,11 @@ msgstr "Ag athlódáil an comraíocht na tseirbhís USB"
 msgid "To use Backward Compatibility with ipchains for kernel 2.4\n"
 msgstr ""
 
-#: ../../EXTRACTS/cfengine/init.d/cfd:28
-msgid "Starting cfd: "
-msgstr "Ag Tosnú an seirbhís `cfd': "
+#: ../../EXTRACTS/nfs-utils/init.d/nfs:69
+msgid "Starting NFS quotas: "
+msgstr ""
 
-#: ../rc.d/rc.sysinit:331
+#: ../rc.d/rc.sysinit:334 ../rc.d/rc.sysinit.~1.117.~:334
 msgid "Forcing file system integrity check due to default setting"
 msgstr ""
 
@@ -67,8 +71,8 @@ msgstr ""
 msgid "usage: ifup-routes <net-device>"
 msgstr ""
 
-#: ../../EXTRACTS/krb5-server/init.d/kadmin:34
-msgid "Error. This appears to be a slave server, found kpropd.acl\n"
+#: ../../EXTRACTS/cups/init.d/cups:84
+msgid "Turning off CUPS-LPD mini daemon ...\n"
 msgstr ""
 
 #: ../../EXTRACTS/gpm/init.d/gpm:22
@@ -126,36 +130,6 @@ msgstr "Ag Tosnú `lpd': "
 msgid "Currently active devices:\n"
 msgstr ""
 
-#: ../../EXTRACTS/console-tools/init.d/keytable:89
-msgid "No status available for this package\n"
-msgstr ""
-
-#: ../sysconfig/network-scripts/network-functions-ipv6:303
-msgid "Tunnel device 'sit0' is still up - FATAL ERROR!"
-msgstr ""
-
-#: ../../EXTRACTS/openssh-server/init.d/sshd:50
-msgid "Generating SSH2 RSA host key: "
-msgstr ""
-
-#: ../sysconfig/network-scripts/ifup:19
-msgid "usage: ifup <device name>"
-msgstr ""
-
-#: ../../EXTRACTS/ez-ipupdate/init.d/ez-ipupdate:52
-msgid "Re-reading ez-ipupdate config: "
-msgstr ""
-
-#: ../../EXTRACTS/inn/init.d/innd:32
-#, fuzzy
-msgid "Starting INND system: "
-msgstr "Ag Tosnún na tSeirbhís `NFS Statd': "
-
-#: ../rc.d/rc.sysinit:821
-#, fuzzy
-msgid "Turning on process accounting"
-msgstr "Ag Stoppadh an Séirbhís `cron': "
-
 #: ../../EXTRACTS/am-utils/init.d/amd:38 ../../EXTRACTS/at/init.d/atd:39
 #: ../../EXTRACTS/bind/init.d/named:43
 #: ../../EXTRACTS/clusternfs/init.d/clusternfs:34
@@ -171,6 +145,40 @@ msgstr "Ag Stoppadh an Séirbhís `cron': "
 #, c-format
 msgid "Stopping %s: "
 msgstr "Ag Stoppadh %s: "
+
+#: ../../EXTRACTS/console-tools/init.d/keytable:95
+msgid "No status available for this package\n"
+msgstr ""
+
+#: ../sysconfig/network-scripts/network-functions-ipv6:303
+msgid "Tunnel device 'sit0' is still up - FATAL ERROR!"
+msgstr ""
+
+#: ../../EXTRACTS/openssh-server/init.d/sshd:50
+msgid "Generating SSH2 RSA host key: "
+msgstr ""
+
+#: ../sysconfig/network-scripts/ifup:19
+msgid "usage: ifup <device name>"
+msgstr ""
+
+#: ../../EXTRACTS/inn/init.d/innd:32
+#, fuzzy
+msgid "Starting INND system: "
+msgstr "Ag Tosnún na tSeirbhís `NFS Statd': "
+
+#: ../../EXTRACTS/jabber/init.d/jabber:51
+msgid "Starting Jabber: "
+msgstr "Ag Tosnú Jabber: "
+
+#: ../../EXTRACTS/krb5-server/init.d/krb5server:43
+#, fuzzy
+msgid "Stopping Kerberos 5-to-4 Server"
+msgstr "Ag Stoppadh an Seirbhishí `rusers': "
+
+#: ../../EXTRACTS/cups/init.d/cups:41
+msgid "Cannot start loopback device, start of CUPS aborted"
+msgstr ""
 
 #: ../../EXTRACTS/krb5-server/init.d/kadmin:89
 #, fuzzy, c-format
@@ -203,13 +211,14 @@ msgstr "Ag Tosnún na tSeirbhís `NFS Statd': "
 msgid "radvd control enabled, but config is not complete"
 msgstr ""
 
-#: ../rc.d/rc.sysinit:84
+#: ../rc.d/rc.sysinit:87 ../rc.d/rc.sysinit.~1.117.~:87
 msgid "\t\t\tBooting, please wait..."
 msgstr ""
 
-#: ../../EXTRACTS/nfs-utils-clients/init.d/nfslock:56
-msgid "Shutting down NFS lockd: "
-msgstr "Ag Stoppadh `lockd NFS': "
+#: ../../EXTRACTS/netatalk/init.d/atalk:81
+#, fuzzy
+msgid "  Starting afpd:"
+msgstr "Ag Tosnú `acpid': "
 
 #: ../../EXTRACTS/apache-conf/init.d/httpd:156
 #: ../../EXTRACTS/apache-conf/init.d/httpd:161
@@ -220,19 +229,27 @@ msgstr ""
 msgid "Hebrew"
 msgstr ""
 
-#: ../../EXTRACTS/dhcp-relay/init.d/dhcrelay:90
+#: ../../EXTRACTS/apmd/init.d/apmd:26
 #, fuzzy
-msgid "Usage: dhcrelay {start|stop|restart|condrestart|status}\n"
-msgstr "Úsáid: %s {start|stop|restart|condrestart|status}\n"
+msgid "Starting up APM daemon: "
+msgstr "Ag Tosní seibhís NFS: "
 
-#: ../rc.d/rc.sysinit:421
+#: ../../EXTRACTS/ez-ipupdate/init.d/ez-ipupdate:38
+#, c-format
+msgid "%s: already running"
+msgstr ""
+
+#: ../rc.d/rc.sysinit:424 ../rc.d/rc.sysinit.~1.117.~:424
 msgid "Checking root filesystem quotas: "
 msgstr ""
 
-#. The 3 strings "OK", "FAILED" and "PASSED" must be of the same width
 #: ../../EXTRACTS/initscripts/init.d/functions:381
 msgid "FAILED"
 msgstr "TEIP"
+
+#: ../../EXTRACTS/cups/init.d/cups:36
+msgid "Loopback device ('lo', 127.0.0.1) needed by CUPS, starting it ...\n"
+msgstr ""
 
 #: ../../EXTRACTS/acon/init.d/acon:27
 msgid "Yiddish"
@@ -246,10 +263,10 @@ msgstr "Ag Stoppadh an tSeirbhís cfd "
 msgid "Urdu"
 msgstr "Urdú"
 
-#: ../../EXTRACTS/MySQL/init.d/mysql:188
-#, fuzzy, c-format
-msgid "usage: %s start|stop|status|reload|restart\n"
-msgstr "Úsáid: %s {start|stop|status|reload|restart}\n"
+#: ../../EXTRACTS/medusa/init.d/medusa:39
+#, fuzzy
+msgid "Shutting down Medusa search daemon: "
+msgstr "Ag Stoppadh an Seirbhís `APM': "
 
 #: ../../EXTRACTS/rwho/init.d/rwhod:29
 msgid "Stopping rwho services: "
@@ -261,12 +278,6 @@ msgstr "Ag Stoppadh na tSeirbhís `rwho': "
 #, c-format
 msgid "Usage: %s {start|stop|status|restart|reload|condrestart}\n"
 msgstr "Úsáid: %s {start|stop|status|restart|reload|condrestart}\n"
-
-#. The 3 strings "OK", "FAILED" and "PASSED" must be of the same width
-#: ../../EXTRACTS/postgresql-server/init.d/postgresql:164
-#, fuzzy
-msgid "  [ OK ]\n"
-msgstr "CEART"
 
 #: ../../EXTRACTS/prelude/init.d/prelude:49
 #, fuzzy
@@ -290,9 +301,10 @@ msgstr "Ag Stoppadh Seirbishí `Fetchmail': "
 msgid "Shutting down X Font Server: "
 msgstr "Ag Stoppadh an tSeirbhís Chlófhoireann X:  "
 
-#: ../../EXTRACTS/ipvsadm/init.d/ipvsadm:44
-msgid "Failed"
-msgstr ""
+#: ../../EXTRACTS/cups/init.d/cups:117
+#, fuzzy
+msgid "Loading USB printer kernel module ...\n"
+msgstr "Ag Lódáil an tiomáin `HiSax'\n"
 
 #: ../../EXTRACTS/nfs-utils-clients/init.d/nfslock:38
 msgid "Starting NFS lockd: "
@@ -304,7 +316,8 @@ msgid ""
 "non-NBMA-styled tunneling setup won't work!"
 msgstr ""
 
-#: ../../EXTRACTS/initscripts/init.d/halt:211
+#: ../../EXTRACTS/initscripts/init.d/halt:212
+#: ../../EXTRACTS/initscripts/init.d/halt:223
 msgid "Otherwise, the UPS may cut the power during the reboot!!!\n"
 msgstr ""
 
@@ -312,6 +325,11 @@ msgstr ""
 #, fuzzy, c-format
 msgid "Usage: %s\n"
 msgstr "Saghas Carta: %s\n"
+
+#: ../../EXTRACTS/MySQL/init.d/mysql:200
+#, fuzzy, c-format
+msgid "usage: %s {start|stop|status|reload|restart}\n"
+msgstr "Úsáid: %s {start|stop|status|reload|restart}\n"
 
 #: ../../EXTRACTS/jabber/init.d/jabber:59
 #, fuzzy
@@ -340,14 +358,28 @@ msgstr ""
 msgid "Usage: ifdown_ipv6to4_all interfacename"
 msgstr ""
 
+#: ../../EXTRACTS/cups/init.d/cups:52
+msgid "         CUPS may not work properly.\n"
+msgstr ""
+
 #: ../../EXTRACTS/krb5-server/init.d/krb5server:38
 #, fuzzy
 msgid "Starting Kerberos 5-to-4 Server\n"
 msgstr "Ag Tosnú `jserver': "
 
+#: ../../EXTRACTS/nut-server/init.d/upsd:106
+#, fuzzy
+msgid "Usage: upsd {start|stop|powerdown|restart|reload|status}\n"
+msgstr "Úsáid: %s {start|stop|restart|reload|status}\n"
+
 #: ../../EXTRACTS/apache-conf/init.d/httpd:167
 msgid "Apache is running.\n"
 msgstr ""
+
+#: ../../EXTRACTS/radvd/init.d/radvd:37
+#, fuzzy
+msgid "Stopping IPv6 rtr adv daemon: "
+msgstr "Ag Stoppadh an tSeirbhís 'USB': "
 
 #: ../../EXTRACTS/ipvsadm/init.d/ipvsadm:36
 #, c-format
@@ -363,10 +395,12 @@ msgstr ""
 msgid "Starting diald: "
 msgstr "Ag Tosnú `amd': "
 
-#: ../../EXTRACTS/netatalk/init.d/atalk:81
-#, fuzzy
-msgid "  Starting afpd:"
-msgstr "Ag Tosnú `acpid': "
+#: ../../EXTRACTS/apache-conf/init.d/httpd:216
+#, c-format
+msgid ""
+"Usage: %s {start|stop|restart|reload/graceful|update|status|configtest}\n"
+msgstr ""
+"Úsáid: %s {start|stop|restart|reload/graceful|update|status|configtest}\n"
 
 #: ../../EXTRACTS/cyrus-sasl/init.d/saslauthd:51
 #, fuzzy
@@ -376,6 +410,16 @@ msgstr "Ag Stoppadh `arpwatch': "
 #: ../../EXTRACTS/apache-conf/init.d/httpd:173
 msgid "httpd-perl: `pidof httpd-perl`\n"
 msgstr ""
+
+#: ../../EXTRACTS/sendmail/init.d/sendmail:77
+#, fuzzy
+msgid "Shutting down sm-client: "
+msgstr "Ag Stoppadh na tSeirbhís ntpd: "
+
+#: ../../EXTRACTS/netatalk/init.d/atalk:144
+#, fuzzy
+msgid "  Stopping afpd:"
+msgstr "Ag Stoppadh `amd': "
 
 #: ../../EXTRACTS/apache-conf/init.d/httpd:172
 msgid "Apache-mod_perl is running.\n"
@@ -392,11 +436,6 @@ msgstr ""
 msgid "Starting Medusa search daemon: "
 msgstr "Ag Tosnú Seirbhís APM: "
 
-#: ../../EXTRACTS/radvd/init.d/radvd:37
-#, fuzzy
-msgid "Stopping IPv6 rtr adv daemon: "
-msgstr "Ag Stoppadh an tSeirbhís 'USB': "
-
 #: ../../EXTRACTS/dhcp-relay/init.d/dhcrelay:57
 #, fuzzy
 msgid "Shutting down dhcrelay: "
@@ -411,7 +450,6 @@ msgstr ""
 msgid "No Mountpoints Defined"
 msgstr ""
 
-#. The 3 strings "OK", "FAILED" and "PASSED" must be of the same width
 #: ../../EXTRACTS/initscripts/init.d/functions:370
 msgid "  OK  "
 msgstr "CEART"
@@ -446,7 +484,8 @@ msgstr "Ag Tosnú `NFS mountd': "
 msgid "HylaFAX server not started. "
 msgstr ""
 
-#: ../rc.d/rc.sysinit:417 ../rc.d/rc.sysinit:810
+#: ../rc.d/rc.sysinit:420 ../rc.d/rc.sysinit:823
+#: ../rc.d/rc.sysinit.~1.117.~:420 ../rc.d/rc.sysinit.~1.117.~:823
 msgid "Converting old group quota files: "
 msgstr ""
 
@@ -460,15 +499,15 @@ msgstr "Úsáid: %s {start|stop|status|restart|cond-restart|reload|probe}\n"
 msgid "Restarting X Font Server. "
 msgstr "Ag Stoppadh an tSeirbhís Chlófhoireann X:  "
 
-#: ../../EXTRACTS/postgresql-server/init.d/postgresql:239
+#: ../../EXTRACTS/postgresql-server/init.d/postgresql:222
 #, fuzzy, c-format
 msgid "Usage: %s {start|stop|status|restart|condrestart|reload|force-reload}\n"
 msgstr "Úsáid: %s {start|stop|status|restart|cond-restart|reload|probe}\n"
 
-#: ../../EXTRACTS/prelude/init.d/prelude:54
+#: ../../EXTRACTS/nut/init.d/upsmon:35
 #, fuzzy
-msgid "Starting prelude: "
-msgstr "Ag Tosnú `lpd': "
+msgid "NUT Stopping UPS monitor: "
+msgstr "Ag Tosnú `NFS mountd': "
 
 #: ../../EXTRACTS/acon/init.d/acon:35
 #, c-format
@@ -488,7 +527,7 @@ msgstr ""
 msgid "Shutting down postfix: "
 msgstr ""
 
-#: ../rc.d/rc.sysinit:366
+#: ../rc.d/rc.sysinit:369 ../rc.d/rc.sysinit.~1.117.~:369
 #, fuzzy
 msgid "Checking root filesystem\n"
 msgstr "Ag Mountáil na chorais comhaid eile: "
@@ -508,7 +547,8 @@ msgstr ""
 msgid "Usage: %s {start|stop|restart}\n"
 msgstr "Úsáid: %s {start|stop|restart}\n"
 
-#: ../rc.d/rc.sysinit:413 ../rc.d/rc.sysinit:805
+#: ../rc.d/rc.sysinit:416 ../rc.d/rc.sysinit:818
+#: ../rc.d/rc.sysinit.~1.117.~:416 ../rc.d/rc.sysinit.~1.117.~:818
 msgid "Converting old user quota files: "
 msgstr ""
 
@@ -516,15 +556,15 @@ msgstr ""
 msgid "saslauthd already running"
 msgstr ""
 
-#: ../rc.d/rc.sysinit:730
+#: ../rc.d/rc.sysinit:733 ../rc.d/rc.sysinit.~1.117.~:733
 msgid "Checking loopback filesystems"
 msgstr ""
 
-#: ../../EXTRACTS/initscripts/init.d/netfs:125
-msgid "Configured NCP mountpoints: \n"
+#: ../../EXTRACTS/lirc/init.d/lircd:57
+msgid "Starting Linux Infrared Remote Control daemon"
 msgstr ""
 
-#: ../../EXTRACTS/initscripts/init.d/halt:44
+#: ../../EXTRACTS/initscripts/init.d/halt:45
 #, c-format
 msgid "%s: call me as 'halt' or 'reboot' please!\n"
 msgstr ""
@@ -537,16 +577,14 @@ msgstr "Araibis"
 msgid "Missing parameter 'forwarding control' (arg 1)"
 msgstr ""
 
+#: ../../EXTRACTS/sendmail/init.d/sendmail:56
+#, fuzzy
+msgid "Starting sm-client: "
+msgstr "Ag Tosnú identd: "
+
 #: ../../EXTRACTS/apache-conf/init.d/httpd:109
 msgid "Starting httpd: "
 msgstr "Ag Stoppadh an tSeirbhís 'httpd': "
-
-#: ../../EXTRACTS/apache-conf/init.d/httpd:216
-#, c-format
-msgid ""
-"Usage: %s {start|stop|restart|reload/graceful|update|status|configtest}\n"
-msgstr ""
-"Úsáid: %s {start|stop|restart|reload/graceful|update|status|configtest}\n"
 
 #: ../../EXTRACTS/boa/init.d/boa:37
 #, fuzzy
@@ -570,7 +608,7 @@ msgstr ""
 msgid "%s (pid %s) is running...\n"
 msgstr ""
 
-#: ../../EXTRACTS/initscripts/init.d/halt:223
+#: ../../EXTRACTS/initscripts/init.d/halt:235
 msgid "On the next boot fsck will be forced.\n"
 msgstr ""
 
@@ -592,7 +630,7 @@ msgstr ""
 msgid "Start service %s (Y)es/(N)o/(C)ontinue? [Y] \n"
 msgstr ""
 
-#: ../rc.d/rc.sysinit:264
+#: ../rc.d/rc.sysinit:267 ../rc.d/rc.sysinit.~1.117.~:267
 #, fuzzy
 msgid "Mounting USB filesystem: "
 msgstr "Ag Mountáil na chorais comhaid eile: "
@@ -602,22 +640,21 @@ msgstr "Ag Mountáil na chorais comhaid eile: "
 msgid "Starting NMB services: "
 msgstr ""
 
+#: ../../EXTRACTS/tightvnc-server/init.d/vncserver:49
 #: ../../EXTRACTS/vnc-server/init.d/vncserver:49
 #, fuzzy
 msgid "vncserver shutdown"
 msgstr "Ag Stoppadh an Seirbhís `ncsd'"
 
-#: ../rc.d/rc.sysinit:389 ../rc.d/rc.sysinit:609 ../rc.d/rc.sysinit:649
-#: ../rc.d/rc.sysinit:752
-msgid "Unmounting file systems\n"
+#: ../../EXTRACTS/cups/init.d/cups:51
+msgid "WARNING: Could not add loopback device to routing table,\n"
 msgstr ""
 
-#: ../../EXTRACTS/ypserv/init.d/ypxfrd:22
-#, fuzzy
-msgid "Starting YP map server: "
-msgstr "Ag Tosnú `jserver': "
+#: ../../EXTRACTS/cups/init.d/cups:47
+msgid "Adding loopback device to routing table ...\n"
+msgstr ""
 
-#: ../rc.d/rc.sysinit:688
+#: ../rc.d/rc.sysinit:691 ../rc.d/rc.sysinit.~1.117.~:691
 msgid "Mounting local filesystems: "
 msgstr ""
 
@@ -631,11 +668,11 @@ msgstr "Ag Stoppadh na Seirbishí mcserv "
 msgid "Stopping NFS quotas: "
 msgstr "Ag Stoppadh %s: "
 
-#: ../../EXTRACTS/ypserv/init.d/ypserv:41
-msgid "Stopping YP server services: "
+#: ../../EXTRACTS/cups/init.d/cups:122
+msgid "         not work.\n"
 msgstr ""
 
-#: ../../EXTRACTS/postgresql-server/init.d/postgresql:182
+#: ../../EXTRACTS/postgresql-server/init.d/postgresql:165
 msgid "Stopping postgresql service: "
 msgstr ""
 
@@ -648,10 +685,15 @@ msgstr "Ag Tosnú an seirbhís `gated': "
 msgid "Stopping INNWatch service: "
 msgstr "Ag Stoppadh an tSeirbhís INNWatch"
 
-#: ../../EXTRACTS/lm_sensors/init.d/sensors:48
+#: ../../EXTRACTS/lm_sensors/init.d/sensors:91
 #, fuzzy
 msgid "Usage: sensors {start|stop|restart|reload|status}\n"
 msgstr "Úsáid: %s {start|stop|restart|reload|status}\n"
+
+#: ../../EXTRACTS/ypserv/init.d/ypxfrd:22
+#, fuzzy
+msgid "Starting YP map server: "
+msgstr "Ag Tosnú `jserver': "
 
 #: ../sysconfig/network-scripts/ifup-ipv6:82
 #: ../sysconfig/network-scripts/ifup-ipv6.old:105
@@ -668,6 +710,10 @@ msgstr ""
 msgid "Changing target policies to DENY: "
 msgstr ""
 
+#: ../../EXTRACTS/cups/init.d/cups:108
+msgid "         printer may not work.\n"
+msgstr ""
+
 #: ../../EXTRACTS/jabber-aim/init.d/jabber-aim:51
 #, fuzzy
 msgid "Starting Jabber AIM Transport: "
@@ -677,7 +723,7 @@ msgstr "Ag Tosnú Jabber: "
 msgid "Error. Principal database does not exist.\n"
 msgstr ""
 
-#: ../rc.d/rc.sysinit:301
+#: ../rc.d/rc.sysinit:304 ../rc.d/rc.sysinit.~1.117.~:304
 msgid "Your system appears to have shut down uncleanly"
 msgstr ""
 
@@ -690,10 +736,10 @@ msgstr "Ag Stoppadh an Seirbhís  `NFS':  "
 msgid "Starting ntpd: "
 msgstr "Ag Tosnú `ntpd': "
 
-#: ../../EXTRACTS/proftpd/init.d/proftpd:73
+#: ../../EXTRACTS/nut-server/init.d/upsd:94
 #, fuzzy
-msgid "Suspending proftpd NOW "
-msgstr "Ag Tosnú proftpd: "
+msgid "NUT UPS daemon Reread configurations: "
+msgstr "Ag athlódáil an comraíocht na tseirbhís USB"
 
 #: ../sysconfig/network-scripts/ifup:262
 msgid " failed."
@@ -711,8 +757,18 @@ msgstr "Ag Tosnú an tSeirbhís mon"
 msgid "Starting %s:"
 msgstr "Ag Tosnú %s: "
 
-#: ../../EXTRACTS/nfs-utils/init.d/nfs:69
-msgid "Starting NFS quotas: "
+#: ../../EXTRACTS/cfengine/init.d/cfd:28
+msgid "Starting cfd: "
+msgstr "Ag Tosnú an seirbhís `cfd': "
+
+#: ../../EXTRACTS/hylafax-server/init.d/hylafax-server:187
+#, fuzzy, c-format
+msgid ""
+"Usage: %s { start | stop | status | restart | condrestart | faxgettyreset }\n"
+msgstr "Úsáid: %s {start|stop|status|restart|condrestart|faxgettyreset}\n"
+
+#: ../../EXTRACTS/krb5-server/init.d/kadmin:34
+msgid "Error. This appears to be a slave server, found kpropd.acl\n"
 msgstr ""
 
 #: ../../EXTRACTS/am-utils/init.d/amd:94
@@ -727,10 +783,10 @@ msgstr "Úsáid: %s {start|stop|restart|reload|condrestart|status}\n"
 msgid "Changing target policies to DROP: "
 msgstr ""
 
-#: ../../EXTRACTS/anacron/init.d/anacron:69
+#: ../rc.d/rc.sysinit:834 ../rc.d/rc.sysinit.~1.117.~:834
 #, fuzzy
-msgid "Usage: anacron {start|stop|restart|condrestart|status}\n"
-msgstr "Úsáid: %s {start|stop|restart|condrestart|status}\n"
+msgid "Turning on process accounting"
+msgstr "Ag Stoppadh an Séirbhís `cron': "
 
 #: ../../EXTRACTS/harddrake/init.d/harddrake:40
 msgid "Harddrake service was not run at boot time"
@@ -740,20 +796,18 @@ msgstr ""
 msgid "The BackSpace key sends: ^?"
 msgstr ""
 
-#: ../rc.d/rc.sysinit:383 ../rc.d/rc.sysinit:603 ../rc.d/rc.sysinit:643
-#: ../rc.d/rc.sysinit:746
+#: ../rc.d/rc.sysinit:386 ../rc.d/rc.sysinit:606 ../rc.d/rc.sysinit:646
+#: ../rc.d/rc.sysinit:749 ../rc.d/rc.sysinit.~1.117.~:386
+#: ../rc.d/rc.sysinit.~1.117.~:606 ../rc.d/rc.sysinit.~1.117.~:646
+#: ../rc.d/rc.sysinit.~1.117.~:749
 msgid "*** Dropping you to a shell; the system will reboot\n"
 msgstr ""
 
-#: ../../EXTRACTS/sendmail/init.d/sendmail:54
-msgid "Shutting down sendmail: "
-msgstr "Ag Stoppadh an tSeirbhís 'sendmail': "
-
-#: ../../EXTRACTS/proftpd/init.d/proftpd:98
+#: ../../EXTRACTS/proftpd/init.d/proftpd:99
 msgid "}\n"
 msgstr ""
 
-#: ../../EXTRACTS/proftpd/init.d/proftpd:61
+#: ../../EXTRACTS/proftpd/init.d/proftpd:62
 msgid "Re-reading proftpd config: "
 msgstr ""
 
@@ -766,13 +820,6 @@ msgstr ""
 msgid "Active NFS mountpoints: \n"
 msgstr ""
 
-#: ../../EXTRACTS/initscripts/init.d/random:55
-#: ../../EXTRACTS/inn/init.d/innd:83 ../../EXTRACTS/mon/init.d/mon:47
-#: ../../EXTRACTS/nfs-utils/init.d/nfs:171
-#, c-format
-msgid "Usage: %s {start|stop|status|restart|reload}\n"
-msgstr "Úsáid: %s {start|stop|status|restart|reload}\n"
-
 #: ../../EXTRACTS/harddrake/init.d/harddrake:39
 msgid "Harddrake service was run at boot time"
 msgstr ""
@@ -781,14 +828,20 @@ msgstr ""
 msgid " failed; no link present.  Check cable?"
 msgstr ""
 
+#: ../../EXTRACTS/initscripts/init.d/halt:218
+msgid "NUT will now power off the UPS!\n"
+msgstr ""
+
 #: ../../EXTRACTS/apache-conf/init.d/httpd:205
 msgid "Reloading httpd: "
 msgstr "Ag athlódail `httpd': "
 
-#: ../../EXTRACTS/netatalk/init.d/atalk:166
-#, fuzzy
-msgid "Usage: atalk {start|stop|restart|status}\n"
-msgstr "Úsáid: %s {start|stop|restart|status}\n"
+#: ../../EXTRACTS/initscripts/init.d/random:55
+#: ../../EXTRACTS/inn/init.d/innd:83 ../../EXTRACTS/mon/init.d/mon:47
+#: ../../EXTRACTS/nfs-utils/init.d/nfs:171
+#, c-format
+msgid "Usage: %s {start|stop|status|restart|reload}\n"
+msgstr "Úsáid: %s {start|stop|status|restart|reload}\n"
 
 #: ../../EXTRACTS/krb5-server/init.d/krb5server:36
 msgid "Starting Kerberos 5 Admin Server\n"
@@ -801,16 +854,11 @@ msgid ""
 "disabled in kernel"
 msgstr ""
 
-#: ../../EXTRACTS/ez-ipupdate/init.d/ez-ipupdate:32
-#, fuzzy
-msgid "Stopping ez-ipupdate: "
-msgstr "Ag Stoppadh `amd': "
-
 #: ../../EXTRACTS/lirc/init.d/lircmd:39
 msgid "Stopping Linux Infrared Remote Control mouse daemon"
 msgstr ""
 
-#: ../../EXTRACTS/proftpd/init.d/proftpd:77
+#: ../../EXTRACTS/proftpd/init.d/proftpd:78
 msgid "No way to suspend, shutting down instead "
 msgstr ""
 
@@ -818,18 +866,17 @@ msgstr ""
 msgid "Configured SMB mountpoints: \n"
 msgstr ""
 
-#: ../../EXTRACTS/hylafax-server/init.d/hylafax-server:187
-#, fuzzy, c-format
-msgid ""
-"Usage: %s { start | stop | status | restart | condrestart | faxgettyreset }\n"
-msgstr "Úsáid: %s {start|stop|status|restart|condrestart|faxgettyreset}\n"
+#: ../../EXTRACTS/cups/init.d/cups:195
+#, fuzzy
+msgid "Usage: cups {start|stop|restart|status|condrestart}\n"
+msgstr "Úsáid: %s {start|stop|restart|status|condrestart}\n"
 
 #: ../../EXTRACTS/autofs/init.d/autofs:331
 #, c-format
 msgid "Start %s\n"
 msgstr "Tosnú %s\n"
 
-#: ../rc.d/rc.sysinit:553
+#: ../rc.d/rc.sysinit:556 ../rc.d/rc.sysinit.~1.117.~:556
 msgid "Starting up RAID devices: "
 msgstr ""
 
@@ -846,11 +893,6 @@ msgstr "Úsáid: %s {start|stop|status|restart}\n"
 msgid "Shutting down httpd-perl: "
 msgstr "Ag Stoppadh `httpd-perl':  "
 
-#: ../../EXTRACTS/sendmail/init.d/sendmail:70
-#, fuzzy
-msgid "Usage: sendmail {start|stop|restart|status}\n"
-msgstr "Úsáid: dhcpd {start|stop|restart|status}\n"
-
 #: ../../EXTRACTS/nfs-utils/init.d/nfs:34
 msgid "/etc/exports does not exist\n"
 msgstr ""
@@ -859,7 +901,7 @@ msgstr ""
 msgid "Active SMB mountpoints: \n"
 msgstr ""
 
-#: ../../EXTRACTS/postgresql-server/init.d/postgresql:150
+#: ../../EXTRACTS/postgresql-server/init.d/postgresql:145
 msgid "Postmaster already running.\n"
 msgstr ""
 
@@ -885,17 +927,18 @@ msgstr ""
 msgid "Stopping YP passwd service: "
 msgstr ""
 
-#: ../rc.d/rc.sysinit:96 ../rc.d/rc.sysinit:98
+#: ../rc.d/rc.sysinit:98 ../rc.d/rc.sysinit:100 ../rc.d/rc.sysinit.~1.117.~:98
+#: ../rc.d/rc.sysinit.~1.117.~:100
 #, fuzzy, c-format
 msgid "\t\t\tWelcome to %sMandrake%s Linux %s"
 msgstr "\t\tFáilte go dtí Linux %sMandrake%s"
 
-#: ../rc.d/rc.sysinit:816
+#: ../rc.d/rc.sysinit:829 ../rc.d/rc.sysinit.~1.117.~:829
 #, fuzzy
 msgid "Checking local filesystem quotas: "
 msgstr "Ag Mountáil na chorais comhaid eile: "
 
-#: ../../EXTRACTS/console-tools/init.d/keytable:93
+#: ../../EXTRACTS/console-tools/init.d/keytable:99
 #, fuzzy
 msgid "Usage: keytable {start|stop|restart|reload|status}\n"
 msgstr "Úsáid: %s {start|stop|restart|reload|status}\n"
@@ -904,7 +947,12 @@ msgstr "Úsáid: %s {start|stop|restart|reload|status}\n"
 msgid "Active NCP mountpoints: \n"
 msgstr ""
 
-#: ../../EXTRACTS/MySQL/init.d/mysql:135
+#: ../../EXTRACTS/apmd/init.d/apmd:77
+#, fuzzy
+msgid "Usage: apmd.init {start|stop|status|restart|reload|condrestart}\n"
+msgstr "Úsáid: %s {start|stop|status|restart|reload|condrestart}\n"
+
+#: ../../EXTRACTS/MySQL/init.d/mysql:147
 #, fuzzy
 msgid "Stopping MySQL Server"
 msgstr "Ag Stoppadh na tSeirbhís `innd'"
@@ -925,12 +973,8 @@ msgid ""
 "not valid!"
 msgstr ""
 
-#: ../rc.d/rc.sysinit:333
+#: ../rc.d/rc.sysinit:336 ../rc.d/rc.sysinit.~1.117.~:336
 msgid "Not forcing file system integrity check due to default setting"
-msgstr ""
-
-#: ../../EXTRACTS/netatalk/init.d/atalk:23
-msgid "[could not load appletalk module]\n"
 msgstr ""
 
 #: ../sysconfig/network-scripts/network-functions-ipv6:775
@@ -948,27 +992,31 @@ msgstr ""
 msgid "%s don't exist\n"
 msgstr ""
 
-#: ../../EXTRACTS/krb5-server/init.d/krb5server:43
-#, fuzzy
-msgid "Stopping Kerberos 5-to-4 Server"
-msgstr "Ag Stoppadh an Seirbhishí `rusers': "
-
 #: ../sysconfig/network-scripts/ifup-ipv6:222
 #: ../sysconfig/network-scripts/ifup-ipv6.old:248
 msgid "Error occured while calculating the IPv6to4 prefix"
+msgstr ""
+
+#: ../rc.d/rc.sysinit:605 ../rc.d/rc.sysinit.~1.117.~:605
+msgid "*** An error occurred during the RAID startup\n"
 msgstr ""
 
 #: ../../EXTRACTS/iptables-ipv6/init.d/ip6tables:54
 msgid "Applying ip6tables firewall rules: \n"
 msgstr ""
 
+#: ../../EXTRACTS/xinetd/init.d/xinetd:76
+#, fuzzy
+msgid "Reloading configuration: "
+msgstr "Ag athlódáil an comraíocht na tseirbhís USB"
+
 #: ../../EXTRACTS/initscripts/init.d/rawdevices:48
 #, fuzzy
 msgid "Assigning raw devices:"
 msgstr "Ag Tosnú an gaireas %s: "
 
-#: ../../EXTRACTS/lirc/init.d/lircd:57
-msgid "Starting Linux Infrared Remote Control daemon"
+#: ../../EXTRACTS/initscripts/init.d/netfs:125
+msgid "Configured NCP mountpoints: \n"
 msgstr ""
 
 #: ../../EXTRACTS/initscripts/init.d/functions:362
@@ -984,10 +1032,16 @@ msgstr ""
 msgid "Generating SSH2 DSA host key: "
 msgstr ""
 
-#: ../../EXTRACTS/proftpd/init.d/proftpd:96
+#: ../../EXTRACTS/proftpd/init.d/proftpd:97
 #, fuzzy, c-format
 msgid "Usage: %s {start|stop|status|restart|reload|resume"
 msgstr "Úsáid: %s {start|stop|status|restart|reload}\n"
+
+#: ../../EXTRACTS/freeswan/init.d/ipsec:138
+#, fuzzy, c-format
+msgid ""
+"Usage: %s {--start|start|--stop|stop|--restart|restart|--status|status}\n"
+msgstr "Úsáid: %s {start|stop|restart|status}\n"
 
 #: ../sysconfig/network-scripts/ifup-ipv6:164
 msgid ""
@@ -1005,12 +1059,16 @@ msgstr ""
 msgid "Stopping IPsec"
 msgstr "Ag Stoppadh %s: "
 
+#: ../../EXTRACTS/cups/init.d/cups:98
+msgid "Loading parallel port printer kernel modules ...\n"
+msgstr ""
+
 #: ../../EXTRACTS/autofs/init.d/autofs:226
 #, fuzzy
 msgid "Configured Mount Points:\n"
 msgstr "Gaireasanna Cumraíocht:\n"
 
-#: ../rc.d/rc.sysinit:105
+#: ../rc.d/rc.sysinit:108 ../rc.d/rc.sysinit.~1.117.~:108
 msgid "\t\tPress 'I' to enter interactive startup."
 msgstr ""
 
@@ -1033,12 +1091,12 @@ msgstr "Ag Stoppadh `lpd':"
 msgid "Shutting down prelude report: "
 msgstr "Ag Stoppadh `ldap': "
 
-#: ../../EXTRACTS/jabber-aim/init.d/jabber-aim:59
+#: ../../EXTRACTS/dhcp-relay/init.d/dhcrelay:90
 #, fuzzy
-msgid "Shutting down Jabber AIM Transport: "
-msgstr "Ag  Stoppadh an tSeirbhís 'snmpd':  "
+msgid "Usage: dhcrelay {start|stop|restart|condrestart|status}\n"
+msgstr "Úsáid: %s {start|stop|restart|condrestart|status}\n"
 
-#: ../../EXTRACTS/MySQL/init.d/mysql:126
+#: ../../EXTRACTS/MySQL/init.d/mysql:138
 #, c-format
 msgid "Can't execute %s/safe_mysqld\n"
 msgstr ""
@@ -1051,6 +1109,11 @@ msgstr "Ag Stoppadh `arpwatch': "
 #, fuzzy, c-format
 msgid "Stopping %s daemon: "
 msgstr "Ag Stoppadh an tSeirbhís 'USB': "
+
+#: ../../EXTRACTS/cups/init.d/cups:133
+#, fuzzy
+msgid "Starting HPOJ daemons ...\n"
+msgstr "Ag Tosní seibhís NFS: "
 
 #: ../../EXTRACTS/webmin/init.d/webmin:59
 #, c-format
@@ -1066,7 +1129,11 @@ msgstr ""
 msgid "%s %s\n"
 msgstr "Saghas Carta: %s\n"
 
-#: ../../EXTRACTS/MySQL/init.d/mysql:139
+#: ../../EXTRACTS/cups/init.d/cups:70
+msgid "Correcting 'localhost' line in /etc/hosts ...\n"
+msgstr ""
+
+#: ../../EXTRACTS/MySQL/init.d/mysql:151
 #, c-format
 msgid "(pid %s)"
 msgstr ""
@@ -1075,11 +1142,13 @@ msgstr ""
 msgid "Run '/usr/sbin/kudzu' from the command line to re-detect."
 msgstr ""
 
-#: ../rc.d/rc.sysinit:382 ../rc.d/rc.sysinit:642 ../rc.d/rc.sysinit:745
+#: ../rc.d/rc.sysinit:385 ../rc.d/rc.sysinit:645 ../rc.d/rc.sysinit:748
+#: ../rc.d/rc.sysinit.~1.117.~:385 ../rc.d/rc.sysinit.~1.117.~:645
+#: ../rc.d/rc.sysinit.~1.117.~:748
 msgid "*** An error occurred during the file system check.\n"
 msgstr ""
 
-#: ../../EXTRACTS/proftpd/init.d/proftpd:89
+#: ../../EXTRACTS/proftpd/init.d/proftpd:90
 #, fuzzy
 msgid "Starting proftpd; was not suspended "
 msgstr "Ag Tosnú proftpd: "
@@ -1092,9 +1161,14 @@ msgstr ""
 msgid "ERROR: [ipv6_log] Missing 'message' (arg 1)"
 msgstr ""
 
-#: ../rc.d/rc.sysinit:350
+#: ../rc.d/rc.sysinit:353 ../rc.d/rc.sysinit.~1.117.~:353
 msgid "Failed to check filesystem. Do you want to repair the errors? (Y/N)"
 msgstr ""
+
+#: ../../EXTRACTS/cups/init.d/cups:167
+#, fuzzy
+msgid "Stopping CUPS printing system: "
+msgstr "Ag Stoppadh na Seirbhísí 'rwall': "
 
 #: ../sysconfig/network-scripts/network-functions-ipv6:500
 #: ../sysconfig/network-scripts/network-functions-ipv6:582
@@ -1109,6 +1183,11 @@ msgstr "Ag Tosnú Jabber: "
 #: ../../EXTRACTS/ntp/init.d/ntpd:25
 msgid "Syncing time for ntpd. "
 msgstr ""
+
+#: ../../EXTRACTS/nut/init.d/upsmon:51
+#, fuzzy
+msgid "Usage: upsmon {start|stop|restart|reload|status}\n"
+msgstr "Úsáid: %s {start|stop|restart|reload|status}\n"
 
 #: ../../EXTRACTS/webmin/init.d/webmin:32
 #: ../../EXTRACTS/webmin/init.d/webmin:41
@@ -1135,13 +1214,17 @@ msgstr "Stad an %s\n"
 msgid "Stopping INNFeed service: "
 msgstr "Ag Stoppadh na Seirbishí INET: "
 
+#: ../../EXTRACTS/proftpd/init.d/proftpd:39
+msgid "Starting proftpd: "
+msgstr "Ag Tosnú proftpd: "
+
 #: ../../EXTRACTS/iptables-ipv6/init.d/ip6tables:109
 #: ../../EXTRACTS/iptables/init.d/iptables:108
 #, fuzzy, c-format
 msgid "Table: %s\n"
 msgstr "Saghas Carta: %s\n"
 
-#: ../../EXTRACTS/proftpd/init.d/proftpd:45
+#: ../../EXTRACTS/proftpd/init.d/proftpd:46
 msgid "Shutting down proftpd: "
 msgstr "Ag Stoppadh na tSeirbhís `proftpd': "
 
@@ -1151,13 +1234,16 @@ msgid "Stopping Kerberos 5 KDC"
 msgstr "Ag Stoppadh an Seirbhishí `rusers': "
 
 #: ../../EXTRACTS/initscripts/init.d/halt:18
+#: ../../EXTRACTS/nut-server/init.d/upsd:39
+#: ../../EXTRACTS/tightvnc-server/init.d/vncserver:27
+#: ../../EXTRACTS/tightvnc-server/init.d/vncserver:43
 #: ../../EXTRACTS/vnc-server/init.d/vncserver:27
 #: ../../EXTRACTS/vnc-server/init.d/vncserver:43
 #, c-format
 msgid "%s "
 msgstr ""
 
-#: ../../EXTRACTS/postgresql-server/init.d/postgresql:127
+#: ../../EXTRACTS/postgresql-server/init.d/postgresql:122
 msgid "Initializing database: "
 msgstr ""
 
@@ -1175,10 +1261,9 @@ msgstr ""
 msgid "Stopping oki4daemon printer driver daemon: "
 msgstr ""
 
-#: ../../EXTRACTS/ez-ipupdate/init.d/ez-ipupdate:65
-#, fuzzy
-msgid "Usage: ez-ipupdate  {start|stop|restart|reload|status}\n"
-msgstr "Úsáid: %s {start|stop|restart|reload|status}\n"
+#: ../../EXTRACTS/apache-conf/init.d/httpd:200
+msgid "Reloading httpd-perl: "
+msgstr "Ag Athlódáil `httpd-perl': "
 
 #: ../../EXTRACTS/hylafax-server/init.d/hylafax-server:144
 #, fuzzy
@@ -1203,10 +1288,10 @@ msgstr "Ag Stoppadh an Seirbhís `APM': "
 msgid "Usage: ntpd {start|stop|restart|status}\n"
 msgstr "Úsáid: dhcpd {start|stop|restart|status}\n"
 
-#: ../../EXTRACTS/xinetd/init.d/xinetd:76
+#: ../../EXTRACTS/cups/init.d/cups:142
 #, fuzzy
-msgid "Reloading configuration: "
-msgstr "Ag athlódáil an comraíocht na tseirbhís USB"
+msgid "Starting oki4daemon ...\n"
+msgstr "Ag Tosnú an tSeirbhís mon"
 
 #: ../../EXTRACTS/postgresql-server/init.d/postgresql:111
 #, c-format
@@ -1216,8 +1301,8 @@ msgid ""
 "See %s/postgresql-%s/README.rpm-dist for more information.\n"
 msgstr ""
 
-#: ../../EXTRACTS/dhcp-server/init.d/dhcpd:58
-msgid "Starting dhcpd: "
+#: ../../EXTRACTS/acon/init.d/acon:25
+msgid "Pashto"
 msgstr ""
 
 #: ../sysconfig/network-scripts/ifup:260
@@ -1230,7 +1315,7 @@ msgstr " críochnaithe.\n"
 msgid "Shutting down Jabber ICQ Transport: "
 msgstr "Ag  Stoppadh an tSeirbhís 'snmpd':  "
 
-#: ../rc.d/rc.sysinit:275
+#: ../rc.d/rc.sysinit:278 ../rc.d/rc.sysinit.~1.117.~:278
 msgid "Initializing USB keyboard: "
 msgstr ""
 
@@ -1255,7 +1340,7 @@ msgstr "Úsáid: %s {start|stop}\n"
 msgid "  Please correct your /etc/sysconfig/rawdevices:\n"
 msgstr ""
 
-#: ../rc.d/rc.sysinit:119
+#: ../rc.d/rc.sysinit:122 ../rc.d/rc.sysinit.~1.117.~:122
 msgid " #### your system is currently using devfs but devfsd isn't availlable"
 msgstr ""
 
@@ -1268,7 +1353,7 @@ msgstr ""
 msgid "Stopping NFS daemon: "
 msgstr "Ag Tosní seibhís NFS: "
 
-#: ../../EXTRACTS/initscripts/init.d/halt:40
+#: ../../EXTRACTS/initscripts/init.d/halt:41
 msgid "Please stand by while rebooting the system..."
 msgstr ""
 
@@ -1284,7 +1369,7 @@ msgstr ""
 msgid "Shutting down ADSL link"
 msgstr ""
 
-#: ../rc.d/rc.sysinit:120
+#: ../rc.d/rc.sysinit:123 ../rc.d/rc.sysinit.~1.117.~:123
 msgid " #### you should disable devfs (add 'devfs=nomount' to the paramaters"
 msgstr ""
 
@@ -1307,10 +1392,15 @@ msgstr ""
 msgid "  Stopping papd:"
 msgstr "Ag Stoppadh `amd': "
 
-#: ../../EXTRACTS/initscripts/init.d/halt:53
+#: ../../EXTRACTS/initscripts/init.d/halt:54
 #, fuzzy, c-format
 msgid "Usage: %s {start}\n"
 msgstr "Úsáid: %s {start|stop}\n"
+
+#: ../../EXTRACTS/nut-server/init.d/upsd:61
+#, fuzzy
+msgid "NUT Starting UPS daemon: "
+msgstr "Ag Tosní seibhís NFS: "
 
 #: ../../EXTRACTS/ipchains/init.d/ipchains:55
 msgid "Applying ipchains firewall rules: "
@@ -1320,6 +1410,7 @@ msgstr ""
 msgid "Starting Name Switch Cache Daemon: "
 msgstr ""
 
+#: ../../EXTRACTS/tightvnc-server/init.d/vncserver:33
 #: ../../EXTRACTS/vnc-server/init.d/vncserver:33
 #, fuzzy
 msgid "vncserver startup"
@@ -1328,6 +1419,11 @@ msgstr "Ag Tosnú na tSeirbhís `sshd'"
 #: ../../EXTRACTS/sysklogd/init.d/syslog:51
 msgid "Starting system logger: "
 msgstr ""
+
+#: ../../EXTRACTS/proftpd/init.d/proftpd:74
+#, fuzzy
+msgid "Suspending proftpd NOW "
+msgstr "Ag Tosnú proftpd: "
 
 #: ../../EXTRACTS/initscripts/init.d/functions:337
 msgid "Usage: status {program}\n"
@@ -1368,15 +1464,24 @@ msgstr ""
 msgid "There is no way to reload rwhod as their isn't any config file.\n"
 msgstr ""
 
+#: ../../EXTRACTS/webmin/init.d/webmin:17
+#, fuzzy
+msgid "Webmin installation failed, I can't go further.\n"
+msgstr "Rabdadh: Teip ag feistiú Webmin\n"
+
 #: ../../EXTRACTS/am-utils/init.d/amd:29 ../../EXTRACTS/at/init.d/atd:29
-#: ../../EXTRACTS/bind/init.d/named:31 ../../EXTRACTS/gated/init.d/gated:39
+#: ../../EXTRACTS/bind/init.d/named:31
+#: ../../EXTRACTS/ez-ipupdate/init.d/ez-ipupdate:41
+#: ../../EXTRACTS/gated/init.d/gated:39
 #: ../../EXTRACTS/hylafax-server/init.d/hylafax-server:96
 #: ../../EXTRACTS/hylafax-server/init.d/hylafax-server:106
 #: ../../EXTRACTS/krb5-server/init.d/kadmin:43
 #: ../../EXTRACTS/krb5-server/init.d/kprop:30
 #: ../../EXTRACTS/krb5-server/init.d/krb524:30
 #: ../../EXTRACTS/krb5-server/init.d/krb5kdc:31
+#: ../../EXTRACTS/sendmail/init.d/sendmail:38
 #: ../../EXTRACTS/squid/init.d/squid:57
+#: ../../EXTRACTS/tightvnc-server/init.d/vncserver:22
 #: ../../EXTRACTS/ucd-snmp/init.d/snmpd:21
 #: ../../EXTRACTS/vixie-cron/init.d/crond:24
 #: ../../EXTRACTS/vnc-server/init.d/vncserver:22
@@ -1393,7 +1498,8 @@ msgstr ""
 msgid "   you'll have to upgrade your util-linux package\n"
 msgstr ""
 
-#: ../rc.d/rc.sysinit:443 ../rc.d/rc.sysinit:619
+#: ../rc.d/rc.sysinit:446 ../rc.d/rc.sysinit:622
+#: ../rc.d/rc.sysinit.~1.117.~:446 ../rc.d/rc.sysinit.~1.117.~:622
 msgid "Setting up Logical Volume Management:"
 msgstr ""
 
@@ -1410,7 +1516,6 @@ msgstr ""
 msgid "Extracting kadm5 Service Keys: "
 msgstr "Ag Tosnú an Seirbhís `rwall':  "
 
-#. The 3 strings "OK", "FAILED" and "PASSED" must be of the same width
 #: ../../EXTRACTS/initscripts/init.d/functions:392
 msgid "PASSED"
 msgstr ""
@@ -1427,13 +1532,19 @@ msgstr "Ag Tosnú proftpd: "
 msgid "Stopping INN actived service: "
 msgstr "Ag Stoppadh an tSeirbhís INNWatch"
 
+#: ../../EXTRACTS/lm_sensors/init.d/sensors:41
+#, fuzzy
+msgid "Loading sensors modules: "
+msgstr "Ag Tosnú `sshd': "
+
 #: ../../EXTRACTS/openssh-server/init.d/sshd:34
 msgid "Generating SSH1 RSA host key: "
 msgstr ""
 
-#: ../../EXTRACTS/proftpd/init.d/proftpd:39
-msgid "Starting proftpd: "
-msgstr "Ag Tosnú proftpd: "
+#: ../../EXTRACTS/cfengine/init.d/cfd:49 ../../EXTRACTS/diald/init.d/diald:56
+#, c-format
+msgid "Usage: %s {start|stop|restart|status}\n"
+msgstr "Úsáid: %s {start|stop|restart|status}\n"
 
 #: ../../EXTRACTS/boa/init.d/boa:24
 #, fuzzy
@@ -1468,7 +1579,7 @@ msgstr "Ag athlódail `httpd': "
 msgid "Stopping Kerberos 5-to-4 Server: "
 msgstr "Ag Stoppadh an Seirbhishí `rusers': "
 
-#: ../../EXTRACTS/initscripts/init.d/halt:36
+#: ../../EXTRACTS/initscripts/init.d/halt:37
 #, fuzzy
 msgid "Halting system..."
 msgstr "Ag Tosnú na seirbishí nuacht `innd': "
@@ -1477,10 +1588,6 @@ msgstr "Ag Tosnú na seirbishí nuacht `innd': "
 #, fuzzy
 msgid "*** Usage: devfsd {start|stop|status|restart}\n"
 msgstr "Úsáid: %s {start|stop|status|restart}\n"
-
-#: ../../EXTRACTS/apache-conf/init.d/httpd:200
-msgid "Reloading httpd-perl: "
-msgstr "Ag Athlódáil `httpd-perl': "
 
 #: ../../EXTRACTS/dhcp-server/init.d/dhcpd:68
 msgid "Shutting down dhcpd: "
@@ -1491,11 +1598,11 @@ msgstr "Ag Stoppadh seirbhís dhcpd: "
 msgid "#######################################"
 msgstr ""
 
-#: ../../EXTRACTS/proftpd/init.d/proftpd:86
+#: ../../EXTRACTS/proftpd/init.d/proftpd:87
 msgid "Allowing proftpd sessions again "
 msgstr ""
 
-#: ../rc.d/rc.sysinit:310
+#: ../rc.d/rc.sysinit:313 ../rc.d/rc.sysinit.~1.117.~:313
 #, c-format
 msgid "Press N within %d seconds to not force file system integrity check..."
 msgstr ""
@@ -1512,16 +1619,23 @@ msgstr ""
 msgid "Shutting down httpd: "
 msgstr "Ag Stoppadh `httpd': "
 
-#: ../rc.d/rc.sysinit:758
+#: ../rc.d/rc.sysinit:761 ../rc.d/rc.sysinit.~1.117.~:761
 msgid "Checking filesystem quotas: "
 msgstr ""
 
-#: ../../EXTRACTS/MySQL/init.d/mysql:116
+#: ../rc.d/rc.sysinit:392 ../rc.d/rc.sysinit:612 ../rc.d/rc.sysinit:652
+#: ../rc.d/rc.sysinit:755 ../rc.d/rc.sysinit.~1.117.~:392
+#: ../rc.d/rc.sysinit.~1.117.~:612 ../rc.d/rc.sysinit.~1.117.~:652
+#: ../rc.d/rc.sysinit.~1.117.~:755
+msgid "Unmounting file systems\n"
+msgstr ""
+
+#: ../../EXTRACTS/MySQL/init.d/mysql:128
 #, fuzzy
 msgid "Starting MySQL Server"
 msgstr "Ag Tosnú `jserver': "
 
-#: ../rc.d/rc.sysinit:274
+#: ../rc.d/rc.sysinit:277 ../rc.d/rc.sysinit.~1.117.~:277
 #, fuzzy
 msgid "Initializing USB HID interface: "
 msgstr "Ag Tosnú an tSeirbhís uimhir random: "
@@ -1530,8 +1644,8 @@ msgstr "Ag Tosnú an tSeirbhís uimhir random: "
 msgid "Starting NFS statd: "
 msgstr "Ag Tosnún na tSeirbhís `NFS Statd': "
 
-#: ../rc.d/rc.sysinit:602
-msgid "*** An error occurred during the RAID startup\n"
+#: ../../EXTRACTS/iptables/init.d/iptables:53
+msgid "Applying iptables firewall rules: \n"
 msgstr ""
 
 #: ../sysconfig/network-scripts/ifup-ipv6.old:235
@@ -1543,21 +1657,25 @@ msgstr ""
 msgid "Starting oki4daemon printer driver daemon: "
 msgstr ""
 
-#: ../../EXTRACTS/medusa/init.d/medusa:39
+#: ../../EXTRACTS/cups/init.d/cups:155
 #, fuzzy
-msgid "Shutting down Medusa search daemon: "
-msgstr "Ag Stoppadh an Seirbhís `APM': "
+msgid "Starting CUPS printing system: "
+msgstr "Ag Tosnún na tSeirbhís `NFS Statd': "
 
-#: ../../EXTRACTS/proftpd/init.d/proftpd:101
+#: ../../EXTRACTS/proftpd/init.d/proftpd:102
 msgid "suspend accepts additional arguments which are passed to ftpshut(8)\n"
 msgstr ""
 
-#: ../../EXTRACTS/lm_sensors/init.d/sensors:25
+#: ../../EXTRACTS/nfs-utils-clients/init.d/nfslock:56
+msgid "Shutting down NFS lockd: "
+msgstr "Ag Stoppadh `lockd NFS': "
+
+#: ../../EXTRACTS/lm_sensors/init.d/sensors:55
 #, fuzzy
 msgid "Starting sensord: "
 msgstr "Ag Tosnú `sshd': "
 
-#: ../rc.d/rc.sysinit:121
+#: ../rc.d/rc.sysinit:124 ../rc.d/rc.sysinit.~1.117.~:124
 msgid " #### that your bootloader gives to the kernel"
 msgstr ""
 
@@ -1569,12 +1687,8 @@ msgstr ""
 msgid "Active Mount Points:\n"
 msgstr ""
 
-#: ../../EXTRACTS/sendmail/init.d/sendmail:39
-msgid "Starting sendmail: "
-msgstr "Ag Tosnú `sendmail': "
-
-#: ../../EXTRACTS/acon/init.d/acon:25
-msgid "Pashto"
+#: ../../EXTRACTS/dhcp-server/init.d/dhcpd:58
+msgid "Starting dhcpd: "
 msgstr ""
 
 #: ../../EXTRACTS/openldap-servers/init.d/ldap:71
@@ -1596,13 +1710,7 @@ msgstr ""
 msgid "Usage: %s {start|stop|status|restart|condrestart}\n"
 msgstr "Ísáid: %s {start|stop|status|restart|condrestart}\n"
 
-#. The 3 strings "OK", "FAILED" and "PASSED" must be of the same width
-#: ../../EXTRACTS/postgresql-server/init.d/postgresql:174
-#, fuzzy
-msgid " [ FAILED ]\n"
-msgstr "TEIP"
-
-#: ../rc.d/rc.sysinit:240
+#: ../rc.d/rc.sysinit:243 ../rc.d/rc.sysinit.~1.117.~:243
 msgid "Loading default keymap: "
 msgstr "Ag Lódáil keymap de gnáth: "
 
@@ -1611,14 +1719,14 @@ msgstr "Ag Lódáil keymap de gnáth: "
 msgid "Reloading postfix: "
 msgstr "Ag Tosnú postfix: "
 
-#: ../rc.d/rc.sysinit:276
+#: ../rc.d/rc.sysinit:279 ../rc.d/rc.sysinit.~1.117.~:279
 #, fuzzy
 msgid "Initializing USB mouse: "
 msgstr "Ag Stoppadh an tSeirbhís 'USB': "
 
-#: ../../EXTRACTS/initscripts/init.d/functions:212
-msgid "Usage: killproc {program} [signal]\n"
-msgstr "Úsáid: killproc {ríomhchlár} [comhairc]\n"
+#: ../../EXTRACTS/netatalk/init.d/atalk:23
+msgid "[could not load appletalk module]\n"
+msgstr ""
 
 #: ../../EXTRACTS/fwlogwatch/init.d/fwlogwatch:44
 #: ../../EXTRACTS/openssh-server/init.d/sshd:115
@@ -1626,10 +1734,9 @@ msgstr "Úsáid: killproc {ríomhchlár} [comhairc]\n"
 msgid "Reloading %s:"
 msgstr "Ag Athlódáil an tSeirbhís '%s':  "
 
-#: ../../EXTRACTS/netatalk/init.d/atalk:144
-#, fuzzy
-msgid "  Stopping afpd:"
-msgstr "Ag Stoppadh `amd': "
+#: ../../EXTRACTS/initscripts/init.d/functions:212
+msgid "Usage: killproc {program} [signal]\n"
+msgstr "Úsáid: killproc {ríomhchlár} [comhairc]\n"
 
 #: ../../EXTRACTS/acpid/init.d/acpid:27
 #, fuzzy, c-format
@@ -1645,8 +1752,10 @@ msgstr "Ag Tosní seibhís NFS: "
 msgid "Usage: %s {start|stop|restart|reload|status}\n"
 msgstr "Úsáid: %s {start|stop|restart|reload|status}\n"
 
-#: ../rc.d/rc.sysinit:384 ../rc.d/rc.sysinit:604 ../rc.d/rc.sysinit:644
-#: ../rc.d/rc.sysinit:747
+#: ../rc.d/rc.sysinit:387 ../rc.d/rc.sysinit:607 ../rc.d/rc.sysinit:647
+#: ../rc.d/rc.sysinit:750 ../rc.d/rc.sysinit.~1.117.~:387
+#: ../rc.d/rc.sysinit.~1.117.~:607 ../rc.d/rc.sysinit.~1.117.~:647
+#: ../rc.d/rc.sysinit.~1.117.~:750
 msgid "*** when you leave the shell.\n"
 msgstr ""
 
@@ -1660,8 +1769,10 @@ msgstr "Úsáid: %s {start|stop|restart|status|panic|save}"
 msgid "Checking for changes to /etc/auto.master ....\n"
 msgstr ""
 
-#: ../rc.d/rc.sysinit:392 ../rc.d/rc.sysinit:612 ../rc.d/rc.sysinit:652
-#: ../rc.d/rc.sysinit:755
+#: ../rc.d/rc.sysinit:395 ../rc.d/rc.sysinit:615 ../rc.d/rc.sysinit:655
+#: ../rc.d/rc.sysinit:758 ../rc.d/rc.sysinit.~1.117.~:395
+#: ../rc.d/rc.sysinit.~1.117.~:615 ../rc.d/rc.sysinit.~1.117.~:655
+#: ../rc.d/rc.sysinit.~1.117.~:758
 msgid "Automatic reboot in progress.\n"
 msgstr ""
 
@@ -1669,7 +1780,7 @@ msgstr ""
 msgid "Success"
 msgstr ""
 
-#: ../../EXTRACTS/initscripts/init.d/halt:221
+#: ../../EXTRACTS/initscripts/init.d/halt:233
 msgid "On the next boot fsck will be skipped.\n"
 msgstr ""
 
@@ -1683,11 +1794,6 @@ msgstr "Ag Tosnún na tSeirbhís `NFS Statd': "
 msgid "Shutting down prelude: "
 msgstr "Ag Stoppadh `lpd':"
 
-#: ../../EXTRACTS/ez-ipupdate/init.d/ez-ipupdate:25
-#, fuzzy
-msgid "Starting ez-ipupdate: "
-msgstr "Ag Tosnú `lpd': "
-
 #: ../../EXTRACTS/nfs-utils/init.d/nfs:114
 msgid "Starting NFS mountd: "
 msgstr "Ag Tosnú `NFS mountd': "
@@ -1696,7 +1802,7 @@ msgstr "Ag Tosnú `NFS mountd': "
 msgid "Starting httpd-perl: "
 msgstr "Ag Tosnú `httpd-perl': "
 
-#: ../../EXTRACTS/lm_sensors/init.d/sensors:32
+#: ../../EXTRACTS/lm_sensors/init.d/sensors:62
 #, fuzzy
 msgid "Shutting down sensord: "
 msgstr "Ag  Stoppadh an tSeirbhís 'snmpd':  "
@@ -1733,9 +1839,9 @@ msgstr ""
 msgid "HylaFAX queue manager not started. "
 msgstr ""
 
-#: ../../EXTRACTS/jabber/init.d/jabber:51
-msgid "Starting Jabber: "
-msgstr "Ag Tosnú Jabber: "
+#: ../../EXTRACTS/cups/init.d/cups:65
+msgid "Creating /etc/hosts ...\n"
+msgstr ""
 
 #: ../../EXTRACTS/postfix/init.d/postfix:36
 msgid "Starting postfix: "
@@ -1746,10 +1852,9 @@ msgstr "Ag Tosnú postfix: "
 msgid "Stopping Kerberos 5 Admin Server"
 msgstr "Ag Stoppadh an Seirbhishí `rusers': "
 
-#: ../../EXTRACTS/apmd/init.d/apmd:26
-#, fuzzy
-msgid "Starting up APM daemon: "
-msgstr "Ag Tosní seibhís NFS: "
+#: ../../EXTRACTS/ipvsadm/init.d/ipvsadm:44
+msgid "Failed"
+msgstr ""
 
 #: ../../EXTRACTS/hylafax-server/init.d/hylafax-server:35
 msgid "HylaFAX ERROR (old setup.cache) please run  faxsetup -server\n"
@@ -1762,6 +1867,10 @@ msgstr ""
 
 #: ../sysconfig/network-scripts/ifup-ipv6.old:258
 msgid "6to4 configuration is not valid"
+msgstr ""
+
+#: ../../EXTRACTS/lm_sensors/init.d/sensors:66
+msgid "Removing sensors modules: "
 msgstr ""
 
 #: ../../EXTRACTS/openldap-servers/init.d/ldap:156
@@ -1801,14 +1910,24 @@ msgstr "Ag Stoppadh %s: "
 msgid "Usage: %s {start|stop|status|restart|condrestart|reload}\n"
 msgstr "Úsáid: %s {start|stop|status|restart|condrestart|reload}\n"
 
+#: ../../EXTRACTS/nut-server/init.d/upsd:57
+#, fuzzy
+msgid "NUT Starting UPS model drivers: "
+msgstr "Ag Tosnú `jserver': "
+
 #: ../../EXTRACTS/fetchmail-daemon/init.d/fetchmail:54
 msgid "Reloading fetchmailrc file: "
 msgstr ""
 
-#: ../rc.d/rc.sysinit:627
+#: ../rc.d/rc.sysinit:630 ../rc.d/rc.sysinit.~1.117.~:630
 #, fuzzy
 msgid "Checking filesystems\n"
 msgstr "Ag Mountáil na chorais comhaid eile: "
+
+#: ../../EXTRACTS/dhcp-server/init.d/dhcpd:101
+#, fuzzy
+msgid "Usage: dhcpd {start|stop|restart|condrestart|status}\n"
+msgstr "Úsáid: %s {start|stop|restart|condrestart|status}\n"
 
 #: ../../EXTRACTS/anacron/init.d/anacron:31
 msgid "Shutting down anacron "
@@ -1819,14 +1938,14 @@ msgstr "Ag Stoppadh `anacron' "
 msgid "Usage: krb5server {start|stop|status|restart|condrestart}\n"
 msgstr "Ísáid: %s {start|stop|status|restart|condrestart}\n"
 
-#: ../rc.d/rc.sysinit:439
+#: ../rc.d/rc.sysinit:442 ../rc.d/rc.sysinit.~1.117.~:442
 msgid "Remounting root filesystem in read-write mode: "
 msgstr ""
 
-#: ../../EXTRACTS/webmin/init.d/webmin:17
+#: ../../EXTRACTS/nut-server/init.d/upsd:76
 #, fuzzy
-msgid "Webmin installation failed, I can't go further.\n"
-msgstr "Rabdadh: Teip ag feistiú Webmin\n"
+msgid "NUT Stopping UPS daemon: "
+msgstr "Ag Tosní seibhís NFS: "
 
 #: ../../EXTRACTS/samba-server/init.d/smb:52
 #: ../../EXTRACTS/samba/init.d/smb:52
@@ -1850,7 +1969,8 @@ msgstr "Ag Tosnú na tSeirbishí SMB"
 msgid "Missing parameter 'IPv4-tunnel address' (arg 2)"
 msgstr ""
 
-#: ../../EXTRACTS/initscripts/init.d/halt:210
+#: ../../EXTRACTS/initscripts/init.d/halt:211
+#: ../../EXTRACTS/initscripts/init.d/halt:222
 msgid "Please ensure that the UPS has powered off before rebooting\n"
 msgstr ""
 
@@ -1876,7 +1996,7 @@ msgstr ""
 msgid "Starting dhcrelay: "
 msgstr "Ag Tosnú `ldap': "
 
-#: ../../EXTRACTS/proftpd/init.d/proftpd:100
+#: ../../EXTRACTS/proftpd/init.d/proftpd:101
 msgid "|suspend}\n"
 msgstr ""
 
@@ -1886,7 +2006,7 @@ msgstr ""
 msgid "%s: Usage: daemon [+/-nicelevel] {program}\n"
 msgstr "%s: Úsáid: daemon [+/-leibhéil `nice'] {ríomhchlar}\n"
 
-#: ../rc.d/rc.sysinit:238
+#: ../rc.d/rc.sysinit:241 ../rc.d/rc.sysinit.~1.117.~:241
 #, c-format
 msgid "Loading default keymap (%s): "
 msgstr "Ag Lódáil an keymap lociead (%s): "
@@ -1930,6 +2050,9 @@ msgstr ""
 msgid "Starting rwho services: "
 msgstr "Ag Tosnú Seirbishí `rwho': "
 
+#: ../../EXTRACTS/ez-ipupdate/init.d/ez-ipupdate:58
+#: ../../EXTRACTS/sendmail/init.d/sendmail:71
+#: ../../EXTRACTS/tightvnc-server/init.d/vncserver:40
 #: ../../EXTRACTS/vnc-server/init.d/vncserver:40
 #, c-format
 msgid "Shutting down %s: "
@@ -1958,27 +2081,35 @@ msgstr "Úsáid: %s {start|stop|status|restart}\n"
 msgid "Applying IPVS configuration: "
 msgstr "Ag athlódáil an comraíocht na tseirbhís USB"
 
-#: ../../EXTRACTS/dhcp-server/init.d/dhcpd:101
+#: ../../EXTRACTS/jabber-aim/init.d/jabber-aim:59
 #, fuzzy
-msgid "Usage: dhcpd {start|stop|restart|condrestart|status}\n"
-msgstr "Úsáid: %s {start|stop|restart|condrestart|status}\n"
+msgid "Shutting down Jabber AIM Transport: "
+msgstr "Ag  Stoppadh an tSeirbhís 'snmpd':  "
 
 #: ../../EXTRACTS/acpid/init.d/acpid:79 ../../EXTRACTS/at/init.d/atd:80
+#: ../../EXTRACTS/sendmail/init.d/sendmail:112
+#: ../../EXTRACTS/tightvnc-server/init.d/vncserver:77
 #: ../../EXTRACTS/vnc-server/init.d/vncserver:77
 #, fuzzy, c-format
 msgid "Usage: %s {start|stop|restart|condrestart|status}\n"
 msgstr "Úsáid: %s {start|stop|restart|reload|condrestart|status}\n"
 
-#: ../../EXTRACTS/cfengine/init.d/cfd:49 ../../EXTRACTS/diald/init.d/diald:56
-#, c-format
-msgid "Usage: %s {start|stop|restart|status}\n"
-msgstr "Úsáid: %s {start|stop|restart|status}\n"
+#: ../../EXTRACTS/cups/init.d/cups:121
+msgid ""
+"WARNING: USB printer kernel module could not be loaded, your USB printer "
+"may\n"
+msgstr ""
 
 #: ../../EXTRACTS/netatalk/init.d/atalk:66
 #: ../../EXTRACTS/netatalk/init.d/atalk:73
 #, fuzzy
 msgid "  Starting timelord"
 msgstr "Ag Tosnú an tSeirbhís ldirectord"
+
+#: ../../EXTRACTS/anacron/init.d/anacron:69
+#, fuzzy
+msgid "Usage: anacron {start|stop|restart|condrestart|status}\n"
+msgstr "Úsáid: %s {start|stop|restart|condrestart|status}\n"
 
 #: ../../EXTRACTS/inn/init.d/innd:77
 msgid "Restarting INN Service: "
@@ -1989,7 +2120,7 @@ msgstr "Ag athlódáil an Seirbhís INN: "
 msgid "miniserv.pl (pid %s) is running...\n"
 msgstr ""
 
-#: ../../EXTRACTS/initscripts/init.d/halt:206
+#: ../../EXTRACTS/initscripts/init.d/halt:207
 msgid "APCUPSD will now power off the UPS!\n"
 msgstr ""
 
@@ -2002,7 +2133,7 @@ msgstr ""
 msgid "Checking for new hardware"
 msgstr ""
 
-#: ../rc.d/rc.sysinit:764
+#: ../rc.d/rc.sysinit:767 ../rc.d/rc.sysinit.~1.117.~:767
 msgid "Mounting loopback filesystems: "
 msgstr ""
 
@@ -2015,12 +2146,17 @@ msgstr ""
 msgid "Stopping Linux Infrared Remote Control daemon"
 msgstr ""
 
-#: ../rc.d/rc.sysinit:153
+#: ../rc.d/rc.sysinit:156 ../rc.d/rc.sysinit.~1.117.~:156
 #, fuzzy
 msgid "Unmounting initrd: "
 msgstr "Ag Tosnú xinetd: "
 
-#: ../../EXTRACTS/ez-ipupdate/init.d/ez-ipupdate:62
+#: ../../EXTRACTS/ez-ipupdate/init.d/ez-ipupdate:94
+#, fuzzy
+msgid "Usage: ez-ipupdate  {start|stop|restart|reload|condrestart|status}\n"
+msgstr "Úsáid: %s {start|stop|restart|reload|status}\n"
+
+#: ../../EXTRACTS/ez-ipupdate/init.d/ez-ipupdate:91
 #, c-format
 msgid "last IP update : %s\n"
 msgstr ""
@@ -2043,8 +2179,17 @@ msgstr "Úsáid: pidofproc {ríomhchlár}\n"
 msgid "Usage: adsl {start|stop|restart|status}\n"
 msgstr "Úsáid: %s {start|stop|restart|status}\n"
 
-#: ../rc.d/rc.sysinit:351
+#: ../rc.d/rc.sysinit.~1.117.~:354
 msgid "(beware, you can loose data)"
+msgstr ""
+
+#: ../../EXTRACTS/cups/init.d/cups:107
+msgid ""
+"WARNING: Parallel printer kernel modules could not be loaded, your parallel\n"
+msgstr ""
+
+#: ../rc.d/rc.sysinit:351
+msgid "(beware, you can lose data)"
 msgstr ""
 
 #: ../sysconfig/network-scripts/ifup-ppp:42
@@ -2056,24 +2201,51 @@ msgstr ""
 msgid "Usage: oki4daemon {start|stop|restart|status|condrestart}\n"
 msgstr "Úsáid: %s {start|stop|restart|status|condrestart}\n"
 
+#: ../../EXTRACTS/prelude/init.d/prelude:54
+#, fuzzy
+msgid "Starting prelude: "
+msgstr "Ag Tosnú `lpd': "
+
+#: ../sysconfig/network-scripts/network-functions-ipv6:52
+msgid "Kernel is not compiled with IPv6 support"
+msgstr ""
+
+#: ../rc.d/rc.sysinit:321 ../rc.d/rc.sysinit.~1.117.~:321
+#, c-format
+msgid "Press Y within %d seconds to force file system integrity check..."
+msgstr ""
+
 #: ../../EXTRACTS/ipchains/init.d/ipchains:67
 #: ../../EXTRACTS/iptables-ipv6/init.d/ip6tables:71
 #: ../../EXTRACTS/iptables/init.d/iptables:70
 msgid "Resetting built-in chains to the default ACCEPT policy:"
 msgstr ""
 
-#: ../sysconfig/network-scripts/network-functions-ipv6:52
-msgid "Kernel is not compiled with IPv6 support"
-msgstr ""
+#, fuzzy
+msgid "  [ OK ]\n"
+msgstr "CEART"
 
-#: ../rc.d/rc.sysinit:318
-#, c-format
-msgid "Press Y within %d seconds to force file system integrity check..."
-msgstr ""
+msgid "Shutting down sendmail: "
+msgstr "Ag Stoppadh an tSeirbhís 'sendmail': "
 
-#: ../../EXTRACTS/iptables/init.d/iptables:53
-msgid "Applying iptables firewall rules: \n"
-msgstr ""
+#, fuzzy
+msgid "Stopping ez-ipupdate: "
+msgstr "Ag Stoppadh `amd': "
+
+#, fuzzy
+msgid "Usage: sendmail {start|stop|restart|status}\n"
+msgstr "Úsáid: dhcpd {start|stop|restart|status}\n"
+
+msgid "Starting sendmail: "
+msgstr "Ag Tosnú `sendmail': "
+
+#, fuzzy
+msgid " [ FAILED ]\n"
+msgstr "TEIP"
+
+#, fuzzy
+msgid "Starting ez-ipupdate: "
+msgstr "Ag Tosnú `lpd': "
 
 msgid "Booting Aurora..."
 msgstr "Ag Tosnú Aurora..."
@@ -2231,9 +2403,6 @@ msgstr "postmaster [%s]"
 msgid "usage: %s {start|stop}\n"
 msgstr "úsáid:  %s {start|stop}\n"
 
-msgid "Starting identd: "
-msgstr "Ag Tosnú identd: "
-
 msgid "Starting VNC server: "
 msgstr "Ag Tosnú an Seirbhís `VNC': "
 
@@ -2357,10 +2526,6 @@ msgstr "Ag Tosnú an Seirbhís `HylaFax' : "
 #, fuzzy
 #~ msgid "Unmounting network block filesystems: "
 #~ msgstr "Ag Mountáil na chorais comhaid eile: "
-
-#, fuzzy
-#~ msgid "Loading USB printer"
-#~ msgstr "Ag Lódáil an tiomáin `HiSax'\n"
 
 #, fuzzy
 #~ msgid "Unmounting network block filesystems (retry): "

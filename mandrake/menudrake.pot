@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: menudrake 0.2\n"
-"POT-Creation-Date: 2002-08-09 15:57+0200\n"
+"POT-Creation-Date: 2002-09-02 18:30+0200\n"
 "PO-Revision-Date: 2000-10-03 19:47+0200\n"
 "Last-Translator: Alastair McKinstry <mckinstry@computer.org>\n"
 "Language-Team: Irish <ga@li.org>\n"
@@ -32,39 +32,39 @@ msgstr "-s\t--systemmenu\tEagar Chlár Coráis"
 msgid "-m\t--menu-style\tOpen Menu Style dialog\n"
 msgstr ""
 
-#: src/menudrake.c:273
+#: src/menudrake.c:275
 msgid "Loading menu structure"
 msgstr ""
 
-#: src/menudrake.c:288
+#: src/menudrake.c:290
 msgid "Loading available applications"
 msgstr ""
 
-#: src/menudrake.c:304
+#: src/menudrake.c:306
 msgid "-adobe-helvetica-*-r-normal-*-24-*-*-*-p-*-*-*,*"
 msgstr "-adobe-helvetica-*-r-normal-*-24-*-*-*-p-*-*-*,*"
 
-#: menudrake.glade.h:31 src/menudrake.c:308 src/menudrake.c:312
+#: menudrake.glade.h:31 src/menudrake.c:310 src/menudrake.c:314
 msgid "Menu Style"
 msgstr ""
 
-#: src/menudrake.c:367
+#: src/menudrake.c:369
 msgid "Unable to find menudrake.glade file"
 msgstr ""
 
 #. FIXME
 #. gtk_toolbar_set_button_relief(GTK_TOOLBAR(get_glade_widget("toolsbar")),GTK_RELIEF_NONE);
 #. grr, need to set real title to applications ctree, libglade doesn't show it
-#: menudrake.glade.h:15 src/menudrake.c:374
+#: menudrake.glade.h:15 src/menudrake.c:376
 msgid "Available applications"
 msgstr ""
 
-#: src/callbacks.c:2413 src/objmenu.c:181
+#: src/callbacks.c:2419 src/objmenu.c:181
 #, c-format
 msgid "Cannot get stat for file %s"
 msgstr ""
 
-#: src/callbacks.c:2422 src/objmenu.c:183 src/objmenu.c:197
+#: src/callbacks.c:2428 src/objmenu.c:183 src/objmenu.c:197
 #, c-format
 msgid "Cannot close dir: %s"
 msgstr "Téip ag dúnadh comhadlann: %s"
@@ -87,7 +87,7 @@ msgstr ""
 msgid "cannot write menu entry to the menu edit file"
 msgstr ""
 
-#: src/callbacks.c:1893 src/callbacks.c:1942 src/callbacks.c:1993
+#: src/callbacks.c:1899 src/callbacks.c:1948 src/callbacks.c:1999
 #: src/objmenu.c:440
 #, c-format
 msgid "cannot create directory:%s"
@@ -108,156 +108,139 @@ msgstr "Téip ag cruthaigh comhad: %s"
 msgid "couldn't open the user menu file \"%s\" for writing"
 msgstr ""
 
-#: src/callbacks.c:202 src/callbacks.c:259
+#: src/callbacks.c:203 src/callbacks.c:260
 msgid "Free older menu structure"
 msgstr ""
 
-#: src/callbacks.c:213
+#: src/callbacks.c:214
 msgid "Loading pixmap"
 msgstr "Ag Lódáil iomha"
 
-#: src/callbacks.c:226
+#: src/callbacks.c:227
 msgid "Creating standard menu structure"
 msgstr ""
 
-#: src/callbacks.c:247
+#: src/callbacks.c:248
 msgid "Inserting in tree"
 msgstr ""
 
-#: src/callbacks.c:281
+#: src/callbacks.c:282
 msgid "Sorting applications"
 msgstr ""
 
-#: src/callbacks.c:679
+#: src/callbacks.c:680
 msgid "couldn't find blue color in /usr/lib/X11/rgb.txt file"
 msgstr ""
 
-#: src/callbacks.c:762
-#, c-format
-msgid "Main window %p does not contain context attribute"
-msgstr ""
-
-#: src/callbacks.c:770 src/callbacks.c:953
+#: src/callbacks.c:771 src/callbacks.c:954
 msgid "All environments"
 msgstr ""
 
-#: src/callbacks.c:953 src/callbacks.c:956
+#: src/callbacks.c:954 src/callbacks.c:957
 #, c-format
 msgid "Environment : %s"
 msgstr ""
 
-#: src/callbacks.c:1120
+#: src/callbacks.c:1123
 msgid "Your changes have not been saved. Do you want to continue?"
 msgstr ""
 
-#: src/callbacks.c:1400
+#: src/callbacks.c:1403
 msgid "No icon"
 msgstr "Gan dealbh"
 
-#: src/callbacks.c:1506
+#: src/callbacks.c:1509
 msgid "Update menu configuration finished"
 msgstr ""
 
-#: src/callbacks.c:1510 src/callbacks.c:1563
+#: src/callbacks.c:1513
 msgid "Update menu configuration finished with error !!!"
 msgstr ""
 
-#: src/callbacks.c:1539 src/callbacks.c:1574
+#: src/callbacks.c:1542 src/callbacks.c:1577
 msgid "Update menu configuration"
 msgstr ""
 
-#: src/callbacks.c:1561
+#: src/callbacks.c:1564
 msgid "cannot update menu"
 msgstr ""
 
-#: src/callbacks.c:1584 src/callbacks.c:1803
-msgid "Already busy"
+#: src/callbacks.c:1566
+msgid "Error in updating menu"
 msgstr ""
 
-#: src/callbacks.c:1629 src/callbacks.c:1632
+#: src/callbacks.c:1587
+msgid "Menu generation already in progress"
+msgstr ""
+
+#: src/callbacks.c:1632 src/callbacks.c:1635
 #, c-format
 msgid "Submenu %d"
 msgstr "fó-chlar %d"
 
-#: src/callbacks.c:1655
+#: src/callbacks.c:1661
 msgid "Title and Command fields must not be empty"
 msgstr ""
 
-#: src/callbacks.c:1677
-msgid "select a node before\n"
-msgstr ""
-
 #: src/callbacks.c:1683
-msgid "GtkCTreeNode hasn't associed data or isn't a GtkObject"
+msgid "No node to delete"
 msgstr ""
 
-#: src/callbacks.c:1689
-msgid "Cannot found associed selected object with the node in menu list"
+#: src/callbacks.c:1695
+msgid "No data found for selected node"
 msgstr ""
 
-#: src/callbacks.c:1741
+#: src/callbacks.c:1747
 msgid "Select a system application before"
 msgstr ""
 
-#: src/callbacks.c:1787
+#: src/callbacks.c:1793
 msgid "Save menu configuration"
 msgstr ""
 
-#: src/callbacks.c:1797
+#: src/callbacks.c:1803
 msgid "Menu configuration saved"
 msgstr ""
 
-#: src/callbacks.c:1815
-msgid "Modifications of Menu style will be effective at your next login."
+#: src/callbacks.c:1809
+msgid "Saving already in progress"
 msgstr ""
 
-#: src/callbacks.c:2119
+#: src/callbacks.c:1821
+msgid "Menu Style Changes will be effective at your next login."
+msgstr ""
+
+#: src/callbacks.c:2125
 msgid "cannot change path to another entry with the same name"
 msgstr ""
 
-#: src/callbacks.c:2136
-msgid "Title changed for an anonymous object"
-msgstr ""
-
-#: src/callbacks.c:2153
-msgid "Command changed for an anonymous object"
-msgstr ""
-
-#: src/callbacks.c:2167
-msgid "Long title changed for an anonymous object"
-msgstr ""
-
-#: src/callbacks.c:2184
-msgid "Needs changed for an anonymous object"
-msgstr ""
-
-#: src/callbacks.c:2322
+#: src/callbacks.c:2328
 msgid "Add attribute"
 msgstr ""
 
-#: src/callbacks.c:2328
+#: src/callbacks.c:2334
 msgid "Modify attribute"
 msgstr ""
 
-#: src/callbacks.c:2335
+#: src/callbacks.c:2341
 msgid "Delete attribute"
 msgstr "Dealaigh"
 
-#: src/callbacks.c:2405
+#: src/callbacks.c:2411
 #, c-format
 msgid "Cannot open directory: %s"
 msgstr "Téip ag oscailt comhadlann: %s"
 
-#: src/callbacks.c:2922
+#: src/callbacks.c:2928
 msgid "Security warning : menudrake won't start browser as root"
 msgstr ""
 
 #. error
-#: src/callbacks.c:2940
+#: src/callbacks.c:2946
 msgid "Unable to run browser"
 msgstr ""
 
-#: src/callbacks.c:2971
+#: src/callbacks.c:2977
 msgid "Menus have not been saved. Do you really want to quit?"
 msgstr ""
 

@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: rpmdrake 1.1\n"
-"POT-Creation-Date: 2002-08-06 15:58+0200\n"
+"POT-Creation-Date: 2002-08-30 20:11+0200\n"
 "PO-Revision-Date: 2000-08-24 12:00-0000\n"
 "Last-Translator: Alastair McKinstry <mckinstry@computer.org>\n"
 "Language-Team: Irish <ga@li.org>\n"
@@ -21,7 +21,7 @@ msgstr ""
 msgid "Unable to update medium; it will be automatically disabled."
 msgstr ""
 
-#: ../edit-urpm-sources.pl_.c:54 ../edit-urpm-sources.pl_.c:165
+#: ../edit-urpm-sources.pl_.c:54 ../edit-urpm-sources.pl_.c:164
 msgid "Edit a source"
 msgstr ""
 
@@ -38,7 +38,7 @@ msgid "FTP server"
 msgstr "Freastalaí FTP:"
 
 #: ../edit-urpm-sources.pl_.c:56 ../edit-urpm-sources.pl_.c:57
-#: ../edit-urpm-sources.pl_.c:59 ../edit-urpm-sources.pl_.c:171
+#: ../edit-urpm-sources.pl_.c:59 ../edit-urpm-sources.pl_.c:170
 msgid "URL:"
 msgstr "URL:"
 
@@ -54,7 +54,7 @@ msgstr ""
 msgid "Removable device"
 msgstr ""
 
-#: ../edit-urpm-sources.pl_.c:59 ../rpmdrake_.c:344
+#: ../edit-urpm-sources.pl_.c:59 ../rpmdrake_.c:461
 msgid "Security updates"
 msgstr ""
 
@@ -70,7 +70,7 @@ msgstr ""
 msgid "Login:"
 msgstr "Logann:"
 
-#: ../edit-urpm-sources.pl_.c:92
+#: ../edit-urpm-sources.pl_.c:92 ../edit-urpm-sources.pl_.c:228
 msgid "Password:"
 msgstr "Pasfhocal:"
 
@@ -78,7 +78,7 @@ msgstr "Pasfhocal:"
 msgid "Name:"
 msgstr "Ainm:"
 
-#: ../edit-urpm-sources.pl_.c:99 ../edit-urpm-sources.pl_.c:172
+#: ../edit-urpm-sources.pl_.c:99 ../edit-urpm-sources.pl_.c:171
 msgid "Relative path to synthesis/hdlist:"
 msgstr ""
 
@@ -100,93 +100,133 @@ msgstr ""
 msgid "Type of source:"
 msgstr ""
 
-#: ../edit-urpm-sources.pl_.c:124 ../rpmdrake.pm_.c:75 ../rpmdrake.pm_.c:88
-#: ../rpmdrake.pm_.c:260 ../rpmdrake_.c:622
+#: ../edit-urpm-sources.pl_.c:124 ../edit-urpm-sources.pl_.c:183
+#: ../edit-urpm-sources.pl_.c:232 ../rpmdrake.pm_.c:78 ../rpmdrake.pm_.c:98
+#: ../rpmdrake.pm_.c:270 ../rpmdrake_.c:318 ../rpmdrake_.c:777
+#: ../rpmdrake_.c:803
 msgid "Ok"
 msgstr "Ceart go Leor"
 
-#: ../edit-urpm-sources.pl_.c:127 ../edit-urpm-sources.pl_.c:176
-#: ../edit-urpm-sources.pl_.c:200 ../rpmdrake.pm_.c:260 ../rpmdrake_.c:622
+#: ../edit-urpm-sources.pl_.c:127 ../edit-urpm-sources.pl_.c:175
+#: ../edit-urpm-sources.pl_.c:183 ../edit-urpm-sources.pl_.c:202
+#: ../edit-urpm-sources.pl_.c:233 ../rpmdrake.pm_.c:270 ../rpmdrake_.c:318
+#: ../rpmdrake_.c:803
 msgid "Cancel"
 msgstr "Cealaigh"
 
-#: ../edit-urpm-sources.pl_.c:145
+#: ../edit-urpm-sources.pl_.c:144
 msgid "Please wait, adding medium..."
 msgstr ""
 
-#: ../edit-urpm-sources.pl_.c:154
+#: ../edit-urpm-sources.pl_.c:153
 #, fuzzy
 msgid "Please wait, removing medium..."
 msgstr ""
 "Fan tamall\n"
 "Ag scrios pacáistí"
 
-#: ../edit-urpm-sources.pl_.c:169
+#: ../edit-urpm-sources.pl_.c:168
 #, c-format
 msgid "Editing source \"%s\":"
 msgstr ""
 
-#: ../edit-urpm-sources.pl_.c:175
+#: ../edit-urpm-sources.pl_.c:174
 msgid "Save changes"
 msgstr ""
 
-#: ../edit-urpm-sources.pl_.c:185
+#: ../edit-urpm-sources.pl_.c:181
+msgid "You need to insert the medium to continue"
+msgstr ""
+
+#: ../edit-urpm-sources.pl_.c:182
+msgid ""
+"In order to save the changes, you need to insert the medium in the drive."
+msgstr ""
+
+#: ../edit-urpm-sources.pl_.c:187
 msgid "Please wait, updating medium..."
 msgstr ""
 
-#: ../edit-urpm-sources.pl_.c:192
+#: ../edit-urpm-sources.pl_.c:194
 msgid "Update source(s)"
 msgstr ""
 
-#: ../edit-urpm-sources.pl_.c:195
+#: ../edit-urpm-sources.pl_.c:197
 msgid "Select the source(s) you wish to update:"
 msgstr ""
 
-#: ../edit-urpm-sources.pl_.c:199
+#: ../edit-urpm-sources.pl_.c:201
 msgid "Update"
 msgstr ""
 
-#: ../edit-urpm-sources.pl_.c:207
+#: ../edit-urpm-sources.pl_.c:209
 msgid "Please wait, updating media..."
 msgstr ""
 
-#: ../edit-urpm-sources.pl_.c:214
+#: ../edit-urpm-sources.pl_.c:215
+msgid "Configure proxies"
+msgstr ""
+
+#: ../edit-urpm-sources.pl_.c:220
+msgid ""
+"If you need a proxy, enter the hostname and an optional port (syntax: "
+"<proxyhost[:port]>):"
+msgstr ""
+
+#: ../edit-urpm-sources.pl_.c:222
+msgid "Proxy hostname:"
+msgstr ""
+
+#: ../edit-urpm-sources.pl_.c:224
+msgid "You may specify a user/password for the proxy authentication:"
+msgstr ""
+
+#: ../edit-urpm-sources.pl_.c:226
+msgid "User:"
+msgstr ""
+
+#: ../edit-urpm-sources.pl_.c:250
 msgid "Configure sources"
 msgstr ""
 
-#: ../edit-urpm-sources.pl_.c:215
+#: ../edit-urpm-sources.pl_.c:251
 msgid "Enabled?"
 msgstr ""
 
-#: ../edit-urpm-sources.pl_.c:215
+#: ../edit-urpm-sources.pl_.c:251
 msgid "Source"
 msgstr ""
 
-#: ../edit-urpm-sources.pl_.c:243 ../rpmdrake_.c:482
+#: ../edit-urpm-sources.pl_.c:279 ../rpmdrake_.c:598
 msgid "Remove"
 msgstr ""
 
-#: ../edit-urpm-sources.pl_.c:245
+#: ../edit-urpm-sources.pl_.c:281
 msgid "Edit"
 msgstr "Eagar"
 
-#: ../edit-urpm-sources.pl_.c:247
+#: ../edit-urpm-sources.pl_.c:283
 msgid "Add..."
 msgstr ""
 
-#: ../edit-urpm-sources.pl_.c:249
+#: ../edit-urpm-sources.pl_.c:285
 msgid "Update..."
 msgstr ""
 
-#: ../edit-urpm-sources.pl_.c:252
+#: ../edit-urpm-sources.pl_.c:286
+#, fuzzy
+msgid "Proxy..."
+msgstr "Earraidh"
+
+#: ../edit-urpm-sources.pl_.c:289
 msgid "Save and quit"
 msgstr ""
 
-#: ../edit-urpm-sources.pl_.c:253 ../rpmdrake_.c:486
+#: ../edit-urpm-sources.pl_.c:290 ../rpmdrake_.c:601
 msgid "Quit"
 msgstr "Éirigh"
 
-#: ../edit-urpm-sources.pl_.c:263 ../rpmdrake_.c:708
+#: ../edit-urpm-sources.pl_.c:300 ../rpmdrake_.c:902
 #, c-format
 msgid ""
 "%s\n"
@@ -194,7 +234,7 @@ msgid ""
 "Is it ok to continue?"
 msgstr ""
 
-#: ../edit-urpm-sources.pl_.c:266
+#: ../edit-urpm-sources.pl_.c:303
 msgid ""
 "Welcome to the packages source editor!\n"
 "\n"
@@ -203,121 +243,129 @@ msgid ""
 "or to perform updates."
 msgstr ""
 
-#: ../rpmdrake.pm_.c:71
+#: ../rpmdrake.pm_.c:74
 msgid "Yes"
 msgstr ""
 
-#: ../rpmdrake.pm_.c:73
+#: ../rpmdrake.pm_.c:76
 msgid "No"
 msgstr ""
 
-#: ../rpmdrake.pm_.c:130
-msgid "Austria"
-msgstr ""
-
-#: ../rpmdrake.pm_.c:131
-msgid "Belgium"
-msgstr ""
-
-#: ../rpmdrake.pm_.c:132
-msgid "Brazil"
-msgstr ""
-
-#: ../rpmdrake.pm_.c:133
-msgid "Canada"
-msgstr ""
-
-#: ../rpmdrake.pm_.c:134
-msgid "Costa Rica"
-msgstr ""
-
-#: ../rpmdrake.pm_.c:135
-msgid "Czech Republic"
-msgstr ""
-
-#: ../rpmdrake.pm_.c:136
-msgid "Germany"
-msgstr ""
-
-#: ../rpmdrake.pm_.c:137
-msgid "Danmark"
-msgstr ""
-
-#: ../rpmdrake.pm_.c:138 ../rpmdrake.pm_.c:142
-msgid "Greece"
-msgstr ""
-
-#: ../rpmdrake.pm_.c:139
-msgid "Spain"
+#: ../rpmdrake.pm_.c:90
+msgid "Info..."
 msgstr ""
 
 #: ../rpmdrake.pm_.c:140
-msgid "Finland"
+msgid "Austria"
 msgstr ""
 
 #: ../rpmdrake.pm_.c:141
-msgid "France"
+msgid "Australia"
+msgstr ""
+
+#: ../rpmdrake.pm_.c:142
+msgid "Belgium"
 msgstr ""
 
 #: ../rpmdrake.pm_.c:143
-msgid "Israel"
+msgid "Brazil"
 msgstr ""
 
 #: ../rpmdrake.pm_.c:144
-msgid "Italy"
+msgid "Canada"
 msgstr ""
 
 #: ../rpmdrake.pm_.c:145
-msgid "Japan"
+msgid "Costa Rica"
 msgstr ""
 
 #: ../rpmdrake.pm_.c:146
-msgid "Korea"
+msgid "Czech Republic"
 msgstr ""
 
 #: ../rpmdrake.pm_.c:147
-msgid "Netherlands"
+msgid "Germany"
 msgstr ""
 
 #: ../rpmdrake.pm_.c:148
-msgid "Norway"
+msgid "Danmark"
 msgstr ""
 
-#: ../rpmdrake.pm_.c:149
-msgid "Poland"
+#: ../rpmdrake.pm_.c:149 ../rpmdrake.pm_.c:153
+msgid "Greece"
 msgstr ""
 
 #: ../rpmdrake.pm_.c:150
+msgid "Spain"
+msgstr ""
+
+#: ../rpmdrake.pm_.c:151
+msgid "Finland"
+msgstr ""
+
+#: ../rpmdrake.pm_.c:152
+msgid "France"
+msgstr ""
+
+#: ../rpmdrake.pm_.c:154
+msgid "Israel"
+msgstr ""
+
+#: ../rpmdrake.pm_.c:155
+msgid "Italy"
+msgstr ""
+
+#: ../rpmdrake.pm_.c:156
+msgid "Japan"
+msgstr ""
+
+#: ../rpmdrake.pm_.c:157
+msgid "Korea"
+msgstr ""
+
+#: ../rpmdrake.pm_.c:158
+msgid "Netherlands"
+msgstr ""
+
+#: ../rpmdrake.pm_.c:159
+msgid "Norway"
+msgstr ""
+
+#: ../rpmdrake.pm_.c:160
+msgid "Poland"
+msgstr ""
+
+#: ../rpmdrake.pm_.c:161
 #, fuzzy
 msgid "Portugal"
 msgstr "Port:"
 
-#: ../rpmdrake.pm_.c:151
+#: ../rpmdrake.pm_.c:162
 msgid "Russia"
 msgstr ""
 
-#: ../rpmdrake.pm_.c:152
+#: ../rpmdrake.pm_.c:163
 msgid "Sweden"
 msgstr ""
 
-#: ../rpmdrake.pm_.c:153
+#: ../rpmdrake.pm_.c:164
 msgid "Taiwan"
 msgstr ""
 
-#: ../rpmdrake.pm_.c:154
+#: ../rpmdrake.pm_.c:165
 msgid "United Kingdom"
 msgstr ""
 
-#: ../rpmdrake.pm_.c:155
+#: ../rpmdrake.pm_.c:166
 msgid "China"
 msgstr ""
 
-#: ../rpmdrake.pm_.c:156 ../rpmdrake.pm_.c:157 ../rpmdrake.pm_.c:158
-#: ../rpmdrake.pm_.c:159 ../rpmdrake.pm_.c:210
+#: ../rpmdrake.pm_.c:167 ../rpmdrake.pm_.c:168 ../rpmdrake.pm_.c:169
+#: ../rpmdrake.pm_.c:170 ../rpmdrake.pm_.c:220
 msgid "United States"
 msgstr ""
 
-#: ../rpmdrake.pm_.c:218
+#: ../rpmdrake.pm_.c:228
 msgid ""
 "I need to contact MandrakeSoft website to get the mirrors list.\n"
 "Please check that your network is currently running.\n"
@@ -325,15 +373,15 @@ msgid ""
 "Is it ok to continue?"
 msgstr ""
 
-#: ../rpmdrake.pm_.c:222
+#: ../rpmdrake.pm_.c:232
 msgid "Please wait, downloading mirrors addresses from MandrakeSoft website."
 msgstr ""
 
-#: ../rpmdrake.pm_.c:228
+#: ../rpmdrake.pm_.c:238
 msgid "Error during download"
 msgstr ""
 
-#: ../rpmdrake.pm_.c:229
+#: ../rpmdrake.pm_.c:239
 #, c-format
 msgid ""
 "There was an error downloading the mirrors list:\n"
@@ -343,12 +391,12 @@ msgid ""
 "Please try again later."
 msgstr ""
 
-#: ../rpmdrake.pm_.c:237
+#: ../rpmdrake.pm_.c:247
 #, fuzzy
 msgid "No mirror"
 msgstr "Gan earraidh"
 
-#: ../rpmdrake.pm_.c:238
+#: ../rpmdrake.pm_.c:248
 msgid ""
 "I can't find any suitable mirror.\n"
 "\n"
@@ -357,137 +405,174 @@ msgid ""
 "by Mandrake Linux Official Updates."
 msgstr ""
 
-#: ../rpmdrake.pm_.c:252
+#: ../rpmdrake.pm_.c:262
 msgid "Please choose the desired mirror."
 msgstr ""
 
-#: ../rpmdrake_.c:82
-msgid ""
-"Could not find /var/lib/urpmi/compssUsers.flat,\n"
-"the installer should have generated it for me :-(.\n"
-"\n"
-"Disabling \"Mandrake choices\" classification."
-msgstr ""
+#: ../rpmdrake_.c:94
+#, fuzzy
+msgid "Other"
+msgstr "Eile"
 
-#: ../rpmdrake_.c:124
+#: ../rpmdrake_.c:131 ../rpmdrake_.c:421 ../rpmdrake_.c:422
 #, fuzzy
 msgid "(Non available)"
 msgstr "Ag Feistiú"
 
+#: ../rpmdrake_.c:139 ../rpmdrake_.c:190
+#, fuzzy
+msgid "Search results"
+msgstr "Cuardaigh"
+
 #: ../rpmdrake_.c:139
+#, fuzzy
+msgid "Search results (none)"
+msgstr "Cuardaigh"
+
+#: ../rpmdrake_.c:154
+#, fuzzy
+msgid "Please wait, searching..."
+msgstr ""
+"Fan tamall\n"
+"Ag scrios pacáistí"
+
+#: ../rpmdrake_.c:157
+msgid "Stop"
+msgstr ""
+
+#: ../rpmdrake_.c:191 ../rpmdrake_.c:291
+#, fuzzy
+msgid "Addable"
+msgstr "Ag Feistiú"
+
+#: ../rpmdrake_.c:191 ../rpmdrake_.c:291
+msgid "Upgradable"
+msgstr ""
+
+#: ../rpmdrake_.c:193
+#, fuzzy
+msgid "Not selected"
+msgstr "Tóg gach rud"
+
+#: ../rpmdrake_.c:193
+#, fuzzy
+msgid "Selected"
+msgstr "Tóg gach rud"
+
+#: ../rpmdrake_.c:228
+msgid "More information on package..."
+msgstr ""
+
+#: ../rpmdrake_.c:230
 msgid "One of the following packages is needed:"
 msgstr ""
 
-#: ../rpmdrake_.c:139
+#: ../rpmdrake_.c:230
 #, fuzzy
 msgid "Please choose"
 msgstr "Cinntigh, le do thoil"
 
-#: ../rpmdrake_.c:169
+#: ../rpmdrake_.c:246
 #, fuzzy
 msgid "unknown package "
 msgstr "Gan aithne"
 
-#: ../rpmdrake_.c:179
+#: ../rpmdrake_.c:256
 #, fuzzy
 msgid "Please wait, listing packages..."
 msgstr ""
 "Fan tamall\n"
 "Ag scrios pacáistí"
 
-#: ../rpmdrake_.c:191
+#: ../rpmdrake_.c:270
 msgid "(none)"
 msgstr "(ar bith)"
 
-#: ../rpmdrake_.c:191
+#: ../rpmdrake_.c:272
 #, fuzzy
 msgid "No update"
 msgstr "slí"
 
-#: ../rpmdrake_.c:192
+#: ../rpmdrake_.c:273
 msgid ""
 "The list of updates is void. This means that either there is\n"
 "no available update for the packages installed on your computer,\n"
 "or you already installed all of them."
 msgstr ""
 
-#: ../rpmdrake_.c:208
-#, fuzzy
-msgid "Addable"
-msgstr "Ag Feistiú"
-
-#: ../rpmdrake_.c:208
-msgid "Upgradable"
-msgstr ""
-
-#: ../rpmdrake_.c:241
-msgid "This would break your system"
-msgstr ""
-
-#: ../rpmdrake_.c:242
-msgid ""
-"Sorry, removing these packages would break your system:\n"
-"\n"
-msgstr ""
-
-#: ../rpmdrake_.c:246
+#: ../rpmdrake_.c:324
 msgid "Some additional packages need to be removed"
 msgstr ""
 
-#: ../rpmdrake_.c:247
+#: ../rpmdrake_.c:325
 msgid ""
 "Because of their dependencies, the following package(s) also need to be\n"
 "removed:\n"
 "\n"
 msgstr ""
 
-#: ../rpmdrake_.c:254
+#: ../rpmdrake_.c:331
 msgid "Some packages can't be removed"
 msgstr ""
 
-#: ../rpmdrake_.c:255 ../rpmdrake_.c:288
+#: ../rpmdrake_.c:332 ../rpmdrake_.c:390
 msgid ""
 "Because of their dependencies, the following package(s) must be\n"
 "unselected now:\n"
 "\n"
 msgstr ""
 
-#: ../rpmdrake_.c:269
+#: ../rpmdrake_.c:360
 msgid "Additional packages needed"
 msgstr ""
 
-#: ../rpmdrake_.c:270
+#: ../rpmdrake_.c:361
 msgid ""
 "To satisfy dependencies, the following package(s) also need\n"
 "to be installed:\n"
 "\n"
 msgstr ""
 
-#: ../rpmdrake_.c:273
+#: ../rpmdrake_.c:374
 msgid "Some packages can't be installed"
 msgstr ""
 
-#: ../rpmdrake_.c:274
+#: ../rpmdrake_.c:375
 msgid ""
 "Sorry, the following package(s) can't be selected:\n"
 "\n"
 msgstr ""
 
-#: ../rpmdrake_.c:287 ../rpmdrake_.c:449
+#: ../rpmdrake_.c:389 ../rpmdrake_.c:560
 msgid "Some packages need to be removed"
 msgstr ""
 
-#: ../rpmdrake_.c:302
+#: ../rpmdrake_.c:411
 #, c-format
-msgid "Selected: %d MB / Available: %d MB"
+msgid "Selected: %d MB / Free disk space: %d MB"
 msgstr ""
 
-#: ../rpmdrake_.c:304
+#: ../rpmdrake_.c:413
 #, c-format
 msgid "Selected size: %d MB"
 msgstr ""
 
-#: ../rpmdrake_.c:311
+#: ../rpmdrake_.c:419
+#, c-format
+msgid ""
+"%sFiles:\n"
+"%s\n"
+"\n"
+"Changelog:\n"
+"%s"
+msgstr ""
+
+#: ../rpmdrake_.c:420
+#, fuzzy, c-format
+msgid "Source: %s\n"
+msgstr "Bún"
+
+#: ../rpmdrake_.c:425
 #, c-format
 msgid ""
 "Name: %s\n"
@@ -500,7 +585,7 @@ msgid ""
 "%s\n"
 msgstr ""
 
-#: ../rpmdrake_.c:315
+#: ../rpmdrake_.c:429
 #, c-format
 msgid ""
 "Name: %s\n"
@@ -512,65 +597,73 @@ msgid ""
 "%s\n"
 msgstr ""
 
-#: ../rpmdrake_.c:344
+#: ../rpmdrake_.c:461
 msgid "Bugfixes updates"
 msgstr ""
 
-#: ../rpmdrake_.c:344
+#: ../rpmdrake_.c:461
 msgid "Normal updates"
 msgstr ""
 
-#: ../rpmdrake_.c:363
+#: ../rpmdrake_.c:480
 msgid "Mandrake choices"
 msgstr ""
 
-#: ../rpmdrake_.c:364
+#: ../rpmdrake_.c:481
 msgid "All packages, alphabetical"
 msgstr ""
 
-#: ../rpmdrake_.c:365
+#: ../rpmdrake_.c:482
 #, fuzzy
 msgid "All packages,"
 msgstr "Pacáistí"
 
-#: ../rpmdrake_.c:388
+#: ../rpmdrake_.c:505
 msgid "by group"
 msgstr ""
 
-#: ../rpmdrake_.c:388
+#: ../rpmdrake_.c:505
 msgid "by size"
 msgstr ""
 
-#: ../rpmdrake_.c:389
+#: ../rpmdrake_.c:506
 msgid "by selection state"
 msgstr ""
 
-#: ../rpmdrake_.c:390
+#: ../rpmdrake_.c:507
 msgid "by source repository"
 msgstr ""
 
-#: ../rpmdrake_.c:390
+#: ../rpmdrake_.c:507
 msgid "by update availability"
 msgstr ""
 
-#: ../rpmdrake_.c:413 ../rpmdrake_.c:440
+#: ../rpmdrake_.c:528
 #, fuzzy
-msgid "Search results"
-msgstr "Cuardaigh"
+msgid "in descriptions"
+msgstr "Cuntasaí:"
 
-#: ../rpmdrake_.c:413
+#: ../rpmdrake_.c:528
 #, fuzzy
-msgid "Search results (none)"
-msgstr "Cuardaigh"
+msgid "in names"
+msgstr "Ainm Gaireas:"
 
-#: ../rpmdrake_.c:419
+#: ../rpmdrake_.c:529
 #, fuzzy
-msgid "Please wait, searching in files..."
-msgstr ""
-"Fan tamall\n"
-"Ag scrios pacáistí"
+msgid "in files"
+msgstr "Comhaid Áitiúl"
 
-#: ../rpmdrake_.c:450
+#: ../rpmdrake_.c:540
+#, fuzzy
+msgid "Maximum information"
+msgstr "Eolas na Pacáistí"
+
+#: ../rpmdrake_.c:540
+#, fuzzy
+msgid "Normal information"
+msgstr "Eolas na Pacáistí"
+
+#: ../rpmdrake_.c:561
 #, c-format
 msgid ""
 "The following packages have to be removed for others to be upgraded:\n"
@@ -580,35 +673,35 @@ msgid ""
 "Is it ok to continue?"
 msgstr ""
 
-#: ../rpmdrake_.c:467
+#: ../rpmdrake_.c:582
 msgid "Find:"
 msgstr "Faigh:"
 
-#: ../rpmdrake_.c:471
+#: ../rpmdrake_.c:587
 msgid "Search"
 msgstr "Cuardaigh"
 
-#: ../rpmdrake_.c:483
+#: ../rpmdrake_.c:599
 msgid "Install"
 msgstr ""
 
-#: ../rpmdrake_.c:495
+#: ../rpmdrake_.c:610
 msgid "-adobe-times-bold-r-normal--25-*-100-100-p-*-iso8859-*,*-r-*"
 msgstr "-adobe-times-bold-r-normal--25-*-100-100-p-*-iso8859-*,*-r-*"
 
-#: ../rpmdrake_.c:496
+#: ../rpmdrake_.c:611
 msgid "Mandrake Update"
 msgstr ""
 
-#: ../rpmdrake_.c:496
+#: ../rpmdrake_.c:611
 msgid "Software Packages Removal"
 msgstr ""
 
-#: ../rpmdrake_.c:497
+#: ../rpmdrake_.c:612
 msgid "Software Packages Installation"
 msgstr ""
 
-#: ../rpmdrake_.c:526
+#: ../rpmdrake_.c:644
 msgid ""
 "I need to contact the mirror to get latest update packages.\n"
 "Please check that your network is currently running.\n"
@@ -616,27 +709,40 @@ msgid ""
 "Is it ok to continue?"
 msgstr ""
 
-#: ../rpmdrake_.c:530
+#: ../rpmdrake_.c:648
 msgid "Please wait, contacting mirror to update packages information."
 msgstr ""
 
-#: ../rpmdrake_.c:532
+#: ../rpmdrake_.c:650
 msgid "Error updating medium"
 msgstr ""
 
-#: ../rpmdrake_.c:533
+#: ../rpmdrake_.c:651
 msgid "There was an unrecoverable error while updating packages information."
 msgstr ""
 
-#: ../rpmdrake_.c:541
+#: ../rpmdrake_.c:657
+msgid "How to choose manually your mirror"
+msgstr ""
+
+#: ../rpmdrake_.c:658
+msgid ""
+"You may also choose your desired mirror manually: to do so,\n"
+"launch the Software Sources Manager, and then add a `Security\n"
+"updates' source.\n"
+"\n"
+"Then, restart MandrakeUpdate."
+msgstr ""
+
+#: ../rpmdrake_.c:664
 msgid "Please wait, contacting mirror to initialize updates packages."
 msgstr ""
 
-#: ../rpmdrake_.c:545
+#: ../rpmdrake_.c:668
 msgid "Error adding update medium"
 msgstr ""
 
-#: ../rpmdrake_.c:546
+#: ../rpmdrake_.c:669
 #, c-format
 msgid ""
 "There was an error while adding the update medium via urpmi.\n"
@@ -649,75 +755,139 @@ msgid ""
 "Do you want to try another mirror?"
 msgstr ""
 
-#: ../rpmdrake_.c:575
+#: ../rpmdrake_.c:698
 #, fuzzy
 msgid "Please wait, finding available packages..."
 msgstr ""
 "Fan tamall\n"
 "Ag scrios pacáistí"
 
-#: ../rpmdrake_.c:612
+#: ../rpmdrake_.c:721
+msgid "All requested packages were installed successfully."
+msgstr ""
+
+#: ../rpmdrake_.c:721
+msgid "Everything installed successfully"
+msgstr ""
+
+#: ../rpmdrake_.c:724
+#, fuzzy
+msgid "Installation finished"
+msgstr "Ag Feistiú"
+
+#: ../rpmdrake_.c:727
+#, c-format
+msgid "Inspecting %s"
+msgstr ""
+
+#: ../rpmdrake_.c:743
+#, c-format
+msgid "Remove .%s"
+msgstr ""
+
+#: ../rpmdrake_.c:745
+#, c-format
+msgid "Use .%s as main file"
+msgstr ""
+
+#: ../rpmdrake_.c:747
+msgid "Do nothing"
+msgstr ""
+
+#: ../rpmdrake_.c:750
+#, fuzzy
+msgid "-misc-fixed-medium-r-normal--12-*-*-100--*-*-*-*-*,*"
+msgstr "-adobe-times-bold-r-normal--25-*-100-100-p-*-iso8859-*,*-r-*"
+
+#: ../rpmdrake_.c:759
+msgid "Inspect..."
+msgstr ""
+
+#: ../rpmdrake_.c:772
+#, c-format
+msgid ""
+"The installation is finished; %s.\n"
+"\n"
+"Some configuration files were created as `.rpmnew' or `.rpmsave',\n"
+"you may now inspect some in order to take actions:"
+msgstr ""
+
+#: ../rpmdrake_.c:773
+msgid ""
+"some packages failed to install\n"
+"correctly"
+msgstr ""
+
+#: ../rpmdrake_.c:774
+msgid "everything was installed correctly"
+msgstr ""
+
+#: ../rpmdrake_.c:793
 msgid "Unable to get source packages."
 msgstr ""
 
-#: ../rpmdrake_.c:613
+#: ../rpmdrake_.c:794
 msgid "Unable to get source packages, sorry."
 msgstr ""
 
-#: ../rpmdrake_.c:620
+#: ../rpmdrake_.c:801
 msgid "Change medium"
 msgstr ""
 
-#: ../rpmdrake_.c:621
+#: ../rpmdrake_.c:802
 #, c-format
 msgid "Please insert the medium named \"%s\" on device [%s]"
 msgstr ""
 
-#: ../rpmdrake_.c:629 ../rpmdrake_.c:637
+#: ../rpmdrake_.c:810
 #, fuzzy
 msgid "Installation failed"
 msgstr "Ag Feistiú"
 
-#: ../rpmdrake_.c:630
+#: ../rpmdrake_.c:811
 msgid ""
 "Installation failed, some files are missing.\n"
 "You may want to update your sources database."
 msgstr ""
 
-#: ../rpmdrake_.c:633
+#: ../rpmdrake_.c:814
 #, fuzzy
 msgid "Please wait, removing packages to allow others to be upgraded..."
 msgstr ""
 "Fan tamall\n"
 "Ag scrios pacáistí"
 
-#: ../rpmdrake_.c:638
-msgid "There was a problem during installation."
+#: ../rpmdrake_.c:823
+msgid "Program missing"
 msgstr ""
 
-#: ../rpmdrake_.c:642
+#: ../rpmdrake_.c:824
+msgid "A required program is missing (grpmi). Check your installation."
+msgstr ""
+
+#: ../rpmdrake_.c:842
 msgid "Everything already installed."
 msgstr ""
 
-#: ../rpmdrake_.c:643
+#: ../rpmdrake_.c:843
 msgid "Everything already installed (is this supposed to happen at all?)."
 msgstr ""
 
-#: ../rpmdrake_.c:661
+#: ../rpmdrake_.c:853
 #, fuzzy
 msgid "Please wait, reading packages database..."
 msgstr ""
 "Fan tamall\n"
 "Ag scrios pacáistí"
 
-#: ../rpmdrake_.c:678
+#: ../rpmdrake_.c:891
 #, fuzzy
 msgid "Please wait, removing packages..."
 msgstr ""
 "Fan tamall\n"
 "Ag scrios pacáistí"
 
-#: ../rpmdrake_.c:712
+#: ../rpmdrake_.c:906
 msgid ""
 "Welcome to the software removal tool!\n"
 "\n"
@@ -725,7 +895,7 @@ msgid ""
 "your computer."
 msgstr ""
 
-#: ../rpmdrake_.c:717
+#: ../rpmdrake_.c:911
 msgid ""
 "Welcome to MandrakeUpdate!\n"
 "\n"
@@ -733,7 +903,7 @@ msgid ""
 "computer."
 msgstr ""
 
-#: ../rpmdrake_.c:722
+#: ../rpmdrake_.c:916
 msgid ""
 "Welcome to the software installation tool!\n"
 "\n"
@@ -741,6 +911,25 @@ msgid ""
 "packages on CDROM or DVD. This tool will help you choose which software\n"
 "you want to install on your computer."
 msgstr ""
+
+#: data/SoftwareManagement.directory.in.h:1
+#, fuzzy
+msgid "Software Management"
+msgstr "Bainisteoir Bog-Earraí"
+
+#: data/rpmdrake-remove.desktop.in.h:1
+msgid "Remove Software"
+msgstr ""
+
+#: data/rpmdrake-sources.desktop.in.h:1
+#, fuzzy
+msgid "Software Sources Manager"
+msgstr "Bainisteoir Bog-Earraí"
+
+#: data/rpmdrake.desktop.in.h:1
+#, fuzzy
+msgid "Install Software"
+msgstr "Ag Feistiú"
 
 #, fuzzy
 msgid "Installing:"
@@ -769,10 +958,6 @@ msgid "Skip"
 msgstr "Scipeáil"
 
 #, fuzzy
-msgid "Install all"
-msgstr "Ag Feistiú"
-
-#, fuzzy
 msgid "Can't open package"
 msgstr ""
 "Fan tamall\n"
@@ -783,10 +968,6 @@ msgstr "Tá an pacáiste lofa"
 
 msgid "Force"
 msgstr "Fórsáil"
-
-#, fuzzy
-msgid "Error..."
-msgstr "Earraidh"
 
 msgid "usage: grpmi <[-noupgrade] rpms>\n"
 msgstr "úsáid: grpmi <[-noupgrade] pacáistí\n"
@@ -875,23 +1056,8 @@ msgstr ""
 "Tóg\n"
 "gach rud"
 
-msgid "Select all"
-msgstr "Tóg gach rud"
-
-#, fuzzy
-msgid ""
-"Unselect\n"
-"all"
-msgstr ""
-"Tóg\n"
-"gach rud"
-
 msgid "Unselect all"
 msgstr ""
-
-#, fuzzy
-msgid "Descriptions"
-msgstr "Cuntasaí:"
 
 #, fuzzy
 msgid "Proxies"
@@ -947,6 +1113,17 @@ msgstr ""
 msgid "usage: gsu [-c] command [args]\n"
 msgstr "úsáid: gsu [-c] treoir [paraiméadar]\n"
 
+#~ msgid "Select all"
+#~ msgstr "Tóg gach rud"
+
+#, fuzzy
+#~ msgid ""
+#~ "Unselect\n"
+#~ "all"
+#~ msgstr ""
+#~ "Tóg\n"
+#~ "gach rud"
+
 #~ msgid "%d packages, %Ld bytes"
 #~ msgstr "%d pacáistí, %Ld bytanna"
 
@@ -962,9 +1139,6 @@ msgstr "úsáid: gsu [-c] treoir [paraiméadar]\n"
 
 #~ msgid "Error!"
 #~ msgstr "Earraidh!"
-
-#~ msgid "Others"
-#~ msgstr "Eile"
 
 #, fuzzy
 #~ msgid "looking for installed packages"
@@ -1034,10 +1208,6 @@ msgstr "úsáid: gsu [-c] treoir [paraiméadar]\n"
 #~ msgid "Flat List"
 #~ msgstr "Liosta Cothrom"
 
-#, fuzzy
-#~ msgid "Selected"
-#~ msgstr "Tóg gach rud"
-
 #~ msgid "All"
 #~ msgstr "Gach rud"
 
@@ -1091,9 +1261,6 @@ msgstr "úsáid: gsu [-c] treoir [paraiméadar]\n"
 #~ msgid "Welcome"
 #~ msgstr "Fáilte"
 
-#~ msgid "Packages informations"
-#~ msgstr "Eolas na Pacáistí"
-
 #~ msgid "Good bye"
 #~ msgstr "Slán Leat"
 
@@ -1146,17 +1313,8 @@ msgstr "úsáid: gsu [-c] treoir [paraiméadar]\n"
 #~ msgid "%1.2f kB"
 #~ msgstr "%.1f MB"
 
-#~ msgid "Device name:"
-#~ msgstr "Ainm Gaireas:"
-
 #~ msgid "url: "
 #~ msgstr "url: "
-
-#, fuzzy
-#~ msgid ""
-#~ "Software Manager\n"
-#~ "\n"
-#~ msgstr "Bainisteoir Bog-Earraí"
 
 #, fuzzy
 #~ msgid ""

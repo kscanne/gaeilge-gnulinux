@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: drakfw VERSION\n"
-"POT-Creation-Date: 2002-08-08 11:08+0200\n"
+"POT-Creation-Date: 2002-09-03 19:35+0200\n"
 "PO-Revision-Date: 2001-09-06 19:00-0000\n"
 "Last-Translator: Alastair McKinstry <mckinstry@computer.org>\n"
 "Language-Team: Irish <ga@li.org>\n"
@@ -13,1303 +13,1303 @@ msgstr ""
 "Content-Type: text/plain; charset=ISO-8859-1\n"
 "Content-Transfer-Encoding: 8-bit\n"
 
-#: drakfw:67 drakfw:584 drakfw:590
+#: ../drakfw_.c:72 ../drakfw_.c:589 ../drakfw_.c:595
 msgid "United States"
 msgstr "Stáit Aontaithe Mheiriceá"
 
-#: drakfw:68
+#: ../drakfw_.c:73
 msgid "Afghanistan"
 msgstr "An Afghanastáin"
 
-#: drakfw:69
+#: ../drakfw_.c:74
 msgid "Albania"
 msgstr "An Albáin"
 
-#: drakfw:70
+#: ../drakfw_.c:75
 msgid "Algeria"
 msgstr "An Algéir"
 
-#: drakfw:71 drakfw:362
+#: ../drakfw_.c:76 ../drakfw_.c:367
 msgid "American Samoa"
 msgstr ""
 
-#: drakfw:72
+#: ../drakfw_.c:77
 msgid "Andorra"
 msgstr ""
 
-#: drakfw:73
+#: ../drakfw_.c:78
 msgid "Angola"
 msgstr ""
 
-#: drakfw:74
+#: ../drakfw_.c:79
 msgid "Anguilla"
 msgstr ""
 
-#: drakfw:75
+#: ../drakfw_.c:80
 msgid "Antarctica"
 msgstr ""
 
-#: drakfw:76
+#: ../drakfw_.c:81
 msgid "Antigua and Barbuda"
 msgstr ""
 
-#: drakfw:77
+#: ../drakfw_.c:82
 msgid "Argentina"
 msgstr ""
 
-#: drakfw:78
+#: ../drakfw_.c:83
 msgid "Armenia"
 msgstr ""
 
-#: drakfw:79
+#: ../drakfw_.c:84
 msgid "Aruba"
 msgstr ""
 
-#: drakfw:80
+#: ../drakfw_.c:85
 msgid "Australia"
 msgstr "An Aistráil"
 
-#: drakfw:81
+#: ../drakfw_.c:86
 msgid "Austria"
 msgstr "An Ostair"
 
-#: drakfw:82
+#: ../drakfw_.c:87
 msgid "Azerbaijan"
 msgstr ""
 
-#: drakfw:83
+#: ../drakfw_.c:88
 msgid "Bahamas"
 msgstr ""
 
-#: drakfw:84
+#: ../drakfw_.c:89
 msgid "Bahrain"
 msgstr ""
 
-#: drakfw:85
+#: ../drakfw_.c:90
 msgid "Bangladesh"
 msgstr "An Bhanglaidéis"
 
-#: drakfw:86
+#: ../drakfw_.c:91
 msgid "Barbados"
 msgstr ""
 
-#: drakfw:87
+#: ../drakfw_.c:92
 msgid "Belarus"
 msgstr ""
 
-#: drakfw:88
+#: ../drakfw_.c:93
 msgid "Belgium"
 msgstr "An Bheilg"
 
-#: drakfw:89
+#: ../drakfw_.c:94
 msgid "Belize"
 msgstr ""
 
-#: drakfw:90
+#: ../drakfw_.c:95
 msgid "Benin"
 msgstr ""
 
-#: drakfw:91
+#: ../drakfw_.c:96
 msgid "Bermuda"
 msgstr ""
 
-#: drakfw:92
+#: ../drakfw_.c:97
 msgid "Bhutan"
 msgstr ""
 
-#: drakfw:93
+#: ../drakfw_.c:98
 msgid "Bolivia"
 msgstr "An Bholaiv"
 
-#: drakfw:94
+#: ../drakfw_.c:99
 msgid "Bosnia and Herzegovina"
 msgstr ""
 
-#: drakfw:95
+#: ../drakfw_.c:100
 msgid "Botswana"
 msgstr ""
 
-#: drakfw:96
+#: ../drakfw_.c:101
 msgid "Bouvet Island"
 msgstr ""
 
-#: drakfw:97
+#: ../drakfw_.c:102
 msgid "Brazil"
 msgstr "An Bhrasail"
 
-#: drakfw:98
+#: ../drakfw_.c:103
 msgid "British Indian Ocean Territory"
 msgstr ""
 
-#: drakfw:99
+#: ../drakfw_.c:104
 msgid "Brunei Darussalam"
 msgstr ""
 
-#: drakfw:100
+#: ../drakfw_.c:105
 msgid "Bulgaria"
 msgstr "An Bhulgáir"
 
-#: drakfw:101
+#: ../drakfw_.c:106
 msgid "Burkina Faso"
 msgstr ""
 
-#: drakfw:102
+#: ../drakfw_.c:107
 msgid "Burundi"
 msgstr ""
 
-#: drakfw:103
+#: ../drakfw_.c:108
 msgid "Cambodia"
 msgstr ""
 
-#: drakfw:104
+#: ../drakfw_.c:109
 msgid "Cameroon"
 msgstr "Camarún"
 
-#: drakfw:105 drakfw:590
+#: ../drakfw_.c:110 ../drakfw_.c:595
 msgid "Canada"
 msgstr "Ceanada"
 
-#: drakfw:106
+#: ../drakfw_.c:111
 msgid "Cape Verde"
 msgstr ""
 
-#: drakfw:107
+#: ../drakfw_.c:112
 msgid "Cayman Islands"
 msgstr ""
 
-#: drakfw:108
+#: ../drakfw_.c:113
 msgid "Central African Republic"
 msgstr ""
 
-#: drakfw:109
+#: ../drakfw_.c:114
 msgid "Chad"
 msgstr ""
 
-#: drakfw:110
+#: ../drakfw_.c:115
 msgid "Chile"
 msgstr "An tSile"
 
-#: drakfw:111
+#: ../drakfw_.c:116
 msgid "China"
 msgstr "An tSín"
 
-#: drakfw:112
+#: ../drakfw_.c:117
 msgid "Christmas Island"
 msgstr ""
 
-#: drakfw:113
+#: ../drakfw_.c:118
 msgid "Cocos (Keeling) Islands"
 msgstr ""
 
-#: drakfw:114
+#: ../drakfw_.c:119
 msgid "Colombia"
 msgstr "AN Cholóim"
 
-#: drakfw:115
+#: ../drakfw_.c:120
 msgid "Comoros"
 msgstr ""
 
-#: drakfw:116
+#: ../drakfw_.c:121
 msgid "Congo"
 msgstr "An Congó"
 
-#: drakfw:117
+#: ../drakfw_.c:122
 msgid "Cook Islands"
 msgstr ""
 
-#: drakfw:118
+#: ../drakfw_.c:123
 msgid "Costa Rica"
 msgstr ""
 
-#: drakfw:119
+#: ../drakfw_.c:124
 msgid "Cote d'Ivoire"
 msgstr ""
 
-#: drakfw:120
+#: ../drakfw_.c:125
 msgid "Croatia"
 msgstr ""
 
-#: drakfw:121
+#: ../drakfw_.c:126
 msgid "Cuba"
 msgstr "Cúba"
 
-#: drakfw:122
+#: ../drakfw_.c:127
 msgid "Cyprus"
 msgstr "An Chipir"
 
-#: drakfw:123
+#: ../drakfw_.c:128
 msgid "Czech Republic"
 msgstr "An Phoblacht nc tSeic"
 
-#: drakfw:124
+#: ../drakfw_.c:129
 msgid "Denmark"
 msgstr "An Danmhairg"
 
-#: drakfw:125
+#: ../drakfw_.c:130
 msgid "Djibouti"
 msgstr ""
 
-#: drakfw:126
+#: ../drakfw_.c:131
 msgid "Dominica"
 msgstr ""
 
-#: drakfw:127
+#: ../drakfw_.c:132
 msgid "Dominican Republic"
 msgstr ""
 
-#: drakfw:128
+#: ../drakfw_.c:133
 msgid "East Timor"
 msgstr ""
 
-#: drakfw:129
+#: ../drakfw_.c:134
 msgid "Ecuador"
 msgstr "Eacuadór"
 
-#: drakfw:130
+#: ../drakfw_.c:135
 msgid "Egypt"
 msgstr "An Éigipt"
 
-#: drakfw:131
+#: ../drakfw_.c:136
 msgid "El Salvador"
 msgstr "An tSalvadóir"
 
-#: drakfw:132
+#: ../drakfw_.c:137
 msgid "Equatorial Guinea"
 msgstr ""
 
-#: drakfw:133
+#: ../drakfw_.c:138
 msgid "Eritrea"
 msgstr ""
 
-#: drakfw:134
+#: ../drakfw_.c:139
 msgid "Estonia"
 msgstr ""
 
-#: drakfw:135
+#: ../drakfw_.c:140
 msgid "Ethiopia"
 msgstr "An Aetóip"
 
-#: drakfw:136
+#: ../drakfw_.c:141
 msgid "Falkland Islands (Malvinas)"
 msgstr ""
 
-#: drakfw:137
+#: ../drakfw_.c:142
 msgid "Faroe Islands"
 msgstr ""
 
-#: drakfw:138
+#: ../drakfw_.c:143
 msgid "Fiji"
 msgstr ""
 
-#: drakfw:139
+#: ../drakfw_.c:144
 msgid "Finland"
 msgstr "An Fhionlainn"
 
-#: drakfw:140
+#: ../drakfw_.c:145
 msgid "France"
 msgstr "An Fhrainc"
 
-#: drakfw:141
+#: ../drakfw_.c:146
 msgid "France, Metropolitan"
 msgstr ""
 
-#: drakfw:142
+#: ../drakfw_.c:147
 msgid "French Guiana"
 msgstr ""
 
-#: drakfw:143
+#: ../drakfw_.c:148
 msgid "French Polynesia"
 msgstr ""
 
-#: drakfw:144
+#: ../drakfw_.c:149
 msgid "French Southern Territories"
 msgstr ""
 
-#: drakfw:145
+#: ../drakfw_.c:150
 msgid "Gabon"
 msgstr ""
 
-#: drakfw:146
+#: ../drakfw_.c:151
 msgid "Gambia"
 msgstr ""
 
-#: drakfw:147 drakfw:321
+#: ../drakfw_.c:152 ../drakfw_.c:326
 msgid "Georgia"
 msgstr ""
 
-#: drakfw:148
+#: ../drakfw_.c:153
 msgid "Germany"
 msgstr "An Ghearmáin"
 
-#: drakfw:149
+#: ../drakfw_.c:154
 msgid "Ghana"
 msgstr "Gána"
 
-#: drakfw:150
+#: ../drakfw_.c:155
 msgid "Gibraltar"
 msgstr ""
 
-#: drakfw:151
+#: ../drakfw_.c:156
 msgid "Greece"
 msgstr "An Ghréig"
 
-#: drakfw:152
+#: ../drakfw_.c:157
 msgid "Greenland"
 msgstr "An Ghraonlainn"
 
-#: drakfw:153
+#: ../drakfw_.c:158
 msgid "Grenada"
 msgstr ""
 
-#: drakfw:154
+#: ../drakfw_.c:159
 msgid "Guadeloupe"
 msgstr ""
 
-#: drakfw:155 drakfw:366
+#: ../drakfw_.c:160 ../drakfw_.c:371
 msgid "Guam"
 msgstr ""
 
-#: drakfw:156
+#: ../drakfw_.c:161
 msgid "Guatemala"
 msgstr "Guatamala"
 
-#: drakfw:157
+#: ../drakfw_.c:162
 msgid "Guinea"
 msgstr ""
 
-#: drakfw:158
+#: ../drakfw_.c:163
 msgid "Guinea-Bissau"
 msgstr ""
 
-#: drakfw:159
+#: ../drakfw_.c:164
 msgid "Guyana"
 msgstr "An Ghuáin"
 
-#: drakfw:160
+#: ../drakfw_.c:165
 msgid "Haiti"
 msgstr "Háiti"
 
-#: drakfw:161
+#: ../drakfw_.c:166
 msgid "Heard Island and McDonald Islands"
 msgstr ""
 
-#: drakfw:162
+#: ../drakfw_.c:167
 msgid "Honduras"
 msgstr ""
 
-#: drakfw:163
+#: ../drakfw_.c:168
 msgid "Hong Kong"
 msgstr ""
 
-#: drakfw:164
+#: ../drakfw_.c:169
 msgid "Hungary"
 msgstr "An Ungáir"
 
-#: drakfw:165
+#: ../drakfw_.c:170
 msgid "Iceland"
 msgstr "An Íoslainn"
 
-#: drakfw:166
+#: ../drakfw_.c:171
 msgid "India"
 msgstr "An India"
 
-#: drakfw:167
+#: ../drakfw_.c:172
 msgid "Indonesia"
 msgstr "An Indinéis"
 
-#: drakfw:168
+#: ../drakfw_.c:173
 msgid "Iran (Islamic Republic of)"
 msgstr "An Iarain"
 
-#: drakfw:169
+#: ../drakfw_.c:174
 msgid "Iraq"
 msgstr "An Iaráic"
 
-#: drakfw:170
+#: ../drakfw_.c:175
 msgid "Ireland"
 msgstr "Éireann"
 
-#: drakfw:171
+#: ../drakfw_.c:176
 msgid "Israel"
 msgstr "Iosrael"
 
-#: drakfw:172
+#: ../drakfw_.c:177
 msgid "Italy"
 msgstr "An Iodáil"
 
-#: drakfw:173
+#: ../drakfw_.c:178
 msgid "Jamaica"
 msgstr "Iamáice"
 
-#: drakfw:174
+#: ../drakfw_.c:179
 msgid "Japan"
 msgstr "An tSeapáin"
 
-#: drakfw:175
+#: ../drakfw_.c:180
 msgid "Jordan"
 msgstr "An Iordáin"
 
-#: drakfw:176
+#: ../drakfw_.c:181
 msgid "Kazakhstan"
 msgstr ""
 
-#: drakfw:177
+#: ../drakfw_.c:182
 msgid "Kenya"
 msgstr "An Chéinia"
 
-#: drakfw:178
+#: ../drakfw_.c:183
 msgid "Kiribati"
 msgstr ""
 
-#: drakfw:179
+#: ../drakfw_.c:184
 msgid "Korea, Democratic People's Republic of"
 msgstr ""
 
-#: drakfw:180
+#: ../drakfw_.c:185
 msgid "Korea, Republic of"
 msgstr ""
 
-#: drakfw:181
+#: ../drakfw_.c:186
 msgid "Kuwait"
 msgstr ""
 
-#: drakfw:182
+#: ../drakfw_.c:187
 msgid "Kyrgyzstan"
 msgstr ""
 
-#: drakfw:183
+#: ../drakfw_.c:188
 msgid "Lao People's Democratic Republic"
 msgstr ""
 
-#: drakfw:184
+#: ../drakfw_.c:189
 msgid "Latin America"
 msgstr ""
 
-#: drakfw:185
+#: ../drakfw_.c:190
 msgid "Latvia"
 msgstr ""
 
-#: drakfw:186
+#: ../drakfw_.c:191
 msgid "Lebanon"
 msgstr ""
 
-#: drakfw:187
+#: ../drakfw_.c:192
 msgid "Lesotho"
 msgstr ""
 
-#: drakfw:188
+#: ../drakfw_.c:193
 msgid "Liberia"
 msgstr ""
 
-#: drakfw:189
+#: ../drakfw_.c:194
 msgid "Libyan Arab Jamahiriya"
 msgstr ""
 
-#: drakfw:190
+#: ../drakfw_.c:195
 msgid "Liechtenstein"
 msgstr ""
 
-#: drakfw:191
+#: ../drakfw_.c:196
 msgid "Lithuania"
 msgstr ""
 
-#: drakfw:192
+#: ../drakfw_.c:197
 msgid "Luxembourg"
 msgstr ""
 
-#: drakfw:193
+#: ../drakfw_.c:198
 msgid "Macau"
 msgstr ""
 
-#: drakfw:194
+#: ../drakfw_.c:199
 msgid "Macedonia"
 msgstr ""
 
-#: drakfw:195
+#: ../drakfw_.c:200
 msgid "Madagascar"
 msgstr ""
 
-#: drakfw:196
+#: ../drakfw_.c:201
 msgid "Malawi"
 msgstr ""
 
-#: drakfw:197
+#: ../drakfw_.c:202
 msgid "Malaysia"
 msgstr ""
 
-#: drakfw:198
+#: ../drakfw_.c:203
 msgid "Maldives"
 msgstr ""
 
-#: drakfw:199
+#: ../drakfw_.c:204
 msgid "Mali"
 msgstr ""
 
-#: drakfw:200
+#: ../drakfw_.c:205
 msgid "Malta"
 msgstr ""
 
-#: drakfw:201 drakfw:367
+#: ../drakfw_.c:206 ../drakfw_.c:372
 msgid "Marshall Islands"
 msgstr ""
 
-#: drakfw:202
+#: ../drakfw_.c:207
 msgid "Martinique"
 msgstr ""
 
-#: drakfw:203
+#: ../drakfw_.c:208
 msgid "Mauritania"
 msgstr ""
 
-#: drakfw:204
+#: ../drakfw_.c:209
 msgid "Mauritius"
 msgstr ""
 
-#: drakfw:205
+#: ../drakfw_.c:210
 msgid "Mayotte"
 msgstr ""
 
-#: drakfw:206
+#: ../drakfw_.c:211
 msgid "Mexico"
 msgstr ""
 
-#: drakfw:207
+#: ../drakfw_.c:212
 msgid "Micronesia (Federated States of)"
 msgstr ""
 
-#: drakfw:208
+#: ../drakfw_.c:213
 msgid "Moldova"
 msgstr ""
 
-#: drakfw:209
+#: ../drakfw_.c:214
 msgid "Monaco"
 msgstr ""
 
-#: drakfw:210
+#: ../drakfw_.c:215
 msgid "Mongolia"
 msgstr ""
 
-#: drakfw:211
+#: ../drakfw_.c:216
 msgid "Montserrat"
 msgstr ""
 
-#: drakfw:212
+#: ../drakfw_.c:217
 msgid "Morocco"
 msgstr ""
 
-#: drakfw:213
+#: ../drakfw_.c:218
 msgid "Mozambique"
 msgstr ""
 
-#: drakfw:214
+#: ../drakfw_.c:219
 msgid "Myanmar"
 msgstr ""
 
-#: drakfw:215
+#: ../drakfw_.c:220
 msgid "Namibia"
 msgstr ""
 
-#: drakfw:216
+#: ../drakfw_.c:221
 msgid "Nauru"
 msgstr ""
 
-#: drakfw:217
+#: ../drakfw_.c:222
 msgid "Nepal"
 msgstr "Neipeál"
 
-#: drakfw:218
+#: ../drakfw_.c:223
 msgid "Netherlands"
 msgstr "An Isiltír"
 
-#: drakfw:219
+#: ../drakfw_.c:224
 msgid "Netherlands Antilles"
 msgstr ""
 
-#: drakfw:220
+#: ../drakfw_.c:225
 msgid "New Caledonia"
 msgstr ""
 
-#: drakfw:221
+#: ../drakfw_.c:226
 msgid "New Zealand"
 msgstr "An Nua-Shéalainn"
 
-#: drakfw:222
+#: ../drakfw_.c:227
 msgid "Nicaragua"
 msgstr "Nicaragua"
 
-#: drakfw:223
+#: ../drakfw_.c:228
 msgid "Niger"
 msgstr "An Nígir"
 
-#: drakfw:224
+#: ../drakfw_.c:229
 msgid "Nigeria"
 msgstr "An Nigéir"
 
-#: drakfw:225
+#: ../drakfw_.c:230
 msgid "Niue"
 msgstr ""
 
-#: drakfw:226
+#: ../drakfw_.c:231
 msgid "Norfolk Island"
 msgstr ""
 
-#: drakfw:227
+#: ../drakfw_.c:232
 msgid "Northern Mariana Islands"
 msgstr ""
 
-#: drakfw:228
+#: ../drakfw_.c:233
 msgid "Norway"
 msgstr "An Iorua"
 
-#: drakfw:229
+#: ../drakfw_.c:234
 msgid "Oman"
 msgstr ""
 
-#: drakfw:230
+#: ../drakfw_.c:235
 msgid "Pakistan"
 msgstr "An Phacastán"
 
-#: drakfw:231 drakfw:370
+#: ../drakfw_.c:236 ../drakfw_.c:375
 msgid "Palau"
 msgstr ""
 
-#: drakfw:232
+#: ../drakfw_.c:237
 msgid "Panama"
 msgstr ""
 
-#: drakfw:233
+#: ../drakfw_.c:238
 msgid "Papua New Guinea"
 msgstr ""
 
-#: drakfw:234
+#: ../drakfw_.c:239
 msgid "Paraguay"
 msgstr "Paraguay"
 
-#: drakfw:235
+#: ../drakfw_.c:240
 msgid "Peru"
 msgstr "Peiriú"
 
-#: drakfw:236
+#: ../drakfw_.c:241
 msgid "Philippines"
 msgstr ""
 
-#: drakfw:237
+#: ../drakfw_.c:242
 msgid "Pitcairn"
 msgstr ""
 
-#: drakfw:238
+#: ../drakfw_.c:243
 msgid "Poland"
 msgstr "An Pholainn"
 
-#: drakfw:239
+#: ../drakfw_.c:244
 msgid "Portugal"
 msgstr ""
 
-#: drakfw:240 drakfw:371
+#: ../drakfw_.c:245 ../drakfw_.c:376
 msgid "Puerto Rico"
 msgstr ""
 
-#: drakfw:241
+#: ../drakfw_.c:246
 msgid "Qatar"
 msgstr ""
 
-#: drakfw:242
+#: ../drakfw_.c:247
 msgid "Reunion"
 msgstr ""
 
-#: drakfw:243
+#: ../drakfw_.c:248
 msgid "Romania"
 msgstr ""
 
-#: drakfw:244
+#: ../drakfw_.c:249
 msgid "Russian Federation"
 msgstr ""
 
-#: drakfw:245
+#: ../drakfw_.c:250
 msgid "Rwanda"
 msgstr ""
 
-#: drakfw:246
+#: ../drakfw_.c:251
 msgid "Saint Helena"
 msgstr ""
 
-#: drakfw:247
+#: ../drakfw_.c:252
 msgid "Saint Kitts and Nevis"
 msgstr ""
 
-#: drakfw:248
+#: ../drakfw_.c:253
 msgid "Saint Lucia"
 msgstr ""
 
-#: drakfw:249
+#: ../drakfw_.c:254
 msgid "Saint Pierre and Miquelon"
 msgstr ""
 
-#: drakfw:250
+#: ../drakfw_.c:255
 msgid "Saint Vincent and the Grenadines"
 msgstr ""
 
-#: drakfw:251
+#: ../drakfw_.c:256
 msgid "Samoa"
 msgstr ""
 
-#: drakfw:252
+#: ../drakfw_.c:257
 msgid "San Marino"
 msgstr ""
 
-#: drakfw:253
+#: ../drakfw_.c:258
 msgid "Sao Tome and Principe"
 msgstr ""
 
-#: drakfw:254
+#: ../drakfw_.c:259
 msgid "Saudi Arabia"
 msgstr ""
 
-#: drakfw:255
+#: ../drakfw_.c:260
 msgid "Senegal"
 msgstr ""
 
-#: drakfw:256
+#: ../drakfw_.c:261
 msgid "Seychelles"
 msgstr ""
 
-#: drakfw:257
+#: ../drakfw_.c:262
 msgid "Sierra Leone"
 msgstr ""
 
-#: drakfw:258
+#: ../drakfw_.c:263
 msgid "Singapore"
 msgstr ""
 
-#: drakfw:259
+#: ../drakfw_.c:264
 msgid "Slovakia"
 msgstr ""
 
-#: drakfw:260
+#: ../drakfw_.c:265
 msgid "Slovenia"
 msgstr ""
 
-#: drakfw:261
+#: ../drakfw_.c:266
 msgid "Solomon Islands"
 msgstr ""
 
-#: drakfw:262
+#: ../drakfw_.c:267
 msgid "Somalia"
 msgstr ""
 
-#: drakfw:263
+#: ../drakfw_.c:268
 msgid "South Africa"
 msgstr ""
 
-#: drakfw:264
+#: ../drakfw_.c:269
 msgid "South Georgia and the South Sandwich Island"
 msgstr ""
 
-#: drakfw:265
+#: ../drakfw_.c:270
 msgid "Spain"
 msgstr ""
 
-#: drakfw:266
+#: ../drakfw_.c:271
 msgid "Sri Lanka"
 msgstr ""
 
-#: drakfw:267
+#: ../drakfw_.c:272
 msgid "Sudan"
 msgstr ""
 
-#: drakfw:268
+#: ../drakfw_.c:273
 msgid "Suriname"
 msgstr ""
 
-#: drakfw:269
+#: ../drakfw_.c:274
 msgid "Svalbard and Jan Mayen Islands"
 msgstr ""
 
-#: drakfw:270
+#: ../drakfw_.c:275
 msgid "Swaziland"
 msgstr ""
 
-#: drakfw:271
+#: ../drakfw_.c:276
 msgid "Sweden"
 msgstr ""
 
-#: drakfw:272
+#: ../drakfw_.c:277
 msgid "Switzerland"
 msgstr ""
 
-#: drakfw:273
+#: ../drakfw_.c:278
 msgid "Syrian Arab Republic"
 msgstr ""
 
-#: drakfw:274
+#: ../drakfw_.c:279
 msgid "Taiwan, Republic of China"
 msgstr ""
 
-#: drakfw:275
+#: ../drakfw_.c:280
 msgid "Tajikistan"
 msgstr ""
 
-#: drakfw:276
+#: ../drakfw_.c:281
 msgid "Tanzania, United Republic of"
 msgstr ""
 
-#: drakfw:277
+#: ../drakfw_.c:282
 msgid "Thailand"
 msgstr ""
 
-#: drakfw:278
+#: ../drakfw_.c:283
 msgid "Togo"
 msgstr ""
 
-#: drakfw:279
+#: ../drakfw_.c:284
 msgid "Tokelau"
 msgstr ""
 
-#: drakfw:280
+#: ../drakfw_.c:285
 msgid "Tonga"
 msgstr ""
 
-#: drakfw:281
+#: ../drakfw_.c:286
 msgid "Trinidad and Tobago"
 msgstr ""
 
-#: drakfw:282
+#: ../drakfw_.c:287
 msgid "Tunisia"
 msgstr ""
 
-#: drakfw:283
+#: ../drakfw_.c:288
 msgid "Turkey"
 msgstr ""
 
-#: drakfw:284
+#: ../drakfw_.c:289
 msgid "Turkmenistan"
 msgstr ""
 
-#: drakfw:285
+#: ../drakfw_.c:290
 msgid "Turks and Caicos Islands"
 msgstr ""
 
-#: drakfw:286
+#: ../drakfw_.c:291
 msgid "Tuvalu"
 msgstr ""
 
-#: drakfw:287
+#: ../drakfw_.c:292
 msgid "Uganda"
 msgstr ""
 
-#: drakfw:288
+#: ../drakfw_.c:293
 msgid "Ukraine"
 msgstr ""
 
-#: drakfw:289
+#: ../drakfw_.c:294
 msgid "United Arab Emirates"
 msgstr ""
 
-#: drakfw:290
+#: ../drakfw_.c:295
 msgid "United Kingdom"
 msgstr ""
 
-#: drakfw:291
+#: ../drakfw_.c:296
 msgid "United States Minor Outlying Islands"
 msgstr ""
 
-#: drakfw:292
+#: ../drakfw_.c:297
 msgid "Uruguay"
 msgstr ""
 
-#: drakfw:293
+#: ../drakfw_.c:298
 msgid "Uzbekistan"
 msgstr ""
 
-#: drakfw:294
+#: ../drakfw_.c:299
 msgid "Vanuatu"
 msgstr ""
 
-#: drakfw:295
+#: ../drakfw_.c:300
 msgid "Vatican City State (Holy See)"
 msgstr ""
 
-#: drakfw:296
+#: ../drakfw_.c:301
 msgid "Venezuela"
 msgstr ""
 
-#: drakfw:297
+#: ../drakfw_.c:302
 msgid "Viet Nam"
 msgstr ""
 
-#: drakfw:298
+#: ../drakfw_.c:303
 msgid "Virgin Islands (British)"
 msgstr ""
 
-#: drakfw:299
+#: ../drakfw_.c:304
 msgid "Virgin Islands (U.S.)"
 msgstr ""
 
-#: drakfw:300
+#: ../drakfw_.c:305
 msgid "Wallis and Futuna Islands"
 msgstr ""
 
-#: drakfw:301
+#: ../drakfw_.c:306
 msgid "Western Sahara"
 msgstr ""
 
-#: drakfw:302
+#: ../drakfw_.c:307
 msgid "Yemen"
 msgstr ""
 
-#: drakfw:303
+#: ../drakfw_.c:308
 msgid "Yugoslavia"
 msgstr ""
 
-#: drakfw:304
+#: ../drakfw_.c:309
 msgid "Zaire"
 msgstr ""
 
-#: drakfw:305
+#: ../drakfw_.c:310
 msgid "Zambia"
 msgstr ""
 
-#: drakfw:306
+#: ../drakfw_.c:311
 msgid "Zimbabwe"
 msgstr ""
 
-#: drakfw:310 drakfw:583
+#: ../drakfw_.c:315 ../drakfw_.c:588
 msgid "Non US/Canada"
 msgstr ""
 
-#: drakfw:311
+#: ../drakfw_.c:316
 msgid "Alabama"
 msgstr ""
 
-#: drakfw:312
+#: ../drakfw_.c:317
 msgid "Alaska"
 msgstr ""
 
-#: drakfw:313
+#: ../drakfw_.c:318
 msgid "Arizona"
 msgstr ""
 
-#: drakfw:314
+#: ../drakfw_.c:319
 msgid "Arkansas"
 msgstr ""
 
-#: drakfw:315
+#: ../drakfw_.c:320
 msgid "California"
 msgstr ""
 
-#: drakfw:316
+#: ../drakfw_.c:321
 msgid "Colorado"
 msgstr ""
 
-#: drakfw:317
+#: ../drakfw_.c:322
 msgid "Connecticut"
 msgstr ""
 
-#: drakfw:318
+#: ../drakfw_.c:323
 msgid "Delaware"
 msgstr ""
 
-#: drakfw:319
+#: ../drakfw_.c:324
 msgid "District of Columbia"
 msgstr ""
 
-#: drakfw:320
+#: ../drakfw_.c:325
 msgid "Florida"
 msgstr ""
 
-#: drakfw:322
+#: ../drakfw_.c:327
 msgid "Hawaii"
 msgstr ""
 
-#: drakfw:323
+#: ../drakfw_.c:328
 msgid "Idaho"
 msgstr ""
 
-#: drakfw:324
+#: ../drakfw_.c:329
 msgid "Illinois"
 msgstr ""
 
-#: drakfw:325
+#: ../drakfw_.c:330
 msgid "Indiana"
 msgstr ""
 
-#: drakfw:326
+#: ../drakfw_.c:331
 msgid "Iowa"
 msgstr ""
 
-#: drakfw:327
+#: ../drakfw_.c:332
 msgid "Kansas"
 msgstr ""
 
-#: drakfw:328
+#: ../drakfw_.c:333
 msgid "Kentucky"
 msgstr ""
 
-#: drakfw:329
+#: ../drakfw_.c:334
 msgid "Louisiana"
 msgstr ""
 
-#: drakfw:330
+#: ../drakfw_.c:335
 msgid "Maine"
 msgstr ""
 
-#: drakfw:331
+#: ../drakfw_.c:336
 msgid "Maryland"
 msgstr ""
 
-#: drakfw:332
+#: ../drakfw_.c:337
 msgid "Massachusetts"
 msgstr ""
 
-#: drakfw:333
+#: ../drakfw_.c:338
 msgid "Michigan"
 msgstr ""
 
-#: drakfw:334
+#: ../drakfw_.c:339
 msgid "Minnesota"
 msgstr ""
 
-#: drakfw:335
+#: ../drakfw_.c:340
 msgid "Mississippi"
 msgstr ""
 
-#: drakfw:336
+#: ../drakfw_.c:341
 msgid "Missouri"
 msgstr ""
 
-#: drakfw:337
+#: ../drakfw_.c:342
 msgid "Montana"
 msgstr ""
 
-#: drakfw:338
+#: ../drakfw_.c:343
 msgid "Nebraska"
 msgstr ""
 
-#: drakfw:339
+#: ../drakfw_.c:344
 msgid "Nevada"
 msgstr ""
 
-#: drakfw:340
+#: ../drakfw_.c:345
 msgid "New Hampshire"
 msgstr ""
 
-#: drakfw:341
+#: ../drakfw_.c:346
 msgid "New Jersey"
 msgstr ""
 
-#: drakfw:342
+#: ../drakfw_.c:347
 msgid "New Mexico"
 msgstr "Nua Meicsiceo"
 
-#: drakfw:343
+#: ../drakfw_.c:348
 msgid "New York"
 msgstr "Nua Eabhraic"
 
-#: drakfw:344
+#: ../drakfw_.c:349
 msgid "North Carolina"
 msgstr ""
 
-#: drakfw:345
+#: ../drakfw_.c:350
 msgid "North Dakota"
 msgstr ""
 
-#: drakfw:346
+#: ../drakfw_.c:351
 msgid "Ohio"
 msgstr ""
 
-#: drakfw:347
+#: ../drakfw_.c:352
 msgid "Oklahoma"
 msgstr ""
 
-#: drakfw:348
+#: ../drakfw_.c:353
 msgid "Oregon"
 msgstr ""
 
-#: drakfw:349
+#: ../drakfw_.c:354
 msgid "Pennsylvania"
 msgstr ""
 
-#: drakfw:350
+#: ../drakfw_.c:355
 msgid "Rhode Island"
 msgstr ""
 
-#: drakfw:351
+#: ../drakfw_.c:356
 msgid "South Carolina"
 msgstr ""
 
-#: drakfw:352
+#: ../drakfw_.c:357
 msgid "South Dakota"
 msgstr ""
 
-#: drakfw:353
+#: ../drakfw_.c:358
 msgid "Tennessee"
 msgstr ""
 
-#: drakfw:354
+#: ../drakfw_.c:359
 msgid "Texas"
 msgstr ""
 
-#: drakfw:355
+#: ../drakfw_.c:360
 msgid "Utah"
 msgstr ""
 
-#: drakfw:356
+#: ../drakfw_.c:361
 msgid "Vermont"
 msgstr ""
 
-#: drakfw:357
+#: ../drakfw_.c:362
 msgid "Virginia"
 msgstr ""
 
-#: drakfw:358
+#: ../drakfw_.c:363
 msgid "Washington"
 msgstr ""
 
-#: drakfw:359
+#: ../drakfw_.c:364
 msgid "West Virginia"
 msgstr ""
 
-#: drakfw:360
+#: ../drakfw_.c:365
 msgid "Wisconsin"
 msgstr ""
 
-#: drakfw:361
+#: ../drakfw_.c:366
 msgid "Wyoming"
 msgstr ""
 
-#: drakfw:363
+#: ../drakfw_.c:368
 msgid "Armed Forces(AA)"
 msgstr ""
 
-#: drakfw:364
+#: ../drakfw_.c:369
 msgid "Armed Forces(AE)"
 msgstr ""
 
-#: drakfw:365
+#: ../drakfw_.c:370
 msgid "Armed Forces(AP)"
 msgstr ""
 
-#: drakfw:368
+#: ../drakfw_.c:373
 msgid "Micronesia"
 msgstr ""
 
-#: drakfw:369
+#: ../drakfw_.c:374
 msgid "Northern Marianas"
 msgstr ""
 
-#: drakfw:372
+#: ../drakfw_.c:377
 msgid "Trust Territories"
 msgstr ""
 
-#: drakfw:373
+#: ../drakfw_.c:378
 msgid "Virgin Islands"
 msgstr ""
 
-#: drakfw:374
+#: ../drakfw_.c:379
 msgid "Alberta"
 msgstr ""
 
-#: drakfw:375
+#: ../drakfw_.c:380
 msgid "British Columbia"
 msgstr ""
 
-#: drakfw:376
+#: ../drakfw_.c:381
 msgid "Manitoba"
 msgstr ""
 
-#: drakfw:377
+#: ../drakfw_.c:382
 msgid "New Brunswick"
 msgstr ""
 
-#: drakfw:378
+#: ../drakfw_.c:383
 msgid "Newfoundland"
 msgstr ""
 
-#: drakfw:379
+#: ../drakfw_.c:384
 msgid "Northwest Territory"
 msgstr ""
 
-#: drakfw:380
+#: ../drakfw_.c:385
 msgid "Nova Scotia"
 msgstr ""
 
-#: drakfw:381
+#: ../drakfw_.c:386
 msgid "Ontario"
 msgstr ""
 
-#: drakfw:382
+#: ../drakfw_.c:387
 msgid "Prince Edward Island"
 msgstr ""
 
-#: drakfw:383
+#: ../drakfw_.c:388
 msgid "Quebec"
 msgstr ""
 
-#: drakfw:384
+#: ../drakfw_.c:389
 msgid "Saskatchewan"
 msgstr ""
 
-#: drakfw:385
+#: ../drakfw_.c:390
 msgid "Yukon Territory"
 msgstr ""
 
-#: drakfw:392
+#: ../drakfw_.c:397
 msgid "First Time Wizard"
 msgstr ""
 
-#: drakfw:397
+#: ../drakfw_.c:402
 msgid "  Next  > "
 msgstr " Mór > "
 
-#: drakfw:398
+#: ../drakfw_.c:403
 msgid "  Finish "
 msgstr "  Críoch "
 
-#: drakfw:399
+#: ../drakfw_.c:404
 msgid " Cancel "
 msgstr " Cealaigh "
 
-#: drakfw:400
+#: ../drakfw_.c:405
 msgid " <  Back  "
 msgstr " < Ríomh "
 
-#: drakfw:435 drakfw:889 drakfw:897
+#: ../drakfw_.c:440 ../drakfw_.c:896 ../drakfw_.c:904
 msgid "Default KDE"
 msgstr ""
 
-#: drakfw:436 drakfw:890
+#: ../drakfw_.c:441 ../drakfw_.c:897
 msgid "KDE Redmond"
 msgstr "KDE Redmond"
 
-#: drakfw:437 drakfw:891
+#: ../drakfw_.c:442 ../drakfw_.c:898
 msgid "KDE Platinum"
 msgstr ""
 
-#: drakfw:438 drakfw:892
+#: ../drakfw_.c:443 ../drakfw_.c:899
 msgid "KDE RISCOS"
 msgstr ""
 
-#: drakfw:439 drakfw:924 drakfw:930
+#: ../drakfw_.c:444 ../drakfw_.c:922
+msgid "Default Mandrake"
+msgstr ""
+
+#: ../drakfw_.c:445 ../drakfw_.c:923
+msgid "Metal Esco"
+msgstr ""
+
+#: ../drakfw_.c:446 ../drakfw_.c:924
 msgid "Default Gnome"
 msgstr ""
 
-#: drakfw:440
-msgid "Cheese Sawtech"
+#: ../drakfw_.c:447 ../drakfw_.c:925
+msgid "ThinIce Gorilla"
 msgstr ""
 
-#: drakfw:441
-msgid "Brushed Gtk"
-msgstr ""
-
-#: drakfw:442
-msgid "Helix"
-msgstr ""
-
-#: drakfw:520
+#: ../drakfw_.c:525
 msgid "Welcome to First Time Wizard"
 msgstr ""
 
-#: drakfw:521
+#: ../drakfw_.c:526
 msgid ""
 "This is the Mandrake First Time Wizard. This assistant will help you "
 "configure\n"
@@ -1321,132 +1321,132 @@ msgid ""
 " now and you'll be logged into the default environment\n"
 msgstr ""
 
-#: drakfw:525
+#: ../drakfw_.c:530
 msgid "welcome"
 msgstr "fáilte"
 
-#: drakfw:527
+#: ../drakfw_.c:532
 msgid "Desktop Appearance"
 msgstr ""
 
-#: drakfw:528
+#: ../drakfw_.c:533
 msgid ""
 "\n"
 "Now you can choose your Desktop and the theme you want to be set\n"
 msgstr ""
 
-#: drakfw:541
+#: ../drakfw_.c:546
 msgid "Themes"
 msgstr ""
 
-#: drakfw:551
+#: ../drakfw_.c:556
 msgid "No themes available"
 msgstr ""
 
-#: drakfw:552
+#: ../drakfw_.c:557
 msgid "Select desktop first"
 msgstr ""
 
-#: drakfw:570
+#: ../drakfw_.c:575
 msgid "Mandrake Privacy Policy"
 msgstr ""
 
-#: drakfw:574
+#: ../drakfw_.c:579
 msgid "Personal Identity"
 msgstr ""
 
-#: drakfw:577
-msgid "First Name:"
-msgstr ""
-
-#: drakfw:577
-msgid "Last Name:"
-msgstr ""
-
-#: drakfw:577
-msgid "Job title:"
-msgstr ""
-
-#: drakfw:577
+#: ../drakfw_.c:582
 msgid "Company:"
 msgstr "Gnó:"
 
-#: drakfw:580
+#: ../drakfw_.c:582
+msgid "First Name:"
+msgstr ""
+
+#: ../drakfw_.c:582
+msgid "Job title:"
+msgstr ""
+
+#: ../drakfw_.c:582
+msgid "Last Name:"
+msgstr ""
+
+#: ../drakfw_.c:585
 msgid "Email:"
 msgstr "Rphost:"
 
-#: drakfw:581
+#: ../drakfw_.c:586
 msgid "Address:"
 msgstr "Seoladh:"
 
-#: drakfw:581
+#: ../drakfw_.c:586
 msgid "Zip Code:"
 msgstr ""
 
-#: drakfw:582
-msgid "State/Province:"
-msgstr "Stáit/Cuige:"
-
-#: drakfw:582
+#: ../drakfw_.c:587
 msgid "Country:"
 msgstr "Tír:"
 
-#: drakfw:596
-msgid "Phone:"
-msgstr "Fón:"
+#: ../drakfw_.c:587
+msgid "State/Province:"
+msgstr "Stáit/Cuige:"
 
-#: drakfw:596
+#: ../drakfw_.c:601
 msgid "Fax:"
 msgstr "Facs:"
 
-#: drakfw:599
+#: ../drakfw_.c:601
+msgid "Phone:"
+msgstr "Fón:"
+
+#: ../drakfw_.c:604
 msgid "Mail configuration"
 msgstr ""
 
-#: drakfw:600
+#: ../drakfw_.c:605
 msgid ""
 "\n"
 "You can configure your client mailer there"
 msgstr ""
 
-#: drakfw:601
+#: ../drakfw_.c:606
 msgid "Mail Parameters"
 msgstr ""
 
-#: drakfw:603
+#: ../drakfw_.c:608
 msgid "News Parameters"
 msgstr ""
 
-#: drakfw:609
+#: ../drakfw_.c:614
 msgid "Mail client:"
 msgstr ""
 
-#: drakfw:609
+#: ../drakfw_.c:614
 msgid "Server type:"
 msgstr ""
 
-#: drakfw:612
+#: ../drakfw_.c:617
+msgid "Incoming Server name(POP/IMAP):"
+msgstr ""
+
+#: ../drakfw_.c:617
 #, fuzzy
 msgid "Mail Address:"
 msgstr "Seoladh:"
 
-#: drakfw:612
-msgid "Incoming Server name(POP/IMAP):"
-msgstr ""
-
-#: drakfw:613
-msgid "Outgoing server name(SMTP):"
-msgstr ""
-
-#: drakfw:613
+#: ../drakfw_.c:618
 msgid "Login:"
 msgstr ""
 
-#: drakfw:617
+#: ../drakfw_.c:618
+msgid "Outgoing server name(SMTP):"
+msgstr ""
+
+#: ../drakfw_.c:622
 msgid "News Server:"
 msgstr ""
 
-#: drakfw:622
+#: ../drakfw_.c:627
 msgid ""
 "Congratulations on using Mandrake Linux\n"
 " The ideal Operating System for beginers and experts. We hope that \n"
@@ -1457,51 +1457,43 @@ msgid ""
 "keep your system up to date with security updates and enhanced software.\n"
 msgstr ""
 
-#: drakfw:756
+#: ../drakfw_.c:640
+msgid "Contacting mandrakeonline.net"
+msgstr ""
+
+#: ../drakfw_.c:763
 msgid "My news"
 msgstr ""
 
-#: drakfw:775 drakfw:1034
+#: ../drakfw_.c:782 ../drakfw_.c:1015
 msgid "Netscape"
 msgstr ""
 
-#: drakfw:828 drakfw:1027
+#: ../drakfw_.c:835 ../drakfw_.c:1008
 msgid "Choose desktop"
 msgstr ""
 
-#: drakfw:925
-msgid "Cheese Esco"
-msgstr ""
-
-#: drakfw:926
-msgid "Brushed Atlanta"
-msgstr ""
-
-#: drakfw:927
-msgid "Helix Gorilla"
-msgstr ""
-
-#: drakfw:1002
+#: ../drakfw_.c:983
 msgid "Close"
 msgstr "Dún"
 
-#: drakfw:1033
+#: ../drakfw_.c:1014
 msgid "KMail"
 msgstr ""
 
-#: drakfw:1037
+#: ../drakfw_.c:1018
 msgid "None"
 msgstr "Ar Bith:"
 
-#: drakfw:1105
+#: ../drakfw_.c:1085
 msgid "Quitting Wizard\n"
 msgstr "Ag Éirigh as Draíodóir\n"
 
-#: drakfw:1118
+#: ../drakfw_.c:1098
 msgid "-adobe-times-bold-r-normal--17-*-100-100-p-*-iso8859-*,*-r-*"
 msgstr "-adobe-times-bold-r-normal--27-*-100-100-p-*-iso8859-*,*-r-*"
 
-#: drakfw:1119
+#: ../drakfw_.c:1099
 msgid "Welcome"
 msgstr "Fáilte"
 
