@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: DrakConf 0.52\n"
-"POT-Creation-Date: 2002-08-26 11:13+0200\n"
+"POT-Creation-Date: 2002-09-04 18:30+0200\n"
 "PO-Revision-Date: 2000-09-07 16:24+0200\n"
 "Last-Translator: Alastair McKinstry <mckinstry@computer.org>\n"
 "Language-Team: Gaeilge <ga@li.org>\n"
@@ -39,11 +39,11 @@ msgstr "DrakClock - GMT"
 msgid "Is your hardware clock set to GMT?"
 msgstr "An bhfuil an clog cruaearrach ar GMT?"
 
-#: ../clock.pl_.c:113 ../control-center_.c:686
+#: ../clock.pl_.c:113 ../control-center_.c:691
 msgid "OK"
 msgstr "Ceart go Leor"
 
-#: ../clock.pl_.c:130 ../control-center_.c:378 ../control-center_.c:687
+#: ../clock.pl_.c:130 ../control-center_.c:394 ../control-center_.c:692
 msgid "Cancel"
 msgstr "Cealaigh"
 
@@ -51,355 +51,360 @@ msgstr "Cealaigh"
 msgid "Reset"
 msgstr ""
 
-#: ../control-center_.c:64
+#: ../control-center_.c:67
 #, fuzzy
 msgid "Mandrake Control Center"
 msgstr "Ionad Bainisteoireacht Mandrake %s"
 
-#: ../control-center_.c:69
+#: ../control-center_.c:72
 #, fuzzy
 msgid "Loading... Please wait"
 msgstr "Ag Lódail, fam tamall le do thoil ..."
 
-#: ../control-center_.c:89 ../control-center_.c:163
+#: ../control-center_.c:92 ../control-center_.c:167
 msgid "Boot Disk"
 msgstr "Diosca Bootáil"
 
-#: ../control-center_.c:90 ../control-center_.c:164
+#: ../control-center_.c:93 ../control-center_.c:168
 msgid "Boot Config"
 msgstr "Cumraigh Boot"
 
-#: ../control-center_.c:91 ../control-center_.c:165
+#: ../control-center_.c:94 ../control-center_.c:169
 msgid "Auto Install"
 msgstr "Uath-Feistiú"
 
-#: ../control-center_.c:92 ../control-center_.c:171
+#: ../control-center_.c:95 ../control-center_.c:175
 msgid "Monitor"
 msgstr ""
 
-#: ../control-center_.c:93 ../control-center_.c:172
+#: ../control-center_.c:96 ../control-center_.c:176
 msgid "Resolution"
 msgstr ""
 
-#: ../control-center_.c:94 ../control-center_.c:173
-msgid "Display"
-msgstr "Taispeántas"
+#: ../control-center_.c:97 ../control-center_.c:177
+msgid "Graphical server configuration"
+msgstr ""
 
-#: ../control-center_.c:95 ../control-center_.c:170
+#: ../control-center_.c:98 ../control-center_.c:174
 #, fuzzy
 msgid "Hardware List"
 msgstr "Crua-earraí"
 
-#: ../control-center_.c:96 ../control-center_.c:176
+#: ../control-center_.c:99 ../control-center_.c:180
 msgid "Mouse"
 msgstr "Luchóg"
 
-#: ../control-center_.c:97 ../control-center_.c:177
+#: ../control-center_.c:100 ../control-center_.c:181
 msgid "Printer"
 msgstr "Clódóir"
 
-#: ../control-center_.c:98 ../control-center_.c:178
+#: ../control-center_.c:101 ../control-center_.c:182
 msgid "Scanner"
 msgstr ""
 
-#: ../control-center_.c:99 ../control-center_.c:232
+#: ../control-center_.c:102 ../control-center_.c:237
 #, fuzzy
 msgid "Users"
 msgstr "úsáideoir"
 
-#: ../control-center_.c:100 ../control-center_.c:175
+#: ../control-center_.c:103 ../control-center_.c:179
 msgid "Keyboard"
 msgstr "Eocharchlár"
 
-#: ../control-center_.c:101 ../control-center_.c:183
+#: ../control-center_.c:104 ../control-center_.c:187
 #, fuzzy
 msgid "Hard Drives"
 msgstr "Crua-earraí"
 
-#: ../control-center_.c:102 ../control-center_.c:205
+#: ../control-center_.c:105 ../control-center_.c:209
 msgid "NFS mount points"
 msgstr ""
 
-#: ../control-center_.c:103 ../control-center_.c:206
+#: ../control-center_.c:106 ../control-center_.c:210
 msgid "Samba mount points"
 msgstr ""
 
-#: ../control-center_.c:104 ../control-center_.c:207
+#: ../control-center_.c:107 ../control-center_.c:211
 msgid "WebDAV mount points"
 msgstr ""
 
-#: ../control-center_.c:105 ../control-center_.c:208
+#: ../control-center_.c:108 ../control-center_.c:212
 msgid "Partition Sharing"
 msgstr ""
 
-#: ../control-center_.c:106 ../control-center_.c:213
+#: ../control-center_.c:109 ../control-center_.c:217
 msgid "Connection"
 msgstr "Nasc"
 
-#: ../control-center_.c:107 ../control-center_.c:215
+#: ../control-center_.c:110 ../control-center_.c:219
 msgid "Connection Sharing"
 msgstr ""
 
-#: ../control-center_.c:108 ../control-center_.c:214
+#: ../control-center_.c:111 ../control-center_.c:218
 msgid "Proxy Configuration"
 msgstr ""
 
-#: ../control-center_.c:109 ../control-center_.c:220
+#: ../control-center_.c:112 ../control-center_.c:224
 msgid "Security Level"
 msgstr "Leibhéil Slándáilach"
 
-#: ../control-center_.c:110 ../control-center_.c:233
+#: ../control-center_.c:113 ../control-center_.c:225
+msgid "Security Permissions"
+msgstr ""
+
+#: ../control-center_.c:114 ../control-center_.c:238
 msgid "Programs scheduling"
 msgstr ""
 
-#: ../control-center_.c:111 ../control-center_.c:221
+#: ../control-center_.c:115 ../control-center_.c:226
 msgid "Firewall"
 msgstr ""
 
-#: ../control-center_.c:112 ../control-center_.c:234
+#: ../control-center_.c:116 ../control-center_.c:239
 msgid "Backups"
 msgstr ""
 
-#: ../control-center_.c:113 ../control-center_.c:226
+#: ../control-center_.c:117 ../control-center_.c:231
 msgid "Menus"
 msgstr "Chlaranna"
 
-#: ../control-center_.c:114 ../control-center_.c:227
+#: ../control-center_.c:118 ../control-center_.c:232
 msgid "Services"
 msgstr "Seirbishí"
 
-#: ../control-center_.c:115 ../control-center_.c:228
+#: ../control-center_.c:119 ../control-center_.c:233
 msgid "Fonts"
 msgstr "Chlofhoireanna"
 
-#: ../control-center_.c:116 ../control-center_.c:229
+#: ../control-center_.c:120 ../control-center_.c:234
 msgid "Date & Time"
 msgstr "Data & Am"
 
-#: ../control-center_.c:117 ../control-center_.c:230 ../control-center_.c:393
+#: ../control-center_.c:121 ../control-center_.c:235 ../control-center_.c:410
 msgid "Logs"
 msgstr ""
 
-#: ../control-center_.c:120 ../control-center_.c:231
+#: ../control-center_.c:123 ../control-center_.c:236
 msgid "Console"
 msgstr "Consóil"
 
-#: ../control-center_.c:121 ../control-center_.c:241
+#: ../control-center_.c:125 ../control-center_.c:246
 #, fuzzy
 msgid "Install Software"
 msgstr "Uath-Feistiú"
 
-#: ../control-center_.c:122 ../control-center_.c:242
+#: ../control-center_.c:126 ../control-center_.c:247
 msgid "Remove Software"
 msgstr ""
 
-#: ../control-center_.c:123 ../control-center_.c:243
+#: ../control-center_.c:127 ../control-center_.c:248
 #, fuzzy
 msgid "Mandrake Update"
 msgstr "/Saineoli_Mandrake"
 
-#: ../control-center_.c:124 ../control-center_.c:244
+#: ../control-center_.c:128 ../control-center_.c:249
 #, fuzzy
 msgid "Software Sources Manager"
 msgstr "Bainisteóir Bóg-Earraí"
 
-#: ../control-center_.c:127 ../control-center_.c:174
+#: ../control-center_.c:131 ../control-center_.c:178
 msgid "TV Cards"
 msgstr ""
 
-#: ../control-center_.c:129 ../control-center_.c:143
+#: ../control-center_.c:133 ../control-center_.c:147
 msgid "DNS Client"
 msgstr ""
 
-#: ../control-center_.c:130 ../control-center_.c:144
+#: ../control-center_.c:134 ../control-center_.c:148
 msgid "DHCP"
 msgstr ""
 
-#: ../control-center_.c:131 ../control-center_.c:145
+#: ../control-center_.c:135 ../control-center_.c:149
 msgid "DNS"
 msgstr "DNS"
 
-#: ../control-center_.c:132 ../control-center_.c:146
-msgid "FTP"
-msgstr ""
-
-#: ../control-center_.c:133 ../control-center_.c:147
-#, fuzzy
-msgid "News"
-msgstr "nuacht"
-
-#: ../control-center_.c:134 ../control-center_.c:148
-msgid "Postfix"
-msgstr ""
-
-#: ../control-center_.c:135 ../control-center_.c:149
-msgid "Proxy"
-msgstr "Seach-freastáil"
-
 #: ../control-center_.c:136 ../control-center_.c:150
-msgid "Samba"
+msgid "FTP"
 msgstr ""
 
 #: ../control-center_.c:137 ../control-center_.c:151
 #, fuzzy
+msgid "News"
+msgstr "nuacht"
+
+#: ../control-center_.c:138 ../control-center_.c:152
+msgid "Postfix"
+msgstr ""
+
+#: ../control-center_.c:139 ../control-center_.c:153
+msgid "Proxy"
+msgstr "Seach-freastáil"
+
+#: ../control-center_.c:140 ../control-center_.c:154
+msgid "Samba"
+msgstr ""
+
+#: ../control-center_.c:141 ../control-center_.c:155
+#, fuzzy
 msgid "Server"
 msgstr "Seirbishí"
 
-#: ../control-center_.c:138 ../control-center_.c:152
+#: ../control-center_.c:142 ../control-center_.c:156
 msgid "Time"
 msgstr "Am"
 
-#: ../control-center_.c:139 ../control-center_.c:153
+#: ../control-center_.c:143 ../control-center_.c:157
 msgid "Web"
 msgstr ""
 
-#: ../control-center_.c:161
+#: ../control-center_.c:165
 msgid "Boot"
 msgstr "Bootáil"
 
-#: ../control-center_.c:168
+#: ../control-center_.c:172
 msgid "Hardware"
 msgstr "Crua-earraí"
 
-#: ../control-center_.c:181
+#: ../control-center_.c:185
 msgid "Mount Points"
 msgstr ""
 
-#: ../control-center_.c:198
+#: ../control-center_.c:202
 msgid "CD-ROM"
 msgstr "CD-ROM"
 
-#: ../control-center_.c:199
+#: ../control-center_.c:203
 msgid "DVD"
 msgstr ""
 
-#: ../control-center_.c:200
+#: ../control-center_.c:204
 msgid "CD Burner"
 msgstr ""
 
-#: ../control-center_.c:201
+#: ../control-center_.c:205
 msgid "Floppy"
 msgstr ""
 
-#: ../control-center_.c:202
+#: ../control-center_.c:206
 msgid "Zip"
 msgstr ""
 
-#: ../control-center_.c:211
+#: ../control-center_.c:215
 msgid "Network & Internet"
 msgstr "Idirlíon"
 
-#: ../control-center_.c:218
+#: ../control-center_.c:222
 msgid "Security"
 msgstr "Slándáil"
 
-#: ../control-center_.c:224
+#: ../control-center_.c:229
 msgid "System"
 msgstr "Coras"
 
-#: ../control-center_.c:239
+#: ../control-center_.c:244
 #, fuzzy
 msgid "Software Management"
 msgstr "Bainisteóir Bóg-Earraí"
 
-#: ../control-center_.c:248
+#: ../control-center_.c:253
 msgid "Server Configuration"
 msgstr ""
 
-#: ../control-center_.c:262
+#: ../control-center_.c:267
 #, c-format
 msgid "Mandrake Control Center %s"
 msgstr "Ionad Bainisteoireacht Mandrake %s"
 
-#: ../control-center_.c:323
+#: ../control-center_.c:334
 msgid "The modifications done in the current module won't be saved."
 msgstr ""
 
-#: ../control-center_.c:375
+#: ../control-center_.c:391
 #, fuzzy
 msgid "Please wait..."
 msgstr "Ag Lódail, fam tamall le do thoil ..."
 
-#: ../control-center_.c:465 ../control-center_.c:709 ../control-center_.c:733
+#: ../control-center_.c:481 ../control-center_.c:714 ../control-center_.c:738
 #, fuzzy
 msgid "-*-helvetica-medium-r-normal-*-20-*-100-100-p-*-iso8859-1,*-r-*"
 msgstr "-adobe-times-bold-r-normal--14-*-100-100-p-*-iso8859-*,*-r-*"
 
-#: ../control-center_.c:466
+#: ../control-center_.c:482
 #, fuzzy
 msgid "Welcome to the Mandrake Control Center"
 msgstr "Faoi Ionad Bainisteoireacht Mandrake"
 
-#: ../control-center_.c:467
+#: ../control-center_.c:483
 #, c-format
 msgid "cannot open this file for read: %s"
 msgstr ""
 
-#: ../control-center_.c:471
+#: ../control-center_.c:487
 msgid "System:"
 msgstr "Corás:"
 
-#: ../control-center_.c:472
+#: ../control-center_.c:488
 msgid "Hostname:"
 msgstr "Ostainm:"
 
-#: ../control-center_.c:473
+#: ../control-center_.c:489
 msgid "Kernel Version:"
 msgstr "Leagan Kernel:"
 
-#: ../control-center_.c:474
+#: ../control-center_.c:490
 msgid "Machine:"
 msgstr "Meaisín:"
 
-#: ../control-center_.c:585 ../control-center_.c:614 ../control-center_.c:628
+#: ../control-center_.c:589 ../control-center_.c:618 ../control-center_.c:632
 #, c-format
 msgid "cannot fork: %s"
 msgstr "Teip ag fork: %s"
 
-#: ../control-center_.c:686 ../control-center_.c:707 ../control-center_.c:729
+#: ../control-center_.c:691 ../control-center_.c:712 ../control-center_.c:734
 msgid "Close"
 msgstr "Dún"
 
-#: ../control-center_.c:705
+#: ../control-center_.c:710
 msgid "More themes"
 msgstr ""
 
-#: ../control-center_.c:711
+#: ../control-center_.c:716
 msgid "Getting new themes"
 msgstr ""
 
-#: ../control-center_.c:712
+#: ../control-center_.c:717
 msgid "Additional themes"
 msgstr ""
 
-#: ../control-center_.c:714
+#: ../control-center_.c:719
 msgid "Get additional themes on www.damz.net"
 msgstr ""
 
-#: ../control-center_.c:727
+#: ../control-center_.c:732
 msgid "About - Mandrake Control Center"
 msgstr "Faoi Ionad Bainisteoireacht Mandrake"
 
-#: ../control-center_.c:736
+#: ../control-center_.c:741
 #, fuzzy
 msgid "Author: "
 msgstr "Údáir: "
 
-#: ../control-center_.c:739
+#: ../control-center_.c:744
 #, fuzzy
 msgid "Artwork: "
 msgstr "Údáir: "
 
-#: ../control-center_.c:739
+#. -PO If your language allows it, use eacute for first "e" and egrave for 2nd.
+#: ../control-center_.c:746
 msgid "Helene Durosini"
 msgstr "Hélène Durosini"
 
-#: ../control-center_.c:750
+#: ../control-center_.c:757
 #, fuzzy, c-format
 msgid "Mandrake Control Center %s\n"
 msgstr "Ionad Bainisteoireacht Mandrake %s"
 
-#: ../control-center_.c:752
+#: ../control-center_.c:759
 #, fuzzy
 msgid "Copyright (C) 2001 Mandrakesoft SA"
 msgstr ""
@@ -407,90 +412,90 @@ msgstr ""
 "\n"
 " Cóipcheart © 2001 Mandrakesoft SA\n"
 
-#: ../control-center_.c:767
+#: ../control-center_.c:774
 msgid "Warning: No browser specified"
 msgstr ""
 
-#: ../control-center_.c:775
+#: ../control-center_.c:782
 msgid ""
 "Security Warning: I'm not allowed to connect to the internet as root user"
 msgstr ""
 
-#: ../control-center_.c:787
+#: ../control-center_.c:794
 msgid "/_File"
 msgstr "/C_omhad"
 
-#: ../control-center_.c:789
+#: ../control-center_.c:796
 msgid "/File"
 msgstr "/Comhad"
 
-#: ../control-center_.c:789
+#: ../control-center_.c:796
 msgid "/_Quit"
 msgstr "/_Ériggh"
 
-#: ../control-center_.c:790
+#: ../control-center_.c:797
 msgid "<control>Q"
 msgstr "<control>E"
 
-#: ../control-center_.c:792
+#: ../control-center_.c:799
 msgid "/_Options"
 msgstr "/_Roghanna"
 
-#: ../control-center_.c:794
+#: ../control-center_.c:801
 #, fuzzy
 msgid "/Display _Logs"
 msgstr "Taispeántas"
 
-#: ../control-center_.c:794 ../control-center_.c:799 ../control-center_.c:828
-#: ../control-center_.c:829
+#: ../control-center_.c:801 ../control-center_.c:806 ../control-center_.c:835
+#: ../control-center_.c:836
 #, fuzzy
 msgid "/Options"
 msgstr "/_Roghanna"
 
-#: ../control-center_.c:799
+#: ../control-center_.c:806
 msgid "/_Embedded Mode"
 msgstr ""
 
-#: ../control-center_.c:803 ../control-center_.c:816
+#: ../control-center_.c:810 ../control-center_.c:823
 msgid "/_Themes"
 msgstr ""
 
-#: ../control-center_.c:807
+#: ../control-center_.c:814
 msgid "/Themes"
 msgstr ""
 
-#: ../control-center_.c:811
+#: ../control-center_.c:818
 msgid ""
 "This action will restart the control center.\n"
 "Any change not applied will be lost."
 msgstr ""
 
-#: ../control-center_.c:816
+#: ../control-center_.c:823
 msgid "/_More themes"
 msgstr ""
 
-#: ../control-center_.c:819
+#: ../control-center_.c:826
 msgid "/_Help"
 msgstr "/C_úidiú"
 
-#: ../control-center_.c:821 ../control-center_.c:823
+#: ../control-center_.c:828 ../control-center_.c:830
 msgid "/Help"
 msgstr "/Cúidiú"
 
-#: ../control-center_.c:821
+#: ../control-center_.c:828
 msgid "/_Report Bug"
 msgstr "/_Tuairaisc Fabht"
 
-#: ../control-center_.c:823
+#: ../control-center_.c:830
 msgid "/_About..."
 msgstr "/_Faoi..."
 
-#: ../control-center_.c:828
+#: ../control-center_.c:835
 #, fuzzy
 msgid "/Display Logs"
 msgstr "Taispeántas"
 
-#: ../control-center_.c:829
+#: ../control-center_.c:836
 msgid "/Embedded Mode"
 msgstr ""
 
@@ -529,6 +534,9 @@ msgstr ""
 #: ../print_launcher.pl_.c:44
 msgid "Click here to configure the printing system"
 msgstr ""
+
+msgid "Display"
+msgstr "Taispeántas"
 
 msgid "DrakConf: error"
 msgstr "DrakConf: earraidh"
