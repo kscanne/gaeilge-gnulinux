@@ -286,9 +286,9 @@ msgid "no package named %s"
 msgstr "pacáiste ar bith den ainm %s"
 
 #: po/placeholder.h:57 urpm.pm:1016
-#, fuzzy, c-format
+#, c-format
 msgid "The following packages contain %s: %s"
-msgstr "Tá %s ins na pacáistí a leanas: %s \n"
+msgstr ""
 
 #: po/placeholder.h:58 urpm.pm:793
 #, c-format
@@ -584,9 +584,9 @@ msgid "Try installation without checking dependencies? (y/N) "
 msgstr ""
 
 #: po/placeholder.h:126 urpmi:269
-#, fuzzy, c-format
+#, c-format
 msgid "Please insert the medium named \"%s\" on device [%s]"
-msgstr "Led' thoil ionchur an %s ainmnithe %s"
+msgstr ""
 
 #: po/placeholder.h:127
 #, c-format
@@ -630,7 +630,7 @@ msgstr "ag feistiú %s\n"
 
 #: po/placeholder.h:154 urpmi:300 urpmi:314
 msgid "Installation failed"
-msgstr "Theip ar feistiú"
+msgstr "Theip ag feistiú"
 
 #: po/placeholder.h:155 urpmi:144
 msgid "Only superuser is allowed to install local packages"
