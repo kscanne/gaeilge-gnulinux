@@ -1,3 +1,17 @@
+gaeilge (20020720) unstable; urgency=low
+
+  * debian/rules: Now works without top-level Makefile (needed for 
+  	building from CVS).
+
+ -- Alastair McKinstry <mckinstry@computer.org>  Sat, 20 Jul 2002 17:56:05 +0200
+
+gaeilge (20020718) unstable; urgency=low
+
+  * gnome/gcompris: New file from gcompris-0.61.
+  * mandrake/drakconf.pot: Updated.
+
+ -- Alastair McKinstry <mckinstry@computer.org>  Thu, 18 Jul 2002 16:33:39 +0200
+
 gaeilge (20020603) unstable; urgency=low
 
   * gnome/gnome-games.pot: Updated. 
