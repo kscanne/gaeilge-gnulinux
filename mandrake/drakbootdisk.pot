@@ -34,31 +34,31 @@ msgstr "gan aithne"
 
 #: drakfloppy.c:353
 msgid "hide expert mode"
-msgstr ""
+msgstr "folaigh mód saineolaí"
 
 #: drakfloppy.c:361
 msgid "show expert mode"
-msgstr ""
+msgstr "taispeán mód saineolaí"
 
 #: drakfloppy.c:460
 msgid "Select a module or write his name:"
-msgstr ""
+msgstr "Tóg modúl nó scriíobh ainm seo:"
 
 #: drakfloppy.c:468
 msgid "Category"
-msgstr ""
+msgstr "Saghas"
 
 #: drakfloppy.c:477
 msgid "Module"
-msgstr ""
+msgstr "Modúl"
 
 #: drakfloppy.c:485
 msgid "preload module"
-msgstr ""
+msgstr "Reámhlódáil modúil"
 
 #: drakfloppy.c:514
 msgid "click on a category"
-msgstr ""
+msgstr "Tóg aicme seo"
 
 #: drakfloppy.c:573
 msgid "Remove"
@@ -70,7 +70,7 @@ msgstr "drakfloppy"
 
 #: drakfloppy.c:635
 msgid "Tool for boot disk creation"
-msgstr ""
+msgstr "Uirlis do deanamh doisca tosnú"
 
 #: drakfloppy.c:641
 msgid "device"
@@ -82,35 +82,35 @@ msgstr "leagan `kernel'"
 
 #: drakfloppy.c:649
 msgid "experts only"
-msgstr ""
+msgstr "saineolaí amhain"
 
 #: drakfloppy.c:657 drakfloppy.c:661
 msgid "default"
-msgstr ""
+msgstr "lociead"
 
 #: drakfloppy.c:671
 msgid "Show expert mode"
-msgstr ""
+msgstr "Taispeán mód saineolaí"
 
 #: drakfloppy.c:678
 msgid "force"
-msgstr ""
+msgstr "forsáil"
 
 #: drakfloppy.c:680
 msgid "if needed"
-msgstr ""
+msgstr "dá riachtainis"
 
 #: drakfloppy.c:684
 msgid "omit scsi modules"
-msgstr ""
+msgstr "Fág amach na modúilí scsi"
 
 #: drakfloppy.c:686
 msgid "omit raid modules"
-msgstr ""
+msgstr "Fág amach na modúilí raid"
 
 #: drakfloppy.c:688
 msgid "modules"
-msgstr ""
+msgstr "modúlanna"
 
 #: drakfloppy.c:694
 msgid "Add"

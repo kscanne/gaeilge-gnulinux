@@ -10,7 +10,7 @@ msgstr ""
 "Last-Translator: Proinnsias Breathnach <breatpro@dublin.ml.com>\n"
 "Language-Team: Gaeilge <ga@li.org>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=iso-8859-1\n"
+"Content-Type: text/plain; charset=ISO_8859-1\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 #: gsu.c:36
@@ -24,7 +24,7 @@ msgstr "Pasfhocal míceart"
 
 #: gsu.c:74 gsu.c:100
 msgid "Ok"
-msgstr "Ok"
+msgstr "Ceart go Leor"
 
 #: gsu.c:90
 msgid ""

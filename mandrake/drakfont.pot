@@ -4,20 +4,20 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: drakfont VERSION\n"
-"POT-Creation-Date: 2000-09-01 19:57+0200\n"
+"Project-Id-Version: drakfont 0.52\n"
+"POT-Creation-Date: 2001-09-20 15:58+0200\n"
 "PO-Revision-Date: 2000-09-05 19:00-0000\n"
-"Last-Translator: Alastair McKinstry <alastairmck@sourceforge.net>\n"
+"Last-Translator: Alastair McKinstry <alastairmck@users.sourceforge.net>\n"
 "Language-Team: Irish <ga@li.org>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=ISO_8859-1\n"
-"Content-Transfer-Encoding: 8-bit\n"
+"Content-Type: text/plain; charset=ISO-8859-1\n"
+"Content-Transfer-Encoding: 8bit\n"
 
-#: drakfont.c:270 drakfont.c:273 drakfont.c:276
+#: drakfont.c:298 drakfont.c:301 drakfont.c:304
 msgid " Error "
 msgstr " Earraidh "
 
-#: drakfont.c:326
+#: drakfont.c:355
 #, c-format
 msgid ""
 "I have to create the directory '%s'.\n"
@@ -25,16 +25,16 @@ msgid ""
 "(See Help for details)"
 msgstr ""
 
-#: drakfont.c:328
+#: drakfont.c:357
 msgid "Please Confirm"
 msgstr ""
 
-#: drakfont.c:336
+#: drakfont.c:365
 #, c-format
 msgid "Error while creating the directory '%s'"
-msgstr ""
+msgstr "Earráidh ag cruthaigh an comhadlann '%s'"
 
-#: drakfont.c:359
+#: drakfont.c:388
 #, c-format
 msgid ""
 "Error while executing '%s'\n"
@@ -43,7 +43,7 @@ msgstr ""
 "Earraidh ag rith '%s'\n"
 "Ordú:'%s'"
 
-#: drakfont.c:399
+#: drakfont.c:436 drakfont.c:461
 #, c-format
 msgid ""
 "Building of fonts.dir returned an error.\n"
@@ -51,26 +51,26 @@ msgid ""
 "Command:'%s'"
 msgstr ""
 
-#: drakfont.c:462 drakfont.c:570 drakfont.c:837 drakfont.c:1003
+#: drakfont.c:525 drakfont.c:633 drakfont.c:900 drakfont.c:1075
 msgid "Cancel"
 msgstr "Cealaigh"
 
-#: drakfont.c:491
+#: drakfont.c:554
 msgid "Do you really want to remove these fonts?\n"
 msgstr ""
 
-#: drakfont.c:492 drakfont.c:1512
+#: drakfont.c:555 drakfont.c:1601
 msgid "Remove fonts"
 msgstr "Scríos chlófhoireanna"
 
-#: drakfont.c:514
+#: drakfont.c:577
 #, c-format
 msgid ""
 "Error while removing the fonts from '%s'\n"
 "Command:'%s'"
 msgstr ""
 
-#: drakfont.c:562
+#: drakfont.c:625
 msgid ""
 "Before installing any fonts, be sure that you have the right to use and "
 "install them on your system.\n"
@@ -84,95 +84,95 @@ msgid ""
 "mode."
 msgstr ""
 
-#: drakfont.c:566
+#: drakfont.c:629
 msgid "Normal"
 msgstr "Gnáth"
 
-#: drakfont.c:568
+#: drakfont.c:631
 msgid "Strong verification"
 msgstr ""
 
-#: drakfont.c:589
+#: drakfont.c:652
 msgid "Installing fonts..."
 msgstr ""
 
-#: drakfont.c:601
+#: drakfont.c:664
 msgid "Installation aborted"
 msgstr ""
 
-#: drakfont.c:776 drakfont.c:1359 drakfont.c:1387
+#: drakfont.c:839 drakfont.c:1432 drakfont.c:1460
 #, c-format
 msgid "Error while opening '%s' "
 msgstr "Earraidh ag oscailt '%s' "
 
-#: drakfont.c:783 drakfont.c:1366 drakfont.c:1395
+#: drakfont.c:846 drakfont.c:1439 drakfont.c:1468
 #, c-format
 msgid "There is no font in the directory '%s' "
-msgstr "Níl aon chlófhoireann amhain san fillteán '%s' "
+msgstr "Níl aon chlófhoireann amhain san comhadlann '%s' "
 
-#: drakfont.c:813
+#: drakfont.c:876
 msgid "Fonts directories you can select:"
 msgstr ""
 
-#: drakfont.c:834 drakfont.c:881
+#: drakfont.c:897 drakfont.c:944 drakfont.c:1611
 msgid "OK"
 msgstr "Ceart go Leor"
 
-#: drakfont.c:865
+#: drakfont.c:928
 msgid "Error"
 msgstr "Earraidh"
 
-#: drakfont.c:875
+#: drakfont.c:938
 msgid "You can still go to see other fonts...\n"
 msgstr ""
 
-#: drakfont.c:884 drakfont.c:984
+#: drakfont.c:947 drakfont.c:1056
 msgid "Other Fonts"
 msgstr "Clófhoreann Eile"
 
-#: drakfont.c:923
+#: drakfont.c:987
 msgid "not available"
 msgstr ""
 
-#: drakfont.c:926
+#: drakfont.c:990
 msgid "Windows Fonts"
-msgstr "Chlófhoirrean Fhuinneoga"
+msgstr "Chlófhoirean Fhuinneoga"
 
-#: drakfont.c:928
+#: drakfont.c:992
 msgid "Fonts"
 msgstr "Clófhoireann"
 
-#: drakfont.c:935
+#: drakfont.c:999
 msgid ""
 "DrakFont found Windows.\n"
 "Here are the fonts that you can install:"
 msgstr ""
 
-#: drakfont.c:937
+#: drakfont.c:1001
 msgid ""
 "DrakFont found Windows but no fonts.\n"
 "DrakFont probably misfunctionned.\n"
 msgstr ""
 
-#: drakfont.c:941
+#: drakfont.c:1005
 #, c-format
 msgid ""
 "Fonts list\n"
 "Directory: %s"
 msgstr ""
 "Liosta Chlófhoireanna\n"
-"Fillteán: %s"
+"Comhadlann: %s"
 
-#: drakfont.c:943
+#: drakfont.c:1007
 #, c-format
 msgid ""
-"There is no fonts\n"
+"There are no fonts\n"
 "Directory: %s"
 msgstr ""
 "Níl aon chlófhoireanna ann\n"
-"Fillteán: %s"
+"Comhadlann: %s"
 
-#: drakfont.c:949
+#: drakfont.c:1013
 msgid ""
 "DrakFont didn't find Windows fonts \n"
 "There are some reasons for that:\n"
@@ -182,99 +182,133 @@ msgid ""
 "Fonts' button"
 msgstr ""
 
-#: drakfont.c:970
+#: drakfont.c:1034
 msgid "Font Name"
 msgstr "Ainm Chlófhoireann"
 
-#: drakfont.c:975
+#: drakfont.c:1039
 msgid "Font Type"
 msgstr "Saghas Chlófhoireann"
 
-#: drakfont.c:992
+#: drakfont.c:1046
+msgid "Install all fonts as unicode"
+msgstr ""
+
+#: drakfont.c:1064
 msgid "Install all"
 msgstr "Feistigh gach rud"
 
-#: drakfont.c:994
+#: drakfont.c:1066
 msgid "Remove all"
 msgstr "Scríos gach rud"
 
-#: drakfont.c:998
+#: drakfont.c:1070
 msgid "Install selected fonts"
 msgstr ""
 
-#: drakfont.c:1000
+#: drakfont.c:1072
 msgid "Remove selected fonts"
 msgstr ""
 
-#: drakfont.c:1253
+#: drakfont.c:1326
 msgid "Error while opening /etc/mtab"
-msgstr ""
+msgstr "Teip ag oscailt /etc/mtab"
 
-#: drakfont.c:1292 drakfont.c:1314
+#: drakfont.c:1365 drakfont.c:1387
 msgid "Error while opening /etc/fstab"
-msgstr ""
+msgstr "Teip ag oscailt /etc/fstab"
 
-#: drakfont.c:1307
+#: drakfont.c:1380
 msgid "Memory allocation error"
 msgstr "Earraidh cuimhne"
 
-#: drakfont.c:1414
+#: drakfont.c:1487
 msgid "Select directory"
-msgstr "Tóg fillteán"
+msgstr "Tóg comhadlann"
 
-#: drakfont.c:1509
+#. Note to translators:
+#. * Don't translate it "word as word", use a sentence which contains
+#. * most glyphes of your language instead.
+#. * Have a look in the KDE control center->LookNFeel->Font->Choose
+#. * to get an idea...
+#.
+#: drakfont.c:1591
+msgid "The quick brown fox jumps over the lazy dog."
+msgstr ""
+
+#: drakfont.c:1598
 msgid "Add fonts"
-msgstr "Suimigh Chloófhoireann"
+msgstr "Suimigh Chlófhoireann"
 
-#: drakfont.c:1515
+#. i18n : please, keep the following label short!
+#: drakfont.c:1605
 msgid "Get Windows fonts"
-msgstr ""
+msgstr "Faigh clófhoireann fhunneoga"
 
-#: drakfont.c:1518
+#: drakfont.c:1609
 msgid "Quit"
-msgstr "Ealu"
+msgstr "Éirigh"
 
-#: drakfont.c:1556 drakfont.c:1583 drakfont.c:1593
+#: drakfont.c:1655 drakfont.c:1683 drakfont.c:1694 drakfont.c:1704
 msgid "You need to be root\n"
+msgstr "Caithfidh tú bheith mar root leis an clár seo a rith.\n"
+
+#: drakfont.c:1680
+msgid ""
+"You have launched drakfont in kill mode.\n"
+"It removes the drakfont directories of the xfs configuration file, and "
+"erases the fonts.\n"
 msgstr ""
 
-#: drakfont.c:1582
+#: drakfont.c:1691
 msgid ""
-"You are launching drakfont in rescue mode.\n"
-"It will remove all bogus fonts but unfortunally some good fonts too.\n"
+"You have launched drakfont in rescue mode.\n"
+"It removes all bogus fonts but unfortunally some good fonts too.\n"
 "You will have to re-add these fonts.\n"
 msgstr ""
 
-#: drakfont.c:1602
+#: drakfont.c:1713
 msgid ""
 "Font configuration has been checked.\n"
 "You can restart drakfont under X.\n"
 "If X or xfs don't want to start, use drakfont -r"
 msgstr ""
 
-#: drakfont.c:1626
+#: drakfont.c:1735
 msgid "TrueType fonts manager. Still in early stage.\n"
 msgstr ""
 
-#: drakfont.c:1627
+#: drakfont.c:1736
 msgid "  -p, --pos                  launch at specified position x, y\n"
 msgstr ""
 
-#: drakfont.c:1628
+#: drakfont.c:1737
 msgid "  -c, --check                check fonts locations\n"
 msgstr ""
 
-#: drakfont.c:1629
+#: drakfont.c:1738
+msgid ""
+"  -r, --rescue               rescue mode: rebuild font description files "
+"with strong verification\n"
+msgstr ""
+
+#: drakfont.c:1739
+msgid ""
+"  -k, --kill                 kill mode: remove the fonts installed with "
+"drakfont and clean the xfs configuration\n"
+msgstr ""
+
+#: drakfont.c:1740
 msgid ""
 "Report any bug at damien@mandrakesoft.com\n"
 "\n"
 msgstr ""
 
-#: drakfont.c:1642
+#: drakfont.c:1760
 #, c-format
 msgid "drakfont: invalide option -- %s\n"
 msgstr "drakfont: rogha mícheart --%s\n"
 
-#: drakfont.c:1643
+#: drakfont.c:1761
 msgid "Try `drakfont --help' for more information.\n"
 msgstr ""

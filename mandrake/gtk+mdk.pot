@@ -1,7 +1,11 @@
+# ga.po file for the gtk+mdk package.
+# Copyright (C) 2000 Free Software Foundation, Inc.
+# Alastair McKinstry <mckinstry@computer.org>, 2000
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: gtk+mdk 1.0.0\n"
-"POT-Creation-Date: 2000-05-19 17:13+0200\n"
+"Project-Id-Version: gtk+mdk 0.1.5\n"
+"POT-Creation-Date: 2002-03-07 16:48+0100\n"
 "PO-Revision-Date: 2000-05-10 17:41+0200\n"
 "Last-Translator: Alastair McKinstry <mckinstry@computer.org>\n"
 "Language-Team: Irish <ga@li.org>\n"
@@ -9,120 +13,300 @@ msgstr ""
 "Content-Type: text/plain; charset=iso-8859-1\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+#. quitting KDE
+#: placeholder.h:18
+msgid "Logout"
+msgstr ""
+
+#. quitting KDE
+#: placeholder.h:20
+msgid "Halt"
+msgstr ""
+
+#. quitting KDE
+#: placeholder.h:22
+msgid "Reboot"
+msgstr ""
+
+#. Samba sharing
+#: placeholder.h:24
+msgid "Share"
+msgstr ""
+
+#. Samba sharing
+#: placeholder.h:26
+msgid "Only directories in your Home can be shared."
+msgstr ""
+
+#. Samba sharing
+#: placeholder.h:28
+msgid "Not shared"
+msgstr ""
+
+#. Samba sharing
+#: placeholder.h:30
+msgid "Shared"
+msgstr ""
+
+#. Samba sharing
+#: placeholder.h:32
+msgid ""
+"Sharing this directory makes it available under\n"
+"Linux/Unix (NFS) and Windows (Samba)"
+msgstr ""
+
+#. Samba sharing
+#: placeholder.h:35
+msgid ""
+"Error running `filesharelist'. Check if installed and in\n"
+"$PATH or /usr/sbin."
+msgstr ""
+
+#. Samba sharing
+#: placeholder.h:38
+msgid "You need to be authorized to share directories"
+msgstr ""
+
+#. Samba sharing
+#: placeholder.h:40
+msgid "Configure File Sharing"
+msgstr ""
+
+#. Samba sharing
+#: placeholder.h:42
+msgid "You can also reconfigure file sharing authorisation"
+msgstr ""
+
+#. Nautilus desktop
+#: placeholder.h:44
+msgid "Recreate Default Icons"
+msgstr ""
+
+#: gtkmdk/gtkaboutdialog.c:127
+msgid "OK"
+msgstr "Ceart go Leor"
+
+#: gtkmdk/gtkdirselect.c:123
 msgid " ... "
 msgstr " ... "
 
-msgid " Cancel "
-msgstr " Cealaigh "
-
+#: gtkmdk/gtkhelpbutton.c:94 gtkmdk/gtkmdkbutton.c:380
 msgid " Help "
-msgstr " Cabhair "
+msgstr " Cúidiú "
 
-msgid " No "
-msgstr " Níl "
-
-msgid " OK "
-msgstr " Ceart go Leor "
-
-msgid " Yes "
-msgstr " Tá "
-
-msgid "Answer"
-msgstr "Freagra"
-
-msgid "Blue"
-msgstr "Gorm"
-
+#. The Close Button
+#: gtkmdk/gtkhelpbutton.c:195 gtkmdk/testgtkmdk.c:711
 msgid "Close"
 msgstr "Dún"
 
-msgid "Color"
-msgstr "Dath"
-
-msgid "File selector"
-msgstr "Roghnoir comhad"
-
-msgid "Green"
-msgstr "Glas"
-
-msgid "New value for directory: %s\n"
-msgstr "Luach nua do fillteán: %s\n"
-
-msgid "Red"
-msgstr "Dearg"
-
-msgid "Select new directory"
-msgstr "Tóg fillteán nua"
-
-msgid "Temp Dir: "
-msgstr "Fillteán Sealadach: "
-
-msgid "Test Ask Dialog"
-msgstr ""
-
-msgid "Test Bang Dialog"
-msgstr ""
-
-msgid "Test Modal Dialog"
-msgstr ""
-
-msgid "Test Stop Dialog"
-msgstr ""
-
+#: gtkmdk/gtkhelpbutton.c:243
 msgid "The help file was not found\n"
 msgstr ""
 
+#. The 'OK' Button
+#: gtkmdk/gtkmdkbutton.c:324 gtkmdk/gtkmdkdialog.c:265
+#: gtkmdk/gtkmdkdialog.c:277 gtkmdk/gtkmdkfilesel.c:199
+msgid " OK "
+msgstr " Ceart go Leor "
+
+#. The 'Cancel' Button
+#: gtkmdk/gtkmdkbutton.c:338 gtkmdk/gtkmdkdialog.c:286
+#: gtkmdk/gtkmdkfilesel.c:204
+msgid " Cancel "
+msgstr " Cealaigh "
+
+#: gtkmdk/gtkmdkbutton.c:352
+msgid " Back "
+msgstr " Ríomh "
+
+#: gtkmdk/gtkmdkbutton.c:366
+msgid " Next "
+msgstr " Eile "
+
+#: gtkmdk/gtkmdkdialog.c:297
+msgid " Yes "
+msgstr " Tá "
+
+#: gtkmdk/gtkmdkdialog.c:306
+msgid " No "
+msgstr " Níl "
+
+#: gtkmdk/gtkmdkfilesel.c:175
+msgid "Name"
+msgstr "Ainm"
+
+#: gtkmdk/gtkmdkfilesel.c:175
+msgid "Size"
+msgstr "Méid"
+
+#: gtkmdk/testgtkmdk.c:338
+#, c-format
+msgid "New value for directory: %s\n"
+msgstr "Luach nua do eolairie: %s\n"
+
+#: gtkmdk/testgtkmdk.c:352
+msgid "Temp Dir: "
+msgstr "Comhadlann Sealadach: "
+
+#: gtkmdk/testgtkmdk.c:352
+msgid "Select new directory"
+msgstr "Tóg comhadlann nua"
+
+#: gtkmdk/testgtkmdk.c:385
+msgid "Test Ask Dialog"
+msgstr ""
+
+#: gtkmdk/testgtkmdk.c:386
 msgid ""
 "This a test\n"
 "for the ask dialog"
 msgstr ""
 
+#: gtkmdk/testgtkmdk.c:401
+msgid "Test Bang Dialog"
+msgstr ""
+
+#: gtkmdk/testgtkmdk.c:402
 msgid ""
 "This a test\n"
 "for the bang dialog"
 msgstr ""
 
+#: gtkmdk/testgtkmdk.c:417
+msgid "Test Stop Dialog"
+msgstr ""
+
+#: gtkmdk/testgtkmdk.c:418
 msgid ""
 "This a test\n"
 "for the stop dialog"
 msgstr ""
 
+#: gtkmdk/testgtkmdk.c:432
+msgid "Test Modal Dialog"
+msgstr ""
 
+#: gtkmdk/testgtkmdk.c:433
 msgid ""
 "This dialog should\n"
 "be modal"
 msgstr ""
 
+#: gtkmdk/testgtkmdk.c:436
+msgid "Answer"
+msgstr "Freagra"
+
+#: gtkmdk/testgtkmdk.c:438
 msgid ""
 "You've pressed\n"
 "the \"No\" Button"
 msgstr ""
 
+#: gtkmdk/testgtkmdk.c:439
 msgid ""
 "You've pressed\n"
 "the \"Yes\" Button"
 msgstr ""
 
-msgid "about dialog"
+#: gtkmdk/testgtkmdk.c:457
+msgid "Color"
+msgstr "Dath"
+
+#: gtkmdk/testgtkmdk.c:458
+msgid "Red"
+msgstr "Dearg"
+
+#: gtkmdk/testgtkmdk.c:459
+msgid "Green"
+msgstr "Glas"
+
+#: gtkmdk/testgtkmdk.c:460
+msgid "Blue"
+msgstr "Gorm"
+
+#: gtkmdk/testgtkmdk.c:564
+msgid ""
+"Text for\n"
+"icon 1"
 msgstr ""
 
-msgid "ask dialog"
+#: gtkmdk/testgtkmdk.c:565
+msgid "tooltip"
+msgstr "leathfhocail"
+
+#: gtkmdk/testgtkmdk.c:578
+#, c-format
+msgid "Page %d"
+msgstr "Leathanach %d"
+
+#: gtkmdk/testgtkmdk.c:594
+msgid "Software Installer"
 msgstr ""
 
-msgid "bang dialog"
+#: gtkmdk/testgtkmdk.c:595
+msgid "Page 0"
+msgstr "Leathanach 0"
+
+#: gtkmdk/testgtkmdk.c:598
+msgid "General information about installing an rpm..."
 msgstr ""
 
+#: gtkmdk/testgtkmdk.c:602
+msgid "Second stage..."
+msgstr ""
+
+#: gtkmdk/testgtkmdk.c:616
+msgid "Please Wait"
+msgstr "Fan tamall, le do thoil"
+
+#: gtkmdk/testgtkmdk.c:636
 msgid "directory selector"
 msgstr ""
 
-msgid "framed combo"
+#: gtkmdk/testgtkmdk.c:637
+msgid "help button"
+msgstr "cnaipe 'cúidiú'"
+
+#: gtkmdk/testgtkmdk.c:638
+msgid "ask dialog"
 msgstr ""
 
-msgid "help button"
-msgstr "cnaipe 'cabhair'"
+#: gtkmdk/testgtkmdk.c:639
+msgid "bang dialog"
+msgstr ""
 
+#: gtkmdk/testgtkmdk.c:640
+msgid "stop dialog"
+msgstr ""
+
+#: gtkmdk/testgtkmdk.c:641
 msgid "modal dialog"
 msgstr ""
 
-msgid "stop dialog"
+#: gtkmdk/testgtkmdk.c:642
+msgid "framed combo"
+msgstr ""
+
+#: gtkmdk/testgtkmdk.c:643
+msgid "about dialog"
+msgstr ""
+
+#: gtkmdk/testgtkmdk.c:644
+msgid "File selector"
+msgstr "Roghnoir comhad"
+
+#: gtkmdk/testgtkmdk.c:645
+msgid "Mdk Buttons"
+msgstr "Cnaipí Mdk"
+
+#: gtkmdk/testgtkmdk.c:646
+msgid "Mdk Toolbar"
+msgstr ""
+
+#: gtkmdk/testgtkmdk.c:647
+msgid "Wizard"
+msgstr "Draíodóir"
+
+#: gtkmdk/testgtkmdk.c:648
+msgid "Progress"
 msgstr ""

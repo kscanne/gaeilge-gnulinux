@@ -6,7 +6,7 @@ msgstr ""
 "Last-Translator: Proinnsis Breathnach <breatpro@dublin.ml.com>\n"
 "Language-Team: ga\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=iso-8859-14\n"
+"Content-Type: text/plain; charset=iso-8859-15\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 

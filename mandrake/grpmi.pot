@@ -1,22 +1,22 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR Free Software Foundation, Inc.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# Irish translations for grpmi
+# Copyright (C) 2000 Free Software Foundation, Inc.
+#   Alastair McKinstry, <mckinstry@computer.org>, 2000
 #
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: grpmi VERSION\n"
 "POT-Creation-Date: 2000-09-05 14:43+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2000-09-10 19:14+0000\n"
+"Last-Translator: Alastair McKinstry <mckinstry@computer.org>\n"
+"Language-Team: Irish <ga@li.org>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
-"Content-Transfer-Encoding: ENCODING\n"
+"Content-Type: text/plain; charset=ISO_8859-1\n"
+"Content-Transfer-Encoding: 8-bit\n"
 
 #: grpmi.c:213
+#,fuzzy
 msgid "Installing/Upgrading Progress"
-msgstr ""
+msgstr "Feistiú/Úasgrádú"
 
 #: grpmi.c:233 grpmi.c:335
 msgid "Fetching:"
@@ -24,12 +24,12 @@ msgstr ""
 
 #: grpmi.c:239 grpmi.c:416
 msgid "Installing:"
-msgstr ""
+msgstr "Ag Feistiú:"
 
 #. Cancel button
 #: grpmi.c:250
 msgid "Cancel"
-msgstr ""
+msgstr "Cealaigh"
 
 #: grpmi.c:295
 #, c-format
@@ -47,7 +47,7 @@ msgstr ""
 
 #: grpmi.c:345 grpmi.c:375 grpmi.c:477 grpmi.c:483 grpmi.c:486
 msgid "Skip"
-msgstr ""
+msgstr "Scipeáil"
 
 #: grpmi.c:450
 msgid "Preparing for install"
@@ -55,11 +55,11 @@ msgstr ""
 
 #: grpmi.c:477
 msgid "Can't open package"
-msgstr ""
+msgstr "Teip ag oscailt pacáiste"
 
 #: grpmi.c:483
 msgid "Package is corrupted"
-msgstr ""
+msgstr "Tá an pacáiste lofa"
 
 #: grpmi.c:486
 msgid "Package can't be installed"
@@ -71,24 +71,25 @@ msgstr ""
 
 #: grpmi.c:505 grpmi.c:512 grpmi.c:523
 msgid "Quit"
-msgstr ""
+msgstr "Éirigh"
 
 #: grpmi.c:512
 msgid "Force"
-msgstr ""
+msgstr "Fórsáil"
 
 #: grpmi.c:513 grpmi.c:536
 msgid "Error..."
-msgstr ""
+msgstr "Earráidh..."
 
 #: grpmi.c:530
 msgid "Ok"
-msgstr ""
+msgstr "Ceart go Leor"
 
 #: grpmi.c:567
 msgid "grpmi error: you must be superuser!\n"
-msgstr ""
+msgstr "Earráidh grpmi: Is éigin forúsáideoir duit!\n"
 
 #: grpmi.c:583
+#,fuzzy
 msgid "usage: grpmi <[-noupgrade] rpms>\n"
-msgstr ""
+msgstr "úsáid: grpmi <[noupgrade] pacáistí\n"

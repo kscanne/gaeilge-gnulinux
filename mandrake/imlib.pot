@@ -23,27 +23,27 @@ msgstr ""
 
 #: utils/imlib_config.c:964
 msgid "Red Levels"
-msgstr ""
+msgstr "Ceím Dearg"
 
 #: utils/imlib_config.c:980
 msgid "Green Levels"
-msgstr ""
+msgstr "Céim Glas"
 
 #: utils/imlib_config.c:996
 msgid "Blue Levels"
-msgstr ""
+msgstr "Céim Gorm"
 
 #: utils/imlib_config.c:1038
 msgid "Small colour set"
-msgstr ""
+msgstr "Tacar dath bheag"
 
 #: utils/imlib_config.c:1043
 msgid "Medium colour set"
-msgstr ""
+msgstr "Tacar dath gnáth"
 
 #: utils/imlib_config.c:1048
 msgid "Large colour set"
-msgstr ""
+msgstr "Tacar dath mhór"
 
 #: utils/imlib_config.c:1057
 msgid "Select Palette File"
@@ -107,7 +107,7 @@ msgstr "Tóg Paleid"
 
 #: utils/imlib_config.c:1527
 msgid "Force Palette"
-msgstr ""
+msgstr "Fórsáil Paléid"
 
 #: utils/imlib_config.c:1528
 msgid "Dither in Palette Mode"
@@ -135,19 +135,19 @@ msgstr "512 kb"
 
 #: utils/imlib_config.c:1535
 msgid "1   Mb"
-msgstr ""
+msgstr "1 Mb"
 
 #: utils/imlib_config.c:1536
 msgid "2   Mb"
-msgstr ""
+msgstr "2  Mb"
 
 #: utils/imlib_config.c:1537
 msgid "3   Mb"
-msgstr ""
+msgstr "3 Mb"
 
 #: utils/imlib_config.c:1538
 msgid "4   Mb"
-msgstr ""
+msgstr "4 Mb"
 
 #: utils/imlib_config.c:1539
 msgid "Use Ordered Dithering (Faster)"
@@ -171,7 +171,7 @@ msgstr ""
 
 #: utils/imlib_config.c:1544
 msgid "Image Cache (bytes)"
-msgstr ""
+msgstr "Taisce Iomha (beartaí)"
 
 #: utils/imlib_config.c:1547
 msgid "1 Mb"
@@ -195,7 +195,7 @@ msgstr "10 Mb"
 
 #: utils/imlib_config.c:1552
 msgid "Pixmap Cache (bits)"
-msgstr ""
+msgstr "Taisce Pixmap (giotáin)"
 
 #: utils/imlib_config.c:1554
 msgid "5120 Kbits"

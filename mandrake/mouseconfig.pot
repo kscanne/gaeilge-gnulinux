@@ -1,13 +1,14 @@
 # Leagan Gaeilge de mouseconfig.po.
 # Copyright (C) 2000 Free Software Foundation, Inc.
-# Proinnsias Breathnach <breatpro@dublin.ml.com>, 2000.
+#   Proinnsias Breathnach <breatpro@dublin.ml.com>, 2000.
+#  Alastair McKinstry, <mckinstry@computer.org>, 2000.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: mouseconfig 0.1\n"
-"POT-Creation-Date: 1999-12-17 13:30+0100\n"
-"PO-Revision-Date: 2000-04-06 11:35+0100\n"
-"Last-Translator: Proinnsias Breathnach <breatpro@dublin.ml.com>\n"
+"POT-Creation-Date: 2000-09-09 03:00+0200\n"
+"PO-Revision-Date: 2000-00-11 11:35+0100\n"
+"Last-Translator: Alastair McKinstry <mckinstry@computer.org>\n"
 "Language-Team: Gaeilge <ga@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=iso-8859-1\n"
@@ -27,7 +28,7 @@ msgstr "MieMouse PS/2"
 
 #: src/mouseconfig.c:49 src/mouseconfig.c:61
 msgid "Bus Mouse"
-msgstr "Bus Mouse"
+msgstr "Luchóg Bus"
 
 #: src/mouseconfig.c:50 src/mouseconfig.c:51 src/mouseconfig.c:52
 msgid "generic"
@@ -35,11 +36,11 @@ msgstr "gnáth"
 
 #: src/mouseconfig.c:50 src/mouseconfig.c:71
 msgid "Serial"
-msgstr "Serial"
+msgstr "Srathach"
 
 #: src/mouseconfig.c:51
 msgid "3 Buttons Serial"
-msgstr "Serial 3 Cnaipe"
+msgstr "Srathach, 3 Cnaipe"
 
 #: src/mouseconfig.c:52
 msgid "PS/2"
@@ -51,7 +52,7 @@ msgstr "PS/2, 3 Cnaipe"
 
 #: src/mouseconfig.c:54
 msgid "NetMouse Serial"
-msgstr "NetMouse Serial"
+msgstr "NetMouse Srathach"
 
 #: src/mouseconfig.c:55
 msgid "NetMouse PS/2"
@@ -103,7 +104,7 @@ msgstr "Serial de leagan 2.1A nó níos airde"
 
 #: src/mouseconfig.c:68
 msgid "IntelliMouse Serial"
-msgstr "IntelliMouse Serial"
+msgstr "IntelliMouse Srathach"
 
 #: src/mouseconfig.c:69
 msgid "IntelliMouse PS/2"
@@ -115,19 +116,19 @@ msgstr "BusMouse"
 
 #: src/mouseconfig.c:72
 msgid "Series Serial"
-msgstr "Series Serial"
+msgstr "Series Srathach"
 
 #: src/mouseconfig.c:73
 msgid "HitTablet Serial"
-msgstr "HitTablet Serial"
+msgstr "HitTablet Srathach"
 
 #: src/mouseconfig.c:109
 msgid "You must be root to run this software.\n"
 msgstr "Caithfidh tú bheith mar root leis an clár seo a rith.\n"
 
 #: src/mouseconfig.c:126
-msgid "Lothar MouseConfig 0.1"
-msgstr "MouseConfig Lothar 0.1"
+msgid "MouseConfig 0.1"
+msgstr "MouseConfig 0.1"
 
 #: src/mouseconfig.c:156
 msgid "Exit"
@@ -137,9 +138,9 @@ msgstr "Éalaigh"
 msgid "OK"
 msgstr "OK"
 
-#. ****************************************************************************
-#. *****************************MOUSE LIST*************************************
-#. ****************************************************************************
+#. ********************************************************************
+#. ***************************MOUSE LIST*******************************
+#. ********************************************************************
 #: src/mouseconfig.c:182
 msgid "Select a mouse"
 msgstr "Roghnaigh Luchóg"
@@ -147,21 +148,20 @@ msgstr "Roghnaigh Luchóg"
 #. file format is pretty static, if you change then
 #. this program wont read it right.
 #: src/mouseconfig.c:313
-msgid "# THIS FILE IS WRITTEN BY LOTHAR MOUSECONFIG\n"
-msgstr "# TÁ AN COMHAD SEO SCRÍOFA AG MOUSECONFIG LOTHAR\n"
+msgid "# THIS FILE IS WRITTEN BY MouseDrake\n"
+msgstr "# Tá an comhad seo scrÍofa MouseDrake\n"
 
 #: src/mouseconfig.c:314
-msgid "# PLEASE USE LOTHAR MOUSECONFIG TO MODIFY\n"
-msgstr "# BAIN ÚSÁID AS MOUSECONFIG LOTHAR LENA ATHRÚ\n"
+msgid "# PLEASE USE MouseDrake TO MODIFY IT!\n"
+msgstr "# BAIN ÚSÁID AS MopuseDrake LENA ATHRÚ\n"
 
 #: src/mouseconfig.c:315
-msgid "# TO CHANGE THIS FILE!\n"
-msgstr "# LEIS AN COMHAD SEO A ATHRÚ!\n"
-
-#: src/mouseconfig.c:316
 msgid "# There should be no spaces at the start of a line\n"
 msgstr "# Ní comhair spásanna ar bith bheith ag tús líne\n"
 
-#: src/mouseconfig.c:317
+#: src/mouseconfig.c:316
 msgid "# or around the '=' sign\n"
 msgstr "# ná thart ar an comhartha '='\n"
+
+msgid "# TO CHANGE THIS FILE!\n"
+msgstr "# LEIS AN COMHAD SEO A ATHRÚ!\n"

@@ -1,60 +1,147 @@
+#
+# WARNING: This file is in unicode!
+#
+# Sean Kelley <skelley@planetkc.com>
+# Alastair McKinstry <mckinstry@computer.org>
 msgid ""
 msgstr ""
 "Project-Id-Version: mandrake_desk VERSION\n"
-"POT-Creation-Date: 2000-01-09 21:03+0100\n"
+"POT-Creation-Date: 2001-03-29 09:59+0200\n"
 "PO-Revision-Date: 1999-08-25 11:07+0200\n"
-"Last-Translator: Sean Kelley <skelley@planetkc.com>\n"
+"Last-Translator: Alastair McKinstry <mckinstry@computer.org>\n"
 "Language-Team: ga\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=iso-8859-14\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+#: gnome/mandrake.links.desktop.in.h:1 kdelnk/DrakConf.kdelnk.in.h:1
+#: old/DrakConf.kdelnk.in.h:1 old/mandrake.links.desktop.in.h:1
+msgid "DrakConf"
+msgstr "DrakConf"
 
-#: ../../cooker/soft/mandrake_desk/kdelnk/Doc.kdelnk
+#: gnome/mandrake.links.desktop.in.h:2 old/mandrake.links.desktop.in.h:2
+msgid "GNOME Web Site"
+msgstr "Suíomh Gréasáin GNOME"
+
+#: gnome/mandrake.links.desktop.in.h:3 old/mandrake.links.desktop.in.h:6
+msgid "Mandrake documentation"
+msgstr "Doiciméid Mandrake"
+
+#: gnome/mandrake.links.desktop.in.h:4 kdelnk/Netscape.kdelnk.in.h:1
+#: old/Netscape.kdelnk.in.h:1 old/mandrake.links.desktop.in.h:7
+msgid "Netscape"
+msgstr "Netscape"
+
+#: kde/Desktop/Templates/MimeType.noext.kdelnk.in.h:1
+#: old/MimeType.noext.kdelnk.in.h:1
+msgid "Mime Type"
+msgstr "Saghas 'Mime'"
+
+#: kde/Desktop/Templates/Program.noext.kdelnk.in.h:1
+#: old/Program.noext.kdelnk.in.h:1
+msgid "Application"
+msgstr "Ríomhchlar"
+
+#: kde/Desktop/Templates/URL.noext.kdelnk.in.h:1 old/URL.noext.kdelnk.in.h:1
+msgid "Internet Address (URL)"
+msgstr "Seoladh Idirlíon (URL)"
+
+#: kde/Desktop/Templates/WWWUrl.noext.kdelnk.in.h:1
+#: old/WWWUrl.noext.kdelnk.in.h:1
+msgid "World Wide Web URL"
+msgstr "Idirgreasán (URL)"
+
+#: kde/Desktop/CD-ROM.noext.kdelnk.in.h:2
+#: kde/Desktop/Floppy.noext.kdelnk.in.h:1
+#: kde/Desktop/Templates/Device.noext.kdelnk.in.h:1
+#: old/CD-ROM.noext.kdelnk.in.h:2 old/Device.noext.kdelnk.in.h:1
+#: old/Floppy.noext.kdelnk.in.h:1
+msgid "File System Device"
+msgstr "Gaireas do Comhadh  Choráis"
+
+#: kde/Desktop/Templates/Ftpurl.noext.kdelnk.in.h:1
+#: old/Ftpurl.noext.kdelnk.in.h:1
+msgid "FTP URL"
+msgstr "FTP URL"
+
+#: kde/Desktop/Printer.noext.kdelnk.in.h:1 old/Printer.noext.kdelnk.in.h:1
+msgid "Default printer"
+msgstr "Printéir Loicead"
+
+#: kde/Desktop/Printer.noext.kdelnk.in.h:2 old/Printer.noext.kdelnk.in.h:2
+msgid "Manage your print queue"
+msgstr "iStuiur do ciú printéir"
+
+#: kde/Desktop/CD-ROM.noext.kdelnk.in.h:1 old/CD-ROM.noext.kdelnk.in.h:1
+msgid "CD-ROM"
+msgstr "CD-ROM"
+
+#: kde/Desktop/Floppy.noext.kdelnk.in.h:2 old/Floppy.noext.kdelnk.in.h:2
+msgid "Floppy disk"
+msgstr "Diosca Flapach"
+
+#: kdelnk/Doc.kdelnk.in.h:1 old/Doc.kdelnk.in.h:1
 msgid "Mandrake and KDE documentation"
-msgstr "Doicim�id KDE agus Mandrake"
+msgstr "Doiciméid KDE agus Mandrake"
 
-#: ../../cooker/soft/mandrake_desk/kdelnk/Doc.kdelnk
+#: kdelnk/Doc.kdelnk.in.h:2 old/Doc.kdelnk.in.h:2
 msgid "Mandrake and KDE documentation."
-msgstr "Doicim�id KDE agus Mandrake"
+msgstr "Doiciméid KDE agus Mandrake"
 
-#: ../../cooker/soft/mandrake_desk/kdelnk/Home.kdelnk
+#: kdelnk/DrakConf.kdelnk.in.h:2 old/DrakConf.kdelnk.in.h:2
+msgid "The system configuration tools of Linux-Mandrake"
+msgstr "An Uirlis cumraíocht choráis do Linux-Mandrake"
+
+#: kdelnk/Home.kdelnk.in.h:1 old/Home.kdelnk.in.h:1
 msgid "Home Directory"
-msgstr "Eolaire Cinn"
+msgstr "Comhadlann Cinn"
 
-#: ../../cooker/soft/mandrake_desk/kdelnk/Internet.kdelnk
+#: kdelnk/Internet.kdelnk.in.h:1 old/Internet.kdelnk.in.h:1
+#: old/mandrake.links.desktop.in.h:3
 msgid "Internet connection"
-msgstr "Nasc idirl�on"
+msgstr "Nasc idirlíon"
 
-#: ../../cooker/soft/mandrake_desk/kdelnk/Internet.kdelnk
+#: kdelnk/Internet.kdelnk.in.h:2 old/Internet.kdelnk.in.h:2
 msgid "Internet connection."
-msgstr "Nasc idirl�on"
+msgstr "Nasc idirlíon"
 
-#: ../../cooker/soft/mandrake_desk/kdelnk/News.kdelnk
+#: kdelnk/Netscape.kdelnk.in.h:2 old/Netscape.kdelnk.in.h:2
+msgid "Netscape browser"
+msgstr "Líonléitheoir Netscape"
+
+#: kdelnk/News.kdelnk.in.h:1 old/News.kdelnk.in.h:1
 msgid "Linux Mandrake News"
 msgstr "Nuacht Linux Mandrake"
 
-#: ../../cooker/soft/mandrake_desk/kdelnk/Printer.kdelnk
-msgid "Printer"
-msgstr "Print�ir"
-
-#: ../../cooker/soft/mandrake_desk/kdelnk/Printer.kdelnk
+#: kdelnk/Printer.kdelnk.in.h:1 old/Printer.kdelnk.in.h:1
 msgid "Drop text and postscript files onto the PRINTER icon"
-msgstr "Cuir comhaid t�acsa agus postscript ar an dealbh print�ir"
+msgstr "Cuir comhaid téacsa agus postscript ar an dealbh printéir"
 
-#: ../../cooker/soft/mandrake_desk/kdelnk/Updates.kdelnk
+#: kdelnk/Printer.kdelnk.in.h:2 old/Printer.kdelnk.in.h:2
+msgid "Printer"
+msgstr "Printéir"
+
+#: kdelnk/Updates.kdelnk.in.h:1 old/Updates.kdelnk.in.h:1
+#: old/mandrake.links.desktop.in.h:5
 msgid "Mandrake Updates"
-msgstr "Nuashonra� Mandrake"
+msgstr "Nuashonraí Mandrake"
 
-#: ../../cooker/soft/mandrake_desk/kdelnk/XKill.kdelnk
+#: kdelnk/XKill.kdelnk.in.h:1 old/XKill.kdelnk.in.h:1
+msgid "Can't close a window ? use 'XKill'"
+msgstr "Déan úsáid de XKill chun fuinneog a dhruidim"
+
+#: kdelnk/XKill.kdelnk.in.h:2 old/XKill.kdelnk.in.h:2
 msgid "XKill"
 msgstr "XKill"
 
-#: ../../cooker/soft/mandrake_desk/kdelnk/XKill.kdelnk
-msgid "Can't close a window ? use 'XKill'"
-msgstr "D�an �s�id de XKill chun fuinneog a dhruidim"
+#: old/mandrake.links.desktop.in.h:4
+msgid "Linux Documents"
+msgstr "DOcuméideanna Linux"
 
-#: ../../cooker/soft/mandrake_desk/special/Gnome_and_X
+#: old/mandrake.links.desktop.in.h:8
+msgid "RpmDrake"
+msgstr "Bainistéoir Bogearraí"
+
+#: special/Gnome_and_X.desktop.in.h:1
 msgid "Gnome and X Apps"
-msgstr "Gnome agus Feidhmchl�ir X"
-
+msgstr "Gnome agus Feidhmchláir X"

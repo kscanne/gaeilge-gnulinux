@@ -31,7 +31,7 @@ msgstr "Cineál CDROM"
 
 #: cdrom.c:44
 msgid "What type of CDROM do you have?"
-msgstr ""
+msgstr "Cén sort CDROM atá uait?"
 
 #: cdrom.c:46 cdrom.c:111 devices.c:575 devices.c:613 devices.c:761
 #: devices.c:800 devices.c:814 devices.c:828 devices.c:1138 devices.c:1189
@@ -91,7 +91,7 @@ msgstr "Ag socraigh CDROM...."
 
 #: cdrom.c:108
 msgid "Choose a cdrom drive"
-msgstr ""
+msgstr "Roghnaigh an tiomántáin cdrom"
 
 #: cdrom.c:109
 msgid ""
@@ -102,7 +102,7 @@ msgstr ""
 #: devices.c:80 devices.c:86 devices.c:91 devices.c:102 devices.c:107
 #: devices.c:113 devices.c:124
 msgid "Base IO port:"
-msgstr ""
+msgstr "Bun poirt I/A:"
 
 #: devices.c:81 devices.c:92 devices.c:125
 msgid "IRQ level:"
@@ -110,11 +110,11 @@ msgstr "Leibhéal IRQ:"
 
 #: devices.c:97
 msgid "IO base, IRQ:"
-msgstr ""
+msgstr "IRQ, bun IA:"
 
 #: devices.c:112
 msgid "Use other options"
-msgstr ""
+msgstr "úsáid roghanna eile"
 
 #: devices.c:114
 msgid "Interrupt level (IRQ):"
@@ -152,7 +152,7 @@ msgstr ""
 
 #: devices.c:612
 msgid "Load module"
-msgstr ""
+msgstr "Lódáil modúl"
 
 #: devices.c:612
 msgid "Which driver should I try?"
@@ -210,15 +210,15 @@ msgstr ""
 
 #: devices.c:1137
 msgid "Module Options"
-msgstr ""
+msgstr "Roghanna Modúil"
 
 #: devices.c:1177
 msgid "Miscellaneous options:"
-msgstr ""
+msgstr "Roghanna eile:"
 
 #: devices.c:1179 devices.c:1188
 msgid "Module options:"
-msgstr ""
+msgstr "Roghanna modúil:"
 
 #: devices.c:1188
 msgid "Module Parameters"
@@ -276,7 +276,7 @@ msgstr ""
 
 #: doit.c:486
 msgid "(no summary)"
-msgstr ""
+msgstr "(gan coimriú)"
 
 #: doit.c:562
 msgid "Examining packages to install..."
@@ -300,11 +300,11 @@ msgstr ""
 
 #: doit.c:634
 msgid "Upgrading"
-msgstr ""
+msgstr "Ag usasgrádán"
 
 #: doit.c:634
 msgid "Installing"
-msgstr ""
+msgstr "Ag feistigh"
 
 #: doit.c:659
 #, c-format
@@ -334,15 +334,15 @@ msgstr ""
 
 #: earlymethods.c:422
 msgid "NFS server name:"
-msgstr ""
+msgstr "Ainm freastalaí NFS:"
 
 #: earlymethods.c:425 urlmethod.c:219
 msgid "Mandrake directory:"
-msgstr ""
+msgstr "Comhadlann Mandrake:"
 
 #: earlymethods.c:449
 msgid "NFS Setup"
-msgstr "Cumraigh NFS"
+msgstr "Socraigh NFS"
 
 #: earlymethods.c:509
 msgid "Note"
@@ -676,7 +676,7 @@ msgstr ""
 
 #: fsedit.c:512
 msgid "BSD Disklabel"
-msgstr ""
+msgstr "Lipéad Diosca BSD"
 
 #: fsedit.c:512
 msgid ""
@@ -687,11 +687,11 @@ msgstr ""
 
 #: fsedit.c:569
 msgid "Swap Partition"
-msgstr ""
+msgstr "Rann Malairte"
 
 #: fsedit.c:690 fsedit.c:696 fsedit.c:700 fsedit.c:702
 msgid "Edit Partition"
-msgstr ""
+msgstr "Egar Rann"
 
 #: fsedit.c:762
 msgid "Allocation Status:"
@@ -731,7 +731,7 @@ msgstr ""
 
 #: fsedit.c:972
 msgid "Size Error"
-msgstr ""
+msgstr "Earráidh mheadú"
 
 #: fsedit.c:973
 msgid ""
@@ -790,7 +790,7 @@ msgstr ""
 
 #: fsedit.c:1953
 msgid "No Swap Partition"
-msgstr ""
+msgstr "Gan Rann Malairte ar bith"
 
 #: fsedit.c:1954
 msgid "You must assign a swap partition for the install to proceed."
@@ -858,7 +858,7 @@ msgstr ""
 
 #: fsedit.c:2460
 msgid "Clear Partition Command"
-msgstr ""
+msgstr "Glan Rannu"
 
 #: fsedit.c:2461
 #, c-format
@@ -867,7 +867,7 @@ msgstr ""
 
 #: fsedit.c:2499
 msgid "Partition Command"
-msgstr ""
+msgstr "Ordú Rann"
 
 #: fsedit.c:2500
 #, c-format
@@ -936,7 +936,7 @@ msgstr ""
 
 #: ftp.c:657
 msgid "Server IO error"
-msgstr ""
+msgstr "Earráid A/I Freastalaí"
 
 #: ftp.c:660
 msgid "Server timeout"
@@ -1062,7 +1062,7 @@ msgstr ""
 
 #: hints.c:31
 msgid "lilo command"
-msgstr ""
+msgstr "ordú lilo"
 
 #: hints.c:32
 #, c-format
@@ -1105,7 +1105,7 @@ msgstr ""
 
 #: install.c:214
 msgid "Starting PCMCIA services..."
-msgstr ""
+msgstr "Ag tosnaigh seirbishí PCMCIA..."
 
 #: install.c:264 install2.c:1480
 msgid ""
@@ -1131,7 +1131,7 @@ msgstr ""
 
 #: install.c:549
 msgid "Welcome to Linux Mandrake"
-msgstr ""
+msgstr "Fáilte go Linux Mandrake"
 
 #: install.c:551 install2.c:1849
 msgid ""
@@ -1197,7 +1197,7 @@ msgstr ""
 
 #: install2.c:207
 msgid "Install system"
-msgstr ""
+msgstr "Feistigh corás"
 
 #: install2.c:209
 msgid "Configure mouse"
@@ -1229,7 +1229,7 @@ msgstr "Suimigh usáideoir"
 
 #: install2.c:223
 msgid "Configure authentication"
-msgstr ""
+msgstr "Cumriagh deimhniú"
 
 #: install2.c:225 install2.c:253
 msgid "Create bootdisk"
@@ -1237,7 +1237,7 @@ msgstr ""
 
 #: install2.c:227 install2.c:255
 msgid "Install bootloader"
-msgstr ""
+msgstr "Feistigh cód bootáil"
 
 #: install2.c:229
 msgid "Configure X"
@@ -1374,15 +1374,15 @@ msgstr ""
 
 #: install2.c:919
 msgid "Add unprivileged user"
-msgstr ""
+msgstr "Suimigh úsáideoir gnáth"
 
 #: install2.c:921
 msgid "Username: "
-msgstr ""
+msgstr "Ainm Úsáideoir: "
 
 #: install2.c:923
 msgid "Realname: "
-msgstr ""
+msgstr "Fíorainm: "
 
 #: install2.c:925
 msgid "Password: "
@@ -1398,7 +1398,7 @@ msgstr "Blaosc: "
 
 #: install2.c:941
 msgid "Help"
-msgstr "Cabhair"
+msgstr "Cúidiú"
 
 #: install2.c:949
 msgid "Help on adding a user"
@@ -1429,15 +1429,15 @@ msgstr ""
 
 #: install2.c:1176
 msgid "Installation Path"
-msgstr ""
+msgstr "Slí feistiú"
 
 #: install2.c:1176
 msgid "Install"
-msgstr ""
+msgstr "Feist"
 
 #: install2.c:1176 install2.c:1315
 msgid "Upgrade"
-msgstr ""
+msgstr "Uasgrádán"
 
 #: install2.c:1177
 msgid ""
@@ -1477,7 +1477,7 @@ msgstr ""
 
 #: install2.c:1344
 msgid "Previous"
-msgstr ""
+msgstr "Riomh"
 
 #: install2.c:1344
 msgid "Menu"
@@ -1518,7 +1518,7 @@ msgstr ""
 
 #: install2.c:1579 install2.c:1596 lilo.c:729
 msgid "Bootdisk"
-msgstr ""
+msgstr "Diosca thosú"
 
 #: install2.c:1580
 msgid ""
@@ -1538,7 +1538,7 @@ msgstr ""
 
 #: install2.c:1926
 msgid "Complete"
-msgstr ""
+msgstr "Criochnaithe"
 
 #: install2.c:1928
 msgid ""
@@ -1554,7 +1554,7 @@ msgstr ""
 
 #: kbd.c:250
 msgid "Keyboard Type"
-msgstr ""
+msgstr "Cinéal Meárchlár"
 
 #: kbd.c:251
 msgid "What type of keyboard do you have?"
@@ -1582,7 +1582,7 @@ msgstr ""
 
 #: kernel.c:68 kernel.c:73 kernel.c:78
 msgid "Kernel"
-msgstr ""
+msgstr "Eithne"
 
 #: kernel.c:69
 msgid ""
@@ -1723,11 +1723,11 @@ msgstr ""
 
 #: lilo.c:391 printercfg.c:651 printercfg.c:722
 msgid "Default"
-msgstr ""
+msgstr "Gnáth"
 
 #: lilo.c:391
 msgid "Boot label"
-msgstr ""
+msgstr "Lipéid Boot"
 
 #: lilo.c:463
 msgid "Bootable Partitions"
@@ -1760,7 +1760,7 @@ msgstr ""
 
 #: mkswap.c:233
 msgid "Formatting"
-msgstr ""
+msgstr "Ag formáidigh"
 
 #: mkswap.c:517
 msgid "No Swap Space"
@@ -1854,7 +1854,7 @@ msgstr ""
 
 #: net.c:365
 msgid "Primary nameserver:"
-msgstr ""
+msgstr "Príomh freastalaí ainm:"
 
 #: net.c:402
 msgid "Configure TCP/IP"
@@ -1951,7 +1951,7 @@ msgstr ""
 
 #: net.c:1140
 msgid "Domain name:"
-msgstr ""
+msgstr "Ainm Fearannas:"
 
 #: net.c:1143
 msgid "Host name:"
@@ -1967,7 +1967,7 @@ msgstr ""
 
 #: net.c:1197
 msgid "Configure Network"
-msgstr ""
+msgstr "Cumraigh Greasán"
 
 #: net.c:1386
 msgid "Keep the current IP configuration"
@@ -1983,7 +1983,7 @@ msgstr ""
 
 #: net.c:1405 net.c:1417
 msgid "Network Configuration"
-msgstr ""
+msgstr "Cumraíocht Greasán"
 
 #: net.c:1406
 msgid "LAN networking has already been configured. Do you want to:"
@@ -2088,7 +2088,7 @@ msgstr ""
 
 #: pkgs.c:761
 msgid "Package"
-msgstr ""
+msgstr "Pacáiste"
 
 #: pkgs.c:761
 msgid "Requirement"
@@ -2104,7 +2104,7 @@ msgstr ""
 
 #: pkgs.c:850
 msgid "Everything"
-msgstr ""
+msgstr "Gach rud"
 
 #: pkgs.c:862
 msgid "Select individual packages"
@@ -2176,7 +2176,7 @@ msgstr ""
 
 #: printercfg.c:527 printercfg.c:1207
 msgid "Configure Printer"
-msgstr ""
+msgstr "Cumraigh Printéir"
 
 #. we know that changes->db->NumBpp > 0
 #: printercfg.c:596 printercfg.c:758
@@ -2317,7 +2317,7 @@ msgstr ""
 
 #: printercfg.c:1176
 msgid "Name of queue:"
-msgstr ""
+msgstr "Ainm Ciú:"
 
 #: printercfg.c:1177 printercfg.c:1273 printercfg.c:1299
 msgid "Spool directory:"
@@ -2393,7 +2393,7 @@ msgstr "Freastalaí:"
 
 #: printercfg.c:1278 printercfg.c:1325
 msgid "Share:"
-msgstr ""
+msgstr "Comh.:"
 
 #: printercfg.c:1279 printercfg.c:1313 printercfg.c:1327
 msgid "User:"
@@ -2401,7 +2401,7 @@ msgstr "Usáideoir:"
 
 #: printercfg.c:1280 printercfg.c:1333
 msgid "Printer driver:"
-msgstr ""
+msgstr "Tiománaí Printéir:"
 
 #: printercfg.c:1281 printercfg.c:1334
 msgid "Paper size:"
@@ -2427,7 +2427,7 @@ msgstr ""
 
 #: printercfg.c:1303
 msgid "Printer device"
-msgstr ""
+msgstr "Gaireas Printéir"
 
 #: printercfg.c:1344
 msgid "Verify Printer Configuration"
@@ -2481,7 +2481,7 @@ msgstr ""
 #: url.c:148
 #, c-format
 msgid "Password for %s@%s: "
-msgstr ""
+msgstr "Pasfhocal do %s@%s: "
 
 #: url.c:172 url.c:198
 #, c-format
@@ -2556,15 +2556,15 @@ msgstr ""
 
 #: urlmethod.c:237
 msgid "Use proxy server"
-msgstr ""
+msgstr "Úsáid seach-freastalaí"
 
 #: urlmethod.c:246
 msgid "FTP Setup"
-msgstr ""
+msgstr "Socraigh FTP"
 
 #: urlmethod.c:247
 msgid "HTTP Setup"
-msgstr ""
+msgstr "Socraigh HTTP"
 
 #: urlmethod.c:257
 msgid "You must enter a server name."
@@ -2593,16 +2593,16 @@ msgstr ""
 
 #: urlmethod.c:358
 msgid "FTP Proxy:"
-msgstr ""
+msgstr "Seach FTP:"
 
 #: urlmethod.c:359
 msgid "HTTP Proxy:"
-msgstr ""
+msgstr "Seach HTTP:"
 
 #: urlmethod.c:363
 msgid "FTP Proxy Port:"
-msgstr ""
+msgstr "Poirt Seach FTP:"
 
 #: urlmethod.c:364
 msgid "HTTP Proxy Port:"
-msgstr ""
+msgstr "Poirt Seach HTTP:"

@@ -9,19 +9,51 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: menu-messages 0.1\n"
-"POT-Creation-Date: 2000-08-21 13:53+0200\n"
+"POT-Creation-Date: 2001-04-11 01:49+0200\n"
 "PO-Revision-Date: 1999-08-25 11:07+0200\n"
 "Last-Translator: Alastair McKinstry <mckinstry@computer.org>,\n"
 "Language-Team: Gaeilge <ga@li.org>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=iso-8859-14\n"
+"Content-Type: text/plain; charset=iso-8859-15\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "Games"
-msgstr "Cluichí"
+# NOTE
+# Following the GNOME Usability guidelines (for 2.0); the names of the 
+# programs will be descriptive nouns eg "Browser (netscape)" rather
+# than otherwise unknown names; try to tie these up with the 
+# application names in the window manager ...
 
-msgid "Internet"
-msgstr "Idirlíon"
+msgid "Boot Manager (LILO)"
+msgstr "Bainisteóir Tosnáithe (LILO)"
+
+msgid "You can configure LILO (the Linux boot manager) here"
+msgstr ""
+
+msgid "Xosview"
+msgstr "xosview"
+
+#, fuzzy
+msgid "Mandrake Control Center"
+msgstr "Doiciméid Mandrake (en)"
+
+msgid "GUI CD Burner"
+msgstr ""
+
+#. Menu entry for usr/lib/menu/7colors
+msgid "7colors"
+msgstr "7dathanna"
+
+#. Menu description for usr/lib/menu/7colors
+msgid "Take over the gaming area with your color"
+msgstr ""
+
+#. Menu tree branch (found in usr/lib/menu/7colors)
+msgid "Amusement"
+msgstr "Siamsa"
+
+#. Menu tree branch (found in usr/lib/menu/7colors)
+msgid "Boards"
+msgstr ""
 
 #. Menu entry for usr/lib/menu/AfterStep
 msgid "AfterStep"
@@ -51,23 +83,30 @@ msgstr "Forbairt"
 msgid "Development environments"
 msgstr ""
 
+#. Menu entry for usr/lib/menu/DataManager
+#, fuzzy
+msgid "DataManager"
+msgstr "Bainisteóir seirbhísí túsach"
+
+#. Menu tree branch (found in usr/lib/menu/DataManager)
+msgid "Networking"
+msgstr "Greasánú"
+
+#. Menu tree branch (found in usr/lib/menu/DataManager)
+msgid "Other"
+msgstr "Eile"
+
 #. Menu entry for usr/lib/menu/DrakConf
 msgid "DrakConf"
 msgstr "DrakConf"
 
 #. Menu description for usr/lib/menu/DrakConf
-#, fuzzy
 msgid "System configuration tool"
-msgstr "Cumraigh X"
+msgstr "Úirlis cumraíocht do choráis"
 
 #. Menu tree branch (found in usr/lib/menu/DrakConf)
-#, fuzzy
 msgid "Configuration"
-msgstr "Cumraigh X"
-
-#. Menu tree branch (found in usr/lib/menu/DrakConf)
-msgid "Other"
-msgstr "Eile"
+msgstr "Cumraiocht"
 
 #. Menu entry for usr/lib/menu/DrakeLogo
 msgid "DrakeLogo"
@@ -79,11 +118,7 @@ msgstr ""
 
 #. Menu tree branch (found in usr/lib/menu/DrakeLogo)
 msgid "Boot and Init"
-msgstr ""
-
-#. Menu entry for usr/lib/menu/Eterm
-msgid "Eterm"
-msgstr "Eterm"
+msgstr "Tosnú"
 
 #. Menu description for usr/lib/menu/Eterm
 msgid "Eterm Enlightened Terminal Emulator for X Window"
@@ -91,7 +126,35 @@ msgstr "Aithriseoir teirminéal Eterm"
 
 #. Menu tree branch (found in usr/lib/menu/Eterm)
 msgid "Terminals"
+msgstr "Teirminealanna"
+
+#. Menu entry for usr/lib/menu/Lexmark-printer-maintenance
+msgid "Lexmark Printer Utility Program"
 msgstr ""
+
+#. Menu tree branch (found in usr/lib/menu/Lexmark-printer-maintenance)
+msgid "Printing"
+msgstr "Printáil"
+
+#. Menu entry for usr/lib/menu/Lexmark-printer-maintenance
+msgid "Change Cartridge in a Lexmark 5xxx or 7xxx"
+msgstr ""
+
+#. Menu entry for usr/lib/menu/Lexmark-printer-maintenance
+msgid "Command line tools for Lexmark 5xxx or 7xxx"
+msgstr ""
+
+#. Menu entry for usr/lib/menu/Lexmark-printer-maintenance
+msgid "Park Cartridge in a Lexmark 1xxx"
+msgstr ""
+
+#. Menu description for usr/lib/menu/Maelstrom
+msgid "Asteroids game"
+msgstr "Cluiche Asteroids"
+
+#. Menu tree branch (found in usr/lib/menu/Maelstrom)
+msgid "Arcade"
+msgstr "Stuara"
 
 #. Menu entry for usr/lib/menu/MandrakeUpdate
 msgid "MandrakeUpdate"
@@ -110,44 +173,60 @@ msgid "Mesa gears"
 msgstr ""
 
 #. Menu description for usr/lib/menu/Mesa-demos
-msgid "gears 3d demo from Mesa3d"
+msgid "Gears 3D demonstration from Mesa 3D"
 msgstr ""
 
 #. Menu tree branch (found in usr/lib/menu/Mesa-demos)
-msgid "Multimedia"
-msgstr "Ilmheánach"
-
-#. Menu tree branch (found in usr/lib/menu/Mesa-demos)
-msgid "Graphics"
-msgstr "Graphice"
+msgid "Toys"
+msgstr "Cluichí"
 
 #. Menu entry for usr/lib/menu/Mesa-demos
 msgid "Mesa reflect"
-msgstr ""
+msgstr "Mesa reflect"
 
 #. Menu description for usr/lib/menu/Mesa-demos
-msgid "reflect 3d demo from Mesa3d"
+msgid "Reflect 3D demonstration from Mesa 3D"
 msgstr ""
 
 #. Menu entry for usr/lib/menu/Mesa-demos
-msgid "Mesa morph3d"
-msgstr ""
+msgid "Mesa morph"
+msgstr "Mesa morph"
 
 #. Menu description for usr/lib/menu/Mesa-demos
-msgid "morph 3d demo from Mesa3d"
+msgid "Morph 3D demonstration from Mesa 3D"
 msgstr ""
 
-#. Menu entry for usr/lib/menu/WindowMaker
-msgid "WindowMaker"
+#. Menu entry for usr/lib/menu/ODBCConfig
+msgid "ODBCConfig"
+msgstr "ODBConfig"
+
+#. Menu entry for usr/lib/menu/OpenDX
+msgid "OpenDX"
+msgstr "OpenDX"
+
+#. Menu description for usr/lib/menu/OpenDX
+msgid "Visualization Data Explorer"
 msgstr ""
 
+#. Menu tree branch (found in usr/lib/menu/OpenDX)
+msgid "Sciences"
+msgstr "Eolaíochtaí"
+
+#. Menu tree branch (found in usr/lib/menu/OpenDX)
+msgid "Mathematics"
+msgstr "Mathemaitce"
+
 #. Menu entry for usr/lib/menu/WindowMaker
-msgid "Workspaces"
-msgstr ""
+msgid "Window Maker"
+msgstr "Fhuinneog "
+
+#. Menu entry for usr/lib/menu/WindowMaker
+msgid "Desktops"
+msgstr "Deasc"
 
 #. Menu entry for usr/lib/menu/WindowMaker
 msgid "Hide Others"
-msgstr ""
+msgstr "Folaigh eile"
 
 #. Menu tree branch (found in usr/lib/menu/WindowMaker)
 msgid "Workspace"
@@ -199,7 +278,7 @@ msgstr "Cúlra"
 
 #. Menu tree branch (found in usr/lib/menu/WindowMaker)
 msgid "Solid"
-msgstr ""
+msgstr "Solad"
 
 #. Menu entry for usr/lib/menu/WindowMaker
 msgid "Blue"
@@ -215,7 +294,7 @@ msgstr ""
 
 #. Menu entry for usr/lib/menu/WindowMaker
 msgid "Purple"
-msgstr ""
+msgstr "Corcra"
 
 #. Menu entry for usr/lib/menu/WindowMaker
 msgid "Wheat"
@@ -223,7 +302,7 @@ msgstr ""
 
 #. Menu entry for usr/lib/menu/WindowMaker
 msgid "Dark Gray"
-msgstr ""
+msgstr "Liath"
 
 #. Menu entry for usr/lib/menu/WindowMaker
 msgid "Wine"
@@ -282,8 +361,32 @@ msgid "Preferences Utility"
 msgstr ""
 
 #. Menu entry for usr/lib/menu/WindowMaker
+msgid "Info Panel"
+msgstr "Panéil Eolas"
+
+#. Menu tree branch (found in usr/lib/menu/WindowMaker)
+msgid "Informations"
+msgstr "Eolas"
+
+#. Menu entry for usr/lib/menu/WindowMaker
+msgid "Legal"
+msgstr "Dlí"
+
+#. Menu entry for usr/lib/menu/WindowMaker
+msgid "Copy"
+msgstr "Cóip"
+
+#. Menu tree branch (found in usr/lib/menu/WindowMaker)
+msgid "Selection"
+msgstr "Rogha"
+
+#. Menu entry for usr/lib/menu/WindowMaker
+msgid "Search in manual"
+msgstr "Faigh san lámleabhar"
+
+#. Menu entry for usr/lib/menu/WindowMaker
 msgid "Restart"
-msgstr ""
+msgstr "Athosnú"
 
 #. Menu tree branch (found in usr/lib/menu/WindowMaker)
 msgid "Exit"
@@ -292,6 +395,10 @@ msgstr "Éirigh as"
 #. Menu entry for usr/lib/menu/X11R6-contrib
 msgid "Calculator"
 msgstr "Áireamhán"
+
+#. Menu description for usr/lib/menu/X11R6-contrib
+msgid "Scientific calculator for X"
+msgstr "Áireamhán Eolaíocht do X"
 
 #. Menu tree branch (found in usr/lib/menu/X11R6-contrib)
 msgid "Office"
@@ -311,43 +418,39 @@ msgstr ""
 
 #. Menu entry for usr/lib/menu/X11R6-contrib
 msgid "XEdit"
-msgstr "XEdit"
+msgstr "Eagathóir"
 
 #. Menu description for usr/lib/menu/X11R6-contrib
 msgid "Small editor"
-msgstr "Eagarthóir beag"
+msgstr "Eagarthóir beag (XEdit)"
 
 #. Menu tree branch (found in usr/lib/menu/X11R6-contrib)
 msgid "Editors"
-msgstr ""
+msgstr "Eagarthóirí"
 
 #. Menu entry for usr/lib/menu/X11R6-contrib
 msgid "XEyes"
-msgstr "XEyes"
+msgstr "Súil"
 
 #. Menu description for usr/lib/menu/X11R6-contrib
 msgid "Watchful Eyes"
-msgstr ""
-
-#. Menu tree branch (found in usr/lib/menu/X11R6-contrib)
-msgid "Amusement"
-msgstr ""
-
-#. Menu tree branch (found in usr/lib/menu/X11R6-contrib)
-msgid "Toys"
-msgstr ""
+msgstr "Súil Oscailt (XEyes)"
 
 #. Menu entry for usr/lib/menu/X11R6-contrib
 msgid "ICO"
+msgstr "ICO"
+
+#. Menu description for usr/lib/menu/X11R6-contrib
+msgid "Animate an icosahedron or other polyhedron"
 msgstr ""
 
 #. Menu entry for usr/lib/menu/X11R6-contrib
 msgid "Font Selector"
-msgstr ""
+msgstr "Roghnóir Chlófhoireann"
 
 #. Menu description for usr/lib/menu/X11R6-contrib
 msgid "Select X Fonts"
-msgstr ""
+msgstr "Tóg Chlófhoireann do X"
 
 #. Menu entry for usr/lib/menu/X11R6-contrib
 msgid "XLoad"
@@ -362,80 +465,124 @@ msgid "Monitoring"
 msgstr ""
 
 #. Menu entry for usr/lib/menu/XFree86
+msgid "Bitmap"
+msgstr ""
+
+#. Menu description for usr/lib/menu/XFree86
 msgid "Bitmap: editor for X bitmap files"
 msgstr ""
 
+#. Menu tree branch (found in usr/lib/menu/XFree86)
+msgid "Multimedia"
+msgstr "Ilmheánach"
+
+#. Menu tree branch (found in usr/lib/menu/XFree86)
+msgid "Graphics"
+msgstr "Graphice"
+
 #. Menu entry for usr/lib/menu/XFree86
+msgid "Editres"
+msgstr "Editres"
+
+#. Menu description for usr/lib/menu/XFree86
 msgid "Editres: resource editor for X Toolkit applications"
 msgstr ""
 
 #. Menu tree branch (found in usr/lib/menu/XFree86)
 msgid "Tools"
-msgstr "Uitlisí"
+msgstr "Uirlisí"
 
 #. Menu entry for usr/lib/menu/XFree86
+msgid "Xclipboard"
+msgstr "Xclipboard"
+
+#. Menu description for usr/lib/menu/XFree86
 msgid "Xclipboard: clipboard for text cut and paste operations in X"
 msgstr ""
 
 #. Menu entry for usr/lib/menu/XFree86
+msgid "Xclock (analog)"
+msgstr "Chlog (analog)"
+
+#. Menu description for usr/lib/menu/XFree86
 msgid "Xclock (analog): analog clock for X"
-msgstr ""
+msgstr "Chlog analog do X (XClock)"
 
 #. Menu entry for usr/lib/menu/XFree86
+msgid "Xclock (digital)"
+msgstr "Chlog luibneach"
+
+#. Menu description for usr/lib/menu/XFree86
 msgid "Xclock (digital): digital clock for X"
-msgstr ""
+msgstr "Chlog luibhneach do X (XClock)"
 
 #. Menu entry for usr/lib/menu/XFree86
+msgid "Xconsole"
+msgstr "Consóil (xconsole)"
+
+#. Menu description for usr/lib/menu/XFree86
 msgid "Xconsole: monitor system console messages with X"
 msgstr ""
 
 #. Menu entry for usr/lib/menu/XFree86
+msgid "Xcutsel"
+msgstr "Xcutsel"
+
+#. Menu description for usr/lib/menu/XFree86
 msgid "Xcutsel: interchange between cut buffer and selection in X"
 msgstr ""
 
 #. Menu entry for usr/lib/menu/XFree86
+msgid "Xmag"
+msgstr "Xmag"
+
+#. Menu description for usr/lib/menu/XFree86
 msgid "Xmag: magnify parts of the X screen"
 msgstr ""
 
+#. Menu tree branch (found in usr/lib/menu/XFree86)
+msgid "Accessibility"
+msgstr ""
+
 #. Menu entry for usr/lib/menu/XFree86
+msgid "Xkill"
+msgstr "Xkill"
+
+#. Menu description for usr/lib/menu/XFree86
 msgid "Xkill: kill X clients"
 msgstr ""
 
 #. Menu entry for usr/lib/menu/XFree86
+msgid "Xlogo"
+msgstr "Xlogo"
+
+#. Menu description for usr/lib/menu/XFree86
 msgid "Xlogo: display X logo"
-msgstr ""
+msgstr "Táispeán logo do X"
 
 #. Menu entry for usr/lib/menu/XFree86
+msgid "Xrefresh"
+msgstr "Xrefresh"
+
+#. Menu description for usr/lib/menu/XFree86
 msgid "Xrefresh: redraw X screen"
 msgstr ""
 
 #. Menu entry for usr/lib/menu/XFree86
+msgid "X Window Snapshot"
+msgstr ""
+
+#. Menu description for usr/lib/menu/XFree86
 msgid "X Window Snapshot: take snapshot of any X window (xwd|xwud)"
 msgstr ""
 
 #. Menu entry for usr/lib/menu/XFree86
+msgid "Twm"
+msgstr "Twm"
+
+#. Menu description for usr/lib/menu/XFree86
 msgid "Twm: Tab Window Manager"
-msgstr ""
-
-#. Menu entry for usr/lib/menu/XaoS
-msgid "XaoS"
-msgstr "XaoS"
-
-#. Menu description for usr/lib/menu/XaoS
-msgid "Realtime fractal zoomer"
-msgstr ""
-
-#. Menu tree branch (found in usr/lib/menu/XaoS)
-msgid "Sciences"
-msgstr "Eolaíochtaí"
-
-#. Menu tree branch (found in usr/lib/menu/XaoS)
-msgid "Mathematics"
-msgstr "Mathemaitce"
-
-#. Menu entry for usr/lib/menu/abbrowser
-msgid "Abbrowser"
-msgstr "Líonléitheoir Netscape"
+msgstr "Twm: Bainistéoir Fhuinneog Tab"
 
 #. Menu entry for usr/lib/menu/abisuite
 msgid "AbiWord"
@@ -445,7 +592,24 @@ msgstr "AbiWord"
 msgid "RTF and Microsoft Word (up to 97) document editor"
 msgstr ""
 
+#. Menu entry for usr/lib/menu/aethera
+msgid "Aethera"
+msgstr "Aethera"
+
+#. Menu description for usr/lib/menu/aethera
+#, fuzzy
+msgid "Aethera pim client"
+msgstr "Áireamhán Graphice"
+
+#. Menu tree branch (found in usr/lib/menu/aethera)
+msgid "Mail"
+msgstr "Ríomhphost"
+
 #. Menu entry for usr/lib/menu/aktion
+msgid "Aktion"
+msgstr ""
+
+#. Menu description for usr/lib/menu/aktion
 msgid "Aktion video player"
 msgstr ""
 
@@ -453,37 +617,13 @@ msgstr ""
 msgid "Video"
 msgstr "Fís"
 
-#. Menu entry for usr/lib/menu/alsaplayer
-msgid "Alsa Player"
-msgstr ""
+#. Menu description for usr/lib/menu/alsaplayer
+msgid "The Alsa Player"
+msgstr "An Seinnteoir 'Alsa'"
 
 #. Menu tree branch (found in usr/lib/menu/alsaplayer)
 msgid "Sound"
 msgstr "Fuaim"
-
-#. Menu entry for usr/lib/menu/amor
-msgid "Amor"
-msgstr "Amor"
-
-#. Menu entry for usr/lib/menu/ark
-msgid "Ark"
-msgstr "Ark"
-
-#. Menu tree branch (found in usr/lib/menu/ark)
-msgid "Archiving"
-msgstr ""
-
-#. Menu tree branch (found in usr/lib/menu/ark)
-msgid "Compression"
-msgstr ""
-
-#. Menu entry for usr/lib/menu/artsbuilder
-msgid "artsbuilder"
-msgstr ""
-
-#. Menu entry for usr/lib/menu/artscontrol
-msgid "artscontrol"
-msgstr ""
 
 #. Menu entry for usr/lib/menu/aumix
 msgid "Aumix"
@@ -493,20 +633,68 @@ msgstr "Aumix"
 msgid "Audio Mixer"
 msgstr "Measchíor Fuaim"
 
+#. Menu entry for usr/lib/menu/balsa
+msgid "Balsa"
+msgstr "Ríomhphost"
+
+#. Menu description for usr/lib/menu/balsa
+msgid "Balsa Mail Client"
+msgstr "Ríomhclar do rphost (Balsa)"
+
+#. Menu entry for usr/lib/menu/bcast
+msgid "Broadcast 2000"
+msgstr "Broadcast 2000"
+
+#. Menu description for usr/lib/menu/bcast
+msgid "Broadcast 2000 - Non-linear production environment for audio and video"
+msgstr ""
+
 #. Menu entry for usr/lib/menu/blackbox
-msgid "The BlackBox Window Manager"
+msgid "Blackbox"
+msgstr "Boasca Dubh"
+
+#. Menu entry for usr/lib/menu/blackbox
+msgid "Reconfigure"
+msgstr "Athcumraígh"
+
+#. Menu entry for usr/lib/menu/blackbox
+msgid "/usr/share/blackbox/styles"
+msgstr "/usr/share/blackbox/styles"
+
+#. Menu tree branch (found in usr/lib/menu/blackbox)
+msgid "Setting"
+msgstr "Cumraíocht"
+
+#. Menu entry for usr/lib/menu/blackbox
+msgid "~/.blackbox/styles"
 msgstr ""
 
-#. Menu entry for usr/lib/menu/bombermaze
-msgid "BomberMaze"
-msgstr "BomberMaze"
-
-#. Menu description for usr/lib/menu/bombermaze
-msgid "Gnome bomberman game"
+#. Menu entry for usr/lib/menu/blackbox
+msgid "Workspaces"
 msgstr ""
 
-#. Menu tree branch (found in usr/lib/menu/bombermaze)
-msgid "Arcade"
+#. Menu entry for usr/lib/menu/bluefish
+msgid "BlueFish"
+msgstr ""
+
+#. Menu description for usr/lib/menu/bluefish
+msgid "Beautiful GPLized HTML editor"
+msgstr ""
+
+#. Menu tree branch (found in usr/lib/menu/bluefish)
+msgid "WWW"
+msgstr "WWW"
+
+#. Menu entry for usr/lib/menu/bug-buddy
+msgid "Bug-buddy"
+msgstr ""
+
+#. Menu description for usr/lib/menu/bug-buddy
+msgid "Front end of open source projects bug reporter"
+msgstr ""
+
+#. Menu tree branch (found in usr/lib/menu/bug-buddy)
+msgid "Communications"
 msgstr ""
 
 #. Menu entry for usr/lib/menu/bzflag
@@ -517,13 +705,29 @@ msgstr "BZflag"
 msgid "A multiplayer 3D tank battle game"
 msgstr ""
 
-#. Menu entry for usr/lib/menu/caitoo
-msgid "caitoo"
-msgstr "caitoo"
+#. Menu entry for usr/lib/menu/cervisia
+msgid "Cervisia"
+msgstr "Cervista"
 
-#. Menu tree branch (found in usr/lib/menu/caitoo)
-msgid "Networking"
-msgstr "Greasánú"
+#. Menu description for usr/lib/menu/cervisia
+msgid "A frontend for the CVS client"
+msgstr ""
+
+#. Menu entry for usr/lib/menu/chromium
+msgid "Chromium"
+msgstr "Chromium"
+
+#. Menu description for usr/lib/menu/chromium
+msgid "OpenGL shoot them up"
+msgstr "Cluiche OpenGL"
+
+#. Menu entry for usr/lib/menu/chromium-setup
+msgid "Chromium Setup"
+msgstr "Cumraigh 'Chromium'"
+
+#. Menu description for usr/lib/menu/chromium-setup
+msgid "Graphical Setup of Chromium"
+msgstr ""
 
 #. Menu entry for usr/lib/menu/clanbomber
 msgid "ClanBomber"
@@ -536,10 +740,6 @@ msgstr ""
 #. Menu entry for usr/lib/menu/communicator
 msgid "Netscape Communicator"
 msgstr "Líonléitheoir Netscape"
-
-#. Menu tree branch (found in usr/lib/menu/communicator)
-msgid "WWW"
-msgstr "WWW"
 
 #. Menu entry for usr/lib/menu/communicator
 msgid "Netscape Adressbook"
@@ -563,9 +763,116 @@ msgstr "Nuacht"
 msgid "Netscape Messenger"
 msgstr "Líonléitheoir Netscape"
 
-#. Menu tree branch (found in usr/lib/menu/communicator)
-msgid "Mail"
-msgstr "Ríomhphost"
+#. Menu entry for usr/lib/menu/control-center
+msgid "Gnome Control Center"
+msgstr ""
+
+#. Menu description for usr/lib/menu/control-center
+msgid "The Gnome configuration tool"
+msgstr "Cumraigh Gnome" 
+
+#. Menu tree branch (found in usr/lib/menu/control-center)
+msgid "Gnome"
+msgstr "Gnome"
+
+#. Menu entry for usr/lib/menu/control-center
+msgid "File Types"
+msgstr "Saghas do Chomaid"
+
+#. Menu description for usr/lib/menu/control-center
+msgid "Configure how files are associated and started"
+msgstr ""
+
+#. Menu entry for usr/lib/menu/control-center
+msgid "URL handlers"
+msgstr ""
+
+#. Menu description for usr/lib/menu/control-center
+msgid "Configure which programs are used to display URLs"
+msgstr ""
+
+#. Menu entry for usr/lib/menu/control-center
+#, fuzzy
+msgid "Default Editor"
+msgstr "Eagarthóir beag"
+
+#. Menu description for usr/lib/menu/control-center
+msgid "Choose the editor that is invoked by gnome-edit"
+msgstr ""
+
+#. Menu description for usr/lib/menu/control-center
+msgid "Configuration of the desktop's background"
+msgstr ""
+
+#. Menu tree branch (found in usr/lib/menu/control-center)
+msgid "Desktop"
+msgstr "Deasc"
+
+#. Menu entry for usr/lib/menu/control-center
+msgid "Screensaver"
+msgstr ""
+
+#. Menu description for usr/lib/menu/control-center
+msgid "Configure the setting of the screensaver"
+msgstr ""
+
+#. Menu entry for usr/lib/menu/control-center
+#, fuzzy
+msgid "Theme Selector"
+msgstr "Roghnóir Clóanna"
+
+#. Menu description for usr/lib/menu/control-center
+msgid "Select which desktop theme to use"
+msgstr ""
+
+#. Menu entry for usr/lib/menu/control-center
+msgid "Window Manager"
+msgstr "Bainisteóir Fhuinneoga"
+
+#. Menu description for usr/lib/menu/control-center
+msgid "Choose a window-manager"
+msgstr "Tóg Bainisteoir Fhuinneog"
+
+#. Menu description for usr/lib/menu/control-center
+msgid "Configure Gnome's use of sound"
+msgstr ""
+
+#. Menu entry for usr/lib/menu/control-center
+msgid "Keyboard"
+msgstr "Mearchlár"
+
+#. Menu description for usr/lib/menu/control-center
+msgid "Keyboard Properties"
+msgstr "Roghnachais Méarchlár"
+
+#. Menu tree branch (found in usr/lib/menu/control-center)
+msgid "Peripherals"
+msgstr ""
+
+#. Menu entry for usr/lib/menu/control-center
+msgid "Mouse"
+msgstr "Luchóg"
+
+#. Menu description for usr/lib/menu/control-center
+msgid "Mouse Properties"
+msgstr "Roghnachais Luchóg"
+
+#. Menu description for usr/lib/menu/control-center
+msgid "Sets the default feel of Gnome applications"
+msgstr ""
+
+#. Menu tree branch (found in usr/lib/menu/control-center)
+#, fuzzy
+msgid "User Interface"
+msgstr "Bainisteóir seirbhísí túsach"
+
+#. Menu entry for usr/lib/menu/control-center
+msgid "Dialogs"
+msgstr "Agallamhanna"
+
+#. Menu entry for usr/lib/menu/control-center
+msgid "MDI"
+msgstr "MDI"
 
 #. Menu entry for usr/lib/menu/control-panel
 msgid "control-panel"
@@ -573,6 +880,76 @@ msgstr ""
 
 #. Menu description for usr/lib/menu/control-panel
 msgid "Control Panel"
+msgstr ""
+
+#. Menu entry for usr/lib/menu/cooledit
+msgid "CoolEdit"
+msgstr "CoolEdit"
+
+#. Menu description for usr/lib/menu/cooledit
+msgid "Powerful programmer's text editor with Python and shell scripting hooks"
+msgstr ""
+
+#. Menu entry for usr/lib/menu/csmash
+msgid "Cannon Smash"
+msgstr ""
+
+#. Menu description for usr/lib/menu/csmash
+msgid "CannonSmash, a 3D tabletennis game"
+msgstr ""
+
+#. Menu tree branch (found in usr/lib/menu/csmash)
+msgid "Sports"
+msgstr "Sport"
+
+#. Menu entry for usr/lib/menu/cups
+msgid "CUPS WWW admin tool"
+msgstr "Uirlis stiura do CUPS WWW"
+
+#. Menu description for usr/lib/menu/cups
+msgid ""
+"Web-based administration tool for CUPS, works with every browser. Set the  "
+"environment variable to choose your preferred browser."
+msgstr ""
+
+#. Menu entry for usr/lib/menu/cups-drivers
+msgid "Display printer test page (for colour adjustment)"
+msgstr "Taispeán leathanach teast do Printéir "
+
+#. Menu entry for usr/lib/menu/cups-drivers
+msgid "Calibrate colour printer (GIMP-Print CUPS drivers)"
+msgstr ""
+
+#. Menu description for usr/lib/menu/cups-drivers
+msgid "Calibrate colour printer (GIMP-Print CUPS drivers, 'CUPS + GIMP-print')"
+msgstr ""
+
+#. Menu entry for usr/lib/menu/cups-drivers
+msgid "Epson inkjet printer maintenance"
+msgstr ""
+
+#. Menu description for usr/lib/menu/cups-drivers
+msgid ""
+"Epson inkjet printer maintenance (Head cleaning/alignment, ink level "
+"display, ...)"
+msgstr ""
+
+#. Menu entry for usr/lib/menu/cups-drivers
+msgid "Install the Z22, Z32, or Z52 with Lexmark's drivers"
+msgstr ""
+
+#. Menu description for usr/lib/menu/cups-drivers
+msgid ""
+"With this program you can easily install printers with the drivers issued by "
+"Lexmark"
+msgstr ""
+
+#. Menu entry for usr/lib/menu/cups-drivers
+msgid "Head alignment and nozzle cleaning pages for Z22, Z32, or Z52"
+msgstr ""
+
+#. Menu description for usr/lib/menu/cups-drivers
+msgid "This program needs Lexmark's printer drivers."
 msgstr ""
 
 #. Menu entry for usr/lib/menu/cxhextris
@@ -591,10 +968,6 @@ msgstr "Dia"
 msgid "A gtk+ based diagram creation program"
 msgstr ""
 
-#. Menu entry for usr/lib/menu/dpsftp
-msgid "Dpsftp"
-msgstr ""
-
 #. Menu description for usr/lib/menu/dpsftp
 msgid "DPS-FTP is a powerful FTP client for GNOME"
 msgstr ""
@@ -604,30 +977,50 @@ msgid "File transfer"
 msgstr ""
 
 #. Menu entry for usr/lib/menu/drakfloppy
-msgid "drakfloppy"
-msgstr "drakfloppy"
+msgid "DrakFloppy"
+msgstr "DrakFloppy"
 
 #. Menu description for usr/lib/menu/drakfloppy
 msgid "Boot disk tool"
-msgstr ""
+msgstr "Uirlis diosca thosnú"
 
 #. Menu entry for usr/lib/menu/drakfont
-msgid "drakfont"
-msgstr "DrakFonf"
+msgid "DrakFont"
+msgstr "Clófhoireanna"
 
 #. Menu description for usr/lib/menu/drakfont
 msgid "Fonts manager"
-msgstr "Bainisteóir chlófhoireann"
+msgstr "Bainisteóir chlófhoireann (DrakFont)"
 
-#. Menu entry for usr/lib/menu/ee
-msgid "ee"
-msgstr "ee"
+#. Menu description for usr/lib/menu/drakprofile
+msgid "Hardware profile switching tool for laptops"
+msgstr ""
+
+#. Menu description for usr/lib/menu/draksync
+msgid "Graphical directory synchronization tool"
+msgstr ""
+
+#. Menu entry for usr/lib/menu/drkonqi
+msgid "Dr. Konqi"
+msgstr "Dr. Konqi"
+
+#. Menu description for usr/lib/menu/drkonqi
+msgid "You can configure the crash notification settings here"
+msgstr ""
+
+#. Menu tree branch (found in usr/lib/menu/drkonqi)
+msgid "KDE"
+msgstr "KDE"
 
 #. Menu description for usr/lib/menu/ee
-msgid "Gnome image viewer"
+msgid "Electric Eyes image viewer"
 msgstr ""
 
 #. Menu entry for usr/lib/menu/emacs-X11
+msgid "emacs"
+msgstr "emacs"
+
+#. Menu description for usr/lib/menu/emacs-X11
 msgid "Powerfull editor"
 msgstr ""
 
@@ -636,16 +1029,36 @@ msgid "Enlightenment"
 msgstr "Enlightenment"
 
 #. Menu entry for usr/lib/menu/eog
-msgid "EOG"
-msgstr "EOG"
+msgid "Eye of Gnome"
+msgstr "Súil do Gnome"
 
 #. Menu description for usr/lib/menu/eog
-msgid "A tool for viewing and/or cataloging images"
+msgid "Eye of Gnome Image Viewer"
+msgstr ""
+
+#. Menu entry for usr/lib/menu/eroaster
+msgid "Eroaster"
+msgstr "Etoaster"
+
+#. Menu tree branch (found in usr/lib/menu/eroaster)
+msgid "Archiving"
+msgstr ""
+
+#. Menu tree branch (found in usr/lib/menu/eroaster)
+msgid "Cd burning"
+msgstr ""
+
+#. Menu description for usr/lib/menu/everybuddy
+msgid "Universal Instant Messaging Client"
+msgstr ""
+
+#. Menu tree branch (found in usr/lib/menu/everybuddy)
+msgid "Instant messaging"
 msgstr ""
 
 #. Menu entry for usr/lib/menu/evolution
 msgid "Evolution"
-msgstr ""
+msgstr "Evolution"
 
 #. Menu description for usr/lib/menu/evolution
 msgid "GNOME mailer, calendar, contact manager and communications tool"
@@ -660,21 +1073,32 @@ msgid "a tk-based mail reader"
 msgstr ""
 
 #. Menu entry for usr/lib/menu/faces
+msgid "Faces"
+msgstr "Aghaidheanna"
+
+#. Menu description for usr/lib/menu/faces
 msgid "Incoming mail notifier"
 msgstr ""
 
 #. Menu entry for usr/lib/menu/fetchmailconf
 msgid "Fetchmailconf"
-msgstr ""
+msgstr "Fetchmailconf"
 
 #. Menu description for usr/lib/menu/fetchmailconf
-#, fuzzy
 msgid "Configuration of fetchmail"
-msgstr "Cumraigh X"
+msgstr "Cumraigh  'fetchmail'"
 
-#. Menu entry for usr/lib/menu/freeciv
-msgid "Freeciv client"
+#. Menu entry for usr/lib/menu/fontmanager
+msgid "Font Manager"
+msgstr "Bainisteóir chlófhoireann"
+
+#. Menu description for usr/lib/menu/fontmanager
+msgid "Choose which fonts are available to KDE"
 msgstr ""
+
+#. Menu tree branch (found in usr/lib/menu/fontmanager)
+msgid "LookNFeel"
+msgstr "LookNFeel"
 
 #. Menu description for usr/lib/menu/freeciv
 msgid "The Free Civilization Clone"
@@ -682,11 +1106,7 @@ msgstr ""
 
 #. Menu tree branch (found in usr/lib/menu/freeciv)
 msgid "Strategy"
-msgstr ""
-
-#. Menu entry for usr/lib/menu/freeciv
-msgid "Freeciv server"
-msgstr ""
+msgstr "Stratéis"
 
 #. Menu description for usr/lib/menu/freeciv
 msgid "The Free Civilization Clone (server)"
@@ -694,7 +1114,7 @@ msgstr ""
 
 #. Menu entry for usr/lib/menu/fvwm
 msgid "Fvwm"
-msgstr ""
+msgstr "Fvwm"
 
 #. Menu description for usr/lib/menu/fvwm
 #, fuzzy
@@ -707,27 +1127,47 @@ msgstr "FVWM 2"
 
 #. Menu entry for usr/lib/menu/g-print
 msgid "g-print"
-msgstr ""
+msgstr "g-print"
 
 #. Menu description for usr/lib/menu/g-print
 msgid "Drag'n'Drop printer icon"
 msgstr ""
 
-#. Menu tree branch (found in usr/lib/menu/g-print)
-msgid "Printing"
-msgstr "Printáil"
+#. Menu entry for usr/lib/menu/gODBCConfig
+msgid "gODBCConfig"
+msgstr "gOBCConfig"
+
+#. Menu entry for usr/lib/menu/gabber
+msgid "Gabber"
+msgstr "Gabber"
+
+#. Menu description for usr/lib/menu/gabber
+msgid "Gnome client for Jabber Open Source instant messaging system"
+msgstr ""
 
 #. Menu entry for usr/lib/menu/gaim
-msgid "gaim"
-msgstr "gaim"
+msgid "Gaim"
+msgstr "Gaim"
 
 #. Menu description for usr/lib/menu/gaim
 msgid "AOL Instant Messenger clone"
 msgstr ""
 
-#. Menu tree branch (found in usr/lib/menu/gaim)
-msgid "Chat"
+#. Menu entry for usr/lib/menu/galeon
+msgid "Galeon"
+msgstr "Galeon"
+
+#. Menu description for usr/lib/menu/galeon
+msgid "Gnome browser based on Gecko (Mozilla)"
 msgstr ""
+
+#. Menu entry for usr/lib/menu/gcombust
+msgid "GCombust"
+msgstr "Cócaire"
+
+#. Menu description for usr/lib/menu/gcombust
+msgid "Gtk+ frontend for Cd burning"
+msgstr "Uirlís do CD a dheánamh"
 
 #. Menu entry for usr/lib/menu/gdb
 msgid "Gdb"
@@ -737,9 +1177,18 @@ msgstr "Gdb"
 msgid "The GNU debugger"
 msgstr ""
 
+#. Menu entry for usr/lib/menu/gdm
+#, fuzzy
+msgid "GDM Configurator"
+msgstr "Cumraigh X"
+
+#. Menu description for usr/lib/menu/gdm
+msgid "A graphical application for configuring the GNOME Display Manager (GDM)"
+msgstr ""
+
 #. Menu entry for usr/lib/menu/gedit
-msgid "gedit"
-msgstr "gedit"
+msgid "GEdit"
+msgstr "GEdit"
 
 #. Menu description for usr/lib/menu/gedit
 msgid "gEdit is a small but powerful text editor"
@@ -747,38 +1196,83 @@ msgstr ""
 
 #. Menu entry for usr/lib/menu/gentoo
 msgid "Gentoo"
-msgstr ""
+msgstr "Bainistéoir Chomad"
 
 #. Menu description for usr/lib/menu/gentoo
 msgid "Gtk File Manager"
-msgstr ""
+msgstr "Bainistéoir chmoad do Gtk+ (Gentoo)"
 
 #. Menu tree branch (found in usr/lib/menu/gentoo)
 msgid "File tools"
-msgstr ""
+msgstr "Uirlisí Chomaid"
 
 #. Menu entry for usr/lib/menu/gfcc
-msgid "gfcc"
-msgstr "gfcc"
+msgid "Gfcc"
+msgstr "Gfcc"
 
 #. Menu description for usr/lib/menu/gfcc
 msgid "GTK+ Firewall Control Center"
 msgstr ""
 
-#. Menu entry for usr/lib/menu/gftp
-msgid "gFTP"
-msgstr "gFTP"
+#. Menu entry for usr/lib/menu/gfloppy
+msgid "Gfloppy"
+msgstr "Diosca Flapach"
+
+#. Menu description for usr/lib/menu/gfloppy
+msgid "front end floppy formatter"
+msgstr "(Gfloppy) front end floppy formatter"
+
+#. Menu tree branch (found in usr/lib/menu/gfloppy)
+msgid "Hardware"
+msgstr "Crua-earra"
 
 #. Menu description for usr/lib/menu/gftp
 msgid "FTP client for X Windows"
 msgstr ""
 
 #. Menu entry for usr/lib/menu/ggv
-msgid "ggv 0.82"
-msgstr "ggv"
+msgid "Ggv"
+msgstr "Ggv"
 
 #. Menu description for usr/lib/menu/ggv
 msgid "Gnome Version of ghostview"
+msgstr "Leagan Gnome do ghostview"
+
+#. Menu entry for usr/lib/menu/ghostscript
+msgid "Install OKI 4w or compatible"
+msgstr ""
+
+#. Menu description for usr/lib/menu/ghostscript
+msgid "Install OKI 4w or compatible (this printers need an extra daemon!)"
+msgstr ""
+
+#. Menu entry for usr/lib/menu/ghostscript-utils
+msgid "Printer Utility Program"
+msgstr "Uirlisín Printéir"
+
+#. Menu description for usr/lib/menu/ghostscript-utils
+msgid ""
+"Graphical tool to set default options in many laser printers and maintenance "
+"for inkjets"
+msgstr ""
+
+#. Menu description for usr/lib/menu/ghostscript-utils
+msgid ""
+"Tool to get the print head out to change the cartridges and to put it back "
+"afterwards"
+msgstr ""
+
+#. Menu description for usr/lib/menu/ghostscript-utils
+msgid "Printer maintenance commands: Change cartridges, clean nozzles, ..."
+msgstr ""
+
+#. Menu description for usr/lib/menu/ghostscript-utils
+msgid "To get the print head of the printer accessible"
+msgstr ""
+
+#. Menu description for usr/lib/menu/ghostscript-utils
+msgid ""
+"To put the print head back into the corner after changing the cartridges"
 msgstr ""
 
 #. Menu entry for usr/lib/menu/gimp
@@ -788,10 +1282,6 @@ msgstr "An GIMP"
 #. Menu description for usr/lib/menu/gimp
 msgid "The GNU Image Manipulation Program"
 msgstr ""
-
-#. Menu entry for usr/lib/menu/gkrellm
-msgid "Gkrellm"
-msgstr "Gkrelim"
 
 #. Menu description for usr/lib/menu/gkrellm
 msgid "a gtk-based monitoring app"
@@ -805,21 +1295,38 @@ msgstr "Glade"
 msgid "Gtk/gnome widget builder"
 msgstr ""
 
+#. Menu description for usr/lib/menu/glimmer
+msgid "Code editor"
+msgstr "Eagarthóir ibúnchód"
+
 #. Menu entry for usr/lib/menu/gltron
-msgid "gltron"
-msgstr "gltron"
+msgid "Gltron"
+msgstr "Gltron"
 
 #. Menu description for usr/lib/menu/gltron
 msgid "3d lightcycle game"
 msgstr ""
 
-#. Menu entry for usr/lib/menu/gmc
-msgid "Gmc"
-msgstr "Gmc"
-
 #. Menu description for usr/lib/menu/gmc
-msgid "a gtk-based file manager"
+msgid "A gtk-based file manager"
 msgstr ""
+
+#. Menu entry for usr/lib/menu/gnapster
+msgid "gnapster"
+msgstr "gnapster"
+
+#. Menu description for usr/lib/menu/gnapster
+msgid "Gnapster is a simple client for the online mp3 community called napster"
+msgstr ""
+
+#. Menu entry for usr/lib/menu/gnobog
+msgid "Gnobog"
+msgstr "Gnobog"
+
+#. Menu description for usr/lib/menu/gnobog
+#, fuzzy
+msgid "Gnome Bookmarks Organizer"
+msgstr "Cluiche Reversi do Gnome"
 
 #. Menu entry for usr/lib/menu/gnomba
 #, fuzzy
@@ -834,6 +1341,15 @@ msgstr ""
 msgid "Remote access"
 msgstr ""
 
+#. Menu entry for usr/lib/menu/gnome-admin
+#, fuzzy
+msgid "System log monitor"
+msgstr "Cumraigh X"
+
+#. Menu description for usr/lib/menu/gnome-admin
+msgid "SysLog tool"
+msgstr ""
+
 #. Menu entry for usr/lib/menu/gnome-chess
 msgid "Gnome Chess"
 msgstr "Fidcheall Gnome"
@@ -842,65 +1358,47 @@ msgstr "Fidcheall Gnome"
 msgid "Gnome Chess game"
 msgstr "Fidcheall Gnome"
 
-#. Menu tree branch (found in usr/lib/menu/gnome-chess)
-msgid "Boards"
-msgstr ""
-
 #. Menu entry for usr/lib/menu/gnome-core
-msgid "Gnome"
-msgstr "Gnome"
+msgid "About Gnome"
+msgstr "Faoi Gnome"
 
-#. Menu entry for usr/lib/menu/gnome-core
-msgid "Settings"
-msgstr "Cumraíocht"
-
-#. Menu entry for usr/lib/menu/gnome-core
-msgid "Desktop"
-msgstr "Deasc"
-
-#. Menu entry for usr/lib/menu/gnome-core
-msgid "Peripherals"
-msgstr ""
-
-#. Menu entry for usr/lib/menu/gnome-core
-#, fuzzy
-msgid "User Interface"
-msgstr "Bainisteóir seirbhísí túsach"
-
-#. Menu entry for usr/lib/menu/gnome-core
+#. Menu description for usr/lib/menu/gnome-core
 msgid "About Gnome desktop"
-msgstr ""
+msgstr "Faoi Deasc Gnome"
+
+#. Menu tree branch (found in usr/lib/menu/gnome-core)
+msgid "Documentation"
+msgstr "Doiciméid KDE agus Mandrake"
 
 #. Menu entry for usr/lib/menu/gnome-core
+msgid "Help System"
+msgstr "Corás Cúidiú"
+
+#. Menu description for usr/lib/menu/gnome-core
 msgid "Integrated help system(info, man, HTML)"
 msgstr ""
 
 #. Menu entry for usr/lib/menu/gnome-core
-msgid "Graphical File manager"
-msgstr ""
+msgid "Mime Types"
+msgstr "Saghaseanna 'Mime'"
 
 #. Menu entry for usr/lib/menu/gnome-core
-#, fuzzy
-msgid "The Gnome configuration tool"
-msgstr "Cumraigh X"
+msgid "Save current session"
+msgstr "Sábhail Seisiún"
 
 #. Menu entry for usr/lib/menu/gnome-core
-msgid "Configure how files are associated and started"
-msgstr ""
+msgid "Imlib Configuration Options"
+msgstr "Cumraigh Imlib"
 
-#. Menu entry for usr/lib/menu/gnome-core
-msgid "Configure which programs are used to display URLs"
-msgstr ""
-
-#. Menu entry for usr/lib/menu/gnome-core
+#. Menu description for usr/lib/menu/gnome-core
 msgid "Image loading and display settings"
 msgstr "Cumraigh Iomanna lódail agus taispeaínt"
 
 #. Menu entry for usr/lib/menu/gnome-core
-msgid "Choose the editor that is invoked by gnome-edit"
+msgid "Startup Programs"
 msgstr ""
 
-#. Menu entry for usr/lib/menu/gnome-core
+#. Menu description for usr/lib/menu/gnome-core
 msgid "Configure which non-session aware programs are started up"
 msgstr ""
 
@@ -909,51 +1407,35 @@ msgid "Session Manager Properties"
 msgstr ""
 
 #. Menu entry for usr/lib/menu/gnome-core
+msgid "Startup Hint"
+msgstr "Leathfhocal do Tosnáithe"
+
+#. Menu description for usr/lib/menu/gnome-core
 msgid "Options for the startup hint dialog"
 msgstr ""
 
 #. Menu entry for usr/lib/menu/gnome-core
-msgid "Configuration of the desktop's background"
+msgid "Keyboard Bell"
 msgstr ""
 
-#. Menu entry for usr/lib/menu/gnome-core
-msgid "Configure the setting of the screensaver"
-msgstr ""
-
-#. Menu entry for usr/lib/menu/gnome-core
-msgid "Select which desktop theme to use"
-msgstr ""
-
-#. Menu entry for usr/lib/menu/gnome-core
-msgid "Choose a window-manager"
-msgstr ""
-
-#. Menu entry for usr/lib/menu/gnome-core
+#. Menu description for usr/lib/menu/gnome-core
 msgid "Modify the properties of your keyboard bell"
 msgstr ""
 
 #. Menu entry for usr/lib/menu/gnome-core
-msgid "Configure Gnome's use of sound"
-msgstr ""
+msgid "Gnome terminal"
+msgstr "Teirminéal"
 
-#. Menu entry for usr/lib/menu/gnome-core
-msgid "Keyboard Properties"
-msgstr "Roghnachais Méarchlár"
-
-#. Menu entry for usr/lib/menu/gnome-core
-msgid "Mouse Properties"
-msgstr "Roghnachais Luchóg"
-
-#. Menu entry for usr/lib/menu/gnome-core
-msgid "Sets the default feel of Gnome applications"
-msgstr ""
-
-#. Menu entry for usr/lib/menu/gnome-core
+#. Menu description for usr/lib/menu/gnome-core
 msgid "Terminal of the Gnome desktop"
+msgstr "Gnome Teirminéal"
+
+#. Menu entry for usr/lib/menu/gnome-db
+msgid "GNOME-DB frontend"
 msgstr ""
 
-#. Menu entry for usr/lib/menu/gnome-core
-msgid "Basic Gnome editor"
+#. Menu description for usr/lib/menu/gnome-db
+msgid "Gnome-DB frontend application"
 msgstr ""
 
 #. Menu entry for usr/lib/menu/gnome-games
@@ -966,15 +1448,15 @@ msgstr "Cluiche FreeCelll"
 
 #. Menu tree branch (found in usr/lib/menu/gnome-games)
 msgid "Cards"
-msgstr ""
+msgstr "Cartaí"
 
 #. Menu entry for usr/lib/menu/gnome-games
 msgid "Gnome Mines"
-msgstr ""
+msgstr "Miana Gnome"
 
 #. Menu description for usr/lib/menu/gnome-games
 msgid "Gnome Mines game"
-msgstr ""
+msgstr "Cluiche Miana do Gnome"
 
 #. Menu entry for usr/lib/menu/gnome-games
 msgid "Same Gnome"
@@ -986,11 +1468,11 @@ msgstr "Cluiche Gnome Ceanna"
 
 #. Menu entry for usr/lib/menu/gnome-games
 msgid "Gnome Mahjongg"
-msgstr "Gnome Mahjongg"
+msgstr "Mahjongg"
 
 #. Menu description for usr/lib/menu/gnome-games
 msgid "A Mahjongg game for Gnome"
-msgstr ""
+msgstr "(Mahjongg Gnome)"
 
 #. Menu entry for usr/lib/menu/gnome-games
 msgid "gTuring"
@@ -1034,11 +1516,11 @@ msgstr "Cluiche Gnome Tetravex"
 
 #. Menu entry for usr/lib/menu/gnome-games
 msgid "Gnome Stones"
-msgstr ""
+msgstr "Chloch"
 
 #. Menu description for usr/lib/menu/gnome-games
 msgid "Gnome Stones game"
-msgstr ""
+msgstr "Cluiche (Gnome Stones)"
 
 #. Menu entry for usr/lib/menu/gnome-games
 msgid "AisleRiot"
@@ -1072,17 +1554,34 @@ msgstr "Gataxx"
 msgid "Gnome ataxx game"
 msgstr "Cluiche ataxx do Gnome"
 
-#. Menu entry for usr/lib/menu/gnome-iconedit
-msgid "gnome-iconedit"
-msgstr ""
+#. Menu entry for usr/lib/menu/gnome-games
+msgid "Gnotski"
+msgstr "Gnotski"
 
-#. Menu description for usr/lib/menu/gnome-iconedit
-msgid "gnome-iconedit: Icon editor for GNOME"
-msgstr ""
+#. Menu description for usr/lib/menu/gnome-games
+msgid "Gnome Klotski"
+msgstr "Gnome Klotski"
+
+#. Menu entry for usr/lib/menu/gnome-iconedit
+#, fuzzy
+msgid "Gnome Icon Editor"
+msgstr "Eagarthóir VI"
+
+#. Menu entry for usr/lib/menu/gnome-linuxconf
+msgid "LinuxConf"
+msgstr "LinuxConf"
+
+#. Menu entry for usr/lib/menu/gnome-linuxconf
+msgid "Netconf"
+msgstr "Netconf"
+
+#. Menu entry for usr/lib/menu/gnome-linuxconf
+msgid "Userconf"
+msgstr "Cumraíocht Úsáideoir"
 
 #. Menu entry for usr/lib/menu/gnome-media
-msgid "Cd player"
-msgstr ""
+msgid "Gnome CD Player"
+msgstr "Seinnteoir CD"
 
 #. Menu entry for usr/lib/menu/gnome-media
 msgid "ESD Volume"
@@ -1100,6 +1599,10 @@ msgstr ""
 msgid "Gnome Talk"
 msgstr "Caint Gnome"
 
+#. Menu tree branch (found in usr/lib/menu/gnome-network)
+msgid "Chat"
+msgstr "Caint"
+
 #. Menu entry for usr/lib/menu/gnome-network
 msgid "Gnome ppp"
 msgstr "Gnome-ppp"
@@ -1108,20 +1611,68 @@ msgstr "Gnome-ppp"
 msgid "GNOME PPP dialup utility"
 msgstr ""
 
+#. Menu entry for usr/lib/menu/gnome-pilot
+msgid "Pilot link"
+msgstr ""
+
+#. Menu entry for usr/lib/menu/gnome-pilot
+msgid "Pilot Conduits"
+msgstr ""
+
+#. Menu entry for usr/lib/menu/gnome-pilot
+msgid "Backup conduit"
+msgstr ""
+
+#. Menu entry for usr/lib/menu/gnome-pilot
+msgid "Email conduit"
+msgstr "Bealach Rphost"
+
+#. Menu entry for usr/lib/menu/gnome-pilot
+msgid "Expense conduit"
+msgstr "Bealach Cúntas"
+
+#. Menu entry for usr/lib/menu/gnome-pilot
+msgid "File conduit"
+msgstr "Bealach Comhad"
+
+#. Menu entry for usr/lib/menu/gnome-pilot
+msgid "Memo conduit"
+msgstr "Bealach Notaí"
+
+#. Menu entry for usr/lib/menu/gnome-pilot-conduits
+msgid "MAL Conduit"
+msgstr "Bealach MAL"
+
 #. Menu entry for usr/lib/menu/gnome-pim
 msgid "Gnome-Cal"
 msgstr "Feilire Gnome"
 
 #. Menu description for usr/lib/menu/gnome-pim
-msgid "personal calendar and todo list"
+msgid "Personal calendar and todo list"
 msgstr ""
 
 #. Menu entry for usr/lib/menu/gnome-pim
 msgid "Gnome-Card"
-msgstr ""
+msgstr "Carta Gnome"
 
 #. Menu description for usr/lib/menu/gnome-pim
-msgid "contact list of friends and business associates"
+msgid "Contact list of friends and business associates"
+msgstr ""
+
+#. Menu entry for usr/lib/menu/gnome-pim-conduits
+msgid "GnomeCard Conduit"
+msgstr "Bealach do Cartaí Gnome"
+
+#. Menu entry for usr/lib/menu/gnome-pim-conduits
+msgid "GnomeCal Conduit"
+msgstr "Bealach GnomeCal"
+
+#. Menu entry for usr/lib/menu/gnome-telnet
+msgid "Telnet, SSH, and RLogin"
+msgstr ""
+
+#. Menu description for usr/lib/menu/gnome-telnet
+msgid "A cool front-end for telnet, ssh, and rlogin"
 msgstr ""
 
 #. Menu entry for usr/lib/menu/gnome-toaster
@@ -1132,13 +1683,51 @@ msgstr "gtoaster"
 msgid "a GNOME utility for cd burning"
 msgstr ""
 
-#. Menu tree branch (found in usr/lib/menu/gnome-toaster)
-msgid "Cd burning"
+#. Menu entry for usr/lib/menu/gnome-utils
+msgid "Gnome Calc"
+msgstr "Aireamháin"
+
+#. Menu description for usr/lib/menu/gnome-utils
+msgid "Gnome Calculator"
+msgstr "Áireamhán do Gnome"
+
+#. Menu entry for usr/lib/menu/gnome-utils
+msgid "Gnome Character Map"
+msgstr ""
+
+#. Menu entry for usr/lib/menu/gnome-utils
+msgid "Gnome Color Selector"
+msgstr "Roghnóir Dathanna"
+
+#. Menu entry for usr/lib/menu/gnome-utils
+msgid "Gnome Floppy"
+msgstr "Flapach Tiomáin"
+
+#. Menu description for usr/lib/menu/gnome-utils
+msgid "Gnome Floppy Disk Format Tool"
+msgstr ""
+
+#. Menu entry for usr/lib/menu/gnome-utils
+msgid "Gnome Font Selector"
+msgstr "Roghnóir Chlófhoireann"
+
+#. Menu entry for usr/lib/menu/gnome-utils
+#, fuzzy
+msgid "Gnome Text Viewer"
+msgstr "Cluiche Gnome Tetravex"
+
+#. Menu tree branch (found in usr/lib/menu/gnome-utils)
+msgid "Text tools"
 msgstr ""
 
 #. Menu entry for usr/lib/menu/gnome-utils
 msgid "Gnome Search Tool"
 msgstr ""
+
+#. Menu entry for usr/lib/menu/gnome-utils
+#, fuzzy
+msgid "Gnome Time Tracker"
+msgstr "Caint Gnome"
 
 #. Menu entry for usr/lib/menu/gnome-utils
 msgid "System info"
@@ -1148,17 +1737,21 @@ msgstr "Eolas choráis"
 msgid "Technical information about this computer"
 msgstr ""
 
-#. Menu entry for usr/lib/menu/gnomeicu
-msgid "GnomeICU"
-msgstr "GnomeICU"
+#. Menu entry for usr/lib/menu/gnome-utils
+msgid "Gnome Who"
+msgstr "Cé"
+
+#. Menu description for usr/lib/menu/gnome-utils
+msgid "Information on who is logged on this computer"
+msgstr "Eolas do cé a úsáid an ríomhaire seo (Gnome Who)"
+
+#. Menu entry for usr/lib/menu/gnome-utils
+msgid "System Log Viewer"
+msgstr ""
 
 #. Menu description for usr/lib/menu/gnomeicu
 msgid "Gnome ICQ communications program"
 msgstr ""
-
-#. Menu tree branch (found in usr/lib/menu/gnomeicu)
-msgid "ICQ"
-msgstr "ICQ"
 
 #. Menu entry for usr/lib/menu/gnorpm
 msgid "GnoRPM"
@@ -1178,37 +1771,49 @@ msgid ""
 "format"
 msgstr ""
 
+#. Menu tree branch (found in usr/lib/menu/gnozip)
+msgid "Compression"
+msgstr ""
+
 #. Menu entry for usr/lib/menu/gnucash
-msgid "GNUCash"
-msgstr "GNUCash"
+msgid "GnuCash"
+msgstr "Cúntas"
 
 #. Menu description for usr/lib/menu/gnucash
-msgid "Personal finance manager"
-msgstr ""
+msgid "GnuCash Personal finance manager"
+msgstr "Stiura Airgid (GnuCash)"
 
 #. Menu entry for usr/lib/menu/gnumeric
 msgid "Gnumeric"
-msgstr ""
+msgstr "Gnumeric"
 
 #. Menu description for usr/lib/menu/gnumeric
-msgid "A full-featured spreadsheet for GNOME"
+msgid "A full-featured spreadsheet for Gnome"
 msgstr ""
-
-#. Menu entry for usr/lib/menu/gnuplot
-msgid "Gnuplot"
-msgstr "Gnuplot"
 
 #. Menu description for usr/lib/menu/gnuplot
 msgid "The famous function plotting program"
 msgstr ""
 
 #. Menu entry for usr/lib/menu/gofai
-msgid "gofai"
-msgstr "gofai"
+msgid "Good Old AI"
+msgstr ""
 
-#. Menu entry for usr/lib/menu/gprolog
-msgid "gprolog"
-msgstr "gprolog"
+#. Menu description for usr/lib/menu/gofai
+msgid "Good Old Fashioned Artificial Intelligence With A Modern Twist"
+msgstr ""
+
+#. Menu entry for usr/lib/menu/gpa
+msgid "Gpa"
+msgstr ""
+
+#. Menu description for usr/lib/menu/gpa
+msgid "Frontend for gnupg"
+msgstr ""
+
+#. Menu description for usr/lib/menu/gphoto
+msgid "A GNU Digital Camera Program"
+msgstr ""
 
 #. Menu description for usr/lib/menu/gprolog
 msgid "GNU Prolog"
@@ -1223,56 +1828,32 @@ msgid "gPS"
 msgstr "gPS"
 
 #. Menu description for usr/lib/menu/gps
-msgid "graphical Process Statistics"
+msgid "Graphical Process Statistics"
 msgstr ""
-
-#. Menu entry for usr/lib/menu/gqview
-msgid "Gqview"
-msgstr "Gqview"
 
 #. Menu description for usr/lib/menu/gqview
-msgid "a browser for graphics files"
+msgid "A browser for graphics files"
 msgstr ""
-
-#. Menu entry for usr/lib/menu/graphite
-msgid "Graphite"
-msgstr "Graphite"
-
-#. Menu entry for usr/lib/menu/grip
-msgid "Grip"
-msgstr "Grip"
 
 #. Menu description for usr/lib/menu/grip
-msgid "a gtk-based cd-player and cd-ripper"
+msgid "A gtk-based cd-player and cd-ripper"
 msgstr ""
-
-#. Menu entry for usr/lib/menu/gsu
-msgid "gsu"
-msgstr "gsu"
-
-#. Menu description for usr/lib/menu/gsu
-msgid "GTK+ Frontend to su"
-msgstr ""
-
-#. Menu tree branch (found in usr/lib/menu/gsu)
-msgid "Shells"
-msgstr "Blaoscanna"
 
 #. Menu entry for usr/lib/menu/gtkeyboard
-msgid "gtkeybord"
-msgstr "gtkeybord"
+msgid "GTKeybord"
+msgstr "Mearchlár"
 
 #. Menu description for usr/lib/menu/gtkeyboard
 msgid "A graphical keyboard for disabled people"
 msgstr ""
 
 #. Menu entry for usr/lib/menu/gtkgo
-msgid "gtkgo"
-msgstr "gtkgo"
+msgid "GtkGo"
+msgstr "Go"
 
 #. Menu description for usr/lib/menu/gtkgo
 msgid "The game of go"
-msgstr ""
+msgstr "GtkGo - An Cluiche Go"
 
 #. Menu entry for usr/lib/menu/gtkgraph
 msgid "gtkgraph"
@@ -1282,49 +1863,61 @@ msgstr "gtkgraph"
 msgid "Graphic Calculator"
 msgstr "Áireamhán Graphice"
 
+#. Menu entry for usr/lib/menu/gtkhtml
+msgid "HTML Viewer"
+msgstr ""
+
+#. Menu description for usr/lib/menu/gtkhtml
+#, fuzzy
+msgid "HTML Viewer properties"
+msgstr "Roghnachais Luchóg"
+
 #. Menu entry for usr/lib/menu/gtktalog
 msgid "GTKtalog"
 msgstr "GTKtalog"
 
 #. Menu description for usr/lib/menu/gtktalog
-msgid "The GTK disk catalog"
+msgid "The Gnome disk catalog"
 msgstr ""
-
-#. Menu entry for usr/lib/menu/gtkzip
-msgid "GtkZip"
-msgstr "GtkZip"
 
 #. Menu description for usr/lib/menu/gtkzip
-msgid "for maintaining your Zip drive disks"
+msgid "A programm for maintaining your Zip drive disks"
 msgstr ""
 
+#. Menu entry for usr/lib/menu/gtm
+msgid "Gtm"
+msgstr "Gtm"
+
+#. Menu description for usr/lib/menu/gtm
+#, fuzzy
+msgid "Gnome transfert manager"
+msgstr "Cluiche Gnome Tetravex"
+
 #. Menu entry for usr/lib/menu/gtop
-msgid "gtop"
+msgid "Gtop"
 msgstr "gtop"
 
 #. Menu description for usr/lib/menu/gtop
 msgid "The GNOME system monitor"
 msgstr ""
 
-#. Menu entry for usr/lib/menu/gtv
-msgid "gtv"
-msgstr "gtv"
+#. Menu entry for usr/lib/menu/gtulpas
+#, fuzzy
+msgid "Gnome Tulpas"
+msgstr "Caint Gnome"
 
-#. Menu description for usr/lib/menu/gtv
-msgid "gtv: MPEG player"
-msgstr ""
-
-#. Menu entry for usr/lib/menu/guile
-msgid "GNU extension language"
-msgstr ""
+#. Menu description for usr/lib/menu/gtulpas
+#, fuzzy
+msgid "Gnome Tulpas is a pool game"
+msgstr "Cluiche ataxx do Gnome"
 
 #. Menu entry for usr/lib/menu/gv
-msgid "gv"
-msgstr "gv"
-
-#. Menu description for usr/lib/menu/gv
 msgid "GhostView"
 msgstr "GhostView"
+
+#. Menu description for usr/lib/menu/gv
+msgid "GhostView, PostScript and PDF viewer"
+msgstr ""
 
 #. Menu entry for usr/lib/menu/harddrake
 msgid "HardDrake"
@@ -1335,113 +1928,180 @@ msgstr "HardDrake"
 msgid "Hardware Central Configuration/information tool"
 msgstr "Is é HardDrake an príomh-uirlis cumrú crua-earraí"
 
-#. Menu tree branch (found in usr/lib/menu/harddrake)
-msgid "Hardware"
-msgstr "Crua-earra"
+#. Menu entry for usr/lib/menu/howto-html-de
+msgid "Howtos German"
+msgstr "Doicuméid as Germáinis"
 
-#. Menu entry for usr/lib/menu/howto-html-de_menuentries
+#. Menu description for usr/lib/menu/howto-html-de
 msgid ""
 "HOWTO documents (html format) from the Linux Documentation Project in German"
 msgstr ""
 
-#. Menu tree branch (found in usr/lib/menu/howto-html-de_menuentries)
-msgid "Documentation"
-msgstr "Doiciméid KDE agus Mandrake"
+#. Menu entry for usr/lib/menu/howto-html-el
+msgid "Howtos Greek"
+msgstr ""
 
-#. Menu entry for usr/lib/menu/howto-html-el_menuentries
+#. Menu description for usr/lib/menu/howto-html-el
 msgid ""
 "HOWTO documents (html format) from the Linux Documentation Project in Greek"
 msgstr ""
 
-#. Menu entry for usr/lib/menu/howto-html-en_menuentries
+#. Menu entry for usr/lib/menu/howto-html-en
+msgid "Howtos English"
+msgstr ""
+
+#. Menu description for usr/lib/menu/howto-html-en
 msgid ""
 "HOWTO documents (html format) from the Linux Documentation Project in English"
 msgstr ""
 
-#. Menu entry for usr/lib/menu/howto-html-es_menuentries
+#. Menu entry for usr/lib/menu/howto-html-es
+msgid "Howtos Spanish"
+msgstr ""
+
+#. Menu description for usr/lib/menu/howto-html-es
 msgid ""
 "HOWTO documents (html format) from the Linux Documentation Project in Spanish"
 msgstr ""
 
-#. Menu entry for usr/lib/menu/howto-html-fr_menuentries
+#. Menu entry for usr/lib/menu/howto-html-fr
+msgid "Howtos French"
+msgstr ""
+
+#. Menu description for usr/lib/menu/howto-html-fr
 msgid ""
 "HOWTO documents (html format) from the Linux Documentation Project in French"
 msgstr ""
 
-#. Menu entry for usr/lib/menu/howto-html-hr_menuentries
+#. Menu entry for usr/lib/menu/howto-html-hr
+msgid "Howtos Croatian"
+msgstr ""
+
+#. Menu description for usr/lib/menu/howto-html-hr
 msgid ""
 "HOWTO documents (html format) from the Linux Documentation Project in "
 "Croatian"
 msgstr ""
 
-#. Menu entry for usr/lib/menu/howto-html-id_menuentries
+#. Menu entry for usr/lib/menu/howto-html-hu
+msgid "Howtos Hungarian"
+msgstr ""
+
+#. Menu description for usr/lib/menu/howto-html-hu
+msgid ""
+"HOWTO documents (html format) from the Linux Documentation Project in "
+"Hungarian"
+msgstr ""
+
+#. Menu entry for usr/lib/menu/howto-html-id
+msgid "Howtos Indonesian"
+msgstr ""
+
+#. Menu description for usr/lib/menu/howto-html-id
 msgid ""
 "HOWTO documents (html format) from the Linux Documentation Project in "
 "Indonesian"
 msgstr ""
 
-#. Menu entry for usr/lib/menu/howto-html-it_menuentries
+#. Menu entry for usr/lib/menu/howto-html-it
+msgid "Howtos Italian"
+msgstr ""
+
+#. Menu description for usr/lib/menu/howto-html-it
 msgid ""
 "HOWTO documents (html format) from the Linux Documentation Project in Italian"
 msgstr ""
 
-#. Menu entry for usr/lib/menu/howto-html-ja_menuentries
+#. Menu entry for usr/lib/menu/howto-html-ja
+msgid "Howtos Japanese"
+msgstr ""
+
+#. Menu description for usr/lib/menu/howto-html-ja
 msgid ""
 "HOWTO documents (html format) from the Linux Documentation Project in "
 "Japanese"
 msgstr ""
 
-#. Menu entry for usr/lib/menu/howto-html-ko_menuentries
+#. Menu entry for usr/lib/menu/howto-html-ko
+msgid "Howtos Korean"
+msgstr "Doicuméid as Choréis"
+
+#. Menu description for usr/lib/menu/howto-html-ko
 msgid ""
 "HOWTO documents (html format) from the Linux Documentation Project in Korean"
 msgstr ""
 
-#. Menu entry for usr/lib/menu/howto-html-pl_menuentries
+#. Menu entry for usr/lib/menu/howto-html-nl
+msgid "Howtos Dutch"
+msgstr ""
+
+#. Menu description for usr/lib/menu/howto-html-nl
+msgid ""
+"HOWTO documents (html format) from the Linux Documentation Project in Dutch"
+msgstr ""
+
+#. Menu entry for usr/lib/menu/howto-html-pl
+msgid "Howtos Polish"
+msgstr ""
+
+#. Menu description for usr/lib/menu/howto-html-pl
 msgid ""
 "HOWTO documents (html format) from the Linux Documentation Project in Polish"
 msgstr ""
 
-#. Menu entry for usr/lib/menu/howto-html-ro_menuentries
+#. Menu entry for usr/lib/menu/howto-html-ro
+msgid "Howtos Romanian"
+msgstr ""
+
+#. Menu description for usr/lib/menu/howto-html-ro
 msgid ""
 "HOWTO documents (html format) from the Linux Documentation Project in "
 "Romanian"
 msgstr ""
 
-#. Menu entry for usr/lib/menu/howto-html-sl_menuentries
+#. Menu entry for usr/lib/menu/howto-html-sl
+msgid "Howtos Slovenian"
+msgstr ""
+
+#. Menu description for usr/lib/menu/howto-html-sl
 msgid ""
 "HOWTO documents (html format) from the Linux Documentation Project in "
 "Slovenian"
 msgstr ""
 
-#. Menu entry for usr/lib/menu/howto-html-sv_menuentries
+#. Menu entry for usr/lib/menu/howto-html-sv
+msgid "Howtos Swedish"
+msgstr ""
+
+#. Menu description for usr/lib/menu/howto-html-sv
 msgid ""
 "HOWTO documents (html format) from the Linux Documentation Project in Swedish"
 msgstr ""
 
-#. Menu entry for usr/lib/menu/howto-html-zh_menuentries
+#. Menu entry for usr/lib/menu/howto-html-zh
+msgid "Howtos Chinese"
+msgstr ""
+
+#. Menu description for usr/lib/menu/howto-html-zh
 msgid ""
 "HOWTO documents (html format) from the Linux Documentation Project in Chinese"
 msgstr ""
 
-#. Menu entry for usr/lib/menu/hugs98
-msgid "hugs"
-msgstr ""
-
-#. Menu description for usr/lib/menu/hugs98
-msgid "The Nottingham and Yale Haskell system"
-msgstr ""
-
 #. Menu entry for usr/lib/menu/ical
 msgid "Ical"
-msgstr "Ical"
+msgstr "Feilire"
 
 #. Menu description for usr/lib/menu/ical
 msgid "Calendar program"
-msgstr "Féilire"
+msgstr "Féilire (Ical)"
 
-#. Menu entry for usr/lib/menu/iceconf
-msgid "iceconf"
-msgstr "iceconf"
+#. Menu entry for usr/lib/menu/icebreaker
+msgid "IceBreaker"
+msgstr ""
+
+#. Menu description for usr/lib/menu/icebreaker
+msgid "Action-puzzle game involving bouncing penguins"
+msgstr ""
 
 #. Menu description for usr/lib/menu/iceconf
 msgid "IceWM Configuration tool"
@@ -1451,16 +2111,16 @@ msgstr ""
 msgid "IceWM"
 msgstr "IceWM"
 
-#. Menu entry for usr/lib/menu/icepref
-msgid "icepref"
-msgstr "icepref"
+#. Menu tree branch (found in usr/lib/menu/iceconf)
+msgid "Settings"
+msgstr "Cumraíocht"
 
 #. Menu entry for usr/lib/menu/irssi
 msgid "Irssi"
 msgstr "Irssi"
 
 #. Menu description for usr/lib/menu/irssi
-msgid "An Gtk based Irc Client"
+msgid "A Gtk based Irc Client"
 msgstr ""
 
 #. Menu tree branch (found in usr/lib/menu/irssi)
@@ -1472,88 +2132,1850 @@ msgid "Joe"
 msgstr "Joe"
 
 #. Menu description for usr/lib/menu/joe
-msgid "Joe - a text AINSI editor"
+msgid "Joe - a text ANSI editor"
 msgstr ""
 
-#. Menu entry for usr/lib/menu/kab
-msgid "Kab"
-msgstr "Kab"
-
-#. Menu tree branch (found in usr/lib/menu/kab)
-msgid "Communications"
+#. Menu entry for usr/lib/menu/jpilot
+msgid "J-Pilot"
 msgstr ""
 
-#. Menu entry for usr/lib/menu/kaiman
-msgid "kaiman"
-msgstr "kaiman"
+#. Menu entry for usr/lib/menu/jrxvt
+msgid "jrxvt(JIS)"
+msgstr "Teirminéal Seápanais"
 
-#. Menu entry for usr/lib/menu/karm
-msgid "Karm"
-msgstr "Karm"
+#. Menu description for usr/lib/menu/jrxvt
+msgid "Japanese rxvt terminal"
+msgstr "jrxvt(JIS)"
 
 #. Menu entry for usr/lib/menu/katalog
-msgid "katalog"
+msgid "Katalog"
 msgstr "katalog"
 
-#. Menu entry for usr/lib/menu/kautorun
-msgid "kautorun"
-msgstr "kautorun"
+#. Menu description for usr/lib/menu/katalog
+#, fuzzy
+msgid "Image Catalog"
+msgstr "katalog"
 
-#. Menu entry for usr/lib/menu/kbabel
-msgid "KBabel"
-msgstr "KBabel"
-
-#. Menu entry for usr/lib/menu/kbiff
-msgid "kbiff"
-msgstr "kbiff"
-
-#. Menu entry for usr/lib/menu/kcalc
-msgid "KCalculator"
-msgstr "KCalculator"
-
-#. Menu entry for usr/lib/menu/kcharselect
-msgid "KCharselect"
-msgstr "KCharselect"
+#. Menu description for usr/lib/menu/kbiff
+msgid "A mail notification utility"
+msgstr ""
 
 #. Menu entry for usr/lib/menu/kchart
 msgid "KChart"
 msgstr "KChart"
 
-#. Menu entry for usr/lib/menu/kcoloredit
-msgid "kcoloredit"
-msgstr "kcoloredit"
+#. Menu description for usr/lib/menu/kchart
+msgid "Chart"
+msgstr "Chart"
 
-#. Menu entry for usr/lib/menu/kcontrol
-msgid "KControl"
-msgstr "KControl"
+#. Menu entry for usr/lib/menu/kcmclock
+msgid "Set clock"
+msgstr "Cumraigh chlog"
+
+#. Menu description for usr/lib/menu/kcmclock
+msgid "Set your system clock"
+msgstr ""
+
+#. Menu entry for usr/lib/menu/kcmkdesu
+#, fuzzy
+msgid "KDE su configuration"
+msgstr "Cumraigh X"
+
+#. Menu description for usr/lib/menu/kcmkdesu
+msgid "KDE frontend to su(1) command"
+msgstr ""
+
+#. Menu entry for usr/lib/menu/kcmlaptop
+#, fuzzy
+msgid "Laptop settings"
+msgstr "Cumraíocht Barr Deisce"
+
+#. Menu description for usr/lib/menu/kcmlaptop
+msgid "Configure your laptop's power saving features"
+msgstr ""
+
+#. Menu entry for usr/lib/menu/kcolorchooser
+msgid "Color Chooser"
+msgstr "Roghnóir Dath"
+
+#. Menu description for usr/lib/menu/kcolorchooser
+msgid "Stand alone KDE color chooser"
+msgstr ""
+
+#. Menu entry for usr/lib/menu/kcoloredit
+#, fuzzy
+msgid "Palette Editor"
+msgstr "Eagarthóir beag"
+
+#. Menu description for usr/lib/menu/kcoloredit
+msgid "An editor for palette files"
+msgstr ""
+
+#. Menu entry for usr/lib/menu/kcpuload
+msgid "Kcpuload"
+msgstr ""
+
+#. Menu description for usr/lib/menu/kcpuload
+msgid "Small applet which displays cpu time for KDE kicker"
+msgstr ""
 
 #. Menu entry for usr/lib/menu/kcron
-msgid "Kcron"
-msgstr "Kcron"
+msgid "Task Scheduler"
+msgstr ""
 
-#. Menu entry for usr/lib/menu/kdat
-msgid "Kdat"
-msgstr "Kdat"
+#. Menu description for usr/lib/menu/kcron
+msgid "Schedule programs to run in the background"
+msgstr ""
 
 #. Menu entry for usr/lib/menu/kdbg
-msgid "KDE debugger"
-msgstr "KDE debugger"
+msgid "Kdbg"
+msgstr "Kdbg"
 
-#. Menu entry for usr/lib/menu/kdepasswd
-msgid "KDEPassword"
-msgstr "KDEPassword"
+#. Menu description for usr/lib/menu/kdbg
+#, fuzzy
+msgid "A Graphical Debugger Interface"
+msgstr "Bainisteoir Chomad"
 
-#. Menu entry for usr/lib/menu/kdesetup
-msgid "KDESetup"
-msgstr "KDESetup"
+#. Menu entry for usr/lib/menu/kdeadmin
+msgid "Tape Backup Tool"
+msgstr ""
+
+#. Menu description for usr/lib/menu/kdeadmin
+msgid "A tar based archiver"
+msgstr ""
+
+#. Menu tree branch (found in usr/lib/menu/kdeadmin)
+msgid "Backup"
+msgstr ""
+
+#. Menu entry for usr/lib/menu/kdeadmin
+#, fuzzy
+msgid "SysV Init Editor"
+msgstr "Eagarthóir VI"
+
+#. Menu description for usr/lib/menu/kdeadmin
+msgid "An Editor for System V Init schemes"
+msgstr ""
+
+#. Menu entry for usr/lib/menu/kdeadmin
+#, fuzzy
+msgid "User Manager"
+msgstr "Bainisteóir seirbhísí túsach"
+
+#. Menu description for usr/lib/menu/kdeadmin
+#, fuzzy
+msgid "Full Featured User Manager"
+msgstr "Bainisteóir seirbhísí túsach"
+
+#. Menu entry for usr/lib/menu/kdeadmin-kpackage
+#, fuzzy
+msgid "Package Manager"
+msgstr "Bainisteoir Chomad"
+
+#. Menu description for usr/lib/menu/kdeadmin-kpackage
+msgid "kpackage RPM and DEB manager"
+msgstr ""
+
+#. Menu entry for usr/lib/menu/kdeadmin-ksysctrl
+#, fuzzy
+msgid "KDE System Control"
+msgstr ""
+
+#. Menu description for usr/lib/menu/kdeadmin-ksysctrl
+#, fuzzy
+msgid "Windows-like hardware configuration tool"
+msgstr "Cumraigh X"
+
+#. Menu tree branch (found in usr/lib/menu/kdeadmin-ksysctrl)
+msgid "System"
+msgstr "Corás"
+
+#. Menu entry for usr/lib/menu/kdeadmin-ksysv
+msgid "SysV-Init Editor"
+msgstr "Eagarthóir SysV-Init"
+
+#. Menu entry for usr/lib/menu/kdeadmin-kwuftpd
+msgid "FTPD Editor"
+msgstr "Eagarthoir FTPD"
+
+#. Menu description for usr/lib/menu/kdeadmin-kwuftpd
+msgid "KDE front-end to wu-ftpd config files"
+msgstr ""
+
+#. Menu entry for usr/lib/menu/kdebase
+#, fuzzy
+msgid "System Information"
+msgstr "Eolas Choráis"
+
+#. Menu entry for usr/lib/menu/kdebase
+msgid "Input Devices"
+msgstr "Gaireasanna Inchur"
+
+#. Menu entry for usr/lib/menu/kdebase
+msgid "Keys"
+msgstr "Mearchlár"
+
+#. Menu entry for usr/lib/menu/kdebase
+msgid "Network"
+msgstr "Greasán"
+
+#. Menu entry for usr/lib/menu/kdebase
+msgid "Login Manager"
+msgstr "Bainisteoir Logann"
+
+#. Menu description for usr/lib/menu/kdebase
+msgid "All KDM settings"
+msgstr "Gach roghnachais KDM"
+
+#. Menu entry for usr/lib/menu/kdebase
+msgid "Console"
+msgstr "Consóil"
+
+#. Menu description for usr/lib/menu/kdebase
+msgid "All Konsole Settings"
+msgstr "Gach roghnachais Konsole"
+
+#. Menu description for usr/lib/menu/kdebase
+msgid "Arrange Desktop Icons"
+msgstr ""
+
+#. Menu tree branch (found in usr/lib/menu/kdebase)
+msgid "Action"
+msgstr ""
+
+#. Menu entry for usr/lib/menu/kdebase
+msgid "Fontmanager"
+msgstr "Bainisteóir chlófhoireann"
+
+#. Menu description for usr/lib/menu/kdebase
+msgid "KDE's Fontmanager."
+msgstr "Bainisteóir chlófhoireann do KDE"
+
+#. Menu entry for usr/lib/menu/kdebase
+msgid "File manager (Mode Super User)"
+msgstr ""
+
+#. Menu description for usr/lib/menu/kdebase
+#, fuzzy
+msgid "The KDE file manager"
+msgstr "Bainisteoir Chomad"
+
+#. Menu entry for usr/lib/menu/kdebase
+#, fuzzy
+msgid "Theme Manager"
+msgstr "Bainisteoir Chomad"
+
+#. Menu description for usr/lib/menu/kdebase
+msgid "Manager for Desktop Themes"
+msgstr ""
+
+#. Menu entry for usr/lib/menu/kdebase
+msgid "Colors"
+msgstr "Dathanna"
+
+#. Menu description for usr/lib/menu/kdebase
+#, fuzzy
+msgid "Color settings"
+msgstr "Cumraíocht"
+
+#. Menu description for usr/lib/menu/kdebase
+msgid "Screensaver settings"
+msgstr ""
+
+#. Menu entry for usr/lib/menu/kdebase
+msgid "Fonts"
+msgstr "Chlófhoireann"
+
+#. Menu description for usr/lib/menu/kdebase
+msgid "Font settings"
+msgstr "Cumraíocht Chlófhoireanna"
+
+#. Menu entry for usr/lib/menu/kdebase
+msgid "Style"
+msgstr "Stíl"
+
+#. Menu description for usr/lib/menu/kdebase
+msgid "General style settings"
+msgstr ""
+
+#. Menu description for usr/lib/menu/kdebase
+msgid "Background settings"
+msgstr "Cumraigh Cúlra"
+
+#. Menu entry for usr/lib/menu/kdebase
+msgid "Language"
+msgstr "Teanga"
+
+#. Menu description for usr/lib/menu/kdebase
+msgid "Language settings"
+msgstr "Cumraigh na Teangacha"
+
+#. Menu entry for usr/lib/menu/kdebase
+msgid "Borders"
+msgstr ""
+
+#. Menu description for usr/lib/menu/kdebase
+#, fuzzy
+msgid "Desktop Border Options"
+msgstr "Cumraíocht Barr Deisce"
+
+#. Menu entry for usr/lib/menu/kdebase
+#, fuzzy
+msgid "Desktop Icons"
+msgstr "Deasc"
+
+#. Menu description for usr/lib/menu/kdebase
+msgid "You can customize the desktop icons here"
+msgstr ""
+
+#. Menu description for usr/lib/menu/kdebase
+#, fuzzy
+msgid "Mouse settings"
+msgstr "Roghnachais Luchóg"
+
+#. Menu description for usr/lib/menu/kdebase
+#, fuzzy
+msgid "Keyboard settings"
+msgstr "Roghnachais Méarchlár"
+
+#. Menu entry for usr/lib/menu/kdebase
+#, fuzzy
+msgid "International Keyboard"
+msgstr "Roghnachais Méarchlár"
+
+#. Menu entry for usr/lib/menu/kdebase
+msgid "Bell"
+msgstr "Clog"
+
+#. Menu description for usr/lib/menu/kdebase
+msgid "Bell settings"
+msgstr "Cumraíocht Chloig"
+
+#. Menu entry for usr/lib/menu/kdebase
+msgid "System Sounds"
+msgstr "Fuaim do Choráis"
+
+#. Menu description for usr/lib/menu/kdebase
+#, fuzzy
+msgid "System Sound Configuration"
+msgstr "Cumraigh X"
+
+#. Menu entry for usr/lib/menu/kdebase
+msgid "Buttons"
+msgstr "Cnaipí"
+
+#. Menu description for usr/lib/menu/kdebase
+msgid "Arrangement of window buttons"
+msgstr ""
+
+#. Menu entry for usr/lib/menu/kdebase
+msgid "Properties"
+msgstr "Roghnachais"
+
+#. Menu description for usr/lib/menu/kdebase
+#, fuzzy
+msgid "Window properties"
+msgstr "Roghnachais Luchóg"
+
+#. Menu entry for usr/lib/menu/kdebase
+msgid "Advanced"
+msgstr ""
+
+#. Menu description for usr/lib/menu/kdebase
+msgid "Advanced window properties"
+msgstr ""
+
+#. Menu entry for usr/lib/menu/kdebase
+msgid "Titlebar"
+msgstr ""
+
+#. Menu description for usr/lib/menu/kdebase
+msgid "Titlebar appearance"
+msgstr ""
+
+#. Menu description for usr/lib/menu/kdebase
+#, fuzzy
+msgid "Configure mouse bindings"
+msgstr "Cumraigh fetchmail"
+
+#. Menu entry for usr/lib/menu/kdebase
+msgid "Memory"
+msgstr "Cuimhne"
+
+#. Menu description for usr/lib/menu/kdebase
+msgid "Memory information"
+msgstr "Eolais Cuimhne"
+
+#. Menu entry for usr/lib/menu/kdebase
+msgid "Processor"
+msgstr ""
+
+#. Menu description for usr/lib/menu/kdebase
+msgid "Processor information"
+msgstr ""
+
+#. Menu entry for usr/lib/menu/kdebase
+msgid "DMA-Channels"
+msgstr "Bealachaí-DMA"
+
+#. Menu description for usr/lib/menu/kdebase
+msgid "DMA information"
+msgstr "Eolas DMA"
+
+#. Menu entry for usr/lib/menu/kdebase
+msgid "Interrupts"
+msgstr "Idirbhriseanna"
+
+#. Menu description for usr/lib/menu/kdebase
+msgid "Interrupt information"
+msgstr "Eolas do Idirbhriseanna"
+
+#. Menu entry for usr/lib/menu/kdebase
+msgid "IO-Ports"
+msgstr "Portaí IO"
+
+#. Menu description for usr/lib/menu/kdebase
+msgid "IO-port information"
+msgstr "Eolas do Portaí IO"
+
+#. Menu entry for usr/lib/menu/kdebase
+msgid "PCI"
+msgstr "PCI"
+
+#. Menu description for usr/lib/menu/kdebase
+msgid "PCI information"
+msgstr "Cumraigh X"
+
+#. Menu description for usr/lib/menu/kdebase
+#, fuzzy
+msgid "Sound information"
+msgstr "Cumraigh X"
+
+#. Menu entry for usr/lib/menu/kdebase
+msgid "Devices"
+msgstr "Gaireaí"
+
+#. Menu description for usr/lib/menu/kdebase
+msgid "Attached devices information"
+msgstr ""
+
+#. Menu entry for usr/lib/menu/kdebase
+msgid "SCSI"
+msgstr "SCSI"
+
+#. Menu description for usr/lib/menu/kdebase
+msgid "SCSI information"
+msgstr "Eolas SCSI"
+
+#. Menu entry for usr/lib/menu/kdebase
+msgid "X-Server"
+msgstr "Freastalaí X"
+
+#. Menu description for usr/lib/menu/kdebase
+#, fuzzy
+msgid "X-Server information"
+msgstr "Eolas Choráis"
+
+#. Menu entry for usr/lib/menu/kdebase
+msgid "Samba Status"
+msgstr ""
+
+#. Menu description for usr/lib/menu/kdebase
+msgid "Samba status monitor"
+msgstr ""
+
+#. Menu entry for usr/lib/menu/kdebase
+msgid "Panel"
+msgstr "Panéil"
+
+#. Menu description for usr/lib/menu/kdebase
+msgid "You can configure the appearance of the panel here"
+msgstr ""
+
+#. Menu entry for usr/lib/menu/kdebase
+msgid "File Manager"
+msgstr "Bainisteoir Chomad"
+
+#. Menu description for usr/lib/menu/kdebase
+msgid "You can configure the look and feel of the File Manager here"
+msgstr ""
+
+#. Menu entry for usr/lib/menu/kdebase
+msgid "Web browser"
+msgstr "Líonléitheoir"
+
+#. Menu description for usr/lib/menu/kdebase
+msgid "You can configure the web browser here"
+msgstr ""
+
+#. Menu entry for usr/lib/menu/kdebase
+msgid "Standard Keys"
+msgstr ""
+
+#. Menu description for usr/lib/menu/kdebase
+#, fuzzy
+msgid "Configuration of standard keys"
+msgstr "Cumraigh X"
+
+#. Menu entry for usr/lib/menu/kdebase
+msgid "Global Keys"
+msgstr ""
+
+#. Menu description for usr/lib/menu/kdebase
+msgid "Configuration of global keybindings"
+msgstr ""
+
+#. Menu entry for usr/lib/menu/kdebase
+msgid "Konsole"
+msgstr "Konsole"
+
+#. Menu description for usr/lib/menu/kdebase
+msgid "Terminal (konsole)"
+msgstr "Teirminéal (konsole)"
+
+#. Menu entry for usr/lib/menu/kdebase
+msgid "Menu Editor"
+msgstr "Eagarthóir Chlár"
+
+#. Menu description for usr/lib/menu/kdebase
+msgid "Program to change the menus of kpanel"
+msgstr ""
+
+#. Menu entry for usr/lib/menu/kdebase
+msgid "KDE Help"
+msgstr "Cúidiú KDE"
+
+#. Menu description for usr/lib/menu/kdebase
+msgid "KDE Help is the KDE on-line help browser"
+msgstr ""
+
+#. Menu entry for usr/lib/menu/kdebase
+msgid "Home Directory"
+msgstr "Comhadlann Cinn"
+
+#. Menu description for usr/lib/menu/kdebase
+msgid "This folder contains all your personal files"
+msgstr ""
+
+#. Menu entry for usr/lib/menu/kdebase
+msgid "Find Files"
+msgstr ""
+
+#. Menu description for usr/lib/menu/kdebase
+msgid "Find Utility"
+msgstr ""
+
+#. Menu entry for usr/lib/menu/kdebase
+msgid "Refresh Desktop"
+msgstr ""
+
+#. Menu description for usr/lib/menu/kdebase
+msgid "Update desktop icons"
+msgstr ""
+
+#. Menu entry for usr/lib/menu/kdebase
+msgid "KDE Control Center"
+msgstr "KControl"
+
+#. Menu entry for usr/lib/menu/kdebase
+msgid "Kwm"
+msgstr "Kwm"
+
+#. Menu description for usr/lib/menu/kdebase
+#, fuzzy
+msgid "KDE window manager"
+msgstr "Bainisteóir seirbhísí túsach"
+
+#. Menu entry for usr/lib/menu/kdebase-KBanner
+msgid "Banner"
+msgstr ""
+
+#. Menu tree branch (found in usr/lib/menu/kdebase-KBanner)
+msgid ".hidden"
+msgstr ".hidden"
+
+#. Menu tree branch (found in usr/lib/menu/kdebase-KBanner)
+msgid "ScreenSavers"
+msgstr ""
+
+#. Menu entry for usr/lib/menu/kdebase-KBlankscreen
+msgid "Blank Screen"
+msgstr ""
+
+#. Menu entry for usr/lib/menu/kdebase-KBlob
+msgid "Blob"
+msgstr "Blob"
+
+#. Menu entry for usr/lib/menu/kdebase-KBouboule
+msgid "Bouboule"
+msgstr "Bloboule"
+
+#. Menu entry for usr/lib/menu/kdebase-KBsod
+msgid "Blue Screen of Death"
+msgstr ""
+
+#. Menu entry for usr/lib/menu/kdebase-KHop
+msgid "Hop"
+msgstr "Hop"
+
+#. Menu entry for usr/lib/menu/kdebase-KLines
+msgid "Lines"
+msgstr "Líne"
+
+#. Menu entry for usr/lib/menu/kdebase-KLorenz
+msgid "Lorenz Attractor"
+msgstr "LOrenz Attractor"
+
+#. Menu entry for usr/lib/menu/kdebase-KMorph3D
+msgid "Morph3D (GL)"
+msgstr "Morph3D (GL)"
+
+#. Menu entry for usr/lib/menu/kdebase-KPipes
+msgid "Pipes (GL)"
+msgstr "Píopa (GL)"
+
+#. Menu entry for usr/lib/menu/kdebase-KPolygon
+msgid "Polygons"
+msgstr ""
+
+#. Menu entry for usr/lib/menu/kdebase-KPyro
+msgid "Pyro"
+msgstr "Pyro"
+
+#. Menu entry for usr/lib/menu/kdebase-KRandom
+msgid "Random"
+msgstr ""
+
+#. Menu entry for usr/lib/menu/kdebase-KRock
+msgid "Rock"
+msgstr "Cloch"
+
+#. Menu entry for usr/lib/menu/kdebase-KScience
+msgid "Science"
+msgstr "Eolaíocht"
+
+#. Menu entry for usr/lib/menu/kdebase-KSlidescreen
+msgid "Slide Screen"
+msgstr ""
+
+#. Menu entry for usr/lib/menu/kdebase-KSlideshow
+msgid "Slide Show"
+msgstr ""
+
+#. Menu entry for usr/lib/menu/kdebase-KSpace
+msgid "Space (GL)"
+msgstr ""
+
+#. Menu entry for usr/lib/menu/kdebase-KSwarm
+msgid "Swarm"
+msgstr "Swarm"
+
+#. Menu entry for usr/lib/menu/kdebase-KVm
+msgid "Virtual Machine"
+msgstr ""
+
+#. Menu entry for usr/lib/menu/kdebase-arts
+msgid "Sound Server"
+msgstr "Freastalaí Fuaim"
+
+#. Menu description for usr/lib/menu/kdebase-arts
+msgid "Sound Server Configuration"
+msgstr "Cumraigh do Freastalaí Fuaim"
+
+#. Menu entry for usr/lib/menu/kdebase-basedir
+msgid "FileBrowsing"
+msgstr ""
+
+#. Menu entry for usr/lib/menu/kdebase-basedir
+msgid "Help"
+msgstr "Cúidiú"
+
+#. Menu entry for usr/lib/menu/kdebase-basedir
+msgid "Information"
+msgstr "Eolas"
+
+#. Menu entry for usr/lib/menu/kdebase-basedir
+msgid "Personalization"
+msgstr ""
+
+#. Menu entry for usr/lib/menu/kdebase-basedir
+msgid "PowerControl"
+msgstr ""
+
+#. Menu entry for usr/lib/menu/kdebase-basedir
+msgid "WebBrowsing"
+msgstr ""
+
+#. Menu entry for usr/lib/menu/kdebase-bell
+#, fuzzy
+msgid "System Bell"
+msgstr "Eolas choráis"
+
+#. Menu description for usr/lib/menu/kdebase-bell
+msgid "System Bell Configuration"
+msgstr ""
+
+#. Menu entry for usr/lib/menu/kdebase-clock
+msgid "Date & Time"
+msgstr "Am & Dáta"
+
+#. Menu description for usr/lib/menu/kdebase-clock
+#, fuzzy
+msgid "Date and time settings"
+msgstr "Cumraigh Iomanna lódail agus taispeaínt"
+
+#. Menu entry for usr/lib/menu/kdebase-cookies
+msgid "Cookies"
+msgstr ""
+
+#. Menu description for usr/lib/menu/kdebase-cookies
+msgid "You can configure your Cookie configuration here"
+msgstr ""
+
+#. Menu entry for usr/lib/menu/kdebase-crypto
+msgid "Crypto"
+msgstr ""
+
+#. Menu description for usr/lib/menu/kdebase-crypto
+msgid "Configure SSL, manage certificates, and other cryptography settings"
+msgstr ""
+
+#. Menu description for usr/lib/menu/kdebase-desktop
+msgid "You can customize the desktop here"
+msgstr ""
+
+#. Menu entry for usr/lib/menu/kdebase-ebrowsing
+msgid "Enhanced Browsing"
+msgstr ""
+
+#. Menu description for usr/lib/menu/kdebase-ebrowsing
+msgid "You can configure Enhanced Browsing here"
+msgstr ""
+
+#. Menu entry for usr/lib/menu/kdebase-email
+#, fuzzy
+msgid "E-Mail"
+msgstr "Ríomhphost"
+
+#. Menu description for usr/lib/menu/kdebase-email
+msgid "Configure your identity, e-mail addresses, mail servers, etc."
+msgstr ""
+
+#. Menu entry for usr/lib/menu/kdebase-energy
+msgid "Energy"
+msgstr ""
+
+#. Menu description for usr/lib/menu/kdebase-energy
+msgid "General energy settings"
+msgstr ""
+
+#. Menu entry for usr/lib/menu/kdebase-filetypes
+msgid "File Associations"
+msgstr ""
+
+#. Menu description for usr/lib/menu/kdebase-filetypes
+#, fuzzy
+msgid "File Associations Configuration"
+msgstr "Cumraigh X"
+
+#. Menu description for usr/lib/menu/kdebase-help
+msgid "Comprehensive on-line help"
+msgstr ""
+
+#. Menu entry for usr/lib/menu/kdebase-htmlsearch
+msgid "Index"
+msgstr "Inneacs"
+
+#. Menu description for usr/lib/menu/kdebase-htmlsearch
+msgid "Index generation"
+msgstr ""
+
+#. Menu entry for usr/lib/menu/kdebase-icons
+msgid "Icons"
+msgstr "Dealbhaí"
+
+#. Menu description for usr/lib/menu/kdebase-icons
+msgid "Customize KDE Icons"
+msgstr ""
+
+#. Menu entry for usr/lib/menu/kdebase-ioslaveinfo
+msgid "KDE IOSlaves"
+msgstr ""
+
+#. Menu description for usr/lib/menu/kdebase-ioslaveinfo
+msgid "Information about the available ioslaves"
+msgstr ""
+
+#. Menu description for usr/lib/menu/kdebase-kcmaccess
+msgid "Improved accessibility for disabled persons"
+msgstr ""
+
+#. Menu description for usr/lib/menu/kdebase-kcmkonq
+msgid "You can configure the look and feel of the Konqueror here"
+msgstr ""
+
+#. Menu entry for usr/lib/menu/kdebase-kcmlayout
+#, fuzzy
+msgid "Keyboard layout"
+msgstr "Roghnachais Méarchlár"
+
+#. Menu description for usr/lib/menu/kdebase-kcmlayout
+msgid "Configure keyboard layouts"
+msgstr ""
+
+#. Menu entry for usr/lib/menu/kdebase-kcmnotify
+#, fuzzy
+msgid "System Notifications"
+msgstr "Eolas Choráis"
+
+#. Menu description for usr/lib/menu/kdebase-kcmnotify
+#, fuzzy
+msgid "System Notification Configuration"
+msgstr "Cumraigh X"
+
+#. Menu entry for usr/lib/menu/kdebase-kcmsmserver
+#, fuzzy
+msgid "Session Manager"
+msgstr "Bainisteoir Chomad"
+
+#. Menu description for usr/lib/menu/kdebase-kcmsmserver
+msgid "You can configure the session manager here"
+msgstr ""
+
+#. Menu entry for usr/lib/menu/kdebase-kcmtaskbar
+msgid "Taskbar"
+msgstr ""
+
+#. Menu description for usr/lib/menu/kdebase-kcmtaskbar
+msgid "You can configure the panel taskbar here"
+msgstr ""
+
+#. Menu entry for usr/lib/menu/kdebase-kcontrol
+#, fuzzy
+msgid "Control Center"
+msgstr "KControl"
+
+#. Menu description for usr/lib/menu/kdebase-kcontrol
+msgid "A central place to configure your desktop environment"
+msgstr ""
+
+#. Menu entry for usr/lib/menu/kdebase-keditbookmarks
+#, fuzzy
+msgid "Bookmarks Editor"
+msgstr "Eagarthoireanna"
+
+#. Menu description for usr/lib/menu/kdebase-keditbookmarks
+msgid "Edit your Konqueror Bookmarks"
+msgstr ""
+
+#. Menu entry for usr/lib/menu/kdebase-keys
+msgid "Key bindings"
+msgstr ""
+
+#. Menu description for usr/lib/menu/kdebase-keys
+#, fuzzy
+msgid "Configuration of keybindings"
+msgstr "Cumraigh X"
+
+#. Menu entry for usr/lib/menu/kdebase-kfmclient
+msgid "Konqueror"
+msgstr "Konqueror"
+
+#. Menu entry for usr/lib/menu/kdebase-klegacyimpor
+#, fuzzy
+msgid "Legacy theme importer"
+msgstr "KLegacyImport"
+
+#. Menu description for usr/lib/menu/kdebase-klegacyimpor
+msgid "Imports GTK themes to KDE2"
+msgstr ""
+
+#. Menu entry for usr/lib/menu/kdebase-klipper
+msgid "Cut & Paste History"
+msgstr ""
+
+#. Menu description for usr/lib/menu/kdebase-kmenuedit
+#, fuzzy
+msgid "The KDE Menu Editor"
+msgstr "Eagarthóir VI"
+
+#. Menu entry for usr/lib/menu/kdebase-konqbrowser
+#, fuzzy
+msgid "Konqueror Web Browser"
+msgstr "Konqueror"
+
+#. Menu entry for usr/lib/menu/kdebase-konqhtml
+#, fuzzy
+msgid "Konqueror Browser"
+msgstr "Konqueror"
+
+#. Menu description for usr/lib/menu/kdebase-konqhtml
+msgid "Configure the look and feel of the Internet Browser called Konqueror"
+msgstr ""
+
+#. Menu entry for usr/lib/menu/kdebase-konquerorsu
+msgid "File Manager (Super User Mode)"
+msgstr ""
+
+#. Menu description for usr/lib/menu/kdebase-konquerorsu
+msgid "File manager with root privileges"
+msgstr ""
+
+#. Menu entry for usr/lib/menu/kdebase-konsole
+msgid "Terminal"
+msgstr "Teirminéal"
+
+#. Menu description for usr/lib/menu/kdebase-konsole
+#, fuzzy
+msgid "Terminal emulator window"
+msgstr "Aithriseoir teirminéal Eterm"
+
+#. Menu entry for usr/lib/menu/kdebase-konsolesu
+msgid "Terminal (Super User Mode)"
+msgstr ""
+
+#. Menu description for usr/lib/menu/kdebase-konsolesu
+msgid "Terminal window with root privileges"
+msgstr ""
+
+#. Menu entry for usr/lib/menu/kdebase-kpager
+#, fuzzy
+msgid "Desktop Pager"
+msgstr "Deasc"
+
+#. Menu description for usr/lib/menu/kdebase-kpager
+msgid "A desktop applet"
+msgstr ""
+
+#. Menu entry for usr/lib/menu/kdebase-ksysguard
+#, fuzzy
+msgid "KDE System Guard"
+msgstr "KSysguard"
+
+#. Menu description for usr/lib/menu/kdebase-ksysguard
+msgid "Task Manager and Performance Monitor"
+msgstr ""
+
+#. Menu entry for usr/lib/menu/kdebase-ktip
+msgid "Kandalf's tips"
+msgstr "Leathfhocail do Kandalf"
+
+#. Menu entry for usr/lib/menu/kdebase-kwinoptions
+msgid "Window Behavior"
+msgstr ""
+
+#. Menu entry for usr/lib/menu/kdebase-kwrite
+msgid "Advanced Editor"
+msgstr ""
+
+#. Menu description for usr/lib/menu/kdebase-kwrite
+msgid "A powerful text editor"
+msgstr ""
+
+#. Menu entry for usr/lib/menu/kdebase-language
+msgid "Country & Language"
+msgstr "Tír agus Teanga"
+
+#. Menu description for usr/lib/menu/kdebase-language
+msgid "Language, numeric, and time settings for your particular region"
+msgstr ""
+
+#. Menu entry for usr/lib/menu/kdebase-midi
+msgid "Midi"
+msgstr "Midi"
+
+#. Menu description for usr/lib/menu/kdebase-midi
+msgid "Midi Configuration"
+msgstr "Cumraigh Midi"
+
+#. Menu entry for usr/lib/menu/kdebase-nsplugin
+msgid "Netscape Plugins"
+msgstr "Plogálí Netscape"
+
+#. Menu description for usr/lib/menu/kdebase-nsplugin
+msgid "Netscape Plugin Configuration"
+msgstr "Cumraigh na Plogálí Netscape"
+
+#. Menu entry for usr/lib/menu/kdebase-partitions
+msgid "Partitions"
+msgstr "Rannú"
+
+#. Menu description for usr/lib/menu/kdebase-partitions
+msgid "Partition information"
+msgstr "Eolas do Rannú"
+
+#. Menu entry for usr/lib/menu/kdebase-passwords
+msgid "Passwords"
+msgstr "Pasfhocáil"
+
+#. Menu description for usr/lib/menu/kdebase-passwords
+#, fuzzy
+msgid "Password settings"
+msgstr "Cumraíocht Barr Deisce"
+
+#. Menu entry for usr/lib/menu/kdebase-proxy
+msgid "Proxies"
+msgstr "Seach-Freastalaí"
+
+#. Menu description for usr/lib/menu/kdebase-proxy
+msgid ""
+"Configure any proxy servers you must use (usually needed if you are behind a "
+"firewall)"
+msgstr ""
+
+#. Menu entry for usr/lib/menu/kdebase-smb
+msgid "Windows Shares"
+msgstr ""
+
+#. Menu description for usr/lib/menu/kdebase-smb
+msgid "Use to configure which windows (SMB) filesystems you can browse"
+msgstr ""
+
+#. Menu entry for usr/lib/menu/kdebase-useragent
+msgid "User Agent"
+msgstr ""
+
+#. Menu description for usr/lib/menu/kdebase-useragent
+msgid "You can control what your Browser's \"User Agent\" is reported as here"
+msgstr ""
+
+#. Menu entry for usr/lib/menu/kdebase-virtualdesktops
+#, fuzzy
+msgid "Virtual Desktops"
+msgstr "Deasc"
+
+#. Menu description for usr/lib/menu/kdebase-virtualdesktops
+msgid "Configure desktop number and names"
+msgstr ""
+
+#. Menu entry for usr/lib/menu/kdegames
+msgid "Abalone"
+msgstr "Abalone"
+
+#. Menu description for usr/lib/menu/kdegames
+msgid "Play Abalone against computer"
+msgstr ""
+
+#. Menu tree branch (found in usr/lib/menu/kdegames)
+msgid "Puzzles"
+msgstr ""
+
+#. Menu entry for usr/lib/menu/kdegames
+#, fuzzy
+msgid "Asteroids"
+msgstr "Cluiche Fidcheall"
+
+#. Menu description for usr/lib/menu/kdegames
+#, fuzzy
+msgid "A little arcade game"
+msgstr "Cluiche Fidcheall"
+
+#. Menu entry for usr/lib/menu/kdegames
+msgid "KBlackBox"
+msgstr "Bosca Dubh"
+
+#. Menu description for usr/lib/menu/kdegames
+msgid "A little logical game"
+msgstr ""
+
+#. Menu entry for usr/lib/menu/kdegames
+msgid "Mahjongg"
+msgstr "Mahjongg"
+
+#. Menu description for usr/lib/menu/kdegames
+msgid "Smart mahjongg game"
+msgstr "Cluiche Mahjongg do Gnome"
+
+#. Menu entry for usr/lib/menu/kdegames
+msgid "Minesweeper"
+msgstr ""
+
+#. Menu description for usr/lib/menu/kdegames
+msgid "KDE replacement for xbombs"
+msgstr ""
+
+#. Menu entry for usr/lib/menu/kdegames
+msgid "Konquest"
+msgstr "Konquest"
+
+#. Menu description for usr/lib/menu/kdegames
+msgid "A game of galactic conquest"
+msgstr ""
+
+#. Menu tree branch (found in usr/lib/menu/kdegames)
+msgid "Adventure"
+msgstr "Eachtra"
+
+#. Menu entry for usr/lib/menu/kdegames
+msgid "Patience"
+msgstr ""
+
+#. Menu description for usr/lib/menu/kdegames
+#, fuzzy
+msgid "Several nice card games"
+msgstr "Cluiche Fidcheall"
+
+#. Menu entry for usr/lib/menu/kdegames
+msgid "Poker"
+msgstr ""
+
+#. Menu description for usr/lib/menu/kdegames
+msgid "A simple video poker clone"
+msgstr ""
+
+#. Menu entry for usr/lib/menu/kdegames
+msgid "Reversi"
+msgstr "Reversi"
+
+#. Menu description for usr/lib/menu/kdegames
+msgid "Play Reversi against the computer"
+msgstr ""
+
+#. Menu entry for usr/lib/menu/kdegames
+msgid "SameGame"
+msgstr "An Gnome Ceanna"
+
+#. Menu description for usr/lib/menu/kdegames
+#, fuzzy
+msgid "A little board game"
+msgstr "Cluiche Fidcheall"
+
+#. Menu entry for usr/lib/menu/kdegames
+msgid "Shisen-Sho"
+msgstr "Shinsen-Sho"
+
+#. Menu description for usr/lib/menu/kdegames
+msgid "Shisen-Sho, a game similar to Mahjongg"
+msgstr ""
+
+#. Menu entry for usr/lib/menu/kdegames
+msgid "Sirtet"
+msgstr "Sirtet"
+
+#. Menu description for usr/lib/menu/kdegames
+msgid "One more Tetris clone"
+msgstr ""
+
+#. Menu entry for usr/lib/menu/kdegames
+msgid "Smiletris"
+msgstr "Smiletris"
+
+#. Menu description for usr/lib/menu/kdegames
+#, fuzzy
+msgid "Another Tetris-like game"
+msgstr "Cluiche Gnome Tetravex"
+
+#. Menu entry for usr/lib/menu/kdegames
+msgid "Snake Race"
+msgstr "Rás Nathair"
+
+#. Menu description for usr/lib/menu/kdegames
+msgid "Eat all items before the computer"
+msgstr ""
+
+#. Menu entry for usr/lib/menu/kdegames
+msgid "Sokoban"
+msgstr "KSokoban"
+
+#. Menu description for usr/lib/menu/kdegames
+msgid "The japanese warehouse keeper game"
+msgstr ""
+
+#. Menu entry for usr/lib/menu/kdegames-katomic
+msgid "Atomic Entertainment"
+msgstr ""
+
+#. Menu description for usr/lib/menu/kdegames-katomic
+msgid "Build molecules in fewer moves possible"
+msgstr ""
+
+#. Menu entry for usr/lib/menu/kdegames-kbackgammon
+msgid "KBackgammon"
+msgstr "Táiplis Mhór"
+
+#. Menu description for usr/lib/menu/kdegames-kbackgammon
+msgid "Play Backgammon games offline against friends or online on FIBS"
+msgstr ""
+
+#. Menu entry for usr/lib/menu/kdegames-kblackbox
+msgid "BlackBox"
+msgstr "Bosca Dubh"
+
+#. Menu entry for usr/lib/menu/kdegames-kfouleggs
+msgid "Foul Eggs"
+msgstr "Foul Eggs"
+
+#. Menu description for usr/lib/menu/kdegames-kfouleggs
+msgid "A game also known as Puyo Puyo"
+msgstr ""
+
+#. Menu entry for usr/lib/menu/kdegames-kjezz
+msgid "Jezzball"
+msgstr "Jezzball"
+
+#. Menu description for usr/lib/menu/kdegames-kjezz
+msgid "KDE Jezzball Game"
+msgstr "Cluiche Jezzball do KDE"
+
+#. Menu entry for usr/lib/menu/kdegames-kjumpingcube
+msgid "KJumpingCube"
+msgstr "KJumpingCube"
+
+#. Menu description for usr/lib/menu/kdegames-kjumpingcube
+msgid "Tactical Game"
+msgstr ""
+
+#. Menu entry for usr/lib/menu/kdegames-kspaceduel
+msgid "SpaceDuel"
+msgstr "SpaceDuel"
+
+#. Menu description for usr/lib/menu/kdegames-kspaceduel
+msgid "A two player arcade game"
+msgstr ""
+
+#. Menu entry for usr/lib/menu/kdegames-ktron
+msgid "Tron"
+msgstr "Tron"
+
+#. Menu description for usr/lib/menu/kdegames-ktron
+msgid "A race in the hyperspace"
+msgstr ""
+
+#. Menu entry for usr/lib/menu/kdegames-ktuberling
+msgid "Potato Guy"
+msgstr "Aghaidh Prátaí"
+
+#. Menu description for usr/lib/menu/kdegames-ktuberling
+msgid "A Potato Editor"
+msgstr "An Eagarthóir Prátaí"
+
+#. Menu entry for usr/lib/menu/kdegames-kwin4
+msgid "kwin4"
+msgstr "kwin4"
+
+#. Menu entry for usr/lib/menu/kdegames-lskat
+msgid "Lieutnant Skat"
+msgstr ""
+
+#. Menu entry for usr/lib/menu/kdegraphics
+msgid "DVI Viewer"
+msgstr ""
+
+#. Menu description for usr/lib/menu/kdegraphics
+msgid "TeX DVI File Viewer"
+msgstr ""
+
+#. Menu entry for usr/lib/menu/kdegraphics
+msgid "Fax Viewer"
+msgstr ""
+
+#. Menu description for usr/lib/menu/kdegraphics
+msgid "A Fax Viewer"
+msgstr ""
+
+#. Menu entry for usr/lib/menu/kdegraphics
+msgid "Fractals Generator"
+msgstr ""
+
+#. Menu description for usr/lib/menu/kdegraphics
+msgid "Generator for fractals"
+msgstr ""
+
+#. Menu entry for usr/lib/menu/kdegraphics
+msgid "PS Viewer"
+msgstr ""
+
+#. Menu description for usr/lib/menu/kdegraphics
+msgid "PostScript document viewer"
+msgstr ""
+
+#. Menu entry for usr/lib/menu/kdegraphics
+#, fuzzy
+msgid "Icon Editor"
+msgstr "kiconedit"
+
+#. Menu description for usr/lib/menu/kdegraphics
+msgid "An icon editor for creating KDE icons"
+msgstr ""
+
+#. Menu entry for usr/lib/menu/kdegraphics
+msgid "Paint"
+msgstr "Paint"
+
+#. Menu description for usr/lib/menu/kdegraphics
+msgid "A Simple Paint Program"
+msgstr ""
+
+#. Menu entry for usr/lib/menu/kdegraphics
+msgid "Snapshot"
+msgstr "ksnapshot"
+
+#. Menu description for usr/lib/menu/kdegraphics
+msgid "An applet for taking snapshots of the desktop"
+msgstr ""
+
+#. Menu entry for usr/lib/menu/kdegraphics
+msgid "Image Viewer"
+msgstr ""
+
+#. Menu description for usr/lib/menu/kdegraphics
+msgid "KDE Image Viewer"
+msgstr ""
+
+#. Menu entry for usr/lib/menu/kdegraphics-kghostview
+msgid "PS and PDF Viewer"
+msgstr ""
+
+#. Menu description for usr/lib/menu/kdegraphics-kghostview
+msgid "PostScript/PDF document viewer"
+msgstr ""
+
+#. Menu entry for usr/lib/menu/kdegraphics-kpixmap2bitmap
+msgid "KDE Pixmap2Bitmap"
+msgstr ""
+
+#. Menu description for usr/lib/menu/kdegraphics-kpixmap2bitmap
+msgid "Separates color images into several mono bitmaps"
+msgstr ""
+
+#. Menu entry for usr/lib/menu/kdegraphics-kruler
+msgid "KDE Screen Ruler"
+msgstr ""
+
+#. Menu description for usr/lib/menu/kdegraphics-kruler
+msgid "A screen ruler and color measurement tool"
+msgstr ""
+
+#. Menu entry for usr/lib/menu/kdegraphics-ksnapshot
+msgid "Screen Capture"
+msgstr ""
+
+#. Menu entry for usr/lib/menu/kdegraphics-pixie
+msgid "Pixie Image Management System"
+msgstr ""
+
+#. Menu description for usr/lib/menu/kdegraphics-pixie
+msgid "Pixie Image Viewer/Editor"
+msgstr ""
+
+#. Menu entry for usr/lib/menu/kdemultimedia
+msgid "Media Player"
+msgstr ""
+
+#. Menu description for usr/lib/menu/kdemultimedia
+msgid "Multimedia playing tool"
+msgstr "Seinnteoir Ilmheánach"
+
+#. Menu entry for usr/lib/menu/kdemultimedia
+msgid "Midi-Karaoke Player"
+msgstr ""
+
+#. Menu description for usr/lib/menu/kdemultimedia
+msgid "A midi / karaoke file player"
+msgstr ""
+
+#. Menu entry for usr/lib/menu/kdemultimedia
+msgid "Midi player"
+msgstr "Seinnteoir Midi"
+
+#. Menu description for usr/lib/menu/kdemultimedia
+msgid "A Midi Player"
+msgstr "Seinnteoir Midi"
+
+#. Menu entry for usr/lib/menu/kdemultimedia
+msgid "Sound Mixer Panel"
+msgstr "Measchíor Fuaim"
+
+#. Menu description for usr/lib/menu/kdemultimedia
+msgid "Controls the volume of the Sound channels"
+msgstr ""
+
+#. Menu entry for usr/lib/menu/kdemultimedia
+msgid "CD Player"
+msgstr "Seinnteoir CD"
+
+#. Menu description for usr/lib/menu/kdemultimedia
+msgid "A CD Player"
+msgstr "An Seinnteoir CD"
+
+#. Menu entry for usr/lib/menu/kdemultimedia-aktion
+msgid "aKtion!"
+msgstr "aKtion!"
+
+#. Menu description for usr/lib/menu/kdemultimedia-aktion
+msgid "Video Player"
+msgstr "Seinnteoir Fhís"
+
+#. Menu entry for usr/lib/menu/kdemultimedia-artsbuilder
+msgid "Arts Builder"
+msgstr "Arts Builder"
+
+#. Menu entry for usr/lib/menu/kdemultimedia-kmid
+msgid "Midi and Karaoke Player"
+msgstr ""
+
+#. Menu entry for usr/lib/menu/kdemultimedia-kmidi
+msgid "Midi synth"
+msgstr ""
+
+#. Menu entry for usr/lib/menu/kdemultimedia-kmix
+msgid "Sound Mixer"
+msgstr "Measchíor Fuaim"
+
+#. Menu entry for usr/lib/menu/kdemultimedia-kmix-configuration
+msgid "Mixer"
+msgstr "Measchíor"
+
+#. Menu description for usr/lib/menu/kdemultimedia-kmix-configuration
+msgid "Soundcard mixer control"
+msgstr ""
+
+#. Menu entry for usr/lib/menu/kdemultimedia-ktimidity
+msgid "TiMidity synth"
+msgstr ""
+
+#. Menu entry for usr/lib/menu/kdemultimedia-noatun
+msgid "KDE Media Player"
+msgstr "Seinnteoir KDE"
+
+#. Menu description for usr/lib/menu/kdemultimedia-noatun
+msgid "The KDE Multimedia Player"
+msgstr ""
+
+#. Menu entry for usr/lib/menu/kdemutimedia-artscontrol
+msgid "aRts control"
+msgstr "Stuiur aRts"
+
+#. Menu description for usr/lib/menu/kdemutimedia-artscontrol
+msgid "Soundserver control tool"
+msgstr ""
+
+#. Menu entry for usr/lib/menu/kdenetwork
+msgid "Archie client"
+msgstr ""
+
+#. Menu description for usr/lib/menu/kdenetwork
+msgid "Find and access files on ftp-servers"
+msgstr ""
+
+#. Menu entry for usr/lib/menu/kdenetwork
+msgid "Biff"
+msgstr "Biff"
+
+#. Menu description for usr/lib/menu/kdenetwork
+msgid "Mail notification utility"
+msgstr ""
+
+#. Menu entry for usr/lib/menu/kdenetwork
+msgid "User information"
+msgstr "Eolas Úsáideoir"
+
+#. Menu description for usr/lib/menu/kdenetwork
+#, fuzzy
+msgid "User information lookup tool"
+msgstr "Eolas Choráis"
+
+#. Menu entry for usr/lib/menu/kdenetwork
+#, fuzzy
+msgid "Mail client"
+msgstr "Áireamhán Graphice"
+
+#. Menu description for usr/lib/menu/kdenetwork
+msgid "Mail Client"
+msgstr "Ríomhchlar RPost"
+
+#. Menu entry for usr/lib/menu/kdenetwork
+msgid "Network utilities"
+msgstr "Uirlisín Greasán"
+
+#. Menu description for usr/lib/menu/kdenetwork
+msgid "ping, traceroute and host resolution"
+msgstr ""
+
+#. Menu entry for usr/lib/menu/kdenetwork
+msgid "Mail monitor"
+msgstr "Monatóir Post"
+
+#. Menu description for usr/lib/menu/kdenetwork
+msgid "Multi-folder new mail monitor"
+msgstr ""
+
+#. Menu entry for usr/lib/menu/kdenetwork
+msgid "KPPP - Logview"
+msgstr ""
+
+#. Menu description for usr/lib/menu/kdenetwork
+msgid "Show Internet Dialer Logfiles"
+msgstr ""
+
+#. Menu entry for usr/lib/menu/kdenetwork
+msgid "Kppp"
+msgstr "Kppp"
+
+#. Menu description for usr/lib/menu/kdenetwork
+msgid "Internet dial-up tool"
+msgstr ""
+
+#. Menu entry for usr/lib/menu/kdenetwork
+msgid "News client"
+msgstr ""
+
+#. Menu description for usr/lib/menu/kdenetwork
+#, fuzzy
+msgid "Newsreader"
+msgstr "Liethreoir Nuacht"
+
+#. Menu entry for usr/lib/menu/kdenetwork
+#, fuzzy
+msgid "Talk configuration"
+msgstr "Cumraigh X"
+
+#. Menu description for usr/lib/menu/kdenetwork
+#, fuzzy
+msgid "Talk daemon configuration"
+msgstr "Cumraigh X"
+
+#. Menu entry for usr/lib/menu/kdenetwork-kcmnewsticker
+#, fuzzy
+msgid "News Ticker"
+msgstr "Liethreoir Nuacht"
+
+#. Menu description for usr/lib/menu/kdenetwork-kcmnewsticker
+msgid ""
+"Configure the News Ticker applet, manage source files and other related "
+"settings."
+msgstr ""
+
+#. Menu entry for usr/lib/menu/kdenetwork-keystone
+msgid "Keystone"
+msgstr "Keystone"
+
+#. Menu description for usr/lib/menu/kdenetwork-keystone
+msgid "Allows remote access to the desktops of other machines."
+msgstr ""
+
+#. Menu entry for usr/lib/menu/kdenetwork-kit
+msgid "Kit"
+msgstr "Kit"
+
+#. Menu description for usr/lib/menu/kdenetwork-kit
+msgid "AOL Instant Messenger Client"
+msgstr ""
+
+#. Menu entry for usr/lib/menu/kdenetwork-kmail
+msgid "KMail"
+msgstr "KMail"
+
+#. Menu entry for usr/lib/menu/kdenetwork-kmailcvt
+msgid "KMail Import"
+msgstr ""
+
+#. Menu description for usr/lib/menu/kdenetwork-kmailcvt
+msgid "Imports to KMail and KAB"
+msgstr ""
+
+#. Menu entry for usr/lib/menu/kdenetwork-knewstickerstub
+msgid "KNewsTicker config frontend"
+msgstr ""
+
+#. Menu description for usr/lib/menu/kdenetwork-knewstickerstub
+msgid "A frontend for the KNewsTicker configuration"
+msgstr ""
+
+#. Menu entry for usr/lib/menu/kdenetwork-knode
+msgid "KNode"
+msgstr "Nód"
+
+#. Menu description for usr/lib/menu/kdenetwork-knode
+msgid "News Reader"
+msgstr "Liethreoir Nuacht"
+
+#. Menu entry for usr/lib/menu/kdenetwork-kppp
+msgid "Internet Dialer"
+msgstr ""
+
+#. Menu entry for usr/lib/menu/kdenetwork-ksirc
+msgid "Chat Client (ksirc)"
+msgstr ""
+
+#. Menu description for usr/lib/menu/kdenetwork-ksirc
+msgid "IRC client"
+msgstr ""
+
+#. Menu entry for usr/lib/menu/kdenetwork-lanbrowser
+#, fuzzy
+msgid "LAN Browsing"
+msgstr "Uirlisí Chomad"
+
+#. Menu description for usr/lib/menu/kdenetwork-lanbrowser
+msgid "setup lisa, reslisa and the ioslaves"
+msgstr ""
+
+#. Menu entry for usr/lib/menu/kdepim-abbrowser
+#, fuzzy
+msgid "abbrowser"
+msgstr "Líonléitheoir Netscape"
+
+#. Menu entry for usr/lib/menu/kdepim-korganizer
+msgid "Organizer"
+msgstr "Organizer"
+
+#. Menu description for usr/lib/menu/kdepim-korganizer
+msgid "A Calendar and Scheduling Program"
+msgstr "Féilire"
+
+#. Menu entry for usr/lib/menu/kdepim-kpilot
+msgid "KPilot"
+msgstr "Pilota"
+
+#. Menu entry for usr/lib/menu/kdepim-kpilotdaemon
+msgid "KPilotDaemon"
+msgstr "KPilotDaemon"
+
+#. Menu entry for usr/lib/menu/kdesdk-kbabel
+msgid "KBabel"
+msgstr "Eagarthoir Chomad-PO"
+
+#. Menu description for usr/lib/menu/kdesdk-kbabel
+msgid "A PO-file Editor"
+msgstr ""
+
+#. Menu entry for usr/lib/menu/kdesdk-kbabeldict
+msgid "KBabel-Dictionary"
+msgstr "Foclóir"
+
+#. Menu description for usr/lib/menu/kdesdk-kbabeldict
+msgid "A Dictionary for translators"
+msgstr "(KBabel) - Foclóir do Aistricháin"
 
 #. Menu entry for usr/lib/menu/kdesu
-msgid "KDESu"
-msgstr "KDESu"
+msgid "Terminal (superuser)"
+msgstr "Teirminéal (Superuser)"
 
-#. Menu entry for usr/lib/menu/kdf
-msgid "KDF"
-msgstr "KDF"
+#. Menu description for usr/lib/menu/kdesu
+msgid "Terminal in superuser mode"
+msgstr "XTriangles"
+
+#. Menu entry for usr/lib/menu/kdetoys
+msgid "MoonPhase"
+msgstr ""
+
+#. Menu description for usr/lib/menu/kdetoys
+msgid "Moon Phase Indicator"
+msgstr ""
+
+#. Menu entry for usr/lib/menu/kdetoys
+msgid "World Watch"
+msgstr "Cruinne"
+
+#. Menu description for usr/lib/menu/kdetoys
+msgid "A clock with worldmap"
+msgstr ""
+
+#. Menu entry for usr/lib/menu/kdetoys
+msgid "Mouspedometa"
+msgstr ""
+
+#. Menu description for usr/lib/menu/kdetoys
+msgid "Measure your Desktop Mileage!"
+msgstr ""
+
+#. Menu entry for usr/lib/menu/kdetoys-amor
+msgid "AMOR"
+msgstr "AMOR"
+
+#. Menu description for usr/lib/menu/kdetoys-amor
+msgid "Amusing Misuse Of Resources"
+msgstr ""
+
+#. Menu entry for usr/lib/menu/kdetoys-kteatime
+msgid "The Tea Cooker"
+msgstr "An Cupán Tae"
+
+#. Menu entry for usr/lib/menu/kdetoys-ktux
+msgid "Tux"
+msgstr "Tucs"
+
+#. Menu entry for usr/lib/menu/kdeutils
+msgid "Archiver"
+msgstr ""
+
+#. Menu description for usr/lib/menu/kdeutils
+msgid "Archive Handling Tool"
+msgstr ""
+
+#. Menu entry for usr/lib/menu/kdeutils
+#, fuzzy
+msgid "Address book"
+msgstr "Leabhar Sheolaidh Netscape"
+
+#. Menu entry for usr/lib/menu/kdeutils
+msgid "Personal Time Tracker"
+msgstr ""
+
+#. Menu description for usr/lib/menu/kdeutils
+#, fuzzy
+msgid "A Scientific Calculator"
+msgstr "Áireamhán Graphice"
+
+#. Menu entry for usr/lib/menu/kdeutils
+msgid "KFloppy"
+msgstr "Diosca Flapach"
+
+#. Menu description for usr/lib/menu/kdeutils
+msgid "Floppy Formatter"
+msgstr ""
+
+#. Menu entry for usr/lib/menu/kdeutils
+msgid "Hex Editor"
+msgstr "Eagarthóir Heacs"
+
+#. Menu description for usr/lib/menu/kdeutils
+msgid "A simple Hex editor"
+msgstr ""
+
+#. Menu entry for usr/lib/menu/kdeutils
+msgid "KJots"
+msgstr "Notaí"
+
+#. Menu description for usr/lib/menu/kdeutils
+msgid "Note taker"
+msgstr ""
+
+#. Menu entry for usr/lib/menu/kdeutils
+msgid "Cut & paste history (klipper)"
+msgstr ""
+
+#. Menu entry for usr/lib/menu/kdeutils
+msgid "HP LaserJet Control Panel"
+msgstr ""
+
+#. Menu description for usr/lib/menu/kdeutils
+msgid "KLJetTool: so you can configure your LaserJet from your desk"
+msgstr ""
+
+#. Menu entry for usr/lib/menu/kdeutils
+msgid "Printer Queue"
+msgstr "Ciú Printéir"
+
+#. Menu description for usr/lib/menu/kdeutils
+msgid "Displays Printer Queue"
+msgstr ""
+
+#. Menu entry for usr/lib/menu/kdeutils
+msgid "KNotes"
+msgstr "Notaí"
+
+#. Menu description for usr/lib/menu/kdeutils
+msgid "You can write small notes with this"
+msgstr ""
+
+#. Menu entry for usr/lib/menu/kdeutils
+msgid "Process management"
+msgstr ""
+
+#. Menu description for usr/lib/menu/kdeutils
+msgid "Process management tool"
+msgstr ""
+
+#. Menu entry for usr/lib/menu/kdeutils
+msgid "Text Editor"
+msgstr "Eagarthoir Theacs"
+
+#. Menu description for usr/lib/menu/kdeutils
+msgid "A simple Text Editor"
+msgstr ""
+
+#. Menu entry for usr/lib/menu/kdeutils
+#, fuzzy
+msgid "Task Manager"
+msgstr "Bainisteóir seirbhísí túsach"
+
+#. Menu entry for usr/lib/menu/kdeutils-battery
+msgid "Battery Monitor"
+msgstr ""
+
+#. Menu entry for usr/lib/menu/kdeutils-bwarning
+msgid "Low Battery Warning"
+msgstr ""
+
+#. Menu entry for usr/lib/menu/kdeutils-cwarning
+msgid "Low Battery Critical"
+msgstr ""
+
+#. Menu entry for usr/lib/menu/kdeutils-kab
+msgid "Address Book"
+msgstr "Leavhair Sheoladh"
+
+#. Menu entry for usr/lib/menu/kdeutils-kcharselect
+msgid "Character Selector"
+msgstr ""
+
+#. Menu entry for usr/lib/menu/kdeutils-kcmdf
+msgid "Block Devices"
+msgstr ""
+
+#. Menu description for usr/lib/menu/kdeutils-kcmdf
+msgid "Shows the disk usage of the mounted devices"
+msgstr ""
+
+#. Menu entry for usr/lib/menu/kdeutils-kdf
+msgid "Disk Free"
+msgstr ""
+
+#. Menu entry for usr/lib/menu/kdeutils-khexedit
+msgid "Binary Editor"
+msgstr ""
+
+#. Menu description for usr/lib/menu/kdeutils-khexedit
+msgid "Versatile binary editor"
+msgstr ""
+
+#. Menu entry for usr/lib/menu/kdeutils-klpq
+#, fuzzy
+msgid "Print Job Administration"
+msgstr "Eolas Choráis"
+
+#. Menu description for usr/lib/menu/kdeutils-klpq
+msgid "Displays Print Job Queue"
+msgstr ""
+
+#. Menu entry for usr/lib/menu/kdeutils-knotes
+msgid "Popup Notes"
+msgstr ""
+
+#. Menu entry for usr/lib/menu/kdeutils-pcmcia
+msgid "PCMCIA"
+msgstr "PCMCIA"
+
+#. Menu description for usr/lib/menu/kdeutils-pcmcia
+msgid "PCMCIA status"
+msgstr "Monatóir PCMCIA"
+
+#. Menu entry for usr/lib/menu/kdeutils-power
+msgid "Laptop Power Control"
+msgstr ""
+
+#. Menu entry for usr/lib/menu/kdevelop
+msgid "KDevelop 1.1"
+msgstr "Forbairt 1.1"
+
+#. Menu description for usr/lib/menu/kdevelop
+msgid "An Integrated Development Environment for C++/Qt/KDE"
+msgstr ""
+
+#. Menu entry for usr/lib/menu/kdevelop
+#, fuzzy
+msgid "KDevelop Setup"
+msgstr "Socrú Forbairt"
+
+#. Menu entry for usr/lib/menu/kdevelop-kdevelop
+msgid "KDevelop"
+msgstr "Forbairt (KDE)"
+
+#. Menu description for usr/lib/menu/kdevelop-kdevelop
+msgid "The KDE Integrated Development Environment for C++/Qt/KDE"
+msgstr ""
 
 #. Menu entry for usr/lib/menu/kdiff
 msgid "kdiff"
@@ -1564,32 +3986,28 @@ msgid "Frontend to diff"
 msgstr ""
 
 #. Menu entry for usr/lib/menu/kdiskcat
+msgid "KDiskCat"
+msgstr ""
+
+#. Menu description for usr/lib/menu/kdiskcat
 msgid "The KDE Disk Catalog"
 msgstr ""
 
-#. Menu entry for usr/lib/menu/kdvi
-msgid "kdvi"
-msgstr "kdvi"
+#. Menu entry for usr/lib/menu/kdpms
+msgid "DPMS"
+msgstr "DPMS"
 
-#. Menu entry for usr/lib/menu/kedit
-msgid "KEdit"
-msgstr "KEdit"
-
-#. Menu tree branch (found in usr/lib/menu/kedit)
-msgid "Text tools"
+#. Menu description for usr/lib/menu/kdpms
+msgid "Display Power Management Configuration"
 msgstr ""
 
 #. Menu entry for usr/lib/menu/kernel-source
 msgid "Kernel"
-msgstr ""
+msgstr "Ceirnéal"
 
 #. Menu description for usr/lib/menu/kernel-source
 msgid "Kernel Configuration"
-msgstr ""
-
-#. Menu entry for usr/lib/menu/kfax
-msgid "kfax"
-msgstr "kfax"
+msgstr "Cumraíocht Ceirnéal"
 
 #. Menu entry for usr/lib/menu/kfilecoder
 msgid "KFilecoder"
@@ -1599,37 +4017,17 @@ msgstr "KFilecoder"
 msgid "Encrypt files in an archive with a password"
 msgstr ""
 
-#. Menu entry for usr/lib/menu/kfind
-msgid "KFind"
-msgstr "KFind"
-
-#. Menu entry for usr/lib/menu/kfinger
-msgid "kfinger"
-msgstr "kfinger"
-
-#. Menu entry for usr/lib/menu/kfirewall
-msgid "Kfirewall"
-msgstr "Kfirewall"
-
 #. Menu description for usr/lib/menu/kfirewall
 msgid "GUI for Ipchains"
 msgstr ""
 
-#. Menu entry for usr/lib/menu/kfloppy
-msgid "KFloppy"
-msgstr "KFloppy"
-
 #. Menu entry for usr/lib/menu/kfortune
+msgid "KFortune"
+msgstr "Cinniúint"
+
+#. Menu description for usr/lib/menu/kfortune
 msgid "A simple fortune program for Kde"
 msgstr ""
-
-#. Menu entry for usr/lib/menu/kfouleggs
-msgid "KFoulEggs"
-msgstr "KFoulEggs"
-
-#. Menu entry for usr/lib/menu/kfract
-msgid "kfract"
-msgstr "kfract"
 
 #. Menu entry for usr/lib/menu/kfsstatus
 msgid "K File System Control"
@@ -1640,12 +4038,12 @@ msgid "A File Sytem Analyzer"
 msgstr ""
 
 #. Menu entry for usr/lib/menu/kfun21
-msgid "Play Blackjack against the Clock"
+msgid "kfun21"
 msgstr ""
 
-#. Menu entry for usr/lib/menu/kghostview
-msgid "kghostview"
-msgstr "kghostview"
+#. Menu description for usr/lib/menu/kfun21
+msgid "Play Blackjack against the Clock"
+msgstr ""
 
 #. Menu entry for usr/lib/menu/kgoodstuff
 msgid "KGoodStuff"
@@ -1655,33 +4053,25 @@ msgstr "KGoodStuff"
 msgid "Alternate application launcher for KDE"
 msgstr ""
 
-#. Menu entry for usr/lib/menu/kgrapher
-msgid "kgrapher"
-msgstr "kgrapher"
-
-#. Menu entry for usr/lib/menu/khelpcenter
-msgid "KHelp Center"
+#. Menu entry for usr/lib/menu/khotkeys
+msgid "KhotKeys"
 msgstr ""
 
-#. Menu entry for usr/lib/menu/khexedit
-msgid "KHexEdit"
-msgstr "KHexEdit"
-
-#. Menu entry for usr/lib/menu/kiconedit
-msgid "kiconedit"
-msgstr "kiconedit"
-
 #. Menu entry for usr/lib/menu/killustrator
-msgid "Killustrator"
-msgstr "Killustrator"
+msgid "KIllustrator"
+msgstr "Llustrator"
+
+#. Menu description for usr/lib/menu/killustrator
+msgid "KDE Drawing Tool"
+msgstr ""
 
 #. Menu entry for usr/lib/menu/kimon
 msgid "Kimon"
-msgstr "Kimon"
+msgstr "Monatóir ISDN"
 
 #. Menu description for usr/lib/menu/kimon
 msgid "Kimon (ISDN Monitor)"
-msgstr ""
+msgstr "(Kimon)"
 
 #. Menu entry for usr/lib/menu/kisdnload
 msgid "kisdnload"
@@ -1691,89 +4081,57 @@ msgstr "kisdnload"
 msgid "ISDN activity viewer"
 msgstr ""
 
-#. Menu entry for usr/lib/menu/kisocd
-msgid "Kisocd"
-msgstr "Kisocd"
+#. Menu description for usr/lib/menu/kisocd
+msgid "CD-burning-frontend to cdrecord and mkisofs"
+msgstr ""
+
+#. Menu description for usr/lib/menu/kisdnload
+msgid "ISDN activity viewer"
+msgstr ""
 
 #. Menu description for usr/lib/menu/kisocd
 msgid "CD-burning-frontend to cdrecord and mkisofs"
 msgstr ""
 
-#. Menu entry for usr/lib/menu/kit
-msgid "Kit"
-msgstr "Kit"
-
-#. Menu entry for usr/lib/menu/kjezz
-msgid "kjezz"
-msgstr "kjezz"
-
-#. Menu entry for usr/lib/menu/kjots
-msgid "KJots"
-msgstr "KJots"
-
-#. Menu entry for usr/lib/menu/klaptopdaemon
-msgid "KLaptopDaemon"
-msgstr "KLaptopDaemon"
-
-#. Menu entry for usr/lib/menu/klegacyimport
-msgid "KLegacyImport"
-msgstr "KLegacyImport"
+#. Menu entry for usr/lib/menu/kjumpingcube
+msgid "The Jumping Cube"
+msgstr ""
 
 #. Menu entry for usr/lib/menu/kless
 msgid "KLess"
-msgstr "KLess"
+msgstr "Less"
 
-#. Menu entry for usr/lib/menu/klilo
-msgid "KLILO"
-msgstr "KLILO"
-
-#. Menu description for usr/lib/menu/klilo
-msgid "Graphical frontend to LILO (LInux LOader) configuration"
+#. Menu description for usr/lib/menu/kless
+msgid "A simple Text Viewer"
 msgstr ""
-
-#. Menu entry for usr/lib/menu/klipper
-msgid "klipper"
-msgstr ""
-
-#. Menu entry for usr/lib/menu/kljettool
-msgid "KLaserJet Tool"
-msgstr ""
-
-#. Menu entry for usr/lib/menu/klpq
-msgid "KLPQ"
-msgstr "KLPQ"
 
 #. Menu entry for usr/lib/menu/klyx
-msgid "klyx"
-msgstr "klyx"
+msgid "KLyx"
+msgstr "Klyx"
+
+#. Menu description for usr/lib/menu/klyx
+msgid "The klyx text processor"
+msgstr ""
 
 #. Menu entry for usr/lib/menu/kmag
-msgid "Magnyfing glass"
-msgstr ""
+msgid "Kmag"
+msgstr "Gloine Formhéadúcháin"
 
 #. Menu description for usr/lib/menu/kmag
-msgid "KDE utility which enables you to enlarge parts of your desktop"
+msgid "An utility which enables you to enlarge parts of your desktop"
 msgstr ""
 
-#. Menu entry for usr/lib/menu/kmail
-msgid "KMail"
-msgstr "KMail"
-
-#. Menu entry for usr/lib/menu/kmenuedit
-msgid "KMenu Edit"
+#. Menu description for usr/lib/menu/kmago
+msgid "A frontend to GNU wget"
 msgstr ""
 
-#. Menu entry for usr/lib/menu/kmid
-msgid "kmid"
-msgstr "kmid"
+#. Menu entry for usr/lib/menu/kmemmon
+msgid "kmemmon"
+msgstr ""
 
-#. Menu entry for usr/lib/menu/kmidi
-msgid "kmidi"
-msgstr "kmidi"
-
-#. Menu entry for usr/lib/menu/kmix
-msgid "kmix"
-msgstr "kmix"
+#. Menu description for usr/lib/menu/kmemmon
+msgid "Memory utilization monitor for the K Desktop Environment."
+msgstr ""
 
 #. Menu entry for usr/lib/menu/kmodbox
 msgid "K ModBox"
@@ -1785,139 +4143,126 @@ msgstr ""
 
 #. Menu entry for usr/lib/menu/kmol
 msgid "Kmol"
-msgstr "Kmol"
+msgstr "Aireamhán Cheimic"
 
 #. Menu description for usr/lib/menu/kmol
 msgid "Chemical calculator"
-msgstr ""
+msgstr "(KMol)"
 
 #. Menu tree branch (found in usr/lib/menu/kmol)
 msgid "Chemistry"
-msgstr ""
+msgstr "Ceimic"
 
-#. Menu entry for usr/lib/menu/kmoon
-msgid "KMoon"
-msgstr "KMoon"
-
-#. Menu entry for usr/lib/menu/kmp3
-msgid "kmp3"
-msgstr "kmp3"
-
-#. Menu description for usr/lib/menu/kmp3
-msgid "K Desktop Environment player for MP3 audio files"
-msgstr ""
 
 #. Menu entry for usr/lib/menu/kmp3te
+msgid "Kmp3te"
+msgstr "Kmp3te"
+
+#. Menu description for usr/lib/menu/kmp3te
 msgid "An MP3 Tag Editor for Kde"
 msgstr ""
 
-#. Menu entry for usr/lib/menu/knotes
-msgid "KNotes"
-msgstr "KNotes"
+#. Menu entry for usr/lib/menu/kmpg
+msgid "Audio Mpeg Player"
+msgstr "Seinnteoir MPeg"
 
-#. Menu entry for usr/lib/menu/knu
-msgid "knu"
-msgstr "knu"
+#. Menu description for usr/lib/menu/kmpg
+msgid "Kmpg MPEG Audio Player"
+msgstr "Seinnteoir MPEG Fuaim (Kmpg)"
 
-#. Menu entry for usr/lib/menu/kodo
-msgid "Kodo"
-msgstr "Kodo"
+#. Menu entry for usr/lib/menu/knetload
+msgid "KNETLoad"
+msgstr "KNETLoad"
 
-#. Menu entry for usr/lib/menu/konqueror
-msgid "Konqueror"
-msgstr "Konqueror"
+#. Menu description for usr/lib/menu/knetload
+msgid "Network loadmeter for KPanel, works with most devices."
+msgstr ""
 
-#. Menu entry for usr/lib/menu/konsole
-msgid "Konsole"
-msgstr "Konsole"
+#. Menu entry for usr/lib/menu/knewmail
+msgid "KNewMail"
+msgstr "Rpost Nua"
 
-#. Menu entry for usr/lib/menu/korganizer
-msgid "korganizer"
-msgstr "korganizer"
-
-#. Menu entry for usr/lib/menu/korn
-msgid "korn"
-msgstr "korn"
+#. Menu description for usr/lib/menu/knewmail
+msgid "Be noticed on incoming mail"
+msgstr ""
 
 #. Menu entry for usr/lib/menu/koshell
-msgid "KOffice Shell"
+msgid "KOffice Workspace"
 msgstr "Blaosc KOffice"
 
+#. Menu description for usr/lib/menu/koshell
+msgid "KOffice Multi-Document Window"
+msgstr ""
+
 #. Menu entry for usr/lib/menu/kover
+msgid "Kover"
+msgstr "Súsa"
+
+#. Menu description for usr/lib/menu/kover
 msgid "CD Kover Printer"
 msgstr "Printéir CD Kover"
-
-#. Menu entry for usr/lib/menu/kpackage
-msgid "KPackage"
-msgstr "KPackage"
-
-#. Menu entry for usr/lib/menu/kpacman
-msgid "Kpacman"
-msgstr "Kpacman"
 
 #. Menu description for usr/lib/menu/kpacman
 msgid "a pacman game"
 msgstr "Cluiche pacman"
 
-#. Menu entry for usr/lib/menu/kpaint
-msgid "kpaint"
-msgstr "kpaint"
-
 #. Menu entry for usr/lib/menu/kphone
-msgid "kphone"
-msgstr "kphone"
+msgid "KT&T"
+msgstr "Fón"
 
-#. Menu entry for usr/lib/menu/kpm
-msgid "Kpm"
-msgstr "Kpm"
+#. Menu description for usr/lib/menu/kphone
+msgid "A SIP phone for KDE"
+msgstr "Fón SIP do KDE (KT&T)"
 
-#. Menu entry for usr/lib/menu/kppp
-msgid "Internet Dialer"
+#. Menu description for usr/lib/menu/kpilot
+msgid "a palm pilot synchronization tools"
 msgstr ""
 
-#. Menu entry for usr/lib/menu/kppplogview
-msgid "KPPP Log Viewer"
+#. Menu description for usr/lib/menu/kpl2
+msgid "Functions representation"
+msgstr ""
+
+#. Menu entry for usr/lib/menu/kpppload
+msgid "KPPPLoad"
+msgstr "Lód KPPP"
+
+#. Menu description for usr/lib/menu/kpppload
+msgid "PPP Load Monitor"
 msgstr ""
 
 #. Menu entry for usr/lib/menu/kpresenter
 msgid "KPresenter"
 msgstr "KPresenter"
 
-#. Menu entry for usr/lib/menu/krubik
-msgid "A 3D model of the Rubik's Cube"
+#. Menu description for usr/lib/menu/kpresenter
+msgid "KOffice Presentation Software"
 msgstr ""
 
-#. Menu tree branch (found in usr/lib/menu/krubik)
-msgid "Puzzles"
+#. Menu entry for usr/lib/menu/kreglo
+msgid "kreglo"
+msgstr "kreglo"
+
+
+#. Menu entry for usr/lib/menu/krxvt
+msgid "krxvt(KSC5601)"
 msgstr ""
 
-#. Menu entry for usr/lib/menu/ksame
-msgid "KSane"
-msgstr "KSane"
-
-#. Menu entry for usr/lib/menu/kscd
-msgid "kscd"
-msgstr "kscd"
-
-#. Menu entry for usr/lib/menu/ksendfax
-msgid "Ksendfax"
-msgstr "Ksendfax"
+#. Menu description for usr/lib/menu/krxvt
+#, fuzzy
+msgid "korean rxvt terminal"
+msgstr "Caint Gnome"
 
 #. Menu description for usr/lib/menu/ksendfax
 msgid "a fax utility"
+msgstr "Uirlís facs"
+
+#. Menu entry for usr/lib/menu/kshow
+msgid "kshow"
+msgstr "Taispeántas"
+
+#. Menu description for usr/lib/menu/kshow
+msgid "Multiple format image viewer"
 msgstr ""
-
-#. Menu entry for usr/lib/menu/kshisen
-msgid "KShisen"
-msgstr "KShisen"
-
-#. Menu entry for usr/lib/menu/ksirc
-msgid "KSirc"
-msgstr "KSirc"
-
-#. Menu entry for usr/lib/menu/ksirtet
-msgid "KSirtet"
-msgstr "KSirtet"
 
 #. Menu entry for usr/lib/menu/kslide
 msgid "Slide Puzzle"
@@ -1927,81 +4272,54 @@ msgstr ""
 msgid "simple puzzle game"
 msgstr ""
 
-#. Menu entry for usr/lib/menu/ksmiletris
-msgid "KSmiletris"
-msgstr "KSmiletris"
-
-#. Menu entry for usr/lib/menu/ksnake
-msgid "KSnake"
-msgstr "KSnake"
-
-#. Menu entry for usr/lib/menu/ksnapshot
-msgid "ksnapshot"
-msgstr "ksnapshot"
-
-#. Menu entry for usr/lib/menu/ksokoban
-msgid "KSokoban"
-msgstr "KSokoban"
-
-#. Menu entry for usr/lib/menu/kspaceduel
-msgid "KSpaceDuel"
-msgstr "KSpaceDuel"
-
 #. Menu entry for usr/lib/menu/kspread
 msgid "KSpread"
+msgstr "Scabhileog"
+
+#. Menu description for usr/lib/menu/kspread
+msgid "Spread Sheet"
 msgstr "KSpread"
 
-#. Menu entry for usr/lib/menu/kssh
-msgid "Kssh"
-msgstr "Kssh"
-
-#. Menu entry for usr/lib/menu/ksysctrl
-msgid "Ksysctrl"
-msgstr "Ksysctrl"
-
-#. Menu entry for usr/lib/menu/ksysguardd
-msgid "KSysguard"
-msgstr "KSysguard"
-
-#. Menu entry for usr/lib/menu/ksysv
-msgid "Ksysv"
-msgstr "Ksysv"
+#. Menu tree branch (found in usr/lib/menu/ksysv)
+#. Menu tree branch (found in usr/lib/menu/ksysv)
+msgid "Configuration\"));"
+msgstr "Cumraigh\"));"
 
 #. Menu entry for usr/lib/menu/ktail
 msgid "Ktail"
-msgstr "Ktail"
+msgstr "Leithreoir Loganna"
 
 #. Menu description for usr/lib/menu/ktail
 msgid "a log file viewer"
+msgstr "(Ktail) Leithreoir comhad loganna"
+
+#. Menu description for usr/lib/menu/kteatime
+msgid "timer for tea time"
 msgstr ""
 
-#. Menu entry for usr/lib/menu/ktalkd
-msgid "ktalkd"
-msgstr "ktalkd"
-
-#. Menu entry for usr/lib/menu/kteatime
-msgid "Kteatime"
-msgstr "Kteatime"
-
-#. Menu entry for usr/lib/menu/ktelnet
-msgid "Remote Login Manager"
+#. Menu description for usr/lib/menu/ktelnet
+msgid "A frontend to telnet"
 msgstr ""
 
 #. Menu entry for usr/lib/menu/kticker
-msgid "kticker"
-msgstr "kticker"
+msgid "Ticker"
+msgstr "Ticker"
 
-#. Menu entry for usr/lib/menu/ktip
-msgid "KDE Tips"
-msgstr "Leathfhoicail KDE"
+#. Menu description for usr/lib/menu/kticker
+msgid "A Ticker program"
+msgstr ""
+
+#. Menu entry for usr/lib/menu/ktimemon
+msgid "KTimeMon"
+msgstr "Monatóir Am"
+
+#. Menu description for usr/lib/menu/ktimemon
+msgid "A system monitor for KDE"
+msgstr "Monatóir Corás do KDE"
 
 #. Menu entry for usr/lib/menu/ktron
 msgid "KTron"
 msgstr "KTron"
-
-#. Menu entry for usr/lib/menu/ktuberling
-msgid "KTuberling"
-msgstr "KTuberling"
 
 #. Menu entry for usr/lib/menu/kuickshow
 msgid "KuickShow"
@@ -2011,9 +4329,21 @@ msgstr "KuickShow"
 msgid "KuickShow (A confortable image viewer)"
 msgstr ""
 
-#. Menu entry for usr/lib/menu/kuser
-msgid "Kuser"
-msgstr "Kuser"
+#. Menu entry for usr/lib/menu/kups
+msgid "KUPS - CUPS Administration"
+msgstr ""
+
+#. Menu description for usr/lib/menu/kups
+msgid "KUPS - Complete administration suite for CUPS"
+msgstr ""
+
+#. Menu entry for usr/lib/menu/kups
+msgid "Kupsdonf - CUPS Daemon Configurator"
+msgstr ""
+
+#. Menu description for usr/lib/menu/kups
+msgid "Graphical environment to configure the CUPS daemon"
+msgstr ""
 
 #. Menu entry for usr/lib/menu/kvideogen
 msgid "KVideoGen"
@@ -2023,73 +4353,98 @@ msgstr "KVideoGen"
 msgid "Video Mode generator"
 msgstr ""
 
-#. Menu entry for usr/lib/menu/kview
-msgid "kview"
-msgstr "kview"
+#. Menu entry for usr/lib/menu/kvirc
+msgid "KVIrc"
+msgstr "KVIrc"
+
+#. Menu description for usr/lib/menu/kvirc
+msgid "IRC Client"
+msgstr ""
 
 #. Menu entry for usr/lib/menu/kvoice
 msgid "KVoice"
-msgstr "KVoice"
+msgstr "Guth"
 
 #. Menu entry for usr/lib/menu/kvoicecontrol
 msgid "KVoiceControl"
 msgstr "KVoiceControl"
 
 #. Menu entry for usr/lib/menu/kweather
+msgid "kweather"
+msgstr "Aimsir Laithreach"
+
+#. Menu description for usr/lib/menu/kweather
 msgid "This will report the current weather state."
-msgstr ""
+msgstr "(kweather)"
 
 #. Menu entry for usr/lib/menu/kwebget
 msgid "Kwebget"
 msgstr "Kwebget"
 
-#. Menu entry for usr/lib/menu/kwikdisk
-msgid "KWikdisk"
-msgstr "KWikdisk"
+#. Menu entry for usr/lib/menu/kwintv
+msgid "KWinTV"
+msgstr "Telefís"
 
-#. Menu entry for usr/lib/menu/kwin4
-msgid "kwin4"
-msgstr "kwin4"
+#. Menu description for usr/lib/menu/kwintv
+msgid "The KDE Video4Linux Stream Capture Viewer"
+msgstr ""
 
 #. Menu entry for usr/lib/menu/kword
 msgid "KWord"
-msgstr "KWord"
+msgstr "Focal"
 
-#. Menu entry for usr/lib/menu/kworldwatch
-msgid "KWorldWatch"
-msgstr "KWorldWatch"
-
-#. Menu entry for usr/lib/menu/kwrite
-msgid "KWrite"
-msgstr "KWrite"
-
-#. Menu entry for usr/lib/menu/kwuftd
-msgid "KWuftpd"
-msgstr "KWuftpd"
+#. Menu description for usr/lib/menu/kword
+msgid "Word Processor with many features"
+msgstr ""
 
 #. Menu entry for usr/lib/menu/latte
 msgid "latte"
 msgstr "latte"
 
+#. Menu entry for usr/lib/menu/lbreakout
+msgid "LBreakout"
+msgstr "Breakout"
+
+#. Menu description for usr/lib/menu/lbreakout
+msgid "Breakout-style arcade game"
+msgstr ""
+
 #. Menu entry for usr/lib/menu/lesstif-mwm
 msgid "Mwm"
 msgstr "Mwm"
+
+#. Menu description for usr/lib/menu/lesstif-mwm
+msgid "A free Motif clone"
+msgstr ""
 
 #. Menu entry for usr/lib/menu/lftp
 msgid "Lftp"
 msgstr "Lftp"
 
-#. Menu entry for usr/lib/menu/licq
-msgid "Licq"
-msgstr "Licq"
+#. Menu description for usr/lib/menu/lftp
+msgid "Command line file transfer program"
+msgstr ""
+
+#. Menu entry for usr/lib/menu/libsmpeg0.4-player
+msgid "Gtv Mpeg player"
+msgstr ""
+
+#. Menu description for usr/lib/menu/libsmpeg0.4-player
+msgid "Gtv Mpeg video player"
+msgstr ""
 
 #. Menu description for usr/lib/menu/licq
 msgid "ICQ client"
 msgstr ""
 
-#. Menu entry for usr/lib/menu/licq-ssl
-msgid "Licq-ssl"
-msgstr "Licq-ssl"
+#. Menu entry for usr/lib/menu/links
+msgid "Links"
+msgstr ""
+
+#. Menu description for usr/lib/menu/links
+#, fuzzy
+msgid "Lynx-like text WWW browser"
+msgstr "Uirlisí Teacs"
 
 #. Menu entry for usr/lib/menu/linuxconf
 msgid "LinuxConf-Text"
@@ -2099,9 +4454,21 @@ msgstr "LinuxConf-Teacs"
 msgid "Netconf-Text"
 msgstr "Netconf-Teacs"
 
-#. Menu entry for usr/lib/menu/lskat
-msgid "Lieutanant Skat"
-msgstr ""
+#. Menu entry for usr/lib/menu/ltris
+msgid "LTris"
+msgstr "Tetris"
+
+#. Menu description for usr/lib/menu/ltris
+msgid "Nice tetris clone"
+msgstr "Cluiche Tetris (LTris)"
+
+#. Menu entry for usr/lib/menu/lynx
+msgid "Lynx"
+msgstr "Lynx"
+
+#. Menu description for usr/lib/menu/lynx
+msgid "A text browser"
+msgstr "Líonléitheoir Teacs"
 
 #. Menu entry for usr/lib/menu/lyx
 msgid "LyX"
@@ -2111,25 +4478,74 @@ msgstr "LyX"
 msgid "TeX word processor - especially good at scientific documents"
 msgstr ""
 
+#. Menu entry for usr/lib/menu/magellan
+msgid "Magellan"
+msgstr "Magellan"
+
+#. Menu description for usr/lib/menu/magellan
+msgid "Standalone Personal infromation Manager"
+msgstr ""
+
+#. Menu entry for usr/lib/menu/mandrake_doc-de
+msgid "Mandrake Doc (de)"
+msgstr "Doiciméid Mandrake (en)"
+
+#. Menu description for usr/lib/menu/mandrake_doc-de
+#, fuzzy
+msgid "Mandrake Documentation (de)"
+msgstr "Doiciméid Mandrake (en)"
+
 #. Menu entry for usr/lib/menu/mandrake_doc-en
+msgid "Mandrake Doc"
+msgstr "Dociméid Mandrake"
+
+#. Menu description for usr/lib/menu/mandrake_doc-en
 msgid "Mandrake Documentation (en)"
 msgstr "Doiciméid Mandrake (en)"
 
+#. Menu entry for usr/lib/menu/mandrake_doc-es
+msgid "Mandrake Doc (es)"
+msgstr "Doiciméid Mandrake (es)"
+
+#. Menu description for usr/lib/menu/mandrake_doc-es
+#, fuzzy
+msgid "Mandrake Documentation (es)"
+msgstr "Doiciméid Mandrake (en)"
+
 #. Menu entry for usr/lib/menu/mandrake_doc-fr
+msgid "Doc Mandrake (fr)"
+msgstr "Doiciméid Mandrake (fr)"
+
+#. Menu description for usr/lib/menu/mandrake_doc-fr
 msgid "Documentation Mandrake (fr)"
 msgstr "Doiciméid Mandrake (fr)"
 
-#. Menu entry for usr/lib/menu/mathplot
-msgid "mathplot"
-msgstr "mathplot"
+#. Menu entry for usr/lib/menu/mandrake_doc-it
+#, fuzzy
+msgid "Mandrake Doc (it)"
+msgstr "Doiciméid Mandrake (en)"
+
+#. Menu description for usr/lib/menu/mandrake_doc-it
+#, fuzzy
+msgid "Mandrake Documentation (it)"
+msgstr "Doiciméid Mandrake (en)"
+
+#. Menu description for usr/lib/menu/mandrake_doc-ru
+msgid "Mandrake Documentation (ru)"
+msgstr "Doiciméid Mandrake (ru)"
+
+#. Menu entry for usr/lib/menu/marbles
+msgid "Marbles"
+msgstr "Mirlín"
+
+#. Menu description for usr/lib/menu/marbles
+#, fuzzy
+msgid "Atomix-style arcade game"
+msgstr "Cluiche Fidcheall"
 
 #. Menu description for usr/lib/menu/mathplot
-msgid "interactive function grapher"
+msgid "Interactive function grapher"
 msgstr ""
-
-#. Menu entry for usr/lib/menu/mek
-msgid "Mek"
-msgstr "Mek"
 
 #. Menu description for usr/lib/menu/mek
 msgid "Educational software simulation, drawing for physical mecanics"
@@ -2137,6 +4553,14 @@ msgstr ""
 
 #. Menu tree branch (found in usr/lib/menu/mek)
 msgid "Physics"
+msgstr "Fisic"
+
+#. Menu entry for usr/lib/menu/memprof
+msgid "Memprof"
+msgstr ""
+
+#. Menu description for usr/lib/menu/memprof
+msgid "Tool for memory profiling and leak detection"
 msgstr ""
 
 #. Menu entry for usr/lib/menu/menu
@@ -2145,15 +4569,15 @@ msgstr ""
 
 #. Menu entry for usr/lib/menu/menu
 msgid "Astronomy"
-msgstr ""
+msgstr "Réalteolaíocht"
 
 #. Menu entry for usr/lib/menu/menu
 msgid "Biology"
-msgstr ""
+msgstr "Bitheolaíocht"
 
 #. Menu entry for usr/lib/menu/menu
 msgid "Computer science"
-msgstr ""
+msgstr "Riomheolaíocht"
 
 #. Menu entry for usr/lib/menu/menu
 msgid "Geosciences"
@@ -2164,16 +4588,29 @@ msgid "Emulators"
 msgstr ""
 
 #. Menu entry for usr/lib/menu/menu
-msgid "Backup"
+msgid "Shells"
+msgstr "Blaoscanna"
+
+#. Menu entry for usr/lib/menu/menudrake
+#, fuzzy
+msgid "Menudrake"
+msgstr "MandrakeUpdate"
+
+#. Menu description for usr/lib/menu/menudrake
+msgid "Menu editor"
+msgstr "Eagarthóir do chlaranna"
+
+#. Menu entry for usr/lib/menu/mozilla
+msgid "Mozilla"
+msgstr "Mozilla"
+
+#. Menu description for usr/lib/menu/mozilla
+msgid "The free and open source web browser"
 msgstr ""
 
-#. Menu entry for usr/lib/menu/menu
-msgid "Adventure"
+#. Menu entry for usr/lib/menu/mozilla-mail
+msgid "Mozilla Messenger"
 msgstr ""
-
-#. Menu entry for usr/lib/menu/menu
-msgid "Sports"
-msgstr "Sport"
 
 #. Menu entry for usr/lib/menu/mutt
 msgid "Mutt"
@@ -2181,11 +4618,15 @@ msgstr "Mutt"
 
 #. Menu description for usr/lib/menu/mutt
 msgid "Mutt mailer"
-msgstr ""
+msgstr "Riomhphost Mutt"
 
-#. Menu entry for usr/lib/menu/navigator
-msgid "Netscape-Navigator"
-msgstr "Netscape"
+#. Menu entry for usr/lib/menu/nautilus
+msgid "Nautilus"
+msgstr "Nautilus"
+
+#. Menu description for usr/lib/menu/nautilus
+msgid "Nautilus - GNOME file manager"
+msgstr "Bainisteoir Chomad (Nautilus)"
 
 #. Menu description for usr/lib/menu/navigator
 msgid "Netscape Navigator"
@@ -2195,6 +4636,10 @@ msgstr "Netscape"
 msgid "NCFtp"
 msgstr "NCFtp"
 
+#. Menu description for usr/lib/menu/ncftp
+msgid "An improved FTP client."
+msgstr ""
+
 #. Menu entry for usr/lib/menu/nedit
 msgid "Nedit"
 msgstr "Nedit"
@@ -2203,21 +4648,17 @@ msgstr "Nedit"
 msgid "A text editor based on lestif"
 msgstr ""
 
-#. Menu entry for usr/lib/menu/nmap-frontend
-msgid "Nmapfe"
-msgstr "Nmapfe"
+#. Menu entry for usr/lib/menu/nil
+msgid "NiL"
+msgstr "NiL"
 
-#. Menu description for usr/lib/menu/nmap-frontend
-msgid "a frontend for nmap"
+#. Menu description for usr/lib/menu/nil
+msgid "NiL Isn't Liero"
 msgstr ""
 
-#. Menu entry for usr/lib/menu/ocaml
-msgid "ocaml"
-msgstr "ocaml"
-
-#. Menu description for usr/lib/menu/ocaml
-msgid "Objective Caml"
-msgstr "Objective Caml"
+#. Menu description for usr/lib/menu/nmap-frontend
+msgid "A frontend for the nmap port scanner"
+msgstr ""
 
 #. Menu entry for usr/lib/menu/octave
 msgid "Octave"
@@ -2227,12 +4668,24 @@ msgstr "Octave"
 msgid "high-level language for numerical computations"
 msgstr ""
 
+#. Menu entry for usr/lib/menu/odbctest
+msgid "ODBCtest"
+msgstr ""
+
+#. Menu entry for usr/lib/menu/openuniverse
+msgid "OpenUniverse"
+msgstr "Cruinne"
+
+#. Menu description for usr/lib/menu/openuniverse
+msgid "OpenGL Space Simulator"
+msgstr ""
+
 #. Menu entry for usr/lib/menu/pan
-msgid "Pan"
-msgstr "Pan"
+msgid "Pan Newsreader"
+msgstr "Liethreoir Nuacht (Pan)"
 
 #. Menu description for usr/lib/menu/pan
-msgid "Gnome News Reader"
+msgid "Pan Usenet Newsreader for Gnome"
 msgstr ""
 
 #. Menu entry for usr/lib/menu/penguin-command
@@ -2243,13 +4696,21 @@ msgstr ""
 msgid "A clone of the classic Missile Command game"
 msgstr ""
 
+#. Menu description for usr/lib/menu/perl
+msgid "The Perl programming language"
+msgstr ""
+
+#. Menu description for usr/lib/menu/pgtk
+msgid "PostgreSQL Tcl/Tk front-end"
+msgstr ""
+
 #. Menu entry for usr/lib/menu/pico
 msgid "pico"
 msgstr "pico"
 
 #. Menu description for usr/lib/menu/pico
 msgid "pico: default editor for pine"
-msgstr ""
+msgstr "pico: eagarthóir loiceadh do pine"
 
 #. Menu entry for usr/lib/menu/pine
 msgid "pine"
@@ -2276,25 +4737,37 @@ msgstr "Piranha"
 msgid "Clustering configuration and administration tool"
 msgstr "Cumraigh X"
 
-#. Menu entry for usr/lib/menu/pixie
-msgid "Pixie"
-msgstr "Pixie"
+#. Menu entry for usr/lib/menu/powermanga
+msgid "Power Manga"
+msgstr "Power Manga"
+
+#. Menu description for usr/lib/menu/powermanga
+msgid "Shoot them up with 3d graphics"
+msgstr ""
 
 #. Menu entry for usr/lib/menu/printtool
 msgid "printtool"
-msgstr "printtool"
-
-#. Menu entry for usr/lib/menu/printversion
-msgid "Kprintversion"
-msgstr "Kprintversion"
+msgstr "Uirlís Printáil"
 
 #. Menu entry for usr/lib/menu/pws
 msgid "PWS"
 msgstr "PWS"
 
+#. Menu description for usr/lib/menu/pyDict
+msgid "pyDict - A English/Chinese Dictionary written with python/gtk"
+msgstr ""
+
+#. Menu tree branch (found in usr/lib/menu/pyDict)
+msgid "Chinese"
+msgstr "Sínis"
+
 #. Menu entry for usr/lib/menu/pysol
 msgid "PySOL"
 msgstr "PySOL"
+
+#. Menu description for usr/lib/menu/pysol
+msgid "All solitaire cards games"
+msgstr ""
 
 #. Menu entry for usr/lib/menu/python
 msgid "Python"
@@ -2304,16 +4777,40 @@ msgstr "Python"
 msgid "IDLE"
 msgstr "IDLE"
 
-#. Menu entry for usr/lib/menu/qcad
-msgid "qcad"
-msgstr "qcad"
-
 #. Menu description for usr/lib/menu/qcad
 msgid "a professional CAD system"
 msgstr ""
 
-#. Menu entry for usr/lib/menu/qt2designer
+#. Menu entry for usr/lib/menu/qt2-designer
 msgid "QT Designer"
+msgstr "Dearthóir QT"
+
+#. Menu description for usr/lib/menu/qt2-designer
+msgid "A graphical designer/dialog builder for Qt2"
+msgstr ""
+
+#. Menu entry for usr/lib/menu/qtcups
+msgid "QT-CUPS"
+msgstr "QT-CUPS"
+
+#. Menu description for usr/lib/menu/qtcups
+msgid "A QT-based frontend for printing with CUPS"
+msgstr ""
+
+#. Menu entry for usr/lib/menu/qtrans
+msgid "Qtrans"
+msgstr "Qtrans"
+
+#. Menu description for usr/lib/menu/qtrans
+msgid "QTrans is an instant translator for Linux"
+msgstr ""
+
+#. Menu entry for usr/lib/menu/quanta
+msgid "Quanta Plus"
+msgstr "Quanta Plus"
+
+#. Menu description for usr/lib/menu/quanta
+msgid "Web Development Environment"
 msgstr ""
 
 #. Menu entry for usr/lib/menu/rocksndiamonds
@@ -2324,19 +4821,15 @@ msgstr ""
 msgid "A boulderdash like"
 msgstr ""
 
-#. Menu entry for usr/lib/menu/rpmdrake
-msgid "rpmdrake"
-msgstr "rpmdrake"
-
 #. Menu description for usr/lib/menu/rpmdrake
 msgid "A graphical front end for installing packages"
 msgstr ""
 
-#. Menu entry for usr/lib/menu/rute_pdf.menu
-msgid "Rute - PDF"
+#. Menu entry for usr/lib/menu/rute
+msgid "Beginners Guide to Linux"
 msgstr ""
 
-#. Menu description for usr/lib/menu/rute_pdf.menu
+#. Menu description for usr/lib/menu/rute
 msgid "Rute Users Tutorial and Exposition"
 msgstr ""
 
@@ -2344,47 +4837,87 @@ msgstr ""
 msgid "rxvt"
 msgstr "rxvt"
 
+#. Menu description for usr/lib/menu/rxvt
+msgid ""
+"A version of the rxvt terminal with support for Tranditional Chinese, "
+"Simplified Chinese, Japanese and Korean."
+msgstr ""
+
 #. Menu entry for usr/lib/menu/rxvt-CLE
 msgid "RXVT-CLE"
 msgstr "RXVT-CLE"
 
-#. Menu description for usr/lib/menu/rxvt-CLE
-msgid ""
-"A version of the rxvt terminal with support for Tranditional Chinese, "
-"Simplified Chinese, Japanese and Korean."
+#. Menu entry for usr/lib/menu/samba
+msgid "Samba Configuration"
+msgstr "Cumraigh `Samba'"
+
+#. Menu description for usr/lib/menu/samba
+msgid "The Swat Samba Administration Tool"
 msgstr ""
 
 #. Menu entry for usr/lib/menu/sawfish
 msgid "Sawfish"
 msgstr "Sawfish"
 
-#. Menu entry for usr/lib/menu/sdlbomber
-msgid "SDL Bomber"
-msgstr "SDL Bomber"
+#. Menu description for usr/lib/menu/sawfish
+msgid "Sawfish Windowmanager"
+msgstr "Bainisteóir Fhuinneog"
 
-#. Menu description for usr/lib/menu/sdlbomber
-msgid "A Bomberman clone"
+#. Menu entry for usr/lib/menu/sawmill
+msgid "Sawmill"
+msgstr "Sawmill"
+
+#. Menu entry for usr/lib/menu/screem
+msgid "Screem"
+msgstr "Screen"
+
+#. Menu description for usr/lib/menu/screem
+msgid "Website creation tool"
 msgstr ""
-
-#. Menu entry for usr/lib/menu/secpolicy
-msgid "KSecPolicy"
-msgstr "KSecPolicy"
-
-#. Menu entry for usr/lib/menu/sfm
-msgid "sfm"
-msgstr "sfm"
 
 #. Menu description for usr/lib/menu/sfm
 msgid "A Simple File Manager"
 msgstr ""
 
 #. Menu entry for usr/lib/menu/sketch
-msgid "sketch"
-msgstr "sketch"
+msgid "Sketch"
+msgstr "Sketch"
 
 #. Menu description for usr/lib/menu/sketch
 msgid "Vector-based drawing program"
 msgstr ""
+
+#. Menu entry for usr/lib/menu/slap
+msgid "SLAP - SEIKO SmartLabel Printers"
+msgstr ""
+
+#. Menu description for usr/lib/menu/slap
+msgid "Printing text in different fonts on SEIKO SmartLabel Printers"
+msgstr ""
+
+#. Menu entry for usr/lib/menu/smpeg
+msgid "gtv Mpeg player"
+msgstr "Seinnteoir Mpeg"
+
+#. Menu description for usr/lib/menu/smpeg
+msgid "gtv: MPEG player"
+msgstr "Seinnteoir MPEG - gtv"
+
+#. Menu entry for usr/lib/menu/spacecup
+msgid "SpaceCup"
+msgstr "SpaceCup"
+
+#. Menu description for usr/lib/menu/spacecup
+msgid "3d ice-hockey or football in the space"
+msgstr ""
+
+#. Menu entry for usr/lib/menu/spruce
+msgid "Spruce"
+msgstr "Spruce"
+
+#. Menu description for usr/lib/menu/spruce
+msgid "Another email client"
+msgstr "Riomhachlar phost eile"
 
 #. Menu entry for usr/lib/menu/switchdesk
 msgid "switchdesk"
@@ -2411,11 +4944,19 @@ msgid "Switch between desks (KDE version)"
 msgstr ""
 
 #. Menu entry for usr/lib/menu/telnet
-msgid "telnet"
-msgstr "telnet"
+msgid "Telnet"
+msgstr "Telnet"
 
 #. Menu description for usr/lib/menu/telnet
 msgid "Telnet client"
+msgstr ""
+
+#. Menu entry for usr/lib/menu/tetex-xdvi
+msgid "xdvi"
+msgstr "xdvi"
+
+#. Menu description for usr/lib/menu/tetex-xdvi
+msgid "DVI files viewer"
 msgstr ""
 
 #. Menu entry for usr/lib/menu/thud
@@ -2427,47 +4968,67 @@ msgid "Drum machine emulator for the K Desktop Environment"
 msgstr ""
 
 #. Menu entry for usr/lib/menu/timeconfig
-msgid "timeconfig"
-msgstr "timeconfig"
+msgid "Timeconfig"
+msgstr "Cumraigh Am"
 
 #. Menu description for usr/lib/menu/timeconfig
 msgid "Configure Time parameters"
-msgstr ""
+msgstr "Cumriagh Paramadéir Am (TimeConfig)"
 
 #. Menu entry for usr/lib/menu/timetool
-msgid "timetool"
-msgstr "timetool"
+msgid "Timetool"
+msgstr "Cumraigh Am"
 
 #. Menu description for usr/lib/menu/timetool
 msgid "Set Time and Date"
-msgstr ""
-
-#. Menu entry for usr/lib/menu/timidity
-msgid "TimIdity"
-msgstr "TimIdity"
+msgstr "Cumraigh Am agus Data (Timetool)"
 
 #. Menu entry for usr/lib/menu/tkcvs
 msgid "TkCVS"
 msgstr "TkCVS"
 
+#. Menu description for usr/lib/menu/tkcvs
+msgid "Graphical HMI for CVS"
+msgstr ""
+
 #. Menu entry for usr/lib/menu/tkcvs
 msgid "TkDiff"
 msgstr "TkDiff"
 
+#. Menu description for usr/lib/menu/tkcvs
+msgid "Graphical HMI for diff"
+msgstr "RíomhGraphice"
+
+#. Menu description for usr/lib/menu/tkinter
+msgid "IDE for Python"
+msgstr "IDE do Python"
+
 #. Menu entry for usr/lib/menu/tksysv
 msgid "tksysv"
-msgstr ""
+msgstr "Cumraigh seirbhís rithleibhéil"
 
 #. Menu description for usr/lib/menu/tksysv
 msgid "Edit Runlevel services"
-msgstr ""
+msgstr "(tksysv)"
 
 #. Menu entry for usr/lib/menu/trophy
 msgid "Trophy"
-msgstr ""
+msgstr "Trophy"
 
 #. Menu description for usr/lib/menu/trophy
-msgid "TROPHY is a 2D car racing action game for Linux."
+msgid "Trophy is a 2D car racing action game for Linux."
+msgstr ""
+
+#. Menu description for usr/lib/menu/tuxkart
+msgid "Karting with tux"
+msgstr ""
+
+#. Menu entry for usr/lib/menu/tuxracer
+msgid "Tuxracer"
+msgstr "Tucsrás"
+
+#. Menu description for usr/lib/menu/tuxracer
+msgid "A great racing game starring Tux"
 msgstr ""
 
 #. Menu entry for usr/lib/menu/usbview
@@ -2478,25 +5039,58 @@ msgstr ""
 msgid "USB viewver"
 msgstr ""
 
+#. Menu entry for usr/lib/menu/userdrake
+msgid "Userdrake"
+msgstr "UserDrake"
+
+#. Menu description for usr/lib/menu/userdrake
+#, fuzzy
+msgid "Users and groups editor"
+msgstr "Úsáideoirí nua"
+
 #. Menu entry for usr/lib/menu/vim-X11
 msgid "VI editor"
-msgstr ""
+msgstr "Eagarthóir VI"
 
 #. Menu description for usr/lib/menu/vim-X11
 msgid "All-purpose text editor"
 msgstr ""
 
-#. Menu entry for usr/lib/menu/xbill
-msgid "The famous xbill game"
+#. Menu entry for usr/lib/menu/wmnet
+msgid "WMnet"
+msgstr "WMnet"
+
+#. Menu description for usr/lib/menu/wmnet
+msgid "A little X doc.app network monitor"
 msgstr ""
+
+#. Menu description for usr/lib/menu/xaos
+msgid "Realtime fractal zoomer"
+msgstr ""
+
+#. Menu entry for usr/lib/menu/xawtv
+msgid "XawTV"
+msgstr ""
+
+#. Menu description for usr/lib/menu/xawtv
+msgid "The X11 Video4Linux Stream Capture Viewer"
+msgstr ""
+
+#. Menu entry for usr/lib/menu/xbill
+msgid "xbill"
+msgstr "xbill"
+
+#. Menu description for usr/lib/menu/xbill
+msgid "The famous xbill game"
+msgstr "Cluiche"
 
 #. Menu entry for usr/lib/menu/xboard
 msgid "XBoard"
-msgstr "XBoard"
+msgstr "Fidcheall"
 
 #. Menu description for usr/lib/menu/xboard
 msgid "A chessboard game"
-msgstr ""
+msgstr "Cluiche Fidcheall (XBoard)"
 
 #. Menu entry for usr/lib/menu/xboing
 msgid "XBoing"
@@ -2507,28 +5101,32 @@ msgid "Xboing breakout style game"
 msgstr ""
 
 #. Menu entry for usr/lib/menu/xcdroast
-msgid "XCDRoast"
-msgstr "XCDRoast"
-
-#. Menu entry for usr/lib/menu/xchat
-msgid "Xchat"
-msgstr "Xchat"
+msgid "X-CD-Roast"
+msgstr "X-CD-Roast"
 
 #. Menu description for usr/lib/menu/xchat
 msgid "Graphical IRC client"
 msgstr ""
 
+#. Menu entry for usr/lib/menu/xcin
+msgid "XCIN"
+msgstr "XCIN"
+
+#. Menu description for usr/lib/menu/xcin
+msgid "A X Input Method Server for Chinese"
+msgstr ""
+
 #. Menu entry for usr/lib/menu/xcpustate
-msgid "xcpustate"
-msgstr "xcpustate"
+msgid "Xcpustate"
+msgstr "Xcpustate"
 
 #. Menu description for usr/lib/menu/xcpustate
 msgid "Cpu load indicator"
 msgstr ""
 
 #. Menu entry for usr/lib/menu/xdaliclock
-msgid "xdaliclock"
-msgstr "xdaliclock"
+msgid "Xdaliclock"
+msgstr "Chlóig Dali"
 
 #. Menu description for usr/lib/menu/xdaliclock
 msgid "Nice big digital clock"
@@ -2542,25 +5140,21 @@ msgstr ""
 msgid "DOS emulator running under X"
 msgstr ""
 
-#. Menu entry for usr/lib/menu/xdvi
-msgid "xdvi"
-msgstr "xdvi"
-
-#. Menu description for usr/lib/menu/xdvi
-msgid "Views .DVI files"
-msgstr ""
-
 #. Menu entry for usr/lib/menu/xearth
 msgid "Xearth"
-msgstr "Xearth"
+msgstr "Domhain"
 
 #. Menu description for usr/lib/menu/xearth
 msgid "Display the Earth on your desktop"
-msgstr ""
+msgstr "Taispeán an Domhain (Xearth)"
 
 #. Menu entry for usr/lib/menu/xemacs
 msgid "XEmacs"
 msgstr "XEmacs"
+
+#. Menu description for usr/lib/menu/xemacs
+msgid "Extensible text editor with full GUI support"
+msgstr ""
 
 #. Menu entry for usr/lib/menu/xfig
 msgid "XFig"
@@ -2571,32 +5165,29 @@ msgid "Vector Graphics Drawing Tool"
 msgstr ""
 
 #. Menu entry for usr/lib/menu/xgammon
-msgid "xgammon"
-msgstr "xgammon"
+# FIXME
+msgid "Xgammon"
+msgstr "Táiplis Mhór"
 
 #. Menu description for usr/lib/menu/xgammon
 msgid "Backgammon game"
-msgstr ""
+msgstr "Cluiche Táiplis Mhór (XGammon)"
 
 #. Menu entry for usr/lib/menu/xjewel
-msgid "xjewel"
-msgstr "xjewel"
+msgid "XJewel"
+msgstr "XJewel"
 
 #. Menu description for usr/lib/menu/xjewel
 msgid "Columns game"
 msgstr ""
 
 #. Menu entry for usr/lib/menu/xkobo
-msgid "xkobo"
-msgstr "xkobo"
+msgid "XKobo"
+msgstr "Kodo"
 
 #. Menu description for usr/lib/menu/xkobo
 msgid "Arcade video game"
 msgstr ""
-
-#. Menu entry for usr/lib/menu/xmms
-msgid "Xmms"
-msgstr "Xmms"
 
 #. Menu description for usr/lib/menu/xmms
 msgid "The must-have X multimedia system"
@@ -2612,15 +5203,15 @@ msgstr ""
 
 #. Menu entry for usr/lib/menu/xmovie
 msgid "xmovie"
-msgstr "xmovie"
+msgstr "Seinnteoir Fís"
 
 #. Menu description for usr/lib/menu/xmovie
 msgid "Video player"
-msgstr ""
+msgstr "(xmovie)"
 
 #. Menu entry for usr/lib/menu/xoscope
-msgid "xoscope"
-msgstr "xoscope"
+msgid "Xoscope"
+msgstr "Xoscope"
 
 #. Menu description for usr/lib/menu/xoscope
 msgid "Digital Oscilloscope"
@@ -2651,7 +5242,8 @@ msgid "Solitaire game"
 msgstr ""
 
 #. Menu entry for usr/lib/menu/xpcd
-msgid "xpcd"
+#, fuzzy
+msgid "Xpcd"
 msgstr "xpcd"
 
 #. Menu description for usr/lib/menu/xpcd
@@ -2666,16 +5258,25 @@ msgstr "Xpdf"
 msgid "Views PDF files"
 msgstr ""
 
-#. Menu entry for usr/lib/menu/xpilot
-msgid "xpilot server"
+#. Menu entry for usr/lib/menu/xpilot-menu
+msgid "Xpilot server"
 msgstr ""
 
-#. Menu description for usr/lib/menu/xpilot
+#. Menu description for usr/lib/menu/xpilot-menu
 msgid "Fly/shoot arcade game"
 msgstr ""
 
-#. Menu entry for usr/lib/menu/xpilot
-msgid "xpilot (requires server)"
+#. Menu entry for usr/lib/menu/xpilot-menu
+msgid "Xpilot - Requires server"
+msgstr ""
+
+#. Menu entry for usr/lib/menu/xpp
+#, fuzzy
+msgid "X Printing Panel"
+msgstr "Printáil"
+
+#. Menu description for usr/lib/menu/xpp
+msgid "Frontend for easy printing with CUPS"
 msgstr ""
 
 #. Menu entry for usr/lib/menu/xpuzzles
@@ -2727,20 +5328,28 @@ msgid "XPanex"
 msgstr "XPanex"
 
 #. Menu entry for usr/lib/menu/xrally
-msgid "xrally"
-msgstr "xrally"
+msgid "XRally"
+msgstr "XRally"
 
 #. Menu description for usr/lib/menu/xrally
-msgid "clone of the Rally X arcade game"
+msgid "A clone of the Rally X arcade game"
 msgstr ""
 
 #. Menu entry for usr/lib/menu/xrn
-msgid "xrn"
-msgstr "xrn"
+msgid "Xrn"
+msgstr "Xrn"
 
 #. Menu description for usr/lib/menu/xrn
 msgid "News reader"
 msgstr "Liethreoir Nuacht"
+
+#. Menu entry for usr/lib/menu/xscavenger
+msgid "X-Scavenger"
+msgstr ""
+
+#. Menu description for usr/lib/menu/xscavenger
+msgid "Cool arcade/thinking game very much like Lode Runner"
+msgstr ""
 
 #. Menu entry for usr/lib/menu/xsoldier
 msgid "XSoldier"
@@ -2751,39 +5360,52 @@ msgid "Shoot 'em up game"
 msgstr ""
 
 #. Menu entry for usr/lib/menu/xsysinfo
-msgid "xsysinfo"
-msgstr "xsysinfo"
+msgid "Xsysinfo"
+msgstr "Eolas Choráais"
 
 #. Menu description for usr/lib/menu/xsysinfo
 msgid "System information"
-msgstr "Eolas Choráis"
+msgstr "(XSysinfo)"
 
 #. Menu entry for usr/lib/menu/xterm
-msgid "xterm"
-msgstr "xterm"
+msgid "XTerm"
+msgstr "XTerm"
 
-#. Menu entry for usr/lib/menu/xtraceroute
-msgid "Xtraceroute"
-msgstr "Xtraceroute"
+#. Menu description for usr/lib/menu/xterm
+#, fuzzy
+msgid "The standard terminal emulator for the X Window System"
+msgstr "Aithriseoir teirminéal Eterm"
 
 #. Menu description for usr/lib/menu/xtraceroute
 msgid "Graphical OpenGL traceroute"
 msgstr ""
 
-#. Menu entry for usr/lib/menu/xtrojka
-msgid "xtrojka"
-msgstr "xtrojka"
+#. Menu entry for usr/lib/menu/xtrojka-menu
+msgid "XTrojka"
+msgstr "Trojka"
 
-#. Menu description for usr/lib/menu/xtrojka
-msgid "Tetris game"
+#. Menu description for usr/lib/menu/xtrojka-menu
+msgid "A tetris game"
 msgstr "Cluiche Tetris"
 
-#. Menu entry for usr/lib/menu/xwc
-msgid "XWC File Manager"
+#. Menu entry for usr/lib/menu/xv
+msgid "xv"
+msgstr "xv"
+
+#. Menu description for usr/lib/menu/xv
+msgid "Images viewer/editor"
 msgstr ""
 
 #. Menu description for usr/lib/menu/xwc
 msgid "A MS-Explorer-like File Manager for X"
+msgstr ""
+
+#. Menu entry for usr/lib/menu/xwpick
+msgid "Xwpick"
+msgstr "Xwpick"
+
+#. Menu description for usr/lib/menu/xwpick
+msgid "X Window System screenshot grabbe"
 msgstr ""
 
 #. Menu entry for usr/lib/menu/xxgdb
@@ -2802,120 +5424,558 @@ msgstr "Yudit"
 msgid "Unicode i18n Editor"
 msgstr ""
 
-#, fuzzy
-#~ msgid "KDE su configuration"
-#~ msgstr "Cumraigh X"
+#. Menu entry for usr/lib/menu/zhrxvt
+msgid "crxvt(Big5)"
+msgstr "Teirmineál Sínis (Trad.)"
+
+#. Menu description for usr/lib/menu/zhrxvt
+msgid "Traditional Chinese rxvt terminal"
+msgstr "Teirminéal Shínish tradisiunta (cvrvt Big5)"
+
+msgid "gbrxvt(GB2312)"
+msgstr "Teirminéal Sínis (Simplí)"
+
+#. Menu description for usr/lib/menu/zhrxvt
+msgid "Simplied Chinese rxvt terminal"
+msgstr ""
+
+msgid "Ktelnet"
+msgstr "Ktelnet"
+
+msgid "Kivio"
+msgstr "Kivio"
+
+msgid "Kisocd"
+msgstr "Kisocd"
+
+msgid "KSpace"
+msgstr "KSpace"
+
+msgid "Actions"
+msgstr ""
+
+msgid "General"
+msgstr ""
+
+msgid "drakfont"
+msgstr "DrakFonf"
+
+msgid "Email"
+msgstr "Ríomhphost"
+
+msgid "ggv"
+msgstr "ggv"
+
+msgid "gnome-iconedit"
+msgstr ""
+
+msgid "GnomePeripherals"
+msgstr ""
+
+msgid "kdesettingsdi"
+msgstr "kdesettingsdi"
+
+msgid "Plotter"
+msgstr "Plotter"
+
+msgid "KLILO"
+msgstr "KLILO"
+
+msgid "kmp3"
+msgstr "kmp3"
+
+msgid "KLaser"
+msgstr "KLaser"
+
+msgid "KMatrix"
+msgstr "KMatrix"
+
+msgid "KSlip"
+msgstr "KSlip"
+
+msgid "Graphical File manager"
+msgstr ""
+
+msgid "Appfinder"
+msgstr "Appfinder"
+
+msgid "KDE debugger"
+msgstr "KDE debugger"
+
+msgid "ICQ"
+msgstr "ICQ"
+
+msgid "Gnome-edit"
+msgstr "Eagarthóir"
+
+msgid "Basic Gnome editor"
+msgstr "Eagarthóir Gnome"
+
+msgid "Eterm"
+msgstr "Eterm"
+
+msgid "Kfinger"
+msgstr "Kfinger"
+
+msgid "XaoS"
+msgstr "XaoS"
+
+msgid "Dpsftp"
+msgstr ""
+
+msgid "gFTP"
+msgstr "gFTP"
+
+msgid "GnomeICU"
+msgstr "GnomeICU"
+
+msgid "Gnuplot"
+msgstr "Gnuplot"
+
+msgid "gprolog"
+msgstr "gprolog"
+
+msgid "Gqview"
+msgstr "Gqview"
+
+msgid "Grip"
+msgstr "Grip"
+
+msgid "GtkZip"
+msgstr "GtkZip"
+
+msgid "icepref"
+msgstr "icepref"
+
+msgid "Kfirewall"
+msgstr "Kfirewall"
+
+msgid "Kpacman"
+msgstr "Kpacman"
+
+msgid "Ksendfax"
+msgstr "Ksendfax"
+
+msgid "Licq"
+msgstr "Licq"
+
+msgid "Licq-ssl"
+msgstr "Licq-ssl"
+
+msgid "mathplot"
+msgstr "mathplot"
+
+msgid "Mek"
+msgstr "Mek"
+
+msgid "Netscape-Navigator"
+msgstr "Netscape"
+
+msgid "Nmapfe"
+msgstr "Nmapfe"
+
+msgid "qcad"
+msgstr "qcad"
+
+msgid "sfm"
+msgstr "sfm"
+
+msgid "Xchat"
+msgstr "Xchat"
+
+msgid "Xmms"
+msgstr "Xmms"
+
+msgid "Xtraceroute"
+msgstr "Xtraceroute"
+
+msgid "XWC File Manager"
+msgstr "Bainisteoir Comhad (XWC)"
+
+msgid "Internet"
+msgstr "Idirlíon"
+
+msgid "ee"
+msgstr "ee"
+
+msgid "EOG"
+msgstr "EOG"
+
+msgid "gedit"
+msgstr "gedit"
+
+msgid "gsu"
+msgstr "gsu"
+
+msgid "gtv"
+msgstr "gtv"
+
+msgid "hugs"
+msgstr "hugs"
+
+msgid "Kteatime"
+msgstr "Kteatime"
+
+msgid "ocaml"
+msgstr "ocaml"
+
+msgid "Objective Caml"
+msgstr "Objective Caml"
+
+msgid "Gnome News Reader"
+msgstr "Nuachtán Gnome"
+
+msgid "xterm"
+msgstr "xterm"
+
+msgid "ico"
+msgstr "ico"
+
+msgid "Netscape-Communicator"
+msgstr "Líonléitheoir Netscape"
+
+msgid "Gnome xBill"
+msgstr "Gnome xBill"
+
+msgid "Gnome version of the popular xBill game"
+msgstr "Leagan Gnome do Cluiche xBill"
+
+msgid "perl"
+msgstr "perl"
+
+msgid "xpat2"
+msgstr "xpat2"
+
+msgid "xpanex"
+msgstr "xpanex"
+
+msgid "Terminal Emulation (kvt)"
+msgstr "Aithriseoir teirminéal (kvt)"
+
+msgid "xmailbox"
+msgstr "Ríomhphost"
+
+msgid "Amusement/Arcade"
+msgstr "Siamsa/Stuara"
+
+msgid "Amusement/Puzzles"
+msgstr "Siamsa/Dúcheist"
+
+msgid "Amusement/Strategy"
+msgstr "Siamsa/Stratéis"
+
+msgid "Amusement/Toys"
+msgstr "Siamsa/Cluichí"
 
 #, fuzzy
-#~ msgid "User Manager"
-#~ msgstr "Bainisteóir seirbhísí túsach"
+msgid "Applications/Communications"
+msgstr "Feidhmchláir"
+
+msgid "Applications/Editors"
+msgstr "Ríomhchláranna/Eagarthoireanna"
+
+msgid "Configuration/Boot and Init"
+msgstr "Cumraigh/Tosnú"
+
+msgid "Configuration/Other"
+msgstr "Cumraigh/Eile"
+
+msgid "Configuration/Packaging"
+msgstr "Cumraighi/Pacáistí"
+
+msgid "Configuration/Printing"
+msgstr "Cumraigh/Printéir"
+
+msgid "Multimedia/Graphics"
+msgstr "Ilmheánach/Graphice"
+
+msgid "Networking/Mail"
+msgstr "Greasánú/Ríomhphost"
 
 #, fuzzy
-#~ msgid "System Sound Configuration"
-#~ msgstr "Cumraigh X"
+msgid "User accounts manager"
+msgstr "Bainisteóir chlófhoireann"
 
 #, fuzzy
-#~ msgid "DMA information"
-#~ msgstr "Cumraigh X"
+msgid "WindowManagers"
+msgstr "Bainisteóir seirbhísí túsach"
 
-#, fuzzy
-#~ msgid "Interrupt information"
-#~ msgstr "Nasc idirlíon"
+msgid "Gnome bomberman game"
+msgstr ""
 
-#, fuzzy
-#~ msgid "PCI information"
-#~ msgstr "Cumraigh X"
+msgid "gofai"
+msgstr "gofai"
 
-#~ msgid "File Manager"
-#~ msgstr "Bainisteoir Chomad"
+msgid "Graphite"
+msgstr "Graphite"
 
-#~ msgid "Home Directory"
-#~ msgstr "Eolaire Cinn"
+msgid "kaiman"
+msgstr "kaiman"
 
-#, fuzzy
-#~ msgid "Talk configuration"
-#~ msgstr "Cumraigh X"
+msgid "kbiff"
+msgstr "kbiff"
 
-#, fuzzy
-#~ msgid "Talk daemon configuration"
-#~ msgstr "Cumraigh X"
+msgid "KCalculator"
+msgstr "KCalculator"
 
-#~ msgid "Netscape"
-#~ msgstr "Netscape"
+msgid "KCharselect"
+msgstr "KCharselect"
 
-#~ msgid "Imlib Configuration Options"
-#~ msgstr "Cumraigh Imlib"
+msgid "KDF"
+msgstr "KDF"
 
-#~ msgid "Desktop Settings"
-#~ msgstr "Cumraíocht Barr Deisce"
+msgid "kdvi"
+msgstr "kdvi"
 
-#, fuzzy
-#~ msgid "drakbootdisk"
-#~ msgstr "DrakFonf"
+msgid "KEdit"
+msgstr "KEdit"
 
-#~ msgid "Adduser Drake lets you add new users to the system"
-#~ msgstr ""
-#~ "Cuireann Adduser Drake ar do chumas úsáideoirí nua a cur leis an chóras"
+msgid "KFind"
+msgstr "KFind"
 
-#~ msgid ""
-#~ "DiskDrake allows you to examin/modify your partition tables. BE EXTREMLY "
-#~ "CAREFULY when you use it."
-#~ msgstr ""
-#~ "Cuireann DiskDrake ar do chumas do chlár ranna a scrudú/athrú. BÍ FÍOR "
-#~ "CURAMACH á núsáid."
+msgid "kghostview"
+msgstr "kghostview"
 
-#~ msgid "Drop text and postscript files onto the PRINTER icon"
-#~ msgstr "Cuir comhaid téacsa agus postscript ar an dealbh printéir"
+msgid "kgrapher"
+msgstr "kgrapher"
 
-#~ msgid ""
-#~ "KPackage is a GUI interface to the RPM, Debian, Slackware and BSD package "
-#~ "managers, it is similar in some ways to GLINT"
-#~ msgstr ""
-#~ "Is comhéadan graifeach é KPackage ar bhainisteóirí pacaistíochta RPM, "
-#~ "Debian, Slakware agus BSD, ar bhealach tá sé cosúil le GLINT"
+msgid "KHelp Center"
+msgstr "Ionad Cúidiú"
 
-#~ msgid "KeyboardDrake allows you to modify easily your keyboard."
-#~ msgstr "Cuireann KeyboardDrake ar do chumas do mhéarchlár a chumrú"
+msgid "KHexEdit"
+msgstr "KHexEdit"
 
-#~ msgid "Linux Mandrake News"
-#~ msgstr "Nuacht Linux Mandrake"
+msgid "KMenu Edit"
+msgstr "Eagarthoir Chláranna"
+
+msgid "kmix"
+msgstr "kmix"
+
+msgid "Kodo"
+msgstr "Kodo"
+
+msgid "KOffice Shell"
+msgstr "Blaosc KOffice"
+
+msgid "kpaint"
+msgstr "kpaint"
+
+msgid "kphone"
+msgstr "kphone"
+
+msgid "kscd"
+msgstr "kscd"
+
+msgid "Ksysv"
+msgstr "Ksysv"
+
+msgid "KTuberling"
+msgstr "Aghaidh Prátaí"
+
+msgid "kview"
+msgstr "kview"
+
+msgid "KWrite"
+msgstr "KWrite"
+
+msgid "SDL Bomber"
+msgstr "SDL Bomber"
+
+msgid "KLaserJet Tool"
+msgstr "Uirilisín KLaserJet"
+
+msgid "Attraction"
+msgstr ""
+
+msgid "Configuration for GOFAI-WMT Data View"
+msgstr ""
+
+msgid "Default"
+msgstr ""
+
+msgid "Interrupts,IRQ,System Information"
+msgstr ""
+
+msgid "PCI,PCI-Devices,PCI-Bus,System Information"
+msgstr ""
+
+msgid "Partitions,Harddrive,HD,System Information"
+msgstr ""
+
+msgid "Processor,CPU,FPU,MHz,System Information"
+msgstr ""
+
+msgid "SCSI,SCSI-Bus,System Information"
+msgstr "Eolas Corás, SCSI, SCSI-Bus"
+
+msgid "Soundserver"
+msgstr "Freastalaí Fuaim"
+
+msgid "dev,Devices,System Information,Information"
+msgstr "Eolas Choráis do Gaireasaí"
+
+msgid "dma,DMA-Channels,System Information"
+msgstr "Eolas Choráis do DMA"
+
+msgid "RXVT"
+msgstr "RXVT"
+
+msgid "Ark"
+msgstr "Ark"
+
+msgid "BomberMaze"
+msgstr "BomberMaze"
+
+msgid "caitoo"
+msgstr "caitoo"
+
+msgid "Kab"
+msgstr "Kab"
+
+msgid "kautorun"
+msgstr "kautorun"
+
+msgid "kcoloredit"
+msgstr "kcoloredit"
+
+msgid "Kcron"
+msgstr "Kcron"
+
+msgid "Kdat"
+msgstr "Kdat"
+
+msgid "kfax"
+msgstr "kfax"
+
+msgid "kfract"
+msgstr "kfract"
+
+msgid "kjezz"
+msgstr "kjezz"
+
+msgid "klipper"
+msgstr "klipper"
+
+msgid "KLPQ"
+msgstr "KLPQ"
+
+msgid "kmid"
+msgstr "kmid"
+
+msgid "KMoon"
+msgstr "KMoon"
+
+msgid "knu"
+msgstr "knu"
+
+msgid "korn"
+msgstr "korn"
+
+msgid "Ksysctrl"
+msgstr "Ksysctrl"
+
+msgid "ktalkd"
+msgstr "ktalkd"
+
+msgid "KDE Tips"
+msgstr "Leathfhoicail KDE"
+
+msgid "KWuftpd"
+msgstr "KWuftpd"
+
+msgid "Kprintversion"
+msgstr "Kprintversion"
+
+msgid "KSecPolicy"
+msgstr "KSecPolicy"
+
+msgid "TimIdity"
+msgstr "TimIdity"
+
+msgid "Soundserver Configuration"
+msgstr "Cumraiíocht Fuaim"
+
+msgid "date,time"
+msgstr "data,am"
+
+msgid "xkobo"
+msgstr "xkobo"
+
+msgid "xrally"
+msgstr "xrally"
+
+msgid "gtkeybord"
+msgstr "gtkeybord"
+
+msgid "drakbootdisk"
+msgstr "Diosca Tosnú (drakbootdisk)"
+
+msgid "Sessions"
+msgstr "Seisiún"
+
+msgid "Adduser Drake lets you add new users to the system"
+msgstr "Cuireann Adduser Drake ar do chumas úsáideoirí nua a cur leis an chóras"
+
+msgid "User addition"
+msgstr "Úsáideoirí nua"
+
+msgid "XFDrake allows you to configure easily the X Window System."
+msgstr "Cuireann XFDrake ar do chumas an gcomhéadan úsáideora X a chumrú go héasca"
+
+msgid "Drop text and postscript files onto the PRINTER icon"
+msgstr "Cuir comhaid téacsa agus postscript ar an dealbh printéir"
+
+msgid "Internet connection"
+msgstr "Nasc idirlíon"
+
+# "DiskDrake allows you to examin/modify your partition tables. BE EXTREMLY "
+# "CAREFULY when you use it."
+# msgstr ""
+# "Cuireann DiskDrake ar do chumas do chlár ranna a scrudú/athrú. BÍ FÍOR "
+# "CURAMACH á núsáid."
+
+# msgid ""
+# "KPackage is a GUI interface to the RPM, Debian, Slackware and BSD package "
+# "managers, it is similar in some ways to GLINT"
+# msgstr ""
+# "Is comhéadan graifeach é KPackage ar bhainisteóirí pacaistíochta RPM, "
+# "Debian, Slakware agus BSD, ar bhealach tá sé cosúil le GLINT"
+
+# msgid "KeyboardDrake allows you to modify easily your keyboard."
+# msgstr "Cuireann KeyboardDrake ar do chumas do mhéarchlár a chumrú"
+
+# msgid "Linux Mandrake News"
+# msgstr "Nuacht Linux Mandrake"
 
 #~ msgid ""
 #~ "LinuxConf is an advanced system configuration tool. It can for example "
-#~ "configure your SendMail mail-server, Web Apache, manage the users, the files "
-#~ "permissions, services startup and so on."
+#~ "configure your SendMail mail-server, Web Apache, manage the users, the "
+#~ "files permissions, services startup and so on."
 #~ msgstr ""
-#~ "Is úrlis cumrú cumhachtach é LinuxConf. I measc a gcuid fheidhmeanna ligeann "
-#~ "sé dhuit seirbhísí mar SendMail agus Apache a chumrú, úsáideoirí agus "
-#~ "comhadceadanna a bhainistiú, agus na seirbhisí tosaithe a rialiú."
+#~ "Is úrlis cumrú cumhachtach é LinuxConf. I measc a gcuid fheidhmeanna "
+#~ "ligeann sé dhuit seirbhísí mar SendMail agus Apache a chumrú, úsáideoirí "
+#~ "agus comhadceadanna a bhainistiú, agus na seirbhisí tosaithe a rialiú."
 
 #~ msgid ""
-#~ "MouseDrake allows you to configure easily you mouse device. If your is not "
-#~ "in list, please choose a generic model. Choose one in conformyty with your "
-#~ "interface (PS2, serial or USB)."
+#~ "MouseDrake allows you to configure easily you mouse device. If your is "
+#~ "not in list, please choose a generic model. Choose one in conformyty with "
+#~ "your interface (PS2, serial or USB)."
 #~ msgstr ""
 #~ "Ligeann MouseDrake dhuit do ghaireas luchóige a chumrú go héasca. Muna "
-#~ "bhfuil sé ar an liosta, roghnaigh an gnáth leagan a oireann ded' ríomhaire "
-#~ "féin (PS/2, Serial, USB)."
+#~ "bhfuil sé ar an liosta, roghnaigh an gnáth leagan a oireann ded' "
+#~ "ríomhaire féin (PS/2, Serial, USB)."
 
 #~ msgid "NetConf allows you to configure easily your network interface."
 #~ msgstr "Ligeann NetConf dhuit do comhéadan gréasánach a chumrú go héasca."
 
 #~ msgid ""
-#~ "PrinterDrake allows you to easily configure your printer. This one can be a "
-#~ "local or a remote printer. PrinterDrake can configure access for Netware, "
-#~ "SMB or Unix network printer."
+#~ "PrinterDrake allows you to easily configure your printer. This one can be "
+#~ "a local or a remote printer. PrinterDrake can configure access for "
+#~ "Netware, SMB or Unix network printer."
 #~ msgstr ""
 #~ "Ligeann PrinterDrake dhuit do printéir a chumrú go héasca. Is féidir leis "
 #~ "bheith ceangailte go díreach nó go hindíreach. Is féidir le PrinterDrake "
 #~ "printéir ar Netware, SMB, nó Unix a chumrú"
-
-#~ msgid "User addition"
-#~ msgstr "Úsáideoirí nua"
-
-#~ msgid "XFDrake allows you to configure easily the X Window System."
-#~ msgstr ""
-#~ "Cuireann XFDrake ar do chumas an gcomhéadan úsáideora X a chumrú go héasca"
 
 #~ msgid "Xdrakres allows you to easily modify your screen resolution"
 #~ msgstr "Ligeann Xdrakres dhuit méid do scáilean a chumrú go héasca"
