@@ -2588,11 +2588,11 @@ msgid "NAME"
 msgstr "AINM"
 
 #: locale/programs/locale.c:89
+#, fuzzy
 msgid ""
 "NAME\n"
 "[-a|-m]"
 msgstr ""
-"\n"
 "AINM\n"
 "[-a|-m]"
 

@@ -1177,7 +1177,7 @@ msgstr "Patrún gan aithne `%s'"
 msgid ""
 "\n"
 "Copyright (C) 1995, 1996, 1997 Free Software Foundation, Inc.\n"
-msgstr "Copyright (C) 1995, 1996, 1997 Free Software Foundation, Inc.\n"
+msgstr "\nCopyright (C) 1995, 1996, 1997 Free Software Foundation, Inc.\n"
 
 #: tests/genfile.c:161
 msgid ""
