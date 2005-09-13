@@ -1,0 +1,259 @@
+# Irish translations for darkstat
+# Copyright (C) 2003 Emil Mikulic (applies to msgids only)
+# This file is distributed under the same license as the darkstat package.
+# Kevin Patrick Scannell <scannell@SLU.EDU>, 2003.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: darkstat 2.1\n"
+"POT-Creation-Date: 2002-08-11 23:25+1000\n"
+"PO-Revision-Date: 2003-04-24 12:01-0500\n"
+"Last-Translator: Kevin Patrick Scannell <scannell@SLU.EDU>\n"
+"Language-Team: Irish <ga@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ISO-8859-1\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/www.c:95 src/www.c:110
+msgid "in"
+msgstr "isteach"
+
+#: src/www.c:95 src/www.c:110
+msgid "and"
+msgstr "agus"
+
+#: src/www.c:95 src/www.c:110
+msgid "out"
+msgstr "amach"
+
+#: src/www.c:96 src/www.c:111
+msgid "Maximum:"
+msgstr "Uasmhéid:"
+
+# appears singular in Irish after a number!
+#: src/www.c:96 src/www.c:111 src/www.c:274 src/www.c:286
+msgid "bytes"
+msgstr "beart"
+
+#: src/www.c:194 src/www.c:261
+msgid "main"
+msgstr "príomhchlár"
+
+#: src/www.c:194 src/www.c:392
+msgid "hosts"
+msgstr "óstaigh"
+
+#: src/www.c:194 src/www.c:521
+msgid "ports"
+msgstr "poirt"
+
+#: src/www.c:194 src/www.c:648
+msgid "protocols"
+msgstr "prótacail"
+
+#: src/www.c:195 src/www.c:357
+msgid "graphs"
+msgstr "graif"
+
+#: src/www.c:195
+msgid "homepage"
+msgstr "clár cinn"
+
+#: src/www.c:224
+#, c-format
+msgid "Want this page refreshed every %s seconds?"
+msgstr "Ar mhaith leat athnuachan den leathanach seo gach %s soicind?"
+
+#: src/www.c:229
+msgid "Yes"
+msgstr "Tá"
+
+#: src/www.c:238
+#, c-format
+msgid "This page is being refreshed every %s seconds."
+msgstr "Tá an leathanach seo á athnuachan gach %s soicind."
+
+#: src/www.c:243
+msgid "Change"
+msgstr "Athraigh"
+
+#: src/www.c:243
+msgid "Stop"
+msgstr "Stad"
+
+#: src/www.c:273 src/www.c:285
+msgid "Packets captured:"
+msgstr "Paicéid gafa:"
+
+#. TRANSLATORS: This means total data captured
+#: src/www.c:274 src/www.c:286 src/www.c:1229
+msgid "Data off the wire:"
+msgstr "Sonraí iomlán gafa"
+
+#: src/www.c:275 src/www.c:287
+msgid "Unique hosts:"
+msgstr "Óstaigh éagsúla:"
+
+#: src/www.c:313
+msgid "Counting"
+msgstr "Áireamh"
+
+# Singular form in Irish!
+#: src/www.c:315
+msgid "days"
+msgstr "lá"
+
+#: src/www.c:317
+msgid "hours"
+msgstr "uair"
+
+#: src/www.c:319
+msgid "minutes"
+msgstr "nóiméad"
+
+#: src/www.c:320
+msgid "seconds"
+msgstr "soicind"
+
+#: src/www.c:325
+msgid "Running since:"
+msgstr "Ar bun ó:"
+
+#: src/www.c:328 src/www.c:363
+msgid "Last 60 seconds"
+msgstr "60 soicind is déanaí"
+
+#: src/www.c:339
+msgid "DNS resolution is"
+msgstr "Tá réiteach DNS"
+
+#: src/www.c:340
+msgid "on"
+msgstr "ar siúl"
+
+#: src/www.c:341
+msgid "off"
+msgstr "múchta"
+
+#. TRANSLATORS: "Cycling once" means the DNS thread will go through the
+#. host database once and then stop, instead of cycling forever
+#. (which is what "on" means)
+#: src/www.c:342 src/www.c:1234
+msgid "cycling once"
+msgstr "ag athfhilleadh aon uair"
+
+#: src/www.c:366
+msgid "Last 60 minutes"
+msgstr "60 nóiméad is déanaí"
+
+#: src/www.c:369
+msgid "Last 24 hours"
+msgstr "24 uair is déanaí"
+
+#: src/www.c:372
+msgid "Last 30 days"
+msgstr "30 lá is déanaí"
+
+#: src/www.c:397
+#, c-format
+msgid "Hosts (sorted by %s, top %d)"
+msgstr "Óstaigh (sórtáilte de réir %s, an %d is fearr)"
+
+#: src/www.c:398 src/www.c:404 src/www.c:526 src/www.c:533
+msgid "incoming"
+msgstr "isteach"
+
+#: src/www.c:398 src/www.c:404 src/www.c:526 src/www.c:533
+msgid "outgoing"
+msgstr "amach"
+
+#: src/www.c:399 src/www.c:405 src/www.c:527 src/www.c:534
+msgid "total"
+msgstr "iomlán"
+
+#: src/www.c:399 src/www.c:405 src/www.c:432
+msgid "IP"
+msgstr "IP"
+
+#: src/www.c:403
+#, c-format
+msgid "Hosts (sorted by %s)"
+msgstr "Óstaigh (sórtáilte de réir %s)"
+
+#: src/www.c:432 src/www.c:434 src/www.c:435 src/www.c:436 src/www.c:559
+#: src/www.c:560 src/www.c:561 src/www.c:562
+msgid "full"
+msgstr "lán"
+
+#: src/www.c:433
+msgid "Hostname"
+msgstr "Óstainm"
+
+#: src/www.c:434 src/www.c:560 src/www.c:663
+msgid "In"
+msgstr "Isteach"
+
+#: src/www.c:435 src/www.c:561 src/www.c:663
+msgid "Out"
+msgstr "Amach"
+
+#: src/www.c:436 src/www.c:562 src/www.c:663
+msgid "Total"
+msgstr "Iomlán"
+
+#: src/www.c:525
+#, c-format
+msgid "Ports (TCP, sorted by %s, top %d)"
+msgstr "Poirt (TCP, sórtáilte de réir %s, an %d is fearr)"
+
+#: src/www.c:527 src/www.c:534
+msgid "port number"
+msgstr "uimhir phoirt"
+
+#: src/www.c:532
+#, c-format
+msgid "Ports (TCP, sorted by %s)"
+msgstr "Poirt (TCP, sórtáilte de réir %s)"
+
+#: src/www.c:559
+msgid "Port"
+msgstr "Port"
+
+#: src/www.c:663
+msgid "Protocol"
+msgstr "Prótacal"
+
+#: src/www.c:663
+msgid "Other"
+msgstr "Eile"
+
+#: src/www.c:745
+msgid "Not Implemented"
+msgstr "Níl ar fáil"
+
+#: src/www.c:746
+msgid "Whatever the heck you just requested, I can't generate."
+msgstr "Cibé rud damanta a bhfuil tú ag iarraidh, ní féidir liom é a chruthú."
+
+#: src/www.c:761
+msgid "Not Found"
+msgstr "Ar iarraidh"
+
+#: src/www.c:762
+msgid "Whatever you just requested, I don't have."
+msgstr "Cibé rud a bhfuil tú ag iarraidh, níl sé agam."
+
+#. TRANSLATORS: This is the redirect hint, it's only visible to people
+#. whose browsers can't handle HTTP Location: redirects
+#. correctly.
+#: src/www.c:782
+msgid "Go <a href=\"/\">here</a>."
+msgstr "Féach ar <a href=\"/\">seo</a>."
+
+#. TRANSLATORS: This is the only message written to the terminal screen
+#. when darkstat is starting up.  Please keep this in
+#. English or at least US-ASCII.  Change it to something
+#. like "You are using the <x> language version.\n"
+#: src/www.c:1197
+msgid "WWW: You are using the English language version.\n"
+msgstr "WWW: You are using the Irish language version.\n"

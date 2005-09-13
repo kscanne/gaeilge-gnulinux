@@ -1,0 +1,372 @@
+# Irish translations for gtick.
+# Copyright (C) 2003 Free Software Foundation, Inc.
+# This file is distributed under the same license as the gtick package.
+# Kevin Patrick Scannell <scannell@SLU.EDU>, 2003.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gtick 0.2.12\n"
+"POT-Creation-Date: 2003-12-25 13:49+0100\n"
+"PO-Revision-Date: 2004-01-12 19:39-0500\n"
+"Last-Translator: Kevin Patrick Scannell <scannell@SLU.EDU>\n"
+"Language-Team: Irish <ga@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ISO-8859-1\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Report-Msgid-Bugs-To: stigge@antcom.de\n"
+
+#: src/gtick.c:80
+#, c-format
+msgid ""
+"Usage: %s [OPTION...]\n"
+"\n"
+"Options:\n"
+"  -h, --help              Show this help message\n"
+"  -v, --version           Print version information\n"
+"  -d, --debug[=level]     Print additional runtime debugging data to stdout\n"
+"\n"
+msgstr ""
+"Úsáid: %s [ROGHA...]\n"
+"\n"
+"Roghanna:\n"
+"  -h, --help              Taispeáin an chabhair seo\n"
+"  -v, --version           Taispeáin eolas faoin leagan\n"
+"  -d, --debug[=leibhéal]  Taispeáin tuilleadh eolais chun dífhabhtú\n"
+"\n"
+
+#. TRANSLATORS: actually, "AndrÃ©s" with acute accent (/)
+#: src/help.c:81
+msgid ""
+"Copyright (c) 1999, Alex Roberts <bse@dial.pipex.com>\n"
+"Copyright (c) 2003, Roland Stigge <stigge@antcom.de>\n"
+"Logo by Mario Andres Pagella <mapagella@fitzroy-is.com.ar>\n"
+"\n"
+"Homepage:\n"
+"http://www.antcom.de/gtick/\n"
+"\n"
+"Email bug reports, comments, etc. to\n"
+"Developer's mailing list:\n"
+"gtick-devel@nongnu.org"
+msgstr ""
+"Cóipcheart/Copyright (c) 1999, Alex Roberts <bse@dial.pipex.com>\n"
+"Cóipcheart/Copyright (c) 2003, Roland Stigge <stigge@antcom.de>\n"
+"Lógó le Mario Andrés Pagella <mapagella@fitzroy-is.com.ar>\n"
+"\n"
+"Clár Cinn:\n"
+"http://www.antcom.de/gtick/\n"
+"\n"
+"Seol tuairiscí fabhtanna, trácht, srl. chuig\n"
+"Liosta r-phoist do na forbróirí:\n"
+"gtick-devel@nongnu.org"
+
+#: src/help.c:106
+msgid "GTick License"
+msgstr "Ceadúnas GTick"
+
+# Diarmaid Mac Mathuna did some of this for our GaelSpell project - KPS
+#: src/help.c:107
+msgid ""
+"GTick - The Metronome\n"
+"Copyright (c) 1999, Alex Roberts <bse@dial.pipex.com>\n"
+"Copyright (c) 2003, Roland Stigge <stigge@antcom.de>\n"
+"\n"
+"This program is free software; you can redistribute it and/or\n"
+"modify it under the terms of the GNU General Public License\n"
+"as published by the Free Software Foundation; either version 2\n"
+"of the License, or (at your option) any later version.\n"
+"\n"
+"This program is distributed in the hope that it will be useful,\n"
+"but WITHOUT ANY WARRANTY; without even the implied warranty of\n"
+"MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\n"
+"GNU General Public License for more details.\n"
+"\n"
+"You should have received a copy of the GNU General Public License\n"
+"along with this program; if not, write to the Free Software\n"
+"Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA."
+msgstr ""
+"GTick - An Méadranóm\n"
+"Cóipcheart/Copyright (c) 1999, Alex Roberts <bse@dial.pipex.com>\n"
+"Cóipcheart/Copyright (c) 2003, Roland Stigge <stigge@antcom.de>\n"
+"\n"
+"Is saorbhogearra an ríomhchlár seo; is féidir leat é a scaipeadh agus/nó\n"
+"a athrú de réir na gcoinníollacha den GNU General Public License mar atá\n"
+"foilsithe ag an Free Software Foundation; faoi leagan 2 den cheadúnas,\n"
+"nó (más mian leat) aon leagan níos déanaí.\n"
+"\n"
+"Scaiptear an ríomhchlár seo le súil go mbeidh se áisiúil,\n"
+"ach GAN AON BARÁNTA; go fiú gan an barántas intuigthe de\n"
+"INDÍOLTACHT nó FEILIÚNACHT DO FHEIDHM AR LEITH.  Féach ar an\n"
+"GNU General Public License chun níos mó sonraí a fháil.\n"
+"\n"
+"Ba chomhair go mbeifeá tar éis cóip den GNU General Public License a fháil in\n"
+"éineacht leis an ríomhchlár seo; mura bhfuair, scríobh chuig an Free Software\n"
+"Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307, USA."
+
+#: src/help.c:135
+msgid "Shortcuts"
+msgstr "Aicearraí"
+
+#: src/help.c:142
+msgid "Ctrl-S"
+msgstr "Ctrl-S"
+
+#: src/help.c:148
+msgid "Ctrl-+"
+msgstr "Ctrl-+"
+
+#: src/help.c:154
+msgid "Ctrl--"
+msgstr "Ctrl--"
+
+#: src/help.c:160
+msgid "Ctrl-1 ... Ctrl-9"
+msgstr "Ctrl-1 ... Ctrl-9"
+
+#: src/help.c:166
+msgid "Start/Stop"
+msgstr "Tosaigh/Stop"
+
+#: src/help.c:172
+msgid "Speed: Faster"
+msgstr "Luas: Níos Tapúla"
+
+#: src/help.c:178
+msgid "Speed: Slower"
+msgstr "Luas: Níos Moille"
+
+#: src/help.c:184
+msgid "Base Meter"
+msgstr "Bunmhéadar"
+
+#: src/metro.c:62
+msgid "Idle"
+msgstr "Díomhaoin"
+
+#: src/metro.c:62
+msgid "Start"
+msgstr "Tosaigh"
+
+#: src/metro.c:63
+msgid "Running"
+msgstr "Ag Rith"
+
+#: src/metro.c:63
+msgid "Stop"
+msgstr "Stad"
+
+#: src/metro.c:180 src/metro.c:964 src/metro.c:1008
+msgid "/Metronome/Start"
+msgstr "/Méadranóm/Tosaigh"
+
+#. TRANSLATORS: This is the Metronome menu. The strings start with a slash
+#. ("/"), followed by the menu name, another slash and the menu entry.
+#. Please make sure that you translate the menu name everywhere with the same
+#. string. Otherwise, the menu is endangered to be split.
+#. An underscore marks a shortcut (also visually marked in the menu) which
+#. is only intended to mark menu names and menu entry names directly, i.e.
+#. just the menu name of a menu entry usually doesn't include an underscore.
+#.
+#: src/metro.c:963
+msgid "/_Metronome"
+msgstr "/_Méadranóm"
+
+#: src/metro.c:965
+msgid "/Metronome/_Manual Timer"
+msgstr "/Méadranóm/_Amadóir Láimhe"
+
+#: src/metro.c:966
+msgid "/Metronome/"
+msgstr "/Méadranóm/"
+
+#: src/metro.c:967
+msgid "/Metronome/_Quit"
+msgstr "/Méadranóm/_Scoir"
+
+#. TRANSLATORS: This is the Options menu. The strings start with a slash
+#. ("/"), followed by the menu name, another slash and the menu entry.
+#. Please make sure that you translate the menu name everywhere with the same
+#. string. Otherwise, the menu is endangered to be split.
+#. An underscore marks a shortcut (also visually marked in the menu) which
+#. is only intended to mark menu names and menu entry names directly, i.e.
+#. just the menu name of a menu entry usually doesn't include an underscore.
+#.
+#: src/metro.c:978
+msgid "/_Options"
+msgstr "/_Roghanna"
+
+#: src/metro.c:979 src/metro.c:1013
+msgid "/Options/Show _Visual Tick"
+msgstr "/Roghanna/Tic _Radharcach"
+
+#: src/metro.c:980 src/metro.c:1016
+msgid "/Options/Show _Accent Table"
+msgstr "/Roghanna/Tábla Béime"
+
+#: src/metro.c:981
+msgid "/Options/_Properties"
+msgstr "/Roghanna/_Airíonna"
+
+#. TRANSLATORS: This is the Help menu. The strings start with a slash
+#. ("/"), followed by the menu name, another slash and the menu entry.
+#. Please make sure that you translate the menu name everywhere with the same
+#. string. Otherwise, the menu is endangered to be split.
+#. An underscore marks a shortcut (also visually marked in the menu) which
+#. is only intended to mark menu names and menu entry names directly, i.e.
+#. just the menu name of a menu entry usually doesn't include an underscore.
+#.
+#: src/metro.c:992
+msgid "/_Help"
+msgstr "/_Cabhair"
+
+#: src/metro.c:993
+msgid "/Help/_About"
+msgstr "/Cabhair/_Faoi seo"
+
+#: src/metro.c:994
+msgid "/Help/_Shortcuts"
+msgstr "/Cabhair/_Aicearraí"
+
+#: src/metro.c:995
+msgid "/Help/_License"
+msgstr "/Cabhair/_Ceadúnas"
+
+#: src/metro.c:1192
+msgid "Settings"
+msgstr "Socruithe"
+
+#: src/metro.c:1207
+msgid "Speed:"
+msgstr "Luas:"
+
+#: src/metro.c:1264
+msgid "Volume:"
+msgstr "Láine:"
+
+#: src/metro.c:1294
+msgid "Beat"
+msgstr "Buille"
+
+#. TRANSLATORS: all beats are equal
+#: src/metro.c:1309
+msgid "Even"
+msgstr "Cothrom"
+
+#. TRANSLATORS: duple meter
+#: src/metro.c:1322
+msgid "2/4"
+msgstr "2/4"
+
+#. TRANSLATORS: triple meter
+#: src/metro.c:1333
+msgid "3/4"
+msgstr "3/4"
+
+#. TRANSLATORS: quadruple meter / common meter
+#: src/metro.c:1344
+msgid "4/4"
+msgstr "4/4"
+
+#. TRANSLATORS: meter with more than 4 beats per measure
+#: src/metro.c:1355 src/gtkoptions.c:271
+msgid "Other:"
+msgstr "Eile:"
+
+#: src/metro.c:1377
+msgid "Accent Table"
+msgstr "Tábla Béime"
+
+#: src/metro.c:1504
+msgid ""
+"Couldn't start metronome.\n"
+"Please check if specified sound device\n"
+"and sample file are accessible."
+msgstr ""
+"Níorbh fhéidir an méadranóm a chur ar siúl.\n"
+"Féach an bhfuil an gléas fuaime agus\n"
+"comhad sampla ar fáil."
+
+#: src/manualtimer.c:173
+msgid "Manual Timer"
+msgstr "Amadóir Láimhe"
+
+#: src/manualtimer.c:176
+msgid "Tap"
+msgstr "Cniog"
+
+#: src/manualtimer.c:177
+msgid "Reset"
+msgstr "Athshocraigh"
+
+#: src/manualtimer.c:183
+msgid ""
+"Here, you can approximate the desired\n"
+"speed by tapping at the \"Tap\" button.\n"
+"\n"
+"Just start tapping with the mouse or Enter.\n"
+"\n"
+"To use the calculated value, click \"OK\".\n"
+"To start again, click \"Reset\".\n"
+msgstr ""
+"Is féidir leat an luas a shocrú anseo\n"
+"trí chniogadh ar an gcnaipe \"Cniog\".\n"
+"\n"
+"Ná déan ach crom ar cniogadh leis an luchóg nó an eochair iontrála.\n"
+"\n"
+"Chun an luach áirithe a úsáid, cliceáil ar \"OK\".\n"
+"Cliceáil \"Athshocraigh\" chun atosú.\n"
+
+#: src/gtkoptions.c:157
+msgid "Please choose a sound file."
+msgstr "Roghnaigh comhad fuaime, le do thoil."
+
+#: src/gtkoptions.c:201
+msgid "Properties"
+msgstr "Airíonna"
+
+#: src/gtkoptions.c:239
+msgid "Sound"
+msgstr "Fuaim"
+
+#: src/gtkoptions.c:248
+msgid "Default"
+msgstr "Réamhshocrú"
+
+#: src/gtkoptions.c:257
+msgid "Sine"
+msgstr "Sín"
+
+#: src/gtkoptions.c:296
+msgid "Choose"
+msgstr "Roghnaigh"
+
+#: src/gtkoptions.c:322
+msgid "Sound Device"
+msgstr "Gléas Fuaime"
+
+#: src/gtkoptions.c:331
+msgid "Device filename:"
+msgstr "Ainm comhaid gléis:"
+
+#: src/gtkoptions.c:347
+msgid "External Commands"
+msgstr "Orduithe seachtracha"
+
+#: src/gtkoptions.c:357
+msgid "Execute on start:"
+msgstr "Rith i rith tosaithe:"
+
+#: src/gtkoptions.c:371
+msgid "Execute on stop:"
+msgstr "Rith i rith stoptha:"
+
+#: src/gtkoptions.c:387
+msgid "Speed Range"
+msgstr "Raon Luais"
+
+#: src/gtkoptions.c:397
+msgid "Minimum BPM:"
+msgstr "Íosmhéid BPM:"
+
+#: src/gtkoptions.c:412
+msgid "Maximum BPM:"
+msgstr "Uasmhéid BPM:"

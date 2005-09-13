@@ -1,0 +1,397 @@
+# Irish translations for error.
+# Copyright (C) 2003 Free Software Foundation, Inc.
+# Kevin Patrick Scannell <scannell@SLU.EDU>, 2003.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: error 0.0\n"
+"POT-Creation-Date: 1996-05-31 07:12:28-0400\n"
+"PO-Revision-Date: 2003-05-06 17:24-0500\n"
+"Last-Translator: Kevin Patrick Scannell <scannell@SLU.EDU>\n"
+"Language-Team: Irish <ga@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ISO-8859-1\n"
+"Content-Transfer-Encoding: 8-bit\n"
+
+msgid ".lib section in a.out corrupted"
+msgstr "Tá an pháirt .lib den chomhad a.out truaillithe"
+
+# coinage - KPS
+msgid "Accessing a corrupted shared library"
+msgstr "Ag rochtain comhleabharlainne truaillithe"
+
+msgid "Address already in use"
+msgstr "Seoladh in úsáid cheana féin"
+
+msgid "Address family not supported by protocol"
+msgstr "Níl an aicme sheolta ar fáil leis an phrótacal seo"
+
+# compare fr - KPS
+msgid "Advertise error"
+msgstr "Earráid fhógartha"
+
+msgid "Arg list too long"
+msgstr "Liosta argóintí rófhada"
+
+# coinage - KPS
+msgid "Attempting to link in too many shared libraries"
+msgstr "Iarraidh ar an iomarca comhleabharlanna a nascadh"
+
+msgid "Bad address"
+msgstr "Drochsheoladh"
+
+msgid "Bad file number"
+msgstr "Drochuimhir chomhaid"
+
+# FARF has "comhad clónna"
+msgid "Bad font file format"
+msgstr "Comhad clófhoirne earráideach"
+
+msgid "Block device required"
+msgstr "Ní foláir gléas blocála a úsáid"
+
+# FARF - KPS
+msgid "Broken pipe"
+msgstr "Píopa briste"
+
+msgid "Can not access a needed shared library"
+msgstr "Ní féidir comhleabharlann riachtanach a rochtain"
+
+msgid "Cannot assign requested address"
+msgstr "Ní féidir an seoladh a dháileadh mar a iarradh"
+
+# execute.  See French - KPS
+msgid "Cannot exec a shared library directly"
+msgstr "Ní féidir comhleabharlann a rith go díreach"
+
+# coinage - ceann iompair = transport endpoint (like "ceann scríbe") - KPS
+msgid "Cannot send after transport endpoint shutdown"
+msgstr "Ní féidir rud ar bith a sheoladh i ndiaidh dúnadh cinn iompair"
+
+msgid "Channel number out of range"
+msgstr "Uimhir chainéil as raon"
+
+msgid "Communication error on send"
+msgstr "Earráid chumarsáide ag iarraidh seolta"
+
+msgid "Connection refused"
+msgstr "Nasc diúltaithe"
+
+# comhghleacaí=peer in FARF - KPS
+msgid "Connection reset by peer"
+msgstr "D'athshocraigh an comhghleacaí an nasc"
+
+msgid "Connection timed out"
+msgstr "Nasc imithe thar am"
+
+msgid "Cross-device link"
+msgstr "Nasc idir gléasanna"
+
+msgid "Destination address required"
+msgstr "Ní foláir seoladh ceann scríbe"
+
+msgid "Device not a stream"
+msgstr "Ní sruth an gléas é"
+
+msgid "Device or resource busy"
+msgstr "Is gafa é an gléas nó acmhainn"
+
+msgid "Directory not empty"
+msgstr "Níl an chomhadlann folamh"
+
+msgid "Exchange full"
+msgstr "Tá an malartán lán"
+
+# cf. French - KPS
+msgid "Exec format error"
+msgstr "Earráid fhormáidithe exec()"
+
+msgid "File descriptor in bad state"
+msgstr "Tuarascálaí comhaid ina dhrochstaid"
+
+msgid "File exists"
+msgstr "Tá an comhad ann cheana"
+
+msgid "File locking deadlock error"
+msgstr "Earráid leamhsháinne ag iarraidh comhad a ghlasáil"
+
+msgid "File name too long"
+msgstr "Tá ainm an chomhaid rófhada"
+
+msgid "File table overflow"
+msgstr "Tábla comhaid thar maoil"
+
+msgid "File too large"
+msgstr "Tá an comhad rómhór"
+
+msgid "Function not implemented"
+msgstr "Níl an fheidhm ar fáil"
+
+msgid "Host is down"
+msgstr "Tá ainghléas ar an óstríomhaire"
+
+msgid "I/O error"
+msgstr "Earráid I/A"
+
+msgid "Identifier removed"
+msgstr "Aitheantóir díbeartha"
+
+msgid "Illegal byte sequence"
+msgstr "Seicheamh bearta neamhbhailí"
+
+# don't conflate with cuardach=search ? - KPS
+msgid "Illegal seek"
+msgstr "`seek' neamhbhailí"
+
+msgid "Interrupted system call"
+msgstr "Briseadh isteach ar glaoch ar an gcóras"
+
+msgid "Interrupted system call should be restarted"
+msgstr "Is ceart atosú a dhéanamh ar an glaoch córais a bhí briste"
+
+msgid "Invalid argument"
+msgstr "Argóint neamhbhailí"
+
+msgid "Invalid exchange"
+msgstr "Malartán neamhbhailí"
+
+msgid "Invalid request code"
+msgstr "Cód iarratais neamhbhailí"
+
+# FARF - KPS
+msgid "Invalid request descriptor"
+msgstr "Tuarascálaí iarratais neamhbhailí"
+
+msgid "Invalid slot"
+msgstr "Sliotán neamhbhailí"
+
+# gender? - KPS
+msgid "Is a directory"
+msgstr "Is comhadlann é"
+
+msgid "Is a named type file"
+msgstr "Is comhad ainmnithe é"
+
+msgid "Level 2 halted"
+msgstr "Leibhéal 2 ar stad"
+
+msgid "Level 2 not synchronized"
+msgstr "Níl leibhéal 2 sioncrónach"
+
+msgid "Level 3 halted"
+msgstr "Leibhéal 3 ar stad"
+
+msgid "Level 3 reset"
+msgstr "Leibhéal 3 athshocraithe"
+
+msgid "Link has been severed"
+msgstr "Dínascadh"
+
+msgid "Link number out of range"
+msgstr "Uimhir naisc as raon"
+
+msgid "Machine is not on the network"
+msgstr "Níl an ríomhaire sa líonra"
+
+msgid "Math argument out of domain of func"
+msgstr "Níl an argóint mhatamaitice sa réimse ceadaithe"
+
+# my coinage - KPS
+msgid "Math result not representable"
+msgstr "Níl an toradh matamaitice inléirithe"
+
+msgid "Message too long"
+msgstr "Teachtaireacht rófhada"
+
+# cf French
+msgid "Multihop attempted"
+msgstr "Iarracht ar nascadh trí nóid iomadúla"
+
+msgid "Name not unique on network"
+msgstr "Níl an t-ainm uathúil sa líonra"
+
+msgid "Network dropped connection because of reset"
+msgstr "Thréig an líonra an nasc de bharr athshocrú"
+
+msgid "Network is down"
+msgstr "Tá ainghléas ar an líonra"
+
+msgid "Network is unreachable"
+msgstr "Tá an líonra dorochtana"
+
+msgid "No CSI structure available"
+msgstr "Níl struchtúr CSI ar fáil"
+
+msgid "No XENIX semaphores available"
+msgstr "Níl séamafóir XENIX ar fáil"
+
+# OLT - KPS
+msgid "No anode"
+msgstr "Ní aon anóid ann"
+
+msgid "No buffer space available"
+msgstr "Níl aon stór maoláin ar fáil"
+
+# :) KPS
+msgid "No child processes"
+msgstr "Níl sliocht ar phróiseas ar bith"
+
+msgid "No data available"
+msgstr "Níl aon sonra ar fáil"
+
+msgid "No message of desired type"
+msgstr "Níl aon theachtaireacht ann den chineál seo"
+
+msgid "No record locks available"
+msgstr "Níl glais taifead ar fáil"
+
+msgid "No route to host"
+msgstr "Níl aon bhealach go dtí an óstríomhaire"
+
+msgid "No space left on device"
+msgstr "Níl aon spás fágtha ar an ghléas"
+
+msgid "No such device"
+msgstr "Níl a leithéid de ghléas ann"
+
+msgid "No such device or address"
+msgstr "Níl a leithéid de ghléas ná de sheoladh ann"
+
+msgid "No such file or directory"
+msgstr "Níl a leithéid de chomhad ná de chomhadlann ann"
+
+msgid "No such process"
+msgstr "Níl a leithéid de phróiseas ann"
+
+# cf. French - KPS
+msgid "Not a XENIX named type file"
+msgstr "Ní comhad den chineál `XENIX named' é"
+
+msgid "Not a data message"
+msgstr "Ní teachtaireacht shonraí é"
+
+msgid "Not a directory"
+msgstr "Ní comhadlann é"
+
+msgid "Not a typewriter"
+msgstr "Ní clóscríobhán é"
+
+# oibiacht for concrete CS objects in FARF - KPS
+msgid "Object is remote"
+msgstr "Tá an oibiacht cian"
+
+msgid "Operation already in progress"
+msgstr "Tá an oibríocht ar siúl cheana"
+
+msgid "Operation not permitted"
+msgstr "Oibríocht neamhcheadaithe"
+
+msgid "Operation not supported on transport endpoint"
+msgstr "Níl an oibríocht ar fáil ag ceann iompair"
+
+msgid "Operation now in progress"
+msgstr "Oibríocht ar siúl anois"
+
+msgid "Operation would block"
+msgstr "Bhlocálfadh an oibríocht seo"
+
+msgid "Out of memory"
+msgstr "Cuimhne ídithe"
+
+msgid "Out of streams resources"
+msgstr "Acmhainní sreafa ídithe"
+
+msgid "Package not installed"
+msgstr "Níl an pacáiste suiteáilte"
+
+msgid "Permission denied"
+msgstr "Cead diúltaithe"
+
+msgid "Protocol driver not attached"
+msgstr "Níl an tiománaí prótacail ceangailte"
+
+msgid "Protocol error"
+msgstr "Earráid phrótacail"
+
+msgid "Protocol family not supported"
+msgstr "Níl an aicme phrótacail ar fáil"
+
+msgid "Protocol not available"
+msgstr "Níl an prótacal ar fáil"
+
+msgid "Protocol not supported"
+msgstr "Níl an prótacal ar fáil"
+
+msgid "Protocol wrong type for socket"
+msgstr "Níl an prótacal ar fáil leis an chineál seo soicéid"
+
+msgid "RFS specific error"
+msgstr "Earráid ag baint le `RFS'"
+
+msgid "Read-only file system"
+msgstr "Córas comhaid léimh amháin"
+
+msgid "Remote I/O error"
+msgstr "Earráid I/A i gcéin"
+
+msgid "Remote address changed"
+msgstr "Tháinig athrú ar chiansheoladh"
+
+msgid "Resource deadlock would occur"
+msgstr "Thabharfaí leamhsháinn acmhainní"
+
+msgid "Socket operation on non-socket"
+msgstr "Oibríocht shoicéid ar rud nach ina shoicéad"
+
+msgid "Socket type not supported"
+msgstr "Ní soicéid den chineál seo ar fáil"
+
+msgid "Software caused connection abort"
+msgstr "Thobscoir an bogearraí an nasc"
+
+# cf. French - KPS
+msgid "Srmount error"
+msgstr "Earráid srmount()"
+
+msgid "Stale NFS file handle"
+msgstr "Tá an chlib chomhaid NFS as dáta"
+
+msgid "Streams pipe error"
+msgstr "Earráid i bpíopa srutha"
+
+msgid "Structure needs cleaning"
+msgstr "Ní mór an struchtúr a ghlanadh"
+
+msgid "Text file busy"
+msgstr "Tá an téacschomhad gafa"
+
+msgid "Timer expired"
+msgstr "Am caite"
+
+msgid "Too many links"
+msgstr "An iomarca nasc"
+
+msgid "Too many open files"
+msgstr "An iomarca comhad oscailte"
+
+msgid "Too many references: cannot splice"
+msgstr "An iomarca tagairtí: ní féidir spladhsáil a dhéanamh"
+
+msgid "Too many symbolic links encountered"
+msgstr "An iomarca nasc shiombalacha"
+
+msgid "Too many users"
+msgstr "An iomarca úsáideoirí"
+
+msgid "Transport endpoint is already connected"
+msgstr "Tá an ceann iompair ceangailte cheana féin"
+
+msgid "Transport endpoint is not connected"
+msgstr "Níl an ceann iompair ceangailte"
+
+msgid "Try again"
+msgstr "Déan iarracht arís"
+
+# data type from FARF - KPS
+msgid "Value too large for defined data type"
+msgstr "Tá an luach rómhór ag an chineál sonraí"

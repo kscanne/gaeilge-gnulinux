@@ -1,0 +1,6019 @@
+# Irish translations for libc.
+# Copyright (C) 2004 Free Software Foundation, Inc.
+# Kevin Patrick Scannell <scannell@SLU.EDU>, 2004.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: libc 2.3.3\n"
+"POT-Creation-Date: 2004-08-05 09:16+0200\n"
+"PO-Revision-Date: 2004-12-08 11:50-0500\n"
+"Last-Translator: Kevin Patrick Scannell <scannell@SLU.EDU>\n"
+"Language-Team: Irish <ga@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ISO-8859-1\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: sysdeps/generic/siglist.h:29 stdio-common/../sysdeps/unix/siglist.c:27
+msgid "Hangup"
+msgstr "Croch suas"
+
+#: sysdeps/generic/siglist.h:30 stdio-common/../sysdeps/unix/siglist.c:28
+msgid "Interrupt"
+msgstr "Idirbhriseadh"
+
+#: sysdeps/generic/siglist.h:31 stdio-common/../sysdeps/unix/siglist.c:29
+msgid "Quit"
+msgstr "Scoir"
+
+#: sysdeps/generic/siglist.h:32 stdio-common/../sysdeps/unix/siglist.c:30
+msgid "Illegal instruction"
+msgstr "Treoir neamhcheadaithe"
+
+#: sysdeps/generic/siglist.h:33 stdio-common/../sysdeps/unix/siglist.c:31
+msgid "Trace/breakpoint trap"
+msgstr "Rianaigh/brisphointe"
+
+#: sysdeps/generic/siglist.h:34
+msgid "Aborted"
+msgstr "Tobscortha"
+
+#: sysdeps/generic/siglist.h:35 stdio-common/../sysdeps/unix/siglist.c:34
+msgid "Floating point exception"
+msgstr "Eisceacht snámhphointe"
+
+#: sysdeps/generic/siglist.h:36 stdio-common/../sysdeps/unix/siglist.c:35
+msgid "Killed"
+msgstr "Maraithe"
+
+#: sysdeps/generic/siglist.h:37 stdio-common/../sysdeps/unix/siglist.c:36
+msgid "Bus error"
+msgstr "Busearráid"
+
+#: sysdeps/generic/siglist.h:38 stdio-common/../sysdeps/unix/siglist.c:37
+msgid "Segmentation fault"
+msgstr "Fabht deighilte"
+
+# FARF - KPS
+#. TRANS Broken pipe; there is no process reading from the other end of a pipe.
+#. TRANS Every library function that returns this error code also generates a
+#. TRANS @code{SIGPIPE} signal; this signal terminates the program if not handled
+#. TRANS or blocked.  Thus, your program will never actually see @code{EPIPE}
+#. TRANS unless it has handled or blocked @code{SIGPIPE}.
+#: sysdeps/generic/siglist.h:39 stdio-common/../sysdeps/gnu/errlist.c:351
+#: stdio-common/../sysdeps/unix/siglist.c:39
+#: stdio-common/../sysdeps/unix/sysv/sysv4/solaris2/sparc/errlist.c:62
+msgid "Broken pipe"
+msgstr "Píopa briste"
+
+#: sysdeps/generic/siglist.h:40 stdio-common/../sysdeps/unix/siglist.c:40
+msgid "Alarm clock"
+msgstr "Clog aláraim"
+
+#: sysdeps/generic/siglist.h:41 stdio-common/../sysdeps/unix/siglist.c:41
+msgid "Terminated"
+msgstr "Scortha"
+
+#: sysdeps/generic/siglist.h:42 stdio-common/../sysdeps/unix/siglist.c:42
+msgid "Urgent I/O condition"
+msgstr "Staid phráinneach A/I"
+
+#: sysdeps/generic/siglist.h:43 stdio-common/../sysdeps/unix/siglist.c:43
+msgid "Stopped (signal)"
+msgstr "Stoptha (comhartha)"
+
+#: sysdeps/generic/siglist.h:44 stdio-common/../sysdeps/unix/siglist.c:44
+msgid "Stopped"
+msgstr "Stoptha"
+
+#: sysdeps/generic/siglist.h:45 stdio-common/../sysdeps/unix/siglist.c:45
+msgid "Continued"
+msgstr "Leanta"
+
+#: sysdeps/generic/siglist.h:46 stdio-common/../sysdeps/unix/siglist.c:46
+msgid "Child exited"
+msgstr "Scoir an mhacphróiseas"
+
+#: sysdeps/generic/siglist.h:47 stdio-common/../sysdeps/unix/siglist.c:47
+msgid "Stopped (tty input)"
+msgstr "Stoptha (ionchur tty)"
+
+#: sysdeps/generic/siglist.h:48 stdio-common/../sysdeps/unix/siglist.c:48
+msgid "Stopped (tty output)"
+msgstr "Stoptha (aschur tty)"
+
+#: sysdeps/generic/siglist.h:49 stdio-common/../sysdeps/unix/siglist.c:49
+msgid "I/O possible"
+msgstr "A/I indéanta"
+
+#: sysdeps/generic/siglist.h:50 stdio-common/../sysdeps/unix/siglist.c:50
+msgid "CPU time limit exceeded"
+msgstr "Teorainn ama LAP sáraithe"
+
+#: sysdeps/generic/siglist.h:51 stdio-common/../sysdeps/unix/siglist.c:51
+msgid "File size limit exceeded"
+msgstr "Uasmhéid na gcomhad sáraithe"
+
+#: sysdeps/generic/siglist.h:52 stdio-common/../sysdeps/unix/siglist.c:52
+msgid "Virtual timer expired"
+msgstr "Am fíorúil caite"
+
+#: sysdeps/generic/siglist.h:53 stdio-common/../sysdeps/unix/siglist.c:53
+msgid "Profiling timer expired"
+msgstr "Am próifíle caite"
+
+#: sysdeps/generic/siglist.h:54 stdio-common/../sysdeps/unix/siglist.c:54
+msgid "Window changed"
+msgstr "Athraíodh an fhuinneog"
+
+#: sysdeps/generic/siglist.h:55 stdio-common/../sysdeps/unix/siglist.c:56
+msgid "User defined signal 1"
+msgstr "Comhartha saincheaptha 1"
+
+#: sysdeps/generic/siglist.h:56 stdio-common/../sysdeps/unix/siglist.c:57
+msgid "User defined signal 2"
+msgstr "Comhartha saincheaptha 2"
+
+#: sysdeps/generic/siglist.h:60 stdio-common/../sysdeps/unix/siglist.c:33
+msgid "EMT trap"
+msgstr "Gaiste EMT"
+
+#: sysdeps/generic/siglist.h:63 stdio-common/../sysdeps/unix/siglist.c:38
+msgid "Bad system call"
+msgstr "Drochghlao ar an gcóras"
+
+#: sysdeps/generic/siglist.h:66
+msgid "Stack fault"
+msgstr "Fabht cruaiche"
+
+#: sysdeps/generic/siglist.h:69
+msgid "Information request"
+msgstr "Iarratas ar eolas"
+
+#: sysdeps/generic/siglist.h:71
+msgid "Power failure"
+msgstr "Cliseadh cumhachta"
+
+#: sysdeps/generic/siglist.h:74 stdio-common/../sysdeps/unix/siglist.c:55
+msgid "Resource lost"
+msgstr "Acmhainn caillte"
+
+#: sysdeps/mach/hurd/mips/dl-machine.c:68
+#: string/../sysdeps/mach/_strerror.c:57
+msgid "Error in unknown error system: "
+msgstr "Earráid i gcóras anaithnid earráide: "
+
+#: sysdeps/mach/hurd/mips/dl-machine.c:83
+#: string/../sysdeps/generic/_strerror.c:44
+#: string/../sysdeps/mach/_strerror.c:87
+msgid "Unknown error "
+msgstr "Earráid anaithnid "
+
+#: sysdeps/unix/sysv/linux/lddlibc4.c:64
+#, c-format
+msgid "cannot open `%s'"
+msgstr "ní féidir `%s' a oscailt"
+
+#: sysdeps/unix/sysv/linux/lddlibc4.c:68
+#, c-format
+msgid "cannot read header from `%s'"
+msgstr "ní féidir an ceanntásc a léamh ó `%s'"
+
+#: iconv/iconv_charmap.c:159 iconv/iconv_prog.c:295 catgets/gencat.c:288
+#, c-format
+msgid "cannot open input file `%s'"
+msgstr "ní féidir an t-inchomhad `%s' a oscailt"
+
+#: iconv/iconv_charmap.c:177 iconv/iconv_prog.c:313
+#, c-format
+msgid "error while closing input `%s'"
+msgstr "earráid agus an t-inchomhad `%s' á dhúnadh"
+
+#: iconv/iconv_charmap.c:443
+#, c-format
+msgid "illegal input sequence at position %Zd"
+msgstr "sraith neamhcheadaithe ionchurtha san ionad %Zd"
+
+#: iconv/iconv_charmap.c:462 iconv/iconv_prog.c:506
+msgid "incomplete character or shift sequence at end of buffer"
+msgstr "seicheamh neamhiomlán ag deireadh an mhaoláin"
+
+#: iconv/iconv_charmap.c:507 iconv/iconv_charmap.c:543 iconv/iconv_prog.c:549
+#: iconv/iconv_prog.c:585
+msgid "error while reading the input"
+msgstr "earráid agus an t-ionchur á léamh"
+
+#: iconv/iconv_charmap.c:525 iconv/iconv_prog.c:567
+msgid "unable to allocate buffer for input"
+msgstr "ní féidir maolán a dháileadh i gcomhair ionchur"
+
+#: iconv/iconv_prog.c:61
+msgid "Input/Output format specification:"
+msgstr "Sonrú na formáide ionchuir/aschuir:"
+
+#: iconv/iconv_prog.c:62
+msgid "encoding of original text"
+msgstr "ionchódú an bhuntéacs"
+
+#: iconv/iconv_prog.c:63
+msgid "encoding for output"
+msgstr "ionchódú an aschuir"
+
+#: iconv/iconv_prog.c:64
+msgid "Information:"
+msgstr "Faisnéis:"
+
+#: iconv/iconv_prog.c:65
+msgid "list all known coded character sets"
+msgstr "taispeáin gach tacar carachtar ar eolas"
+
+#: iconv/iconv_prog.c:66 locale/programs/localedef.c:128
+msgid "Output control:"
+msgstr "Rialú aschurtha:"
+
+#: iconv/iconv_prog.c:67
+msgid "omit invalid characters from output"
+msgstr "fág carachtair neamhbhailí ar lár"
+
+#: iconv/iconv_prog.c:68
+msgid "output file"
+msgstr "aschomhad"
+
+#: iconv/iconv_prog.c:69
+msgid "suppress warnings"
+msgstr "múch rabhaidh"
+
+#: iconv/iconv_prog.c:70
+msgid "print progress information"
+msgstr "taispeáin eolas maidir le dul chun cinn"
+
+#: iconv/iconv_prog.c:75
+msgid "Convert encoding of given files from one encoding to another."
+msgstr "Athraigh na hionchóduithe de na comhaid cheaptha."
+
+#: iconv/iconv_prog.c:79
+msgid "[FILE...]"
+msgstr "[COMHAD...]"
+
+#: iconv/iconv_prog.c:201
+msgid "cannot open output file"
+msgstr "ní féidir an aschomhad a oscailt"
+
+#: iconv/iconv_prog.c:243
+#, c-format
+msgid "conversion from `%s' and to `%s' are not supported"
+msgstr "ní thacaítear an tiontú ó `%s' nó go `%s'"
+
+#: iconv/iconv_prog.c:248
+#, c-format
+msgid "conversion from `%s' is not supported"
+msgstr "níl aon fháil ar tiontú ó ionchódú `%s'"
+
+#: iconv/iconv_prog.c:255
+#, c-format
+msgid "conversion to `%s' is not supported"
+msgstr "níl aon fháil ar tiontú go ionchódú `%s'"
+
+#: iconv/iconv_prog.c:259
+#, c-format
+msgid "conversion from `%s' to `%s' is not supported"
+msgstr "níl aon fháil ar tiontú ó ionchódú `%s' go `%s'"
+
+#: iconv/iconv_prog.c:265
+msgid "failed to start conversion processing"
+msgstr "theip ar tosú an tiontaithe"
+
+#: iconv/iconv_prog.c:360
+msgid "error while closing output file"
+msgstr "earráid agus an t-aschomhad á dhúnadh"
+
+#: iconv/iconv_prog.c:409 iconv/iconvconfig.c:357 locale/programs/locale.c:279
+#: locale/programs/localedef.c:372 catgets/gencat.c:233
+#: malloc/memusagestat.c:602 debug/pcprofiledump.c:199
+msgid "Report bugs using the `glibcbug' script to <bugs@gnu.org>.\n"
+msgstr ""
+"Úsáid an script `glibcbug' chun tuairiscí fabhtanna a sheoladh chuig "
+"<bugs@gnu.org>.\n"
+
+#: iconv/iconv_prog.c:423 iconv/iconvconfig.c:371 locale/programs/locale.c:292
+#: locale/programs/localedef.c:386 catgets/gencat.c:246 posix/getconf.c:913
+#: nss/getent.c:74 nscd/nscd.c:355 nscd/nscd_nischeck.c:90 elf/ldconfig.c:274
+#: elf/sprof.c:349
+#, c-format
+msgid ""
+"Copyright (C) %s Free Software Foundation, Inc.\n"
+"This is free software; see the source for copying conditions.  There is NO\n"
+"warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.\n"
+msgstr ""
+"Copyright © %s Free Software Foundation, Inc.\n"
+"Is saorbhogearra an ríomhchlár seo; féach ar an bhunchód le haghaidh\n"
+"coinníollacha cóipeála.  Níl baránta ar bith ann; go fiú níl baránta ann\n"
+"d'INDÍOLTACHT nó FEILIÚNACHT DO FHEIDHM AR LEITH.\n"
+
+#: iconv/iconv_prog.c:428 iconv/iconvconfig.c:376 locale/programs/locale.c:297
+#: locale/programs/localedef.c:391 catgets/gencat.c:251 posix/getconf.c:918
+#: nss/getent.c:79 nscd/nscd.c:360 nscd/nscd_nischeck.c:95 elf/ldconfig.c:279
+#: elf/sprof.c:355
+#, c-format
+msgid "Written by %s.\n"
+msgstr "Le %s.\n"
+
+#: iconv/iconv_prog.c:458 iconv/iconv_prog.c:484
+msgid "conversion stopped due to problem in writing the output"
+msgstr ""
+"stopadh an tiontú ós rud é go raibh fadhb ann agus an t-aschur á scríobh"
+
+#: iconv/iconv_prog.c:502
+#, c-format
+msgid "illegal input sequence at position %ld"
+msgstr "sraith neamhcheadaithe ionchurtha san ionad %ld"
+
+#: iconv/iconv_prog.c:510
+msgid "internal error (illegal descriptor)"
+msgstr "earráid inmheánach (tuarascálaí neamhcheadaithe)"
+
+#: iconv/iconv_prog.c:513
+#, c-format
+msgid "unknown iconv() error %d"
+msgstr "earráid anaithnid iconv() %d"
+
+#: iconv/iconv_prog.c:756
+msgid ""
+"The following list contain all the coded character sets known.  This does\n"
+"not necessarily mean that all combinations of these names can be used for\n"
+"the FROM and TO command line parameters.  One coded character set can be\n"
+"listed with several different names (aliases).\n"
+"\n"
+"  "
+msgstr ""
+
+#: iconv/iconvconfig.c:110
+msgid "Create fastloading iconv module configuration file."
+msgstr ""
+"Cruthaigh comhad cumraíochta don mhodúl iconv gur féidir a bheith luchtaithe "
+"go gasta."
+
+#: iconv/iconvconfig.c:114
+msgid "[DIR...]"
+msgstr "[COMHADLANN...]"
+
+#: iconv/iconvconfig.c:126
+msgid "Prefix used for all file accesses"
+msgstr "Réimír le húsáid agus comhaid á rochtain"
+
+#: iconv/iconvconfig.c:327 locale/programs/localedef.c:292
+msgid "no output file produced because warning were issued"
+msgstr "ní scríobhadh aschomhad ós rud é go raibh rabhaidh ann"
+
+#: iconv/iconvconfig.c:405
+msgid "while inserting in search tree"
+msgstr "ag ionsá isteach sa chrann cuardaigh"
+
+#: iconv/iconvconfig.c:1204
+msgid "cannot generate output file"
+msgstr "ní féidir aschomhad a chruthú"
+
+#: locale/programs/charmap-dir.c:59
+#, c-format
+msgid "cannot read character map directory `%s'"
+msgstr "ní féidir an chomhadlann `%s' le mapaí carachtar a léamh"
+
+#: locale/programs/charmap.c:136
+#, c-format
+msgid "character map file `%s' not found"
+msgstr "mapa carachtar `%s' gan aimsiú"
+
+#: locale/programs/charmap.c:194
+#, c-format
+msgid "default character map file `%s' not found"
+msgstr "mapa carachtar réamhshocraithe `%s' gan aimsiú"
+
+#: locale/programs/charmap.c:257
+#, c-format
+msgid ""
+"character map `%s' is not ASCII compatible, locale not ISO C compliant\n"
+msgstr ""
+"níl an mapa carachtar `%s' comhoiriúnach le ASCII, agus ní ghéilleann an "
+"ceantar seo le ISO C\n"
+
+#: locale/programs/charmap.c:336
+#, c-format
+msgid "%s: <mb_cur_max> must be greater than <mb_cur_min>\n"
+msgstr "%s: ní foláir <mb_cur_max> a bheith níos mó ná <mb_cur_min>\n"
+
+#: locale/programs/charmap.c:356 locale/programs/charmap.c:373
+#: locale/programs/repertoire.c:175
+#, c-format
+msgid "syntax error in prolog: %s"
+msgstr "earráid chomhréire sa bhrollach: %s"
+
+#: locale/programs/charmap.c:357
+msgid "invalid definition"
+msgstr "sainmhíniú neamhbhailí"
+
+#: locale/programs/charmap.c:374 locale/programs/locfile.c:126
+#: locale/programs/locfile.c:153 locale/programs/repertoire.c:176
+msgid "bad argument"
+msgstr "argóint neamhbhailí"
+
+#: locale/programs/charmap.c:402
+#, c-format
+msgid "duplicate definition of <%s>"
+msgstr "sainmhíniú dúblach ar <%s>"
+
+#: locale/programs/charmap.c:409
+#, c-format
+msgid "value for <%s> must be 1 or greater"
+msgstr "ní foláir luach de <%s> a bheith 1 ar a laghad"
+
+#: locale/programs/charmap.c:421
+#, c-format
+msgid "value of <%s> must be greater or equal than the value of <%s>"
+msgstr "ní foláir an luach de <%s> a bheith ionann is, nó níos mó ná <%s>"
+
+#: locale/programs/charmap.c:444 locale/programs/repertoire.c:184
+#, c-format
+msgid "argument to <%s> must be a single character"
+msgstr "is gá an argóint le <%s> a bheith ina carachtar aonarach"
+
+#: locale/programs/charmap.c:470
+msgid "character sets with locking states are not supported"
+msgstr "ní thacaítear tacair carachtar le staideanna glasála"
+
+#: locale/programs/charmap.c:497 locale/programs/charmap.c:551
+#: locale/programs/charmap.c:583 locale/programs/charmap.c:677
+#: locale/programs/charmap.c:732 locale/programs/charmap.c:773
+#: locale/programs/charmap.c:814
+#, c-format
+msgid "syntax error in %s definition: %s"
+msgstr "earráid chomhréire i sainmhíniú %s: %s"
+
+#: locale/programs/charmap.c:498 locale/programs/charmap.c:678
+#: locale/programs/charmap.c:774 locale/programs/repertoire.c:231
+msgid "no symbolic name given"
+msgstr "ní thugtar ainm siombalach"
+
+#: locale/programs/charmap.c:552
+msgid "invalid encoding given"
+msgstr "ionchódú neamhbhailí tugtha"
+
+#: locale/programs/charmap.c:561
+msgid "too few bytes in character encoding"
+msgstr "níl go leor bearta san ionchódú carachtar"
+
+#: locale/programs/charmap.c:563
+msgid "too many bytes in character encoding"
+msgstr "an iomarca bearta san ionchódú carachtar"
+
+#: locale/programs/charmap.c:585 locale/programs/charmap.c:733
+#: locale/programs/charmap.c:816 locale/programs/repertoire.c:297
+msgid "no symbolic name given for end of range"
+msgstr ""
+
+#: locale/programs/charmap.c:609 locale/programs/locfile.c:818
+#: locale/programs/repertoire.c:314
+#, c-format
+msgid "`%1$s' definition does not end with `END %1$s'"
+msgstr "Ní chríochaíonn sainmhíniú ar `%1$s' le `END %1$s'"
+
+#: locale/programs/charmap.c:642
+msgid "only WIDTH definitions are allowed to follow the CHARMAP definition"
+msgstr ""
+
+#: locale/programs/charmap.c:650 locale/programs/charmap.c:713
+#, c-format
+msgid "value for %s must be an integer"
+msgstr "ní foláir an luach de %s a bheith ina shlánuimhir"
+
+#: locale/programs/charmap.c:841
+#, c-format
+msgid "%s: error in state machine"
+msgstr "%s: earráid sa mheaisín staide"
+
+#: locale/programs/charmap.c:849 locale/programs/ld-address.c:605
+#: locale/programs/ld-collate.c:2650 locale/programs/ld-collate.c:3818
+#: locale/programs/ld-ctype.c:2225 locale/programs/ld-ctype.c:2994
+#: locale/programs/ld-identification.c:469
+#: locale/programs/ld-measurement.c:255 locale/programs/ld-messages.c:349
+#: locale/programs/ld-monetary.c:958 locale/programs/ld-name.c:324
+#: locale/programs/ld-numeric.c:392 locale/programs/ld-paper.c:258
+#: locale/programs/ld-telephone.c:330 locale/programs/ld-time.c:1219
+#: locale/programs/locfile.c:825 locale/programs/repertoire.c:325
+#, c-format
+msgid "%s: premature end of file"
+msgstr "%s: comhadchríoch gan choinne"
+
+#: locale/programs/charmap.c:868 locale/programs/charmap.c:879
+#, c-format
+msgid "unknown character `%s'"
+msgstr "carachtar anaithnid `%s'"
+
+#: locale/programs/charmap.c:887
+#, c-format
+msgid ""
+"number of bytes for byte sequence of beginning and end of range not the "
+"same: %d vs %d"
+msgstr ""
+
+#: locale/programs/charmap.c:991 locale/programs/ld-collate.c:2930
+#: locale/programs/repertoire.c:420
+msgid "invalid names for character range"
+msgstr "ainmneacha neamhbhailí ar réimse carachtar"
+
+#: locale/programs/charmap.c:1003 locale/programs/repertoire.c:432
+msgid "hexadecimal range format should use only capital characters"
+msgstr "ní cheadaítear ach ceannlitreacha i bhformáid réimse heicsidheachúlach"
+
+#: locale/programs/charmap.c:1021
+#, c-format
+msgid "<%s> and <%s> are illegal names for range"
+msgstr ""
+
+#: locale/programs/charmap.c:1027
+msgid "upper limit in range is not higher then lower limit"
+msgstr ""
+
+#: locale/programs/charmap.c:1085
+msgid "resulting bytes for range not representable."
+msgstr ""
+
+#: locale/programs/ld-address.c:134 locale/programs/ld-collate.c:1534
+#: locale/programs/ld-ctype.c:421 locale/programs/ld-identification.c:134
+#: locale/programs/ld-measurement.c:95 locale/programs/ld-messages.c:98
+#: locale/programs/ld-monetary.c:194 locale/programs/ld-name.c:95
+#: locale/programs/ld-numeric.c:99 locale/programs/ld-paper.c:92
+#: locale/programs/ld-telephone.c:95 locale/programs/ld-time.c:160
+#, c-format
+msgid "No definition for %s category found"
+msgstr "Níor aimsíodh sainmhíniú ar an chatagóir %s"
+
+#: locale/programs/ld-address.c:145 locale/programs/ld-address.c:183
+#: locale/programs/ld-address.c:201 locale/programs/ld-address.c:228
+#: locale/programs/ld-address.c:290 locale/programs/ld-address.c:309
+#: locale/programs/ld-address.c:322 locale/programs/ld-identification.c:147
+#: locale/programs/ld-measurement.c:106 locale/programs/ld-monetary.c:206
+#: locale/programs/ld-monetary.c:250 locale/programs/ld-monetary.c:266
+#: locale/programs/ld-monetary.c:278 locale/programs/ld-name.c:106
+#: locale/programs/ld-name.c:143 locale/programs/ld-numeric.c:113
+#: locale/programs/ld-numeric.c:127 locale/programs/ld-paper.c:103
+#: locale/programs/ld-paper.c:112 locale/programs/ld-telephone.c:106
+#: locale/programs/ld-telephone.c:163 locale/programs/ld-time.c:176
+#: locale/programs/ld-time.c:197
+#, c-format
+msgid "%s: field `%s' not defined"
+msgstr "%s: réimse `%s' gan sainmhíniú"
+
+#: locale/programs/ld-address.c:157 locale/programs/ld-address.c:209
+#: locale/programs/ld-address.c:235 locale/programs/ld-address.c:265
+#: locale/programs/ld-name.c:118 locale/programs/ld-telephone.c:118
+#, c-format
+msgid "%s: field `%s' must not be empty"
+msgstr "%s: ní cheadaítear an réimse `%s' a bheith folamh"
+
+#: locale/programs/ld-address.c:169
+#, c-format
+msgid "%s: invalid escape `%%%c' sequence in field `%s'"
+msgstr "%s: éalúchán neamhbhailí `%%%c' i réimse `%s'"
+
+#: locale/programs/ld-address.c:220
+#, c-format
+msgid "%s: terminology language code `%s' not defined"
+msgstr ""
+
+#: locale/programs/ld-address.c:247 locale/programs/ld-address.c:276
+#, c-format
+msgid "%s: language abbreviation `%s' not defined"
+msgstr "%s: giorrúchán teanga `%s' gan sainmhíniú"
+
+#: locale/programs/ld-address.c:254 locale/programs/ld-address.c:282
+#: locale/programs/ld-address.c:316 locale/programs/ld-address.c:328
+#, c-format
+msgid "%s: `%s' value does not match `%s' value"
+msgstr ""
+
+#: locale/programs/ld-address.c:301
+#, c-format
+msgid "%s: numeric country code `%d' not valid"
+msgstr "%s: is neamhbhailí an cód uimhriúil tíre `%d'"
+
+#: locale/programs/ld-address.c:497 locale/programs/ld-address.c:534
+#: locale/programs/ld-address.c:572 locale/programs/ld-ctype.c:2601
+#: locale/programs/ld-identification.c:365
+#: locale/programs/ld-measurement.c:222 locale/programs/ld-messages.c:302
+#: locale/programs/ld-monetary.c:700 locale/programs/ld-monetary.c:735
+#: locale/programs/ld-monetary.c:776 locale/programs/ld-name.c:281
+#: locale/programs/ld-numeric.c:264 locale/programs/ld-paper.c:225
+#: locale/programs/ld-telephone.c:289 locale/programs/ld-time.c:1108
+#: locale/programs/ld-time.c:1150
+#, c-format
+msgid "%s: field `%s' declared more than once"
+msgstr "%s: réimse `%s' tugtha níos mó ná uair amháin"
+
+#: locale/programs/ld-address.c:501 locale/programs/ld-address.c:539
+#: locale/programs/ld-identification.c:369 locale/programs/ld-messages.c:312
+#: locale/programs/ld-monetary.c:704 locale/programs/ld-monetary.c:739
+#: locale/programs/ld-name.c:285 locale/programs/ld-numeric.c:268
+#: locale/programs/ld-telephone.c:293 locale/programs/ld-time.c:1002
+#: locale/programs/ld-time.c:1071 locale/programs/ld-time.c:1113
+#, c-format
+msgid "%s: unknown character in field `%s'"
+msgstr "%s: carachtar anaithnid i réimse `%s'"
+
+#: locale/programs/ld-address.c:586 locale/programs/ld-collate.c:3800
+#: locale/programs/ld-ctype.c:2974 locale/programs/ld-identification.c:450
+#: locale/programs/ld-measurement.c:236 locale/programs/ld-messages.c:331
+#: locale/programs/ld-monetary.c:940 locale/programs/ld-name.c:306
+#: locale/programs/ld-numeric.c:374 locale/programs/ld-paper.c:240
+#: locale/programs/ld-telephone.c:312 locale/programs/ld-time.c:1201
+#, c-format
+msgid "%s: incomplete `END' line"
+msgstr "%s: líne neamhiomlán `END'"
+
+#: locale/programs/ld-address.c:589 locale/programs/ld-collate.c:2653
+#: locale/programs/ld-collate.c:3802 locale/programs/ld-ctype.c:2228
+#: locale/programs/ld-ctype.c:2977 locale/programs/ld-identification.c:453
+#: locale/programs/ld-measurement.c:239 locale/programs/ld-messages.c:333
+#: locale/programs/ld-monetary.c:942 locale/programs/ld-name.c:308
+#: locale/programs/ld-numeric.c:376 locale/programs/ld-paper.c:242
+#: locale/programs/ld-telephone.c:314 locale/programs/ld-time.c:1203
+#, c-format
+msgid "%1$s: definition does not end with `END %1$s'"
+msgstr ""
+
+#: locale/programs/ld-address.c:596 locale/programs/ld-collate.c:523
+#: locale/programs/ld-collate.c:575 locale/programs/ld-collate.c:871
+#: locale/programs/ld-collate.c:884 locale/programs/ld-collate.c:2640
+#: locale/programs/ld-collate.c:3809 locale/programs/ld-ctype.c:1956
+#: locale/programs/ld-ctype.c:2215 locale/programs/ld-ctype.c:2799
+#: locale/programs/ld-ctype.c:2985 locale/programs/ld-identification.c:460
+#: locale/programs/ld-measurement.c:246 locale/programs/ld-messages.c:340
+#: locale/programs/ld-monetary.c:949 locale/programs/ld-name.c:315
+#: locale/programs/ld-numeric.c:383 locale/programs/ld-paper.c:249
+#: locale/programs/ld-telephone.c:321 locale/programs/ld-time.c:1210
+#, c-format
+msgid "%s: syntax error"
+msgstr "%s: earráid chomhréire"
+
+#: locale/programs/ld-collate.c:398
+#, c-format
+msgid "`%.*s' already defined in charmap"
+msgstr "`%.*s' sainmhínithe sa mhapa carachtar cheana"
+
+#: locale/programs/ld-collate.c:407
+#, c-format
+msgid "`%.*s' already defined in repertoire"
+msgstr ""
+
+#: locale/programs/ld-collate.c:414
+#, c-format
+msgid "`%.*s' already defined as collating symbol"
+msgstr ""
+
+#: locale/programs/ld-collate.c:421
+#, c-format
+msgid "`%.*s' already defined as collating element"
+msgstr ""
+
+#: locale/programs/ld-collate.c:452 locale/programs/ld-collate.c:478
+#, c-format
+msgid "%s: `forward' and `backward' are mutually excluding each other"
+msgstr ""
+
+#: locale/programs/ld-collate.c:462 locale/programs/ld-collate.c:488
+#: locale/programs/ld-collate.c:504
+#, c-format
+msgid "%s: `%s' mentioned more than once in definition of weight %d"
+msgstr ""
+
+#: locale/programs/ld-collate.c:560
+#, c-format
+msgid "%s: too many rules; first entry only had %d"
+msgstr "%s: an iomarca rialacha; ní raibh ach %d ag an chéad iontráil"
+
+#: locale/programs/ld-collate.c:596
+#, c-format
+msgid "%s: not enough sorting rules"
+msgstr ""
+
+#: locale/programs/ld-collate.c:761
+#, c-format
+msgid "%s: empty weight string not allowed"
+msgstr ""
+
+#: locale/programs/ld-collate.c:856
+#, c-format
+msgid "%s: weights must use the same ellipsis symbol as the name"
+msgstr ""
+
+#: locale/programs/ld-collate.c:912
+#, c-format
+msgid "%s: too many values"
+msgstr "%s: an iomarca luachanna"
+
+#: locale/programs/ld-collate.c:1031 locale/programs/ld-collate.c:1206
+#, c-format
+msgid "order for `%.*s' already defined at %s:%Zu"
+msgstr ""
+
+#: locale/programs/ld-collate.c:1081
+#, c-format
+msgid "%s: the start and the end symbol of a range must stand for characters"
+msgstr ""
+
+#: locale/programs/ld-collate.c:1108
+#, c-format
+msgid ""
+"%s: byte sequences of first and last character must have the same length"
+msgstr ""
+
+#: locale/programs/ld-collate.c:1150
+#, c-format
+msgid ""
+"%s: byte sequence of first character of sequence is not lower than that of "
+"the last character"
+msgstr ""
+
+#: locale/programs/ld-collate.c:1275
+#, c-format
+msgid "%s: symbolic range ellipsis must not directly follow `order_start'"
+msgstr ""
+
+#: locale/programs/ld-collate.c:1279
+#, c-format
+msgid ""
+"%s: symbolic range ellipsis must not be directly followed by `order_end'"
+msgstr ""
+
+#: locale/programs/ld-collate.c:1299 locale/programs/ld-ctype.c:1476
+#, c-format
+msgid "`%s' and `%.*s' are no valid names for symbolic range"
+msgstr ""
+
+#: locale/programs/ld-collate.c:1348 locale/programs/ld-collate.c:3737
+#, c-format
+msgid "%s: order for `%.*s' already defined at %s:%Zu"
+msgstr ""
+
+#: locale/programs/ld-collate.c:1357
+#, c-format
+msgid "%s: `%s' must be a character"
+msgstr "%s: is gá le `%s' a bheith ina charachtar"
+
+#: locale/programs/ld-collate.c:1550
+#, c-format
+msgid ""
+"%s: `position' must be used for a specific level in all sections or none"
+msgstr ""
+
+#: locale/programs/ld-collate.c:1575
+#, c-format
+msgid "symbol `%s' not defined"
+msgstr "siombail `%s' gan sainmhíniú"
+
+#: locale/programs/ld-collate.c:1651 locale/programs/ld-collate.c:1757
+#, c-format
+msgid "symbol `%s' has the same encoding as"
+msgstr ""
+
+#: locale/programs/ld-collate.c:1655 locale/programs/ld-collate.c:1761
+#, c-format
+msgid "symbol `%s'"
+msgstr "siombail `%s'"
+
+#: locale/programs/ld-collate.c:1803
+msgid "no definition of `UNDEFINED'"
+msgstr ""
+
+#: locale/programs/ld-collate.c:1832
+msgid "too many errors; giving up"
+msgstr "an iomarca earráidí, ag scor"
+
+#: locale/programs/ld-collate.c:2735
+#, c-format
+msgid "%s: duplicate definition of `%s'"
+msgstr ""
+
+#: locale/programs/ld-collate.c:2771
+#, c-format
+msgid "%s: duplicate declaration of section `%s'"
+msgstr "%s: athfhógra ar rannóg `%s'"
+
+#: locale/programs/ld-collate.c:2910
+#, c-format
+msgid "%s: unknown character in collating symbol name"
+msgstr ""
+
+#: locale/programs/ld-collate.c:3042
+#, c-format
+msgid "%s: unknown character in equivalent definition name"
+msgstr ""
+
+#: locale/programs/ld-collate.c:3055
+#, c-format
+msgid "%s: unknown character in equivalent definition value"
+msgstr ""
+
+#: locale/programs/ld-collate.c:3065
+#, c-format
+msgid "%s: unknown symbol `%s' in equivalent definition"
+msgstr ""
+
+#: locale/programs/ld-collate.c:3074
+msgid "error while adding equivalent collating symbol"
+msgstr ""
+
+#: locale/programs/ld-collate.c:3104
+#, c-format
+msgid "duplicate definition of script `%s'"
+msgstr ""
+
+#: locale/programs/ld-collate.c:3152
+#, c-format
+msgid "%s: unknown section name `%s'"
+msgstr ""
+
+#: locale/programs/ld-collate.c:3180
+#, c-format
+msgid "%s: multiple order definitions for section `%s'"
+msgstr ""
+
+#: locale/programs/ld-collate.c:3205
+#, c-format
+msgid "%s: invalid number of sorting rules"
+msgstr "%s: líon neamhbhailí na rialacha sortála"
+
+#: locale/programs/ld-collate.c:3232
+#, c-format
+msgid "%s: multiple order definitions for unnamed section"
+msgstr ""
+
+#: locale/programs/ld-collate.c:3286 locale/programs/ld-collate.c:3414
+#: locale/programs/ld-collate.c:3778
+#, c-format
+msgid "%s: missing `order_end' keyword"
+msgstr ""
+
+#: locale/programs/ld-collate.c:3347
+#, c-format
+msgid "%s: order for collating symbol %.*s not yet defined"
+msgstr ""
+
+#: locale/programs/ld-collate.c:3365
+#, c-format
+msgid "%s: order for collating element %.*s not yet defined"
+msgstr ""
+
+#: locale/programs/ld-collate.c:3376
+#, c-format
+msgid "%s: cannot reorder after %.*s: symbol not known"
+msgstr ""
+
+#: locale/programs/ld-collate.c:3428 locale/programs/ld-collate.c:3790
+#, c-format
+msgid "%s: missing `reorder-end' keyword"
+msgstr ""
+
+#: locale/programs/ld-collate.c:3462 locale/programs/ld-collate.c:3662
+#, c-format
+msgid "%s: section `%.*s' not known"
+msgstr ""
+
+#: locale/programs/ld-collate.c:3527
+#, c-format
+msgid "%s: bad symbol <%.*s>"
+msgstr ""
+
+#: locale/programs/ld-collate.c:3725
+#, c-format
+msgid "%s: cannot have `%s' as end of ellipsis range"
+msgstr ""
+
+#: locale/programs/ld-collate.c:3774
+#, c-format
+msgid "%s: empty category description not allowed"
+msgstr ""
+
+#: locale/programs/ld-collate.c:3793
+#, c-format
+msgid "%s: missing `reorder-sections-end' keyword"
+msgstr ""
+
+#: locale/programs/ld-ctype.c:440
+msgid "No character set name specified in charmap"
+msgstr ""
+
+#: locale/programs/ld-ctype.c:469
+#, c-format
+msgid "character L'\\u%0*x' in class `%s' must be in class `%s'"
+msgstr ""
+
+#: locale/programs/ld-ctype.c:484
+#, c-format
+msgid "character L'\\u%0*x' in class `%s' must not be in class `%s'"
+msgstr ""
+
+#: locale/programs/ld-ctype.c:498 locale/programs/ld-ctype.c:556
+#, c-format
+msgid "internal error in %s, line %u"
+msgstr "earráid inmheánach i %s, líne %u"
+
+#: locale/programs/ld-ctype.c:527
+#, c-format
+msgid "character '%s' in class `%s' must be in class `%s'"
+msgstr ""
+
+#: locale/programs/ld-ctype.c:543
+#, c-format
+msgid "character '%s' in class `%s' must not be in class `%s'"
+msgstr ""
+
+#: locale/programs/ld-ctype.c:573 locale/programs/ld-ctype.c:611
+#, c-format
+msgid "<SP> character not in class `%s'"
+msgstr ""
+
+#: locale/programs/ld-ctype.c:585 locale/programs/ld-ctype.c:622
+#, c-format
+msgid "<SP> character must not be in class `%s'"
+msgstr ""
+
+#: locale/programs/ld-ctype.c:600
+msgid "character <SP> not defined in character map"
+msgstr ""
+
+#: locale/programs/ld-ctype.c:714
+msgid "`digit' category has not entries in groups of ten"
+msgstr ""
+
+#: locale/programs/ld-ctype.c:763
+msgid "no input digits defined and none of the standard names in the charmap"
+msgstr ""
+
+#: locale/programs/ld-ctype.c:828
+msgid "not all characters used in `outdigit' are available in the charmap"
+msgstr ""
+
+#: locale/programs/ld-ctype.c:845
+msgid "not all characters used in `outdigit' are available in the repertoire"
+msgstr ""
+
+#: locale/programs/ld-ctype.c:1244
+#, c-format
+msgid "character class `%s' already defined"
+msgstr "aicme charachtair `%s' sainmhínithe cheana"
+
+#: locale/programs/ld-ctype.c:1250
+#, c-format
+msgid "implementation limit: no more than %Zd character classes allowed"
+msgstr ""
+
+#: locale/programs/ld-ctype.c:1276
+#, c-format
+msgid "character map `%s' already defined"
+msgstr ""
+
+#: locale/programs/ld-ctype.c:1282
+#, c-format
+msgid "implementation limit: no more than %d character maps allowed"
+msgstr ""
+
+#: locale/programs/ld-ctype.c:1547 locale/programs/ld-ctype.c:1672
+#: locale/programs/ld-ctype.c:1778 locale/programs/ld-ctype.c:2464
+#: locale/programs/ld-ctype.c:3460
+#, c-format
+msgid "%s: field `%s' does not contain exactly ten entries"
+msgstr ""
+
+#: locale/programs/ld-ctype.c:1575 locale/programs/ld-ctype.c:2146
+#, c-format
+msgid "to-value <U%0*X> of range is smaller than from-value <U%0*X>"
+msgstr ""
+
+#: locale/programs/ld-ctype.c:1702
+msgid "start and end character sequence of range must have the same length"
+msgstr ""
+
+#: locale/programs/ld-ctype.c:1709
+msgid "to-value character sequence is smaller than from-value sequence"
+msgstr ""
+
+#: locale/programs/ld-ctype.c:2066 locale/programs/ld-ctype.c:2117
+msgid "premature end of `translit_ignore' definition"
+msgstr ""
+
+#: locale/programs/ld-ctype.c:2072 locale/programs/ld-ctype.c:2123
+#: locale/programs/ld-ctype.c:2165
+msgid "syntax error"
+msgstr "earráid chomhréire"
+
+#: locale/programs/ld-ctype.c:2296
+#, c-format
+msgid "%s: syntax error in definition of new character class"
+msgstr ""
+
+#: locale/programs/ld-ctype.c:2311
+#, c-format
+msgid "%s: syntax error in definition of new character map"
+msgstr ""
+
+#: locale/programs/ld-ctype.c:2486
+msgid "ellipsis range must be marked by two operands of same type"
+msgstr ""
+
+#: locale/programs/ld-ctype.c:2495
+msgid ""
+"with symbolic name range values the absolute ellipsis `...' must not be used"
+msgstr ""
+
+#: locale/programs/ld-ctype.c:2510
+msgid ""
+"with UCS range values one must use the hexadecimal symbolic ellipsis `..'"
+msgstr ""
+
+#: locale/programs/ld-ctype.c:2524
+msgid ""
+"with character code range values one must use the absolute ellipsis `...'"
+msgstr ""
+
+#: locale/programs/ld-ctype.c:2675
+#, c-format
+msgid "duplicated definition for mapping `%s'"
+msgstr ""
+
+#: locale/programs/ld-ctype.c:2761 locale/programs/ld-ctype.c:2905
+#, c-format
+msgid "%s: `translit_start' section does not end with `translit_end'"
+msgstr ""
+
+#: locale/programs/ld-ctype.c:2856
+#, c-format
+msgid "%s: duplicate `default_missing' definition"
+msgstr ""
+
+#: locale/programs/ld-ctype.c:2861
+msgid "previous definition was here"
+msgstr ""
+
+#: locale/programs/ld-ctype.c:2883
+#, c-format
+msgid "%s: no representable `default_missing' definition found"
+msgstr ""
+
+#: locale/programs/ld-ctype.c:3036
+#, c-format
+msgid "%s: character `%s' not defined in charmap while needed as default value"
+msgstr ""
+
+#: locale/programs/ld-ctype.c:3041 locale/programs/ld-ctype.c:3125
+#: locale/programs/ld-ctype.c:3145 locale/programs/ld-ctype.c:3166
+#: locale/programs/ld-ctype.c:3187 locale/programs/ld-ctype.c:3208
+#: locale/programs/ld-ctype.c:3229 locale/programs/ld-ctype.c:3269
+#: locale/programs/ld-ctype.c:3290 locale/programs/ld-ctype.c:3357
+#, c-format
+msgid "%s: character `%s' in charmap not representable with one byte"
+msgstr ""
+
+#: locale/programs/ld-ctype.c:3120 locale/programs/ld-ctype.c:3140
+#: locale/programs/ld-ctype.c:3182 locale/programs/ld-ctype.c:3203
+#: locale/programs/ld-ctype.c:3224 locale/programs/ld-ctype.c:3264
+#: locale/programs/ld-ctype.c:3285 locale/programs/ld-ctype.c:3352
+#: locale/programs/ld-ctype.c:3394 locale/programs/ld-ctype.c:3419
+#, c-format
+msgid "%s: character `%s' not defined while needed as default value"
+msgstr ""
+
+#: locale/programs/ld-ctype.c:3161
+#, c-format
+msgid "character `%s' not defined while needed as default value"
+msgstr ""
+
+#: locale/programs/ld-ctype.c:3401 locale/programs/ld-ctype.c:3426
+#, c-format
+msgid ""
+"%s: character `%s' needed as default value not representable with one byte"
+msgstr ""
+
+#: locale/programs/ld-ctype.c:3481
+msgid "no output digits defined and none of the standard names in the charmap"
+msgstr ""
+
+#: locale/programs/ld-ctype.c:3772
+#, c-format
+msgid "%s: transliteration data from locale `%s' not available"
+msgstr ""
+
+#: locale/programs/ld-ctype.c:3868
+#, c-format
+msgid "%s: table for class \"%s\": %lu bytes\n"
+msgstr ""
+
+#: locale/programs/ld-ctype.c:3937
+#, c-format
+msgid "%s: table for map \"%s\": %lu bytes\n"
+msgstr ""
+
+#: locale/programs/ld-ctype.c:4070
+#, c-format
+msgid "%s: table for width: %lu bytes\n"
+msgstr ""
+
+#: locale/programs/ld-identification.c:171
+#, c-format
+msgid "%s: no identification for category `%s'"
+msgstr ""
+
+#: locale/programs/ld-identification.c:436
+#, c-format
+msgid "%s: duplicate category version definition"
+msgstr ""
+
+#: locale/programs/ld-measurement.c:114
+#, c-format
+msgid "%s: invalid value for field `%s'"
+msgstr "%s: luach neamhbhailí do réimse `%s'"
+
+#: locale/programs/ld-messages.c:115 locale/programs/ld-messages.c:149
+#, c-format
+msgid "%s: field `%s' undefined"
+msgstr "%s: réimse `%s' gan sainmhíniú"
+
+#: locale/programs/ld-messages.c:122 locale/programs/ld-messages.c:156
+#, c-format
+msgid "%s: value for field `%s' must not be an empty string"
+msgstr ""
+
+#: locale/programs/ld-messages.c:138 locale/programs/ld-messages.c:172
+#, c-format
+msgid "%s: no correct regular expression for field `%s': %s"
+msgstr ""
+
+#: locale/programs/ld-monetary.c:224
+#, c-format
+msgid "%s: value of field `int_curr_symbol' has wrong length"
+msgstr ""
+
+#: locale/programs/ld-monetary.c:237
+#, c-format
+msgid ""
+"%s: value of field `int_curr_symbol' does not correspond to a valid name in "
+"ISO 4217"
+msgstr ""
+
+#: locale/programs/ld-monetary.c:256 locale/programs/ld-numeric.c:119
+#, c-format
+msgid "%s: value for field `%s' must not be the empty string"
+msgstr ""
+
+#: locale/programs/ld-monetary.c:284 locale/programs/ld-monetary.c:314
+#, c-format
+msgid "%s: value for field `%s' must be in range %d...%d"
+msgstr ""
+
+#: locale/programs/ld-monetary.c:746 locale/programs/ld-numeric.c:275
+#, c-format
+msgid "%s: value for field `%s' must be a single character"
+msgstr ""
+
+#: locale/programs/ld-monetary.c:843 locale/programs/ld-numeric.c:319
+#, c-format
+msgid "%s: `-1' must be last entry in `%s' field"
+msgstr ""
+
+#: locale/programs/ld-monetary.c:865 locale/programs/ld-numeric.c:340
+#, c-format
+msgid "%s: values for field `%s' must be smaller than 127"
+msgstr ""
+
+#: locale/programs/ld-monetary.c:908
+msgid "conversion rate value cannot be zero"
+msgstr ""
+
+#: locale/programs/ld-name.c:130 locale/programs/ld-telephone.c:127
+#: locale/programs/ld-telephone.c:150
+#, c-format
+msgid "%s: invalid escape sequence in field `%s'"
+msgstr "%s: éalúchán neamhbhailí i réimse `%s'"
+
+#: locale/programs/ld-time.c:248
+#, c-format
+msgid "%s: direction flag in string %Zd in `era' field is not '+' nor '-'"
+msgstr ""
+
+#: locale/programs/ld-time.c:259
+#, c-format
+msgid ""
+"%s: direction flag in string %Zd in `era' field is not a single character"
+msgstr ""
+
+#: locale/programs/ld-time.c:272
+#, c-format
+msgid "%s: invalid number for offset in string %Zd in `era' field"
+msgstr ""
+
+#: locale/programs/ld-time.c:280
+#, c-format
+msgid "%s: garbage at end of offset value in string %Zd in `era' field"
+msgstr ""
+
+#: locale/programs/ld-time.c:331
+#, c-format
+msgid "%s: invalid starting date in string %Zd in `era' field"
+msgstr ""
+
+#: locale/programs/ld-time.c:340
+#, c-format
+msgid "%s: garbage at end of starting date in string %Zd in `era' field "
+msgstr ""
+
+#: locale/programs/ld-time.c:359
+#, c-format
+msgid "%s: starting date is invalid in string %Zd in `era' field"
+msgstr ""
+
+#: locale/programs/ld-time.c:408
+#, c-format
+msgid "%s: invalid stopping date in string %Zd in `era' field"
+msgstr ""
+
+#: locale/programs/ld-time.c:417
+#, c-format
+msgid "%s: garbage at end of stopping date in string %Zd in `era' field"
+msgstr ""
+
+#: locale/programs/ld-time.c:436
+#, c-format
+msgid "%s: stopping date is invalid in string %Zd in `era' field"
+msgstr ""
+
+#: locale/programs/ld-time.c:445
+#, c-format
+msgid "%s: missing era name in string %Zd in `era' field"
+msgstr ""
+
+#: locale/programs/ld-time.c:457
+#, c-format
+msgid "%s: missing era format in string %Zd in `era' field"
+msgstr ""
+
+#: locale/programs/ld-time.c:486
+#, c-format
+msgid "%s: third operand for value of field `%s' must not be larger than %d"
+msgstr ""
+
+#: locale/programs/ld-time.c:494 locale/programs/ld-time.c:502
+#, c-format
+msgid "%s: values of field `%s' must not be larger than %d"
+msgstr ""
+
+#: locale/programs/ld-time.c:510
+#, c-format
+msgid "%s: values for field `%s' must not be larger than %d"
+msgstr ""
+
+#: locale/programs/ld-time.c:986
+#, c-format
+msgid "%s: too few values for field `%s'"
+msgstr ""
+
+#: locale/programs/ld-time.c:1031
+msgid "extra trailing semicolon"
+msgstr ""
+
+#: locale/programs/ld-time.c:1034
+#, c-format
+msgid "%s: too many values for field `%s'"
+msgstr "%s: an iomarca luachanna do réimse `%s'"
+
+#: locale/programs/linereader.c:130
+msgid "trailing garbage at end of line"
+msgstr ""
+
+#: locale/programs/linereader.c:304
+msgid "garbage at end of number"
+msgstr ""
+
+#: locale/programs/linereader.c:416
+msgid "garbage at end of character code specification"
+msgstr ""
+
+#: locale/programs/linereader.c:502
+msgid "unterminated symbolic name"
+msgstr "ainm siombalach gan chríochnú"
+
+#: locale/programs/linereader.c:566 catgets/gencat.c:1195
+msgid "invalid escape sequence"
+msgstr "éalúchán neamhbhailí"
+
+#: locale/programs/linereader.c:629
+msgid "illegal escape sequence at end of string"
+msgstr "éalúchán neamhcheadaithe ag deireadh an theaghráin"
+
+#: locale/programs/linereader.c:633 locale/programs/linereader.c:861
+msgid "unterminated string"
+msgstr "teaghrán gan chríochnú"
+
+#: locale/programs/linereader.c:675
+msgid "non-symbolic character value should not be used"
+msgstr ""
+
+#: locale/programs/linereader.c:822
+#, c-format
+msgid "symbol `%.*s' not in charmap"
+msgstr ""
+
+#: locale/programs/linereader.c:843
+#, c-format
+msgid "symbol `%.*s' not in repertoire map"
+msgstr ""
+
+#: locale/programs/locale.c:75
+msgid "System information:"
+msgstr ""
+
+#: locale/programs/locale.c:77
+msgid "Write names of available locales"
+msgstr ""
+
+#: locale/programs/locale.c:79
+msgid "Write names of available charmaps"
+msgstr ""
+
+#: locale/programs/locale.c:80
+msgid "Modify output format:"
+msgstr "Athraigh formáid an aschuir:"
+
+#: locale/programs/locale.c:81
+msgid "Write names of selected categories"
+msgstr ""
+
+#: locale/programs/locale.c:82
+msgid "Write names of selected keywords"
+msgstr ""
+
+#: locale/programs/locale.c:83
+msgid "Print more information"
+msgstr ""
+
+#: locale/programs/locale.c:88
+msgid "Get locale-specific information."
+msgstr ""
+
+#: locale/programs/locale.c:91
+msgid ""
+"NAME\n"
+"[-a|-m]"
+msgstr ""
+"AINM\n"
+"[-a|-m]"
+
+#: locale/programs/locale.c:195
+msgid "Cannot set LC_CTYPE to default locale"
+msgstr ""
+
+#: locale/programs/locale.c:197
+msgid "Cannot set LC_MESSAGES to default locale"
+msgstr ""
+
+#: locale/programs/locale.c:210
+msgid "Cannot set LC_COLLATE to default locale"
+msgstr ""
+
+#: locale/programs/locale.c:226
+msgid "Cannot set LC_ALL to default locale"
+msgstr ""
+
+#: locale/programs/locale.c:517
+msgid "while preparing output"
+msgstr "agus an t-aschur á réiteach"
+
+#: locale/programs/localedef.c:121
+msgid "Input Files:"
+msgstr "Inchomhaid:"
+
+#: locale/programs/localedef.c:123
+msgid "Symbolic character names defined in FILE"
+msgstr ""
+
+#: locale/programs/localedef.c:124
+msgid "Source definitions are found in FILE"
+msgstr ""
+
+#: locale/programs/localedef.c:126
+msgid "FILE contains mapping from symbolic names to UCS4 values"
+msgstr ""
+
+#: locale/programs/localedef.c:130
+msgid "Create output even if warning messages were issued"
+msgstr ""
+
+#: locale/programs/localedef.c:131
+msgid "Create old-style tables"
+msgstr "Cruthaigh táblaí sean-nós"
+
+#: locale/programs/localedef.c:132
+msgid "Optional output file prefix"
+msgstr ""
+
+#: locale/programs/localedef.c:133
+msgid "Be strictly POSIX conform"
+msgstr ""
+
+#: locale/programs/localedef.c:135
+msgid "Suppress warnings and information messages"
+msgstr ""
+
+#: locale/programs/localedef.c:136
+msgid "Print more messages"
+msgstr ""
+
+#: locale/programs/localedef.c:137
+msgid "Archive control:"
+msgstr "Rialú na gCartlanna:"
+
+#: locale/programs/localedef.c:139
+msgid "Don't add new data to archive"
+msgstr "Ná cuir sonraí nua leis an chartlann"
+
+#: locale/programs/localedef.c:141
+msgid "Add locales named by parameters to archive"
+msgstr ""
+
+#: locale/programs/localedef.c:142
+msgid "Replace existing archive content"
+msgstr ""
+
+#: locale/programs/localedef.c:144
+msgid "Remove locales named by parameters from archive"
+msgstr ""
+
+#: locale/programs/localedef.c:145
+msgid "List content of archive"
+msgstr "Taispeáin an t-ábhar i gcartlann"
+
+#: locale/programs/localedef.c:147
+msgid "locale.alias file to consult when making archive"
+msgstr ""
+
+#: locale/programs/localedef.c:152
+msgid "Compile locale specification"
+msgstr ""
+
+#: locale/programs/localedef.c:155
+msgid ""
+"NAME\n"
+"[--add-to-archive|--delete-from-archive] FILE...\n"
+"--list-archive [FILE]"
+msgstr ""
+
+#: locale/programs/localedef.c:233
+msgid "cannot create directory for output files"
+msgstr "ní féidir comhadlann a chruthú le haghaidh aschomhad"
+
+#: locale/programs/localedef.c:244
+msgid "FATAL: system does not define `_POSIX2_LOCALEDEF'"
+msgstr ""
+
+#: locale/programs/localedef.c:258 locale/programs/localedef.c:274
+#: locale/programs/localedef.c:599 locale/programs/localedef.c:619
+#, c-format
+msgid "cannot open locale definition file `%s'"
+msgstr ""
+
+#: locale/programs/localedef.c:286
+#, c-format
+msgid "cannot write output files to `%s'"
+msgstr "ní féidir aschomhaid a scríobh i `%s'"
+
+#: locale/programs/localedef.c:367
+#, c-format
+msgid ""
+"System's directory for character maps : %s\n"
+"                       repertoire maps: %s\n"
+"                       locale path    : %s\n"
+"%s"
+msgstr ""
+
+#: locale/programs/localedef.c:567
+msgid "circular dependencies between locale definitions"
+msgstr ""
+
+#: locale/programs/localedef.c:573
+#, c-format
+msgid "cannot add already read locale `%s' a second time"
+msgstr ""
+
+#: locale/programs/locarchive.c:89 locale/programs/locarchive.c:259
+msgid "cannot create temporary file"
+msgstr "ní féidir comhad sealadach a chruthú"
+
+#: locale/programs/locarchive.c:118 locale/programs/locarchive.c:305
+msgid "cannot initialize archive file"
+msgstr "ní féidir an comhad cartlainne a thúsú"
+
+#: locale/programs/locarchive.c:125 locale/programs/locarchive.c:312
+msgid "cannot resize archive file"
+msgstr ""
+
+#: locale/programs/locarchive.c:134 locale/programs/locarchive.c:321
+#: locale/programs/locarchive.c:511
+msgid "cannot map archive header"
+msgstr ""
+
+#: locale/programs/locarchive.c:156
+msgid "failed to create new locale archive"
+msgstr ""
+
+#: locale/programs/locarchive.c:168
+msgid "cannot change mode of new locale archive"
+msgstr ""
+
+#: locale/programs/locarchive.c:253
+msgid "cannot map locale archive file"
+msgstr ""
+
+#: locale/programs/locarchive.c:329
+msgid "cannot lock new archive"
+msgstr "ní féidir cartlann nua a chur faoi ghlas"
+
+#: locale/programs/locarchive.c:380
+msgid "cannot extend locale archive file"
+msgstr ""
+
+#: locale/programs/locarchive.c:389
+msgid "cannot change mode of resized locale archive"
+msgstr ""
+
+#: locale/programs/locarchive.c:397
+msgid "cannot rename new archive"
+msgstr "ní féidir cartlann nua a athainmniú"
+
+#: locale/programs/locarchive.c:450
+#, c-format
+msgid "cannot open locale archive \"%s\""
+msgstr ""
+
+#: locale/programs/locarchive.c:455
+#, c-format
+msgid "cannot stat locale archive \"%s\""
+msgstr ""
+
+#: locale/programs/locarchive.c:474
+#, c-format
+msgid "cannot lock locale archive \"%s\""
+msgstr ""
+
+#: locale/programs/locarchive.c:497
+msgid "cannot read archive header"
+msgstr "ní féidir ceanntásc na cartlainne a léamh"
+
+#: locale/programs/locarchive.c:557
+#, c-format
+msgid "locale '%s' already exists"
+msgstr "tá logchaighdeán '%s' ann cheana"
+
+#: locale/programs/locarchive.c:788 locale/programs/locarchive.c:803
+#: locale/programs/locarchive.c:815 locale/programs/locarchive.c:827
+#: locale/programs/locfile.c:343
+msgid "cannot add to locale archive"
+msgstr ""
+
+#: locale/programs/locarchive.c:982
+#, c-format
+msgid "locale alias file `%s' not found"
+msgstr ""
+
+#: locale/programs/locarchive.c:1126
+#, c-format
+msgid "Adding %s\n"
+msgstr "%s á chur leis\n"
+
+#: locale/programs/locarchive.c:1132
+#, c-format
+msgid "stat of \"%s\" failed: %s: ignored"
+msgstr ""
+
+#: locale/programs/locarchive.c:1138
+#, c-format
+msgid "\"%s\" is no directory; ignored"
+msgstr ""
+
+#: locale/programs/locarchive.c:1145
+#, c-format
+msgid "cannot open directory \"%s\": %s: ignored"
+msgstr "ní féidir an chomhadlann \"%s\" a oscailt: %s: ag ligint thart"
+
+#: locale/programs/locarchive.c:1217
+#, c-format
+msgid "incomplete set of locale files in \"%s\""
+msgstr ""
+
+#: locale/programs/locarchive.c:1281
+#, c-format
+msgid "cannot read all files in \"%s\": ignored"
+msgstr ""
+
+#: locale/programs/locarchive.c:1351
+#, c-format
+msgid "locale \"%s\" not in archive"
+msgstr "níl logchaighdeán \"%s\" san chartlann"
+
+#: locale/programs/locfile.c:132
+#, c-format
+msgid "argument to `%s' must be a single character"
+msgstr ""
+
+#: locale/programs/locfile.c:251
+msgid "syntax error: not inside a locale definition section"
+msgstr ""
+
+#: locale/programs/locfile.c:625
+#, c-format
+msgid "cannot open output file `%s' for category `%s'"
+msgstr ""
+
+#: locale/programs/locfile.c:649
+#, c-format
+msgid "failure while writing data for category `%s'"
+msgstr ""
+
+#: locale/programs/locfile.c:745
+#, c-format
+msgid "cannot create output file `%s' for category `%s'"
+msgstr ""
+
+#: locale/programs/locfile.c:781
+msgid "expect string argument for `copy'"
+msgstr ""
+
+#: locale/programs/locfile.c:785
+msgid "locale name should consist only of portable characters"
+msgstr ""
+
+#: locale/programs/locfile.c:804
+msgid "no other keyword shall be specified when `copy' is used"
+msgstr ""
+
+#: locale/programs/repertoire.c:230 locale/programs/repertoire.c:271
+#: locale/programs/repertoire.c:296
+#, c-format
+msgid "syntax error in repertoire map definition: %s"
+msgstr ""
+
+#: locale/programs/repertoire.c:272
+msgid "no <Uxxxx> or <Uxxxxxxxx> value given"
+msgstr ""
+
+#: locale/programs/repertoire.c:332
+msgid "cannot safe new repertoire map"
+msgstr ""
+
+#: locale/programs/repertoire.c:343
+#, c-format
+msgid "repertoire map file `%s' not found"
+msgstr ""
+
+#: locale/programs/repertoire.c:450
+#, c-format
+msgid "<%s> and <%s> are invalid names for range"
+msgstr ""
+
+#: locale/programs/repertoire.c:457
+msgid "upper limit in range is not smaller then lower limit"
+msgstr ""
+
+#: locale/programs/xmalloc.c:70 malloc/obstack.c:505 malloc/obstack.c:508
+#: posix/getconf.c:1007
+msgid "memory exhausted"
+msgstr "cuimhne ídithe"
+
+#: assert/assert-perr.c:57
+#, c-format
+msgid "%s%s%s:%u: %s%sUnexpected error: %s.\n"
+msgstr "%s%s%s:%u: %s%sEarráid gan choinne: %s.\n"
+
+#: assert/assert.c:56
+#, c-format
+msgid "%s%s%s:%u: %s%sAssertion `%s' failed.\n"
+msgstr ""
+
+#: intl/tst-codeset.c:40 intl/tst-codeset.c:50
+msgid "cheese"
+msgstr "cáis"
+
+#: intl/tst-gettext2.c:37
+msgid "First string for testing."
+msgstr ""
+
+#: intl/tst-gettext2.c:38
+msgid "Another string for testing."
+msgstr ""
+
+#: catgets/gencat.c:111 catgets/gencat.c:115 nscd/nscd.c:88
+msgid "NAME"
+msgstr "AINM"
+
+#: catgets/gencat.c:112
+msgid "Create C header file NAME containing symbol definitions"
+msgstr ""
+
+#: catgets/gencat.c:114
+msgid "Do not use existing catalog, force new output file"
+msgstr ""
+
+#: catgets/gencat.c:115
+msgid "Write output to file NAME"
+msgstr "Scríobh an t-aschur sa chomhad AINM"
+
+#: catgets/gencat.c:120
+msgid ""
+"Generate message catalog.If INPUT-FILE is -, input is read from standard "
+"input.  If OUTPUT-FILE\n"
+"is -, output is written to standard output.\n"
+msgstr ""
+
+#: catgets/gencat.c:125
+msgid ""
+"-o OUTPUT-FILE [INPUT-FILE]...\n"
+"[OUTPUT-FILE [INPUT-FILE]...]"
+msgstr ""
+"-o ASCHOMHAD [INCHOMHAD]...\n"
+"[ASCHOMHAD [INCHOMHAD]...]"
+
+#: catgets/gencat.c:282
+msgid "*standard input*"
+msgstr "*ionchur caighdeánach*"
+
+#: catgets/gencat.c:417 catgets/gencat.c:494
+msgid "illegal set number"
+msgstr ""
+
+#: catgets/gencat.c:444
+msgid "duplicate set definition"
+msgstr ""
+
+#: catgets/gencat.c:446 catgets/gencat.c:623 catgets/gencat.c:677
+msgid "this is the first definition"
+msgstr ""
+
+#: catgets/gencat.c:522
+#, c-format
+msgid "unknown set `%s'"
+msgstr "tacar anaithnid `%s'"
+
+#: catgets/gencat.c:563
+msgid "invalid quote character"
+msgstr "carachtar neamhbhailí athfhriotail"
+
+#: catgets/gencat.c:576
+#, c-format
+msgid "unknown directive `%s': line ignored"
+msgstr ""
+
+#: catgets/gencat.c:621
+msgid "duplicated message number"
+msgstr ""
+
+#: catgets/gencat.c:674
+msgid "duplicated message identifier"
+msgstr ""
+
+#: catgets/gencat.c:731
+msgid "invalid character: message ignored"
+msgstr "carachtar neamhbhailí: ag déanamh neamhshuim ar an teachtaireacht"
+
+#: catgets/gencat.c:774
+msgid "invalid line"
+msgstr "líne neamhbhailí"
+
+#: catgets/gencat.c:828
+msgid "malformed line ignored"
+msgstr "ag déanamh neamhshuim ar líne míchumtha"
+
+#: catgets/gencat.c:992 catgets/gencat.c:1033
+#, c-format
+msgid "cannot open output file `%s'"
+msgstr "ní féidir inchomhad `%s' a oscailt"
+
+#: catgets/gencat.c:1217
+msgid "unterminated message"
+msgstr "teachtaireacht gan chríochnú"
+
+#: catgets/gencat.c:1241
+msgid "while opening old catalog file"
+msgstr "agus seanchomhad catalóige á oscailt"
+
+#: catgets/gencat.c:1332
+msgid "conversion modules not available"
+msgstr "níl modúil thiontaithe ar fáil"
+
+#: catgets/gencat.c:1358
+msgid "cannot determine escape character"
+msgstr ""
+
+#: stdlib/../sysdeps/unix/sysv/linux/ia64/makecontext.c:63
+#, c-format
+msgid "makecontext: does not know how to handle more than 8 arguments\n"
+msgstr ""
+
+#: stdio-common/../sysdeps/gnu/errlist.c:12 posix/regcomp.c:147
+#: nis/nis_error.c:29 nis/ypclnt.c:778 nis/ypclnt.c:852
+msgid "Success"
+msgstr "Bua!"
+
+#. TRANS Operation not permitted; only the owner of the file (or other resource)
+#. TRANS or processes with special privileges can perform the operation.
+#: stdio-common/../sysdeps/gnu/errlist.c:17
+msgid "Operation not permitted"
+msgstr "Oibríocht neamhcheadaithe"
+
+#. TRANS No such file or directory.  This is a ``file doesn't exist'' error
+#. TRANS for ordinary files that are referenced in contexts where they are
+#. TRANS expected to already exist.
+#: stdio-common/../sysdeps/gnu/errlist.c:28
+#: stdio-common/../sysdeps/unix/sysv/sysv4/solaris2/sparc/errlist.c:32
+msgid "No such file or directory"
+msgstr "Níl a leithéid de chomhad ná de chomhadlann ann"
+
+#. TRANS No process matches the specified process ID.
+#: stdio-common/../sysdeps/gnu/errlist.c:37
+#: stdio-common/../sysdeps/unix/sysv/sysv4/solaris2/sparc/errlist.c:33
+msgid "No such process"
+msgstr "Níl a leithéid de phróiseas ann"
+
+#. TRANS Interrupted function call; an asynchronous signal occurred and prevented
+#. TRANS completion of the call.  When this happens, you should try the call
+#. TRANS again.
+#. TRANS
+#. TRANS You can choose to have functions resume after a signal that is handled,
+#. TRANS rather than failing with @code{EINTR}; see @ref{Interrupted
+#. TRANS Primitives}.
+#: stdio-common/../sysdeps/gnu/errlist.c:52
+#: stdio-common/../sysdeps/unix/sysv/sysv4/solaris2/sparc/errlist.c:34
+msgid "Interrupted system call"
+msgstr "Briseadh isteach ar glaoch ar an gcóras"
+
+#. TRANS Input/output error; usually used for physical read or write errors.
+#: stdio-common/../sysdeps/gnu/errlist.c:61
+msgid "Input/output error"
+msgstr "Earráid ionchur/aschur"
+
+#. TRANS No such device or address.  The system tried to use the device
+#. TRANS represented by a file you specified, and it couldn't find the device.
+#. TRANS This can mean that the device file was installed incorrectly, or that
+#. TRANS the physical device is missing or not correctly attached to the
+#. TRANS computer.
+#: stdio-common/../sysdeps/gnu/errlist.c:74
+#: stdio-common/../sysdeps/unix/sysv/sysv4/solaris2/sparc/errlist.c:36
+msgid "No such device or address"
+msgstr "Níl a leithéid de ghléas ná de sheoladh ann"
+
+#. TRANS Argument list too long; used when the arguments passed to a new program
+#. TRANS being executed with one of the @code{exec} functions (@pxref{Executing a
+#. TRANS File}) occupy too much memory space.  This condition never arises in the
+#. TRANS GNU system.
+#: stdio-common/../sysdeps/gnu/errlist.c:86
+msgid "Argument list too long"
+msgstr "Tá an liosta argóintí rófhada"
+
+# cf. French - KPS
+#. TRANS Invalid executable file format.  This condition is detected by the
+#. TRANS @code{exec} functions; see @ref{Executing a File}.
+#: stdio-common/../sysdeps/gnu/errlist.c:96
+#: stdio-common/../sysdeps/unix/sysv/sysv4/solaris2/sparc/errlist.c:38
+msgid "Exec format error"
+msgstr "Earráid fhormáidithe exec()"
+
+#. TRANS Bad file descriptor; for example, I/O on a descriptor that has been
+#. TRANS closed or reading from a descriptor open only for writing (or vice
+#. TRANS versa).
+#: stdio-common/../sysdeps/gnu/errlist.c:107
+msgid "Bad file descriptor"
+msgstr ""
+
+#. TRANS There are no child processes.  This error happens on operations that are
+#. TRANS supposed to manipulate child processes, when there aren't any processes
+#. TRANS to manipulate.
+#: stdio-common/../sysdeps/gnu/errlist.c:118
+#: stdio-common/../sysdeps/unix/sysv/sysv4/solaris2/sparc/errlist.c:40
+msgid "No child processes"
+msgstr "Níl sliocht ar phróiseas ar bith"
+
+#. TRANS Deadlock avoided; allocating a system resource would have resulted in a
+#. TRANS deadlock situation.  The system does not guarantee that it will notice
+#. TRANS all such situations.  This error means you got lucky and the system
+#. TRANS noticed; it might just hang.  @xref{File Locks}, for an example.
+#: stdio-common/../sysdeps/gnu/errlist.c:130
+msgid "Resource deadlock avoided"
+msgstr ""
+
+#. TRANS No memory available.  The system cannot allocate more virtual memory
+#. TRANS because its capacity is full.
+#: stdio-common/../sysdeps/gnu/errlist.c:140
+msgid "Cannot allocate memory"
+msgstr "Ní féidir cuimhne a dháileadh"
+
+#. TRANS Permission denied; the file permissions do not allow the attempted operation.
+#: stdio-common/../sysdeps/gnu/errlist.c:149
+#: stdio-common/../sysdeps/unix/sysv/sysv4/solaris2/sparc/errlist.c:43
+#: nis/nis_error.c:39 nis/ypclnt.c:808
+msgid "Permission denied"
+msgstr "Cead diúltaithe"
+
+#. TRANS Bad address; an invalid pointer was detected.
+#. TRANS In the GNU system, this error never happens; you get a signal instead.
+#: stdio-common/../sysdeps/gnu/errlist.c:159
+#: stdio-common/../sysdeps/unix/sysv/sysv4/solaris2/sparc/errlist.c:44
+msgid "Bad address"
+msgstr "Drochsheoladh"
+
+#. TRANS A file that isn't a block special file was given in a situation that
+#. TRANS requires one.  For example, trying to mount an ordinary file as a file
+#. TRANS system in Unix gives this error.
+#: stdio-common/../sysdeps/gnu/errlist.c:170
+#: stdio-common/../sysdeps/unix/sysv/sysv4/solaris2/sparc/errlist.c:45
+msgid "Block device required"
+msgstr "Ní foláir gléas blocála a úsáid"
+
+#. TRANS Resource busy; a system resource that can't be shared is already in use.
+#. TRANS For example, if you try to delete a file that is the root of a currently
+#. TRANS mounted filesystem, you get this error.
+#: stdio-common/../sysdeps/gnu/errlist.c:181
+msgid "Device or resource busy"
+msgstr "Is gafa é an gléas nó acmhainn"
+
+#. TRANS File exists; an existing file was specified in a context where it only
+#. TRANS makes sense to specify a new file.
+#: stdio-common/../sysdeps/gnu/errlist.c:191
+#: stdio-common/../sysdeps/unix/sysv/sysv4/solaris2/sparc/errlist.c:47
+msgid "File exists"
+msgstr "Tá an comhad ann cheana"
+
+#. TRANS An attempt to make an improper link across file systems was detected.
+#. TRANS This happens not only when you use @code{link} (@pxref{Hard Links}) but
+#. TRANS also when you rename a file with @code{rename} (@pxref{Renaming Files}).
+#: stdio-common/../sysdeps/gnu/errlist.c:202
+msgid "Invalid cross-device link"
+msgstr "Nasc neamhbhailí idir gléasanna"
+
+#. TRANS The wrong type of device was given to a function that expects a
+#. TRANS particular sort of device.
+#: stdio-common/../sysdeps/gnu/errlist.c:212
+#: stdio-common/../sysdeps/unix/sysv/sysv4/solaris2/sparc/errlist.c:49
+msgid "No such device"
+msgstr "Níl a leithéid de ghléas ann"
+
+#. TRANS A file that isn't a directory was specified when a directory is required.
+#: stdio-common/../sysdeps/gnu/errlist.c:221
+#: stdio-common/../sysdeps/unix/sysv/sysv4/solaris2/sparc/errlist.c:50
+msgid "Not a directory"
+msgstr "Ní comhadlann é"
+
+#. TRANS File is a directory; you cannot open a directory for writing,
+#. TRANS or create or remove hard links to it.
+#: stdio-common/../sysdeps/gnu/errlist.c:231
+#: stdio-common/../sysdeps/unix/sysv/sysv4/solaris2/sparc/errlist.c:51
+msgid "Is a directory"
+msgstr "Is comhadlann é"
+
+#. TRANS Invalid argument.  This is used to indicate various kinds of problems
+#. TRANS with passing the wrong argument to a library function.
+#: stdio-common/../sysdeps/gnu/errlist.c:241
+#: stdio-common/../sysdeps/unix/sysv/sysv4/solaris2/sparc/errlist.c:52
+msgid "Invalid argument"
+msgstr "Argóint neamhbhailí"
+
+#. TRANS The current process has too many files open and can't open any more.
+#. TRANS Duplicate descriptors do count toward this limit.
+#. TRANS
+#. TRANS In BSD and GNU, the number of open files is controlled by a resource
+#. TRANS limit that can usually be increased.  If you get this error, you might
+#. TRANS want to increase the @code{RLIMIT_NOFILE} limit or make it unlimited;
+#. TRANS @pxref{Limits on Resources}.
+#: stdio-common/../sysdeps/gnu/errlist.c:256
+#: stdio-common/../sysdeps/unix/sysv/sysv4/solaris2/sparc/errlist.c:54
+msgid "Too many open files"
+msgstr "An iomarca comhad oscailte"
+
+#. TRANS There are too many distinct file openings in the entire system.  Note
+#. TRANS that any number of linked channels count as just one file opening; see
+#. TRANS @ref{Linked Channels}.  This error never occurs in the GNU system.
+#: stdio-common/../sysdeps/gnu/errlist.c:267
+msgid "Too many open files in system"
+msgstr "An iomarca comhad oscailte sa chóras"
+
+#. TRANS Inappropriate I/O control operation, such as trying to set terminal
+#. TRANS modes on an ordinary file.
+#: stdio-common/../sysdeps/gnu/errlist.c:277
+#: stdio-common/../sysdeps/unix/sysv/sysv4/solaris2/sparc/errlist.c:55
+msgid "Inappropriate ioctl for device"
+msgstr ""
+
+#. TRANS An attempt to execute a file that is currently open for writing, or
+#. TRANS write to a file that is currently being executed.  Often using a
+#. TRANS debugger to run a program is considered having it open for writing and
+#. TRANS will cause this error.  (The name stands for ``text file busy''.)  This
+#. TRANS is not an error in the GNU system; the text is copied as necessary.
+#: stdio-common/../sysdeps/gnu/errlist.c:290
+#: stdio-common/../sysdeps/unix/sysv/sysv4/solaris2/sparc/errlist.c:56
+msgid "Text file busy"
+msgstr "Tá an téacschomhad gafa"
+
+#. TRANS File too big; the size of a file would be larger than allowed by the system.
+#: stdio-common/../sysdeps/gnu/errlist.c:299
+#: stdio-common/../sysdeps/unix/sysv/sysv4/solaris2/sparc/errlist.c:57
+msgid "File too large"
+msgstr "Tá an comhad rómhór"
+
+#. TRANS No space left on device; write operation on a file failed because the
+#. TRANS disk is full.
+#: stdio-common/../sysdeps/gnu/errlist.c:309
+#: stdio-common/../sysdeps/unix/sysv/sysv4/solaris2/sparc/errlist.c:58
+msgid "No space left on device"
+msgstr "Níl aon spás fágtha ar an ghléas"
+
+# don't conflate with cuardach=search ? - KPS
+#. TRANS Invalid seek operation (such as on a pipe).
+#: stdio-common/../sysdeps/gnu/errlist.c:318
+#: stdio-common/../sysdeps/unix/sysv/sysv4/solaris2/sparc/errlist.c:59
+msgid "Illegal seek"
+msgstr "`seek' neamhbhailí"
+
+#. TRANS An attempt was made to modify something on a read-only file system.
+#: stdio-common/../sysdeps/gnu/errlist.c:327
+#: stdio-common/../sysdeps/unix/sysv/sysv4/solaris2/sparc/errlist.c:60
+msgid "Read-only file system"
+msgstr "Córas comhaid léimh amháin"
+
+#. TRANS Too many links; the link count of a single file would become too large.
+#. TRANS @code{rename} can cause this error if the file being renamed already has
+#. TRANS as many links as it can take (@pxref{Renaming Files}).
+#: stdio-common/../sysdeps/gnu/errlist.c:338
+#: stdio-common/../sysdeps/unix/sysv/sysv4/solaris2/sparc/errlist.c:61
+msgid "Too many links"
+msgstr "An iomarca nasc"
+
+#. TRANS Domain error; used by mathematical functions when an argument value does
+#. TRANS not fall into the domain over which the function is defined.
+#: stdio-common/../sysdeps/gnu/errlist.c:361
+msgid "Numerical argument out of domain"
+msgstr "Níl an argóint uimhriúil sa réimse ceadaithe"
+
+#. TRANS Range error; used by mathematical functions when the result value is
+#. TRANS not representable because of overflow or underflow.
+#: stdio-common/../sysdeps/gnu/errlist.c:371
+msgid "Numerical result out of range"
+msgstr "Toradh uimhriúil as raon"
+
+#. TRANS Resource temporarily unavailable; the call might work if you try again
+#. TRANS later.  The macro @code{EWOULDBLOCK} is another name for @code{EAGAIN};
+#. TRANS they are always the same in the GNU C library.
+#. TRANS
+#. TRANS This error can happen in a few different situations:
+#. TRANS
+#. TRANS @itemize @bullet
+#. TRANS @item
+#. TRANS An operation that would block was attempted on an object that has
+#. TRANS non-blocking mode selected.  Trying the same operation again will block
+#. TRANS until some external condition makes it possible to read, write, or
+#. TRANS connect (whatever the operation).  You can use @code{select} to find out
+#. TRANS when the operation will be possible; @pxref{Waiting for I/O}.
+#. TRANS
+#. TRANS @strong{Portability Note:} In many older Unix systems, this condition
+#. TRANS was indicated by @code{EWOULDBLOCK}, which was a distinct error code
+#. TRANS different from @code{EAGAIN}.  To make your program portable, you should
+#. TRANS check for both codes and treat them the same.
+#. TRANS
+#. TRANS @item
+#. TRANS A temporary resource shortage made an operation impossible.  @code{fork}
+#. TRANS can return this error.  It indicates that the shortage is expected to
+#. TRANS pass, so your program can try the call again later and it may succeed.
+#. TRANS It is probably a good idea to delay for a few seconds before trying it
+#. TRANS again, to allow time for other processes to release scarce resources.
+#. TRANS Such shortages are usually fairly serious and affect the whole system,
+#. TRANS so usually an interactive program should report the error to the user
+#. TRANS and return to its command loop.
+#. TRANS @end itemize
+#: stdio-common/../sysdeps/gnu/errlist.c:408
+#: stdio-common/../sysdeps/unix/sysv/sysv4/solaris2/sparc/errlist.c:41
+msgid "Resource temporarily unavailable"
+msgstr "Níl acmhainn ar fáil go sealadach"
+
+#. TRANS In the GNU C library, this is another name for @code{EAGAIN} (above).
+#. TRANS The values are always the same, on every operating system.
+#. TRANS
+#. TRANS C libraries in many older Unix systems have @code{EWOULDBLOCK} as a
+#. TRANS separate error code.
+#: stdio-common/../sysdeps/gnu/errlist.c:421
+msgid "Operation would block"
+msgstr "Bhlocálfadh an oibríocht seo"
+
+#. TRANS An operation that cannot complete immediately was initiated on an object
+#. TRANS that has non-blocking mode selected.  Some functions that must always
+#. TRANS block (such as @code{connect}; @pxref{Connecting}) never return
+#. TRANS @code{EAGAIN}.  Instead, they return @code{EINPROGRESS} to indicate that
+#. TRANS the operation has begun and will take some time.  Attempts to manipulate
+#. TRANS the object before the call completes return @code{EALREADY}.  You can
+#. TRANS use the @code{select} function to find out when the pending operation
+#. TRANS has completed; @pxref{Waiting for I/O}.
+#: stdio-common/../sysdeps/gnu/errlist.c:437
+#: stdio-common/../sysdeps/unix/sysv/sysv4/solaris2/sparc/errlist.c:180
+msgid "Operation now in progress"
+msgstr "Oibríocht ar siúl anois"
+
+#. TRANS An operation is already in progress on an object that has non-blocking
+#. TRANS mode selected.
+#: stdio-common/../sysdeps/gnu/errlist.c:447
+#: stdio-common/../sysdeps/unix/sysv/sysv4/solaris2/sparc/errlist.c:179
+msgid "Operation already in progress"
+msgstr "Tá an oibríocht ar siúl cheana"
+
+#. TRANS A file that isn't a socket was specified when a socket is required.
+#: stdio-common/../sysdeps/gnu/errlist.c:456
+#: stdio-common/../sysdeps/unix/sysv/sysv4/solaris2/sparc/errlist.c:125
+msgid "Socket operation on non-socket"
+msgstr "Oibríocht shoicéid ar rud nach ina shoicéad"
+
+#. TRANS The size of a message sent on a socket was larger than the supported
+#. TRANS maximum size.
+#: stdio-common/../sysdeps/gnu/errlist.c:466
+#: stdio-common/../sysdeps/unix/sysv/sysv4/solaris2/sparc/errlist.c:127
+msgid "Message too long"
+msgstr "Teachtaireacht rófhada"
+
+#. TRANS The socket type does not support the requested communications protocol.
+#: stdio-common/../sysdeps/gnu/errlist.c:475
+#: stdio-common/../sysdeps/unix/sysv/sysv4/solaris2/sparc/errlist.c:128
+msgid "Protocol wrong type for socket"
+msgstr "Níl an prótacal ar fáil leis an chineál seo soicéid"
+
+#. TRANS You specified a socket option that doesn't make sense for the
+#. TRANS particular protocol being used by the socket.  @xref{Socket Options}.
+#: stdio-common/../sysdeps/gnu/errlist.c:485
+msgid "Protocol not available"
+msgstr "Níl an prótacal ar fáil"
+
+#. TRANS The socket domain does not support the requested communications protocol
+#. TRANS (perhaps because the requested protocol is completely invalid).
+#. TRANS @xref{Creating a Socket}.
+#: stdio-common/../sysdeps/gnu/errlist.c:496
+#: stdio-common/../sysdeps/unix/sysv/sysv4/solaris2/sparc/errlist.c:150
+msgid "Protocol not supported"
+msgstr "Níl an prótacal ar fáil"
+
+#. TRANS The socket type is not supported.
+#: stdio-common/../sysdeps/gnu/errlist.c:505
+#: stdio-common/../sysdeps/unix/sysv/sysv4/solaris2/sparc/errlist.c:151
+msgid "Socket type not supported"
+msgstr "Ní soicéid den chineál seo ar fáil"
+
+#. TRANS The operation you requested is not supported.  Some socket functions
+#. TRANS don't make sense for all types of sockets, and others may not be
+#. TRANS implemented for all communications protocols.  In the GNU system, this
+#. TRANS error can happen for many calls when the object does not support the
+#. TRANS particular operation; it is a generic indication that the server knows
+#. TRANS nothing to do for that call.
+#: stdio-common/../sysdeps/gnu/errlist.c:519
+#: stdio-common/../sysdeps/unix/sysv/sysv4/solaris2/sparc/errlist.c:78
+msgid "Operation not supported"
+msgstr "Oibríocht gan tacaíocht"
+
+#. TRANS The socket communications protocol family you requested is not supported.
+#: stdio-common/../sysdeps/gnu/errlist.c:528
+#: stdio-common/../sysdeps/unix/sysv/sysv4/solaris2/sparc/errlist.c:153
+msgid "Protocol family not supported"
+msgstr "Níl an aicme phrótacail ar fáil"
+
+#. TRANS The address family specified for a socket is not supported; it is
+#. TRANS inconsistent with the protocol being used on the socket.  @xref{Sockets}.
+#: stdio-common/../sysdeps/gnu/errlist.c:538
+msgid "Address family not supported by protocol"
+msgstr "Níl an aicme sheolta ar fáil leis an phrótacal seo"
+
+#. TRANS The requested socket address is already in use.  @xref{Socket Addresses}.
+#: stdio-common/../sysdeps/gnu/errlist.c:547
+#: stdio-common/../sysdeps/unix/sysv/sysv4/solaris2/sparc/errlist.c:155
+msgid "Address already in use"
+msgstr "Seoladh in úsáid cheana féin"
+
+#. TRANS The requested socket address is not available; for example, you tried
+#. TRANS to give a socket a name that doesn't match the local host name.
+#. TRANS @xref{Socket Addresses}.
+#: stdio-common/../sysdeps/gnu/errlist.c:558
+#: stdio-common/../sysdeps/unix/sysv/sysv4/solaris2/sparc/errlist.c:156
+msgid "Cannot assign requested address"
+msgstr "Ní féidir an seoladh a dháileadh mar a iarradh"
+
+#. TRANS A socket operation failed because the network was down.
+#: stdio-common/../sysdeps/gnu/errlist.c:567
+#: stdio-common/../sysdeps/unix/sysv/sysv4/solaris2/sparc/errlist.c:157
+msgid "Network is down"
+msgstr "Tá ainghléas ar an líonra"
+
+#. TRANS A socket operation failed because the subnet containing the remote host
+#. TRANS was unreachable.
+#: stdio-common/../sysdeps/gnu/errlist.c:577
+#: stdio-common/../sysdeps/unix/sysv/sysv4/solaris2/sparc/errlist.c:158
+msgid "Network is unreachable"
+msgstr "Tá an líonra dorochtana"
+
+#. TRANS A network connection was reset because the remote host crashed.
+#: stdio-common/../sysdeps/gnu/errlist.c:586
+msgid "Network dropped connection on reset"
+msgstr "Thréig an líonra an nasc de bharr athshocrú"
+
+#. TRANS A network connection was aborted locally.
+#: stdio-common/../sysdeps/gnu/errlist.c:595
+#: stdio-common/../sysdeps/unix/sysv/sysv4/solaris2/sparc/errlist.c:160
+msgid "Software caused connection abort"
+msgstr "Thobscoir an bogearraí an nasc"
+
+# comhghleacaí=peer in FARF - KPS
+#. TRANS A network connection was closed for reasons outside the control of the
+#. TRANS local host, such as by the remote machine rebooting or an unrecoverable
+#. TRANS protocol violation.
+#: stdio-common/../sysdeps/gnu/errlist.c:606
+#: stdio-common/../sysdeps/unix/sysv/sysv4/solaris2/sparc/errlist.c:161
+msgid "Connection reset by peer"
+msgstr "D'athshocraigh an comhghleacaí an nasc"
+
+#. TRANS The kernel's buffers for I/O operations are all in use.  In GNU, this
+#. TRANS error is always synonymous with @code{ENOMEM}; you may get one or the
+#. TRANS other from network operations.
+#: stdio-common/../sysdeps/gnu/errlist.c:617
+#: stdio-common/../sysdeps/unix/sysv/sysv4/solaris2/sparc/errlist.c:162
+msgid "No buffer space available"
+msgstr "Níl aon stór maoláin ar fáil"
+
+#. TRANS You tried to connect a socket that is already connected.
+#. TRANS @xref{Connecting}.
+#: stdio-common/../sysdeps/gnu/errlist.c:627
+#: stdio-common/../sysdeps/unix/sysv/sysv4/solaris2/sparc/errlist.c:163
+msgid "Transport endpoint is already connected"
+msgstr "Tá an ceann iompair ceangailte cheana féin"
+
+#. TRANS The socket is not connected to anything.  You get this error when you
+#. TRANS try to transmit data over a socket, without first specifying a
+#. TRANS destination for the data.  For a connectionless socket (for datagram
+#. TRANS protocols, such as UDP), you get @code{EDESTADDRREQ} instead.
+#: stdio-common/../sysdeps/gnu/errlist.c:639
+#: stdio-common/../sysdeps/unix/sysv/sysv4/solaris2/sparc/errlist.c:164
+msgid "Transport endpoint is not connected"
+msgstr "Níl an ceann iompair ceangailte"
+
+#. TRANS No default destination address was set for the socket.  You get this
+#. TRANS error when you try to transmit data over a connectionless socket,
+#. TRANS without first specifying a destination for the data with @code{connect}.
+#: stdio-common/../sysdeps/gnu/errlist.c:650
+#: stdio-common/../sysdeps/unix/sysv/sysv4/solaris2/sparc/errlist.c:126
+msgid "Destination address required"
+msgstr "Ní foláir seoladh ceann scríbe"
+
+# coinage - ceann iompair = transport endpoint (like "ceann scríbe") - KPS
+#. TRANS The socket has already been shut down.
+#: stdio-common/../sysdeps/gnu/errlist.c:659
+msgid "Cannot send after transport endpoint shutdown"
+msgstr "Ní féidir rud ar bith a sheoladh i ndiaidh dúnadh cinn iompair"
+
+#. TRANS ???
+#: stdio-common/../sysdeps/gnu/errlist.c:668
+#: stdio-common/../sysdeps/unix/sysv/sysv4/solaris2/sparc/errlist.c:174
+msgid "Too many references: cannot splice"
+msgstr "An iomarca tagairtí: ní féidir spladhsáil a dhéanamh"
+
+#. TRANS A socket operation with a specified timeout received no response during
+#. TRANS the timeout period.
+#: stdio-common/../sysdeps/gnu/errlist.c:678
+#: stdio-common/../sysdeps/unix/sysv/sysv4/solaris2/sparc/errlist.c:175
+msgid "Connection timed out"
+msgstr "Nasc imithe thar am"
+
+#. TRANS A remote host refused to allow the network connection (typically because
+#. TRANS it is not running the requested service).
+#: stdio-common/../sysdeps/gnu/errlist.c:688
+#: stdio-common/../sysdeps/unix/sysv/sysv4/solaris2/sparc/errlist.c:176
+msgid "Connection refused"
+msgstr "Nasc diúltaithe"
+
+#. TRANS Too many levels of symbolic links were encountered in looking up a file name.
+#. TRANS This often indicates a cycle of symbolic links.
+#: stdio-common/../sysdeps/gnu/errlist.c:698
+msgid "Too many levels of symbolic links"
+msgstr "An iomarca nasc siombalach"
+
+#. TRANS Filename too long (longer than @code{PATH_MAX}; @pxref{Limits for
+#. TRANS Files}) or host name too long (in @code{gethostname} or
+#. TRANS @code{sethostname}; @pxref{Host Identification}).
+#: stdio-common/../sysdeps/gnu/errlist.c:709
+#: stdio-common/../sysdeps/unix/sysv/sysv4/solaris2/sparc/errlist.c:108
+msgid "File name too long"
+msgstr "Tá ainm an chomhaid rófhada"
+
+#. TRANS The remote host for a requested network connection is down.
+#: stdio-common/../sysdeps/gnu/errlist.c:718
+#: stdio-common/../sysdeps/unix/sysv/sysv4/solaris2/sparc/errlist.c:177
+msgid "Host is down"
+msgstr "Tá ainghléas ar an óstríomhaire"
+
+#. TRANS The remote host for a requested network connection is not reachable.
+#: stdio-common/../sysdeps/gnu/errlist.c:727
+#: stdio-common/../sysdeps/unix/sysv/sysv4/solaris2/sparc/errlist.c:178
+msgid "No route to host"
+msgstr "Níl aon bhealach go dtí an óstríomhaire"
+
+#. TRANS Directory not empty, where an empty directory was expected.  Typically,
+#. TRANS this error occurs when you are trying to delete a directory.
+#: stdio-common/../sysdeps/gnu/errlist.c:737
+#: stdio-common/../sysdeps/unix/sysv/sysv4/solaris2/sparc/errlist.c:123
+msgid "Directory not empty"
+msgstr "Níl an chomhadlann folamh"
+
+#. TRANS This means that the per-user limit on new process would be exceeded by
+#. TRANS an attempted @code{fork}.  @xref{Limits on Resources}, for details on
+#. TRANS the @code{RLIMIT_NPROC} limit.
+#: stdio-common/../sysdeps/gnu/errlist.c:748
+msgid "Too many processes"
+msgstr ""
+
+#. TRANS The file quota system is confused because there are too many users.
+#. TRANS @c This can probably happen in a GNU system when using NFS.
+#: stdio-common/../sysdeps/gnu/errlist.c:758
+#: stdio-common/../sysdeps/unix/sysv/sysv4/solaris2/sparc/errlist.c:124
+msgid "Too many users"
+msgstr "An iomarca úsáideoirí"
+
+#. TRANS The user's disk quota was exceeded.
+#: stdio-common/../sysdeps/gnu/errlist.c:767
+msgid "Disk quota exceeded"
+msgstr ""
+
+#. TRANS Stale NFS file handle.  This indicates an internal confusion in the NFS
+#. TRANS system which is due to file system rearrangements on the server host.
+#. TRANS Repairing this condition usually requires unmounting and remounting
+#. TRANS the NFS file system on the local host.
+#: stdio-common/../sysdeps/gnu/errlist.c:779
+#: stdio-common/../sysdeps/unix/sysv/sysv4/solaris2/sparc/errlist.c:181
+msgid "Stale NFS file handle"
+msgstr "Tá an chlib chomhaid NFS as dáta"
+
+# oibiacht for concrete CS objects in FARF - KPS
+#. TRANS An attempt was made to NFS-mount a remote file system with a file name that
+#. TRANS already specifies an NFS-mounted file.
+#. TRANS (This is an error on some operating systems, but we expect it to work
+#. TRANS properly on the GNU system, making this error code impossible.)
+#: stdio-common/../sysdeps/gnu/errlist.c:791
+#: stdio-common/../sysdeps/unix/sysv/sysv4/solaris2/sparc/errlist.c:96
+msgid "Object is remote"
+msgstr "Tá an oibiacht cian"
+
+#. TRANS ???
+#: stdio-common/../sysdeps/gnu/errlist.c:800
+msgid "RPC struct is bad"
+msgstr ""
+
+#. TRANS ???
+#: stdio-common/../sysdeps/gnu/errlist.c:809
+msgid "RPC version wrong"
+msgstr "Leagan mícheart RPC"
+
+#. TRANS ???
+#: stdio-common/../sysdeps/gnu/errlist.c:818
+msgid "RPC program not available"
+msgstr "Níl clár RPC ar fáil"
+
+#. TRANS ???
+#: stdio-common/../sysdeps/gnu/errlist.c:827
+msgid "RPC program version wrong"
+msgstr "Leagan mícheart ar an chlár RPC"
+
+#. TRANS ???
+#: stdio-common/../sysdeps/gnu/errlist.c:836
+msgid "RPC bad procedure for program"
+msgstr ""
+
+#. TRANS No locks available.  This is used by the file locking facilities; see
+#. TRANS @ref{File Locks}.  This error is never generated by the GNU system, but
+#. TRANS it can result from an operation to an NFS server running another
+#. TRANS operating system.
+#: stdio-common/../sysdeps/gnu/errlist.c:848
+msgid "No locks available"
+msgstr "Níl aon ghlas ar fáil"
+
+#. TRANS Inappropriate file type or format.  The file was the wrong type for the
+#. TRANS operation, or a data file had the wrong format.
+#. TRANS
+#. TRANS On some systems @code{chmod} returns this error if you try to set the
+#. TRANS sticky bit on a non-directory file; @pxref{Setting Permissions}.
+#: stdio-common/../sysdeps/gnu/errlist.c:861
+msgid "Inappropriate file type or format"
+msgstr ""
+
+#. TRANS ???
+#: stdio-common/../sysdeps/gnu/errlist.c:870
+msgid "Authentication error"
+msgstr ""
+
+#. TRANS ???
+#: stdio-common/../sysdeps/gnu/errlist.c:879
+msgid "Need authenticator"
+msgstr ""
+
+#. TRANS Function not implemented.  This indicates that the function called is
+#. TRANS not implemented at all, either in the C library itself or in the
+#. TRANS operating system.  When you get this error, you can be sure that this
+#. TRANS particular function will always fail with @code{ENOSYS} unless you
+#. TRANS install a new version of the C library or the operating system.
+#: stdio-common/../sysdeps/gnu/errlist.c:892
+msgid "Function not implemented"
+msgstr "Níl an fheidhm ar fáil"
+
+#. TRANS Not supported.  A function returns this error when certain parameter
+#. TRANS values are valid, but the functionality they request is not available.
+#. TRANS This can mean that the function does not implement a particular command
+#. TRANS or option value or flag bit at all.  For functions that operate on some
+#. TRANS object given in a parameter, such as a file descriptor or a port, it
+#. TRANS might instead mean that only @emph{that specific object} (file
+#. TRANS descriptor, port, etc.) is unable to support the other parameters given;
+#. TRANS different file descriptors might support different ranges of parameter
+#. TRANS values.
+#. TRANS
+#. TRANS If the entire function is not available at all in the implementation,
+#. TRANS it returns @code{ENOSYS} instead.
+#: stdio-common/../sysdeps/gnu/errlist.c:912
+msgid "Not supported"
+msgstr "Gan tacaíocht"
+
+#. TRANS While decoding a multibyte character the function came along an invalid
+#. TRANS or an incomplete sequence of bytes or the given wide character is invalid.
+#: stdio-common/../sysdeps/gnu/errlist.c:922
+msgid "Invalid or incomplete multibyte or wide character"
+msgstr ""
+
+#. TRANS In the GNU system, servers supporting the @code{term} protocol return
+#. TRANS this error for certain operations when the caller is not in the
+#. TRANS foreground process group of the terminal.  Users do not usually see this
+#. TRANS error because functions such as @code{read} and @code{write} translate
+#. TRANS it into a @code{SIGTTIN} or @code{SIGTTOU} signal.  @xref{Job Control},
+#. TRANS for information on process groups and these signals.
+#: stdio-common/../sysdeps/gnu/errlist.c:936
+msgid "Inappropriate operation for background process"
+msgstr ""
+
+#. TRANS In the GNU system, opening a file returns this error when the file is
+#. TRANS translated by a program and the translator program dies while starting
+#. TRANS up, before it has connected to the file.
+#: stdio-common/../sysdeps/gnu/errlist.c:947
+msgid "Translator died"
+msgstr "Fuair an t-aistritheoir bás"
+
+#. TRANS The experienced user will know what is wrong.
+#. TRANS @c This error code is a joke.  Its perror text is part of the joke.
+#. TRANS @c Don't change it.
+#: stdio-common/../sysdeps/gnu/errlist.c:958
+msgid "?"
+msgstr "?"
+
+#. TRANS You did @strong{what}?
+#: stdio-common/../sysdeps/gnu/errlist.c:967
+msgid "You really blew it this time"
+msgstr "Tá do chosa nite"
+
+#. TRANS Go home and have a glass of warm, dairy-fresh milk.
+#: stdio-common/../sysdeps/gnu/errlist.c:976
+msgid "Computer bought the farm"
+msgstr "Tá do ríomhaire chomh marbh le Crom"
+
+#. TRANS This error code has no purpose.
+#: stdio-common/../sysdeps/gnu/errlist.c:985
+msgid "Gratuitous error"
+msgstr "Earráid gan ghá"
+
+#: stdio-common/../sysdeps/gnu/errlist.c:993
+msgid "Bad message"
+msgstr "Drochtheachtaireacht"
+
+#: stdio-common/../sysdeps/gnu/errlist.c:1001
+#: stdio-common/../sysdeps/unix/sysv/sysv4/solaris2/sparc/errlist.c:66
+msgid "Identifier removed"
+msgstr "Aitheantóir díbeartha"
+
+# cf French
+#: stdio-common/../sysdeps/gnu/errlist.c:1009
+#: stdio-common/../sysdeps/unix/sysv/sysv4/solaris2/sparc/errlist.c:104
+msgid "Multihop attempted"
+msgstr "Iarracht ar nascadh trí nóid iomadúla"
+
+#: stdio-common/../sysdeps/gnu/errlist.c:1017
+#: stdio-common/../sysdeps/unix/sysv/sysv4/solaris2/sparc/errlist.c:91
+msgid "No data available"
+msgstr "Níl aon sonra ar fáil"
+
+#: stdio-common/../sysdeps/gnu/errlist.c:1025
+#: stdio-common/../sysdeps/unix/sysv/sysv4/solaris2/sparc/errlist.c:97
+msgid "Link has been severed"
+msgstr "Dínascadh"
+
+#: stdio-common/../sysdeps/gnu/errlist.c:1033
+#: stdio-common/../sysdeps/unix/sysv/sysv4/solaris2/sparc/errlist.c:65
+msgid "No message of desired type"
+msgstr "Níl aon theachtaireacht ann den chineál seo"
+
+#: stdio-common/../sysdeps/gnu/errlist.c:1041
+msgid "Out of streams resources"
+msgstr "Acmhainní sreafa ídithe"
+
+#: stdio-common/../sysdeps/gnu/errlist.c:1049
+msgid "Device not a stream"
+msgstr "Ní sruth an gléas é"
+
+# data type from FARF - KPS
+#: stdio-common/../sysdeps/gnu/errlist.c:1057
+#: stdio-common/../sysdeps/unix/sysv/sysv4/solaris2/sparc/errlist.c:109
+msgid "Value too large for defined data type"
+msgstr "Tá an luach rómhór ag an chineál sonraí"
+
+#: stdio-common/../sysdeps/gnu/errlist.c:1065
+#: stdio-common/../sysdeps/unix/sysv/sysv4/solaris2/sparc/errlist.c:101
+msgid "Protocol error"
+msgstr "Earráid phrótacail"
+
+#: stdio-common/../sysdeps/gnu/errlist.c:1073
+#: stdio-common/../sysdeps/unix/sysv/sysv4/solaris2/sparc/errlist.c:92
+msgid "Timer expired"
+msgstr "Am caite"
+
+#. TRANS Operation canceled; an asynchronous operation was canceled before it
+#. TRANS completed.  @xref{Asynchronous I/O}.  When you call @code{aio_cancel},
+#. TRANS the normal result is for the operations affected to complete with this
+#. TRANS error; @pxref{Cancel AIO Operations}.
+#: stdio-common/../sysdeps/gnu/errlist.c:1085
+#: stdio-common/../sysdeps/unix/sysv/sysv4/solaris2/sparc/errlist.c:77
+msgid "Operation canceled"
+msgstr "Cealaíodh an oibríocht"
+
+#: stdio-common/../sysdeps/gnu/errlist.c:1093
+msgid "Interrupted system call should be restarted"
+msgstr "Is ceart atosú a dhéanamh ar an glaoch córais a bhí briste"
+
+#: stdio-common/../sysdeps/gnu/errlist.c:1101
+#: stdio-common/../sysdeps/unix/sysv/sysv4/solaris2/sparc/errlist.c:67
+msgid "Channel number out of range"
+msgstr "Uimhir chainéil as raon"
+
+#: stdio-common/../sysdeps/gnu/errlist.c:1109
+#: stdio-common/../sysdeps/unix/sysv/sysv4/solaris2/sparc/errlist.c:68
+msgid "Level 2 not synchronized"
+msgstr "Níl leibhéal 2 sioncrónach"
+
+#: stdio-common/../sysdeps/gnu/errlist.c:1117
+#: stdio-common/../sysdeps/unix/sysv/sysv4/solaris2/sparc/errlist.c:69
+msgid "Level 3 halted"
+msgstr "Leibhéal 3 ar stad"
+
+#: stdio-common/../sysdeps/gnu/errlist.c:1125
+#: stdio-common/../sysdeps/unix/sysv/sysv4/solaris2/sparc/errlist.c:70
+msgid "Level 3 reset"
+msgstr "Leibhéal 3 athshocraithe"
+
+#: stdio-common/../sysdeps/gnu/errlist.c:1133
+#: stdio-common/../sysdeps/unix/sysv/sysv4/solaris2/sparc/errlist.c:71
+msgid "Link number out of range"
+msgstr "Uimhir naisc as raon"
+
+#: stdio-common/../sysdeps/gnu/errlist.c:1141
+#: stdio-common/../sysdeps/unix/sysv/sysv4/solaris2/sparc/errlist.c:72
+msgid "Protocol driver not attached"
+msgstr "Níl an tiománaí prótacail ceangailte"
+
+#: stdio-common/../sysdeps/gnu/errlist.c:1149
+#: stdio-common/../sysdeps/unix/sysv/sysv4/solaris2/sparc/errlist.c:73
+msgid "No CSI structure available"
+msgstr "Níl struchtúr CSI ar fáil"
+
+#: stdio-common/../sysdeps/gnu/errlist.c:1157
+#: stdio-common/../sysdeps/unix/sysv/sysv4/solaris2/sparc/errlist.c:74
+msgid "Level 2 halted"
+msgstr "Leibhéal 2 ar stad"
+
+#: stdio-common/../sysdeps/gnu/errlist.c:1165
+msgid "Invalid exchange"
+msgstr "Malartán neamhbhailí"
+
+# FARF - KPS
+#: stdio-common/../sysdeps/gnu/errlist.c:1173
+msgid "Invalid request descriptor"
+msgstr "Tuarascálaí iarratais neamhbhailí"
+
+#: stdio-common/../sysdeps/gnu/errlist.c:1181
+msgid "Exchange full"
+msgstr "Tá an malartán lán"
+
+# OLT - KPS
+#: stdio-common/../sysdeps/gnu/errlist.c:1189
+msgid "No anode"
+msgstr "Ní aon anóid ann"
+
+#: stdio-common/../sysdeps/gnu/errlist.c:1197
+msgid "Invalid request code"
+msgstr "Cód iarratais neamhbhailí"
+
+#: stdio-common/../sysdeps/gnu/errlist.c:1205
+#: stdio-common/../sysdeps/unix/sysv/sysv4/solaris2/sparc/errlist.c:85
+msgid "Invalid slot"
+msgstr "Sliotán neamhbhailí"
+
+#: stdio-common/../sysdeps/gnu/errlist.c:1213
+msgid "File locking deadlock error"
+msgstr "Earráid leamhsháinne ag iarraidh comhad a ghlasáil"
+
+# FARF has "comhad clónna"
+#: stdio-common/../sysdeps/gnu/errlist.c:1221
+#: stdio-common/../sysdeps/unix/sysv/sysv4/solaris2/sparc/errlist.c:87
+msgid "Bad font file format"
+msgstr "Comhad clófhoirne earráideach"
+
+#: stdio-common/../sysdeps/gnu/errlist.c:1229
+#: stdio-common/../sysdeps/unix/sysv/sysv4/solaris2/sparc/errlist.c:94
+msgid "Machine is not on the network"
+msgstr "Níl an ríomhaire sa líonra"
+
+#: stdio-common/../sysdeps/gnu/errlist.c:1237
+#: stdio-common/../sysdeps/unix/sysv/sysv4/solaris2/sparc/errlist.c:95
+msgid "Package not installed"
+msgstr "Níl an pacáiste suiteáilte"
+
+# compare fr - KPS
+#: stdio-common/../sysdeps/gnu/errlist.c:1245
+#: stdio-common/../sysdeps/unix/sysv/sysv4/solaris2/sparc/errlist.c:98
+msgid "Advertise error"
+msgstr "Earráid fhógartha"
+
+# cf. French - KPS
+#: stdio-common/../sysdeps/gnu/errlist.c:1253
+#: stdio-common/../sysdeps/unix/sysv/sysv4/solaris2/sparc/errlist.c:99
+msgid "Srmount error"
+msgstr "Earráid srmount()"
+
+#: stdio-common/../sysdeps/gnu/errlist.c:1261
+#: stdio-common/../sysdeps/unix/sysv/sysv4/solaris2/sparc/errlist.c:100
+msgid "Communication error on send"
+msgstr "Earráid chumarsáide ag iarraidh seolta"
+
+#: stdio-common/../sysdeps/gnu/errlist.c:1269
+msgid "RFS specific error"
+msgstr "Earráid ag baint le `RFS'"
+
+#: stdio-common/../sysdeps/gnu/errlist.c:1277
+#: stdio-common/../sysdeps/unix/sysv/sysv4/solaris2/sparc/errlist.c:110
+msgid "Name not unique on network"
+msgstr "Níl an t-ainm uathúil sa líonra"
+
+#: stdio-common/../sysdeps/gnu/errlist.c:1285
+#: stdio-common/../sysdeps/unix/sysv/sysv4/solaris2/sparc/errlist.c:111
+msgid "File descriptor in bad state"
+msgstr "Tuarascálaí comhaid ina dhrochstaid"
+
+#: stdio-common/../sysdeps/gnu/errlist.c:1293
+#: stdio-common/../sysdeps/unix/sysv/sysv4/solaris2/sparc/errlist.c:112
+msgid "Remote address changed"
+msgstr "Tháinig athrú ar chiansheoladh"
+
+#: stdio-common/../sysdeps/gnu/errlist.c:1301
+#: stdio-common/../sysdeps/unix/sysv/sysv4/solaris2/sparc/errlist.c:113
+msgid "Can not access a needed shared library"
+msgstr "Ní féidir comhleabharlann riachtanach a rochtain"
+
+# coinage - KPS
+#: stdio-common/../sysdeps/gnu/errlist.c:1309
+#: stdio-common/../sysdeps/unix/sysv/sysv4/solaris2/sparc/errlist.c:114
+msgid "Accessing a corrupted shared library"
+msgstr "Ag rochtain comhleabharlainne truaillithe"
+
+#: stdio-common/../sysdeps/gnu/errlist.c:1317
+#: stdio-common/../sysdeps/unix/sysv/sysv4/solaris2/sparc/errlist.c:115
+msgid ".lib section in a.out corrupted"
+msgstr "Tá an pháirt .lib den chomhad a.out truaillithe"
+
+# coinage - KPS
+#: stdio-common/../sysdeps/gnu/errlist.c:1325
+msgid "Attempting to link in too many shared libraries"
+msgstr "Iarraidh ar an iomarca comhleabharlanna a nascadh"
+
+# execute.  See French - KPS
+#: stdio-common/../sysdeps/gnu/errlist.c:1333
+msgid "Cannot exec a shared library directly"
+msgstr "Ní féidir comhleabharlann a rith go díreach"
+
+#: stdio-common/../sysdeps/gnu/errlist.c:1341
+msgid "Streams pipe error"
+msgstr "Earráid i bpíopa srutha"
+
+#: stdio-common/../sysdeps/gnu/errlist.c:1349
+#: stdio-common/../sysdeps/unix/sysv/sysv4/solaris2/sparc/errlist.c:165
+msgid "Structure needs cleaning"
+msgstr "Ní mór an struchtúr a ghlanadh"
+
+# cf. French - KPS
+#: stdio-common/../sysdeps/gnu/errlist.c:1357
+msgid "Not a XENIX named type file"
+msgstr "Ní comhad den chineál `XENIX named' é"
+
+#: stdio-common/../sysdeps/gnu/errlist.c:1365
+msgid "No XENIX semaphores available"
+msgstr "Níl séamafóir XENIX ar fáil"
+
+#: stdio-common/../sysdeps/gnu/errlist.c:1373
+msgid "Is a named type file"
+msgstr "Is comhad ainmnithe é"
+
+#: stdio-common/../sysdeps/gnu/errlist.c:1381
+#: stdio-common/../sysdeps/unix/sysv/sysv4/solaris2/sparc/errlist.c:170
+msgid "Remote I/O error"
+msgstr "Earráid I/A i gcéin"
+
+#: stdio-common/../sysdeps/gnu/errlist.c:1389
+msgid "No medium found"
+msgstr "Níor aimsíodh aon mheán"
+
+#: stdio-common/../sysdeps/gnu/errlist.c:1397
+msgid "Wrong medium type"
+msgstr "Cineál mícheart meáin"
+
+#: stdio-common/../sysdeps/unix/siglist.c:26
+msgid "Signal 0"
+msgstr "Comhartha 0"
+
+#: stdio-common/../sysdeps/unix/siglist.c:32
+msgid "IOT trap"
+msgstr "Gaiste IOT"
+
+#: stdio-common/../sysdeps/unix/sysv/sysv4/solaris2/sparc/errlist.c:30
+msgid "Error 0"
+msgstr "Earráid 0"
+
+#: stdio-common/../sysdeps/unix/sysv/sysv4/solaris2/sparc/errlist.c:31
+#: nis/nis_error.c:40
+msgid "Not owner"
+msgstr ""
+
+#: stdio-common/../sysdeps/unix/sysv/sysv4/solaris2/sparc/errlist.c:35
+msgid "I/O error"
+msgstr "Earráid I/A"
+
+#: stdio-common/../sysdeps/unix/sysv/sysv4/solaris2/sparc/errlist.c:37
+msgid "Arg list too long"
+msgstr "Liosta argóintí rófhada"
+
+#: stdio-common/../sysdeps/unix/sysv/sysv4/solaris2/sparc/errlist.c:39
+msgid "Bad file number"
+msgstr "Drochuimhir chomhaid"
+
+#: stdio-common/../sysdeps/unix/sysv/sysv4/solaris2/sparc/errlist.c:42
+msgid "Not enough space"
+msgstr "Níl go leor spás saor ann"
+
+#: stdio-common/../sysdeps/unix/sysv/sysv4/solaris2/sparc/errlist.c:46
+msgid "Device busy"
+msgstr "Is gafa é an gléas"
+
+#: stdio-common/../sysdeps/unix/sysv/sysv4/solaris2/sparc/errlist.c:48
+msgid "Cross-device link"
+msgstr "Nasc idir gléasanna"
+
+#: stdio-common/../sysdeps/unix/sysv/sysv4/solaris2/sparc/errlist.c:53
+msgid "File table overflow"
+msgstr "Tábla comhaid thar maoil"
+
+#: stdio-common/../sysdeps/unix/sysv/sysv4/solaris2/sparc/errlist.c:63
+msgid "Argument out of domain"
+msgstr "Níl an argóint sa réimse ceadaithe"
+
+#: stdio-common/../sysdeps/unix/sysv/sysv4/solaris2/sparc/errlist.c:64
+msgid "Result too large"
+msgstr "Toradh rómhór"
+
+#: stdio-common/../sysdeps/unix/sysv/sysv4/solaris2/sparc/errlist.c:75
+msgid "Deadlock situation detected/avoided"
+msgstr "Braitheadh/seachnaíodh leamhsháinn"
+
+#: stdio-common/../sysdeps/unix/sysv/sysv4/solaris2/sparc/errlist.c:76
+msgid "No record locks available"
+msgstr "Níl glais taifead ar fáil"
+
+#: stdio-common/../sysdeps/unix/sysv/sysv4/solaris2/sparc/errlist.c:79
+msgid "Disc quota exceeded"
+msgstr "Sáraíodh an cuóta diosca"
+
+#: stdio-common/../sysdeps/unix/sysv/sysv4/solaris2/sparc/errlist.c:80
+msgid "Bad exchange descriptor"
+msgstr "Drochthuairisceoir malartáin"
+
+#: stdio-common/../sysdeps/unix/sysv/sysv4/solaris2/sparc/errlist.c:81
+msgid "Bad request descriptor"
+msgstr "Drochthuairisceoir iarratais"
+
+#: stdio-common/../sysdeps/unix/sysv/sysv4/solaris2/sparc/errlist.c:82
+msgid "Message tables full"
+msgstr ""
+
+#: stdio-common/../sysdeps/unix/sysv/sysv4/solaris2/sparc/errlist.c:83
+msgid "Anode table overflow"
+msgstr "Tábla anóid thar maoil"
+
+#: stdio-common/../sysdeps/unix/sysv/sysv4/solaris2/sparc/errlist.c:84
+msgid "Bad request code"
+msgstr "Cód iarratais neamhbhailí"
+
+#: stdio-common/../sysdeps/unix/sysv/sysv4/solaris2/sparc/errlist.c:86
+msgid "File locking deadlock"
+msgstr "Earráid leamhsháinne agus comhaid á nglasáil"
+
+#: stdio-common/../sysdeps/unix/sysv/sysv4/solaris2/sparc/errlist.c:88
+msgid "Error 58"
+msgstr "Earráid 58"
+
+#: stdio-common/../sysdeps/unix/sysv/sysv4/solaris2/sparc/errlist.c:89
+msgid "Error 59"
+msgstr "Earráid 59"
+
+#: stdio-common/../sysdeps/unix/sysv/sysv4/solaris2/sparc/errlist.c:90
+msgid "Not a stream device"
+msgstr "Ní gléas srutha é"
+
+#: stdio-common/../sysdeps/unix/sysv/sysv4/solaris2/sparc/errlist.c:93
+msgid "Out of stream resources"
+msgstr "Acmhainní sreafa ídithe"
+
+#: stdio-common/../sysdeps/unix/sysv/sysv4/solaris2/sparc/errlist.c:102
+msgid "Error 72"
+msgstr "Earráid 72"
+
+#: stdio-common/../sysdeps/unix/sysv/sysv4/solaris2/sparc/errlist.c:103
+msgid "Error 73"
+msgstr "Earráid 73"
+
+#: stdio-common/../sysdeps/unix/sysv/sysv4/solaris2/sparc/errlist.c:105
+msgid "Error 75"
+msgstr "Earráid 75"
+
+#: stdio-common/../sysdeps/unix/sysv/sysv4/solaris2/sparc/errlist.c:106
+msgid "Error 76"
+msgstr "Earráid 76"
+
+#: stdio-common/../sysdeps/unix/sysv/sysv4/solaris2/sparc/errlist.c:107
+msgid "Not a data message"
+msgstr "Ní teachtaireacht shonraí é"
+
+#: stdio-common/../sysdeps/unix/sysv/sysv4/solaris2/sparc/errlist.c:116
+msgid "Attempting to link in more shared libraries than system limit"
+msgstr "Iarraidh ar an iomarca comhleabharlanna a nascadh"
+
+# execute.  See French - KPS
+#: stdio-common/../sysdeps/unix/sysv/sysv4/solaris2/sparc/errlist.c:117
+msgid "Can not exec a shared library directly"
+msgstr "Ní féidir comhleabharlann a rith go díreach"
+
+#: stdio-common/../sysdeps/unix/sysv/sysv4/solaris2/sparc/errlist.c:118
+msgid "Illegal byte sequence"
+msgstr "Seicheamh bearta neamhbhailí"
+
+#: stdio-common/../sysdeps/unix/sysv/sysv4/solaris2/sparc/errlist.c:119
+msgid "Operation not applicable"
+msgstr ""
+
+#: stdio-common/../sysdeps/unix/sysv/sysv4/solaris2/sparc/errlist.c:120
+msgid ""
+"Number of symbolic links encountered during path name traversal exceeds "
+"MAXSYMLINKS"
+msgstr ""
+
+#: stdio-common/../sysdeps/unix/sysv/sysv4/solaris2/sparc/errlist.c:121
+msgid "Error 91"
+msgstr "Earráid 91"
+
+#: stdio-common/../sysdeps/unix/sysv/sysv4/solaris2/sparc/errlist.c:122
+msgid "Error 92"
+msgstr "Earráid 92"
+
+#: stdio-common/../sysdeps/unix/sysv/sysv4/solaris2/sparc/errlist.c:129
+msgid "Option not supported by protocol"
+msgstr "Níl an rogha seo ar fáil leis an phrótacal seo"
+
+#: stdio-common/../sysdeps/unix/sysv/sysv4/solaris2/sparc/errlist.c:130
+msgid "Error 100"
+msgstr "Earráid 100"
+
+#: stdio-common/../sysdeps/unix/sysv/sysv4/solaris2/sparc/errlist.c:131
+msgid "Error 101"
+msgstr "Earráid 101"
+
+#: stdio-common/../sysdeps/unix/sysv/sysv4/solaris2/sparc/errlist.c:132
+msgid "Error 102"
+msgstr "Earráid 102"
+
+#: stdio-common/../sysdeps/unix/sysv/sysv4/solaris2/sparc/errlist.c:133
+msgid "Error 103"
+msgstr "Earráid 103"
+
+#: stdio-common/../sysdeps/unix/sysv/sysv4/solaris2/sparc/errlist.c:134
+msgid "Error 104"
+msgstr "Earráid 104"
+
+#: stdio-common/../sysdeps/unix/sysv/sysv4/solaris2/sparc/errlist.c:135
+msgid "Error 105"
+msgstr "Earráid 105"
+
+#: stdio-common/../sysdeps/unix/sysv/sysv4/solaris2/sparc/errlist.c:136
+msgid "Error 106"
+msgstr "Earráid 106"
+
+#: stdio-common/../sysdeps/unix/sysv/sysv4/solaris2/sparc/errlist.c:137
+msgid "Error 107"
+msgstr "Earráid 107"
+
+#: stdio-common/../sysdeps/unix/sysv/sysv4/solaris2/sparc/errlist.c:138
+msgid "Error 108"
+msgstr "Earráid 108"
+
+#: stdio-common/../sysdeps/unix/sysv/sysv4/solaris2/sparc/errlist.c:139
+msgid "Error 109"
+msgstr "Earráid 109"
+
+#: stdio-common/../sysdeps/unix/sysv/sysv4/solaris2/sparc/errlist.c:140
+msgid "Error 110"
+msgstr "Earráid 110"
+
+#: stdio-common/../sysdeps/unix/sysv/sysv4/solaris2/sparc/errlist.c:141
+msgid "Error 111"
+msgstr "Earráid 111"
+
+#: stdio-common/../sysdeps/unix/sysv/sysv4/solaris2/sparc/errlist.c:142
+msgid "Error 112"
+msgstr "Earráid 112"
+
+#: stdio-common/../sysdeps/unix/sysv/sysv4/solaris2/sparc/errlist.c:143
+msgid "Error 113"
+msgstr "Earráid 113"
+
+#: stdio-common/../sysdeps/unix/sysv/sysv4/solaris2/sparc/errlist.c:144
+msgid "Error 114"
+msgstr "Earráid 114"
+
+#: stdio-common/../sysdeps/unix/sysv/sysv4/solaris2/sparc/errlist.c:145
+msgid "Error 115"
+msgstr "Earráid 115"
+
+#: stdio-common/../sysdeps/unix/sysv/sysv4/solaris2/sparc/errlist.c:146
+msgid "Error 116"
+msgstr "Earráid 116"
+
+#: stdio-common/../sysdeps/unix/sysv/sysv4/solaris2/sparc/errlist.c:147
+msgid "Error 117"
+msgstr "Earráid 117"
+
+#: stdio-common/../sysdeps/unix/sysv/sysv4/solaris2/sparc/errlist.c:148
+msgid "Error 118"
+msgstr "Earráid 118"
+
+#: stdio-common/../sysdeps/unix/sysv/sysv4/solaris2/sparc/errlist.c:149
+msgid "Error 119"
+msgstr "Earráid 119"
+
+#: stdio-common/../sysdeps/unix/sysv/sysv4/solaris2/sparc/errlist.c:152
+msgid "Operation not supported on transport endpoint"
+msgstr "Níl an oibríocht ar fáil ag ceann iompair"
+
+#: stdio-common/../sysdeps/unix/sysv/sysv4/solaris2/sparc/errlist.c:154
+msgid "Address family not supported by protocol family"
+msgstr "Níl an aicme sheolta ar fáil leis an phrótacal seo"
+
+#: stdio-common/../sysdeps/unix/sysv/sysv4/solaris2/sparc/errlist.c:159
+msgid "Network dropped connection because of reset"
+msgstr "Thréig an líonra an nasc de bharr athshocrú"
+
+#: stdio-common/../sysdeps/unix/sysv/sysv4/solaris2/sparc/errlist.c:166
+msgid "Error 136"
+msgstr "Earráid 136"
+
+#: stdio-common/../sysdeps/unix/sysv/sysv4/solaris2/sparc/errlist.c:167
+msgid "Not a name file"
+msgstr "Ní comhad ainmnithe é"
+
+#: stdio-common/../sysdeps/unix/sysv/sysv4/solaris2/sparc/errlist.c:168
+msgid "Not available"
+msgstr "Níl ar fáil"
+
+#: stdio-common/../sysdeps/unix/sysv/sysv4/solaris2/sparc/errlist.c:169
+msgid "Is a name file"
+msgstr "Is comhad ainmnithe é"
+
+#: stdio-common/../sysdeps/unix/sysv/sysv4/solaris2/sparc/errlist.c:171
+msgid "Reserved for future use"
+msgstr ""
+
+#: stdio-common/../sysdeps/unix/sysv/sysv4/solaris2/sparc/errlist.c:172
+msgid "Error 142"
+msgstr "Earráid 142"
+
+#: stdio-common/../sysdeps/unix/sysv/sysv4/solaris2/sparc/errlist.c:173
+msgid "Cannot send after socket shutdown"
+msgstr ""
+
+#: stdio-common/psignal.c:63
+#, c-format
+msgid "%s%sUnknown signal %d\n"
+msgstr "%s%sComhartha anaithnid %d\n"
+
+#: dlfcn/dlinfo.c:51
+msgid "RTLD_SELF used in code not dynamically loaded"
+msgstr ""
+
+#: dlfcn/dlinfo.c:61
+msgid "unsupported dlinfo request"
+msgstr "iarratas dlinfo gan tacaíocht"
+
+#: malloc/mcheck.c:346
+msgid "memory is consistent, library is buggy\n"
+msgstr "is buan an cuimhne, is fabhtach an leabharlann\n"
+
+#: malloc/mcheck.c:349
+msgid "memory clobbered before allocated block\n"
+msgstr ""
+
+#: malloc/mcheck.c:352
+msgid "memory clobbered past end of allocated block\n"
+msgstr ""
+
+#: malloc/mcheck.c:355
+msgid "block freed twice\n"
+msgstr "saoradh bloc faoi dhó\n"
+
+#: malloc/mcheck.c:358
+msgid "bogus mcheck_status, library is buggy\n"
+msgstr "mcheck_status bréagach, is fabhtach an leabharlann\n"
+
+#: malloc/memusagestat.c:53
+msgid "Name output file"
+msgstr ""
+
+#: malloc/memusagestat.c:54
+msgid "Title string used in output graphic"
+msgstr ""
+
+#: malloc/memusagestat.c:55
+msgid ""
+"Generate output linear to time (default is linear to number of function "
+"calls)"
+msgstr ""
+
+#: malloc/memusagestat.c:57
+msgid "Also draw graph for total memory consumption"
+msgstr ""
+
+#: malloc/memusagestat.c:58
+msgid "make output graphic VALUE pixel wide"
+msgstr ""
+
+#: malloc/memusagestat.c:59
+msgid "make output graphic VALUE pixel high"
+msgstr ""
+
+#: malloc/memusagestat.c:64
+msgid "Generate graphic from memory profiling data"
+msgstr ""
+
+#: malloc/memusagestat.c:67
+msgid "DATAFILE [OUTFILE]"
+msgstr "COMHADSONRAÍ [ASCHOMHAD]"
+
+#: string/strerror.c:43 posix/../sysdeps/posix/gai_strerror.c:57
+msgid "Unknown error"
+msgstr "Earráid anaithnid"
+
+#: string/strsignal.c:69
+#, c-format
+msgid "Real-time signal %d"
+msgstr "Comhartha fíor-ama %d"
+
+#: string/strsignal.c:73
+#, c-format
+msgid "Unknown signal %d"
+msgstr "Comhartha anaithnid %d"
+
+#: timezone/zdump.c:176
+#, c-format
+msgid "%s: usage is %s [ --version ] [ -v ] [ -c cutoff ] zonename ...\n"
+msgstr "%s: úsaid: %s [ --version ] [ -v ] [ -c pointe-scoite ] ainmzóin ...\n"
+
+#: timezone/zdump.c:269
+msgid "Error writing standard output"
+msgstr "Earráid agus aschur caighdeánach á scríobh"
+
+#: timezone/zic.c:361
+#, c-format
+msgid "%s: Memory exhausted: %s\n"
+msgstr "%s: Cuimhne ídithe: %s\n"
+
+#: timezone/zic.c:386 misc/error.c:129 misc/error.c:157
+msgid "Unknown system error"
+msgstr "Earráid chórais anaithnid"
+
+#: timezone/zic.c:420
+#, c-format
+msgid "\"%s\", line %d: %s"
+msgstr "\"%s\", líne %d: %s"
+
+#: timezone/zic.c:423
+#, c-format
+msgid " (rule from \"%s\", line %d)"
+msgstr " (riail ó \"%s\", líne %d)"
+
+#: timezone/zic.c:435
+msgid "warning: "
+msgstr "rabhadh: "
+
+#: timezone/zic.c:445
+#, c-format
+msgid ""
+"%s: usage is %s [ --version ] [ -s ] [ -v ] [ -l localtime ] [ -p "
+"posixrules ] \\\n"
+"\t[ -d directory ] [ -L leapseconds ] [ -y yearistype ] [ filename ... ]\n"
+msgstr ""
+"%s: úsáid: %s [ --version ] [ -s ] [ -v ] [ -l amlogánta ] [ -p "
+"rialachaposix ] \\\n"
+"\t[ -d comhadlann ] [ -L soicindíbisigh ] [ -y cineálbliana ] [ ainmcomhaid ... ]\n"
+
+#: timezone/zic.c:492
+#, c-format
+msgid "%s: More than one -d option specified\n"
+msgstr "%s: Roghanna -d iomadúla\n"
+
+#: timezone/zic.c:502
+#, c-format
+msgid "%s: More than one -l option specified\n"
+msgstr "%s: Roghanna -l iomadúla\n"
+
+#: timezone/zic.c:512
+#, c-format
+msgid "%s: More than one -p option specified\n"
+msgstr "%s: Roghanna -p iomadúla\n"
+
+#: timezone/zic.c:522
+#, c-format
+msgid "%s: More than one -y option specified\n"
+msgstr "%s: Roghanna -y iomadúla\n"
+
+#: timezone/zic.c:532
+#, c-format
+msgid "%s: More than one -L option specified\n"
+msgstr "%s: Roghanna -L iomadúla\n"
+
+#: timezone/zic.c:639
+#, c-format
+msgid "%s: Can't unlink  %s: %s\n"
+msgstr "%s: Ní féidir %s a dhínascadh: %s\n"
+
+#: timezone/zic.c:646
+msgid "hard link failed, symbolic link used"
+msgstr "theip ar nasc crua, rinneadh nasc siombalach ina ionad"
+
+#: timezone/zic.c:654
+#, c-format
+msgid "%s: Can't link from %s to %s: %s\n"
+msgstr "%s: Ní féidir %s a nasc le %s: %s\n"
+
+#: timezone/zic.c:752 timezone/zic.c:754
+msgid "same rule name in multiple files"
+msgstr "tá an t-ainm rialach céanna i gcomhaid iomadúla"
+
+#: timezone/zic.c:795
+msgid "unruly zone"
+msgstr "zón ainrianta"
+
+#: timezone/zic.c:802
+#, c-format
+msgid "%s in ruleless zone"
+msgstr "%s i zón gan riail"
+
+#: timezone/zic.c:823
+msgid "standard input"
+msgstr "ionchur caighdeánach"
+
+#: timezone/zic.c:828
+#, c-format
+msgid "%s: Can't open %s: %s\n"
+msgstr "%s: Ní féidir %s a oscailt: %s\n"
+
+#: timezone/zic.c:839
+msgid "line too long"
+msgstr "líne rófhada"
+
+#: timezone/zic.c:859
+msgid "input line of unknown type"
+msgstr "líne ionchurtha de chineál anaithnid"
+
+#: timezone/zic.c:875
+#, c-format
+msgid "%s: Leap line in non leap seconds file %s\n"
+msgstr ""
+
+#: timezone/zic.c:882 timezone/zic.c:1297 timezone/zic.c:1322
+#, c-format
+msgid "%s: panic: Invalid l_value %d\n"
+msgstr "%s: scaoll: l_value neamhbhailí %d\n"
+
+#: timezone/zic.c:890
+#, c-format
+msgid "%s: Error reading %s\n"
+msgstr "%s: Earráid agus %s á léamh\n"
+
+#: timezone/zic.c:897
+#, c-format
+msgid "%s: Error closing %s: %s\n"
+msgstr "%s: Earráid agus %s á dhúnadh: %s\n"
+
+#: timezone/zic.c:902
+msgid "expected continuation line not found"
+msgstr "níor aimsíodh an líne leanúna iarrtha"
+
+#: timezone/zic.c:958
+msgid "wrong number of fields on Rule line"
+msgstr "líon na réimsí mícheart ar líne rialach"
+
+#: timezone/zic.c:962
+msgid "nameless rule"
+msgstr "riail gan ainm"
+
+#: timezone/zic.c:967
+msgid "invalid saved time"
+msgstr "am neamhbhailí sábháilte"
+
+#: timezone/zic.c:986
+msgid "wrong number of fields on Zone line"
+msgstr "líon na réimsí mícheart ar líne \"Zone\""
+
+#: timezone/zic.c:992
+#, c-format
+msgid "\"Zone %s\" line and -l option are mutually exclusive"
+msgstr "is comheisiatach iad an líne \"Zone %s\" agus an rogha -l"
+
+#: timezone/zic.c:1000
+#, c-format
+msgid "\"Zone %s\" line and -p option are mutually exclusive"
+msgstr "is comheisiatach iad an líne \"Zone %s\" agus an rogha -p"
+
+#: timezone/zic.c:1012
+#, c-format
+msgid "duplicate zone name %s (file \"%s\", line %d)"
+msgstr ""
+
+#: timezone/zic.c:1028
+msgid "wrong number of fields on Zone continuation line"
+msgstr ""
+
+#: timezone/zic.c:1068
+msgid "invalid UTC offset"
+msgstr "fritháireamh neamhbhailí UTC"
+
+#: timezone/zic.c:1071
+msgid "invalid abbreviation format"
+msgstr "formáid neamhbhailí giorrúcháin"
+
+#: timezone/zic.c:1097
+msgid "Zone continuation line end time is not after end time of previous line"
+msgstr ""
+
+#: timezone/zic.c:1124
+msgid "wrong number of fields on Leap line"
+msgstr "líon na réimsí mícheart ar líne \"Leap\""
+
+#: timezone/zic.c:1133
+msgid "invalid leaping year"
+msgstr ""
+
+#: timezone/zic.c:1148 timezone/zic.c:1252
+msgid "invalid month name"
+msgstr ""
+
+#: timezone/zic.c:1161 timezone/zic.c:1374 timezone/zic.c:1388
+msgid "invalid day of month"
+msgstr ""
+
+#: timezone/zic.c:1166
+msgid "time before zero"
+msgstr ""
+
+#: timezone/zic.c:1170
+msgid "time too small"
+msgstr "am róbheag"
+
+#: timezone/zic.c:1174
+msgid "time too large"
+msgstr "am rómhór"
+
+#: timezone/zic.c:1178 timezone/zic.c:1281
+msgid "invalid time of day"
+msgstr ""
+
+#: timezone/zic.c:1197
+msgid "illegal CORRECTION field on Leap line"
+msgstr ""
+
+#: timezone/zic.c:1201
+msgid "illegal Rolling/Stationary field on Leap line"
+msgstr ""
+
+#: timezone/zic.c:1216
+msgid "wrong number of fields on Link line"
+msgstr "líon na réimsí mícheart ar líne \"Link\""
+
+#: timezone/zic.c:1220
+msgid "blank FROM field on Link line"
+msgstr ""
+
+#: timezone/zic.c:1224
+msgid "blank TO field on Link line"
+msgstr ""
+
+#: timezone/zic.c:1301
+msgid "invalid starting year"
+msgstr "bliain neamhbhailí tosaithe"
+
+#: timezone/zic.c:1305
+msgid "starting year too low to be represented"
+msgstr ""
+
+#: timezone/zic.c:1307
+msgid "starting year too high to be represented"
+msgstr ""
+
+#: timezone/zic.c:1326
+msgid "invalid ending year"
+msgstr ""
+
+#: timezone/zic.c:1330
+msgid "ending year too low to be represented"
+msgstr ""
+
+#: timezone/zic.c:1332
+msgid "ending year too high to be represented"
+msgstr ""
+
+#: timezone/zic.c:1335
+msgid "starting year greater than ending year"
+msgstr ""
+
+#: timezone/zic.c:1342
+msgid "typed single year"
+msgstr ""
+
+#: timezone/zic.c:1379
+msgid "invalid weekday name"
+msgstr ""
+
+#: timezone/zic.c:1494
+#, c-format
+msgid "%s: Can't remove %s: %s\n"
+msgstr "%s: Ní féidir %s a bhaint: %s\n"
+
+#: timezone/zic.c:1504
+#, c-format
+msgid "%s: Can't create %s: %s\n"
+msgstr "%s: Ní féidir %s a chruthú: %s\n"
+
+#: timezone/zic.c:1570
+#, c-format
+msgid "%s: Error writing %s\n"
+msgstr "%s: Earráid agus %s á scríobh\n"
+
+#: timezone/zic.c:1760
+msgid "can't determine time zone abbreviation to use just after until time"
+msgstr ""
+
+#: timezone/zic.c:1803
+msgid "too many transitions?!"
+msgstr ""
+
+#: timezone/zic.c:1822
+msgid "internal error - addtype called with bad isdst"
+msgstr ""
+
+#: timezone/zic.c:1826
+msgid "internal error - addtype called with bad ttisstd"
+msgstr ""
+
+#: timezone/zic.c:1830
+msgid "internal error - addtype called with bad ttisgmt"
+msgstr ""
+
+#: timezone/zic.c:1849
+msgid "too many local time types"
+msgstr ""
+
+#: timezone/zic.c:1877
+msgid "too many leap seconds"
+msgstr ""
+
+#: timezone/zic.c:1883
+msgid "repeated leap second moment"
+msgstr ""
+
+#: timezone/zic.c:1935
+msgid "Wild result from command execution"
+msgstr ""
+
+#: timezone/zic.c:1936
+#, c-format
+msgid "%s: command was '%s', result was %d\n"
+msgstr ""
+
+#: timezone/zic.c:2031
+msgid "Odd number of quotation marks"
+msgstr ""
+
+#: timezone/zic.c:2051 timezone/zic.c:2070
+msgid "time overflow"
+msgstr "am thar maoil"
+
+#: timezone/zic.c:2117
+msgid "use of 2/29 in non leap-year"
+msgstr ""
+
+#: timezone/zic.c:2151
+msgid "no day in month matches rule"
+msgstr ""
+
+#: timezone/zic.c:2175
+msgid "too many, or too long, time zone abbreviations"
+msgstr ""
+
+#: timezone/zic.c:2216
+#, c-format
+msgid "%s: Can't create directory %s: %s\n"
+msgstr "%s: Ní féidir an chomhadlann %s a chruthú: %s\n"
+
+#: timezone/zic.c:2238
+#, c-format
+msgid "%s: %d did not sign extend correctly\n"
+msgstr ""
+
+#: posix/../sysdeps/generic/wordexp.c:1797
+msgid "parameter null or not set"
+msgstr ""
+
+#: posix/../sysdeps/posix/gai_strerror.c:31
+msgid "Address family for hostname not supported"
+msgstr ""
+
+#: posix/../sysdeps/posix/gai_strerror.c:32
+msgid "Temporary failure in name resolution"
+msgstr ""
+
+#: posix/../sysdeps/posix/gai_strerror.c:33
+msgid "Bad value for ai_flags"
+msgstr "Luach neamhbhailí do 'ai_flags'"
+
+#: posix/../sysdeps/posix/gai_strerror.c:34
+msgid "Non-recoverable failure in name resolution"
+msgstr ""
+
+#: posix/../sysdeps/posix/gai_strerror.c:35
+msgid "ai_family not supported"
+msgstr "ní thacaítear le 'ai_family'"
+
+#: posix/../sysdeps/posix/gai_strerror.c:36
+msgid "Memory allocation failure"
+msgstr "Theip ar dháil chuimhne"
+
+#: posix/../sysdeps/posix/gai_strerror.c:37
+msgid "No address associated with hostname"
+msgstr ""
+
+#: posix/../sysdeps/posix/gai_strerror.c:38
+msgid "Name or service not known"
+msgstr "Ainm nó seirbhís anaithnid"
+
+#: posix/../sysdeps/posix/gai_strerror.c:39
+msgid "Servname not supported for ai_socktype"
+msgstr "ní ghlactar le hainm freastalaithe do 'ai_socktype'"
+
+#: posix/../sysdeps/posix/gai_strerror.c:40
+msgid "ai_socktype not supported"
+msgstr "ní thacaítear le 'ai_socktype'"
+
+#: posix/../sysdeps/posix/gai_strerror.c:41
+msgid "System error"
+msgstr "Earráid chórais"
+
+#: posix/../sysdeps/posix/gai_strerror.c:42
+msgid "Processing request in progress"
+msgstr ""
+
+#: posix/../sysdeps/posix/gai_strerror.c:43
+msgid "Request canceled"
+msgstr "Cealaíodh an t-iarratas"
+
+#: posix/../sysdeps/posix/gai_strerror.c:44
+msgid "Request not canceled"
+msgstr "Níor cealaíodh an t-iarratas"
+
+#: posix/../sysdeps/posix/gai_strerror.c:45
+msgid "All requests done"
+msgstr ""
+
+#: posix/../sysdeps/posix/gai_strerror.c:46
+msgid "Interrupted by a signal"
+msgstr ""
+
+#: posix/getconf.c:892
+#, c-format
+msgid "Usage: %s [-v specification] variable_name [pathname]\n"
+msgstr "Úsáid: %s [-v sonrú] ainm_athróige [conair]\n"
+
+#: posix/getconf.c:950
+#, c-format
+msgid "unknown specification \"%s\""
+msgstr "sonrú anaithnid: \"%s\""
+
+#: posix/getconf.c:979 posix/getconf.c:995
+msgid "undefined"
+msgstr "gan sainmhíniú"
+
+#: posix/getconf.c:1017
+#, c-format
+msgid "Unrecognized variable `%s'"
+msgstr "athróg anaithnid `%s'"
+
+#: posix/getopt.c:692 posix/getopt.c:711
+#, c-format
+msgid "%s: option `%s' is ambiguous\n"
+msgstr "%s: Tá an rogha `%s' débhríoch\n"
+
+#: posix/getopt.c:744 posix/getopt.c:748
+#, c-format
+msgid "%s: option `--%s' doesn't allow an argument\n"
+msgstr "%s: ní cheadaítear argóint i ndiaidh na rogha `--%s'\n"
+
+#: posix/getopt.c:757 posix/getopt.c:762
+#, c-format
+msgid "%s: option `%c%s' doesn't allow an argument\n"
+msgstr "%s: ní cheadaítear argóint i ndiaidh na rogha `%c%s'\n"
+
+#: posix/getopt.c:807 posix/getopt.c:829 posix/getopt.c:1159
+#: posix/getopt.c:1181
+#, c-format
+msgid "%s: option `%s' requires an argument\n"
+msgstr "%s: ní foláir argóint don rogha `%s'\n"
+
+#: posix/getopt.c:867 posix/getopt.c:870
+#, c-format
+msgid "%s: unrecognized option `--%s'\n"
+msgstr "%s: rogha anaithnid `--%s'\n"
+
+#: posix/getopt.c:878 posix/getopt.c:881
+#, c-format
+msgid "%s: unrecognized option `%c%s'\n"
+msgstr "%s: rogha anaithnid `%c%s'\n"
+
+#: posix/getopt.c:936 posix/getopt.c:939
+#, c-format
+msgid "%s: illegal option -- %c\n"
+msgstr "%s: rogha neamhcheadaithe -- %c\n"
+
+#: posix/getopt.c:945 posix/getopt.c:948
+#, c-format
+msgid "%s: invalid option -- %c\n"
+msgstr "%s: rogha neamhbhailí -- %c\n"
+
+#: posix/getopt.c:1003 posix/getopt.c:1022 posix/getopt.c:1234
+#: posix/getopt.c:1255
+#, c-format
+msgid "%s: option requires an argument -- %c\n"
+msgstr "%s: ní foláir argóint don rogha -- %c\n"
+
+#: posix/getopt.c:1074 posix/getopt.c:1093
+#, c-format
+msgid "%s: option `-W %s' is ambiguous\n"
+msgstr "%s: Tá an rogha `-W %s' débhríoch\n"
+
+#: posix/getopt.c:1117 posix/getopt.c:1138
+#, c-format
+msgid "%s: option `-W %s' doesn't allow an argument\n"
+msgstr "%s: ní cheadaítear argóint i ndiaidh na rogha `-W %s'\n"
+
+#: posix/regcomp.c:150
+msgid "No match"
+msgstr "Níl a leithéid ann"
+
+#: posix/regcomp.c:153
+msgid "Invalid regular expression"
+msgstr "Slonn ionadaíochta neamhbhailí"
+
+#: posix/regcomp.c:156
+msgid "Invalid collation character"
+msgstr "Carachtar neamhbhailí cóimheasa"
+
+#: posix/regcomp.c:159
+msgid "Invalid character class name"
+msgstr "Ainm neamhbhailí ar aicme charachtar"
+
+#: posix/regcomp.c:162
+msgid "Trailing backslash"
+msgstr "Cúlslais ag deireadh"
+
+#: posix/regcomp.c:165
+msgid "Invalid back reference"
+msgstr "Cúltagairt neamhbhailí"
+
+#: posix/regcomp.c:168
+msgid "Unmatched [ or [^"
+msgstr "[ nó [^ corr"
+
+#: posix/regcomp.c:171
+msgid "Unmatched ( or \\("
+msgstr "( nó \\( corr"
+
+#: posix/regcomp.c:174
+msgid "Unmatched \\{"
+msgstr "\\{ corr"
+
+#: posix/regcomp.c:177
+msgid "Invalid content of \\{\\}"
+msgstr "Ábhar neamhbhailí idir \\{\\}"
+
+#: posix/regcomp.c:180
+msgid "Invalid range end"
+msgstr "Deireadh raoin neamhbhailí"
+
+#: posix/regcomp.c:183
+msgid "Memory exhausted"
+msgstr "Cuimhne ídithe"
+
+#: posix/regcomp.c:186
+msgid "Invalid preceding regular expression"
+msgstr "Is neamhbhailí an slonn ionadaíochta roimhe seo"
+
+#: posix/regcomp.c:189
+msgid "Premature end of regular expression"
+msgstr "Deireadh le slonn ionadaíochta gan choinne"
+
+#: posix/regcomp.c:192
+msgid "Regular expression too big"
+msgstr "Slonn ionadaíochta rómhór"
+
+#: posix/regcomp.c:195
+msgid "Unmatched ) or \\)"
+msgstr ") nó \\) corr"
+
+#: posix/regcomp.c:661
+msgid "No previous regular expression"
+msgstr "Níl aon slonn ionadaíochta roimhe seo"
+
+#: argp/argp-help.c:224
+#, c-format
+msgid "%.*s: ARGP_HELP_FMT parameter requires a value"
+msgstr ""
+
+#: argp/argp-help.c:233
+#, c-format
+msgid "%.*s: Unknown ARGP_HELP_FMT parameter"
+msgstr "%.*s: Paraiméadar anaithnid ARGP_HELP_FMT"
+
+#: argp/argp-help.c:245
+#, c-format
+msgid "Garbage in ARGP_HELP_FMT: %s"
+msgstr ""
+
+#: argp/argp-help.c:1205
+msgid ""
+"Mandatory or optional arguments to long options are also mandatory or "
+"optional for any corresponding short options."
+msgstr ""
+"Is riachtanach/roghnach le rogha ghearr aon argóint atá riachtanach/roghnach "
+"leis an rogha fhada."
+
+#: argp/argp-help.c:1592
+msgid "Usage:"
+msgstr "Úsáid:"
+
+#: argp/argp-help.c:1596
+msgid "  or: "
+msgstr "  nó: "
+
+#: argp/argp-help.c:1608
+msgid " [OPTION...]"
+msgstr " [ROGHA...]"
+
+#: argp/argp-help.c:1635
+#, c-format
+msgid "Try `%s --help' or `%s --usage' for more information.\n"
+msgstr ""
+"Bain triail as `%s --help' nó `%s --usage' chun tuilleadh eolais a fháil.\n"
+
+#: argp/argp-help.c:1663
+#, c-format
+msgid "Report bugs to %s.\n"
+msgstr "Seol tuairiscí fabhtanna chuig %s.\n"
+
+#: argp/argp-parse.c:115
+msgid "Give this help list"
+msgstr "Taispeáin an chabhair seo agus scoir"
+
+#: argp/argp-parse.c:116
+msgid "Give a short usage message"
+msgstr "Taispeáin beagán eolais faoin úsáid agus scoir"
+
+#: argp/argp-parse.c:117
+msgid "Set the program name"
+msgstr "Socraigh ainm an bhogearra"
+
+#: argp/argp-parse.c:119
+msgid "Hang for SECS seconds (default 3600)"
+msgstr ""
+
+#: argp/argp-parse.c:180
+msgid "Print program version"
+msgstr "Taispeáin an leagan"
+
+#: argp/argp-parse.c:196
+msgid "(PROGRAM ERROR) No version known!?"
+msgstr ""
+
+#: argp/argp-parse.c:672
+#, c-format
+msgid "%s: Too many arguments\n"
+msgstr "%s: An iomarca argóintí\n"
+
+#: argp/argp-parse.c:813
+msgid "(PROGRAM ERROR) Option should have been recognized!?"
+msgstr ""
+
+#: resolv/herror.c:68
+msgid "Resolver Error 0 (no error)"
+msgstr ""
+
+#: resolv/herror.c:69
+msgid "Unknown host"
+msgstr "Óstríomhaire anaithnid"
+
+#: resolv/herror.c:70
+msgid "Host name lookup failure"
+msgstr ""
+
+#: resolv/herror.c:71
+msgid "Unknown server error"
+msgstr "Earráid anaithnid fhreastalaí"
+
+#: resolv/herror.c:72
+msgid "No address associated with name"
+msgstr ""
+
+#: resolv/herror.c:108
+msgid "Resolver internal error"
+msgstr ""
+
+#: resolv/herror.c:111
+msgid "Unknown resolver error"
+msgstr ""
+
+#: resolv/res_hconf.c:147
+#, c-format
+msgid "%s: line %d: expected service, found `%s'\n"
+msgstr "%s: líne %d: bhíothas ag súil le seirbhís, aimsíodh `%s'\n"
+
+#: resolv/res_hconf.c:165
+#, c-format
+msgid "%s: line %d: cannot specify more than %d services"
+msgstr ""
+
+#: resolv/res_hconf.c:191
+#, c-format
+msgid "%s: line %d: list delimiter not followed by keyword"
+msgstr ""
+
+#: resolv/res_hconf.c:231
+#, c-format
+msgid "%s: line %d: cannot specify more than %d trim domains"
+msgstr ""
+
+#: resolv/res_hconf.c:256
+#, c-format
+msgid "%s: line %d: list delimiter not followed by domain"
+msgstr ""
+
+#: resolv/res_hconf.c:319
+#, c-format
+msgid "%s: line %d: expected `on' or `off', found `%s'\n"
+msgstr "%s: líne %d: bhíothas ag súil le `on' nó `off', aimsíodh `%s'\n"
+
+#: resolv/res_hconf.c:366
+#, c-format
+msgid "%s: line %d: bad command `%s'\n"
+msgstr ""
+
+#: resolv/res_hconf.c:395
+#, c-format
+msgid "%s: line %d: ignoring trailing garbage `%s'\n"
+msgstr ""
+
+#: nss/getent.c:51
+msgid "database [key ...]"
+msgstr "bunachar sonraí [eochair ...]"
+
+#: nss/getent.c:56
+msgid "Service configuration to be used"
+msgstr "Cumraíocht sheirbhíse le húsáid"
+
+#: nss/getent.c:136 nss/getent.c:375
+#, c-format
+msgid "Enumeration not supported on %s\n"
+msgstr "Ní thacaítear leis an uimhriú ar %s\n"
+
+#: nss/getent.c:800
+msgid "getent - get entries from administrative database."
+msgstr "getent - faigh iontrálacha as bhunachar sonraí riaracháin."
+
+#: nss/getent.c:801
+msgid "Supported databases:"
+msgstr "Bunachair shonraí atá tacaithe:"
+
+#: nss/getent.c:858 nscd/nscd.c:131 nscd/nscd_nischeck.c:64
+msgid "wrong number of arguments"
+msgstr "tá líon na n-argóintí mícheart"
+
+#: nss/getent.c:868
+#, c-format
+msgid "Unknown database: %s\n"
+msgstr "Bunachar sonraí anaithnid: %s\n"
+
+#: debug/pcprofiledump.c:52
+msgid "Don't buffer output"
+msgstr "Ná maolánaigh an t-aschur"
+
+#: debug/pcprofiledump.c:57
+msgid "Dump information generated by PC profiling."
+msgstr ""
+
+#: debug/pcprofiledump.c:60
+msgid "[FILE]"
+msgstr "[COMHAD]"
+
+#: debug/pcprofiledump.c:100
+msgid "cannot open input file"
+msgstr "ní féidir an t-inchomhad a oscailt"
+
+#: debug/pcprofiledump.c:106
+msgid "cannot read header"
+msgstr "ní féidir an ceanntásc a léamh"
+
+#: debug/pcprofiledump.c:170
+msgid "invalid pointer size"
+msgstr ""
+
+#: inet/rcmd.c:163 inet/rcmd.c:166
+msgid "rcmd: Cannot allocate memory\n"
+msgstr "rcmd: Ní féidir cuimhne a dháileadh\n"
+
+#: inet/rcmd.c:185 inet/rcmd.c:188
+msgid "rcmd: socket: All ports in use\n"
+msgstr ""
+
+#: inet/rcmd.c:222
+#, c-format
+msgid "connect to address %s: "
+msgstr "ag nascadh le seoladh %s:"
+
+#: inet/rcmd.c:240
+#, c-format
+msgid "Trying %s...\n"
+msgstr ""
+
+#: inet/rcmd.c:289
+#, c-format
+msgid "rcmd: write (setting up stderr): %m\n"
+msgstr ""
+
+#: inet/rcmd.c:310
+#, c-format
+msgid "rcmd: poll (setting up stderr): %m\n"
+msgstr ""
+
+#: inet/rcmd.c:313
+msgid "poll: protocol failure in circuit setup\n"
+msgstr ""
+
+#: inet/rcmd.c:358
+msgid "socket: protocol failure in circuit setup\n"
+msgstr ""
+
+#: inet/rcmd.c:387
+#, c-format
+msgid "rcmd: %s: short read"
+msgstr ""
+
+#: inet/rcmd.c:549
+msgid "lstat failed"
+msgstr "lstat teipthe"
+
+#: inet/rcmd.c:551
+msgid "not regular file"
+msgstr "ní gnáthchomhad é"
+
+#: inet/rcmd.c:556
+msgid "cannot open"
+msgstr "ní féidir a oscailt"
+
+#: inet/rcmd.c:558
+msgid "fstat failed"
+msgstr "fstat teipthe"
+
+#: inet/rcmd.c:560
+msgid "bad owner"
+msgstr "úinéir neamhbhailí"
+
+#: inet/rcmd.c:562
+msgid "writeable by other than owner"
+msgstr ""
+
+#: inet/rcmd.c:564
+msgid "hard linked somewhere"
+msgstr ""
+
+#: inet/ruserpass.c:170 inet/ruserpass.c:193
+msgid "out of memory"
+msgstr "cuimhne ídithe"
+
+#: inet/ruserpass.c:184
+msgid "Error: .netrc file is readable by others."
+msgstr ""
+
+#: inet/ruserpass.c:185
+msgid "Remove password or make file unreadable by others."
+msgstr ""
+
+#: inet/ruserpass.c:277
+#, c-format
+msgid "Unknown .netrc keyword %s"
+msgstr "Eochairfhocal anaithnid .netrc %s"
+
+#: sunrpc/auth_unix.c:115 sunrpc/auth_unix.c:118
+msgid "authunix_create: out of memory\n"
+msgstr "authunix_create: cuimhne ídithe\n"
+
+#: sunrpc/auth_unix.c:318
+msgid "auth_none.c - Fatal marshalling problem"
+msgstr ""
+
+#: sunrpc/clnt_perr.c:118 sunrpc/clnt_perr.c:139
+#, c-format
+msgid "; low version = %lu, high version = %lu"
+msgstr "; leagan íseal = %lu, ardleagan = %lu"
+
+#: sunrpc/clnt_perr.c:125
+msgid "; why = "
+msgstr "; cén fáth = "
+
+#: sunrpc/clnt_perr.c:132
+#, c-format
+msgid "(unknown authentication error - %d)"
+msgstr "(earráid anaithnid fhíordheimhnithe - %d)"
+
+#: sunrpc/clnt_perr.c:177
+msgid "RPC: Success"
+msgstr "RPC: Bua"
+
+#: sunrpc/clnt_perr.c:180
+msgid "RPC: Can't encode arguments"
+msgstr "RPC: Ní féidir na hargóintí a ionchódú"
+
+#: sunrpc/clnt_perr.c:184
+msgid "RPC: Can't decode result"
+msgstr "RPC: Ní féidir an toradh a dhíchódú"
+
+#: sunrpc/clnt_perr.c:188
+msgid "RPC: Unable to send"
+msgstr "RPC: Ní féidir aon rud a sheoladh"
+
+#: sunrpc/clnt_perr.c:192
+msgid "RPC: Unable to receive"
+msgstr ""
+
+#: sunrpc/clnt_perr.c:196
+msgid "RPC: Timed out"
+msgstr "RPC: Thar Am"
+
+#: sunrpc/clnt_perr.c:200
+msgid "RPC: Incompatible versions of RPC"
+msgstr "RPC: Leaganacha neamh-chomhoiriúnacha"
+
+#: sunrpc/clnt_perr.c:204
+msgid "RPC: Authentication error"
+msgstr ""
+
+#: sunrpc/clnt_perr.c:208
+msgid "RPC: Program unavailable"
+msgstr ""
+
+#: sunrpc/clnt_perr.c:212
+msgid "RPC: Program/version mismatch"
+msgstr ""
+
+#: sunrpc/clnt_perr.c:216
+msgid "RPC: Procedure unavailable"
+msgstr ""
+
+#: sunrpc/clnt_perr.c:220
+msgid "RPC: Server can't decode arguments"
+msgstr ""
+
+#: sunrpc/clnt_perr.c:224
+msgid "RPC: Remote system error"
+msgstr ""
+
+#: sunrpc/clnt_perr.c:228
+msgid "RPC: Unknown host"
+msgstr "RPC: Óstríomhaire anaithnid"
+
+#: sunrpc/clnt_perr.c:232
+msgid "RPC: Unknown protocol"
+msgstr "RPC: Prótacal anaithnid"
+
+#: sunrpc/clnt_perr.c:236
+msgid "RPC: Port mapper failure"
+msgstr ""
+
+#: sunrpc/clnt_perr.c:240
+msgid "RPC: Program not registered"
+msgstr "RPC: Clár gan clárúchán"
+
+#: sunrpc/clnt_perr.c:244
+msgid "RPC: Failed (unspecified error)"
+msgstr "RPC: Bhí teip ann (earráid neamhshonraithe)"
+
+#: sunrpc/clnt_perr.c:285
+msgid "RPC: (unknown error code)"
+msgstr "RPC: (cód earráide anaithnid)"
+
+#: sunrpc/clnt_perr.c:357
+msgid "Authentication OK"
+msgstr ""
+
+#: sunrpc/clnt_perr.c:360
+msgid "Invalid client credential"
+msgstr ""
+
+#: sunrpc/clnt_perr.c:364
+msgid "Server rejected credential"
+msgstr ""
+
+#: sunrpc/clnt_perr.c:368
+msgid "Invalid client verifier"
+msgstr ""
+
+#: sunrpc/clnt_perr.c:372
+msgid "Server rejected verifier"
+msgstr ""
+
+#: sunrpc/clnt_perr.c:376
+msgid "Client credential too weak"
+msgstr ""
+
+#: sunrpc/clnt_perr.c:380
+msgid "Invalid server verifier"
+msgstr ""
+
+#: sunrpc/clnt_perr.c:384
+msgid "Failed (unspecified error)"
+msgstr "Bhí teip ann (earráid neamhshonraithe)"
+
+#: sunrpc/clnt_raw.c:117
+msgid "clnt_raw.c - Fatal header serialization error."
+msgstr ""
+
+#: sunrpc/clnt_tcp.c:134 sunrpc/clnt_tcp.c:137
+msgid "clnttcp_create: out of memory\n"
+msgstr "clnttcp_create: cuimhne ídithe\n"
+
+#: sunrpc/clnt_udp.c:141 sunrpc/clnt_udp.c:144
+msgid "clntudp_create: out of memory\n"
+msgstr "clntudp_create: cuimhne ídithe\n"
+
+#: sunrpc/clnt_unix.c:131 sunrpc/clnt_unix.c:134
+msgid "clntunix_create: out of memory\n"
+msgstr "clntunix_create: cuimhne ídithe\n"
+
+#: sunrpc/get_myaddr.c:78
+msgid "get_myaddress: ioctl (get interface configuration)"
+msgstr ""
+
+#: sunrpc/pm_getmaps.c:74
+msgid "pmap_getmaps rpc problem"
+msgstr ""
+
+#: sunrpc/pmap_clnt.c:72
+msgid "__get_myaddress: ioctl (get interface configuration)"
+msgstr ""
+
+#: sunrpc/pmap_clnt.c:137
+msgid "Cannot register service"
+msgstr "Ní féidir an tseirbhís a chlárú"
+
+#: sunrpc/pmap_rmt.c:190
+msgid "broadcast: ioctl (get interface configuration)"
+msgstr ""
+
+#: sunrpc/pmap_rmt.c:199
+msgid "broadcast: ioctl (get interface flags)"
+msgstr ""
+
+#: sunrpc/pmap_rmt.c:269
+msgid "Cannot create socket for broadcast rpc"
+msgstr ""
+
+#: sunrpc/pmap_rmt.c:276
+msgid "Cannot set socket option SO_BROADCAST"
+msgstr ""
+
+#: sunrpc/pmap_rmt.c:328
+msgid "Cannot send broadcast packet"
+msgstr ""
+
+#: sunrpc/pmap_rmt.c:353
+msgid "Broadcast poll problem"
+msgstr ""
+
+#: sunrpc/pmap_rmt.c:366
+msgid "Cannot receive reply to broadcast"
+msgstr ""
+
+#: sunrpc/rpc_main.c:288
+#, c-format
+msgid "%s: output would overwrite %s\n"
+msgstr ""
+
+#: sunrpc/rpc_main.c:295
+#, c-format
+msgid "%s: unable to open %s: %m\n"
+msgstr "%s: ní féidir %s a oscailt: %m\n"
+
+#: sunrpc/rpc_main.c:307
+#, c-format
+msgid "%s: while writing output %s: %m"
+msgstr "%s: ag scríobh an aschuir %s: %m"
+
+#: sunrpc/rpc_main.c:342
+#, c-format
+msgid "cannot find C preprocessor: %s \n"
+msgstr ""
+
+#: sunrpc/rpc_main.c:350
+msgid "cannot find any C preprocessor (cpp)\n"
+msgstr ""
+
+#: sunrpc/rpc_main.c:419
+#, c-format
+msgid "%s: C preprocessor failed with signal %d\n"
+msgstr ""
+
+#: sunrpc/rpc_main.c:422
+#, c-format
+msgid "%s: C preprocessor failed with exit code %d\n"
+msgstr ""
+
+#: sunrpc/rpc_main.c:462
+#, c-format
+msgid "illegal nettype :`%s'\n"
+msgstr "cineál neamhcheadaithe líonra :`%s'\n"
+
+#: sunrpc/rpc_main.c:1104
+#, c-format
+msgid "rpcgen: too many defines\n"
+msgstr ""
+
+#: sunrpc/rpc_main.c:1116
+#, c-format
+msgid "rpcgen: arglist coding error\n"
+msgstr ""
+
+#. TRANS: the file will not be removed; this is an
+#. TRANS: informative message.
+#: sunrpc/rpc_main.c:1149
+#, c-format
+msgid "file `%s' already exists and may be overwritten\n"
+msgstr "tá an comhad `%s' ann cheana agus is féidir go forscríobhfar é\n"
+
+#: sunrpc/rpc_main.c:1194
+#, c-format
+msgid "Cannot specify more than one input file!\n"
+msgstr "Ní cheadaítear níos mó ná inchomhad amháin!\n"
+
+#: sunrpc/rpc_main.c:1364
+msgid "This implementation doesn't support newstyle or MT-safe code!\n"
+msgstr ""
+
+#: sunrpc/rpc_main.c:1373
+#, c-format
+msgid "Cannot use netid flag with inetd flag!\n"
+msgstr ""
+
+#: sunrpc/rpc_main.c:1385
+msgid "Cannot use netid flag without TIRPC!\n"
+msgstr ""
+
+#: sunrpc/rpc_main.c:1392
+msgid "Cannot use table flags with newstyle!\n"
+msgstr ""
+
+#: sunrpc/rpc_main.c:1411
+#, c-format
+msgid "\"infile\" is required for template generation flags.\n"
+msgstr ""
+
+#: sunrpc/rpc_main.c:1416
+#, c-format
+msgid "Cannot have more than one file generation flag!\n"
+msgstr ""
+
+#: sunrpc/rpc_main.c:1425
+#, c-format
+msgid "usage: %s infile\n"
+msgstr "úsáid: %s inchomhad\n"
+
+#: sunrpc/rpc_main.c:1426
+#, c-format
+msgid ""
+"\t%s [-abkCLNTM][-Dname[=value]] [-i size] [-I [-K seconds]] [-Y path] "
+"infile\n"
+msgstr ""
+"\t%s [-abkCLNTM][-Dainm[=luach]] [-i méid] [-I [-K soicindí]] [-Y conair] "
+"inchomhad\n"
+
+#: sunrpc/rpc_main.c:1428
+#, c-format
+msgid "\t%s [-c | -h | -l | -m | -t | -Sc | -Ss | -Sm] [-o outfile] [infile]\n"
+msgstr "\t%s [-c | -h | -l | -m | -t | -Sc | -Ss | -Sm] [-o aschomhad] [inchomhad]\n"
+
+#: sunrpc/rpc_main.c:1430
+#, c-format
+msgid "\t%s [-s nettype]* [-o outfile] [infile]\n"
+msgstr "\t%s [-s cineál]* [-o aschomhad] [inchomhad]\n"
+
+#: sunrpc/rpc_main.c:1431
+#, c-format
+msgid "\t%s [-n netid]* [-o outfile] [infile]\n"
+msgstr "\t%s [-n aitheantas]* [-o aschomhad] [inchomhad]\n"
+
+#: sunrpc/rpc_scan.c:116
+msgid "constant or identifier expected"
+msgstr ""
+
+#: sunrpc/rpc_scan.c:312
+msgid "illegal character in file: "
+msgstr "carachtar neamhcheadaithe i gcomhad: "
+
+#: sunrpc/rpc_scan.c:351 sunrpc/rpc_scan.c:377
+msgid "unterminated string constant"
+msgstr "Tairiseach teaghráin gan chríochnú"
+
+#: sunrpc/rpc_scan.c:383
+msgid "empty char string"
+msgstr "teaghrán folamh"
+
+#: sunrpc/rpc_scan.c:525 sunrpc/rpc_scan.c:535
+msgid "preprocessor error"
+msgstr ""
+
+#: sunrpc/rpcinfo.c:237 sunrpc/rpcinfo.c:383
+#, c-format
+msgid "program %lu is not available\n"
+msgstr "níl clár %lu le fáil\n"
+
+#: sunrpc/rpcinfo.c:264 sunrpc/rpcinfo.c:310 sunrpc/rpcinfo.c:333
+#: sunrpc/rpcinfo.c:407 sunrpc/rpcinfo.c:453 sunrpc/rpcinfo.c:476
+#: sunrpc/rpcinfo.c:510
+#, c-format
+msgid "program %lu version %lu is not available\n"
+msgstr ""
+
+#: sunrpc/rpcinfo.c:515
+#, c-format
+msgid "program %lu version %lu ready and waiting\n"
+msgstr ""
+
+#: sunrpc/rpcinfo.c:556 sunrpc/rpcinfo.c:563
+msgid "rpcinfo: can't contact portmapper"
+msgstr ""
+
+#: sunrpc/rpcinfo.c:570
+msgid "No remote programs registered.\n"
+msgstr ""
+
+#: sunrpc/rpcinfo.c:574
+msgid "   program vers proto   port\n"
+msgstr ""
+
+#: sunrpc/rpcinfo.c:613
+msgid "(unknown)"
+msgstr "(anaithnid)"
+
+#: sunrpc/rpcinfo.c:637
+#, c-format
+msgid "rpcinfo: broadcast failed: %s\n"
+msgstr ""
+
+#: sunrpc/rpcinfo.c:658
+msgid "Sorry. You are not root\n"
+msgstr "Tá brón orm. Ní sárúsáideoir thú\n"
+
+#: sunrpc/rpcinfo.c:665
+#, c-format
+msgid "rpcinfo: Could not delete registration for prog %s version %s\n"
+msgstr ""
+
+#: sunrpc/rpcinfo.c:674
+msgid "Usage: rpcinfo [ -n portnum ] -u host prognum [ versnum ]\n"
+msgstr "Úsáid: rpcinfo [ -n port ] -u óstainm clár [ leagan ]\n"
+
+#: sunrpc/rpcinfo.c:676
+msgid "       rpcinfo [ -n portnum ] -t host prognum [ versnum ]\n"
+msgstr "       rpcinfo [ -n port ] -t óstainm clár [ leagan ]\n"
+
+#: sunrpc/rpcinfo.c:678
+msgid "       rpcinfo -p [ host ]\n"
+msgstr "       rpcinfo -p [ óstainm ]\n"
+
+#: sunrpc/rpcinfo.c:679
+msgid "       rpcinfo -b prognum versnum\n"
+msgstr "       rpcinfo -b clár leagan\n"
+
+#: sunrpc/rpcinfo.c:680
+msgid "       rpcinfo -d prognum versnum\n"
+msgstr "       rpcinfo -d clár leagan\n"
+
+#: sunrpc/rpcinfo.c:695
+#, c-format
+msgid "rpcinfo: %s is unknown service\n"
+msgstr ""
+
+#: sunrpc/rpcinfo.c:732
+#, c-format
+msgid "rpcinfo: %s is unknown host\n"
+msgstr ""
+
+#: sunrpc/svc_run.c:76
+msgid "svc_run: - poll failed"
+msgstr ""
+
+#: sunrpc/svc_simple.c:87
+#, c-format
+msgid "can't reassign procedure number %ld\n"
+msgstr ""
+
+#: sunrpc/svc_simple.c:96
+msgid "couldn't create an rpc server\n"
+msgstr "níorbh fhéidir freastalaí RPC a chruthú\n"
+
+#: sunrpc/svc_simple.c:104
+#, c-format
+msgid "couldn't register prog %ld vers %ld\n"
+msgstr ""
+
+# Map Expat error codes to error strings
+#: sunrpc/svc_simple.c:111
+msgid "registerrpc: out of memory\n"
+msgstr "registerrpc: cuimhne ídithe\n"
+
+#: sunrpc/svc_simple.c:175
+#, c-format
+msgid "trouble replying to prog %d\n"
+msgstr ""
+
+#: sunrpc/svc_simple.c:183
+#, c-format
+msgid "never registered prog %d\n"
+msgstr ""
+
+#: sunrpc/svc_tcp.c:155
+msgid "svc_tcp.c - tcp socket creation problem"
+msgstr ""
+
+#: sunrpc/svc_tcp.c:170
+msgid "svc_tcp.c - cannot getsockname or listen"
+msgstr ""
+
+#: sunrpc/svc_tcp.c:181 sunrpc/svc_tcp.c:184
+msgid "svctcp_create: out of memory\n"
+msgstr "svctcp_create: cuimhne ídithe\n"
+
+#: sunrpc/svc_tcp.c:225 sunrpc/svc_tcp.c:228
+msgid "svc_tcp: makefd_xprt: out of memory\n"
+msgstr ""
+
+#: sunrpc/svc_udp.c:128
+msgid "svcudp_create: socket creation problem"
+msgstr ""
+
+#: sunrpc/svc_udp.c:142
+msgid "svcudp_create - cannot getsockname"
+msgstr ""
+
+#: sunrpc/svc_udp.c:154 sunrpc/svc_udp.c:157
+msgid "svcudp_create: out of memory\n"
+msgstr "svcudp_create: cuimhne ídithe\n"
+
+#: sunrpc/svc_udp.c:182 sunrpc/svc_udp.c:185
+msgid "svcudp_create: xp_pad is too small for IP_PKTINFO\n"
+msgstr ""
+
+#: sunrpc/svc_udp.c:493
+msgid "enablecache: cache already enabled"
+msgstr ""
+
+#: sunrpc/svc_udp.c:499
+msgid "enablecache: could not allocate cache"
+msgstr ""
+
+#: sunrpc/svc_udp.c:507
+msgid "enablecache: could not allocate cache data"
+msgstr ""
+
+#: sunrpc/svc_udp.c:514
+msgid "enablecache: could not allocate cache fifo"
+msgstr ""
+
+#: sunrpc/svc_udp.c:550
+msgid "cache_set: victim not found"
+msgstr ""
+
+#: sunrpc/svc_udp.c:561
+msgid "cache_set: victim alloc failed"
+msgstr ""
+
+#: sunrpc/svc_udp.c:567
+msgid "cache_set: could not allocate new rpc_buffer"
+msgstr ""
+
+#: sunrpc/svc_unix.c:150
+msgid "svc_unix.c - AF_UNIX socket creation problem"
+msgstr ""
+
+#: sunrpc/svc_unix.c:166
+msgid "svc_unix.c - cannot getsockname or listen"
+msgstr ""
+
+#: sunrpc/svc_unix.c:178 sunrpc/svc_unix.c:181
+msgid "svcunix_create: out of memory\n"
+msgstr "svcunix_create: cuimhne ídithe\n"
+
+#: sunrpc/svc_unix.c:222 sunrpc/svc_unix.c:225
+msgid "svc_unix: makefd_xprt: out of memory\n"
+msgstr "svc_unix: makefd_xprt: cuimhne ídithe\n"
+
+#: sunrpc/xdr.c:570 sunrpc/xdr.c:573
+msgid "xdr_bytes: out of memory\n"
+msgstr "xdr_bytes: cuimhne ídithe\n"
+
+#: sunrpc/xdr.c:728 sunrpc/xdr.c:731
+msgid "xdr_string: out of memory\n"
+msgstr "xdr_string: cuimhne ídithe\n"
+
+#: sunrpc/xdr_array.c:111 sunrpc/xdr_array.c:114
+msgid "xdr_array: out of memory\n"
+msgstr "xdr_array: cuimhne ídithe\n"
+
+#: sunrpc/xdr_rec.c:158 sunrpc/xdr_rec.c:161
+msgid "xdrrec_create: out of memory\n"
+msgstr "xdrrec_create: cuimhne ídithe\n"
+
+#: sunrpc/xdr_ref.c:88 sunrpc/xdr_ref.c:91
+msgid "xdr_reference: out of memory\n"
+msgstr "xdr_reference: cuimhne ídithe\n"
+
+#: nis/nis_callback.c:189
+msgid "unable to free arguments"
+msgstr ""
+
+#: nis/nis_error.c:30
+msgid "Probable success"
+msgstr ""
+
+#: nis/nis_error.c:31
+msgid "Not found"
+msgstr "Ar iarraidh"
+
+#: nis/nis_error.c:32
+msgid "Probably not found"
+msgstr ""
+
+#: nis/nis_error.c:33
+msgid "Cache expired"
+msgstr ""
+
+#: nis/nis_error.c:34
+msgid "NIS+ servers unreachable"
+msgstr "Freastalaithe NIS+ dorochtana"
+
+#: nis/nis_error.c:35
+msgid "Unknown object"
+msgstr "Réad anaithnid"
+
+#: nis/nis_error.c:36
+msgid "Server busy, try again"
+msgstr ""
+
+#: nis/nis_error.c:37
+msgid "Generic system error"
+msgstr "Earráid chórais ghinearálta"
+
+#: nis/nis_error.c:38
+msgid "First/next chain broken"
+msgstr ""
+
+#: nis/nis_error.c:41
+msgid "Name not served by this server"
+msgstr ""
+
+#: nis/nis_error.c:42
+msgid "Server out of memory"
+msgstr "Cuimhne an fhreastalaí ídithe"
+
+#: nis/nis_error.c:43
+msgid "Object with same name exists"
+msgstr "Tá réad leis an ainm seo ann cheana"
+
+#: nis/nis_error.c:44
+msgid "Not master server for this domain"
+msgstr ""
+
+#: nis/nis_error.c:45
+msgid "Invalid object for operation"
+msgstr ""
+
+#: nis/nis_error.c:46
+msgid "Malformed name, or illegal name"
+msgstr ""
+
+#: nis/nis_error.c:47
+msgid "Unable to create callback"
+msgstr ""
+
+#: nis/nis_error.c:48
+msgid "Results sent to callback proc"
+msgstr ""
+
+#: nis/nis_error.c:49
+msgid "Not found, no such name"
+msgstr "Gan aimsiú, níl a leithéid d'ainm"
+
+#: nis/nis_error.c:50
+msgid "Name/entry isn't unique"
+msgstr ""
+
+#: nis/nis_error.c:51
+msgid "Modification failed"
+msgstr ""
+
+#: nis/nis_error.c:52
+msgid "Database for table does not exist"
+msgstr ""
+
+#: nis/nis_error.c:53
+msgid "Entry/table type mismatch"
+msgstr ""
+
+#: nis/nis_error.c:54
+msgid "Link points to illegal name"
+msgstr ""
+
+#: nis/nis_error.c:55
+msgid "Partial success"
+msgstr ""
+
+#: nis/nis_error.c:56
+msgid "Too many attributes"
+msgstr "An iomarca tréithe"
+
+#: nis/nis_error.c:57
+msgid "Error in RPC subsystem"
+msgstr "Earráid i bhfochóras RPC"
+
+#: nis/nis_error.c:58
+msgid "Missing or malformed attribute"
+msgstr ""
+
+#: nis/nis_error.c:59
+msgid "Named object is not searchable"
+msgstr "Ní féidir an réad ainmnithe a chuardach"
+
+#: nis/nis_error.c:60
+msgid "Error while talking to callback proc"
+msgstr ""
+
+#: nis/nis_error.c:61
+msgid "Non NIS+ namespace encountered"
+msgstr ""
+
+#: nis/nis_error.c:62
+msgid "Illegal object type for operation"
+msgstr ""
+
+#: nis/nis_error.c:63
+msgid "Passed object is not the same object on server"
+msgstr ""
+
+#: nis/nis_error.c:64
+msgid "Modify operation failed"
+msgstr "Theip ar athrú"
+
+#: nis/nis_error.c:65
+msgid "Query illegal for named table"
+msgstr ""
+
+#: nis/nis_error.c:66
+msgid "Attempt to remove a non-empty table"
+msgstr ""
+
+#: nis/nis_error.c:67
+msgid "Error in accessing NIS+ cold start file.  Is NIS+ installed?"
+msgstr ""
+
+#: nis/nis_error.c:68
+msgid "Full resync required for directory"
+msgstr ""
+
+#: nis/nis_error.c:69
+msgid "NIS+ operation failed"
+msgstr "Theip ar an oibríocht NIS+"
+
+#: nis/nis_error.c:70
+msgid "NIS+ service is unavailable or not installed"
+msgstr ""
+
+#: nis/nis_error.c:71
+msgid "Yes, 42 is the meaning of life"
+msgstr ""
+
+#: nis/nis_error.c:72
+msgid "Unable to authenticate NIS+ server"
+msgstr ""
+
+#: nis/nis_error.c:73
+msgid "Unable to authenticate NIS+ client"
+msgstr ""
+
+#: nis/nis_error.c:74
+msgid "No file space on server"
+msgstr "Níl aon spás fágtha ar an fhreastalaí"
+
+#: nis/nis_error.c:75
+msgid "Unable to create process on server"
+msgstr ""
+
+#: nis/nis_error.c:76
+msgid "Master server busy, full dump rescheduled."
+msgstr ""
+
+#: nis/nis_local_names.c:126
+#, c-format
+msgid "LOCAL entry for UID %d in directory %s not unique\n"
+msgstr ""
+
+#: nis/nis_print.c:51
+msgid "UNKNOWN"
+msgstr "ANAITHNID"
+
+#: nis/nis_print.c:109
+msgid "BOGUS OBJECT\n"
+msgstr ""
+
+#: nis/nis_print.c:112
+msgid "NO OBJECT\n"
+msgstr ""
+
+#: nis/nis_print.c:115
+msgid "DIRECTORY\n"
+msgstr "COMHADLANN\n"
+
+#: nis/nis_print.c:118
+msgid "GROUP\n"
+msgstr "GRÚPA\n"
+
+#: nis/nis_print.c:121
+msgid "TABLE\n"
+msgstr "TÁBLA\n"
+
+#: nis/nis_print.c:124
+msgid "ENTRY\n"
+msgstr ""
+
+#: nis/nis_print.c:127
+msgid "LINK\n"
+msgstr "NASC\n"
+
+#: nis/nis_print.c:130
+msgid "PRIVATE\n"
+msgstr ""
+
+#: nis/nis_print.c:133
+msgid "(Unknown object)\n"
+msgstr "(réad anaithnid)\n"
+
+#: nis/nis_print.c:166
+#, c-format
+msgid "Name : `%s'\n"
+msgstr "Ainm : `%s'\n"
+
+#: nis/nis_print.c:167
+#, c-format
+msgid "Type : %s\n"
+msgstr "Cineál : %s\n"
+
+#: nis/nis_print.c:172
+msgid "Master Server :\n"
+msgstr "Príomhfhreastalaí :\n"
+
+#: nis/nis_print.c:174
+msgid "Replicate :\n"
+msgstr ""
+
+#: nis/nis_print.c:175
+#, c-format
+msgid "\tName       : %s\n"
+msgstr ""
+
+#: nis/nis_print.c:176
+msgid "\tPublic Key : "
+msgstr "\tEochair Phoiblí : "
+
+# used in the stats page table
+#: nis/nis_print.c:180
+msgid "None.\n"
+msgstr "Neamhní.\n"
+
+#: nis/nis_print.c:183
+#, c-format
+msgid "Diffie-Hellmann (%d bits)\n"
+msgstr ""
+
+#: nis/nis_print.c:188
+#, c-format
+msgid "RSA (%d bits)\n"
+msgstr ""
+
+#: nis/nis_print.c:191
+msgid "Kerberos.\n"
+msgstr ""
+
+#: nis/nis_print.c:194
+#, c-format
+msgid "Unknown (type = %d, bits = %d)\n"
+msgstr ""
+
+#: nis/nis_print.c:205
+#, c-format
+msgid "\tUniversal addresses (%u)\n"
+msgstr ""
+
+#: nis/nis_print.c:227
+msgid "Time to live : "
+msgstr ""
+
+#: nis/nis_print.c:229
+msgid "Default Access rights :\n"
+msgstr ""
+
+#: nis/nis_print.c:238
+#, c-format
+msgid "\tType         : %s\n"
+msgstr ""
+
+#: nis/nis_print.c:239
+msgid "\tAccess rights: "
+msgstr ""
+
+#: nis/nis_print.c:252
+msgid "Group Flags :"
+msgstr ""
+
+#: nis/nis_print.c:255
+msgid ""
+"\n"
+"Group Members :\n"
+msgstr ""
+
+#: nis/nis_print.c:266
+#, c-format
+msgid "Table Type          : %s\n"
+msgstr ""
+
+#: nis/nis_print.c:267
+#, c-format
+msgid "Number of Columns   : %d\n"
+msgstr "Líon na gColún      : %d\n"
+
+#: nis/nis_print.c:268
+#, c-format
+msgid "Character Separator : %c\n"
+msgstr ""
+
+#: nis/nis_print.c:269
+#, c-format
+msgid "Search Path         : %s\n"
+msgstr ""
+
+#: nis/nis_print.c:270
+msgid "Columns             :\n"
+msgstr "Colúin              :\n"
+
+#: nis/nis_print.c:273
+#, c-format
+msgid "\t[%d]\tName          : %s\n"
+msgstr ""
+
+#: nis/nis_print.c:275
+msgid "\t\tAttributes    : "
+msgstr "\t\tTréithe       : "
+
+#: nis/nis_print.c:277
+msgid "\t\tAccess Rights : "
+msgstr ""
+
+#: nis/nis_print.c:286
+msgid "Linked Object Type : "
+msgstr ""
+
+#: nis/nis_print.c:288
+#, c-format
+msgid "Linked to : %s\n"
+msgstr "Nasctha le : %s\n"
+
+#: nis/nis_print.c:297
+#, c-format
+msgid "\tEntry data of type %s\n"
+msgstr ""
+
+#: nis/nis_print.c:300
+#, c-format
+msgid "\t[%u] - [%u bytes] "
+msgstr ""
+
+#: nis/nis_print.c:303
+msgid "Encrypted data\n"
+msgstr "Sonraí criptithe\n"
+
+#: nis/nis_print.c:305
+msgid "Binary data\n"
+msgstr "Sonraí dénártha\n"
+
+#: nis/nis_print.c:320
+#, c-format
+msgid "Object Name   : %s\n"
+msgstr ""
+
+#: nis/nis_print.c:321
+#, c-format
+msgid "Directory     : %s\n"
+msgstr "Comhadlann    : %s\n"
+
+#: nis/nis_print.c:322
+#, c-format
+msgid "Owner         : %s\n"
+msgstr ""
+
+#: nis/nis_print.c:323
+#, c-format
+msgid "Group         : %s\n"
+msgstr ""
+
+#: nis/nis_print.c:324
+msgid "Access Rights : "
+msgstr ""
+
+#: nis/nis_print.c:326
+#, c-format
+msgid ""
+"\n"
+"Time to Live  : "
+msgstr ""
+
+#: nis/nis_print.c:329
+#, c-format
+msgid "Creation Time : %s"
+msgstr "Am Cruthaithe : %s"
+
+#: nis/nis_print.c:331
+#, c-format
+msgid "Mod. Time     : %s"
+msgstr ""
+
+#: nis/nis_print.c:332
+msgid "Object Type   : "
+msgstr ""
+
+#: nis/nis_print.c:352
+#, c-format
+msgid "    Data Length = %u\n"
+msgstr ""
+
+#: nis/nis_print.c:365
+#, c-format
+msgid "Status            : %s\n"
+msgstr ""
+
+#: nis/nis_print.c:366
+#, c-format
+msgid "Number of objects : %u\n"
+msgstr "Líon na Réad : %u\n"
+
+#: nis/nis_print.c:370
+#, c-format
+msgid "Object #%d:\n"
+msgstr "Réad #%d:\n"
+
+#: nis/nis_print_group_entry.c:115
+#, c-format
+msgid "Group entry for \"%s.%s\" group:\n"
+msgstr ""
+
+#: nis/nis_print_group_entry.c:123
+msgid "    Explicit members:\n"
+msgstr ""
+
+#: nis/nis_print_group_entry.c:128
+msgid "    No explicit members\n"
+msgstr ""
+
+#: nis/nis_print_group_entry.c:131
+msgid "    Implicit members:\n"
+msgstr ""
+
+#: nis/nis_print_group_entry.c:136
+msgid "    No implicit members\n"
+msgstr ""
+
+#: nis/nis_print_group_entry.c:139
+msgid "    Recursive members:\n"
+msgstr ""
+
+#: nis/nis_print_group_entry.c:144
+msgid "    No recursive members\n"
+msgstr ""
+
+#: nis/nis_print_group_entry.c:147 nis/nis_print_group_entry.c:163
+msgid "    Explicit nonmembers:\n"
+msgstr ""
+
+#: nis/nis_print_group_entry.c:152
+msgid "    No explicit nonmembers\n"
+msgstr ""
+
+#: nis/nis_print_group_entry.c:155
+msgid "    Implicit nonmembers:\n"
+msgstr ""
+
+#: nis/nis_print_group_entry.c:160
+msgid "    No implicit nonmembers\n"
+msgstr ""
+
+#: nis/nis_print_group_entry.c:168
+msgid "    No recursive nonmembers\n"
+msgstr ""
+
+#: nis/nss_nisplus/nisplus-publickey.c:101
+#: nis/nss_nisplus/nisplus-publickey.c:182
+#, c-format
+msgid "DES entry for netname %s not unique\n"
+msgstr ""
+
+#: nis/nss_nisplus/nisplus-publickey.c:218
+#, c-format
+msgid "netname2user: missing group id list in `%s'."
+msgstr ""
+
+#: nis/nss_nisplus/nisplus-publickey.c:300
+#: nis/nss_nisplus/nisplus-publickey.c:306
+#: nis/nss_nisplus/nisplus-publickey.c:370
+#: nis/nss_nisplus/nisplus-publickey.c:379
+#, c-format
+msgid "netname2user: (nis+ lookup): %s\n"
+msgstr ""
+
+#: nis/nss_nisplus/nisplus-publickey.c:319
+#, c-format
+msgid "netname2user: DES entry for %s in directory %s not unique"
+msgstr ""
+
+#: nis/nss_nisplus/nisplus-publickey.c:337
+#, c-format
+msgid "netname2user: principal name `%s' too long"
+msgstr "netname2user: príomhainm `%s' ró-fhada"
+
+#: nis/nss_nisplus/nisplus-publickey.c:392
+#, c-format
+msgid "netname2user: LOCAL entry for %s in directory %s not unique"
+msgstr ""
+
+#: nis/nss_nisplus/nisplus-publickey.c:399
+msgid "netname2user: should not have uid 0"
+msgstr ""
+
+#: nis/ypclnt.c:171
+#, c-format
+msgid "YPBINDPROC_DOMAIN: %s\n"
+msgstr ""
+
+#: nis/ypclnt.c:780
+msgid "Request arguments bad"
+msgstr ""
+
+#: nis/ypclnt.c:782
+msgid "RPC failure on NIS operation"
+msgstr ""
+
+#: nis/ypclnt.c:784
+msgid "Can't bind to server which serves this domain"
+msgstr ""
+
+#: nis/ypclnt.c:786
+msgid "No such map in server's domain"
+msgstr ""
+
+#: nis/ypclnt.c:788
+msgid "No such key in map"
+msgstr "Níl a leithéid d'eochair sa mhapa"
+
+#: nis/ypclnt.c:790
+msgid "Internal NIS error"
+msgstr "Earráid inmheánach NIS"
+
+#: nis/ypclnt.c:792
+msgid "Local resource allocation failure"
+msgstr ""
+
+#: nis/ypclnt.c:794
+msgid "No more records in map database"
+msgstr ""
+
+#: nis/ypclnt.c:796
+msgid "Can't communicate with portmapper"
+msgstr ""
+
+#: nis/ypclnt.c:798
+msgid "Can't communicate with ypbind"
+msgstr ""
+
+#: nis/ypclnt.c:800
+msgid "Can't communicate with ypserv"
+msgstr ""
+
+#: nis/ypclnt.c:802
+msgid "Local domain name not set"
+msgstr ""
+
+#: nis/ypclnt.c:804
+msgid "NIS map database is bad"
+msgstr ""
+
+#: nis/ypclnt.c:806
+msgid "NIS client/server version mismatch - can't supply service"
+msgstr ""
+
+#: nis/ypclnt.c:810
+msgid "Database is busy"
+msgstr ""
+
+#: nis/ypclnt.c:812
+msgid "Unknown NIS error code"
+msgstr "Cód earráide anaithnid NIS"
+
+#: nis/ypclnt.c:854
+msgid "Internal ypbind error"
+msgstr "Earráid inmheánach ypbind"
+
+#: nis/ypclnt.c:856
+msgid "Domain not bound"
+msgstr ""
+
+#: nis/ypclnt.c:858
+msgid "System resource allocation failure"
+msgstr ""
+
+#: nis/ypclnt.c:860
+msgid "Unknown ypbind error"
+msgstr "Earráid anaithnid ypbind"
+
+#: nis/ypclnt.c:899
+msgid "yp_update: cannot convert host to netname\n"
+msgstr ""
+
+#: nis/ypclnt.c:911
+msgid "yp_update: cannot get server address\n"
+msgstr ""
+
+#: nscd/cache.c:94
+msgid "while allocating hash table entry"
+msgstr ""
+
+#: nscd/cache.c:162 nscd/connections.c:184
+#, c-format
+msgid "cannot stat() file `%s': %s"
+msgstr "ní féidir an comhad `%s' a stat: %s"
+
+#: nscd/connections.c:150
+msgid "Cannot run nscd in secure mode as unprivileged user"
+msgstr ""
+
+#: nscd/connections.c:172
+#, c-format
+msgid "while allocating cache: %s"
+msgstr ""
+
+#: nscd/connections.c:197
+#, c-format
+msgid "cannot open socket: %s"
+msgstr "ní féidir soicéad a oscailt: %s"
+
+#: nscd/connections.c:215
+#, c-format
+msgid "cannot enable socket to accept connections: %s"
+msgstr ""
+
+#: nscd/connections.c:260
+#, c-format
+msgid "cannot handle old request version %d; current version is %d"
+msgstr ""
+
+#: nscd/connections.c:298 nscd/connections.c:324
+#, c-format
+msgid "cannot write result: %s"
+msgstr "ní féidir an toradh a scríobh: %s"
+
+#: nscd/connections.c:392 nscd/connections.c:514
+#, c-format
+msgid "error getting callers id: %s"
+msgstr ""
+
+#: nscd/connections.c:485
+#, c-format
+msgid "while accepting connection: %s"
+msgstr ""
+
+#: nscd/connections.c:498
+#, c-format
+msgid "short read while reading request: %s"
+msgstr ""
+
+#: nscd/connections.c:542
+#, c-format
+msgid "key length in request too long: %d"
+msgstr ""
+
+#: nscd/connections.c:556
+#, c-format
+msgid "short read while reading request key: %s"
+msgstr ""
+
+#: nscd/connections.c:566
+#, c-format
+msgid "handle_request: request received (Version = %d) from PID %ld"
+msgstr ""
+
+#: nscd/connections.c:571
+#, c-format
+msgid "handle_request: request received (Version = %d)"
+msgstr ""
+
+#: nscd/connections.c:635 nscd/connections.c:636 nscd/connections.c:655
+#: nscd/connections.c:668 nscd/connections.c:674 nscd/connections.c:681
+#, c-format
+msgid "Failed to run nscd as user '%s'"
+msgstr "Theip ar rith nscd mar úsáideoir '%s'"
+
+#: nscd/connections.c:656
+msgid "getgrouplist failed"
+msgstr "Theip ar getgrouplist"
+
+#: nscd/connections.c:669
+msgid "setgroups failed"
+msgstr "Theip ar setgroups"
+
+#: nscd/grpcache.c:103 nscd/hstcache.c:111 nscd/pwdcache.c:109
+msgid "while allocating key copy"
+msgstr ""
+
+#: nscd/grpcache.c:153 nscd/hstcache.c:168 nscd/pwdcache.c:146
+msgid "while allocating cache entry"
+msgstr ""
+
+#: nscd/grpcache.c:197 nscd/hstcache.c:283 nscd/pwdcache.c:193
+#, c-format
+msgid "short write in %s: %s"
+msgstr ""
+
+#: nscd/grpcache.c:219
+#, c-format
+msgid "Haven't found \"%s\" in group cache!"
+msgstr ""
+
+#: nscd/grpcache.c:285
+#, c-format
+msgid "Invalid numeric gid \"%s\"!"
+msgstr ""
+
+#: nscd/grpcache.c:292
+#, c-format
+msgid "Haven't found \"%d\" in group cache!"
+msgstr ""
+
+#: nscd/hstcache.c:305 nscd/hstcache.c:371 nscd/hstcache.c:436
+#: nscd/hstcache.c:501
+#, c-format
+msgid "Haven't found \"%s\" in hosts cache!"
+msgstr ""
+
+#: nscd/nscd.c:89
+msgid "Read configuration data from NAME"
+msgstr ""
+
+#: nscd/nscd.c:91
+msgid "Do not fork and display messages on the current tty"
+msgstr ""
+
+#: nscd/nscd.c:92
+msgid "NUMBER"
+msgstr "UIMHIR"
+
+#: nscd/nscd.c:92
+msgid "Start NUMBER threads"
+msgstr ""
+
+#: nscd/nscd.c:93
+msgid "Shut the server down"
+msgstr ""
+
+#: nscd/nscd.c:94
+msgid "Print current configuration statistic"
+msgstr ""
+
+#: nscd/nscd.c:95
+msgid "TABLE"
+msgstr "TÁBLA"
+
+#: nscd/nscd.c:96
+msgid "Invalidate the specified cache"
+msgstr ""
+
+#: nscd/nscd.c:97
+msgid "TABLE,yes"
+msgstr ""
+
+#: nscd/nscd.c:97
+msgid "Use separate cache for each user"
+msgstr ""
+
+#: nscd/nscd.c:102
+msgid "Name Service Cache Daemon."
+msgstr ""
+
+#: nscd/nscd.c:141
+msgid "cannot read configuration file; this is fatal"
+msgstr "Ní féidir an comhad cumraíochta a léamh; earráid mharfach"
+
+#: nscd/nscd.c:152
+msgid "already running"
+msgstr ""
+
+#: nscd/nscd.c:270 nscd/nscd.c:294 nscd/nscd_stat.c:132
+msgid "Only root is allowed to use this option!"
+msgstr ""
+
+#: nscd/nscd_conf.c:88
+#, c-format
+msgid "Parse error: %s"
+msgstr "Earráid pharsála: %s"
+
+#: nscd/nscd_conf.c:171
+#, c-format
+msgid "Could not create log file \"%s\""
+msgstr ""
+
+#: nscd/nscd_conf.c:187
+msgid "Must specify user name for server-user option"
+msgstr ""
+
+#: nscd/nscd_conf.c:194
+msgid "Must specify user name for stat-user option"
+msgstr ""
+
+#: nscd/nscd_conf.c:205
+#, c-format
+msgid "Unknown option: %s %s %s"
+msgstr "Rogha anaithnid: %s %s %s"
+
+#: nscd/nscd_stat.c:103
+#, c-format
+msgid "cannot write statistics: %s"
+msgstr ""
+
+#: nscd/nscd_stat.c:128
+#, c-format
+msgid "Only root or %s is allowed to use this option!"
+msgstr ""
+
+#: nscd/nscd_stat.c:139
+msgid "nscd not running!\n"
+msgstr ""
+
+#: nscd/nscd_stat.c:150
+msgid "write incomplete"
+msgstr "scríobh neamhiomlán"
+
+#: nscd/nscd_stat.c:162
+msgid "cannot read statistics data"
+msgstr ""
+
+#: nscd/nscd_stat.c:165
+#, c-format
+msgid ""
+"nscd configuration:\n"
+"\n"
+"%15d  server debug level\n"
+msgstr ""
+
+#: nscd/nscd_stat.c:189
+#, c-format
+msgid "%3ud %2uh %2um %2lus  server runtime\n"
+msgstr ""
+
+#: nscd/nscd_stat.c:192
+#, c-format
+msgid "    %2uh %2um %2lus  server runtime\n"
+msgstr ""
+
+#: nscd/nscd_stat.c:194
+#, c-format
+msgid "        %2um %2lus  server runtime\n"
+msgstr ""
+
+#: nscd/nscd_stat.c:196
+#, c-format
+msgid "            %2lus  server runtime\n"
+msgstr ""
+
+#: nscd/nscd_stat.c:198
+#, c-format
+msgid "%15lu  number of times clients had to wait\n"
+msgstr ""
+
+#: nscd/nscd_stat.c:213 nscd/nscd_stat.c:215
+msgid "      no"
+msgstr ""
+
+#: nscd/nscd_stat.c:213 nscd/nscd_stat.c:215
+msgid "     yes"
+msgstr ""
+
+#: nscd/nscd_stat.c:221
+#, c-format
+msgid ""
+"\n"
+"%s cache:\n"
+"\n"
+"%15s  cache is enabled\n"
+"%15Zu  suggested size\n"
+"%15lu  seconds time to live for positive entries\n"
+"%15lu  seconds time to live for negative entries\n"
+"%15lu  cache hits on positive entries\n"
+"%15lu  cache hits on negative entries\n"
+"%15lu  cache misses on positive entries\n"
+"%15lu  cache misses on negative entries\n"
+"%15lu%% cache hit rate\n"
+"%15lu  current number of cached values\n"
+"%15lu  maximum number of cached values\n"
+"%15lu  maximum chain length searched\n"
+"%15lu  number of delays on rdlock\n"
+"%15lu  number of delays on wrlock\n"
+"%15s  check /etc/%s for changes\n"
+msgstr ""
+
+#: nscd/pwdcache.c:215
+#, c-format
+msgid "Haven't found \"%s\" in password cache!"
+msgstr ""
+
+#: nscd/pwdcache.c:281
+#, c-format
+msgid "Invalid numeric uid \"%s\"!"
+msgstr ""
+
+#: nscd/pwdcache.c:288
+#, c-format
+msgid "Haven't found \"%d\" in password cache!"
+msgstr ""
+
+#: elf/../sysdeps/generic/dl-sysdep.c:422
+msgid "cannot create capability list"
+msgstr ""
+
+#: elf/../sysdeps/generic/readelflib.c:35
+#, c-format
+msgid "file %s is truncated\n"
+msgstr "comhad %s teasctha\n"
+
+#: elf/../sysdeps/generic/readelflib.c:67
+#, c-format
+msgid "%s is a 32 bit ELF file.\n"
+msgstr ""
+
+#: elf/../sysdeps/generic/readelflib.c:69
+#, c-format
+msgid "%s is a 64 bit ELF file.\n"
+msgstr ""
+
+#: elf/../sysdeps/generic/readelflib.c:71
+#, c-format
+msgid "Unknown ELFCLASS in file %s.\n"
+msgstr ""
+
+#: elf/../sysdeps/generic/readelflib.c:78
+#, c-format
+msgid "%s is not a shared object file (Type: %d).\n"
+msgstr ""
+
+#: elf/../sysdeps/generic/readelflib.c:109
+msgid "more than one dynamic segment\n"
+msgstr ""
+
+#: elf/../sysdeps/unix/sysv/linux/i386/readelflib.c:49
+#, c-format
+msgid "%s is for unknown machine %d.\n"
+msgstr ""
+
+#: elf/cache.c:70
+msgid "unknown"
+msgstr "anaithnid"
+
+#: elf/cache.c:111
+msgid "Unknown OS"
+msgstr "Córas anaithnid"
+
+#: elf/cache.c:116
+#, c-format
+msgid ", OS ABI: %s %d.%d.%d"
+msgstr ""
+
+#: elf/cache.c:142 elf/ldconfig.c:1078
+#, c-format
+msgid "Can't open cache file %s\n"
+msgstr ""
+
+#: elf/cache.c:154
+msgid "mmap of cache file failed.\n"
+msgstr ""
+
+#: elf/cache.c:158 elf/cache.c:168
+msgid "File is not a cache file.\n"
+msgstr ""
+
+#: elf/cache.c:201 elf/cache.c:211
+#, c-format
+msgid "%d libs found in cache `%s'\n"
+msgstr ""
+
+#: elf/cache.c:410
+#, c-format
+msgid "Can't remove old temporary cache file %s"
+msgstr ""
+
+#: elf/cache.c:417
+#, c-format
+msgid "Can't create temporary cache file %s"
+msgstr ""
+
+#: elf/cache.c:425 elf/cache.c:434 elf/cache.c:438
+msgid "Writing of cache data failed"
+msgstr ""
+
+#: elf/cache.c:442
+msgid "Writing of cache data failed."
+msgstr ""
+
+#: elf/cache.c:449
+#, c-format
+msgid "Changing access rights of %s to %#o failed"
+msgstr ""
+
+#: elf/cache.c:454
+#, c-format
+msgid "Renaming of %s to %s failed"
+msgstr "Theip ar athainmniú %s go %s"
+
+#: elf/dl-close.c:128
+msgid "shared object not open"
+msgstr ""
+
+#: elf/dl-close.c:531 elf/dl-open.c:454
+msgid ""
+"TLS generation counter wrapped!  Please send report with the 'glibcbug' "
+"script."
+msgstr ""
+
+#: elf/dl-deps.c:111 elf/dl-open.c:183
+msgid "DST not allowed in SUID/SGID programs"
+msgstr ""
+
+#: elf/dl-deps.c:124
+msgid "empty dynamics string token substitution"
+msgstr ""
+
+#: elf/dl-deps.c:130
+#, c-format
+msgid ""
+"cannot load auxiliary `%s' because of empty dynamic string token "
+"substitution\n"
+msgstr ""
+
+#: elf/dl-deps.c:461
+msgid "cannot allocate dependency list"
+msgstr ""
+
+#: elf/dl-deps.c:494 elf/dl-deps.c:549
+msgid "cannot allocate symbol search list"
+msgstr ""
+
+#: elf/dl-deps.c:534
+msgid "Filters not supported with LD_TRACE_PRELINKING"
+msgstr ""
+
+#: elf/dl-error.c:75
+msgid "DYNAMIC LINKER BUG!!!"
+msgstr ""
+
+#: elf/dl-error.c:108
+msgid "error while loading shared libraries"
+msgstr "Earráid agus comhleabharlanna á luchtú"
+
+#: elf/dl-load.c:347
+msgid "cannot allocate name record"
+msgstr ""
+
+#: elf/dl-load.c:449 elf/dl-load.c:528 elf/dl-load.c:648 elf/dl-load.c:743
+msgid "cannot create cache for search path"
+msgstr ""
+
+#: elf/dl-load.c:551
+msgid "cannot create RUNPATH/RPATH copy"
+msgstr ""
+
+#: elf/dl-load.c:634
+msgid "cannot create search path array"
+msgstr ""
+
+#: elf/dl-load.c:830
+msgid "cannot stat shared object"
+msgstr ""
+
+#: elf/dl-load.c:874
+msgid "cannot open zero fill device"
+msgstr ""
+
+#: elf/dl-load.c:883 elf/dl-load.c:1929
+msgid "cannot create shared object descriptor"
+msgstr ""
+
+#: elf/dl-load.c:902 elf/dl-load.c:1470 elf/dl-load.c:1553
+msgid "cannot read file data"
+msgstr ""
+
+#: elf/dl-load.c:946
+msgid "ELF load command alignment not page-aligned"
+msgstr ""
+
+#: elf/dl-load.c:953
+msgid "ELF load command address/offset not properly aligned"
+msgstr ""
+
+#: elf/dl-load.c:1037
+msgid "cannot allocate TLS data structures for initial thread"
+msgstr ""
+
+#: elf/dl-load.c:1061
+msgid "cannot handle TLS data"
+msgstr ""
+
+#: elf/dl-load.c:1075
+msgid "object file has no loadable segments"
+msgstr ""
+
+#: elf/dl-load.c:1110
+msgid "failed to map segment from shared object"
+msgstr ""
+
+#: elf/dl-load.c:1135
+msgid "cannot dynamically load executable"
+msgstr ""
+
+#: elf/dl-load.c:1191
+msgid "cannot change memory protections"
+msgstr ""
+
+#: elf/dl-load.c:1210
+msgid "cannot map zero-fill pages"
+msgstr ""
+
+#: elf/dl-load.c:1228
+msgid "cannot allocate memory for program header"
+msgstr ""
+
+#: elf/dl-load.c:1259
+msgid "object file has no dynamic section"
+msgstr ""
+
+#: elf/dl-load.c:1299
+msgid "shared object cannot be dlopen()ed"
+msgstr ""
+
+#: elf/dl-load.c:1322
+msgid "cannot create searchlist"
+msgstr ""
+
+#: elf/dl-load.c:1352
+msgid "cannot enable executable stack as shared object requires"
+msgstr ""
+
+#: elf/dl-load.c:1470
+msgid "file too short"
+msgstr ""
+
+#: elf/dl-load.c:1493
+msgid "invalid ELF header"
+msgstr "Ceanntásc neamhbhailí ELF"
+
+#: elf/dl-load.c:1502
+msgid "ELF file data encoding not big-endian"
+msgstr ""
+
+#: elf/dl-load.c:1504
+msgid "ELF file data encoding not little-endian"
+msgstr ""
+
+#: elf/dl-load.c:1508
+msgid "ELF file version ident does not match current one"
+msgstr ""
+
+#: elf/dl-load.c:1512
+msgid "ELF file OS ABI invalid"
+msgstr ""
+
+#: elf/dl-load.c:1514
+msgid "ELF file ABI version invalid"
+msgstr ""
+
+#: elf/dl-load.c:1517
+msgid "internal error"
+msgstr "earráid inmheánach"
+
+#: elf/dl-load.c:1524
+msgid "ELF file version does not match current one"
+msgstr ""
+
+#: elf/dl-load.c:1532
+msgid "ELF file's phentsize not the expected size"
+msgstr ""
+
+#: elf/dl-load.c:1538
+msgid "only ET_DYN and ET_EXEC can be loaded"
+msgstr ""
+
+#: elf/dl-load.c:1944
+msgid "cannot open shared object file"
+msgstr ""
+
+#: elf/dl-lookup.c:265 elf/dl-lookup.c:443
+msgid "relocation error"
+msgstr ""
+
+#: elf/dl-open.c:111
+msgid "cannot extend global scope"
+msgstr ""
+
+#: elf/dl-open.c:214
+msgid "empty dynamic string token substitution"
+msgstr ""
+
+#: elf/dl-open.c:361 elf/dl-open.c:372
+msgid "cannot create scope list"
+msgstr ""
+
+#: elf/dl-open.c:434
+msgid "cannot create TLS data structures"
+msgstr ""
+
+#: elf/dl-open.c:496
+msgid "invalid mode for dlopen()"
+msgstr "mód neamhbhailí i gcomhair dlopen()"
+
+#: elf/dl-reloc.c:57
+msgid "cannot allocate memory in static TLS block"
+msgstr ""
+
+#: elf/dl-reloc.c:176
+msgid "cannot make segment writable for relocation"
+msgstr ""
+
+#: elf/dl-reloc.c:277
+#, c-format
+msgid "%s: profiler found no PLTREL in object %s\n"
+msgstr ""
+
+#: elf/dl-reloc.c:289
+#, c-format
+msgid "%s: profiler out of memory shadowing PLTREL of %s\n"
+msgstr ""
+
+#: elf/dl-reloc.c:304
+msgid "cannot restore segment prot after reloc"
+msgstr ""
+
+#: elf/dl-sym.c:74 elf/dl-sym.c:145
+msgid "RTLD_NEXT used in code not dynamically loaded"
+msgstr ""
+
+#: elf/dl-version.c:303
+msgid "cannot allocate version reference table"
+msgstr ""
+
+#: elf/ldconfig.c:122
+msgid "Print cache"
+msgstr "Taisce priontála"
+
+#: elf/ldconfig.c:123
+msgid "Generate verbose messages"
+msgstr ""
+
+#: elf/ldconfig.c:124
+msgid "Don't build cache"
+msgstr ""
+
+#: elf/ldconfig.c:125
+msgid "Don't generate links"
+msgstr ""
+
+#: elf/ldconfig.c:126
+msgid "Change to and use ROOT as root directory"
+msgstr ""
+
+#: elf/ldconfig.c:127
+msgid "Use CACHE as cache file"
+msgstr ""
+
+#: elf/ldconfig.c:128
+msgid "Use CONF as configuration file"
+msgstr "Bain úsáid as CUMR mar chomhad cumraíochta"
+
+#: elf/ldconfig.c:129
+msgid ""
+"Only process directories specified on the command line.  Don't build cache."
+msgstr ""
+
+#: elf/ldconfig.c:130
+msgid "Manually link individual libraries."
+msgstr ""
+
+#: elf/ldconfig.c:131
+msgid "Format to use: new, old or compat (default)"
+msgstr ""
+
+#: elf/ldconfig.c:139
+msgid "Configure Dynamic Linker Run Time Bindings."
+msgstr ""
+
+#: elf/ldconfig.c:297
+#, c-format
+msgid "Path `%s' given more than once"
+msgstr ""
+
+#: elf/ldconfig.c:341
+#, c-format
+msgid "%s is not a known library type"
+msgstr ""
+
+#: elf/ldconfig.c:361
+#, c-format
+msgid "Can't stat %s"
+msgstr "Ní féidir %s a `stat'"
+
+#: elf/ldconfig.c:431
+#, c-format
+msgid "Can't stat %s\n"
+msgstr "Ní féidir %s a `stat'\n"
+
+#: elf/ldconfig.c:441
+#, c-format
+msgid "%s is not a symbolic link\n"
+msgstr ""
+
+#: elf/ldconfig.c:460
+#, c-format
+msgid "Can't unlink %s"
+msgstr "Ní féidir %s a dhínascadh"
+
+#: elf/ldconfig.c:466
+#, c-format
+msgid "Can't link %s to %s"
+msgstr "Ní féidir %s a nascadh le %s"
+
+#: elf/ldconfig.c:472
+msgid " (changed)\n"
+msgstr " (athraithe)\n"
+
+#: elf/ldconfig.c:474
+msgid " (SKIPPED)\n"
+msgstr ""
+
+#: elf/ldconfig.c:529
+#, c-format
+msgid "Can't find %s"
+msgstr "Ní féidir %s a aimsiú"
+
+#: elf/ldconfig.c:545
+#, c-format
+msgid "Can't lstat %s"
+msgstr "Ní féidir %s a `lstat'"
+
+#: elf/ldconfig.c:552
+#, c-format
+msgid "Ignored file %s since it is not a regular file."
+msgstr ""
+
+#: elf/ldconfig.c:560
+#, c-format
+msgid "No link created since soname could not be found for %s"
+msgstr ""
+
+#: elf/ldconfig.c:651
+#, c-format
+msgid "Can't open directory %s"
+msgstr "Ní féidir an chomhadlann %s a oscailt"
+
+#: elf/ldconfig.c:706 elf/ldconfig.c:753
+#, c-format
+msgid "Cannot lstat %s"
+msgstr "Ní féidir %s a `lstat'"
+
+#: elf/ldconfig.c:718
+#, c-format
+msgid "Cannot stat %s"
+msgstr "Ní féidir %s a `stat'"
+
+#: elf/ldconfig.c:775 elf/readlib.c:92
+#, c-format
+msgid "Input file %s not found.\n"
+msgstr "Ní aimsíodh an t-inchomhad %s.\n"
+
+#: elf/ldconfig.c:826
+#, c-format
+msgid "libc5 library %s in wrong directory"
+msgstr ""
+
+#: elf/ldconfig.c:829
+#, c-format
+msgid "libc6 library %s in wrong directory"
+msgstr ""
+
+#: elf/ldconfig.c:832
+#, c-format
+msgid "libc4 library %s in wrong directory"
+msgstr ""
+
+#: elf/ldconfig.c:859
+#, c-format
+msgid ""
+"libraries %s and %s in directory %s have same soname but different type."
+msgstr ""
+
+#: elf/ldconfig.c:962
+#, c-format
+msgid "Can't open configuration file %s"
+msgstr "Ní féidir an comhad cumraíochta %s a oscailt"
+
+#: elf/ldconfig.c:1033
+#, c-format
+msgid "relative path `%s' used to build cache"
+msgstr ""
+
+#: elf/ldconfig.c:1057
+msgid "Can't chdir to /"
+msgstr ""
+
+#: elf/ldconfig.c:1099
+#, c-format
+msgid "Can't open cache file directory %s\n"
+msgstr ""
+
+#: elf/readlib.c:98
+#, c-format
+msgid "Cannot fstat file %s.\n"
+msgstr ""
+
+#: elf/readlib.c:108
+#, c-format
+msgid "File %s is too small, not checked."
+msgstr ""
+
+#: elf/readlib.c:117
+#, c-format
+msgid "Cannot mmap file %s.\n"
+msgstr "Ní féidir an comhad %s a `mmap'.\n"
+
+#: elf/readlib.c:155
+#, c-format
+msgid "%s is not an ELF file - it has the wrong magic bytes at the start.\n"
+msgstr ""
+
+#: elf/sprof.c:72
+msgid "Output selection:"
+msgstr ""
+
+#: elf/sprof.c:74
+msgid "print list of count paths and their number of use"
+msgstr ""
+
+#: elf/sprof.c:76
+msgid "generate flat profile with counts and ticks"
+msgstr ""
+
+#: elf/sprof.c:77
+msgid "generate call graph"
+msgstr ""
+
+#: elf/sprof.c:84
+msgid "Read and display shared object profiling data"
+msgstr ""
+
+#: elf/sprof.c:87
+msgid "SHOBJ [PROFDATA]"
+msgstr ""
+
+#: elf/sprof.c:398
+#, c-format
+msgid "failed to load shared object `%s'"
+msgstr ""
+
+#: elf/sprof.c:407
+msgid "cannot create internal descriptors"
+msgstr ""
+
+#: elf/sprof.c:526
+#, c-format
+msgid "Reopening shared object `%s' failed"
+msgstr ""
+
+#: elf/sprof.c:534
+msgid "mapping of section headers failed"
+msgstr ""
+
+#: elf/sprof.c:544
+msgid "mapping of section header string table failed"
+msgstr ""
+
+#: elf/sprof.c:564
+#, c-format
+msgid "*** The file `%s' is stripped: no detailed analysis possible\n"
+msgstr ""
+
+#: elf/sprof.c:594
+msgid "failed to load symbol data"
+msgstr ""
+
+#: elf/sprof.c:664
+msgid "cannot load profiling data"
+msgstr ""
+
+#: elf/sprof.c:673
+msgid "while stat'ing profiling data file"
+msgstr ""
+
+#: elf/sprof.c:681
+#, c-format
+msgid "profiling data file `%s' does not match shared object `%s'"
+msgstr ""
+
+#: elf/sprof.c:692
+msgid "failed to mmap the profiling data file"
+msgstr ""
+
+#: elf/sprof.c:700
+msgid "error while closing the profiling data file"
+msgstr ""
+
+#: elf/sprof.c:709 elf/sprof.c:779
+msgid "cannot create internal descriptor"
+msgstr ""
+
+#: elf/sprof.c:755
+#, c-format
+msgid "`%s' is no correct profile data file for `%s'"
+msgstr ""
+
+#: elf/sprof.c:936 elf/sprof.c:988
+msgid "cannot allocate symbol data"
+msgstr ""

@@ -1,0 +1,659 @@
+# Irish translations for m4.
+# Copyright (C) 2005 Free Software Foundation, Inc.
+# Kevin Patrick Scannell <scannell@SLU.EDU>, 2005.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: m4 1.4o\n"
+"POT-Creation-Date: 2000-01-10 05:27+0100\n"
+"PO-Revision-Date: 2005-02-09 11:27-0500\n"
+"Last-Translator: Kevin Patrick Scannell <scannell@SLU.EDU>\n"
+"Language-Team: Irish <ga@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ISO-8859-1\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: lib/getopt.c:677
+#, c-format
+msgid "%s: option `%s' is ambiguous\n"
+msgstr "%s: Tá an rogha `%s' débhríoch\n"
+
+#: lib/getopt.c:702
+#, c-format
+msgid "%s: option `--%s' doesn't allow an argument\n"
+msgstr "%s: ní cheadaítear argóint i ndiaidh na rogha `--%s'\n"
+
+#: lib/getopt.c:707
+#, c-format
+msgid "%s: option `%c%s' doesn't allow an argument\n"
+msgstr "%s: ní cheadaítear argóint i ndiaidh na rogha `%c%s'\n"
+
+#: lib/getopt.c:725 lib/getopt.c:898
+#, c-format
+msgid "%s: option `%s' requires an argument\n"
+msgstr "%s: ní foláir argóint don rogha `%s'\n"
+
+#. --option
+#: lib/getopt.c:754
+#, c-format
+msgid "%s: unrecognized option `--%s'\n"
+msgstr "%s: rogha anaithnid `--%s'\n"
+
+#. +option or -option
+#: lib/getopt.c:758
+#, c-format
+msgid "%s: unrecognized option `%c%s'\n"
+msgstr "%s: rogha anaithnid `%c%s'\n"
+
+#. 1003.2 specifies the format of this message.
+#: lib/getopt.c:784
+#, c-format
+msgid "%s: illegal option -- %c\n"
+msgstr "%s: rogha neamhcheadaithe -- %c\n"
+
+#: lib/getopt.c:787
+#, c-format
+msgid "%s: invalid option -- %c\n"
+msgstr "%s: rogha neamhbhailí -- %c\n"
+
+#. 1003.2 specifies the format of this message.
+#: lib/getopt.c:817 lib/getopt.c:947
+#, c-format
+msgid "%s: option requires an argument -- %c\n"
+msgstr "%s: ní foláir argóint don rogha -- %c\n"
+
+#: lib/getopt.c:864
+#, c-format
+msgid "%s: option `-W %s' is ambiguous\n"
+msgstr "%s: Tá an rogha `-W %s' débhríoch\n"
+
+#: lib/getopt.c:882
+#, c-format
+msgid "%s: option `-W %s' doesn't allow an argument\n"
+msgstr "%s: ní cheadaítear argóint i ndiaidh na rogha `-W %s'\n"
+
+#: lib/obstack.c:471
+msgid "memory exhausted"
+msgstr "cuimhne ídithe"
+
+#: lib/regex.c:1019
+msgid "Success"
+msgstr "Bua!"
+
+#: lib/regex.c:1022
+msgid "No match"
+msgstr "Níl a leithéid ann"
+
+#: lib/regex.c:1025
+msgid "Invalid regular expression"
+msgstr "Slonn ionadaíochta neamhbhailí"
+
+#: lib/regex.c:1028
+msgid "Invalid collation character"
+msgstr "Carachtar neamhbhailí cóimheasa"
+
+#: lib/regex.c:1031
+msgid "Invalid character class name"
+msgstr "Aicme neamhbhailí charachtair"
+
+#: lib/regex.c:1034
+msgid "Trailing backslash"
+msgstr "Cúlslais ag deireadh"
+
+#: lib/regex.c:1037
+msgid "Invalid back reference"
+msgstr "Cúltagairt neamhbhailí"
+
+#: lib/regex.c:1040
+msgid "Unmatched [ or [^"
+msgstr "[ nó [^ corr"
+
+#: lib/regex.c:1043
+msgid "Unmatched ( or \\("
+msgstr "( nó \\( corr"
+
+#: lib/regex.c:1046
+msgid "Unmatched \\{"
+msgstr "\\{ corr"
+
+#: lib/regex.c:1049
+msgid "Invalid content of \\{\\}"
+msgstr "Ábhar neamhbhailí idir \\{\\}"
+
+#: lib/regex.c:1052
+msgid "Invalid range end"
+msgstr "Deireadh raoin neamhbhailí"
+
+#: lib/regex.c:1055 lib/xmalloc.c:82
+msgid "Memory exhausted"
+msgstr "Cuimhne ídithe"
+
+#: lib/regex.c:1058
+msgid "Invalid preceding regular expression"
+msgstr "Is neamhbhailí an slonn ionadaíochta roimhe seo"
+
+#: lib/regex.c:1061
+msgid "Premature end of regular expression"
+msgstr "Deireadh le slonn ionadaíochta gan choinne"
+
+#: lib/regex.c:1064
+msgid "Regular expression too big"
+msgstr "Slonn ionadaíochta rómhór"
+
+#: lib/regex.c:1067
+msgid "Unmatched ) or \\)"
+msgstr ") nó \\) corr"
+
+#: lib/regex.c:5564
+msgid "No previous regular expression"
+msgstr "Níl aon slonn ionadaíochta roimhe seo"
+
+#: src/builtin.c:349
+#, c-format
+msgid "Warning: Too few arguments to built-in `%s'"
+msgstr "Rabhadh: Níl go leor argóintí ann don fheidhm insuite `%s'"
+
+#: src/builtin.c:355
+#, c-format
+msgid "Warning: Excess arguments to built-in `%s' ignored"
+msgstr "Rabhadh: ag déanamh neamhshuim ar argóintí breise don fheidhm insuite `%s'"
+
+#: src/builtin.c:383
+#, c-format
+msgid "Non-numeric argument to built-in `%s'"
+msgstr "Argóint neamhuimhriúil don fheidhm insuite `%s'"
+
+#: src/builtin.c:494
+msgid "INTERNAL ERROR: Bad token data type in define_macro ()"
+msgstr "EARRÁID INMHEÁNACH: Droch-chineál sonraí comhartha i define_macro ()"
+
+#: src/builtin.c:681 src/builtin.c:780 src/builtin.c:1423 src/builtin.c:1447
+#, c-format
+msgid "Undefined name %s"
+msgstr "Ainm %s gan sainmhíniú"
+
+#: src/builtin.c:721
+msgid "INTERNAL ERROR: Builtin not found in builtin table!"
+msgstr "EARRÁID INMHEÁNACH: Níor aimsíodh feidhm insuite sa tábla insuite!"
+
+#: src/builtin.c:729
+msgid "INTERNAL ERROR: Bad token data type in m4_dumpdef ()"
+msgstr "EARRÁID INMHEÁNACH: Droch-chineál sonraí comhartha i m4_dumpdef ()"
+
+#: src/builtin.c:804
+#, c-format
+msgid "Undefined name `%s'"
+msgstr "Ainm `%s' gan sainmhíniú"
+
+#: src/builtin.c:842
+msgid "INTERNAL ERROR: Bad symbol type in m4_defn ()"
+msgstr "EARRÁID INMHEÁNACH: Droch-chineál siombaile i m4_defn ()"
+
+#: src/builtin.c:908
+#, c-format
+msgid "Cannot open pipe to command `%s'"
+msgstr "Ní féidir píopa a oscailt go hordú `%s'"
+
+#: src/builtin.c:948
+#, c-format
+msgid "Radix in eval out of range (radix = %d)"
+msgstr "Bunuimhir as raon i eval (bunuimhir = %d)"
+
+#: src/builtin.c:957
+msgid "Negative width to eval"
+msgstr "Leithead diúltach i eval"
+
+#: src/builtin.c:1063
+#, c-format
+msgid "Non-numeric argument to %s"
+msgstr "Argóint neamhuimhriúil chun %s"
+
+#: src/builtin.c:1075
+#, c-format
+msgid "Cannot undivert %s"
+msgstr "Ní féidir %s a dí-atreorú"
+
+#: src/builtin.c:1223
+#, c-format
+msgid "Undefined syntax code %c"
+msgstr "Cód comhréire %c gan sainmhíniú"
+
+#: src/builtin.c:1274 src/freeze.c:211
+#, c-format
+msgid "Cannot open %s"
+msgstr "Ní féidir %s a oscailt"
+
+#: src/builtin.c:1483
+#, c-format
+msgid "Debugmode: bad debug flags: `%s'"
+msgstr "Mód dífhabhtaithe: drochbhratacha dífhabhtaithe: `%s'"
+
+#: src/builtin.c:1519
+#, c-format
+msgid "Cannot set error file: %s"
+msgstr "Ní féidir an comhad earráide a shocrú: %s"
+
+#: src/builtin.c:1740
+msgid "WARNING: \\0 will disappear, use \\& instead in replacements"
+msgstr "RABHADH: Rachaidh \\0 as radharc, úsáid \\& ina ionad i dteaghráin ionadaíochta"
+
+#: src/builtin.c:1801 src/builtin.c:1861 src/input.c:1014
+#, c-format
+msgid "Bad regular expression `%s': %s"
+msgstr "Slonn ionadaíochta neamhbhailí `%s': %s"
+
+#: src/builtin.c:1812 src/builtin.c:1885
+#, c-format
+msgid "Error matching regular expression `%s'"
+msgstr "Earráid le linn cuardaigh ar shlonn ionadaíochta `%s'"
+
+#: src/debug.c:380
+msgid "INTERNAL ERROR: Builtin not found in builtin table! (trace_pre ())"
+msgstr "EARRÁID INMHEÁNACH: Níor aimsíodh feidhm insuite sa tábla insuite! (trace_pre ())"
+
+#: src/debug.c:388
+msgid "INTERNAL ERROR: Bad token data type (trace_pre ())"
+msgstr "EARRÁID INMHEÁNACH: Droch-chineál sonraí comhartha (trace_pre ())"
+
+#: src/eval.c:309
+#, c-format
+msgid "Bad expression in eval (missing right parenthesis): %s"
+msgstr "Slonn neamhbhailí i eval (lúibín deas ar iarraidh): %s"
+
+#: src/eval.c:315
+#, c-format
+msgid "Bad expression in eval: %s"
+msgstr "Slonn neamhbhailí i eval: %s"
+
+#: src/eval.c:320
+#, c-format
+msgid "Bad expression in eval (bad input): %s"
+msgstr "Slonn neamhbhailí i eval (droch-ionchur): %s"
+
+#: src/eval.c:325
+#, c-format
+msgid "Bad expression in eval (excess input): %s"
+msgstr "Slonn neamhbhailí i eval (ionchur sa bhreis): %s"
+
+#: src/eval.c:330
+#, c-format
+msgid "Divide by zero in eval: %s"
+msgstr "Nialas san ainmneoir i eval: %s"
+
+#: src/eval.c:335
+#, c-format
+msgid "Modulo by zero in eval: %s"
+msgstr "Modulo le nialas i eval: %s"
+
+#: src/eval.c:340
+msgid "INTERNAL ERROR: Bad error code in evaluate ()"
+msgstr "EARRÁID INMHEÁNACH: Droch-chód earráide i evaluate ()"
+
+#: src/eval.c:594
+msgid "INTERNAL ERROR: Bad comparison operator in cmp_term ()"
+msgstr "EARRÁID INMHEÁNACH: Drochoibreoir comparáide i cmp_term ()"
+
+#: src/eval.c:639
+msgid "INTERNAL ERROR: Bad shift operator in shift_term ()"
+msgstr "EARRÁID INMHEÁNACH: Drochoibreoir iomlaoide i shift_term ()"
+
+#: src/eval.c:738
+msgid "INTERNAL ERROR: Bad operator in mult_term ()"
+msgstr "EARRÁID INMHEÁNACH: Drochoibreoir i mult_term ()"
+
+#: src/freeze.c:119
+msgid "INTERNAL ERROR: Built-in not found in builtin table!"
+msgstr "EARRÁID INMHEÁNACH: Níor aimsíodh feidhm insuite sa tábla insuite!"
+
+#: src/freeze.c:132
+msgid "INTERNAL ERROR: Bad token data type in freeze_one_symbol ()"
+msgstr "EARRÁID INMHEÁNACH: Droch-chineál sonraí comhartha i freeze_one_symbol ()"
+
+#: src/freeze.c:163
+msgid "Expecting line feed in frozen file"
+msgstr "Ag súil le fotha líne i gcomhad sioctha"
+
+#: src/freeze.c:165
+#, c-format
+msgid "Expecting character `%c' in frozen file"
+msgstr "Ag súil le carachtar `%c' i gcomhad sioctha"
+
+#: src/freeze.c:222
+msgid "Ill-formated frozen file"
+msgstr "Comhad sioctha míchumtha"
+
+#: src/freeze.c:277 src/freeze.c:293
+msgid "Premature end of frozen file"
+msgstr "Comhadchríoch gan choinne i gcomhad sioctha"
+
+#: src/freeze.c:327
+#, c-format
+msgid "`%s' from frozen file not found in builtin table!"
+msgstr "Níor aimsíodh `%s' as comhad sioctha sa tábla insuite!"
+
+#: src/input.c:318
+#, c-format
+msgid "Input reverted to %s, line %d"
+msgstr "D'fhill an t-ionchur ar %s, líne %d"
+
+#: src/input.c:346
+#, c-format
+msgid "Input read from %s"
+msgstr "Léadh an t-ionchur ó %s"
+
+#: src/input.c:506
+msgid "INTERNAL ERROR: Recursive push_string!"
+msgstr "EARRÁID INMHEÁNACH: push_string athchúrsach!"
+
+#: src/input.c:623
+msgid "INTERNAL ERROR: Bad call to init_macro_token ()"
+msgstr "EARRÁID INMHEÁNACH: Drochghlao ar init_macro_token ()"
+
+#: src/input.c:663
+msgid "INTERNAL ERROR: Input stack botch in next_char ()"
+msgstr "EARRÁID INMHEÁNACH: Rinneadh praiseach den chruach ionchurtha i next_char ()"
+
+#: src/input.c:700
+msgid "INTERNAL ERROR: Input stack botch in peek_input ()"
+msgstr "EARRÁID INMHEÁNACH: Rinneadh praiseach den chruach ionchurtha i peek_input ()"
+
+#: src/input.c:805
+msgid "NONE"
+msgstr "NEAMHNÍ"
+
+#: src/input.c:1199 src/input.c:1226
+msgid "ERROR: EOF in string"
+msgstr "EARRÁID: EOF i dteaghrán"
+
+#: src/m4.c:119
+msgid "ERROR: Stack overflow.  (Infinite define recursion?)"
+msgstr "EARRÁID: Cruach thar maoil.  (Athchúrsáil `define' éigríochta?)"
+
+#: src/m4.c:146
+#, c-format
+msgid "Try `%s --help' for more information.\n"
+msgstr "Bain triail as `%s --help' chun tuilleadh eolais a fháil.\n"
+
+#: src/m4.c:150
+#, c-format
+msgid "Usage: %s [OPTION]... [FILE]...\n"
+msgstr "Úsáid: %s [ROGHA]... [COMHAD]...\n"
+
+#: src/m4.c:151
+msgid ""
+"Mandatory or optional arguments to long options are mandatory or optional\n"
+"for short options too.\n"
+"\n"
+"Operation modes:\n"
+"      --help                   display this help and exit\n"
+"      --version                output version information and exit\n"
+"  -e, --interactive            unbuffer output, ignore interrupts\n"
+"  -E, --fatal-warnings         stop execution after first warning\n"
+"  -Q, --quiet, --silent        suppress some warnings for builtins\n"
+"  -P, --prefix-builtins        force a `m4_' prefix to all builtins\n"
+msgstr ""
+"Is riachtanach le rogha ghearr aon argóint atá riachtanach leis an rogha\n"
+"fhada.  Mar an gcéanna le hargóintí roghnacha.\n"
+"\n"
+"Móid oibre:\n"
+"      --help                   taispeáin an chabhair seo agus scoir\n"
+"      --version                taispeáin eolas faoin leagan agus scoir\n"
+"  -e, --interactive            aschur gan maolánú; gan idirbhristeacha\n"
+"  -E, --fatal-warnings         stop i ndiaidh an chéad rabhaidh\n"
+"  -Q, --quiet, --silent        ceil roinnt rabhaidh d'fheidhmeanna insuite\n"
+"  -P, --prefix-builtins        éiligh an réimír `m4_' ar gach feidhm insuite\n"
+
+#: src/m4.c:164
+msgid "  -W, --word-regexp=REGEXP     use REGEXP for macro name syntax\n"
+msgstr "  -W, --word-regexp=SLONN      úsáid SLONN do chomhréir na n-ainmneacha macra\n"
+
+#: src/m4.c:169
+msgid ""
+"\n"
+"Dynamic loading features:\n"
+"  -m, --module-directory=DIRECTORY  add DIRECTORY to the module search path\n"
+"  -M, --load-module=MODULE          load dynamic MODULE from M4MODPATH\n"
+msgstr ""
+"\n"
+"Gnéithe maidir leis an luchtú beo:\n"
+"  -m, --module-directory=COMHADLANN cuir COMHADLANN sa chonair chuardach modúl\n"
+"  -M, --load-module=MODÚL           luchtaigh MODÚL beo ó M4MODPATH\n"
+
+#: src/m4.c:176
+msgid ""
+"\n"
+"Preprocessor features:\n"
+"  -I, --include=DIRECTORY      search this directory second for includes\n"
+"  -D, --define=NAME[=VALUE]    enter NAME has having VALUE, or empty\n"
+"  -U, --undefine=NAME          delete builtin NAME\n"
+"  -s, --synclines              generate `#line NO \"FILE\"' lines\n"
+msgstr ""
+"\n"
+"Gnéithe an réamhphróiseálaí:\n"
+"  -I, --include=COMHADLANN     cuardach COMHADLANN ar chomhaid cheanntáisc\n"
+"  -D, --define=AINM[=LUACH]    iontráil AINM le LUACH, is é sin nó folamh\n"
+"  -U, --undefine=AINM          scrios AINM insuite\n"
+"  -s, --synclines              gin línte `#line NO \"FILE\"'\n"
+
+#: src/m4.c:184
+msgid ""
+"\n"
+"Limits control:\n"
+"  -G, --traditional            suppress all GNU extensions\n"
+"  -H, --hashsize=PRIME         set symbol lookup hash table size\n"
+"  -L, --nesting-limit=NUMBER   change artificial nesting limit\n"
+msgstr ""
+"\n"
+"Rialú na dteorainneacha:\n"
+"  -G, --traditional            múch gach eisínteacht GNU\n"
+"  -H, --hashsize=PRÍOMHA       méid hais-tábla na siombailí\n"
+"  -L, --nesting-limit=UIMHIR   athraigh an teorainn shaorga neadaithe\n"
+
+#: src/m4.c:191
+msgid ""
+"\n"
+"Frozen state files:\n"
+"  -F, --freeze-state=FILE      produce a frozen state on FILE at end\n"
+"  -R, --reload-state=FILE      reload a frozen state from FILE at start\n"
+msgstr ""
+"\n"
+"Comhaid shioctha:\n"
+"  -F, --freeze-state=COMHAD    déan staid shioctha ag deireadh COMHAD\n"
+"  -R, --reload-state=COMHAD    athluchtaigh staid shioctha ó thosach an CHOMHAID\n"
+
+#: src/m4.c:197
+msgid ""
+"\n"
+"Debugging:\n"
+"  -d, --debug=[FLAGS]          set debug level (no FLAGS implies `aeq')\n"
+"  -t, --trace=NAME             trace NAME when it will be defined\n"
+"  -l, --arglength=NUM          restrict macro tracing size\n"
+"  -o, --error-output=FILE      redirect debug and trace output\n"
+msgstr ""
+"\n"
+"Dífhabhtú:\n"
+"  -d, --debug=[BRATACHA]       socraigh an leibhéal dífhabhtaithe (gan BRATACHA => `aeq')\n"
+"  -t, --trace=AINM             lorg AINM nuair atá sé sainmhínithe\n"
+"  -l, --arglength=UIMHIR       cuir teorainn le méid lorg macraí\n"
+"  -o, --error-output=COMHAD    athsheol an t-aschur dífhabhtaithe/loirg\n"
+
+#: src/m4.c:205
+msgid ""
+"\n"
+"FLAGS is any of:\n"
+"  t   trace for all macro calls, not only traceon'ed\n"
+"  a   show actual arguments\n"
+"  e   show expansion\n"
+"  q   quote values as necessary, with a or e flag\n"
+"  c   show before collect, after collect and after call\n"
+"  x   add a unique macro call id, useful with c flag\n"
+"  f   say current input file name\n"
+"  l   say current input line number\n"
+"  p   show results of path searches\n"
+"  i   show changes in input files\n"
+"  V   shorthand for all of the above flags\n"
+msgstr ""
+"\n"
+"Is iad seo na BRATACHA:\n"
+"  t   lorg gach glao macra, ní hamháin na cinn le `traceon'\n"
+"  a   taispeáin na fíorargóintí\n"
+"  e   taispeáin scaoileadh macra\n"
+"  q   úsáid athfhriotal más gá, leis an bhrat `a' nó `e'\n"
+"  c   taispeáin roimh `collect', tar éis `collect' agus tar éis `call'\n"
+"  x   cuir aitheantas uathúil macra leis, úsáideach le `c'\n"
+"  f   tabhair ainm an inchomhaid reatha\n"
+"  l   tabhair an líne-uimhir reatha ionchuir\n"
+"  p   taispeáin torthaí na gcuardach conairí\n"
+"  i   taispeáin athruithe in inchomhaid\n"
+"  V   gach ceann acu seo thuas\n"
+
+#: src/m4.c:220
+msgid ""
+"\n"
+"If no FILE or if FILE is `-', standard input is read.\n"
+msgstr ""
+"\n"
+"Mura bhfuil COMHAD ann, nó más `-' é, léigh ón ionchur caighdeánach.\n"
+
+#: src/m4.c:225
+msgid ""
+"\n"
+"Report bugs to <bug-m4@gnu.org>.\n"
+msgstr ""
+"\n"
+"Seol tuairiscí fabhtanna chuig <bug-m4@gnu.org>.\n"
+
+#: src/m4.c:414
+#, c-format
+msgid "Bad debug flags: `%s'"
+msgstr "Bratacha neamhbhailí dífhabhtaithe: `%s'"
+
+#: src/m4.c:436
+#, c-format
+msgid "ERROR: failed to add search directory `%s'"
+msgstr "EARRÁID: theip ar chur comhadlann chuardaigh `%s' leis"
+
+#: src/m4.c:440
+#, c-format
+msgid "ERROR: failed to add search directory `%s': %s"
+msgstr "EARRÁID: theip ar chur comhadlann chuardaigh `%s' leis: %s"
+
+#: src/m4.c:460
+msgid " (options:"
+msgstr " (roghanna:"
+
+#: src/m4.c:542
+msgid "INTERNAL ERROR: Bad code in deferred arguments"
+msgstr "EARRÁID INMHEÁNACH: Droch-chód sna hargóintí iarchurtha"
+
+#: src/macro.c:97
+msgid "INTERNAL ERROR: Bad token type in expand_token ()"
+msgstr "EARRÁID INMHEÁNACH: Droch-chineál comhartha i expand_token ()"
+
+#: src/macro.c:163
+msgid "ERROR: EOF in argument list"
+msgstr "EARRÁID: EOF i liosta na n-argóintí"
+
+#: src/macro.c:182
+msgid "INTERNAL ERROR: Bad token type in expand_argument ()"
+msgstr "EARRÁID INMHEÁNACH: Droch-chineál comhartha i expand_argument ()"
+
+#: src/macro.c:259
+msgid "INTERNAL ERROR: Bad symbol type in call_macro ()"
+msgstr "EARRÁID INMHEÁNACH: Droch-chineál siombaile i call_macro ()"
+
+#: src/macro.c:288
+#, c-format
+msgid "ERROR: Recursion limit of %d exceeded, use -L<N> to change it"
+msgstr "EARRÁID: Doimhneacht athchúrsála níos mó ná an t-uasmhéid %d, úsáid -L<N> chun é a athrú"
+
+#: src/module.c:123
+#, c-format
+msgid "ERROR: failed to initialise modules: %s"
+msgstr "EARRÁID: theip ar thúsú modúil: %s"
+
+#: src/module.c:221
+#, c-format
+msgid "ERROR: cannot find module: `%s'"
+msgstr "EARRÁID: modúl gan aimsiú: `%s'"
+
+#: src/module.c:224
+#, c-format
+msgid "ERROR: cannot find module: `%s': %s"
+msgstr "EARRÁID: modúl gan aimsiú: `%s': %s"
+
+#: src/module.c:274
+msgid "ERROR: cannot close modules"
+msgstr "EARRÁID: ní féidir modúil a dhúnadh"
+
+#: src/module.c:277
+#, c-format
+msgid "ERROR: cannot cannot close modules: %s"
+msgstr "EARRÁID: ní féidir modúil a dhúnadh: %s"
+
+#: src/module.c:284
+#, c-format
+msgid "ERROR: cannot close module: `%s'"
+msgstr "EARRÁID: ní féidir modúl a dhúnadh: `%s'"
+
+#: src/module.c:288
+#, c-format
+msgid "ERROR: cannot cannot close module: `%s': %s"
+msgstr "EARRÁID: ní féidir modúl a dhúnadh: `%s': %s"
+
+#: src/output.c:262
+msgid "ERROR: Cannot create temporary file for diversion"
+msgstr "EARRÁID: Ní féidir comhad sealadach a chruthú le haghaidh atreoraithe"
+
+#: src/output.c:272
+msgid "ERROR: Cannot flush diversion to temporary file"
+msgstr "EARRÁID: Ní féidir atreorú a shruthlú go comhad sealadach"
+
+#: src/output.c:356
+msgid "ERROR: Copying inserted file"
+msgstr "EARRÁID: Comhad ionsáite á chóipeáil"
+
+#: src/output.c:537
+msgid "ERROR: Reading inserted file"
+msgstr "EARRÁID: Comhad ionsáite á léamh"
+
+#: src/output.c:636
+msgid "Cannot stat diversion"
+msgstr "Ní féidir atreorú a `stat'"
+
+#: src/output.c:639
+msgid "Diversion too large"
+msgstr "Atreorú rómhór"
+
+#: src/path.c:157
+#, c-format
+msgid "Path search for `%s' found `%s'"
+msgstr "D'aimsigh cuardach conaire ar `%s' seo a leanas: `%s'"
+
+#. sbrk failed.  Assume the RLIMIT_VMEM prevents expansion even
+#. if the stack limit has not been reached.
+#: src/stackovf.c:175
+msgid "VMEM limit exceeded?\n"
+msgstr "Teorainn VMEM sáraithe?\n"
+
+#: src/stackovf.c:197
+msgid ""
+"Memory bounds violation detected (SIGSEGV).  Either a stack overflow\n"
+"occurred, or there is a bug in "
+msgstr ""
+"Sáraíodh teorainneacha cuimhne (SIGSEGV).  Tá cruach thar maoil, is\n"
+"é sin nó tá fabht i "
+
+#: src/stackovf.c:202
+msgid ".  Check for possible infinite recursion.\n"
+msgstr ".  Seiceáil nach bhfuil athchúrsáil éigríochta ann.\n"
+
+#: src/symtab.c:190
+msgid "INTERNAL ERROR: Illegal mode to symbol_lookup ()"
+msgstr "EARRÁID INMHEÁNACH: Mód neamhcheadaithe i symbol_lookup ()"
+
+#: src/symtab.c:243
+#, c-format
+msgid "Name `%s' is unknown\n"
+msgstr "Ainm `%s' anaithnid\n"
+
