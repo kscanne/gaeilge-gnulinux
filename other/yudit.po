@@ -1,0 +1,474 @@
+# Irish translations for yudit.
+# Copyright (C) 2003 Free Software Foundation, Inc.
+# Kevin Patrick Scannell <scannell@SLU.EDU>, 2003.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: yudit 2.7.6\n"
+"POT-Creation-Date: 2004-01-05 19:06+0900\n"
+"PO-Revision-Date: 2003-12-16 19:55-0500\n"
+"Last-Translator: Kevin Patrick Scannell <scannell@SLU.EDU>\n"
+"Language-Team: Irish <ga@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../swidget/SDialog.cpp:36 ../swidget/SDialog.cpp:75
+msgid "Yes"
+msgstr "Tá"
+
+#: ../swidget/SDialog.cpp:39 ../swidget/SDialog.cpp:62
+#: ../swidget/SDialog.cpp:66 ../swidget/SDialog.cpp:70
+#: ../swidget/SDialog.cpp:74
+msgid "No"
+msgstr "Níl"
+
+#: ../swidget/SDialog.cpp:63 ../swidget/SDialog.cpp:67
+#: ../swidget/SDialog.cpp:71 ../swidget/SDialog.cpp:79
+#: ../swidget/SFileDialog.cpp:60
+msgid "OK"
+msgstr "OK"
+
+#: ../swidget/SDialog.cpp:78 ../swidget/SFileDialog.cpp:72
+msgid "Cancel"
+msgstr "Cealaigh"
+
+#: ../swidget/SFileDialog.cpp:45
+msgid "Show Hidden"
+msgstr "Taispeáin comhaid atá i bhfolach"
+
+#: ../swidget/SFileDialog.cpp:50
+msgid "Home"
+msgstr "Baile"
+
+#: ../swidget/SFileDialog.cpp:64
+msgid "CD to"
+msgstr "`CD' chuig"
+
+#: ../swidget/SFileDialog.cpp:68
+msgid "Make Folder"
+msgstr "Cruthaigh Fillteán"
+
+#: ../swidget/SFileDialog.cpp:79
+msgid "Folder"
+msgstr "Fillteán"
+
+#: ../swidget/SFileDialog.cpp:82
+msgid "File"
+msgstr "Comhad"
+
+#: ../swidget/SFileDialog.cpp:85
+msgid "File Type"
+msgstr "Cineál Comhaid"
+
+#: ../swidget/SFileDialog.cpp:90
+msgid "File:"
+msgstr "Comhad:"
+
+#: ../swidget/SFileDialog.cpp:98
+msgid "Folder:"
+msgstr "Fillteán:"
+
+#: ../swidget/SFileDialog.cpp:103
+msgid "Filter:"
+msgstr "Scagaire:"
+
+#: ../swidget/SFileDialog.cpp:113
+msgid "Best File Type"
+msgstr "Cineál Comhaid Is Fearr"
+
+#: ../swidget/SFileDialog.cpp:504
+msgid ""
+"Will not create\n"
+"specified folder\n"
+msgstr ""
+"Ní chruthófar an\n"
+"fillteán ainmnithe\n"
+
+#: ../swidget/SFileDialog.cpp:511
+msgid ""
+"Folders can be created\n"
+"in current directory only."
+msgstr ""
+"Ní féidir fillteáin a chruthú\n"
+"lasmuigh den chomhadlann reatha."
+
+#: ../swidget/SFileDialog.cpp:518
+msgid ""
+"Specified folder\n"
+"already exists.\n"
+msgstr ""
+"Tá an chomhadlann\n"
+"seo ann cheana.\n"
+
+#: ../swidget/SFileDialog.cpp:529
+msgid ""
+"Can not create\n"
+"specified folder\n"
+msgstr ""
+"Ní féidir an fillteán\n"
+"ainmnithe a chruthú\n"
+
+#: ../swidget/SFileDialog.cpp:545
+msgid ""
+"Can not go to\n"
+"specified folder.\n"
+msgstr ""
+"Ní féidir a dhul go dtí\n"
+"an fhillteáin ainmnithe.\n"
+
+#: ../swidget/SFreeHand.cpp:49
+msgid "Handwriting Input"
+msgstr "Ionchur Scríbhneoireachta"
+
+#: ../swidget/SFreeHand.cpp:53
+msgid "Strokes:"
+msgstr "Stríoca:"
+
+#: ../swidget/SFreeHand.cpp:62
+msgid "Converters"
+msgstr "Tiontairí"
+
+#: ../swidget/SFreeHand.cpp:72
+msgid "Look-up"
+msgstr "Cuardach"
+
+#: ../swidget/SFreeHand.cpp:78
+msgid "Clear"
+msgstr "Glan"
+
+#: ../swidget/SFreeHand.cpp:85
+msgid "Directed"
+msgstr "Stiúrtha"
+
+#: ../swidget/SFreeHand.cpp:91
+msgid "Candidates"
+msgstr "Iarrthóirí"
+
+#: ../swidget/SFreeHand.cpp:151
+msgid "not found"
+msgstr "ar iarraidh"
+
+#: SKMapPanel.cpp:33
+msgid "Current KMap:"
+msgstr "KMap Reatha:"
+
+#: SKMapPanel.cpp:36
+msgid "Characters:"
+msgstr "Carachtair:"
+
+#: SKMapPanel.cpp:38
+msgid "Available KMaps"
+msgstr "KMapanna ar fáil"
+
+#: SKMapPanel.cpp:43
+msgid "F-Key"
+msgstr "F-Eochair"
+
+#: SKMapPanel.cpp:44
+msgid "Current KMaps"
+msgstr "KMapanna Reatha"
+
+#: SKMapPanel.cpp:48
+msgid "Key Input"
+msgstr "Ionchur Eochrach"
+
+#: SKMapPanel.cpp:49
+msgid "Output"
+msgstr "Aschur"
+
+#: SMessageBar.cpp:50
+msgid "Glyph Info:"
+msgstr "Eolas Glife:"
+
+#: SMessageBar.cpp:60
+msgid "Font Size:"
+msgstr "Clómhéid:"
+
+#: SMessageBar.cpp:70
+msgid "Line:"
+msgstr "Líne:"
+
+#: SMessageBar.cpp:80
+msgid "Column:"
+msgstr "Colún:"
+
+#: SToolBar.cpp:85
+msgid "Unix"
+msgstr "Unix"
+
+#: SToolBar.cpp:87
+msgid "DOS"
+msgstr "DOS"
+
+#: SToolBar.cpp:89
+msgid "MAC"
+msgstr "MAC"
+
+#: SToolBar.cpp:91
+msgid "PS"
+msgstr "PS"
+
+#: SToolBar.cpp:473
+msgid "__O__pen"
+msgstr "__O__scail"
+
+#: SToolBar.cpp:474
+msgid "Find(__Q__)"
+msgstr "Aimsigh(__Q__)"
+
+#: SToolBar.cpp:475
+msgid "__G__o To"
+msgstr "Téigh __G__o"
+
+#: SToolBar.cpp:479
+msgid "__S__ave (needed)"
+msgstr "__S__ábháil (riachtanach)"
+
+#: SToolBar.cpp:483
+msgid "__S__ave"
+msgstr "__S__ábháil"
+
+#: SToolBar.cpp:489
+msgid "__P__rint (pending job)"
+msgstr "__P__riontáil (jab ar siúl)"
+
+#: SToolBar.cpp:493
+msgid "__P__rint"
+msgstr "__P__riontáil"
+
+#: SToolBar.cpp:498
+msgid "Print Previe__w__ (pending job)"
+msgstr "Réamhamharc Priontála(__w__): jab ar siúl"
+
+#: SToolBar.cpp:502
+msgid "Print Previe__w__"
+msgstr "Réamhamharc Priontála"
+
+#: SToolBar.cpp:504
+msgid "__U__ndo"
+msgstr "C__U__ir ar neamhní"
+
+#: SToolBar.cpp:505
+msgid "__R__edo"
+msgstr "Athdhéan(__R__)"
+
+#: SToolBar.cpp:506
+msgid "Document __T__ext Embedding"
+msgstr "Leabú __T__éacs don Cháipéis"
+
+#: SToolBar.cpp:507
+msgid "__D__irection Override"
+msgstr "Sáraigh Treo(__D__)"
+
+#: SToolBar.cpp:508
+msgid "__E__mbedding Override"
+msgstr "Sáraigh Leabú(__E__)"
+
+#: SToolBar.cpp:509
+msgid "__Y__ield Embedding"
+msgstr "Táirg leabú(__Y__)"
+
+#: SToolBar.cpp:510
+msgid "Smaller(__A__)"
+msgstr "Níos Lú(__A__)"
+
+#: SToolBar.cpp:511
+msgid "Bigger(__Z__)"
+msgstr "Níos Mó(__Z__)"
+
+#: SToolBar.cpp:512
+msgid "Font"
+msgstr "Cló"
+
+#: SToolBar.cpp:515
+msgid "Input"
+msgstr "Ionchur"
+
+#: SToolBar.cpp:518
+msgid "Line Break"
+msgstr "Briseadh Líne"
+
+#: SYudit.cpp:419
+msgid ""
+"Unsaved changes.\n"
+"Exit anyway?\n"
+msgstr ""
+"Tá athruithe gan sábháil ann.\n"
+"Scoir mar sin féin?\n"
+
+#: SYudit.cpp:432
+msgid ""
+"Pending printing job.\n"
+"Exit anyway?\n"
+msgstr ""
+"Tá jab priontála ar siúl.\n"
+"Scoir mar sin féin?\n"
+
+#: SYudit.cpp:476
+msgid ""
+"Unsaved changes.\n"
+"Open anyway?\n"
+msgstr ""
+"Tá athruithe gan sábháil ann.\n"
+"Oscail mar sin féin?\n"
+
+#: SYudit.cpp:506 SYudit.cpp:1790
+msgid "Unsaved changes. Enter discards!"
+msgstr "Athruithe gan sábháil.  Iontráil discards!"
+
+#: SYudit.cpp:514 SYudit.cpp:1799
+msgid "open -yes -e encoding file"
+msgstr "open -yes -e ionchódú comhad"
+
+#: SYudit.cpp:540
+msgid ""
+"File exists.\n"
+"Save anyway?"
+msgstr ""
+"Tá an comhad ann cheana féin.\n"
+"Sábháil mar sin féin?"
+
+#: SYudit.cpp:561
+msgid "save -e encoding file"
+msgstr "save -e ionchódú comhad"
+
+#: SYudit.cpp:572
+msgid "find string"
+msgstr "teaghrán a aimsiú"
+
+#: SYudit.cpp:579
+msgid "go line [column]"
+msgstr "go líne [colún]"
+
+#: SYudit.cpp:586
+msgid "print -o file -p printer -break"
+msgstr "print -o comhad -p printéir -break"
+
+#: SYudit.cpp:595
+msgid "print -e program"
+msgstr "print -e clár"
+
+#: SYudit.cpp:606
+msgid "Nothing to undo."
+msgstr "Faic le cur ar ceal."
+
+#: SYudit.cpp:615
+msgid "Nothing to redo."
+msgstr "Faic le hathdhéanamh."
+
+#: SYudit.cpp:635 SYudit.cpp:667
+msgid "Direction of selected text has been set."
+msgstr "Socraíodh treo don téacs roghnaithe."
+
+#: SYudit.cpp:650
+msgid "Direction of selected text has been re-set."
+msgstr "Athshocraíodh treo don téacs roghnaithe."
+
+#: SYudit.cpp:766
+msgid "Unsaved changes. Enter quits!"
+msgstr "Athruithe gan sábháil. Iontráil quits!"
+
+#: SYudit.cpp:775
+msgid "Pending printing job. Enter quits!"
+msgstr "Tá jab priontála ar siúl.  Iontráil quits!"
+
+#: SYudit.cpp:832 SYudit.cpp:847
+msgid "usage: "
+msgstr "úsáid: "
+
+#: SYudit.cpp:980
+msgid ""
+"usage: print [-o file] [-p printer] [-e exec] [-break] [-hsize header-font-"
+"size]"
+msgstr ""
+"úsáid: print [-o comhad] [-p printéir] [-e clár] [-break] [-hsize clómhéid]"
+
+#: SYudit.cpp:1037
+msgid "Printing..."
+msgstr "Ag Priontáil..."
+
+#: SYudit.cpp:1053
+#, c-format
+msgid "Printed %d page(s)."
+msgstr "Priontáladh %d leathanach."
+
+#: SYudit.cpp:1206
+msgid "usage: open -e utf-8 -yes filename"
+msgstr "úsáid: open -e utf-8 -yes comhad"
+
+#: SYudit.cpp:1214
+msgid "Unsaved changes. Try -yes option"
+msgstr "Athruithe gan sábháil.  Bain triail as an rogha `-yes'"
+
+#: SYudit.cpp:1220
+msgid "Pending printing job. Try -yes option"
+msgstr "Tá jab priontála ar siúl.  Bain triail as an rogha `-yes'"
+
+#: SYudit.cpp:1229 SYudit.cpp:1397
+msgid "Unknown encoding: "
+msgstr "Ionchódú anaithnid: "
+
+#: SYudit.cpp:1254
+msgid "Can not read: "
+msgstr "Ní féidir a léamh: "
+
+#: SYudit.cpp:1305
+msgid "Opened: "
+msgstr "Oscailte: "
+
+#: SYudit.cpp:1314
+msgid " Line Break:"
+msgstr " Briseadh Líne:"
+
+#: SYudit.cpp:1319 SYudit.cpp:1455
+msgid " Incomplete Last Line..."
+msgstr " Is neamhiomlán an líne dheireanach..."
+
+#: SYudit.cpp:1379
+msgid "usage: save -e utf-8 -yes filename"
+msgstr "úsáid: save -e utf-8 -yes comhad"
+
+#: SYudit.cpp:1388
+msgid "File exists. Use -yes option."
+msgstr "Tá an comhad ann cheana.  Úsáid an rogha `-yes'."
+
+#: SYudit.cpp:1410
+msgid "Can not write: "
+msgstr "Ní féidir a scríobh: "
+
+#: SYudit.cpp:1433
+msgid "Error while writing: "
+msgstr "Earráid i rith scríobh: "
+
+#: SYudit.cpp:1448
+msgid "Wrote: "
+msgstr "Scríobhadh: "
+
+#: SYudit.cpp:1471
+msgid "usage: go line [column] "
+msgstr "úsáid: go líne [colún] "
+
+#: SYudit.cpp:1507
+msgid "usage: find text"
+msgstr "úsáid: find téacs"
+
+#: SYudit.cpp:1513 SYudit.cpp:1538
+msgid "search string not found."
+msgstr "Ní bhfuarthas an teaghrán."
+
+#: SYudit.cpp:1532
+msgid "usage: replace original new"
+msgstr "úsáid: replace bunthéacs nuathéacs"
+
+#: SYudit.cpp:1747
+msgid "Could not save preferences"
+msgstr "Níorbh fhéidir airíonna a shábháil"
+
+#: SYudit.cpp:1768
+msgid "unsupported text/uri: "
+msgstr "níl an téacs/uri ar fáil: "
+
+#: SYudit.cpp:2098 SYudit.cpp:2125 SYudit.cpp:2140
+msgid "Command not found: "
+msgstr "Ní bhfuarthas an t-ordú: "

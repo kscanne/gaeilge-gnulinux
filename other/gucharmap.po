@@ -1,0 +1,982 @@
+# Irish Translation of gucharmap
+# Copyright (C) 2003, 2004 Free Software Foundation, Inc.
+# Paul Duffy <dubhthach@frink.nuigalway.ie>, 2003.
+# Alastair McKinstry <mckinstry@computer.org>, 2004.
+# Kevin Patrick Scannell <scannell@SLU.EDU>, 2004, 2005.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gucharmap HEAD\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2005-04-03 23:45-0500\n"
+"PO-Revision-Date: 2005-04-03 23:46-0500\n"
+"Last-Translator: Kevin Patrick Scannell <scannell@SLU.EDU>\n"
+"Language-Team: Irish <ga@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=n==1 ? 0 : (n>1 && n<7) ? 1 : (n>6 && n "
+"<11) ? 2 : 3;\n"
+
+#: ../gucharmap.desktop.in.h:1 ../gucharmap/gucharmap-window.c:324
+#: ../gucharmap/gucharmap-window.c:856
+msgid "Character Map"
+msgstr "Mapa Carachtar"
+
+#: ../gucharmap.desktop.in.h:2
+msgid "Insert special characters into documents"
+msgstr "Ionsáigh carachtair speisialta isteach i gcáipéisí"
+
+#: ../gucharmap/gucharmap-charmap.c:250
+msgid "Canonical decomposition:"
+msgstr "Scaradh canónta:"
+
+#: ../gucharmap/gucharmap-charmap.c:290 ../gucharmap/gucharmap-table.c:294
+msgid "[not a printable character]"
+msgstr "[carachtar neamhghrafach]"
+
+#: ../gucharmap/gucharmap-charmap.c:304
+msgid "General Character Properties"
+msgstr "Airíonna Carachtair Ginearálta"
+
+#. character category
+#: ../gucharmap/gucharmap-charmap.c:307
+msgid "Unicode category:"
+msgstr "Catagóir Unicode:"
+
+#: ../gucharmap/gucharmap-charmap.c:313
+msgid "Various Useful Representations"
+msgstr "Léirithe Áisiúla Éagsúla"
+
+#: ../gucharmap/gucharmap-charmap.c:322
+msgid "UTF-8:"
+msgstr "UTF-8:"
+
+#: ../gucharmap/gucharmap-charmap.c:330
+msgid "Octal escaped UTF-8:"
+msgstr "UTF-8 le héalúcháin ochtnártha:"
+
+#: ../gucharmap/gucharmap-charmap.c:336
+msgid "Decimal entity reference:"
+msgstr "Tagairt aonáin deachúlach:"
+
+#: ../gucharmap/gucharmap-charmap.c:342
+msgid "Annotations and Cross References"
+msgstr "Nótaí agus Crostagairtí"
+
+#: ../gucharmap/gucharmap-charmap.c:349
+msgid "Alias names:"
+msgstr "Ainmneacha malartacha:"
+
+#: ../gucharmap/gucharmap-charmap.c:358
+msgid "Notes:"
+msgstr "Nótaí:"
+
+#: ../gucharmap/gucharmap-charmap.c:367
+msgid "See also:"
+msgstr "Féach fosta:"
+
+#: ../gucharmap/gucharmap-charmap.c:376
+msgid "Approximate equivalents:"
+msgstr "Macasamhla garbha:"
+
+#: ../gucharmap/gucharmap-charmap.c:385
+msgid "Equivalents:"
+msgstr "Macasamhla:"
+
+#: ../gucharmap/gucharmap-charmap.c:400
+msgid "CJK Ideograph Information"
+msgstr "Eolas faoi idéagraif CJK"
+
+#: ../gucharmap/gucharmap-charmap.c:405
+msgid "Definition in English:"
+msgstr "Sainmhíniú as Béarla:"
+
+#: ../gucharmap/gucharmap-charmap.c:410
+msgid "Mandarin Pronunciation:"
+msgstr "Fuaimniú Mandairínise:"
+
+#: ../gucharmap/gucharmap-charmap.c:415
+msgid "Japanese On Pronunciation:"
+msgstr "Fuaimniú Seapáinise On:"
+
+#: ../gucharmap/gucharmap-charmap.c:420
+msgid "Japanese Kun Pronunciation:"
+msgstr "Fuaimniú Seapáinise Kun:"
+
+#: ../gucharmap/gucharmap-charmap.c:425
+msgid "Tang Pronunciation:"
+msgstr "Fuaimniú Tang:"
+
+#: ../gucharmap/gucharmap-charmap.c:430
+msgid "Korean Pronunciation:"
+msgstr "Fuaimniú Cóiréise:"
+
+#: ../gucharmap/gucharmap-charmap.c:731
+msgid "Characte_r Table"
+msgstr "Tábla Carachta_r"
+
+#: ../gucharmap/gucharmap-charmap.c:734
+msgid "Character _Details"
+msgstr "_Sonraí Carachtar"
+
+#: ../gucharmap/gucharmap-mini-fontsel.c:203
+msgid "Font"
+msgstr "Cló"
+
+#: ../gucharmap/gucharmap-mini-fontsel.c:210
+msgid "Font Family"
+msgstr "Fine Clófhoirne"
+
+#: ../gucharmap/gucharmap-mini-fontsel.c:230
+msgid "Font Size"
+msgstr "Clómhéid"
+
+#. Unicode assigns "Common" as the script name for any character not
+#. * specifically listed in Scripts.txt
+#: ../gucharmap/gucharmap-script-codepoint-list.c:458
+#: ../gucharmap/unicode-scripts.h:20
+msgid "Common"
+msgstr "Coitianta"
+
+#: ../gucharmap/gucharmap-table.c:1509
+msgid "Unknown character, unable to identify."
+msgstr "Carachtar anaithnid, ní féidir é a aithint."
+
+#: ../gucharmap/gucharmap-table.c:1511
+#: ../gucharmap/gucharmap-search-dialog.c:465
+msgid "Not found."
+msgstr "Ar iarraidh."
+
+#: ../gucharmap/gucharmap-table.c:1514
+msgid "Character found."
+msgstr "Aimsíodh an carachtar."
+
+#: ../gucharmap/gucharmap-table.c:1578
+msgid "Character Table"
+msgstr "Tábla Carachtar"
+
+#: ../gucharmap/gucharmap-unicode-info.c:94
+msgid "<Non Private Use High Surrogate>"
+msgstr "<Ionadaithe Arda Don Úsáid Phoiblí>"
+
+#: ../gucharmap/gucharmap-unicode-info.c:96
+msgid "<Private Use High Surrogate>"
+msgstr "<Ionadaithe Arda Don Úsáid Phríobháideach>"
+
+#: ../gucharmap/gucharmap-unicode-info.c:98
+msgid "<Low Surrogate>"
+msgstr "<Ionadaí Íseal>"
+
+#: ../gucharmap/gucharmap-unicode-info.c:100
+msgid "<Private Use>"
+msgstr "<Úsáid Phríobháideach>"
+
+#: ../gucharmap/gucharmap-unicode-info.c:102
+msgid "<Plane 15 Private Use>"
+msgstr "<Plána 15 Úsáid Phríobháideach>"
+
+#: ../gucharmap/gucharmap-unicode-info.c:104
+msgid "<Plane 16 Private Use>"
+msgstr "<Plána 16 Úsáid Phríobháideach>"
+
+#: ../gucharmap/gucharmap-unicode-info.c:109
+msgid "<not assigned>"
+msgstr "<ní ceaptha>"
+
+#: ../gucharmap/gucharmap-unicode-info.c:120
+msgid "Other, Control"
+msgstr "Eile, Rialúcháin"
+
+#: ../gucharmap/gucharmap-unicode-info.c:121
+msgid "Other, Format"
+msgstr "Eile, Formáid"
+
+#: ../gucharmap/gucharmap-unicode-info.c:122
+msgid "Other, Not Assigned"
+msgstr "Eile, Ní Ceaptha"
+
+#: ../gucharmap/gucharmap-unicode-info.c:123
+msgid "Other, Private Use"
+msgstr "Eile, Úsáid Phríobháideach"
+
+#: ../gucharmap/gucharmap-unicode-info.c:124
+msgid "Other, Surrogate"
+msgstr "Eile, Ionadaí"
+
+#: ../gucharmap/gucharmap-unicode-info.c:125
+msgid "Letter, Lowercase"
+msgstr "Litir, Beag"
+
+#: ../gucharmap/gucharmap-unicode-info.c:126
+msgid "Letter, Modifier"
+msgstr "Litir, Bunathraitheoir"
+
+#: ../gucharmap/gucharmap-unicode-info.c:127
+msgid "Letter, Other"
+msgstr "Litir, Eile"
+
+#: ../gucharmap/gucharmap-unicode-info.c:128
+msgid "Letter, Titlecase"
+msgstr "Litir, Teideal"
+
+#: ../gucharmap/gucharmap-unicode-info.c:129
+msgid "Letter, Uppercase"
+msgstr "Litir, Mór"
+
+#: ../gucharmap/gucharmap-unicode-info.c:130
+msgid "Mark, Spacing Combining"
+msgstr "Marc, Spásáil agus Snaidhmeadh"
+
+#: ../gucharmap/gucharmap-unicode-info.c:131
+msgid "Mark, Enclosing"
+msgstr "Marc, Fálú"
+
+#: ../gucharmap/gucharmap-unicode-info.c:132
+msgid "Mark, Non-Spacing"
+msgstr "Marc, Ní Spásáil"
+
+#: ../gucharmap/gucharmap-unicode-info.c:133
+msgid "Number, Decimal Digit"
+msgstr "Uimhir, Digit Dheachúlach"
+
+#: ../gucharmap/gucharmap-unicode-info.c:134
+msgid "Number, Letter"
+msgstr "Uimhir, Litir"
+
+#: ../gucharmap/gucharmap-unicode-info.c:135
+msgid "Number, Other"
+msgstr "Uimhir, Eile"
+
+#: ../gucharmap/gucharmap-unicode-info.c:136
+msgid "Punctuation, Connector"
+msgstr "Poncaíocht, Ceanglóir"
+
+#: ../gucharmap/gucharmap-unicode-info.c:137
+msgid "Punctuation, Dash"
+msgstr "Poncaíocht, Fleasc"
+
+#: ../gucharmap/gucharmap-unicode-info.c:138
+msgid "Punctuation, Close"
+msgstr "Poncaíocht, Deireadh"
+
+#: ../gucharmap/gucharmap-unicode-info.c:139
+msgid "Punctuation, Final Quote"
+msgstr "Poncaíocht, Deireadh Athfhriotail"
+
+#: ../gucharmap/gucharmap-unicode-info.c:140
+msgid "Punctuation, Initial Quote"
+msgstr "Poncaíocht, Tosach Athfhriotail"
+
+#: ../gucharmap/gucharmap-unicode-info.c:141
+msgid "Punctuation, Other"
+msgstr "Poncaíocht, Eile"
+
+#: ../gucharmap/gucharmap-unicode-info.c:142
+msgid "Punctuation, Open"
+msgstr "Poncaíocht, Oscailte"
+
+#: ../gucharmap/gucharmap-unicode-info.c:143
+msgid "Symbol, Currency"
+msgstr "Siombail, Airgeadra"
+
+#: ../gucharmap/gucharmap-unicode-info.c:144
+msgid "Symbol, Modifier"
+msgstr "Siombail, Bunathraitheoir"
+
+#: ../gucharmap/gucharmap-unicode-info.c:145
+msgid "Symbol, Math"
+msgstr "Siombail, Matamaitic"
+
+#: ../gucharmap/gucharmap-unicode-info.c:146
+msgid "Symbol, Other"
+msgstr "Siombail, Eile"
+
+#: ../gucharmap/gucharmap-unicode-info.c:147
+msgid "Separator, Line"
+msgstr "Deighilteoir, Líne"
+
+#: ../gucharmap/gucharmap-unicode-info.c:148
+msgid "Separator, Paragraph"
+msgstr "Deighilteoir, Alt"
+
+#: ../gucharmap/gucharmap-unicode-info.c:149
+msgid "Separator, Space"
+msgstr "Deighilteoir, Spás"
+
+#: ../gucharmap/gucharmap-window.c:189
+msgid "Searching..."
+msgstr "Ag cuardach..."
+
+#: ../gucharmap/gucharmap-window.c:319
+msgid "translator_credits"
+msgstr "admhálacha_aistritheoirí"
+
+#: ../gucharmap/gucharmap-window.c:420 ../gucharmap/gucharmap-window.c:602
+msgid "Next Script"
+msgstr "An Chéad Script Eile"
+
+#: ../gucharmap/gucharmap-window.c:421 ../gucharmap/gucharmap-window.c:603
+msgid "Previous Script"
+msgstr "An Script Roimhe Seo"
+
+#: ../gucharmap/gucharmap-window.c:433 ../gucharmap/gucharmap-window.c:607
+msgid "Next Block"
+msgstr "An Chéad Bhloc Eile"
+
+#: ../gucharmap/gucharmap-window.c:434 ../gucharmap/gucharmap-window.c:608
+msgid "Previous Block"
+msgstr "An Bloc Roimhe Seo"
+
+#: ../gucharmap/gucharmap-window.c:469
+msgid "_File"
+msgstr "_Comhad"
+
+#: ../gucharmap/gucharmap-window.c:471
+msgid "_View"
+msgstr "_Amharc"
+
+#: ../gucharmap/gucharmap-window.c:473
+msgid "_Search"
+msgstr "Aim_sigh"
+
+#: ../gucharmap/gucharmap-window.c:475
+msgid "_Go"
+msgstr "_Téigh"
+
+#: ../gucharmap/gucharmap-window.c:494
+msgid "By _Script"
+msgstr "De Réir _Script"
+
+#: ../gucharmap/gucharmap-window.c:500
+msgid "By _Unicode Block"
+msgstr "De Réir Bloc _Unicode"
+
+#: ../gucharmap/gucharmap-window.c:508
+msgid "Snap Columns to Power of Two"
+msgstr "Snap Colúin chuig Cumhacht de 2"
+
+#. ctrl-+
+#: ../gucharmap/gucharmap-window.c:516
+msgid "Zoom _In"
+msgstr "Súmáil _Isteach"
+
+#. ctrl--
+#: ../gucharmap/gucharmap-window.c:526
+msgid "Zoom _Out"
+msgstr "Súmáil _Amach"
+
+#. ctrl-=
+#: ../gucharmap/gucharmap-window.c:536
+msgid "_Normal Size"
+msgstr "G_náthmhéid"
+
+#: ../gucharmap/gucharmap-window.c:550
+msgid "_Find..."
+msgstr "Aim_sigh..."
+
+#: ../gucharmap/gucharmap-window.c:558
+msgid "Find _Next"
+msgstr "_Ar Aghaidh"
+
+#: ../gucharmap/gucharmap-window.c:567
+msgid "Find _Previous"
+msgstr "_Roimhe Seo"
+
+#: ../gucharmap/gucharmap-window.c:584
+msgid "_Next Character"
+msgstr "A_n Chéad Charachtar Eile"
+
+#: ../gucharmap/gucharmap-window.c:590
+msgid "_Previous Character"
+msgstr "An Carachtar _Roimhe Seo"
+
+#. make the help menu
+#: ../gucharmap/gucharmap-window.c:631
+msgid "_Help"
+msgstr "Cab_hair"
+
+#: ../gucharmap/gucharmap-window.c:714
+msgid "_Text to copy:"
+msgstr "_Téacs le cóipeáil:"
+
+#: ../gucharmap/gucharmap-window.c:735
+msgid "Copy to the clipboard."
+msgstr "Cóipeáil go dtí an ghearrthaisce."
+
+#: ../gucharmap/main.c:39
+msgid "Font to start with; ex: 'Serif 27'"
+msgstr "Cló tosaigh; m.sh.: `Serif 27'"
+
+#: ../gucharmap/unicode-blocks.h:18
+msgid "Basic Latin"
+msgstr "Bun-Laidineach"
+
+#: ../gucharmap/unicode-blocks.h:19
+msgid "Latin-1 Supplement"
+msgstr "Forlíonadh Laidineach 1"
+
+#: ../gucharmap/unicode-blocks.h:20
+msgid "Latin Extended-A"
+msgstr "Laidineach Breisithe A"
+
+#: ../gucharmap/unicode-blocks.h:21
+msgid "Latin Extended-B"
+msgstr "Laidineach Breisithe B"
+
+#: ../gucharmap/unicode-blocks.h:22
+msgid "IPA Extensions"
+msgstr "Eisínteachtaí IPA"
+
+#: ../gucharmap/unicode-blocks.h:23
+msgid "Spacing Modifier Letters"
+msgstr "Litreacha Bunathraitheora Spásála"
+
+#: ../gucharmap/unicode-blocks.h:24
+msgid "Combining Diacritical Marks"
+msgstr "Comharthaí Snaidhmthe Diaicritice"
+
+#: ../gucharmap/unicode-blocks.h:25
+msgid "Greek and Coptic"
+msgstr "Gréigis agus Coptais"
+
+#: ../gucharmap/unicode-blocks.h:26 ../gucharmap/unicode-scripts.h:22
+msgid "Cyrillic"
+msgstr "Coireallach"
+
+#: ../gucharmap/unicode-blocks.h:27
+msgid "Cyrillic Supplementary"
+msgstr "Coireallach Forlíontach"
+
+#: ../gucharmap/unicode-blocks.h:28 ../gucharmap/unicode-scripts.h:13
+msgid "Armenian"
+msgstr "Airméinis"
+
+#: ../gucharmap/unicode-blocks.h:29 ../gucharmap/unicode-scripts.h:34
+msgid "Hebrew"
+msgstr "Eabhrais"
+
+#: ../gucharmap/unicode-blocks.h:30 ../gucharmap/unicode-scripts.h:12
+msgid "Arabic"
+msgstr "Araibis"
+
+#: ../gucharmap/unicode-blocks.h:31 ../gucharmap/unicode-scripts.h:54
+msgid "Syriac"
+msgstr "Síris"
+
+#: ../gucharmap/unicode-blocks.h:32 ../gucharmap/unicode-scripts.h:60
+msgid "Thaana"
+msgstr "Tánach"
+
+#: ../gucharmap/unicode-blocks.h:33 ../gucharmap/unicode-scripts.h:24
+msgid "Devanagari"
+msgstr "Déiveanágraí"
+
+#: ../gucharmap/unicode-blocks.h:34 ../gucharmap/unicode-scripts.h:14
+msgid "Bengali"
+msgstr "Beangáilis"
+
+#: ../gucharmap/unicode-blocks.h:35 ../gucharmap/unicode-scripts.h:30
+msgid "Gurmukhi"
+msgstr "Gurmúcaí"
+
+#: ../gucharmap/unicode-blocks.h:36 ../gucharmap/unicode-scripts.h:29
+msgid "Gujarati"
+msgstr "Gúisearáitis"
+
+#: ../gucharmap/unicode-blocks.h:37 ../gucharmap/unicode-scripts.h:49
+msgid "Oriya"
+msgstr "Oirísis"
+
+#: ../gucharmap/unicode-blocks.h:38 ../gucharmap/unicode-scripts.h:58
+msgid "Tamil"
+msgstr "Tamailis"
+
+#: ../gucharmap/unicode-blocks.h:39 ../gucharmap/unicode-scripts.h:59
+msgid "Telugu"
+msgstr "Teileagúis"
+
+#: ../gucharmap/unicode-blocks.h:40 ../gucharmap/unicode-scripts.h:37
+msgid "Kannada"
+msgstr "Cannadais"
+
+#: ../gucharmap/unicode-blocks.h:41 ../gucharmap/unicode-scripts.h:44
+msgid "Malayalam"
+msgstr "Mailéalaimis"
+
+#: ../gucharmap/unicode-blocks.h:42 ../gucharmap/unicode-scripts.h:53
+msgid "Sinhala"
+msgstr "Siolóinis"
+
+#: ../gucharmap/unicode-blocks.h:43 ../gucharmap/unicode-scripts.h:61
+msgid "Thai"
+msgstr "Téalainnis"
+
+#: ../gucharmap/unicode-blocks.h:44 ../gucharmap/unicode-scripts.h:40
+msgid "Lao"
+msgstr "Láóis"
+
+#: ../gucharmap/unicode-blocks.h:45 ../gucharmap/unicode-scripts.h:62
+msgid "Tibetan"
+msgstr "Tibéidis"
+
+#: ../gucharmap/unicode-blocks.h:46 ../gucharmap/unicode-scripts.h:46
+msgid "Myanmar"
+msgstr "Maenmarais"
+
+#: ../gucharmap/unicode-blocks.h:47 ../gucharmap/unicode-scripts.h:26
+msgid "Georgian"
+msgstr "Seoirsis"
+
+#: ../gucharmap/unicode-blocks.h:48
+msgid "Hangul Jamo"
+msgstr "Seamó Hangalach"
+
+#: ../gucharmap/unicode-blocks.h:49 ../gucharmap/unicode-scripts.h:25
+msgid "Ethiopic"
+msgstr "Aetópach"
+
+#: ../gucharmap/unicode-blocks.h:50 ../gucharmap/unicode-scripts.h:19
+msgid "Cherokee"
+msgstr "Seiricis"
+
+#: ../gucharmap/unicode-blocks.h:51
+msgid "Unified Canadian Aboriginal Syllabics"
+msgstr "Siollaigh Bundúchasacha Ceanadacha Aontaithe"
+
+#: ../gucharmap/unicode-blocks.h:52 ../gucharmap/unicode-scripts.h:47
+msgid "Ogham"
+msgstr "Ogham"
+
+#: ../gucharmap/unicode-blocks.h:53 ../gucharmap/unicode-scripts.h:51
+msgid "Runic"
+msgstr "Rúnach"
+
+#: ../gucharmap/unicode-blocks.h:54 ../gucharmap/unicode-scripts.h:55
+msgid "Tagalog"
+msgstr "Tagálaigis"
+
+#: ../gucharmap/unicode-blocks.h:55 ../gucharmap/unicode-scripts.h:33
+msgid "Hanunoo"
+msgstr "Hanunoo"
+
+#: ../gucharmap/unicode-blocks.h:56 ../gucharmap/unicode-scripts.h:17
+msgid "Buhid"
+msgstr "Búidis"
+
+#: ../gucharmap/unicode-blocks.h:57 ../gucharmap/unicode-scripts.h:56
+msgid "Tagbanwa"
+msgstr "Tagbánbhais"
+
+#: ../gucharmap/unicode-blocks.h:58 ../gucharmap/unicode-scripts.h:39
+msgid "Khmer"
+msgstr "Ciméiris"
+
+#: ../gucharmap/unicode-blocks.h:59 ../gucharmap/unicode-scripts.h:45
+msgid "Mongolian"
+msgstr "Mongóilis"
+
+#: ../gucharmap/unicode-blocks.h:60 ../gucharmap/unicode-scripts.h:42
+msgid "Limbu"
+msgstr "Limbúis"
+
+#: ../gucharmap/unicode-blocks.h:61 ../gucharmap/unicode-scripts.h:57
+msgid "Tai Le"
+msgstr "Tai Le"
+
+#: ../gucharmap/unicode-blocks.h:62
+msgid "Khmer Symbols"
+msgstr "Siombailí Ciméaracha"
+
+#: ../gucharmap/unicode-blocks.h:63
+msgid "Phonetic Extensions"
+msgstr "Eisínteachtaí Foghracha"
+
+#: ../gucharmap/unicode-blocks.h:64
+msgid "Latin Extended Additional"
+msgstr "Laidin Bhreisithe Breise"
+
+#: ../gucharmap/unicode-blocks.h:65
+msgid "Greek Extended"
+msgstr "Gréigis Bhreisithe"
+
+#: ../gucharmap/unicode-blocks.h:66
+msgid "General Punctuation"
+msgstr "Poncaíocht Ghinearálta"
+
+#: ../gucharmap/unicode-blocks.h:67
+msgid "Superscripts and Subscripts"
+msgstr "Forscripteanna agus Foscripteanna"
+
+#: ../gucharmap/unicode-blocks.h:68
+msgid "Currency Symbols"
+msgstr "Siombailí Airgeadra"
+
+#: ../gucharmap/unicode-blocks.h:69
+msgid "Combining Diacritical Marks for Symbols"
+msgstr "Comharthaí Snaidhmthe Diaicritice le Siombailí"
+
+#: ../gucharmap/unicode-blocks.h:70
+msgid "Letterlike Symbols"
+msgstr "Siombailí Cosúil Le Litreacha"
+
+#: ../gucharmap/unicode-blocks.h:71
+msgid "Number Forms"
+msgstr "Foirmeacha Uimhreacha"
+
+#: ../gucharmap/unicode-blocks.h:72
+msgid "Arrows"
+msgstr "Saigheada"
+
+#: ../gucharmap/unicode-blocks.h:73
+msgid "Mathematical Operators"
+msgstr "Oibreoirí Matamaiticiúla"
+
+#: ../gucharmap/unicode-blocks.h:74
+msgid "Miscellaneous Technical"
+msgstr "Carachtair Éagsúla Teicniúla"
+
+#: ../gucharmap/unicode-blocks.h:75
+msgid "Control Pictures"
+msgstr "Pictiúir Rialacháin"
+
+#: ../gucharmap/unicode-blocks.h:76
+msgid "Optical Character Recognition"
+msgstr "Aithint Optúil Carachtar"
+
+#: ../gucharmap/unicode-blocks.h:77
+msgid "Enclosed Alphanumerics"
+msgstr "Carachtair Alfa-Uimhriúla Iniata"
+
+#: ../gucharmap/unicode-blocks.h:78
+msgid "Box Drawing"
+msgstr "Líníocht Bhoscaí"
+
+#: ../gucharmap/unicode-blocks.h:79
+msgid "Block Elements"
+msgstr "Eilimintí Blocála"
+
+#: ../gucharmap/unicode-blocks.h:80
+msgid "Geometric Shapes"
+msgstr "Fíoracha Céimseatúla"
+
+#: ../gucharmap/unicode-blocks.h:81
+msgid "Miscellaneous Symbols"
+msgstr "Siombailí Éagsúla"
+
+#: ../gucharmap/unicode-blocks.h:82
+msgid "Dingbats"
+msgstr "Comharthaí Chlódóra"
+
+#: ../gucharmap/unicode-blocks.h:83
+msgid "Miscellaneous Mathematical Symbols-A"
+msgstr "Siombailí Matamaiticiúla Éagsúla-A"
+
+#: ../gucharmap/unicode-blocks.h:84
+msgid "Supplemental Arrows-A"
+msgstr "Saigheada Forlíontacha-A"
+
+#: ../gucharmap/unicode-blocks.h:85
+msgid "Braille Patterns"
+msgstr "Patrúin Braille"
+
+#: ../gucharmap/unicode-blocks.h:86
+msgid "Supplemental Arrows-B"
+msgstr "Saigheada Forlíontacha-B"
+
+#: ../gucharmap/unicode-blocks.h:87
+msgid "Miscellaneous Mathematical Symbols-B"
+msgstr "Siombailí Matamaiticiúla Éagsúla-B"
+
+#: ../gucharmap/unicode-blocks.h:88
+msgid "Supplemental Mathematical Operators"
+msgstr "Oibreoirí Matamaiticiúla Forlíontacha"
+
+#: ../gucharmap/unicode-blocks.h:89
+msgid "Miscellaneous Symbols and Arrows"
+msgstr "Siombailí agus Saigheada Éagsúla"
+
+#: ../gucharmap/unicode-blocks.h:90
+msgid "CJK Radicals Supplement"
+msgstr "Fréamhacha CJK Forlíontacha"
+
+#: ../gucharmap/unicode-blocks.h:91
+msgid "Kangxi Radicals"
+msgstr "Fréamhacha Kangxi"
+
+#: ../gucharmap/unicode-blocks.h:92
+msgid "Ideographic Description Characters"
+msgstr "Carachtair Don Chur Síos Idéagrafach"
+
+#: ../gucharmap/unicode-blocks.h:93
+msgid "CJK Symbols and Punctuation"
+msgstr "Siombailí agus Poncaíocht CJK"
+
+#: ../gucharmap/unicode-blocks.h:94 ../gucharmap/unicode-scripts.h:35
+msgid "Hiragana"
+msgstr "Hiragana"
+
+#: ../gucharmap/unicode-blocks.h:95 ../gucharmap/unicode-scripts.h:38
+msgid "Katakana"
+msgstr "Katakana"
+
+#: ../gucharmap/unicode-blocks.h:96 ../gucharmap/unicode-scripts.h:15
+msgid "Bopomofo"
+msgstr "Bopomofo"
+
+#: ../gucharmap/unicode-blocks.h:97
+msgid "Hangul Compatibility Jamo"
+msgstr "Comhoiriúnacht Seamó Hangalach"
+
+#: ../gucharmap/unicode-blocks.h:98
+msgid "Kanbun"
+msgstr "Kanbun"
+
+#: ../gucharmap/unicode-blocks.h:99
+msgid "Bopomofo Extended"
+msgstr "Bopomofo Breisithe"
+
+#: ../gucharmap/unicode-blocks.h:100
+msgid "Katakana Phonetic Extensions"
+msgstr "Eisínteachtaí Foghracha Catacánacha"
+
+#: ../gucharmap/unicode-blocks.h:101
+msgid "Enclosed CJK Letters and Months"
+msgstr "Litreacha agus Míonna CJK-Iniata"
+
+#: ../gucharmap/unicode-blocks.h:102
+msgid "CJK Compatibility"
+msgstr "Comhoiriúnacht CJK"
+
+#: ../gucharmap/unicode-blocks.h:103
+msgid "CJK Unified Ideographs Extension A"
+msgstr "Idéagraif Aontaithe CJK-Eisínteacht A"
+
+#: ../gucharmap/unicode-blocks.h:104
+msgid "Yijing Hexagram Symbols"
+msgstr "Siombailí Heicseagraim Yijing"
+
+#: ../gucharmap/unicode-blocks.h:105
+msgid "CJK Unified Ideographs"
+msgstr "Idéagraif Aontaithe CJK"
+
+#: ../gucharmap/unicode-blocks.h:106
+msgid "Yi Syllables"
+msgstr "Siollaí Yi"
+
+#: ../gucharmap/unicode-blocks.h:107
+msgid "Yi Radicals"
+msgstr "Fréamhacha Yi"
+
+#: ../gucharmap/unicode-blocks.h:108
+msgid "Hangul Syllables"
+msgstr "Siollaí Hangalacha"
+
+#: ../gucharmap/unicode-blocks.h:109
+msgid "High Surrogates"
+msgstr "Ionadaithe Arda"
+
+#: ../gucharmap/unicode-blocks.h:110
+msgid "High Private Use Surrogates"
+msgstr "Ionadaithe Arda Don Úsáid Phríobháideach"
+
+#: ../gucharmap/unicode-blocks.h:111
+msgid "Low Surrogates"
+msgstr "Ionadaithe Ísle"
+
+#: ../gucharmap/unicode-blocks.h:112
+msgid "Private Use Area"
+msgstr "Réimse Don Úsáid Phríobháideach"
+
+#: ../gucharmap/unicode-blocks.h:113
+msgid "CJK Compatibility Ideographs"
+msgstr "Idéagraif Chomhoiriúnachta CJK"
+
+#: ../gucharmap/unicode-blocks.h:114
+msgid "Alphabetic Presentation Forms"
+msgstr "Foirmeacha Taispeána Aibítreacha"
+
+#: ../gucharmap/unicode-blocks.h:115
+msgid "Arabic Presentation Forms-A"
+msgstr "Foirmeacha Taispeána Araibise-A"
+
+#: ../gucharmap/unicode-blocks.h:116
+msgid "Variation Selectors"
+msgstr "Roghnóirí Athruithe"
+
+#: ../gucharmap/unicode-blocks.h:117
+msgid "Combining Half Marks"
+msgstr "Leathmharcanna Snaidhmthe"
+
+#: ../gucharmap/unicode-blocks.h:118
+msgid "CJK Compatibility Forms"
+msgstr "Foirmeacha Comhoiriúnachta CJK"
+
+#: ../gucharmap/unicode-blocks.h:119
+msgid "Small Form Variants"
+msgstr "Foirmeacha Malartacha Beaga"
+
+#: ../gucharmap/unicode-blocks.h:120
+msgid "Arabic Presentation Forms-B"
+msgstr "Foirmeacha Taispeána Araibise-B"
+
+#: ../gucharmap/unicode-blocks.h:121
+msgid "Halfwidth and Fullwidth Forms"
+msgstr "Foirmeacha Lánleithid agus Leathleithid"
+
+#: ../gucharmap/unicode-blocks.h:122
+msgid "Specials"
+msgstr "Speisialta"
+
+#: ../gucharmap/unicode-blocks.h:123
+msgid "Linear B Syllabary"
+msgstr "Siollalann Linear B"
+
+#: ../gucharmap/unicode-blocks.h:124
+msgid "Linear B Ideograms"
+msgstr "Idéagraim Linear B"
+
+#: ../gucharmap/unicode-blocks.h:125
+msgid "Aegean Numbers"
+msgstr "Uimhreacha Aegéacha"
+
+#: ../gucharmap/unicode-blocks.h:126 ../gucharmap/unicode-scripts.h:48
+msgid "Old Italic"
+msgstr "Sean-Iodáilic"
+
+#: ../gucharmap/unicode-blocks.h:127 ../gucharmap/unicode-scripts.h:27
+msgid "Gothic"
+msgstr "Gotais"
+
+#: ../gucharmap/unicode-blocks.h:128 ../gucharmap/unicode-scripts.h:63
+msgid "Ugaritic"
+msgstr "Úgairitis"
+
+#: ../gucharmap/unicode-blocks.h:129 ../gucharmap/unicode-scripts.h:23
+msgid "Deseret"
+msgstr "Deseret"
+
+#: ../gucharmap/unicode-blocks.h:130 ../gucharmap/unicode-scripts.h:52
+msgid "Shavian"
+msgstr "Seaibheach"
+
+#: ../gucharmap/unicode-blocks.h:131 ../gucharmap/unicode-scripts.h:50
+msgid "Osmanya"
+msgstr "Osmanya"
+
+#: ../gucharmap/unicode-blocks.h:132
+msgid "Cypriot Syllabary"
+msgstr "Siollalann Chipireach"
+
+#: ../gucharmap/unicode-blocks.h:133
+msgid "Byzantine Musical Symbols"
+msgstr "Siombailí Ceoil Biosántacha"
+
+#: ../gucharmap/unicode-blocks.h:134
+msgid "Musical Symbols"
+msgstr "Siombailí Ceoil"
+
+#: ../gucharmap/unicode-blocks.h:135
+msgid "Tai Xuan Jing Symbols"
+msgstr "Siombailí Tai Xuan Jing"
+
+#: ../gucharmap/unicode-blocks.h:136
+msgid "Mathematical Alphanumeric Symbols"
+msgstr "Siombailí Matamaiticiúla Alfa-Uimhriúla"
+
+#: ../gucharmap/unicode-blocks.h:137
+msgid "CJK Unified Ideographs Extension B"
+msgstr "Idéagraif Aontaithe CJK-Eisínteacht B"
+
+#: ../gucharmap/unicode-blocks.h:138
+msgid "CJK Compatibility Ideographs Supplement"
+msgstr "Idéagraif Fhorlíontacha Chomhoiriúnachta CJK"
+
+#: ../gucharmap/unicode-blocks.h:139
+msgid "Tags"
+msgstr "Clibeanna"
+
+#: ../gucharmap/unicode-blocks.h:140
+msgid "Variation Selectors Supplement"
+msgstr "Roghnóirí Athruithe Forlíontacha"
+
+#: ../gucharmap/unicode-blocks.h:141
+msgid "Supplementary Private Use Area-A"
+msgstr "Réimse Forlíontach Don Úsáid Phríobháideach-A"
+
+#: ../gucharmap/unicode-blocks.h:142
+msgid "Supplementary Private Use Area-B"
+msgstr "Réimse Forlíontach Don Úsáid Phríobháideach-B"
+
+#: ../gucharmap/unicode-scripts.h:16
+msgid "Braille"
+msgstr "Braille"
+
+#: ../gucharmap/unicode-scripts.h:18
+msgid "Canadian Aboriginal"
+msgstr "Bundúchasach Ceanadach"
+
+#: ../gucharmap/unicode-scripts.h:21
+msgid "Cypriot"
+msgstr "Cipireach"
+
+#: ../gucharmap/unicode-scripts.h:28
+msgid "Greek"
+msgstr "Gréigis"
+
+#: ../gucharmap/unicode-scripts.h:31
+msgid "Han"
+msgstr "Han"
+
+#: ../gucharmap/unicode-scripts.h:32
+msgid "Hangul"
+msgstr "Hangalach"
+
+#: ../gucharmap/unicode-scripts.h:36
+msgid "Inherited"
+msgstr "Oidhreachta"
+
+#: ../gucharmap/unicode-scripts.h:41
+msgid "Latin"
+msgstr "Laidin"
+
+#: ../gucharmap/unicode-scripts.h:43
+msgid "Linear B"
+msgstr "Linear B"
+
+#: ../gucharmap/unicode-scripts.h:64
+msgid "Yi"
+msgstr "Yi"
+
+#: ../gucharmap/gucharmap-block-chapters.c:61
+msgid "All"
+msgstr "Uile"
+
+#: ../gucharmap/gucharmap-block-chapters.c:79
+msgid "Unicode Block"
+msgstr "Bloc Unicode"
+
+#: ../gucharmap/gucharmap-script-chapters.c:76
+msgid "Script"
+msgstr "Script"
+
+#: ../gucharmap/gucharmap-search-dialog.c:419
+msgid "Information"
+msgstr "Eolas"
+
+#. follow hig guidelines
+#: ../gucharmap/gucharmap-search-dialog.c:592
+msgid "Find"
+msgstr "Aimsigh"
+
+#: ../gucharmap/gucharmap-search-dialog.c:606
+msgid "_Previous"
+msgstr "_Roimhe Seo"
+
+#: ../gucharmap/gucharmap-search-dialog.c:613
+msgid "_Next"
+msgstr "_Ar Aghaidh"
+
+#: ../gucharmap/gucharmap-search-dialog.c:623
+msgid "_Search:"
+msgstr "Aim_sigh:"
