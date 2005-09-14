@@ -138,6 +138,7 @@ cursor		táscaire		cúrsóir		cursor		th?áscair
 custom		do_cheann_féin		saincheaptha	custom		féin
 custom		leithleach		saincheaptha	custom		leithl
 custom		sainchóirithe		saincheaptha	custom		sh?ainchóir
+cycle		timthriall		ciogal		cycl		imthrial
 dash		fleasc			dais		dash		fh?le[ia]sc
 # FRTF/FARF
 declaration	dearbhú			fógra		declaration	dh?earbh
@@ -155,6 +156,8 @@ delete		díothaigh		scrios		delete		dh?íoth
 delimiter	teorantóir		teomharcóir	delimiter	th?eorantó
 # FARF has ceann scríbe but BÓB prefers sprioc
 destination		ceann_scríbe	sprioc	destination		scríbe
+# no FRTF or FARF
+destroy		scrios			léirscrios	destroy		[^r]scrios
 # FARF/FRTF
 device		áis			gléas		device		áis
 device		deis			gléas		device		dh?eis
@@ -209,8 +212,11 @@ encryption	incriptiúchán		criptiú		encrypt		incrip
 encryption	rúnscríobh		criptiú		encrypt		rúnscr
 # FRTF
 enter		tabhair_uait		iontráil	enter		bhair.uait
+# FARF (FRTF críoch comhaid)
+EOF		EOF			comhadchríoch	eof		eof
 # FRTF léirscrios
 erase		scrios			léirscrios,_glan	eras(e|ing)	[^r]scrios
+erase		bánaigh			glan		eras(e|ing)	bh?án
 # FARF/FRTF for "expression eval"
 evaluation	meas			luacháil	evaluat		mh?eas
 # FRTF
@@ -482,6 +488,9 @@ server		friothálaí		freastalaí	server		fh?riothál
 server		dáileoir		freastalaí	server		dh?áileoi?r
 # FARF/FRTF cumraíocht
 setup		cumraigh		socrú		setup		ch?umr
+# no FRTF or FARF; OLT has "stiall" for paper
+shred		mionghearr		léirscrios	shred		mh?ion
+shred		stiall			léirscrios	shred		stiall
 size		toirt			méid		size		th?oirt
 size		tomhas			méid		size		th?omhai?s
 # FARF/FRTF

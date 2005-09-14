@@ -407,7 +407,7 @@ msgstr "Tá difríocht idir na hábhair"
 #: src/compare.c:158 src/extract.c:763 src/incremen.c:496 src/list.c:235
 #: src/list.c:412 src/list.c:1282
 msgid "Unexpected EOF in archive"
-msgstr "EO gan choinne i gcartlann"
+msgstr "Comhadchríoch gan choinne i gcartlann"
 
 #: src/compare.c:212
 #, c-format
@@ -823,7 +823,7 @@ msgstr "Nasctha %s le %s"
 #: src/mangle.c:117
 #, c-format
 msgid "Unknown demangling command %s"
-msgstr "Ordú díchoscartha %s anaithnid"
+msgstr "Ordú anaithnid díchoscartha %s"
 
 #: src/misc.c:390
 #, c-format
@@ -912,7 +912,7 @@ msgstr[3] "%s: Níor scríobhadh ach %lu as %lu beart"
 
 #: src/misc.c:918
 msgid "child process"
-msgstr "próiseas sleachta"
+msgstr "macphróiseas"
 
 #: src/misc.c:927
 msgid "interprocess channel"
@@ -1159,7 +1159,7 @@ msgstr "sórtáil ainmneacha le cur in oiriúint"
 
 #: src/tar.c:354
 msgid "same as both -p and -s"
-msgstr "ar chomhbhrí le -p agus -s araon"
+msgstr "ar comhbhrí le -p agus -s araon"
 
 #: src/tar.c:357
 msgid "Device selection and switching:"
@@ -1271,7 +1271,7 @@ msgstr "formáid POSIX 1003.1-2001 (pax)"
 
 #: src/tar.c:421
 msgid "Same as pax"
-msgstr "ar chomhbhrí le pax"
+msgstr "ar comhbhrí le pax"
 
 #: src/tar.c:424
 msgid "same as --format=v7"
@@ -1431,7 +1431,7 @@ msgstr "déan comparáid le dáta/am modhnaithe"
 
 #: src/tar.c:491
 msgid "same as -N"
-msgstr "ar chomhbhrí le -N"
+msgstr "ar comhbhrí le -N"
 
 #: src/tar.c:492
 msgid "CONTROL"

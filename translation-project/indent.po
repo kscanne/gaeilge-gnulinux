@@ -141,7 +141,7 @@ msgstr "#endif corr"
 
 #: src/indent.c:2381
 msgid "EOF encountered in comment"
-msgstr "Buaileadh EOF i nóta tráchta"
+msgstr "Buaileadh comhadchríoch i nóta tráchta"
 
 # in FARF -KPS
 #: src/indent.c:2610

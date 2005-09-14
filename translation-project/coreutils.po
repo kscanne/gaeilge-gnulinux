@@ -6060,7 +6060,7 @@ msgid ""
 msgstr ""
 "  -f, --force    más gá, athraigh ceadanna chun go bhfuil scríobh ceadaithe\n"
 "  -n, --iterations=N  Forscríobh N uaire in ionad an réamhshocraithe (%d)\n"
-"  -s, --size=N   mionghearr N beart (iarmhíreanna mar K, M, G glactha)\n"
+"  -s, --size=N   léirscrios N beart (iarmhíreanna mar K, M, G glactha)\n"
 
 #: src/shred.c:171
 msgid ""
@@ -6074,7 +6074,7 @@ msgstr ""
 "  -v, --verbose  taispeáin eolas faoin dul chun cinn\n"
 "  -x, --exact    ná slánaigh méideanna comhaid suas;\n"
 "                   is réamhshocraithe é seo le haghaidh comhad neamhghnách\n"
-"  -z, --zero     forscríobh deireanach le nialais, folaigh mionghearradh\n"
+"  -z, --zero     forscríobh deireanach le nialais, folaigh an léirscrios\n"
 
 #: src/shred.c:180
 msgid ""
@@ -6088,7 +6088,7 @@ msgid ""
 "\n"
 msgstr ""
 "\n"
-"Más '-' é COMHAD, mionghearr an t-aschur caighdeánach.\n"
+"Más '-' é COMHAD, léirscrios an t-aschur caighdeánach.\n"
 "\n"
 "Scrios COMHA(I)D má tá --remove (-u) ceaptha. De réir an réamhshocraithe, ná\n"
 "scrios na comhaid de bhrí go mbaintear le comhaid gléis mar /dev/hda\n"
@@ -6148,8 +6148,8 @@ msgstr ""
 "* córais chomhaid comhbhrúite\n"
 "\n"
 "Sa bhreis, is féidir go bhfuil cóipeanna den chomhad i gcúltacaí\n"
-"agus scátháin iargúlta agus ní féidir na comhaid seo a scriosadh,\n"
-"ag ceadú an comhad a athghabháil níos déanaí.\n"
+"agus ar scátháin iargúlta agus ní féidir na comhaid seo a scriosadh,\n"
+"ag ceadú an comhad a bheith aisghafa níos déanaí.\n"
 
 #: src/shred.c:772
 #, c-format
@@ -6226,7 +6226,7 @@ msgstr "%s: theip ar fcntl"
 #: src/shred.c:1366
 #, c-format
 msgid "%s: cannot shred append-only file descriptor"
-msgstr "%s: ní féidir tuarascálaí comhaid sínte amháin a mhionghearradh"
+msgstr "%s: ní féidir tuarascálaí comhaid sínte amháin a léirscriosadh"
 
 #: src/shred.c:1446
 #, c-format

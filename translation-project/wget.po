@@ -216,7 +216,7 @@ msgstr "críochnaithe."
 
 #: src/ftp.c:487
 msgid "==> CWD not needed.\n"
-msgstr "==> Ní gá le CWD.\n"
+msgstr "==> Níl gá le CWD.\n"
 
 #: src/ftp.c:580
 #, c-format
@@ -230,7 +230,7 @@ msgstr ""
 #. do not CWD
 #: src/ftp.c:595
 msgid "==> CWD not required.\n"
-msgstr "==> Ní gá le CWD.\n"
+msgstr "==> Níl gá le CWD.\n"
 
 #: src/ftp.c:654
 msgid "Cannot initiate PASV transfer.\n"

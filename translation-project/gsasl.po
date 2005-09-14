@@ -168,7 +168,7 @@ msgstr "Fíordheimhniú den chliant déanta (freastalaí iontaofa)...\n"
 
 #, c-format
 msgid "Enter application data (EOF to finish):\n"
-msgstr "Iontráil sonraí feidhmchláir (EOF nuair atá tú déanta):\n"
+msgstr "Iontráil sonraí feidhmchláir (comhadchríoch nuair atá tú déanta):\n"
 
 #, c-format
 msgid "Base64 encoded application data to send:\n"

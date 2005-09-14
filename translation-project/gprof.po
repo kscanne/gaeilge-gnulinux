@@ -17,27 +17,27 @@ msgstr ""
 
 #: alpha.c:102 mips.c:54
 msgid "<indirect child>"
-msgstr ""
+msgstr "<mac indíreach>"
 
 #: alpha.c:119 mips.c:71
 #, c-format
 msgid "[find_call] %s: 0x%lx to 0x%lx\n"
-msgstr ""
+msgstr "[find_call] %s: 0x%lx go 0x%lx\n"
 
 #: alpha.c:141
 #, c-format
 msgid "[find_call] 0x%lx: jsr%s <indirect_child>\n"
-msgstr ""
+msgstr "[find_call] 0x%lx: jsr%s <mac_indíreach>\n"
 
 #: alpha.c:151
 #, c-format
 msgid "[find_call] 0x%lx: bsr"
-msgstr ""
+msgstr "[find_call] 0x%lx: bsr"
 
 #: basic_blocks.c:128 call_graph.c:89 hist.c:97
 #, c-format
 msgid "%s: %s: unexpected end of file\n"
-msgstr ""
+msgstr "%s; %s: comhadchríoch gan choinne\n"
 
 #: basic_blocks.c:196
 #, c-format
@@ -48,7 +48,7 @@ msgstr ""
 #: basic_blocks.c:287 basic_blocks.c:297
 #, c-format
 msgid "%s:%d: (%s:0x%lx) %lu executions\n"
-msgstr ""
+msgstr "%s:%d: (%s:0x%lx) %lu rith\n"
 
 #: basic_blocks.c:288 basic_blocks.c:298
 msgid "<unknown>"
@@ -64,6 +64,12 @@ msgid ""
 "     Line      Count\n"
 "\n"
 msgstr ""
+"\n"
+"\n"
+"%d Príomhlíne:\n"
+"\n"
+"     Líne      Líon\n"
+"\n"
 
 #: basic_blocks.c:565
 #, c-format
@@ -72,21 +78,24 @@ msgid ""
 "Execution Summary:\n"
 "\n"
 msgstr ""
+"\n"
+"Achoimre Rite:\n"
+"\n"
 
 #: basic_blocks.c:566
 #, c-format
 msgid "%9ld   Executable lines in this file\n"
-msgstr ""
+msgstr "%9ld   Línte inrite sa chomhad seo\n"
 
 #: basic_blocks.c:568
 #, c-format
 msgid "%9ld   Lines executed\n"
-msgstr ""
+msgstr "%9ld   Línte arna rith\n"
 
 #: basic_blocks.c:569
 #, c-format
 msgid "%9.2f   Percent of the file executed\n"
-msgstr ""
+msgstr "%9.2f   Céatadán den chomhad a ritheadh\n"
 
 #: basic_blocks.c:573
 #, c-format
@@ -94,6 +103,8 @@ msgid ""
 "\n"
 "%9lu   Total number of line executions\n"
 msgstr ""
+"\n"
+"%9lu   Líon iomlán na línte a ritheadh\n"
 
 #: basic_blocks.c:575
 #, c-format
@@ -103,7 +114,7 @@ msgstr ""
 #: call_graph.c:68
 #, c-format
 msgid "[cg_tally] arc from %s to %s traversed %lu times\n"
-msgstr ""
+msgstr "[cg_tally] trasnaíodh an t-arc ó %s go %s %lu uaire\n"
 
 #: cg_print.c:73
 #, c-format
@@ -111,6 +122,8 @@ msgid ""
 "\t\t     Call graph (explanation follows)\n"
 "\n"
 msgstr ""
+"\t\t     Graf na nglaonna (míniú ina dhiaidh)\n"
+"\n"
 
 #: cg_print.c:75
 #, c-format
@@ -118,6 +131,8 @@ msgid ""
 "\t\t\tCall graph\n"
 "\n"
 msgstr ""
+"\t\t\tGraf na nglaonna\n"
+"\n"
 
 #: cg_print.c:78 hist.c:359
 #, c-format
@@ -132,6 +147,8 @@ msgid ""
 " for %.2f%% of %.2f seconds\n"
 "\n"
 msgstr ""
+" do %.2f%% as %.2f soicind\n"
+"\n"
 
 #: cg_print.c:86
 #, c-format
@@ -142,7 +159,7 @@ msgstr ""
 
 #: cg_print.c:95 cg_print.c:98 cg_print.c:100
 msgid "called"
-msgstr ""
+msgstr "glaoite"
 
 #: cg_print.c:95 cg_print.c:100
 msgid "total"
@@ -159,7 +176,7 @@ msgstr "innéacs"
 #: cg_print.c:97
 #, c-format
 msgid "%time"
-msgstr ""
+msgstr "%am"
 
 #: cg_print.c:97 cg_print.c:98
 msgid "self"
@@ -180,12 +197,12 @@ msgstr "mic"
 #: cg_print.c:105
 #, c-format
 msgid "index %% time    self  children    called     name\n"
-msgstr ""
+msgstr "innéacs %% am    féin  mic         glaoite    ainm\n"
 
 #: cg_print.c:128
 #, c-format
 msgid " <cycle %d as a whole> [%d]\n"
-msgstr ""
+msgstr " <ciogal %d ina iomláine> [%d]\n"
 
 #: cg_print.c:354
 #, c-format
@@ -203,31 +220,33 @@ msgid ""
 "Index by function name\n"
 "\n"
 msgstr ""
+"Innéacsaigh de réir ainm na feidhme\n"
+"\n"
 
 #: cg_print.c:646 cg_print.c:655
 #, c-format
 msgid "<cycle %d>"
-msgstr ""
+msgstr "<ciogal %d>"
 
 #: corefile.c:64
 #, c-format
 msgid "%s: could not open %s.\n"
-msgstr ""
+msgstr "%s: níorbh fhéidir %s a oscailt.\n"
 
 #: corefile.c:78 corefile.c:112
 #, c-format
 msgid "%s: unable to parse mapping file %s.\n"
-msgstr ""
+msgstr "%s: ní féidir comhad mapála %s a pharsáil.\n"
 
 #: corefile.c:155
 #, c-format
 msgid "%s: %s: not in a.out format\n"
-msgstr ""
+msgstr "%s: %s: ní san fhormáid a.out\n"
 
 #: corefile.c:166
 #, c-format
 msgid "%s: can't find .text section in %s\n"
-msgstr ""
+msgstr "%s: ní féidir roinn .text a aimsiú i %s\n"
 
 #: corefile.c:224
 #, c-format
@@ -237,17 +256,17 @@ msgstr ""
 #: corefile.c:238
 #, c-format
 msgid "%s: can't do -c\n"
-msgstr ""
+msgstr "%s: ní féidir -c a dhéanamh\n"
 
 #: corefile.c:272
 #, c-format
 msgid "%s: -c not supported on architecture %s\n"
-msgstr ""
+msgstr "%s: -c gan tacaíocht ar ailtireacht %s\n"
 
 #: corefile.c:437
 #, c-format
 msgid "%s: file `%s' has no symbols\n"
-msgstr ""
+msgstr "%s: níl siombailí ar bith ag an gcomhad `%s'\n"
 
 #: corefile.c:751
 #, c-format
@@ -267,37 +286,37 @@ msgstr ""
 #: gmon_io.c:327 gmon_io.c:456
 #, c-format
 msgid "%s: file `%s' has bad magic cookie\n"
-msgstr ""
+msgstr "%s: fianán draíochta go holc ag an gcomhad `%s'\n"
 
 #: gmon_io.c:338
 #, c-format
 msgid "%s: file `%s' has unsupported version %d\n"
-msgstr ""
+msgstr "%s: leagan %d gan tacaíocht ag an gcomhad `%s'\n"
 
 #: gmon_io.c:368
 #, c-format
 msgid "%s: %s: found bad tag %d (file corrupted?)\n"
-msgstr ""
+msgstr "%s: %s: aimsíodh droch-chlib %d (comhad truaillithe?)\n"
 
 #: gmon_io.c:435
 #, c-format
 msgid "%s: profiling rate incompatible with first gmon file\n"
-msgstr ""
+msgstr "%s: níl an ráta próifílithe comhoiriúnach leis an chéad chomhad gmon\n"
 
 #: gmon_io.c:483
 #, c-format
 msgid "%s: incompatible with first gmon file\n"
-msgstr ""
+msgstr "%s: neamh-chomhoiriúnach leis an chéad chomhad gmon\n"
 
 #: gmon_io.c:511
 #, c-format
 msgid "%s: file '%s' does not appear to be in gmon.out format\n"
-msgstr ""
+msgstr "%s: is cosúil nach bhfuil comhad '%s' i bhformáid gmon.out\n"
 
 #: gmon_io.c:532
 #, c-format
 msgid "%s: unexpected EOF after reading %d/%d bins\n"
-msgstr ""
+msgstr "%s: comhadchríoch gan choinne i ndiaidh %d/%d gabhdán á léamh\n"
 
 #: gmon_io.c:565
 #, c-format
@@ -307,7 +326,7 @@ msgstr ""
 #: gmon_io.c:571 gmon_io.c:747
 #, c-format
 msgid "%s: don't know how to deal with file format %d\n"
-msgstr ""
+msgstr "%s: níl a fhios agam conas formáid %d a láimhseáil\n"
 
 #: gmon_io.c:578
 #, c-format
@@ -322,7 +341,7 @@ msgstr ""
 #: gmon_io.c:582
 #, c-format
 msgid "\t%d histogram records\n"
-msgstr ""
+msgstr "\t%d taifead histeagraim\n"
 
 #: gmon_io.c:584
 #, c-format
@@ -361,21 +380,34 @@ msgid ""
 "\t[--demangle[=STYLE]] [--no-demangle]\n"
 "\t[image-file] [profile-file...]\n"
 msgstr ""
+"Úsáid: %s [-[abcDhilLsTvwxyz]] [-[ACeEfFJnNOpPqQZ][ainm]] [-I comhadlanna]\n"
+"\t[-d[uimhir]] [-k ó/go] [-m íosmhéid] [-t fadtábla]\n"
+"\t[--[no-]annotated-source[=ainm]] [--[no-]exec-counts[=ainm]]\n"
+"\t[--[no-]flat-profile[=ainm]] [--[no-]graph[=ainm]]\n"
+"\t[--[no-]time=ainm] [--all-lines] [--brief] [--debug[=leibhéal]]\n"
+"\t[--function-ordering] [--file-ordering]\n"
+"\t[--directory-path=comhadlanna] [--display-unused-functions]\n"
+"\t[--file-format=ainm] [--file-info] [--help] [--line] [--min-count=n]\n"
+"\t[--no-static] [--print-path] [--separate-files]\n"
+"\t[--static-call-graph] [--sum] [--table-length=fad] [--traditional]\n"
+"\t[--version] [--width=n] [--ignore-non-functions]\n"
+"\t[--demangle[=STÍL]] [--no-demangle]\n"
+"\t[comhad-íomhá] [comhad-próifíle...]\n"
 
 #: gprof.c:176
 #, c-format
 msgid "Report bugs to %s\n"
-msgstr ""
+msgstr "Seol tuairiscí fabhtanna chuig %s\n"
 
 #: gprof.c:248
 #, c-format
 msgid "%s: debugging not supported; -d ignored\n"
-msgstr ""
+msgstr "%s: ní thacaítear le dífhabhtú; rinneadh neamhshuim ar -d\n"
 
 #: gprof.c:328
 #, c-format
 msgid "%s: unknown file format %s\n"
-msgstr ""
+msgstr "%s: formáid anaithnid chomhaid %s\n"
 
 #. This output is intended to follow the GNU standards document.
 #: gprof.c:412
@@ -388,33 +420,39 @@ msgstr "gprof GNU %s\n"
 msgid ""
 "Based on BSD gprof, copyright 1983 Regents of the University of California.\n"
 msgstr ""
+"Bunaithe ar gprof BSD, cóipcheart 1983 Regents of the University of "
+"California.\n"
 
 #: gprof.c:414
 #, c-format
 msgid ""
 "This program is free software.  This program has absolutely no warranty.\n"
 msgstr ""
+"Is saorbhogearra é an clár seo.  Níl baránta ar chor ar bith leis an gclár "
+"seo.\n"
 
 #: gprof.c:455
 #, c-format
 msgid "%s: unknown demangling style `%s'\n"
-msgstr ""
+msgstr "%s: stíl anaithnid díchoscartha `%s'\n"
 
 #: gprof.c:475
 #, c-format
 msgid ""
 "%s: Only one of --function-ordering and --file-ordering may be specified.\n"
 msgstr ""
+"%s: Ní cheadaítear ach ceann amháin de --function-ordering agus --file-"
+"ordering a bheith sonraithe.\n"
 
 #: gprof.c:525
 #, c-format
 msgid "%s: sorry, file format `prof' is not yet supported\n"
-msgstr ""
+msgstr "%s: tá brón orm, ní thacaítear le formáid `prof' fós\n"
 
 #: gprof.c:574
 #, c-format
 msgid "%s: gmon.out file is missing histogram\n"
-msgstr ""
+msgstr "%s: histeagram ar iarraidh i gcomhad gmon.out\n"
 
 #: gprof.c:581
 #, c-format
@@ -429,7 +467,7 @@ msgstr ""
 #: hist.c:142
 #, c-format
 msgid "%s: %s: unexpected EOF after reading %u of %u samples\n"
-msgstr ""
+msgstr "%s: %s: comhadchríoch gan choinne i ndiaidh léimh %u as %u sampla\n"
 
 #: hist.c:355
 #, c-format
@@ -442,6 +480,8 @@ msgid ""
 " for %.2f%% of %.2f %s\n"
 "\n"
 msgstr ""
+" do %.2f%% as %.2f %s\n"
+"\n"
 
 #: hist.c:369
 #, c-format
@@ -459,7 +499,7 @@ msgstr ""
 
 #: hist.c:381
 msgid "cumulative"
-msgstr ""
+msgstr "carnach"
 
 #: hist.c:381
 msgid "self  "
@@ -475,7 +515,7 @@ msgstr "am"
 
 #: hist.c:384
 msgid "calls"
-msgstr ""
+msgstr "glaonna"
 
 #: hist.c:473
 #, c-format
@@ -485,26 +525,30 @@ msgid ""
 "\n"
 "flat profile:\n"
 msgstr ""
+"\n"
+"\n"
+"\n"
+"próifíl chothrom:\n"
 
 #: hist.c:479
 #, c-format
 msgid "Flat profile:\n"
-msgstr ""
+msgstr "Próifíl chothrom:\n"
 
 #: mips.c:82
 #, c-format
 msgid "[find_call] 0x%lx: jal"
-msgstr ""
+msgstr "[find_call] 0x%lx: jal"
 
 #: mips.c:107
 #, c-format
 msgid "[find_call] 0x%lx: jalr\n"
-msgstr ""
+msgstr "[find_call] 0x%lx: jalr\n"
 
 #: source.c:162
 #, c-format
 msgid "%s: could not locate `%s'\n"
-msgstr ""
+msgstr "%s: níorbh fhéidir `%s' a aimsiú\n"
 
 #: source.c:237
 #, c-format
@@ -514,4 +558,4 @@ msgstr "*** Comhad %s:\n"
 #: utils.c:107
 #, c-format
 msgid " <cycle %d>"
-msgstr ""
+msgstr " <ciogal %d>"

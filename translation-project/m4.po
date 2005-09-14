@@ -363,7 +363,7 @@ msgstr "NEAMHNÍ"
 
 #: src/input.c:1199 src/input.c:1226
 msgid "ERROR: EOF in string"
-msgstr "EARRÁID: EOF i dteaghrán"
+msgstr "EARRÁID: comhadchríoch i dteaghrán"
 
 #: src/m4.c:119
 msgid "ERROR: Stack overflow.  (Infinite define recursion?)"
@@ -552,7 +552,7 @@ msgstr "EARRÁID INMHEÁNACH: Droch-chineál comhartha i expand_token ()"
 
 #: src/macro.c:163
 msgid "ERROR: EOF in argument list"
-msgstr "EARRÁID: EOF i liosta na n-argóintí"
+msgstr "EARRÁID: comhadchríoch i liosta na n-argóintí"
 
 #: src/macro.c:182
 msgid "INTERNAL ERROR: Bad token type in expand_argument ()"

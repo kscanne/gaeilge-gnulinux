@@ -53,7 +53,7 @@ msgstr ""
 #: libidu/idread.c:186
 #, c-format
 msgid "unsupported size in io_read (): %d"
-msgstr ""
+msgstr "méid gan tacaíocht i io_read (): %d"
 
 #: libidu/idread.c:194 libidu/idwrite.c:167
 #, c-format
@@ -63,7 +63,7 @@ msgstr "cineál anaithnid I/A: %d"
 #: libidu/idwrite.c:156
 #, c-format
 msgid "unsupported size in io_write (): %d"
-msgstr ""
+msgstr "méid gan tacaíocht i io_write (): %d"
 
 #: libidu/scanners.c:95
 #, c-format
@@ -146,12 +146,12 @@ msgstr ""
 #: libidu/walker.c:107
 #, c-format
 msgid "can't read directory `%s' (`.' from `%s')"
-msgstr ""
+msgstr "ní féidir comhadlann `%s' a léamh (`.' ó `%s')"
 
 #: libidu/walker.c:174
 #, c-format
 msgid "notice: `%s' was a %s, but is now a %s!"
-msgstr ""
+msgstr "fógra: bhí `%s' ina %s, ach is %s é anois!"
 
 #: libidu/walker.c:175 libidu/walker.c:176
 msgid "file"
@@ -273,17 +273,17 @@ msgstr ""
 
 #: src/fid.c:153 src/fnid.c:148 src/lid.c:407
 msgid "can't locate `ID'"
-msgstr ""
+msgstr "ní féidir `ID' a aimsiú"
 
 #: src/fid.c:235
 #, c-format
 msgid "`%s' is ambiguous"
-msgstr ""
+msgstr "is débhríoch é `%s'"
 
 #: src/fid.c:241
 #, c-format
 msgid "`%s' not found"
-msgstr ""
+msgstr "`%s' gan aimsiú"
 
 #: src/fnid.c:66
 #, c-format
@@ -370,17 +370,17 @@ msgstr ""
 #: src/lid.c:463
 #, c-format
 msgid "invalid `--key' style: `%s'"
-msgstr ""
+msgstr "stíl neamhbhailí `--key': `%s'"
 
 #: src/lid.c:475
 #, c-format
 msgid "invalid `--result' style: `%s'"
-msgstr ""
+msgstr "stíl neamhbhailí `--result': `%s'"
 
 #. FIXME: i18n of responses
 #: src/lid.c:632
 msgid "edit? [y1-9^S/nq] "
-msgstr ""
+msgstr "cuir in eagar? [y1-9^S/nq] "
 
 #: src/lid.c:701
 msgid "can't fork"
@@ -429,17 +429,17 @@ msgstr ""
 #: src/mkid.c:357
 #, c-format
 msgid "can't create `%s' in `%s'"
-msgstr ""
+msgstr "ní féidir `%s' a chruthú i `%s'"
 
 #: src/mkid.c:361
 #, c-format
 msgid "can't modify `%s'"
-msgstr ""
+msgstr "ní féidir `%s' a mhionathrú"
 
 #: src/mkid.c:434
 #, c-format
 msgid "can't stat `%s'"
-msgstr ""
+msgstr "ní féidir `%s' a stat"
 
 #: src/mkid.c:503
 #, c-format
@@ -464,7 +464,7 @@ msgstr "Teaghrán=%ld, "
 #: src/mkid.c:515
 #, c-format
 msgid "Literal=%ld, "
-msgstr ""
+msgstr "Teaghrán Litriúil=%d, "
 
 #: src/mkid.c:516
 #, c-format
@@ -489,7 +489,7 @@ msgstr "Bearta=%ld Kb, "
 #: src/mkid.c:521
 #, c-format
 msgid "Heap=%d+%d Kb, "
-msgstr ""
+msgstr "Carn=%d+%d Kb, "
 
 #: src/mkid.c:523
 #, c-format
@@ -503,17 +503,17 @@ msgstr ", Minic=%ld/%ld=%.2f\n"
 
 #: src/mkid.c:550
 msgid "Sorting tokens...\n"
-msgstr ""
+msgstr "Comharthaí á sórtáil...\n"
 
 #: src/mkid.c:556
 #, c-format
 msgid "Writing `%s'...\n"
-msgstr ""
+msgstr "`%s' á scríobh...\n"
 
 #: src/mkid.c:559
 #, c-format
 msgid "can't create `%s'"
-msgstr ""
+msgstr "ní féidir `%s' a chruthú"
 
 #: src/mkid.c:713
 msgid "level %d: %ld/%ld = %.0f%%\n"

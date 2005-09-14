@@ -299,11 +299,11 @@ msgstr "Ba chóir duit an t-alt cinnte a úsáid"
 
 #: messages.txt:12
 msgid "Unnecessary use of the definite article"
-msgstr "Ní gá leis an alt cinnte anseo"
+msgstr "Níl gá leis an alt cinnte anseo"
 
 #: messages.txt:13
 msgid "Unnecessary use of the genitive case"
-msgstr "Ní gá leis an leagan ginideach anseo"
+msgstr "Níl gá leis an leagan ginideach anseo"
 
 #: messages.txt:14
 msgid "The genitive case is required here"
@@ -359,7 +359,7 @@ msgstr "Focal anaithnid ach bunaithe ar «\\1» is dócha"
 
 #: messages.txt:30
 msgid "The word \\/\\1\\/ is not needed"
-msgstr "Ní gá leis an fhocal «\\1»"
+msgstr "Níl gá leis an fhocal «\\1»"
 
 #: messages.txt:31
 msgid "Do you mean \\/\\1\\/?"
@@ -466,7 +466,7 @@ msgstr "Tá gá leis an fhoirm spleách anseo"
 
 #: messages.txt:61
 msgid "Unnecessary use of the dependent form of the verb"
-msgstr "Ní gá leis an fhoirm spleách"
+msgstr "Níl gá leis an fhoirm spleách"
 
 #: messages.txt:62
 msgid "The synthetic (combined) form, ending in \\/\\1\\/, is often used here"

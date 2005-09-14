@@ -37,7 +37,7 @@ msgid ""
 " jam-transitions: EOF "
 msgstr ""
 "\n"
-" athruithe plúchta: EOF "
+" athruithe plúchta: comhadchríoch "
 
 #: dfa.c:341
 msgid "consistency check failed in epsclosure()"
@@ -792,7 +792,7 @@ msgstr "} ar iarraidh."
 
 #: scan.l:799
 msgid "EOF encountered inside an action"
-msgstr "Buaileadh EOF i ngníomh"
+msgstr "Buaileadh comhadchríoch i ngníomh"
 
 #: scan.l:819
 #, c-format
@@ -849,7 +849,7 @@ msgstr "fógraíodh an choinníoll tosaigh %s faoi dhó"
 
 #: yylex.c:56
 msgid "premature EOF"
-msgstr "EOF gan choinne"
+msgstr "comhadchríoch gan choinne"
 
 #: yylex.c:198
 msgid "End Marker\n"

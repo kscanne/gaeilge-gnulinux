@@ -1400,7 +1400,7 @@ msgstr "Níl faic le déanamh i gcomhair `%s'."
 #: remake.c:231
 #, c-format
 msgid "`%s' is up to date."
-msgstr "Ní gá le `%s' a nuashonrú."
+msgstr "Níl gá le `%s' a nuashonrú."
 
 #: remake.c:297
 #, c-format
@@ -1534,7 +1534,7 @@ msgstr "`%s' á dhéanamh de bharr bratach --always-make.\n"
 #: remake.c:720
 #, c-format
 msgid "No need to remake target `%s'"
-msgstr "Ní gá leis an sprioc `%s' a athdhéanamh"
+msgstr "Níl gá leis an sprioc `%s' a athdhéanamh"
 
 #: remake.c:722
 #, c-format
