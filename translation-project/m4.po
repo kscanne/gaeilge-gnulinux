@@ -31,7 +31,7 @@ msgstr "%s: ní cheadaítear argóint i ndiaidh na rogha `%c%s'\n"
 #: lib/getopt.c:725 lib/getopt.c:898
 #, c-format
 msgid "%s: option `%s' requires an argument\n"
-msgstr "%s: ní foláir argóint don rogha `%s'\n"
+msgstr "%s: tá argóint de dhíth i ndiaidh na rogha `%s'\n"
 
 #. --option
 #: lib/getopt.c:754
@@ -60,7 +60,7 @@ msgstr "%s: rogha neamhbhailí -- %c\n"
 #: lib/getopt.c:817 lib/getopt.c:947
 #, c-format
 msgid "%s: option requires an argument -- %c\n"
-msgstr "%s: ní foláir argóint don rogha -- %c\n"
+msgstr "%s: tá argóint de dhíth i ndiaidh na rogha -- %c\n"
 
 #: lib/getopt.c:864
 #, c-format

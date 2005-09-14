@@ -817,7 +817,7 @@ msgstr "ní cheadaítear argóint i ndiaidh na rogha `%s'\n"
 #: scanopt.c:570
 #, c-format
 msgid "option `%s' requires an argument\n"
-msgstr "ní foláir argóint don rogha `%s'\n"
+msgstr "tá argóint de dhíth i ndiaidh na rogha `%s'\n"
 
 #: scanopt.c:574
 #, c-format

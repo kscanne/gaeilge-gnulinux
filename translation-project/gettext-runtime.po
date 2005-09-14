@@ -42,7 +42,7 @@ msgstr "%s: ní cheadaítear argóint i ndiaidh na rogha `%c%s'\n"
 #: ../gettext-tools/lib/getopt.c:1020 ../gettext-tools/lib/getopt.c:1042
 #, c-format
 msgid "%s: option `%s' requires an argument\n"
-msgstr "%s: ní foláir argóint don rogha `%s'\n"
+msgstr "%s: tá argóint de dhíth i ndiaidh na rogha `%s'\n"
 
 #: ../gettext-tools/lib/getopt.c:727 ../gettext-tools/lib/getopt.c:730
 #, c-format
@@ -68,7 +68,7 @@ msgstr "%s: rogha neamhbhailí -- %c\n"
 #: ../gettext-tools/lib/getopt.c:1095 ../gettext-tools/lib/getopt.c:1116
 #, c-format
 msgid "%s: option requires an argument -- %c\n"
-msgstr "%s: ní foláir argóint don rogha -- %c\n"
+msgstr "%s: tá argóint de dhíth i ndiaidh na rogha -- %c\n"
 
 #: ../gettext-tools/lib/getopt.c:935 ../gettext-tools/lib/getopt.c:954
 #, c-format

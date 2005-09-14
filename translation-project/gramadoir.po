@@ -48,7 +48,7 @@ msgstr "rogha anaithnid %s"
 #: gram.pl:168
 #, perl-format
 msgid "option %s requires an argument"
-msgstr "ní foláir argóint don rogha %s"
+msgstr "tá argóint de dhíth i ndiaidh na rogha %s"
 
 #: gram.pl:171 gramdev.pl:85
 #, perl-format

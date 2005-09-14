@@ -52,7 +52,7 @@ msgstr "%s: ní cheadaítear argóint i ndiaidh na rogha `%c%s'\n"
 #: gnulib/lib/getopt.c:1042
 #, c-format
 msgid "%s: option `%s' requires an argument\n"
-msgstr "%s: ní foláir argóint don rogha `%s'\n"
+msgstr "%s: tá argóint de dhíth i ndiaidh na rogha `%s'\n"
 
 #: gnulib/lib/getopt.c:727 gnulib/lib/getopt.c:730
 #, c-format
@@ -78,7 +78,7 @@ msgstr "%s: rogha neamhbhailí -- %c\n"
 #: gnulib/lib/getopt.c:1116
 #, c-format
 msgid "%s: option requires an argument -- %c\n"
-msgstr "%s: ní foláir argóint don rogha -- %c\n"
+msgstr "%s: tá argóint de dhíth i ndiaidh na rogha -- %c\n"
 
 #: gnulib/lib/getopt.c:935 gnulib/lib/getopt.c:954
 #, c-format
@@ -142,7 +142,7 @@ msgstr "preideacáid neamhbhailí `%s'"
 #: find/find.c:552
 #, c-format
 msgid "missing argument to `%s'"
-msgstr "ní foláir argóint don rogha `%s'"
+msgstr "tá argóint de dhíth i ndiaidh na rogha `%s'"
 
 #: find/find.c:554
 #, c-format

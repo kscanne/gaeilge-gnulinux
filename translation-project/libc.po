@@ -3561,7 +3561,7 @@ msgstr "%s: ní cheadaítear argóint i ndiaidh na rogha `%c%s'\n"
 #: posix/getopt.c:1181
 #, c-format
 msgid "%s: option `%s' requires an argument\n"
-msgstr "%s: ní foláir argóint don rogha `%s'\n"
+msgstr "%s: tá argóint de dhíth i ndiaidh na rogha `%s'\n"
 
 #: posix/getopt.c:867 posix/getopt.c:870
 #, c-format
@@ -3587,7 +3587,7 @@ msgstr "%s: rogha neamhbhailí -- %c\n"
 #: posix/getopt.c:1255
 #, c-format
 msgid "%s: option requires an argument -- %c\n"
-msgstr "%s: ní foláir argóint don rogha -- %c\n"
+msgstr "%s: tá argóint de dhíth i ndiaidh na rogha -- %c\n"
 
 #: posix/getopt.c:1074 posix/getopt.c:1093
 #, c-format

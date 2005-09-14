@@ -115,7 +115,7 @@ msgstr "%s: ní cheadaítear argóint i ndiaidh na rogha `%c%s'\n"
 #: lib/getopt.c:667 lib/getopt.c:689 lib/getopt.c:1020 lib/getopt.c:1042
 #, c-format
 msgid "%s: option `%s' requires an argument\n"
-msgstr "%s: ní foláir argóint don rogha `%s'\n"
+msgstr "%s: tá argóint de dhíth i ndiaidh na rogha `%s'\n"
 
 #: lib/getopt.c:727 lib/getopt.c:730
 #, c-format
@@ -140,7 +140,7 @@ msgstr "%s: rogha neamhbhailí -- %c\n"
 #: lib/getopt.c:863 lib/getopt.c:882 lib/getopt.c:1095 lib/getopt.c:1116
 #, c-format
 msgid "%s: option requires an argument -- %c\n"
-msgstr "%s: ní foláir argóint don rogha -- %c\n"
+msgstr "%s: tá argóint de dhíth i ndiaidh na rogha -- %c\n"
 
 #: lib/getopt.c:935 lib/getopt.c:954
 #, c-format
@@ -7207,7 +7207,7 @@ msgstr "argóint neamhbhailí `%s'"
 #: src/stty.c:963
 #, c-format
 msgid "missing argument to `%s'"
-msgstr "ní foláir argóint don rogha `%s'"
+msgstr "tá argóint de dhíth i ndiaidh na rogha `%s'"
 
 #: src/stty.c:969
 #, c-format

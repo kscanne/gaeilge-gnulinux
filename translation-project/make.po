@@ -429,7 +429,7 @@ msgstr "%s: ní cheadaítear argóint i ndiaidh na rogha `%c%s'\n"
 #: getopt.c:709 getopt.c:882
 #, c-format
 msgid "%s: option `%s' requires an argument\n"
-msgstr "%s: ní foláir argóint don rogha `%s'\n"
+msgstr "%s: tá argóint de dhíth i ndiaidh na rogha `%s'\n"
 
 #: getopt.c:738
 #, c-format
@@ -454,7 +454,7 @@ msgstr "%s: rogha neamhbhailí -- %c\n"
 #: getopt.c:801 getopt.c:931
 #, c-format
 msgid "%s: option requires an argument -- %c\n"
-msgstr "%s: ní foláir argóint don rogha -- %c\n"
+msgstr "%s: tá argóint de dhíth i ndiaidh na rogha -- %c\n"
 
 #: getopt.c:848
 #, c-format
