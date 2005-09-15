@@ -32,7 +32,7 @@ application	feidhmoideas		feidhmchlár	applic		fh?eidhmoid
 apply		déan			cuir_i_bhfeidhm	appl(y|ie)	(dh?éan|rinne)
 apply		feidhmigh		cuir_i_bhfeidhm	appl(y|ie)	fh?eidhm[ía-z]
 # FARF/FRTF
-area		achar			limistéar	area		achai?r
+area		achar			limistéar	area		[^n]achai?r
 # Brian Ó Broin
 arrange		réitigh			leag_amach	arrang		[^a-z]réit
 article		airteagal		alt		articl		airteag
@@ -497,7 +497,7 @@ size		tomhas			méid		size		th?omhai?s
 sort		cuir_in_ord		sórtáil		sort		ch?u.*in.*ord
 sort		rangaigh		sórtáil		sort		rang
 # FARF/FRTF
-space		achar			spás		spac(e|ing)	achai?r
+space		achar			spás		spac(e|ing)	[^n]achai?r
 # FARF/FRTF
 spell_checker	dearfóir_litrithe	litreoir	spell		dh?earf
 spell_checker	seiceálaí_litrithe	litreoir	spell		sh?eiceál
@@ -570,5 +570,7 @@ waiting		fanacht			feitheamh	wait		fh?anacht
 wallpaper	páipéar balla		cúlbhrat	wallpaper	ph?áipé
 # FARF/FRTF
 web		líon			gréasán		web		[^a-z]lío?n
+# FARF/FRTF
+wildcard	slonn(_ionadaíochta)	saoróg		wild.?card	sh?loi?nn
 wizard		asarlaí			draoi		wizard		asarla
 wizard		draíodóir		draoi		wizard		dh?raíodó

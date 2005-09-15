@@ -43,6 +43,8 @@ msgstr "%s; %s: comhadchríoch gan choinne\n"
 #, c-format
 msgid "%s: warning: ignoring basic-block exec counts (use -l or --line)\n"
 msgstr ""
+"%s: rabhadh: déanfar neamhshuim ar líon na rití de bhunbhloic (úsáid -l nó --"
+"line)\n"
 
 #. FIXME: This only works if bfd_vma is unsigned long.
 #: basic_blocks.c:287 basic_blocks.c:297
@@ -104,12 +106,12 @@ msgid ""
 "%9lu   Total number of line executions\n"
 msgstr ""
 "\n"
-"%9lu   Líon iomlán na línte a ritheadh\n"
+"%9lu   Líon iomlán na rití de línte\n"
 
 #: basic_blocks.c:575
 #, c-format
 msgid "%9.2f   Average executions per line\n"
-msgstr ""
+msgstr "%9.2f   Meánlíon na rití de gach líne\n"
 
 #: call_graph.c:68
 #, c-format
@@ -122,7 +124,7 @@ msgid ""
 "\t\t     Call graph (explanation follows)\n"
 "\n"
 msgstr ""
-"\t\t     Graf na nglaonna (míniú ina dhiaidh)\n"
+"\t\t     Glaoghraf (míniú ina dhiaidh)\n"
 "\n"
 
 #: cg_print.c:75
@@ -131,7 +133,7 @@ msgid ""
 "\t\t\tCall graph\n"
 "\n"
 msgstr ""
-"\t\t\tGraf na nglaonna\n"
+"\t\t\tGlaoghraf\n"
 "\n"
 
 #: cg_print.c:78 hist.c:359
@@ -140,6 +142,8 @@ msgid ""
 "\n"
 "granularity: each sample hit covers %ld byte(s)"
 msgstr ""
+"\n"
+"gráinneacht: tá %ld beart i ngach sampla"
 
 #: cg_print.c:82
 #, c-format
@@ -156,6 +160,8 @@ msgid ""
 " no time propagated\n"
 "\n"
 msgstr ""
+" níor forleathadh aon am\n"
+"\n"
 
 #: cg_print.c:95 cg_print.c:98 cg_print.c:100
 msgid "called"
@@ -176,7 +182,7 @@ msgstr "innéacs"
 #: cg_print.c:97
 #, c-format
 msgid "%time"
-msgstr "%am"
+msgstr "%time (am)"
 
 #: cg_print.c:97 cg_print.c:98
 msgid "self"
@@ -251,7 +257,7 @@ msgstr "%s: ní féidir roinn .text a aimsiú i %s\n"
 #: corefile.c:224
 #, c-format
 msgid "%s: ran out room for %lu bytes of text space\n"
-msgstr ""
+msgstr "%s: níl go leor spás le haghaidh %lu beart de théacs\n"
 
 #: corefile.c:238
 #, c-format
@@ -271,17 +277,17 @@ msgstr "%s: níl siombailí ar bith ag an gcomhad `%s'\n"
 #: corefile.c:751
 #, c-format
 msgid "%s: somebody miscounted: ltab.len=%d instead of %ld\n"
-msgstr ""
+msgstr "%s: áireamh mícheart: ltab.len=%d in ionad %ld\n"
 
 #: gmon_io.c:83
 #, c-format
 msgid "%s: address size has unexpected value of %u\n"
-msgstr ""
+msgstr "%s: ní rabhthas ag súil le méid seolta de %u\n"
 
 #: gmon_io.c:317 gmon_io.c:413
 #, c-format
 msgid "%s: file too short to be a gmon file\n"
-msgstr ""
+msgstr "%s: tá an comhad róghearr a bheith ina chomhad gmon\n"
 
 #: gmon_io.c:327 gmon_io.c:456
 #, c-format
@@ -291,7 +297,7 @@ msgstr "%s: fianán draíochta go holc ag an gcomhad `%s'\n"
 #: gmon_io.c:338
 #, c-format
 msgid "%s: file `%s' has unsupported version %d\n"
-msgstr "%s: leagan %d gan tacaíocht ag an gcomhad `%s'\n"
+msgstr "%s: tá leagan gan tacaíocht ag an gcomhad `%s': %d\n"
 
 #: gmon_io.c:368
 #, c-format
@@ -321,7 +327,7 @@ msgstr "%s: comhadchríoch gan choinne i ndiaidh %d/%d gabhdán á léamh\n"
 #: gmon_io.c:565
 #, c-format
 msgid "time is in ticks, not seconds\n"
-msgstr ""
+msgstr "is i dticeanna an t-am, ní i soicindí\n"
 
 #: gmon_io.c:571 gmon_io.c:747
 #, c-format
@@ -331,12 +337,12 @@ msgstr "%s: níl a fhios agam conas formáid %d a láimhseáil\n"
 #: gmon_io.c:578
 #, c-format
 msgid "File `%s' (version %d) contains:\n"
-msgstr ""
+msgstr "Is i gcomhad `%s' (leagan %d) na míreanna seo:\n"
 
 #: gmon_io.c:581
 #, c-format
 msgid "\t%d histogram record\n"
-msgstr ""
+msgstr "\t%d taifead histeagraim\n"
 
 #: gmon_io.c:582
 #, c-format
@@ -346,22 +352,22 @@ msgstr "\t%d taifead histeagraim\n"
 #: gmon_io.c:584
 #, c-format
 msgid "\t%d call-graph record\n"
-msgstr ""
+msgstr "\t%d taifead glaoghraif\n"
 
 #: gmon_io.c:585
 #, c-format
 msgid "\t%d call-graph records\n"
-msgstr ""
+msgstr "\t%d taifead glaoghraif\n"
 
 #: gmon_io.c:587
 #, c-format
 msgid "\t%d basic-block count record\n"
-msgstr ""
+msgstr "\t%d taifead lín na mbunbhloc\n"
 
 #: gmon_io.c:588
 #, c-format
 msgid "\t%d basic-block count records\n"
-msgstr ""
+msgstr "\t%d taifead lín na mbunbhloc\n"
 
 #: gprof.c:160
 #, c-format
@@ -452,17 +458,17 @@ msgstr "%s: tá brón orm, ní thacaítear le formáid `prof' fós\n"
 #: gprof.c:574
 #, c-format
 msgid "%s: gmon.out file is missing histogram\n"
-msgstr "%s: histeagram ar iarraidh i gcomhad gmon.out\n"
+msgstr "%s: histeagram ar iarraidh ó chomhad gmon.out\n"
 
 #: gprof.c:581
 #, c-format
 msgid "%s: gmon.out file is missing call-graph data\n"
-msgstr ""
+msgstr "%s: sonraí glaoghraif ar iarraidh ó chomhad gmon.out\n"
 
 #: hist.c:126
 #, c-format
 msgid "%s: `%s' is incompatible with first gmon file\n"
-msgstr ""
+msgstr "%s: níl `%s' comhoiriúnach leis an chéad chomhad gmon\n"
 
 #: hist.c:142
 #, c-format
@@ -489,6 +495,8 @@ msgid ""
 "\n"
 "Each sample counts as %g %s.\n"
 msgstr ""
+"\n"
+"Is fiú %g %s é gach sampla.\n"
 
 #: hist.c:374
 #, c-format
@@ -496,6 +504,8 @@ msgid ""
 " no time accumulated\n"
 "\n"
 msgstr ""
+" níor carnadh aon am\n"
+"\n"
 
 #: hist.c:381
 msgid "cumulative"

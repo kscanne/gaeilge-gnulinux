@@ -33,7 +33,7 @@ msgstr "Tuairteanna haiseála=%ld/%ld=%.0f%%"
 
 #: libidu/idfile.c:105
 msgid "can't determine the io_size of a string!"
-msgstr ""
+msgstr "ní féidir io_size de theaghrán a shocrú!"
 
 #: libidu/idread.c:45 src/mkid.c:451 src/xtokid.c:221
 #, c-format
@@ -43,12 +43,12 @@ msgstr "ní féidir `%s' a oscailt"
 #: libidu/idread.c:64
 #, c-format
 msgid "`%s' is not an ID file! (bad magic #)"
-msgstr ""
+msgstr "ní comhad ID é `%s'! (drochuimhir dhraíochta)"
 
 #: libidu/idread.c:66
 #, c-format
 msgid "`%s' is version %d, but I only grok version %d"
-msgstr ""
+msgstr "is leagan %d é `%s', ach tuigim leagan %d amháin"
 
 #: libidu/idread.c:186
 #, c-format
@@ -73,35 +73,36 @@ msgstr "teanga anaithnid: `%s'"
 #: libidu/scanners.c:141
 msgid "can't allocate language args obstack: memory exhausted"
 msgstr ""
+"ní féidir réadchruach a chruthú le haghaidh argóintí teanga: cuimhne ídithe"
 
 #: libidu/scanners.c:195 libidu/scanners.c:264
 msgid "can't allocate language args: memory exhausted"
-msgstr ""
+msgstr "ní féidir argóintí teanga a dháileadh: cuimhne ídithe"
 
 #: libidu/scanners.c:203
 #, c-format
 msgid "language name expected following `%s' in file `%s'"
-msgstr ""
+msgstr "bhíothas ag súil le hainm teanga tar éis `%s' i gcomhad `%s'"
 
 #: libidu/scanners.c:258
 #, c-format
 msgid "can't open language map file `%s'"
-msgstr ""
+msgstr "ní féidir comhad mapa teanga `%s' a oscailt"
 
 #: libidu/scanners.c:260
 #, c-format
 msgid "can't get size of map file `%s'"
-msgstr ""
+msgstr "ní féidir méid an chomhaid mapa `%s' a fháil"
 
 #: libidu/scanners.c:270
 #, c-format
 msgid "can't read language map file `%s'"
-msgstr ""
+msgstr "ní féidir comhad mapa teanga `%s' a léamh"
 
 #: libidu/scanners.c:273
 #, c-format
 msgid "can't read entire language map file `%s'"
-msgstr ""
+msgstr "ní féidir comhad mapa teanga `%s' a léamh go hiomlán"
 
 #: libidu/scanners.c:418
 msgid ""
@@ -113,6 +114,13 @@ msgid ""
 "  -u,--strip-underscore  Strip a leading underscore from single-token "
 "strings\n"
 msgstr ""
+"Teanga C:\n"
+"  -k,--keep=CARACHTAIR   Carachtair atá ceadaithe i dteaghráin le haon\n"
+"                             chomhartha amháin; coimeád an toradh\n"
+"  -i,--ignore=CARACHTAIR Carachtair atá ceadaithe i dteaghráin le haon\n"
+"                             chomhartha amháin; caith an toradh i dtraipisí\n"
+"  -u,--strip-underscore  Struipeáil fostríoc ó thosach de theaghráin le haon\n"
+"                             chomhartha amháin\n"
 
 #: libidu/scanners.c:695 libidu/scanners.c:971 libidu/scanners.c:1174
 #, c-format
@@ -133,6 +141,13 @@ msgid ""
 "  -u,--strip-underscore  Strip a leading underscore from tokens\n"
 "  -n,--no-cpp            Don't handle C pre-processor directives\n"
 msgstr ""
+"Teanga dhíolama:\n"
+"  -c,--comment=CARACHTAIR Tosaíonn aon cheann de na CARACHTAIR nóta\n"
+"                             tráchta, go dtí deireadh na líne\n"
+"  -k,--keep=CARACHTAIR    Ceadaithe i gcomharthaí; coimeád an toradh\n"
+"  -i,--ignore=CARACHTAIR  Ceadaithe i gcomharthaí; caith an toradh i dtraipisí\n"
+"  -u,--strip-underscore   Struipeáil fostríoc ó thosach comharthaí\n"
+"  -n,--no-cpp             Ná láimhseáil treoracha réamhphróiseála C\n"
 
 #: libidu/scanners.c:1077
 msgid ""
@@ -142,6 +157,9 @@ msgid ""
 "  -x,--exclude=CHAR-CLASS  Treat characters of CHAR-CLASS as token "
 "delimiters\n"
 msgstr ""
+"Teanga théacs:\n"
+"  -i,--include=AICME       Is páirt de chomharthaí iad na carachtair in AICME\n"
+"  -x,--exclude=AICME       Is teormharcóirí iad na carachtair in AICME\n"
 
 #: libidu/walker.c:107
 #, c-format
@@ -164,36 +182,36 @@ msgstr "comhadlann"
 #: libidu/walker.c:299
 #, c-format
 msgid "warning: `%s' and `%s' are the same file, but yield different scans!"
-msgstr ""
+msgstr "rabhadh: is an comhad céanna é `%s' agus `%s', ach tugann siad scantaí difriúla!"
 
 #: libidu/walker.c:393
 #, c-format
 msgid "notice: scan parameters changed for `%s'"
-msgstr ""
+msgstr "fógra: d'athraigh na paraiméadair scanta le haghaidh `%s'"
 
 #: libidu/walker.c:597
 msgid "can't get working directory"
-msgstr ""
+msgstr "ní féidir comhadlann oibre a fháil"
 
 #: libidu/walker.c:654
 #, c-format
 msgid "can't chdir to `%s'"
-msgstr ""
+msgstr "theip ar chdir go `%s'"
 
 #: libidu/walker.c:659
 #, c-format
 msgid "can't chdir to `%s' from `%s'"
-msgstr ""
+msgstr "theip ar chdir go `%s' ó `%s'"
 
 #: libidu/walker.c:713
 #, c-format
 msgid "can't lstat `%s' from `%s'"
-msgstr ""
+msgstr "ní féidir `%s' a `lstat' ó `%s'"
 
 #: libidu/walker.c:721
 #, c-format
 msgid "can't stat `%s' from `%s'"
-msgstr ""
+msgstr "ní féidir `%s' a `stat' ó `%s'"
 
 #: lib/getopt.c:527
 #, c-format
@@ -262,14 +280,20 @@ msgid ""
 "      --help       display this help and exit\n"
 "      --version    output version information and exit\n"
 msgstr ""
+"Taispeáin na haitheantóirí atá i gCOMHADAINM, nó má tá COMHADAINM2 ann\n"
+"freisin, taispeáin na haitheantóirí atá i ngach comhad.\n"
+"\n"
+"  -f, --file=COMHAD comhadainm an bhunachair sonraí ID\n"
+"      --help        taispeáin an chabhair seo agus scoir\n"
+"      --version     taispeáin eolas faoin leagan agus scoir\n"
 
 #: src/fid.c:141
 msgid "no file name arguments"
-msgstr ""
+msgstr "gan chomhadainmneacha mar argóintí"
 
 #: src/fid.c:146
 msgid "too many file name arguments"
-msgstr ""
+msgstr "an iomarca comhadainmneacha mar argóintí"
 
 #: src/fid.c:153 src/fnid.c:148 src/lid.c:407
 msgid "can't locate `ID'"
@@ -299,6 +323,12 @@ msgid ""
 "      --help             display this help and exit\n"
 "      --version          output version information and exit\n"
 msgstr ""
+"Taispeáin ainmneacha de chomh-chomhaid atá comhoiriúnach le PATRÚN,\n"
+"le saoróga de chineál na blaoisce.\n"
+"  -f, --file=COMHAD      comhadainm an bhunachair sonraí ID\n"
+"  -S, --separator=STÍL   ceann de `braces', `space' nó `newline'\n"
+"      --help             taispeáin an chabhair seo agus scoir\n"
+"      --version          taispeáin eolas faoin leagan agus scoir\n"
 
 #: src/lid.c:241
 #, c-format
@@ -320,23 +350,19 @@ msgid ""
 "  -w, --word            match PATTERN as a delimited word\n"
 "  -s, --substring       match PATTERN as a substring\n"
 "            Note: If PATTERN contains extended regular expression meta-\n"
-"            characters, it is interpreted as a regular expression "
-"substring.\n"
+"            characters, it is interpreted as a regular expression substring.\n"
 "            Otherwise, PATTERN is interpreted as a literal word.\n"
 "\n"
 "  -k, --key=STYLE       STYLE is one of `token', `pattern' or `none'\n"
 "  -R, --result=STYLE    STYLE is one of `filenames', `grep', `edit' or "
 "`none'\n"
 "  -S, --separator=STYLE STYLE is one of `braces', `space' or `newline' and\n"
-"                        only applies to file names when `--"
-"result=filenames'\n"
-"            The above STYLE options control how query results are "
-"presented.\n"
+"                        only applies to file names when `--result=filenames'\n"
+"            The above STYLE options control how query results are presented.\n"
 "            Defaults are --key=token --result=filenames --separator=%s\n"
 "\n"
 "  -F, --frequency=FREQ  find tokens that occur FREQ times, where FREQ\n"
-"                        is a range expressed as `N..M'.  If N is omitted, "
-"it\n"
+"                        is a range expressed as `N..M'.  If N is omitted, it\n"
 "                        defaults to 1, if M is omitted it defaults to "
 "MAX_USHRT\n"
 "  -a, --ambiguous=LEN   find tokens whose names are ambiguous for LEN chars\n"
@@ -349,10 +375,48 @@ msgid ""
 "      --help            display this help and exit\n"
 "      --version         output version information and exit\n"
 msgstr ""
+"Déan iarratas ar bhunachar sonraí ID agus taispeáin na torthaí. De réir\n"
+"réamhshocraithe, tá línte iomadúla san aschur, le haitheantóir comhoiriúnach\n"
+"ar gach líne, agus liosta de na comhaid ina bhfuil sé ina dhiaidh.\n"
+"\n"
+"  -f, --file=COMHAD     comhadainm an bhunachair sonraí ID\n"
+"\n"
+"  -i, --ignore-case     meaitseáil PATRÚN ach ná bac le cás\n"
+"  -l, --literal         meaitseáil PATRÚN mar theaghrán litriúil\n"
+"  -r, --regexp          meaitseáil PATRÚN mar shlonn ionadaíochta\n"
+"  -w, --word            meaitseáil PATRÚN mar fhocal teoranta\n"
+"  -s, --substring       meaitseáil PATRÚN mar fhotheaghrán\n"
+"            Nóta: Má tá meiteacharachtair bhreisithe sa PHATRÚN (a úsáidtear\n"
+"            i sloinn bhreisithe ionadaíochta), caithfear PATRÚN mar\n"
+"            fhotheaghrán de shlonn ionadaíochta.  I ngach cás eile, caithfear\n"
+"            le PATRÚN mar fhocal litriúil.\n"
+"\n"
+"  -k, --key=STÍL        ceann de `token', `pattern' nó `none'\n"
+"  -R, --result=STÍL     ceann de `filenames', `grep', `edit' nó "
+"`none'\n"
+"  -S, --separator=STÍL  ceann de `braces', `space' nó `newline', agus\n"
+"                        cuirtear é i bhfeidhm nuair a `--result=filenames'\n"
+"            Rialaíonn na roghanna STÍL thuas an chaoi ina dtaispeánfar\n"
+"            torthaí an iarratais.  Seo iad na réamhshocruithe:\n"
+"            --key=token --result=filenames --separator=%s\n"
+"\n"
+"  -F, --frequency=MINIC aimsigh teaghráin chomhartha a tharlaíonn MINIC uaire,\n"
+"                        le MINIC tugtha mar raon `N..M'.  Má tá an `N' ar lár,\n"
+"                        úsáid 1 mar réamhshocrú, agus úsáid MAX_USHRT mar\n"
+"                        luach réamhshocraithe ar `M'\n"
+"  -a, --ambiguous=FAD   aimsigh teaghráin chomhartha a bhfuil ainmneacha acu\n""                           atá déchiallach trí FAD carachtar\n"
+"\n"
+"  -x, --hex             cuardaigh ar uimhreacha i bhfoirm heicsidheachúlach\n"
+"  -d, --decimal         cuardaigh ar uimhreacha i bhfoirm dheachúlach\n"
+"  -o, --octal           cuardaigh ar uimhreacha i bhfoirm ochtnártha\n"
+"     De réir réamhshocraithe, cuardófar ar uimhreacha le haon bhunuimhir\n"
+"\n"
+"      --help            taispeáin an chabhair seo agus scoir\n"
+"      --version         taispeáin eolas faoin leagan agus scoir\n"
 
 #: src/lid.c:281
 msgid "braces"
-msgstr ""
+msgstr "lúibíní slabhracha"
 
 #: src/lid.c:281
 msgid "space"
@@ -360,12 +424,12 @@ msgstr "spás"
 
 #: src/lid.c:347
 msgid "notice: use of `-e' is deprecated, use `-r' instead"
-msgstr ""
+msgstr "fógra: tá an rogha `-e' i léig, úsáid `-r' ina hionad"
 
 #: src/lid.c:428
 #, c-format
 msgid "All identifiers are non-ambiguous within the first %d characters\n"
-msgstr ""
+msgstr "Is aonchiallach iad na haitheantóirí uile, taobh istigh den chéad %d carachtar\n"
 
 #: src/lid.c:463
 #, c-format
@@ -384,16 +448,16 @@ msgstr "cuir in eagar? [y1-9^S/nq] "
 
 #: src/lid.c:701
 msgid "can't fork"
-msgstr ""
+msgstr "ní féidir forc a dhéanamh"
 
 #: src/lid.c:719
 #, c-format
 msgid "can't exec `%s'"
-msgstr ""
+msgstr "ní féidir `%s' a rith"
 
 #: src/lid.c:849
 msgid "can't match regular-expression: memory exhausted"
-msgstr ""
+msgstr "ní féidir an slonn ionadaíochta a mheaitseáil: cuimhne ídithe"
 
 #: src/mkid.c:147 src/xtokid.c:64
 #, c-format
@@ -409,8 +473,7 @@ msgid ""
 "\")\n"
 "  -x, --exclude=LANGS     exclude languages in LANGS\n"
 "  -l, --lang-option=L:OPT pass OPT as a default for language L (see below)\n"
-"  -m, --lang-map=MAPFILE  use MAPFILE to map file names onto source "
-"language\n"
+"  -m, --lang-map=MAPFILE  use MAPFILE to map file names onto source language\n"
 "  -d, --default-lang=LANG make LANG the default source language\n"
 "  -p, --prune=NAMES       exclude the named files and/or directories\n"
 "  -v, --verbose           report per file statistics\n"
@@ -425,6 +488,29 @@ msgid ""
 "\n"
 "The following arguments apply to the language-specific scanners:\n"
 msgstr ""
+"Tóg bunachar sonraí d'aitheantóirí.\n"
+"  -o, --output=ASCHOMHAD  comhad ina scríobhfar an bunachar sonraí\n"
+"  -f, --file=ASCHOMHAD    ar comhbhrí le --output\n"
+"  -i, --include=TEANGACHA cuir na TEANGACHA seo san áireamh\n"
+"                                (réamhshocrú: \"C C++ asm\")\n"
+"  -x, --exclude=TEANGACHA fág na TEANGACHA seo as\n"
+"  -l, --lang-option=T:R   socraigh R mar réamhshocrú do theanga T (féach thíos)\n"
+"  -m, --lang-map=MAPA     úsáid MAPA chun comhadainmneacha a mhapáil go dtí\n"
+"                              an teanga fhoinseach\n"
+"  -d, --default-lang=TNG  socraigh TNG mar theanga réamhshocraithe fhoinseach\n"
+"  -p, --prune=AINMNEACHA  fág na comhaid/comhadlanna ainmnithe as\n"
+"  -v, --verbose           taispeáin staitisticí do gach comhad\n"
+"  -s, --statistics        taispeáin staitisticí ag deireadh an reatha\n"
+"\n"
+"      --help              taispeáin an chabhair seo agus scoir\n"
+"      --version           taispeáin eolas faoin leagan agus scoir\n"
+"\n"
+"Is féidir COMHAD a bheith comhadainm, nó ainm chomhadlainne ina gcuardóidh\n"
+"go hathchúrsach.  Mura bhfuil COMHAD tugtha, cuardaigh sa chomhadlann reatha\n"
+"mar réamhshocrú.  Ní cheadaítear na roghanna `--include' agus `--exclude' a \n"
+"bheith tugtha in éineacht le chéile.\n"
+"\n"
+"Baineann na hargóintí a leanas le scanóirí atá sainiúil do theangacha áirithe:\n"
 
 #: src/mkid.c:357
 #, c-format
@@ -494,7 +580,7 @@ msgstr "Carn=%d+%d Kb, "
 #: src/mkid.c:523
 #, c-format
 msgid "Output=%ld (%ld tok, %ld hit)\n"
-msgstr ""
+msgstr "Aschur=%ld (%ld comhartha, %ld aimsithe)\n"
 
 #: src/mkid.c:526
 #, c-format
@@ -526,8 +612,7 @@ msgid ""
 "\")\n"
 "  -x, --exclude=LANGS     exclude languages in LANGS\n"
 "  -l, --lang-option=L:OPT pass OPT as a default for language L (see below)\n"
-"  -m, --lang-map=MAPFILE  use MAPFILE to map file names onto source "
-"language\n"
+"  -m, --lang-map=MAPFILE  use MAPFILE to map file names onto source language\n"
 "  -d, --default-lang=LANG make LANG the default source language\n"
 "  -p, --prune=NAMES       exclude the named files and/or directories\n"
 "      --help              display this help and exit\n"
@@ -535,3 +620,16 @@ msgid ""
 "\n"
 "The following arguments apply to the language-specific scanners:\n"
 msgstr ""
+"Priontáil gach teaghrán comhartha a aimsítear i gcomhad foinseach.\n"
+"  -i, --include=TEANGACHA cuir na TEANGACHA seo san áireamh\n"
+"                                (réamhshocrú: \"C C++ asm\")\n"
+"  -x, --exclude=TEANGACHA fág na TEANGACHA seo as\n"
+"  -l, --lang-option=T:R   socraigh R mar réamhshocrú do theanga T (féach thíos)\n"
+"  -m, --lang-map=MAPA     úsáid MAPA chun comhadainmneacha a mhapáil go dtí\n"
+"                              an teanga fhoinseach\n"
+"  -d, --default-lang=TNG  socraigh TNG mar theanga réamhshocraithe fhoinseach\n"
+"  -p, --prune=AINMNEACHA  fág na comhaid/comhadlanna ainmnithe as\n"
+"      --help              taispeáin an chabhair seo agus scoir\n"
+"      --version           taispeáin eolas faoin leagan agus scoir\n"
+"\n"
+"Baineann na hargóintí a leanas le scanóirí atá sainiúil do theangacha áirithe:\n"
