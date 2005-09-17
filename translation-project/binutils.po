@@ -18,7 +18,7 @@ msgstr ""
 #: addr2line.c:73
 #, c-format
 msgid "Usage: %s [option(s)] [addr(s)]\n"
-msgstr ""
+msgstr "Úsáid: %s [rogha(nna)] [seoladh/seoltaí]\n"
 
 #: addr2line.c:74
 #, c-format
@@ -78,7 +78,7 @@ msgstr ""
 #: ar.c:224
 #, c-format
 msgid "       %s -M [<mri-script]\n"
-msgstr ""
+msgstr "       %s -M [<script-mri]\n"
 
 #: ar.c:225
 #, c-format
@@ -88,17 +88,17 @@ msgstr " orduithe:\n"
 #: ar.c:226
 #, c-format
 msgid "  d            - delete file(s) from the archive\n"
-msgstr ""
+msgstr "  d            - scrios comha(i)d ón chartlann\n"
 
 #: ar.c:227
 #, c-format
 msgid "  m[ab]        - move file(s) in the archive\n"
-msgstr ""
+msgstr "  m[ab]        - bog comha(i)d sa chartlann\n"
 
 #: ar.c:228
 #, c-format
 msgid "  p            - print file(s) found in the archive\n"
-msgstr ""
+msgstr "  p            - priontáil comh(i)d ón chartlann\n"
 
 #: ar.c:229
 #, c-format
@@ -114,12 +114,12 @@ msgstr ""
 #: ar.c:231
 #, c-format
 msgid "  t            - display contents of archive\n"
-msgstr ""
+msgstr "  t            - taispeáin inneachar na cartlainne\n"
 
 #: ar.c:232
 #, c-format
 msgid "  x[o]         - extract file(s) from the archive\n"
-msgstr ""
+msgstr "  x[o]         - bain comha(i)d as an gcartlann\n"
 
 #: ar.c:233
 #, c-format
@@ -196,7 +196,7 @@ msgstr ""
 #: ar.c:253
 #, c-format
 msgid "Usage: %s [options] archive\n"
-msgstr ""
+msgstr "Úsáid: %s [roghanna] cartlann\n"
 
 #: ar.c:254
 #, c-format
@@ -210,6 +210,9 @@ msgid ""
 "  -h --help                    Print this help message\n"
 "  -V --version                 Print version information\n"
 msgstr ""
+" Is iad seo na roghanna:\n"
+"  -h --help                    Taispeáin an chabhair seo\n"
+"  -V --version                 Taispeáin eolas faoin leagan\n"
 
 #: ar.c:483
 msgid "two different operation options specified"
@@ -218,7 +221,7 @@ msgstr ""
 #: ar.c:558
 #, c-format
 msgid "illegal option -- %c"
-msgstr ""
+msgstr "rogha neamhcheadaithe -- %c"
 
 #: ar.c:604
 msgid "no operation specified"
@@ -265,7 +268,7 @@ msgstr ""
 #: ar.c:806 ar.c:873
 #, c-format
 msgid "%s is not a valid archive"
-msgstr ""
+msgstr "ní cartlann bhailí é %s"
 
 #: ar.c:841
 #, c-format
@@ -275,12 +278,12 @@ msgstr ""
 #: ar.c:1059
 #, c-format
 msgid "No member named `%s'\n"
-msgstr ""
+msgstr "Níl ball ann darb ainm `%s'\n"
 
 #: ar.c:1109
 #, c-format
 msgid "no entry %s in archive %s!"
-msgstr ""
+msgstr "níl iontráil %s sa chartlann %s!"
 
 #: ar.c:1246
 #, c-format
@@ -290,12 +293,12 @@ msgstr ""
 #: arsup.c:83
 #, c-format
 msgid "No entry %s in archive.\n"
-msgstr ""
+msgstr "Níl iontráil %s sa chartlann.\n"
 
 #: arsup.c:109
 #, c-format
 msgid "Can't open file %s\n"
-msgstr ""
+msgstr "Ní féidir comhad %s a oscailt\n"
 
 #: arsup.c:162
 #, c-format
@@ -325,7 +328,7 @@ msgstr ""
 #: arsup.c:258 arsup.c:368 arsup.c:394
 #, c-format
 msgid "%s: can't open file %s\n"
-msgstr ""
+msgstr "%s: ní féidir comhad %s a oscailt\n"
 
 #: arsup.c:312 arsup.c:390 arsup.c:471
 #, c-format
@@ -411,12 +414,12 @@ msgstr ""
 #: coffdump.c:105
 #, c-format
 msgid "#lines %d "
-msgstr ""
+msgstr "#líne %d "
 
 #: coffdump.c:459 sysdump.c:648
 #, c-format
 msgid "Usage: %s [option(s)] in-file\n"
-msgstr ""
+msgstr "Úsáid: %s [rogha(nna)] inchomhad\n"
 
 #: coffdump.c:460
 #, c-format
@@ -431,6 +434,10 @@ msgid ""
 "  -v --version           Display the program's version\n"
 "\n"
 msgstr ""
+" Is iad seo na roghanna:\n"
+"  -h --help              Taispeáin an chabhair seo\n"
+"  -v --version           Taispeáin leagan an chláir\n"
+"\n"
 
 #: coffdump.c:527 srconv.c:1819 sysdump.c:710
 msgid "no input file specified"

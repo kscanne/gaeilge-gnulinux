@@ -14,7 +14,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=ISO-8859-1\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=4; plural=n==1 ? 0 : (n>1 && n<7) ? 1 : (n>6 && n <11) ? 2 : 3;\n"
+"Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : (n>2 && n<7) ? 2 :"
+"(n>6 && n<11) ? 3 : 4;\n"
 
 #: lib/argmatch.c:137
 #, c-format
@@ -37,7 +38,7 @@ msgstr "Na hargóintí bailí:"
 #: src/tail.c:1093 src/tr.c:1561 src/tr.c:1781 src/tr.c:1884
 #: src/unexpand.c:441 src/unexpand.c:457
 msgid "write error"
-msgstr "earráid ag scríobh"
+msgstr "earráid sa scríobh"
 
 #: lib/error.c:123
 msgid "Unknown system error"
@@ -395,7 +396,7 @@ msgid ""
 msgstr ""
 "Is saorbhogearra an ríomhchlár seo; féach ar an bhunchód le haghaidh\n"
 "coinníollacha cóipeála.  Níl baránta ar bith ann; go fiú níl baránta ann\n"
-"d'INDÍOLTACHT nó FEILIÚNACHT DO FHEIDHM AR LEITH.\n"
+"d'INDÍOLTACHT nó FEILIÚNACHT D'FHEIDHM AR LEITH.\n"
 
 #: lib/xfts.c:60
 #, c-format
@@ -722,7 +723,7 @@ msgstr "coimeádadh an mód de %s mar %04lo (%s)\n"
 #: src/chmod.c:188 src/chown-core.c:278 src/copy.c:159 src/du.c:346
 #, c-format
 msgid "cannot access %s"
-msgstr "níl %s ar fáil"
+msgstr "ní féidir %s a rochtain"
 
 #: src/chmod.c:193 src/chown-core.c:283 src/du.c:351
 #, c-format
@@ -1069,12 +1070,12 @@ msgstr "ní féidir %s a `lseek'"
 #: src/copy.c:379 src/copy.c:403 src/dd.c:1333 src/dd.c:1395
 #, c-format
 msgid "writing %s"
-msgstr "ag scríobh %s"
+msgstr "%s á scríobh"
 
 #: src/copy.c:411 src/copy.c:417 src/head.c:874
 #, c-format
 msgid "closing %s"
-msgstr "ag dúnadh %s"
+msgstr "%s á dhúnadh"
 
 #: src/copy.c:636
 #, c-format
@@ -1555,7 +1556,7 @@ msgstr "earráid le linn cuardaigh ar shlonn ionadaíochta"
 #: src/csplit.c:977
 #, c-format
 msgid "write error for `%s'"
-msgstr "earráid ag scríobh do `%s'"
+msgstr "earráid sa scríobh le haghaidh `%s'"
 
 #: src/csplit.c:1053
 #, c-format
@@ -2018,7 +2019,7 @@ msgstr ""
 "  %Z   crios ama (m.sh., EDT), nó neamhní mura bhfuil crios ama ar fáil\n"
 "\n"
 "Mar réamhshocrú, stuáil réimsí uimhriúla le nialais.  Aithníonn\n"
-"GNU date na bunathraitheoirí idir `%' agus treoir uimhriúil:\n"
+"GNU date na mionathraitheoirí idir `%' agus treoir uimhriúil:\n"
 "\n"
 "  `-' (fleiscín) ná stuáil an réimse\n"
 "  `_' (folíne) stuáil an réimse le spásanna\n"
@@ -2268,8 +2269,9 @@ msgid "%s byte (%s) copied"
 msgid_plural "%s bytes (%s) copied"
 msgstr[0] "cóipeáladh %s bheart (%s)"
 msgstr[1] "cóipeáladh %s bheart (%s)"
-msgstr[2] "cóipeáladh %s mbeart (%s)"
-msgstr[3] "cóipeáladh %s beart (%s)"
+msgstr[2] "cóipeáladh %s bheart (%s)"
+msgstr[3] "cóipeáladh %s mbeart (%s)"
+msgstr[4] "cóipeáladh %s beart (%s)"
 
 #: src/dd.c:537
 msgid "Infinity"
@@ -2281,8 +2283,9 @@ msgid ", %g second, %s/s\n"
 msgid_plural ", %g seconds, %s/s\n"
 msgstr[0] ", %g shoicind, %s/s\n"
 msgstr[1] ", %g shoicind, %s/s\n"
-msgstr[2] ", %g soicind, %s/s\n"
+msgstr[2] ", %g shoicind, %s/s\n"
 msgstr[3] ", %g soicind, %s/s\n"
+msgstr[4] ", %g soicind, %s/s\n"
 
 #: src/dd.c:552
 #, c-format
@@ -2297,7 +2300,7 @@ msgstr "aschomhad %s á dhúnadh"
 #: src/dd.c:641
 #, c-format
 msgid "writing to %s"
-msgstr "ag scríobh chuig %s"
+msgstr "ag scríobh i %s"
 
 #: src/dd.c:735
 #, c-format
@@ -4283,6 +4286,7 @@ msgstr[0] "RABHADH: ní féidir %<PRIuMAX> as %<PRIuMAX> comhaid a léamh"
 msgstr[1] "RABHADH: ní féidir %<PRIuMAX> as %<PRIuMAX> comhaid a léamh"
 msgstr[2] "RABHADH: ní féidir %<PRIuMAX> as %<PRIuMAX> comhaid a léamh"
 msgstr[3] "RABHADH: ní féidir %<PRIuMAX> as %<PRIuMAX> comhaid a léamh"
+msgstr[4] "RABHADH: ní féidir %<PRIuMAX> as %<PRIuMAX> comhaid a léamh"
 
 #: src/md5sum.c:538
 #, c-format
@@ -4290,8 +4294,9 @@ msgid "WARNING: %<PRIuMAX> of %<PRIuMAX> computed checksum did NOT match"
 msgid_plural "WARNING: %<PRIuMAX> of %<PRIuMAX> computed checksums did NOT match"
 msgstr[0] "RABHADH: ní ceart %<PRIuMAX> as %<PRIuMAX> shuim ríofa seiceála"
 msgstr[1] "RABHADH: ní ceart %<PRIuMAX> as %<PRIuMAX> shuim ríofa seiceála"
-msgstr[2] "RABHADH: ní ceart %<PRIuMAX> as %<PRIuMAX> suim ríofa seiceála"
+msgstr[2] "RABHADH: ní ceart %<PRIuMAX> as %<PRIuMAX> shuim ríofa seiceála"
 msgstr[3] "RABHADH: ní ceart %<PRIuMAX> as %<PRIuMAX> suim ríofa seiceála"
+msgstr[4] "RABHADH: ní ceart %<PRIuMAX> as %<PRIuMAX> suim ríofa seiceála"
 
 #: src/md5sum.c:613
 msgid "the --binary and --text options are meaningless when verifying checksums"
@@ -5650,8 +5655,8 @@ msgid ""
 "\n"
 msgstr ""
 "Scaiptear an ríomhchlár seo le súil go mbeidh sé áisiúil,\n"
-"ach GAN AON BARÁNTA; go fiú gan an barántas intuigthe de\n"
-"INDÍOLTACHT nó FEILIÚNACHT DO FHEIDHM AR LEITH.  Féach ar an\n"
+"ach GAN AON BARÁNTA; go fiú gan an barántas intuigthe\n"
+"d'INDÍOLTACHT nó FEILIÚNACHT D'FHEIDHM AR LEITH.  Féach ar an\n"
 "GNU General Public License chun níos mó sonraí a fháil.\n"
 "\n"
 
@@ -5661,7 +5666,7 @@ msgid ""
 "along with this program; if not, write to the Free Software Foundation,\n"
 "Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307, USA.\n"
 msgstr ""
-"Ba chomhair go mbeifeá tar éis cóip den GNU General Public License a fháil\n"
+"Ba chóir go mbeifeá tar éis cóip den GNU General Public License a fháil\n"
 "in éineacht leis an ríomhchlár seo; mura bhfuair, scríobh chuig an\n"
 "Free Software Foundation, Inc., 59 Temple Place - Suite 330,\n"
 "Boston, MA 02111-1307, USA.\n"
@@ -6427,7 +6432,7 @@ msgstr "theip ar fflush"
 
 #: src/sort.c:487 src/sort.c:2637
 msgid "close failed"
-msgstr "theip ar dúnadh"
+msgstr "theip ar dhúnadh"
 
 #: src/sort.c:495
 msgid "write failed"
@@ -7286,7 +7291,8 @@ msgid ""
 "A mere - implies -l.   If USER not given, assume root.\n"
 msgstr ""
 "\n"
-"Ciallaíonn `-' lom an rogha `-l'.  Mura bhfuil ÚSÁIDEOIR ann, glactar le root.\n"
+"Úsáidtear -l go huathoibríoch nuair a shonraítear `-' lom.\n"
+"Mura bhfuil ÚSÁIDEOIR ann, glactar le root.\n"
 
 #: src/su.c:498
 #, c-format
@@ -7647,12 +7653,12 @@ msgstr "%s: ag súil le slonn slánuimhreach\n"
 
 #: src/test.c:265
 msgid "')' expected\n"
-msgstr "ag súil le ')'\n"
+msgstr "bhíothas ag súil le ')'\n"
 
 #: src/test.c:268
 #, c-format
 msgid "')' expected, found %s\n"
-msgstr "ag súil le ')', fuarthas %s\n"
+msgstr "bhíothas ag súil le ')', fuarthas %s\n"
 
 #: src/test.c:284 src/test.c:747
 #, c-format
@@ -8453,6 +8459,7 @@ msgstr[0] "%ld lá"
 msgstr[1] "%ld lá"
 msgstr[2] "%ld lá"
 msgstr[3] "%ld lá"
+msgstr[4] "%ld lá"
 
 #: src/uptime.c:132
 #, c-format
@@ -8460,8 +8467,9 @@ msgid "%lu user"
 msgid_plural "%lu users"
 msgstr[0] "%lu úsáideoir"
 msgstr[1] "%lu úsáideoir"
-msgstr[2] "%lu n-úsáideoir"
-msgstr[3] "%lu úsáideoir"
+msgstr[2] "%lu úsáideoir"
+msgstr[3] "%lu n-úsáideoir"
+msgstr[4] "%lu úsáideoir"
 
 #: src/uptime.c:146
 #, c-format

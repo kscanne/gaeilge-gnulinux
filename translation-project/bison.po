@@ -14,7 +14,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=ISO-8859-1\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=4; plural=n==1 ? 0 : (n>1 && n<7) ? 1 : (n>6 && n <11) ? 2 : 3;\n"
+"Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : (n>2 && n<7) ? 2 :"
+"(n>6 && n<11) ? 3 : 4;\n"
 
 #: src/complain.c:51 src/complain.c:66
 msgid "warning: "
@@ -70,8 +71,9 @@ msgid "expected %d shift/reduce conflict"
 msgid_plural "expected %d shift/reduce conflicts"
 msgstr[0] "bhíothas ag súil le %d coinbhleacht iomlaoid/laghdú"
 msgstr[1] "bhíothas ag súil le %d choinbhleacht iomlaoid/laghdú"
-msgstr[2] "bhíothas ag súil le %d gcoinbhleacht iomlaoid/laghdú"
-msgstr[3] "bhíothas ag súil le %d coinbhleacht iomlaoid/laghdú"
+msgstr[2] "bhíothas ag súil le %d choinbhleacht iomlaoid/laghdú"
+msgstr[3] "bhíothas ag súil le %d gcoinbhleacht iomlaoid/laghdú"
+msgstr[4] "bhíothas ag súil le %d coinbhleacht iomlaoid/laghdú"
 
 #: src/conflicts.c:515
 #, c-format
@@ -79,8 +81,9 @@ msgid "expected %d reduce/reduce conflict"
 msgid_plural "expected %d reduce/reduce conflicts"
 msgstr[0] "bhíothas ag súil le %d coinbhleacht laghdú/laghdú"
 msgstr[1] "bhíothas ag súil le %d choinbhleacht laghdú/laghdú"
-msgstr[2] "bhíothas ag súil le %d gcoinbhleacht laghdú/laghdú"
-msgstr[3] "bhíothas ag súil le %d coinbhleacht laghdú/laghdú"
+msgstr[2] "bhíothas ag súil le %d choinbhleacht laghdú/laghdú"
+msgstr[3] "bhíothas ag súil le %d gcoinbhleacht laghdú/laghdú"
+msgstr[4] "bhíothas ag súil le %d coinbhleacht laghdú/laghdú"
 
 #: src/files.c:101
 #, c-format
@@ -218,7 +221,7 @@ msgid ""
 msgstr ""
 "Is saorbhogearra an ríomhchlár seo; féach ar an bhunchód le haghaidh\n"
 "coinníollacha cóipeála.  Níl baránta ar bith ann; go fiú níl baránta ann\n"
-"d'INDÍOLTACHT nó FEILIÚNACHT DO FHEIDHM AR LEITH.\n"
+"d'INDÍOLTACHT nó FEILIÚNACHT D'FHEIDHM AR LEITH.\n"
 
 #: src/getargs.c:447
 #, c-format
@@ -387,6 +390,7 @@ msgstr[0] "%d riail nach laghdaithe riamh\n"
 msgstr[1] "%d riail nach laghdaithe riamh\n"
 msgstr[2] "%d riail nach laghdaithe riamh\n"
 msgstr[3] "%d riail nach laghdaithe riamh\n"
+msgstr[4] "%d riail nach laghdaithe riamh\n"
 
 #: src/reduce.c:397
 #, c-format
@@ -394,8 +398,9 @@ msgid "%d useless nonterminal"
 msgid_plural "%d useless nonterminals"
 msgstr[0] "%d slonn díomhaoin inlaghdaithe"
 msgstr[1] "%d shlonn díomhaoin inlaghdaithe"
-msgstr[2] "%d slonn díomhaoin inlaghdaithe"
+msgstr[2] "%d shlonn díomhaoin inlaghdaithe"
 msgstr[3] "%d slonn díomhaoin inlaghdaithe"
+msgstr[4] "%d slonn díomhaoin inlaghdaithe"
 
 #: src/reduce.c:403
 #, c-format
@@ -410,6 +415,7 @@ msgstr[0] "%d riail dhíomhaoin"
 msgstr[1] "%d riail dhíomhaoin"
 msgstr[2] "%d riail dhíomhaoin"
 msgstr[3] "%d riail dhíomhaoin"
+msgstr[4] "%d riail dhíomhaoin"
 
 #: src/reduce.c:436
 #, c-format

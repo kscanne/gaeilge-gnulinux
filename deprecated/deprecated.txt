@@ -26,6 +26,8 @@ alias		leasainm		ailias		alias		leasainm
 alias		ainm_bréige		ailias		alias		ainm
 # FRTF has dáil and leithdháil
 allocate	riar			dáil		allocat		riar
+# FRTF
+append		cuir_le			iarcheangail	append		ch?ui?r.*le
 #  FARF/FRTF
 application	feidhmoideas		feidhmchlár	applic		fh?eidhmoid
 #  FRTF  (FARF=feidhmigh)
@@ -476,6 +478,8 @@ retry		triail_arís		atriail		retry		[^a]tria
 retry		iarracht_eile		atriail		retry		iarracht
 # no FARF or FRTF
 revoke		cealaigh		aisghairm	revo[kc]	ch?eal
+# FRTF
+rewind		athchas,_cúlchas	atochrais	rewind		(th|úl)chas
 root		fréamh			forúsáideoir	root		fh?réamh
 # FARF/FRTF
 save		cuir_i_dtaisce		sábháil		sav(ing|e)	th?aisc
@@ -511,6 +515,8 @@ style_sheet	bileog_stíle		stílbhileog	style.?sheet	[^l]bh?ileoi?g
 # FRTF
 stylus		bior			stíleas		stylus		bh?ior
 stylus		snáthaid		stíleas		stylus		sh?náth
+# FRTF
+subscribe	suibscríobh		liostáil	subscri		uibscr
 # FRTF/FARF "swap file", vim too
 swap		malartaigh		babhtáil	swap		mh?alai?rt
 # FARF/FRTF
@@ -557,6 +563,7 @@ upgrade		athchóirigh		uasghrádú	upgrad		athchóir
 upload	suas-luchtaigh		uasluchtaigh	upload	sh?uas-?lucht
 upload	thuas-luchtaigh		uasluchtaigh	upload	thuas-?lucht
 # FRTF
+verify		bailíochtaigh	fíoraigh	verif		bh?ailíocht
 verify		deimhnigh		fíoraigh	verif		dh?eimhn
 verify		promh			fíoraigh	verif		ph?romh
 # no FARF/FRTF, MSG has amharc-chlár; amharcán is Séamus's

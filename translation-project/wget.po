@@ -91,7 +91,7 @@ msgstr "Ní féidir comhad fianáin `%s' a oscailt: %s\n"
 #: src/cookies.c:1489
 #, c-format
 msgid "Error writing to `%s': %s\n"
-msgstr "Earráid ag scríobh comhaid `%s': %s\n"
+msgstr "Earráid le linn scríofa i gcomhad `%s': %s\n"
 
 #: src/cookies.c:1492
 #, c-format

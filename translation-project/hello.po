@@ -133,7 +133,7 @@ msgid ""
 msgstr ""
 "Copyright (C) %s Free Software Foundation, Inc.\n"
 "Níl baránta AR BITH ann; go fiú níl baránta ann d'INDÍOLTACHT nó\n"
-"FEILIÚNACHT DO FHEIDHM AR LEITH.  Is féidir leat GNU %s a scaipeadh de réir\n"
+"FEILIÚNACHT D'FHEIDHM AR LEITH.  Is féidir leat GNU %s a scaipeadh de réir\n"
 "na coinníollacha den GNU General Public License.\n"
 "Féach ar an chomhad `COPYING' chun tuilleadh eolais a fháil.\n"
 

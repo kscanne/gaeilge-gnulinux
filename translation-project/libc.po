@@ -307,7 +307,7 @@ msgstr ""
 "Copyright © %s Free Software Foundation, Inc.\n"
 "Is saorbhogearra an ríomhchlár seo; féach ar an bhunchód le haghaidh\n"
 "coinníollacha cóipeála.  Níl baránta ar bith ann; go fiú níl baránta ann\n"
-"d'INDÍOLTACHT nó FEILIÚNACHT DO FHEIDHM AR LEITH.\n"
+"d'INDÍOLTACHT nó FEILIÚNACHT D'FHEIDHM AR LEITH.\n"
 
 #: iconv/iconv_prog.c:428 iconv/iconvconfig.c:376 locale/programs/locale.c:297
 #: locale/programs/localedef.c:391 catgets/gencat.c:251 posix/getconf.c:918

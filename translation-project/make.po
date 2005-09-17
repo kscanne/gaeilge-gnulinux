@@ -1109,7 +1109,7 @@ msgid ""
 msgstr ""
 "%sIs saorbhogearra an ríomhchlár seo; féach ar an bhunchód le haghaidh\n"
 "%scoinníollacha cóipeála.  Níl baránta ar bith ann; go fiú níl baránta ann\n"
-"%sd'INDÍOLTACHT nó FEILIÚNACHT DO FHEIDHM AR LEITH.\n"
+"%sd'INDÍOLTACHT nó FEILIÚNACHT D'FHEIDHM AR LEITH.\n"
 
 #: main.c:2947
 #, c-format
@@ -1234,11 +1234,11 @@ msgstr "Rochtain mic"
 #: misc.c:851
 #, c-format
 msgid "write error: %s"
-msgstr "earráid ag scríobh: %s"
+msgstr "earráid sa scríobh: %s"
 
 #: misc.c:853
 msgid "write error"
-msgstr "earráid ag scríobh"
+msgstr "earráid sa scríobh"
 
 #: read.c:162
 msgid "Reading makefiles...\n"

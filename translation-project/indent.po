@@ -24,7 +24,7 @@ msgstr "       indent comhad1 comhad2 ... comhadN [ roghanna ]\n"
 #: src/args.c:609
 #, c-format
 msgid "indent: missing argument to parameter %s\n"
-msgstr "indent: ní foláir argóint leis an pharaiméadar %s\n"
+msgstr "indent: tá argóint de dhíth i ndiaidh an pharaiméadair %s\n"
 
 #: src/args.c:717
 #, c-format

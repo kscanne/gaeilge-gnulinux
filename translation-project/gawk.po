@@ -1189,12 +1189,12 @@ msgstr "ní fhuarthas dúnadh léir an chomhaid `%s'"
 #: io.c:1024 io.c:1078
 #, c-format
 msgid "error writing standard output (%s)"
-msgstr "earráid agus ag scríobh go haschur caighdeánach (%s)"
+msgstr "earráid agus aschur caighdeánach á scríobh (%s)"
 
 #: io.c:1028 io.c:1082
 #, c-format
 msgid "error writing standard error (%s)"
-msgstr "earráid agus ag scríobh go hearráid caighdeánach (%s)"
+msgstr "earráid agus earráid caighdeánach á scríobh (%s)"
 
 #: io.c:1036
 #, c-format
@@ -1569,8 +1569,8 @@ msgid ""
 "\n"
 msgstr ""
 "Scaiptear an ríomhchlár seo le súil go mbeidh sé áisiúil,\n"
-"ach GAN AON BARÁNTA; go fiú gan an barántas intuigthe de\n"
-"INDÍOLTACHT nó FEILIÚNACHT DO FHEIDHM AR LEITH.  Féach ar an\n"
+"ach GAN AON BARÁNTA; go fiú gan an barántas intuigthe\n"
+"d'INDÍOLTACHT nó FEILIÚNACHT D'FHEIDHM AR LEITH.  Féach ar an\n"
 "GNU General Public License chun níos mó sonraí a fháil.\n"
 "\n"
 
@@ -1580,7 +1580,7 @@ msgid ""
 "along with this program; if not, write to the Free Software\n"
 "Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.\n"
 msgstr ""
-"Ba chomhair go mbeifeá tar éis cóip den GNU General Public License a fháil\n"
+"Ba chóir go mbeifeá tar éis cóip den GNU General Public License a fháil\n"
 "in éineacht leis an ríomhchlár seo; mura bhfuair, scríobh chuig an\n"
 "Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor,\n"
 "Boston, MA 02110-1301, USA.\n"
@@ -1847,7 +1847,7 @@ msgstr "Níl aon slonn ionadaíochta roimhe seo"
 #~ msgstr "ní shannadh `getline' neamhatreoraithe lasmuigh den ghníomh TÚS nó CRÍOCH"
 
 #~ msgid "fptr %x not in tokentab\n"
-#~ msgstr "níl fptr %x ar fáil sa tháb ceadchomharthaí\n"
+#~ msgstr "níl fptr %x ar fáil sa táb ceadchomharthaí\n"
 
 #~ msgid "gsub third parameter is not a changeable object"
 #~ msgstr "ní oibiacht athraitheach é an tríú paraiméadar ionadaíoch gsub"

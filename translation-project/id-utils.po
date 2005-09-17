@@ -48,7 +48,7 @@ msgstr "ní comhad ID é `%s'! (drochuimhir dhraíochta)"
 #: libidu/idread.c:66
 #, c-format
 msgid "`%s' is version %d, but I only grok version %d"
-msgstr "is leagan %d é `%s', ach tuigim leagan %d amháin"
+msgstr "tá `%s' ag leagan %d, ach ní thuigim ach leagan %d"
 
 #: libidu/idread.c:186
 #, c-format
@@ -550,7 +550,7 @@ msgstr "Teaghrán=%ld, "
 #: src/mkid.c:515
 #, c-format
 msgid "Literal=%ld, "
-msgstr "Teaghrán Litriúil=%d, "
+msgstr "Teaghrán Litriúil=%ld, "
 
 #: src/mkid.c:516
 #, c-format

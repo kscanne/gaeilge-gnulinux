@@ -583,7 +583,7 @@ msgstr "Tá an rogha scagaire ann cheana."
 
 #: common/errors.cpp:515
 msgid "Use option modifiers only within named option."
-msgstr "Ná bain úsáid as bunathraitheoirí rogha ach le rogha cheaptha."
+msgstr "Ná bain úsáid as mionathraitheoirí rogha ach le rogha cheaptha."
 
 #: common/errors.cpp:523
 msgid "Option modifier unknown."

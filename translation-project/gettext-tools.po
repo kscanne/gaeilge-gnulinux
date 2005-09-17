@@ -14,7 +14,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=ISO-8859-1\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=4; plural=n==1 ? 0 : (n>1 && n<7) ? 1 : (n>6 && n <11) ? 2 : 3;\n"
+"Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : (n>2 && n<7) ? 2 :"
+"(n>6 && n<11) ? 3 : 4;\n"
 
 #: lib/argmatch.c:120
 #, c-format
@@ -33,7 +34,7 @@ msgstr "Na hargóintí bailí:"
 
 #: lib/closeout.c:66
 msgid "write error"
-msgstr "earráid ag scríobh"
+msgstr "earráid sa scríobh"
 
 #: lib/copy-file.c:65 src/file-list.c:56 src/open-po.c:118 src/read-mo.c:245
 #: src/read-tcl.c:125 src/urlget.c:200 src/xgettext.c:1557 src/xgettext.c:1570
@@ -515,7 +516,7 @@ msgstr ""
 "Copyright (C) %s Free Software Foundation, Inc.\n"
 "Is saorbhogearra an ríomhchlár seo; féach ar an bhunchód le haghaidh\n"
 "coinníollacha cóipeála.  Níl baránta ar bith ann; go fiú níl baránta ann\n"
-"d'INDÍOLTACHT nó FEILIÚNACHT DO FHEIDHM AR LEITH.\n"
+"d'INDÍOLTACHT nó FEILIÚNACHT D'FHEIDHM AR LEITH.\n"
 
 #: src/hostname.c:187 src/msgattrib.c:316 src/msgcat.c:268 src/msgcmp.c:145
 #: src/msgcomm.c:265 src/msgconv.c:222 src/msgen.c:208 src/msgexec.c:182
@@ -1077,8 +1078,9 @@ msgid "found %d fatal error"
 msgid_plural "found %d fatal errors"
 msgstr[0] "aimsíodh %d earráid mharfach"
 msgstr[1] "aimsíodh %d earráid mharfach"
-msgstr[2] "aimsíodh %d n-earráid mharfach"
-msgstr[3] "aimsíodh %d earráid mharfach"
+msgstr[2] "aimsíodh %d earráid mharfach"
+msgstr[3] "aimsíodh %d n-earráid mharfach"
+msgstr[4] "aimsíodh %d earráid mharfach"
 
 #: src/msgcomm.c:294
 #, c-format
@@ -1348,8 +1350,9 @@ msgid "%d translated message"
 msgid_plural "%d translated messages"
 msgstr[0] "%d teachtaireacht aistrithe"
 msgstr[1] "%d theachtaireacht aistrithe"
-msgstr[2] "%d dteachtaireacht aistrithe"
-msgstr[3] "%d teachtaireacht aistrithe"
+msgstr[2] "%d theachtaireacht aistrithe"
+msgstr[3] "%d dteachtaireacht aistrithe"
+msgstr[4] "%d teachtaireacht aistrithe"
 
 #: src/msgfmt.c:585
 #, c-format
@@ -1357,8 +1360,9 @@ msgid ", %d fuzzy translation"
 msgid_plural ", %d fuzzy translations"
 msgstr[0] ", %d aistriúchán doiléir"
 msgstr[1] ", %d aistriúchán doiléir"
-msgstr[2] ", %d n-aistriúchán doiléir"
-msgstr[3] ", %d aistriúchán doiléir"
+msgstr[2] ", %d aistriúchán doiléir"
+msgstr[3] ", %d n-aistriúchán doiléir"
+msgstr[4] ", %d aistriúchán doiléir"
 
 #: src/msgfmt.c:590
 #, c-format
@@ -1366,8 +1370,9 @@ msgid ", %d untranslated message"
 msgid_plural ", %d untranslated messages"
 msgstr[0] ", %d teachtaireacht gan aistriú"
 msgstr[1] ", %d theachtaireacht gan aistriú"
-msgstr[2] ", %d dteachtaireacht gan aistriú"
-msgstr[3] ", %d teachtaireacht gan aistriú"
+msgstr[2] ", %d theachtaireacht gan aistriú"
+msgstr[3] ", %d dteachtaireacht gan aistriú"
+msgstr[4] ", %d teachtaireacht gan aistriú"
 
 #: src/msgfmt.c:610
 #, c-format

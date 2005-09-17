@@ -17,7 +17,7 @@ msgstr ""
 
 #: ../gettext-tools/lib/closeout.c:64
 msgid "write error"
-msgstr "earráid ag scríobh"
+msgstr "earráid sa scríobh"
 
 #: ../gettext-tools/lib/error.c:121
 msgid "Unknown system error"
@@ -95,7 +95,7 @@ msgstr ""
 "Copyright (C) %s Free Software Foundation, Inc.\n"
 "Is saorbhogearra an ríomhchlár seo; féach ar an bhunchód le haghaidh\n"
 "coinníollacha cóipeála.  Níl baránta ar bith ann; go fiú níl baránta ann\n"
-"d'INDÍOLTACHT nó FEILIÚNACHT DO FHEIDHM AR LEITH.\n"
+"d'INDÍOLTACHT nó FEILIÚNACHT D'FHEIDHM AR LEITH.\n"
 
 #: src/envsubst.c:118 src/gettext.c:140 src/ngettext.c:130
 #, c-format
