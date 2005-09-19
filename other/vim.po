@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: vim 7.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2005-09-15 20:18+0000\n"
+"POT-Creation-Date: 2005-09-19 05:05+0000\n"
 "PO-Revision-Date: 2005-02-14 10:35-0600\n"
 "Last-Translator: Kevin Patrick Scannell <scannell@SLU.EDU>\n"
 "Language-Team: Irish <ga@li.org>\n"
@@ -4913,19 +4913,19 @@ msgstr "E349: Níl aitheantóir faoin chúrsóir"
 msgid "E352: Cannot erase folds with current 'foldmethod'"
 msgstr "E352: Ní féidir fillteacha a léirscriosadh leis an 'foldmethod' reatha"
 
-#: normal.c:6973
+#: normal.c:6969
 msgid "E664: changelist is empty"
 msgstr "E664: tá liosta na n-athruithe folamh"
 
-#: normal.c:6975
+#: normal.c:6971
 msgid "E662: At start of changelist"
 msgstr "E662: Ag tosach liosta na n-athruithe"
 
-#: normal.c:6977
+#: normal.c:6973
 msgid "E663: At end of changelist"
 msgstr "E663: Ag deireadh liosta na n-athruithe"
 
-#: normal.c:8260
+#: normal.c:8256
 msgid "Type  :quit<Enter>  to exit Vim"
 msgstr "Clóscríobh  :quit<Enter>  chun Vim a scor"
 
@@ -4972,45 +4972,45 @@ msgstr "E748: Níl aon tabhall úsáidte roimhe seo"
 msgid "cannot yank; delete anyway"
 msgstr "ní féidir a sracadh; scrios mar sin féin"
 
-#: ops.c:2254
+#: ops.c:2251
 msgid "1 line changed"
 msgstr "athraíodh 1 líne"
 
-#: ops.c:2256
+#: ops.c:2253
 #, c-format
 msgid "%ld lines changed"
 msgstr "%ld líne athraithe"
 
-#: ops.c:2667
+#: ops.c:2664
 #, c-format
 msgid "freeing %ld lines"
 msgstr "%ld líne á saoradh"
 
-#: ops.c:2952
+#: ops.c:2949
 msgid "block of 1 line yanked"
 msgstr "sracadh bloc de 1 líne"
 
-#: ops.c:2955
+#: ops.c:2952
 msgid "1 line yanked"
 msgstr "sracadh 1 líne"
 
-#: ops.c:2959
+#: ops.c:2956
 #, c-format
 msgid "block of %ld lines yanked"
 msgstr "sracadh bloc de %ld líne"
 
-#: ops.c:2962
+#: ops.c:2959
 #, c-format
 msgid "%ld lines yanked"
 msgstr "%ld líne sractha"
 
-#: ops.c:3257
+#: ops.c:3254
 #, c-format
 msgid "E353: Nothing in register %s"
 msgstr "E353: Tabhall folamh %s"
 
 #. Highlight title
-#: ops.c:3820
+#: ops.c:3817
 msgid ""
 "\n"
 "--- Registers ---"
@@ -5018,11 +5018,11 @@ msgstr ""
 "\n"
 "--- Tabhaill ---"
 
-#: ops.c:5135
+#: ops.c:5132
 msgid "Illegal register name"
 msgstr "Ainm neamhcheadaithe tabhaill"
 
-#: ops.c:5223
+#: ops.c:5220
 #, c-format
 msgid ""
 "\n"
@@ -5031,22 +5031,22 @@ msgstr ""
 "\n"
 "# Tabhaill:\n"
 
-#: ops.c:5279
+#: ops.c:5276
 #, c-format
 msgid "E574: Unknown register type %d"
 msgstr "E574: Cineál anaithnid tabhaill %d"
 
-#: ops.c:6179
+#: ops.c:6176
 #, c-format
 msgid "%ld Cols; "
 msgstr "%ld Colún; "
 
-#: ops.c:6187
+#: ops.c:6184
 #, c-format
 msgid "Selected %s%ld of %ld Lines; %ld of %ld Words; %ld of %ld Bytes"
 msgstr "Roghnaíodh %s%ld as %ld Líne; %ld as %ld Focal; %ld as %ld Beart"
 
-#: ops.c:6193
+#: ops.c:6190
 #, c-format
 msgid ""
 "Selected %s%ld of %ld Lines; %ld of %ld Words; %ld of %ld Chars; %ld of %ld "
@@ -5055,12 +5055,12 @@ msgstr ""
 "Roghnaíodh %s%ld as %ld Líne; %ld as %ld Focal; %ld as %ld Carachtar; %ld as "
 "%ld Beart"
 
-#: ops.c:6211
+#: ops.c:6208
 #, c-format
 msgid "Col %s of %s; Line %ld of %ld; Word %ld of %ld; Byte %ld of %ld"
 msgstr "Col %s as %s; Líne %ld as %ld; Focal %ld as %ld; Beart %ld as %ld"
 
-#: ops.c:6218
+#: ops.c:6215
 #, c-format
 msgid ""
 "Col %s of %s; Line %ld of %ld; Word %ld of %ld; Char %ld of %ld; Byte %ld of "
@@ -5069,7 +5069,7 @@ msgstr ""
 "Col %s as %s; Líne %ld as %ld; Focal %ld as %ld; Carachtar %ld as %ld; Beart "
 "%ld as %ld"
 
-#: ops.c:6230
+#: ops.c:6227
 #, c-format
 msgid "(+%ld for BOM)"
 msgstr "(+%ld do BOM)"
@@ -5850,53 +5850,53 @@ msgstr "E385: bhuail an cuardach an BUN gan teaghrán comhoiriúnach le %s"
 msgid "E386: Expected '?' or '/'  after ';'"
 msgstr "E386: Ag súil le '?' nó '/'  i ndiaidh ';'"
 
-#: search.c:4507
+#: search.c:4512
 msgid " (includes previously listed match)"
 msgstr " (tá an teaghrán comhoiriúnaithe roimhe seo san áireamh)"
 
 #. cursor at status line
-#: search.c:4527
+#: search.c:4532
 msgid "--- Included files "
 msgstr "--- Comhaid cheanntáisc "
 
-#: search.c:4529
+#: search.c:4534
 msgid "not found "
 msgstr "gan aimsiú"
 
-#: search.c:4530
+#: search.c:4535
 msgid "in path ---\n"
 msgstr "i gconair ---\n"
 
-#: search.c:4587
+#: search.c:4592
 msgid "  (Already listed)"
 msgstr "  (Liostaithe cheana féin)"
 
-#: search.c:4589
+#: search.c:4594
 msgid "  NOT FOUND"
 msgstr "  AR IARRAIDH"
 
-#: search.c:4642
+#: search.c:4647
 #, c-format
 msgid "Scanning included file: %s"
 msgstr "Comhad ceanntáisc á scanadh: %s"
 
-#: search.c:4860
+#: search.c:4865
 msgid "E387: Match is on current line"
 msgstr "E387: Tá an teaghrán comhoiriúnaithe ar an líne reatha"
 
-#: search.c:5003
+#: search.c:5008
 msgid "All included files were found"
 msgstr "Aimsíodh gach comhad ceanntáisc"
 
-#: search.c:5005
+#: search.c:5010
 msgid "No included files"
 msgstr "Gan comhaid cheanntáisc"
 
-#: search.c:5021
+#: search.c:5026
 msgid "E388: Couldn't find definition"
 msgstr "E388: Sainmhíniú gan aimsiú"
 
-#: search.c:5023
+#: search.c:5028
 msgid "E389: Couldn't find pattern"
 msgstr "E389: Patrún gan aimsiú"
 
@@ -5937,7 +5937,8 @@ msgstr "E756: Níl seiceáil litrithe cumasaithe"
 #: spell.c:2109
 #, c-format
 msgid "Warning: Cannot find word list \"%s.%s.spl\" or \"%s.ascii.spl\""
-msgstr "Rabhadh: Ní féidir liosta focal \"%s.%s.spl\" nó \"%s.ascii.spl\" a aimsiú"
+msgstr ""
+"Rabhadh: Ní féidir liosta focal \"%s.%s.spl\" nó \"%s.ascii.spl\" a aimsiú"
 
 #: spell.c:2356
 #, c-format
@@ -5954,7 +5955,7 @@ msgstr "E771: Seanchomhad litrithe, tá gá lena nuashonrú"
 
 #: spell.c:2398
 msgid "E772: Spell file is for newer version of Vim"
-msgstr ""
+msgstr "E772: Oibríonn an comhad litrithe le leagan níos nuaí de Vim"
 
 #: spell.c:2480
 msgid "E770: Unsupported section in spell file"
@@ -5993,32 +5994,33 @@ msgstr "Luach neamhbhailí ar FLAG i %s líne %d: %s"
 #: spell.c:4613
 #, c-format
 msgid "FLAG after using flags in %s line %d: %s"
-msgstr ""
+msgstr "FLAG i ndiaidh bratacha in úsáid i %s líne %d: %s"
 
 #: spell.c:4634
 #, c-format
 msgid "Character used for SLASH must be ASCII; in %s line %d: %s"
 msgstr ""
+"Ní mór do charachtar a úsáidtear ar SLASH a bheith ASCII; i %s líne %d: %s"
 
 #: spell.c:4704
 #, c-format
 msgid "Wrong COMPOUNDMAX value in %s line %d: %s"
-msgstr ""
+msgstr "Luach mícheart COMPOUNDMAX i %s líne %d: %s"
 
 #: spell.c:4712
 #, c-format
 msgid "Wrong COMPOUNDMIN value in %s line %d: %s"
-msgstr ""
+msgstr "Luach mícheart COMPOUNDMIN i %s líne %d: %s"
 
 #: spell.c:4720
 #, c-format
 msgid "Wrong COMPOUNDSYLMAX value in %s line %d: %s"
-msgstr ""
+msgstr "Luach mícheart COMPOUNDSYLMAX i %s líne %d: %s"
 
 #: spell.c:4759
 #, c-format
 msgid "Different combining flag in continued affix block in %s line %d: %s"
-msgstr ""
+msgstr "Bratach dhifriúil cheangail i mbloc leanta foircinn i %s líne %d: %s"
 
 #: spell.c:4762
 #, c-format
@@ -6030,6 +6032,8 @@ msgstr "Clib dhúblach i %s líne %d: %s"
 msgid ""
 "Affix also used for BAD/RAR/KEP/NEEDAFFIX/NEEDCOMPOUND in %s line %d: %s"
 msgstr ""
+"Foirceann in úsáid le haghaidh BAD/RAR/KEP/NEEDAFFIX/NEEDCOMPOUND freisin i %"
+"s líne %d: %s"
 
 #: spell.c:4806
 #, c-format
@@ -6068,7 +6072,7 @@ msgstr "Líne FOL/LOW/UPP ar iarraidh i %s"
 
 #: spell.c:5175
 msgid "COMPOUNDSYLMAX used without SYLLABLE"
-msgstr ""
+msgstr "COMPOUNDSYLMAX in úsáid gan SYLLABLE"
 
 #: spell.c:5187
 msgid "Too many postponed prefixes"
@@ -6076,11 +6080,11 @@ msgstr "An iomarca réimíreanna curtha siar"
 
 #: spell.c:5189
 msgid "Too many compound flags"
-msgstr ""
+msgstr "An iomarca bratach comhfhocail"
 
 #: spell.c:5191
 msgid "Too many posponed prefixes and/or compound flags"
-msgstr ""
+msgstr "An iomarca réimíreanna curtha siar agus/nó bratacha comhfhocal"
 
 #: spell.c:5203
 #, c-format
@@ -6095,7 +6099,7 @@ msgstr "Línte SAL agus SOFO araon i %s"
 #: spell.c:5245
 #, c-format
 msgid "Flag is not a number in %s line %d: %s"
-msgstr ""
+msgstr "Ní uimhir í an bhratach i %s líne %d: %s"
 
 #: spell.c:5248
 #, c-format
@@ -6105,7 +6109,7 @@ msgstr "Bratach neamhcheadaithe i %s líne %d: %s"
 #: spell.c:5465 spell.c:5478
 #, c-format
 msgid "%s value differs from what is used in another .aff file"
-msgstr ""
+msgstr "Tá difear idir luach %s agus an luach i gcomhad .aff eile"
 
 #: spell.c:5633
 #, c-format
@@ -6195,7 +6199,7 @@ msgstr "Comhbhrúdh %d as %d nód; %d%% fágtha"
 
 #: spell.c:7472
 msgid "E751: Output file name must not have region name"
-msgstr ""
+msgstr "E751: Ní cheadaítear ainm réigiúin in ainm an aschomhaid"
 
 #: spell.c:7474
 msgid "E754: Only up to 8 regions supported"
@@ -6208,7 +6212,7 @@ msgstr "E755: Réigiún neamhbhailí i %s"
 
 #: spell.c:7575
 msgid "Warning: both compounding and NOBREAK specified"
-msgstr ""
+msgstr "Rabhadh: sonraíodh comhfhocail agus NOBREAK araon"
 
 #: spell.c:7605
 #, c-format
@@ -6255,7 +6259,7 @@ msgstr " < \"%.*s\""
 
 #: spell.c:8651
 msgid "E752: No previous spell replacement"
-msgstr ""
+msgstr "E752: Níl aon ionadaí litrithe roimhe seo"
 
 #: spell.c:8701
 #, c-format

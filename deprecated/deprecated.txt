@@ -300,7 +300,7 @@ idle		fastaímeach		díomhaoin	idle		fh?astaím
 # ignore		neamhairdigh		déan_neamhaird_de	ignor	neamhaird[ía-z]
 # FRTF both, FARF prefers bonn-
 infrastructure	infreastruchtúr		bonneagar	infrastr	infrea
-ing		ag			á,_bhíothas_ag	.		"[Aa]g[^a-z]
+ing		ag			á,_bhíothas_ag	.		"[Aa]g[^a-záéíóúÁÉÍÓÚ]
 # FARF/FRTF
 install		feistigh		suiteáil	install		fh?eist
 install		insealbhaigh		suiteáil	install		insh?ealbh
@@ -385,6 +385,8 @@ out_of_memory	úsáidte			ídithe		memory		úsáidte
 overwrite	scríobh_ar		forscríobh	overwrit	[^r]scrío
 # FRTF
 parameter	argóint			paraiméadar	parameter	argói?n
+# FRTF (but see evertype 7-bit stnd, idiraisnéis)
+parenthesis	idiraisnéis		lúibín		parenth		idirais
 # FRTF
 partition	rann			deighilt	partition	rann
 # FARF/FRTF
