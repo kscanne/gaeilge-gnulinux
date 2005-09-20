@@ -478,8 +478,9 @@ restore		athshlánaigh		cuir_ar_ais	restor		athshlán
 # FRTF
 retry		triail_arís		atriail		retry		[^a]tria
 retry		iarracht_eile		atriail		retry		iarracht
-# no FARF or FRTF
-revoke		cealaigh		aisghairm	revo[kc]	ch?eal
+# no FARF or FRTF - Séamus used cúlghairm in TB
+revoke		cealaigh	cúlghairm	revo[kc]	ch?eal
+revoke		aisghairm	cúlghairm	revo[kc]	aisghair
 # FRTF
 rewind		athchas,_cúlchas	atochrais	rewind		(th|úl)chas
 root		fréamh			forúsáideoir	root		fh?réamh

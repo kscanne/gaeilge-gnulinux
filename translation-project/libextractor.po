@@ -4,12 +4,12 @@
 # Kevin Patrick Scannell <scannell@SLU.EDU>, 2005.
 msgid ""
 msgstr ""
-"Project-Id-Version: libextractor 0.5.5\n"
+"Project-Id-Version: libextractor 0.5.6\n"
 "Report-Msgid-Bugs-To: libextractor@gnu.org\n"
-"POT-Creation-Date: 2005-09-07 21:46-0700\n"
-"PO-Revision-Date: 2005-09-12 22:46-0700\n"
+"POT-Creation-Date: 2005-09-18 21:28-0700\n"
+"PO-Revision-Date: 2005-09-18 22:46-0700\n"
 "Last-Translator: Kevin Patrick Scannell <scannell@SLU.EDU>\n"
-"Language-Team: Irish <ga@li.org>\n"
+"Language-Team: Irish <gaeilge-gnulinux@lists.sourceforge.net>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=ISO-8859-1\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -24,7 +24,7 @@ msgstr "RPM Foinse %d.%d"
 msgid "Binary RPM %d.%d"
 msgstr "RPM Dénártha %d.%d"
 
-#: src/plugins/printable/dictionary-builder.c:69
+#: src/plugins/printable/dictionary-builder.c:100
 #, c-format
 msgid ""
 "Please provide the name of the language you are building\n"
@@ -33,12 +33,12 @@ msgstr ""
 "Tabhair uait ainm na teanga ina bhfuil tú ag tógáil foclóra.\n"
 "Mar shampla:\n"
 
-#: src/plugins/printable/dictionary-builder.c:82
+#: src/plugins/printable/dictionary-builder.c:113
 #, c-format
 msgid "Error opening file `%s': %s\n"
 msgstr "Earráid agus comhad `%s' á oscailt: %s\n"
 
-#: src/plugins/printable/dictionary-builder.c:90
+#: src/plugins/printable/dictionary-builder.c:121
 #, c-format
 msgid ""
 "Error allocating: %s\n"
@@ -47,44 +47,44 @@ msgstr ""
 "Earráid le linn dáilte: %s\n"
 "."
 
-#: src/plugins/printable/dictionary-builder.c:102
+#: src/plugins/printable/dictionary-builder.c:135
 #, c-format
 msgid "Increase ALLOCSIZE (in %s).\n"
 msgstr "Méadaigh ALLOCSIZE (i %s).\n"
 
-#: src/plugins/manextractor.c:140
+#: src/plugins/manextractor.c:142
 msgid "Commands"
 msgstr "Orduithe"
 
-#: src/plugins/manextractor.c:145
+#: src/plugins/manextractor.c:147
 msgid "System calls"
 msgstr "Glaonna ar an chóras"
 
-#: src/plugins/manextractor.c:150
+#: src/plugins/manextractor.c:152
 msgid "Library calls"
 msgstr "Glaonna ar leabharlanna"
 
-#: src/plugins/manextractor.c:155
+#: src/plugins/manextractor.c:157
 msgid "Special files"
 msgstr "Comhaid speisialta"
 
-#: src/plugins/manextractor.c:160
+#: src/plugins/manextractor.c:162
 msgid "File formats and conventions"
 msgstr "Formáidí comhaid agus coinbhinsiúin"
 
-#: src/plugins/manextractor.c:165
+#: src/plugins/manextractor.c:167
 msgid "Games"
 msgstr "Cluichí"
 
-#: src/plugins/manextractor.c:170
+#: src/plugins/manextractor.c:172
 msgid "Conventions and miscellaneous"
 msgstr "Coinbhinsiúin agus rudaí eile"
 
-#: src/plugins/manextractor.c:175
+#: src/plugins/manextractor.c:177
 msgid "System management commands"
 msgstr "Orduithe bainistíochta an chórais"
 
-#: src/plugins/manextractor.c:180
+#: src/plugins/manextractor.c:182
 msgid "Kernel routines"
 msgstr "Feidhmeanna eithne"
 
@@ -96,7 +96,5 @@ msgstr "mona"
 msgid "stereo"
 msgstr "steirió"
 
-#: src/plugins/htmlextractor.c:130 src/plugins/htmlextractor.c:928
-#, c-format
-msgid "Fatal: could not allocate (%s at %s:%d).\n"
-msgstr "Earráid mharfach: níorbh fhéidir dáileadh (%s ag %s:%d).\n"
+#~ msgid "Fatal: could not allocate (%s at %s:%d).\n"
+#~ msgstr "Earráid mharfach: níorbh fhéidir dáileadh (%s ag %s:%d).\n"
