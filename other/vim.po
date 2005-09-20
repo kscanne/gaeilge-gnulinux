@@ -16,11 +16,11 @@ msgstr ""
 
 #: buffer.c:101
 msgid "E82: Cannot allocate any buffer, exiting..."
-msgstr "E82: Ní féidir maolán a riar, ag scor..."
+msgstr "E82: Ní féidir maolán a dháileadh, ag scor..."
 
 #: buffer.c:104
 msgid "E83: Cannot allocate buffer, using other one..."
-msgstr "E83: Ní féidir maolán a riar, ag úsáid cinn eile..."
+msgstr "E83: Ní féidir maolán a dháileadh, ag úsáid cinn eile..."
 
 #: buffer.c:855
 msgid "E515: No buffers were unloaded"
@@ -63,7 +63,7 @@ msgstr "%d maolán bánaithe"
 
 #: buffer.c:944
 msgid "E84: No modified buffer found"
-msgstr "E84: Níor aimsíodh maolán athraithe"
+msgstr "E84: Níor aimsíodh maolán mionathraithe"
 
 #. back where we started, didn't find anything.
 #: buffer.c:983
@@ -87,7 +87,7 @@ msgstr "E88: Ní féidir a dhul roimh an chéad mhaolán"
 #, c-format
 msgid "E89: No write since last change for buffer %ld (add ! to override)"
 msgstr ""
-"E89: Tá maolán %ld athraithe ach nach bhfuil sábháilte ó shin (cuir ! leis "
+"E89: Athraíodh maolán %ld ach nach bhfuil sé sábháilte ó shin (cuir ! leis "
 "an ordú chun sárú)"
 
 #: buffer.c:1059
@@ -124,7 +124,7 @@ msgstr "E95: Tá maolán ann leis an ainm seo cheana"
 
 #: buffer.c:2881
 msgid " [Modified]"
-msgstr " [Athraithe]"
+msgstr " [Mionathraithe]"
 
 #: buffer.c:2886
 msgid "[Not edited]"
@@ -698,7 +698,7 @@ msgstr "E277: Ní féidir freagra ón fhreastalaí a léamh"
 
 #: eval.c:12762
 msgid "E655: Too many symbolic links (cycle?)"
-msgstr "E655: An iomarca naisc shiombalacha (timthriall?)"
+msgstr "E655: An iomarca naisc shiombalacha (ciogal?)"
 
 #: eval.c:13278
 msgid "E258: Unable to send to client"
@@ -912,7 +912,7 @@ msgstr "Gan Teideal"
 #: ex_cmds2.c:1460
 #, c-format
 msgid "E162: No write since last change for buffer \"%s\""
-msgstr "E162: Tá maolán \"%s\" athraithe ach nach bhfuil sábháilte ó shin"
+msgstr "E162: Athraíodh maolán \"%s\" ach nach bhfuil sé sábháilte ó shin"
 
 #: ex_cmds2.c:1531
 msgid "Warning: Entered other buffer unexpectedly (check autocommands)"
@@ -1220,7 +1220,7 @@ msgstr "E147: Ní cheadaítear :global go hathchúrsach"
 
 #: ex_cmds.c:4943
 msgid "E148: Regular expression missing from global"
-msgstr "E148: Slonn ionadaíochta ar iarraidh ón domhain"
+msgstr "E148: Slonn ionadaíochta ar iarraidh ón :global"
 
 #: ex_cmds.c:4991
 #, c-format
@@ -1497,7 +1497,7 @@ msgstr "Cuir Comhad i nDeireadh"
 #: ex_docmd.c:7275
 msgid "E747: Cannot change directory, buffer is modifed (add ! to override)"
 msgstr ""
-"E747: Ní féidir an chomhadlann a athrú, tá an maolán athraithe (cuir ! leis "
+"E747: Ní féidir an chomhadlann a athrú, mionathraíodh an maolán (cuir ! leis "
 "an ordú chun sárú)"
 
 #: ex_docmd.c:7284
@@ -1510,20 +1510,20 @@ msgstr "E187: Anaithnid"
 
 #: ex_docmd.c:7461
 msgid "E465: :winsize requires two number arguments"
-msgstr "E465: ní foláir dhá argóint uimhriúil le :winsize"
+msgstr "E465: ní foláir dhá argóint uimhriúla le :winsize"
 
 #: ex_docmd.c:7521
 #, c-format
 msgid "Window position: X %d, Y %d"
-msgstr "Suíomh fuinneoige: X %d, Y %d"
+msgstr "Ionad na fuinneoige: X %d, Y %d"
 
 #: ex_docmd.c:7526
 msgid "E188: Obtaining window position not implemented for this platform"
-msgstr "E188: Ní féidir suíomh fuinneoige a fháil amach ar an chóras seo"
+msgstr "E188: Ní féidir ionad na fuinneoige a fháil amach ar an chóras seo"
 
 #: ex_docmd.c:7536
 msgid "E466: :winpos requires two number arguments"
-msgstr "E466: ní foláir dhá argóint uimhriúil le :winpos"
+msgstr "E466: ní foláir dhá argóint uimhriúla le :winpos"
 
 #: ex_docmd.c:7842
 msgid "Save Redirection"
@@ -1595,7 +1595,7 @@ msgstr ""
 
 #: ex_docmd.c:8957
 msgid "E500: Evaluates to an empty string"
-msgstr "E500: Meastar é seo mar theaghrán folamh"
+msgstr "E500: Luacháiltear é seo mar theaghrán folamh"
 
 #: ex_docmd.c:9954
 msgid "E195: Cannot open viminfo file for reading"
@@ -1613,7 +1613,7 @@ msgstr "E608: Ní féidir eisceachtaí a :throw le réimír 'Vim'"
 #: ex_eval.c:532
 #, c-format
 msgid "Exception thrown: %s"
-msgstr "Eisceacht ginte: %s"
+msgstr "Gineadh eisceacht: %s"
 
 #: ex_eval.c:586
 #, c-format
@@ -2005,7 +2005,7 @@ msgstr " [a]"
 
 #: fileio.c:4206
 msgid " appended"
-msgstr " curtha leis"
+msgstr " iarcheangailte"
 
 #: fileio.c:4208
 msgid " [w]"
@@ -2189,7 +2189,7 @@ msgstr "--Scriosta--"
 #: fileio.c:6991
 #, c-format
 msgid "auto-removing autocommand: %s <buffer=%d>"
-msgstr "ag baint uathordú go huathoibríoch: %s <maolán=%d>"
+msgstr "uathordú á bhaint go huathoibríoch: %s <maolán=%d>"
 
 #. the group doesn't exist
 #: fileio.c:7037
@@ -2386,7 +2386,7 @@ msgstr "E599: Luach neamhbhailí ar 'imactivatekey'"
 #: gui.c:4123
 #, c-format
 msgid "E254: Cannot allocate color %s"
-msgstr "E254: Ní féidir dath %s a riar"
+msgstr "E254: Ní féidir dath %s a dháileadh"
 
 #: gui.c:4653
 msgid "No match at cursor, finding next"
@@ -2788,7 +2788,7 @@ msgstr "E620: Ní féidir an t-ionchódú priontála \"%s\" a thiontú"
 
 #: hardcopy.c:3282
 msgid "Sending to printer..."
-msgstr "Ag seoladh chuig an phrintéir..."
+msgstr "Á sheoladh chuig an phrintéir..."
 
 #: hardcopy.c:3286
 msgid "E365: Failed to print PostScript file"
@@ -2904,7 +2904,7 @@ msgstr ""
 #: if_cscope.c:1082
 #, c-format
 msgid "E469: invalid cscopequickfix flag %c for %c"
-msgstr "E469: brat neamhbhailí cscopequickfix %c le haghaidh %c"
+msgstr "E469: bratach neamhbhailí cscopequickfix %c le haghaidh %c"
 
 #: if_cscope.c:1152
 msgid "cscope commands:\n"
@@ -3300,7 +3300,7 @@ msgstr "líne %d colún %d"
 
 #: if_tcl.c:889
 msgid "cannot insert/append line"
-msgstr "ní féidir líne a chur ann/leis"
+msgstr "ní féidir líne a ionsá/iarcheangal"
 
 #: if_tcl.c:1278
 msgid "unknown flag: "
@@ -3498,7 +3498,7 @@ msgstr ""
 #: main.c:2714
 msgid "where case is ignored prepend / to make flag upper case"
 msgstr ""
-"nuair nach cásíogair é, cuir / ar tosach brait chun cás uachtair a úsáid"
+"nuair nach cásíogair é, cuir '/' ar tosach na brataí chun í a chur san chás uachtair"
 
 #: main.c:2717
 msgid ""
@@ -3681,7 +3681,7 @@ msgstr "-s <script>\tLéig orduithe gnáthmhóid ón chomhad <script>"
 
 #: main.c:2780
 msgid "-w <scriptout>\tAppend all typed commands to file <scriptout>"
-msgstr "-w <script>\tCuir gach ordú iontráilte leis an gcomhad <script>"
+msgstr "-w <script>\tIarcheangail gach ordú iontráilte leis an gcomhad <script>"
 
 #: main.c:2781
 msgid "-W <scriptout>\tWrite all typed commands to file <scriptout>"
@@ -3693,7 +3693,7 @@ msgstr "-x\t\t\tCuir comhaid chriptithe in eagar"
 
 #: main.c:2787
 msgid "-display <display>\tConnect vim to this particular X-server"
-msgstr "-display <freastalaí>\tCeangail vim leis an bhfreastalaí-X seo"
+msgstr "-display <freastalaí>\tNasc vim leis an bhfreastalaí-X seo"
 
 #: main.c:2789
 msgid "-X\t\t\tDo not connect to X server"
@@ -3732,7 +3732,7 @@ msgstr ""
 #: main.c:2797
 msgid "--remote-expr <expr>\tEvaluate <expr> in a Vim server and print result"
 msgstr ""
-"--remote-expr <slonn>\tMeas <slonn> le freastalaí Vim agus taispeáin an "
+"--remote-expr <slonn>\tLuacháil <slonn> le freastalaí Vim agus taispeáin an "
 "toradh"
 
 #: main.c:2798
@@ -3883,7 +3883,7 @@ msgstr "--role <ról>\tSocraigh ról sainiúil chun an phríomhfhuinneog a aithint"
 
 #: main.c:2854
 msgid "--socketid <xid>\tOpen Vim inside another GTK widget"
-msgstr "--socketid <xid>\tOscail Vim isteach i nguirléid GTK eile"
+msgstr "--socketid <xid>\tOscail Vim isteach i ngiuirléid GTK eile"
 
 #: main.c:2857
 msgid ""
@@ -4026,7 +4026,7 @@ msgstr "E286: Theip ar oscailt mhodh ionchuir"
 
 #: mbyte.c:4969
 msgid "E287: Warning: Could not set destroy callback to IM"
-msgstr "E287: Rabhadh: Níorbh fhéidir aisghlaoch scriosta a shocrú le IM"
+msgstr "E287: Rabhadh: Níorbh fhéidir aisghlaoch léirscriosta a shocrú le IM"
 
 #: mbyte.c:4975
 msgid "E288: input method doesn't support any style"
@@ -4248,7 +4248,7 @@ msgstr ""
 #: memline.c:1288
 msgid "and run diff with the original file to check for changes)\n"
 msgstr ""
-"agus déan comparáid leis an chomhad bunúsach (m.sh. le `diff') chun "
+"agus déan comparáid leis an chomhad bhunúsach (m.sh. le `diff') chun "
 "athruithe a scrúdú)\n"
 
 #: memline.c:1289
@@ -4310,7 +4310,7 @@ msgid ""
 "          modified: "
 msgstr ""
 "\n"
-"          modhnaithe: "
+"          mionathraithe: "
 
 #: memline.c:1657
 msgid "YES"
@@ -4979,7 +4979,7 @@ msgstr "athraíodh 1 líne"
 #: ops.c:2253
 #, c-format
 msgid "%ld lines changed"
-msgstr "%ld líne athraithe"
+msgstr "athraíodh %ld líne"
 
 #: ops.c:2664
 #, c-format
@@ -6345,7 +6345,7 @@ msgstr "; meaitseáil "
 
 #: syntax.c:3625
 msgid " line breaks"
-msgstr " scoilt idir línte"
+msgstr " bristeacha líne"
 
 #: syntax.c:4253
 msgid "E395: contains argument not accepted here"
@@ -6790,7 +6790,7 @@ msgstr ""
 
 #: version.c:794 version.c:1162
 msgid "Modified by "
-msgstr "Athraithe ag "
+msgstr "Mionathraithe ag "
 
 #: version.c:801
 msgid ""
@@ -7029,7 +7029,7 @@ msgstr "roghchlár  Help->Orphans      chun eolas a fháil "
 
 #: version.c:1059
 msgid "Running modeless, typed text is inserted"
-msgstr "Ag rith gan mhóid, ag ionsá an téacs atá iontráilte"
+msgstr "Á rith gan mhóid, ag ionsá an téacs atá iontráilte"
 
 # same problem --kps
 #: version.c:1060
@@ -7123,7 +7123,7 @@ msgstr ""
 
 #: if_perl.xs:622
 msgid "E299: Perl evaluation forbidden in sandbox without the Safe module"
-msgstr "E299: Ní cheadaítear meas Perl i mbosca gainimh gan an modúl Safe"
+msgstr "E299: Ní cheadaítear luacháil Perl i mbosca gainimh gan an modúl Safe"
 
 #: GvimExt/gvimext.cpp:587
 msgid "Edit with &multiple Vims"
@@ -7301,7 +7301,7 @@ msgstr "E20: Marc gan socrú"
 #: globals.h:1296
 msgid "E21: Cannot make changes, 'modifiable' is off"
 msgstr ""
-"E21: Ní féidir athruithe a chur i bhfeidhm, níl an brat 'modifiable' "
+"E21: Ní féidir athruithe a chur i bhfeidhm, níl an bhratach 'modifiable' "
 "socraithe"
 
 #: globals.h:1297
