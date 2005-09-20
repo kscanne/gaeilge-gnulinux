@@ -1,0 +1,102 @@
+# Irish translations for libextractor
+# Copyright (C) 2005 Free Software Foundation, Inc.
+# This file is distributed under the same license as the libextractor package.
+# Kevin Patrick Scannell <scannell@SLU.EDU>, 2005.
+msgid ""
+msgstr ""
+"Project-Id-Version: libextractor 0.5.5\n"
+"Report-Msgid-Bugs-To: libextractor@gnu.org\n"
+"POT-Creation-Date: 2005-09-07 21:46-0700\n"
+"PO-Revision-Date: 2005-09-12 22:46-0700\n"
+"Last-Translator: Kevin Patrick Scannell <scannell@SLU.EDU>\n"
+"Language-Team: Irish <ga@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ISO-8859-1\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/plugins/rpm/rpmextractor.c:3048
+#, c-format
+msgid "Source RPM %d.%d"
+msgstr "RPM Foinse %d.%d"
+
+#: src/plugins/rpm/rpmextractor.c:3053
+#, c-format
+msgid "Binary RPM %d.%d"
+msgstr "RPM Dénártha %d.%d"
+
+#: src/plugins/printable/dictionary-builder.c:69
+#, c-format
+msgid ""
+"Please provide the name of the language you are building\n"
+"a dictionary for.  For example:\n"
+msgstr ""
+"Tabhair uait ainm na teanga ina bhfuil tú ag tógáil foclóra.\n"
+"Mar shampla:\n"
+
+#: src/plugins/printable/dictionary-builder.c:82
+#, c-format
+msgid "Error opening file `%s': %s\n"
+msgstr "Earráid agus comhad `%s' á oscailt: %s\n"
+
+#: src/plugins/printable/dictionary-builder.c:90
+#, c-format
+msgid ""
+"Error allocating: %s\n"
+"."
+msgstr ""
+"Earráid le linn dáilte: %s\n"
+"."
+
+#: src/plugins/printable/dictionary-builder.c:102
+#, c-format
+msgid "Increase ALLOCSIZE (in %s).\n"
+msgstr "Méadaigh ALLOCSIZE (i %s).\n"
+
+#: src/plugins/manextractor.c:140
+msgid "Commands"
+msgstr "Orduithe"
+
+#: src/plugins/manextractor.c:145
+msgid "System calls"
+msgstr "Glaonna ar an chóras"
+
+#: src/plugins/manextractor.c:150
+msgid "Library calls"
+msgstr "Glaonna ar leabharlanna"
+
+#: src/plugins/manextractor.c:155
+msgid "Special files"
+msgstr "Comhaid speisialta"
+
+#: src/plugins/manextractor.c:160
+msgid "File formats and conventions"
+msgstr "Formáidí comhaid agus coinbhinsiúin"
+
+#: src/plugins/manextractor.c:165
+msgid "Games"
+msgstr "Cluichí"
+
+#: src/plugins/manextractor.c:170
+msgid "Conventions and miscellaneous"
+msgstr "Coinbhinsiúin agus rudaí eile"
+
+#: src/plugins/manextractor.c:175
+msgid "System management commands"
+msgstr "Orduithe bainistíochta an chórais"
+
+#: src/plugins/manextractor.c:180
+msgid "Kernel routines"
+msgstr "Feidhmeanna eithne"
+
+#: src/plugins/wavextractor.c:113
+msgid "mono"
+msgstr "mona"
+
+#: src/plugins/wavextractor.c:113
+msgid "stereo"
+msgstr "steirió"
+
+#: src/plugins/htmlextractor.c:130 src/plugins/htmlextractor.c:928
+#, c-format
+msgid "Fatal: could not allocate (%s at %s:%d).\n"
+msgstr "Earráid mharfach: níorbh fhéidir dáileadh (%s ag %s:%d).\n"
