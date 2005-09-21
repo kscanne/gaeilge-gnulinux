@@ -272,7 +272,7 @@ msgstr "E105: Ag úsáid :loadkeymap ach ní comhad foinsithe é seo"
 
 #: edit.c:42
 msgid " Keyword completion (^N^P)"
-msgstr " Comhlánú d'eochairfhocail (^N^P)"
+msgstr " Comhlánú lorgfhocal (^N^P)"
 
 #. ctrl_x_mode == 0, ^P/^N compl.
 #: edit.c:43
@@ -325,7 +325,7 @@ msgstr " Moladh litrithe (^S^N^P)"
 
 #: edit.c:57
 msgid " Keyword Local completion (^N^P)"
-msgstr " Comhlánú eochairfhocail logánta (^N^P)"
+msgstr " Comhlánú logánta lorgfhocal (^N^P)"
 
 #: edit.c:60
 msgid "Hit end of paragraph"
@@ -6800,9 +6800,10 @@ msgstr ""
 "\n"
 "Tiomsaithe "
 
+# with "Tiomsaithe"
 #: version.c:804
 msgid "by "
-msgstr "le "
+msgstr "ag "
 
 #: version.c:816
 msgid ""

@@ -2467,7 +2467,7 @@ msgstr "earráid agus \"%s\" á léamh"
 #: src/po-lex.c:737
 #, c-format
 msgid "keyword \"%s\" unknown"
-msgstr "eochairfhocal \"%s\" anaithnid"
+msgstr "lorgfhocal \"%s\" anaithnid"
 
 #: src/po-lex.c:847
 #, c-format

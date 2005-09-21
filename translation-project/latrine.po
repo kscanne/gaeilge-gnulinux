@@ -228,7 +228,7 @@ msgstr "rinneadh neamhshuim ar --version sa chomhad cumraíochta"
 #: options.c:205
 #, c-format
 msgid "invalid or incomplete keyword in %s line %d"
-msgstr "eochairfhocal neamhbhailí nó neamhiomlán i %s, líne %d"
+msgstr "lorgfhocal neamhbhailí nó neamhiomlán i %s, líne %d"
 
 #: options.c:240
 #, c-format

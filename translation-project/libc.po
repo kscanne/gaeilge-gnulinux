@@ -3952,7 +3952,7 @@ msgstr ""
 #: inet/ruserpass.c:277
 #, c-format
 msgid "Unknown .netrc keyword %s"
-msgstr "Eochairfhocal anaithnid .netrc %s"
+msgstr "Lorgfhocal anaithnid .netrc %s"
 
 #: sunrpc/auth_unix.c:115 sunrpc/auth_unix.c:118
 msgid "authunix_create: out of memory\n"

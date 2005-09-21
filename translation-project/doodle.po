@@ -39,13 +39,13 @@ msgstr "sábháil an bunachar sonraí doodle sa chomhad FILENAME"
 #: src/doodle/doodle.c:75
 msgid "for each matching file, print the extracted keywords"
 msgstr ""
-"taispeáin na heochairfhocail asbhainte do gach ceann de na comhaid "
-"chomhoiriúnaithe"
+"taispeáin na lorgfhocail asbhainte do gach ceann de na comhaid "
+"chomhoiriúnacha"
 
 #: src/doodle/doodle.c:77
 msgid "add the filename to the list of keywords (use when building database)"
 msgstr ""
-"cuir an t-ainm comhaid leis an liosta eochairfhocal (úsáid agus an bunachar "
+"cuir an t-ainm comhaid leis an liosta lorgfhocal (úsáid agus an bunachar "
 "sonraí á thógáil)"
 
 #: src/doodle/doodle.c:79 src/doodle/doodled.c:69
@@ -63,11 +63,11 @@ msgstr ""
 
 #: src/doodle/doodle.c:85 src/doodle/doodled.c:73
 msgid "load an extractor plugin named LIBRARY"
-msgstr "luchtaigh breiseán asbhainteora agus ainm LIBRARY air"
+msgstr "luchtaigh breiseán asbhainteora darb ainm LIBRARY"
 
 #: src/doodle/doodle.c:87
 msgid "log keywords to a file named FILENAME"
-msgstr "logáil eochairfhocail i gCOMHAD"
+msgstr "logáil lorgfhocail i gCOMHAD"
 
 #: src/doodle/doodle.c:89 src/doodle/doodled.c:77
 msgid "do not load default set of extractor plugins"
@@ -250,7 +250,7 @@ msgstr "rith sa mhód dífhabhtaithe, ná rith mar dheamhan"
 
 #: src/doodle/doodled.c:67
 msgid "add the filename to the list of keywords"
-msgstr "cuir an t-ainm comhaid leis an liosta eochairfhocal"
+msgstr "cuir an t-ainm comhaid leis an liosta lorgfhocal"
 
 #: src/doodle/doodled.c:71
 msgid "compute hash using the given ALGORITHM"

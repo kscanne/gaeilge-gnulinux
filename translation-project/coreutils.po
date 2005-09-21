@@ -2577,7 +2577,7 @@ msgstr "%s:%lu: líne neamhbhailí;  dara teaghrán ar iarraidh"
 #: src/dircolors.c:360
 #, c-format
 msgid "%s:%lu: unrecognized keyword %s"
-msgstr "%s:%lu: eochairfhocal anaithnid %s"
+msgstr "%s:%lu: lorgfhocal anaithnid %s"
 
 #: src/dircolors.c:361
 msgid "<internal>"
@@ -2986,7 +2986,7 @@ msgid ""
 "  ( EXPRESSION )             value of EXPRESSION\n"
 msgstr ""
 "  + SIOMBAIL                 caith le SIOMBAIL mar theaghrán, fiú más\n"
-"                               eochairfhocal é, mar `match', nó oibreoir mar `/'\n"
+"                               lorgfhocal é, mar `match', nó oibreoir mar `/'\n"
 "\n"
 "  ( SLONN )                  luach de SLONN\n"
 

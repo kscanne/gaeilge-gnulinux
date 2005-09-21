@@ -315,6 +315,7 @@ keep		caomhnaigh		coimeád		keep		ch?aomhn
 keyboard	luibheanchlár		méarchlár	keyboard	luibhean
 keyboard	eochairchlár		méarchlár	keyboard	eochairch
 key_mapping	mapa_eochrach		eochairmhapáil	key.?map	[^r]mh?ap
+keyword		eochairfhocal	lorgfhocal		key.?word		eochairf
 #    case-insensitive => next check doesn't work...
 # LaTeX		Latex			LaTeX		latex		Late[^X]
 launch		lainseáil		tosaigh		launch		lains

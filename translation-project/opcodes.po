@@ -358,7 +358,7 @@ msgstr "ní féidir an chomhadlann reatha a athrú go \"%s\", errno = %s\n"
 #. cgen will try the next parsing option.
 #: ip2k-asm.c:92
 msgid "W keyword invalid in FR operand slot."
-msgstr "is neamhbhailí é eochairfhocal W i sliotán oibrinn FR."
+msgstr "is neamhbhailí é lorgfhocal W i sliotán oibrinn FR."
 
 #. Invalid offset present.
 #: ip2k-asm.c:117
