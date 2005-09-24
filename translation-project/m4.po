@@ -78,7 +78,7 @@ msgstr "cuimhne ídithe"
 
 #: lib/regex.c:1019
 msgid "Success"
-msgstr "Bua!"
+msgstr "D'éirigh leis"
 
 #: lib/regex.c:1022
 msgid "No match"

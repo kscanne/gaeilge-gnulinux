@@ -384,7 +384,7 @@ msgstr "ní féidir %s a athainmniú: %s"
 
 #: lib/regcomp.c:150
 msgid "Success"
-msgstr "Bua!"
+msgstr "D'éirigh leis"
 
 #: lib/regcomp.c:153
 msgid "No match"

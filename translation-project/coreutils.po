@@ -1547,7 +1547,7 @@ msgstr " le linn timthriall %s\n"
 #: src/csplit.c:753
 #, c-format
 msgid "%s: `%s': match not found"
-msgstr "%s: `%s': níl comhoiriúnú ar fáil"
+msgstr "%s: `%s': níl a leithéid ann"
 
 #: src/csplit.c:817 src/csplit.c:857 src/tac.c:269
 msgid "error in regular expression search"

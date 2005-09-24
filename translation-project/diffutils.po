@@ -138,7 +138,7 @@ msgstr "%s: ní cheadaítear argóint i ndiaidh na rogha `-W %s'\n"
 
 #: lib/regex.c:1302
 msgid "Success"
-msgstr "Bua!"
+msgstr "D'éirigh leis"
 
 # #-#-#-#-#  findutils-4.2.6.ga.po (findutils 4.2.6)  #-#-#-#-#
 # ugh.  Not clear what kind of things we're matching -- KPS

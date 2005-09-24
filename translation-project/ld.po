@@ -360,12 +360,12 @@ msgstr "Siombail"
 #: ldcref.c:234
 #, c-format
 msgid "File\n"
-msgstr ""
+msgstr "Comhad\n"
 
 #: ldcref.c:238
 #, c-format
 msgid "No symbols\n"
-msgstr ""
+msgstr "Gan siombailí\n"
 
 #: ldcref.c:359 ldcref.c:478
 msgid "%B%F: could not read symbols; %E\n"
@@ -381,7 +381,7 @@ msgstr ""
 
 #: ldcref.c:547 ldcref.c:554 ldmain.c:1273 ldmain.c:1280
 msgid "%B%F: could not read relocs: %E\n"
-msgstr ""
+msgstr "%B%F: níorbh fhéidir na hathshuíonna a léamh: %E\n"
 
 #. We found a reloc for the symbol.  The symbol is defined
 #. in OUTSECNAME.  This reloc is from a section which is
@@ -393,7 +393,7 @@ msgstr ""
 
 #: ldctor.c:84
 msgid "%P%X: Different relocs used in set %s\n"
-msgstr ""
+msgstr "%P%X: Úsáideadh athshuíonna difriúla i dtacar %s\n"
 
 #: ldctor.c:102
 msgid "%P%X: Different object file formats composing set %s\n"
@@ -401,7 +401,7 @@ msgstr ""
 
 #: ldctor.c:281 ldctor.c:295
 msgid "%P%X: %s does not support reloc %s for set %s\n"
-msgstr ""
+msgstr "%P%X: Ní thacaíonn %s le hathshuí %s i gcomhair tacair %s\n"
 
 #: ldctor.c:316
 msgid "%P%X: Unsupported size %d for set %s\n"
@@ -413,6 +413,9 @@ msgid ""
 "Set                 Symbol\n"
 "\n"
 msgstr ""
+"\n"
+"Tacar               Siombail\n"
+"\n"
 
 #: ldemul.c:227
 #, c-format
@@ -426,11 +429,11 @@ msgstr ""
 
 #: ldemul.c:253
 msgid "%P: unrecognised emulation mode: %s\n"
-msgstr ""
+msgstr "%P: mód anaithnid aithrise: %s\n"
 
 #: ldemul.c:254
 msgid "Supported emulations: "
-msgstr ""
+msgstr "Aithrisí a dtacaítear leo: "
 
 #: ldemul.c:296
 #, c-format
@@ -498,7 +501,7 @@ msgstr ""
 #: ldfile.c:139
 #, c-format
 msgid "attempt to open %s failed\n"
-msgstr ""
+msgstr "theip ar oscailt %s\n"
 
 #: ldfile.c:141
 #, c-format
@@ -527,11 +530,11 @@ msgstr ""
 
 #: ldfile.c:417
 msgid "%F%P: cannot find %s inside %s\n"
-msgstr ""
+msgstr "%F%P: ní féidir %s a aimsiú i %s\n"
 
 #: ldfile.c:420
 msgid "%F%P: cannot find %s\n"
-msgstr ""
+msgstr "%F%P: ní féidir %s a aimsiú\n"
 
 #: ldfile.c:437 ldfile.c:453
 #, c-format
@@ -608,11 +611,11 @@ msgstr ""
 
 #: ldlang.c:1776
 msgid "%B: matching formats:"
-msgstr ""
+msgstr "%B: formáidí comhoiriúnacha:"
 
 #: ldlang.c:1783
 msgid "%F%B: file not recognized: %E\n"
-msgstr ""
+msgstr "%F%B: comhad gan aimsiú: %E\n"
 
 #: ldlang.c:1847
 msgid "%F%B: member %B in archive is not an object\n"
@@ -620,7 +623,7 @@ msgstr ""
 
 #: ldlang.c:1858 ldlang.c:1872
 msgid "%F%B: could not read symbols: %E\n"
-msgstr ""
+msgstr "%F%B: níorbh fhéidir na siombailí a léamh: %E\n"
 
 #: ldlang.c:2127
 msgid ""
@@ -629,11 +632,11 @@ msgstr ""
 
 #: ldlang.c:2141
 msgid "%P%F: target %s not found\n"
-msgstr ""
+msgstr "%P%F: sprioc %s gan aimsiú\n"
 
 #: ldlang.c:2143
 msgid "%P%F: cannot open output file %s: %E\n"
-msgstr ""
+msgstr "%P%F: ní féidir aschomhad %s a oscailt: %E\n"
 
 #: ldlang.c:2149
 msgid "%P%F:%s: can not make object file: %E\n"
@@ -657,7 +660,7 @@ msgstr ""
 
 #: ldlang.c:2710
 msgid " load address 0x%V"
-msgstr ""
+msgstr " luchtaigh seoladh 0x%V"
 
 #: ldlang.c:2874
 msgid "%W (size before relaxing)\n"
@@ -671,7 +674,7 @@ msgstr ""
 #: ldlang.c:3114
 #, c-format
 msgid "Fail with %d\n"
-msgstr ""
+msgstr "Teipthe le %d\n"
 
 #: ldlang.c:3351
 msgid "%X%P: section %s [%V -> %V] overlaps section %s [%V -> %V]\n"
@@ -717,7 +720,7 @@ msgstr ""
 
 #: ldlang.c:3999
 msgid "%F%P: invalid reloc statement\n"
-msgstr ""
+msgstr "%F%P: ráiteas neamhbhailí athshuite\n"
 
 #: ldlang.c:4141
 msgid "%P%F:%s: can't set start address\n"
@@ -762,6 +765,8 @@ msgid ""
 "Common symbol       size              file\n"
 "\n"
 msgstr ""
+"Siombail choitianta méid              comhad\n"
+"\n"
 
 #: ldlang.c:4470
 msgid "%P%F: invalid syntax in flags\n"
@@ -781,7 +786,7 @@ msgstr ""
 
 #: ldlang.c:5345
 msgid "%F%P: bfd_record_phdr failed: %E\n"
-msgstr ""
+msgstr "%F%P: theip ar bfd_record_phdr: %E\n"
 
 #: ldlang.c:5365
 msgid "%X%P: section `%s' assigned to non-existent phdr `%s'\n"
@@ -850,7 +855,7 @@ msgstr ""
 
 #: ldmain.c:436
 msgid "%P: mode %s\n"
-msgstr ""
+msgstr "%P: mód %s\n"
 
 #: ldmain.c:452
 msgid "%P%F: cannot open map file %s: %E\n"
@@ -897,11 +902,11 @@ msgstr ""
 
 #: ldmain.c:780 ldmain.c:798 ldmain.c:828
 msgid "%P%F: bfd_hash_table_init failed: %E\n"
-msgstr ""
+msgstr "%P%F: theip ar bfd_hash_table_init: %E\n"
 
 #: ldmain.c:784 ldmain.c:802
 msgid "%P%F: bfd_hash_lookup failed: %E\n"
-msgstr ""
+msgstr "%P%F: theip ar bfd_hash_lookup: %E\n"
 
 #: ldmain.c:816
 msgid "%X%P: error: duplicate retain-symbols-file\n"
@@ -913,7 +918,7 @@ msgstr ""
 
 #: ldmain.c:863
 msgid "%P: `-retain-symbols-file' overrides `-s' and `-S'\n"
-msgstr ""
+msgstr "%P: sáraíonn `-retain-symbols-file' na roghanna `-s' agus `-S'\n"
 
 #: ldmain.c:938
 #, c-format
@@ -989,11 +994,11 @@ msgstr "rabhadh: "
 
 #: ldmain.c:1327
 msgid "%F%P: bfd_hash_table_init failed: %E\n"
-msgstr ""
+msgstr "%F%P: theip ar bfd_hash_table_init: %E\n"
 
 #: ldmain.c:1334
 msgid "%F%P: bfd_hash_lookup failed: %E\n"
-msgstr ""
+msgstr "%F%P: theip ar bfd_hash_lookup: %E\n"
 
 #: ldmain.c:1355
 msgid "%X%C: undefined reference to `%T'\n"
@@ -1029,7 +1034,7 @@ msgstr ""
 
 #: ldmain.c:1425 ldmain.c:1478 ldmain.c:1496
 msgid "%P%X: generated"
-msgstr ""
+msgstr "%P%X: ginte"
 
 #: ldmain.c:1432
 msgid " additional relocation overflows omitted from the output\n"
@@ -1052,7 +1057,7 @@ msgstr ""
 #: ldmain.c:1481
 #, c-format
 msgid "dangerous relocation: %s\n"
-msgstr ""
+msgstr "athshuí contúirteach: %s\n"
 
 #: ldmain.c:1499
 msgid " reloc refers to symbol `%T' which is not being output\n"
@@ -1061,7 +1066,7 @@ msgstr ""
 #: ldmisc.c:149
 #, c-format
 msgid "no symbol"
-msgstr ""
+msgstr "gan siombail"
 
 #: ldmisc.c:240
 #, c-format
@@ -1070,15 +1075,15 @@ msgstr ""
 
 #: ldmisc.c:289 ldmisc.c:293
 msgid "%B%F: could not read symbols\n"
-msgstr ""
+msgstr "%B%F: níorbh fhéidir siombailí a léamh\n"
 
 #: ldmisc.c:329
 msgid "%B: In function `%T':\n"
-msgstr ""
+msgstr "%B: I bhfeidhm `%T':\n"
 
 #: ldmisc.c:480
 msgid "%F%P: internal error %s %d\n"
-msgstr ""
+msgstr "%F%P: earráid inmheánach %s %d\n"
 
 #: ldmisc.c:526
 msgid "%P: internal error: aborting at %s line %d in %s\n"
@@ -1096,12 +1101,12 @@ msgstr ""
 #: ldver.c:38
 #, c-format
 msgid "GNU ld version %s\n"
-msgstr ""
+msgstr "ld GNU, leagan %s\n"
 
 #: ldver.c:42
 #, c-format
 msgid "Copyright 2005 Free Software Foundation, Inc.\n"
-msgstr ""
+msgstr "Copyright 2005 Free Software Foundation, Inc.\n"
 
 #: ldver.c:43
 #, c-format
@@ -1109,15 +1114,19 @@ msgid ""
 "This program is free software; you may redistribute it under the terms of\n"
 "the GNU General Public License.  This program has absolutely no warranty.\n"
 msgstr ""
+"Is saorbhogearra é an clár seo; is féidir leat é a scaipeadh de réir na\n"
+"gcoinníollacha den GNU General Public License.  Níl baránta ar chor ar bith\n"
+"leis an gclár seo.\n"
+
 
 #: ldver.c:52
 #, c-format
 msgid "  Supported emulations:\n"
-msgstr ""
+msgstr "  Aithrisí a dtacaítear leo:\n"
 
 #: ldwrite.c:55 ldwrite.c:191
 msgid "%P%F: bfd_new_link_order failed\n"
-msgstr ""
+msgstr "%P%F: theip ar bfd_new_link_order\n"
 
 #: ldwrite.c:341
 msgid "%F%P: cannot create split section name for %s\n"
@@ -1138,7 +1147,7 @@ msgstr ""
 
 #: lexsup.c:195 lexsup.c:327
 msgid "KEYWORD"
-msgstr ""
+msgstr "LORGFHOCAL"
 
 #: lexsup.c:195
 msgid "Shared library control for HP/UX compatibility"
@@ -1146,11 +1155,11 @@ msgstr ""
 
 #: lexsup.c:198
 msgid "ARCH"
-msgstr ""
+msgstr "AILTIREACHT"
 
 #: lexsup.c:198
 msgid "Set architecture"
-msgstr ""
+msgstr "Socraigh an ailtireacht"
 
 #: lexsup.c:200 lexsup.c:421
 msgid "TARGET"
@@ -1179,19 +1188,19 @@ msgstr "SEOLADH"
 
 #: lexsup.c:209
 msgid "Set start address"
-msgstr ""
+msgstr "Socraigh seoladh tosaithe"
 
 #: lexsup.c:211
 msgid "Export all dynamic symbols"
-msgstr ""
+msgstr "Easpórtáil gach siombail dhinimiciúil"
 
 #: lexsup.c:213
 msgid "Link big-endian objects"
-msgstr ""
+msgstr "Nasc réada mórcheannacha"
 
 #: lexsup.c:215
 msgid "Link little-endian objects"
-msgstr ""
+msgstr "Nasc réada caolcheannacha"
 
 #: lexsup.c:217 lexsup.c:220
 msgid "SHLIB"
@@ -1223,7 +1232,7 @@ msgstr "COMHADAINM"
 
 #: lexsup.c:228
 msgid "Set internal name of shared library"
-msgstr ""
+msgstr "Socraigh an t-ainm inmheánach ar an gcomhleabharlann"
 
 #: lexsup.c:230
 msgid "PROGRAM"
@@ -1235,7 +1244,7 @@ msgstr ""
 
 #: lexsup.c:233
 msgid "LIBNAME"
-msgstr ""
+msgstr "LEABHARLANN"
 
 #: lexsup.c:233
 msgid "Search for library LIBNAME"
@@ -1279,11 +1288,11 @@ msgstr ""
 
 #: lexsup.c:252
 msgid "Set output file name"
-msgstr ""
+msgstr "Socraigh ainm an aschomhaid"
 
 #: lexsup.c:254
 msgid "Optimize output file"
-msgstr ""
+msgstr "Optamaigh an t-aschomhad"
 
 #: lexsup.c:256
 msgid "Ignored for SVR4 compatibility"
@@ -1299,11 +1308,11 @@ msgstr ""
 
 #: lexsup.c:267
 msgid "Strip all symbols"
-msgstr ""
+msgstr "Struipeáil na siombailí uile"
 
 #: lexsup.c:269
 msgid "Strip debugging symbols"
-msgstr ""
+msgstr "Struipeáil siombailí dífhabhtaithe"
 
 #: lexsup.c:271
 msgid "Strip symbols in discarded sections"
@@ -1332,7 +1341,7 @@ msgstr ""
 
 #: lexsup.c:282
 msgid "[=SECTION]"
-msgstr ""
+msgstr "[=RANNÁN]"
 
 #: lexsup.c:283
 msgid "Don't merge input [SECTION | orphan] sections"
@@ -1344,23 +1353,23 @@ msgstr ""
 
 #: lexsup.c:287
 msgid "Print version information"
-msgstr ""
+msgstr "Taispeáin eolas faoin leagan"
 
 #: lexsup.c:289
 msgid "Print version and emulation information"
-msgstr ""
+msgstr "Taispeáin eolas faoin leagan agus faoi aithris"
 
 #: lexsup.c:291
 msgid "Discard all local symbols"
-msgstr ""
+msgstr "Caith gach siombail logánta i dtraipisí"
 
 #: lexsup.c:293
 msgid "Discard temporary local symbols (default)"
-msgstr ""
+msgstr "Caith siombailí sealadacha logánta i dtraipisí (réamhshocrú)"
 
 #: lexsup.c:295
 msgid "Don't discard any local symbols"
-msgstr ""
+msgstr "Ná caith aon siombail i dtraipisí"
 
 #: lexsup.c:297
 msgid "Trace mentions of SYMBOL"
@@ -1376,11 +1385,11 @@ msgstr ""
 
 #: lexsup.c:302
 msgid "Start a group"
-msgstr ""
+msgstr "Tosaigh grúpa"
 
 #: lexsup.c:304
 msgid "End a group"
-msgstr ""
+msgstr "Cuir deireadh le grúpa"
 
 #: lexsup.c:308
 msgid "Accept input files whose architecture cannot be determined"
@@ -1416,11 +1425,11 @@ msgstr ""
 
 #: lexsup.c:329
 msgid "Link against shared libraries"
-msgstr ""
+msgstr "Nasc le comhleabharlanna"
 
 #: lexsup.c:335
 msgid "Do not link against shared libraries"
-msgstr ""
+msgstr "Ná nasc le comhleabharlanna"
 
 #: lexsup.c:343
 msgid "Bind global references locally"
@@ -1444,7 +1453,7 @@ msgstr "SIOMBAIL=SLONN"
 
 #: lexsup.c:353
 msgid "Define a symbol"
-msgstr ""
+msgstr "Sainmhínigh siombail"
 
 #: lexsup.c:355
 msgid "[=STYLE]"
@@ -1492,7 +1501,7 @@ msgstr ""
 
 #: lexsup.c:380
 msgid "Write a map file"
-msgstr ""
+msgstr "Scríobh comhad mapála"
 
 #: lexsup.c:382
 msgid "Do not define Common storage"
@@ -1508,15 +1517,15 @@ msgstr ""
 
 #: lexsup.c:388
 msgid "Do not allow unresolved references in object files"
-msgstr ""
+msgstr "Ná ceadaigh tagairtí gan réiteach i gcomhaid réada"
 
 #: lexsup.c:391
 msgid "Allow unresolved references in shared libaries"
-msgstr ""
+msgstr "Ceadaigh tagairtí gan réiteach i gcomhleabharlanna"
 
 #: lexsup.c:395
 msgid "Do not allow unresolved references in shared libs"
-msgstr ""
+msgstr "Ná ceadaigh tagairtí gan réiteach i gcomhleabharlanna"
 
 #: lexsup.c:399
 msgid "Allow multiple definitions"
@@ -1540,11 +1549,11 @@ msgstr ""
 
 #: lexsup.c:411
 msgid "Turn off --whole-archive"
-msgstr ""
+msgstr "Ná húsáid --whole-archive"
 
 #: lexsup.c:413
 msgid "Create an output file even if errors occur"
-msgstr ""
+msgstr "Cruthaigh aschomhad fiú má tharlaíonn earráidí"
 
 #: lexsup.c:418
 msgid ""
@@ -1582,7 +1591,7 @@ msgstr ""
 
 #: lexsup.c:440
 msgid "Create a shared library"
-msgstr ""
+msgstr "Cruthaigh comhleabharlann"
 
 #: lexsup.c:444
 msgid "Create a position independent executable"
@@ -1594,7 +1603,7 @@ msgstr ""
 
 #: lexsup.c:452
 msgid "name|alignment"
-msgstr ""
+msgstr "ainm|ailíniú"
 
 #: lexsup.c:453
 msgid "Sort sections by name or maximum alignment"
@@ -1642,23 +1651,23 @@ msgstr ""
 
 #: lexsup.c:472
 msgid "SECTION=ADDRESS"
-msgstr ""
+msgstr "RANNÁN=SEOLADH"
 
 #: lexsup.c:472
 msgid "Set address of named section"
-msgstr ""
+msgstr "Socraigh seoladh an rannáin ainmnithe"
 
 #: lexsup.c:475
 msgid "Set address of .bss section"
-msgstr ""
+msgstr "Socraigh seoladh an rannáin .bss"
 
 #: lexsup.c:477
 msgid "Set address of .data section"
-msgstr ""
+msgstr "Socraigh seoladh an rannáin .data"
 
 #: lexsup.c:479
 msgid "Set address of .text section"
-msgstr ""
+msgstr "Socraigh seoladh an rannáin .text"
 
 #: lexsup.c:482
 msgid ""
@@ -1723,7 +1732,7 @@ msgstr ""
 
 #: lexsup.c:667
 msgid "%P: unrecognized option '%s'\n"
-msgstr ""
+msgstr "%P: rogha anaithnid '%s'\n"
 
 #: lexsup.c:669
 msgid "%P%F: use the --help option for usage information\n"
@@ -1731,11 +1740,11 @@ msgstr ""
 
 #: lexsup.c:687
 msgid "%P%F: unrecognized -a option `%s'\n"
-msgstr ""
+msgstr "%P%F: rogha anaithnid -a: `%s'\n"
 
 #: lexsup.c:700
 msgid "%P%F: unrecognized -assert option `%s'\n"
-msgstr ""
+msgstr "%P%F: rogha anaithnid -assert: `%s'\n"
 
 #: lexsup.c:743
 msgid "%F%P: unknown demangling style `%s'"
@@ -1743,11 +1752,11 @@ msgstr ""
 
 #: lexsup.c:805
 msgid "%P%F: invalid number `%s'\n"
-msgstr ""
+msgstr "%P%F: uimhir neamhbhailí `%s'\n"
 
 #: lexsup.c:897
 msgid "%P%F: bad --unresolved-symbols option: %s\n"
-msgstr ""
+msgstr "%P%F: drochrogha --unresolved-symbols: %s\n"
 
 #. This can happen if the user put "-rpath,a" on the command
 #. line.  (Or something similar.  The comma is important).
@@ -1759,15 +1768,15 @@ msgstr ""
 #. and will seg-fault the next time around.
 #: lexsup.c:968
 msgid "%P%F: bad -rpath option\n"
-msgstr ""
+msgstr "%P%F: drochrogha -rpath\n"
 
 #: lexsup.c:1080
 msgid "%P%F: -shared not supported\n"
-msgstr ""
+msgstr "%P%F: ní thacaítear le -shared\n"
 
 #: lexsup.c:1089
 msgid "%P%F: -pie not supported\n"
-msgstr ""
+msgstr "%P%F: ní thacaítear le -pie\n"
 
 #: lexsup.c:1099
 msgid "name"
@@ -1803,7 +1812,7 @@ msgstr ""
 
 #: lexsup.c:1397 lexsup.c:1410
 msgid "%P%F: invalid hex number `%s'\n"
-msgstr ""
+msgstr "%P%F: uimhir neamhbhailí heicsidheachúlach `%s'\n"
 
 #: lexsup.c:1445
 #, c-format
@@ -1820,12 +1829,12 @@ msgstr "Roghanna:\n"
 #: lexsup.c:1530
 #, c-format
 msgid "%s: supported targets:"
-msgstr ""
+msgstr "%s: spriocanna tacaithe:"
 
 #: lexsup.c:1538
 #, c-format
 msgid "%s: supported emulations: "
-msgstr ""
+msgstr "%s: aithrisí a dtacaítear leo: "
 
 #: lexsup.c:1543
 #, c-format
@@ -1900,9 +1909,9 @@ msgstr ""
 #: pe-dll.c:2235
 #, c-format
 msgid "%XCan't open .lib file: %s\n"
-msgstr ""
+msgstr "%XNí féidir comhad .lib a oscailt: %s\n"
 
 #: pe-dll.c:2240
 #, c-format
 msgid "Creating library file: %s\n"
-msgstr ""
+msgstr "Comhad leabharlainne á chruthú: %s\n"

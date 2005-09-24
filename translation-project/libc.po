@@ -1817,7 +1817,7 @@ msgstr ""
 #: stdio-common/../sysdeps/gnu/errlist.c:12 posix/regcomp.c:147
 #: nis/nis_error.c:29 nis/ypclnt.c:778 nis/ypclnt.c:852
 msgid "Success"
-msgstr "Bua!"
+msgstr "D'éirigh leis"
 
 #. TRANS Operation not permitted; only the owner of the file (or other resource)
 #. TRANS or processes with special privileges can perform the operation.
@@ -3978,7 +3978,7 @@ msgstr "(earráid anaithnid fhíordheimhnithe - %d)"
 
 #: sunrpc/clnt_perr.c:177
 msgid "RPC: Success"
-msgstr "RPC: Bua"
+msgstr "RPC: D'éirigh leis"
 
 #: sunrpc/clnt_perr.c:180
 msgid "RPC: Can't encode arguments"

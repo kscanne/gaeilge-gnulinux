@@ -334,7 +334,7 @@ msgstr "níorbh fhéidir `%s' a oscailt chun scríobh (%s)"
 
 #: awkgram.y:2609 profile.c:93
 msgid "sending profile to standard error"
-msgstr "ag seoladh cuntas go earráid chaighdeánach"
+msgstr "próifíl á seoladh go earráid chaighdeánach"
 
 #: awkgram.y:2641
 #, c-format
@@ -911,7 +911,7 @@ msgstr "droch sonraíocht`%sFMT' `%s'"
 
 #: eval.c:2337
 msgid "turning off `--lint' due to assignment to `LINT'"
-msgstr "ag múchadh `--lint' de bharr sannachán go `LINT'"
+msgstr "`--lint' á mhúchadh de bharr sannachán go `LINT'"
 
 #: ext.c:60 ext.c:64
 msgid "`extension' is a gawk extension"
@@ -1295,24 +1295,24 @@ msgid "close of stdin in child failed (%s)"
 msgstr "theip ar dúnadh ionchuir caighdeánach i mac teipthe (%s)"
 
 #: io.c:1820
-#, fuzzy, c-format
+#, c-format
 msgid "moving slave pty to stdin in child failed (dup: %s)"
-msgstr "ag bogadh píopa go ionchur caighdeánach i mac teipthe (dup: %s)"
+msgstr ""
 
 #: io.c:1822 io.c:1841
-#, fuzzy, c-format
+#, c-format
 msgid "close of slave pty failed (%s)"
-msgstr "theip ar dúnadh phíopa (%s)"
+msgstr ""
 
 #: io.c:1915 io.c:1967 io.c:2096 io.c:2118
 #, c-format
 msgid "moving pipe to stdout in child failed (dup: %s)"
-msgstr "ag bogadh píopa go haschur caighdeánach i mac teipthe (dup: %s)"
+msgstr "theip ar bhogadh píopa go haschur caighdeánach i mac (dup: %s)"
 
 #: io.c:1919 io.c:1972
 #, c-format
 msgid "moving pipe to stdin in child failed (dup: %s)"
-msgstr "ag bogadh píopa go ionchur caighdeánach i mac teipthe (dup: %s)"
+msgstr "theip ar bhogadh píopa go ionchur caighdeánach i mac (dup: %s)"
 
 #: io.c:1936 io.c:2109
 msgid "restoring stdout in parent process failed\n"
@@ -1389,24 +1389,24 @@ msgid "`--posix'/`--traditional' overrides `--non-decimal-data'"
 msgstr "sáraíonn `--posix'/`--traditional' `--non-decimal-data'"
 
 #: main.c:486
-#, fuzzy, c-format
+#, c-format
 msgid "running %s setuid root may be a security problem"
 msgstr "seans gur neamhdhaingean é ag rith %s setuid root"
 
 #: main.c:527
-#, fuzzy, c-format
+#, c-format
 msgid "can't set binary mode on stdin (%s)"
-msgstr "ní féidir mód a shocrú ar stdin (%s)"
+msgstr "ní féidir mód dénártha a shocrú ar stdin (%s)"
 
 #: main.c:530
-#, fuzzy, c-format
+#, c-format
 msgid "can't set binary mode on stdout (%s)"
-msgstr "ní féidir mód a shocrú ar stdout (%s)"
+msgstr "ní féidir mód dénártha a shocrú ar stdout (%s)"
 
 #: main.c:532
-#, fuzzy, c-format
+#, c-format
 msgid "can't set binary mode on stderr (%s)"
-msgstr "ní féidir mód a shocrú ar stderr (%s)"
+msgstr "ní féidir mód dénártha a shocrú ar stderr (%s)"
 
 #: main.c:571
 msgid "no program text at all!"
@@ -1519,13 +1519,12 @@ msgid "\t-W version\t\t--version\n"
 msgstr "\t-W version\t\t--version\n"
 
 #: main.c:695
-#, fuzzy
 msgid ""
 "\n"
 "To report bugs, see node `Bugs' in `gawk.info', which is\n"
 "section `Reporting Problems and Bugs' in the printed version.\n"
 "\n"
-msgstr "sa rannán `Reporting Problems and Bugs' sa leagan faoi chló.\n"
+msgstr ""
 
 #: main.c:699
 msgid ""
@@ -1540,6 +1539,9 @@ msgid ""
 "\tgawk '{ sum += $1 }; END { print sum }' file\n"
 "\tgawk -F: '{ print $1 }' /etc/passwd\n"
 msgstr ""
+"Samplaí:\n"
+"\tgawk '{ sum += $1 }; END { print sum }' comhad\n"
+"\tgawk -F: '{ print $1 }' /etc/passwd\n"
 
 #: main.c:720
 #, c-format
@@ -1554,7 +1556,7 @@ msgid ""
 msgstr ""
 "Copyright (C) 1989, 1991-%d Free Software Foundation.\n"
 "\n"
-"Is saorbhogearra an ríomhchlár seo; is féidir leat é a scaipeadh agus/nó\n"
+"Is saorbhogearra é an ríomhchlár seo; is féidir leat é a scaipeadh agus/nó\n"
 "a athrú de réir na gcoinníollacha den GNU General Public License mar atá\n"
 "foilsithe ag an Free Software Foundation; faoi leagan 2 den cheadúnas,\n"
 "nó (más mian leat) aon leagan níos déanaí.\n"
@@ -1739,7 +1741,7 @@ msgstr "cineál gan súil %s i prec_level"
 
 #: regcomp.c:160
 msgid "Success"
-msgstr "Bua!"
+msgstr "D'éirigh leis"
 
 #: regcomp.c:163
 msgid "No match"

@@ -25,7 +25,7 @@ msgstr "teipthe"
 
 #: src/file-io.c:1567 src/file-io.c:1704 src/file-io.c:1718
 msgid "success"
-msgstr "bua"
+msgstr "d'éirigh leis"
 
 #: src/file-io.c:1701
 #, c-format

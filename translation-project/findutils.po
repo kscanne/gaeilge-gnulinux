@@ -726,7 +726,7 @@ msgstr ""
 "       [--version] [--help] [ordú [argóintí-tosaigh]]\n"
 
 #~ msgid "Success"
-#~ msgstr "Bua!"
+#~ msgstr "D'éirigh leis"
 
 # ugh.  Not clear what kind of things we're matching -- KPS
 #~ msgid "No match"
