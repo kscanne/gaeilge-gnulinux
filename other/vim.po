@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: vim 7.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2005-09-19 05:05+0000\n"
+"POT-Creation-Date: 2005-09-26 03:30+0000\n"
 "PO-Revision-Date: 2005-02-14 10:35-0600\n"
 "Last-Translator: Kevin Patrick Scannell <scannell@SLU.EDU>\n"
 "Language-Team: Irish <ga@li.org>\n"
@@ -238,22 +238,22 @@ msgstr "E98: Ní féidir an t-aschur diff a léamh"
 msgid "E99: Current buffer is not in diff mode"
 msgstr "E99: Níl an maolán reatha sa mhód diff"
 
-#: diff.c:1912
+#: diff.c:1915
 msgid "E100: No other buffer in diff mode"
 msgstr "E100: Níl aon mhaolán eile sa mhód diff"
 
-#: diff.c:1920
+#: diff.c:1925
 msgid "E101: More than two buffers in diff mode, don't know which one to use"
 msgstr ""
 "E101: Tá níos mó ná dhá mhaolán sa mhód diff, níl fhios agam cé acu ba chóir "
 "a úsáid"
 
-#: diff.c:1943
+#: diff.c:1948
 #, c-format
 msgid "E102: Can't find buffer \"%s\""
 msgstr "E102: Tá maolán \"%s\" gan aimsiú"
 
-#: diff.c:1949
+#: diff.c:1954
 #, c-format
 msgid "E103: Buffer \"%s\" is not in diff mode"
 msgstr "E103: Níl maolán \"%s\" i mód diff"
@@ -331,38 +331,38 @@ msgstr " Comhlánú logánta lorgfhocal (^N^P)"
 msgid "Hit end of paragraph"
 msgstr "Sroicheadh críoch an pharagraif"
 
-#: edit.c:1785
+#: edit.c:1787
 msgid "'dictionary' option is empty"
 msgstr "tá an rogha 'dictionary' folamh"
 
-#: edit.c:1786
+#: edit.c:1788
 msgid "'thesaurus' option is empty"
 msgstr "tá an rogha 'thesaurus' folamh"
 
-#: edit.c:2133
+#: edit.c:2135
 #, c-format
 msgid "Scanning dictionary: %s"
 msgstr "Foclóir á scanadh: %s"
 
-#: edit.c:2338
+#: edit.c:2340
 msgid " (insert) Scroll (^E/^Y)"
 msgstr " (ionsáigh) Scrollaigh (^E/^Y)"
 
-#: edit.c:2340
+#: edit.c:2342
 msgid " (replace) Scroll (^E/^Y)"
 msgstr " (ionadaigh) Scrollaigh (^E/^Y)"
 
-#: edit.c:2732
+#: edit.c:2734
 #, c-format
 msgid "Scanning: %s"
 msgstr "%s á scanadh"
 
-#: edit.c:2767
+#: edit.c:2769
 #, c-format
 msgid "Scanning tags."
 msgstr "Clibeanna á scanadh."
 
-#: edit.c:3530
+#: edit.c:3532
 msgid " Adding"
 msgstr " Méadú"
 
@@ -370,28 +370,28 @@ msgstr " Méadú"
 #. * be called before line = ml_get(), or when this address is no
 #. * longer needed.  -- Acevedo.
 #.
-#: edit.c:3578
+#: edit.c:3580
 msgid "-- Searching..."
 msgstr "-- Ag Cuardach..."
 
-#: edit.c:3634
+#: edit.c:3636
 msgid "Back at original"
 msgstr "Ar ais ag an mbunáit"
 
-#: edit.c:3639
+#: edit.c:3641
 msgid "Word from other line"
 msgstr "Focal as líne eile"
 
-#: edit.c:3644
+#: edit.c:3646
 msgid "The only match"
 msgstr "An t-aon teaghrán amháin comhoiriúnaithe"
 
-#: edit.c:3707
+#: edit.c:3709
 #, c-format
 msgid "match %d of %d"
 msgstr "comhoiriúnú %d as %d"
 
-#: edit.c:3710
+#: edit.c:3712
 #, c-format
 msgid "match %d"
 msgstr "comhoiriúnú %d"
@@ -478,152 +478,152 @@ msgstr "E130: Feidhm anaithnid: %s"
 msgid "E461: Illegal variable name: %s"
 msgstr "E461: Ainm athróige neamhcheadaithe: %s"
 
-#: eval.c:1715
+#: eval.c:1717
 msgid "E687: Less targets than List items"
 msgstr "E687: Níos lú spriocanna ná míreanna Liosta"
 
-#: eval.c:1720
+#: eval.c:1722
 msgid "E688: More targets than List items"
 msgstr "E688: Níos mó spriocanna ná míreanna Liosta"
 
-#: eval.c:1806
+#: eval.c:1808
 msgid "Double ; in list of variables"
 msgstr "; dúblach i liosta na n-athróg"
 
-#: eval.c:1974
+#: eval.c:1976
 #, c-format
 msgid "E738: Can't list variables for %s"
 msgstr "E738: Ní féidir athróga do %s a thaispeáint"
 
-#: eval.c:2318
+#: eval.c:2320
 msgid "E689: Can only index a List or Dictionary"
 msgstr "E689: Is féidir Liosta nó Foclóir amháin a innéacsú"
 
-#: eval.c:2324
+#: eval.c:2326
 msgid "E708: [:] must come last"
 msgstr "E708: caithfidh [:] a bheith ar deireadh"
 
-#: eval.c:2376
+#: eval.c:2378
 msgid "E709: [:] requires a List value"
 msgstr "E709: ní foláir Liosta a thabhairt le [:]"
 
-#: eval.c:2620
+#: eval.c:2616
 msgid "E710: List value has more items than target"
 msgstr "E710: Tá níos mó míreanna ag an Liosta ná an sprioc"
 
-#: eval.c:2624
+#: eval.c:2620
 msgid "E711: List value has not enough items"
 msgstr "E711: Níl go leor míreanna ag an Liosta"
 
-#: eval.c:2818
+#: eval.c:2814
 msgid "E690: Missing \"in\" after :for"
 msgstr "E690: \"in\" ar iarraidh i ndiaidh :for"
 
-#: eval.c:3046
+#: eval.c:3042
 #, c-format
 msgid "E107: Missing braces: %s"
 msgstr "E107: Lúibíní slabhracha ar iarraidh: %s"
 
-#: eval.c:3273
+#: eval.c:3269
 #, c-format
 msgid "E108: No such variable: \"%s\""
 msgstr "E108: Níl a leithéid d'athróg: \"%s\""
 
-#: eval.c:3360
+#: eval.c:3356
 msgid "E743: variable nested too deep for (un)lock"
 msgstr "E743: athróg neadaithe ródhomhain chun í a (dí)ghlasáil"
 
-#: eval.c:3683
+#: eval.c:3682
 msgid "E109: Missing ':' after '?'"
 msgstr "E109: ':' ar iarraidh i ndiaidh '?'"
 
-#: eval.c:3985
+#: eval.c:3984
 msgid "E691: Can only compare List with List"
 msgstr "E691: Is féidir Liosta a chur i gcomparáid le Liosta eile amháin"
 
-#: eval.c:3987
+#: eval.c:3986
 msgid "E692: Invalid operation for Lists"
 msgstr "E692: Oibríocht neamhbhailí ar Liostaí"
 
-#: eval.c:4014
+#: eval.c:4013
 msgid "E735: Can only compare Dictionary with Dictionary"
 msgstr "E735: Is féidir Foclóir a chur i gcomparáid le Foclóir eile amháin"
 
-#: eval.c:4016
+#: eval.c:4015
 msgid "E736: Invalid operation for Dictionary"
 msgstr "E736: Oibríocht neamhbhailí ar Fhoclóir"
 
-#: eval.c:4036
+#: eval.c:4035
 msgid "E693: Can only compare Funcref with Funcref"
 msgstr "E693: Is féidir Funcref a chur i gcomparáid le Funcref eile amháin"
 
-#: eval.c:4038
+#: eval.c:4037
 msgid "E694: Invalid operation for Funcrefs"
 msgstr "E694: Oibríocht neamhbhailí ar Funcref"
 
-#: eval.c:4486
+#: eval.c:4485
 msgid "E110: Missing ')'"
 msgstr "E110: ')' ar iarraidh"
 
-#: eval.c:4603
+#: eval.c:4602
 msgid "E695: Cannot index a Funcref"
 msgstr "E695: Ní féidir Funcref a innéacsú"
 
-#: eval.c:4857
+#: eval.c:4856
 #, c-format
 msgid "E112: Option name missing: %s"
 msgstr "E112: Ainm rogha ar iarraidh: %s"
 
-#: eval.c:4875
+#: eval.c:4874
 #, c-format
 msgid "E113: Unknown option: %s"
 msgstr "E113: Rogha anaithnid: %s"
 
-#: eval.c:4941
+#: eval.c:4940
 #, c-format
 msgid "E114: Missing quote: %s"
 msgstr "E114: Comhartha athfhriotail ar iarraidh: %s"
 
-#: eval.c:5077
+#: eval.c:5076
 #, c-format
 msgid "E115: Missing quote: %s"
 msgstr "E115: Comhartha athfhriotail ar iarraidh: %s"
 
-#: eval.c:5156
+#: eval.c:5155
 #, c-format
 msgid "E696: Missing comma in List: %s"
 msgstr "E696: Camóg ar iarraidh i Liosta: %s"
 
-#: eval.c:5164
+#: eval.c:5163
 #, c-format
 msgid "E697: Missing end of List ']': %s"
 msgstr "E697: ']' ar iarraidh ag deireadh liosta: %s"
 
-#: eval.c:6437
+#: eval.c:6460
 #, c-format
 msgid "E720: Missing colon in Dictionary: %s"
 msgstr "E720: Idirstad ar iarraidh i bhFoclóir: %s"
 
-#: eval.c:6462
+#: eval.c:6485
 #, c-format
 msgid "E721: Duplicate key in Dictionary: \"%s\""
 msgstr "E721: Eochair dhúblach i bhFoclóir: \"%s\""
 
-#: eval.c:6482
+#: eval.c:6505
 #, c-format
 msgid "E722: Missing comma in Dictionary: %s"
 msgstr "E722: Camóg ar iarraidh i bhFoclóir: %s"
 
-#: eval.c:6490
+#: eval.c:6513
 #, c-format
 msgid "E723: Missing end of Dictionary '}': %s"
 msgstr "E723: '}' ar iarraidh ag deireadh foclóra: %s"
 
-#: eval.c:6526
+#: eval.c:6549
 msgid "E724: variable nested too deep for displaying"
 msgstr "E724: athróg neadaithe ródhomhain chun í a thaispeáint"
 
-#: eval.c:7805
+#: eval.c:7829
 msgid "E699: Too many arguments"
 msgstr "E699: An iomarca argóintí"
 
@@ -632,26 +632,26 @@ msgstr "E699: An iomarca argóintí"
 #. * this way has the compelling advantage that translations need not to
 #. * be touched at all.  See below what 'ok' and 'ync' are used for.
 #.
-#: eval.c:8003 gui.c:4444 gui_gtk.c:2175 os_mswin.c:602
+#: eval.c:8027 gui.c:4444 gui_gtk.c:2175 os_mswin.c:602
 msgid "&Ok"
 msgstr "&Ok"
 
-#: eval.c:8610
+#: eval.c:8634
 #, c-format
 msgid "E737: Key already exists: %s"
 msgstr "E737: Tá eochair ann cheana: %s"
 
-#: eval.c:9047
+#: eval.c:9072
 #, c-format
 msgid "+-%s%3ld lines: "
 msgstr "+-%s%3ld líne: "
 
-#: eval.c:9139
+#: eval.c:9164
 #, c-format
 msgid "E700: Unknown function: %s"
 msgstr "E700: Feidhm anaithnid: %s"
 
-#: eval.c:10873
+#: eval.c:10941
 msgid ""
 "&OK\n"
 "&Cancel"
@@ -659,190 +659,190 @@ msgstr ""
 "&OK\n"
 "&Cealaigh"
 
-#: eval.c:10956
+#: eval.c:11024
 msgid "called inputrestore() more often than inputsave()"
 msgstr "Glaodh inputrestore() níos minice ná inputsave()"
 
-#: eval.c:11092
+#: eval.c:11160
 msgid "E745: Range not allowed"
 msgstr "E745: Ní cheadaítear raon"
 
-#: eval.c:11300
+#: eval.c:11368
 msgid "E701: Invalid type for len()"
 msgstr "E701: Cineál neamhbhailí le haghaidh len()"
 
-#: eval.c:12091
+#: eval.c:12155
 msgid "E726: Stride is zero"
 msgstr "E726: Is nialas í an chéim"
 
-#: eval.c:12093
+#: eval.c:12157
 msgid "E727: Start past end"
 msgstr "E727: Tosach thar dheireadh"
 
-#: eval.c:12164 eval.c:15092
+#: eval.c:12221 eval.c:15183
 msgid "<empty>"
 msgstr "<folamh>"
 
-#: eval.c:12299
+#: eval.c:12356
 msgid "E240: No connection to Vim server"
 msgstr "E240: Níl aon nasc le freastalaí Vim"
 
-#: eval.c:12347
+#: eval.c:12404
 #, c-format
 msgid "E241: Unable to send to %s"
 msgstr "E241: Ní féidir aon rud a sheoladh chuig %s"
 
-#: eval.c:12500
+#: eval.c:12557
 msgid "E277: Unable to read a server reply"
 msgstr "E277: Ní féidir freagra ón fhreastalaí a léamh"
 
-#: eval.c:12762
+#: eval.c:12819
 msgid "E655: Too many symbolic links (cycle?)"
 msgstr "E655: An iomarca naisc shiombalacha (ciogal?)"
 
-#: eval.c:13278
+#: eval.c:13335
 msgid "E258: Unable to send to client"
 msgstr "E258: Ní féidir aon rud a sheoladh chuig an chliant"
 
-#: eval.c:13797
+#: eval.c:13854
 msgid "E702: Sort compare function failed"
 msgstr "E702: Theip ar fheidhm chomparáide le linn sórtála"
 
-#: eval.c:14031
+#: eval.c:14122
 msgid "(Invalid)"
 msgstr "(Neamhbhailí)"
 
-#: eval.c:14469
+#: eval.c:14560
 msgid "E677: Error writing temp file"
 msgstr "E677: Earráid agus comhad sealadach á scríobh"
 
-#: eval.c:15912
+#: eval.c:16003
 msgid "E703: Using a Funcref as a number"
 msgstr "E703: Funcref á úsáid mar uimhir"
 
-#: eval.c:15920
+#: eval.c:16011
 msgid "E745: Using a List as a number"
 msgstr "E745: Liosta á úsáid mar uimhir"
 
-#: eval.c:15923
+#: eval.c:16014
 msgid "E728: Using a Dictionary as a number"
 msgstr "E728: Foclóir á úsáid mar uimhir"
 
-#: eval.c:16026
+#: eval.c:16117
 msgid "E729: using Funcref as a String"
 msgstr "E729: Funcref á úsáid mar Theaghrán"
 
-#: eval.c:16029
+#: eval.c:16120
 msgid "E730: using List as a String"
 msgstr "E730: Liosta á úsáid mar Theaghrán"
 
-#: eval.c:16032
+#: eval.c:16123
 msgid "E731: using Dictionary as a String"
 msgstr "E731: Foclóir á úsáid mar Theaghrán"
 
-#: eval.c:16373
+#: eval.c:16464
 #, c-format
 msgid "E704: Funcref variable name must start with a capital: %s"
 msgstr "E704: Caithfidh ceannlitir a bheith ar dtús ainm Funcref: %s"
 
-#: eval.c:16378
+#: eval.c:16469
 #, c-format
 msgid "E705: Variable name conflicts with existing function: %s"
 msgstr "E705: Tagann ainm athróige salach ar fheidhm atá ann cheana: %s"
 
-#: eval.c:16404
+#: eval.c:16495
 #, c-format
 msgid "E706: Variable type mismatch for: %s"
 msgstr "E706: Mímheaitseáil idir cineálacha athróige: %s"
 
-#: eval.c:16501
+#: eval.c:16592
 #, c-format
 msgid "E741: Value is locked: %s"
 msgstr "E741: Tá an luach faoi ghlas: %s"
 
-#: eval.c:16502 eval.c:16508 os_mswin.c:2212
+#: eval.c:16593 eval.c:16599 os_mswin.c:2212
 msgid "Unknown"
 msgstr "Anaithnid"
 
-#: eval.c:16507
+#: eval.c:16598
 #, c-format
 msgid "E742: Cannot change value of %s"
 msgstr "E742: Ní féidir an luach de %s a athrú"
 
-#: eval.c:16585
+#: eval.c:16676
 msgid "E698: variable nested too deep for making a copy"
 msgstr "E698: athróg neadaithe ródhomhain chun í a chóipeáil"
 
-#: eval.c:17051
+#: eval.c:17142
 #, c-format
 msgid "E124: Missing '(': %s"
 msgstr "E124: '(' ar iarraidh: %s"
 
-#: eval.c:17105
+#: eval.c:17196
 #, c-format
 msgid "E125: Illegal argument: %s"
 msgstr "E125: Argóint neamhcheadaithe: %s"
 
-#: eval.c:17196
+#: eval.c:17287
 msgid "E126: Missing :endfunction"
 msgstr "E126: :endfunction ar iarraidh"
 
-#: eval.c:17396
+#: eval.c:17487
 #, c-format
 msgid "E746: Function name does not match script file name: %s"
 msgstr ""
 "E746: Níl ainm na feidhme comhoiriúnach le hainm comhaid na scripte: %s"
 
-#: eval.c:17510
+#: eval.c:17601
 msgid "E129: Function name required"
-msgstr "E129: Tá ainm feidhme riachtanach"
+msgstr "E129: Tá gá le hainm feidhme"
 
-#: eval.c:17595
+#: eval.c:17686
 #, c-format
 msgid "E128: Function name must start with a capital or contain a colon: %s"
 msgstr ""
 "E128: Caithfidh ceannlitir a bheith ar dtús ainm feidhme, nó idirstad a "
 "bheith ann: %s"
 
-#: eval.c:18120
+#: eval.c:18209
 #, c-format
 msgid "E131: Cannot delete function %s: It is in use"
 msgstr "E131: Ní féidir feidhm %s a scriosadh: Tá sé in úsáid faoi láthair"
 
-#: eval.c:18239
+#: eval.c:18328
 msgid "E132: Function call depth is higher than 'maxfuncdepth'"
 msgstr "E132: Doimhneacht na nglaonna níos mó ná 'maxfuncdepth'"
 
-#: eval.c:18371
+#: eval.c:18460
 #, c-format
 msgid "calling %s"
 msgstr "%s á glao"
 
-#: eval.c:18459
+#: eval.c:18548
 #, c-format
 msgid "%s aborted"
 msgstr "%s tobscortha"
 
-#: eval.c:18461
+#: eval.c:18550
 #, c-format
 msgid "%s returning #%ld"
 msgstr "%s ag aisfhilleadh #%ld"
 
-#: eval.c:18474
+#: eval.c:18563
 #, c-format
 msgid "%s returning %s"
 msgstr "%s ag aisfhilleadh %s"
 
-#: eval.c:18497 ex_cmds2.c:3008
+#: eval.c:18586 ex_cmds2.c:3008
 #, c-format
 msgid "continuing in %s"
 msgstr "ag leanúint i %s"
 
-#: eval.c:18546
+#: eval.c:18635
 msgid "E133: :return not inside a function"
 msgstr "E133: Caithfidh :return a bheith isteach i bhfeidhm"
 
-#: eval.c:18946
+#: eval.c:19035
 #, c-format
 msgid ""
 "\n"
@@ -851,7 +851,7 @@ msgstr ""
 "\n"
 "# athróga comhchoiteanna:\n"
 
-#: eval.c:19042
+#: eval.c:19131
 msgid ""
 "\n"
 "\tLast set from "
@@ -863,7 +863,7 @@ msgstr ""
 msgid "Entering Debug mode.  Type \"cont\" to continue."
 msgstr "Mód dífhabhtaithe á thosú.  Clóscríobh \"cont\" chun leanúint."
 
-#: ex_cmds2.c:144 ex_docmd.c:1065
+#: ex_cmds2.c:144 ex_docmd.c:1067
 #, c-format
 msgid "line %ld: %s"
 msgstr "líne %ld: %s"
@@ -905,7 +905,7 @@ msgstr "Sábháil Mar"
 msgid "Save changes to \"%s\"?"
 msgstr "Sábháil athruithe ar \"%s\"?"
 
-#: ex_cmds2.c:1333 ex_docmd.c:9974
+#: ex_cmds2.c:1333 ex_docmd.c:10005
 msgid "Untitled"
 msgstr "Gan Teideal"
 
@@ -1183,51 +1183,51 @@ msgstr ""
 msgid "replace with %s (y/n/a/q/l/^E/^Y)?"
 msgstr "cuir %s ina ionad (y/n/a/q/l/^E/^Y)?"
 
-#: ex_cmds.c:4842
+#: ex_cmds.c:4850
 msgid "(Interrupted) "
 msgstr "(Idirbhriste) "
 
-#: ex_cmds.c:4847
+#: ex_cmds.c:4855
 msgid "1 match"
 msgstr "1 rud comhoiriúnach"
 
-#: ex_cmds.c:4847
+#: ex_cmds.c:4855
 msgid "1 substitution"
 msgstr "1 ionadaíocht"
 
-#: ex_cmds.c:4850
+#: ex_cmds.c:4858
 #, c-format
 msgid "%ld matches"
 msgstr "%ld rud comhoiriúnach"
 
-#: ex_cmds.c:4850
+#: ex_cmds.c:4858
 #, c-format
 msgid "%ld substitutions"
 msgstr "%ld ionadaíocht"
 
-#: ex_cmds.c:4855
+#: ex_cmds.c:4863
 msgid " on 1 line"
 msgstr " ar 1 líne"
 
-#: ex_cmds.c:4858
+#: ex_cmds.c:4866
 #, c-format
 msgid " on %ld lines"
 msgstr " ar %ld líne"
 
-#: ex_cmds.c:4908
+#: ex_cmds.c:4916
 msgid "E147: Cannot do :global recursive"
 msgstr "E147: Ní cheadaítear :global go hathchúrsach"
 
-#: ex_cmds.c:4943
+#: ex_cmds.c:4951
 msgid "E148: Regular expression missing from global"
 msgstr "E148: Slonn ionadaíochta ar iarraidh ón :global"
 
-#: ex_cmds.c:4991
+#: ex_cmds.c:4999
 #, c-format
 msgid "Pattern found in every line: %s"
 msgstr "Aimsíodh an patrún i ngach líne: %s"
 
-#: ex_cmds.c:5076
+#: ex_cmds.c:5084
 #, c-format
 msgid ""
 "\n"
@@ -1238,176 +1238,176 @@ msgstr ""
 "# Teaghrán Ionadach Is Déanaí:\n"
 "$"
 
-#: ex_cmds.c:5185
+#: ex_cmds.c:5193
 msgid "E478: Don't panic!"
 msgstr "E478: Ná téigh i scaoll!"
 
-#: ex_cmds.c:5231
+#: ex_cmds.c:5239
 #, c-format
 msgid "E661: Sorry, no '%s' help for %s"
 msgstr "E661: Tá brón orm, ní aon chabhair '%s' do %s"
 
-#: ex_cmds.c:5234
+#: ex_cmds.c:5242
 #, c-format
 msgid "E149: Sorry, no help for %s"
 msgstr "E149: Tá brón orm, níl aon chabhair do %s"
 
-#: ex_cmds.c:5268
+#: ex_cmds.c:5276
 #, c-format
 msgid "Sorry, help file \"%s\" not found"
 msgstr "Tá brón orm, comhad cabhrach \"%s\" gan aimsiú"
 
-#: ex_cmds.c:5819
+#: ex_cmds.c:5827
 #, c-format
 msgid "E150: Not a directory: %s"
 msgstr "E150: Ní comhadlann é: %s"
 
-#: ex_cmds.c:5959
+#: ex_cmds.c:5967
 #, c-format
 msgid "E152: Cannot open %s for writing"
 msgstr "E152: Ní féidir %s a oscailt chun scríobh ann"
 
-#: ex_cmds.c:5994
+#: ex_cmds.c:6002
 #, c-format
 msgid "E153: Unable to open %s for reading"
 msgstr "E153: Ní féidir %s a oscailt chun é a léamh"
 
-#: ex_cmds.c:6030
+#: ex_cmds.c:6038
 #, c-format
 msgid "E670: Mix of help file encodings within a language: %s"
 msgstr "E670: Ionchóduithe éagsúla do chomhaid chabhracha i dteanga aonair: %s"
 
-#: ex_cmds.c:6108
+#: ex_cmds.c:6116
 #, c-format
 msgid "E154: Duplicate tag \"%s\" in file %s/%s"
 msgstr "E154: Clib dhúblach \"%s\" i gcomhad %s/%s"
 
-#: ex_cmds.c:6223
+#: ex_cmds.c:6231
 #, c-format
 msgid "E160: Unknown sign command: %s"
 msgstr "E160: Ordú anaithnid comhartha: %s"
 
-#: ex_cmds.c:6243
+#: ex_cmds.c:6251
 msgid "E156: Missing sign name"
 msgstr "E156: Ainm comhartha ar iarraidh"
 
-#: ex_cmds.c:6289
+#: ex_cmds.c:6297
 msgid "E612: Too many signs defined"
 msgstr "E612: An iomarca comharthaí sainmhínithe"
 
-#: ex_cmds.c:6357
+#: ex_cmds.c:6365
 #, c-format
 msgid "E239: Invalid sign text: %s"
 msgstr "E239: Téacs neamhbhailí comhartha: %s"
 
-#: ex_cmds.c:6388 ex_cmds.c:6579
+#: ex_cmds.c:6396 ex_cmds.c:6587
 #, c-format
 msgid "E155: Unknown sign: %s"
 msgstr "E155: Comhartha anaithnid: %s"
 
-#: ex_cmds.c:6437
+#: ex_cmds.c:6445
 msgid "E159: Missing sign number"
 msgstr "E159: Uimhir chomhartha ar iarraidh"
 
-#: ex_cmds.c:6519
+#: ex_cmds.c:6527
 #, c-format
 msgid "E158: Invalid buffer name: %s"
 msgstr "E158: Ainm maoláin neamhbhailí: %s"
 
-#: ex_cmds.c:6558
+#: ex_cmds.c:6566
 #, c-format
 msgid "E157: Invalid sign ID: %ld"
 msgstr "E157: ID neamhbhailí comhartha: %ld"
 
-#: ex_cmds.c:6628
+#: ex_cmds.c:6636
 msgid " (NOT FOUND)"
 msgstr " (AR IARRAIDH)"
 
-#: ex_cmds.c:6630
+#: ex_cmds.c:6638
 msgid " (not supported)"
 msgstr " (níl an rogha seo ar fáil)"
 
-#: ex_cmds.c:6729
+#: ex_cmds.c:6737
 msgid "[Deleted]"
 msgstr "[Scriosta]"
 
-#: ex_docmd.c:613
+#: ex_docmd.c:615
 msgid "Entering Ex mode.  Type \"visual\" to go to Normal mode."
 msgstr "Mód Ex á thosú.  Clóscríobh \"visual\" le haghaidh an ghnáthmhód."
 
 # in FARF -KPS
-#: ex_docmd.c:668
+#: ex_docmd.c:670
 msgid "E501: At end-of-file"
 msgstr "E501: Ag an chomhadchríoch"
 
-#: ex_docmd.c:767
+#: ex_docmd.c:769
 msgid "E169: Command too recursive"
 msgstr "E169: Ordú ró-athchúrsach"
 
-#: ex_docmd.c:1343
+#: ex_docmd.c:1345
 #, c-format
 msgid "E605: Exception not caught: %s"
 msgstr "E605: Eisceacht gan láimhseáil: %s"
 
-#: ex_docmd.c:1431
+#: ex_docmd.c:1433
 msgid "End of sourced file"
 msgstr "Críoch chomhaid foinsithe"
 
-#: ex_docmd.c:1432
+#: ex_docmd.c:1434
 msgid "End of function"
 msgstr "Críoch fheidhme"
 
-#: ex_docmd.c:2034
+#: ex_docmd.c:2036
 msgid "E464: Ambiguous use of user-defined command"
 msgstr "E464: Úsáid athbhríoch d'ordú saincheaptha"
 
-#: ex_docmd.c:2048
+#: ex_docmd.c:2050
 msgid "E492: Not an editor command"
 msgstr "E492: Níl ina ordú eagarthóra"
 
-#: ex_docmd.c:2155
+#: ex_docmd.c:2157
 msgid "E493: Backwards range given"
 msgstr "E493: Raon droim ar ais"
 
-#: ex_docmd.c:2164
+#: ex_docmd.c:2166
 msgid "Backwards range given, OK to swap"
 msgstr "Raon droim ar ais, babhtáil"
 
-#: ex_docmd.c:2228
+#: ex_docmd.c:2230
 msgid "E494: Use w or w>>"
 msgstr "E494: Bain úsáid as w nó w>>"
 
-#: ex_docmd.c:3898
+#: ex_docmd.c:3900
 msgid "E319: Sorry, the command is not available in this version"
 msgstr "E319: Tá brón orm, níl an t-ordú ar fáil sa leagan seo"
 
-#: ex_docmd.c:4234
+#: ex_docmd.c:4236
 msgid "E172: Only one file name allowed"
 msgstr "E172: Ní cheadaítear ach aon ainm comhaid amháin"
 
-#: ex_docmd.c:4824
+#: ex_docmd.c:4826
 msgid "1 more file to edit.  Quit anyway?"
 msgstr "1 comhad le cur in eagar fós.  Scoir mar sin féin?"
 
-#: ex_docmd.c:4827
+#: ex_docmd.c:4829
 #, c-format
 msgid "%d more files to edit.  Quit anyway?"
 msgstr "%d comhad le cur in eagar fós.  Scoir mar sin féin?"
 
-#: ex_docmd.c:4834
+#: ex_docmd.c:4836
 msgid "E173: 1 more file to edit"
 msgstr "E173: 1 comhad le heagrú"
 
-#: ex_docmd.c:4836
+#: ex_docmd.c:4838
 #, c-format
 msgid "E173: %ld more files to edit"
 msgstr "E173: %ld comhad le cur in eagar"
 
-#: ex_docmd.c:4931
+#: ex_docmd.c:4933
 msgid "E174: Command already exists: add ! to replace it"
 msgstr "E174: Tá an t-ordú ann cheana: cuir ! leis chun sárú"
 
-#: ex_docmd.c:5042
+#: ex_docmd.c:5044
 msgid ""
 "\n"
 "    Name        Args Range Complete  Definition"
@@ -1415,193 +1415,193 @@ msgstr ""
 "\n"
 "    Ainm        Arg  Raon  Iomlán    Sainmhíniú"
 
-#: ex_docmd.c:5135
+#: ex_docmd.c:5137
 msgid "No user-defined commands found"
 msgstr "Níl aon ordú aimsithe atá sainithe ag an úsáideoir"
 
-#: ex_docmd.c:5167
+#: ex_docmd.c:5169
 msgid "E175: No attribute specified"
 msgstr "E175: Níl aon aitreabúid sainithe"
 
-#: ex_docmd.c:5219
+#: ex_docmd.c:5221
 msgid "E176: Invalid number of arguments"
 msgstr "E176: Tá líon na n-argóintí mícheart"
 
-#: ex_docmd.c:5234
+#: ex_docmd.c:5236
 msgid "E177: Count cannot be specified twice"
 msgstr "E177: Ní cheadaítear an t-áireamh a bheith tugtha faoi dhó"
 
-#: ex_docmd.c:5244
+#: ex_docmd.c:5246
 msgid "E178: Invalid default value for count"
 msgstr "E178: Luach réamhshocraithe neamhbhailí ar áireamh"
 
-#: ex_docmd.c:5275
-msgid "E179: argument required for complete"
-msgstr "E179: ní foláir argóint le haghaidh comhlánaithe"
+#: ex_docmd.c:5274
+msgid "E179: argument required for -complete"
+msgstr "E179: tá gá le hargóint i ndiaidh -complete"
 
-#: ex_docmd.c:5307
-#, c-format
-msgid "E180: Invalid complete value: %s"
-msgstr "E180: Luach iomlán neamhbhailí: %s"
-
-#: ex_docmd.c:5317
-msgid "E468: Completion argument only allowed for custom completion"
-msgstr ""
-"E468: Ní cheadaítear argóint chomhlánaithe ach le comhlánú saincheaptha"
-
-#: ex_docmd.c:5324
-msgid "E467: Custom completion requires a function argument"
-msgstr "E467: Tá gá le hargóint fheidhme le comhlánú saincheaptha"
-
-#: ex_docmd.c:5335
+#: ex_docmd.c:5286
 #, c-format
 msgid "E181: Invalid attribute: %s"
 msgstr "E181: Aitreabúid neamhbhailí: %s"
 
-#: ex_docmd.c:5378
+#: ex_docmd.c:5329
 msgid "E182: Invalid command name"
 msgstr "E182: Ainm neamhbhailí ordaithe"
 
-#: ex_docmd.c:5393
+#: ex_docmd.c:5344
 msgid "E183: User defined commands must start with an uppercase letter"
 msgstr ""
 "E183: Caithfidh ceannlitir a bheith ar dtús orduithe atá sainithe ag an "
 "úsáideoir"
 
-#: ex_docmd.c:5462
+#: ex_docmd.c:5413
 #, c-format
 msgid "E184: No such user-defined command: %s"
 msgstr "E184: Níl a leithéid d'ordú saincheaptha: %s"
 
-#: ex_docmd.c:5922
+#: ex_docmd.c:5918
+#, c-format
+msgid "E180: Invalid complete value: %s"
+msgstr "E180: Luach iomlán neamhbhailí: %s"
+
+#: ex_docmd.c:5929
+msgid "E468: Completion argument only allowed for custom completion"
+msgstr ""
+"E468: Ní cheadaítear argóint chomhlánaithe ach le comhlánú saincheaptha"
+
+#: ex_docmd.c:5937
+msgid "E467: Custom completion requires a function argument"
+msgstr "E467: Tá gá le hargóint fheidhme le comhlánú saincheaptha"
+
+#: ex_docmd.c:5953
 #, c-format
 msgid "E185: Cannot find color scheme %s"
 msgstr "E185: Scéim dathanna %s gan aimsiú"
 
-#: ex_docmd.c:5930
+#: ex_docmd.c:5961
 msgid "Greetings, Vim user!"
 msgstr "Dia duit, a úsáideoir Vim!"
 
-#: ex_docmd.c:6685
+#: ex_docmd.c:6716
 msgid "Edit File in new window"
 msgstr "Cuir comhad in eagar i bhfuinneog nua"
 
-#: ex_docmd.c:7079
+#: ex_docmd.c:7110
 msgid "No swap file"
 msgstr "Níl aon chomhad babhtála ann"
 
-#: ex_docmd.c:7185
+#: ex_docmd.c:7216
 msgid "Append File"
 msgstr "Cuir Comhad i nDeireadh"
 
-#: ex_docmd.c:7275
+#: ex_docmd.c:7306
 msgid "E747: Cannot change directory, buffer is modifed (add ! to override)"
 msgstr ""
 "E747: Ní féidir an chomhadlann a athrú, mionathraíodh an maolán (cuir ! leis "
 "an ordú chun sárú)"
 
-#: ex_docmd.c:7284
+#: ex_docmd.c:7315
 msgid "E186: No previous directory"
 msgstr "E186: Níl aon chomhadlann roimhe seo"
 
-#: ex_docmd.c:7366
+#: ex_docmd.c:7397
 msgid "E187: Unknown"
 msgstr "E187: Anaithnid"
 
-#: ex_docmd.c:7461
+#: ex_docmd.c:7492
 msgid "E465: :winsize requires two number arguments"
 msgstr "E465: ní foláir dhá argóint uimhriúla le :winsize"
 
-#: ex_docmd.c:7521
+#: ex_docmd.c:7552
 #, c-format
 msgid "Window position: X %d, Y %d"
 msgstr "Ionad na fuinneoige: X %d, Y %d"
 
-#: ex_docmd.c:7526
+#: ex_docmd.c:7557
 msgid "E188: Obtaining window position not implemented for this platform"
 msgstr "E188: Ní féidir ionad na fuinneoige a fháil amach ar an chóras seo"
 
-#: ex_docmd.c:7536
+#: ex_docmd.c:7567
 msgid "E466: :winpos requires two number arguments"
 msgstr "E466: ní foláir dhá argóint uimhriúla le :winpos"
 
-#: ex_docmd.c:7842
+#: ex_docmd.c:7873
 msgid "Save Redirection"
 msgstr "Sábháil Atreorú"
 
-#: ex_docmd.c:8063
+#: ex_docmd.c:8094
 msgid "Save View"
 msgstr "Sábháil an tAmharc"
 
-#: ex_docmd.c:8064
+#: ex_docmd.c:8095
 msgid "Save Session"
 msgstr "Sábháil an Seisiún"
 
-#: ex_docmd.c:8066
+#: ex_docmd.c:8097
 msgid "Save Setup"
 msgstr "Sábháil an Socrú"
 
-#: ex_docmd.c:8206
+#: ex_docmd.c:8237
 #, c-format
 msgid "E739: Cannot create directory: %s"
 msgstr "E739: Ní féidir comhadlann a chruthú: %s"
 
-#: ex_docmd.c:8235
+#: ex_docmd.c:8266
 #, c-format
 msgid "E189: \"%s\" exists (add ! to override)"
 msgstr "E189: Tá \"%s\" ann cheana (cuir ! leis an ordú chun sárú)"
 
-#: ex_docmd.c:8240
+#: ex_docmd.c:8271
 #, c-format
 msgid "E190: Cannot open \"%s\" for writing"
 msgstr "E190: Ní féidir \"%s\" a oscailt chun léamh"
 
 #. set mark
-#: ex_docmd.c:8264
+#: ex_docmd.c:8295
 msgid "E191: Argument must be a letter or forward/backward quote"
 msgstr "E191: Caithfidh an argóint a bheith litir nó comhartha athfhriotal"
 
-#: ex_docmd.c:8305
+#: ex_docmd.c:8336
 msgid "E192: Recursive use of :normal too deep"
 msgstr "E192: athchúrsáil :normal ródhomhain"
 
-#: ex_docmd.c:8854
+#: ex_docmd.c:8885
 msgid "E194: No alternate file name to substitute for '#'"
 msgstr "E194: Níl aon ainm comhaid a chur in ionad '#'"
 
-#: ex_docmd.c:8885
+#: ex_docmd.c:8916
 msgid "E495: no autocommand file name to substitute for \"<afile>\""
 msgstr "E495: níl aon ainm comhaid uathordaithe le cur in ionad \"<afile>\""
 
-#: ex_docmd.c:8893
+#: ex_docmd.c:8924
 msgid "E496: no autocommand buffer number to substitute for \"<abuf>\""
 msgstr "E496: níl aon uimhir mhaolán uathordaithe le cur in ionad \"<abuf>\""
 
-#: ex_docmd.c:8904
+#: ex_docmd.c:8935
 msgid "E497: no autocommand match name to substitute for \"<amatch>\""
 msgstr ""
 "E497: níl aon ainm meaitseála uathordaithe le cur in ionad \"<amatch>\""
 
-#: ex_docmd.c:8914
+#: ex_docmd.c:8945
 msgid "E498: no :source file name to substitute for \"<sfile>\""
 msgstr "E498: níl aon ainm comhaid :source le cur in ionad \"<sfile>\""
 
-#: ex_docmd.c:8955
+#: ex_docmd.c:8986
 #, no-c-format
 msgid "E499: Empty file name for '%' or '#', only works with \":p:h\""
 msgstr ""
 "E499: Ainm comhaid folamh le haghaidh '%' nó '#', oibreoidh sé le \":p:h\" "
 "amháin"
 
-#: ex_docmd.c:8957
+#: ex_docmd.c:8988
 msgid "E500: Evaluates to an empty string"
 msgstr "E500: Luacháiltear é seo mar theaghrán folamh"
 
-#: ex_docmd.c:9954
+#: ex_docmd.c:9985
 msgid "E195: Cannot open viminfo file for reading"
 msgstr "E195: Ní féidir an comhad viminfo a oscailt chun léamh"
 
-#: ex_docmd.c:10125
+#: ex_docmd.c:10156
 msgid "E196: No digraphs in this version"
 msgstr "E196: Ní cheadaítear déghraif sa leagan seo"
 
@@ -1743,19 +1743,19 @@ msgstr "E602: :endtry gan :try"
 msgid "E193: :endfunction not inside a function"
 msgstr "E193: Caithfidh :endfunction a bheith isteach i bhfeidhm"
 
-#: ex_getln.c:3551
+#: ex_getln.c:3578
 msgid "tagname"
 msgstr "clibainm"
 
-#: ex_getln.c:3554
+#: ex_getln.c:3581
 msgid " kind file\n"
 msgstr " cineál comhaid\n"
 
-#: ex_getln.c:5123
+#: ex_getln.c:5175
 msgid "'history' option is zero"
 msgstr "tá an rogha 'history' nialas"
 
-#: ex_getln.c:5394
+#: ex_getln.c:5446
 #, c-format
 msgid ""
 "\n"
@@ -1764,27 +1764,27 @@ msgstr ""
 "\n"
 "# %s Stair (is nuaí go dtí is sine):\n"
 
-#: ex_getln.c:5395
+#: ex_getln.c:5447
 msgid "Command Line"
 msgstr "Ainm Orduithe"
 
-#: ex_getln.c:5396
+#: ex_getln.c:5448
 msgid "Search String"
 msgstr "Teaghrán Cuardaigh"
 
-#: ex_getln.c:5397
+#: ex_getln.c:5449
 msgid "Expression"
 msgstr "Slonn"
 
-#: ex_getln.c:5398
+#: ex_getln.c:5450
 msgid "Input Line"
 msgstr "Líne an Ionchuir"
 
-#: ex_getln.c:5436
+#: ex_getln.c:5488
 msgid "E198: cmd_pchar beyond the command length"
 msgstr "E198: cmd_pchar os cionn fad an ordaithe"
 
-#: ex_getln.c:5626
+#: ex_getln.c:5678
 msgid "E199: Active window or buffer deleted"
 msgstr "E199: Scriosadh an fhuinneog reatha nó an maolán reatha"
 
@@ -1792,7 +1792,7 @@ msgstr "E199: Scriosadh an fhuinneog reatha nó an maolán reatha"
 msgid "Illegal file name"
 msgstr "Ainm comhaid neamhcheadaithe"
 
-#: fileio.c:399 fileio.c:539 fileio.c:2951 fileio.c:2992
+#: fileio.c:399 fileio.c:539 fileio.c:2959 fileio.c:3000
 msgid "is a directory"
 msgstr "is comhadlann é"
 
@@ -1800,7 +1800,7 @@ msgstr "is comhadlann é"
 msgid "is not a file"
 msgstr "ní comhad é"
 
-#: fileio.c:561 fileio.c:4184
+#: fileio.c:561 fileio.c:4191
 msgid "[New File]"
 msgstr "[Comhad Nua]"
 
@@ -1859,15 +1859,15 @@ msgstr "[NL aimsithe]"
 msgid "[long lines split]"
 msgstr "[línte fada deighilte]"
 
-#: fileio.c:2140 fileio.c:4168
+#: fileio.c:2140 fileio.c:4175
 msgid "[NOT converted]"
 msgstr "[NÍ tiontaithe]"
 
-#: fileio.c:2145 fileio.c:4173
+#: fileio.c:2145 fileio.c:4180
 msgid "[converted]"
 msgstr "[tiontaithe]"
 
-#: fileio.c:2152 fileio.c:4198
+#: fileio.c:2152 fileio.c:4205
 msgid "[crypted]"
 msgstr "[criptithe]"
 
@@ -1896,138 +1896,138 @@ msgstr "Theip ar thiontú le 'charconvert'"
 msgid "can't read output of 'charconvert'"
 msgstr "ní féidir an t-aschur ó 'charconvert' a léamh"
 
-#: fileio.c:2804
+#: fileio.c:2808
 msgid "E676: No matching autocommands for acwrite buffer"
 msgstr "E676: Níl aon uathordú comhoiriúnaithe le haghaidh maoláin acwrite"
 
-#: fileio.c:2832
+#: fileio.c:2840
 msgid "E203: Autocommands deleted or unloaded buffer to be written"
 msgstr "E203: Scrios nó dhíluchtaigh uathorduithe an maolán le scríobh"
 
-#: fileio.c:2855
+#: fileio.c:2863
 msgid "E204: Autocommand changed number of lines in unexpected way"
 msgstr "E204: D'athraigh uathordú líon na línte gan choinne"
 
-#: fileio.c:2895
+#: fileio.c:2903
 msgid "NetBeans dissallows writes of unmodified buffers"
 msgstr "Ní cheadaíonn NetBeans maoláin gan athrú a bheith scríofa"
 
-#: fileio.c:2903
+#: fileio.c:2911
 msgid "Partial writes disallowed for NetBeans buffers"
 msgstr "Ní cheadaítear maoláin NetBeans a bheith scríofa go neamhiomlán"
 
-#: fileio.c:2957 fileio.c:2975
+#: fileio.c:2965 fileio.c:2983
 msgid "is not a file or writable device"
 msgstr "ní comhad ná gléas inscríofa á"
 
-#: fileio.c:3027 netbeans.c:3447
+#: fileio.c:3035 netbeans.c:3447
 msgid "is read-only (add ! to override)"
 msgstr "is léimh-amháin é (cuir ! leis an ordú chun sárú)"
 
-#: fileio.c:3373
+#: fileio.c:3381
 msgid "E506: Can't write to backup file (add ! to override)"
 msgstr ""
 "E506: Ní féidir scríobh a dhéanamh sa chomhad cúltaca (úsáid ! chun sárú)"
 
-#: fileio.c:3385
+#: fileio.c:3393
 msgid "E507: Close error for backup file (add ! to override)"
 msgstr ""
 "E507: Earráid agus comhad cúltaca á dhúnadh (cuir ! leis an ordú chun sárú)"
 
-#: fileio.c:3387
+#: fileio.c:3395
 msgid "E508: Can't read file for backup (add ! to override)"
 msgstr ""
 "E508: Ní féidir an comhad cúltaca a léamh (cuir ! leis an ordú chun sárú)"
 
-#: fileio.c:3403
+#: fileio.c:3411
 msgid "E509: Cannot create backup file (add ! to override)"
 msgstr ""
 "E509: Ní féidir comhad cúltaca a chruthú (cuir ! leis an ordú chun sárú)"
 
-#: fileio.c:3506
+#: fileio.c:3513
 msgid "E510: Can't make backup file (add ! to override)"
 msgstr ""
 "E510: Ní féidir comhad cúltaca a chruthú (cuir ! leis an ordú chun sárú)"
 
-#: fileio.c:3568
+#: fileio.c:3575
 msgid "E460: The resource fork would be lost (add ! to override)"
 msgstr "E460: Chaillfí an forc acmhainne (cuir ! leis an ordú chun sárú)"
 
-#: fileio.c:3678
+#: fileio.c:3685
 msgid "E214: Can't find temp file for writing"
 msgstr "E214: Ní féidir comhad sealadach a aimsiú chun scríobh ann"
 
-#: fileio.c:3696
+#: fileio.c:3703
 msgid "E213: Cannot convert (add ! to write without conversion)"
 msgstr "E213: Ní féidir tiontú (cuir ! leis an ordú chun scríobh gan tiontú)"
 
-#: fileio.c:3731
+#: fileio.c:3738
 msgid "E166: Can't open linked file for writing"
 msgstr "E166: Ní féidir comhad nasctha a oscailt chun scríobh ann"
 
-#: fileio.c:3735
+#: fileio.c:3742
 msgid "E212: Can't open file for writing"
 msgstr "E212: Ní féidir comhad a oscailt chun scríobh ann"
 
-#: fileio.c:4011
+#: fileio.c:4018
 msgid "E667: Fsync failed"
 msgstr "E667: Theip ar fsync"
 
-#: fileio.c:4018
+#: fileio.c:4025
 msgid "E512: Close failed"
 msgstr "E512: Theip ar dúnadh"
 
-#: fileio.c:4089
+#: fileio.c:4096
 msgid "E513: write error, conversion failed (make 'fenc' empty to override)"
 msgstr ""
 "E513: earráid le linn scríobh, theip ar thiontú (úsáid 'fenc' folamh chun "
 "sárú)"
 
-#: fileio.c:4095
+#: fileio.c:4102
 msgid "E514: write error (file system full?)"
 msgstr "E514: earráid le linn scríofa (an bhfuil an córas comhaid lán?)"
 
-#: fileio.c:4163
+#: fileio.c:4170
 msgid " CONVERSION ERROR"
 msgstr " EARRÁID TIONTAITHE"
 
-#: fileio.c:4179
+#: fileio.c:4186
 msgid "[Device]"
 msgstr "[Gléas]"
 
-#: fileio.c:4184
+#: fileio.c:4191
 msgid "[New]"
 msgstr "[Nua]"
 
-#: fileio.c:4206
+#: fileio.c:4213
 msgid " [a]"
 msgstr " [a]"
 
-#: fileio.c:4206
+#: fileio.c:4213
 msgid " appended"
 msgstr " iarcheangailte"
 
-#: fileio.c:4208
+#: fileio.c:4215
 msgid " [w]"
 msgstr " [w]"
 
-#: fileio.c:4208
+#: fileio.c:4215
 msgid " written"
 msgstr " scríofa"
 
-#: fileio.c:4261
+#: fileio.c:4268
 msgid "E205: Patchmode: can't save original file"
 msgstr "E205: Patchmode: ní féidir an comhad bunúsach a shábháil"
 
-#: fileio.c:4283
+#: fileio.c:4290
 msgid "E206: patchmode: can't touch empty original file"
 msgstr "E206: patchmode: ní féidir an comhad bunúsach folamh a theagmháil"
 
-#: fileio.c:4298
+#: fileio.c:4305
 msgid "E207: Can't delete backup file"
 msgstr "E207: Ní féidir an comhad cúltaca a scriosadh"
 
-#: fileio.c:4362
+#: fileio.c:4369
 msgid ""
 "\n"
 "WARNING: Original file may be lost or damaged\n"
@@ -2035,96 +2035,96 @@ msgstr ""
 "\n"
 "RABHADH: Is féidir gur caillte nó loite an comhad bunúsach\n"
 
-#: fileio.c:4364
+#: fileio.c:4371
 msgid "don't quit the editor until the file is successfully written!"
 msgstr "ná scoir go dtí go scríobhfaí an comhad!"
 
-#: fileio.c:4453
+#: fileio.c:4460
 msgid "[dos]"
 msgstr "[dos]"
 
-#: fileio.c:4453
+#: fileio.c:4460
 msgid "[dos format]"
 msgstr "[formáid dos]"
 
-#: fileio.c:4460
+#: fileio.c:4467
 msgid "[mac]"
 msgstr "[mac]"
 
-#: fileio.c:4460
+#: fileio.c:4467
 msgid "[mac format]"
 msgstr "[formáid mac]"
 
-#: fileio.c:4467
+#: fileio.c:4474
 msgid "[unix]"
 msgstr "[unix]"
 
-#: fileio.c:4467
+#: fileio.c:4474
 msgid "[unix format]"
 msgstr "[formáid unix]"
 
-#: fileio.c:4494
+#: fileio.c:4501
 msgid "1 line, "
 msgstr "1 líne, "
 
-#: fileio.c:4496
+#: fileio.c:4503
 #, c-format
 msgid "%ld lines, "
 msgstr "%ld líne, "
 
-#: fileio.c:4499
+#: fileio.c:4506
 msgid "1 character"
 msgstr "1 carachtar"
 
-#: fileio.c:4501
+#: fileio.c:4508
 #, c-format
 msgid "%ld characters"
 msgstr "%ld carachtar"
 
-#: fileio.c:4511 netbeans.c:3389
+#: fileio.c:4518 netbeans.c:3389
 msgid "[noeol]"
 msgstr "[ganEOL]"
 
-#: fileio.c:4511 netbeans.c:3389
+#: fileio.c:4518 netbeans.c:3389
 msgid "[Incomplete last line]"
 msgstr "[Is neamhiomlán an líne dheireanach]"
 
 #. don't overwrite messages here
 #. must give this prompt
 #. don't use emsg() here, don't want to flush the buffers
-#: fileio.c:4530
+#: fileio.c:4537
 msgid "WARNING: The file has been changed since reading it!!!"
 msgstr "RABHADH: Athraíodh an comhad ó léadh é!!!"
 
-#: fileio.c:4532
+#: fileio.c:4539
 msgid "Do you really want to write to it"
 msgstr "An bhfuil tú cinnte gur mhaith leat é a scríobh"
 
-#: fileio.c:5768
+#: fileio.c:5775
 #, c-format
 msgid "E208: Error writing to \"%s\""
 msgstr "E208: Earráid agus \"%s\" á scríobh"
 
-#: fileio.c:5775
+#: fileio.c:5782
 #, c-format
 msgid "E209: Error closing \"%s\""
 msgstr "E209: Earráid agus \"%s\" á dhúnadh"
 
-#: fileio.c:5778
+#: fileio.c:5785
 #, c-format
 msgid "E210: Error reading \"%s\""
 msgstr "E210: Earráid agus \"%s\" á léamh"
 
-#: fileio.c:6033
+#: fileio.c:6042
 msgid "E246: FileChangedShell autocommand deleted buffer"
 msgstr "E246: Scrios uathordú FileChangedShell an maolán"
 
-#: fileio.c:6046
+#: fileio.c:6057
 #, c-format
 msgid "E211: File \"%s\" no longer available"
 msgstr "E211: Níl comhad \"%s\" ar fáil feasta"
 
-#: fileio.c:6061
+#: fileio.c:6072
 #, c-format
 msgid ""
 "W12: Warning: File \"%s\" has changed and the buffer was changed in Vim as "
@@ -2132,39 +2132,39 @@ msgid ""
 msgstr ""
 "W12: Rabhadh: Athraíodh comhad \"%s\" agus athraíodh an maolán i Vim fosta"
 
-#: fileio.c:6062
+#: fileio.c:6073
 msgid "See \":help W12\" for more info."
 msgstr "Bain triail as \":help W12\" chun tuilleadh eolais a fháil."
 
-#: fileio.c:6066
+#: fileio.c:6077
 #, c-format
 msgid "W11: Warning: File \"%s\" has changed since editing started"
 msgstr "W11: Rabhadh: Athraíodh comhad \"%s\" ó tosaíodh é a chur in eagar"
 
-#: fileio.c:6067
+#: fileio.c:6078
 msgid "See \":help W11\" for more info."
 msgstr "Bain triail as \":help W11\" chun tuilleadh eolais a fháil."
 
-#: fileio.c:6071
+#: fileio.c:6082
 #, c-format
 msgid "W16: Warning: Mode of file \"%s\" has changed since editing started"
 msgstr ""
 "W16: Rabhadh: Athraíodh mód an chomhaid \"%s\" ó tosaíodh é a chur in eagar"
 
-#: fileio.c:6072
+#: fileio.c:6083
 msgid "See \":help W16\" for more info."
 msgstr "Bain triail as \":help W16\" chun tuilleadh eolais a fháil."
 
-#: fileio.c:6084
+#: fileio.c:6095
 #, c-format
 msgid "W13: Warning: File \"%s\" has been created after editing started"
 msgstr "W13: Rabhadh: Cruthaíodh comhad \"%s\" ó tosaíodh é a chur in eagar"
 
-#: fileio.c:6109
+#: fileio.c:6120
 msgid "Warning"
 msgstr "Rabhadh"
 
-#: fileio.c:6110
+#: fileio.c:6121
 msgid ""
 "&OK\n"
 "&Load File"
@@ -2172,48 +2172,48 @@ msgstr ""
 "&OK\n"
 "&Luchtaigh Comhad"
 
-#: fileio.c:6232
+#: fileio.c:6243
 #, c-format
 msgid "E462: Could not prepare for reloading \"%s\""
 msgstr "E462: Ní féidir \"%s\" a ullmhú le haghaidh athluchtaithe"
 
-#: fileio.c:6251
+#: fileio.c:6262
 #, c-format
 msgid "E321: Could not reload \"%s\""
 msgstr "E321: Ní féidir \"%s\" a athluchtú"
 
-#: fileio.c:6838
+#: fileio.c:6849
 msgid "--Deleted--"
 msgstr "--Scriosta--"
 
-#: fileio.c:6991
+#: fileio.c:7002
 #, c-format
 msgid "auto-removing autocommand: %s <buffer=%d>"
 msgstr "uathordú á bhaint go huathoibríoch: %s <maolán=%d>"
 
 #. the group doesn't exist
-#: fileio.c:7037
+#: fileio.c:7048
 #, c-format
 msgid "E367: No such group: \"%s\""
 msgstr "E367: Níl a leithéid de ghrúpa: \"%s\""
 
-#: fileio.c:7186
+#: fileio.c:7197
 #, c-format
 msgid "E215: Illegal character after *: %s"
 msgstr "E215: Carachtar neamhcheadaithe i ndiaidh *: %s"
 
-#: fileio.c:7198
+#: fileio.c:7209
 #, c-format
 msgid "E216: No such event: %s"
 msgstr "E216: Níl a leithéid de theagmhas: %s"
 
-#: fileio.c:7200
+#: fileio.c:7211
 #, c-format
 msgid "E216: No such group or event: %s"
 msgstr "E216: Níl a leithéid de ghrúpa nó theagmhas: %s"
 
 #. Highlight title
-#: fileio.c:7398
+#: fileio.c:7409
 msgid ""
 "\n"
 "--- Auto-Commands ---"
@@ -2221,43 +2221,43 @@ msgstr ""
 "\n"
 "--- Uathorduithe ---"
 
-#: fileio.c:7634
+#: fileio.c:7645
 #, c-format
 msgid "E680: <buffer=%d>: invalid buffer number "
 msgstr "E680: <maolán=%d>: uimhir neamhbhailí mhaoláin "
 
-#: fileio.c:7731
+#: fileio.c:7742
 msgid "E217: Can't execute autocommands for ALL events"
 msgstr "E217: Ní féidir uathorduithe a rith i gcomhair teagmhas UILE"
 
-#: fileio.c:7754
+#: fileio.c:7765
 msgid "No matching autocommands"
 msgstr "Níl aon uathordú comhoiriúnaithe"
 
-#: fileio.c:8078
+#: fileio.c:8095
 msgid "E218: autocommand nesting too deep"
 msgstr "E218: uathordú neadaithe ródhomhain"
 
-#: fileio.c:8386
+#: fileio.c:8403
 #, c-format
 msgid "%s Auto commands for \"%s\""
 msgstr "%s Uathorduithe do \"%s\""
 
-#: fileio.c:8396
+#: fileio.c:8413
 #, c-format
 msgid "Executing %s"
 msgstr "%s á rith"
 
-#: fileio.c:8466
+#: fileio.c:8483
 #, c-format
 msgid "autocommand %s"
 msgstr "uathordú %s"
 
-#: fileio.c:9063
+#: fileio.c:9080
 msgid "E219: Missing {."
 msgstr "E219: { ar iarraidh."
 
-#: fileio.c:9065
+#: fileio.c:9082
 msgid "E220: Missing }."
 msgstr "E220: } ar iarraidh."
 
@@ -3498,7 +3498,8 @@ msgstr ""
 #: main.c:2714
 msgid "where case is ignored prepend / to make flag upper case"
 msgstr ""
-"nuair nach cásíogair é, cuir '/' ar tosach na brataí chun í a chur san chás uachtair"
+"nuair nach cásíogair é, cuir '/' ar tosach na brataí chun í a chur san chás "
+"uachtair"
 
 #: main.c:2717
 msgid ""
@@ -3681,7 +3682,8 @@ msgstr "-s <script>\tLéig orduithe gnáthmhóid ón chomhad <script>"
 
 #: main.c:2780
 msgid "-w <scriptout>\tAppend all typed commands to file <scriptout>"
-msgstr "-w <script>\tIarcheangail gach ordú iontráilte leis an gcomhad <script>"
+msgstr ""
+"-w <script>\tIarcheangail gach ordú iontráilte leis an gcomhad <script>"
 
 #: main.c:2781
 msgid "-W <scriptout>\tWrite all typed commands to file <scriptout>"
@@ -4620,16 +4622,16 @@ msgstr "E333: Ní mór conair roghchláir a threorú chun mír roghchláir"
 msgid "E334: Menu not found: %s"
 msgstr "E334: Roghchlár gan aimsiú: %s"
 
-#: menu.c:2179
+#: menu.c:2185
 #, c-format
 msgid "E335: Menu not defined for %s mode"
 msgstr "E335: Níl an roghchlár ar fáil sa mhód %s"
 
-#: menu.c:2218
+#: menu.c:2224
 msgid "E336: Menu path must lead to a sub-menu"
 msgstr "E336: Ní mór conair roghchláir a threorú chun fo-roghchlár"
 
-#: menu.c:2239
+#: menu.c:2245
 msgid "E337: Menu not found - check menu names"
 msgstr "E337: Roghchlár gan aimsiú - deimhnigh ainmneacha na roghchlár"
 
@@ -4716,7 +4718,7 @@ msgstr "E338: Níl brabhsálaí comhaid ar fáil sa mhód consóil"
 msgid "E766: Insufficient arguments for printf()"
 msgstr "E766: Easpa argóintí d'fheidhm printf()"
 
-#: message.c:4494
+#: message.c:4495
 msgid "E767: Too many arguments to printf()"
 msgstr "E767: An iomarca argóintí d'fheidhm printf()"
 
@@ -4837,11 +4839,11 @@ msgstr "Iontráil eochair chriptiúcháin: "
 msgid "Enter same key again: "
 msgstr "Iontráil an eochair arís: "
 
-#: misc2.c:3525
+#: misc2.c:3526
 msgid "Keys don't match!"
 msgstr "Níl na heochracha comhoiriúnach le chéile!"
 
-#: misc2.c:4066
+#: misc2.c:4067
 #, c-format
 msgid ""
 "E343: Invalid path: '**[number]' must be at the end of the path or be "
@@ -4850,22 +4852,22 @@ msgstr ""
 "E343: Conair neamhbhailí: ní mór '**[uimhir]' a bheith ag deireadh na "
 "conaire, nó le '%s' ina dhiaidh."
 
-#: misc2.c:5349
+#: misc2.c:5350
 #, c-format
 msgid "E344: Can't find directory \"%s\" in cdpath"
 msgstr "E344: Ní féidir comhadlann \"%s\" a aimsiú sa cdpath"
 
-#: misc2.c:5352
+#: misc2.c:5353
 #, c-format
 msgid "E345: Can't find file \"%s\" in path"
 msgstr "E345: Ní féidir comhad \"%s\" a aimsiú sa chonair"
 
-#: misc2.c:5358
+#: misc2.c:5359
 #, c-format
 msgid "E346: No more directory \"%s\" found in cdpath"
 msgstr "E346: Níl comhadlann \"%s\" sa cdpath a thuilleadh"
 
-#: misc2.c:5361
+#: misc2.c:5362
 #, c-format
 msgid "E347: No more file \"%s\" found in path"
 msgstr "E347: Níl comhad \"%s\" sa chonair a thuilleadh"
@@ -5096,7 +5098,7 @@ msgstr "E520: Ní cheadaithe i módlíne"
 
 #: option.c:3983
 msgid "E521: Number required after ="
-msgstr "E521: Ní foláir uimhir i ndiaidh ="
+msgstr "E521: Tá gá le huimhir i ndiaidh ="
 
 #: option.c:4311 option.c:4985
 msgid "E522: Not found in termcap"
@@ -5630,16 +5632,16 @@ msgstr "liosta earráidí %d as %d; %d earráid"
 msgid "E382: Cannot write, 'buftype' option is set"
 msgstr "E382: Ní féidir scríobh, rogha 'buftype' socraithe"
 
-#: quickfix.c:2463
+#: quickfix.c:2465
 msgid "E683: File name missing or invalid pattern"
 msgstr "E683: Ainm comhaid ar iarraidh, nó patrún neamhbhailí"
 
-#: quickfix.c:2537
+#: quickfix.c:2539
 #, c-format
 msgid "Cannot open file \"%s\""
 msgstr "Ní féidir comhad \"%s\" a oscailt"
 
-#: quickfix.c:2961
+#: quickfix.c:2963
 msgid "E681: Buffer is not loaded"
 msgstr "E681: Níl an maolán luchtaithe"
 
@@ -5971,17 +5973,17 @@ msgstr "Rabhadh: réigiún %s gan tacaíocht"
 msgid "Reading affix file %s ..."
 msgstr "Comhad foircinn %s á léamh..."
 
-#: spell.c:4544 spell.c:5697 spell.c:6124
+#: spell.c:4544 spell.c:5707 spell.c:6134
 #, c-format
 msgid "Conversion failure for word in %s line %d: %s"
 msgstr "Theip ar thiontú focail i %s líne %d: %s"
 
-#: spell.c:4588 spell.c:6159
+#: spell.c:4588 spell.c:6169
 #, c-format
 msgid "Conversion in %s not supported: from %s to %s"
 msgstr "Tiontú i %s gan tacaíocht: ó %s go %s"
 
-#: spell.c:4592 spell.c:6164
+#: spell.c:4592 spell.c:6174
 #, c-format
 msgid "Conversion in %s not supported"
 msgstr "Tiontú i %s gan tacaíocht"
@@ -6050,225 +6052,225 @@ msgstr "Coinníoll briste i %s líne %d: %s"
 msgid "Expected REP count in %s line %d"
 msgstr "Bhíothas ag súil le líon na REP i %s líne %d"
 
-#: spell.c:5062
+#: spell.c:5072
 #, c-format
 msgid "Expected MAP count in %s line %d"
 msgstr "Bhíothas ag súil le líon na MAP i %s líne %d"
 
-#: spell.c:5081
+#: spell.c:5091
 #, c-format
 msgid "Duplicate character in MAP in %s line %d"
 msgstr "Carachtar dúblach i MAP i %s líne %d"
 
-#: spell.c:5121
+#: spell.c:5131
 #, c-format
 msgid "Unrecognized or duplicate item in %s line %d: %s"
 msgstr "Mír anaithnid nó dhúblach i %s líne %d: %s"
 
-#: spell.c:5149
+#: spell.c:5159
 #, c-format
 msgid "Missing FOL/LOW/UPP line in %s"
 msgstr "Líne FOL/LOW/UPP ar iarraidh i %s"
 
-#: spell.c:5175
+#: spell.c:5185
 msgid "COMPOUNDSYLMAX used without SYLLABLE"
 msgstr "COMPOUNDSYLMAX in úsáid gan SYLLABLE"
 
-#: spell.c:5187
+#: spell.c:5197
 msgid "Too many postponed prefixes"
 msgstr "An iomarca réimíreanna curtha siar"
 
-#: spell.c:5189
+#: spell.c:5199
 msgid "Too many compound flags"
 msgstr "An iomarca bratach comhfhocail"
 
-#: spell.c:5191
+#: spell.c:5201
 msgid "Too many posponed prefixes and/or compound flags"
 msgstr "An iomarca réimíreanna curtha siar agus/nó bratacha comhfhocal"
 
-#: spell.c:5203
+#: spell.c:5213
 #, c-format
 msgid "Missing SOFO%s line in %s"
 msgstr "Líne SOFO%s ar iarraidh i %s"
 
-#: spell.c:5206
+#: spell.c:5216
 #, c-format
 msgid "Both SAL and SOFO lines in %s"
 msgstr "Línte SAL agus SOFO araon i %s"
 
-#: spell.c:5245
+#: spell.c:5255
 #, c-format
 msgid "Flag is not a number in %s line %d: %s"
 msgstr "Ní uimhir í an bhratach i %s líne %d: %s"
 
-#: spell.c:5248
+#: spell.c:5258
 #, c-format
 msgid "Illegal flag in %s line %d: %s"
 msgstr "Bratach neamhcheadaithe i %s líne %d: %s"
 
-#: spell.c:5465 spell.c:5478
+#: spell.c:5475 spell.c:5488
 #, c-format
 msgid "%s value differs from what is used in another .aff file"
 msgstr "Tá difear idir luach %s agus an luach i gcomhad .aff eile"
 
-#: spell.c:5633
+#: spell.c:5643
 #, c-format
 msgid "Reading dictionary file %s ..."
 msgstr "Foclóir %s á léamh ..."
 
-#: spell.c:5645
+#: spell.c:5655
 #, c-format
 msgid "E760: No word count in %s"
 msgstr "E760: Líon na bhfocal ar iarraidh i %s"
 
-#: spell.c:5715
+#: spell.c:5725
 #, c-format
 msgid "line %6d, word %6d - %s"
 msgstr "líne %6d, focal %6d - %s"
 
-#: spell.c:5738
+#: spell.c:5748
 #, c-format
 msgid "Duplicate word in %s line %d: %s"
 msgstr "Focal dúblach i %s líne %d: %s"
 
-#: spell.c:5741
+#: spell.c:5751
 #, c-format
 msgid "First duplicate word in %s line %d: %s"
 msgstr "An chéad fhocal dúblach i %s líne %d: %s"
 
-#: spell.c:5805
+#: spell.c:5815
 #, c-format
 msgid "%d duplicate word(s) in %s"
 msgstr "%d focal dúblach i %s"
 
-#: spell.c:5807
+#: spell.c:5817
 #, c-format
 msgid "Ignored %d word(s) with non-ASCII characters in %s"
 msgstr "Rinneadh neamhshuim ar %d focal le carachtair neamh-ASCII i %s"
 
-#: spell.c:6090
+#: spell.c:6100
 #, c-format
 msgid "Reading word file %s ..."
 msgstr "Comhad focail %s á léamh ..."
 
-#: spell.c:6143
+#: spell.c:6153
 #, c-format
 msgid "Duplicate /encoding= line ignored in %s line %d: %s"
 msgstr "Rinneadh neamhshuim ar líne dhúblach `/encoding=' i %s líne %d: %s"
 
-#: spell.c:6146
+#: spell.c:6156
 #, c-format
 msgid "/encoding= line after word ignored in %s line %d: %s"
 msgstr ""
 "Rinneadh neamhshuim ar líne `/encoding=' i ndiaidh focail i %s líne %d: %s"
 
-#: spell.c:6173
+#: spell.c:6183
 #, c-format
 msgid "Duplicate /regions= line ignored in %s line %d: %s"
 msgstr "Rinneadh neamhshuim ar líne `/regions=' i %s líne %d: %s"
 
-#: spell.c:6179
+#: spell.c:6189
 #, c-format
 msgid "Too many regions in %s line %d: %s"
 msgstr "An iomarca réigiún i %s líne %d: %s"
 
-#: spell.c:6193
+#: spell.c:6203
 #, c-format
 msgid "/ line ignored in %s line %d: %s"
 msgstr "Rinneadh neamhshuim ar líne `/' i %s líne %d: %s"
 
-#: spell.c:6223
+#: spell.c:6233
 #, c-format
 msgid "Invalid region nr in %s line %d: %s"
 msgstr "Uimhir neamhbhailí réigiúin i %s líne %d: %s"
 
-#: spell.c:6231
+#: spell.c:6241
 #, c-format
 msgid "Unrecognized flags in %s line %d: %s"
 msgstr "Bratacha anaithnide i %s líne %d: %s"
 
-#: spell.c:6262
+#: spell.c:6272
 #, c-format
 msgid "Ignored %d words with non-ASCII characters"
 msgstr "Rinneadh neamhshuim ar %d focal le carachtair neamh-ASCII"
 
-#: spell.c:6711
+#: spell.c:6721
 #, c-format
 msgid "Compressed %d of %d nodes; %d%% remaining"
 msgstr "Comhbhrúdh %d as %d nód; %d%% fágtha"
 
-#: spell.c:7472
+#: spell.c:7482
 msgid "E751: Output file name must not have region name"
 msgstr "E751: Ní cheadaítear ainm réigiúin in ainm an aschomhaid"
 
-#: spell.c:7474
+#: spell.c:7484
 msgid "E754: Only up to 8 regions supported"
 msgstr "E754: Ní thacaítear le níos mó ná 8 réigiún"
 
-#: spell.c:7504
+#: spell.c:7514
 #, c-format
 msgid "E755: Invalid region in %s"
 msgstr "E755: Réigiún neamhbhailí i %s"
 
-#: spell.c:7575
+#: spell.c:7585
 msgid "Warning: both compounding and NOBREAK specified"
 msgstr "Rabhadh: sonraíodh comhfhocail agus NOBREAK araon"
 
-#: spell.c:7605
+#: spell.c:7615
 #, c-format
 msgid "Writing spell file %s ..."
 msgstr "Comhad litrithe %s á scríobh ..."
 
-#: spell.c:7617
+#: spell.c:7627
 msgid "Done!"
 msgstr "Críochnaithe!"
 
-#: spell.c:7618
+#: spell.c:7628
 #, c-format
 msgid "Estimated runtime memory use: %d bytes"
 msgstr "Cuimhne measta a bheith in úsáid le linn rite: %d beart"
 
-#: spell.c:7713
+#: spell.c:7723
 #, c-format
 msgid "E765: 'spellfile' does not have %ld entries"
 msgstr "E765: níl %ld iontráil i 'spellfile'"
 
-#: spell.c:8089
+#: spell.c:8099
 msgid "E763: Word characters differ between spell files"
 msgstr "E763: Tá carachtair dhifriúla fhocail sna comhaid litrithe"
 
-#: spell.c:8431
+#: spell.c:8441
 msgid "Sorry, no suggestions"
 msgstr "Tá brón orm, níl aon mholadh ann"
 
-#: spell.c:8435
+#: spell.c:8445
 #, c-format
 msgid "Sorry, only %ld suggestions"
 msgstr "Tá brón orm, níl ach %ld moladh ann"
 
 #. avoid more prompt
-#: spell.c:8455
+#: spell.c:8465
 #, c-format
 msgid "Change \"%.*s\" to:"
 msgstr "Athraigh \"%.*s\" go:"
 
-#: spell.c:8495
+#: spell.c:8505
 #, c-format
 msgid " < \"%.*s\""
 msgstr " < \"%.*s\""
 
-#: spell.c:8651
+#: spell.c:8661
 msgid "E752: No previous spell replacement"
 msgstr "E752: Níl aon ionadaí litrithe roimhe seo"
 
-#: spell.c:8701
+#: spell.c:8711
 #, c-format
 msgid "E753: Not found: %s"
 msgstr "E753: Gan aimsiú: %s"
 
 #. This should have been checked when generating the .spl
 #. * file.
-#: spell.c:11008
+#: spell.c:11018
 msgid "E999: duplicate char in MAP entry"
 msgstr "E999: carachtar dúblach in iontráil MAP"
 
