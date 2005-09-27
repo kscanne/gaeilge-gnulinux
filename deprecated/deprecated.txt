@@ -78,6 +78,8 @@ bullet		piléar			urchar		bullet		ph?ilé[ai]r
 cache		ceallóg			taisce		cache		ch?ealló
 cache		folachán		taisce		cache		fh?olachá
 cache		gnáthóg			taisce		cache		gh?náthó
+# FARF=glaoch, FRTF both but prefers "glao"
+call		glaoch			glao		call[^i]	gh?laoch
 # FARF/FRTF
 capacity	lucht			toilleadh	capacity	lucht
 capacity	riocht			toilleadh	capacity	riocht
