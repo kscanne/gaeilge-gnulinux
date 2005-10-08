@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: latrine 0.8.6\n"
+"Project-Id-Version: latrine 0.9.0\n"
 "Report-Msgid-Bugs-To: martin@godisch.de\n"
-"POT-Creation-Date: 2005-02-08 19:08+0100\n"
-"PO-Revision-Date: 2005-02-09 10:25-0500\n"
+"POT-Creation-Date: 2005-09-20 20:52+0200\n"
+"PO-Revision-Date: 2005-09-27 10:25-0500\n"
 "Last-Translator: Kevin Patrick Scannell <scannell@SLU.EDU>\n"
 "Language-Team: Irish <gaeilge-gnulinux@lists.sourceforge.net>\n"
 "MIME-Version: 1.0\n"
@@ -27,31 +27,31 @@ msgstr "droim ar ais"
 msgid "mixed"
 msgstr "measctha"
 
-#: charset.c:70
+#: charset.c:173
 #, c-format
 msgid "cannot open keymap: %s"
 msgstr "ní féidir eochairmhapáil a oscailt: %s"
 
-#: charset.c:81
+#: charset.c:184
 #, c-format
 msgid "ignoring invalid keymap entry in line %d"
 msgstr "ag déanamh neamhshuim ar iontráil neamhbhailí eochairmhapála i líne %d"
 
-#: charset.c:93
+#: charset.c:196
 #, c-format
 msgid "adding key mapping for input %d: %X -> %s"
 msgstr "eochairmhapáil nua don ionchur %d: %X -> %s"
 
-#: charset.c:95
+#: charset.c:198
 #, c-format
 msgid "keymap buffer exceeded (max. %d)"
 msgstr "maolán eochairmhapála thar maoil (uas. %d)"
 
-#: charset.c:117
+#: charset.c:220
 msgid "map_key: internal buffer overflow"
 msgstr "map_key: maolán inmheánach thar maoil"
 
-#: charset.c:222 charset.c:230
+#: charset.c:325 charset.c:333
 msgid "wcsappend: internal buffer overflow"
 msgstr "wcsappend: maolán inmheánach thar maoil"
 
@@ -174,90 +174,91 @@ msgstr "ní féidir %s a chruthú: %s"
 msgid "cannot set handler for signal %d: %s"
 msgstr "ní féidir láimhseálaí a shocrú le haghaidh an chomhartha %d: %s"
 
-#: options.c:56
+#: options.c:57
 msgid "current working directory too long"
 msgstr "is rófhada é ainm na comhadlainne oibre"
 
-#: options.c:69
+#: options.c:70
 #, c-format
 msgid "invalid path: %s"
 msgstr "conair neamhbhailí: %s"
 
-#: options.c:89
+#: options.c:90
 #, c-format
 msgid "cannot find %s in %s, assuming ./%s"
 msgstr "ní féidir %s a aimsiú i %s, glac le ./%s"
 
-#: options.c:132
+#: options.c:133
 #, c-format
 msgid "cannot open config file: %s"
 msgstr "ní féidir comhad cumraíochta a oscailt: %s"
 
-#: options.c:154
+#: options.c:157
 #, c-format
 msgid "invalid direction in %s line %d -- %s"
 msgstr "treoir neamhbhailí i %s, líne %d -- %s"
 
-#: options.c:158
+#: options.c:161
 msgid "ignoring --force in config file"
 msgstr "ag déanamh neamhshuim ar --force sa chomhad cumraíochta"
 
-#: options.c:180
+#: options.c:183
 #, c-format
 msgid "invalid memory limit in %s line %d -- %s"
 msgstr "teorainn neamhbhailí cuimhne i %s, líne %d -- %s"
 
-#: options.c:191
+#: options.c:194
 #, c-format
 msgid "invalid mode in %s line %d -- %s"
 msgstr "mód neamhbhailí i %s, líne %d -- %s"
 
-#: options.c:197
+#: options.c:200
 #, c-format
 msgid "invalid max. random index in %s line %d -- %s"
 msgstr "innéacs randamach neamhbhailí i %s, líne %d -- %s"
 
-#: options.c:201
+#: options.c:204
 msgid "ignored --help in config file"
 msgstr "rinneadh neamhshuim ar --help sa chomhad cumraíochta"
 
-#: options.c:203
+#: options.c:206
 msgid "ignored --version in config file"
 msgstr "rinneadh neamhshuim ar --version sa chomhad cumraíochta"
 
-#: options.c:205
+#: options.c:208
 #, c-format
 msgid "invalid or incomplete keyword in %s line %d"
 msgstr "lorgfhocal neamhbhailí nó neamhiomlán i %s, líne %d"
 
-#: options.c:240
+#: options.c:247
 #, c-format
 msgid "invalid direction -- %s"
 msgstr "treoir neamhbhailí -- %s"
 
 # similar string for time format in ls.c -KPS
-#: options.c:272
+#: options.c:279
 #, c-format
 msgid "invalid memory limit -- %s"
 msgstr "teorainn neamhbhailí cuimhne -- %s"
 
-#: options.c:285
+#: options.c:292
 #, c-format
 msgid "invalid mode -- %s"
 msgstr "mód neamhbhailí -- %s"
 
-#: options.c:293
+#: options.c:300
 #, c-format
 msgid "invalid max. random index -- %s"
 msgstr "innéacs randamach neamhbhailí -- %s"
 
 #. TRANSLATORS: Please wrap lines, which are longer than 80 characters.
-#: options.c:299
+#: options.c:306
 #, c-format
 msgid ""
 "Usage: %s [options] [dictionary|path]\n"
 "  -d, --debug                turn on debug mode,\n"
 "      --direction={0|1|2|3}  initial direction for input fields,\n"
+"  -g, --digraph              enable entering of digraphs,\n"
 "  -f, --force                overwrite stale lock files,\n"
 "  -h, --help                 display this command line summary,\n"
 "  -i, --ignore-case          compare case-insensitively,\n"
@@ -273,40 +274,42 @@ msgid ""
 msgstr ""
 "Úsáid: %s [roghanna] [foclóir|conair]\n"
 "  -d, --debug                mód dífhabhtaithe,\n"
-"      --direction={0|1|2|3}  treo tosaigh ar réimsí ionchuir,\n"
-"  -f, --force                forscríobh glaschomhaid as dáta,\n"
+"      --direction={0|1|2|3}  treo tosaigh ar réimsí ionchurtha,\n"
+"  -g, --digraph              cumasaigh iontráil na ndéghrafanna\n"
+"  -f, --force                forscríobh glaschomhaid atá as dáta,\n"
 "  -h, --help                 taispeáin an chabhair seo,\n"
 "  -i, --ignore-case          ná bac le cás,\n"
-"  -1, --keymap1=path         eochairmhapáil do theanga 1,\n"
-"  -2, --keymap2=path         eochairmhapáil do theanga 2,\n"
+"  -1, --keymap1=conair       eochairmhapáil do theanga 1,\n"
+"  -2, --keymap2=conair       eochairmhapáil do theanga 2,\n"
 "  -a, --label=lang1/lang2    lipéid na dteangacha (uas. %d carachtar),\n"
-"  -l, --limit=max            líon na n-abairtíní le coinneáil i gcuimhne (%d),\n"
+"  -l, --limit=uasmhéid       líon na n-abairtíní le coinneáil i gcuimhne (%"
+"d),\n"
 "  -m, --mode={normal|reverse|mixed}   sonraigh an treo,\n"
-"  -r, --random=max           uasmhéid innéacs randamach (réamhshocrú %d),\n"
+"  -r, --random=uasmhéid      uasmhéid innéacs randamach (réamhshocrú %d),\n"
 "  -v, --version              taispeáin an uimhir leagain.\n"
 "Féach ar an leathanach `man' chun níos mó eolas a fháil.\n"
 
-#: options.c:316
+#: options.c:324
 #, c-format
 msgid "%s, linked with %s, zlib %s%s\n"
 msgstr "%s, nasctha le %s, zlib %s%s\n"
 
 #. TRANSLATORS: Please add your own credits for your translation here.
-#: options.c:324
+#: options.c:332
 #, c-format
 msgid "English localization by Martin A. Godisch <martin@godisch.de>\n"
 msgstr "Aistriúchán Gaeilge le Kevin P. Scannell <scannell@slu.edu>\n"
 
-#: options.c:335
+#: options.c:343
 #, c-format
 msgid "invalid argument -- %s"
 msgstr "argóint neamhbhailí -- %s"
 
-#: options.c:339
+#: options.c:347
 msgid "dictionary missing"
 msgstr "foclóir ar iarraidh"
 
-#: options.c:344
+#: options.c:352
 #, c-format
 msgid "--limit=%d < --random=%d, adjusting --random"
 msgstr "--limit=%d < --random=%d, luach --random á choigeartú"
@@ -356,24 +359,24 @@ msgstr "Teanga 2"
 msgid "Please wait while I'm loading the dictionary..."
 msgstr "Fan go fóill le do thoil, foclóir á luchtú..."
 
-#: screen.c:386
+#: screen.c:391
 #, c-format
 msgid "unknown key code: %d"
 msgstr "cód anaithnid eochrach: %d"
 
-#: screen.c:452
+#: screen.c:463
 msgid "correct"
 msgstr "ceart"
 
-#: screen.c:454
+#: screen.c:465
 msgid "wrong"
 msgstr "mícheart"
 
-#: screen.c:457
+#: screen.c:468
 msgid "history"
 msgstr "stair"
 
-#: screen.c:465
+#: screen.c:476
 #, c-format
 msgid "%u of %u phrases loaded."
 msgstr "Luchtaíodh %u as %u abairtín."

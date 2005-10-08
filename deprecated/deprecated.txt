@@ -329,6 +329,7 @@ load		cóipeáil_X		luchtaigh	load		ch?óip
 # FARF/FRTF
 local		áitiúil			logánta		local		áitiúi?l
 local		ceantrach		logánta		local		ch?eant
+locale		logánú			logchaighdeán	locale		logá
 # FARF/FRTF
 location	áit			suíomh		location	[^a-z]áit[^a-df-z]
 location	láthair			suíomh		location	lái?th
@@ -414,6 +415,8 @@ pop-up		fuinneog_aníos		preabfhuinneog	pop		aníos
 port		aistriúchán		leagan		port		aistriúch
 # FRTF04 has both, seems to prefer i~ (since suíomh is "site")
 position	suíomh			ionad		position	sh?uío?mh
+# FRTF
+precision	cruinneas		beachtas	precis		ch?ruinn
 # make file prereqs, e.g.; FRTF
 prerequisite	réamhchoinníoll		réamhriachtanas	requisit	réamhch
 # FRTF/MTR
