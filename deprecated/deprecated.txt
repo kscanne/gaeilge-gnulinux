@@ -260,6 +260,8 @@ font_family	aicme_cló		fine_clófhoirne	font.?family	aicme
 font_family	clann_cló		fine_clófhoirne	font.?family	ch?lann
 # both in both
 # font		clófhoireann		cló		fou?nt		ch?lófho
+# FARF/FRTF
+format		leagan_amach		formáid		format		leagai?n.*amach
 forward		anonn			ar_aghaidh	forward		anonn
 forward		chun_(cinn/tosaigh)	ar_aghaidh	forward		chun.[ct]
 front_end	clár_tosaigh		comhéadan	front.?end	r.tosaigh
