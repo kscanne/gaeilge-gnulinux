@@ -210,7 +210,7 @@ msgstr "%s: rabhadh: fadhb ag dúnadh %s\n"
 #: gram.pl:387
 #, perl-format
 msgid "Currently checking %s"
-msgstr "Ag seiceáil %s"
+msgstr "%s á sheiceáil"
 
 #: gramdev.pl:125
 msgid "    --ilchiall     report unresolved ambiguities, sorted by frequency"
