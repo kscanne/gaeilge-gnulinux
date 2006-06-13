@@ -1,0 +1,393 @@
+# Irish translations for keytouch.
+# Copyright (C) 2006 Free Software Foundation, Inc.
+# This file is distributed under the same license as the keytouch package.
+# Kevin Patrick Scannell <scannell@SLU.EDU>, 2006.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: keytouch 2.2-b0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-06-02 20:17+0200\n"
+"PO-Revision-Date: 2006-06-06 16:16-0500\n"
+"Last-Translator: Kevin Patrick Scannell <scannell@SLU.EDU>\n"
+"Language-Team: Irish <gaeilge-gnulinux@lists.sourceforge.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ISO-8859-1\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/main.c:65 src/memory.c:46 src/memory.c:65
+msgid "Could not allocate memory."
+msgstr "Níorbh fhéidir cuimhne a dháileadh."
+
+#: src/interface.c:186
+msgid "Keys:"
+msgstr "Eochracha:"
+
+#: src/interface.c:213
+msgid "Key:"
+msgstr "Eochair:"
+
+#: src/interface.c:235
+msgid "_Default setting:"
+msgstr "_Réamhshocrú:"
+
+#: src/interface.c:243
+msgid "_Program:"
+msgstr "_Clár:"
+
+#: src/interface.c:290
+msgid "Plugin:"
+msgstr "Breiseán:"
+
+#: src/interface.c:297
+msgid "Function:"
+msgstr "Feidhm:"
+
+#: src/interface.c:304
+msgid "Sp_ecial action:"
+msgstr "_Gníomh speisialta:"
+
+#: src/interface.c:322 src/interface.c:630 src/interface.c:644
+#: src/interface.c:658
+msgid "Ch_oose..."
+msgstr "R_oghnaigh..."
+
+#: src/interface.c:340
+msgid "Runs:"
+msgstr "Ritheann:"
+
+#: src/interface.c:347
+msgid "Key settings"
+msgstr "Socruithe eochrach"
+
+#: src/interface.c:360
+msgid "Key _settings"
+msgstr "_Socruithe eochrach"
+
+#: src/interface.c:375
+msgid "Keyboard manufacturer:"
+msgstr "Déantóir an mhéarchláir:"
+
+#: src/interface.c:382
+msgid "Keyboard model:"
+msgstr "Cineál an mhéarchláir:"
+
+#: src/interface.c:408
+msgid "Chang_e..."
+msgstr "_Athraigh..."
+
+#: src/interface.c:422
+msgid "_Keyboard"
+msgstr "_Méarchlár"
+
+#: src/interface.c:440
+msgid "Available plugins:"
+msgstr "Breiseáin le fáil:"
+
+#: src/interface.c:478
+msgid "_Download..."
+msgstr "Í_osluchtaigh..."
+
+#: src/interface.c:499
+msgid "_Information..."
+msgstr "_Eolas..."
+
+#: src/interface.c:525
+msgid "_Import..."
+msgstr "_Iompórtáil..."
+
+#: src/interface.c:529
+msgid "Special action plugins"
+msgstr "Breiseáin speisialta ghnímh"
+
+#: src/interface.c:544
+msgid "Documents directory:"
+msgstr "Comhadlann na gcáipéisí:"
+
+#: src/interface.c:552
+msgid "Home page:"
+msgstr "Leathanach baile:"
+
+#: src/interface.c:559
+msgid "Search page:"
+msgstr "Leathanach cuardaigh:"
+
+#: src/interface.c:584
+msgid "User settings"
+msgstr "Socruithe úsáideora"
+
+#: src/interface.c:599
+msgid "Internet browser:"
+msgstr "Brabhsálaí Idirlín:"
+
+#: src/interface.c:606
+msgid "E-mail program:"
+msgstr "Clár ríomhphoist:"
+
+#: src/interface.c:613
+msgid "Chat program:"
+msgstr "Clár comhrá:"
+
+#: src/interface.c:662
+msgid "External programs"
+msgstr "Cláir sheachtracha"
+
+#: src/interface.c:675
+msgid "Pre_ferences"
+msgstr "Sain_roghanna"
+
+#: src/interface.c:695 src/interface.c:1075
+msgid "Version:"
+msgstr "Leagan:"
+
+#: src/interface.c:702
+msgid "Developer:"
+msgstr "Forbróir:"
+
+#: src/interface.c:709 src/interface.c:1082
+msgid "License:"
+msgstr "Ceadúnas:"
+
+#: src/interface.c:716
+msgid "Site:"
+msgstr "Suíomh:"
+
+#: src/interface.c:723
+msgid "Contact:"
+msgstr "Teagmháil:"
+
+#: src/interface.c:737
+msgid "http://keytouch.sf.net"
+msgstr "http://keytouch.sf.net/"
+
+#: src/interface.c:744
+msgid "GPL 2 or higher"
+msgstr "Ceadúnas GPL 2 nó níos airde"
+
+#: src/interface.c:765
+msgid "About"
+msgstr "Eolas"
+
+#: src/interface.c:788
+msgid "Help & A_bout"
+msgstr "Ca_bhair & Eolas"
+
+#: src/interface.c:1040
+msgid "Plugin Information"
+msgstr "Eolas faoin Bhreiseán"
+
+#: src/interface.c:1061
+msgid "Plugin name:"
+msgstr "Ainm an bhreiseáin:"
+
+#: src/interface.c:1068
+msgid "Author:"
+msgstr "Údar:"
+
+#: src/interface.c:1089 src/interface.c:1096 src/interface.c:1103
+#: src/interface.c:1110 src/interface.c:1124
+msgid "-"
+msgstr "-"
+
+#: src/interface.c:1117
+msgid ""
+"-\n"
+"\n"
+msgstr ""
+"-\n"
+"\n"
+
+#: src/interface.c:1131
+msgid "Functions:"
+msgstr "Feidhmeanna:"
+
+#: src/interface.c:1138
+msgid "Description:"
+msgstr "Cur Síos:"
+
+#: src/interface.c:1201
+msgid "Choose application"
+msgstr "Roghnaigh feidhmchlár"
+
+#: src/interface.c:1212
+msgid "Select the application:"
+msgstr "Roghnaigh an feidhmchlár:"
+
+#: src/interface.c:1231
+msgid "Application command:"
+msgstr "Ordú feidhmchláir:"
+
+#: src/callbacks.c:81
+msgid ""
+"To change the keyboard keyTouch has to be closed. After you changed the "
+"keyboard keyTouch will be started again."
+msgstr ""
+"Ní mór duit keyTouch a dhúnadh chun an méarchlár a athrú. Tosófar keyTouch "
+"tar éis do chuid athruithe a chur i bhfeidhm."
+
+#: src/callbacks.c:190
+#, c-format
+msgid "Do you really want to remove the plugin \"%s\"?"
+msgstr "An bhfuil tú cinnte gur mhaith leat an breiseán \"%s\" a bhaint?"
+
+#: src/callbacks.c:228
+msgid "Import plugin"
+msgstr "Iompórtáil breiseán"
+
+#: src/callbacks.c:368
+msgid "user_manual.html"
+msgstr "user_manual.html"
+
+#: src/support.c:90 src/support.c:114
+#, c-format
+msgid "Couldn't find pixmap file: %s"
+msgstr "Níorbh fhéidir an mapa picteilíní a aimsiú: %s"
+
+#: src/config.c:143
+msgid "The keyboard (configuration) file contains an invalid action element."
+msgstr "Tá eilimint neamhbhailí ghnímh i gcomhad chumraíocht an mhéarchláir."
+
+#: src/config.c:151
+msgid "The keyboard (configuration) file contains an invalid action-type value."
+msgstr "Tá luach neamhbhailí ghnímh i gcomhad chumraíocht an mhéarchláir."
+
+#: src/config.c:204
+msgid "The keyboard file contains an incomplete key element."
+msgstr "Tá eilimint neamhiomlán eochrach sa chomhad méarchláir."
+
+#: src/config.c:268
+#, c-format
+msgid "'%s' is an invalid keyboard file."
+msgstr "Is comhad neamhbhailí méarchláir é '%s'."
+
+#: src/config.c:276
+#, c-format
+msgid "The keyboard file '%s' does not contain a keyboard element."
+msgstr "Níl eilimint mhéarchláir i gcomhad méarchláir '%s'."
+
+#: src/config.c:284
+#, c-format
+msgid "The keyboard file '%s' does not contain a key-list element."
+msgstr "Níl eilimint eochairliosta i gcomhad méarchláir '%s'."
+
+#: src/config.c:292
+#, c-format
+msgid "The keyboard file '%s' is invalid."
+msgstr "Is neamhbhailí é comhad méarchláir '%s'."
+
+#: src/config.c:376
+msgid "The keyboard configuration file contains an incomplete key element."
+msgstr "Tá eilimint neamhiomlán eochrach i gcomhad chumraíocht an mhéarchláir."
+
+#: src/config.c:400
+#, c-format
+msgid ""
+"The keyboard configuration file contains a key, named '%s', which does not "
+"appear in the keyboard file."
+msgstr ""
+"Tá eochair darb ainm '%s' i gcomhad chumraíocht an mhéarchláir, ach níl sé i "
+"do chomhad méarchlár."
+
+#: src/config.c:454
+msgid "The keyboard configuration file does not contain a keyboard element."
+msgstr "Níl eilimint mhéarchláir i gcomhad chumraíocht an mhéarchláir."
+
+#: src/config.c:464
+msgid "The keyboard configuration file does not contain a key-list element."
+msgstr "Níl eilimint eochairliosta i gcomhad chumraíocht an mhéarchláir."
+
+#: src/config.c:474
+msgid "The keyboard configuration file is invalid."
+msgstr "Is neamhbhailí é comhad chumraíocht an mhéarchláir."
+
+#: src/config.c:589 src/config.c:615
+#, c-format
+msgid "'%s' is an invalid preferences configuration file."
+msgstr "Is comhad neamhbhailí sainroghanna é '%s'."
+
+#: src/config.c:597
+#, c-format
+msgid "'%s' does has not a preferences element as the root element."
+msgstr "Níl eilimint sainroghanna mar an fhréamheilimint i '%s'."
+
+#: src/config.c:702
+#, c-format
+msgid "An error occurred while writing the preferences file \"%s\"."
+msgstr "Tharla earráid agus comhad sainroghanna \"%s\" á scríobh."
+
+#: src/config.c:742
+msgid "No keyboard was specified, please select your keyboard."
+msgstr "Níor sonraíodh méarchlár. Roghnaigh méarchlár, le do thoil."
+
+#: src/config.c:748 src/config.c:756 src/config.c:771
+#, c-format
+msgid "'%s' is invalid"
+msgstr "Is neamhbhailí é '%s'"
+
+#: src/config.c:762
+#, c-format
+msgid ""
+"'%s' is invalid because it has no current-keyboard element as the root element"
+msgstr ""
+"Is neamhbhailí é '%s' toisc nach bhfuil eilimint \"current-keyboard\" mar "
+"fhréamheilimint"
+
+#: src/config.c:1089
+#, c-format
+msgid "An error occurred while writing the keyboard configuration file \"%s\"."
+msgstr "Tharla earráid agus comhad cumraíochta \"%s\" á scríobh."
+
+#: src/plugin.c:335
+#, c-format
+msgid ""
+"Plugin directory '%s' does not exist and creating the directory failed. This "
+"program will continue without loading the plugins in this directory."
+msgstr ""
+"Níl comhadlann na mbreiseán '%s' ann ar chor ar bith, agus níorbh fhéidir an "
+"chomhadlann a chruthú. Leanfaidh an clár seo ar aghaidh, ach gan na breiseáin "
+"ón chomhadlann seo."
+
+#: src/plugin_control.c:61
+#, c-format
+msgid ""
+"Removing plugin \"%s\" failed. The reason for this is probably because this "
+"plugin is not located in your home directory and you don't have permission to "
+"remove a plugin in that is available for the whole system."
+msgstr ""
+"Theip ar bhaint \"%s\". Is dócha gur theip air seo de bharr nach bhfuil an "
+"breiseán seo suiteáilte i do chomhadlann bhaile, agus nach bhfuil cead agat "
+"breiseáin atá ar fáil don chóras ar fad a bhaint."
+
+#: src/plugin_control.c:110
+#, c-format
+msgid "Failed to open \"%s\", because it is an invalid plugin."
+msgstr "Theip ar oscailt \"%s\"; breiseán neamhbhailí."
+
+#: src/plugin_control.c:114
+#, c-format
+msgid "The plugin \"%s\" is already in the list."
+msgstr "Tá breiseán \"%s\" sa liosta cheana."
+
+#: src/plugin_control.c:134
+#, c-format
+msgid "Failed to copy the plugin to \"%s\"."
+msgstr "Níorbh fhéidir an breiseán a chóipeáil go dtí \"%s\"."
+
+#: src/plugin_control.c:140
+#, c-format
+msgid "Failed to open \"%s\". Check if you are permitted to read this file."
+msgstr ""
+"Theip ar oscailt \"%s\". Féach an bhfuil cead agat an comhad seo a léamh."
+
+#. Inform the user about this
+#: src/run_browser.c:72
+msgid ""
+"Because you did not set your browser in the preferences tab and because "
+"keyTouch could not identify your desktop environment, keyTouch will try to "
+"run 'firefox'.\n"
+"Please set your browser in the preferences tab."
+msgstr ""
+"De bhrí nach bhfuil brabhsálaí socraithe agat sa chluaisín sainroghanna, agus "
+"de bhrí nach féidir le keyTouch do thimpeallacht deisce a aithint, déanfaidh "
+"keyTouch iarracht ar 'firefox' a rith.\n"
+"Socraigh do bhrabhsálaí sa chluaisín sainroghanna."

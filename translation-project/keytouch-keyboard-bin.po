@@ -1,0 +1,120 @@
+# Irish translations for keytouch-keyboard-bin.
+# Copyright (C) 2006 Free Software Foundation, Inc.
+# This file is distributed under the same license as the keytouch-keyboard-bin package.
+# Kevin Patrick Scannell <scannell@SLU.EDU>, 2006.
+msgid ""
+msgstr ""
+"Project-Id-Version: keytouch-keyboard-bin 2.2-b0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-01-13 18:40+0100\n"
+"PO-Revision-Date: 2006-06-06 16:17-0500\n"
+"Last-Translator: Kevin Patrick Scannell <scannell@SLU.EDU>\n"
+"Language-Team: Irish <gaeilge-gnulinux@lists.sourceforge.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ISO-8859-1\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/interface.c:60
+msgid "keyTouch - change keyboard"
+msgstr "keyTouch - athraigh an méarchlár"
+
+#: src/interface.c:90
+msgid "Manufacturer:"
+msgstr "Déantóir:"
+
+#: src/interface.c:97
+msgid "Model:"
+msgstr "Samhail:"
+
+#: src/interface.c:118
+msgid "Current keyboard"
+msgstr "An méarchlár reatha"
+
+#: src/interface.c:168
+msgid "_Import..."
+msgstr "_Iompórtáil..."
+
+#: src/interface.c:172
+msgid "Available keyboards"
+msgstr "Méarchláir le fáil"
+
+#: src/callbacks.c:51
+msgid "Import keyboard"
+msgstr "Iompórtáil méarchlár"
+
+#: src/callbacks.c:62
+#, c-format
+msgid ""
+"Cannot import '%s', because a newer version of the keyboard file has already "
+"been installed."
+msgstr ""
+"Ní féidir '%s' a iompórtáil, toisc go bhfuil leagan níos nuaí den chomhad "
+"méarchláir suiteáilte."
+
+#: src/callbacks.c:77
+#, c-format
+msgid "\"%s\" is not a valid keyboard file."
+msgstr "Ní comhad bailí méarchláir é \"%s\"."
+
+#: src/support.c:90 src/support.c:114
+#, c-format
+msgid "Couldn't find pixmap file: %s"
+msgstr "Níorbh fhéidir mapa picteilíní a aimsiú: %s"
+
+#: src/config.c:97 src/config.c:112
+#, c-format
+msgid "'%s' is invalid"
+msgstr "Is neamhbhailí é '%s'"
+
+#: src/config.c:103
+#, c-format
+msgid ""
+"'%s' is invalid because it has no current-keyboard element as the root element"
+msgstr ""
+"Is neamhbhailí é '%s' toisc nach bhfuil eilimint 'current-keyboard' mar "
+"fhréamheilimint aige"
+
+#: src/config.c:190
+#, c-format
+msgid ""
+"An error occurred while saving the configuration. Check your permissions for "
+"the file \"%s\"."
+msgstr ""
+"Tharla earráid agus an chumraíocht á sábháil. Féach an bhfuil an cead cuí "
+"agat chun \"%s\" a scríobh."
+
+#: src/config.c:464
+#, c-format
+msgid ""
+"The keyboard file directory '%s' does not exist, so this program cannot "
+"continue."
+msgstr ""
+"Níl comhadlann mhéarchláir '%s' ann, agus dá bharr sin ní féidir dul ar "
+"aghaidh."
+
+#: src/keyboard.c:203
+#, c-format
+msgid "Failed to open the keyboard file \"%s\" for reading."
+msgstr "Ní féidir comhad méarchlár \"%s\" a oscailt chun é a léamh."
+
+#: src/keyboard.c:209
+#, c-format
+msgid ""
+"Failed to copy the keyboard file to the keyboard file directory (%s). Check "
+"your permissions for this directory."
+msgstr ""
+"Theip ar chóipeáil an chomhaid méarchláir go dtí an chomhadlann mhéarchláir (%"
+"s). Féach an bhfuil cead scríofa agat sa chomhadlann seo."
+
+#. *********** Create the view ***********
+#: src/set_data.c:313
+msgid "Manufacturer"
+msgstr "Déantóir"
+
+#: src/set_data.c:314
+msgid "Model"
+msgstr "Samhail"
+
+#: src/memory.c:38
+msgid "Could not allocate memory."
+msgstr "Níorbh fhéidir cuimhne a dháileadh."
