@@ -1,0 +1,314 @@
+msgid ""
+msgstr "Content-Type: text/plain; charset=ISO-8859-1\n"
+
+#: MUI_TEXT_WELCOME_INFO_TITLE
+msgid "Welcome to the $(^NameDA) Setup Wizard"
+msgstr "Fáilte go dtí Draoi Suiteála $(^NameDA)"
+
+#: MUI_TEXT_WELCOME_INFO_TEXT
+msgid ""
+"This wizard will guide you through the installation of $(^NameDA).\r\n"
+"\r\n"
+"It is recommended that you close all other applications before starting "
+"Setup. This will make it possible to update relevant system files without "
+"having to reboot your computer.\r\n"
+"\r\n"
+"$_CLICK"
+msgstr ""
+"Déanfaidh an draoi seo treorú duit tríd an suiteáil de $(^NameDA).\r\n"
+"\r\n"
+"Moltar duit gach feidhmchlár eile a dhúnadh sula dtosaíonn tú an Suiteálaí. "
+"Cinnteoidh sé seo gur féidir na comhaid oiriúnacha a nuashonrú gan do "
+"ríomhaire a atosú.\r\n"
+"\r\n"
+"$_CLICK"
+
+#: MUI_TEXT_LICENSE_TITLE
+msgid "License Agreement"
+msgstr "Comhaontú um Cheadúnas"
+
+#: MUI_TEXT_LICENSE_SUBTITLE
+msgid "Please review the license terms before installing $(^NameDA)."
+msgstr ""
+"Déan iniúchadh ar choinníollacha an cheadúnais sula suiteálann tú $(^NameDA)."
+
+#: MUI_INNERTEXT_LICENSE_TOP
+msgid "Press Page Down to see the rest of the agreement."
+msgstr "Brúigh \"Page Down\" chun an chuid eile den cheadúnas a léamh."
+
+#: MUI_INNERTEXT_LICENSE_BOTTOM
+msgid ""
+"If you accept the terms of the agreement, click I Agree to continue. You must "
+"accept the agreement to install $(^NameDA)."
+msgstr ""
+"Má ghlacann tú le coinníollacha an chomhaontaithe, cliceáil \"Glacaim Leis\" "
+"chun leanúint ar aghaidh. Caithfidh tú glacadh leis an gcomhaontú chun "
+"$(^NameDA) a shuiteáil."
+
+#: MUI_INNERTEXT_LICENSE_BOTTOM_CHECKBOX
+msgid ""
+"If you accept the terms of the agreement, click the check box below. You must "
+"accept the agreement to install $(^NameDA). $_CLICK"
+msgstr ""
+"Má ghlacann tú le coinníollacha an chomhaontaithe, cliceáil an ticbhosca "
+"thíos. Caithfidh tú glacadh leis an gcomhaontú chun $(^NameDA) a shuiteáil. "
+"$_CLICK"
+
+#: MUI_INNERTEXT_LICENSE_BOTTOM_RADIOBUTTONS
+msgid ""
+"If you accept the terms of the agreement, select the first option below. You "
+"must accept the agreement to install $(^NameDA). $_CLICK"
+msgstr ""
+"Má ghlacann tú le coinníollacha an chomhaontaithe, roghnaigh an chéad rogha "
+"thíos. Caithfidh tú glacadh leis an gcomhaontú chun $(^NameDA) a "
+"dhíshuiteáil. $_CLICK"
+
+#: MUI_TEXT_COMPONENTS_TITLE
+msgid "Choose Components"
+msgstr "Roghnaigh Comhpháirteanna"
+
+#: MUI_TEXT_COMPONENTS_SUBTITLE
+msgid "Choose which features of $(^NameDA) you want to install."
+msgstr "Roghnaigh na gnéithe $(^NameDA) ba mhaith leat suiteáil."
+
+#: MUI_INNERTEXT_COMPONENTS_DESCRIPTION_TITLE
+msgid "Description"
+msgstr "Cur Síos"
+
+#  !ifndef NSIS_CONFIG_COMPONENTPAGE_ALTERNATIVE
+#: MUI_INNERTEXT_COMPONENTS_DESCRIPTION_INFO
+msgid "Position your mouse over a component to see its description."
+msgstr "Cuir do luch os cionn comhpháirte chun cur síos a fheiceáil."
+
+#  !else
+#: MUI_INNERTEXT_COMPONENTS_DESCRIPTION_INFO
+msgid "Select a component to see its description."
+msgstr "Roghnaigh comhpháirt chun cur síos a fheiceáil."
+
+#  !endif
+#: MUI_TEXT_DIRECTORY_TITLE
+msgid "Choose Install Location"
+msgstr "Roghnaigh Suíomh na Suiteála"
+
+#: MUI_TEXT_DIRECTORY_SUBTITLE
+msgid "Choose the folder in which to install $(^NameDA)."
+msgstr "Roghnaigh an fillteán inar mian leat $(^NameDA) a shuiteáil."
+
+#: MUI_TEXT_INSTALLING_TITLE
+msgid "Installing"
+msgstr "Á Shuiteáil"
+
+#: MUI_TEXT_INSTALLING_SUBTITLE
+msgid "Please wait while $(^NameDA) is being installed."
+msgstr "Fan go fóill; $(^NameDA) á shuiteáil."
+
+#: MUI_TEXT_FINISH_TITLE
+msgid "Installation Complete"
+msgstr "Suiteáil Críochnaithe"
+
+#: MUI_TEXT_FINISH_SUBTITLE
+msgid "Setup was completed successfully."
+msgstr "D'éirigh leis an tsuiteáil."
+
+#: MUI_TEXT_ABORT_TITLE
+msgid "Installation Aborted"
+msgstr "Suiteáil Tobscortha"
+
+#: MUI_TEXT_ABORT_SUBTITLE
+msgid "Setup was not completed successfully."
+msgstr "Níor éirigh leis an tsuiteáil."
+
+#: MUI_BUTTONTEXT_FINISH
+msgid "&Finish"
+msgstr "&Críochnaigh"
+
+#: MUI_TEXT_FINISH_INFO_TITLE
+msgid "Completing the $(^NameDA) Setup Wizard"
+msgstr "Draoi Suiteála $(^NameDA) á Chríochnú"
+
+#: MUI_TEXT_FINISH_INFO_TEXT
+msgid ""
+"$(^NameDA) has been installed on your computer.\r\n"
+"\r\n"
+"Click Finish to close this wizard."
+msgstr ""
+"Suiteáladh $(^NameDA) ar do ríomhaire.\r\n"
+"\r\n"
+"Cliceáil \"Críochnaigh\" chun an draoi seo a dhúnadh."
+
+#: MUI_TEXT_FINISH_INFO_REBOOT
+msgid ""
+"Your computer must be restarted in order to complete the installation of "
+"$(^NameDA). Do you want to reboot now?"
+msgstr ""
+"Ní mór duit do ríomhaire a atosú chun suiteáil $(^NameDA) a chur i gcrích. Ar "
+"mhaith leat atosú anois?"
+
+#: MUI_TEXT_FINISH_REBOOTNOW
+msgid "Reboot now"
+msgstr "Atosaigh anois"
+
+#: MUI_TEXT_FINISH_REBOOTLATER
+msgid "I want to manually reboot later"
+msgstr "Atosóidh mé de láimh níos déanaí"
+
+#: MUI_TEXT_FINISH_RUN
+msgid "&Run $(^NameDA)"
+msgstr "&Rith $(^NameDA)"
+
+#: MUI_TEXT_FINISH_SHOWREADME
+msgid "&Show Readme"
+msgstr "Tai&speáin comhad README"
+
+#: MUI_TEXT_STARTMENU_TITLE
+msgid "Choose Start Menu Folder"
+msgstr "Roghnaigh Fillteán sa Roghchlár Tosaigh"
+
+#: MUI_TEXT_STARTMENU_SUBTITLE
+msgid "Choose a Start Menu folder for the $(^NameDA) shortcuts."
+msgstr ""
+"Roghnaigh fillteán sa Roghchlár Tosaigh a gcuirfear aicearraí $(^NameDA) ann."
+
+#: MUI_INNERTEXT_STARTMENU_TOP
+msgid ""
+"Select the Start Menu folder in which you would like to create the program's "
+"shortcuts. You can also enter a name to create a new folder."
+msgstr ""
+"Roghnaigh an fillteán sa Roghchlár Tosaigh inar mian leat aicearraí an chláir a chruthú. Is féidir freisin fillteán nua a chruthú trí ainm nua a iontráil."
+
+#: MUI_INNERTEXT_STARTMENU_CHECKBOX
+msgid "Do not create shortcuts"
+msgstr "Ná cruthaigh aicearraí"
+
+#: MUI_TEXT_ABORTWARNING
+msgid "Are you sure you want to quit $(^Name) Setup?"
+msgstr "An bhfuil tú cinnte gur mian leat Suiteálaí $(^Name) a scor?"
+
+#: MUI_UNTEXT_WELCOME_INFO_TITLE
+msgid "Welcome to the $(^NameDA) Uninstall Wizard"
+msgstr "Fáilte go dtí Draoi Díshuiteála $(^NameDA)"
+
+#: MUI_UNTEXT_WELCOME_INFO_TEXT
+msgid ""
+"This wizard will guide you through the uninstallation of $(^NameDA).\r\n"
+"\r\n"
+"Before starting the uninstallation, make sure $(^NameDA) is not running.\r\n"
+"\r\n"
+"$_CLICK"
+msgstr ""
+"Déanfaidh an draoi seo treorú duit tríd an díshuiteáil de $(^NameDA).\r\n"
+"\r\n"
+"Bí cinnte nach bhfuil $(^NameDA) ag rith sula dtosaíonn tú an díshuiteáil.\r\n"
+"\r\n"
+"$_CLICK"
+
+#: MUI_UNTEXT_CONFIRM_TITLE
+msgid "Uninstall $(^NameDA)"
+msgstr "Díshuiteáil $(^NameDA)"
+
+#: MUI_UNTEXT_CONFIRM_SUBTITLE
+msgid "Remove $(^NameDA) from your computer."
+msgstr "Bain $(^NameDA) ó do ríomhaire."
+
+#: MUI_UNTEXT_LICENSE_TITLE
+msgid "XLicense Agreement"
+msgstr "Comhaontú um Cheadúnas"
+
+#: MUI_UNTEXT_LICENSE_SUBTITLE
+msgid "Please review the license terms before uninstalling $(^NameDA)."
+msgstr ""
+"Déan iniúchadh ar choinníollacha an cheadúnais sula ndíshuiteálann tú "
+"$(^NameDA)."
+
+#: MUI_UNINNERTEXT_LICENSE_BOTTOM
+msgid ""
+"If you accept the terms of the agreement, click I Agree to continue. You must "
+"accept the agreement to uninstall $(^NameDA)."
+msgstr ""
+"Má ghlacann tú le coinníollacha an chomhaontaithe, cliceáil \"Glacaim Leis\" "
+"chun leanúint ar aghaidh. Caithfidh tú glacadh leis an gcomhaontú chun "
+"$(^NameDA) a dhíshuiteáil."
+
+#: MUI_UNINNERTEXT_LICENSE_BOTTOM_CHECKBOX
+msgid ""
+"If you accept the terms of the agreement, click the check box below. You must "
+"accept the agreement to uninstall $(^NameDA). $_CLICK"
+msgstr ""
+"Má ghlacann tú le coinníollacha an chomhaontaithe, cliceáil an ticbhosca "
+"thíos. Caithfidh tú glacadh leis an gcomhaontú chun $(^NameDA) a "
+"dhíshuiteáil. $_CLICK"
+
+#: MUI_UNINNERTEXT_LICENSE_BOTTOM_RADIOBUTTONS
+msgid ""
+"If you accept the terms of the agreement, select the first option below. You "
+"must accept the agreement to uninstall $(^NameDA). $_CLICK"
+msgstr ""
+"Má ghlacann tú le coinníollacha an chomhaontaithe, roghnaigh an chéad rogha "
+"thíos. Caithfidh tú glacadh leis an gcomhaontú chun $(^NameDA) a "
+"dhíshuiteáil. $_CLICK"
+
+#: MUI_UNTEXT_COMPONENTS_TITLE
+msgid "XChoose Components"
+msgstr "Roghnaigh Comhpháirteanna"
+
+#: MUI_UNTEXT_COMPONENTS_SUBTITLE
+msgid "Choose which features of $(^NameDA) you want to uninstall."
+msgstr "Roghnaigh na gnéithe $(^NameDA) ba mhaith leat díshuiteáil."
+
+#: MUI_UNTEXT_DIRECTORY_TITLE
+msgid "Choose Uninstall Location"
+msgstr "Roghnaigh Suíomh na Díshuiteála"
+
+#: MUI_UNTEXT_DIRECTORY_SUBTITLE
+msgid "Choose the folder from which to uninstall $(^NameDA)."
+msgstr "Roghnaigh an fillteán ar mian leat $(^NameDA) a dhíshuiteáil as."
+
+#: MUI_UNTEXT_UNINSTALLING_TITLE
+msgid "Uninstalling"
+msgstr "Á Dhíshuiteáil"
+
+#: MUI_UNTEXT_UNINSTALLING_SUBTITLE
+msgid "Please wait while $(^NameDA) is being uninstalled."
+msgstr "Fan go fóill; $(^NameDA) á dhíshuiteáil."
+
+#: MUI_UNTEXT_FINISH_TITLE
+msgid "Uninstallation Complete"
+msgstr "Díshuiteáil Críochnaithe"
+
+#: MUI_UNTEXT_FINISH_SUBTITLE
+msgid "Uninstall was completed successfully."
+msgstr "D'éirigh leis an díshuiteáil."
+
+#: MUI_UNTEXT_ABORT_TITLE
+msgid "Uninstallation Aborted"
+msgstr "Díshuiteáil Tobscortha"
+
+#: MUI_UNTEXT_ABORT_SUBTITLE
+msgid "Uninstall was not completed successfully."
+msgstr "Níor éirigh leis an díshuiteáil."
+
+#: MUI_UNTEXT_FINISH_INFO_TITLE
+msgid "Completing the $(^NameDA) Uninstall Wizard"
+msgstr "Draoi Díshuiteála $(^NameDA) á Chríochnú"
+
+#: MUI_UNTEXT_FINISH_INFO_TEXT
+msgid ""
+"$(^NameDA) has been uninstalled from your computer.\r\n"
+"\r\n"
+"Click Finish to close this wizard."
+msgstr ""
+"Díshuiteáladh $(^NameDA) ó do ríomhaire.\r\n"
+"\r\n"
+"Cliceáil \"Críochnaigh\" chun an draoi seo a dhúnadh."
+
+#: MUI_UNTEXT_FINISH_INFO_REBOOT
+msgid ""
+"Your computer must be restarted in order to complete the uninstallation of "
+"$(^NameDA). Do you want to reboot now?"
+msgstr ""
+"Ní mór duit do ríomhaire a atosú chun díshuiteáil $(^NameDA) a chur i gcrích. "
+"Ar mhaith leat atosú anois?"
+
+#: MUI_UNTEXT_ABORTWARNING
+msgid "Are you sure you want to quit $(^Name) Uninstall?"
+msgstr "An bhfuil tú cinnte gur mian leat Díshuiteálaí $(^Name) a scor?"
