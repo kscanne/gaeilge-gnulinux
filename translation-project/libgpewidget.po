@@ -22,7 +22,7 @@ msgstr "GPE-EARRÁID: %s\n"
 #: pixmaps.c:82
 #, c-format
 msgid "Unable to load icon \"%s\""
-msgstr "Ní féidir liom an t-íocón \"%s\" a luchtú"
+msgstr "Ní féidir an t-íocón \"%s\" a luchtú"
 
 #: pixmaps.c:168
 #, c-format
@@ -31,7 +31,7 @@ msgstr "Níl an t-íocón \"%s\" luchtaithe"
 
 #: dirbrowser.c:166
 msgid "No directory is selected."
-msgstr "Níl comhadlann ar bith tofa agat"
+msgstr "Níl comhadlann ar bith roghnaithe agat."
 
 #: what.c:78
 msgid "No help available."

@@ -1,13 +1,13 @@
 # Irish translations for findutils.
 # Copyright (C) 2003 Free Software Foundation, Inc.
-# Kevin Patrick Scannell <scannell@SLU.EDU>, 2003, 2004, 2005.
+# Kevin Patrick Scannell <scannell@SLU.EDU>, 2003, 2004, 2005, 2006.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: findutils 4.2.24\n"
+"Project-Id-Version: findutils 4.2.27\n"
 "Report-Msgid-Bugs-To: bug-findutils@gnu.org\n"
-"POT-Creation-Date: 2005-07-29 23:14+0100\n"
-"PO-Revision-Date: 2005-08-01 05:47-0500\n"
+"POT-Creation-Date: 2005-12-04 23:56-0800\n"
+"PO-Revision-Date: 2006-05-22 05:47-0500\n"
 "Last-Translator: Kevin Patrick Scannell <scannell@SLU.EDU>\n"
 "Language-Team: Irish <gaeilge-gnulinux@lists.sourceforge.net>\n"
 "MIME-Version: 1.0\n"
@@ -92,13 +92,32 @@ msgstr "%s: ní cheadaítear argóint i ndiaidh na rogha `-W %s'\n"
 
 #: gnulib/lib/human.c:486
 msgid "block size"
-msgstr "tomhas bloc"
+msgstr "méid bloc"
 
-#: gnulib/lib/quotearg.c:240
+#. TRANSLATORS:
+#. Get translations for open and closing quotation marks.
+#.
+#. The message catalog should translate "`" to a left
+#. quotation mark suitable for the locale, and similarly for
+#. "'".  If the catalog has no translation,
+#. locale_quoting_style quotes `like this', and
+#. clocale_quoting_style quotes "like this".
+#.
+#. For example, an American English Unicode locale should
+#. translate "`" to U+201C (LEFT DOUBLE QUOTATION MARK), and
+#. should translate "'" to U+201D (RIGHT DOUBLE QUOTATION
+#. MARK).  A British English Unicode locale should instead
+#. translate these to U+2018 (LEFT SINGLE QUOTATION MARK) and
+#. U+2019 (RIGHT SINGLE QUOTATION MARK), respectively.
+#.
+#. If you don't know what to put here, please see
+#. <http://en.wikipedia.org/wiki/Quotation_mark#Glyphs>
+#. and use glyphs suitable for your language.
+#: gnulib/lib/quotearg.c:245
 msgid "`"
 msgstr "`"
 
-#: gnulib/lib/quotearg.c:241
+#: gnulib/lib/quotearg.c:246
 msgid "'"
 msgstr "'"
 
@@ -122,134 +141,97 @@ msgstr "úps! -- ionsá neamhbhailí de `and'!"
 msgid "Usage: %s [-H] [-L] [-P] [path...] [expression]\n"
 msgstr "Úsáid: %s [-H] [-L] [-P] [conair...] [slonn]\n"
 
-#: find/find.c:456
-msgid ""
-"The environment variable FIND_BLOCK_SIZE is not supported, the only thing "
-"that affects the block size is the POSIXLY_CORRECT environment variable"
-msgstr ""
-"Níl an athróg thimpeallachta FIND_BLOCK_SIZE le fáil, níl aon rud ag dul i "
-"bhfeidhm ar an méid bloic ach an athróg thimpeallachta POSIXLY_CORRECT"
+#: find/find.c:457
+msgid "The environment variable FIND_BLOCK_SIZE is not supported, the only thing that affects the block size is the POSIXLY_CORRECT environment variable"
+msgstr "Níl an athróg thimpeallachta FIND_BLOCK_SIZE le fáil, níl aon rud ag dul i bhfeidhm ar an méid bloic ach an athróg thimpeallachta POSIXLY_CORRECT"
 
-#: find/find.c:538
+#: find/find.c:539
 msgid "paths must precede expression"
-msgstr "ní foláir conairí a theacht roimh an slonn"
+msgstr "caithfidh conairí a theacht roimh an slonn"
 
-#: find/find.c:544
+#: find/find.c:545
 #, c-format
 msgid "invalid predicate `%s'"
 msgstr "preideacáid neamhbhailí `%s'"
 
-#: find/find.c:552
+#: find/find.c:553
 #, c-format
 msgid "missing argument to `%s'"
 msgstr "tá argóint de dhíth i ndiaidh na rogha `%s'"
 
-#: find/find.c:554
+#: find/find.c:555
 #, c-format
 msgid "invalid argument `%s' to `%s'"
 msgstr "argóint neamhbhailí `%s' chun `%s'"
 
-#: find/find.c:610
+#: find/find.c:611
 msgid "unexpected extra predicate"
 msgstr "preideacáid bhreise gan choinne"
 
-#: find/find.c:662 find/find.c:665
+#: find/find.c:663 find/find.c:666
 msgid "cannot get current directory"
 msgstr "níl an chomhadlann reatha ar fáil"
 
-#: find/find.c:833
+#: find/find.c:838
 #, c-format
 msgid "Warning: filesystem %s has recently been unmounted."
 msgstr "Rabhadh: bhí an córas comhaid %s dífheistithe le gairid."
 
-#: find/find.c:843
+#: find/find.c:848
 #, c-format
 msgid "Warning: filesystem %s has recently been mounted."
 msgstr "Rabhadh: bhí an córas comhaid %s feistithe le gairid."
 
-#: find/find.c:937
+#: find/find.c:943
 #, c-format
-msgid ""
-"%s%s changed during execution of %s (old device number %ld, new device number "
-"%ld, filesystem type is %s) [ref %ld]"
-msgstr ""
-"Athraíodh %s%s le linn rith %s (seanuimhir ghléis %ld, uimhir nua gléis %ld, "
-"cineál córas comhad %s) [tag %ld]"
+msgid "%s%s changed during execution of %s (old device number %ld, new device number %ld, filesystem type is %s) [ref %ld]"
+msgstr "Athraíodh %s%s le linn rith %s (seanuimhir ghléis %ld, uimhir nua gléis %ld, cineál córas comhad %s) [tag %ld]"
 
-#: find/find.c:974
+#: find/find.c:980
 #, c-format
-msgid ""
-"%s%s changed during execution of %s (old inode number %ld, new inode number %"
-"ld, filesystem type is %s) [ref %ld]"
-msgstr ""
-"Athraíodh %s%s le linn rith %s (seanuimhir inode %ld, uimhir nua inode %ld, "
-"cineál córas comhad %s) [tag %ld]"
+msgid "%s%s changed during execution of %s (old inode number %ld, new inode number %ld, filesystem type is %s) [ref %ld]"
+msgstr "Athraíodh %s%s le linn rith %s (seanuimhir inode %ld, uimhir nua inode %ld, cineál córas comhad %s) [tag %ld]"
 
-#: find/find.c:1511
+#: find/find.c:1517
 #, c-format
-msgid ""
-"Symbolic link `%s' is part of a loop in the directory hierarchy; we have "
-"already visited the directory to which it points."
-msgstr ""
-"Tá an nasc siombalach `%s' cuid de lúb sa chóras chomhadlainne; thugamar "
-"cuairt cheana ar an gcomhadlann lena bhfuil sé nasctha."
+msgid "Symbolic link `%s' is part of a loop in the directory hierarchy; we have already visited the directory to which it points."
+msgstr "Tá an nasc siombalach `%s' cuid de lúb sa chóras chomhadlainne; thugamar cuairt cheana ar an gcomhadlann lena bhfuil sé nasctha."
 
-#: find/find.c:1526
+#: find/find.c:1532
 #, c-format
-msgid ""
-"Filesystem loop detected; `%s' has the same device number and inode as a "
-"directory which is %d %s."
-msgstr ""
-"Braitheadh lúb sa chóras comhaid; tá an uimhir ghléis agus inode céanna ag `%"
-"s' agus comhadlann eile atá %d %s."
+msgid "Filesystem loop detected; `%s' has the same device number and inode as a directory which is %d %s."
+msgstr "Braitheadh lúb sa chóras comhaid; tá an uimhir ghléis agus inode céanna ag `%s' agus comhadlann eile atá %d %s."
 
-#: find/find.c:1530
+#: find/find.c:1536
 msgid "level higher in the filesystem hierarchy"
 msgstr "leibhéal amháin níos airde sa chóras comhaid"
 
-#: find/find.c:1531
+#: find/find.c:1537
 msgid "levels higher in the filesystem hierarchy"
 msgstr "leibhéal níos airde sa chóras comhaid"
 
-#: find/find.c:1900
+#: find/find.c:1906
 #, c-format
 msgid "warning: not following the symbolic link %s"
 msgstr "rabhadh: ní leanfar nasc siombalach %s"
 
-#: find/find.c:1944
+#: find/find.c:1950
 #, c-format
-msgid ""
-"WARNING: Hard link count is wrong for %s: this may be a bug in your "
-"filesystem driver.  Automatically turning on find's -noleaf option.  Earlier "
-"results may have failed to include directories that should have been searched."
-msgstr ""
-"RABHADH: tá líon na nasc crua mícheart le haghaidh %s: is féidir go bhfuil "
-"fabht le do thiománaí córais comhaid.  Gníomhachtófar an rogha -noleaf go "
-"huathoibríoch.  Is féidir gur fágadh roinnt comhadlanna ar lár sna torthaí "
-"roimhe seo."
+msgid "WARNING: Hard link count is wrong for %s: this may be a bug in your filesystem driver.  Automatically turning on find's -noleaf option.  Earlier results may have failed to include directories that should have been searched."
+msgstr "RABHADH: tá líon na nasc crua mícheart le haghaidh %s: is féidir go bhfuil fabht le do thiománaí córais comhaid.  Gníomhachtófar an rogha -noleaf go huathoibríoch.  Is féidir gur fágadh roinnt comhadlanna ar lár sna torthaí roimhe seo."
 
-#: find/fstype.c:232
+#: find/fstype.c:251
 msgid "unknown"
 msgstr "anaithnid"
 
 #: find/parser.c:374
 #, c-format
-msgid ""
-"warning: you have specified the %s option after a non-option argument %s, but "
-"options are not positional (%s affects tests specified before it as well as "
-"those specified after it).  Please specify options before other arguments.\n"
-msgstr ""
-"rabhadh: thug tú an rogha %s i ndiaidh na hargóinte %s nach bhfuil ina rogha, "
-"ach ní bhacann roghanna lena suímh in aon chor (.i. téann %s i bhfeidhm ar "
-"thrialacha ar gach taobh de).  Tabhair na roghanna roimh na hargóintí eile.\n"
+msgid "warning: you have specified the %s option after a non-option argument %s, but options are not positional (%s affects tests specified before it as well as those specified after it).  Please specify options before other arguments.\n"
+msgstr "rabhadh: thug tú an rogha %s i ndiaidh na hargóinte %s nach bhfuil ina rogha, ach ní bhacann roghanna lena suímh in aon chor (.i. téann %s i bhfeidhm ar thrialacha ar gach taobh de).  Tabhair na roghanna roimh na hargóintí eile.\n"
 
 #: find/parser.c:613
-msgid ""
-"warning: the -d option is deprecated; please use -depth instead, because the "
-"latter is a POSIX-compliant feature."
-msgstr ""
-"rabhadh: tá an rogha -d as feidhm; bain úsáid as -depth ina ionad, os rud é "
-"go bhfuil -depth oiriúnach leis an chaighdeán POSIX."
+msgid "warning: the -d option is deprecated; please use -depth instead, because the latter is a POSIX-compliant feature."
+msgstr "rabhadh: tá an rogha -d as feidhm; bain úsáid as -depth ina ionad, os rud é go bhfuil -depth oiriúnach leis an chaighdeán POSIX."
 
 #: find/parser.c:783
 #, c-format
@@ -270,15 +252,12 @@ msgstr ""
 
 #: find/parser.c:788
 msgid ""
-"operators (decreasing precedence; -and is implicit where no others are "
-"given):\n"
+"operators (decreasing precedence; -and is implicit where no others are given):\n"
 "      ( EXPR )   ! EXPR   -not EXPR   EXPR1 -a EXPR2   EXPR1 -and EXPR2\n"
 "      EXPR1 -o EXPR2   EXPR1 -or EXPR2   EXPR1 , EXPR2\n"
 msgstr ""
-"oibreoirí (ord de réir tosaíochta; tá `-and' intuigthe mura bhfuil eile "
-"ann):\n"
-"      ( SLONN )   ! SLONN   -not SLONN   SLONN1 -a SLONN2   SLONN1 -and "
-"SLONN2\n"
+"oibreoirí (ord de réir tosaíochta; tá `-and' intuigthe mura bhfuil eile ann):\n"
+"      ( SLONN )   ! SLONN   -not SLONN   SLONN1 -a SLONN2   SLONN1 -and SLONN2\n"
 "      SLONN1 -o SLONN2   SLONN1 -or SLONN2   SLONN1 , SLONN2\n"
 
 #: find/parser.c:792
@@ -299,13 +278,11 @@ msgstr ""
 msgid ""
 "tests (N can be +N or -N or N): -amin N -anewer FILE -atime N -cmin N\n"
 "      -cnewer FILE -ctime N -empty -false -fstype TYPE -gid N -group NAME\n"
-"      -ilname PATTERN -iname PATTERN -inum N -iwholename PATTERN -iregex "
-"PATTERN\n"
+"      -ilname PATTERN -iname PATTERN -inum N -iwholename PATTERN -iregex PATTERN\n"
 "      -links N -lname PATTERN -mmin N -mtime N -name PATTERN -newer FILE"
 msgstr ""
 "trialacha (N = +N, -N, nó N): -amin N -anewer COMHAD -atime N -cmin N\n"
-"      -cnewer COMHAD -ctime N -empty -false -fstype CINEÁL -gid N -group "
-"AINM\n"
+"      -cnewer COMHAD -ctime N -empty -false -fstype CINEÁL -gid N -group AINM\n"
 "      -ilname PATRÚN -iname PATRÚN -inum N -iwholename PATRÚN -iregex PATRÚN\n"
 "      -links N -lname PATRÚN -mmin N -mtime N -name PATRÚN -newer COMHAD"
 
@@ -337,10 +314,8 @@ msgid ""
 "page at http://savannah.gnu.org/ or, if you have no web access, by sending\n"
 "email to <bug-findutils@gnu.org>."
 msgstr ""
-"Tabhair tuairisc ar fhabhtanna (agus breathnaigh agus iad á gcur i gceart) "
-"via\n"
-" an leathanach fabhtanna findutils ag http://savannah.gnu.org/ nó, mura "
-"bhfuil\n"
+"Tabhair tuairisc ar fhabhtanna (agus breathnaigh agus iad á gcur i gceart) via\n"
+" an leathanach fabhtanna findutils ag http://savannah.gnu.org/ nó, mura bhfuil\n"
 " rochtain ar an nGréasán agat, seol r-phost chuig <bug-findutils@gnu.org>."
 
 #: find/parser.c:843
@@ -349,81 +324,63 @@ msgstr "theip ar sheiceáil slánchéille don fheidhm leabharlainne fnmatch()."
 
 #: find/parser.c:858
 #, c-format
-msgid ""
-"warning: Unix filenames usually don't contain slashes (though pathnames do).  "
-"That means that '%s %s' will probably evaluate to false all the time on this "
-"system.  You might find the '-wholename' test more useful, or perhaps '-"
-"samefile'.  Alternatively, if you are using GNU grep, you could use 'find ... "
-"-print0 | grep -FzZ %s'."
-msgstr ""
-"rabhadh: níl slaiseanna in ainmneacha comhaid Unix de ghnáth (cé go bhfuil "
-"slaiseanna i gconairí).  Dá bhrí sin, is dócha go luachálfar '%s %s' mar "
-"`falsa' gan teip ar an gcóras seo.  Is féidir go mbeidh an tástáil '-"
-"wholename' níos áisiúla, nó b'fhéidir '-samefile'.  Nó, má tá GNU grep agat, "
-"is féidir 'find ... -print0 | grep -FzZ %s' a úsáid mar mhalairt."
+msgid "warning: Unix filenames usually don't contain slashes (though pathnames do).  That means that '%s %s' will probably evaluate to false all the time on this system.  You might find the '-wholename' test more useful, or perhaps '-samefile'.  Alternatively, if you are using GNU grep, you could use 'find ... -print0 | grep -FzZ %s'."
+msgstr "rabhadh: níl slaiseanna in ainmneacha comhaid Unix de ghnáth (cé go bhfuil slaiseanna i gconairí).  Dá bhrí sin, is dócha go luachálfar '%s %s' mar `falsa' gan teip ar an gcóras seo.  Is féidir go mbeidh an tástáil '-wholename' níos áisiúla, nó b'fhéidir '-samefile'.  Nó, má tá GNU grep agat, is féidir 'find ... -print0 | grep -FzZ %s' a úsáid mar mhalairt."
 
 #: find/parser.c:900
-msgid ""
-"warning: the predicate -ipath is deprecated; please use -iwholename instead."
-msgstr ""
-"rabhadh: tá an phreideacáid -ipath as feidhm; bain úsáid as -iwholename ina "
-"hionad, le do thoil."
+msgid "warning: the predicate -ipath is deprecated; please use -iwholename instead."
+msgstr "rabhadh: tá an phreideacáid -ipath as feidhm; bain úsáid as -iwholename ina hionad, le do thoil."
 
-#: find/parser.c:1336
+#: find/parser.c:1340
 #, c-format
 msgid "invalid mode `%s'"
 msgstr "mód neamhbhailí `%s'"
 
-#: find/parser.c:1500
+#: find/parser.c:1374
+#, c-format
+msgid "warning: you have specified a mode pattern %s which is equivalent to 000. The meaning of -perm /000 will soon be changed to be consistent with -perm -000; that is, at the moment it matches no files but it will soon be changed to match all files."
+msgstr ""
+"rabhadh: shonraigh tú patrún móid %s atá ar comhbhrí le 000.  Athrófar an bhrí a bhaineann le `-perm /000' d'fhonn go mbeidh sé i gcomhréir le `-perm -000'; .i., ní mheaitseálann sé comhad ar bith faoi láthair, ach meaitseálfaidh sé gach uile chomhad roimh i bhfad."
+
+#: find/parser.c:1527
 msgid "invalid null argument to -size"
 msgstr "argóint nialasach neamhbhailí i ndiaidh -size"
 
-#: find/parser.c:1546
+#: find/parser.c:1573
 #, c-format
 msgid "invalid -size type `%c'"
 msgstr "argóint neamhbhailí `%c' i ndiaidh -size"
 
-#: find/parser.c:1664
+#: find/parser.c:1691
 #, c-format
 msgid "GNU find version %s\n"
 msgstr "GNU find, leagan %s\n"
 
-#: find/parser.c:1665
+#: find/parser.c:1692
 #, c-format
 msgid "Features enabled: "
 msgstr "Gnéithe arna gcumasú: "
 
-#: find/parser.c:1912
+#: find/parser.c:1939
 #, c-format
 msgid "warning: unrecognized escape `\\%c'"
 msgstr "rabhadh: seicheamh éalúcháin anaithnid `\\%c'"
 
-#: find/parser.c:1958
+#: find/parser.c:1985
 #, c-format
 msgid "warning: unrecognized format directive `%%%c'"
 msgstr "rabhadh: treoir fhormáide anaithnid `%%%c'"
 
-#: find/parser.c:2064
+#: find/parser.c:2091
 #, c-format
-msgid ""
-"The current directory is included in the PATH environment variable, which is "
-"insecure in combination with the %s action of find.  Please remove the "
-"current directory from your $PATH (that is, remove \".\" or leading or "
-"trailing colons)"
-msgstr ""
-"Tá an chomhadlann reatha san áireamh san athróg thimpeallachta PATH, agus is "
-"neamhdhaingean é seo in éineacht leis an ghníomh %s.  Bain an chomhadlann "
-"reatha as $PATH (.i., bain \".\", nó idirstad ar dtús/i ndeireadh, amach)"
+msgid "The current directory is included in the PATH environment variable, which is insecure in combination with the %s action of find.  Please remove the current directory from your $PATH (that is, remove \".\" or leading or trailing colons)"
+msgstr "Tá an chomhadlann reatha san áireamh san athróg thimpeallachta PATH, agus is neamhdhaingean é seo in éineacht leis an ghníomh %s.  Bain an chomhadlann reatha as $PATH (.i., bain \".\", nó idirstad ar dtús/i ndeireadh, amach)"
 
-#: find/parser.c:2161
-msgid ""
-"You may not use {} within the utility name for -execdir and -okdir, because "
-"this is a potential security problem."
-msgstr ""
-"Ní cheadaítear {} mar chuid d'ainm uirlise le -execdir nó -okdir, de bharr "
-"gur neamhdhaingean é seo."
+#: find/parser.c:2188
+msgid "You may not use {} within the utility name for -execdir and -okdir, because this is a potential security problem."
+msgstr "Ní cheadaítear {} mar chuid d'ainm uirlise le -execdir nó -okdir, de bharr gur neamhdhaingean é seo."
 
-#: find/parser.c:2184
+#: find/parser.c:2211
 #, c-format
 msgid "Only one instance of {} is supported with -exec%s ... +"
 msgstr "Ní thacaítear ach aon phéire amháin {} le -exec%s ... +"
@@ -434,16 +391,16 @@ msgid "< %s ... %s > ? "
 msgstr "< %s ... %s > ? "
 
 # "fork" not in standard refs/corpus.  Maybe want a "gabhl*" word instead? -KPS
-#: find/pred.c:1551 xargs/xargs.c:887
+#: find/pred.c:1564 xargs/xargs.c:1040
 msgid "cannot fork"
 msgstr "ní féidir forc a dhéanamh"
 
-#: find/pred.c:1591
+#: find/pred.c:1604
 #, c-format
 msgid "error waiting for %s"
-msgstr "earráid ag fanacht le %s"
+msgstr "earráid ag feitheamh le %s"
 
-#: find/pred.c:1599
+#: find/pred.c:1612
 #, c-format
 msgid "%s terminated by signal %d"
 msgstr "Stopadh %s leis an chomhartha %d"
@@ -453,8 +410,7 @@ msgid "invalid expression"
 msgstr "slonn neamhbhailí"
 
 #: find/tree.c:76
-msgid ""
-"invalid expression; you have used a binary operator with nothing before it."
+msgid "invalid expression; you have used a binary operator with nothing before it."
 msgstr "slonn neamhbhailí; tá oibreoir dénártha agat agus níl aon rud roimhe."
 
 #: find/tree.c:80
@@ -462,9 +418,7 @@ msgid "invalid expression; you have too many ')'"
 msgstr "slonn neamhbhailí; an iomarca ')'"
 
 #: find/tree.c:99
-msgid ""
-"invalid expression; I was expecting to find a ')' somewhere but did not see "
-"one."
+msgid "invalid expression; I was expecting to find a ')' somewhere but did not see one."
 msgstr "slonn neamhbhailí; bhíothas ag súil le ')' áit éigin."
 
 #: find/tree.c:104 find/tree.c:326
@@ -493,7 +447,7 @@ msgstr ""
 "Úsáid: %s [--version | --help]\n"
 "nó     %s bigramanna_níos_coitianta < liosta > locate-bunachar-sonraí\n"
 
-#: locate/code.c:131 locate/locate.c:1116 xargs/xargs.c:1095
+#: locate/code.c:131 locate/locate.c:1114 xargs/xargs.c:1251
 msgid ""
 "\n"
 "Report bugs to <bug-findutils@gnu.org>.\n"
@@ -510,27 +464,27 @@ msgstr "GNU findutils, leagan %s\n"
 msgid "days"
 msgstr "lá"
 
-#: locate/locate.c:524
+#: locate/locate.c:523
 #, c-format
 msgid "locate database `%s' is corrupt or invalid"
 msgstr "Tá an bunachar sonraí locate `%s' truaillithe nó neamhbhailí"
 
-#: locate/locate.c:792
+#: locate/locate.c:791
 #, c-format
 msgid "Locate database size: %s bytes\n"
 msgstr "Méid an bhunachair sonraí `Locate': %s beart\n"
 
-#: locate/locate.c:796
+#: locate/locate.c:795
 #, c-format
 msgid "Filenames: %s "
 msgstr "Ainmneacha comhaid: %s "
 
-#: locate/locate.c:799
+#: locate/locate.c:798
 #, c-format
 msgid "with a cumulative length of %s bytes"
 msgstr "le fad iomlán = %s beart"
 
-#: locate/locate.c:803
+#: locate/locate.c:802
 #, c-format
 msgid ""
 "\n"
@@ -539,7 +493,7 @@ msgstr ""
 "\n"
 "\ttá %s beart ina spás bán, "
 
-#: locate/locate.c:806
+#: locate/locate.c:805
 #, c-format
 msgid ""
 "\n"
@@ -548,7 +502,7 @@ msgstr ""
 "\n"
 "\t%s beart ina línte nua, "
 
-#: locate/locate.c:809
+#: locate/locate.c:808
 #, c-format
 msgid ""
 "\n"
@@ -557,32 +511,30 @@ msgstr ""
 "\n"
 "\tagus %s beart lena ngiotán níos airde socraithe.\n"
 
-#: locate/locate.c:814
+#: locate/locate.c:813
 #, c-format
 msgid "Compression ratio %4.2f%%\n"
 msgstr "Cóimheas comhbhrúite %4.2f%%\n"
 
-#: locate/locate.c:862
+#: locate/locate.c:861
 msgid "warning: the locate database can only be read from stdin once."
-msgstr ""
-"rabhadh: ní féidir an bunachar sonraí `locale' a léamh ó stdin ach aon uair "
-"amháin."
+msgstr "rabhadh: ní féidir an bunachar sonraí `locale' a léamh ó stdin ach aon uair amháin."
 
-#: locate/locate.c:883
+#: locate/locate.c:882
 #, c-format
 msgid "warning: database `%s' is more than %d %s old"
 msgstr "rabhadh: tá an bunachar sonraí `%s' thar %d %s d'aois"
 
-#: locate/locate.c:1061
+#: locate/locate.c:1059
 #, c-format
 msgid "Database %s is in the %s format.\n"
 msgstr "Bunachar sonraí %s san fhormáid %s.\n"
 
-#: locate/locate.c:1063
+#: locate/locate.c:1061
 msgid "old"
 msgstr "sean"
 
-#: locate/locate.c:1107
+#: locate/locate.c:1105
 #, c-format
 msgid ""
 "Usage: %s [-d path | --database=path] [-e | -E | --[non-]existing]\n"
@@ -601,128 +553,153 @@ msgstr ""
 "      [--version] [--help]\n"
 "      patrún...\n"
 
-#: locate/locate.c:1233
+#: locate/locate.c:1231
 #, c-format
 msgid "GNU locate version %s\n"
 msgstr "GNU locate, leagan %s\n"
 
-#: locate/locate.c:1272
+#: locate/locate.c:1270
 msgid "argument to --limit"
 msgstr "argóint i ndiaidh --limit"
 
-#: xargs/xargs.c:346
-msgid "environment is too large for exec"
-msgstr "Tá an timpeallacht rómhór á rith"
+#: xargs/xargs.c:330
+#, c-format
+msgid "Invalid escape sequence %s in input delimiter specification."
+msgstr "Seicheamh neamhcheadaithe éalúcháin %s i dteormharcóir ionchurtha."
 
-#: xargs/xargs.c:459
+#: xargs/xargs.c:348
+#, c-format
+msgid "Invalid escape sequence %s in input delimiter specification; character values must not exceed %lx."
+msgstr "Seicheamh neamhcheadaithe éalúcháin %s i dteormharcóir ionchurtha; ní cheadaítear carachtair le luach níos mó ná %lx."
+
+#: xargs/xargs.c:354
+#, c-format
+msgid "Invalid escape sequence %s in input delimiter specification; character values must not exceed %lo."
+msgstr "Seicheamh neamhcheadaithe éalúcháin %s i dteormharcóir ionchurtha; ní cheadaítear carachtair le luach níos mó ná %lo."
+
+#: xargs/xargs.c:363
+#, c-format
+msgid "Invalid escape sequence %s in input delimiter specification; trailing characters %s not recognised."
+msgstr "Seicheamh neamhcheadaithe éalúcháin %s i dteormharcóir ionchurtha; carachtair anaithnid %s ag an gcríoch."
+
+#: xargs/xargs.c:410
+#, c-format
+msgid "Invalid input delimiter specification %s: the delimiter must be either a single character or an escape sequence starting with \\."
+msgstr "Sonrúchán neamhcheadaithe %s ar theormharcóir ionchurtha; caithfidh an teormharcóir a bheith ina charachtar aonair nó seicheamh éalúcháin le \\ ar tosach."
+
+#: xargs/xargs.c:592
 #, c-format
 msgid "GNU xargs version %s\n"
 msgstr "GNU xargs, leagan %s\n"
 
-#: xargs/xargs.c:479
+#: xargs/xargs.c:607
+msgid "environment is too large for exec"
+msgstr "Tá an timpeallacht rómhór á rith"
+
+#: xargs/xargs.c:621
 #, c-format
 msgid "Cannot open input file `%s'"
 msgstr "Ní féidir an t-inchomhad `%s' a oscailt"
 
-#: xargs/xargs.c:505
+#: xargs/xargs.c:647
 #, c-format
 msgid "Reducing arg_max (%ld) to arg_size (%ld)\n"
 msgstr "Ag laghdú arg_max (%ld) go arg_size (%ld)\n"
 
-#: xargs/xargs.c:514
+#: xargs/xargs.c:656
 #, c-format
 msgid "Your environment variables take up %ld bytes\n"
 msgstr "Líonann do chuid athróga timpeallachta %ld beart\n"
 
-#: xargs/xargs.c:517
+#: xargs/xargs.c:659
 #, c-format
 msgid "POSIX lower and upper limits on argument length: %ld, %ld\n"
 msgstr "Íosluach agus uasluach d'fhad na hargóintí de réir POSIX: %ld, %ld\n"
 
-#: xargs/xargs.c:521
+#: xargs/xargs.c:663
 #, c-format
 msgid "Maximum length of command we could actually use: %ld\n"
 msgstr "Uasfhad d'ordú gur féidir linn a úsáid: %ld\n"
 
-#: xargs/xargs.c:524
+#: xargs/xargs.c:666
 #, c-format
 msgid "Size of command buffer we are actually using: %ld\n"
 msgstr "Méid an mhaoláin ordaithe atá in úsáid i ndáiríre: %ld\n"
 
-#: xargs/xargs.c:636 xargs/xargs.c:717
+#: xargs/xargs.c:789 xargs/xargs.c:870
 #, c-format
-msgid ""
-"unmatched %s quote; by default quotes are special to xargs unless you use the "
-"-0 option"
-msgstr ""
-"comhartha athfhriotail %s corr; caitheann xargs le comharthaí athfhriotail go "
-"speisialta mura bhfuil an rogha -O tugtha agat"
+msgid "unmatched %s quote; by default quotes are special to xargs unless you use the -0 option"
+msgstr "comhartha athfhriotail %s corr; caitheann xargs le comharthaí athfhriotail go speisialta mura bhfuil an rogha -O tugtha agat"
 
-#: xargs/xargs.c:637 xargs/xargs.c:718
+#: xargs/xargs.c:790 xargs/xargs.c:871
 msgid "double"
 msgstr "dúbailte"
 
-#: xargs/xargs.c:637 xargs/xargs.c:718
+#: xargs/xargs.c:790 xargs/xargs.c:871
 msgid "single"
 msgstr "singil"
 
-#: xargs/xargs.c:735 xargs/xargs.c:792
+#: xargs/xargs.c:888 xargs/xargs.c:945
 msgid "argument line too long"
 msgstr "tá líne na n-argóintí rófhada"
 
-#: xargs/xargs.c:962
+#: xargs/xargs.c:1115
 msgid "error waiting for child process"
-msgstr "earráid ag fanacht le próiseas sleachta"
+msgstr "earráid ag feitheamh le próiseas sleachta"
 
-#: xargs/xargs.c:978
+#: xargs/xargs.c:1131
 #, c-format
 msgid "%s: exited with status 255; aborting"
 msgstr "%s: stádas scortha 255; á thobscor"
 
 # does "stopped" have the implication of "temporarily"?  
 # might then want to distinguish from following msgid... --KPS
-#: xargs/xargs.c:980
+#: xargs/xargs.c:1133
 #, c-format
 msgid "%s: stopped by signal %d"
 msgstr "%s: stopadh leis an chomhartha %d"
 
-#: xargs/xargs.c:982
+#: xargs/xargs.c:1135
 #, c-format
 msgid "%s: terminated by signal %d"
 msgstr "%s: stopadh leis an chomhartha %d"
 
-#: xargs/xargs.c:1035
+#: xargs/xargs.c:1188
 #, c-format
 msgid "%s: invalid number for -%c option\n"
 msgstr "%s: uimhir neamhbhailí i ndiaidh na rogha -%c\n"
 
-#: xargs/xargs.c:1042
+#: xargs/xargs.c:1195
 #, c-format
 msgid "%s: value for -%c option should be >= %ld\n"
-msgstr "%s: ní foláir an luach i ndiaidh na rogha -%c a bheith >= %ld\n"
+msgstr "%s: caithfidh an luach i ndiaidh na rogha -%c a bheith >= %ld\n"
 
-#: xargs/xargs.c:1056
+#: xargs/xargs.c:1209
 #, c-format
 msgid "%s: value for -%c option should be < %ld\n"
-msgstr "%s: ní foláir an luach i ndiaidh na rogha -%c a bheith < %ld\n"
+msgstr "%s: caithfidh an luach i ndiaidh na rogha -%c a bheith < %ld\n"
 
-#: xargs/xargs.c:1087
+#: xargs/xargs.c:1240
 #, c-format
 msgid ""
-"Usage: %s [-0prtx] [-e[eof-str]] [-i[replace-str]] [-l[max-lines]]\n"
-"       [-n max-args] [-s max-chars] [-P max-procs] [--null] [--eof[=eof-"
-"str]]\n"
-"       [--replace[=replace-str]] [--max-lines[=max-lines]] [--interactive]\n"
-"       [--max-chars=max-chars] [--verbose] [--exit] [--max-procs=max-procs]\n"
-"       [--max-args=max-args] [--no-run-if-empty] [--arg-file=file]\n"
+"Usage: %s [-0prtx] [--interactive] [--null] [-d|--delimiter=delim]\n"
+"       [-E eof-str] [-e[eof-str]]  [--eof[=eof-str]]\n"
+"       [-L max-lines] [-l[max-lines]] [--max-lines[=max-lines]]\n"
+"       [-I replace-str] [-i[replace-str]] [--replace[=replace-str]]\n"
+"       [-n max-args] [--max-args=max-args]\n"
+"       [-s max-chars] [--max-chars=max-chars]\n"
+"       [-P max-procs]  [--max-procs=max-procs]\n"
+"       [--verbose] [--exit] [--no-run-if-empty] [--arg-file=file]\n"
 "       [--version] [--help] [command [initial-arguments]]\n"
 msgstr ""
-"Úsáid: %s [-0prtx] [-e[teaghrán-eof]] [-i[ionadaí]] [-l[uas-línte]]\n"
-"       [-n uas-args] [-s uas-char] [-P uas-próis] [--null] [--eof"
-"[=teaghrán]]\n"
-"       [--replace[=ionadaí]] [--max-lines[=uas-línte]] [--interactive]\n"
-"       [--max-chars=uas-char] [--verbose] [--exit] [--max-procs=uas-próis]\n"
-"       [--max-args=uas-args] [--no-run-if-empty] [--arg-file=comhad]\n"
+"Úsáid: %s [-0prtx] [--interactive] [--null] [-d|--delimiter=tm]\n"
+"       [-E teaghrán-eof] [-e[teaghrán-eof]]  [--eof[=teaghrán-eof]]\n"
+"       [-L uas-línte] [-l[uas-línte]] [--max-lines[=uas-línte]]\n"
+"       [I ionadaí] [-i[ionadaí]] [--replace[=ionadaí]]\n"
+"       [-n uas-args] [--max-args=uas-args]\n"
+"       [-s uas-char] [--max-chars=uas-char]\n"
+"       [-P uas-próis] [--max-procs=uas-próis]\n"
+"       [--verbose] [--exit] [--no-run-if-empty] [--arg-file=comhad]\n"
 "       [--version] [--help] [ordú [argóintí-tosaigh]]\n"
 
 #~ msgid "Success"

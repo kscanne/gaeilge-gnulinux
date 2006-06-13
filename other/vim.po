@@ -2930,7 +2930,7 @@ msgstr "E568: níor cuireadh bunachar sonraí dúblach cscope leis"
 
 #: if_cscope.c:1312
 msgid "E569: maximum number of cscope connections reached"
-msgstr "E569: ní cheadaítear níos mó ná uasmhéid na nasc cscope"
+msgstr "E569: ní cheadaítear níos mó ná an líon uasta nasc cscope"
 
 #: if_cscope.c:1429
 #, c-format

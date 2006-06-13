@@ -10,6 +10,7 @@ x		x			×		.		 [0-9\s][x][0-9\s]
 #  FARF/FRTF
 abort		stop			tobscoir	abort		stop
 abort		toghluais		tobscoir	abort		th?oghlu
+abort		scoir			tobscoir	abort		[^b]scoir
 accelerator(key)	luasaire	aicearra	accelerato	luasai
 accelerator(graphics)	aicearra	luasaire	accelerato	aicear
 action		feidhm			gníomh		action		fh?eidhm
@@ -87,6 +88,7 @@ capacity	toirt			toilleadh	capacity	th?oirt
 # MSG
 capitalization	caipitliú		ceannlitriú	capitali[sz]	ch?aipit
 center		láraithe		lárnach		cente?r[^e]	lára
+chunk		canta			smután		chunk		ch?anta
 # FARF/FRTF
 clear		bánaigh			glan		clear		bh?án
 # both in both, cliceáil seems preferred
@@ -208,6 +210,7 @@ edit		eagraigh		(cuir_in_)eagar	edit		[^a-z]eagr[^á]
 effect		imeartas		maisíocht	effect		imeart
 # FARF/FRTF  (FRTF has seoladh r~ also)
 email_address	ríomhsheoladh		seoladh ríomhphoist	mail	ríomhsheol
+enable		ceadaigh		cumasaigh	enabl		ch?eada
 enclosure	ceangaltán		iatán		enclosu		ch?eangaltá
 # FARF/FRTF
 encoding	códáil/códú		ionchódú	encod		[^n]ch?ód(ái?l|ú)
@@ -290,6 +293,7 @@ hide		cealaigh		folaigh		hidd?e		ch?eal
 hilight		soilsigh		aibhsigh	hi(gh)?light	sh?oils
 # FARF/FRTF (FRTF has óstach too)
 host		ósta			óstríomhaire	host		ósta[^i]
+hunk		canta			smután		hunk		ch?anta
 # FRTF gives both, FARF deilbhín only
 icon		íocón			deilbhín	icon		íocó
 icon		dealbh			deilbhín	icon		dh?ealbh
@@ -342,6 +346,7 @@ log_in		logáil_ann		logáil_isteach	log[^a]		logá(il|la).ann
 log_out		logáil_as		logáil_amach	log[^a]		logá(il|la).as
 # no FARF/FRTF
 malformed	mícheart		míchumtha	malform		mh?ícheart
+management	bainistíocht		bainisteoireacht	manag	bh?ainistíoch
 # old KDE had "ag an ~"
 manual		ag_an_úsáideoir		de_láimh	manual	úsáide
 manual		láimhe			de_láimh	manual	láimhe
@@ -446,6 +451,8 @@ printer		clódóir			printéir	printer		ch?lód
 printer		clóire			printéir	printer		ch?lóire
 # FRTF
 proxy		ionadaí			seachfhreastalaí	prox	ionada
+quick_search	cuardach_gasta		mearchuardach	quick.search	gasta
+quick_search	cuardach_tapa		mearchuardach	quick.search	tapa
 # FRTF (FARF has "fág")
 quit		éirigh_as		scoir		quit		[^a-z]éir.*[^a-z]as[^a-z]
 quit		fág			scoir		quit		fh?ág
@@ -506,6 +513,7 @@ setup		cumraigh		socrú		setup		ch?umr
 # no FRTF or FARF; OLT has "stiall" for paper
 shred		mionghearr		léirscrios	shred		mh?ion
 shred		stiall			léirscrios	shred		stiall
+sink		doirteal		slogaide	sink		dh?oirt
 size		toirt			méid		size		th?oirt
 size		tomhas			méid		size		th?omhai?s
 # FARF/FRTF
@@ -528,6 +536,8 @@ stylus		bior			stíleas		stylus		bh?ior
 stylus		snáthaid		stíleas		stylus		sh?náth
 # FRTF
 subscribe	suibscríobh		liostáil	subscri		uibscr
+# openoffice discussion
+suspend		croch			cuir_ar_fionraí	suspen		ch?roch
 # FRTF/FARF "swap file", vim too
 swap		malartaigh		babhtáil	swap		mh?alai?rt
 # FARF/FRTF

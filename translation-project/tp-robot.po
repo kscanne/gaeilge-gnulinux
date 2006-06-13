@@ -17,7 +17,7 @@ msgstr ""
 
 #: bin/fetch-pot:50
 msgid "Domain `%s' has no associated URL"
-msgstr ""
+msgstr "Níl URL a bhaineann le fearann `%s'"
 
 #: bin/fetch-pot:56
 msgid "Examining %s..."
@@ -41,7 +41,7 @@ msgstr "  tá níos mó ná comhad POT amháin sa chartlann:\n"
 
 #: bin/fetch-pot:120
 msgid "Did not retain any POT file"
-msgstr ""
+msgstr "Níor coimeádadh comhad POT ar bith"
 
 #: bin/fetch-pot:135
 msgid "  extracting %s as %s\n"
@@ -53,11 +53,11 @@ msgstr "Theip ar bhaint amach"
 
 #: bin/msg-to-po:35 bin/msg-to-po:44
 msgid "#. Message no %s\n"
-msgstr ""
+msgstr "#. Teachtaireacht %s\n"
 
 #: bin/msg-to-po:47
 msgid "msgid \"*** Unknown - message no %s ***\"\n"
-msgstr ""
+msgstr "msgid \"*** Anaithnid - teachtaireacht %s ***\"\n"
 
 #: bin/msg-to-po:72
 msgid "<stdin>:%d: ERROR: %s"
@@ -69,7 +69,7 @@ msgstr "Úsáid: %s [COMHADPO]"
 
 #: bin/po-register:59
 msgid "`%s' may not be absolute notation, think `shar'..."
-msgstr ""
+msgstr "is féidir nach dearbhnodaireacht é `%s', cosúil le `shar'..."
 
 #: bin/po-register:63 bin/po-register:66
 msgid "Processing %s\n"
@@ -77,19 +77,19 @@ msgstr "%s á phróiseáil\n"
 
 #: bin/po-register:73
 msgid "No known maintainer for textual domain `%s'"
-msgstr ""
+msgstr "Níl cothaitheoir ar eolas i gcomhair fearann téacsach `%s'"
 
 #: bin/po-register:92
 msgid "  skipping `%s' as local `%s' waits\n"
-msgstr ""
+msgstr "  `%s' á ligean thart agus `%s' logánta ag fanacht\n"
 
 #: bin/po-register:96
 msgid "  skipping `%s' as `%s' exists\n"
-msgstr ""
+msgstr "  `%s' á ligean thart mar go bhfuil `%s' ann\n"
 
 #: bin/po-register:103
 msgid "  merging with `%s'"
-msgstr ""
+msgstr "  á chumasc le `%s'"
 
 #: bin/po-register:121 bin/po-register:137
 msgid "    sending `%s' to `%s'\n"
@@ -97,15 +97,15 @@ msgstr "    `%s' á sheoladh chuig `%s'\n"
 
 #: bin/po-register:127 bin/po-register:188
 msgid "    notifying `%s' about `%s'\n"
-msgstr ""
+msgstr "    ag dul i dteagmháil le `%s' maidir le `%s'\n"
 
 #: bin/po-register:142
 msgid "  notifying `%s' about `%s-%s.pot'\n"
-msgstr ""
+msgstr "  ag dul i dteagmháil le `%s' maidir le `%s-%s.pot'\n"
 
 #: bin/po-register:145
 msgid "    also notifying team leaders\n"
-msgstr ""
+msgstr "    agus ag dul i dteagmháil le ceannairí na bhfoirne freisin\n"
 
 #: bin/po-register:152
 msgid "    initializing `%s/teams/PO/%s'\n"
@@ -113,19 +113,20 @@ msgstr "    `%s/teams/PO/%s' á thúsú\n"
 
 #: bin/po-register:162
 msgid "  skipping `%s', as already uploaded\n"
-msgstr ""
+msgstr "  `%s' á ligean thart, mar go bhfuil sé uasluchtaithe cheana\n"
 
 #: bin/po-register:175
 msgid "Translation empty and identical to Template, not loaded\n"
-msgstr ""
+msgstr "Is ionann an t-aistriúchán agus an Teimpléad; níor luchtaíodh é\n"
 
 #: bin/po-register:177
 msgid "Translation identical to archive file, not loaded\n"
 msgstr ""
+"Is ionann an t-aistriúchán agus an leagan sa chartlann; níor luchtaíodh é\n"
 
 #: bin/po-register:207
 msgid "    also notifying `%s'\n"
-msgstr ""
+msgstr "    agus ag dul i dteagmháil le `%s' freisin\n"
 
 #: bin/po-register:221
 msgid ""
@@ -136,7 +137,7 @@ msgid ""
 msgstr ""
 "From: Translation Project Robot <translation@iro.umontreal.ca>\n"
 "To: %s\n"
-"Subject: Comhad nua POT i gcomhair `%s'\n"
+"Subject: Creatchomhad nua POT i gcomhair `%s'\n"
 "\n"
 
 #: bin/po-register:228
@@ -148,6 +149,12 @@ msgid ""
 "has just been made available to language teams for translation, and a copy\n"
 "is available as:\n"
 msgstr ""
+"Dia dhuit, a chothaitheoir uasal.\n"
+"Seo í teachtaireacht ó Róbó an Tionscadail Aistriúcháin.\n"
+"\n"
+"Tá creatchomhad nua PO ann i gcomhair ríomhchláir a bhaineann úsáid\n"
+"as an bhfearann téacsach `%s'.  Táim tar éis é a sheoladh go dtí na\n"
+"foirne aistriúcháin, agus tá cóip ar fáil mar:\n"
 
 #: bin/po-register:238 bin/po-register:320 bin/po-register:381
 msgid ""
@@ -160,7 +167,7 @@ msgstr ""
 "\n"
 ">    %s\n"
 "\n"
-"Beidh an comhad ar fáil go luath ó shuímh scáthánaithe mar:\n"
+"Beidh an comhad ar fáil ó shuímh scáthánaithe sula i bhfad, mar:\n"
 "\n"
 
 #: bin/po-register:248
@@ -179,6 +186,20 @@ msgid ""
 "version numbers, but since it is not OK to have two different distributions\n"
 "having same version numbers, this is not a problem in practice.\n"
 msgstr ""
+"\n"
+"Go hiondúil, aimsítear an comhad seo mar `po/%s.pot' i do phacáiste.\n"
+"Cruthaítear é nó nuashonraítear é go huathoibríoch nuair a ritheann tú\n"
+"`make dist', nó nuair a ritheann tú `make update-po' san fhochomhadlann\n"
+"`po/'.  Ansin, cibé uair a bheidh leagan réidh agat le creatchomhad PO\n"
+"níos nuaí ann, seol URL an phacáiste chuig an seoladh thíos.  Is féidir\n"
+"leagan réamhthástála nó roghbhlúire a úsáid, go fiú ní gá go dtiomsódh sé.\n"
+"Bainfidh aistritheoirí úsáid as chun comhthéacs aistriúcháin a fháil\n"
+"ó do chuid cóid fhoinsigh.\n"
+"\n"
+"Faoi scáth an Tionscadal Aistriúcháin, ba chóir leaganuimhir dhifriúil\n"
+"a bheith ag gach creatchomhad PO.  Ach de bhrí nach gceadaítear an\n"
+"leaganuimhir chéanna a bheith ar phacáistí difriúla, níl aon fhadhb ann\n"
+"de ghnáth.\n"
 
 #: bin/po-register:265
 msgid ""
@@ -188,12 +209,20 @@ msgid ""
 "given below, if the information does not appear to be adequate or current:\n"
 "\n"
 msgstr ""
+"\n"
+"Seo dhuit an fhaisnéis URL a tugadh d'aistritheoirí do phacáiste anois beag.\n"
+"Téigh i dteagmháil le comhordaitheoir na n-aistriúchán ag an seoladh thíos,\n"
+"le do thoil, má tá easnamh san fhaisnéis seo, nó má dhealraíonn sé a bheith\n"
+"as dáta:\n"
+"\n"
 
 #: bin/po-register:275
 msgid ""
 "\n"
 "Translated PO files will later be automatically e-mailed to you.\n"
 msgstr ""
+"\n"
+"Níos déanaí, seolfar na comhaid aistrithe PO chugat go huathoibríoch.\n"
 
 #: bin/po-register:280
 msgid ""
@@ -201,6 +230,10 @@ msgid ""
 "We can arrange things so translated PO files be automatically e-mailed\n"
 "to you when they arrive.  Ask to the address below if you want this.\n"
 msgstr ""
+"\n"
+"Is féidir linn an córas a shocrú i slí go seolfar comhaid aistrithe PO\n"
+"chugat nuair a thiocfaidh siad isteach.  Cuir iarratas chuig an seoladh\n"
+"thíos más mian leat an socrú seo a chur i ngníomh.\n"
 
 #: bin/po-register:285 bin/po-register:346
 msgid ""
@@ -227,7 +260,7 @@ msgid ""
 msgstr ""
 "From: Translation Project Robot <translation@iro.umontreal.ca>\n"
 "To: team-leaders@iro.umontreal.ca\n"
-"Subject: Comhad nua POT i gcomhair `%s'\n"
+"Subject: Creatchomhad nua POT i gcomhair `%s'\n"
 "\n"
 
 #: bin/po-register:310
@@ -239,6 +272,12 @@ msgid ""
 "has just been made available to language teams for translation, and a copy\n"
 "is available as:\n"
 msgstr ""
+"Beannachtaí ar cheannairí na bhfoirne teanga.\n"
+"Seo í teachtaireacht ó Róbó an Tionscadail Aistriúcháin.\n"
+"\n"
+"Tá creatchomhad nua PO ann i gcomhair ríomhchláir a bhaineann úsáid\n"
+"as an bhfearann téacsach `%s'.  Táim tar éis é a sheoladh go dtí na\n"
+"foirne aistriúcháin, agus tá cóip ar fáil mar:\n"
 
 #: bin/po-register:330
 msgid ""
@@ -248,6 +287,12 @@ msgid ""
 "Otherwise, it is up to you and your team to decide exactly how a\n"
 "translator might be recruited to take care of it.\n"
 msgstr ""
+"\n"
+"Seoladh an teachtaireacht seo chugat de bharr go ndearna d'fhoireann\n"
+"aistriúchán ar an bhfearann seo cheana, nó de bharr gur iarr tú go mbeidh\n"
+"fógra seolta chugaibh mar sin féin.\n"
+"Tá dualgas ort, agus ar d'fhoireann, aistritheoir oiriúnach a earcú\n"
+"chun an t-aistriúchán a chur i gcrích.\n"
 
 #: bin/po-register:338
 msgid ""
@@ -256,6 +301,10 @@ msgid ""
 "for this package:\n"
 "\n"
 msgstr ""
+"\n"
+"Seo duit faisnéis URL gurbh fhéidir tabhairt d'aistritheoirí\n"
+"an phacáiste seo:\n"
+"\n"
 
 #: bin/po-register:362
 msgid ""
@@ -279,6 +328,15 @@ msgid ""
 "language.  This particular file, along with all other PO files pertaining\n"
 "to the same textual domain, is available as:\n"
 msgstr ""
+"Dia dhuit, a chothaitheoir uasal.\n"
+"Seo í teachtaireacht ó Róbó an Tionscadail Aistriúcháin.\n"
+"\n"
+"Tá comhad leasaithe PO ann i gcomhair ríomhchláir a bhaineann úsáid\n"
+"as an bhfearann téacsach `%s'.  Is %s teanga an aistriúcháin seo, agus\n"
+"ba é foireann an teanga seo a chuir an comhad nua é faoi do bhráid.\n"
+"Tá an comhad áirithe seo, agus gach comhad eile a bhaineann leis an "
+"bhfearann\n"
+"céanna, ar fáil mar:\n"
 
 #: bin/po-register:392
 msgid "    mailing `%s' to `%s'\n"
@@ -290,6 +348,9 @@ msgid ""
 "This file has already been sent to you separately on %s,\n"
 "as a MIME invoice unpacking the file `%s'.\n"
 msgstr ""
+"\n"
+"Seoladh an comhad seo chugat go leithleach cheana ar %s,\n"
+"mar shonrasc MIME a dhíphacálann comhad `%s'.\n"
 
 #: bin/po-register:402
 msgid ""
@@ -297,6 +358,10 @@ msgid ""
 "We may arrange things so future such files be automatically e-mailed\n"
 "to you when they arrive.  Ask to the address below if you want this.\n"
 msgstr ""
+"\n"
+"Is féidir an córas a shocrú sa chaoi go seolfar comhaid mar seo chugat\n"
+"nuair a thiocfaidh siad isteach.  Fiafraigh dínn ag an seoladh thíos má tá\n"
+"an tseirbhís seo uait.\n"
 
 #: bin/po-register:407
 msgid ""
@@ -323,6 +388,30 @@ msgid ""
 "                                name of your translation coordinator.\n"
 "                                mailto:translation@iro.umontreal.ca\n"
 msgstr ""
+"\n"
+"Um an dtaca seo amárach, beidh na leathanaigh HTML seo nuashonraithe.\n"
+"\n"
+">    %s/HTML/domain-%s.html\n"
+"\n"
+"Anois, le do thoil, ba chóir duit gach comhad PO, mar atá siad, san\n"
+"fhochomhadlann `po/' sa chéad leagan eile de gach ríomhchlár a bhaineann\n"
+"úsáid as an bhfearann téacsach sin, cé acu leagan oifigiúil nó réamhthástála.\n"
+"Cibé uair a bheidh leagan réidh agat le creatchomhad PO níos nuaí ann, seol\n"
+"URL an phacáiste chuig an seoladh thíos.  Is féidir leagan réamhthástála nó\n"
+"roghbhlúire a úsáid, go fiú ní gá go dtiomsódh sé. Bainfidh aistritheoirí\n"
+"úsáid as chun comhthéacs aistriúcháin a fháil ó do chuid cóid foinsigh.\n"
+"\n"
+"Faoi scáth an Tionscadal Aistriúcháin, ba chóir leaganuimhir dhifriúil\n"
+"a bheith ag gach creatchomhad PO.  Ach de bhrí nach gceadaítear an\n"
+"leaganuimhir chéanna a bheith ar phacáistí difriúla, níl aon fhadhb ann\n"
+"de ghnáth.\n"
+"\n"
+"Téigh i dteagmháil liom má tá ceisteanna ar bith agat.\n"
+"Go raibh maith agat as do chomhoibriú,\n"
+"\n"
+"                                Róbó an Tionscadail Aistriúcháin, in\n"
+"                                ainm do chomhordaitheora aistriúcháin.\n"
+"                                mailto:translation@iro.umontreal.ca\n"
 
 #: bin/po-register:453
 msgid ""
@@ -348,6 +437,15 @@ msgid ""
 "should soon be made available in mirror sites as:\n"
 "\n"
 msgstr ""
+"Dia dhaoibh, a bhaill den fhoireann %s ag `%s'.\n"
+"Seo í teachtaireacht ó Róbó an Tionscadail Aistriúcháin.\n"
+"Tá áthas orm a fhógairt go bhfuil comhad nua le fáil sna\n"
+"cartlanna lárnacha PO, mar:\n"
+"\n"
+">    %s\n"
+"\n"
+"Beidh an comhad ar fáil ó shuímh scáthánaithe sula i bhfad, mar:\n"
+"\n"
 
 #: bin/po-register:475
 msgid ""
@@ -362,6 +460,16 @@ msgid ""
 "in mirror sites as:\n"
 "\n"
 msgstr ""
+"Dia dhaoibh, a bhaill den fhoireann %s ag `%s'.\n"
+"Seo í teachtaireacht ó Róbó an Tionscadail Aistriúcháin.\n"
+"Tá áthas orm a fhógairt go bhfuil comhad nua le fáil sna\n"
+"cartlanna lárnacha PO, mar:\n"
+"\n"
+">    %s\n"
+"\n"
+"agus tá sé i dtaisce anois le gach aistriúchán %s ar glacadh leis cheana.\n"
+"Beidh an comhad ar fáil ó shuímh scáthánaithe sula i bhfad, mar:\n"
+"\n"
 
 #: bin/po-register:495
 msgid ""
@@ -369,18 +477,25 @@ msgid ""
 "the translation, send the result to the address given below, using the "
 "Subject line:"
 msgstr ""
+"Tá an t-aistriúchán faoi chúram %s agus %s faoi láthair. Nuair a bheidh an t-"
+"aistriúchán curtha i gcrích, seol é chuig an seoladh thíosluaite, leis an "
+"líne \"Subject\":"
 
 #: bin/po-register:499
 msgid ""
 "%s is currently assigned for the translation. When you have completed the "
 "translation, send the result to the address given below, using:"
 msgstr ""
+"Tá an t-aistriúchán faoi chúram %s faoi láthair. Nuair a bheidh an t-"
+"aistriúchán curtha i gcrích, seol é chuig an seoladh thíosluaite, le:"
 
 #: bin/po-register:509
 msgid ""
 "The most recent translation of this translator has %d of %d messages "
 "translated."
 msgstr ""
+"Tá %d as %d teachtaireacht aistrithe san aistriúchán is déanaí ón "
+"aistritheoir seo."
 
 #: bin/po-register:511
 msgid ""
@@ -388,6 +503,9 @@ msgid ""
 "There is currently a translator working on this translation who is not\n"
 "part of the Translation Project. %s\n"
 msgstr ""
+"\n"
+"Tá aistritheoir ann atá ag obair ar an aistriúchán seo faoi láthair, ach\n"
+"níl sé/sí ball den Tionscadal Aistriúcháin. %s\n"
 
 #: bin/po-register:516
 msgid ""
@@ -398,6 +516,12 @@ msgid ""
 "Once the translation is completed, send the result to the address given\n"
 "below, using the Subject line:\n"
 msgstr ""
+"\n"
+"Le do thoil, déan machnamh ar an aistriúchán seo a ghlacadh faoi do chúramsa,\n"
+"ar son na %s.  Má chinneann tú an t-aistriúchán a dhéanamh, fiafraigh de\n"
+"cheannaire d'fhoirne (más ann dó) cur in iúl do chomhordaitheoir na\n"
+"n-aistriúchán gur tusa féin atá i mbun `%s' anois. Nuair atá an t-aistriúchán\n"
+"curtha i gcrích, seol an comhad chuig an seoladh thíos, le líne \"Subject\":\n"
 
 #: bin/po-register:525
 msgid ""
@@ -409,6 +533,13 @@ msgid ""
 "in your message header.  You may contact either your team leader or me,\n"
 "if any question arises.\n"
 msgstr ""
+"\n"
+"Níor aistríodh aon cheann de na teachtaireachtaí atá ann fós. %s\n"
+"\n"
+">    TP-Robot %s-%s.%s.po\n"
+"\n"
+"i gceanntásc do theachtaireacht.  Má tá ceisteanna agat, is féidir leat dul\n"
+"i dteagmháil le ceannaire d'fhoireann, nó liomsa.\n"
 
 #: bin/po-register:538
 msgid ""
@@ -419,14 +550,21 @@ msgid ""
 "\n"
 "Let me thank you for all users of the %s language.\n"
 msgstr ""
+"\n"
+"Aistríodh gach ceann de na %d teachtaireacht atá ann, agus sheol mé\n"
+"an comhad PO seo chuig an gcothaitheoir de `%s', le súil go gcuirfidh sé/sí\n"
+"é isteach le heisiúintí de ríomhchláir a bhaineann úsáid as an bhfearann\n"
+"téacsach seo.\n"
+"\n"
+"Go raibh míle maith agat, ó gach duine a úsáideann saorbhogearraí as %s.\n"
 
 #: bin/po-register:550
 msgid "%s and %s are currently assigned for the translation."
-msgstr ""
+msgstr "Tá an t-aistriúchán faoi chúram %s agus %s faoi láthair."
 
 #: bin/po-register:554
 msgid "%s is currently assigned for the translation."
-msgstr ""
+msgstr "Tá an t-aistriúchán faoi chúram %s faoi láthair."
 
 #: bin/po-register:557
 msgid ""
@@ -434,6 +572,9 @@ msgid ""
 "(if any) should inform the translation coordinator of who will become "
 "responsible for it."
 msgstr ""
+"Níl aon duine ar d'fhoireann ceaptha leis an bhfearann '%s' faoi láthair.\n"
+"Ba chóir do cheannaire na foirne (más ann do) ainm aistritheora nua a chur\n"
+"in iúl do chomhordaitheoir na n-aistriúchán."
 
 #: bin/po-register:559
 msgid ""
@@ -454,6 +595,23 @@ msgid ""
 "\n"
 "Thanks!\n"
 msgstr ""
+"\n"
+"Aistríodh %d teachtaireacht sa chomhad seo cheana,\n"
+"nó %d%% den chomhad, i dtéarmaí líon na mbeart. Tá %d teachtaireacht\n"
+"fágtha gan aon aistriú, nó le haistriúchán doiléir.  %s\n"
+"\n"
+"Déan aistriúchán ar na teachtaireachtaí atá fágtha, ar son na ndaoine\n"
+"ar mian leo bogearraí a úsáid as %s.  Nuair atá an t-aistriúchán curtha\n"
+"i gcrích, seol an comhad chuig an seoladh thíos, leis an líne \"Subject\":\n"
+"\n"
+">    TP-Robot %s-%s.%s.po\n"
+"\n"
+"i gceanntásc do theachtaireacht.  Má tá ceisteanna agat, is féidir leat dul\n"
+"i dteagmháil le ceannaire d'fhoireann, nó liomsa.  Idir an dá linn, sheol mé\n"
+"an comhad PO seo chuig an gcothaitheoir de cibé ríomhchláir a bhaineann úsáid\n"
+"as an bhfearann téacsach `%s'.\n"
+"\n"
+"Go raibh maith agat!\n"
 
 #: bin/po-register:581
 msgid ""
@@ -483,6 +641,10 @@ msgid ""
 "P.S. - You may find a copy (maybe not official) of the distribution as:\n"
 "\n"
 msgstr ""
+"\n"
+"P.S. - Is féidir leat cóip (b'fhéidir ceann neamhoifigiúil) den phacáiste "
+"mar:\n"
+"\n"
 
 #: bin/po-register:613
 msgid ""
@@ -534,7 +696,7 @@ msgstr "Úsáid: %s [ -scm | -el ] [COMHAD]..."
 
 #: bin/postats-data:155
 msgid "%s: Not enough hints for a key\n"
-msgstr ""
+msgstr "%s: Níl go leor leideanna le haghaidh eochrach\n"
 
 # leave alone, or else breaks POT-filling tools like kdeupdate
 #: bin/scm-to-po:59
@@ -574,6 +736,8 @@ msgid ""
 "For some reason, your PO file seems to have no entries at all, like if it\n"
 "were empty.  Sigh!  It looks like there is something wrong, somewhere...\n"
 msgstr ""
+"Ar fáth éigin, dealraíonn sé nach bhfuil aon iontráil i do chomhad PO, mar a\n"
+"bheadh sé folamh. Och! Is dócha go bhfuil fadhb éigin ann, in áit éigin...\n"
 
 #: bin/tp-robot:138
 msgid ""
@@ -582,6 +746,10 @@ msgid ""
 "Report all details you can at mailto:translation@iro.umontreal.ca.\n"
 "Please do _not_ start your Subject line with `TP-Robot'.\n"
 msgstr ""
+"Theip ormsa, Róbó an Tionscadail Aistriúcháin, gan aon choinne leis.\n"
+"Och, och, ochón!  Tá mo chosa nite, mo phort seinnte! :-(.  Cabhair liom!\n"
+"Seol na sonraí uile gur féidir chuig mailto:translation@iro.umontreal.ca.\n"
+"Le do thoil, _ná_ cuir `TP-Robot' i dtosach na líne \"Subject\".\n"
 
 #: bin/tp-robot:155
 msgid ""
@@ -593,10 +761,17 @@ msgid ""
 "verification.\n"
 "Some stronger authentication scheme might be needed, one of these days!"
 msgstr ""
+"Tá seoltaí molta ríomhphoist le haghaidh aistritheoirí cosúil leatsa againn\n"
+"sa chlárlann mhór ag an Tionscadal Aistriúcháin, in éineacht le roinnt\n"
+"ailiasanna riachtanach freisin. B'fhearr linn má úsáideann tú seoladh\n"
+"ríomhphost amháin, más féidir, i dtreo nach gcuirtear le líon na seoltaí\n"
+"sa chlárlann gan gá.  Ar aon chuma, cuir aon athruithe in iúl do\n"
+"chomhordaitheoir na n-aistriúchán, mar cineál lag fíoraithe.  Seans\n"
+"go mbeidh fíorú níos treise de dhíth orainn amach anseo!"
 
 #: bin/tp-robot:194
 msgid "I'm ignoring the whole following MIME part within your invoice:\n"
-msgstr ""
+msgstr "Nílim ag bacadh leis an bpáirt iomlán MIME a leanas i do shonrasc:\n"
 
 #: bin/tp-robot:205
 msgid ""
@@ -606,6 +781,10 @@ msgid ""
 "being able to handle all situations.  So, I'll go and ask him to help me\n"
 "unpack your invoice.\n"
 msgstr ""
+"Hmph! Ní raibh mé in ann do chomhad PO a aimsiú isteach i do theachtaireacht.\n"
+"Dúirt comhordaitheoir na n-aistriúchán, mo ghrá geal, liom go bhfuil go leor\n"
+"rudaí le foghlaim agam sular féidir liom gach cás a láimhseáil i gceart.\n"  
+"Iarrfaidh mé air do shonrasc a dhíphacáil de láimh.\n"
 
 #: bin/tp-robot:215
 msgid ""
@@ -613,12 +792,17 @@ msgid ""
 "decide which one of these parts is meant to contain your PO file.  Would you\n"
 "help me, while resubmitting your message, by using a simpler MIME structure?\n"
 msgstr ""
+"Feicim go bhfuil ilpháirteanna MIME i do theachtaireacht, agus ní féidir liom\n"
+"cinneadh cé acu atá do chomhad PO.  Le do thoil, úsáid struchtúr MIME níos\n"
+"simplí agus do theachtaireacht á seoladh an chéad uair eile.\n"
 
 #: bin/tp-robot:230 bin/tp-robot:312
 msgid ""
 "The translation coordinator does not trust me enough yet to let me handle\n"
 "a PO template file all alone.  So, for this one, I'll go disturb him!\n"
 msgstr ""
+"Níl muinín ag comhordaitheoir na n-aistriúchán asam fós creatchomhaid PO a\n"
+"láimhseáil as mo stuaim féin.  Mar sin, cuirfidh mé isteach air sa chás seo!\n"
 
 #: bin/tp-robot:236
 msgid ""
@@ -626,10 +810,13 @@ msgid ""
 "%s\n"
 "The file name argument should look like `DOMAIN-VERSION.TEAM.po'.\n"
 msgstr ""
+"Bhí mé ag súil le heolas áirithe in ainm an chomhaid ach níor aimsigh mé é.\n"
+"%s\n"
+"Ba chóir ainm an chomhaid a bheith san fhoirm `FEARANN-LEAGAN.FOIREANN.po'.\n"
 
 #: bin/tp-robot:244
 msgid "Within the Translation Project, no team has the code `%s'.\n"
-msgstr ""
+msgstr "Níl foireann le cód `%s' sa Tionscadal Aistriúcháin GNU.\n"
 
 #: bin/tp-robot:322
 msgid ""
@@ -638,6 +825,10 @@ msgid ""
 "control.  It is safer that you use my real email address, which is\n"
 "`translation@iro.umontreal.ca'.\n"
 msgstr ""
+"Feicim go bhfuil an seoladh `%s@%s' in úsáid agat chun dul i dteagmháil liom.\n"
+"Cé gur oibrigh sé, is dócha go raibh ailiasanna ríomhphoist in úsáid\n"
+"nach bhfuil faoinár smacht.  Ba chóir duit m'fhíorsheoladh ríomhphoist\n"
+"a úsáid, .i. `translation@iro.umontreal.ca'.\n"
 
 #: bin/tp-robot:378
 msgid ""
@@ -657,6 +848,23 @@ msgid ""
 "or \"@DIALECT\", where REGION is a capitalised two-letter country code\n"
 "and DIALECT is a lower case name.\n"
 msgstr ""
+"Bhí mé ag súil le heolas áirithe i gceanntásc do theachtaireacht, ach níor\n"
+"aimsigh mé é.\n"
+"%s\n"
+"Nílim cinnte cén fhadhb atá ann, cé gur féidir go bhfuil formáid mhícheart\n"
+"ar an réimse Subject i gceanntásc do theachtaireacht.\n"
+"Ar eagla na heagla, seo í an fhormáid cheart:\n"
+"\n"
+">    Subject: TP-Robot FEARANN-LEAGAN.FOIREANN.po\n"
+"\n"
+"Ba chóir duit fearann téacsach an aistriúcháin a chur in ionad an teaghráin\n"
+"\"FEARANN\" (go hiondúil, is é seo ainm an phacáiste sa chás íochtair).\n"
+"Cuirtear uimhir an leagain in ionad \"LEAGAN\" agus an cód teanga le dhá\n"
+"litir (cás íochtair) den fhoireann in ionad \"FOIREANN\".\n"
+"I gcásanna neamhchoitianta, caithfidh tú iarmhír san fhoirm \"_RÉIGIÚN\"\n" 
+"nó \"@CANÚINT\" a chur le hainm na foirne.  Sa chás seo, is cód tíre le\n"
+"dhá litir é \"RÉIGIÚN\" (cás uachtair), agus is ainm sa chás íochtair é\n"
+"CANÚINT.\n"
 
 #: bin/tp-robot:403
 msgid ""
@@ -683,10 +891,33 @@ msgid ""
 "having been active for a while, and which produced a few usable "
 "translations.\n"
 msgstr ""
+"Níl aon fhoireann sa Tionscadal Aistriúcháin leis an gcód `%s'.\n"
+"Is féidir go raibh an cód mílitrithe, agus sa chás sin, ba chóir duit\n"
+"an earráid a cheartú agus an comhad a athsheoladh.\n"
+"\n"
+"I ngach cás eile, glacaim leis gur mian leat foireann nua aistriúcháin a\n"
+"chur ar bun.  Is an-éasca é seo, i ndáiríre.  Ní gá duit earcú a dhéanamh -\n"
+"thosaigh formhór na bhfoirne le haistritheoir aonair.  Mar sin féin, ba\n" 
+"chóir duit a bheith toilteanach dul i dteagmháil le daoine is mian leo dul\n"
+"leatsa ar an fhoireann.  Ní maith leis an Tionscadal Aistriúcháin cadhain\n"
+"aonair!\n"
+"\n"
+"Ansin, ba chóir duit teachtaireacht a sheoladh chuig comhordaitheoir na\n"
+"n-aistriúchán chun an foireann a chur ar bun go hoifigiúil.  Má tá\n"
+"liosta ríomhphoist ag d'fhoireann cheana, abair é sin i do theachtaireacht,\n"
+"agus clárófar an liosta sin leis an tionscadal.  Mura bhfuil liosta agat,\n"
+"b'fhéidir leat do sheoladh féin a chlárú, go dtí gur gá le socrú níos\n"
+"casta.\n"
+"\n"
+"Tá cumann Linux International ag comhoibriú leis an Tionscadal\n"
+"Aistriúcháin chun liostaí nua ríomhphoist a chruthú d'fhoirne nua.\n"
+"Ní chruthaíonn siad liostaí ach d'fhoirne atá ag obair ar feadh\n"
+"tamaill, agus a bhfuil roinnt aistriúchán inúsáidte curtha i gcrích\n"
+"acu.\n"
 
 #: bin/tp-robot:426
 msgid "Unknown_Language"
-msgstr ""
+msgstr "Teanga_Anaithnid"
 
 #: bin/tp-robot:453
 msgid ""
@@ -724,12 +955,19 @@ msgid ""
 "\n"
 "while the copyright comment should look like:\n"
 msgstr ""
+"Dealraíonn sé nach bhfuil an nóta cóipchirt san fhormáid cheart.  Feicim:\n"
+"\n"
+">    # %s\n"
+"\n"
+"ach ba chóir nóta cóipchirt a bheith san fhormáid:\n"
 
 #: bin/tp-robot:507
 msgid ""
 "The copyright comment, which should appear as the second line of the whole\n"
 "PO file, is apparently missing.  The copyright comment looks like:\n"
 msgstr ""
+"De réir cosúlachta, níl nóta cóipchirt i do chomhad PO.  Go hiondúil, is ar\n"
+"an dara líne sa chomhad é seo, agus tá sé san fhoirm a leanas:\n"
 
 #: bin/tp-robot:512
 msgid ""
@@ -745,6 +983,17 @@ msgid ""
 "space.  Years have to be explicitly enumerated, range notations are\n"
 "not accepted.\n"
 msgstr ""
+"%s\n"
+">    # Copyright (C) YEAR Free Software Foundation, Inc.\n"
+"\n"
+"Má úsáideann tú tacar carachtar Latin-1, is féidir leat '©'\n"
+"(cód déachúlach 169) a chur in ionad an chomhartha '(C)'.  Má úsáideann\n"
+"tú UTF-8, is é ((\\xc2\\xa9) an seicheamh coibhéiseach.  Is bliain le\n"
+"ceithre dhigit YEAR de ghnáth, ach amanna is liosta de bhlianta é,\n"
+"scartha le camóga.  I liosta, ní mór ceithre dhigit a bheith sa chéad\n"
+"bhliain, agus ansin is féidir dhá nó ceithre dhigit a úsáid ina dhiaidh sin.\n"
+"Ba chóir freisin spás a chur i ndiaidh gach camóg.  Caithfidh tú gach bliain\n"
+"a thabhairt go follasach; ní ghlactar le raonta.\n"
 
 #: bin/tp-robot:535
 msgid ""
@@ -752,6 +1001,8 @@ msgid ""
 "lines, please use no more than a single space between `%s' and\n"
 "`<%s>'.\n"
 msgstr ""
+"Úps, tá earráid bheag ann san fhormáid.  Sna nótaí ag barr an chomhaid,\n"
+"ná cuir níos mó ná spás amháin idir `%s' agus `<%s>'.\n"
 
 #: bin/tp-robot:546
 msgid ""
@@ -762,6 +1013,12 @@ msgid ""
 "it is usually best to avoid such variance, and stick to a single preferred\n"
 "spelling.\n"
 msgstr ""
+"De réir mo chuid nótaí, níl %s ina bhall den fhoireann %s agus,\n"
+"dá bharr sin, ní dócha go bhfuil sé/sí an bunaistritheoir.  B'fhéidir go\n"
+"bhfuil a (h)ainm mílitrithe?  Má tá, ceartaigh an earráid nó téigh i\n"
+"dteagmháil le comhordaitheoir na n-aistriúchán agus cuir in iúl dó\n"
+"go bhfuil litriú malartach den ainm seo ann.  Go hiondúil, is é an rud\n" 
+"is fearr ná litriú uathúil a úsáid do gach aistritheoir.\n"
 
 #: bin/tp-robot:559
 msgid ""
@@ -770,6 +1027,9 @@ msgid ""
 "to reach that translator.\n"
 "%s%s\n"
 msgstr ""
+"Is é `%s' bunaistritheoir an chomhaid PO seo.  Ach,\n"
+"de réir mo nótaí féin, ní féidir dul i dteagmháil leis an\n"
+"aistritheoir sin ag an seoladh `%s'.\n"
 
 #: bin/tp-robot:573
 msgid ""
@@ -793,6 +1053,11 @@ msgid ""
 "single preferred address to reach you, and try to use it consistently in\n"
 "all your translation files.\n"
 msgstr ""
+"Tagann dhá seoladh ríomhphoist sa chomhad seo salach ar a chéile.\n"
+"Is é `%s' do sheoladh de réir na tríú líne den chomhad PO, ach is é\n"
+"`%s' de réir an réimse `Last-Translator' i gceanntásc an chomhaid.\n"
+"Ba chóir duit aon seoladh amháin a bheith agat, agus é a úsáid i dtólamh\n"
+"i ngach comhad a aistríonn tú.\n"
 
 #: bin/tp-robot:598
 msgid ""
@@ -835,6 +1100,11 @@ msgid ""
 "depend on a space being there, so best would be that you modify your file.\n"
 "I'll attempt to modify it for you, but this time! :-)\n"
 msgstr ""
+"Sa réimse `Project-Id-Version', ba chóir duit ainm an fhearainn agus\n"
+"uimhreacha an leagain a scaradh le spás in ionad an fleiscín atá ann faoi\n"
+"láthair.  Is féidir go bhfuil scripteanna ann atá ag brath ar an spás,\n"
+"agus mar sin ba chóir duit do chomhad a cheartú.  Déanfaidh mé iarracht\n"
+"ar é a cheartú ar do shon (an uair seo)!\n"
 
 #: bin/tp-robot:648
 msgid ""
@@ -896,6 +1166,9 @@ msgid ""
 "The PO revision date is `%s', which looks older than the POT creation date.\n"
 "You should update the PO revision date before submitting a PO file.\n"
 msgstr ""
+"Is é `%s' an dáta athraithe (PO-Revision-Date), ach tá sé seo níos sine\n"
+"ná dáta cruthaithe an teimpléid (POT-Creation-Date).  Ba chóir duit an\n"
+"dáta athraithe a nuashonrú sula seolann tú comhad PO chugam.\n"
 
 #: bin/tp-robot:731
 msgid ""
@@ -903,6 +1176,8 @@ msgid ""
 "header line, please use no more than a single space between `%s'\n"
 "and `<%s>'.\n"
 msgstr ""
+"Úps, tá earráid bheag ann san fhormáid.  Sa líne `Last-Translator' sa\n"
+"cheanntásc, ná cuir níos mó ná spás amháin idir `%s' agus `<%s>'.\n"
 
 #: bin/tp-robot:744
 msgid ""
@@ -914,6 +1189,15 @@ msgid ""
 "joined the %s team.  If you do not know how to do so, please\n"
 "write to the translation coordinator for more information about it.\n"
 msgstr ""
+"De réir mo chuid nótaí, níl %s ina bhall den fhoireann %s.\n"
+"B'fhéidir go bhfuil a (h)ainm mílitrithe?  Má tá, ceartaigh an earráid\n"
+"nó téigh i dteagmháil le comhordaitheoir na n-aistriúchán agus cuir in\n"
+"iúl dó go bhfuil litriú malartach den ainm seo ann.  Go hiondúil, is é\n"
+"an rud is fearr ná litriú uathúil a úsáid do gach aistritheoir.\n"
+"B'fhéidir freisin nár gcláraigh tú leis an bhfoireann %s riamh.\n"
+"Mura bhfuil fhios agat conas a chláraítear, scríobh teachtaireacht\n"
+"chuig comhordaitheoir na n-aistriúchán le haghaidh tuilleadh eolais\n"
+"faoi seo.\n"
 
 #: bin/tp-robot:759
 msgid ""
@@ -968,6 +1252,8 @@ msgid ""
 "header line, please use no more than a single space between `%s'\n"
 "and `<%s>'.\n"
 msgstr ""
+"Úps, tá earráid bheag ann san fhormáid.  Sa líne `Language-Team' sa\n"
+"cheanntásc, ná cuir níos mó ná spás amháin idir `%s' agus `<%s>'.\n"
 
 #: bin/tp-robot:833
 msgid ""
@@ -1079,6 +1365,9 @@ msgid ""
 "Sniff!  I'm unable to successfully start the `msgfmt' program.  I most\n"
 "probably need repairs.  I'll go whine to the translation coordinator.\n"
 msgstr ""
+"Och! Níor éirigh liom an ríomhchlár `msgfmt' a thosú.  Is dócha go bhfuil\n"
+"deisiú de dhíth orm.  Déanfaidh mé cnáimhseáil le comhordaitheoir na\n"
+"n-aistriúchán.\n"
 
 #: bin/tp-robot:1007
 msgid ""
@@ -1097,7 +1386,7 @@ msgstr ""
 
 #: bin/tp-robot:1038
 msgid "Just to make sure, I ran\n"
-msgstr ""
+msgstr "Sa chaoi go mbeinn cinnte, rith mé\n"
 
 #: bin/tp-robot:1040
 msgid ""
@@ -1108,6 +1397,12 @@ msgid ""
 "\n"
 "%s"
 msgstr ""
+"\n"
+"\n"
+"ar an gcomhad PO a sheol tú chugam, agus dúirt `msgfmt' liom gur chóir dom é\n"
+"a dhiúltú.  Le bheith cruinn ceart, dúirt sé:\n"
+"\n"
+"%s"
 
 #: bin/tp-robot:1050
 msgid ""
@@ -1206,12 +1501,18 @@ msgid ""
 "Sniff!  I'm unable to successfully start the `diff' program.  I most\n"
 "probably need repairs.  I'll go whine to the translation coordinator.\n"
 msgstr ""
+"Och! Níor éirigh liom an ríomhchlár `diff' a thosú.  Is dócha go bhfuil\n"
+"deisiú de dhíth orm.  Déanfaidh mé cnáimhseáil le comhordaitheoir na\n"
+"n-aistriúchán.\n"
 
 #: bin/tp-robot:1246
 msgid ""
 "Sniff!  I'm unable to successfully canonicalise your PO file.  I most\n"
 "probably need repairs.  I'll go whine to the translation coordinator.\n"
 msgstr ""
+"Och! Níor éirigh liom do chomhad PO a chaighdeánú.  Is dócha go bhfuil\n"
+"deisiú de dhíth orm.  Déanfaidh mé cnáimhseáil le comhordaitheoir na\n"
+"n-aistriúchán.\n"
 
 #: bin/tp-robot:1254
 msgid ""
@@ -1254,46 +1555,50 @@ msgid ""
 "Sniff!  I'm unable to successfully start the `po-register' program.\n"
 "I most probably need repairs.  I'll go whine to the translation coordinator.\n"
 msgstr ""
+"Och! Níor éirigh liom an ríomhchlár `po-register' a thosú.  Is dócha go "
+"bhfuil\n"
+"deisiú de dhíth orm.  Déanfaidh mé cnáimhseáil le comhordaitheoir na\n"
+"n-aistriúchán.\n"
 
 #: bin/tp-robot:1326
 msgid "Original message header:\n"
-msgstr ""
+msgstr "Ceanntásc na bunteachtaireachta:\n"
 
 #: bin/tp-robot:1331
 msgid "Diagnostics issued by `po-register:\n"
-msgstr ""
+msgstr "Diagnóisic eisithe ag `po-register:\n"
 
 #: bin/tp-robot:1346
 msgid "the translators's address is `%s'"
-msgstr ""
+msgstr "seoladh an aistritheora: `%s'"
 
 #: bin/tp-robot:1349
 msgid "the translator's address"
-msgstr ""
+msgstr "seoladh an aistritheora"
 
 #: bin/tp-robot:1351
 msgid "the textual domain is `%s'"
-msgstr ""
+msgstr "an fearann téacsach: `%s'"
 
 #: bin/tp-robot:1353
 msgid "the textual domain"
-msgstr ""
+msgstr "an fearann téacsach"
 
 #: bin/tp-robot:1355
 msgid "the domain version is `%s'"
-msgstr ""
+msgstr "leagan an fhearainn: `%s'"
 
 #: bin/tp-robot:1357
 msgid "the domain version"
-msgstr ""
+msgstr "leagan an fhearainn"
 
 #: bin/tp-robot:1359
 msgid "the team code is `%s'"
-msgstr ""
+msgstr "cód na foirne: `%s'"
 
 #: bin/tp-robot:1361
 msgid "the team code"
-msgstr ""
+msgstr "cód na foirne"
 
 #: bin/tp-robot:1364 bin/tp-robot:1365 bin/tp-robot:1383
 msgid "and"
@@ -1307,109 +1612,109 @@ msgstr ""
 
 #: bin/tp-robot:1374
 msgid "The only address we officially know for this translator is `%s'.\n"
-msgstr ""
+msgstr "Is é `%s' an seoladh oifigiúil amháin ar ár n-eolas i gcomhair an aistritheora seo.\n"
 
 #: bin/tp-robot:1380
 msgid "For this translator, the only registered addresses we have are: %s.\n"
-msgstr ""
+msgstr "Is iad seo na seoltaí amháin cláraithe atá againn i gcomhair an aistritheora seo: %s.\n"
 
 #: web/lib/editor.py:34 web/lib/editor.py:160 web/lib/editor.py:298
 msgid "Use exactly one argument with `mailto'"
-msgstr ""
+msgstr "Úsáid argóint amháin agus gan ach argóint amháin le `mailto'"
 
 #: web/lib/editor.py:45
 msgid "Use exactly one argument with `keep'"
-msgstr ""
+msgstr "Úsáid argóint amháin agus gan ach argóint amháin le `keep'"
 
 #: web/lib/editor.py:48 web/lib/editor.py:312
 msgid "Version `%s' is already present"
-msgstr ""
+msgstr "Tá leagan `%s' ann cheana"
 
 #: web/lib/editor.py:54
 msgid "Use exactly one argument with `nokeep'"
-msgstr ""
+msgstr "Úsáid argóint amháin agus gan ach argóint amháin le `nokeep'"
 
 #: web/lib/editor.py:57
 msgid "Version `%s' was not there anyway"
-msgstr ""
+msgstr "Ní raibh leagan `%s' ann ar dhóigh ar bith"
 
 #: web/lib/editor.py:62
 msgid "Use at least one argument with `keeps'"
-msgstr ""
+msgstr "Úsáid argóint amháin ar a laghad le `keeps'"
 
 #: web/lib/editor.py:68
 msgid "Version `%s' duplicated"
-msgstr ""
+msgstr "Leagan `%s' dúblach"
 
 #: web/lib/editor.py:75
 msgid "Do not use arguments with `disclaim'"
-msgstr ""
+msgstr "Ná húsáid argóintí le `disclaim'"
 
 #: web/lib/editor.py:80
 msgid "Do not use arguments with `nodisclaim'"
-msgstr ""
+msgstr "Ná húsáid argóintí le `nodisclaim'"
 
 #: web/lib/editor.py:85 web/lib/editor.py:349
 msgid "Do not use arguments with `autosend'"
-msgstr ""
+msgstr "Ná húsáid argóintí le `autosend'"
 
 #: web/lib/editor.py:90 web/lib/editor.py:354
 msgid "Do not use arguments with `noautosend'"
-msgstr ""
+msgstr "Ná húsáid argóintí le `noautosend'"
 
 #: web/lib/editor.py:95
 msgid "Use exactly one argument with `url'"
-msgstr ""
+msgstr "Úsáid argóint amháin agus gan ach argóint amháin le `url'"
 
 #: web/lib/editor.py:98
 msgid "URL `%s' is already present"
-msgstr ""
+msgstr "Tá URL `%s' ann cheana"
 
 #: web/lib/editor.py:103
 msgid "Use exactly one argument with `nourl'"
-msgstr ""
+msgstr "Úsáid argóint amháin agus gan ach argóint amháin le `nourl'"
 
 #: web/lib/editor.py:106
 msgid "URL `%s' was not there anyway"
-msgstr ""
+msgstr "Ní raibh URL `%s' ann ar aon chor"
 
 #: web/lib/editor.py:111
 msgid "Use at least one argument with `urls'"
-msgstr ""
+msgstr "Úsáid argóint amháin ar a laghad le `urls'"
 
 #: web/lib/editor.py:123 web/lib/editor.py:227 web/lib/editor.py:386
 msgid "Use exactly one argument with `remark'"
-msgstr ""
+msgstr "Úsáid argóint amháin agus gan ach argóint amháin le `remark'"
 
 #: web/lib/editor.py:125 web/lib/editor.py:229 web/lib/editor.py:361
 #: web/lib/editor.py:388
 msgid "Remark `%s' is already present"
-msgstr ""
+msgstr "Tá nóta `%s' ann cheana"
 
 #: web/lib/editor.py:130 web/lib/editor.py:234 web/lib/editor.py:393
 msgid "Use exactly one argument with `noremark'"
-msgstr ""
+msgstr "Úsáid argóint amháin agus gan ach argóint amháin le `noremark'"
 
 #: web/lib/editor.py:132 web/lib/editor.py:236 web/lib/editor.py:368
 #: web/lib/editor.py:395
 msgid "Remark `%s' was not there anyway"
-msgstr ""
+msgstr "Ní raibh nóta `%s' ann ar aon chor"
 
 #: web/lib/editor.py:137 web/lib/editor.py:241 web/lib/editor.py:400
 msgid "Do not use arguments with `remarks'"
-msgstr ""
+msgstr "Ná húsáid argóintí le `remarks'"
 
 #: web/lib/editor.py:171
 msgid "Use exactly one argument with `charset'"
-msgstr ""
+msgstr "Úsáid argóint amháin agus gan ach argóint amháin le `charset'"
 
 #: web/lib/editor.py:177
 msgid "Do not use arguments with `nocharset'"
-msgstr ""
+msgstr "Ná húsáid argóintí le `nocharset'"
 
 #: web/lib/editor.py:182
 msgid "Use exactly one argument with `leader'"
-msgstr ""
+msgstr "Úsáid argóint amháin agus gan ach argóint amháin le `leader'"
 
 #: web/lib/editor.py:193
 msgid "Use exactly two arguments with `ref'"
@@ -1417,7 +1722,7 @@ msgstr ""
 
 #: web/lib/editor.py:197
 msgid "Reference `%s, %s' is already present"
-msgstr ""
+msgstr "Tá tagairt `%s, %s' ann cheana"
 
 #: web/lib/editor.py:202
 msgid "Use exactly two arguments with `noref'"
@@ -1425,7 +1730,7 @@ msgstr ""
 
 #: web/lib/editor.py:206
 msgid "Reference `%s, %s' was not there anyway"
-msgstr ""
+msgstr "Ní raibh tagairt `%s, %s' ann ar dhóigh ar bith"
 
 #: web/lib/editor.py:211
 msgid "Use a pair number of arguments with `refs'"
@@ -1433,87 +1738,87 @@ msgstr ""
 
 #: web/lib/editor.py:220
 msgid "Reference `%s, %s' duplicated"
-msgstr ""
+msgstr "Tagairt `%s, %s' dúblach"
 
 #: web/lib/editor.py:246
 msgid "Use exactly one argument with `translator'"
-msgstr ""
+msgstr "Úsáid argóint amháin agus gan ach argóint amháin le `translator'"
 
 #: web/lib/editor.py:248
 msgid "Translator `%s' is already present"
-msgstr ""
+msgstr "Tá aistritheoir `%s' ann cheana"
 
 #: web/lib/editor.py:265
 msgid "Use exactly one argument with `notranslator'"
-msgstr ""
+msgstr "Úsáid argóint amháin agus gan ach argóint amháin le `notranslator'"
 
 #: web/lib/editor.py:267
 msgid "Translator `%s' is not know anyway"
-msgstr ""
+msgstr "Níl aistritheoir `%s' ar eolas ar dhóigh ar bith"
 
 #: web/lib/editor.py:270
 msgid "Should keep `%s' because of disclaimer"
-msgstr ""
+msgstr "Ba chóir `%s' a choinneáil mar gheall ar an séanadh"
 
 #: web/lib/editor.py:309
 msgid "Use exactly one argument with `alias'"
-msgstr ""
+msgstr "Úsáid argóint amháin agus gan ach argóint amháin le `alias'"
 
 #: web/lib/editor.py:317
 msgid "Do not use arguments with `noalias'"
-msgstr ""
+msgstr "Ná húsáid argóintí le `noalias'"
 
 #: web/lib/editor.py:320
 msgid "Alias `%s' was not there anyway"
-msgstr ""
+msgstr "Ní raibh ailias `%s' ann ar dhóigh ar bith"
 
 #: web/lib/editor.py:325
 msgid "Use at least one argument with `aliases'"
-msgstr ""
+msgstr "Úsáid argóint amháin ar a laghad le `aliases'"
 
 #: web/lib/editor.py:331
 msgid "Alias `%s' duplicated"
-msgstr ""
+msgstr "Ailias `%s' dúblach"
 
 #: web/lib/editor.py:338
 msgid "Use exactly one argument with `http'"
-msgstr ""
+msgstr "Úsáid argóint amháin agus gan ach argóint amháin le `http'"
 
 #: web/lib/editor.py:344
 msgid "Do not use arguments with `nohttp'"
-msgstr ""
+msgstr "Ná húsáid argóintí le `nohttp'"
 
 #: web/lib/editor.py:359
 msgid "Use exactly one argument with `do'"
-msgstr ""
+msgstr "Úsáid argóint amháin agus gan ach argóint amháin le `do'"
 
 #: web/lib/editor.py:366
 msgid "Use exactly one argument with `nodo'"
-msgstr ""
+msgstr "Úsáid argóint amháin agus gan ach argóint amháin le `nodo'"
 
 #: web/lib/editor.py:373
 msgid "Use at least one argument with `dos'"
-msgstr ""
+msgstr "Úsáid argóint amháin ar a laghad le `dos'"
 
 #: web/lib/editor.py:379
 msgid "Do `%s' duplicated"
-msgstr ""
+msgstr "`Do' `%s' dúblach"
 
 #: web/lib/localweb.py:157
 msgid "%s: Unexistent domain or team!\n"
-msgstr ""
+msgstr "%s: Fearann nó foireann nach ann dó!\n"
 
 #: web/lib/localweb.py:160
 msgid "%s: No hints found!\n"
-msgstr ""
+msgstr "%s: Níor aimsíodh leid ar bith!\n"
 
 #: web/lib/localweb.py:164
 msgid "%s: Missing version?\n"
-msgstr ""
+msgstr "%s: Leagan ar iarraidh?\n"
 
 #: web/lib/localweb.py:168
 msgid "%s: Not in stats database!\n"
-msgstr ""
+msgstr "%s: Níl sé sa bhunachar sonraí staitistice!\n"
 
 # leave alone
 #: web/lib/po.py:12
@@ -1581,31 +1886,31 @@ msgstr "Foireann anaithnid `%s'"
 
 #: web/lib/registry.py:294
 msgid "No hints from `%s'"
-msgstr ""
+msgstr "Ní raibh leid ar bith ó `%s'"
 
 #: web/lib/registry.py:299
 msgid "POT hint from `%s' contradicts previous"
-msgstr ""
+msgstr "Bréagnaíonn leid POT ó `%s' an ceann roimhe seo"
 
 #: web/lib/registry.py:303
 msgid "Domain hint from `%s' contradicts `%s'"
-msgstr ""
+msgstr "Bréagnaíonn leid ó `%s' maidir leis an bhfearann `%s'"
 
 #: web/lib/registry.py:308
 msgid "Version hint from `%s' contradicts `%s'"
-msgstr ""
+msgstr "Bréagnaíonn leid ó `%s' maidir leis an leagan `%s'"
 
 #: web/lib/registry.py:313
 msgid "Team hint from `%s' contradicts `%s'"
-msgstr ""
+msgstr "Bréagnaíonn leid ó `%s' maidir leis an bhfoireann `%s'"
 
 #: web/lib/registry.py:318
 msgid "Inconsistent charset hint from `%s'"
-msgstr ""
+msgstr "Leid chontrártha ó `%s' maidir leis an tacar carachtar"
 
 #: web/lib/registry.py:481
 msgid "Unrecognised version: %s"
-msgstr ""
+msgstr "Leagan anaithnid: %s"
 
 #: web/lib/run.py:24
 msgid "Report from TP-Robot"
@@ -1617,6 +1922,9 @@ msgid ""
 "Unable to send report.  Dumping it here instead.\n"
 "================================================\n"
 msgstr ""
+"===============================================================\n"
+"Ní féidir an tuairisc a sheoladh.  Á dumpáil anseo ina áit sin.\n"
+"===============================================================\n"
 
 #: web/lib/run.py:100
 msgid ""
@@ -1645,12 +1953,16 @@ msgid ""
 "Hi!  I am the service robot at the Translation Project, and was awakened\n"
 "by your submission for `%s'.\n"
 msgstr ""
+"Dia dhuit!  Is Róbó an Tionscadail Aistriúcháin mé, agus mhúscail do "
+"theachtaireacht i gcomhair `%s' mé.\n"
 
 #: web/lib/run.py:167
 msgid ""
 "Hi!  I am the service robot at the Translation Project, and was awakened\n"
 "by one of your submissions.\n"
 msgstr ""
+"Dia dhuit!  Is Róbó an Tionscadail Aistriúcháin mé, agus mhúscail ceann de do "
+"theachtaireachtaí mé.\n"
 
 #: web/lib/run.py:179
 msgid ""
@@ -1691,6 +2003,7 @@ msgstr ""
 msgid ""
 "WARNING: This prevents the robot from forwarding your file to the archive.\n"
 msgstr ""
+"RABHADH: Níl an róbó in ann do chomhad a chur sa chartlann dá bharr seo.\n"
 
 #: web/lib/sgml.py:173
 msgid "Unsupported attribute %s"
@@ -1698,7 +2011,7 @@ msgstr "Aitreabúid gan tacaíocht %s"
 
 #: web/lib/sgml.py:177
 msgid "SGML in `%s' is not conformant.\n"
-msgstr ""
+msgstr "Ní ghéilleann an SGML i `%s' don chaighdeán.\n"
 
 #: web/lib/unpack.py:90 web/lib/unpack.py:99
 msgid ""
@@ -1708,7 +2021,7 @@ msgid ""
 "%s\n"
 "----------------------------------------------------------------------<\n"
 msgstr ""
-"Tá mé ag déanamh neamhshuim ar na línte seo as an gcomhad a sheol tú chugam:\n"
+"Tá mé ag déanamh neamhshuim ar na línte seo sa chomhad a sheol tú chugam:\n"
 "\n"
 "---------------------------------------------------------------------->\n"
 "%s\n"
@@ -1719,13 +2032,16 @@ msgid ""
 "Your submission seems to uses `uuencode' format, yet no proper terminator\n"
 "was found to end the encoded region.\n"
 msgstr ""
+"Dealraíonn sé go bhfuil formáid `uuencode' in úsáid i do ríomhphost, ach\n"
+"níor aimsíodh críochnaitheoir oiriúnach ag deireadh an réigiúin "
+"ionchódaithe.\n"
 
 #: web/lib/unpack.py:169
 msgid ""
 "Uncompressing your submission with gzip has failed. gzip said:\n"
 "%s\n"
 msgstr ""
-"Theip ar dhí-chomhdhlúthú an chomhaid a sheol tú. Dúirt gzip:\n"
+"Theip ar dhí-chomhbhrú an chomhaid a sheol tú. Dúirt gzip:\n"
 "%s\n"
 
 msgid "Afrikaans"

@@ -1,19 +1,20 @@
 # Irish translations for gtick.
-# Copyright (C) 2003 Free Software Foundation, Inc.
+# Copyright (C) 2006 Roland Stigge (msgid)
+# Copyright (C) 2006 Free Software Foundation, Inc.
 # This file is distributed under the same license as the gtick package.
-# Kevin Patrick Scannell <scannell@SLU.EDU>, 2003.
+# Kevin Patrick Scannell <scannell@SLU.EDU>, 2003, 2006.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: gtick 0.2.12\n"
-"POT-Creation-Date: 2003-12-25 13:49+0100\n"
-"PO-Revision-Date: 2004-01-12 19:39-0500\n"
+"Project-Id-Version: gtick 0.3.9\n"
+"Report-Msgid-Bugs-To: stigge@antcom.de\n"
+"POT-Creation-Date: 2006-03-07 09:47+0100\n"
+"PO-Revision-Date: 2006-05-01 19:39-0500\n"
 "Last-Translator: Kevin Patrick Scannell <scannell@SLU.EDU>\n"
 "Language-Team: Irish <gaeilge-gnulinux@lists.sourceforge.net>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=ISO-8859-1\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Report-Msgid-Bugs-To: stigge@antcom.de\n"
 
 #: src/gtick.c:80
 #, c-format
@@ -31,10 +32,9 @@ msgstr ""
 "Roghanna:\n"
 "  -h, --help              Taispeáin an chabhair seo\n"
 "  -v, --version           Taispeáin eolas faoin leagan\n"
-"  -d, --debug[=leibhéal]  Taispeáin tuilleadh eolais chun dífhabhtú\n"
+"  -d, --debug[=leibhéal]  Taispeáin tuilleadh eolais dífhabhtaithe\n"
 "\n"
 
-#. TRANSLATORS: actually, "AndrÃ©s" with acute accent (/)
 #: src/help.c:81
 msgid ""
 "Copyright (c) 1999, Alex Roberts <bse@dial.pipex.com>\n"
@@ -48,14 +48,14 @@ msgid ""
 "Developer's mailing list:\n"
 "gtick-devel@nongnu.org"
 msgstr ""
-"Cóipcheart/Copyright (c) 1999, Alex Roberts <bse@dial.pipex.com>\n"
-"Cóipcheart/Copyright (c) 2003, Roland Stigge <stigge@antcom.de>\n"
+"Cóipcheart/Copyright © 1999, Alex Roberts <bse@dial.pipex.com>\n"
+"Cóipcheart/Copyright © 2003, Roland Stigge <stigge@antcom.de>\n"
 "Lógó le Mario Andrés Pagella <mapagella@fitzroy-is.com.ar>\n"
 "\n"
-"Clár Cinn:\n"
+"Leathanach Baile:\n"
 "http://www.antcom.de/gtick/\n"
 "\n"
-"Seol tuairiscí fabhtanna, trácht, srl. chuig\n"
+"Seol tuairiscí fabhtanna, nótaí tráchta, srl. chuig\n"
 "Liosta r-phoist do na forbróirí:\n"
 "gtick-devel@nongnu.org"
 
@@ -85,8 +85,8 @@ msgid ""
 "Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA."
 msgstr ""
 "GTick - An Méadranóm\n"
-"Cóipcheart/Copyright (c) 1999, Alex Roberts <bse@dial.pipex.com>\n"
-"Cóipcheart/Copyright (c) 2003, Roland Stigge <stigge@antcom.de>\n"
+"Cóipcheart/Copyright © 1999, Alex Roberts <bse@dial.pipex.com>\n"
+"Cóipcheart/Copyright © 2003, Roland Stigge <stigge@antcom.de>\n"
 "\n"
 "Is saorbhogearra an ríomhchlár seo; is féidir leat é a scaipeadh agus/nó\n"
 "a athrú de réir na gcoinníollacha den GNU General Public License mar atá\n"
@@ -98,8 +98,10 @@ msgstr ""
 "d'INDÍOLTACHT nó FEILIÚNACHT D'FHEIDHM AR LEITH.  Féach ar an\n"
 "GNU General Public License chun níos mó sonraí a fháil.\n"
 "\n"
-"Ba chóir go mbeifeá tar éis cóip den GNU General Public License a fháil in\n"
-"éineacht leis an ríomhchlár seo; mura bhfuair, scríobh chuig an Free Software\n"
+"Ba chóir go mbeifeá tar éis cóip den GNU General Public License a fháil "
+"in\n"
+"éineacht leis an ríomhchlár seo; mura bhfuair, scríobh chuig an Free "
+"Software\n"
 "Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307, USA."
 
 #: src/help.c:135
@@ -123,38 +125,134 @@ msgid "Ctrl-1 ... Ctrl-9"
 msgstr "Ctrl-1 ... Ctrl-9"
 
 #: src/help.c:166
+msgid "Alt-w"
+msgstr "Alt-w"
+
+#: src/help.c:172
+msgid "Alt-q"
+msgstr "Alt-q"
+
+#: src/help.c:178
+msgid "Alt-a"
+msgstr "Alt-a"
+
+#: src/help.c:184
+msgid "Alt-s"
+msgstr "Alt-s"
+
+#: src/help.c:190
+msgid "Alt-z"
+msgstr "Alt-z"
+
+#: src/help.c:196
+msgid "Alt-x"
+msgstr "Alt-x"
+
+#: src/help.c:202
+msgid "Shift-w"
+msgstr "Shift-w"
+
+#: src/help.c:208
+msgid "Shift-q"
+msgstr "Shift-q"
+
+#: src/help.c:214
+msgid "Shift-a"
+msgstr "Shift-a"
+
+#: src/help.c:220
+msgid "Shift-s"
+msgstr "Shift-s"
+
+#: src/help.c:226
+msgid "Shift-z"
+msgstr "Shift-z"
+
+#: src/help.c:232
+msgid "Shift-x"
+msgstr "Shift-x"
+
+#: src/help.c:238
 msgid "Start/Stop"
 msgstr "Tosaigh/Stop"
 
-#: src/help.c:172
+#: src/help.c:244
 msgid "Speed: Faster"
 msgstr "Luas: Níos Tapúla"
 
-#: src/help.c:178
+#: src/help.c:250
 msgid "Speed: Slower"
 msgstr "Luas: Níos Moille"
 
-#: src/help.c:184
+#: src/help.c:256
 msgid "Base Meter"
 msgstr "Bunmhéadar"
 
-#: src/metro.c:62
+#: src/help.c:262
+msgid "Double Speed"
+msgstr "Luas Dúbailte"
+
+#: src/help.c:268
+msgid "Half Speed"
+msgstr "Leathluas"
+
+#: src/help.c:274
+msgid "Speed: -10"
+msgstr "Luas: -10"
+
+#: src/help.c:280
+msgid "Speed: +10"
+msgstr "Luas: +10"
+
+#: src/help.c:286
+msgid "Speed: -2"
+msgstr "Luas: -2"
+
+#: src/help.c:292
+msgid "Speed: +2"
+msgstr "Luas: +2"
+
+#: src/help.c:298
+msgid "Double Volume"
+msgstr "Láine Dhúbailte"
+
+#: src/help.c:304
+msgid "Half Volume"
+msgstr "Leathláine"
+
+#: src/help.c:310
+msgid "Volume: -10"
+msgstr "Láine: -10"
+
+#: src/help.c:316
+msgid "Volume: +10"
+msgstr "Láine: +10"
+
+#: src/help.c:322
+msgid "Volume: -2"
+msgstr "Láine: -2"
+
+#: src/help.c:328
+msgid "Volume: +2"
+msgstr "Láine: +2"
+
+#: src/metro.c:63
 msgid "Idle"
 msgstr "Díomhaoin"
 
-#: src/metro.c:62
+#: src/metro.c:63
 msgid "Start"
 msgstr "Tosaigh"
 
-#: src/metro.c:63
+#: src/metro.c:64
 msgid "Running"
 msgstr "Ag Rith"
 
-#: src/metro.c:63
+#: src/metro.c:64
 msgid "Stop"
 msgstr "Stad"
 
-#: src/metro.c:180 src/metro.c:964 src/metro.c:1008
+#: src/metro.c:215 src/metro.c:1028 src/metro.c:1072
 msgid "/Metronome/Start"
 msgstr "/Méadranóm/Tosaigh"
 
@@ -166,19 +264,19 @@ msgstr "/Méadranóm/Tosaigh"
 #. is only intended to mark menu names and menu entry names directly, i.e.
 #. just the menu name of a menu entry usually doesn't include an underscore.
 #.
-#: src/metro.c:963
+#: src/metro.c:1027
 msgid "/_Metronome"
 msgstr "/_Méadranóm"
 
-#: src/metro.c:965
+#: src/metro.c:1029
 msgid "/Metronome/_Manual Timer"
 msgstr "/Méadranóm/_Amadóir Láimhe"
 
-#: src/metro.c:966
+#: src/metro.c:1030
 msgid "/Metronome/"
 msgstr "/Méadranóm/"
 
-#: src/metro.c:967
+#: src/metro.c:1031
 msgid "/Metronome/_Quit"
 msgstr "/Méadranóm/_Scoir"
 
@@ -190,19 +288,19 @@ msgstr "/Méadranóm/_Scoir"
 #. is only intended to mark menu names and menu entry names directly, i.e.
 #. just the menu name of a menu entry usually doesn't include an underscore.
 #.
-#: src/metro.c:978
+#: src/metro.c:1042
 msgid "/_Options"
 msgstr "/_Roghanna"
 
-#: src/metro.c:979 src/metro.c:1013
+#: src/metro.c:1043 src/metro.c:1077
 msgid "/Options/Show _Visual Tick"
 msgstr "/Roghanna/Tic _Radharcach"
 
-#: src/metro.c:980 src/metro.c:1016
+#: src/metro.c:1044 src/metro.c:1080
 msgid "/Options/Show _Accent Table"
 msgstr "/Roghanna/Tábla Béime"
 
-#: src/metro.c:981
+#: src/metro.c:1045
 msgid "/Options/_Properties"
 msgstr "/Roghanna/_Airíonna"
 
@@ -214,68 +312,68 @@ msgstr "/Roghanna/_Airíonna"
 #. is only intended to mark menu names and menu entry names directly, i.e.
 #. just the menu name of a menu entry usually doesn't include an underscore.
 #.
-#: src/metro.c:992
+#: src/metro.c:1056
 msgid "/_Help"
 msgstr "/_Cabhair"
 
-#: src/metro.c:993
+#: src/metro.c:1057
 msgid "/Help/_About"
 msgstr "/Cabhair/_Faoi seo"
 
-#: src/metro.c:994
+#: src/metro.c:1058
 msgid "/Help/_Shortcuts"
 msgstr "/Cabhair/_Aicearraí"
 
-#: src/metro.c:995
+#: src/metro.c:1059
 msgid "/Help/_License"
 msgstr "/Cabhair/_Ceadúnas"
 
-#: src/metro.c:1192
+#: src/metro.c:1386
 msgid "Settings"
 msgstr "Socruithe"
 
-#: src/metro.c:1207
+#: src/metro.c:1406
 msgid "Speed:"
 msgstr "Luas:"
 
-#: src/metro.c:1264
+#: src/metro.c:1471
 msgid "Volume:"
 msgstr "Láine:"
 
-#: src/metro.c:1294
+#: src/metro.c:1505
 msgid "Beat"
 msgstr "Buille"
 
 #. TRANSLATORS: all beats are equal
-#: src/metro.c:1309
+#: src/metro.c:1520
 msgid "Even"
 msgstr "Cothrom"
 
 #. TRANSLATORS: duple meter
-#: src/metro.c:1322
+#: src/metro.c:1533
 msgid "2/4"
 msgstr "2/4"
 
 #. TRANSLATORS: triple meter
-#: src/metro.c:1333
+#: src/metro.c:1544
 msgid "3/4"
 msgstr "3/4"
 
 #. TRANSLATORS: quadruple meter / common meter
-#: src/metro.c:1344
+#: src/metro.c:1555
 msgid "4/4"
 msgstr "4/4"
 
 #. TRANSLATORS: meter with more than 4 beats per measure
-#: src/metro.c:1355 src/gtkoptions.c:271
+#: src/metro.c:1566 src/gtkoptions.c:271
 msgid "Other:"
 msgstr "Eile:"
 
-#: src/metro.c:1377
+#: src/metro.c:1588
 msgid "Accent Table"
 msgstr "Tábla Béime"
 
-#: src/metro.c:1504
+#: src/metro.c:1748
 msgid ""
 "Couldn't start metronome.\n"
 "Please check if specified sound device\n"
@@ -310,7 +408,7 @@ msgstr ""
 "Is féidir leat an luas a shocrú anseo\n"
 "trí chniogadh ar an gcnaipe \"Cniog\".\n"
 "\n"
-"Ná déan ach crom ar cniogadh leis an luchóg nó an eochair iontrála.\n"
+"Ná déan ach crom ar cniogadh leis an luch nó leis an eochair \"Enter\".\n"
 "\n"
 "Chun an luach áirithe a úsáid, cliceáil ar \"OK\".\n"
 "Cliceáil \"Athshocraigh\" chun atosú.\n"
@@ -349,15 +447,15 @@ msgstr "Ainm comhaid gléis:"
 
 #: src/gtkoptions.c:347
 msgid "External Commands"
-msgstr "Orduithe seachtracha"
+msgstr "Orduithe Seachtracha"
 
 #: src/gtkoptions.c:357
 msgid "Execute on start:"
-msgstr "Rith i rith tosaithe:"
+msgstr "Rith ag am tosaithe:"
 
 #: src/gtkoptions.c:371
 msgid "Execute on stop:"
-msgstr "Rith i rith stoptha:"
+msgstr "Rith ag am stoptha:"
 
 #: src/gtkoptions.c:387
 msgid "Speed Range"
@@ -365,8 +463,8 @@ msgstr "Raon Luais"
 
 #: src/gtkoptions.c:397
 msgid "Minimum BPM:"
-msgstr "Íosmhéid BPM:"
+msgstr "Íosmhéid BSN:"
 
 #: src/gtkoptions.c:412
 msgid "Maximum BPM:"
-msgstr "Uasmhéid BPM:"
+msgstr "Uasmhéid BSN:"

@@ -32,11 +32,11 @@ msgstr "-g            bain ceann den stoc nuair a scanfar barrachód\n"
 
 #: src/batchelor.c:199
 msgid "-t            set target for stock, asks Barcode and quantity\n"
-msgstr "-t            Sprioc a leagadh síos; soláthróidh tú barrachód agus líon\n"
+msgstr "-t            sprioc a leagan síos; soláthróidh tú barrachód agus líon\n"
 
 #: src/batchelor.c:200
 msgid "-l            shows items in stock (quantity>0)\n"
-msgstr "-l            taispeáin gach rud atá ar láimh\n"
+msgstr "-l            taispeáin gach rud atá ar láimh (líon>0)\n"
 
 #: src/batchelor.c:201
 msgid "-c            shows all known items\n"
@@ -52,16 +52,16 @@ msgstr "-q            taispeáin rudaí ar láimh le haghaidh barrachóid\n"
 
 #: src/batchelor.c:204
 msgid "-d dbserver   set hostname for SQL server (default: server)\n"
-msgstr "-d freastalaí ceap óstainm an fhreastalaí SQL (réamhshocrú: server)\n"
+msgstr "-d freast     socraigh óstainm an fhreastalaí SQL (réamhshocrú: freast)\n"
 
 #: src/batchelor.c:205
 msgid "-e port       set port for SQL server (default: 3306)\n"
-msgstr "-e port       ceap port le haghaidh an fhreastalaí SQL (réamhshocrú: 3306)\n"
+msgstr "-e port       socraigh port le haghaidh an fhreastalaí SQL (réamhshocrú: 3306)\n"
 
 # serial port=port srathach, too long though - KPS
 #: src/batchelor.c:207
 msgid "-p serialport set serial port for scanner (default: /dev/ttyS1)\n"
-msgstr "-p port       ceap port le haghaidh an scanóra (réamhshocrú: /dev/ttyS1)\n"
+msgstr "-p port       socraigh port le haghaidh an scanóra (réamhshocrú: /dev/ttyS1)\n"
 
 #: src/batchelor.c:209
 msgid "-a             print ASCII (default: Postscript output)\n"
@@ -73,7 +73,7 @@ msgstr "-y            déan bíp i ndiaidh gach rud scanta\n"
 
 #: src/batchelor.c:212
 msgid "-x            disable in-store EAN detection\n"
-msgstr "-x            Stop brath EAN i stór\n"
+msgstr "-x            díchumasaigh brath EAN i stór\n"
 
 #: src/batchelor.c:213
 msgid "-v            be verbose\n"
@@ -99,7 +99,7 @@ msgstr "Suim"
 
 #: src/batchelor.c:333
 msgid "structure error, multiple Barcode!"
-msgstr "Earráid: barrachód iomadúil!"
+msgstr "earráid struchtúir, barrachód iomadúil!"
 
 #: src/batchelor.c:354
 #, c-format
@@ -108,7 +108,7 @@ msgid ""
 "insert new EAN %s\n"
 msgstr ""
 "\n"
-"Ionsáigh EAN nua %s\n"
+"ionsáigh EAN nua %s\n"
 
 #: src/batchelor.c:359
 msgid "Awaiting Input..."
@@ -116,7 +116,7 @@ msgstr "Ag fanacht le hionchur..."
 
 #: src/batchelor.c:365
 msgid "Description  : "
-msgstr "Cur síos  : "
+msgstr "Cur Síos  : "
 
 #: src/batchelor.c:374 src/batchelor.c:1650
 msgid "unknown"
@@ -142,7 +142,7 @@ msgid ""
 "update EAN %s (%s) to %d pieces, id: %d\n"
 msgstr ""
 "\n"
-"Nuashonraigh EAN %s (%s) go %d mír, cód: %d\n"
+"nuashonraigh EAN %s (%s) go %d mír, aitheantas: %d\n"
 
 #: src/batchelor.c:410
 msgid "Stock changed"
@@ -159,7 +159,7 @@ msgstr ""
 
 #: src/batchelor.c:508
 msgid "structure error, duplicate Barcode!"
-msgstr "Earráid: barrachód athdhéanta!"
+msgstr "earráid struchtúir, barrachód athdhéanta!"
 
 #: src/batchelor.c:528 src/batchelor.c:731
 #, c-format
@@ -199,7 +199,7 @@ msgstr "Athraíodh an sprioc"
 
 #: src/batchelor.c:711
 msgid "structure error, duplicate barcode!"
-msgstr "Earráid: barrachód athdhéanta!"
+msgstr "earráid struchtúir, barrachód athdhéanta!"
 
 #: src/batchelor.c:751
 #, c-format
@@ -208,7 +208,7 @@ msgstr "%s:  %d agat (sprioc: %d)"
 
 #: src/batchelor.c:755
 msgid "Query OK"
-msgstr "Ceist cheart"
+msgstr "Iarratas OK"
 
 #: src/batchelor.c:845 src/batchelor.c:877
 msgid "Quantity"
@@ -279,7 +279,7 @@ msgid ""
 "SQL: connected to %s as %s using %s\n"
 msgstr ""
 "\n"
-"SQL: ceangailte le %s mar %s ag úsáid %s\n"
+"SQL: nasctha le %s mar %s ag úsáid %s\n"
 
 #: src/batchelor.c:1278
 msgid "Printer: "
@@ -329,7 +329,7 @@ msgstr "Clóscríobh (nó scan) barrachód nó slonn cuardaigh"
 
 #: src/batchelor.c:1319
 msgid "Ready for new costumer"
-msgstr "Ullamh do custaiméir nua"
+msgstr "Ullamh do chustaiméir nua"
 
 #: src/batchelor.c:1461
 msgid "not defined"
@@ -391,7 +391,7 @@ msgstr "Cealaigh"
 
 #: src/batchelor.c:1741
 msgid "cancellation not possible"
-msgstr "Níl cealú indéanta"
+msgstr "ní féidir cealú"
 
 #: src/batchelor.c:1750
 msgid "Stock change"
@@ -399,7 +399,7 @@ msgstr "Athrú stoic"
 
 #: src/batchelor.c:1756
 msgid "Interm. sum"
-msgstr "Suim mheánach"
+msgstr "Suim idirmheánach"
 
 #: src/batchelor.c:1775
 msgid "Manual input"
@@ -419,7 +419,7 @@ msgstr "Cuir praghas láimhe leis"
 
 #: src/batchelor.c:1833
 msgid "Printing"
-msgstr "Ag priontáil"
+msgstr "Á Phriontáil"
 
 #: src/batchelor.c:1837
 msgid "Printing error: "
@@ -432,7 +432,7 @@ msgstr "Níl priontáil ar fáil"
 #: src/batchelor.c:1846
 #, c-format
 msgid "Printing job #%d"
-msgstr "Ag priontáil jab #%d"
+msgstr "Jab #%d á phriontáil"
 
 #: src/input.c:405
 msgid "Batchelor Shopping List"

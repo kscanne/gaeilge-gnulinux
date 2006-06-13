@@ -41,7 +41,7 @@ msgstr "príomhchlár"
 
 #: src/www.c:194 src/www.c:392
 msgid "hosts"
-msgstr "óstaigh"
+msgstr "óstríomhairí"
 
 #: src/www.c:194 src/www.c:521
 msgid "ports"
@@ -57,16 +57,16 @@ msgstr "graif"
 
 #: src/www.c:195
 msgid "homepage"
-msgstr "clár cinn"
+msgstr "leathanach baile"
 
 #: src/www.c:224
 #, c-format
 msgid "Want this page refreshed every %s seconds?"
-msgstr "Ar mhaith leat athnuachan den leathanach seo gach %s soicind?"
+msgstr "Ar mhaith leat an leathanach seo a athnuachan gach %s soicind?"
 
 #: src/www.c:229
 msgid "Yes"
-msgstr "Tá"
+msgstr "Is sea"
 
 #: src/www.c:238
 #, c-format
@@ -83,16 +83,16 @@ msgstr "Stad"
 
 #: src/www.c:273 src/www.c:285
 msgid "Packets captured:"
-msgstr "Paicéid gafa:"
+msgstr "Paicéid ghafa:"
 
 #. TRANSLATORS: This means total data captured
 #: src/www.c:274 src/www.c:286 src/www.c:1229
 msgid "Data off the wire:"
-msgstr "Sonraí iomlán gafa"
+msgstr "Sonraí iomlán gafa:"
 
 #: src/www.c:275 src/www.c:287
 msgid "Unique hosts:"
-msgstr "Óstaigh éagsúla:"
+msgstr "Óstríomhairí uathúla:"
 
 #: src/www.c:313
 msgid "Counting"
@@ -123,6 +123,7 @@ msgstr "Ar bun ó:"
 msgid "Last 60 seconds"
 msgstr "60 soicind is déanaí"
 
+# join with next two
 #: src/www.c:339
 msgid "DNS resolution is"
 msgstr "Tá réiteach DNS"
@@ -140,7 +141,7 @@ msgstr "múchta"
 #. (which is what "on" means)
 #: src/www.c:342 src/www.c:1234
 msgid "cycling once"
-msgstr "ag athfhilleadh aon uair"
+msgstr "á athfhilleadh aon uair"
 
 #: src/www.c:366
 msgid "Last 60 minutes"
@@ -157,7 +158,7 @@ msgstr "30 lá is déanaí"
 #: src/www.c:397
 #, c-format
 msgid "Hosts (sorted by %s, top %d)"
-msgstr "Óstaigh (sórtáilte de réir %s, an %d is fearr)"
+msgstr "Óstríomhairí (sórtáilte de réir %s, an %d is fearr)"
 
 #: src/www.c:398 src/www.c:404 src/www.c:526 src/www.c:533
 msgid "incoming"
@@ -178,7 +179,7 @@ msgstr "IP"
 #: src/www.c:403
 #, c-format
 msgid "Hosts (sorted by %s)"
-msgstr "Óstaigh (sórtáilte de réir %s)"
+msgstr "Óstríomhairí (sórtáilte de réir %s)"
 
 #: src/www.c:432 src/www.c:434 src/www.c:435 src/www.c:436 src/www.c:559
 #: src/www.c:560 src/www.c:561 src/www.c:562
@@ -229,7 +230,7 @@ msgstr "Eile"
 
 #: src/www.c:745
 msgid "Not Implemented"
-msgstr "Níl ar fáil"
+msgstr "Níl Ar Fáil"
 
 #: src/www.c:746
 msgid "Whatever the heck you just requested, I can't generate."
@@ -237,7 +238,7 @@ msgstr "Cibé rud damanta a bhfuil tú ag iarraidh, ní féidir liom é a chruthú."
 
 #: src/www.c:761
 msgid "Not Found"
-msgstr "Ar iarraidh"
+msgstr "Ar Iarraidh"
 
 #: src/www.c:762
 msgid "Whatever you just requested, I don't have."
@@ -248,7 +249,7 @@ msgstr "Cibé rud a bhfuil tú ag iarraidh, níl sé agam."
 #. correctly.
 #: src/www.c:782
 msgid "Go <a href=\"/\">here</a>."
-msgstr "Féach ar <a href=\"/\">seo</a>."
+msgstr "Féach air <a href=\"/\">seo</a>."
 
 #. TRANSLATORS: This is the only message written to the terminal screen
 #. when darkstat is starting up.  Please keep this in

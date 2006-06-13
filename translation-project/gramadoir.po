@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gramadoir 0.6\n"
 "Report-Msgid-Bugs-To: <scannell@slu.edu>\n"
-"POT-Creation-Date: 2005-09-21 18:49+0000\n"
+"POT-Creation-Date: 2006-03-07 21:35-0600\n"
 "PO-Revision-Date: 2005-03-02 23:33-0600\n"
 "Last-Translator: Kevin Patrick Scannell <scannell@SLU.EDU>\n"
 "Language-Team: Irish <gaeilge-gnulinux@lists.sourceforge.net>\n"
@@ -75,8 +75,8 @@ msgstr "Níl an teanga %s ar fáil."
 #. "o" in "Gramadoir" if available in your character set and encoding.
 #. If you must translate, this is the Irish for (literally) "The Grammarian"
 #: gram.pl:185 gram.pl:248 gramdev.pl:93 gramdev.pl:118 Gramadoir.pm.in:119
-#: Gramadoir.pm.in:176 Gramadoir.pm.in:290 Gramadoir.pm.in:293
-#: Gramadoir.pm.in:494 Gramadoir.pm.in:805
+#: Gramadoir.pm.in:176 Gramadoir.pm.in:291 Gramadoir.pm.in:294
+#: Gramadoir.pm.in:495 Gramadoir.pm.in:803
 msgid "An Gramadoir"
 msgstr "An Gramadóir"
 
@@ -242,24 +242,24 @@ msgid "%s: `%s' corrupted at %s\n"
 msgstr "%s: `%s' truaillithe ag %s\n"
 
 #. TRANSLATORS: "conversion" here means conversion between character encodings
-#: Gramadoir.pm.in:227 Gramadoir.pm.in:544 Gramadoir.pm.in:659
-#: Gramadoir.pm.in:693 Gramadoir.pm.in:716 Gramadoir.pm.in:773
-#: Gramadoir.pm.in:837
+#: Gramadoir.pm.in:227 Gramadoir.pm.in:545 Gramadoir.pm.in:662
+#: Gramadoir.pm.in:697 Gramadoir.pm.in:720 Gramadoir.pm.in:765
+#: Gramadoir.pm.in:913
 #, perl-format
 msgid "conversion from %s is not supported"
 msgstr "níl aon fháil ar thiontú ón ionchódú %s"
 
-#: Gramadoir.pm.in:290 Gramadoir.pm.in:493
+#: Gramadoir.pm.in:291 Gramadoir.pm.in:494
 #, perl-format
 msgid "%s: illegal grammatical code\n"
 msgstr "%s: cód gramadach neamhcheadaithe\n"
 
-#: Gramadoir.pm.in:293
+#: Gramadoir.pm.in:294
 #, perl-format
 msgid "%s: no grammar codes: %s\n"
 msgstr "%s: níl aon chód gramadaí ann: %s\n"
 
-#: Gramadoir.pm.in:804
+#: Gramadoir.pm.in:802
 #, perl-format
 msgid "%s: unrecognized error macro: %s\n"
 msgstr "%s: macra anaithnid earráide: %s\n"
@@ -495,8 +495,13 @@ msgstr "An cúigiú claochlú (measctha) ar iarraidh"
 msgid "Fifth (mixed) mutation after 'th missing"
 msgstr "An cúigiú claochlú (measctha) i ndiaidh «'th» ar iarraidh"
 
-#. TRANSLATORS: Rules specific to the Igbo language (ig)
+#. TRANSLATORS: Rules specific to the Welsh language (cy)
 #: messages.txt:70
+msgid "Aspirate mutation missing"
+msgstr "Claochlú análaithe ar iarraidh"
+
+#. TRANSLATORS: Rules specific to the Igbo language (ig)
+#: messages.txt:72
 msgid "This word violates the rules of Igbo vowel harmony"
 msgstr "Tagann an focal seo salach ar chomhréir na ngutaí in Íogbóis"
 

@@ -217,7 +217,7 @@ msgstr "ná taispeáin focail chomhtháite mar earráidí"
 
 #: common/config.cpp:1434
 msgid "maximum number that can be strung together"
-msgstr "uasmhéid focail chomhtháite"
+msgstr "líon uasta gur féidir ceangal le chéile"
 
 #: common/config.cpp:1436
 msgid "minimal length of interior words"
