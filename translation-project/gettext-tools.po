@@ -41,12 +41,12 @@ msgstr "earráid sa scríobh"
 #: src/xgettext.c:1580
 #, c-format
 msgid "error while opening \"%s\" for reading"
-msgstr ""
+msgstr "earráid agus \"%s\" á oscailt chun é a léamh"
 
 #: lib/copy-file.c:72
 #, c-format
 msgid "cannot open backup file \"%s\" for writing"
-msgstr ""
+msgstr "ní féidir comhad cúltaca \"%s\" a oscailt chun scríobh ann"
 
 #: lib/copy-file.c:80 src/urlget.c:212
 #, c-format
@@ -61,7 +61,7 @@ msgstr "earráid agus \"%s\" á scríobh"
 #: lib/copy-file.c:91 src/urlget.c:222
 #, c-format
 msgid "error after reading \"%s\""
-msgstr ""
+msgstr "earráid tar éis \"%s\" á léamh"
 
 #: lib/error.c:137 lib/error.c:165
 msgid "Unknown system error"
@@ -133,12 +133,12 @@ msgstr "%s: ní cheadaítear argóint i ndiaidh na rogha `-W %s'\n"
 #: lib/javacomp.c:467
 #, c-format
 msgid "Java compiler not found, try installing gcj or set $JAVAC"
-msgstr ""
+msgstr "Tiomsaitheoir Java gan aimsiú; suiteáil gcj nó socraigh $JAVAC"
 
 #: lib/javaexec.c:420
 #, c-format
 msgid "Java virtual machine not found, try installing gij or set $JAVA"
-msgstr ""
+msgstr "Meaisín fíorúil Java gan aimsiú, suiteáil gij nó socraigh $JAVA"
 
 #: lib/obstack.c:491 lib/obstack.c:494 lib/xerror.c:51 lib/xmalloc.c:41
 #: lib/xsetenv.c:40 src/po-lex.c:89 src/po-lex.c:118 src/x-glade.c:390
@@ -156,7 +156,7 @@ msgstr "ní féidir píopa a chruthú"
 #: lib/w32spawn.h:48
 #, c-format
 msgid "DuplicateHandle failed with error code 0x%08x"
-msgstr ""
+msgstr "Theip ar DuplicateHandle le cód earráide 0x%08x"
 
 #: lib/w32spawn.h:53
 #, c-format
@@ -166,12 +166,12 @@ msgstr "theip ar _open_osfhandle"
 #: lib/wait-process.c:279 lib/wait-process.c:311 lib/wait-process.c:369
 #, c-format
 msgid "%s subprocess"
-msgstr ""
+msgstr "fo-phróiseas %s"
 
 #: lib/wait-process.c:328 lib/wait-process.c:395
 #, c-format
 msgid "%s subprocess got fatal signal %d"
-msgstr ""
+msgstr "fuair fo-phróiseas %s comhartha marfach %d"
 
 #: src/format-awk.c:493 src/format-elisp.c:341 src/format-librep.c:305
 #: src/format-pascal.c:394 src/format-perl.c:571 src/format-php.c:341
@@ -179,14 +179,14 @@ msgstr ""
 #, c-format
 msgid ""
 "a format specification for argument %u, as in '%s', doesn't exist in 'msgid'"
-msgstr ""
+msgstr "níl sonrú formáide le haghaidh argóinte %u, mar '%s', sa 'msgid'"
 
 #: src/format-awk.c:508 src/format-elisp.c:356 src/format-librep.c:320
 #: src/format-pascal.c:409 src/format-perl.c:586 src/format-php.c:356
 #: src/format-qt.c:135 src/format-tcl.c:395 src/format-ycp.c:136
 #, c-format
 msgid "a format specification for argument %u doesn't exist in '%s'"
-msgstr ""
+msgstr "níl sonrú formáide le haghaidh argóinte %u i '%s'"
 
 #: src/format-awk.c:533 src/format-c.c:865 src/format-elisp.c:381
 #: src/format-gcc-internal.c:283 src/format-librep.c:345
@@ -599,7 +599,8 @@ msgstr "  -h, --help                  taispeáin an chabhair seo agus scoir\n"
 #: src/xgettext.c:860
 #, c-format
 msgid "  -V, --version               output version information and exit\n"
-msgstr "  -V, --version               taispeáin eolas faoin leagan agus scoir\n"
+msgstr ""
+"  -V, --version               taispeáin eolas faoin leagan agus scoir\n"
 
 #: src/hostname.c:238 src/msgattrib.c:483 src/msgcat.c:432 src/msgcmp.c:226
 #: src/msgcomm.c:434 src/msgconv.c:363 src/msgen.c:338 src/msgexec.c:283
@@ -716,22 +717,26 @@ msgstr ""
 msgid ""
 "      --translated            keep translated, remove untranslated messages\n"
 msgstr ""
+"      --translated            coinnigh teachtaireachtaí aistrithe, bain na "
+"cinn gan aistriú\n"
 
 #: src/msgattrib.c:409
 #, c-format
 msgid ""
 "      --untranslated          keep untranslated, remove translated messages\n"
 msgstr ""
+"      --untranslated          coinnigh teachtaireachtaí gan aistriú, bain na "
+"cinn aistrithe\n"
 
 #: src/msgattrib.c:411
 #, c-format
 msgid "      --no-fuzzy              remove 'fuzzy' marked messages\n"
-msgstr ""
+msgstr "      --no-fuzzy              bain teachtaireachtaí 'doiléir'\n"
 
 #: src/msgattrib.c:413
 #, c-format
 msgid "      --only-fuzzy            keep 'fuzzy' marked messages\n"
-msgstr ""
+msgstr "      --only-fuzzy            coinnigh teachtaireachtaí 'doiléir'\n"
 
 #: src/msgattrib.c:415
 #, c-format
@@ -797,7 +802,7 @@ msgstr ""
 #: src/msguniq.c:347
 #, c-format
 msgid "Input file syntax:\n"
-msgstr ""
+msgstr "Comhréir an inchomhaid:\n"
 
 #: src/msgattrib.c:441 src/msgconv.c:321 src/msgen.c:296 src/msgexec.c:271
 #: src/msgfilter.c:416 src/msggrep.c:500 src/msginit.c:392 src/msguniq.c:349
@@ -820,7 +825,7 @@ msgstr ""
 #: src/xgettext.c:814
 #, c-format
 msgid "Output details:\n"
-msgstr ""
+msgstr "Mionsonraí aschurtha:\n"
 
 #: src/msgattrib.c:448 src/msgcat.c:397 src/msgcomm.c:397 src/msgconv.c:328
 #: src/msgen.c:303 src/msgmerge.c:508 src/msgunfmt.c:482 src/msguniq.c:361
@@ -829,6 +834,8 @@ msgstr ""
 msgid ""
 "  -e, --no-escape             do not use C escapes in output (default)\n"
 msgstr ""
+"  -e, --no-escape             ná húsáid éalúcháin C san aschur "
+"(réamhshocrú)\n"
 
 #: src/msgattrib.c:450 src/msgcat.c:399 src/msgcomm.c:399 src/msgconv.c:330
 #: src/msgen.c:305 src/msgfilter.c:425 src/msgmerge.c:510 src/msgunfmt.c:484
@@ -837,25 +844,27 @@ msgstr ""
 msgid ""
 "  -E, --escape                use C escapes in output, no extended chars\n"
 msgstr ""
+"  -E, --escape                úsáid éalúcháin C san aschur, gan carachtair "
+"bhreisithe\n"
 
 #: src/msgattrib.c:452 src/msgcat.c:401 src/msgcomm.c:401 src/msgconv.c:332
 #: src/msgen.c:307 src/msgfilter.c:427 src/msggrep.c:511 src/msgmerge.c:512
 #: src/msgunfmt.c:486 src/msguniq.c:365 src/xgettext.c:820
 #, c-format
 msgid "      --force-po              write PO file even if empty\n"
-msgstr ""
+msgstr "      --force-po              scríobh comhad PO, fiú más folamh é\n"
 
 #: src/msgattrib.c:454 src/msgcat.c:403 src/msgcomm.c:403 src/msguniq.c:367
 #: src/xgettext.c:822
 #, c-format
 msgid "  -i, --indent                write the .po file using indented style\n"
-msgstr ""
+msgstr "  -i, --indent                scríobh comhad .po i stíl eangaithe\n"
 
 #: src/msgattrib.c:456 src/msgcat.c:405 src/msgcomm.c:405 src/msguniq.c:369
 #: src/xgettext.c:824
 #, c-format
 msgid "      --no-location           do not write '#: filename:line' lines\n"
-msgstr ""
+msgstr "      --no-location           ná scríobh línte '#: comhadainm:líne'\n"
 
 #: src/msgattrib.c:458 src/msgcat.c:407 src/msgcomm.c:407 src/msguniq.c:371
 #: src/xgettext.c:826
@@ -863,6 +872,7 @@ msgstr ""
 msgid ""
 "  -n, --add-location          generate '#: filename:line' lines (default)\n"
 msgstr ""
+"  -n, --add-location          gin línte '#: comhadainm:líne' (réamhshocrú)\n"
 
 #: src/msgattrib.c:460 src/msgcat.c:409 src/msgcomm.c:409 src/msguniq.c:373
 #: src/xgettext.c:828
@@ -907,7 +917,7 @@ msgstr ""
 #: src/msguniq.c:384 src/xgettext.c:839
 #, c-format
 msgid "  -s, --sort-output           generate sorted output\n"
-msgstr ""
+msgstr "  -s, --sort-output           gin aschur sórtáilte\n"
 
 #: src/msgattrib.c:473 src/msgcat.c:422 src/msgcomm.c:422 src/msgconv.c:353
 #: src/msgen.c:328 src/msgfilter.c:450 src/msgmerge.c:533 src/msguniq.c:386
@@ -2187,8 +2197,8 @@ msgid ""
 "SIMPLE_BACKUP_SUFFIX\n"
 "environment variable.\n"
 msgstr ""
-"Is é `~' an iarmhír cúltaca, mura dtugtar é le --suffix nó "
-"an athróg thimpeallachta SIMPLE_BACKUP_SUFFIX.\n"
+"Is é `~' an iarmhír cúltaca, mura dtugtar é le --suffix nó an athróg "
+"thimpeallachta SIMPLE_BACKUP_SUFFIX.\n"
 
 #: src/msgmerge.c:495
 #, c-format

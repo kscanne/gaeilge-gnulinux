@@ -19,6 +19,7 @@ activate	gníomhaigh		gníomhachtaigh	activa		gh?níomha[^c]
 activate	cuir_i_ngníomh		gníomhachtaigh	activa		i.ngníomh
 activate	cuir_ar_obair		gníomhachtaigh	activa		ar.obair
 activate	tosaigh			gníomhachtaigh	activa		th?[oú]s
+administration	bainistiú		riarachán	administ	bh?ainist
 # Brian O Broin, FRTF  (FARF has clár gnó)
 agenda	clár_gnó			clár_oibre		agenda		r_oibre
 aka		.i.			ar_a_dtugtar_freisin	aka	\.i\.
@@ -516,6 +517,7 @@ shred		stiall			léirscrios	shred		stiall
 sink		doirteal		slogaide	sink		dh?oirt
 size		toirt			méid		size		th?oirt
 size		tomhas			méid		size		th?omhai?s
+software	bogábhar		bogearra	softw		ogábh
 # FARF/FRTF
 sort		cuir_in_ord		sórtáil		sort		ch?u.*in.*ord
 sort		rangaigh		sórtáil		sort		rang
@@ -556,6 +558,7 @@ tile		scláta			tíl		til(e|ing)	scláta
 tile		slinn			tíl		til(e|ing)	sh?linn
 # two possible senses
 token		comhartha		ceadchomhartha,teaghrán_comhartha token	[^d]ch?omhartha[^ci]
+trailing	sraoilleach		chun_deiridh	trailing	sh?raoil
 # FARF/FRTF
 type		sórt			cineál		type		sh?órt
 type		saghas			cineál		type		sh?aghas

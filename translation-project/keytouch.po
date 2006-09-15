@@ -5,19 +5,32 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: keytouch 2.2-b0\n"
+"Project-Id-Version: keytouch 2.2-b3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2006-06-02 20:17+0200\n"
-"PO-Revision-Date: 2006-06-06 16:16-0500\n"
+"POT-Creation-Date: 2006-06-26 20:14+0200\n"
+"PO-Revision-Date: 2006-07-16 16:16-0500\n"
 "Last-Translator: Kevin Patrick Scannell <scannell@SLU.EDU>\n"
 "Language-Team: Irish <gaeilge-gnulinux@lists.sourceforge.net>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=ISO-8859-1\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: src/main.c:65 src/memory.c:46 src/memory.c:65
+#: src/main.c:66 src/memory.c:46 src/memory.c:65
 msgid "Could not allocate memory."
 msgstr "Níorbh fhéidir cuimhne a dháileadh."
+
+#: src/main.c:88
+msgid "No keyboard was specified, please select your keyboard."
+msgstr "Níor sonraíodh méarchlár. Roghnaigh méarchlár, le do thoil."
+
+#: src/main.c:95
+#, c-format
+msgid ""
+"%s\n"
+"Please select your keyboard model to solve this problem."
+msgstr ""
+"%s\n"
+"Roghnaigh cineál do mhéarchláir chun an fhadhb seo a réiteach."
 
 #: src/interface.c:186
 msgid "Keys:"
@@ -205,15 +218,15 @@ msgstr "Feidhmeanna:"
 msgid "Description:"
 msgstr "Cur Síos:"
 
-#: src/interface.c:1201
+#: src/interface.c:1202
 msgid "Choose application"
 msgstr "Roghnaigh feidhmchlár"
 
-#: src/interface.c:1212
+#: src/interface.c:1219
 msgid "Select the application:"
 msgstr "Roghnaigh an feidhmchlár:"
 
-#: src/interface.c:1231
+#: src/interface.c:1238
 msgid "Application command:"
 msgstr "Ordú feidhmchláir:"
 
@@ -243,43 +256,49 @@ msgstr "user_manual.html"
 msgid "Couldn't find pixmap file: %s"
 msgstr "Níorbh fhéidir an mapa picteilíní a aimsiú: %s"
 
-#: src/config.c:143
+#: src/config.c:156
 msgid "The keyboard (configuration) file contains an invalid action element."
 msgstr "Tá eilimint neamhbhailí ghnímh i gcomhad chumraíocht an mhéarchláir."
 
-#: src/config.c:151
+#: src/config.c:167
 msgid "The keyboard (configuration) file contains an invalid action-type value."
 msgstr "Tá luach neamhbhailí ghnímh i gcomhad chumraíocht an mhéarchláir."
 
-#: src/config.c:204
+#: src/config.c:227
 msgid "The keyboard file contains an incomplete key element."
 msgstr "Tá eilimint neamhiomlán eochrach sa chomhad méarchláir."
 
-#: src/config.c:268
+#: src/config.c:307
+#, c-format
+msgid "The keyboard file '%s' does not exist."
+msgstr "Níl comhad méarchláir '%s' ann."
+
+#: src/config.c:312
+#, c-format
+msgid "You have no permissions to read from keyboard file '%s'."
+msgstr "Níl cead agat comhad méarchláir '%s' a léamh."
+
+#: src/config.c:318
 #, c-format
 msgid "'%s' is an invalid keyboard file."
 msgstr "Is comhad neamhbhailí méarchláir é '%s'."
 
-#: src/config.c:276
+#: src/config.c:327
 #, c-format
 msgid "The keyboard file '%s' does not contain a keyboard element."
 msgstr "Níl eilimint mhéarchláir i gcomhad méarchláir '%s'."
 
-#: src/config.c:284
+#: src/config.c:334
 #, c-format
 msgid "The keyboard file '%s' does not contain a key-list element."
 msgstr "Níl eilimint eochairliosta i gcomhad méarchláir '%s'."
 
-#: src/config.c:292
+#: src/config.c:341
 #, c-format
 msgid "The keyboard file '%s' is invalid."
 msgstr "Is neamhbhailí é comhad méarchláir '%s'."
 
-#: src/config.c:376
-msgid "The keyboard configuration file contains an incomplete key element."
-msgstr "Tá eilimint neamhiomlán eochrach i gcomhad chumraíocht an mhéarchláir."
-
-#: src/config.c:400
+#: src/config.c:473
 #, c-format
 msgid ""
 "The keyboard configuration file contains a key, named '%s', which does not "
@@ -288,51 +307,12 @@ msgstr ""
 "Tá eochair darb ainm '%s' i gcomhad chumraíocht an mhéarchláir, ach níl sé i "
 "do chomhad méarchlár."
 
-#: src/config.c:454
-msgid "The keyboard configuration file does not contain a keyboard element."
-msgstr "Níl eilimint mhéarchláir i gcomhad chumraíocht an mhéarchláir."
-
-#: src/config.c:464
-msgid "The keyboard configuration file does not contain a key-list element."
-msgstr "Níl eilimint eochairliosta i gcomhad chumraíocht an mhéarchláir."
-
-#: src/config.c:474
-msgid "The keyboard configuration file is invalid."
-msgstr "Is neamhbhailí é comhad chumraíocht an mhéarchláir."
-
-#: src/config.c:589 src/config.c:615
-#, c-format
-msgid "'%s' is an invalid preferences configuration file."
-msgstr "Is comhad neamhbhailí sainroghanna é '%s'."
-
-#: src/config.c:597
-#, c-format
-msgid "'%s' does has not a preferences element as the root element."
-msgstr "Níl eilimint sainroghanna mar an fhréamheilimint i '%s'."
-
-#: src/config.c:702
+#: src/config.c:789
 #, c-format
 msgid "An error occurred while writing the preferences file \"%s\"."
 msgstr "Tharla earráid agus comhad sainroghanna \"%s\" á scríobh."
 
-#: src/config.c:742
-msgid "No keyboard was specified, please select your keyboard."
-msgstr "Níor sonraíodh méarchlár. Roghnaigh méarchlár, le do thoil."
-
-#: src/config.c:748 src/config.c:756 src/config.c:771
-#, c-format
-msgid "'%s' is invalid"
-msgstr "Is neamhbhailí é '%s'"
-
-#: src/config.c:762
-#, c-format
-msgid ""
-"'%s' is invalid because it has no current-keyboard element as the root element"
-msgstr ""
-"Is neamhbhailí é '%s' toisc nach bhfuil eilimint \"current-keyboard\" mar "
-"fhréamheilimint"
-
-#: src/config.c:1089
+#: src/config.c:1150
 #, c-format
 msgid "An error occurred while writing the keyboard configuration file \"%s\"."
 msgstr "Tharla earráid agus comhad cumraíochta \"%s\" á scríobh."
@@ -380,7 +360,7 @@ msgstr ""
 "Theip ar oscailt \"%s\". Féach an bhfuil cead agat an comhad seo a léamh."
 
 #. Inform the user about this
-#: src/run_browser.c:72
+#: src/run_browser.c:74
 msgid ""
 "Because you did not set your browser in the preferences tab and because "
 "keyTouch could not identify your desktop environment, keyTouch will try to "
@@ -391,3 +371,27 @@ msgstr ""
 "de bhrí nach féidir le keyTouch do thimpeallacht deisce a aithint, déanfaidh "
 "keyTouch iarracht ar 'firefox' a rith.\n"
 "Socraigh do bhrabhsálaí sa chluaisín sainroghanna."
+
+#~ msgid "The keyboard configuration file contains an incomplete key element."
+#~ msgstr "Tá eilimint neamhiomlán eochrach i gcomhad chumraíocht an mhéarchláir."
+
+#~ msgid "The keyboard configuration file does not contain a keyboard element."
+#~ msgstr "Níl eilimint mhéarchláir i gcomhad chumraíocht an mhéarchláir."
+
+#~ msgid "The keyboard configuration file does not contain a key-list element."
+#~ msgstr "Níl eilimint eochairliosta i gcomhad chumraíocht an mhéarchláir."
+
+#~ msgid "The keyboard configuration file is invalid."
+#~ msgstr "Is neamhbhailí é comhad chumraíocht an mhéarchláir."
+
+#~ msgid "'%s' is an invalid preferences configuration file."
+#~ msgstr "Is comhad neamhbhailí sainroghanna é '%s'."
+
+#~ msgid "'%s' does has not a preferences element as the root element."
+#~ msgstr "Níl eilimint sainroghanna mar an fhréamheilimint i '%s'."
+
+#~ msgid "'%s' is invalid"
+#~ msgstr "Is neamhbhailí é '%s'"
+
+#~ msgid "'%s' is invalid because it has no current-keyboard element as the root element"
+#~ msgstr "Is neamhbhailí é '%s' toisc nach bhfuil eilimint \"current-keyboard\" mar fhréamheilimint"
