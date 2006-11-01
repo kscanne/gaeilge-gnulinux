@@ -1363,7 +1363,7 @@ msgstr "Sábháil go huathoibríoch ag am scortha; ná fiafraigh díom"
 
 #: src/nano.c:823
 msgid "View mode (read-only)"
-msgstr "Mód amhairc (léimh-amháin)"
+msgstr "Mód amhairc (inléite amháin)"
 
 #: src/nano.c:825
 msgid "Don't wrap long lines"

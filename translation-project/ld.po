@@ -18,25 +18,26 @@ msgstr ""
 #: emultempl/armcoff.em:72
 #, c-format
 msgid "  --support-old-code   Support interworking with old code\n"
-msgstr ""
+msgstr "  --support-old-code   Tacaigh le comh-inoibritheacht le seanchód\n"
 
 #: emultempl/armcoff.em:73
 #, c-format
 msgid "  --thumb-entry=<sym>  Set the entry point to be Thumb symbol <sym>\n"
 msgstr ""
+"  --thumb-entry=<siom> Socraigh siombail ordóige <siom> mar phointe iontrála\n"
 
 #: emultempl/armcoff.em:121
 #, c-format
 msgid "Errors encountered processing file %s"
-msgstr ""
+msgstr "Tharla earráidí agus comhad %s á phróiseáil"
 
 #: emultempl/armcoff.em:188 emultempl/pe.em:1455
 msgid "%P: warning: '--thumb-entry %s' is overriding '-e %s'\n"
-msgstr ""
+msgstr "%P: rabhadh: sáraíonn '--thumb-entry %s' rogha '-e %s'\n"
 
 #: emultempl/armcoff.em:193 emultempl/pe.em:1460
 msgid "%P: warning: connot find thumb start symbol %s\n"
-msgstr ""
+msgstr "%P: rabhadh: ní féidir siombail ordóige tosaigh %s a aimsiú\n"
 
 #: emultempl/pe.em:301
 #, c-format
@@ -44,39 +45,47 @@ msgid ""
 "  --base_file <basefile>             Generate a base file for relocatable "
 "DLLs\n"
 msgstr ""
+"  --base_file <bunchomhad>           Gin bunchomhad do DLLanna in-athshuite\n"
 
 #: emultempl/pe.em:302
 #, c-format
 msgid ""
 "  --dll                              Set image base to the default for DLLs\n"
 msgstr ""
+"  --dll                              Socraigh bun na híomhá de réir "
+"réamhshocraithe do DLLanna\n"
 
 #: emultempl/pe.em:303
 #, c-format
 msgid "  --file-alignment <size>            Set file alignment\n"
-msgstr ""
+msgstr "  --file-alignment <méid>            Socraigh ailíniú comhad\n"
 
 #: emultempl/pe.em:304
 #, c-format
 msgid "  --heap <size>                      Set initial size of the heap\n"
-msgstr ""
+msgstr "  --heap <méid>                      Socraigh bunmhéid an chairn\n"
 
 #: emultempl/pe.em:305
 #, c-format
 msgid ""
 "  --image-base <address>             Set start address of the executable\n"
 msgstr ""
+"  --image-base <seoladh>             Socraigh seoladh tosaigh an chláir "
+"inrite\n"
 
 #: emultempl/pe.em:306
 #, c-format
 msgid ""
 "  --major-image-version <number>     Set version number of the executable\n"
 msgstr ""
+"  --major-image-version <uimhir>     Socraigh uimhir leagan an chláir inrite\n"
 
 #: emultempl/pe.em:307
 #, c-format
 msgid "  --major-os-version <number>        Set minimum required OS version\n"
 msgstr ""
+"  --major-os-version <uimhir>        Socraigh an leagan CO is lú atá "
+"riachtanach\n"
 
 #: emultempl/pe.em:308
 #, c-format
@@ -84,17 +93,23 @@ msgid ""
 "  --major-subsystem-version <number> Set minimum required OS subsystem "
 "version\n"
 msgstr ""
+"  --major-subsystem-version <uimhir> Socraigh an leagan fo-chórais is lú atá "
+"riachtanach\n"
 
 #: emultempl/pe.em:309
 #, c-format
 msgid ""
 "  --minor-image-version <number>     Set revision number of the executable\n"
 msgstr ""
+"  --minor-image-version <uimhir>     Socraigh uimhir leasaithe an chláir "
+"inrite\n"
 
 #: emultempl/pe.em:310
 #, c-format
 msgid "  --minor-os-version <number>        Set minimum required OS revision\n"
 msgstr ""
+"  --minor-os-version <uimhir>        Socraigh leagan CO is lú atá "
+"riachtanach\n"
 
 #: emultempl/pe.em:311
 #, c-format
@@ -102,28 +117,33 @@ msgid ""
 "  --minor-subsystem-version <number> Set minimum required OS subsystem "
 "revision\n"
 msgstr ""
+"  --minor-subsystem-version <uimhir> Socraigh leasú fo-chórais is lú atá "
+"riachtanach\n"
 
 #: emultempl/pe.em:312
 #, c-format
 msgid "  --section-alignment <size>         Set section alignment\n"
-msgstr ""
+msgstr "  --section-alignment <méid>         Socraigh ailíniú rannán\n"
 
 #: emultempl/pe.em:313
 #, c-format
 msgid "  --stack <size>                     Set size of the initial stack\n"
-msgstr ""
+msgstr "  --stack <méid>                     Socraigh bunmhéid na cruaiche\n"
 
 #: emultempl/pe.em:314
 #, c-format
 msgid ""
 "  --subsystem <name>[:<version>]     Set required OS subsystem [& version]\n"
 msgstr ""
+"  --subsystem <ainm>[:<leagan>]      Socraigh fo-chóras CO [& leagan] is lú "
+"atá riachtanach\n"
 
 #: emultempl/pe.em:315
 #, c-format
 msgid ""
 "  --support-old-code                 Support interworking with old code\n"
 msgstr ""
+"  --support-old-code                 Tacaigh le comh-inoibritheacht le seanchód\n"
 
 #: emultempl/pe.em:316
 #, c-format
@@ -131,70 +151,74 @@ msgid ""
 "  --thumb-entry=<symbol>             Set the entry point to be Thumb "
 "<symbol>\n"
 msgstr ""
+"  --thumb-entry=<siom>               Socraigh siombail ordóige <siom> mar phointe iontrála\n"
 
 #: emultempl/pe.em:318
 #, c-format
 msgid ""
 "  --add-stdcall-alias                Export symbols with and without @nn\n"
 msgstr ""
+"  --add-stdcall-alias                Easpórtáil siombailí le, agus gan @nn\n"
 
 #: emultempl/pe.em:319
 #, c-format
 msgid "  --disable-stdcall-fixup            Don't link _sym to _sym@nn\n"
-msgstr ""
+msgstr "  --disable-stdcall-fixup            Ná nasc _sym le _sym@nn\n"
 
 #: emultempl/pe.em:320
 #, c-format
 msgid ""
 "  --enable-stdcall-fixup             Link _sym to _sym@nn without warnings\n"
 msgstr ""
+"  --enable-stdcall-fixup             Nasc _sym le _sym@nn gan rabhaidh\n"
 
 #: emultempl/pe.em:321
 #, c-format
 msgid ""
 "  --exclude-symbols sym,sym,...      Exclude symbols from automatic export\n"
 msgstr ""
+"  --exclude-symbols siom,siom,...    Eisiaigh siombailí ó easpórtáil uathoibríoch\n"
 
 #: emultempl/pe.em:322
 #, c-format
 msgid ""
-"  --exclude-libs lib,lib,...         Exclude libraries from automatic "
-"export\n"
+"  --exclude-libs lib,lib,...         Exclude libraries from automatic export\n"
 msgstr ""
+"  --exclude-symbols leabh,leabh,...  Eisiaigh leabharlanna ó easpórtáil uathoibríoch\n"
 
 #: emultempl/pe.em:323
 #, c-format
 msgid ""
-"  --export-all-symbols               Automatically export all globals to "
-"DLL\n"
+"  --export-all-symbols               Automatically export all globals to DLL\n"
 msgstr ""
+"  --export-all-symbols               Easpórtáil gach siombail chomhchoiteann go DLL go huathoibríoch\n"
 
 #: emultempl/pe.em:324
 #, c-format
 msgid "  --kill-at                          Remove @nn from exported symbols\n"
-msgstr ""
+msgstr "  --kill-at                          Bain @nn ó shiombailí easpórtáilte\n"
 
 #: emultempl/pe.em:325
 #, c-format
 msgid "  --out-implib <file>                Generate import library\n"
-msgstr ""
+msgstr "  --out-implib <comhad>              Cruthaigh leabharlann iompórtála\n"
 
 #: emultempl/pe.em:326
 #, c-format
 msgid ""
 "  --output-def <file>                Generate a .DEF file for the built DLL\n"
 msgstr ""
+"  --output-def <comhad>              Cruthaigh comhad .DEF le haghaidh an DLL tógtha\n"
 
 #: emultempl/pe.em:327
 #, c-format
 msgid "  --warn-duplicate-exports           Warn about duplicate exports.\n"
-msgstr ""
+msgstr "  --warn-duplicate-exports           Tabhair rabhadh faoi easpórtálacha dúbailte.\n"
 
 #: emultempl/pe.em:328
 #, c-format
 msgid ""
-"  --compat-implib                    Create backward compatible import "
-"libs;\n"
+"  --compat-implib                    Create backward compatible import libs;\n"
 "                                       create __imp_<SYMBOL> as well.\n"
 msgstr ""
 
@@ -212,6 +236,7 @@ msgid ""
 "  --disable-auto-image-base          Do not auto-choose image base. "
 "(default)\n"
 msgstr ""
+"  --disable-auto-image-base          Ná roghnaigh bun na híomhá go huathoibríoch. (réamhshocrú)\n"
 
 #: emultempl/pe.em:333
 #, c-format
@@ -229,20 +254,21 @@ msgid ""
 "  --enable-auto-import               Do sophistcated linking of _sym to\n"
 "                                       __imp_sym for DATA references\n"
 msgstr ""
+"  --enable-auto-import               Déan nascadh sofaisticiúil de _sym le\n"
+"                                       __imp_sym do thagairtí DATA\n"
 
 #: emultempl/pe.em:338
 #, c-format
 msgid ""
-"  --disable-auto-import              Do not auto-import DATA items from "
-"DLLs\n"
+"  --disable-auto-import              Do not auto-import DATA items from DLLs\n"
 msgstr ""
+"  --disable-auto-import              Ná hiompórtáil míreanna DATA ó DLLanna go huathoibríoch\n"
 
 #: emultempl/pe.em:339
 #, c-format
 msgid ""
 "  --enable-runtime-pseudo-reloc      Work around auto-import limitations by\n"
-"                                       adding pseudo-relocations resolved "
-"at\n"
+"                                       adding pseudo-relocations resolved at\n"
 "                                       runtime.\n"
 msgstr ""
 
@@ -259,8 +285,7 @@ msgstr ""
 msgid ""
 "  --enable-extra-pe-debug            Enable verbose debug output when "
 "building\n"
-"                                       or linking to DLLs (esp. auto-"
-"import)\n"
+"                                       or linking to DLLs (esp. auto-import)\n"
 msgstr ""
 
 #: emultempl/pe.em:347
@@ -335,7 +360,7 @@ msgstr ""
 #: emultempl/pe.em:1340 ldexp.c:570 ldlang.c:2408 ldlang.c:5135 ldlang.c:5166
 #: ldmain.c:1161
 msgid "%P%F: bfd_link_hash_lookup failed: %E\n"
-msgstr ""
+msgstr "%P%F: theip ar bfd_link_hash_lookup: %E\n"
 
 #: ldcref.c:153
 msgid "%X%P: bfd_hash_table_init of cref table failed: %E\n"
@@ -343,7 +368,7 @@ msgstr ""
 
 #: ldcref.c:159
 msgid "%X%P: cref_hash_lookup failed: %E\n"
-msgstr ""
+msgstr "%X%P: theip ar cref_hash_lookup: %E\n"
 
 #: ldcref.c:225
 #, c-format
@@ -572,6 +597,9 @@ msgid ""
 "Memory Configuration\n"
 "\n"
 msgstr ""
+"\n"
+"Cumraíocht Chuimhne\n"
+"\n"
 
 #: ldlang.c:1075
 msgid "Name"
@@ -740,8 +768,8 @@ msgstr ""
 
 #: ldlang.c:4227
 msgid ""
-"%P%F: Relocatable linking with relocations from format %s (%B) to format %s "
-"(%B) is not supported\n"
+"%P%F: Relocatable linking with relocations from format %s (%B) to format %s (%"
+"B) is not supported\n"
 msgstr ""
 
 #: ldlang.c:4237
@@ -797,8 +825,7 @@ msgid "%X%P: unknown language `%s' in version information\n"
 msgstr ""
 
 #: ldlang.c:5893
-msgid ""
-"%X%P: anonymous version tag cannot be combined with other version tags\n"
+msgid "%X%P: anonymous version tag cannot be combined with other version tags\n"
 msgstr ""
 
 #: ldlang.c:5902
@@ -1046,8 +1073,8 @@ msgstr ""
 
 #: ldmain.c:1450
 msgid ""
-" relocation truncated to fit: %s against symbol `%T' defined in %A section "
-"in %B"
+" relocation truncated to fit: %s against symbol `%T' defined in %A section in "
+"%B"
 msgstr ""
 
 #: ldmain.c:1460
@@ -1117,7 +1144,6 @@ msgstr ""
 "Is saorbhogearra é an clár seo; is féidir leat é a scaipeadh de réir na\n"
 "gcoinníollacha den GNU General Public License.  Níl baránta ar chor ar bith\n"
 "leis an gclár seo.\n"
-
 
 #: ldver.c:52
 #, c-format

@@ -46,6 +46,7 @@ while ($ARGV = shift @ARGV) {
 		my $str = $msg->msgstr();
 		if (defined($id) && defined($str)) {
 			if ($str and $id) {
+				$id =~ s/^"_: .*\\n//;
 				foreach my $rule (@rules) {
 					my $searchid = $id;
 					my $searchstr = $str;

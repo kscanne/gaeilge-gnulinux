@@ -2566,7 +2566,7 @@ msgstr "`seek' neamhbhailí"
 
 #: errunix.d:237
 msgid "Read-only file system"
-msgstr "Córas comhaid léimh amháin"
+msgstr "Córas comhaid inléite amháin"
 
 #: errunix.d:243
 msgid "Too many links"

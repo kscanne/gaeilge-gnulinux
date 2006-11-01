@@ -37,7 +37,7 @@ msgstr "ní cheadaítear tabhall cúntach anseo"
 
 #: arc-opc.c:399 arc-opc.c:416
 msgid "attempt to set readonly register"
-msgstr "rinneadh iarracht ar thabhall léimh-amháin a shocrú"
+msgstr "rinneadh iarracht ar thabhall inléite amháin a shocrú"
 
 #: arc-opc.c:404 arc-opc.c:421
 msgid "attempt to read writeonly register"

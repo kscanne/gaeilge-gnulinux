@@ -19,6 +19,8 @@ activate	gníomhaigh		gníomhachtaigh	activa		gh?níomha[^c]
 activate	cuir_i_ngníomh		gníomhachtaigh	activa		i.ngníomh
 activate	cuir_ar_obair		gníomhachtaigh	activa		ar.obair
 activate	tosaigh			gníomhachtaigh	activa		th?[oú]s
+adapter		adaptar			cuibheoir	adapt.r		adapt
+adapter		athchóiritheoir		cuibheoir	adapt.r		adapt
 administration	bainistiú		riarachán	administ	bh?ainist
 # Brian O Broin, FRTF  (FARF has clár gnó)
 agenda	clár_gnó			clár_oibre		agenda		r_oibre
@@ -40,6 +42,7 @@ area		achar			limistéar	area		[^n]achai?r
 # Brian Ó Broin
 arrange		réitigh			leag_amach	arrang		[^a-z]réit
 article		airteagal		alt		articl		airteag
+asset		sochar			sócmhainn	asset		sh?ocha
 # FARF/FRTF (FRTF has c~ also)
 attachment	ceangaltán		iatán		attach		ch?eangaltá
 # FARF/FRTF
@@ -88,7 +91,9 @@ capacity	riocht			toilleadh	capacity	riocht
 capacity	toirt			toilleadh	capacity	th?oirt
 # MSG
 capitalization	caipitliú		ceannlitriú	capitali[sz]	ch?aipit
+case		tuiseal			cás		case		th?uis[ei]
 center		láraithe		lárnach		cente?r[^e]	lára
+choose		pioc			roghnaigh	choose		ph?ioc
 chunk		canta			smután		chunk		ch?anta
 # FARF/FRTF
 clear		bánaigh			glan		clear		bh?án
@@ -104,10 +109,10 @@ collater	comhordaitheoir		idirshuiteoir	collat.r	omhordaith
 # FARF/FRTF (~ tráchta)
 comment		léirmheas/léiriú	nóta		comment		léir
 # no FARF/FRTF
-completion	iomlánú			comhlánú	complet		iomlán[aú]
-completion	(comh)líonadh		comhlánú	complet		líon
-completion	slánú			comhlánú	complet		sh?lán[aú]
-completion	críochnú		comhlánú	complet		ríochn
+completion	iomlánú			comhlánú	completi		iomlán[aú]
+completion	(comh)líonadh		comhlánú	completi		líon
+completion	slánú			comhlánú	completi		sh?lán[aú]
+completion	críochnú		comhlánú	completi		ríochn
 # FRTF cum=compose
 compose(r)	ceap(adóir)		cum(adóir)	compos		ch?eap
 # FRTF (FARF has dlúthaigh)
@@ -134,6 +139,7 @@ convert		oiriúnaigh		tiontaigh	conver[ts]	oiriún
 convert		iompaigh		tiontaigh	conver[ts]	iomp
 # FARF/FRTF
 cookie		cuach			fianán		cookie		ch?uai?ch
+corrupt		lofa			truaillithe	corrupt		lofa
 # Séamus like present tense for these; see unable
 # could_not	níorbh_fhéidir		ní_féidir	could.?n.t	níorbh.fhéidir
 # FARF/FRTF
@@ -225,6 +231,7 @@ EOF		EOF			comhadchríoch	eof		eof
 # FRTF léirscrios
 erase		scrios			léirscrios,_glan	eras(e|ing)	[^r]scrios
 erase		bánaigh			glan		eras(e|ing)	bh?án
+error		botún			earráid		error		bh?otú
 # FARF/FRTF for "expression eval"
 evaluation	meas			luacháil	evaluat		mh?eas
 # FRTF
@@ -255,6 +262,10 @@ firewall	balla_slándála		balla_dóiteáin	firewall	allaí?.slá
 # both in FRTF
 flag		brat			bratach		flag		bh?rai?t[^a]
 flag		meirge			bratach		flag		mh?eirge
+floating	foluaineach		snámhphointe,_inathraitheach	floating	fh?oluain
+floating	comhlúthach		snámhphointe,_inathraitheach	floating	ch?omhlúth
+floating	ar_snámh		snámhphointe,_inathraitheach	floating	snámh[^p]
+floating	soghluaiste		snámhphointe,_inathraitheach	floating	sh?oghlua
 # FARF has flapach, FRTF bog
 floppy		bog			flapach		floppy		bh?oi?g
 # FARF/FRTF but we're using comhadlann if English really means directory
@@ -287,13 +298,13 @@ go		gabh			téigh		[^a-z]go[^a-z]	gh?abh
 # FARF bileog, FRTF dáileán
 handout		bileog			dáileán		handout		bh?ileo
 # FARF/FRTF
-hide		cuir_i_bhfolach		folaigh		hidd?e		i.bhfolach
+#hide		cuir_i_bhfolach		folaigh		hidd?e		i.bhfolach
 hide		ceil			folaigh		hidd?e		ch?eil
 hide		cealaigh		folaigh		hidd?e		ch?eal
 # FARF/FRTF
 hilight		soilsigh		aibhsigh	hi(gh)?light	sh?oils
 # FARF/FRTF (FRTF has óstach too)
-host		ósta			óstríomhaire	host		ósta[^i]
+host		ósta			óstríomhaire	host		[^n]ósta[^i]
 hunk		canta			smután		hunk		ch?anta
 # FRTF gives both, FARF deilbhín only
 icon		íocón			deilbhín	icon		íocó
@@ -355,7 +366,7 @@ manual		láimhe			de_láimh	manual	láimhe
 mode		modh			mód		mode[^r]	mh?odh
 # FRTF (FARF = bunathraigh)
 modify		modhnaigh		mionathraigh	modif		mh?odhn
-modify		athraigh		mionathraigh	modif		[^n]athra
+#modify		athraigh		mionathraigh	modif		[^n]athra
 modify		bunathraigh		mionathraigh	modif		bh?unathra
 # FRTF has verb "gléas" but I think this means physically, like on a table
 mount		gléas			feistigh	mount		gh?léas
@@ -379,11 +390,13 @@ noon		um_nóin			meán_lae	[^r]noon	nóin
 nothing		faic/dada/tada		neamhní		none		(faic|[dt]ada)
 # fógraíocht is "advertising"
 notification	fógraíocht		fógairt		notif		fh?ógraío
+object		oibiacht		réad		object		oibiach
 # FRTF
 oblique		claonta			fiar		oblique		ch?laon
 # no FRTF but in OLT
 obsolete	as/gan_feidhm		i_léig		obsole		fh?eidhm
 obsolete	seanchaite		i_léig		obsole		sh?eanchaite
+off		múchta			as		"off		mh?úch
 # FARF (airgeadas) but no FRTF
 offset		seach-chur		fritháireamh	offset		each-chu
 # SÓC agus mise
@@ -414,6 +427,7 @@ password	pasfhocal		focal_faire	pass(code|word)	ph?asfhoc
 path		cosán			conair		path		ch?osái?n
 # FRTF
 peer		piara			comhghleacaí	peer		ph?iar
+pick		pioc			roghnaigh	pick		ph?ioc
 # FRTF
 pixel		picseal			picteilín	pixel		ph?ics
 # Firefox
@@ -423,6 +437,7 @@ pop-up		fuinneog_aníos		preabfhuinneog	pop		aníos
 port		aistriúchán		leagan		port		aistriúch
 # FRTF04 has both, seems to prefer i~ (since suíomh is "site")
 position	suíomh			ionad		position	sh?uío?mh
+precedent	réamhshampla		fasach		precedent	réamhshamp
 # FRTF
 precision	cruinneas		beachtas	precis		ch?ruinn
 # make file prereqs, e.g.; FRTF
@@ -463,6 +478,7 @@ random		corr			randamach	random		ch?orr
 random		teagmhasach		randamach	random		th?eagmhas
 # FARF/FRTF
 range		réim(se)		raon		rang		réim
+read-only	léimh-amháin		inléite_amháin	read.?only	[^a-z]lé[ai]mh.a
 # FRTF, OLT
 real-time	am-beo			fíor-ama	real.?time	am.*bh?eo
 # FRTF
@@ -475,7 +491,8 @@ refresh		úraigh			athnuaigh	refresh		[^a-z]úra
 regexp		slonn_rialta		slonn_ionadaíochta	reg.*exp	rialta
 # usually process not specific documents; FRTF both
 registration	clárúchán		clárú		registration	lárúch
-# FE94 has cúlú=math, OLT, FRTF, etc. aisch* for "testing" I suppose
+# FE94 has cúlú=math, OLT, FRTF, etc. aisch* for "testing" I suppose, but TS
+# now has aisch* for math too
 regression	cúlú			aischéimniú	regress		cúl
 relation	coibhneas		gaol		relation	ch?oibhn
 relation	baint			gaol		relation	bh?aint
@@ -490,20 +507,27 @@ resize		athmhéadaigh		athraigh_méid	resiz		athmhéad
 # like host names, not visually; FRTF has 'taifigh'
 resolve		taifigh			réitigh		resolv		th?aif
 # FRTF
-restore		athshlánaigh		cuir_ar_ais	restor		athshlán
+#restore		athshlánaigh		cuir_ar_ais	restor		athshlán
 # FRTF
 retry		triail_arís		atriail		retry		[^a]tria
 retry		iarracht_eile		atriail		retry		iarracht
 # no FARF or FRTF - Séamus used cúlghairm in TB
+revision	leagan		leasú		revis		leagai?n
 revoke		cealaigh	cúlghairm	revo[kc]	ch?eal
 revoke		aisghairm	cúlghairm	revo[kc]	aisghair
 # FRTF
 rewind		athchas,_cúlchas	atochrais	rewind		(th|úl)chas
-root		fréamh			forúsáideoir	root		fh?réamh
+RLE		RLE			IFR		RLE		RLE
+root		fréamh			forúsáideoir	root		fh?réamh[^c]
+root		sárúsáideor			forúsáideoir	root		sh?árús
+rounded		cruinn			cuar		rounded		ch?ruinn
+row		sraith			ró		row		srai?th
+salutation	fáilte			beannacht	salutat		fh?áilt
 # FARF/FRTF
 save		cuir_i_dtaisce		sábháil		sav(ing|e)	th?aisc
 # FARF/FRTF
 schema		scéim			scéimre		schema		scéim[^r]
+select		pioc			roghnaigh	select		ph?ioc
 # FRTF
 sensor		brathadóir		braiteoir	sensor		bh?rathad
 # FARF/FRTF
@@ -511,6 +535,8 @@ server		friothálaí		freastalaí	server		fh?riothál
 server		dáileoir		freastalaí	server		dh?áileoi?r
 # FARF/FRTF cumraíocht
 setup		cumraigh		socrú		setup		ch?umr
+# Keep scáthú  for "shadowing", see OOo
+shading		scáthú			scáthlíniú	shading		scáth[^l]
 # no FRTF or FARF; OLT has "stiall" for paper
 shred		mionghearr		léirscrios	shred		mh?ion
 shred		stiall			léirscrios	shred		stiall
@@ -546,6 +572,7 @@ swap		malartaigh		babhtáil	swap		mh?alai?rt
 symbol		comhartha		siombail	symbol		ch?omhart
 symbol		samhaltán		siombail	symbol		sh?amhaltán
 tab		clib			táb,_cluaisín	tab		ch?lib
+table		bord			tábla		table		bh?oi?rd
 # FRTF
 tag		marcáil			clibeáil	tag		mh?arc
 # FRTF

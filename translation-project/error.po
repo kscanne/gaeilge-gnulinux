@@ -329,7 +329,7 @@ msgid "RFS specific error"
 msgstr "Earráid ag baint le `RFS'"
 
 msgid "Read-only file system"
-msgstr "Córas comhaid léimh amháin"
+msgstr "Córas comhaid inléite amháin"
 
 msgid "Remote I/O error"
 msgstr "Earráid I/A i gcéin"

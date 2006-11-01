@@ -2041,7 +2041,7 @@ msgstr "`seek' neamhbhailí"
 #: stdio-common/../sysdeps/gnu/errlist.c:327
 #: stdio-common/../sysdeps/unix/sysv/sysv4/solaris2/sparc/errlist.c:60
 msgid "Read-only file system"
-msgstr "Córas comhaid léimh amháin"
+msgstr "Córas comhaid inléite amháin"
 
 #. TRANS Too many links; the link count of a single file would become too large.
 #. TRANS @code{rename} can cause this error if the file being renamed already has
@@ -4321,7 +4321,7 @@ msgstr ""
 
 #: sunrpc/rpcinfo.c:658
 msgid "Sorry. You are not root\n"
-msgstr "Tá brón orm. Ní sárúsáideoir thú\n"
+msgstr "Tá brón orm. Ní forúsáideoir thú\n"
 
 #: sunrpc/rpcinfo.c:665
 #, c-format

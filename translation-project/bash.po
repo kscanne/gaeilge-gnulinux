@@ -5,3412 +5,2756 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: bash 2.0\n"
-"PO-Revision-Date: 2005-09-13 18:03-0500\n"
+"Project-Id-Version: bash 3.2\n"
+"POT-Creation-Date: 2006-10-23 17:20-0400\n"
+"PO-Revision-Date: 2006-10-25 18:03-0500\n"
 "Last-Translator: Kevin Patrick Scannell <scannell@SLU.EDU>\n"
 "Language-Team: Irish <gaeilge-gnulinux@lists.sourceforge.net>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=ISO-8859-1\n"
 "Content-Transfer-Encoding: 8-bit\n"
 
-#: bashhist.c:253
-msgid "%s: cannot create: %s"
-msgstr "%s: ní féidir cruthú: %s"
-
-#: braces.c:107
-msgid "Missing `}'"
-msgstr "`}' ar iarraidh"
-
-#: braces.c:342
-msgid "brace_expand> "
-msgstr ""
-
-#: dispose_cmd.c:146
-msgid "Attempt to free unknown command type `%d'.\n"
-msgstr ""
-
-#: error.c:91
-msgid "Report this to %s\n"
-msgstr ""
-
-#: error.c:92 error.c:151
-msgid "Stopping myself..."
-msgstr ""
-
-#: error.c:150
-msgid "Tell %s to fix this someday.\n"
-msgstr ""
-
-#: execute_cmd.c:790
-msgid "execute_command: bad command type `%d'"
-msgstr ""
-
-#: execute_cmd.c:884 execute_cmd.c:898
-msgid "real\t"
-msgstr "fíor\t"
-
-#: execute_cmd.c:888 execute_cmd.c:901
-msgid "user\t"
-msgstr "úsáideoir\t"
-
-#: execute_cmd.c:892 execute_cmd.c:904
-msgid "sys\t"
-msgstr "córas\t"
-
-#: execute_cmd.c:906
-msgid ""
-"real\t0m0.00s\n"
-"user\t0m0.00s\n"
-"sys\t0m0.00s\n"
-msgstr ""
-"fíor\t0m0.00s\n"
-"úsáideoir\t0m0.00s\n"
-"córas\t0m0.00s\n"
-
-#: execute_cmd.c:940
-msgid "pipe error: %s"
-msgstr ""
-
-#: execute_cmd.c:1160
-msgid "bad connector `%d'"
-msgstr ""
-
-#: execute_cmd.c:2318
-msgid "%s: restricted: cannot specify `/' in command names"
-msgstr ""
-
-#: execute_cmd.c:2391
-msgid "%s: command not found"
-msgstr ""
-
-#: execute_cmd.c:2523
-msgid "%s: is a directory"
-msgstr "%s: is comhadlann í"
-
-#: execute_cmd.c:2564 shell.c:728
-msgid "%s: cannot execute binary file"
-msgstr ""
-
-#: execute_cmd.c:2628
-msgid "%s: readonly function"
-msgstr ""
-
-#: execute_cmd.c:2670
-msgid "cannot duplicate fd %d to fd 0: %s"
-msgstr ""
-
-#: execute_cmd.c:2680
-msgid "cannot duplicate fd %d to fd 1: %s"
-msgstr ""
-
-#: execute_cmd.c:2718
-msgid "%s: Ambiguous redirect"
-msgstr ""
-
-#: execute_cmd.c:2722
-msgid "%s: Cannot clobber existing file"
-msgstr ""
-
-#: execute_cmd.c:2727
-msgid "%s: output redirection restricted"
-msgstr ""
-
-#: execute_cmd.c:3260
-msgid "redirection error"
-msgstr ""
-
-#: expr.c:164
-msgid "expression recursion level exceeded"
-msgstr ""
-
-#: expr.c:190
-msgid "Recursion stack underflow"
-msgstr ""
-
-#: expr.c:261 expr.c:690
-msgid "syntax error in expression"
-msgstr "earráid chomhréire i slonn"
-
-#: expr.c:321
-msgid "attempted assignment to non-variable"
-msgstr ""
-
-#: expr.c:365
-msgid "bug: bad expassign token %d"
-msgstr ""
-
-#: expr.c:392 expr.c:402
-msgid "expression expected"
-msgstr "bhíothas ag súil le slonn"
-
-#: expr.c:399
-msgid "`:' expected for conditional expression"
-msgstr ""
-
-#: expr.c:625
-msgid "division by 0"
-msgstr ""
-
-#: expr.c:679
-msgid "missing `)'"
-msgstr "`)' ar iarraidh"
-
-#: expr.c:746
+#: arrayfunc.c:48
 msgid "bad array subscript"
 msgstr ""
 
-#: expr.c:841
-msgid "%s: %s: %s (error token is \"%s\")\n"
+#: arrayfunc.c:362
+#, c-format
+msgid "%s: cannot assign to non-numeric index"
 msgstr ""
 
-#: expr.c:909
+#: bashhist.c:331
+#, c-format
+msgid "%s: cannot create: %s"
+msgstr "%s: ní féidir cruthú: %s"
+
+#: bashline.c:3030
+msgid "bash_execute_unix_command: cannot find keymap for command"
+msgstr ""
+
+#: bashline.c:3079
+#, c-format
+msgid "%s: first non-whitespace character is not `\"'"
+msgstr ""
+
+#: bashline.c:3108
+#, c-format
+msgid "no closing `%c' in %s"
+msgstr ""
+
+#: bashline.c:3142
+#, c-format
+msgid "%s: missing colon separator"
+msgstr ""
+
+#: builtins/bind.def:194
+#, c-format
+msgid "`%s': invalid keymap name"
+msgstr ""
+
+#: builtins/bind.def:233
+#, c-format
+msgid "%s: cannot read: %s"
+msgstr "%s: ní féidir léamh: %s"
+
+#: builtins/bind.def:248
+#, c-format
+msgid "`%s': cannot unbind"
+msgstr ""
+
+#: builtins/bind.def:283
+#, c-format
+msgid "`%s': unknown function name"
+msgstr ""
+
+#: builtins/bind.def:291
+#, c-format
+msgid "%s is not bound to any keys.\n"
+msgstr ""
+
+#: builtins/bind.def:295
+#, c-format
+msgid "%s can be invoked via "
+msgstr ""
+
+#: builtins/break.def:128
+msgid "only meaningful in a `for', `while', or `until' loop"
+msgstr ""
+
+#: builtins/caller.def:131
+msgid "Returns the context of the current subroutine call."
+msgstr ""
+
+#: builtins/caller.def:132 builtins/caller.def:136 builtins/pushd.def:666
+#: builtins/pushd.def:674 builtins/pushd.def:677 builtins/pushd.def:687
+#: builtins/pushd.def:691 builtins/pushd.def:695 builtins/pushd.def:698
+#: builtins/pushd.def:701 builtins/pushd.def:710 builtins/pushd.def:714
+#: builtins/pushd.def:718 builtins/pushd.def:721
+msgid " "
+msgstr ""
+
+#: builtins/caller.def:133
+msgid "Without EXPR, returns returns \"$line $filename\".  With EXPR,"
+msgstr ""
+
+#: builtins/caller.def:134
+msgid "returns \"$line $subroutine $filename\"; this extra information"
+msgstr ""
+
+#: builtins/caller.def:135
+msgid "can be used used to provide a stack trace."
+msgstr ""
+
+#: builtins/caller.def:137
+msgid "The value of EXPR indicates how many call frames to go back before the"
+msgstr ""
+
+#: builtins/caller.def:138
+msgid "current one; the top frame is frame 0."
+msgstr ""
+
+#: builtins/cd.def:204
+msgid "HOME not set"
+msgstr ""
+
+#: builtins/cd.def:216
+msgid "OLDPWD not set"
+msgstr ""
+
+#: builtins/common.c:133 test.c:822
+msgid "too many arguments"
+msgstr "an iomarca argóintí"
+
+#: builtins/common.c:157 shell.c:474 shell.c:748
+#, c-format
+msgid "%s: option requires an argument"
+msgstr ""
+
+#: builtins/common.c:164
+#, c-format
+msgid "%s: numeric argument required"
+msgstr ""
+
+#: builtins/common.c:171
+#, c-format
+msgid "%s: not found"
+msgstr ""
+
+#: builtins/common.c:180 shell.c:761
+#, c-format
+msgid "%s: invalid option"
+msgstr ""
+
+#: builtins/common.c:187
+#, c-format
+msgid "%s: invalid option name"
+msgstr ""
+
+#: builtins/common.c:194 general.c:230 general.c:235
+#, c-format
+msgid "`%s': not a valid identifier"
+msgstr ""
+
+#: builtins/common.c:201
+#, c-format
+msgid "%s: invalid number"
+msgstr "%s: uimhir neamhbhailí"
+
+#: builtins/common.c:208
+#, c-format
+msgid "%s: invalid signal specification"
+msgstr ""
+
+#: builtins/common.c:215
+#, c-format
+msgid "`%s': not a pid or valid job spec"
+msgstr ""
+
+#: builtins/common.c:222 error.c:451
+#, c-format
+msgid "%s: readonly variable"
+msgstr "%s: athróg inléite amháin"
+
+#: builtins/common.c:230
+#, c-format
+msgid "%s: %s out of range"
+msgstr "%s: %s as raon"
+
+#: builtins/common.c:230 builtins/common.c:232
+msgid "argument"
+msgstr "argóint"
+
+#: builtins/common.c:232
+#, c-format
+msgid "%s out of range"
+msgstr "%s as raon"
+
+#: builtins/common.c:240
+#, c-format
+msgid "%s: no such job"
+msgstr ""
+
+#: builtins/common.c:248
+#, c-format
+msgid "%s: no job control"
+msgstr ""
+
+#: builtins/common.c:250
+msgid "no job control"
+msgstr ""
+
+#: builtins/common.c:260
+#, c-format
+msgid "%s: restricted"
+msgstr "%s: srianta"
+
+#: builtins/common.c:262
+msgid "restricted"
+msgstr "srianta"
+
+#: builtins/common.c:270
+#, c-format
+msgid "%s: not a shell builtin"
+msgstr ""
+
+#: builtins/common.c:276
+#, c-format
+msgid "write error: %s"
+msgstr ""
+
+#: builtins/common.c:481
+#, c-format
+msgid "%s: error retrieving current directory: %s: %s\n"
+msgstr ""
+
+#: builtins/common.c:547 builtins/common.c:549
+#, c-format
+msgid "%s: ambiguous job spec"
+msgstr ""
+
+#: builtins/complete.def:251
+#, c-format
+msgid "%s: invalid action name"
+msgstr ""
+
+#: builtins/complete.def:381 builtins/complete.def:524
+#, c-format
+msgid "%s: no completion specification"
+msgstr ""
+
+#: builtins/complete.def:571
+msgid "warning: -F option may not work as you expect"
+msgstr ""
+
+#: builtins/complete.def:573
+msgid "warning: -C option may not work as you expect"
+msgstr ""
+
+#: builtins/declare.def:106
+msgid "can only be used in a function"
+msgstr ""
+
+#: builtins/declare.def:306
+msgid "cannot use `-f' to make functions"
+msgstr ""
+
+#: builtins/declare.def:318 execute_cmd.c:4073
+#, c-format
+msgid "%s: readonly function"
+msgstr ""
+
+#: builtins/declare.def:406
+#, c-format
+msgid "%s: cannot destroy array variables in this way"
+msgstr ""
+
+#: builtins/enable.def:128 builtins/enable.def:136
+msgid "dynamic loading not available"
+msgstr ""
+
+#: builtins/enable.def:303
+#, c-format
+msgid "cannot open shared object %s: %s"
+msgstr ""
+
+#: builtins/enable.def:326
+#, c-format
+msgid "cannot find %s in shared object %s: %s"
+msgstr ""
+
+#: builtins/enable.def:450
+#, c-format
+msgid "%s: not dynamically loaded"
+msgstr ""
+
+#: builtins/enable.def:465
+#, c-format
+msgid "%s: cannot delete: %s"
+msgstr "%s: ní féidir scriosadh: %s"
+
+#: builtins/evalfile.c:129 execute_cmd.c:3930 shell.c:1409
+#, c-format
+msgid "%s: is a directory"
+msgstr "%s: is comhadlann í"
+
+#: builtins/evalfile.c:134
+#, c-format
+msgid "%s: not a regular file"
+msgstr ""
+
+#: builtins/evalfile.c:142
+#, c-format
+msgid "%s: file is too large"
+msgstr ""
+
+#: builtins/exec.def:205
+#, c-format
+msgid "%s: cannot execute: %s"
+msgstr "%s: ní féidir rith: %s"
+
+#: builtins/exit.def:83
+msgid "not login shell: use `exit'"
+msgstr ""
+
+#: builtins/exit.def:111
+msgid "There are stopped jobs.\n"
+msgstr ""
+
+#: builtins/fc.def:258
+msgid "no command found"
+msgstr ""
+
+#: builtins/fc.def:328
+msgid "history specification"
+msgstr ""
+
+#: builtins/fc.def:349
+#, c-format
+msgid "%s: cannot open temp file: %s"
+msgstr "%s: ní féidir comhad sealadach a oscailt: %s"
+
+#: builtins/fg_bg.def:149
+#, c-format
+msgid "job %d started without job control"
+msgstr ""
+
+#: builtins/getopt.c:109
+#, c-format
+msgid "%s: illegal option -- %c\n"
+msgstr "%s: rogha neamhcheadaithe -- %c\n"
+
+#: builtins/getopt.c:110
+#, c-format
+msgid "%s: option requires an argument -- %c\n"
+msgstr ""
+
+#: builtins/hash.def:84
+msgid "hashing disabled"
+msgstr ""
+
+#: builtins/hash.def:130
+#, c-format
+msgid "%s: hash table empty\n"
+msgstr ""
+
+#: builtins/help.def:108
+msgid "Shell commands matching keywords `"
+msgstr ""
+
+#: builtins/help.def:110
+msgid "Shell commands matching keyword `"
+msgstr ""
+
+#: builtins/help.def:138
+#, c-format
+msgid ""
+"no help topics match `%s'.  Try `help help' or `man -k %s' or `info %s'."
+msgstr ""
+
+#: builtins/help.def:164
+#, c-format
+msgid "%s: cannot open: %s"
+msgstr "%s: ní féidir oscailt: %s"
+
+#: builtins/help.def:182
+msgid ""
+"These shell commands are defined internally.  Type `help' to see this list.\n"
+"Type `help name' to find out more about the function `name'.\n"
+"Use `info bash' to find out more about the shell in general.\n"
+"Use `man -k' or `info' to find out more about commands not in this list.\n"
+"\n"
+"A star (*) next to a name means that the command is disabled.\n"
+"\n"
+msgstr ""
+
+#: builtins/history.def:150
+msgid "cannot use more than one of -anrw"
+msgstr ""
+
+#: builtins/history.def:182
+msgid "history position"
+msgstr ""
+
+#: builtins/history.def:400
+#, c-format
+msgid "%s: history expansion failed"
+msgstr ""
+
+#: builtins/jobs.def:99
+msgid "no other options allowed with `-x'"
+msgstr ""
+
+#: builtins/kill.def:187
+#, c-format
+msgid "%s: arguments must be process or job IDs"
+msgstr ""
+
+#: builtins/kill.def:250
+msgid "Unknown error"
+msgstr "Earráid anaithnid"
+
+#: builtins/let.def:94 builtins/let.def:119 expr.c:498 expr.c:513
+msgid "expression expected"
+msgstr "bhíothas ag súil le slonn"
+
+#: builtins/printf.def:339
+#, c-format
+msgid "`%s': missing format character"
+msgstr ""
+
+#: builtins/printf.def:516
+#, c-format
+msgid "`%c': invalid format character"
+msgstr ""
+
+#: builtins/printf.def:722
+msgid "missing hex digit for \\x"
+msgstr ""
+
+#: builtins/pushd.def:175
+msgid "no other directory"
+msgstr ""
+
+#: builtins/pushd.def:442
+msgid "<no current directory>"
+msgstr ""
+
+#: builtins/pushd.def:663
+msgid "Display the list of currently remembered directories.  Directories"
+msgstr ""
+
+#: builtins/pushd.def:664
+msgid "find their way onto the list with the `pushd' command; you can get"
+msgstr ""
+
+#: builtins/pushd.def:665
+msgid "back up through the list with the `popd' command."
+msgstr ""
+
+#: builtins/pushd.def:667
+msgid "The -l flag specifies that `dirs' should not print shorthand versions"
+msgstr ""
+
+#: builtins/pushd.def:668
+msgid "of directories which are relative to your home directory.  This means"
+msgstr ""
+
+#: builtins/pushd.def:669
+msgid "that `~/bin' might be displayed as `/homes/bfox/bin'.  The -v flag"
+msgstr ""
+
+#: builtins/pushd.def:670
+msgid "causes `dirs' to print the directory stack with one entry per line,"
+msgstr ""
+
+#: builtins/pushd.def:671
+msgid "prepending the directory name with its position in the stack.  The -p"
+msgstr ""
+
+#: builtins/pushd.def:672
+msgid "flag does the same thing, but the stack position is not prepended."
+msgstr ""
+
+#: builtins/pushd.def:673
+msgid "The -c flag clears the directory stack by deleting all of the elements."
+msgstr ""
+
+#: builtins/pushd.def:675
+msgid "+N   displays the Nth entry counting from the left of the list shown by"
+msgstr ""
+
+#: builtins/pushd.def:676 builtins/pushd.def:679
+msgid "     dirs when invoked without options, starting with zero."
+msgstr ""
+
+#: builtins/pushd.def:678
+msgid ""
+"-N   displays the Nth entry counting from the right of the list shown by"
+msgstr ""
+
+#: builtins/pushd.def:684
+msgid "Adds a directory to the top of the directory stack, or rotates"
+msgstr ""
+
+#: builtins/pushd.def:685
+msgid "the stack, making the new top of the stack the current working"
+msgstr ""
+
+#: builtins/pushd.def:686
+msgid "directory.  With no arguments, exchanges the top two directories."
+msgstr ""
+
+#: builtins/pushd.def:688
+msgid "+N   Rotates the stack so that the Nth directory (counting"
+msgstr ""
+
+#: builtins/pushd.def:689
+msgid "     from the left of the list shown by `dirs', starting with"
+msgstr ""
+
+#: builtins/pushd.def:690 builtins/pushd.def:694
+msgid "     zero) is at the top."
+msgstr ""
+
+#: builtins/pushd.def:692
+msgid "-N   Rotates the stack so that the Nth directory (counting"
+msgstr ""
+
+#: builtins/pushd.def:693
+msgid "     from the right of the list shown by `dirs', starting with"
+msgstr ""
+
+#: builtins/pushd.def:696
+msgid "-n   suppress the normal change of directory when adding directories"
+msgstr ""
+
+#: builtins/pushd.def:697
+msgid "     to the stack, so only the stack is manipulated."
+msgstr ""
+
+#: builtins/pushd.def:699
+msgid "dir  adds DIR to the directory stack at the top, making it the"
+msgstr ""
+
+#: builtins/pushd.def:700
+msgid "     new current working directory."
+msgstr ""
+
+#: builtins/pushd.def:702 builtins/pushd.def:722
+msgid "You can see the directory stack with the `dirs' command."
+msgstr ""
+
+#: builtins/pushd.def:707
+msgid "Removes entries from the directory stack.  With no arguments,"
+msgstr ""
+
+#: builtins/pushd.def:708
+msgid "removes the top directory from the stack, and cd's to the new"
+msgstr ""
+
+#: builtins/pushd.def:709
+msgid "top directory."
+msgstr ""
+
+#: builtins/pushd.def:711
+msgid "+N   removes the Nth entry counting from the left of the list"
+msgstr ""
+
+#: builtins/pushd.def:712
+msgid "     shown by `dirs', starting with zero.  For example: `popd +0'"
+msgstr ""
+
+#: builtins/pushd.def:713
+msgid "     removes the first directory, `popd +1' the second."
+msgstr ""
+
+#: builtins/pushd.def:715
+msgid "-N   removes the Nth entry counting from the right of the list"
+msgstr ""
+
+#: builtins/pushd.def:716
+msgid "     shown by `dirs', starting with zero.  For example: `popd -0'"
+msgstr ""
+
+#: builtins/pushd.def:717
+msgid "     removes the last directory, `popd -1' the next to last."
+msgstr ""
+
+#: builtins/pushd.def:719
+msgid "-n   suppress the normal change of directory when removing directories"
+msgstr ""
+
+#: builtins/pushd.def:720
+msgid "     from the stack, so only the stack is manipulated."
+msgstr ""
+
+#: builtins/read.def:210
+#, c-format
+msgid "%s: invalid timeout specification"
+msgstr ""
+
+#: builtins/read.def:233
+#, c-format
+msgid "%s: invalid file descriptor specification"
+msgstr ""
+
+#: builtins/read.def:240
+#, c-format
+msgid "%d: invalid file descriptor: %s"
+msgstr ""
+
+#: builtins/read.def:478
+#, c-format
+msgid "read error: %d: %s"
+msgstr ""
+
+#: builtins/return.def:63
+msgid "can only `return' from a function or sourced script"
+msgstr ""
+
+#: builtins/set.def:744
+msgid "cannot simultaneously unset a function and a variable"
+msgstr ""
+
+#: builtins/set.def:781
+#, c-format
+msgid "%s: cannot unset"
+msgstr ""
+
+#: builtins/set.def:788
+#, c-format
+msgid "%s: cannot unset: readonly %s"
+msgstr ""
+
+#: builtins/set.def:799
+#, c-format
+msgid "%s: not an array variable"
+msgstr ""
+
+#: builtins/setattr.def:166
+#, c-format
+msgid "%s: not a function"
+msgstr ""
+
+#: builtins/shift.def:66 builtins/shift.def:72
+msgid "shift count"
+msgstr ""
+
+#: builtins/shopt.def:227
+msgid "cannot set and unset shell options simultaneously"
+msgstr ""
+
+#: builtins/shopt.def:292
+#, c-format
+msgid "%s: invalid shell option name"
+msgstr ""
+
+#: builtins/source.def:115
+msgid "filename argument required"
+msgstr ""
+
+#: builtins/source.def:135
+#, c-format
+msgid "%s: file not found"
+msgstr ""
+
+#: builtins/suspend.def:95
+msgid "cannot suspend"
+msgstr ""
+
+#: builtins/suspend.def:105
+msgid "cannot suspend a login shell"
+msgstr ""
+
+#: builtins/type.def:232
+#, c-format
+msgid "%s is aliased to `%s'\n"
+msgstr ""
+
+#: builtins/type.def:253
+#, c-format
+msgid "%s is a shell keyword\n"
+msgstr ""
+
+#: builtins/type.def:273
+#, c-format
+msgid "%s is a function\n"
+msgstr "%s: is feidhm í\n"
+
+#: builtins/type.def:298
+#, c-format
+msgid "%s is a shell builtin\n"
+msgstr ""
+
+#: builtins/type.def:319
+#, c-format
+msgid "%s is %s\n"
+msgstr ""
+
+#: builtins/type.def:339
+#, c-format
+msgid "%s is hashed (%s)\n"
+msgstr ""
+
+#: builtins/ulimit.def:352
+#, c-format
+msgid "%s: invalid limit argument"
+msgstr ""
+
+#: builtins/ulimit.def:378
+#, c-format
+msgid "`%c': bad command"
+msgstr ""
+
+#: builtins/ulimit.def:407
+#, c-format
+msgid "%s: cannot get limit: %s"
+msgstr ""
+
+#: builtins/ulimit.def:445
+#, c-format
+msgid "%s: cannot modify limit: %s"
+msgstr ""
+
+#: builtins/umask.def:112
+msgid "octal number"
+msgstr ""
+
+#: builtins/umask.def:226
+#, c-format
+msgid "`%c': invalid symbolic mode operator"
+msgstr ""
+
+#: builtins/umask.def:281
+#, c-format
+msgid "`%c': invalid symbolic mode character"
+msgstr ""
+
+#: error.c:163
+#, c-format
+msgid "last command: %s\n"
+msgstr ""
+
+#: error.c:171
+msgid "Aborting..."
+msgstr ""
+
+#: error.c:258
+#, c-format
+msgid "%s: warning: "
+msgstr "%s: rabhadh: "
+
+#: error.c:403
+msgid "unknown command error"
+msgstr ""
+
+#: error.c:404
+msgid "bad command type"
+msgstr ""
+
+#: error.c:405
+msgid "bad connector"
+msgstr ""
+
+#: error.c:406
+msgid "bad jump"
+msgstr ""
+
+#: error.c:444
+#, c-format
+msgid "%s: unbound variable"
+msgstr ""
+
+#: eval.c:176
+msgid "timed out waiting for input: auto-logout\n"
+msgstr ""
+
+#: execute_cmd.c:474
+#, c-format
+msgid "cannot redirect standard input from /dev/null: %s"
+msgstr ""
+
+#: execute_cmd.c:1058
+#, c-format
+msgid "TIMEFORMAT: `%c': invalid format character"
+msgstr ""
+
+#: execute_cmd.c:3629
+#, c-format
+msgid "%s: restricted: cannot specify `/' in command names"
+msgstr ""
+
+#: execute_cmd.c:3717
+#, c-format
+msgid "%s: command not found"
+msgstr ""
+
+#: execute_cmd.c:3963
+#, c-format
+msgid "%s: %s: bad interpreter"
+msgstr ""
+
+#: execute_cmd.c:4000
+#, c-format
+msgid "%s: cannot execute binary file"
+msgstr ""
+
+#: execute_cmd.c:4112
+#, c-format
+msgid "cannot duplicate fd %d to fd %d"
+msgstr ""
+
+#: expr.c:241
+msgid "expression recursion level exceeded"
+msgstr ""
+
+#: expr.c:265
+msgid "recursion stack underflow"
+msgstr ""
+
+#: expr.c:376
+msgid "syntax error in expression"
+msgstr "earráid chomhréire i slonn"
+
+#: expr.c:416
+msgid "attempted assignment to non-variable"
+msgstr ""
+
+#: expr.c:437 expr.c:442 expr.c:752
+msgid "division by 0"
+msgstr ""
+
+#: expr.c:468
+msgid "bug: bad expassign token"
+msgstr ""
+
+#: expr.c:510
+msgid "`:' expected for conditional expression"
+msgstr ""
+
+#: expr.c:777
+msgid "exponent less than 0"
+msgstr ""
+
+#: expr.c:822
+msgid "identifier expected after pre-increment or pre-decrement"
+msgstr ""
+
+#: expr.c:850
+msgid "missing `)'"
+msgstr "`)' ar iarraidh"
+
+#: expr.c:893 expr.c:1171
+msgid "syntax error: operand expected"
+msgstr "earráid chomhréire: ag súil le hoibreann"
+
+#: expr.c:1173
+msgid "syntax error: invalid arithmetic operator"
+msgstr ""
+
+#: expr.c:1251
+msgid "invalid number"
+msgstr ""
+
+#: expr.c:1255
+msgid "invalid arithmetic base"
+msgstr ""
+
+#: expr.c:1275
 msgid "value too great for base"
 msgstr ""
 
-#: general.c:373 general.c:378
-msgid "`%s' is not a valid identifier"
+#: general.c:61
+msgid "getcwd: cannot access parent directories"
 msgstr ""
 
-#: hashlib.c:265
-msgid "Out of memory!"
-msgstr "Cuimhne ídithe!"
-
-#: hashlib.c:290
-msgid "You have already added item `%s'\n"
+#: input.c:237
+#, c-format
+msgid "cannot allocate new file descriptor for bash input from fd %d"
 msgstr ""
 
-#: hashlib.c:299
-msgid "You have entered %d (%d) items.  The distribution is:\n"
+#: input.c:245
+#, c-format
+msgid "save_bash_input: buffer already exists for new fd %d"
 msgstr ""
-
-#: hashlib.c:309
-msgid "slot %3d: "
-msgstr "sliotán %3d: "
-
-#: input.c:157
-msgid "cannot allocate new file descriptor for bash input from fd %d: %s"
-msgstr ""
-
-#: input.c:166
-msgid "check_bash_input: buffer already exists for new fd %d"
-msgstr ""
-
-#: jobs.c:284 jobs.c:301
-msgid "<unknown>"
-msgstr "<anaithnid>"
-
-#: jobs.c:775
-msgid "describe_pid: No such pid (%d)!\n"
-msgstr ""
-
-#: jobs.c:855 jobs.c:874
-msgid "Done"
-msgstr "Críochnaithe"
-
-#: jobs.c:858 siglist.c:122
-msgid "Stopped"
-msgstr "Stoptha"
-
-#: jobs.c:861
-msgid "Running"
-msgstr "Ag Rith"
 
 #: jobs.c:876
-msgid "Done(%d)"
+#, c-format
+msgid "forked pid %d appears in running job %d"
 msgstr ""
 
-#: jobs.c:878
-msgid "Exit %d"
+#: jobs.c:983
+#, c-format
+msgid "deleting stopped job %d with process group %ld"
 msgstr ""
 
-#: jobs.c:881
-msgid "Unknown status"
+#: jobs.c:1378
+#, c-format
+msgid "describe_pid: %ld: no such pid"
 msgstr ""
 
-#: jobs.c:908
-msgid "(core dumped) "
+#: jobs.c:2061 nojobs.c:575
+#, c-format
+msgid "wait: pid %ld is not a child of this shell"
 msgstr ""
 
-#: jobs.c:1075
-msgid "child setpgid (%d to %d) error %d: %s\n"
+#: jobs.c:2265
+#, c-format
+msgid "wait_for: No record of process %ld"
 msgstr ""
 
-#: jobs.c:1345
-msgid "wait: pid %d is not a child of this shell"
+#: jobs.c:2524
+#, c-format
+msgid "wait_for_job: job %d is stopped"
 msgstr ""
 
-#: jobs.c:1849
+#: jobs.c:2746
+#, c-format
 msgid "%s: job has terminated"
 msgstr ""
 
-#: jobs.c:1858
-msgid "%s: bg background job?"
+#: jobs.c:2755
+#, c-format
+msgid "%s: job %d already in background"
 msgstr ""
 
-#: jobs.c:2309 nojobs.c:566
-msgid " (core dumped)"
-msgstr " (córdhumpa)"
-
-#: jobs.c:2321 jobs.c:2334
-msgid "(wd now: %s)\n"
-msgstr ""
-
-#: jobs.c:2358
-msgid "initialize_jobs: getpgrp failed: %s"
-msgstr ""
-
-#: jobs.c:2425
-msgid "initialize_jobs: line discipline: %s"
-msgstr ""
-
-#: jobs.c:2447
+#: jobs.c:3546
 msgid "no job control in this shell"
 msgstr ""
 
-#: mailcheck.c:374
+#: lib/malloc/malloc.c:298
+#, c-format
+msgid "malloc: failed assertion: %s\n"
+msgstr ""
+
+#: lib/malloc/malloc.c:314
+#, c-format
+msgid ""
+"\r\n"
+"malloc: %s:%d: assertion botched\r\n"
+msgstr ""
+
+#: lib/malloc/malloc.c:799
+msgid "malloc: block on free list clobbered"
+msgstr ""
+
+#: lib/malloc/malloc.c:876
+msgid "free: called with already freed block argument"
+msgstr ""
+
+#: lib/malloc/malloc.c:879
+msgid "free: called with unallocated block argument"
+msgstr ""
+
+#: lib/malloc/malloc.c:898
+msgid "free: underflow detected; mh_nbytes out of range"
+msgstr ""
+
+#: lib/malloc/malloc.c:904
+msgid "free: start and end chunk sizes differ"
+msgstr ""
+
+#: lib/malloc/malloc.c:1003
+msgid "realloc: called with unallocated block argument"
+msgstr ""
+
+#: lib/malloc/malloc.c:1018
+msgid "realloc: underflow detected; mh_nbytes out of range"
+msgstr ""
+
+#: lib/malloc/malloc.c:1024
+msgid "realloc: start and end chunk sizes differ"
+msgstr ""
+
+#: lib/malloc/table.c:176
+msgid "register_alloc: alloc table is full with FIND_ALLOC?\n"
+msgstr ""
+
+#: lib/malloc/table.c:183
+#, c-format
+msgid "register_alloc: %p already in table as allocated?\n"
+msgstr ""
+
+#: lib/malloc/table.c:219
+#, c-format
+msgid "register_free: %p already in table as free?\n"
+msgstr ""
+
+#: lib/malloc/watch.c:46
+msgid "allocated"
+msgstr ""
+
+#: lib/malloc/watch.c:48
+msgid "freed"
+msgstr ""
+
+#: lib/malloc/watch.c:50
+msgid "requesting resize"
+msgstr ""
+
+#: lib/malloc/watch.c:52
+msgid "just resized"
+msgstr ""
+
+#: lib/malloc/watch.c:54
+msgid "bug: unknown operation"
+msgstr ""
+
+#: lib/malloc/watch.c:56
+#, c-format
+msgid "malloc: watch alert: %p %s "
+msgstr ""
+
+#: lib/sh/fmtulong.c:101
+msgid "invalid base"
+msgstr ""
+
+#: lib/sh/netopen.c:168
+#, c-format
+msgid "%s: host unknown"
+msgstr "%s: óstríomhaire anaithnid"
+
+#: lib/sh/netopen.c:175
+#, c-format
+msgid "%s: invalid service"
+msgstr ""
+
+#: lib/sh/netopen.c:306
+#, c-format
+msgid "%s: bad network path specification"
+msgstr ""
+
+#: lib/sh/netopen.c:346
+msgid "network operations not supported"
+msgstr ""
+
+#: mailcheck.c:386
 msgid "You have mail in $_"
 msgstr ""
 
-#: mailcheck.c:399
+#: mailcheck.c:411
 msgid "You have new mail in $_"
 msgstr ""
 
-#: mailcheck.c:417
+#: mailcheck.c:427
+#, c-format
 msgid "The mail in %s has been read\n"
 msgstr ""
 
-#: make_cmd.c:359
+#: make_cmd.c:322
+msgid "syntax error: arithmetic expression required"
+msgstr ""
+
+#: make_cmd.c:324
+msgid "syntax error: `;' unexpected"
+msgstr "earráid chomhréire: ';' gan choinne"
+
+#: make_cmd.c:325
+#, c-format
+msgid "syntax error: `((%s))'"
+msgstr "earráid chomhréire: `((%s))'"
+
+#: make_cmd.c:566
+#, c-format
 msgid "make_here_document: bad instruction type %d"
 msgstr ""
 
-#: make_cmd.c:503
-msgid ""
-"Redirection instruction from yyparse () '%d' is\n"
-"out of range in make_redirection ()."
+#: make_cmd.c:741
+#, c-format
+msgid "make_redirection: redirection instruction `%d' out of range"
 msgstr ""
 
-#: make_cmd.c:538
-msgid "clean_simple_command () got a command with type %d."
+#: parse.y:2759
+#, c-format
+msgid "unexpected EOF while looking for matching `%c'"
 msgstr ""
 
-#: nojobs.c:530
-msgid "got errno %d while waiting for %d"
+#: parse.y:3071
+msgid "unexpected EOF while looking for `]]'"
 msgstr ""
 
-#: oslib.c:141
-msgid "Unknown error %d"
-msgstr "Earráid anaithnid %d"
-
-#: oslib.c:274
-msgid "unknown"
-msgstr "anaithnid"
-
-#: oslib.c:291
-msgid "getwd: cannot access parent directories"
+#: parse.y:3076
+#, c-format
+msgid "syntax error in conditional expression: unexpected token `%s'"
 msgstr ""
 
-#: parse.y:2518
-msgid "unexpected EOF while looking for `%c'"
+#: parse.y:3080
+msgid "syntax error in conditional expression"
 msgstr ""
 
-#: parse.y:3250
-msgid "syntax error near unexpected token `%s'"
+#: parse.y:3158
+#, c-format
+msgid "unexpected token `%s', expected `)'"
+msgstr ""
+
+#: parse.y:3162
+msgid "expected `)'"
+msgstr ""
+
+#: parse.y:3190
+#, c-format
+msgid "unexpected argument `%s' to conditional unary operator"
+msgstr ""
+
+#: parse.y:3194
+msgid "unexpected argument to conditional unary operator"
+msgstr ""
+
+#: parse.y:3234
+#, c-format
+msgid "unexpected token `%s', conditional binary operator expected"
+msgstr ""
+
+#: parse.y:3238
+msgid "conditional binary operator expected"
 msgstr ""
 
 #: parse.y:3255
-msgid "syntax error near unexpected token `%c'"
+#, c-format
+msgid "unexpected argument `%s' to conditional binary operator"
+msgstr ""
+
+#: parse.y:3259
+msgid "unexpected argument to conditional binary operator"
+msgstr ""
+
+#: parse.y:3270
+#, c-format
+msgid "unexpected token `%c' in conditional command"
 msgstr ""
 
 #: parse.y:3273
+#, c-format
+msgid "unexpected token `%s' in conditional command"
+msgstr ""
+
+#: parse.y:3277
+#, c-format
+msgid "unexpected token %d in conditional command"
+msgstr ""
+
+#: parse.y:4523
+#, c-format
+msgid "syntax error near unexpected token `%s'"
+msgstr ""
+
+#: parse.y:4541
+#, c-format
+msgid "syntax error near `%s'"
+msgstr "earráid chomhréire i ngar do `%s'"
+
+#: parse.y:4551
 msgid "syntax error: unexpected end of file"
 msgstr ""
 
-#: parse.y:3273
+#: parse.y:4551
 msgid "syntax error"
 msgstr "earráid chomhréire"
 
-#: parse.y:3335
+#: parse.y:4613
+#, c-format
 msgid "Use \"%s\" to leave the shell.\n"
 msgstr ""
 
-#: print_cmd.c:209
+#: parse.y:4775
+msgid "unexpected EOF while looking for matching `)'"
+msgstr ""
+
+#: pcomplete.c:1002
+#, c-format
+msgid "completion: function `%s' not found"
+msgstr ""
+
+#: pcomplib.c:179
+#, c-format
+msgid "progcomp_insert: %s: NULL COMPSPEC"
+msgstr ""
+
+#: print_cmd.c:264
+#, c-format
 msgid "print_command: bad connector `%d'"
 msgstr ""
 
-#: print_cmd.c:226
-msgid "print_command: bad command type `%d'"
+#: print_cmd.c:1236
+#, c-format
+msgid "cprintf: `%c': invalid format character"
 msgstr ""
 
-#: print_cmd.c:743 print_cmd.c:820
-msgid "cprintf: bad `%%' argument (%c)"
+#: redir.c:99
+msgid "file descriptor out of range"
 msgstr ""
 
-#: shell.c:400
-msgid "option `%s' requires an argument"
+#: redir.c:141
+#, c-format
+msgid "%s: ambiguous redirect"
 msgstr ""
 
-#: shell.c:413
-msgid "%s: unrecognized option"
+#: redir.c:145
+#, c-format
+msgid "%s: cannot overwrite existing file"
 msgstr ""
 
-#: shell.c:495
-msgid "%c%c: bad option"
+#: redir.c:150
+#, c-format
+msgid "%s: restricted: cannot redirect output"
 msgstr ""
 
-#: shell.c:520
-msgid "`-c' requires an argument"
+#: redir.c:155
+#, c-format
+msgid "cannot create temp file for here document: %s"
 msgstr ""
 
-#: shell.c:1057
-msgid "%s: cannot execute directories"
+#: redir.c:509
+msgid "/dev/(tcp|udp)/host/port not supported without networking"
 msgstr ""
 
-#: shell.c:1131 shell.c:1189
-msgid "Bad jump %d"
+#: redir.c:965
+msgid "redirection error: cannot duplicate fd"
 msgstr ""
 
-#: shell.c:1273
-msgid "%ctimed out waiting for input: auto-logout\n"
+#: shell.c:309
+msgid "could not find /tmp, please create!"
 msgstr ""
 
-#: shell.c:1427
+#: shell.c:313
+msgid "/tmp must be a valid directory name"
+msgstr ""
+
+#: shell.c:850
+#, c-format
+msgid "%c%c: invalid option"
+msgstr ""
+
+#: shell.c:1600
 msgid "I have no name!"
 msgstr ""
 
-#: shell.c:1525 shell.c:1535
-msgid "GNU %s, version %s\n"
-msgstr ""
-
-#: shell.c:1537
+#: shell.c:1735
+#, c-format
 msgid ""
 "Usage:\t%s [GNU long option] [option] ...\n"
 "\t%s [GNU long option] [option] script-file ...\n"
 msgstr ""
 
-#: shell.c:1539
+#: shell.c:1737
 msgid "GNU long options:\n"
 msgstr ""
 
-#: shell.c:1543
+#: shell.c:1741
 msgid "Shell options:\n"
 msgstr ""
 
-#: shell.c:1544
-msgid "\t-irsD or -c command\t\t(invocation only)\n"
+#: shell.c:1742
+msgid "\t-irsD or -c command or -O shopt_option\t\t(invocation only)\n"
 msgstr ""
 
-#: shell.c:1559
+#: shell.c:1757
+#, c-format
 msgid "\t-%s or -o option\n"
 msgstr ""
 
-#: shell.c:1563
+#: shell.c:1763
+#, c-format
 msgid "Type `%s -c \"help set\"' for more information about shell options.\n"
 msgstr ""
 
-#: shell.c:1564
+#: shell.c:1764
+#, c-format
 msgid "Type `%s -c help' for more information about shell builtin commands.\n"
 msgstr ""
 
-#: sig.c:439
-msgid "Bad code in sig.c: sigprocmask"
+#: shell.c:1765
+msgid "Use the `bashbug' command to report bugs.\n"
 msgstr ""
 
-#: siglist.c:47
-msgid "Bogus signal"
+#: sig.c:557
+#, c-format
+msgid "sigprocmask: %d: invalid operation"
 msgstr ""
 
-#: siglist.c:50
-msgid "Hangup"
-msgstr "Croch suas"
-
-#: siglist.c:54
-msgid "Interrupt"
-msgstr "Idirbhriseadh"
-
-#: siglist.c:58
-msgid "Quit"
-msgstr "Scoir"
-
-#: siglist.c:62
-msgid "Illegal instruction"
-msgstr "Treoir neamhcheadaithe"
-
-#: siglist.c:66
-msgid "BPT trace/trap"
+#: subst.c:1160
+#, c-format
+msgid "bad substitution: no closing `%s' in %s"
 msgstr ""
 
-#: siglist.c:74
-msgid "ABORT instruction"
-msgstr ""
-
-#: siglist.c:78
-msgid "EMT instruction"
-msgstr ""
-
-#: siglist.c:82
-msgid "Floating point exception"
-msgstr "Eisceacht snámhphointe"
-
-#: siglist.c:86
-msgid "Killed"
-msgstr "Maraithe"
-
-#: siglist.c:90
-msgid "Bus error"
-msgstr "Busearráid"
-
-#: siglist.c:94
-msgid "Segmentation fault"
-msgstr "Fabht deighilte"
-
-#: siglist.c:98
-msgid "Bad system call"
-msgstr "Drochghlao ar an gcóras"
-
-#: siglist.c:102
-msgid "Broken pipe"
-msgstr "Píopa briste"
-
-#: siglist.c:106
-msgid "Alarm clock"
-msgstr "Clog aláraim"
-
-#: siglist.c:110
-msgid "Terminated"
-msgstr "Scortha"
-
-#: siglist.c:114
-msgid "Urgent IO condition"
-msgstr ""
-
-#: siglist.c:118
-msgid "Stopped (signal)"
-msgstr "Stoptha (comhartha)"
-
-#: siglist.c:126
-msgid "Continue"
-msgstr "Lean ar aghaidh"
-
-#: siglist.c:134
-msgid "Child death or stop"
-msgstr ""
-
-#: siglist.c:138
-msgid "Stopped (tty input)"
-msgstr "Stoptha (ionchur tty)"
-
-#: siglist.c:142
-msgid "Stopped (tty output)"
-msgstr "Stoptha (aschur tty)"
-
-#: siglist.c:146
-msgid "I/O ready"
-msgstr ""
-
-#: siglist.c:150
-msgid "CPU limit"
-msgstr ""
-
-#: siglist.c:154
-msgid "File limit"
-msgstr ""
-
-#: siglist.c:158
-msgid "Alarm (virtual)"
-msgstr ""
-
-#: siglist.c:162
-msgid "Alarm (profile)"
-msgstr ""
-
-#: siglist.c:166
-msgid "Window changed"
-msgstr "Athraíodh an fhuinneog"
-
-#: siglist.c:170
-msgid "Record lock"
-msgstr ""
-
-#: siglist.c:174
-msgid "User signal 1"
-msgstr ""
-
-#: siglist.c:178
-msgid "User signal 2"
-msgstr ""
-
-#: siglist.c:182
-msgid "HFT input data pending"
-msgstr ""
-
-#: siglist.c:186
-msgid "power failure imminent"
-msgstr ""
-
-#: siglist.c:190
-msgid "system crash imminent"
-msgstr ""
-
-#: siglist.c:194
-msgid "migrate process to another CPU"
-msgstr ""
-
-#: siglist.c:198
-msgid "programming error"
-msgstr ""
-
-#: siglist.c:202
-msgid "HFT monitor mode granted"
-msgstr ""
-
-#: siglist.c:206
-msgid "HFT monitor mode retracted"
-msgstr ""
-
-#: siglist.c:210
-msgid "HFT sound sequence has completed"
-msgstr ""
-
-#: siglist.c:218
-msgid "Unknown Signal #"
-msgstr ""
-
-#: siglist.c:220
-msgid "Unknown Signal #%d"
-msgstr ""
-
-#: subst.c:693
-msgid "bad substitution: no `%s' in %s"
-msgstr ""
-
-#: subst.c:808
-msgid "bad substitution: no ending `}' in %s"
-msgstr ""
-
-#: subst.c:1395 subst.c:1403 subst.c:2832 subst.c:2846 subst.c:2924
-#: subst.c:2958 subst.c:2977 subst.c:3032 variables.c:1284 variables.c:1297
-msgid "%s: bad array subscript"
-msgstr ""
-
-#: subst.c:1480
+#: subst.c:2328
+#, c-format
 msgid "%s: cannot assign list to array member"
 msgstr ""
 
-#: subst.c:2346
-msgid "can't make pipes for process substitution: %s"
+#: subst.c:4265 subst.c:4281
+msgid "cannot make pipe for process substitution"
 msgstr ""
 
-#: subst.c:2359
-msgid "cannot make pipe for process subsitution: %s"
+#: subst.c:4312
+msgid "cannot make child for process substitution"
 msgstr ""
 
-#: subst.c:2390
-msgid "cannot make a child for process substitution: %s"
+#: subst.c:4357
+#, c-format
+msgid "cannot open named pipe %s for reading"
 msgstr ""
 
-#: subst.c:2426
-msgid "cannot open named pipe %s for %s: %s"
+#: subst.c:4359
+#, c-format
+msgid "cannot open named pipe %s for writing"
 msgstr ""
 
-#: subst.c:2427
-msgid "reading"
+#: subst.c:4367
+#, c-format
+msgid "cannout reset nodelay mode for fd %d"
 msgstr ""
 
-#: subst.c:2427
-msgid "writing"
+#: subst.c:4377
+#, c-format
+msgid "cannot duplicate named pipe %s as fd %d"
 msgstr ""
 
-#: subst.c:2436
-msgid "cannot duplicate named pipe %s as fd %d: %s"
+#: subst.c:4552
+msgid "cannot make pipe for command substitution"
 msgstr ""
 
-#: subst.c:2459
-msgid "process substitution"
+#: subst.c:4588
+msgid "cannot make child for command substitution"
 msgstr ""
 
-#: subst.c:2493
-msgid "can't make pipes for command substitution: %s"
+#: subst.c:4605
+msgid "command_substitute: cannot duplicate pipe as fd 1"
 msgstr ""
 
-#: subst.c:2520
-msgid "can't make a child for command substitution: %s"
-msgstr ""
-
-#: subst.c:2538
-msgid "command_substitute: cannot duplicate pipe as fd 1: %s"
-msgstr ""
-
-#: subst.c:2580
-msgid "command substitution"
-msgstr ""
-
-#: subst.c:2594
-msgid "Can't reopen pipe to command substitution (fd %d): %s"
-msgstr ""
-
-#: subst.c:3228
+#: subst.c:5068
+#, c-format
 msgid "%s: parameter null or not set"
 msgstr ""
 
-#: subst.c:3357
+#: subst.c:5342
+#, c-format
 msgid "%s: substring expression < 0"
 msgstr ""
 
-#: subst.c:3874
+#: subst.c:6179
+#, c-format
 msgid "%s: bad substitution"
 msgstr ""
 
-#: subst.c:3884 subst.c:4366
-msgid "%s: unbound variable"
-msgstr ""
-
-#: subst.c:3947
+#: subst.c:6255
+#, c-format
 msgid "$%s: cannot assign in this way"
 msgstr ""
 
-#: subst.c:4130
-msgid "$%c: unbound variable"
+#: subst.c:7826
+#, c-format
+msgid "no match: %s"
 msgstr ""
 
-#: subst.c:4277
-msgid "%s: bad arithmetic substitution"
-msgstr ""
-
-#: test.c:340
+#: test.c:145
 msgid "argument expected"
 msgstr ""
 
-#: test.c:349
+#: test.c:154
+#, c-format
 msgid "%s: integer expression expected"
 msgstr ""
 
-#: test.c:458
+#: test.c:262
 msgid "`)' expected"
 msgstr ""
 
-#: test.c:460
+#: test.c:264
+#, c-format
 msgid "`)' expected, found %s"
 msgstr ""
 
-#: test.c:475 test.c:910 test.c:913
+#: test.c:279 test.c:688 test.c:691
+#, c-format
 msgid "%s: unary operator expected"
 msgstr ""
 
-#: test.c:579 test.c:939
+#: test.c:444 test.c:731
+#, c-format
 msgid "%s: binary operator expected"
 msgstr ""
 
-#: test.c:593 test.c:602 test.c:612 test.c:616
-msgid "-%s: binary operator expected"
-msgstr ""
-
-#: test.c:1018
+#: test.c:806
 msgid "missing `]'"
 msgstr "`]' ar iarraidh"
 
-#: test.c:1031
-msgid "too many arguments"
-msgstr "an iomarca argóintí"
-
-#: trap.c:133
-msgid "bad signal number"
+#: trap.c:200
+msgid "invalid signal number"
 msgstr ""
 
-#: trap.c:224
-msgid "trap_handler: Bad signal %d"
+#: trap.c:315
+#, c-format
+msgid "run_pending_traps: bad value in trap_list[%d]: %p"
 msgstr ""
 
-#: variables.c:159
+#: trap.c:319
+#, c-format
+msgid ""
+"run_pending_traps: signal handler is SIG_DFL, resending %d (%s) to myself"
+msgstr ""
+
+#: trap.c:355
+#, c-format
+msgid "trap_handler: bad signal %d"
+msgstr ""
+
+#: variables.c:334
+#, c-format
 msgid "error importing function definition for `%s'"
 msgstr ""
 
-#: variables.c:1105 variables.c:1184
-msgid "%s: readonly variable"
+#: variables.c:711
+#, c-format
+msgid "shell level (%d) too high, resetting to 1"
 msgstr ""
 
-#: variables.c:1290
-msgid "%s: cannot assign to non-numeric index"
+#: variables.c:1670
+msgid "make_local_variable: no function context at current scope"
 msgstr ""
 
-#: variables.c:1362
-msgid "%s[%s: bad subscript"
+#: variables.c:2813
+msgid "all_local_variables: no function context at current scope"
 msgstr ""
 
-#: variables.c:1375
-msgid "[%s: bad subscript"
+#: variables.c:3030 variables.c:3039
+#, c-format
+msgid "invalid character %d in exportstr for %s"
 msgstr ""
 
-#: xmalloc.c:74
+#: variables.c:3045
+#, c-format
+msgid "no `=' in exportstr for %s"
+msgstr ""
+
+#: variables.c:3472
+msgid "pop_var_context: head of shell_variables not a function context"
+msgstr ""
+
+#: variables.c:3485
+msgid "pop_var_context: no global_variables context"
+msgstr ""
+
+#: variables.c:3557
+msgid "pop_scope: head of shell_variables not a temporary environment scope"
+msgstr ""
+
+#: version.c:82
+msgid "Copyright (C) 2006 Free Software Foundation, Inc.\n"
+msgstr ""
+
+#: xmalloc.c:93
+#, c-format
 msgid "xmalloc: cannot allocate %lu bytes (%lu bytes allocated)"
 msgstr ""
 
-#: xmalloc.c:97
+#: xmalloc.c:95
+#, c-format
+msgid "xmalloc: cannot allocate %lu bytes"
+msgstr ""
+
+#: xmalloc.c:115
+#, c-format
 msgid "xrealloc: cannot reallocate %lu bytes (%lu bytes allocated)"
 msgstr ""
 
-#: builtins/bashgetopt.c:90
-msgid "illegal option: -"
+#: xmalloc.c:117
+#, c-format
+msgid "xrealloc: cannot allocate %lu bytes"
 msgstr ""
 
-#: builtins/bashgetopt.c:115
-msgid "option requires an argument: -"
+#: xmalloc.c:151
+#, c-format
+msgid "xmalloc: %s:%d: cannot allocate %lu bytes (%lu bytes allocated)"
 msgstr ""
 
-#: builtins/getopt.c:252
-msgid "digits occur in two different argv-elements.\n"
+#: xmalloc.c:153
+#, c-format
+msgid "xmalloc: %s:%d: cannot allocate %lu bytes"
 msgstr ""
 
-#: builtins/getopt.c:254
-msgid "option %c\n"
+#: xmalloc.c:175
+#, c-format
+msgid "xrealloc: %s:%d: cannot reallocate %lu bytes (%lu bytes allocated)"
 msgstr ""
 
-#: builtins/getopt.c:258
-msgid "option a\n"
+#: xmalloc.c:177
+#, c-format
+msgid "xrealloc: %s:%d: cannot allocate %lu bytes"
 msgstr ""
 
-#: builtins/getopt.c:262
-msgid "option b\n"
-msgstr ""
-
-#: builtins/getopt.c:266
-msgid "option c with value `%s'\n"
-msgstr ""
-
-#: builtins/getopt.c:273
-msgid "?? sh_getopt returned character code 0%o ??\n"
-msgstr ""
-
-#: builtins/getopt.c:279
-msgid "non-option ARGV-elements: "
-msgstr ""
-
-#: builtins/mkbuiltins.c:203
-msgid "%s: Unknown flag %s.\n"
-msgstr ""
-
-#: builtins/mkbuiltins.c:503
-msgid "Unknown directive `%s'"
-msgstr ""
-
-#: builtins/mkbuiltins.c:655
-msgid "%s requires an argument"
-msgstr ""
-
-#: builtins/mkbuiltins.c:667
-msgid "%s must be inside of a $BUILTIN block"
-msgstr ""
-
-#: builtins/mkbuiltins.c:714
-msgid "%s found before $END"
-msgstr ""
-
-#: builtins/mkbuiltins.c:756
-msgid "%s already has a function (%s)"
-msgstr ""
-
-#: builtins/mkbuiltins.c:775
-msgid "%s already had a docname (%s)"
-msgstr ""
-
-#: builtins/mkbuiltins.c:794
-msgid "%s already has short documentation (%s)"
-msgstr ""
-
-#: builtins/mkbuiltins.c:845
-msgid "%s already has a %s definition"
-msgstr ""
-
-#: builtins/mkbuiltins.c:944
-msgid "mkbuiltins: Out of virtual memory!\n"
-msgstr ""
-
-#: builtins/builtins.c:44
-msgid "alias [-p] [name[=value] ... ]"
-msgstr ""
-
-#: builtins/builtins.c:48
-msgid "unalias [-a] [name ...]"
-msgstr ""
-
-#: builtins/builtins.c:52
+#: builtins.c:244
 msgid ""
-"bind [-lpvsPVS] [-m keymap] [-f filename] [-q name] [-r keyseq] [keyseq:"
-"readline-function]"
+"`alias' with no arguments or with the -p option prints the list\n"
+"    of aliases in the form alias NAME=VALUE on standard output.\n"
+"    Otherwise, an alias is defined for each NAME whose VALUE is given.\n"
+"    A trailing space in VALUE causes the next word to be checked for\n"
+"    alias substitution when the alias is expanded.  Alias returns\n"
+"    true unless a NAME is given for which no alias has been defined."
 msgstr ""
 
-#: builtins/builtins.c:55
-msgid "break [n]"
-msgstr ""
-
-#: builtins/builtins.c:57
-msgid "continue [n]"
-msgstr ""
-
-#: builtins/builtins.c:59
-msgid "builtin [shell-builtin [arg ...]]"
-msgstr ""
-
-#: builtins/builtins.c:61
-msgid "cd [-PL] [dir]"
-msgstr "cd [-PL] [comhadlann]"
-
-#: builtins/builtins.c:63
-msgid "pwd [-PL]"
-msgstr "pwd [-PL]"
-
-#: builtins/builtins.c:65
-msgid ":"
-msgstr ":"
-
-#: builtins/builtins.c:67
-msgid "command [-pVv] command [arg ...]"
-msgstr ""
-
-#: builtins/builtins.c:69
-msgid "declare [-afFrxi] [-p] name[=value] ..."
-msgstr ""
-
-#: builtins/builtins.c:71
-msgid "typeset [-afFrxi] [-p] name[=value] ..."
-msgstr ""
-
-#: builtins/builtins.c:73
-msgid "local name[=value] ..."
-msgstr ""
-
-#: builtins/builtins.c:76
-msgid "echo [-neE] [arg ...]"
-msgstr "echo [-neE] [arg ...]"
-
-#: builtins/builtins.c:80
-msgid "echo [-n] [arg ...]"
-msgstr "echo [-n] [arg ...]"
-
-#: builtins/builtins.c:83
-msgid "enable [-pnds] [-a] [-f filename] [name ...]"
-msgstr ""
-
-#: builtins/builtins.c:85
-msgid "eval [arg ...]"
-msgstr "eval [arg ...]"
-
-#: builtins/builtins.c:87
-msgid "getopts optstring name [arg]"
-msgstr ""
-
-#: builtins/builtins.c:89
-msgid "exec [-cl] [-a name] file [redirection ...]"
-msgstr "exec [-cl] [-a ainm] comhad [atreorú ...]"
-
-#: builtins/builtins.c:91
-msgid "exit [n]"
-msgstr ""
-
-#: builtins/builtins.c:93
-msgid "logout"
-msgstr ""
-
-#: builtins/builtins.c:96
-msgid "fc [-e ename] [-nlr] [first] [last] or fc -s [pat=rep] [cmd]"
-msgstr ""
-
-#: builtins/builtins.c:100
-msgid "fg [job_spec]"
-msgstr "fg [jab]"
-
-#: builtins/builtins.c:104
-msgid "bg [job_spec]"
-msgstr "bg [jab]"
-
-#: builtins/builtins.c:107
-msgid "hash [-r] [-p pathname] [name ...]"
-msgstr "hash [-r] [-p conair] [ainm ...]"
-
-#: builtins/builtins.c:110
-msgid "help [pattern ...]"
-msgstr "help [patrún ...]"
-
-#: builtins/builtins.c:114
+#: builtins.c:257
 msgid ""
-"history [-c] [n] or history -awrn [filename] or history -ps arg [arg...]"
+"Remove NAMEs from the list of defined aliases.  If the -a option is given,\n"
+"    then remove all alias definitions."
 msgstr ""
 
-#: builtins/builtins.c:118
-msgid "jobs [-lnprs] [jobspec ...] or jobs -x command [args]"
-msgstr "jobs [-lnprs] [jab ...] nó jobs -x ordú [argóintí]"
-
-#: builtins/builtins.c:122
-msgid "disown [jobspec ...]"
-msgstr "disown [jab ...]"
-
-#: builtins/builtins.c:126
+#: builtins.c:266
 msgid ""
-"kill [-s sigspec | -n signum | -sigspec] [pid | job]... or kill -l [sigspec]"
+"Bind a key sequence to a Readline function or a macro, or set\n"
+"    a Readline variable.  The non-option argument syntax is equivalent\n"
+"    to that found in ~/.inputrc, but must be passed as a single argument:\n"
+"    bind '\"\\C-x\\C-r\": re-read-init-file'.\n"
+"    bind accepts the following options:\n"
+"      -m  keymap         Use `keymap' as the keymap for the duration of "
+"this\n"
+"                         command.  Acceptable keymap names are emacs,\n"
+"                         emacs-standard, emacs-meta, emacs-ctlx, vi, vi-"
+"move,\n"
+"                         vi-command, and vi-insert.\n"
+"      -l                 List names of functions.\n"
+"      -P                 List function names and bindings.\n"
+"      -p                 List functions and bindings in a form that can be\n"
+"                         reused as input.\n"
+"      -r  keyseq         Remove the binding for KEYSEQ.\n"
+"      -x  keyseq:shell-command\tCause SHELL-COMMAND to be executed when\n"
+"    \t\t\t\tKEYSEQ is entered.\n"
+"      -f  filename       Read key bindings from FILENAME.\n"
+"      -q  function-name  Query about which keys invoke the named function.\n"
+"      -u  function-name  Unbind all keys which are bound to the named "
+"function.\n"
+"      -V                 List variable names and values\n"
+"      -v                 List variable names and values in a form that can\n"
+"                         be reused as input.\n"
+"      -S                 List key sequences that invoke macros and their "
+"values\n"
+"      -s                 List key sequences that invoke macros and their "
+"values\n"
+"                         in a form that can be reused as input."
 msgstr ""
 
-#: builtins/builtins.c:129
-msgid "let arg [arg ...]"
-msgstr "let arg [arg ...]"
-
-#: builtins/builtins.c:131
-msgid "read [-r] [-p prompt] [-a array] [-e] [name ...]"
-msgstr ""
-
-#: builtins/builtins.c:133
-msgid "return [n]"
-msgstr ""
-
-#: builtins/builtins.c:135
-msgid "set [--abefhkmnptuvxBCHP] [-o option] [arg ...]"
-msgstr ""
-
-#: builtins/builtins.c:137
-msgid "unset [-f] [-v] [name ...]"
-msgstr "unset [-f] [-v] [ainm ...]"
-
-#: builtins/builtins.c:139
-msgid "export [-nf] [name ...] or export -p"
-msgstr "export [-nf] [ainm ...] nó export -p"
-
-#: builtins/builtins.c:141
-msgid "readonly [-anf] [name ...] or readonly -p"
-msgstr "readonly [-anf] [ainm ...] nó readonly -p"
-
-#: builtins/builtins.c:143
-msgid "shift [n]"
-msgstr ""
-
-#: builtins/builtins.c:145
-msgid "source filename"
-msgstr "source comhadainm"
-
-#: builtins/builtins.c:147
-msgid ". filename"
-msgstr ". comhadainm"
-
-#: builtins/builtins.c:150
-msgid "suspend [-f]"
-msgstr "suspend [-f]"
-
-#: builtins/builtins.c:153
-msgid "test [expr]"
-msgstr "test [slonn]"
-
-#: builtins/builtins.c:155
-msgid "[ arg... ]"
-msgstr "[ arg... ]"
-
-#: builtins/builtins.c:157
-msgid "times"
-msgstr ""
-
-#: builtins/builtins.c:159
-msgid "trap [arg] [signal_spec] or trap -l"
-msgstr ""
-
-#: builtins/builtins.c:161
-msgid "type [-apt] name [name ...]"
-msgstr "type [-apt] ainm [ainm ...]"
-
-#: builtins/builtins.c:164
-msgid "ulimit [-SHacdfmstpnuv] [limit]"
-msgstr ""
-
-#: builtins/builtins.c:167
-msgid "umask [-S] [mode]"
-msgstr "umask [-S] [mód]"
-
-#: builtins/builtins.c:170 builtins/builtins.c:174
-msgid "wait [n]"
-msgstr ""
-
-#: builtins/builtins.c:177
-msgid "for NAME [in WORDS ... ;] do COMMANDS; done"
-msgstr "for AINM [in FOCAIL ... ;] do ORDUITHE; done"
-
-#: builtins/builtins.c:179
-msgid "select NAME [in WORDS ... ;] do COMMANDS; done"
-msgstr "select AINM [in FOCAIL ... ;] do ORDUITHE; done"
-
-#: builtins/builtins.c:181
-msgid "case WORD in [PATTERN [| PATTERN]...) COMMANDS ;;]... esac"
-msgstr ""
-
-#: builtins/builtins.c:183
+#: builtins.c:297
 msgid ""
-"if COMMANDS; then COMMANDS; [ elif COMMANDS; then COMMANDS; ]... [ else "
-"COMMANDS; ] fi"
+"Exit from within a FOR, WHILE or UNTIL loop.  If N is specified,\n"
+"    break N levels."
 msgstr ""
 
-#: builtins/builtins.c:185
-msgid "while COMMANDS; do COMMANDS; done"
-msgstr ""
-
-#: builtins/builtins.c:187
-msgid "until COMMANDS; do COMMANDS; done"
-msgstr ""
-
-#: builtins/builtins.c:189
-msgid "function NAME { COMMANDS ; } or NAME () { COMMANDS ; }"
-msgstr ""
-
-#: builtins/builtins.c:191
-msgid "{ COMMANDS }"
-msgstr "{ ORDUITHE }"
-
-#: builtins/builtins.c:193
-msgid "%[DIGITS | WORD] [&]"
-msgstr "%[DIGITÍ | FOCAL] [&]"
-
-#: builtins/builtins.c:195
-msgid "variables - Some variable names and meanings"
-msgstr ""
-
-#: builtins/builtins.c:198
-msgid "pushd [dir | +N | -N] [-n]"
-msgstr "pushd [comhadlann | +N | -N] [-n]"
-
-#: builtins/builtins.c:202
-msgid "popd [+N | -N] [-n]"
-msgstr "popd [+N | -N] [-n]"
-
-#: builtins/builtins.c:206
-msgid "dirs [-clpv] [+N] [-N]"
-msgstr "dirs [-clpv] [+N] [-N]"
-
-#: builtins/builtins.c:209
-msgid "shopt [-pqsu] [-o long-option] optname [optname...]"
-msgstr ""
-
-#: builtins/builtins.c:221
-msgid "`alias' with no arguments or with the -p option prints the list"
-msgstr ""
-
-#: builtins/builtins.c:222
-msgid "of aliases in the form alias NAME=VALUE on standard output."
-msgstr ""
-
-#: builtins/builtins.c:223
-msgid "Otherwise, an alias is defined for each NAME whose VALUE is given."
-msgstr ""
-
-#: builtins/builtins.c:224
-msgid "A trailing space in VALUE causes the next word to be checked for"
-msgstr ""
-
-#: builtins/builtins.c:225
-msgid "alias substitution when the alias is expanded.  Alias returns"
-msgstr ""
-
-#: builtins/builtins.c:226
-msgid "true unless a NAME is given for which no alias has been defined."
-msgstr ""
-
-#: builtins/builtins.c:234
+#: builtins.c:304
 msgid ""
-"Remove NAMEs from the list of defined aliases.  If the -a option is given,"
+"Resume the next iteration of the enclosing FOR, WHILE or UNTIL loop.\n"
+"    If N is specified, resume at the N-th enclosing loop."
 msgstr ""
 
-#: builtins/builtins.c:235
-msgid "then remove all alias definitions."
-msgstr ""
-
-#: builtins/builtins.c:243
-msgid "Bind a key sequence to a Readline function, or to a macro.  The"
-msgstr ""
-
-#: builtins/builtins.c:244
-msgid "syntax is equivalent to that found in ~/.inputrc, but must be"
-msgstr ""
-
-#: builtins/builtins.c:245
-msgid "passed as a single argument: bind '\"\\C-x\\C-r\": re-read-init-file'."
-msgstr ""
-
-#: builtins/builtins.c:246
-msgid "Arguments we accept:"
-msgstr ""
-
-#: builtins/builtins.c:247
+#: builtins.c:311
 msgid ""
-"  -m  keymap         Use `keymap' as the keymap for the duration of this"
+"Run a shell builtin.  This is useful when you wish to rename a\n"
+"    shell builtin to be a function, but need the functionality of the\n"
+"    builtin within the function itself."
 msgstr ""
 
-#: builtins/builtins.c:248
-msgid "                     command.  Acceptable keymap names are emacs,"
-msgstr ""
-
-#: builtins/builtins.c:249
+#: builtins.c:320
 msgid ""
-"                     emacs-standard, emacs-meta, emacs-ctlx, vi, vi-move,"
+"Returns the context of the current subroutine call.\n"
+"    \n"
+"    Without EXPR, returns \"$line $filename\".  With EXPR,\n"
+"    returns \"$line $subroutine $filename\"; this extra information\n"
+"    can be used to provide a stack trace.\n"
+"    \n"
+"    The value of EXPR indicates how many call frames to go back before the\n"
+"    current one; the top frame is frame 0."
 msgstr ""
 
-#: builtins/builtins.c:250
-msgid "                     vi-command, and vi-insert."
-msgstr ""
-
-#: builtins/builtins.c:251
-msgid "  -l                 List names of functions."
-msgstr ""
-
-#: builtins/builtins.c:252
-msgid "  -P                 List function names and bindings."
-msgstr ""
-
-#: builtins/builtins.c:253
-msgid "  -p                 List functions and bindings in a form that can be"
-msgstr ""
-
-#: builtins/builtins.c:254
-msgid "                     reused as input."
-msgstr ""
-
-#: builtins/builtins.c:255
-msgid "  -r  keyseq         Remove the binding for KEYSEQ."
-msgstr ""
-
-#: builtins/builtins.c:256
-msgid "  -f  filename       Read key bindings from FILENAME."
-msgstr ""
-
-#: builtins/builtins.c:257
-msgid "  -q  function-name  Query about which keys invoke the named function."
-msgstr ""
-
-#: builtins/builtins.c:258
-msgid "  -V                 List variable names and values"
-msgstr ""
-
-#: builtins/builtins.c:259
-msgid "  -v                 List variable names and values in a form that can"
-msgstr ""
-
-#: builtins/builtins.c:260
-msgid "                     be reused as input."
-msgstr ""
-
-#: builtins/builtins.c:261
+#: builtins.c:334
 msgid ""
-"  -S                 List key sequences that invoke macros and their values"
+"Change the current directory to DIR.  The variable $HOME is the\n"
+"    default DIR.  The variable CDPATH defines the search path for\n"
+"    the directory containing DIR.  Alternative directory names in CDPATH\n"
+"    are separated by a colon (:).  A null directory name is the same as\n"
+"    the current directory, i.e. `.'.  If DIR begins with a slash (/),\n"
+"    then CDPATH is not used.  If the directory is not found, and the\n"
+"    shell option `cdable_vars' is set, then try the word as a variable\n"
+"    name.  If that variable has a value, then cd to the value of that\n"
+"    variable.  The -P option says to use the physical directory structure\n"
+"    instead of following symbolic links; the -L option forces symbolic "
+"links\n"
+"    to be followed."
 msgstr ""
 
-#: builtins/builtins.c:262
+#: builtins.c:350
 msgid ""
-"  -s                 List key sequences that invoke macros and their values "
-"in"
+"Print the current working directory.  With the -P option, pwd prints\n"
+"    the physical directory, without any symbolic links; the -L option\n"
+"    makes pwd follow symbolic links."
 msgstr ""
 
-#: builtins/builtins.c:263
-msgid "                     a form that can be reused as input."
-msgstr ""
-
-#: builtins/builtins.c:270
-msgid "Exit from within a FOR, WHILE or UNTIL loop.  If N is specified,"
-msgstr ""
-
-#: builtins/builtins.c:271
-msgid "break N levels."
-msgstr ""
-
-#: builtins/builtins.c:277
-msgid "Resume the next iteration of the enclosing FOR, WHILE or UNTIL loop."
-msgstr ""
-
-#: builtins/builtins.c:278
-msgid "If N is specified, resume at the N-th enclosing loop."
-msgstr ""
-
-#: builtins/builtins.c:284
-msgid "Run a shell builtin.  This is useful when you wish to rename a"
-msgstr ""
-
-#: builtins/builtins.c:285
-msgid "shell builtin to be a function, but need the functionality of the"
-msgstr ""
-
-#: builtins/builtins.c:286
-msgid "builtin within the function itself."
-msgstr ""
-
-#: builtins/builtins.c:292
-msgid "Change the current directory to DIR.  The variable $HOME is the"
-msgstr ""
-
-#: builtins/builtins.c:293
-msgid "default DIR.  The variable $CDPATH defines the search path for"
-msgstr ""
-
-#: builtins/builtins.c:294
-msgid "the directory containing DIR.  Alternative directory names in CDPATH"
-msgstr ""
-
-#: builtins/builtins.c:295
-msgid "are separated by a colon (:).  A null directory name is the same as"
-msgstr ""
-
-#: builtins/builtins.c:296
-msgid "the current directory, i.e. `.'.  If DIR begins with a slash (/),"
-msgstr ""
-
-#: builtins/builtins.c:297
-msgid "then $CDPATH is not used.  If the directory is not found, and the"
-msgstr ""
-
-#: builtins/builtins.c:298
-msgid "shell option `cdable_vars' is set, then try the word as a variable"
-msgstr ""
-
-#: builtins/builtins.c:299
-msgid "name.  If that variable has a value, then cd to the value of that"
-msgstr ""
-
-#: builtins/builtins.c:300
-msgid "variable.  The -P option says to use the physical directory structure"
-msgstr ""
-
-#: builtins/builtins.c:301
-msgid ""
-"instead of following symbolic links; the -L option forces symbolic links"
-msgstr ""
-
-#: builtins/builtins.c:302
-msgid "to be followed."
-msgstr ""
-
-#: builtins/builtins.c:308
-msgid "Print the current working directory.  With the -P option, pwd prints"
-msgstr ""
-
-#: builtins/builtins.c:309
-msgid "the physical directory, without any symbolic links; the -L option"
-msgstr ""
-
-#: builtins/builtins.c:310
-msgid "makes pwd follow symbolic links."
-msgstr ""
-
-#: builtins/builtins.c:316
+#: builtins.c:358
 msgid "No effect; the command does nothing.  A zero exit code is returned."
 msgstr ""
 
-#: builtins/builtins.c:322
-msgid "Runs COMMAND with ARGS ignoring shell functions.  If you have a shell"
+#: builtins.c:364
+msgid "Return a successful result."
 msgstr ""
 
-#: builtins/builtins.c:323
-msgid "function called `ls', and you wish to call the command `ls', you can"
+#: builtins.c:370
+msgid "Return an unsuccessful result."
 msgstr ""
 
-#: builtins/builtins.c:324
-msgid "say \"command ls\".  If the -p option is given, a default value is used"
+#: builtins.c:376
+msgid ""
+"Runs COMMAND with ARGS ignoring shell functions.  If you have a shell\n"
+"    function called `ls', and you wish to call the command `ls', you can\n"
+"    say \"command ls\".  If the -p option is given, a default value is used\n"
+"    for PATH that is guaranteed to find all of the standard utilities.  If\n"
+"    the -V or -v option is given, a string is printed describing COMMAND.\n"
+"    The -V option produces a more verbose description."
 msgstr ""
 
-#: builtins/builtins.c:325
-msgid "for PATH that is guaranteed to find all of the standard utilities.  If"
+#: builtins.c:387
+msgid ""
+"Declare variables and/or give them attributes.  If no NAMEs are\n"
+"    given, then display the values of variables instead.  The -p option\n"
+"    will display the attributes and values of each NAME.\n"
+"    \n"
+"    The flags are:\n"
+"    \n"
+"      -a\tto make NAMEs arrays (if supported)\n"
+"      -f\tto select from among function names only\n"
+"      -F\tto display function names (and line number and source file name "
+"if\n"
+"    \tdebugging) without definitions\n"
+"      -i\tto make NAMEs have the `integer' attribute\n"
+"      -r\tto make NAMEs readonly\n"
+"      -t\tto make NAMEs have the `trace' attribute\n"
+"      -x\tto make NAMEs export\n"
+"    \n"
+"    Variables with the integer attribute have arithmetic evaluation (see\n"
+"    `let') done when the variable is assigned to.\n"
+"    \n"
+"    When displaying values of variables, -f displays a function's name\n"
+"    and definition.  The -F option restricts the display to function\n"
+"    name only.\n"
+"    \n"
+"    Using `+' instead of `-' turns off the given attribute instead.  When\n"
+"    used in a function, makes NAMEs local, as with the `local' command."
 msgstr ""
 
-#: builtins/builtins.c:326
-msgid "the -V or -v option is given, a string is printed describing COMMAND."
-msgstr ""
-
-#: builtins/builtins.c:327
-msgid "The -V option produces a more verbose description."
-msgstr ""
-
-#: builtins/builtins.c:333
-msgid "Declare variables and/or give them attributes.  If no NAMEs are"
-msgstr ""
-
-#: builtins/builtins.c:334
-msgid "given, then display the values of variables instead.  The -p option"
-msgstr ""
-
-#: builtins/builtins.c:335
-msgid "will display the attributes and values of each NAME."
-msgstr ""
-
-#: builtins/builtins.c:337
-msgid "The flags are:"
-msgstr ""
-
-#: builtins/builtins.c:339
-msgid "  -a\tto make NAMEs arrays (if supported)"
-msgstr ""
-
-#: builtins/builtins.c:340
-msgid "  -f\tto select from among function names only"
-msgstr ""
-
-#: builtins/builtins.c:341
-msgid "  -F\tto display function names without definitions"
-msgstr ""
-
-#: builtins/builtins.c:342
-msgid "  -r\tto make NAMEs readonly"
-msgstr ""
-
-#: builtins/builtins.c:343
-msgid "  -x\tto make NAMEs export"
-msgstr ""
-
-#: builtins/builtins.c:344
-msgid "  -i\tto make NAMEs have the `integer' attribute set"
-msgstr ""
-
-#: builtins/builtins.c:346
-msgid "Variables with the integer attribute have arithmetic evaluation (see"
-msgstr ""
-
-#: builtins/builtins.c:347
-msgid "`let') done when the variable is assigned to."
-msgstr ""
-
-#: builtins/builtins.c:349
-msgid "When displaying values of variables, -f displays a function's name"
-msgstr ""
-
-#: builtins/builtins.c:350
-msgid "and definition.  The -F option restricts the display to function"
-msgstr ""
-
-#: builtins/builtins.c:351
-msgid "name only."
-msgstr ""
-
-#: builtins/builtins.c:353
-msgid "Using `+' instead of `-' turns off the given attribute instead.  When"
-msgstr ""
-
-#: builtins/builtins.c:354
-msgid "used in a function, makes NAMEs local, as with the `local' command."
-msgstr ""
-
-#: builtins/builtins.c:360
+#: builtins.c:416
 msgid "Obsolete.  See `declare'."
 msgstr ""
 
-#: builtins/builtins.c:366
-msgid "Create a local variable called NAME, and give it VALUE.  LOCAL"
+#: builtins.c:422
+msgid ""
+"Create a local variable called NAME, and give it VALUE.  LOCAL\n"
+"    can only be used within a function; it makes the variable NAME\n"
+"    have a visible scope restricted to that function and its children."
 msgstr ""
 
-#: builtins/builtins.c:367
-msgid "can only be used within a function; it makes the variable NAME"
+#: builtins.c:431
+msgid ""
+"Output the ARGs.  If -n is specified, the trailing newline is\n"
+"    suppressed.  If the -e option is given, interpretation of the\n"
+"    following backslash-escaped characters is turned on:\n"
+"    \t\\a\talert (bell)\n"
+"    \t\\b\tbackspace\n"
+"    \t\\c\tsuppress trailing newline\n"
+"    \t\\E\tescape character\n"
+"    \t\\f\tform feed\n"
+"    \t\\n\tnew line\n"
+"    \t\\r\tcarriage return\n"
+"    \t\\t\thorizontal tab\n"
+"    \t\\v\tvertical tab\n"
+"    \t\\\\\tbackslash\n"
+"    \t\\0nnn\tthe character whose ASCII code is NNN (octal).  NNN can be\n"
+"    \t\t0 to 3 octal digits\n"
+"    \n"
+"    You can explicitly turn off the interpretation of the above characters\n"
+"    with the -E option."
 msgstr ""
 
-#: builtins/builtins.c:368
-msgid "have a visible scope restricted to that function and its children."
-msgstr ""
-
-#: builtins/builtins.c:375
-msgid "Output the ARGs.  If -n is specified, the trailing newline is"
-msgstr ""
-
-#: builtins/builtins.c:376
-msgid "suppressed.  If the -e option is given, interpretation of the"
-msgstr ""
-
-#: builtins/builtins.c:377
-msgid "following backslash-escaped characters is turned on:"
-msgstr ""
-
-#: builtins/builtins.c:378
-msgid "\t\\a\talert (bell)"
-msgstr ""
-
-#: builtins/builtins.c:379
-msgid "\t\\b\tbackspace"
-msgstr ""
-
-#: builtins/builtins.c:380
-msgid "\t\\c\tsuppress trailing newline"
-msgstr ""
-
-#: builtins/builtins.c:381
-msgid "\t\\E\tescape character"
-msgstr ""
-
-#: builtins/builtins.c:382
-msgid "\t\\f\tform feed"
-msgstr ""
-
-#: builtins/builtins.c:383
-msgid "\t\\n\tnew line"
-msgstr ""
-
-#: builtins/builtins.c:384
-msgid "\t\\r\tcarriage return"
-msgstr ""
-
-#: builtins/builtins.c:385
-msgid "\t\\t\thorizontal tab"
-msgstr ""
-
-#: builtins/builtins.c:386
-msgid "\t\\v\tvertical tab"
-msgstr ""
-
-#: builtins/builtins.c:387
-msgid "\t\\\\\tbackslash"
-msgstr ""
-
-#: builtins/builtins.c:388
-msgid "\t\\num\tthe character whose ASCII code is NUM (octal)."
-msgstr ""
-
-#: builtins/builtins.c:390
-msgid "You can explicitly turn off the interpretation of the above characters"
-msgstr ""
-
-#: builtins/builtins.c:391
-msgid "with the -E option."
-msgstr ""
-
-#: builtins/builtins.c:399
+#: builtins.c:456
 msgid ""
 "Output the ARGs.  If -n is specified, the trailing newline is suppressed."
 msgstr ""
 
-#: builtins/builtins.c:406
-msgid "Enable and disable builtin shell commands.  This allows"
+#: builtins.c:463
+msgid ""
+"Enable and disable builtin shell commands.  This allows\n"
+"    you to use a disk command which has the same name as a shell\n"
+"    builtin without specifying a full pathname.  If -n is used, the\n"
+"    NAMEs become disabled; otherwise NAMEs are enabled.  For example,\n"
+"    to use the `test' found in $PATH instead of the shell builtin\n"
+"    version, type `enable -n test'.  On systems supporting dynamic\n"
+"    loading, the -f option may be used to load new builtins from the\n"
+"    shared object FILENAME.  The -d option will delete a builtin\n"
+"    previously loaded with -f.  If no non-option names are given, or\n"
+"    the -p option is supplied, a list of builtins is printed.  The\n"
+"    -a option means to print every builtin with an indication of whether\n"
+"    or not it is enabled.  The -s option restricts the output to the "
+"POSIX.2\n"
+"    `special' builtins.  The -n option displays a list of all disabled "
+"builtins."
 msgstr ""
 
-#: builtins/builtins.c:407
-msgid "you to use a disk command which has the same name as a shell"
-msgstr ""
-
-#: builtins/builtins.c:408
-msgid "builtin.  If -n is used, the NAMEs become disabled; otherwise"
-msgstr ""
-
-#: builtins/builtins.c:409
-msgid "NAMEs are enabled.  For example, to use the `test' found on your"
-msgstr ""
-
-#: builtins/builtins.c:410
-msgid "path instead of the shell builtin version, type `enable -n test'."
-msgstr ""
-
-#: builtins/builtins.c:411
-msgid "On systems supporting dynamic loading, the -f option may be used"
-msgstr ""
-
-#: builtins/builtins.c:412
-msgid "to load new builtins from the shared object FILENAME.  The -d"
-msgstr ""
-
-#: builtins/builtins.c:413
-msgid "option will delete a builtin previously loaded with -f.  If no"
-msgstr ""
-
-#: builtins/builtins.c:414
-msgid "non-option names are given, or the -p option is supplied, a list"
-msgstr ""
-
-#: builtins/builtins.c:415
-msgid "of builtins is printed.  The -a option means to print every builtin"
-msgstr ""
-
-#: builtins/builtins.c:416
-msgid "with an indication of whether or not it is enabled.  The -s option"
-msgstr ""
-
-#: builtins/builtins.c:417
-msgid "restricts the output to the Posix.2 `special' builtins.  The -n"
-msgstr ""
-
-#: builtins/builtins.c:418
-msgid "option displays a list of all disabled builtins."
-msgstr ""
-
-#: builtins/builtins.c:424
+#: builtins.c:481
 msgid "Read ARGs as input to the shell and execute the resulting command(s)."
 msgstr ""
 
-#: builtins/builtins.c:430
-msgid "Getopts is used by shell procedures to parse positional parameters."
+#: builtins.c:487
+msgid ""
+"Getopts is used by shell procedures to parse positional parameters.\n"
+"    \n"
+"    OPTSTRING contains the option letters to be recognized; if a letter\n"
+"    is followed by a colon, the option is expected to have an argument,\n"
+"    which should be separated from it by white space.\n"
+"    \n"
+"    Each time it is invoked, getopts will place the next option in the\n"
+"    shell variable $name, initializing name if it does not exist, and\n"
+"    the index of the next argument to be processed into the shell\n"
+"    variable OPTIND.  OPTIND is initialized to 1 each time the shell or\n"
+"    a shell script is invoked.  When an option requires an argument,\n"
+"    getopts places that argument into the shell variable OPTARG.\n"
+"    \n"
+"    getopts reports errors in one of two ways.  If the first character\n"
+"    of OPTSTRING is a colon, getopts uses silent error reporting.  In\n"
+"    this mode, no error messages are printed.  If an invalid option is\n"
+"    seen, getopts places the option character found into OPTARG.  If a\n"
+"    required argument is not found, getopts places a ':' into NAME and\n"
+"    sets OPTARG to the option character found.  If getopts is not in\n"
+"    silent mode, and an invalid option is seen, getopts places '?' into\n"
+"    NAME and unsets OPTARG.  If a required argument is not found, a '?'\n"
+"    is placed in NAME, OPTARG is unset, and a diagnostic message is\n"
+"    printed.\n"
+"    \n"
+"    If the shell variable OPTERR has the value 0, getopts disables the\n"
+"    printing of error messages, even if the first character of\n"
+"    OPTSTRING is not a colon.  OPTERR has the value 1 by default.\n"
+"    \n"
+"    Getopts normally parses the positional parameters ($0 - $9), but if\n"
+"    more arguments are given, they are parsed instead."
 msgstr ""
 
-#: builtins/builtins.c:432
-msgid "OPTSTRING contains the option letters to be recognized; if a letter"
+#: builtins.c:522
+msgid ""
+"Exec FILE, replacing this shell with the specified program.\n"
+"    If FILE is not specified, the redirections take effect in this\n"
+"    shell.  If the first argument is `-l', then place a dash in the\n"
+"    zeroth arg passed to FILE, as login does.  If the `-c' option\n"
+"    is supplied, FILE is executed with a null environment.  The `-a'\n"
+"    option means to make set argv[0] of the executed process to NAME.\n"
+"    If the file cannot be executed and the shell is not interactive,\n"
+"    then the shell exits, unless the shell option `execfail' is set."
 msgstr ""
 
-#: builtins/builtins.c:433
-msgid "is followed by a colon, the option is expected to have an argument,"
+#: builtins.c:535
+msgid ""
+"Exit the shell with a status of N.  If N is omitted, the exit status\n"
+"    is that of the last command executed."
 msgstr ""
 
-#: builtins/builtins.c:434
-msgid "which should be separated from it by white space."
-msgstr ""
-
-#: builtins/builtins.c:436
-msgid "Each time it is invoked, getopts will place the next option in the"
-msgstr ""
-
-#: builtins/builtins.c:437
-msgid "shell variable $name, initializing name if it does not exist, and"
-msgstr ""
-
-#: builtins/builtins.c:438
-msgid "the index of the next argument to be processed into the shell"
-msgstr ""
-
-#: builtins/builtins.c:439
-msgid "variable OPTIND.  OPTIND is initialized to 1 each time the shell or"
-msgstr ""
-
-#: builtins/builtins.c:440
-msgid "a shell script is invoked.  When an option requires an argument,"
-msgstr ""
-
-#: builtins/builtins.c:441
-msgid "getopts places that argument into the shell variable OPTARG."
-msgstr ""
-
-#: builtins/builtins.c:443
-msgid "getopts reports errors in one of two ways.  If the first character"
-msgstr ""
-
-#: builtins/builtins.c:444
-msgid "of OPTSTRING is a colon, getopts uses silent error reporting.  In"
-msgstr ""
-
-#: builtins/builtins.c:445
-msgid "this mode, no error messages are printed.  If an illegal option is"
-msgstr ""
-
-#: builtins/builtins.c:446
-msgid "seen, getopts places the option character found into OPTARG.  If a"
-msgstr ""
-
-#: builtins/builtins.c:447
-msgid "required argument is not found, getopts places a ':' into NAME and"
-msgstr ""
-
-#: builtins/builtins.c:448
-msgid "sets OPTARG to the option character found.  If getopts is not in"
-msgstr ""
-
-#: builtins/builtins.c:449
-msgid "silent mode, and an illegal option is seen, getopts places '?' into"
-msgstr ""
-
-#: builtins/builtins.c:450
-msgid "NAME and unsets OPTARG.  If a required option is not found, a '?'"
-msgstr ""
-
-#: builtins/builtins.c:451
-msgid "is placed in NAME, OPTARG is unset, and a diagnostic message is"
-msgstr ""
-
-#: builtins/builtins.c:452
-msgid "printed."
-msgstr ""
-
-#: builtins/builtins.c:454
-msgid "If the shell variable OPTERR has the value 0, getopts disables the"
-msgstr ""
-
-#: builtins/builtins.c:455
-msgid "printing of error messages, even if the first character of"
-msgstr ""
-
-#: builtins/builtins.c:456
-msgid "OPTSTRING is not a colon.  OPTERR has the value 1 by default."
-msgstr ""
-
-#: builtins/builtins.c:458
-msgid "Getopts normally parses the positional parameters ($0 - $9), but if"
-msgstr ""
-
-#: builtins/builtins.c:459
-msgid "more arguments are given, they are parsed instead."
-msgstr ""
-
-#: builtins/builtins.c:465
-msgid "Exec FILE, replacing this shell with the specified program."
-msgstr ""
-
-#: builtins/builtins.c:466
-msgid "If FILE is not specified, the redirections take effect in this"
-msgstr ""
-
-#: builtins/builtins.c:467
-msgid "shell.  If the first argument is `-l', then place a dash in the"
-msgstr ""
-
-#: builtins/builtins.c:468
-msgid "zeroth arg passed to FILE, as login does.  If the `-c' option"
-msgstr ""
-
-#: builtins/builtins.c:469
-msgid "is supplied, FILE is executed with a null environment.  The `-a'"
-msgstr ""
-
-#: builtins/builtins.c:470
-msgid "option means to make set argv[0] of the executed process to NAME."
-msgstr ""
-
-#: builtins/builtins.c:471
-msgid "If the file cannot be executed and the shell is not interactive,"
-msgstr ""
-
-#: builtins/builtins.c:472
-msgid "then the shell exits, unless the variable \"no_exit_on_failed_exec\""
-msgstr ""
-
-#: builtins/builtins.c:473
-msgid "is set."
-msgstr ""
-
-#: builtins/builtins.c:479
-msgid "Exit the shell with a status of N.  If N is omitted, the exit status"
-msgstr ""
-
-#: builtins/builtins.c:480
-msgid "is that of the last command executed."
-msgstr ""
-
-#: builtins/builtins.c:486
+#: builtins.c:542
 msgid "Logout of a login shell."
 msgstr ""
 
-#: builtins/builtins.c:493
-msgid "FIRST and LAST can be numbers specifying the range, or FIRST can be a"
-msgstr ""
-
-#: builtins/builtins.c:494
-msgid "string, which means the most recent command beginning with that"
-msgstr ""
-
-#: builtins/builtins.c:495
-msgid "string."
-msgstr ""
-
-#: builtins/builtins.c:497
+#: builtins.c:549
 msgid ""
-"   -e ENAME selects which editor to use.  Default is FCEDIT, then EDITOR,"
+"fc is used to list or edit and re-execute commands from the history list.\n"
+"    FIRST and LAST can be numbers specifying the range, or FIRST can be a\n"
+"    string, which means the most recent command beginning with that\n"
+"    string.\n"
+"    \n"
+"       -e ENAME selects which editor to use.  Default is FCEDIT, then "
+"EDITOR,\n"
+"          then vi.\n"
+"    \n"
+"       -l means list lines instead of editing.\n"
+"       -n means no line numbers listed.\n"
+"       -r means reverse the order of the lines (making it newest listed "
+"first).\n"
+"    \n"
+"    With the `fc -s [pat=rep ...] [command]' format, the command is\n"
+"    re-executed after the substitution OLD=NEW is performed.\n"
+"    \n"
+"    A useful alias to use with this is r='fc -s', so that typing `r cc'\n"
+"    runs the last command beginning with `cc' and typing `r' re-executes\n"
+"    the last command."
 msgstr ""
 
-#: builtins/builtins.c:498
-msgid "      then the editor which corresponds to the current readline editing"
-msgstr ""
-
-#: builtins/builtins.c:499
-msgid "      mode, then vi."
-msgstr ""
-
-#: builtins/builtins.c:501
-msgid "   -l means list lines instead of editing."
-msgstr ""
-
-#: builtins/builtins.c:502
-msgid "   -n means no line numbers listed."
-msgstr ""
-
-#: builtins/builtins.c:503
+#: builtins.c:574
 msgid ""
-"   -r means reverse the order of the lines (making it newest listed first)."
+"Place JOB_SPEC in the foreground, and make it the current job.  If\n"
+"    JOB_SPEC is not present, the shell's notion of the current job is\n"
+"    used."
 msgstr ""
 
-#: builtins/builtins.c:505
-msgid "With the `fc -s [pat=rep ...] [command]' format, the command is"
-msgstr ""
-
-#: builtins/builtins.c:506
-msgid "re-executed after the substitution OLD=NEW is performed."
-msgstr ""
-
-#: builtins/builtins.c:508
-msgid "A useful alias to use with this is r='fc -s', so that typing `r cc'"
-msgstr ""
-
-#: builtins/builtins.c:509
-msgid "runs the last command beginning with `cc' and typing `r' re-executes"
-msgstr ""
-
-#: builtins/builtins.c:510
-msgid "the last command."
-msgstr ""
-
-#: builtins/builtins.c:518
-msgid "Place JOB_SPEC in the foreground, and make it the current job.  If"
-msgstr ""
-
-#: builtins/builtins.c:519
-msgid "JOB_SPEC is not present, the shell's notion of the current job is"
-msgstr ""
-
-#: builtins/builtins.c:520
-msgid "used."
-msgstr ""
-
-#: builtins/builtins.c:528
-msgid "Place JOB_SPEC in the background, as if it had been started with"
-msgstr ""
-
-#: builtins/builtins.c:529
-msgid "`&'.  If JOB_SPEC is not present, the shell's notion of the current"
-msgstr ""
-
-#: builtins/builtins.c:530
-msgid "job is used."
-msgstr ""
-
-#: builtins/builtins.c:537
-msgid "For each NAME, the full pathname of the command is determined and"
-msgstr ""
-
-#: builtins/builtins.c:538
-msgid "remembered.  If the -p option is supplied, PATHNAME is used as the"
-msgstr ""
-
-#: builtins/builtins.c:539
-msgid "full pathname of NAME, and no path search is performed.  The -r"
-msgstr ""
-
-#: builtins/builtins.c:540
-msgid "option causes the shell to forget all remembered locations.  If no"
-msgstr ""
-
-#: builtins/builtins.c:541
+#: builtins.c:584
 msgid ""
-"arguments are given, information about remembered commands is displayed."
+"Place each JOB_SPEC in the background, as if it had been started with\n"
+"    `&'.  If JOB_SPEC is not present, the shell's notion of the current\n"
+"    job is used."
 msgstr ""
 
-#: builtins/builtins.c:548
-msgid "Display helpful information about builtin commands.  If PATTERN is"
-msgstr ""
-
-#: builtins/builtins.c:549
-msgid "specified, gives detailed help on all commands matching PATTERN,"
-msgstr ""
-
-#: builtins/builtins.c:550
-msgid "otherwise a list of the builtins is printed."
-msgstr ""
-
-#: builtins/builtins.c:558
-msgid "Display the history list with line numbers.  Lines listed with"
-msgstr ""
-
-#: builtins/builtins.c:559
-msgid "with a `*' have been modified.  Argument of N says to list only"
-msgstr ""
-
-#: builtins/builtins.c:560
-msgid "the last N lines.  The -c option causes the history list to be"
-msgstr ""
-
-#: builtins/builtins.c:561
-msgid "cleared by deleting all of the entries.  The `-w' option writes out the"
-msgstr ""
-
-#: builtins/builtins.c:562
-msgid "current history to the history file;  `-r' means to read the file and"
-msgstr ""
-
-#: builtins/builtins.c:563
-msgid "append the contents to the history list instead.  `-a' means"
-msgstr ""
-
-#: builtins/builtins.c:564
-msgid "to append history lines from this session to the history file."
-msgstr ""
-
-#: builtins/builtins.c:565
-msgid "Argument `-n' means to read all history lines not already read"
-msgstr ""
-
-#: builtins/builtins.c:566
-msgid "from the history file and append them to the history list.  If"
-msgstr ""
-
-#: builtins/builtins.c:567
-msgid "FILENAME is given, then that is used as the history file else"
-msgstr ""
-
-#: builtins/builtins.c:568
-msgid "if $HISTFILE has a value, that is used, else ~/.bash_history."
-msgstr ""
-
-#: builtins/builtins.c:569
-msgid "If the -s option is supplied, the non-option ARGs are appended to"
-msgstr ""
-
-#: builtins/builtins.c:570
-msgid "the history list as a single entry.  The -p option means to perform"
-msgstr ""
-
-#: builtins/builtins.c:571
-msgid "history expansion on each ARG and display the result, without storing"
-msgstr ""
-
-#: builtins/builtins.c:572
-msgid "anything in the history list."
-msgstr ""
-
-#: builtins/builtins.c:580
-msgid "Lists the active jobs.  The -l option lists process id's in addition"
-msgstr ""
-
-#: builtins/builtins.c:581
-msgid "to the normal information; the -p option lists process id's only."
-msgstr ""
-
-#: builtins/builtins.c:582
-msgid "If -n is given, only processes that have changed status since the last"
-msgstr ""
-
-#: builtins/builtins.c:583
-msgid "notification are printed.  JOBSPEC restricts output to that job.  The"
-msgstr ""
-
-#: builtins/builtins.c:584
-msgid "-r and -s options restrict output to running and stopped jobs only,"
-msgstr ""
-
-#: builtins/builtins.c:585
-msgid "respectively.  Without options, the status of all active jobs is"
-msgstr ""
-
-#: builtins/builtins.c:586
-msgid "printed.  If -x is given, COMMAND is run after all job specifications"
-msgstr ""
-
-#: builtins/builtins.c:587
+#: builtins.c:593
 msgid ""
-"that appear in ARGS have been replaced with the process ID of that job's"
+"For each NAME, the full pathname of the command is determined and\n"
+"    remembered.  If the -p option is supplied, PATHNAME is used as the\n"
+"    full pathname of NAME, and no path search is performed.  The -r\n"
+"    option causes the shell to forget all remembered locations.  The -d\n"
+"    option causes the shell to forget the remembered location of each NAME.\n"
+"    If the -t option is supplied the full pathname to which each NAME\n"
+"    corresponds is printed.  If multiple NAME arguments are supplied with\n"
+"    -t, the NAME is printed before the hashed full pathname.  The -l option\n"
+"    causes output to be displayed in a format that may be reused as input.\n"
+"    If no arguments are given, information about remembered commands is "
+"displayed."
 msgstr ""
 
-#: builtins/builtins.c:588
-msgid "process group leader."
-msgstr ""
-
-#: builtins/builtins.c:596
-msgid "Removes each JOBSPEC argument from the table of active jobs."
-msgstr ""
-
-#: builtins/builtins.c:604
-msgid "Send the processes named by PID (or JOB) the signal SIGSPEC.  If"
-msgstr ""
-
-#: builtins/builtins.c:605
-msgid "SIGSPEC is not present, then SIGTERM is assumed.  An argument of `-l'"
-msgstr ""
-
-#: builtins/builtins.c:606
-msgid "lists the signal names; if arguments follow `-l' they are assumed to"
-msgstr ""
-
-#: builtins/builtins.c:607
-msgid "be signal numbers for which names should be listed.  Kill is a shell"
-msgstr ""
-
-#: builtins/builtins.c:608
-msgid "builtin for two reasons: it allows job IDs to be used instead of"
-msgstr ""
-
-#: builtins/builtins.c:609
-msgid "process IDs, and, if you have reached the limit on processes that"
-msgstr ""
-
-#: builtins/builtins.c:610
-msgid "you can create, you don't have to start a process to kill another one."
-msgstr ""
-
-#: builtins/builtins.c:617
-msgid "Each ARG is an arithmetic expression to be evaluated.  Evaluation"
-msgstr ""
-
-#: builtins/builtins.c:618
-msgid "is done in long integers with no check for overflow, though division"
-msgstr ""
-
-#: builtins/builtins.c:619
-msgid "by 0 is trapped and flagged as an error.  The following list of"
-msgstr ""
-
-#: builtins/builtins.c:620
-msgid "operators is grouped into levels of equal-precedence operators."
-msgstr ""
-
-#: builtins/builtins.c:621
-msgid "The levels are listed in order of decreasing precedence."
-msgstr ""
-
-#: builtins/builtins.c:623
-msgid "\t-, +\t\tunary minus, plus"
-msgstr ""
-
-#: builtins/builtins.c:624
-msgid "\t!, ~\t\tlogical and bitwise negation"
-msgstr ""
-
-#: builtins/builtins.c:625
-msgid "\t*, /, %\t\tmultiplication, division, remainder"
-msgstr ""
-
-#: builtins/builtins.c:626
-msgid "\t+, -\t\taddition, subtraction"
-msgstr ""
-
-#: builtins/builtins.c:627
-msgid "\t<<, >>\t\tleft and right bitwise shifts"
-msgstr ""
-
-#: builtins/builtins.c:628
-msgid "\t<=, >=, <, >\tcomparison"
-msgstr ""
-
-#: builtins/builtins.c:629
-msgid "\t==, !=\t\tequality, inequality"
-msgstr ""
-
-#: builtins/builtins.c:630
-msgid "\t&\t\tbitwise AND"
-msgstr ""
-
-#: builtins/builtins.c:631
-msgid "\t^\t\tbitwise XOR"
-msgstr ""
-
-#: builtins/builtins.c:632
-msgid "\t|\t\tbitwise OR"
-msgstr ""
-
-#: builtins/builtins.c:633
-msgid "\t&&\t\tlogical AND"
-msgstr ""
-
-#: builtins/builtins.c:634
-msgid "\t||\t\tlogical OR"
-msgstr ""
-
-#: builtins/builtins.c:635
-msgid "\texpr ? expr : expr"
-msgstr ""
-
-#: builtins/builtins.c:636
-msgid "\t\t\tconditional expression"
-msgstr ""
-
-#: builtins/builtins.c:637
-msgid "\t=, *=, /=, %=,"
-msgstr ""
-
-#: builtins/builtins.c:638
-msgid "\t+=, -=, <<=, >>=,"
-msgstr ""
-
-#: builtins/builtins.c:639
-msgid "\t&=, ^=, |=\tassignment"
-msgstr ""
-
-#: builtins/builtins.c:641
-msgid "Shell variables are allowed as operands.  The name of the variable"
-msgstr ""
-
-#: builtins/builtins.c:642
-msgid "is replaced by its value (coerced to a long integer) within"
-msgstr ""
-
-#: builtins/builtins.c:643
-msgid "an expression.  The variable need not have its integer attribute"
-msgstr ""
-
-#: builtins/builtins.c:644
-msgid "turned on to be used in an expression."
-msgstr ""
-
-#: builtins/builtins.c:646
-msgid "Operators are evaluated in order of precedence.  Sub-expressions in"
-msgstr ""
-
-#: builtins/builtins.c:647
-msgid "parentheses are evaluated first and may override the precedence"
-msgstr ""
-
-#: builtins/builtins.c:648
-msgid "rules above."
-msgstr ""
-
-#: builtins/builtins.c:650
-msgid "If the last ARG evaluates to 0, let returns 1; 0 is returned"
-msgstr ""
-
-#: builtins/builtins.c:651
-msgid "otherwise."
-msgstr ""
-
-#: builtins/builtins.c:657
-msgid "One line is read from the standard input, and the first word is"
-msgstr ""
-
-#: builtins/builtins.c:658
-msgid "assigned to the first NAME, the second word to the second NAME, and so"
-msgstr ""
-
-#: builtins/builtins.c:659
-msgid "on, with leftover words assigned to the last NAME.  Only the characters"
-msgstr ""
-
-#: builtins/builtins.c:660
-msgid "found in $IFS are recognized as word delimiters.  The return code is"
-msgstr ""
-
-#: builtins/builtins.c:661
-msgid "zero, unless end-of-file is encountered.  If no NAMEs are supplied, the"
-msgstr ""
-
-#: builtins/builtins.c:662
-msgid "line read is stored in the REPLY variable.  If the -r option is given,"
-msgstr ""
-
-#: builtins/builtins.c:663
-msgid "this signifies `raw' input, and backslash escaping is disabled.  If"
-msgstr ""
-
-#: builtins/builtins.c:664
-msgid "the `-p' option is supplied, the string supplied as an argument is"
-msgstr ""
-
-#: builtins/builtins.c:665
-msgid "output without a trailing newline before attempting to read.  If -a is"
-msgstr ""
-
-#: builtins/builtins.c:666
-msgid "supplied, the words read are assigned to sequential indices of ARRAY,"
-msgstr ""
-
-#: builtins/builtins.c:667
-msgid "starting at zero.  If -e is supplied and the shell is interactive,"
-msgstr ""
-
-#: builtins/builtins.c:668
-msgid "readline is used to obtain the line."
-msgstr ""
-
-#: builtins/builtins.c:674
-msgid "Causes a function to exit with the return value specified by N.  If N"
-msgstr ""
-
-#: builtins/builtins.c:675
-msgid "is omitted, the return status is that of the last command."
-msgstr ""
-
-#: builtins/builtins.c:681
-msgid "    -a  Mark variables which are modified or created for export."
-msgstr ""
-
-#: builtins/builtins.c:682
-msgid "    -b  Notify of job termination immediately."
-msgstr ""
-
-#: builtins/builtins.c:683
-msgid "    -e  Exit immediately if a command exits with a non-zero status."
-msgstr ""
-
-#: builtins/builtins.c:684
-msgid "    -f  Disable file name generation (globbing)."
-msgstr ""
-
-#: builtins/builtins.c:685
-msgid "    -h  Remember the location of commands as they are looked up."
-msgstr ""
-
-#: builtins/builtins.c:686
+#: builtins.c:609
 msgid ""
-"    -i  Force the shell to be an \"interactive\" one.  Interactive shells"
+"Display helpful information about builtin commands.  If PATTERN is\n"
+"    specified, gives detailed help on all commands matching PATTERN,\n"
+"    otherwise a list of the builtins is printed.  The -s option\n"
+"    restricts the output for each builtin command matching PATTERN to\n"
+"    a short usage synopsis."
 msgstr ""
 
-#: builtins/builtins.c:687
-msgid "        always read `~/.bashrc' on startup."
-msgstr ""
-
-#: builtins/builtins.c:688
-msgid "    -k  All assignment arguments are placed in the environment for a"
-msgstr ""
-
-#: builtins/builtins.c:689
-msgid "        command, not just those that precede the command name."
-msgstr ""
-
-#: builtins/builtins.c:690
-msgid "    -m  Job control is enabled."
-msgstr ""
-
-#: builtins/builtins.c:691
-msgid "    -n  Read commands but do not execute them."
-msgstr ""
-
-#: builtins/builtins.c:692
-msgid "    -o option-name"
-msgstr ""
-
-#: builtins/builtins.c:693
-msgid "        Set the variable corresponding to option-name:"
-msgstr ""
-
-#: builtins/builtins.c:694
-msgid "            allexport    same as -a"
-msgstr ""
-
-#: builtins/builtins.c:695
-msgid "            braceexpand  same as -B"
-msgstr ""
-
-#: builtins/builtins.c:697
-msgid "            emacs        use an emacs-style line editing interface"
-msgstr ""
-
-#: builtins/builtins.c:699
-msgid "            errexit      same as -e"
-msgstr ""
-
-#: builtins/builtins.c:700
-msgid "            hashall      same as -h"
-msgstr ""
-
-#: builtins/builtins.c:702
-msgid "            histexpand   same as -H"
-msgstr ""
-
-#: builtins/builtins.c:704
-msgid "            ignoreeof    the shell will not exit upon reading EOF"
-msgstr ""
-
-#: builtins/builtins.c:705
-msgid "            interactive-comments"
-msgstr ""
-
-#: builtins/builtins.c:706
+#: builtins.c:621
 msgid ""
-"                         allow comments to appear in interactive commands"
+"Display the history list with line numbers.  Lines listed with\n"
+"    with a `*' have been modified.  Argument of N says to list only\n"
+"    the last N lines.  The `-c' option causes the history list to be\n"
+"    cleared by deleting all of the entries.  The `-d' option deletes\n"
+"    the history entry at offset OFFSET.  The `-w' option writes out the\n"
+"    current history to the history file;  `-r' means to read the file and\n"
+"    append the contents to the history list instead.  `-a' means\n"
+"    to append history lines from this session to the history file.\n"
+"    Argument `-n' means to read all history lines not already read\n"
+"    from the history file and append them to the history list.\n"
+"    \n"
+"    If FILENAME is given, then that is used as the history file else\n"
+"    if $HISTFILE has a value, that is used, else ~/.bash_history.\n"
+"    If the -s option is supplied, the non-option ARGs are appended to\n"
+"    the history list as a single entry.  The -p option means to perform\n"
+"    history expansion on each ARG and display the result, without storing\n"
+"    anything in the history list.\n"
+"    \n"
+"    If the $HISTTIMEFORMAT variable is set and not null, its value is used\n"
+"    as a format string for strftime(3) to print the time stamp associated\n"
+"    with each displayed history entry.  No time stamps are printed otherwise."
 msgstr ""
 
-#: builtins/builtins.c:707
-msgid "            keyword      same as -k"
-msgstr ""
-
-#: builtins/builtins.c:708
-msgid "            monitor      same as -m"
-msgstr ""
-
-#: builtins/builtins.c:709
-msgid "            noclobber    same as -C"
-msgstr ""
-
-#: builtins/builtins.c:710
-msgid "            noexec       same as -n"
-msgstr ""
-
-#: builtins/builtins.c:711
-msgid "            noglob       same as -f"
-msgstr ""
-
-#: builtins/builtins.c:712
-msgid "            notify       save as -b"
-msgstr ""
-
-#: builtins/builtins.c:713
-msgid "            nounset      same as -u"
-msgstr ""
-
-#: builtins/builtins.c:714
-msgid "            onecmd       same as -t"
-msgstr ""
-
-#: builtins/builtins.c:715
-msgid "            physical     same as -P"
-msgstr ""
-
-#: builtins/builtins.c:716
-msgid "            posix        change the behavior of bash where the default"
-msgstr ""
-
-#: builtins/builtins.c:717
-msgid "                         operation differs from the 1003.2 standard to"
-msgstr ""
-
-#: builtins/builtins.c:718
-msgid "                         match the standard"
-msgstr ""
-
-#: builtins/builtins.c:719
-msgid "            privileged   same as -p"
-msgstr ""
-
-#: builtins/builtins.c:720
-msgid "            verbose      same as -v"
-msgstr ""
-
-#: builtins/builtins.c:722
-msgid "            vi           use a vi-style line editing interface"
-msgstr ""
-
-#: builtins/builtins.c:724
-msgid "            xtrace       same as -x"
-msgstr ""
-
-#: builtins/builtins.c:725
+#: builtins.c:649
 msgid ""
-"    -p  Turned on whenever the real and effective user ids do not match."
+"Lists the active jobs.  The -l option lists process id's in addition\n"
+"    to the normal information; the -p option lists process id's only.\n"
+"    If -n is given, only processes that have changed status since the last\n"
+"    notification are printed.  JOBSPEC restricts output to that job.  The\n"
+"    -r and -s options restrict output to running and stopped jobs only,\n"
+"    respectively.  Without options, the status of all active jobs is\n"
+"    printed.  If -x is given, COMMAND is run after all job specifications\n"
+"    that appear in ARGS have been replaced with the process ID of that "
+"job's\n"
+"    process group leader."
 msgstr ""
 
-#: builtins/builtins.c:726
-msgid "        Disables processing of the $ENV file and importing of shell"
-msgstr ""
-
-#: builtins/builtins.c:727
+#: builtins.c:665
 msgid ""
-"        functions.  Turning this option off causes the effective uid and"
-msgstr ""
-
-#: builtins/builtins.c:728
-msgid "        gid to be set to the real uid and gid."
-msgstr ""
-
-#: builtins/builtins.c:729
-msgid "    -t  Exit after reading and executing one command."
-msgstr ""
-
-#: builtins/builtins.c:730
-msgid "    -u  Treat unset variables as an error when substituting."
-msgstr ""
-
-#: builtins/builtins.c:731
-msgid "    -v  Print shell input lines as they are read."
-msgstr ""
-
-#: builtins/builtins.c:732
-msgid "    -x  Print commands and their arguments as they are executed."
-msgstr ""
-
-#: builtins/builtins.c:734
-msgid "    -B  the shell will perform brace expansion"
-msgstr ""
-
-#: builtins/builtins.c:737
-msgid "    -H  Enable ! style history substitution.  This flag is on"
-msgstr ""
-
-#: builtins/builtins.c:738
-msgid "        by default."
-msgstr ""
-
-#: builtins/builtins.c:740
-msgid "    -C  If set, disallow existing regular files to be overwritten"
-msgstr ""
-
-#: builtins/builtins.c:741
-msgid "        by redirection of output."
-msgstr ""
-
-#: builtins/builtins.c:742
-msgid "    -P  If set, do not follow symbolic links when executing commands"
-msgstr ""
-
-#: builtins/builtins.c:743
-msgid "        such as cd which change the current directory."
-msgstr ""
-
-#: builtins/builtins.c:745
-msgid "Using + rather than - causes these flags to be turned off.  The"
-msgstr ""
-
-#: builtins/builtins.c:746
-msgid "flags can also be used upon invocation of the shell.  The current"
-msgstr ""
-
-#: builtins/builtins.c:747
-msgid "set of flags may be found in $-.  The remaining n ARGs are positional"
-msgstr ""
-
-#: builtins/builtins.c:748
-msgid "parameters and are assigned, in order, to $1, $2, .. $n.  If no"
-msgstr ""
-
-#: builtins/builtins.c:749
-msgid "ARGs are given, all shell variables are printed."
-msgstr ""
-
-#: builtins/builtins.c:755
-msgid "For each NAME, remove the corresponding variable or function.  Given"
-msgstr ""
-
-#: builtins/builtins.c:756
-msgid "the `-v', unset will only act on variables.  Given the `-f' flag,"
-msgstr ""
-
-#: builtins/builtins.c:757
-msgid "unset will only act on functions.  With neither flag, unset first"
-msgstr ""
-
-#: builtins/builtins.c:758
-msgid "tries to unset a variable, and if that fails, then tries to unset a"
-msgstr ""
-
-#: builtins/builtins.c:759
-msgid "function.  Some variables (such as PATH and IFS) cannot be unset; also"
-msgstr ""
-
-#: builtins/builtins.c:760
-msgid "see readonly."
-msgstr ""
-
-#: builtins/builtins.c:766
-msgid "NAMEs are marked for automatic export to the environment of"
-msgstr ""
-
-#: builtins/builtins.c:767
-msgid "subsequently executed commands.  If the -f option is given,"
-msgstr ""
-
-#: builtins/builtins.c:768
-msgid "the NAMEs refer to functions.  If no NAMEs are given, or if `-p'"
-msgstr ""
-
-#: builtins/builtins.c:769
-msgid "is given, a list of all names that are exported in this shell is"
-msgstr ""
-
-#: builtins/builtins.c:770
-msgid "printed.  An argument of `-n' says to remove the export property"
-msgstr ""
-
-#: builtins/builtins.c:771
-msgid "from subsequent NAMEs.  An argument of `--' disables further option"
-msgstr ""
-
-#: builtins/builtins.c:772 builtins/builtins.c:785
-msgid "processing."
-msgstr ""
-
-#: builtins/builtins.c:778
-msgid "The given NAMEs are marked readonly and the values of these NAMEs may"
-msgstr ""
-
-#: builtins/builtins.c:779
-msgid "not be changed by subsequent assignment.  If the -f option is given,"
-msgstr ""
-
-#: builtins/builtins.c:780
-msgid "then functions corresponding to the NAMEs are so marked.  If no"
-msgstr ""
-
-#: builtins/builtins.c:781
-msgid "arguments are given, or if `-p' is given, a list of all readonly names"
-msgstr ""
-
-#: builtins/builtins.c:782
-msgid "is printed.  An argument of `-n' says to remove the readonly property"
-msgstr ""
-
-#: builtins/builtins.c:783
-msgid "from subsequent NAMEs.  The `-a' option means to treat each NAME as"
-msgstr ""
-
-#: builtins/builtins.c:784
-msgid "an array variable.  An argument of `--' disables further option"
-msgstr ""
-
-#: builtins/builtins.c:791
-msgid "The positional parameters from $N+1 ... are renamed to $1 ...  If N is"
-msgstr ""
-
-#: builtins/builtins.c:792
-msgid "not given, it is assumed to be 1."
-msgstr ""
-
-#: builtins/builtins.c:798 builtins/builtins.c:805
-msgid "Read and execute commands from FILENAME and return.  The pathnames"
-msgstr ""
-
-#: builtins/builtins.c:799 builtins/builtins.c:806
-msgid "in $PATH are used to find the directory containing FILENAME."
-msgstr ""
-
-#: builtins/builtins.c:813
-msgid "Suspend the execution of this shell until it receives a SIGCONT"
-msgstr ""
-
-#: builtins/builtins.c:814
-msgid "signal.  The `-f' if specified says not to complain about this"
-msgstr ""
-
-#: builtins/builtins.c:815
-msgid "being a login shell if it is; just suspend anyway."
-msgstr ""
-
-#: builtins/builtins.c:822
-msgid "Exits with a status of 0 (trueness) or 1 (falseness) depending on"
-msgstr ""
-
-#: builtins/builtins.c:823
-msgid "the evaluation of EXPR.  Expressions may be unary or binary.  Unary"
-msgstr ""
-
-#: builtins/builtins.c:824
-msgid "expressions are often used to examine the status of a file.  There"
-msgstr ""
-
-#: builtins/builtins.c:825
-msgid "are string operators as well, and numeric comparison operators."
-msgstr ""
-
-#: builtins/builtins.c:827
-msgid "File operators:"
-msgstr ""
-
-#: builtins/builtins.c:829
-msgid "    -b FILE        True if file is block special."
-msgstr ""
-
-#: builtins/builtins.c:830
-msgid "    -c FILE        True if file is character special."
-msgstr ""
-
-#: builtins/builtins.c:831
-msgid "    -d FILE        True if file is a directory."
-msgstr ""
-
-#: builtins/builtins.c:832
-msgid "    -e FILE        True if file exists."
-msgstr ""
-
-#: builtins/builtins.c:833
-msgid "    -f FILE        True if file exists and is a regular file."
-msgstr ""
-
-#: builtins/builtins.c:834
-msgid "    -g FILE        True if file is set-group-id."
-msgstr ""
-
-#: builtins/builtins.c:835
-msgid "    -h FILE        True if file is a symbolic link.  Use \"-L\"."
-msgstr ""
-
-#: builtins/builtins.c:836
-msgid "    -L FILE        True if file is a symbolic link."
-msgstr ""
-
-#: builtins/builtins.c:837
-msgid "    -k FILE        True if file has its \"sticky\" bit set."
-msgstr ""
-
-#: builtins/builtins.c:838
-msgid "    -p FILE        True if file is a named pipe."
-msgstr ""
-
-#: builtins/builtins.c:839
-msgid "    -r FILE        True if file is readable by you."
-msgstr ""
-
-#: builtins/builtins.c:840
-msgid "    -s FILE        True if file exists and is not empty."
-msgstr ""
-
-#: builtins/builtins.c:841
-msgid "    -S FILE        True if file is a socket."
-msgstr ""
-
-#: builtins/builtins.c:842
-msgid "    -t FD          True if FD is opened on a terminal."
-msgstr ""
-
-#: builtins/builtins.c:843
-msgid "    -u FILE        True if the file is set-user-id."
-msgstr ""
-
-#: builtins/builtins.c:844
-msgid "    -w FILE        True if the file is writable by you."
-msgstr ""
-
-#: builtins/builtins.c:845
-msgid "    -x FILE        True if the file is executable by you."
-msgstr ""
-
-#: builtins/builtins.c:846
-msgid "    -O FILE        True if the file is effectively owned by you."
-msgstr ""
-
-#: builtins/builtins.c:847
-msgid "    -G FILE        True if the file is effectively owned by your group."
-msgstr ""
-
-#: builtins/builtins.c:849
-msgid "  FILE1 -nt FILE2  True if file1 is newer than (according to"
-msgstr ""
-
-#: builtins/builtins.c:850
-msgid "                   modification date) file2."
-msgstr ""
-
-#: builtins/builtins.c:852
-msgid "  FILE1 -ot FILE2  True if file1 is older than file2."
-msgstr ""
-
-#: builtins/builtins.c:854
-msgid "  FILE1 -ef FILE2  True if file1 is a hard link to file2."
-msgstr ""
-
-#: builtins/builtins.c:856
-msgid "String operators:"
-msgstr ""
-
-#: builtins/builtins.c:858
-msgid "    -z STRING      True if string is empty."
-msgstr ""
-
-#: builtins/builtins.c:860
-msgid "    -n STRING"
-msgstr ""
-
-#: builtins/builtins.c:861
-msgid "    STRING         True if string is not empty."
-msgstr ""
-
-#: builtins/builtins.c:863
-msgid "    STRING1 = STRING2"
-msgstr ""
-
-#: builtins/builtins.c:864
-msgid "                   True if the strings are equal."
-msgstr ""
-
-#: builtins/builtins.c:865
-msgid "    STRING1 != STRING2"
-msgstr ""
-
-#: builtins/builtins.c:866
-msgid "                   True if the strings are not equal."
-msgstr ""
-
-#: builtins/builtins.c:867
-msgid "    STRING1 < STRING2"
-msgstr ""
-
-#: builtins/builtins.c:868
+"By default, removes each JOBSPEC argument from the table of active jobs.\n"
+"    If the -h option is given, the job is not removed from the table, but "
+"is\n"
+"    marked so that SIGHUP is not sent to the job if the shell receives a\n"
+"    SIGHUP.  The -a option, when JOBSPEC is not supplied, means to remove "
+"all\n"
+"    jobs from the job table; the -r option means to remove only running jobs."
+msgstr ""
+
+#: builtins.c:676
 msgid ""
-"                   True if STRING1 sorts before STRING2 lexicographically"
+"Send the processes named by PID (or JOBSPEC) the signal SIGSPEC.  If\n"
+"    SIGSPEC is not present, then SIGTERM is assumed.  An argument of `-l'\n"
+"    lists the signal names; if arguments follow `-l' they are assumed to\n"
+"    be signal numbers for which names should be listed.  Kill is a shell\n"
+"    builtin for two reasons: it allows job IDs to be used instead of\n"
+"    process IDs, and, if you have reached the limit on processes that\n"
+"    you can create, you don't have to start a process to kill another one."
 msgstr ""
 
-#: builtins/builtins.c:869
-msgid "    STRING1 > STRING2"
-msgstr ""
-
-#: builtins/builtins.c:870
+#: builtins.c:688
 msgid ""
-"                   True if STRING1 sorts after STRING2 lexicographically"
-msgstr ""
-
-#: builtins/builtins.c:872
-msgid "Other operators:"
-msgstr ""
-
-#: builtins/builtins.c:874
-msgid "    ! EXPR         True if expr is false."
-msgstr ""
-
-#: builtins/builtins.c:875
-msgid "    EXPR1 -a EXPR2 True if both expr1 AND expr2 are true."
-msgstr ""
-
-#: builtins/builtins.c:876
-msgid "    EXPR1 -o EXPR2 True if either expr1 OR expr2 is true."
-msgstr ""
-
-#: builtins/builtins.c:878
-msgid "    arg1 OP arg2   Arithmetic tests.  OP is one of -eq, -ne,"
-msgstr ""
-
-#: builtins/builtins.c:879
-msgid "                   -lt, -le, -gt, or -ge."
-msgstr ""
-
-#: builtins/builtins.c:881
-msgid "Arithmetic binary operators return true if ARG1 is equal, not-equal,"
-msgstr ""
-
-#: builtins/builtins.c:882
-msgid "less-than, less-than-or-equal, greater-than, or greater-than-or-equal"
-msgstr ""
-
-#: builtins/builtins.c:883
-msgid "than ARG2."
-msgstr ""
-
-#: builtins/builtins.c:889
-msgid "This is a synonym for the \"test\" builtin, but the last"
-msgstr ""
-
-#: builtins/builtins.c:890
-msgid "argument must be a literal `]', to match the opening `['."
-msgstr ""
-
-#: builtins/builtins.c:896
-msgid "Print the accumulated user and system times for processes run from"
-msgstr ""
-
-#: builtins/builtins.c:897
-msgid "the shell."
-msgstr ""
-
-#: builtins/builtins.c:903
-msgid "The command ARG is to be read and executed when the shell receives"
-msgstr ""
-
-#: builtins/builtins.c:904
-msgid "signal(s) SIGNAL_SPEC.  If ARG is absent all specified signals are"
-msgstr ""
-
-#: builtins/builtins.c:905
-msgid "reset to their original values.  If ARG is the null string each"
-msgstr ""
-
-#: builtins/builtins.c:906
-msgid "SIGNAL_SPEC is ignored by the shell and by the commands it invokes."
-msgstr ""
-
-#: builtins/builtins.c:907
-msgid "If SIGNAL_SPEC is EXIT (0) the command ARG is executed on exit from"
-msgstr ""
-
-#: builtins/builtins.c:908
-msgid "the shell.  If SIGNAL_SPEC is DEBUG, ARG is executed after every"
-msgstr ""
-
-#: builtins/builtins.c:909
-msgid "command.  If ARG is `-p' then the trap commands associated with"
-msgstr ""
-
-#: builtins/builtins.c:910
-msgid "each SIGNAL_SPEC are displayed.  If no arguments are supplied or if"
-msgstr ""
-
-#: builtins/builtins.c:911
-msgid "only `-p' is given, trap prints the list of commands associated with"
-msgstr ""
-
-#: builtins/builtins.c:912
-msgid "each signal number.  SIGNAL_SPEC is either a signal name in <signal.h>"
-msgstr ""
-
-#: builtins/builtins.c:913
-msgid "or a signal number.  `trap -l' prints a list of signal names and their"
-msgstr ""
-
-#: builtins/builtins.c:914
-msgid "corresponding numbers.  Note that a signal can be sent to the shell"
-msgstr ""
-
-#: builtins/builtins.c:915
-msgid "with \"kill -signal $$\"."
-msgstr ""
-
-#: builtins/builtins.c:921
-msgid "For each NAME, indicate how it would be interpreted if used as a"
-msgstr ""
-
-#: builtins/builtins.c:922
-msgid "command name."
-msgstr ""
-
-#: builtins/builtins.c:924
-msgid "If the -t option is used, returns a single word which is one of"
-msgstr ""
-
-#: builtins/builtins.c:925
-msgid "`alias', `keyword', `function', `builtin', `file' or `', if NAME is an"
-msgstr ""
-
-#: builtins/builtins.c:926
-msgid "alias, shell reserved word, shell function, shell builtin, disk file,"
-msgstr ""
-
-#: builtins/builtins.c:927
-msgid "or unfound, respectively."
-msgstr ""
-
-#: builtins/builtins.c:929
-msgid "If the -p flag is used, either returns the name of the disk file"
-msgstr ""
-
-#: builtins/builtins.c:930
-msgid "that would be executed, or nothing if -t would not return `file'."
-msgstr ""
-
-#: builtins/builtins.c:932
-msgid "If the -a flag is used, displays all of the places that contain an"
-msgstr ""
-
-#: builtins/builtins.c:933
-msgid "executable named `file'.  This includes aliases and functions, if and"
-msgstr ""
-
-#: builtins/builtins.c:934
-msgid "only if the -p flag is not also used."
-msgstr ""
-
-#: builtins/builtins.c:936
-msgid "Type accepts -all, -path, and -type in place of -a, -p, and -t,"
-msgstr ""
-
-#: builtins/builtins.c:937
-msgid "respectively."
-msgstr ""
-
-#: builtins/builtins.c:944
-msgid "Ulimit provides control over the resources available to processes"
-msgstr ""
-
-#: builtins/builtins.c:945
-msgid "started by the shell, on systems that allow such control.  If an"
-msgstr ""
-
-#: builtins/builtins.c:946
-msgid "option is given, it is interpreted as follows:"
-msgstr ""
-
-#: builtins/builtins.c:948
-msgid "    -S\tuse the `soft' resource limit"
-msgstr ""
-
-#: builtins/builtins.c:949
-msgid "    -H\tuse the `hard' resource limit"
-msgstr ""
-
-#: builtins/builtins.c:950
-msgid "    -a\tall current limits are reported"
-msgstr ""
-
-#: builtins/builtins.c:951
-msgid "    -c\tthe maximum size of core files created"
-msgstr ""
-
-#: builtins/builtins.c:952
-msgid "    -d\tthe maximum size of a process's data segment"
-msgstr ""
-
-#: builtins/builtins.c:953
-msgid "    -m\tthe maximum resident set size"
-msgstr ""
-
-#: builtins/builtins.c:954
-msgid "    -s\tthe maximum stack size"
-msgstr ""
-
-#: builtins/builtins.c:955
-msgid "    -t\tthe maximum amount of cpu time in seconds"
-msgstr ""
-
-#: builtins/builtins.c:956
-msgid "    -f\tthe maximum size of files created by the shell"
-msgstr ""
-
-#: builtins/builtins.c:957
-msgid "    -p\tthe pipe buffer size"
-msgstr ""
-
-#: builtins/builtins.c:958
-msgid "    -n\tthe maximum number of open file descriptors"
-msgstr ""
-
-#: builtins/builtins.c:959
-msgid "    -u\tthe maximum number of user processes"
-msgstr ""
-
-#: builtins/builtins.c:960
-msgid "    -v\tthe size of virtual memory"
-msgstr ""
-
-#: builtins/builtins.c:962
-msgid "If LIMIT is given, it is the new value of the specified resource."
-msgstr ""
-
-#: builtins/builtins.c:963
-msgid "Otherwise, the current value of the specified resource is printed."
-msgstr ""
-
-#: builtins/builtins.c:964
-msgid "If no option is given, then -f is assumed.  Values are in 1k"
-msgstr ""
-
-#: builtins/builtins.c:965
-msgid "increments, except for -t, which is in seconds, -p, which is in"
-msgstr ""
-
-#: builtins/builtins.c:966
-msgid "increments of 512 bytes, and -u, which is an unscaled number of"
-msgstr ""
-
-#: builtins/builtins.c:967
-msgid "processes."
-msgstr ""
-
-#: builtins/builtins.c:974
-msgid "The user file-creation mask is set to MODE.  If MODE is omitted, or if"
-msgstr ""
-
-#: builtins/builtins.c:975
-msgid "`-S' is supplied, the current value of the mask is printed.  The `-S'"
-msgstr ""
-
-#: builtins/builtins.c:976
-msgid "option makes the output symbolic; otherwise an octal number is output."
-msgstr ""
-
-#: builtins/builtins.c:977
-msgid "If MODE begins with a digit, it is interpreted as an octal number,"
-msgstr ""
-
-#: builtins/builtins.c:978
-msgid "otherwise it is a symbolic mode string like that accepted by chmod(1)."
-msgstr ""
-
-#: builtins/builtins.c:985 builtins/builtins.c:997
-msgid "Wait for the specified process and report its termination status.  If"
-msgstr ""
-
-#: builtins/builtins.c:986 builtins/builtins.c:998
-msgid "N is not given, all currently active child processes are waited for,"
-msgstr ""
-
-#: builtins/builtins.c:987
-msgid "and the return code is zero.  N may be a process ID or a job"
-msgstr ""
-
-#: builtins/builtins.c:988
-msgid "specification; if a job spec is given, all processes in the job's"
-msgstr ""
-
-#: builtins/builtins.c:989
-msgid "pipeline are waited for."
-msgstr ""
-
-#: builtins/builtins.c:999
-msgid "and the return code is zero.  N is a process ID; if it is not given,"
-msgstr ""
-
-#: builtins/builtins.c:1000
-msgid "all child processes of the shell are waited for."
-msgstr ""
-
-#: builtins/builtins.c:1007
-msgid "The `for' loop executes a sequence of commands for each member in a"
-msgstr ""
-
-#: builtins/builtins.c:1008
-msgid "list of items.  If `in WORDS ...;' is not present, then `in \"$@\"' is"
-msgstr ""
-
-#: builtins/builtins.c:1009
-msgid "assumed.  For each element in WORDS, NAME is set to that element, and"
-msgstr ""
-
-#: builtins/builtins.c:1010
-msgid "the COMMANDS are executed."
-msgstr ""
-
-#: builtins/builtins.c:1016
-msgid "The WORDS are expanded, generating a list of words.  The"
-msgstr ""
-
-#: builtins/builtins.c:1017
-msgid "set of expanded words is printed on the standard error, each"
-msgstr ""
-
-#: builtins/builtins.c:1018
-msgid "preceded by a number.  If `in WORDS' is not present, `in \"$@\"'"
-msgstr ""
-
-#: builtins/builtins.c:1019
-msgid "is assumed.  The PS3 prompt is then displayed and a line read"
-msgstr ""
-
-#: builtins/builtins.c:1020
-msgid "from the standard input.  If the line consists of the number"
-msgstr ""
-
-#: builtins/builtins.c:1021
-msgid "corresponding to one of the displayed words, then NAME is set"
-msgstr ""
-
-#: builtins/builtins.c:1022
-msgid "to that word.  If the line is empty, WORDS and the prompt are"
-msgstr ""
-
-#: builtins/builtins.c:1023
-msgid "redisplayed.  If EOF is read, the command completes.  Any other"
-msgstr ""
-
-#: builtins/builtins.c:1024
-msgid "value read causes NAME to be set to null.  The line read is saved"
-msgstr ""
-
-#: builtins/builtins.c:1025
-msgid "in the variable REPLY.  COMMANDS are executed after each selection"
-msgstr ""
-
-#: builtins/builtins.c:1026
-msgid "until a break or return command is executed."
-msgstr ""
-
-#: builtins/builtins.c:1032
-msgid "Selectively execute COMMANDS based upon WORD matching PATTERN.  The"
-msgstr ""
-
-#: builtins/builtins.c:1033
-msgid "`|' is used to separate multiple patterns."
-msgstr ""
-
-#: builtins/builtins.c:1039
+"Each ARG is an arithmetic expression to be evaluated.  Evaluation\n"
+"    is done in fixed-width integers with no check for overflow, though\n"
+"    division by 0 is trapped and flagged as an error.  The following\n"
+"    list of operators is grouped into levels of equal-precedence operators.\n"
+"    The levels are listed in order of decreasing precedence.\n"
+"    \n"
+"    \tid++, id--\tvariable post-increment, post-decrement\n"
+"    \t++id, --id\tvariable pre-increment, pre-decrement\n"
+"    \t-, +\t\tunary minus, plus\n"
+"    \t!, ~\t\tlogical and bitwise negation\n"
+"    \t**\t\texponentiation\n"
+"    \t*, /, %\t\tmultiplication, division, remainder\n"
+"    \t+, -\t\taddition, subtraction\n"
+"    \t<<, >>\t\tleft and right bitwise shifts\n"
+"    \t<=, >=, <, >\tcomparison\n"
+"    \t==, !=\t\tequality, inequality\n"
+"    \t&\t\tbitwise AND\n"
+"    \t^\t\tbitwise XOR\n"
+"    \t|\t\tbitwise OR\n"
+"    \t&&\t\tlogical AND\n"
+"    \t||\t\tlogical OR\n"
+"    \texpr ? expr : expr\n"
+"    \t\t\tconditional operator\n"
+"    \t=, *=, /=, %=,\n"
+"    \t+=, -=, <<=, >>=,\n"
+"    \t&=, ^=, |=\tassignment\n"
+"    \n"
+"    Shell variables are allowed as operands.  The name of the variable\n"
+"    is replaced by its value (coerced to a fixed-width integer) within\n"
+"    an expression.  The variable need not have its integer attribute\n"
+"    turned on to be used in an expression.\n"
+"    \n"
+"    Operators are evaluated in order of precedence.  Sub-expressions in\n"
+"    parentheses are evaluated first and may override the precedence\n"
+"    rules above.\n"
+"    \n"
+"    If the last ARG evaluates to 0, let returns 1; 0 is returned\n"
+"    otherwise."
+msgstr ""
+
+#: builtins.c:731
 msgid ""
-"The if COMMANDS are executed.  If the exit status is zero, then the then"
+"One line is read from the standard input, or from file descriptor FD if the\n"
+"    -u option is supplied, and the first word is assigned to the first "
+"NAME,\n"
+"    the second word to the second NAME, and so on, with leftover words "
+"assigned\n"
+"    to the last NAME.  Only the characters found in $IFS are recognized as "
+"word\n"
+"    delimiters.  If no NAMEs are supplied, the line read is stored in the "
+"REPLY\n"
+"    variable.  If the -r option is given, this signifies `raw' input, and\n"
+"    backslash escaping is disabled.  The -d option causes read to continue\n"
+"    until the first character of DELIM is read, rather than newline.  If the "
+"-p\n"
+"    option is supplied, the string PROMPT is output without a trailing "
+"newline\n"
+"    before attempting to read.  If -a is supplied, the words read are "
+"assigned\n"
+"    to sequential indices of ARRAY, starting at zero.  If -e is supplied "
+"and\n"
+"    the shell is interactive, readline is used to obtain the line.  If -n "
+"is\n"
+"    supplied with a non-zero NCHARS argument, read returns after NCHARS\n"
+"    characters have been read.  The -s option causes input coming from a\n"
+"    terminal to not be echoed.\n"
+"    \n"
+"    The -t option causes read to time out and return failure if a complete "
+"line\n"
+"    of input is not read within TIMEOUT seconds.  If the TMOUT variable is "
+"set,\n"
+"    its value is the default timeout.  The return code is zero, unless end-"
+"of-file\n"
+"    is encountered, read times out, or an invalid file descriptor is "
+"supplied as\n"
+"    the argument to -u."
 msgstr ""
 
-#: builtins/builtins.c:1040
+#: builtins.c:757
 msgid ""
-"COMMANDS are executed.  Otherwise, each of the elif COMMANDS are executed"
+"Causes a function to exit with the return value specified by N.  If N\n"
+"    is omitted, the return status is that of the last command."
 msgstr ""
 
-#: builtins/builtins.c:1041
+#: builtins.c:764
 msgid ""
-"in turn, and if the exit status is zero, the corresponding then COMMANDS"
+"    -a  Mark variables which are modified or created for export.\n"
+"        -b  Notify of job termination immediately.\n"
+"        -e  Exit immediately if a command exits with a non-zero status.\n"
+"        -f  Disable file name generation (globbing).\n"
+"        -h  Remember the location of commands as they are looked up.\n"
+"        -k  All assignment arguments are placed in the environment for a\n"
+"            command, not just those that precede the command name.\n"
+"        -m  Job control is enabled.\n"
+"        -n  Read commands but do not execute them.\n"
+"        -o option-name\n"
+"            Set the variable corresponding to option-name:\n"
+"                allexport    same as -a\n"
+"                braceexpand  same as -B\n"
+"                emacs        use an emacs-style line editing interface\n"
+"                errexit      same as -e\n"
+"                errtrace     same as -E\n"
+"                functrace    same as -T\n"
+"                hashall      same as -h\n"
+"                histexpand   same as -H\n"
+"                history      enable command history\n"
+"                ignoreeof    the shell will not exit upon reading EOF\n"
+"                interactive-comments\n"
+"                             allow comments to appear in interactive "
+"commands\n"
+"                keyword      same as -k\n"
+"                monitor      same as -m\n"
+"                noclobber    same as -C\n"
+"                noexec       same as -n\n"
+"                noglob       same as -f\n"
+"                nolog        currently accepted but ignored\n"
+"                notify       same as -b\n"
+"                nounset      same as -u\n"
+"                onecmd       same as -t\n"
+"                physical     same as -P\n"
+"                pipefail     the return value of a pipeline is the status "
+"of\n"
+"                             the last command to exit with a non-zero "
+"status,\n"
+"                             or zero if no command exited with a non-zero "
+"status\n"
+"                posix        change the behavior of bash where the default\n"
+"                             operation differs from the 1003.2 standard to\n"
+"                             match the standard\n"
+"                privileged   same as -p\n"
+"                verbose      same as -v\n"
+"                vi           use a vi-style line editing interface\n"
+"                xtrace       same as -x\n"
+"        -p  Turned on whenever the real and effective user ids do not "
+"match.\n"
+"            Disables processing of the $ENV file and importing of shell\n"
+"            functions.  Turning this option off causes the effective uid "
+"and\n"
+"            gid to be set to the real uid and gid.\n"
+"        -t  Exit after reading and executing one command.\n"
+"        -u  Treat unset variables as an error when substituting.\n"
+"        -v  Print shell input lines as they are read.\n"
+"        -x  Print commands and their arguments as they are executed.\n"
+"        -B  the shell will perform brace expansion\n"
+"        -C  If set, disallow existing regular files to be overwritten\n"
+"            by redirection of output.\n"
+"        -E  If set, the ERR trap is inherited by shell functions.\n"
+"        -H  Enable ! style history substitution.  This flag is on\n"
+"            by default when the shell is interactive.\n"
+"        -P  If set, do not follow symbolic links when executing commands\n"
+"            such as cd which change the current directory.\n"
+"        -T  If set, the DEBUG trap is inherited by shell functions.\n"
+"        -   Assign any remaining arguments to the positional parameters.\n"
+"            The -x and -v options are turned off.\n"
+"    \n"
+"    Using + rather than - causes these flags to be turned off.  The\n"
+"    flags can also be used upon invocation of the shell.  The current\n"
+"    set of flags may be found in $-.  The remaining n ARGs are positional\n"
+"    parameters and are assigned, in order, to $1, $2, .. $n.  If no\n"
+"    ARGs are given, all shell variables are printed."
 msgstr ""
 
-#: builtins/builtins.c:1042
+#: builtins.c:837
 msgid ""
-"are executed and the if command completes.  Otherwise, the else COMMANDS"
+"For each NAME, remove the corresponding variable or function.  Given\n"
+"    the `-v', unset will only act on variables.  Given the `-f' flag,\n"
+"    unset will only act on functions.  With neither flag, unset first\n"
+"    tries to unset a variable, and if that fails, then tries to unset a\n"
+"    function.  Some variables cannot be unset; also see readonly."
 msgstr ""
 
-#: builtins/builtins.c:1043
+#: builtins.c:847
 msgid ""
-"are executed, if present.  The exit status is the exit status of the last"
+"NAMEs are marked for automatic export to the environment of\n"
+"    subsequently executed commands.  If the -f option is given,\n"
+"    the NAMEs refer to functions.  If no NAMEs are given, or if `-p'\n"
+"    is given, a list of all names that are exported in this shell is\n"
+"    printed.  An argument of `-n' says to remove the export property\n"
+"    from subsequent NAMEs.  An argument of `--' disables further option\n"
+"    processing."
 msgstr ""
 
-#: builtins/builtins.c:1044
-msgid "command executed, or zero if no condition tested true."
-msgstr ""
-
-#: builtins/builtins.c:1050 builtins/builtins.c:1057
-msgid "Expand and execute COMMANDS as long as the final command in the"
-msgstr ""
-
-#: builtins/builtins.c:1051
-msgid "`while' COMMANDS has an exit status of zero."
-msgstr ""
-
-#: builtins/builtins.c:1058
-msgid "`until' COMMANDS has an exit status which is not zero."
-msgstr ""
-
-#: builtins/builtins.c:1064
-msgid "Create a simple command invoked by NAME which runs COMMANDS."
-msgstr ""
-
-#: builtins/builtins.c:1065
-msgid "Arguments on the command line along with NAME are passed to the"
-msgstr ""
-
-#: builtins/builtins.c:1066
-msgid "function as $0 .. $n."
-msgstr ""
-
-#: builtins/builtins.c:1072
-msgid "Run a set of commands in a group.  This is one way to redirect an"
-msgstr ""
-
-#: builtins/builtins.c:1073
-msgid "entire set of commands."
-msgstr ""
-
-#: builtins/builtins.c:1079
-msgid "This is similar to the `fg' command.  Resume a stopped or background"
-msgstr ""
-
-#: builtins/builtins.c:1080
-msgid "job.  If you specifiy DIGITS, then that job is used.  If you specify"
-msgstr ""
-
-#: builtins/builtins.c:1081
-msgid "WORD, then the job whose name begins with WORD is used.  Following the"
-msgstr ""
-
-#: builtins/builtins.c:1082
-msgid "job specification with a `&' places the job in the background."
-msgstr ""
-
-#: builtins/builtins.c:1088
-msgid "BASH_VERSION    The version numbers of this Bash."
-msgstr ""
-
-#: builtins/builtins.c:1089
-msgid "CDPATH          A colon separated list of directories to search"
-msgstr ""
-
-#: builtins/builtins.c:1090
-msgid "\t\twhen the argument to `cd' is not found in the current"
-msgstr ""
-
-#: builtins/builtins.c:1091
-msgid "\t\tdirectory."
-msgstr ""
-
-#: builtins/builtins.c:1093
+#: builtins.c:859
 msgid ""
-"HISTFILE        The name of the file where your command history is stored."
+"The given NAMEs are marked readonly and the values of these NAMEs may\n"
+"    not be changed by subsequent assignment.  If the -f option is given,\n"
+"    then functions corresponding to the NAMEs are so marked.  If no\n"
+"    arguments are given, or if `-p' is given, a list of all readonly names\n"
+"    is printed.  The `-a' option means to treat each NAME as\n"
+"    an array variable.  An argument of `--' disables further option\n"
+"    processing."
 msgstr ""
 
-#: builtins/builtins.c:1094
-msgid "HISTFILESIZE    The maximum number of lines this file can contain."
-msgstr ""
-
-#: builtins/builtins.c:1095
-msgid "HISTSIZE        The maximum number of history lines that a running"
-msgstr ""
-
-#: builtins/builtins.c:1096
-msgid "\t\tshell can access."
-msgstr ""
-
-#: builtins/builtins.c:1098
-msgid "HOME            The complete pathname to your login directory."
-msgstr ""
-
-#: builtins/builtins.c:1099
-msgid "HOSTTYPE        The type of CPU this version of Bash is running under."
-msgstr ""
-
-#: builtins/builtins.c:1100
-msgid "IGNOREEOF       Controls the action of the shell on receipt of an EOF"
-msgstr ""
-
-#: builtins/builtins.c:1101
-msgid "\t\tcharacter as the sole input.  If set, then the value"
-msgstr ""
-
-#: builtins/builtins.c:1102
-msgid "\t\tof it is the number of EOF characters that can be seen"
-msgstr ""
-
-#: builtins/builtins.c:1103
-msgid "\t\tin a row on an empty line before the shell will exit"
-msgstr ""
-
-#: builtins/builtins.c:1104
-msgid "\t\t(default 10).  When unset, EOF signifies the end of input."
-msgstr ""
-
-#: builtins/builtins.c:1105
-msgid "MAILCHECK\tHow often, in seconds, Bash checks for new mail."
-msgstr ""
-
-#: builtins/builtins.c:1106
-msgid "MAILPATH\tA colon-separated list of filenames which Bash checks"
-msgstr ""
-
-#: builtins/builtins.c:1107
-msgid "\t\tfor new mail."
-msgstr ""
-
-#: builtins/builtins.c:1108
-msgid "OSTYPE\t\tThe version of Unix this version of Bash is running on."
-msgstr ""
-
-#: builtins/builtins.c:1109
-msgid "PATH            A colon-separated list of directories to search when"
-msgstr ""
-
-#: builtins/builtins.c:1110
-msgid "\t\tlooking for commands."
-msgstr ""
-
-#: builtins/builtins.c:1111
-msgid "PROMPT_COMMAND  A command to be executed before the printing of each"
-msgstr ""
-
-#: builtins/builtins.c:1112
-msgid "\t\tprimary prompt."
-msgstr ""
-
-#: builtins/builtins.c:1113
-msgid "PS1             The primary prompt string."
-msgstr ""
-
-#: builtins/builtins.c:1114
-msgid "PS2             The secondary prompt string."
-msgstr ""
-
-#: builtins/builtins.c:1115
-msgid "TERM            The name of the current terminal type."
-msgstr ""
-
-#: builtins/builtins.c:1116
-msgid "auto_resume     Non-null means a command word appearing on a line by"
-msgstr ""
-
-#: builtins/builtins.c:1117
-msgid "\t\titself is first looked for in the list of currently"
-msgstr ""
-
-#: builtins/builtins.c:1118
-msgid "\t\tstopped jobs.  If found there, that job is foregrounded."
-msgstr ""
-
-#: builtins/builtins.c:1119
-msgid "\t\tA value of `exact' means that the command word must"
-msgstr ""
-
-#: builtins/builtins.c:1120
-msgid "\t\texactly match a command in the list of stopped jobs.  A"
-msgstr ""
-
-#: builtins/builtins.c:1121
-msgid "\t\tvalue of `substring' means that the command word must"
-msgstr ""
-
-#: builtins/builtins.c:1122
-msgid "\t\tmatch a substring of the job.  Any other value means that"
-msgstr ""
-
-#: builtins/builtins.c:1123
-msgid "\t\tthe command must be a prefix of a stopped job."
-msgstr ""
-
-#: builtins/builtins.c:1125
-msgid "command_oriented_history"
-msgstr ""
-
-#: builtins/builtins.c:1126
+#: builtins.c:871
 msgid ""
-"                Non-null means to save multiple-line commands together on"
+"The positional parameters from $N+1 ... are renamed to $1 ...  If N is\n"
+"    not given, it is assumed to be 1."
 msgstr ""
 
-#: builtins/builtins.c:1127
-msgid "                a single history line."
+#: builtins.c:878 builtins.c:887
+msgid ""
+"Read and execute commands from FILENAME and return.  The pathnames\n"
+"    in $PATH are used to find the directory containing FILENAME.  If any\n"
+"    ARGUMENTS are supplied, they become the positional parameters when\n"
+"    FILENAME is executed."
 msgstr ""
 
-#: builtins/builtins.c:1129
-msgid "histchars       Characters controlling history expansion and quick"
+#: builtins.c:897
+msgid ""
+"Suspend the execution of this shell until it receives a SIGCONT\n"
+"    signal.  The `-f' if specified says not to complain about this\n"
+"    being a login shell if it is; just suspend anyway."
 msgstr ""
 
-#: builtins/builtins.c:1130
-msgid "\t\tsubstitution.  The first character is the history"
+#: builtins.c:906
+msgid ""
+"Exits with a status of 0 (true) or 1 (false) depending on\n"
+"    the evaluation of EXPR.  Expressions may be unary or binary.  Unary\n"
+"    expressions are often used to examine the status of a file.  There\n"
+"    are string operators as well, and numeric comparison operators.\n"
+"    \n"
+"    File operators:\n"
+"    \n"
+"        -a FILE        True if file exists.\n"
+"        -b FILE        True if file is block special.\n"
+"        -c FILE        True if file is character special.\n"
+"        -d FILE        True if file is a directory.\n"
+"        -e FILE        True if file exists.\n"
+"        -f FILE        True if file exists and is a regular file.\n"
+"        -g FILE        True if file is set-group-id.\n"
+"        -h FILE        True if file is a symbolic link.\n"
+"        -L FILE        True if file is a symbolic link.\n"
+"        -k FILE        True if file has its `sticky' bit set.\n"
+"        -p FILE        True if file is a named pipe.\n"
+"        -r FILE        True if file is readable by you.\n"
+"        -s FILE        True if file exists and is not empty.\n"
+"        -S FILE        True if file is a socket.\n"
+"        -t FD          True if FD is opened on a terminal.\n"
+"        -u FILE        True if the file is set-user-id.\n"
+"        -w FILE        True if the file is writable by you.\n"
+"        -x FILE        True if the file is executable by you.\n"
+"        -O FILE        True if the file is effectively owned by you.\n"
+"        -G FILE        True if the file is effectively owned by your group.\n"
+"        -N FILE        True if the file has been modified since it was last "
+"read.\n"
+"    \n"
+"      FILE1 -nt FILE2  True if file1 is newer than file2 (according to\n"
+"                       modification date).\n"
+"    \n"
+"      FILE1 -ot FILE2  True if file1 is older than file2.\n"
+"    \n"
+"      FILE1 -ef FILE2  True if file1 is a hard link to file2.\n"
+"    \n"
+"    String operators:\n"
+"    \n"
+"        -z STRING      True if string is empty.\n"
+"    \n"
+"        -n STRING\n"
+"        STRING         True if string is not empty.\n"
+"    \n"
+"        STRING1 = STRING2\n"
+"                       True if the strings are equal.\n"
+"        STRING1 != STRING2\n"
+"                       True if the strings are not equal.\n"
+"        STRING1 < STRING2\n"
+"                       True if STRING1 sorts before STRING2 "
+"lexicographically.\n"
+"        STRING1 > STRING2\n"
+"                       True if STRING1 sorts after STRING2 "
+"lexicographically.\n"
+"    \n"
+"    Other operators:\n"
+"    \n"
+"        -o OPTION      True if the shell option OPTION is enabled.\n"
+"        ! EXPR         True if expr is false.\n"
+"        EXPR1 -a EXPR2 True if both expr1 AND expr2 are true.\n"
+"        EXPR1 -o EXPR2 True if either expr1 OR expr2 is true.\n"
+"    \n"
+"        arg1 OP arg2   Arithmetic tests.  OP is one of -eq, -ne,\n"
+"                       -lt, -le, -gt, or -ge.\n"
+"    \n"
+"    Arithmetic binary operators return true if ARG1 is equal, not-equal,\n"
+"    less-than, less-than-or-equal, greater-than, or greater-than-or-equal\n"
+"    than ARG2."
 msgstr ""
 
-#: builtins/builtins.c:1131
-msgid "\t\tsubstitution character, usually `!'.  The second is"
+#: builtins.c:976
+msgid ""
+"This is a synonym for the \"test\" builtin, but the last\n"
+"    argument must be a literal `]', to match the opening `['."
 msgstr ""
 
-#: builtins/builtins.c:1132
-msgid "\t\tthe `quick substitution' character, usually `^'.  The"
+#: builtins.c:983
+msgid ""
+"Print the accumulated user and system times for processes run from\n"
+"    the shell."
 msgstr ""
 
-#: builtins/builtins.c:1133
-msgid "\t\tthird is the `history comment' character, usually `#'."
+#: builtins.c:990
+msgid ""
+"The command ARG is to be read and executed when the shell receives\n"
+"    signal(s) SIGNAL_SPEC.  If ARG is absent (and a single SIGNAL_SPEC\n"
+"    is supplied) or `-', each specified signal is reset to its original\n"
+"    value.  If ARG is the null string each SIGNAL_SPEC is ignored by the\n"
+"    shell and by the commands it invokes.  If a SIGNAL_SPEC is EXIT (0)\n"
+"    the command ARG is executed on exit from the shell.  If a SIGNAL_SPEC\n"
+"    is DEBUG, ARG is executed after every simple command.  If the`-p' "
+"option\n"
+"    is supplied then the trap commands associated with each SIGNAL_SPEC are\n"
+"    displayed.  If no arguments are supplied or if only `-p' is given, trap\n"
+"    prints the list of commands associated with each signal.  Each "
+"SIGNAL_SPEC\n"
+"    is either a signal name in <signal.h> or a signal number.  Signal names\n"
+"    are case insensitive and the SIG prefix is optional.  `trap -l' prints\n"
+"    a list of signal names and their corresponding numbers.  Note that a\n"
+"    signal can be sent to the shell with \"kill -signal $$\"."
 msgstr ""
 
-#: builtins/builtins.c:1135
-msgid "HISTCONTROL\tSet to a value of `ignorespace', it means don't enter"
+#: builtins.c:1009
+msgid ""
+"For each NAME, indicate how it would be interpreted if used as a\n"
+"    command name.\n"
+"    \n"
+"    If the -t option is used, `type' outputs a single word which is one of\n"
+"    `alias', `keyword', `function', `builtin', `file' or `', if NAME is an\n"
+"    alias, shell reserved word, shell function, shell builtin, disk file,\n"
+"    or unfound, respectively.\n"
+"    \n"
+"    If the -p flag is used, `type' either returns the name of the disk\n"
+"    file that would be executed, or nothing if `type -t NAME' would not\n"
+"    return `file'.\n"
+"    \n"
+"    If the -a flag is used, `type' displays all of the places that contain\n"
+"    an executable named `file'.  This includes aliases, builtins, and\n"
+"    functions, if and only if the -p flag is not also used.\n"
+"    \n"
+"    The -f flag suppresses shell function lookup.\n"
+"    \n"
+"    The -P flag forces a PATH search for each NAME, even if it is an alias,\n"
+"    builtin, or function, and returns the name of the disk file that would\n"
+"    be executed."
 msgstr ""
 
-#: builtins/builtins.c:1136
-msgid "\t\tlines which begin with a space or tab on the history"
+#: builtins.c:1036
+msgid ""
+"Ulimit provides control over the resources available to processes\n"
+"    started by the shell, on systems that allow such control.  If an\n"
+"    option is given, it is interpreted as follows:\n"
+"    \n"
+"        -S\tuse the `soft' resource limit\n"
+"        -H\tuse the `hard' resource limit\n"
+"        -a\tall current limits are reported\n"
+"        -c\tthe maximum size of core files created\n"
+"        -d\tthe maximum size of a process's data segment\n"
+"        -e\tthe maximum scheduling priority (`nice')\n"
+"        -f\tthe maximum size of files written by the shell and its children\n"
+"        -i\tthe maximum number of pending signals\n"
+"        -l\tthe maximum size a process may lock into memory\n"
+"        -m\tthe maximum resident set size\n"
+"        -n\tthe maximum number of open file descriptors\n"
+"        -p\tthe pipe buffer size\n"
+"        -q\tthe maximum number of bytes in POSIX message queues\n"
+"        -r\tthe maximum real-time scheduling priority\n"
+"        -s\tthe maximum stack size\n"
+"        -t\tthe maximum amount of cpu time in seconds\n"
+"        -u\tthe maximum number of user processes\n"
+"        -v\tthe size of virtual memory\n"
+"        -x\tthe maximum number of file locks\n"
+"    \n"
+"    If LIMIT is given, it is the new value of the specified resource;\n"
+"    the special LIMIT values `soft', `hard', and `unlimited' stand for\n"
+"    the current soft limit, the current hard limit, and no limit, "
+"respectively.\n"
+"    Otherwise, the current value of the specified resource is printed.\n"
+"    If no option is given, then -f is assumed.  Values are in 1024-byte\n"
+"    increments, except for -t, which is in seconds, -p, which is in\n"
+"    increments of 512 bytes, and -u, which is an unscaled number of\n"
+"    processes."
 msgstr ""
 
-#: builtins/builtins.c:1137
-msgid "\t\tlist.  Set to a value of `ignoredups', it means don't"
+#: builtins.c:1074
+msgid ""
+"The user file-creation mask is set to MODE.  If MODE is omitted, or if\n"
+"    `-S' is supplied, the current value of the mask is printed.  The `-S'\n"
+"    option makes the output symbolic; otherwise an octal number is output.\n"
+"    If `-p' is supplied, and MODE is omitted, the output is in a form\n"
+"    that may be used as input.  If MODE begins with a digit, it is\n"
+"    interpreted as an octal number, otherwise it is a symbolic mode string\n"
+"    like that accepted by chmod(1)."
 msgstr ""
 
-#: builtins/builtins.c:1138
-msgid "\t\tenter lines which match the last entered line.  Set to"
+#: builtins.c:1087
+msgid ""
+"Wait for the specified process and report its termination status.  If\n"
+"    N is not given, all currently active child processes are waited for,\n"
+"    and the return code is zero.  N may be a process ID or a job\n"
+"    specification; if a job spec is given, all processes in the job's\n"
+"    pipeline are waited for."
 msgstr ""
 
-#: builtins/builtins.c:1139
-msgid "\t\t`ignoreboth' means to combine the two options.  Unset,"
+#: builtins.c:1099
+msgid ""
+"Wait for the specified process and report its termination status.  If\n"
+"    N is not given, all currently active child processes are waited for,\n"
+"    and the return code is zero.  N is a process ID; if it is not given,\n"
+"    all child processes of the shell are waited for."
 msgstr ""
 
-#: builtins/builtins.c:1140
-msgid "\t\tor set to any other value than those above means to save"
+#: builtins.c:1109
+msgid ""
+"The `for' loop executes a sequence of commands for each member in a\n"
+"    list of items.  If `in WORDS ...;' is not present, then `in \"$@\"' is\n"
+"    assumed.  For each element in WORDS, NAME is set to that element, and\n"
+"    the COMMANDS are executed."
 msgstr ""
 
-#: builtins/builtins.c:1141
-msgid "\t\tall lines on the history list."
+#: builtins.c:1118
+msgid ""
+"Equivalent to\n"
+"    \t(( EXP1 ))\n"
+"    \twhile (( EXP2 )); do\n"
+"    \t\tCOMMANDS\n"
+"    \t\t(( EXP3 ))\n"
+"    \tdone\n"
+"    EXP1, EXP2, and EXP3 are arithmetic expressions.  If any expression is\n"
+"    omitted, it behaves as if it evaluates to 1."
 msgstr ""
 
-#: builtins/builtins.c:1149
-msgid "Adds a directory to the top of the directory stack, or rotates"
+#: builtins.c:1131
+msgid ""
+"The WORDS are expanded, generating a list of words.  The\n"
+"    set of expanded words is printed on the standard error, each\n"
+"    preceded by a number.  If `in WORDS' is not present, `in \"$@\"'\n"
+"    is assumed.  The PS3 prompt is then displayed and a line read\n"
+"    from the standard input.  If the line consists of the number\n"
+"    corresponding to one of the displayed words, then NAME is set\n"
+"    to that word.  If the line is empty, WORDS and the prompt are\n"
+"    redisplayed.  If EOF is read, the command completes.  Any other\n"
+"    value read causes NAME to be set to null.  The line read is saved\n"
+"    in the variable REPLY.  COMMANDS are executed after each selection\n"
+"    until a break command is executed."
 msgstr ""
 
-#: builtins/builtins.c:1150
-msgid "the stack, making the new top of the stack the current working"
+#: builtins.c:1147
+msgid ""
+"Execute PIPELINE and print a summary of the real time, user CPU time,\n"
+"    and system CPU time spent executing PIPELINE when it terminates.\n"
+"    The return status is the return status of PIPELINE.  The `-p' option\n"
+"    prints the timing summary in a slightly different format.  This uses\n"
+"    the value of the TIMEFORMAT variable as the output format."
 msgstr ""
 
-#: builtins/builtins.c:1151
-msgid "directory.  With no arguments, exchanges the top two directories."
+#: builtins.c:1157
+msgid ""
+"Selectively execute COMMANDS based upon WORD matching PATTERN.  The\n"
+"    `|' is used to separate multiple patterns."
 msgstr ""
 
-#: builtins/builtins.c:1153
-msgid "+N\tRotates the stack so that the Nth directory (counting"
+#: builtins.c:1164
+msgid ""
+"The `if COMMANDS' list is executed.  If its exit status is zero, then the\n"
+"    `then COMMANDS' list is executed.  Otherwise, each `elif COMMANDS' list "
+"is\n"
+"    executed in turn, and if its exit status is zero, the corresponding\n"
+"    `then COMMANDS' list is executed and the if command completes.  "
+"Otherwise,\n"
+"    the `else COMMANDS' list is executed, if present.  The exit status of "
+"the\n"
+"    entire construct is the exit status of the last command executed, or "
+"zero\n"
+"    if no condition tested true."
 msgstr ""
 
-#: builtins/builtins.c:1154
-msgid "\tfrom the left of the list shown by `dirs') is at the top."
+#: builtins.c:1176
+msgid ""
+"Expand and execute COMMANDS as long as the final command in the\n"
+"    `while' COMMANDS has an exit status of zero."
 msgstr ""
 
-#: builtins/builtins.c:1156
-msgid "-N\tRotates the stack so that the Nth directory (counting"
+#: builtins.c:1183
+msgid ""
+"Expand and execute COMMANDS as long as the final command in the\n"
+"    `until' COMMANDS has an exit status which is not zero."
 msgstr ""
 
-#: builtins/builtins.c:1157
-msgid "\tfrom the right) is at the top."
+#: builtins.c:1190
+msgid ""
+"Create a simple command invoked by NAME which runs COMMANDS.\n"
+"    Arguments on the command line along with NAME are passed to the\n"
+"    function as $0 .. $n."
 msgstr ""
 
-#: builtins/builtins.c:1159
-msgid "-n\tsuppress the normal change of directory when adding directories"
+#: builtins.c:1198
+msgid ""
+"Run a set of commands in a group.  This is one way to redirect an\n"
+"    entire set of commands."
 msgstr ""
 
-#: builtins/builtins.c:1160
-msgid "\tto the stack, so only the stack is manipulated."
+#: builtins.c:1205
+msgid ""
+"Equivalent to the JOB_SPEC argument to the `fg' command.  Resume a\n"
+"    stopped or background job.  JOB_SPEC can specify either a job name\n"
+"    or a job number.  Following JOB_SPEC with a `&' places the job in\n"
+"    the background, as if the job specification had been supplied as an\n"
+"    argument to `bg'."
 msgstr ""
 
-#: builtins/builtins.c:1162
-msgid "dir\tadds DIR to the directory stack at the top, making it the"
+#: builtins.c:1215
+msgid ""
+"The EXPRESSION is evaluated according to the rules for arithmetic\n"
+"    evaluation.  Equivalent to \"let EXPRESSION\"."
 msgstr ""
 
-#: builtins/builtins.c:1163
-msgid "\tnew current working directory."
+#: builtins.c:1222
+msgid ""
+"Returns a status of 0 or 1 depending on the evaluation of the conditional\n"
+"    expression EXPRESSION.  Expressions are composed of the same primaries "
+"used\n"
+"    by the `test' builtin, and may be combined using the following "
+"operators\n"
+"    \n"
+"    \t( EXPRESSION )\tReturns the value of EXPRESSION\n"
+"    \t! EXPRESSION\tTrue if EXPRESSION is false; else false\n"
+"    \tEXPR1 && EXPR2\tTrue if both EXPR1 and EXPR2 are true; else false\n"
+"    \tEXPR1 || EXPR2\tTrue if either EXPR1 or EXPR2 is true; else false\n"
+"    \n"
+"    When the `==' and `!=' operators are used, the string to the right of "
+"the\n"
+"    operator is used as a pattern and pattern matching is performed.  The\n"
+"    && and || operators do not evaluate EXPR2 if EXPR1 is sufficient to\n"
+"    determine the expression's value."
 msgstr ""
 
-#: builtins/builtins.c:1165 builtins/builtins.c:1188
-msgid "You can see the directory stack with the `dirs' command."
+#: builtins.c:1240
+msgid ""
+"BASH_VERSION\tVersion information for this Bash.\n"
+"    CDPATH\tA colon-separated list of directories to search\n"
+"    \t\tfor directries given as arguments to `cd'.\n"
+"    GLOBIGNORE\tA colon-separated list of patterns describing filenames to\n"
+"    \t\tbe ignored by pathname expansion.\n"
+"    HISTFILE\tThe name of the file where your command history is stored.\n"
+"    HISTFILESIZE\tThe maximum number of lines this file can contain.\n"
+"    HISTSIZE\tThe maximum number of history lines that a running\n"
+"    \t\tshell can access.\n"
+"    HOME\tThe complete pathname to your login directory.\n"
+"    HOSTNAME\tThe name of the current host.\n"
+"    HOSTTYPE\tThe type of CPU this version of Bash is running under.\n"
+"    IGNOREEOF\tControls the action of the shell on receipt of an EOF\n"
+"    \t\tcharacter as the sole input.  If set, then the value\n"
+"    \t\tof it is the number of EOF characters that can be seen\n"
+"    \t\tin a row on an empty line before the shell will exit\n"
+"    \t\t(default 10).  When unset, EOF signifies the end of input.\n"
+"    MACHTYPE\tA string describing the current system Bash is running on.\n"
+"    MAILCHECK\tHow often, in seconds, Bash checks for new mail.\n"
+"    MAILPATH\tA colon-separated list of filenames which Bash checks\n"
+"    \t\tfor new mail.\n"
+"    OSTYPE\tThe version of Unix this version of Bash is running on.\n"
+"    PATH\tA colon-separated list of directories to search when\n"
+"    \t\tlooking for commands.\n"
+"    PROMPT_COMMAND\tA command to be executed before the printing of each\n"
+"    \t\tprimary prompt.\n"
+"    PS1\t\tThe primary prompt string.\n"
+"    PS2\t\tThe secondary prompt string.\n"
+"    PWD\t\tThe full pathname of the current directory.\n"
+"    SHELLOPTS\tA colon-separated list of enabled shell options.\n"
+"    TERM\tThe name of the current terminal type.\n"
+"    TIMEFORMAT\tThe output format for timing statistics displayed by the\n"
+"    \t\t`time' reserved word.\n"
+"    auto_resume\tNon-null means a command word appearing on a line by\n"
+"    \t\titself is first looked for in the list of currently\n"
+"    \t\tstopped jobs.  If found there, that job is foregrounded.\n"
+"    \t\tA value of `exact' means that the command word must\n"
+"    \t\texactly match a command in the list of stopped jobs.  A\n"
+"    \t\tvalue of `substring' means that the command word must\n"
+"    \t\tmatch a substring of the job.  Any other value means that\n"
+"    \t\tthe command must be a prefix of a stopped job.\n"
+"    histchars\tCharacters controlling history expansion and quick\n"
+"    \t\tsubstitution.  The first character is the history\n"
+"    \t\tsubstitution character, usually `!'.  The second is\n"
+"    \t\tthe `quick substitution' character, usually `^'.  The\n"
+"    \t\tthird is the `history comment' character, usually `#'.\n"
+"    HISTIGNORE\tA colon-separated list of patterns used to decide which\n"
+"    \t\tcommands should be saved on the history list.\n"
 msgstr ""
 
-#: builtins/builtins.c:1173
-msgid "Removes entries from the directory stack.  With no arguments,"
+#: builtins.c:1295
+msgid ""
+"Adds a directory to the top of the directory stack, or rotates\n"
+"    the stack, making the new top of the stack the current working\n"
+"    directory.  With no arguments, exchanges the top two directories.\n"
+"    \n"
+"    +N\tRotates the stack so that the Nth directory (counting\n"
+"    \tfrom the left of the list shown by `dirs', starting with\n"
+"    \tzero) is at the top.\n"
+"    \n"
+"    -N\tRotates the stack so that the Nth directory (counting\n"
+"    \tfrom the right of the list shown by `dirs', starting with\n"
+"    \tzero) is at the top.\n"
+"    \n"
+"    -n\tsuppress the normal change of directory when adding directories\n"
+"    \tto the stack, so only the stack is manipulated.\n"
+"    \n"
+"    dir\tadds DIR to the directory stack at the top, making it the\n"
+"    \tnew current working directory.\n"
+"    \n"
+"    You can see the directory stack with the `dirs' command."
 msgstr ""
 
-#: builtins/builtins.c:1174
-msgid "removes the top directory from the stack, and cd's to the new"
+#: builtins.c:1321
+msgid ""
+"Removes entries from the directory stack.  With no arguments,\n"
+"    removes the top directory from the stack, and cd's to the new\n"
+"    top directory.\n"
+"    \n"
+"    +N\tremoves the Nth entry counting from the left of the list\n"
+"    \tshown by `dirs', starting with zero.  For example: `popd +0'\n"
+"    \tremoves the first directory, `popd +1' the second.\n"
+"    \n"
+"    -N\tremoves the Nth entry counting from the right of the list\n"
+"    \tshown by `dirs', starting with zero.  For example: `popd -0'\n"
+"    \tremoves the last directory, `popd -1' the next to last.\n"
+"    \n"
+"    -n\tsuppress the normal change of directory when removing directories\n"
+"    \tfrom the stack, so only the stack is manipulated.\n"
+"    \n"
+"    You can see the directory stack with the `dirs' command."
 msgstr ""
 
-#: builtins/builtins.c:1175
-msgid "top directory."
+#: builtins.c:1344
+msgid ""
+"Display the list of currently remembered directories.  Directories\n"
+"    find their way onto the list with the `pushd' command; you can get\n"
+"    back up through the list with the `popd' command.\n"
+"    \n"
+"    The -l flag specifies that `dirs' should not print shorthand versions\n"
+"    of directories which are relative to your home directory.  This means\n"
+"    that `~/bin' might be displayed as `/homes/bfox/bin'.  The -v flag\n"
+"    causes `dirs' to print the directory stack with one entry per line,\n"
+"    prepending the directory name with its position in the stack.  The -p\n"
+"    flag does the same thing, but the stack position is not prepended.\n"
+"    The -c flag clears the directory stack by deleting all of the elements.\n"
+"    \n"
+"    +N\tdisplays the Nth entry counting from the left of the list shown by\n"
+"    \tdirs when invoked without options, starting with zero.\n"
+"    \n"
+"    -N\tdisplays the Nth entry counting from the right of the list shown by\n"
+"    \tdirs when invoked without options, starting with zero."
 msgstr ""
 
-#: builtins/builtins.c:1177
-msgid "+N\tremoves the Nth entry counting from the left of the list"
+#: builtins.c:1367
+msgid ""
+"Toggle the values of variables controlling optional behavior.\n"
+"    The -s flag means to enable (set) each OPTNAME; the -u flag\n"
+"    unsets each OPTNAME.  The -q flag suppresses output; the exit\n"
+"    status indicates whether each OPTNAME is set or unset.  The -o\n"
+"    option restricts the OPTNAMEs to those defined for use with\n"
+"    `set -o'.  With no options, or with the -p option, a list of all\n"
+"    settable options is displayed, with an indication of whether or\n"
+"    not each is set."
 msgstr ""
 
-#: builtins/builtins.c:1178
-msgid "\tshown by `dirs', starting with zero.  For example: `popd +0'"
+#: builtins.c:1380
+msgid ""
+"printf formats and prints ARGUMENTS under control of the FORMAT. FORMAT\n"
+"    is a character string which contains three types of objects: plain\n"
+"    characters, which are simply copied to standard output, character "
+"escape\n"
+"    sequences which are converted and copied to the standard output, and\n"
+"    format specifications, each of which causes printing of the next "
+"successive\n"
+"    argument.  In addition to the standard printf(1) formats, %b means to\n"
+"    expand backslash escape sequences in the corresponding argument, and %q\n"
+"    means to quote the argument in a way that can be reused as shell input.\n"
+"    If the -v option is supplied, the output is placed into the value of "
+"the\n"
+"    shell variable VAR rather than being sent to the standard output."
 msgstr ""
 
-#: builtins/builtins.c:1179
-msgid "\tremoves the first directory, `popd +1' the second."
+#: builtins.c:1396
+msgid ""
+"For each NAME, specify how arguments are to be completed.\n"
+"    If the -p option is supplied, or if no options are supplied, existing\n"
+"    completion specifications are printed in a way that allows them to be\n"
+"    reused as input.  The -r option removes a completion specification for\n"
+"    each NAME, or, if no NAMEs are supplied, all completion specifications."
 msgstr ""
 
-#: builtins/builtins.c:1181
-msgid "-N\tremoves the Nth entry counting from the right of the list"
+#: builtins.c:1408
+msgid ""
+"Display the possible completions depending on the options.  Intended\n"
+"    to be used from within a shell function generating possible "
+"completions.\n"
+"    If the optional WORD argument is supplied, matches against WORD are\n"
+"    generated."
 msgstr ""
 
-#: builtins/builtins.c:1182
-msgid "\tshown by `dirs', starting with zero.  For example: `popd -0'"
-msgstr ""
+#~ msgid "Missing `}'"
+#~ msgstr "`}' ar iarraidh"
 
-#: builtins/builtins.c:1183
-msgid "\tremoves the last directory, `popd -1' the next to last."
-msgstr ""
+#~ msgid "real\t"
+#~ msgstr "fíor\t"
 
-#: builtins/builtins.c:1185
-msgid "-n\tsuppress the normal change of directory when removing directories"
-msgstr ""
+#~ msgid "user\t"
+#~ msgstr "úsáideoir\t"
 
-#: builtins/builtins.c:1186
-msgid "\tfrom the stack, so only the stack is manipulated."
-msgstr ""
+#~ msgid "sys\t"
+#~ msgstr "córas\t"
 
-#: builtins/builtins.c:1196
-msgid "Display the list of currently remembered directories.  Directories"
-msgstr ""
+#~ msgid ""
+#~ "real\t0m0.00s\n"
+#~ "user\t0m0.00s\n"
+#~ "sys\t0m0.00s\n"
+#~ msgstr ""
+#~ "fíor\t0m0.00s\n"
+#~ "úsáideoir\t0m0.00s\n"
+#~ "córas\t0m0.00s\n"
 
-#: builtins/builtins.c:1197
-msgid "find their way onto the list with the `pushd' command; you can get"
-msgstr ""
+#~ msgid "Out of memory!"
+#~ msgstr "Cuimhne ídithe!"
 
-#: builtins/builtins.c:1198
-msgid "back up through the list with the `popd' command."
-msgstr ""
+#~ msgid "slot %3d: "
+#~ msgstr "sliotán %3d: "
 
-#: builtins/builtins.c:1200
-msgid "The -l flag specifies that `dirs' should not print shorthand versions"
-msgstr ""
+#~ msgid "<unknown>"
+#~ msgstr "<anaithnid>"
 
-#: builtins/builtins.c:1201
-msgid "of directories which are relative to your home directory.  This means"
-msgstr ""
+#~ msgid "Done"
+#~ msgstr "Críochnaithe"
 
-#: builtins/builtins.c:1202
-msgid "that `~/bin' might be displayed as `/homes/bfox/bin'.  The -v flag"
-msgstr ""
+#~ msgid "Stopped"
+#~ msgstr "Stoptha"
 
-#: builtins/builtins.c:1203
-msgid "causes `dirs' to print the directory stack with one entry per line,"
-msgstr ""
+#~ msgid "Running"
+#~ msgstr "Ag Rith"
 
-#: builtins/builtins.c:1204
-msgid "prepending the directory name with its position in the stack.  The -p"
-msgstr ""
+#~ msgid " (core dumped)"
+#~ msgstr " (córdhumpa)"
 
-#: builtins/builtins.c:1205
-msgid "flag does the same thing, but the stack position is not prepended."
-msgstr ""
+#~ msgid "Hangup"
+#~ msgstr "Croch suas"
 
-#: builtins/builtins.c:1206
-msgid "The -c flag clears the directory stack by deleting all of the elements."
-msgstr ""
+#~ msgid "Interrupt"
+#~ msgstr "Idirbhriseadh"
 
-#: builtins/builtins.c:1208
-msgid "+N\tdisplays the Nth entry counting from the left of the list shown by"
-msgstr ""
+#~ msgid "Quit"
+#~ msgstr "Scoir"
 
-#: builtins/builtins.c:1209 builtins/builtins.c:1212
-msgid "\tdirs when invoked without options, starting with zero."
-msgstr ""
+#~ msgid "Illegal instruction"
+#~ msgstr "Treoir neamhcheadaithe"
 
-#: builtins/builtins.c:1211
-msgid "-N\tdisplays the Nth entry counting from the right of the list shown by"
-msgstr ""
+#~ msgid "Floating point exception"
+#~ msgstr "Eisceacht snámhphointe"
 
-#: builtins/builtins.c:1219
-msgid "Toggle the values of variables controlling optional behavior."
-msgstr ""
+#~ msgid "Killed"
+#~ msgstr "Maraithe"
 
-#: builtins/builtins.c:1220
-msgid "The -s flag means to enable (set) each OPTNAME; the -u flag"
-msgstr ""
+#~ msgid "Bus error"
+#~ msgstr "Busearráid"
 
-#: builtins/builtins.c:1221
-msgid "unsets each OPTNAME.  The -q flag suppresses output; the exit"
-msgstr ""
+#~ msgid "Segmentation fault"
+#~ msgstr "Fabht deighilte"
 
-#: builtins/builtins.c:1222
-msgid "status indicates whether each OPTNAME is set or unset.  The -o"
-msgstr ""
+#~ msgid "Bad system call"
+#~ msgstr "Drochghlao ar an gcóras"
 
-#: builtins/builtins.c:1223
-msgid "option restricts the OPTNAMEs to those defined for use with"
-msgstr ""
+#~ msgid "Broken pipe"
+#~ msgstr "Píopa briste"
 
-#: builtins/builtins.c:1224
-msgid "`set -o'.  With no options, or with the -p option, a list of all"
-msgstr ""
+#~ msgid "Alarm clock"
+#~ msgstr "Clog aláraim"
 
-#: builtins/builtins.c:1225
-msgid "settable options is displayed, with an indication of whether or"
-msgstr ""
+#~ msgid "Stopped (signal)"
+#~ msgstr "Stoptha (comhartha)"
 
-#: builtins/builtins.c:1226
-msgid "not each is set."
-msgstr ""
+#~ msgid "Continue"
+#~ msgstr "Lean ar aghaidh"
+
+#~ msgid "Stopped (tty input)"
+#~ msgstr "Stoptha (ionchur tty)"
+
+#~ msgid "Stopped (tty output)"
+#~ msgstr "Stoptha (aschur tty)"
+
+#~ msgid "Window changed"
+#~ msgstr "Athraíodh an fhuinneog"
+
+#~ msgid "cd [-PL] [dir]"
+#~ msgstr "cd [-PL] [comhadlann]"
+
+#~ msgid "pwd [-PL]"
+#~ msgstr "pwd [-PL]"
+
+#~ msgid ":"
+#~ msgstr ":"
+
+#~ msgid "echo [-neE] [arg ...]"
+#~ msgstr "echo [-neE] [arg ...]"
+
+#~ msgid "echo [-n] [arg ...]"
+#~ msgstr "echo [-n] [arg ...]"
+
+#~ msgid "eval [arg ...]"
+#~ msgstr "eval [arg ...]"
+
+#~ msgid "exec [-cl] [-a name] file [redirection ...]"
+#~ msgstr "exec [-cl] [-a ainm] comhad [atreorú ...]"
+
+#~ msgid "fg [job_spec]"
+#~ msgstr "fg [jab]"
+
+#~ msgid "bg [job_spec]"
+#~ msgstr "bg [jab]"
+
+#~ msgid "hash [-r] [-p pathname] [name ...]"
+#~ msgstr "hash [-r] [-p conair] [ainm ...]"
+
+#~ msgid "help [pattern ...]"
+#~ msgstr "help [patrún ...]"
+
+#~ msgid "jobs [-lnprs] [jobspec ...] or jobs -x command [args]"
+#~ msgstr "jobs [-lnprs] [jab ...] nó jobs -x ordú [argóintí]"
+
+#~ msgid "disown [jobspec ...]"
+#~ msgstr "disown [jab ...]"
+
+#~ msgid "let arg [arg ...]"
+#~ msgstr "let arg [arg ...]"
+
+#~ msgid "unset [-f] [-v] [name ...]"
+#~ msgstr "unset [-f] [-v] [ainm ...]"
+
+#~ msgid "export [-nf] [name ...] or export -p"
+#~ msgstr "export [-nf] [ainm ...] nó export -p"
+
+#~ msgid "readonly [-anf] [name ...] or readonly -p"
+#~ msgstr "readonly [-anf] [ainm ...] nó readonly -p"
+
+#~ msgid "source filename"
+#~ msgstr "source comhadainm"
+
+#~ msgid ". filename"
+#~ msgstr ". comhadainm"
+
+#~ msgid "suspend [-f]"
+#~ msgstr "suspend [-f]"
+
+#~ msgid "test [expr]"
+#~ msgstr "test [slonn]"
+
+#~ msgid "[ arg... ]"
+#~ msgstr "[ arg... ]"
+
+#~ msgid "type [-apt] name [name ...]"
+#~ msgstr "type [-apt] ainm [ainm ...]"
+
+#~ msgid "umask [-S] [mode]"
+#~ msgstr "umask [-S] [mód]"
+
+#~ msgid "for NAME [in WORDS ... ;] do COMMANDS; done"
+#~ msgstr "for AINM [in FOCAIL ... ;] do ORDUITHE; done"
+
+#~ msgid "select NAME [in WORDS ... ;] do COMMANDS; done"
+#~ msgstr "select AINM [in FOCAIL ... ;] do ORDUITHE; done"
+
+#~ msgid "{ COMMANDS }"
+#~ msgstr "{ ORDUITHE }"
+
+#~ msgid "%[DIGITS | WORD] [&]"
+#~ msgstr "%[DIGITÍ | FOCAL] [&]"
+
+#~ msgid "pushd [dir | +N | -N] [-n]"
+#~ msgstr "pushd [comhadlann | +N | -N] [-n]"
+
+#~ msgid "popd [+N | -N] [-n]"
+#~ msgstr "popd [+N | -N] [-n]"
+
+#~ msgid "dirs [-clpv] [+N] [-N]"
+#~ msgstr "dirs [-clpv] [+N] [-N]"

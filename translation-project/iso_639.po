@@ -1,6 +1,6 @@
 # Irish translations of ISO 639 Language names
 # Copyright (C) 2002 Free Software Foundation, Inc.
-# Kevin Patrick Scannell <scannell@SLU.EDU>, 2004, 2006
+# Kevin Patrick Scannell <scannell@SLU.EDU>, 2004
 # Alastair McKinstry <mckinstry@computer.org>, 2002
 # Sean V. Kelley <s_oceallaigh@yahoo.com>, 1999
 #
@@ -11,11 +11,11 @@
 #   free to fill in gaps but please continue to mark coinages as such.  --KPS
 msgid ""
 msgstr ""
-"Project-Id-Version: iso_639-0.53\n"
+"Project-Id-Version: iso_639-0.55\n"
 "Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
 "debian.org>\n"
-"POT-Creation-Date: 2006-08-27 12:19+0200\n"
-"PO-Revision-Date: 2006-08-28 07:10-0500\n"
+"POT-Creation-Date: 2006-10-01 19:37+0200\n"
+"PO-Revision-Date: 2006-10-12 07:10-0500\n"
 "Last-Translator: Kevin Patrick Scannell <scannell@SLU.EDU>\n"
 "Language-Team: Irish <gaeilge-gnulinux@lists.sourceforge.net>\n"
 "MIME-Version: 1.0\n"
@@ -84,11 +84,11 @@ msgstr "Ailiúitis"
 
 #. name for alg
 msgid "Algonquian languages"
-msgstr ""
+msgstr "Teangacha Algancacha"
 
 #. name for alt
 msgid "Southern Altai"
-msgstr ""
+msgstr "Altaeis Theas"
 
 #. name for amh
 msgid "Amharic"
@@ -315,11 +315,11 @@ msgstr ""
 
 #. name for car
 msgid "Carib"
-msgstr ""
+msgstr "Cairibis"
 
 #. name for cat
 msgid "Catalan; Valencian"
-msgstr ""
+msgstr "Catalóinis"
 
 #. name for cau
 msgid "Caucasian (Other)"
@@ -383,7 +383,7 @@ msgstr "Seiricis"
 msgid ""
 "Church Slavic; Old Slavonic; Church Slavonic; Old Bulgarian; Old Church "
 "Slavonic"
-msgstr ""
+msgstr "Slaivis; Slavóinic; Slavóinis"
 
 #. name for chv
 msgid "Chuvash"
@@ -438,7 +438,7 @@ msgstr "Crióil agus teangacha briotaireachta (Eile)"
 
 #. name for csb
 msgid "Kashubian"
-msgstr ""
+msgstr "Caisiúibis"
 
 #. name for cus
 msgid "Cushitic (Other)"
@@ -482,7 +482,7 @@ msgstr ""
 
 #. name for div
 msgid "Divehi; Dhivehi; Maldivian"
-msgstr ""
+msgstr "Divéihis; Maildívis"
 
 #. name for doi
 msgid "Dogri"
@@ -506,7 +506,7 @@ msgstr "Meán-Ollainnis (ca. 1050-1350)"
 
 #. name for nld
 msgid "Dutch; Flemish"
-msgstr ""
+msgstr "Ollainnis; Pléimeannais"
 
 #. name for dyu
 msgid "Dyula"
@@ -530,7 +530,7 @@ msgstr ""
 
 #. name for elx
 msgid "Elamite"
-msgstr ""
+msgstr "Éaláimis"
 
 #. name for eng
 msgid "English"
@@ -604,7 +604,7 @@ msgstr "Sean-Fhraincis (842-ca. 1400)"
 
 #. name for frr
 msgid "Northern Frisian"
-msgstr ""
+msgstr "Freaslainnis Thuaidh"
 
 #. name for frs
 msgid "Eastern Frisian"
@@ -710,7 +710,7 @@ msgstr "Guaráinis"
 
 #. name for gsw
 msgid "Alemanic; Swiss German"
-msgstr ""
+msgstr "Gearmáinis Eilvéiseach"
 
 #. name for guj
 msgid "Gujarati"
@@ -823,11 +823,11 @@ msgstr ""
 
 #. name for ina
 msgid "Interlingua (International Auxiliary Language Association)"
-msgstr ""
+msgstr "Idirtheanga (International Auxiliary Language Association)"
 
 #. name for inc
 msgid "Indic (Other)"
-msgstr ""
+msgstr "Indiach (Eile)"
 
 #. name for ind
 msgid "Indonesian"
@@ -892,7 +892,7 @@ msgstr ""
 
 #. name for kal
 msgid "Kalaallisut; Greenlandic"
-msgstr ""
+msgstr "Graonlainnis"
 
 #. name for kam
 msgid "Kamba"
@@ -933,7 +933,7 @@ msgstr ""
 
 #. name for khi
 msgid "Khoisan (Other)"
-msgstr ""
+msgstr "Cóíseach (Eile)"
 
 #. name for khm
 msgid "Khmer"
@@ -992,7 +992,7 @@ msgstr ""
 
 #. name for krl
 msgid "Karelian"
-msgstr ""
+msgstr "Cairéailis"
 
 #. name for kro
 msgid "Kru"
@@ -1051,7 +1051,7 @@ msgstr ""
 
 #. name for lim
 msgid "Limburgan; Limburger; Limburgish"
-msgstr ""
+msgstr "Limbuirgis"
 
 # Firefox
 #. name for lin
@@ -1205,7 +1205,7 @@ msgstr "Manchúiris"
 
 #. name for mni
 msgid "Manipuri"
-msgstr ""
+msgstr "Manapúiris"
 
 #. name for mno
 msgid "Manobo languages"
@@ -1293,7 +1293,7 @@ msgstr "Ndongais"
 
 #. name for nds
 msgid "Low German; Low Saxon; German, Low; Saxon, Low"
-msgstr ""
+msgstr "Sacsainis Íochtarach; Gearmáinis Íochtarach"
 
 # google; An CT slender
 #. name for nep
@@ -1688,7 +1688,7 @@ msgstr ""
 
 #. name for sot
 msgid "Sotho, Southern"
-msgstr ""
+msgstr "Sótó Theas"
 
 #. name for spa
 msgid "Spanish; Castilian"
@@ -1799,7 +1799,7 @@ msgstr "Tibéidis"
 
 #. name for tig
 msgid "Tigre"
-msgstr ""
+msgstr "Tígréis"
 
 #. name for tir
 msgid "Tigrinya"
@@ -2029,6 +2029,10 @@ msgstr ""
 
 #. name for zxx
 msgid "No linguistic content"
+msgstr "Gan ábhar teangeolaíoch"
+
+#. name for zza
+msgid "Zaza; Dimili; Dimli; Kirdki; Kirmanjki; Zazaki"
 msgstr ""
 
 #~ msgid "Catalan"
