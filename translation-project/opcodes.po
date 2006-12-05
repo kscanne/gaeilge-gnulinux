@@ -441,7 +441,7 @@ msgstr "níl teirminéil ná fo-aicmí ag IC:%s [%s]\n"
 #: ia64-gen.c:1507
 #, c-format
 msgid "IC:%s has no terminals or sub-classes\n"
-msgstr "Níl teirminéil nó fo-aicmí ag IC:%s\n"
+msgstr "níl teirminéil ná fo-aicmí ag IC:%s\n"
 
 #: ia64-gen.c:1516
 #, c-format

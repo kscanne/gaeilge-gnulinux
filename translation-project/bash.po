@@ -787,7 +787,7 @@ msgstr ""
 #: execute_cmd.c:3717
 #, c-format
 msgid "%s: command not found"
-msgstr ""
+msgstr "%s: ordú gan aimsiú"
 
 #: execute_cmd.c:3963
 #, c-format

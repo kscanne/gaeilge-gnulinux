@@ -4,11 +4,11 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: tar 1.15.92\n"
+"Project-Id-Version: tar 1.16\n"
 "Report-Msgid-Bugs-To: bug-tar@gnu.org\n"
-"POT-Creation-Date: 2006-10-10 11:08+0300\n"
-"PO-Revision-Date: 2006-10-12 08:53-0600\n"
-"Last-Translator: Kevin Patrick Scannell <scannell@SLU.EDU>\n"
+"POT-Creation-Date: 2006-10-21 18:41+0300\n"
+"PO-Revision-Date: 2006-11-13 08:53-0600\n"
+"Last-Translator: Kevin Scannell <kscanne@gmail.com>\n"
 "Language-Team: Irish <gaeilge-gnulinux@lists.sourceforge.net>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=ISO-8859-1\n"
@@ -448,16 +448,16 @@ msgstr "Luach neamhbhailí do record_size"
 msgid "No archive name given"
 msgstr "Ní thugtar ainm na cartlainne"
 
-#: src/buffer.c:482
+#: src/buffer.c:487
 msgid "Cannot verify stdin/stdout archive"
 msgstr "Ní féidir cartlann stdin/stdout a fhíorú"
 
-#: src/buffer.c:495
+#: src/buffer.c:500
 #, c-format
 msgid "Archive is compressed. Use %s option"
 msgstr "Is cartlann chomhbhrúite í seo. Úsáid an rogha %s"
 
-#: src/buffer.c:538 src/tar.c:2131
+#: src/buffer.c:547 src/tar.c:2131
 msgid "Cannot update compressed archives"
 msgstr "Ní féidir cartlanna comhbhrúite a nuashonrú"
 
@@ -465,7 +465,7 @@ msgstr "Ní féidir cartlanna comhbhrúite a nuashonrú"
 #. *not* ``Writing a checkpoint''.
 #. E.g. in Spanish ``Punto de comprobaci@'on de escritura'',
 #. *not* ``Escribiendo un punto de comprobaci@'on''
-#: src/buffer.c:588
+#: src/buffer.c:597
 #, c-format
 msgid "Write checkpoint %u"
 msgstr "Seicphointe scríofa %u"
@@ -474,20 +474,20 @@ msgstr "Seicphointe scríofa %u"
 #. *not* ``Reading a checkpoint''.
 #. E.g. in Spanish ``Punto de comprobaci@'on de lectura'',
 #. *not* ``Leyendo un punto de comprobaci@'on''
-#: src/buffer.c:594
+#: src/buffer.c:603
 #, c-format
 msgid "Read checkpoint %u"
 msgstr "Seicphointe léimh %u"
 
-#: src/buffer.c:646
+#: src/buffer.c:655
 msgid "At beginning of tape, quitting now"
 msgstr "Tosach na téipe, ag scor anois"
 
-#: src/buffer.c:652
+#: src/buffer.c:661
 msgid "Too many errors, quitting"
 msgstr "An iomarca earráidí, ag scor"
 
-#: src/buffer.c:680
+#: src/buffer.c:689
 #, c-format
 msgid "Unaligned block (%lu byte) in archive"
 msgid_plural "Unaligned block (%lu bytes) in archive"
@@ -497,7 +497,7 @@ msgstr[2] "Bloc neamhailínithe (%lu bheart) sa chartlann"
 msgstr[3] "Bloc neamhailínithe (%lu mbeart) sa chartlann"
 msgstr[4] "Bloc neamhailínithe (%lu beart) sa chartlann"
 
-#: src/buffer.c:700
+#: src/buffer.c:709
 #, c-format
 msgid "Record size = %lu block"
 msgid_plural "Record size = %lu blocks"
@@ -507,37 +507,37 @@ msgstr[2] "Méid taifid = %lu bhloc"
 msgstr[3] "Méid taifid = %lu mbloc"
 msgstr[4] "Méid taifid = %lu bloc"
 
-#: src/buffer.c:773
+#: src/buffer.c:782
 msgid "Cannot backspace archive file; it may be unreadable without -i"
 msgstr "Ní féidir an chartlann a chúlú; is dócha gur doléite í gan -i"
 
-#: src/buffer.c:805
+#: src/buffer.c:814
 msgid "rmtlseek not stopped at a record boundary"
 msgstr "Níor stopadh rmtlseek ag teorainn taifid"
 
-#: src/buffer.c:861
+#: src/buffer.c:870
 #, c-format
 msgid "%s: contains invalid volume number"
 msgstr "%s: tá uimhir imleabhair neamhbhailí ann"
 
-#: src/buffer.c:896
+#: src/buffer.c:905
 msgid "Volume number overflow"
 msgstr "Uimhir imleabhair thar maoil"
 
-#: src/buffer.c:911
+#: src/buffer.c:920
 #, c-format
 msgid "Prepare volume #%d for %s and hit return: "
 msgstr "Socraigh an t-imleabhar #%d le haghaidh %s agus brúigh an eochair iontrála: "
 
-#: src/buffer.c:917
+#: src/buffer.c:926
 msgid "EOF where user reply was expected"
 msgstr "Fuarthas comhadchríoch in áit freagra ón úsáideoir"
 
-#: src/buffer.c:922 src/buffer.c:954
+#: src/buffer.c:931 src/buffer.c:963
 msgid "WARNING: Archive is incomplete"
 msgstr "RABHADH: Tá an chartlann neamhiomlán"
 
-#: src/buffer.c:936
+#: src/buffer.c:945
 #, c-format
 msgid ""
 " n name        Give a new file name for the next (and subsequent) volume(s)\n"
@@ -548,68 +548,68 @@ msgstr ""
 " q             Tobscoir tar\n"
 " y nó líne nua Lean ar aghaidh\n"
 
-#: src/buffer.c:941
+#: src/buffer.c:950
 #, c-format
 msgid " !             Spawn a subshell\n"
 msgstr " !             Sceith fobhlaosc\n"
 
-#: src/buffer.c:942
+#: src/buffer.c:951
 #, c-format
 msgid " ?             Print this list\n"
 msgstr " ?             Priontáil an liosta seo\n"
 
-#: src/buffer.c:949
+#: src/buffer.c:958
 msgid "No new volume; exiting.\n"
 msgstr "Níl aon imleabhar nua; ag scor.\n"
 
-#: src/buffer.c:982
+#: src/buffer.c:991
 msgid "File name not specified. Try again.\n"
 msgstr "Ainm an chomhaid gan sonrú. Bain triail eile as.\n"
 
-#: src/buffer.c:995
+#: src/buffer.c:1004
 #, c-format
 msgid "Invalid input. Type ? for help.\n"
 msgstr "Ionchur neamhbhailí. Iontráil ? chun cabhair a fháil.\n"
 
-#: src/buffer.c:1046
+#: src/buffer.c:1055
 #, c-format
 msgid "%s command failed"
 msgstr "Theip ar ordú %s"
 
-#: src/buffer.c:1108 src/delete.c:210 src/list.c:169 src/update.c:165
+#: src/buffer.c:1117 src/delete.c:210 src/list.c:169 src/update.c:165
 msgid "This does not look like a tar archive"
 msgstr "Ní cosúil le cartlann `tar' é seo"
 
-#: src/buffer.c:1202
+#: src/buffer.c:1211
 #, c-format
 msgid "%s is possibly continued on this volume: header contains truncated name"
 msgstr "Seans go leanann %s ar aghaidh ar an imleabhar seo: tá ainm teasctha sa cheanntásc"
 
-#: src/buffer.c:1206
+#: src/buffer.c:1215
 #, c-format
 msgid "%s is not continued on this volume"
 msgstr "Ní leanann %s ar an imleabhar seo"
 
-#: src/buffer.c:1220
+#: src/buffer.c:1229
 #, c-format
 msgid "%s is the wrong size (%s != %s + %s)"
 msgstr "Níl %s an méid ceart (%s != %s + %s)"
 
-#: src/buffer.c:1230
+#: src/buffer.c:1239
 msgid "This volume is out of sequence"
 msgstr "Tá an t-imleabhar seo as ord"
 
-#: src/buffer.c:1276
+#: src/buffer.c:1285
 #, c-format
 msgid "Archive not labeled to match %s"
 msgstr "Lipéad ar chartlann nach comhoiriúnaithe le %s"
 
-#: src/buffer.c:1279
+#: src/buffer.c:1288
 #, c-format
 msgid "Volume %s does not match %s"
 msgstr "Níl an t-imleabhar %s comhoiriúnaithe le %s"
 
-#: src/buffer.c:1375
+#: src/buffer.c:1384
 #, c-format
 msgid "%s: file name too long to be stored in a GNU multivolume header, truncated"
 msgstr "%s: ní féidir an comhadainm seo a stóráil i gceanntásc il-imleabhar GNU; teasctha"
@@ -757,32 +757,32 @@ msgstr "%s: Cineál anaithnid comhaid; ag déanamh neamhshuim air"
 msgid "Missing links to %s.\n"
 msgstr "Naisc le %s ar iarraidh.\n"
 
-#: src/create.c:1451
+#: src/create.c:1452
 #, c-format
 msgid "%s: file is unchanged; not dumped"
 msgstr "tá %s gan athrú; nach dumpáilte"
 
-#: src/create.c:1459
+#: src/create.c:1460
 #, c-format
 msgid "%s: file is the archive; not dumped"
 msgstr "%s: is ionann é agus an chartlann féin; nach dumpáilte"
 
-#: src/create.c:1489
+#: src/create.c:1490
 #, c-format
 msgid "%s: File removed before we read it"
 msgstr "%s: Scriosadh an comhad sular léadh é"
 
-#: src/create.c:1559
+#: src/create.c:1562
 #, c-format
 msgid "%s: file changed as we read it"
 msgstr "%s: athraíodh an comhad agus á léamh"
 
-#: src/create.c:1635
+#: src/create.c:1641
 #, c-format
 msgid "%s: socket ignored"
 msgstr "%s: rinneadh neamhshuim ar an soicéad"
 
-#: src/create.c:1640
+#: src/create.c:1646
 #, c-format
 msgid "%s: door ignored"
 msgstr "%s: rinneadh neamhshuim ar an doras"
@@ -1454,8 +1454,8 @@ msgid "cancel the effect of --delay-directory-restore option"
 msgstr "cealaigh an éifeacht de rogha --delay-directory-restore"
 
 #: src/tar.c:491
-msgid "Device selection and switching:\n"
-msgstr "Roghnú gléis agus malartú:\n"
+msgid "Device selection and switching:"
+msgstr "Roghnú gléis agus malartú:"
 
 #: src/tar.c:493
 msgid "ARCHIVE"
@@ -2043,7 +2043,7 @@ msgstr "Níl na roghanna `-Aru' ar fáil in éineacht le `-f -'"
 msgid "You must specify one of the `-Acdtrux' options"
 msgstr "Ní foláir rogha amháin de `-Acdtrux' ar a laghad"
 
-#: src/tar.c:2334
+#: src/tar.c:2331
 #, c-format
 msgid "Error exit delayed from previous errors"
 msgstr "Earráid; tobscor moillithe ó earráidí roimhe seo"

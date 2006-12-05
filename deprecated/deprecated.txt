@@ -167,6 +167,7 @@ delete		[cd]ealaigh		scrios		delete		[cd]h?eal[aú]
 delete		díothaigh		scrios		delete		dh?íoth
 # FARF/FRTF
 delimiter	teorantóir		teomharcóir	delimiter	th?eorantó
+demo		léiriú			taispeántas,_clár_taispeána	demo	léiri
 # FARF has ceann scríbe but BÓB prefers sprioc
 destination		ceann_scríbe	sprioc	destination		scríbe
 # no FRTF or FARF
@@ -362,6 +363,7 @@ management	bainistíocht		bainisteoireacht	manag	bh?ainistíoch
 # old KDE had "ag an ~"
 manual		ag_an_úsáideoir		de_láimh	manual	úsáide
 manual		láimhe			de_láimh	manual	láimhe
+merge		measc			cumaisc		[^a-z]merge		mh?easc
 # FARF/FRTF
 mode		modh			mód		mode[^r]	mh?odh
 # FRTF (FARF = bunathraigh)
@@ -527,6 +529,7 @@ salutation	fáilte			beannacht	salutat		fh?áilt
 save		cuir_i_dtaisce		sábháil		sav(ing|e)	th?aisc
 # FARF/FRTF
 schema		scéim			scéimre		schema		scéim[^r]
+scrollbar	barra_scrollaigh	scrollbharra	scroll.?bar	[^l]bh?arra
 select		pioc			roghnaigh	select		ph?ioc
 # FRTF
 sensor		brathadóir		braiteoir	sensor		bh?rathad
