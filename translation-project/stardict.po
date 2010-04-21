@@ -1,0 +1,2081 @@
+# Irish translations for stardict.
+# Copyright (C) 2007 Free Software Foundation, Inc.
+# This file is distributed under the same license as the stardict package.
+# Kevin Scannell <kscanne@gmail.com>, 2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: stardict 3.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2007-08-30 14:20+0200\n"
+"PO-Revision-Date: 2007-08-31 16:36-0500\n"
+"Last-Translator: Kevin Scannell <kscanne@gmail.com>\n"
+"Language-Team: Irish <gaeilge-gnulinux@lists.sourceforge.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ISO-8859-1\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../data/GNOME_Stardict.server.in.h:1
+msgid "stardict application"
+msgstr "feidhmchlár stardict"
+
+#: ../data/GNOME_Stardict.server.in.h:2
+msgid "stardict automation factory"
+msgstr "monarcha uathoibrithe stardict"
+
+#: ../data/stardict.desktop.in.h:1
+msgid "Lookup words"
+msgstr "Déan cuardach ar fhocail"
+
+#. gtk_widget_set_app_paintable(window, TRUE);
+#: ../data/stardict.desktop.in.h:2 ../src/docklet.cpp:31
+#: ../src/docklet.cpp:199 ../src/mainwin.cpp:473 ../src/splash.cpp:84
+#: ../src/stardict.cpp:239 ../src/stardict.cpp:299 ../src/stardict.cpp:2347
+#: ../src/win32/systray.cpp:216 ../src/win32/systray.cpp:264
+msgid "StarDict"
+msgstr "StarDict"
+
+#: ../data/stardict.schemas.in.h:1
+msgid ""
+"A custom font that will be used in StarDict. This will only take effect if "
+"the \"Use Custom Font\" option is turned on."
+msgstr ""
+"Clófhoireann shaincheaptha a úsáidfear i StarDict.  Cuirfear an rogha seo i "
+"bhfeidhm nuair a roghnaíonn tú \"Úsáid Clófhoireann Shaincheaptha\"."
+
+#: ../data/stardict.schemas.in.h:2
+msgid "Custom Font"
+msgstr "Clófhoireann Shaincheaptha"
+
+# english?
+#: ../data/stardict.schemas.in.h:3
+msgid "Dictionary configure xml"
+msgstr "Cumraíocht XML foclóra"
+
+#: ../data/stardict.schemas.in.h:4
+msgid "Dictionary order"
+msgstr "Ord foclóra"
+
+#: ../data/stardict.schemas.in.h:5
+msgid "Disabled plug-in list"
+msgstr "Liosta na mbreiseán a díchumasaíodh"
+
+#: ../data/stardict.schemas.in.h:6
+msgid "Disabled tree dictionary list"
+msgstr "Liosta na bhfoclóirí crainn a díchumasaíodh"
+
+#: ../data/stardict.schemas.in.h:7
+msgid "Enable sound event"
+msgstr "Cumasaigh teagmhas fuaime"
+
+#: ../data/stardict.schemas.in.h:8
+msgid "Enable to use TTS program"
+msgstr "Cumasaigh feidhmchlár TTS"
+
+#: ../data/stardict.schemas.in.h:9
+msgid "Engine index"
+msgstr "Innéacs inneall"
+
+#: ../data/stardict.schemas.in.h:10
+msgid "From-language index"
+msgstr "Innéacs teangacha foinseacha"
+
+#: ../data/stardict.schemas.in.h:11
+msgid "Hide floating window when modifier key is released"
+msgstr ""
+"Folaigh an fhuinneog shoghluaiste nuair a scaoiltear eochair mhionathraithe"
+
+#: ../data/stardict.schemas.in.h:12
+msgid ""
+"Hide floating window when modifier key is released. It only take effect when "
+"only_scan_while_modifier_key is turned on."
+msgstr ""
+"Folaigh an fhuinneog shoghluaiste nuair a scaoiltear eochair mhionathraithe. "
+"Cuirfear é seo i bhfeidhm nuair a shocraíonn tú an rogha "
+"\"only_scan_while_modifier_key\"."
+
+#: ../data/stardict.schemas.in.h:13
+msgid "Hide the list"
+msgstr "Folaigh an liosta"
+
+#: ../data/stardict.schemas.in.h:14
+msgid "Hide the window on startup"
+msgstr "Folaigh an fhuinneog ag am tosaithe"
+
+# Hpaned is a container widget in gtk
+#: ../data/stardict.schemas.in.h:15
+msgid "Hpaned 's position"
+msgstr "Ionad an Hpaned"
+
+#: ../data/stardict.schemas.in.h:16
+msgid "List the dictionaries in order."
+msgstr "Taispeáin na foclóirí in ord."
+
+#: ../data/stardict.schemas.in.h:17
+msgid "List the plugins in order."
+msgstr "Taispeáin na breiseáin in ord."
+
+#: ../data/stardict.schemas.in.h:18
+msgid "List the plugins which are disabled."
+msgstr "Taispeáin na breiseáin a díchumasaíodh."
+
+#: ../data/stardict.schemas.in.h:19
+msgid "List the search websites."
+msgstr "Taispeáin na suímh chuardaigh."
+
+#: ../data/stardict.schemas.in.h:20
+msgid "List the tree dictionaries in order."
+msgstr "Taispeáin na foclóirí crainn in ord."
+
+#: ../data/stardict.schemas.in.h:21
+msgid "List the tree dictionaries which are disabled."
+msgstr "Taispeáin na foclóirí crainn a díchumasaíodh."
+
+#: ../data/stardict.schemas.in.h:22
+msgid "Maximum window-height"
+msgstr "Uasairde na fuinneoige"
+
+#: ../data/stardict.schemas.in.h:23
+msgid "Maximum window-width"
+msgstr "Uasleithead na fuinneoige"
+
+#: ../data/stardict.schemas.in.h:24
+msgid "Only scan while modifier key is being pressed"
+msgstr "Scan nuair atá an eochair mhionathraithe á brú agus sa chás sin amháin"
+
+#: ../data/stardict.schemas.in.h:25
+msgid ""
+"Only scan while the modifier key is being pressed. The modifier key is set "
+"by \"scan_modifier_key\"."
+msgstr ""
+"Scan nuair atá an eochair mhionathraithe á brú agus sa chás sin amháin. Is "
+"féidir an eochair mhionathraithe a shocrú leis an rogha \"scan_modifier_key"
+"\"."
+
+#: ../data/stardict.schemas.in.h:26
+msgid ""
+"Only scan while this modifier key is being pressed. It can be Win(0), Shift"
+"(1), Alt(2) or Ctrl(3)."
+msgstr ""
+"Scan nuair atá an eochair mhionathraithe seo á brú agus sa chás sin amháin. "
+"Is féidir Win(0), Shift(1), Alt(2) nó Ctrl(3) a úsáid."
+
+#: ../data/stardict.schemas.in.h:27
+msgid "Plug-in order"
+msgstr "Ord na mbreiseán"
+
+#: ../data/stardict.schemas.in.h:28
+msgid "Pronounce the word when it pops up."
+msgstr "Fuaimnigh an focal nuair a thaispeántar é."
+
+#: ../data/stardict.schemas.in.h:29
+msgid "Pronounce the word when the floating window pops up."
+msgstr "Fuaimnigh an focal nuair a thaispeántar an fhuinneog shoghluaiste."
+
+#: ../data/stardict.schemas.in.h:30
+msgid "Query in the floating window when middle mouse button is clicked"
+msgstr ""
+"Cuardaigh san fhuinneog shoghluaiste nuair a chliceáiltear an cnaipe luiche "
+"sa lár"
+
+# english?
+#: ../data/stardict.schemas.in.h:31
+msgid "Save the dictionary manage configure."
+msgstr "Sábháil cumraíocht bhainisteoireachta foclóirí."
+
+# Scan not a verb here I don't think
+#: ../data/stardict.schemas.in.h:32
+msgid "Scan modifier key"
+msgstr "Eochair mhionathraithe le haghaidh scanta"
+
+#: ../data/stardict.schemas.in.h:33
+msgid "Scan the Selection"
+msgstr "Scan an Roghnúchán"
+
+#: ../data/stardict.schemas.in.h:34
+msgid "Search website list"
+msgstr "Cuardaigh liosta na suíomh"
+
+#: ../data/stardict.schemas.in.h:35
+msgid "TTS program commandline"
+msgstr "Ordú an fheidhmchláir TTS"
+
+#: ../data/stardict.schemas.in.h:36
+msgid "The commandline to use external TTS program to pronounce words."
+msgstr "Ordú le haghaidh feidhmchláir seachtraigh TTS a fhuaimníonn focail."
+
+#: ../data/stardict.schemas.in.h:37
+msgid "The height of the main stardict window."
+msgstr "Airde na príomhfhuinneoige stardict."
+
+#: ../data/stardict.schemas.in.h:38
+msgid "The hpaned's position, between the listview and the textview."
+msgstr "Ionad an hpaned, idir an t-amharc liosta agus an t-amharc téacs."
+
+#: ../data/stardict.schemas.in.h:39
+msgid "The index of the from-language for translating."
+msgstr "Innéacs na teanga foinsí le haghaidh aistrithe."
+
+#: ../data/stardict.schemas.in.h:40
+msgid "The index of the to-language for translating."
+msgstr "Innéacs na sprioctheanga le haghaidh aistrithe."
+
+#: ../data/stardict.schemas.in.h:41
+msgid "The index of the translate engine."
+msgstr "Innéacs an innill aistrithe."
+
+#: ../data/stardict.schemas.in.h:42
+msgid "The maximum height of the floating stardict window."
+msgstr "Uasairde na fuinneoige soghluaiste stardict."
+
+#: ../data/stardict.schemas.in.h:43
+msgid "The maximum width of the floating stardict window."
+msgstr "Uasleithead na fuinneoige soghluaiste stardict."
+
+#: ../data/stardict.schemas.in.h:44
+msgid "The width of the main stardict window."
+msgstr "Leithead na príomhfhuinneoige stardict."
+
+#: ../data/stardict.schemas.in.h:45
+msgid "To-language index"
+msgstr "Innéacs na sprioctheangacha"
+
+#: ../data/stardict.schemas.in.h:46
+msgid "Tree Dictionary order"
+msgstr "Ord na bhFoclóirí Crainn"
+
+#: ../data/stardict.schemas.in.h:47
+msgid "Use Custom Font"
+msgstr "Úsáid Clófhoireann Shaincheaptha"
+
+#: ../data/stardict.schemas.in.h:48
+msgid "Whether the main window is maximized or not."
+msgstr "Cé acu atá an phríomhfhuinneog uasmhéadaithe nó nach bhfuil."
+
+#: ../data/stardict.schemas.in.h:49
+msgid "Whether the window is maximized or not"
+msgstr "Cé acu atá an fhuinneog uasmhéadaithe nó nach bhfuil"
+
+#: ../data/stardict.schemas.in.h:50
+msgid ""
+"Whether to enable sound events or not. StarDict will play a sound event when "
+"a button is active or released, and when a menu pops up."
+msgstr ""
+"Cé acu a chumasaítear fuaimeanna nó nach gcumasaítear. Seinnfidh StarDict "
+"fuaim nuair atá cnaipe gníomhach, nó nuair a scaoiltear cnaipe, nó nuair a "
+"thaispeántar roghchlár."
+
+#: ../data/stardict.schemas.in.h:51
+msgid ""
+"Whether to enable startdict to use external TTS program to pronounce words."
+msgstr ""
+"Cé acu a chumasaítear feidhmchlár seachtrach TTS chun focail a fhuaimniú, nó nach gcumasaítear."
+
+#: ../data/stardict.schemas.in.h:52
+msgid "Whether to hide the main window on startup, or not."
+msgstr ""
+"Cé acu a fholaítear an phríomhfhuinneog ag am tosaithe nó nach bhfolaítear."
+
+#: ../data/stardict.schemas.in.h:53
+msgid "Whether to hide the word-list view or not."
+msgstr "Cé acu a fholaítear amharc an liosta focal nó nach bhfolaítear."
+
+#: ../data/stardict.schemas.in.h:54
+msgid ""
+"Whether to lock the floating window or not. While locked, the window will "
+"not disappear."
+msgstr ""
+"Cé acu a chuirfear an fhuinneog shoghluaiste faoi ghlas nó nach gcuirfear. "
+"Ní ghabhfaidh an fhuinneog as amharc agus é faoi ghlas."
+
+#: ../data/stardict.schemas.in.h:55
+msgid ""
+"Whether to query in the floating window, or in the main window. Query is "
+"activated by the user clicking the middle mouse button on the notification "
+"area icon."
+msgstr ""
+"Cé acu san fhuinneog shoghluaiste nó sa phríomhfhuinneog a dhéanfar "
+"cuardach. Gníomhachtófar cuardach trí chliceáil ar an gcnaipe luiche sa lár "
+"ar dheilbhín an limistéir fógartha."
+
+#: ../data/stardict.schemas.in.h:56
+msgid ""
+"Whether to scan the selection or not. When the user selects text, stardict "
+"will popup a flat window showing the meaning of that text."
+msgstr ""
+"Cé acu a scanfar an roghnúchán nó nach scanfar. Nuair a roghnóidh úsáideoir "
+"píosa téacs, taispeánfaidh stardict fuinneog mhaol ina mbeidh sainmhíniú ar "
+"an téacs sin."
+
+#: ../data/stardict.schemas.in.h:57
+msgid ""
+"Whether to use a user-defined font in StarDict, instead of the default "
+"system font. If this option is turned on, then the font named in the "
+"\"Custom Font\" option will be used instead of the system font."
+msgstr ""
+"Cé acu clófhoireann shaincheaptha nó clófhoireann réamhshocraithe an chórais "
+"a úsáidfear i StarDict. Má roghnaíonn tú é seo, úsáidfear an chlófhoireann "
+"atá ainmnithe faoi \"Clófhoireann Shaincheaptha\" in ionad clófhoirne an "
+"chórais."
+
+#: ../data/stardict.schemas.in.h:58
+msgid "Window-height"
+msgstr "Airde na fuinneoige"
+
+#: ../data/stardict.schemas.in.h:59
+msgid "Window-width"
+msgstr "Leithead na fuinneoige"
+
+#: ../data/stardict.schemas.in.h:60
+msgid "lock position (x)"
+msgstr "ionad glasála (x)"
+
+#: ../data/stardict.schemas.in.h:61
+msgid "lock position (y)"
+msgstr "ionad glasála (y)"
+
+#: ../data/stardict.schemas.in.h:62
+msgid "the window's x position while locked."
+msgstr "x-ionad na fuinneoige nuair atá sí faoi ghlas."
+
+#: ../data/stardict.schemas.in.h:63
+msgid "the window's y position while locked."
+msgstr "y-ionad na fuinneoige nuair atá sí faoi ghlas."
+
+#: ../data/stardict.schemas.in.h:64
+msgid "whether to lock the window or not"
+msgstr "cé acu a chuirfear an fhuinneog faoi ghlas nó nach gcuirfear"
+
+#: ../src/articleview.cpp:170
+msgid "XDXF data parse plug-in is not found!"
+msgstr "Breiseán parsála sonraí XDXF gan aimsiú!"
+
+#: ../src/articleview.cpp:175
+msgid "PowerWord data parse plug-in is not found!"
+msgstr "Breiseán parsála sonraí PowerWord gan aimsiú!"
+
+#: ../src/articleview.cpp:180
+msgid "Wiki data parse plug-in is not found!"
+msgstr "Breiseán parsála sonraí Wiki gan aimsiú!"
+
+#: ../src/articleview.cpp:185
+msgid "HTML data parse plug-in is not found!"
+msgstr "Breiseán parsála sonraí HTML gan aimsiú!"
+
+#: ../src/articleview.cpp:231
+msgid "<span foreground=\"red\">[Load image error!]</span>"
+msgstr "<span foreground=\"red\">[Earráid agus íomhá á luchtú!]</span>"
+
+#: ../src/articleview.cpp:235
+msgid "<span foreground=\"red\">[Missing Image]</span>"
+msgstr "<span foreground=\"red\">[Íomhá Ar Iarraidh]</span>"
+
+#: ../src/articleview.cpp:249
+msgid "Unkown data type, please upgrade StarDict!"
+msgstr "Cineál anaithnid sonraí, nuashonraigh StarDict anois!"
+
+#. Default stardictd server.
+#: ../src/conf.cpp:57 ../src/prefsdlg.cpp:1816
+msgid "dict.stardict.org"
+msgstr "dict.stardict.org"
+
+#: ../src/conf.cpp:224
+#, no-c-format
+msgid ""
+"StarDict.org\thttp://www.stardict.org\thttp://www.stardict.org/query.php?q=%"
+"s\n"
+"Dictionary.com\thttp://dictionary.reference.com\thttp://dictionary.reference."
+"com/search?q=%s\n"
+"dict.leo.org\thttp://dict.leo.org\thttp://dict.leo.org/?search=%s&lang=en\n"
+"H2G2\thttp://www.h2g2.com\thttp://www.h2g2.com/Search?searchstring=%"
+"s&searchtype=ARTICLE&skip=0&show=20&showapproved=1&shownormal=1&showsubmitted=1\n"
+"WhatIs\thttp://whatis.techtarget.com\thttp://whatis.techtarget.com/"
+"wsearchResults/1,290214,sid9,00.html?query=%s\n"
+"Altavista\thttp://www.altavista.com\thttp://www.altavista.com/cgi-bin/query?"
+"q=%s\n"
+"WEB.DE\thttp://suche.web.de\thttp://suche.web.de/search/?su=%s\n"
+"WebCrawler\thttp://www.webcrawler.com\thttp://www.webcrawler.com/cgi-bin/"
+"WebQuery?searchText=%s\n"
+"Google\thttp://www.google.com\thttp://www.google.com/search?q=%s\n"
+"Yahoo\thttp://search.yahoo.com\thttp://search.yahoo.com/bin/search?p=%s\n"
+"CMU\thttp://www.speech.cs.cmu.edu\thttp://www.speech.cs.cmu.edu/cgi-bin/"
+"cmudict?in=%s\n"
+msgstr ""
+"StarDict.org\thttp://www.stardict.org\thttp://www.stardict.org/query.php?q=%"
+"s\n"
+"Dictionary.com\thttp://dictionary.reference.com\thttp://dictionary.reference."
+"com/search?q=%s\n"
+"dict.leo.org\thttp://dict.leo.org\thttp://dict.leo.org/?search=%s&lang=en\n"
+"H2G2\thttp://www.h2g2.com\thttp://www.h2g2.com/Search?searchstring=%"
+"s&searchtype=ARTICLE&skip=0&show=20&showapproved=1&shownormal=1&showsubmitted=1\n"
+"WhatIs\thttp://whatis.techtarget.com\thttp://whatis.techtarget.com/"
+"wsearchResults/1,290214,sid9,00.html?query=%s\n"
+"Altavista\thttp://www.altavista.com\thttp://www.altavista.com/cgi-bin/query?"
+"q=%s\n"
+"WEB.DE\thttp://suche.web.de\thttp://suche.web.de/search/?su=%s\n"
+"WebCrawler\thttp://www.webcrawler.com\thttp://www.webcrawler.com/cgi-bin/"
+"WebQuery?searchText=%s\n"
+"Google\thttp://www.google.com\thttp://www.google.com/search?q=%s\n"
+"Yahoo\thttp://search.yahoo.com\thttp://search.yahoo.com/bin/search?p=%s\n"
+"CMU\thttp://www.speech.cs.cmu.edu\thttp://www.speech.cs.cmu.edu/cgi-bin/"
+"cmudict?in=%s\n"
+
+#: ../src/conf.cpp:250
+msgid "win32_use_custom_font=0"
+msgstr "win32_use_custom_font=0"
+
+#: ../src/conf.cpp:261
+msgid "win32_custom_font="
+msgstr "win32_custom_font="
+
+#: ../src/desktop.cpp:68
+#, c-format
+msgid "%s\\help\\stardict.chm"
+msgstr "%s\\help\\stardict.chm"
+
+#: ../src/dictmanage.cpp:46 ../src/dictmanage.cpp:213
+msgid "Default Group"
+msgstr "Grúpa Réamhshocraithe"
+
+#: ../src/dictmanagedlg.cpp:62
+#, c-format
+msgid "Only level %d user can choose this dictionary!"
+msgstr "Ceadaítear d'úsáideoirí ag leibhéal %d amháin an foclóir seo a roghnú!"
+
+#: ../src/dictmanagedlg.cpp:74 ../src/dictmanagedlg.cpp:430
+#: ../src/dictmanagedlg.cpp:2231
+#, c-format
+msgid "You can only choose %d dictionaries."
+msgstr "Ní cheadaítear duit ach %d foclóir a roghnú."
+
+#: ../src/dictmanagedlg.cpp:186 ../src/dictmanagedlg.cpp:788
+#: ../src/dictmanagedlg.cpp:888 ../src/dictmanagedlg.cpp:959
+#: ../src/dictmanagedlg.cpp:1377 ../src/dictmanagedlg.cpp:2153
+#: ../src/stardict.cpp:1065
+msgid "Dictionary Name"
+msgstr "Ainm an Fhoclóra"
+
+#: ../src/dictmanagedlg.cpp:191 ../src/dictmanagedlg.cpp:789
+#: ../src/dictmanagedlg.cpp:894 ../src/dictmanagedlg.cpp:966
+#: ../src/dictmanagedlg.cpp:1382 ../src/dictmanagedlg.cpp:2154
+msgid "Word count"
+msgstr "Líon na bhfocal"
+
+#: ../src/dictmanagedlg.cpp:216
+msgid "Browse Dictionaries"
+msgstr "Brabhsáil Foclóirí"
+
+#: ../src/dictmanagedlg.cpp:412
+msgid "These settings will take effect the next time you run StarDict."
+msgstr ""
+"Cuirfear na socruithe seo i bhfeidhm an chéad uair eile a rithfidh tú "
+"StarDict."
+
+#: ../src/dictmanagedlg.cpp:425 ../src/lib/stddict.cpp:1201
+msgid "Loading..."
+msgstr "Á Luchtú..."
+
+#: ../src/dictmanagedlg.cpp:445 ../src/dictmanagedlg.cpp:1298
+msgid "<span foreground=\"red\">Query Dict</span>"
+msgstr "<span foreground=\"red\">Déan Iarratas</span>"
+
+#: ../src/dictmanagedlg.cpp:447 ../src/dictmanagedlg.cpp:1300
+msgid "<span foreground=\"red\">Scan Dict</span>"
+msgstr "<span foreground=\"red\">Scan Foclóir</span>"
+
+#: ../src/dictmanagedlg.cpp:464 ../src/dictmanagedlg.cpp:539
+msgid "Virtual Dictionary"
+msgstr "Foclóir Fíorúil"
+
+#: ../src/dictmanagedlg.cpp:769
+msgid ""
+"You can have multiple groups of dictionaries, such as \"Study English\", "
+"\"Learn German\", and switch them instantly."
+msgstr ""
+"Is féidir grúpaí éagsúla foclóirí a bheith agat, mar shampla \"Staidéar ar Bhéarla\", \"Foghlaim Gearmáinis\", srl. agus athrú eatarthu ar an toirt."
+
+#: ../src/dictmanagedlg.cpp:774
+msgid ""
+"The Query Dict will show in the main window, the Scan Dict will show in the "
+"floating window."
+msgstr ""
+"Taispeánfar \"Déan Iarratas\" sa phríomhfhuinneog, agus taispeánfar \"Scan Foclóir\" san fhuinneog shoghluaiste."
+
+#: ../src/dictmanagedlg.cpp:790 ../src/dictmanagedlg.cpp:2156
+msgid "Author"
+msgstr "Údar"
+
+#: ../src/dictmanagedlg.cpp:791 ../src/dictmanagedlg.cpp:2157
+msgid "Email"
+msgstr "Ríomhphost"
+
+#: ../src/dictmanagedlg.cpp:792 ../src/dictmanagedlg.cpp:2158
+msgid "Website"
+msgstr "Suíomh Gréasáin"
+
+#: ../src/dictmanagedlg.cpp:793 ../src/dictmanagedlg.cpp:2159
+msgid "Description"
+msgstr "Cur Síos"
+
+#: ../src/dictmanagedlg.cpp:794 ../src/dictmanagedlg.cpp:2160
+msgid "Date"
+msgstr "Dáta"
+
+#: ../src/dictmanagedlg.cpp:795
+msgid "File name"
+msgstr "Ainm comhaid"
+
+#: ../src/dictmanagedlg.cpp:881 ../src/dictmanagedlg.cpp:953
+#: ../src/pluginmanagedlg.cpp:363
+msgid "Enable"
+msgstr "Cumasaigh"
+
+# english?
+#: ../src/dictmanagedlg.cpp:1268
+msgid "Are you sure to delete this dict group?"
+msgstr "An bhfuil tú cinnte gur mian leat an grúpa foclóirí seo a scriosadh?"
+
+#: ../src/dictmanagedlg.cpp:1279
+msgid "New dict group"
+msgstr "Grúpa nua foclóirí"
+
+#: ../src/dictmanagedlg.cpp:1282
+msgid "Group name:"
+msgstr "Ainm an ghrúpa:"
+
+#: ../src/dictmanagedlg.cpp:1317
+msgid "Add dictionary"
+msgstr "Cuir foclóir leis"
+
+#: ../src/dictmanagedlg.cpp:1738 ../src/prefsdlg.cpp:1261
+msgid "Add"
+msgstr "Cuir Leis"
+
+#: ../src/dictmanagedlg.cpp:1745
+msgid "Delete"
+msgstr "Scrios"
+
+#: ../src/dictmanagedlg.cpp:1752
+msgid "Information"
+msgstr "Eolas"
+
+#: ../src/dictmanagedlg.cpp:1761
+msgid "Move to top"
+msgstr "Bog go dtí an barr"
+
+#: ../src/dictmanagedlg.cpp:1768
+msgid "Move up"
+msgstr "Bog suas"
+
+#: ../src/dictmanagedlg.cpp:1775
+msgid "Move down"
+msgstr "Bog síos"
+
+#: ../src/dictmanagedlg.cpp:1782
+msgid "Move to bottom"
+msgstr "Bog go dtí an bun"
+
+#: ../src/dictmanagedlg.cpp:1864
+msgid "D_ict List"
+msgstr "L_iosta Foclóirí"
+
+#: ../src/dictmanagedlg.cpp:1879 ../src/mainwin.cpp:514
+msgid "Manage _Dict"
+msgstr "Bainistigh _Foclóir"
+
+#: ../src/dictmanagedlg.cpp:1893
+msgid "T_ree dictionaries"
+msgstr "Foclói_rí crainn"
+
+#: ../src/dictmanagedlg.cpp:1907
+msgid "_Network dictionaries"
+msgstr "Foclóirí lío_nra"
+
+#: ../src/dictmanagedlg.cpp:1931
+msgid "_Show information"
+msgstr "Tai_speáin eolas"
+
+#: ../src/dictmanagedlg.cpp:1938
+msgid "Select _All"
+msgstr "Roghnaigh _Uile"
+
+#: ../src/dictmanagedlg.cpp:1943
+msgid "_Unselect all"
+msgstr "_Díroghnaigh uile"
+
+# together with next message, with URL between I'd guess
+#: ../src/dictmanagedlg.cpp:1962
+msgid "Visit "
+msgstr "Déan cuairt ar "
+
+# see previous
+#: ../src/dictmanagedlg.cpp:1970
+msgid " to download dictionaries!"
+msgstr " chun foclóirí a íosluchtú!"
+
+#: ../src/dictmanagedlg.cpp:1980
+msgid "Upgrade Now!"
+msgstr "Nuashonraigh Anois!"
+
+#: ../src/dictmanagedlg.cpp:2001
+msgid "Manage Dictionaries"
+msgstr "Bainistigh Foclóirí"
+
+#: ../src/dictmanagedlg.cpp:2148
+msgid "Dictionary Information"
+msgstr "Eolas faoin Fhoclóir"
+
+#: ../src/dictmanagedlg.cpp:2155
+msgid "Synonym word count"
+msgstr "Líon na gcomhchiallach"
+
+#: ../src/dictmanagedlg.cpp:2169
+msgid "Download Now!"
+msgstr "Íosluchtaigh Anois!"
+
+#: ../src/docklet.cpp:34 ../src/docklet.cpp:183 ../src/win32/systray.cpp:254
+msgid "StarDict - Scanning"
+msgstr "StarDict - Á Scanadh"
+
+#: ../src/docklet.cpp:37 ../src/docklet.cpp:190 ../src/win32/systray.cpp:259
+msgid "StarDict - Stopped"
+msgstr "StarDict - Stoptha"
+
+#: ../src/docklet.cpp:97 ../src/mainwin.cpp:2701
+msgid "_Scan"
+msgstr "_Scan"
+
+#: ../src/docklet.cpp:107 ../src/mainwin.cpp:551
+msgid "_Quit"
+msgstr "_Scoir"
+
+#: ../src/floatwin.cpp:122
+msgid "Query in the main window"
+msgstr "Cuardach sa phríomhfhuinneog"
+
+#: ../src/floatwin.cpp:131
+msgid "Save to file"
+msgstr "Sábháil i gcomhad"
+
+#: ../src/floatwin.cpp:139 ../src/mainwin.cpp:1550
+msgid "Pronounce the word"
+msgstr "Fuaimnigh an focal"
+
+#: ../src/floatwin.cpp:149
+msgid "Stop selection-scanning"
+msgstr "Stad scanadh roghnúcháin"
+
+#: ../src/floatwin.cpp:161
+msgid "Help"
+msgstr "Cabhair"
+
+#: ../src/floatwin.cpp:169 ../src/mainwin.cpp:2734
+#: ../src/win32/systray.cpp:107
+msgid "Quit"
+msgstr "Scoir"
+
+#: ../src/floatwin.cpp:183
+msgid "Lock floating window"
+msgstr "Cuir an fhuinneog shoghluaiste faoi ghlas"
+
+#: ../src/floatwin.cpp:298 ../src/mainwin.cpp:1913 ../src/selection.cpp:194
+#: ../src/stardict.cpp:639 ../src/stardict.cpp:783 ../src/stardict.cpp:944
+#: ../src/stardict.cpp:958 ../src/stardict.cpp:963 ../src/stardict.cpp:968
+#: ../src/stardict.cpp:1401 ../src/stardict.cpp:1524
+#: ../src/win32/clipboard.cpp:117
+msgid "<Not Found!>"
+msgstr "<Gan Aimsiú!>"
+
+#: ../src/floatwin.cpp:380
+msgid "Fuzzy query"
+msgstr "Cuardach doiléir"
+
+#: ../src/floatwin.cpp:386
+msgid "has succeeded.\n"
+msgstr " - d'éirigh leis.\n"
+
+#: ../src/floatwin.cpp:388
+msgid "Found 1 word:\n"
+msgstr "Aimsíodh 1 fhocal:\n"
+
+#: ../src/floatwin.cpp:390
+#, c-format
+msgid "Found %d words:\n"
+msgstr "Aimsíodh %d focal:\n"
+
+#: ../src/floatwin.cpp:853
+msgid "_Copy"
+msgstr "_Cóipeáil"
+
+#: ../src/floatwin.cpp:859
+msgid "_Save"
+msgstr "_Sábháil"
+
+#: ../src/floatwin.cpp:864 ../src/mainwin.cpp:2064
+msgid "_Query"
+msgstr "_Cuardach"
+
+#: ../src/floatwin.cpp:871
+msgid "_Play"
+msgstr "_Seinn"
+
+#: ../src/floatwin.cpp:879
+msgid "_Fuzzy Query"
+msgstr "Cuardach _Doiléir"
+
+#: ../src/mainwin.cpp:90
+msgid "Clear the search box"
+msgstr "Glan an bosca cuardaigh"
+
+#: ../src/mainwin.cpp:117
+msgid "Fuzzy Query"
+msgstr "Cuardach Doiléir"
+
+#: ../src/mainwin.cpp:129
+msgid "Go Back - Right button: history (Alt+Left)"
+msgstr "Ar Ais - Cnaipe ar dheis: stair (Alt+Left)"
+
+#: ../src/mainwin.cpp:144
+msgid "Show the main menu (Alt+M)"
+msgstr "Taispeáin an príomhroghchlár (Alt+M)"
+
+#: ../src/mainwin.cpp:470
+msgid "translator_credits"
+msgstr "creidiúintí_aistritheora"
+
+#: ../src/mainwin.cpp:476
+msgid "StarDict is an international dictionary for GNOME."
+msgstr "Foclóir idirnáisiúnta é StarDict le haghaidh GNOME."
+
+#: ../src/mainwin.cpp:507
+msgid "Pr_eferences"
+msgstr "S_ainroghanna"
+
+#: ../src/mainwin.cpp:520
+msgid "Manage _Plugins"
+msgstr "Bainistigh _Breiseáin"
+
+#: ../src/mainwin.cpp:529
+msgid "_New Version"
+msgstr "Leagan _Nua"
+
+#: ../src/mainwin.cpp:537
+msgid "_Help"
+msgstr "Cab_hair"
+
+#: ../src/mainwin.cpp:543
+msgid "_About"
+msgstr "M_aidir Leis"
+
+#: ../src/mainwin.cpp:1248
+msgid "List"
+msgstr "Liosta"
+
+#: ../src/mainwin.cpp:1259
+msgid "Result"
+msgstr "Toradh"
+
+#: ../src/mainwin.cpp:1269
+msgid "Full-Text Translation"
+msgstr "Aistriúchán Lán-Téacs"
+
+#: ../src/mainwin.cpp:1280
+msgid "Tree"
+msgstr "Crann"
+
+#: ../src/mainwin.cpp:1291
+msgid "Choose dict group"
+msgstr "Roghnaigh grúpa foclóirí"
+
+#: ../src/mainwin.cpp:1304
+msgid "Next word (Alt+Down)"
+msgstr "An chéad fhocal eile (Alt+Down)"
+
+#: ../src/mainwin.cpp:1314
+msgid "Previous word (Alt+Up)"
+msgstr "An focal roimhe seo (Alt+Up)"
+
+#: ../src/mainwin.cpp:1366
+msgid "Enable Net Dict"
+msgstr "Cumasaigh Foclóir Líonra"
+
+#: ../src/mainwin.cpp:1503
+msgid "Show the word list"
+msgstr "Taispeáin an liosta focal"
+
+#: ../src/mainwin.cpp:1518
+msgid "Hide the word list"
+msgstr "Folaigh an liosta focal"
+
+#: ../src/mainwin.cpp:1536
+msgid "Copy"
+msgstr "Cóipeáil"
+
+#: ../src/mainwin.cpp:1564
+msgid "Save to file(Alt+E)"
+msgstr "Sábháil i gcomhad(Alt+E)"
+
+#: ../src/mainwin.cpp:1574
+msgid "Print"
+msgstr "Priontáil"
+
+#: ../src/mainwin.cpp:1589
+msgid "Search in the definition (Ctrl+F)"
+msgstr "Cuardach sa sainmhíniú (Ctrl+F)"
+
+#: ../src/mainwin.cpp:1775
+#, c-format
+msgid ""
+"Warning! No dictionary is loaded.\n"
+"Please go to StarDict's website, download some dictionaries:\n"
+"%s%s%s and put them to %s."
+msgstr ""
+"Rabhadh! Níl aon fhoclóir luchtaithe.\n"
+"Téigh go suíomh Gréasáin StarDict agus íosluchtaigh foclóirí:\n"
+"%s%s%s agus cuir iad i %s."
+
+#: ../src/mainwin.cpp:1798
+msgid ""
+"        Welcome to StarDict!\n"
+"\n"
+"   Press Ctrl+Q to quit. Press Alt+Z to iconify the window or Alt+X to hide "
+"the window.\n"
+"   Press Alt+C or ESC to clear the input entry's text.\n"
+"   Press Space key to move focus to the input entry.\n"
+"   If the query word was not found, you can press Tab key to select the "
+"first word in the word list.\n"
+"   After selected some text, clicking the middle mouse button on the main "
+"window's Definition area or on the notification area icon will look up that "
+"word.\n"
+"   StarDict can match strings against patterns containing '*' (wildcard) and "
+"'?' (joker).\n"
+"   Input a word beginning with '/' to do a Fuzzy query.\n"
+"   When the floating window reports that a word was not found, double "
+"clicking will perform a fuzzy query.\n"
+msgstr ""
+"        Fáilte go dtí StarDict!\n"
+"\n"
+"   Brúigh Ctrl+Q chun scor. Brúigh Alt+Z chun an fhuinneog a íoslaghdú agus "
+"Alt-X chun an fhuinneog a chur i bhfolach.\n"
+"   Brúigh Alt+C nó Esc chun téacs na hiontrála a ghlanadh amach.\n"
+"   Brúigh an spásbharra chun an fócas a chur ar an iontráil.\n"
+"   Murar aimsíodh an focal, is féidir Tab a bhrú chun an chéad fhocal sa "
+"liosta a roghnú.\n"
+"   Tar éis duit roinnt téacs a roghnú, is féidir cuardach a dhéanamh ar an "
+"bhfocal sin trí chliceáil ar an lárchnaipe luiche sa limistéar Sainmhínithe "
+"nó ar dheilbhín an limistéir fógartha.\n"
+"   Is féidir le StarDict teaghráin a chuardach leis na saoróga '*' agus "
+"'?'.\n"
+"   Cuir '/' ag tosach an fhocail chun cuardach doiléir a dhéanamh.\n"
+"   Nuair a deir an fhuinneog shoghluaiste nach n-aimsíodh an focal, is "
+"féidir cuardach doiléir a dhéanamh trí dhéchliceáil.\n"
+
+#: ../src/mainwin.cpp:1815
+msgid ""
+"       Welcome to StarDict\n"
+"StarDict is a Cross-Platform and international dictionary written in Gtk2. "
+"It has powerful features such as \"Glob-style pattern matching,\" \"Scan "
+"selected word,\" \"Fuzzy query,\" etc.\n"
+"\n"
+"       Here is an introduction to using StarDict:\n"
+"\n"
+"       1. Glob-style pattern matching\n"
+"       You can input strings containing '*' (wildcard) and '?' (joker) as "
+"the pattern. '*' matches an arbitrary, possibly empty, string, and '?' "
+"matches an arbitrary character. After pressing Enter, the words that match "
+"this pattern will be shown in the list.\n"
+"       2. Fuzzy query\n"
+"       When you can't remember how to spell a word exactly, you can try "
+"StarDict's Fuzzy query. It uses \"Levenshtein Edit Distance\" to compute the "
+"similarity between two words, and gives the match results which are most "
+"similar to the word that you input. To create a fuzzy query, just input the "
+"word with a beginning \"/\", and then press Enter.\n"
+"       3. Full-text search\n"
+"       Full-text search searchs a word in the data. To create a Full-text "
+"search, just input the word with a beginning \"|\", and then press Enter. "
+"For example, \"|ab cd\" searchs data which contain both \"ab\" and \"cd\". "
+"If the words contain Space character, you can use \"\\ \", such as \"|apple"
+"\\ pie\", other escaping characters are \"\\\\\" for '\\', \"\\t\" for Tab "
+"and \"\\n\" for new line.\n"
+"       4. Special character search\n"
+"       If your words contain special characters, you can use '\\' to escape "
+"it, for example, \"a\\*b\\?\" searchs \"a*b?\", \"\\/abc\" searchs \"/abc"
+"\".\n"
+"       5. Scan selected word\n"
+"       Turn on the check button at the bottom-left corner of the StarDict "
+"window to activate this feature. When this feature is on, StarDict will "
+"automatically look up words, phrases, and Chinese characters in other "
+"applications. Just highlight a word or phrase with your mouse, and a "
+"floating window will pop up showing the definition of the selected word.\n"
+"       6. Dictionary management\n"
+"       Click the \"Manage dictionaries\" button at the bottom-right corner "
+"of the window to access the dictionary management dialog. From here, you can "
+"disable some dictionaries that you don't need, and set the dictionaries' "
+"querying order.\n"
+"\n"
+"\n"
+"       Statement: This program is distributed in the hope that it will be "
+"useful, but WITHOUT ANY WARRANTY; without the warranty that the word "
+"spelling, definition, and phonetic information are correct.\n"
+msgstr ""
+"       Welcome to StarDict\n"
+"StarDict is a Cross-Platform and international dictionary written in Gtk2. "
+"It has powerful features such as \"Glob-style pattern matching,\" \"Scan "
+"selected word,\" \"Fuzzy query,\" etc.\n"
+"\n"
+"       Here is an introduction to using StarDict:\n"
+"\n"
+"       1. Glob-style pattern matching\n"
+"       You can input strings containing '*' (wildcard) and '?' (joker) as "
+"the pattern. '*' matches an arbitrary, possibly empty, string, and '?' "
+"matches an arbitrary character. After pressing Enter, the words that match "
+"this pattern will be shown in the list.\n"
+"       2. Fuzzy query\n"
+"       When you can't remember how to spell a word exactly, you can try "
+"StarDict's Fuzzy query. It uses \"Levenshtein Edit Distance\" to compute the "
+"similarity between two words, and gives the match results which are most "
+"similar to the word that you input. To create a fuzzy query, just input the "
+"word with a beginning \"/\", and then press Enter.\n"
+"       3. Full-text search\n"
+"       Full-text search searchs a word in the data. To create a Full-text "
+"search, just input the word with a beginning \"|\", and then press Enter. "
+"For example, \"|ab cd\" searchs data which contain both \"ab\" and \"cd\". "
+"If the words contain Space character, you can use \"\\ \", such as \"|apple"
+"\\ pie\", other escaping characters are \"\\\\\" for '\\', \"\\t\" for Tab "
+"and \"\\n\" for new line.\n"
+"       4. Special character search\n"
+"       If your words contain special characters, you can use '\\' to escape "
+"it, for example, \"a\\*b\\?\" searchs \"a*b?\", \"\\/abc\" searchs \"/abc"
+"\".\n"
+"       5. Scan selected word\n"
+"       Turn on the check button at the bottom-left corner of the StarDict "
+"window to activate this feature. When this feature is on, StarDict will "
+"automatically look up words, phrases, and Chinese characters in other "
+"applications. Just highlight a word or phrase with your mouse, and a "
+"floating window will pop up showing the definition of the selected word.\n"
+"       6. Dictionary management\n"
+"       Click the \"Manage dictionaries\" button at the bottom-right corner "
+"of the window to access the dictionary management dialog. From here, you can "
+"disable some dictionaries that you don't need, and set the dictionaries' "
+"querying order.\n"
+"\n"
+"\n"
+"       Statement: This program is distributed in the hope that it will be "
+"useful, but WITHOUT ANY WARRANTY; without the warranty that the word "
+"spelling, definition, and phonetic information are correct.\n"
+
+#: ../src/mainwin.cpp:1907 ../src/stardict.cpp:1292
+msgid "Found no words matching this pattern!"
+msgstr "Níor aimsíodh aon fhocal comhoiriúnach!"
+
+#: ../src/mainwin.cpp:1909 ../src/stardict.cpp:1206
+msgid "There are too many spelling errors :-("
+msgstr "An iomarca botún litrithe :-("
+
+#: ../src/mainwin.cpp:1911 ../src/stardict.cpp:1125 ../src/stardict.cpp:1170
+msgid "There are no dictionary's article with such word :-("
+msgstr "Níl alt foclóra ar bith agus focal den chineál sin ann :-("
+
+#: ../src/mainwin.cpp:1996
+#, c-format
+msgid "The text \"%s\" was not found."
+msgstr "Níor aimsíodh téacs \"%s\"."
+
+#: ../src/mainwin.cpp:2056 ../src/mainwin.cpp:2323
+msgid "_Pronounce"
+msgstr "_Fuaimnigh"
+
+#: ../src/mainwin.cpp:2102 ../src/mainwin.cpp:2111
+msgid "Arabic"
+msgstr "Araibis"
+
+#: ../src/mainwin.cpp:2102
+msgid "Chinese"
+msgstr "Sínis"
+
+#: ../src/mainwin.cpp:2102 ../src/mainwin.cpp:2109 ../src/mainwin.cpp:2111
+#: ../src/mainwin.cpp:2132 ../src/mainwin.cpp:2139 ../src/mainwin.cpp:2160
+#: ../src/mainwin.cpp:2167 ../src/mainwin.cpp:2187 ../src/mainwin.cpp:2194
+#: ../src/mainwin.cpp:2215 ../src/mainwin.cpp:2222
+msgid "Chinese (Simplified)"
+msgstr "Sínis (Simplithe)"
+
+#: ../src/mainwin.cpp:2102 ../src/mainwin.cpp:2107 ../src/mainwin.cpp:2111
+#: ../src/mainwin.cpp:2132 ../src/mainwin.cpp:2139 ../src/mainwin.cpp:2160
+#: ../src/mainwin.cpp:2167 ../src/mainwin.cpp:2187 ../src/mainwin.cpp:2194
+#: ../src/mainwin.cpp:2215 ../src/mainwin.cpp:2222
+msgid "Chinese (Traditional)"
+msgstr "Sínis (Traidisiúnta)"
+
+#: ../src/mainwin.cpp:2102 ../src/mainwin.cpp:2103 ../src/mainwin.cpp:2105
+#: ../src/mainwin.cpp:2113 ../src/mainwin.cpp:2115 ../src/mainwin.cpp:2117
+#: ../src/mainwin.cpp:2119 ../src/mainwin.cpp:2121 ../src/mainwin.cpp:2123
+#: ../src/mainwin.cpp:2125 ../src/mainwin.cpp:2127 ../src/mainwin.cpp:2132
+#: ../src/mainwin.cpp:2133 ../src/mainwin.cpp:2135 ../src/mainwin.cpp:2137
+#: ../src/mainwin.cpp:2141 ../src/mainwin.cpp:2143 ../src/mainwin.cpp:2145
+#: ../src/mainwin.cpp:2147 ../src/mainwin.cpp:2149 ../src/mainwin.cpp:2151
+#: ../src/mainwin.cpp:2153 ../src/mainwin.cpp:2155 ../src/mainwin.cpp:2160
+#: ../src/mainwin.cpp:2161 ../src/mainwin.cpp:2163 ../src/mainwin.cpp:2165
+#: ../src/mainwin.cpp:2169 ../src/mainwin.cpp:2171 ../src/mainwin.cpp:2173
+#: ../src/mainwin.cpp:2175 ../src/mainwin.cpp:2177 ../src/mainwin.cpp:2179
+#: ../src/mainwin.cpp:2181 ../src/mainwin.cpp:2183 ../src/mainwin.cpp:2187
+#: ../src/mainwin.cpp:2188 ../src/mainwin.cpp:2190 ../src/mainwin.cpp:2192
+#: ../src/mainwin.cpp:2196 ../src/mainwin.cpp:2198 ../src/mainwin.cpp:2200
+#: ../src/mainwin.cpp:2202 ../src/mainwin.cpp:2204 ../src/mainwin.cpp:2206
+#: ../src/mainwin.cpp:2208 ../src/mainwin.cpp:2210 ../src/mainwin.cpp:2215
+#: ../src/mainwin.cpp:2222
+msgid "English"
+msgstr "Béarla"
+
+#: ../src/mainwin.cpp:2102 ../src/mainwin.cpp:2111 ../src/mainwin.cpp:2115
+#: ../src/mainwin.cpp:2132 ../src/mainwin.cpp:2137 ../src/mainwin.cpp:2139
+#: ../src/mainwin.cpp:2143 ../src/mainwin.cpp:2145 ../src/mainwin.cpp:2147
+#: ../src/mainwin.cpp:2153 ../src/mainwin.cpp:2155 ../src/mainwin.cpp:2160
+#: ../src/mainwin.cpp:2165 ../src/mainwin.cpp:2167 ../src/mainwin.cpp:2171
+#: ../src/mainwin.cpp:2173 ../src/mainwin.cpp:2175 ../src/mainwin.cpp:2181
+#: ../src/mainwin.cpp:2183 ../src/mainwin.cpp:2187 ../src/mainwin.cpp:2192
+#: ../src/mainwin.cpp:2194 ../src/mainwin.cpp:2198 ../src/mainwin.cpp:2202
+#: ../src/mainwin.cpp:2208 ../src/mainwin.cpp:2210
+msgid "French"
+msgstr "Fraincis"
+
+#: ../src/mainwin.cpp:2102 ../src/mainwin.cpp:2111 ../src/mainwin.cpp:2113
+#: ../src/mainwin.cpp:2132 ../src/mainwin.cpp:2139 ../src/mainwin.cpp:2141
+#: ../src/mainwin.cpp:2160 ../src/mainwin.cpp:2167 ../src/mainwin.cpp:2169
+#: ../src/mainwin.cpp:2187 ../src/mainwin.cpp:2194 ../src/mainwin.cpp:2196
+msgid "German"
+msgstr "Gearmáinis"
+
+#: ../src/mainwin.cpp:2102 ../src/mainwin.cpp:2111 ../src/mainwin.cpp:2132
+#: ../src/mainwin.cpp:2139 ../src/mainwin.cpp:2141 ../src/mainwin.cpp:2160
+#: ../src/mainwin.cpp:2167 ../src/mainwin.cpp:2169 ../src/mainwin.cpp:2187
+#: ../src/mainwin.cpp:2194 ../src/mainwin.cpp:2196
+msgid "Italian"
+msgstr "Iodáilis"
+
+#: ../src/mainwin.cpp:2102 ../src/mainwin.cpp:2111 ../src/mainwin.cpp:2132
+#: ../src/mainwin.cpp:2139 ../src/mainwin.cpp:2160 ../src/mainwin.cpp:2167
+#: ../src/mainwin.cpp:2187 ../src/mainwin.cpp:2194 ../src/mainwin.cpp:2215
+#: ../src/mainwin.cpp:2216 ../src/mainwin.cpp:2218 ../src/mainwin.cpp:2220
+#: ../src/mainwin.cpp:2224
+msgid "Japanese"
+msgstr "Seapáinis"
+
+#: ../src/mainwin.cpp:2102 ../src/mainwin.cpp:2111 ../src/mainwin.cpp:2132
+#: ../src/mainwin.cpp:2139 ../src/mainwin.cpp:2160 ../src/mainwin.cpp:2167
+#: ../src/mainwin.cpp:2187 ../src/mainwin.cpp:2194 ../src/mainwin.cpp:2215
+#: ../src/mainwin.cpp:2222
+msgid "Korean"
+msgstr "Cóiréis"
+
+#: ../src/mainwin.cpp:2102 ../src/mainwin.cpp:2111 ../src/mainwin.cpp:2132
+#: ../src/mainwin.cpp:2139 ../src/mainwin.cpp:2141 ../src/mainwin.cpp:2160
+#: ../src/mainwin.cpp:2167 ../src/mainwin.cpp:2169 ../src/mainwin.cpp:2187
+#: ../src/mainwin.cpp:2194 ../src/mainwin.cpp:2196
+msgid "Portuguese"
+msgstr "Portaingéilis"
+
+#: ../src/mainwin.cpp:2102 ../src/mainwin.cpp:2111 ../src/mainwin.cpp:2132
+#: ../src/mainwin.cpp:2139 ../src/mainwin.cpp:2160 ../src/mainwin.cpp:2167
+#: ../src/mainwin.cpp:2187 ../src/mainwin.cpp:2194
+msgid "Russian"
+msgstr "Rúisis"
+
+#: ../src/mainwin.cpp:2102 ../src/mainwin.cpp:2111 ../src/mainwin.cpp:2139
+#: ../src/mainwin.cpp:2141 ../src/mainwin.cpp:2167 ../src/mainwin.cpp:2169
+#: ../src/mainwin.cpp:2194 ../src/mainwin.cpp:2196
+msgid "Spanish"
+msgstr "Spáinnis"
+
+#: ../src/mainwin.cpp:2132 ../src/mainwin.cpp:2139 ../src/mainwin.cpp:2141
+#: ../src/mainwin.cpp:2160 ../src/mainwin.cpp:2167 ../src/mainwin.cpp:2169
+#: ../src/mainwin.cpp:2187 ../src/mainwin.cpp:2194 ../src/mainwin.cpp:2196
+msgid "Dutch"
+msgstr "Ollainnis"
+
+#: ../src/mainwin.cpp:2132 ../src/mainwin.cpp:2139 ../src/mainwin.cpp:2141
+#: ../src/mainwin.cpp:2160 ../src/mainwin.cpp:2167 ../src/mainwin.cpp:2169
+#: ../src/mainwin.cpp:2196
+msgid "Greek"
+msgstr "Gréigis"
+
+#: ../src/mainwin.cpp:2187 ../src/mainwin.cpp:2194
+msgid "Swedish"
+msgstr "Sualainnis"
+
+#: ../src/mainwin.cpp:2246
+msgid "Google Translate"
+msgstr "Aistriúchán Google"
+
+#: ../src/mainwin.cpp:2247
+msgid "Yahoo Translate"
+msgstr "Aistriúchán Yahoo"
+
+#: ../src/mainwin.cpp:2248
+msgid "Altavista Translate"
+msgstr "Aistriúchán Altavista"
+
+#: ../src/mainwin.cpp:2249
+msgid "SystranBox Translate"
+msgstr "Aistriúchán SystranBox"
+
+#: ../src/mainwin.cpp:2250
+msgid "Excite Japan Translate"
+msgstr "Aistriúchán Excite Japan"
+
+#: ../src/mainwin.cpp:2345
+msgid "<b>Full-Text Translation</b>"
+msgstr "<b>Aistriúchán Lán-Téacs</b>"
+
+#: ../src/mainwin.cpp:2376
+msgid "To"
+msgstr "Go"
+
+#: ../src/mainwin.cpp:2409
+msgid "_Translate"
+msgstr "_Aistrigh"
+
+#: ../src/mainwin.cpp:2431
+msgid "Powered by -"
+msgstr "Á Chumhachtú ag -"
+
+#: ../src/mainwin.cpp:2620
+msgid "Please input some words to translate."
+msgstr "Iontráil roinnt focal le haistriú."
+
+#: ../src/mainwin.cpp:2635
+msgid "Connecting..."
+msgstr "Á Nascadh..."
+
+#: ../src/mainwin.cpp:2710
+msgid "Scan the selection"
+msgstr "Scan an roghnúchán"
+
+#: ../src/mainwin.cpp:2724
+msgid "Show info"
+msgstr "Taispeáin eolas"
+
+#: ../src/mainwin.cpp:2756 ../src/prefsdlg.cpp:1791
+msgid "Preferences"
+msgstr "Sainroghanna"
+
+#: ../src/mainwin.cpp:2766
+msgid "Manage dictionaries"
+msgstr "Bainistigh foclóirí"
+
+#: ../src/mainwin.cpp:2776
+msgid "Go to the StarDict website"
+msgstr "Téigh go suíomh Gréasáin StarDict"
+
+#: ../src/mainwin.cpp:2788
+msgid "Search an Internet dictionary - Right button: website list"
+msgstr "Cuardaigh foclóir Idirlín - Cnaipe ar dheis: liosta de shuímh"
+
+#: ../src/pluginmanagedlg.cpp:119
+#, c-format
+msgid ""
+"%s\n"
+"\n"
+"<b>Author:</b>\t%s\n"
+"<b>Website:</b>\t%s\n"
+"<b>Filename:</b>\t%s"
+msgstr ""
+"%s\n"
+"\n"
+"<b>Údar:</b>\t%s\n"
+"<b>Suíomh Gréasáin:</b>\t%s\n"
+"<b>Ainm Comhaid:</b>\t%s"
+
+#: ../src/pluginmanagedlg.cpp:179
+msgid "<b>Virtual Dictionary</b>"
+msgstr "<b>Foclóir Fíorúil</b>"
+
+#: ../src/pluginmanagedlg.cpp:184
+msgid "<b>TTS Engine</b>"
+msgstr "<b>Inneall TTS</b>"
+
+#: ../src/pluginmanagedlg.cpp:189
+msgid "<b>Data Parse Engine</b>"
+msgstr "<b>Inneall Parsála Sonraí</b>"
+
+#: ../src/pluginmanagedlg.cpp:194
+msgid "<b>Misc</b>"
+msgstr "<b>Éagsúil</b>"
+
+#: ../src/pluginmanagedlg.cpp:369
+msgid "Plug-in Name"
+msgstr "Ainm an Bhreiseáin"
+
+#: ../src/pluginmanagedlg.cpp:391
+msgid "Configure Pl_ug-in"
+msgstr "C_umraigh an Breiseán"
+
+#: ../src/pluginmanagedlg.cpp:401
+msgid "<b>Plug-in Details</b>"
+msgstr "<b>Mionsonraí an Bhreiseáin</b>"
+
+#: ../src/pluginmanagedlg.cpp:410
+msgid "Manage Plugins"
+msgstr "Bainistigh Breiseáin"
+
+#: ../src/prefsdlg.cpp:75 ../src/prefsdlg.cpp:367
+msgid "Scan Selection"
+msgstr "Scan an Roghnúchán"
+
+#: ../src/prefsdlg.cpp:76 ../src/prefsdlg.cpp:484
+msgid "Font"
+msgstr "Clófhoireann"
+
+#: ../src/prefsdlg.cpp:77 ../src/prefsdlg.cpp:565
+msgid "Cache"
+msgstr "Taisce"
+
+#: ../src/prefsdlg.cpp:78 ../src/prefsdlg.cpp:656
+msgid "Export"
+msgstr "Easpórtáil"
+
+#: ../src/prefsdlg.cpp:79 ../src/prefsdlg.cpp:725
+msgid "Sound"
+msgstr "Fuaim"
+
+#: ../src/prefsdlg.cpp:80 ../src/prefsdlg.cpp:692
+msgid "Article rendering"
+msgstr "Rindreáil ailt"
+
+#: ../src/prefsdlg.cpp:85 ../src/prefsdlg.cpp:987
+msgid "Net Dict"
+msgstr "Foclóir Líonra"
+
+#: ../src/prefsdlg.cpp:91 ../src/prefsdlg.cpp:1062
+msgid "Input"
+msgstr "Ionchur"
+
+#: ../src/prefsdlg.cpp:92 ../src/prefsdlg.cpp:100 ../src/prefsdlg.cpp:107
+#: ../src/prefsdlg.cpp:1137 ../src/prefsdlg.cpp:1552 ../src/prefsdlg.cpp:1583
+msgid "Options"
+msgstr "Roghanna"
+
+#: ../src/prefsdlg.cpp:93 ../src/prefsdlg.cpp:1426
+msgid "Search website"
+msgstr "Cuardaigh suíomh Gréasáin"
+
+#: ../src/prefsdlg.cpp:108 ../src/prefsdlg.cpp:1643
+msgid "Settings"
+msgstr "Socruithe"
+
+#: ../src/prefsdlg.cpp:115 ../src/stardict.cpp:2365
+msgid "Dictionary"
+msgstr "Foclóir"
+
+#: ../src/prefsdlg.cpp:117
+msgid "Network"
+msgstr "Líonra"
+
+#: ../src/prefsdlg.cpp:119
+msgid "Main window"
+msgstr "Príomhfhuinneog"
+
+#: ../src/prefsdlg.cpp:121
+msgid "Notification area icon"
+msgstr "Deilbhín an limistéir fógartha"
+
+#: ../src/prefsdlg.cpp:123
+msgid "Floating window"
+msgstr "Fuinneog shoghluaiste"
+
+#: ../src/prefsdlg.cpp:260
+msgid "Categories"
+msgstr "Catagóirí"
+
+#: ../src/prefsdlg.cpp:370
+msgid "_Only scan while the modifier key is being pressed."
+msgstr ""
+"_Scan nuair atá an eochair mhionathraithe á brú agus sa chás sin amháin."
+
+#: ../src/prefsdlg.cpp:386
+msgid "H_ide floating window when modifier key released."
+msgstr ""
+"_Folaigh an fhuinneog shoghluaiste nuair a scaoiltear an eochair "
+"mhionathraithe."
+
+#: ../src/prefsdlg.cpp:396
+msgid "Scan modifier _key:"
+msgstr "_Eochair mhionathraithe le haghaidh scanta:"
+
+#: ../src/prefsdlg.cpp:417
+msgid "_Scan clipboard."
+msgstr "_Scan an ghearrthaisce."
+
+#: ../src/prefsdlg.cpp:423
+msgid "_Use scan hotkey: Ctrl+Alt+F1."
+msgstr "Ú_sáid eochair aicearra scanta: Ctrl+Alt+F1."
+
+#: ../src/prefsdlg.cpp:461
+msgid "Choose dictionary font"
+msgstr "Roghnaigh clófhoireann foclóra"
+
+#: ../src/prefsdlg.cpp:464 ../src/prefsdlg.cpp:509
+msgid "Choose"
+msgstr "Roghnaigh"
+
+#: ../src/prefsdlg.cpp:466
+msgid "Dictionary font"
+msgstr "Clófhoireann foclóra"
+
+#: ../src/prefsdlg.cpp:487
+msgid "_Use custom font."
+msgstr "Ú_sáid clófhoireann shaincheaptha."
+
+#: ../src/prefsdlg.cpp:499
+msgid "Dictionary _font:"
+msgstr "Clófhoireann _fhoclóra:"
+
+#: ../src/prefsdlg.cpp:569
+msgid "Create c_ache files to speed up loading."
+msgstr "Cruth_aigh comhaid taisce chun an luchtú a bhrostú."
+
+#: ../src/prefsdlg.cpp:574
+msgid "_Sort word list by collate function."
+msgstr "_Sórtáil liosta focal de réir feidhme comhordaithe."
+
+#: ../src/prefsdlg.cpp:583
+msgid "\tCollate _function:"
+msgstr "\t_Feidhm chomhordaithe:"
+
+#: ../src/prefsdlg.cpp:615
+msgid ""
+"After enabled collation, when load the dictionaries for the first time, it "
+"will take some time for sorting, please wait for a moment."
+msgstr ""
+"Tar éis duit comhordú a chumasú, nuair a luchtaítear na foclóirí den chéad "
+"uair, beidh sé go mall agus á shórtáil.  Bíodh foighne agat le do thoil."
+
+#: ../src/prefsdlg.cpp:621
+msgid "C_lean all cache files"
+msgstr "G_lan gach comhad taisce"
+
+#: ../src/prefsdlg.cpp:638
+msgid "Open file..."
+msgstr "Oscail comhad..."
+
+#: ../src/prefsdlg.cpp:661
+msgid "_Only export word."
+msgstr "_Easpórtáil an focal amháin."
+
+#: ../src/prefsdlg.cpp:668
+msgid "File name:"
+msgstr "Ainm ar an gcomhad:"
+
+#: ../src/prefsdlg.cpp:677
+msgid "_Browse..."
+msgstr "_Brabhsáil..."
+
+#: ../src/prefsdlg.cpp:698
+msgid "_Highlight search term"
+msgstr "_Aibhsigh an téarma cuardaigh"
+
+#: ../src/prefsdlg.cpp:730
+msgid "_Enable sound event."
+msgstr "_Cumasaigh teagmhas fuaime."
+
+#: ../src/prefsdlg.cpp:738
+msgid "Command for playing wav files:"
+msgstr "Ordú chun comhaid .wav a sheinm:"
+
+#: ../src/prefsdlg.cpp:751
+msgid "RealPeopleTTS search path:"
+msgstr "Conair chuardaigh RealPeopleTTS:"
+
+#: ../src/prefsdlg.cpp:769
+msgid "_Use TTS program."
+msgstr "Ú_sáid feidhmchlár TTS."
+
+#: ../src/prefsdlg.cpp:777
+msgid "Commandline:"
+msgstr "Líne na n-orduithe:"
+
+#: ../src/prefsdlg.cpp:806
+msgid "Account"
+msgstr "Cuntas"
+
+#: ../src/prefsdlg.cpp:817 ../src/prefsdlg.cpp:914
+msgid "_User Name:"
+msgstr "_Ainm Úsáideora:"
+
+#: ../src/prefsdlg.cpp:823 ../src/prefsdlg.cpp:920
+msgid "_Password:"
+msgstr "_Focal Faire:"
+
+#: ../src/prefsdlg.cpp:846 ../src/prefsdlg.cpp:945
+msgid "Please input the password."
+msgstr "Iontráil an focal faire."
+
+#: ../src/prefsdlg.cpp:903
+msgid "Register"
+msgstr "Cláraigh"
+
+#: ../src/prefsdlg.cpp:927
+msgid "_Email:"
+msgstr "_Ríomhphost:"
+
+#: ../src/prefsdlg.cpp:943
+msgid "Please input the user name."
+msgstr "Iontráil ainm an úsáideora."
+
+#: ../src/prefsdlg.cpp:947
+msgid "Please input the email."
+msgstr "Iontráil an seoladh ríomhphoist."
+
+#: ../src/prefsdlg.cpp:949
+msgid "Please input a valid email."
+msgstr "Iontráil seoladh bailí ríomhphoist."
+
+#: ../src/prefsdlg.cpp:993
+msgid "Enable _network dictionaries."
+msgstr "Cumasaigh foclóirí lío_nra."
+
+#: ../src/prefsdlg.cpp:1005
+msgid "StarDict server:"
+msgstr "Freastalaí StarDict:"
+
+#: ../src/prefsdlg.cpp:1014
+msgid "Port:"
+msgstr "Port:"
+
+#: ../src/prefsdlg.cpp:1023
+msgid "Account:"
+msgstr "Cuntas:"
+
+#: ../src/prefsdlg.cpp:1034
+msgid "_Register an account"
+msgstr "_Cláraigh cuntas"
+
+#: ../src/prefsdlg.cpp:1069
+msgid "_Search while typing."
+msgstr "_Cuardach beo."
+
+#: ../src/prefsdlg.cpp:1078
+msgid "Word change _timeout:"
+msgstr "Seal fanachta le haghaidh a_thraithe focal:"
+
+#: ../src/prefsdlg.cpp:1087
+msgid "(default:300)"
+msgstr "(réamhshocrú:300)"
+
+#: ../src/prefsdlg.cpp:1089
+msgid "Show the _first word when not found."
+msgstr "Taispeáin an chéad _fhocal mura n-aimsítear aon rud."
+
+#: ../src/prefsdlg.cpp:1143
+msgid "_Auto run StarDict after boot."
+msgstr "_Rith StarDict go huathoibríoch nuair a thosaítear an ríomhaire."
+
+#: ../src/prefsdlg.cpp:1173
+msgid "Hide main window when _starting StarDict."
+msgstr "Folaigh an phríomhfhuinneog agus _StarDict á thosú."
+
+#: ../src/prefsdlg.cpp:1183
+msgid "_Use open main window hotkey: Ctrl+Alt+Z."
+msgstr "Ú_sáid eochair aicearra \"Oscail an Phríomhfhuinneog\": Ctrl+Alt+Z."
+
+#: ../src/prefsdlg.cpp:1274 ../src/prefsdlg.cpp:1477
+msgid "Website Name"
+msgstr "Ainm an tSuímh Gréasáin"
+
+#: ../src/prefsdlg.cpp:1286 ../src/prefsdlg.cpp:1485
+msgid "Website link"
+msgstr "Nasc le suíomh Gréasáin"
+
+#: ../src/prefsdlg.cpp:1297 ../src/prefsdlg.cpp:1493
+msgid "Website search link"
+msgstr "Seoladh cuardaigh an tsuímh Gréasáin"
+
+#: ../src/prefsdlg.cpp:1318
+msgid "Please input the website name."
+msgstr "Iontráil ainm an tsuímh Gréasáin."
+
+#: ../src/prefsdlg.cpp:1320
+msgid "Please input the website link."
+msgstr "Iontráil seoladh an tsuímh Gréasáin."
+
+#: ../src/prefsdlg.cpp:1322
+msgid "Please input the website search link."
+msgstr "Iontráil seoladh cuardaigh an tsuímh Gréasáin."
+
+#: ../src/prefsdlg.cpp:1324
+#, c-format
+msgid ""
+"The website search link should contains a \"%%s\" string for querying a word."
+msgstr ""
+"Ba chóir \"%%s\" a bheith i seoladh cuardaigh an tsuímh Gréasáin chun "
+"cuardach a dhéanamh ar fhocal."
+
+#: ../src/prefsdlg.cpp:1403
+#, c-format
+msgid ""
+"The website search link should contains a \"%%s\" string for quering word."
+msgstr ""
+"Ba chóir \"%%s\" a bheith i seoladh cuardaigh an tsuímh Gréasáin chun "
+"cuardach a dhéanamh ar fhocal."
+
+#: ../src/prefsdlg.cpp:1558
+msgid ""
+"_Query in the floating window when middle mouse\n"
+"button is clicked."
+msgstr ""
+"_Cuardaigh san fhuinneog shoghluaiste nuair a chliceáiltear\n"
+"an cnaipe luiche sa lár."
+
+#: ../src/prefsdlg.cpp:1586
+msgid "_Pronounce the word when it pops up."
+msgstr "_Fuaimnigh an focal nuair a thaispeántar é."
+
+#: ../src/prefsdlg.cpp:1595
+msgid "_Show floating window if word not found."
+msgstr "_Taispeáin an fhuinneog shoghluaiste mura n-aimsítear an focal."
+
+#: ../src/prefsdlg.cpp:1660
+msgid "Max window _width:"
+msgstr "Uasleithead na _fuinneoige:"
+
+#: ../src/prefsdlg.cpp:1670
+msgid "(default:320)"
+msgstr "(réamhshocrú:320)"
+
+#: ../src/prefsdlg.cpp:1674
+msgid "Max window hei_ght:"
+msgstr "Uasairde na fuinneoi_ge:"
+
+#: ../src/prefsdlg.cpp:1682
+msgid "(default:240)"
+msgstr "(réamhshocrú:240)"
+
+#: ../src/prefsdlg.cpp:1687
+msgid "_Use custom background color:"
+msgstr "Ú_sáid dath saincheaptha cúlra:"
+
+#: ../src/prefsdlg.cpp:1769
+msgid "Cat_egories:"
+msgstr "Cat_agóirí:"
+
+#: ../src/progresswin.cpp:35 ../src/progresswin.cpp:39 ../src/splash.cpp:70
+msgid "Loading"
+msgstr "Á Luchtú"
+
+#: ../src/readword.cpp:148
+msgid "Real People TTS"
+msgstr "Real People TTS"
+
+#: ../src/readword.cpp:155
+msgid "Command TTS"
+msgstr "Ordú TTS"
+
+#: ../src/stardict.cpp:94
+msgid "Turn on all debugging messages"
+msgstr "Gníomhachtaigh gach teachtaireacht dífhabhtaithe"
+
+#: ../src/stardict.cpp:96
+msgid "Hide the main window, do not show splash screen"
+msgstr "Folaigh an phríomhfhuinneog; ná taispeáin splancscáileán"
+
+#: ../src/stardict.cpp:99
+msgid "Start a new instance of stardict"
+msgstr "Tosaigh próiseas nua stardict"
+
+#: ../src/stardict.cpp:103
+msgid "Quit an existing instance of stardict"
+msgstr "Scoir próiseas stardict atá ag rith faoi láthair"
+
+#: ../src/stardict.cpp:1033
+msgid "Full-text Search"
+msgstr "Cuardach Lántéacs"
+
+#: ../src/stardict.cpp:1060
+msgid "Search"
+msgstr "Cuardaigh"
+
+#: ../src/stardict.cpp:1145 ../src/stardict.cpp:1501
+msgid "Full-text search..."
+msgstr "Cuardach lántéacs..."
+
+#: ../src/stardict.cpp:1265
+msgid "Fuzzy query failed, too :-("
+msgstr "Theip ar an gcuardach doiléir freisin :-("
+
+#: ../src/stardict.cpp:1493
+msgid "Press Enter to list the words that match the pattern."
+msgstr "Brúigh \"Enter\" chun liosta na bhfocal comhoiriúnach a thaispeáint."
+
+#: ../src/stardict.cpp:1497
+msgid "Fuzzy query..."
+msgstr "Cuardach doiléir..."
+
+#: ../src/stardict.cpp:1748 ../src/stardict.cpp:1853
+msgid "Not found!\n"
+msgstr "Gan Aimsiú!\n"
+
+#: ../src/stardict.cpp:1849
+msgid "Convert error!\n"
+msgstr "Earráid tiontaithe!\n"
+
+#: ../src/stardict.cpp:2197
+msgid "StarDict is already running. Using the running process."
+msgstr "Tá StarDict ag rith cheana. Úsáidfear an próiseas atá ann."
+
+#: ../src/stardict.cpp:2330
+msgid "- Lookup words"
+msgstr "- Déan cuardach ar fhocail"
+
+#: ../src/stardict.cpp:2335
+#, c-format
+msgid "Options parsing failed: %s\n"
+msgstr "Níorbh fhéidir na roghanna a pharsáil: %s\n"
+
+#: ../src/utils.cpp:124
+#, c-format
+msgid "Can not load image. %s"
+msgstr "Ní féidir an íomhá a luchtú. %s"
+
+#: ../src/lib/stardict_client.cpp:892
+#, c-format
+msgid "Authentication denied: %s"
+msgstr "Diúltaíodh don fhíordheimhniú: %s"
+
+#: ../src/lib/stardict_client.cpp:905
+#, c-format
+msgid "Register failed: %s"
+msgstr "Theip ar chlárú: %s"
+
+#: ../src/lib/stardict_client.cpp:910
+msgid "Register success!"
+msgstr "D'éirigh leis an gclárú!"
+
+#: ../src/lib/stardict_client.cpp:945
+msgid ""
+"You haven't setup the account. Please open the \"Net Dict\" page in the "
+"Preferences dialog and register an account first."
+msgstr ""
+"Níl an cuntas socraithe agat. Oscail an leathanach \"Foclóir Líonra\" sa dialóg \"Sainroghanna\" agus cláraigh cuntas ar dtús."
+
+#: ../src/lib/stardict_client.cpp:1065
+msgid ""
+"You haven't choose any dictionaries, please choose some by click \"Dict "
+"Manage\"->\"Network dictionaries\"->\"Add\"."
+msgstr ""
+"Níl aon fhoclóirí roghnaithe agat.  Roghnaigh foclóirí trí chliceáil \"Bainistigh Foclóir\"->\"Foclóirí líonra\"->\"Cuir leis\"."
+
+#: ../src/lib/stddict.cpp:642
+msgid "Sorting, please wait..."
+msgstr "Á shórtáil, fan go fóill..."
+
+#: ../src/win32/systray.cpp:103
+msgid "Scan"
+msgstr "Scan"
+
+#: ../stardict-plugins/stardict-advertisement-plugin/advertisement.cpp:228
+#: ../stardict-plugins/stardict-advertisement-plugin/advertisement.cpp:243
+msgid "User Dict"
+msgstr "Foclóir an úsáideora"
+
+#: ../stardict-plugins/stardict-advertisement-plugin/advertisement.cpp:228
+msgid "User virtual dictionary."
+msgstr "Foclóir fíorúil an úsáideora."
+
+#: ../stardict-plugins/stardict-advertisement-plugin/advertisement.cpp:228
+msgid "Show the user dictionary."
+msgstr "Taispeáin foclóir an úsáideora."
+
+#: ../stardict-plugins/stardict-advertisement-plugin/advertisement.cpp:249
+msgid "User dict plug-in loaded.\n"
+msgstr "Luchtaíodh breiseán fhoclóir an úsáideora.\n"
+
+#: ../stardict-plugins/stardict-espeak-tts-plugin/stardict_espeak.cpp:29
+msgid "Espeak TTS configure"
+msgstr "Cumraíocht Espeak TTS"
+
+#: ../stardict-plugins/stardict-espeak-tts-plugin/stardict_espeak.cpp:31
+#: ../stardict-plugins/stardict-festival-tts-plugin/stardict_festival.cpp:31
+msgid "Voice type:"
+msgstr "Cineál gutha:"
+
+#: ../stardict-plugins/stardict-espeak-tts-plugin/stardict_espeak.cpp:34
+#: ../stardict-plugins/stardict-festival-tts-plugin/stardict_festival.cpp:34
+msgid "Default"
+msgstr "Réamhshocrú"
+
+#: ../stardict-plugins/stardict-espeak-tts-plugin/stardict_espeak.cpp:77
+msgid "Espeak"
+msgstr "Espeak"
+
+#: ../stardict-plugins/stardict-espeak-tts-plugin/stardict_espeak.cpp:77
+msgid "Espeak TTS."
+msgstr "Espeak TTS."
+
+#: ../stardict-plugins/stardict-espeak-tts-plugin/stardict_espeak.cpp:77
+msgid "Pronounce words by Espeak TTS engine."
+msgstr "Fuaimnigh focail le hinneall Espeak TTS."
+
+#: ../stardict-plugins/stardict-espeak-tts-plugin/stardict_espeak.cpp:106
+msgid "Espeak TTS"
+msgstr "Espeak TTS"
+
+#: ../stardict-plugins/stardict-espeak-tts-plugin/stardict_espeak.cpp:107
+msgid "Espeak plug-in loaded.\n"
+msgstr "Luchtaídh breiseán Espeak.\n"
+
+#: ../stardict-plugins/stardict-festival-tts-plugin/stardict_festival.cpp:29
+msgid "Festival TTS configure"
+msgstr "Cumraíocht Festival TTS"
+
+#: ../stardict-plugins/stardict-festival-tts-plugin/stardict_festival.cpp:98
+msgid "Festival"
+msgstr "Festival"
+
+#: ../stardict-plugins/stardict-festival-tts-plugin/stardict_festival.cpp:98
+msgid "Festival TTS."
+msgstr "Festival TTS."
+
+#: ../stardict-plugins/stardict-festival-tts-plugin/stardict_festival.cpp:98
+msgid "Pronounce words by Festival TTS engine."
+msgstr "Fuaimnigh focail le hinneall Festival TTS."
+
+#: ../stardict-plugins/stardict-festival-tts-plugin/stardict_festival.cpp:129
+msgid "Festival TTS"
+msgstr "Festival TTS"
+
+#: ../stardict-plugins/stardict-festival-tts-plugin/stardict_festival.cpp:130
+msgid "Festival plug-in loaded.\n"
+msgstr "Luchtaídh breiseán Festival.\n"
+
+#: ../stardict-plugins/stardict-gucharmap-plugin/stardict_gucharmap.cpp:215
+msgid "[not a printable character]"
+msgstr "[ní carachtar inphriontáilte é seo]"
+
+#: ../stardict-plugins/stardict-gucharmap-plugin/stardict_gucharmap.cpp:232
+msgid "General Character Properties"
+msgstr "Airíonna Ginearálta Carachtair"
+
+#. character category
+#: ../stardict-plugins/stardict-gucharmap-plugin/stardict_gucharmap.cpp:235
+msgid "Unicode category:"
+msgstr "Catagóir Unicode:"
+
+#: ../stardict-plugins/stardict-gucharmap-plugin/stardict_gucharmap.cpp:241
+msgid "Canonical decomposition:"
+msgstr "Scaradh canónta:"
+
+#: ../stardict-plugins/stardict-gucharmap-plugin/stardict_gucharmap.cpp:254
+msgid "Various Useful Representations"
+msgstr "Léirithe Éagsúla Úsáideacha"
+
+#: ../stardict-plugins/stardict-gucharmap-plugin/stardict_gucharmap.cpp:267
+msgid "UTF-8:"
+msgstr "UTF-8:"
+
+#: ../stardict-plugins/stardict-gucharmap-plugin/stardict_gucharmap.cpp:274
+msgid "UTF-16:"
+msgstr "UTF-16:"
+
+#: ../stardict-plugins/stardict-gucharmap-plugin/stardict_gucharmap.cpp:282
+msgid "C octal escaped UTF-8:"
+msgstr "UTF-8 mar charachtair ochtnártha C:"
+
+#: ../stardict-plugins/stardict-gucharmap-plugin/stardict_gucharmap.cpp:290
+msgid "XML decimal entity:"
+msgstr "Aonán deachúlach XML:"
+
+#: ../stardict-plugins/stardict-gucharmap-plugin/stardict_gucharmap.cpp:293
+msgid "XML hexadecimal entity:"
+msgstr "Aonán heicsidheachúlach XML:"
+
+#: ../stardict-plugins/stardict-gucharmap-plugin/stardict_gucharmap.cpp:304
+msgid "Alias names:"
+msgstr "Ailiasanna:"
+
+#: ../stardict-plugins/stardict-gucharmap-plugin/stardict_gucharmap.cpp:310
+msgid "Notes:"
+msgstr "Nótaí:"
+
+#: ../stardict-plugins/stardict-gucharmap-plugin/stardict_gucharmap.cpp:317
+msgid "See also:"
+msgstr "Féach freisin:"
+
+#: ../stardict-plugins/stardict-gucharmap-plugin/stardict_gucharmap.cpp:323
+msgid "Approximate equivalents:"
+msgstr "Garchoibhéisí:"
+
+#: ../stardict-plugins/stardict-gucharmap-plugin/stardict_gucharmap.cpp:329
+msgid "Equivalents:"
+msgstr "Coibhéisí:"
+
+#: ../stardict-plugins/stardict-gucharmap-plugin/stardict_gucharmap.cpp:334
+msgid "Annotations and Cross References"
+msgstr "Anótálacha agus Crostagairtí"
+
+#: ../stardict-plugins/stardict-gucharmap-plugin/stardict_gucharmap.cpp:341
+msgid "Definition in English:"
+msgstr "Sainmhíniú as Béarla:"
+
+#: ../stardict-plugins/stardict-gucharmap-plugin/stardict_gucharmap.cpp:344
+msgid "Mandarin Pronunciation:"
+msgstr "Fuaimniú Mandairínise:"
+
+#: ../stardict-plugins/stardict-gucharmap-plugin/stardict_gucharmap.cpp:347
+msgid "Cantonese Pronunciation:"
+msgstr "Fuaimniú Cantainise:"
+
+#: ../stardict-plugins/stardict-gucharmap-plugin/stardict_gucharmap.cpp:350
+msgid "Japanese On Pronunciation:"
+msgstr "Fuaimniú Seapáinise \"On\":"
+
+#: ../stardict-plugins/stardict-gucharmap-plugin/stardict_gucharmap.cpp:353
+msgid "Japanese Kun Pronunciation:"
+msgstr "Fuaimniú Seapáinise \"Kun\":"
+
+#: ../stardict-plugins/stardict-gucharmap-plugin/stardict_gucharmap.cpp:356
+msgid "Tang Pronunciation:"
+msgstr "Fuaimniú Tang:"
+
+#: ../stardict-plugins/stardict-gucharmap-plugin/stardict_gucharmap.cpp:359
+msgid "Korean Pronunciation:"
+msgstr "Fuaimniú Cóiréise:"
+
+#: ../stardict-plugins/stardict-gucharmap-plugin/stardict_gucharmap.cpp:362
+msgid "CJK Ideograph Information"
+msgstr "Eolas Idéagraf CJK"
+
+#: ../stardict-plugins/stardict-gucharmap-plugin/stardict_gucharmap.cpp:394
+#: ../stardict-plugins/stardict-gucharmap-plugin/stardict_gucharmap.cpp:407
+msgid "Gucharmap"
+msgstr "Gucharmap"
+
+#: ../stardict-plugins/stardict-gucharmap-plugin/stardict_gucharmap.cpp:394
+msgid "Gucharmap virtual dictionary."
+msgstr "Foclóir fíorúil Gucharmap."
+
+#: ../stardict-plugins/stardict-gucharmap-plugin/stardict_gucharmap.cpp:394
+msgid "Show the information of unicode characters."
+msgstr "Taispeáin eolas a bhaineann le carachtair Unicode."
+
+#: ../stardict-plugins/stardict-gucharmap-plugin/stardict_gucharmap.cpp:408
+msgid "Gucharmap plug-in loaded.\n"
+msgstr "Luchtaíodh breiseán Gucharmap.\n"
+
+#: ../stardict-plugins/stardict-html-parsedata-plugin/stardict_html_parsedata.cpp:440
+msgid "HTML data parse"
+msgstr "Parsáil sonraí HTML"
+
+#: ../stardict-plugins/stardict-html-parsedata-plugin/stardict_html_parsedata.cpp:440
+msgid "HTML data parse engine."
+msgstr "Inneall parsála sonraí HTML."
+
+#: ../stardict-plugins/stardict-html-parsedata-plugin/stardict_html_parsedata.cpp:440
+msgid "Parse the HTML data."
+msgstr "Parsáil na sonraí HTML."
+
+#: ../stardict-plugins/stardict-html-parsedata-plugin/stardict_html_parsedata.cpp:452
+msgid "HTML data parse plug-in loaded.\n"
+msgstr "Luchtaíodh inneall parsála sonraí HTML.\n"
+
+#: ../stardict-plugins/stardict-man-plugin/stardict_man.cpp:153
+msgid "Man configure"
+msgstr "Cumraíocht \"Man\""
+
+#: ../stardict-plugins/stardict-man-plugin/stardict_man.cpp:155
+msgid "_Need \"man \" prefix for the input words."
+msgstr "_Réimír \"man\" de dhíth ar na focail ionchurtha."
+
+#: ../stardict-plugins/stardict-man-plugin/stardict_man.cpp:184
+#: ../stardict-plugins/stardict-man-plugin/stardict_man.cpp:197
+msgid "Man"
+msgstr "Man"
+
+#: ../stardict-plugins/stardict-man-plugin/stardict_man.cpp:184
+msgid "Man virtual dictionary."
+msgstr "Foclóir fíorúil \"man\"."
+
+#: ../stardict-plugins/stardict-man-plugin/stardict_man.cpp:184
+msgid "Show the man pages."
+msgstr "Taispeáin na leathanaigh \"man\"."
+
+#: ../stardict-plugins/stardict-man-plugin/stardict_man.cpp:211
+msgid "Man plug-in loaded.\n"
+msgstr "Luchtaíodh breiseán \"man\".\n"
+
+#: ../stardict-plugins/stardict-powerword-parsedata-plugin/stardict_powerword_parsedata.cpp:458
+msgid "PowerWord data parse"
+msgstr "Parsáil sonraí PowerWord"
+
+#: ../stardict-plugins/stardict-powerword-parsedata-plugin/stardict_powerword_parsedata.cpp:458
+msgid "PowerWord data parse engine."
+msgstr "Inneall parsála sonraí PowerWord."
+
+#: ../stardict-plugins/stardict-powerword-parsedata-plugin/stardict_powerword_parsedata.cpp:458
+msgid "Parse the PowerWord data."
+msgstr "Parsáil na sonraí PowerWord."
+
+#: ../stardict-plugins/stardict-powerword-parsedata-plugin/stardict_powerword_parsedata.cpp:470
+msgid "PowerWord data parse plug-in loaded.\n"
+msgstr "Luchtaíodh inneall parsála sonraí PowerWord.\n"
+
+# english?
+#: ../stardict-plugins/stardict-spell-plugin/stardict_spell.cpp:254
+#, c-format
+msgid "Warning: %s language request spell dict failed!\n"
+msgstr "Rabhadh: theip ar iarratas ar fhoclóir litrithe %s!\n"
+
+#: ../stardict-plugins/stardict-spell-plugin/stardict_spell.cpp:260
+#: ../stardict-plugins/stardict-spell-plugin/stardict_spell.cpp:303
+msgid "Error, no spell dictionary available!\n"
+msgstr "Earráid, níl aon fháil ar fhoclóir litrithe!\n"
+
+#: ../stardict-plugins/stardict-spell-plugin/stardict_spell.cpp:318
+msgid "Spell check configure"
+msgstr "Cumraíocht seiceála litrithe"
+
+#: ../stardict-plugins/stardict-spell-plugin/stardict_spell.cpp:320
+msgid "_Use custom languages."
+msgstr "Ú_sáid teangacha saincheaptha."
+
+#: ../stardict-plugins/stardict-spell-plugin/stardict_spell.cpp:323
+msgid "For example: \"en_US de\""
+msgstr "Mar shampla: \"ga gd gv\""
+
+#: ../stardict-plugins/stardict-spell-plugin/stardict_spell.cpp:329
+msgid "Custom languages:"
+msgstr "Teangacha saincheaptha:"
+
+#: ../stardict-plugins/stardict-spell-plugin/stardict_spell.cpp:379
+msgid "Spell Check"
+msgstr "Seiceáil an Litriú"
+
+#: ../stardict-plugins/stardict-spell-plugin/stardict_spell.cpp:379
+msgid "Spell check virtual dictionary."
+msgstr "Foclóir fíorúil litrithe."
+
+#: ../stardict-plugins/stardict-spell-plugin/stardict_spell.cpp:379
+msgid "Spell check the input words and show the correct suggestion."
+msgstr "Seiceáil litriú na bhfocal ionchurtha agus taispeáin moltaí nuair atá siad mílitrithe."
+
+#: ../stardict-plugins/stardict-spell-plugin/stardict_spell.cpp:402
+msgid "Spell Suggestion"
+msgstr "Moladh Litrithe"
+
+#: ../stardict-plugins/stardict-spell-plugin/stardict_spell.cpp:432
+msgid "Spell plug-in loaded.\n"
+msgstr "Luchtaíodh an breiseán litrithe.\n"
+
+#: ../stardict-plugins/stardict-update-info-plugin/stardict_update_info.cpp:35
+msgid "You are using an old version of StarDict!"
+msgstr "Tá tú ag úsáid seanleagan de StarDict!"
+
+#: ../stardict-plugins/stardict-update-info-plugin/stardict_update_info.cpp:37
+msgid "You are using the newest version of StarDict!"
+msgstr "Tá tú ag úsáid an leagan is nuaí de StarDict!"
+
+#: ../stardict-plugins/stardict-update-info-plugin/stardict_update_info.cpp:40
+msgid "Latest version information:"
+msgstr "Eolas faoin leagan is déanaí:"
+
+#: ../stardict-plugins/stardict-update-info-plugin/stardict_update_info.cpp:46
+msgid "Latest news:"
+msgstr "An scéal is déanaí:"
+
+# Update not a verb here???
+#: ../stardict-plugins/stardict-update-info-plugin/stardict_update_info.cpp:51
+msgid "Update information"
+msgstr "Eolas faoin nuashonrú"
+
+#: ../stardict-plugins/stardict-update-info-plugin/stardict_update_info.cpp:63
+msgid "Update Info"
+msgstr "Eolas faoin nuashonrú"
+
+#: ../stardict-plugins/stardict-update-info-plugin/stardict_update_info.cpp:63
+msgid "Update information."
+msgstr "Eolas faoin nuashonrú."
+
+#: ../stardict-plugins/stardict-update-info-plugin/stardict_update_info.cpp:63
+msgid "Get the update information from the Internet."
+msgstr "Faigh eolas faoin nuashonrú ón Idirlíon."
+
+#: ../stardict-plugins/stardict-update-info-plugin/stardict_update_info.cpp:162
+msgid "Visit StarDict website now?"
+msgstr "Téigh go suíomh Gréasáin StarDict anois?"
+
+#: ../stardict-plugins/stardict-update-info-plugin/stardict_update_info.cpp:229
+msgid "Update info plug-in loaded.\n"
+msgstr "Luchtaíodh breiseán eolais nuashonraithe.\n"
+
+#: ../stardict-plugins/stardict-wiki-parsedata-plugin/stardict_wiki_parsedata.cpp:39
+msgid "Wiki data parse"
+msgstr "Parsáil sonraí Wiki"
+
+#: ../stardict-plugins/stardict-wiki-parsedata-plugin/stardict_wiki_parsedata.cpp:39
+msgid "Wiki data parse engine."
+msgstr "Inneall parsála sonraí Wiki."
+
+#: ../stardict-plugins/stardict-wiki-parsedata-plugin/stardict_wiki_parsedata.cpp:39
+msgid "Parse the wiki data."
+msgstr "Parsáil na sonraí Wiki."
+
+#: ../stardict-plugins/stardict-wiki-parsedata-plugin/stardict_wiki_parsedata.cpp:51
+msgid "Wiki data parse plug-in loaded.\n"
+msgstr "Luchtaíodh inneall parsála sonraí Wiki.\n"
+
+#: ../stardict-plugins/stardict-xdxf-parsedata-plugin/stardict_xdxf_parsedata.cpp:321
+msgid "XDXF data parse"
+msgstr "Parsáil sonraí XDXF"
+
+#: ../stardict-plugins/stardict-xdxf-parsedata-plugin/stardict_xdxf_parsedata.cpp:321
+msgid "XDXF data parse engine."
+msgstr "Inneall parsála sonraí XDXF."
+
+#: ../stardict-plugins/stardict-xdxf-parsedata-plugin/stardict_xdxf_parsedata.cpp:321
+msgid "Parse the XDXF data."
+msgstr "Parsáil na sonraí XDXF."
+
+#: ../stardict-plugins/stardict-xdxf-parsedata-plugin/stardict_xdxf_parsedata.cpp:333
+msgid "XDXF data parse plug-in loaded.\n"
+msgstr "Luchtaíodh inneall parsála sonraí XDXF.\n"
+
+#~ msgid "D_ictionaries"
+#~ msgstr "F_oclóirí"
+
+#~ msgid "Found "
+#~ msgstr "Aimsíodh "
+
+#~ msgid "Can not open: %s - %s\n"
+#~ msgstr "Ní féidir oscailt: %s - %s\n"
+
+#~ msgid "Size"
+#~ msgstr "Méid"
+
+#~ msgid "<span weight=\"bold\" size=\"x-large\">Font</span>"
+#~ msgstr "<span weight=\"bold\" size=\"x-large\">Clófhoireann</span>"
+
+#~ msgid "<span weight=\"bold\" size=\"x-large\">Cache</span>"
+#~ msgstr "<span weight=\"bold\" size=\"x-large\">Taisce</span>"
+
+#~ msgid "<span weight=\"bold\" size=\"x-large\">Export</span>"
+#~ msgstr "<span weight=\"bold\" size=\"x-large\">Easpórtáil</span>"
+
+#~ msgid "<span weight=\"bold\" size=\"x-large\">Sound</span>"
+#~ msgstr "<span weight=\"bold\" size=\"x-large\">Fuaim</span>"
+
+#~ msgid "<span weight=\"bold\" size=\"x-large\">Input</span>"
+#~ msgstr "<span weight=\"bold\" size=\"x-large\">Ionchur</span>"
+
+#~ msgid "<span weight=\"bold\" size=\"x-large\">Options</span>"
+#~ msgstr "<span weight=\"bold\" size=\"x-large\">Roghanna</span>"
+
+#~ msgid "<span weight=\"bold\" size=\"x-large\">Search Website</span>"
+#~ msgstr "<span weight=\"bold\" size=\"x-large\">Suíomh Cuardaigh</span>"
+
+#~ msgid "_Pronouce the word when it pops up."
+#~ msgstr "_Fuaimnigh an focal nuair a thaispeántar é."
+
+#~ msgid "<span weight=\"bold\" size=\"x-large\">Max window size</span>"
+#~ msgstr ""
+#~ "<span weight=\"bold\" size=\"x-large\">Uasmhéid na fuinneoige</span>"
+
+#~ msgid "Hide the main window"
+#~ msgstr "Folaigh an phríomhfhuinneog"

@@ -1,0 +1,258 @@
+# Irish translations for herrie.
+# Copyright (C) 2006 Free Software Foundation, Inc.
+# This file is distributed under the same license as the herrie package.
+# Kevin Scannell <kscanne@gmail.com>, 2007.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: herrie 1.9.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-01-02 16:43+0100\n"
+"PO-Revision-Date: 2008-01-13 07:53-0500\n"
+"Last-Translator: Kevin Scannell <kscanne@gmail.com>\n"
+"Language-Team: Irish <gaeilge-gnulinux@lists.sourceforge.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: audio_output_alsa.c:103 audio_output_ao.c:116 audio_output_coreaudio.c:199
+#: audio_output_pulse.c:77
+msgid "Cannot open the audio device."
+msgstr "Ní féidir an gléas fuaime a oscailt."
+
+#: audio_output_alsa.c:121 audio_output_coreaudio.c:226 audio_output_oss.c:119
+msgid "Sample rate or amount of channels not supported."
+msgstr "Ní thacaítear leis an ráta samplála seo nó le líon na gcainéal."
+
+#: audio_output_oss.c:68
+#, c-format
+msgid "Cannot open audio device \"%s\".\n"
+msgstr "Ní féidir gléas fuaime \"%s\" a oscailt.\n"
+
+#: gui_browser.c:79
+msgid "filter"
+msgstr "scagaire"
+
+#: gui_browser.c:145
+msgid "Unable to open initial directory."
+msgstr "Ní féidir an chomhadlann tosaigh a oscailt."
+
+#: gui_browser.c:262
+msgid "Unable to enter the parent directory."
+msgstr "Ní féidir dul isteach sa mháthairchomhadlann."
+
+#: gui_browser.c:277
+msgid "Unable to enter the selected directory."
+msgstr "Ní féidir dul isteach sa chomhadlann roghnaithe."
+
+#: gui_browser.c:363
+msgid "Change directory"
+msgstr "Athraigh an chomhadlann"
+
+#: gui_browser.c:401
+msgid "Unable to display the file or directory."
+msgstr "Ní féidir an comhad nó comhadlann a thaispeáint."
+
+#: gui_browser.c:418
+msgid "Write playlist to file"
+msgstr "Scríobh an seinmliosta i gcomhad"
+
+#: gui_browser.c:427
+msgid "Unable to write playlist."
+msgstr "Ní féidir an seinmliosta a scríobh."
+
+#: gui_input.c:143
+msgid "Search for"
+msgstr "Déan cuardach ar"
+
+#: gui_input.c:149
+msgid "Bad pattern."
+msgstr "Drochphatrún."
+
+#: gui_input.c:196 gui_input.c:233
+msgid "Not found."
+msgstr "Ar iarraidh."
+
+#: gui_input.c:265
+msgid "Use kill(1) to quit."
+msgstr "Bain úsáid as kill(1) chun scor."
+
+#: gui_input.c:269
+#, c-format
+msgid "Quit %s?"
+msgstr "Scoir ó %s?"
+
+#: gui_input.c:306
+msgid "Jump to position"
+msgstr "Léim go"
+
+#: gui_input.c:363
+msgid "Bad time format."
+msgstr "Drochfhormáid ama."
+
+#: gui_input.c:555 main.c:75 main.c:81 main.c:87
+msgid "yes"
+msgstr "tá"
+
+#: gui_input.c:556 main.c:77 main.c:83 main.c:89
+msgid "no"
+msgstr "níl"
+
+#: gui_playq.c:109
+msgid "Idle"
+msgstr "Díomhaoin"
+
+#: gui_playq.c:112
+msgid "Paused"
+msgstr "Moillithe"
+
+#: gui_playq.c:114
+msgid "Playing"
+msgstr "Á Sheinm"
+
+#: gui_playq.c:352
+msgid "Remove all songs from the playlist?"
+msgstr "Bain gach amhrán as an seinmliosta?"
+
+#: gui_playq.c:363
+msgid "Randomize the playlist?"
+msgstr "Suaith an seinmliosta?"
+
+#: gui_playq.c:412 gui_playq.c:450
+msgid "The song is already at the top of the playlist."
+msgstr "Tá an t-amhrán seo ag barr an tseinmliosta cheana."
+
+#: gui_playq.c:431 gui_playq.c:469
+msgid "The song is already at the bottom of the playlist."
+msgstr "Tá an t-amhrán ag bun an tseinmliosta cheana."
+
+#: gui_playq.c:529
+msgid "Failed to adjust the volume."
+msgstr "Theip ar an airde a athrú."
+
+#: gui_playq.c:531
+#, c-format
+msgid "Volume: %d%%"
+msgstr "Airde: %d%%"
+
+#: gui_vfslist.c:234
+msgid "There are no songs."
+msgstr "Níl aon amhrán ann."
+
+#: gui_vfslist.c:300
+msgid "You are at the first song."
+msgstr "Tá tú ag an chéad amhrán."
+
+#: gui_vfslist.c:319
+msgid "You are at the last song."
+msgstr "Tá tú ag an amhrán deiridh."
+
+#: gui_vfslist.c:545
+msgid "Search wrapped to top."
+msgstr "Thimfhill an cuardach go dtí an barr."
+
+#: gui_vfslist.c:569
+msgid "Full pathname"
+msgstr "Ainm iomlán na conaire"
+
+#: main.c:71
+msgid "Global configuration file"
+msgstr "Comhad cumraíochta comhchoitinne"
+
+#: main.c:72
+msgid "Audio output"
+msgstr "Aschur fuaime"
+
+#: main.c:73
+msgid "Support for AudioScrobbler"
+msgstr "Tacaíocht AudioScrobbler"
+
+#: main.c:79
+msgid "Support for HTTP streams"
+msgstr "Tacaíocht le Sruthanna HTTP"
+
+#: main.c:85
+msgid "Support for XSPF playlists (`spiff')"
+msgstr "Tacaíocht le seinmliostaí XSPF (`spiff')"
+
+#: main.c:91
+msgid "Supported audio file formats"
+msgstr "Formáidí fuaime a dtacaítear leo"
+
+#: main.c:103
+msgid "usage"
+msgstr "úsáid"
+
+#: playq.c:188
+#, c-format
+msgid "Failed to open \"%s\" for playback."
+msgstr "Theip ar \"%s\" a oscailt chun é a sheinm ar ais."
+
+#: playq.c:410
+#, c-format
+msgid "Repeat: %s"
+msgstr "Athsheinm: %s"
+
+#: playq.c:411
+msgid "on"
+msgstr "ann"
+
+#: playq.c:411
+msgid "off"
+msgstr "as"
+
+#: scrobbler.c:481
+msgid "Failed to authorize at AudioScrobbler."
+msgstr "Theip ar údarú ag AudioScrobbler."
+
+#: scrobbler.c:485
+msgid "Invalid AudioScrobbler username/password."
+msgstr "Ainm úsáideora/Focal faire neamhbhailí do AudioScrobbler."
+
+#: scrobbler.c:490
+msgid "Successfully authorized at AudioScrobbler."
+msgstr "D'éirigh le húdarú ag AudioScrobbler."
+
+#: scrobbler.c:507
+msgid "Successfully sent 1 song to AudioScrobbler."
+msgstr "D'éirigh le seoladh amhrán amháin chuig AudioScrobbler."
+
+#: scrobbler.c:511
+#, c-format
+msgid "Successfully sent %d songs to AudioScrobbler."
+msgstr "D'éirigh le seoladh %d amhrán chuig AudioScrobbler."
+
+#: scrobbler.c:517
+msgid "Failed to submit songs to AudioScrobbler."
+msgstr "Theip ar sheoladh amhráin chuig AudioScrobbler."
+
+#: vfs.c:109
+#, c-format
+msgid "Unknown user: %s\n"
+msgstr "Úsáideoir anaithnid: %s\n"
+
+#: vfs.c:121
+#, c-format
+msgid "Unable to chroot in %s\n"
+msgstr "Ní féidir \"chroot\" a dhéanamh i %s\n"
+
+#: vfs.c:129
+#, c-format
+msgid "Unable to change to group %d\n"
+msgstr "Ní féidir an grúpa a athrú go %d\n"
+
+#: vfs.c:133
+#, c-format
+msgid "Unable to change to user %d\n"
+msgstr "Ní féidir an t-úsáideoir a athrú go %d\n"
+
+#: vfs_http.c:146
+#, c-format
+msgid "Connection with \"%s\" lost."
+msgstr "Cailleadh an ceangal le \"%s\"."
+
+#~ msgid "Cannot open the audio device.\n"
+#~ msgstr "Ní féidir an gléas fuaime a oscailt.\n"
+
+#~ msgid "Cannot initialize SDL audio subsystem.\n"
+#~ msgstr "Ní féidir fochóras fuaime SDL a thúsú.\n"

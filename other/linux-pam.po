@@ -1,0 +1,625 @@
+# Irish translations for Linux-PAM package.
+# Copyright (C) 2009 Linux-PAM Project
+# This file is distributed under the same license as the Linux-PAM package.
+# Seán de Búrca <leftmostcat@gmail.com>, 2009.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Linux-PAM HEAD\n"
+"Report-Msgid-Bugs-To: http://sourceforge.net/projects/pam\n"
+"POT-Creation-Date: 2009-08-27 19:47-0600\n"
+"PO-Revision-Date: 2009-08-27 20:43-0600\n"
+"Last-Translator: Seán de Búrca <leftmostcat@gmail.com>\n"
+"Language-Team: Irish <gaeilge-gnulinux@lists.sourceforge.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=5; plural=n==1 ? 0 : (n%10==1 || n%10==2) ? 1 : (n%"
+"10>=3 && n%10<= 6) ? 2 : ((n%10>=7 && n%10<=9) || n==10) ? 3 : 4;\n"
+
+#.
+#. * external timeout definitions - these can be overriden by the
+#. * application.
+#.
+#. time when we warn
+#. time when we timeout
+#: .././libpam_misc/misc_conv.c:33
+msgid "...Time is running out...\n"
+msgstr "...Tá am ag imeacht...\n"
+
+#: .././libpam_misc/misc_conv.c:34
+msgid "...Sorry, your time is up!\n"
+msgstr "...Tá brón orm, tá do chuid ama imithe!\n"
+
+#: .././libpam_misc/misc_conv.c:342
+#, c-format
+msgid "erroneous conversation (%d)\n"
+msgstr "comhrá earráideach (%d)\n"
+
+#. get this user's authentication token
+#: .././libpam/pam_get_authtok.c:39 .././modules/pam_exec/pam_exec.c:142
+#: .././modules/pam_unix/pam_unix_auth.c:159
+#: .././modules/pam_userdb/pam_userdb.c:63
+msgid "Password: "
+msgstr "Focal faire: "
+
+#. For Translators: "%s%s" could be replaced with "<service> " or "".
+#: .././libpam/pam_get_authtok.c:41
+#: .././modules/pam_cracklib/pam_cracklib.c:66
+#, c-format
+msgid "New %s%spassword: "
+msgstr "Focal faire%2$s%1$s nua: "
+
+#. For Translators: "%s%s" could be replaced with "<service> " or "".
+#: .././libpam/pam_get_authtok.c:43
+#: .././modules/pam_cracklib/pam_cracklib.c:68
+#, c-format
+msgid "Retype new %s%spassword: "
+msgstr "Iontráil focal faire%2$s%1$s nua arís: "
+
+#: .././libpam/pam_get_authtok.c:44
+#: .././modules/pam_cracklib/pam_cracklib.c:69
+msgid "Sorry, passwords do not match."
+msgstr "Tá brón orm, níl na focail faire comhoiriúnach."
+
+#: .././libpam/pam_get_authtok.c:127
+#, c-format
+msgid "Retype %s"
+msgstr "Iontráil %s arís"
+
+#. We want to abort the password change
+#: .././libpam/pam_get_authtok.c:146
+msgid "Password change aborted."
+msgstr "Tobscoireadh athrú focail faire."
+
+#: .././libpam/pam_item.c:310
+msgid "login:"
+msgstr "logáil isteach:"
+
+#: .././libpam/pam_strerror.c:40
+msgid "Success"
+msgstr "D'éirigh leis"
+
+#: .././libpam/pam_strerror.c:42
+msgid "Critical error - immediate abort"
+msgstr "Earráid chriticiúil - tobscor láithreach"
+
+#: .././libpam/pam_strerror.c:44
+msgid "Failed to load module"
+msgstr "Theip ar luchtú modúil"
+
+#: .././libpam/pam_strerror.c:46
+msgid "Symbol not found"
+msgstr "Siombail gan aimsiú"
+
+#: .././libpam/pam_strerror.c:48
+msgid "Error in service module"
+msgstr "Earráid i modúl seirbhíse"
+
+#: .././libpam/pam_strerror.c:50
+msgid "System error"
+msgstr "Earráid chórais"
+
+#: .././libpam/pam_strerror.c:52
+msgid "Memory buffer error"
+msgstr "Earráid mhaolán cuimhne"
+
+#: .././libpam/pam_strerror.c:54
+msgid "Permission denied"
+msgstr "Diúltaíodh cead"
+
+#: .././libpam/pam_strerror.c:56
+msgid "Authentication failure"
+msgstr "Teip fíordheimhnithe"
+
+#: .././libpam/pam_strerror.c:58
+msgid "Insufficient credentials to access authentication data"
+msgstr "Níl cead agat sonraí fhíordheimhnithe a rochtain"
+
+#: .././libpam/pam_strerror.c:60
+msgid "Authentication service cannot retrieve authentication info"
+msgstr ""
+"Ní féidir leis an seirbhís fhíordheimhnithe eolas fíordheimhnithe a fháil"
+
+#: .././libpam/pam_strerror.c:62
+msgid "User not known to the underlying authentication module"
+msgstr "Níl aithne ar an úsáideoir ag an modúl fíordheimhnithe bunúsach"
+
+#: .././libpam/pam_strerror.c:64
+msgid "Have exhausted maximum number of retries for service"
+msgstr "Líon uasta na hatrialacha don seirbhís ídithe"
+
+#: .././libpam/pam_strerror.c:66
+msgid "Authentication token is no longer valid; new one required"
+msgstr ""
+"Níl an ceadchomhartha fíordheimhnithe bailí a thuilleadh; ceann nua de dhíth"
+
+#: .././libpam/pam_strerror.c:68
+msgid "User account has expired"
+msgstr "Chuaigh an cuntas úsáideora as feidhm"
+
+#: .././libpam/pam_strerror.c:70
+msgid "Cannot make/remove an entry for the specified session"
+msgstr "Ní féidir iontráil don seirbhís sonraithe a dhéanamh/bhaint"
+
+#: .././libpam/pam_strerror.c:72
+msgid "Authentication service cannot retrieve user credentials"
+msgstr "Ní féidir leis an seirbhís fhíordheimhnithe dintiúir úsáideora a fháil"
+
+#: .././libpam/pam_strerror.c:74
+msgid "User credentials expired"
+msgstr "Chuaigh dintiúir úsáideora as feidhm"
+
+#: .././libpam/pam_strerror.c:76
+msgid "Failure setting user credentials"
+msgstr "Theip ar shocrú dintiúir úsáideora"
+
+#: .././libpam/pam_strerror.c:78
+msgid "No module specific data is present"
+msgstr "Níl aon sonraí shainiúil don mhodúl ann"
+
+#: .././libpam/pam_strerror.c:80
+msgid "Bad item passed to pam_*_item()"
+msgstr "Tugadh drochmhír do pam_*_item()"
+
+#: .././libpam/pam_strerror.c:82
+msgid "Conversation error"
+msgstr "Earráid chomhrá"
+
+#: .././libpam/pam_strerror.c:84
+msgid "Authentication token manipulation error"
+msgstr "Earráid ionramháil an cheadchomhartha fíordheimhnithe"
+
+#: .././libpam/pam_strerror.c:86
+msgid "Authentication information cannot be recovered"
+msgstr "Ní féidir eolas fíordheimhnithe a fháil ar ais"
+
+#: .././libpam/pam_strerror.c:88
+msgid "Authentication token lock busy"
+msgstr "Tá glas an cheadchomhartha fíordheimhnithe gnóthach"
+
+#: .././libpam/pam_strerror.c:90
+msgid "Authentication token aging disabled"
+msgstr "Díchumasaíodh dul in aois cheadchomharthaí fíordheimhnithe"
+
+#: .././libpam/pam_strerror.c:92
+msgid "Failed preliminary check by password service"
+msgstr "Theip ar réamhsheiceáil ag an seirbhís fhocail faire"
+
+#: .././libpam/pam_strerror.c:94
+msgid "The return value should be ignored by PAM dispatch"
+msgstr "Ba chóir don seoladh PAM neamhaird a dhéanamh ar an luach fillte"
+
+#: .././libpam/pam_strerror.c:96
+msgid "Module is unknown"
+msgstr "Tá an modúl anaithnid"
+
+#: .././libpam/pam_strerror.c:98
+msgid "Authentication token expired"
+msgstr "Chuaigh an ceadchomhartha fíordheimhnithe as feidhm"
+
+#: .././libpam/pam_strerror.c:100
+msgid "Conversation is waiting for event"
+msgstr "Tá an comhrá ag fanacht le teagmhas"
+
+#: .././libpam/pam_strerror.c:102
+msgid "Application needs to call libpam again"
+msgstr "Ní mór don fheidhmchlár libpam a ghlaoch arís"
+
+#: .././libpam/pam_strerror.c:105
+msgid "Unknown PAM error"
+msgstr "Earráid PAM anaithnid"
+
+#: .././modules/pam_cracklib/pam_cracklib.c:490
+msgid "is the same as the old one"
+msgstr "tá sé díreach cosúil leis an seancheann"
+
+#: .././modules/pam_cracklib/pam_cracklib.c:504
+msgid "is a palindrome"
+msgstr "is palandróm é"
+
+#: .././modules/pam_cracklib/pam_cracklib.c:507
+msgid "case changes only"
+msgstr "athruithe cáis amháin"
+
+#: .././modules/pam_cracklib/pam_cracklib.c:510
+msgid "is too similar to the old one"
+msgstr "tá sé ró-chosúil leis an seancheann"
+
+#: .././modules/pam_cracklib/pam_cracklib.c:513
+msgid "is too simple"
+msgstr "tá sé ró-shimplí"
+
+#: .././modules/pam_cracklib/pam_cracklib.c:516
+msgid "is rotated"
+msgstr "tá sé rothlaithe"
+
+#: .././modules/pam_cracklib/pam_cracklib.c:519
+msgid "not enough character classes"
+msgstr "níl go leor aicmí carachtar ann"
+
+#: .././modules/pam_cracklib/pam_cracklib.c:522
+msgid "contains too many same characters consecutively"
+msgstr "tá an iomarca carachtar céanna ann go leantach"
+
+#: .././modules/pam_cracklib/pam_cracklib.c:525
+msgid "contains the user name in some form"
+msgstr "tá an t-ainm úsáideora ann i bhfoirm éigin"
+
+#: .././modules/pam_cracklib/pam_cracklib.c:555
+#: .././modules/pam_unix/pam_unix_passwd.c:475
+msgid "No password supplied"
+msgstr "Níor soláthraíodh aon fhocal faire"
+
+#: .././modules/pam_cracklib/pam_cracklib.c:555
+#: .././modules/pam_unix/pam_unix_passwd.c:475
+msgid "Password unchanged"
+msgstr "Níor athraíodh an focal faire"
+
+#: .././modules/pam_cracklib/pam_cracklib.c:575
+#: .././modules/pam_cracklib/pam_cracklib.c:658
+#, c-format
+msgid "BAD PASSWORD: %s"
+msgstr "DROCHFHOCAL FAIRE: %s"
+
+#: .././modules/pam_exec/pam_exec.c:215
+#, c-format
+msgid "%s failed: exit code %d"
+msgstr "Theip %s: cód scortha %d"
+
+#: .././modules/pam_exec/pam_exec.c:224
+#, c-format
+msgid "%s failed: caught signal %d%s"
+msgstr "Theip %s: fuarthas comhartha %d%s"
+
+#: .././modules/pam_exec/pam_exec.c:233
+#, c-format
+msgid "%s failed: unknown status 0x%x"
+msgstr "Theip %s: stádas anaithnid 0x%x"
+
+#. TRANSLATORS: "strftime options for date of last login"
+#: .././modules/pam_lastlog/pam_lastlog.c:201
+#: .././modules/pam_lastlog/pam_lastlog.c:429
+msgid " %a %b %e %H:%M:%S %Z %Y"
+msgstr " %a %e %b %H:%M:%S %Z %Y"
+
+#. TRANSLATORS: " from <host>"
+#: .././modules/pam_lastlog/pam_lastlog.c:210
+#: .././modules/pam_lastlog/pam_lastlog.c:438
+#, c-format
+msgid " from %.*s"
+msgstr " ó %.*s"
+
+#. TRANSLATORS: " on <terminal>"
+#: .././modules/pam_lastlog/pam_lastlog.c:222
+#: .././modules/pam_lastlog/pam_lastlog.c:450
+#, c-format
+msgid " on %.*s"
+msgstr " ar %.*s"
+
+#. TRANSLATORS: "Last login: <date> from <host> on <terminal>"
+#: .././modules/pam_lastlog/pam_lastlog.c:232
+#, c-format
+msgid "Last login:%s%s%s"
+msgstr "Logáil isteach is déanaí:%s%s%s"
+
+#: .././modules/pam_lastlog/pam_lastlog.c:238
+msgid "Welcome to your new account!"
+msgstr "Fáilte go dtí do chuntas nua!"
+
+#. TRANSLATORS: "Last failed login: <date> from <host> on <terminal>"
+#: .././modules/pam_lastlog/pam_lastlog.c:460
+#, c-format
+msgid "Last failed login:%s%s%s"
+msgstr "Logáil isteach teipthe is déanaí:%s%s%s"
+
+#: .././modules/pam_lastlog/pam_lastlog.c:469
+#: .././modules/pam_lastlog/pam_lastlog.c:476
+#, c-format
+msgid "There was %d failed login attempt since the last successful login."
+msgid_plural ""
+"There were %d failed login attempts since the last successful login."
+msgstr[0] ""
+"Bhí %d iarracht logála isteach teipthe ann ón logáil isteach is déanaí a\n"
+"d'éirigh leis."
+msgstr[1] ""
+"Bhí %d iarracht logála isteach teipthe ann ón logáil isteach is déanaí a\n"
+"d'éirigh leis."
+msgstr[2] ""
+"Bhí %d iarracht logála isteach teipthe ann ón logáil isteach is déanaí a\n"
+"d'éirigh leis."
+msgstr[3] ""
+"Bhí %d n-iarracht logála isteach teipthe ann ón logáil isteach is déanaí\n"
+"a d'éirigh leis."
+msgstr[4] ""
+"Bhí %d iarracht logála isteach teipthe ann ón logáil isteach is déanaí a\n"
+"d'éirigh leis."
+
+#. TRANSLATORS: only used if dngettext is not supported
+#: .././modules/pam_lastlog/pam_lastlog.c:481
+#, c-format
+msgid "There were %d failed login attempts since the last successful login."
+msgstr ""
+"Bhí %d iarracht logála isteach teipthe ann ón logáil isteach is déanaí a\n"
+"d'éirigh leis."
+
+#: .././modules/pam_limits/pam_limits.c:786
+#, c-format
+msgid "Too many logins for '%s'."
+msgstr "An iomarca logálacha isteach do '%s'."
+
+#: .././modules/pam_mail/pam_mail.c:318
+msgid "No mail."
+msgstr "Níl aon phost ann."
+
+#: .././modules/pam_mail/pam_mail.c:321
+msgid "You have new mail."
+msgstr "Tá post nua agat."
+
+#: .././modules/pam_mail/pam_mail.c:324
+msgid "You have old mail."
+msgstr "Tá seanphost agat."
+
+#: .././modules/pam_mail/pam_mail.c:328
+msgid "You have mail."
+msgstr "Tá post agat."
+
+#: .././modules/pam_mail/pam_mail.c:335
+#, c-format
+msgid "You have no mail in folder %s."
+msgstr "Níl aon phost agat san fhillteán %s."
+
+#: .././modules/pam_mail/pam_mail.c:339
+#, c-format
+msgid "You have new mail in folder %s."
+msgstr "Tá post nua agat san fhillteán %s."
+
+#: .././modules/pam_mail/pam_mail.c:343
+#, c-format
+msgid "You have old mail in folder %s."
+msgstr "Tá seanphost agat san fhillteán %s."
+
+#: .././modules/pam_mail/pam_mail.c:348
+#, c-format
+msgid "You have mail in folder %s."
+msgstr "Tá post agat san fhillteán %s."
+
+#: .././modules/pam_mkhomedir/pam_mkhomedir.c:113
+#, c-format
+msgid "Creating directory '%s'."
+msgstr "Comhadlann '%s' á cruthú."
+
+#: .././modules/pam_mkhomedir/pam_mkhomedir.c:183
+#, c-format
+msgid "Unable to create and initialize directory '%s'."
+msgstr "Ní féidir comhadlann '%s' a chruthú agus a thúsú."
+
+#: .././modules/pam_pwhistory/pam_pwhistory.c:218
+#: .././modules/pam_unix/pam_unix_passwd.c:496
+msgid "Password has been already used. Choose another."
+msgstr "Úsáidtear an focal faire cheana. Roghnaigh ceann eile."
+
+#: .././modules/pam_selinux/pam_selinux.c:172
+msgid "Would you like to enter a security context? [N] "
+msgstr "Ar mhaith leat comhthéacs slándála a iontráil? [N] "
+
+#. Allow the user to enter each field of the context individually
+#. Allow the user to enter role and level individually
+#: .././modules/pam_selinux/pam_selinux.c:191
+#: .././modules/pam_selinux/pam_selinux.c:282
+msgid "role:"
+msgstr "ról:"
+
+#: .././modules/pam_selinux/pam_selinux.c:204
+#: .././modules/pam_selinux/pam_selinux.c:316
+msgid "level:"
+msgstr "leibhéal:"
+
+#: .././modules/pam_selinux/pam_selinux.c:219
+#: .././modules/pam_selinux/pam_selinux.c:349
+msgid "Not a valid security context"
+msgstr "Ní comhthéacs slándála bailí é"
+
+#: .././modules/pam_selinux/pam_selinux.c:265
+#, c-format
+msgid "Default Security Context %s\n"
+msgstr "Comhthéacs Slándála Réamhshocraithe %s\n"
+
+#: .././modules/pam_selinux/pam_selinux.c:269
+msgid "Would you like to enter a different role or level?"
+msgstr "Ar mhaith leat ról nó leibhéal difriúil a iontráil?"
+
+#: .././modules/pam_selinux/pam_selinux.c:285
+#, c-format
+msgid "No default type for role %s\n"
+msgstr "Níl aon chineál réamhshocraithe ann do ról %s\n"
+
+#: .././modules/pam_selinux/pam_selinux.c:677
+#, c-format
+msgid "Unable to get valid context for %s"
+msgstr "Ní féidir comhthéacs bailí a fháil do %s"
+
+#: .././modules/pam_selinux/pam_selinux.c:728
+#, c-format
+msgid "Security Context %s Assigned"
+msgstr "Sanntar Comhthéacs Slándála %s"
+
+#: .././modules/pam_selinux/pam_selinux.c:749
+#, c-format
+msgid "Key Creation Context %s Assigned"
+msgstr "Sanntar Comhthéacs Chruthú Eochracha %s"
+
+#: .././modules/pam_selinux/pam_selinux_check.c:99
+#, c-format
+msgid "failed to initialize PAM\n"
+msgstr "theip ar thúsú PAM\n"
+
+#: .././modules/pam_selinux/pam_selinux_check.c:105
+#, c-format
+msgid "failed to pam_set_item()\n"
+msgstr "theip ar pam_set_item()\n"
+
+#. error in fork()
+#: .././modules/pam_selinux/pam_selinux_check.c:133
+#, c-format
+msgid "login: failure forking: %m"
+msgstr "logáil isteach: theip ar dhéanamh foirc: %m"
+
+#: .././modules/pam_stress/pam_stress.c:475
+#, c-format
+msgid "Changing STRESS password for %s."
+msgstr "Focal faire STRESS do %s á athrú."
+
+#: .././modules/pam_stress/pam_stress.c:489
+msgid "Enter new STRESS password: "
+msgstr "Iontráil focal faire STRESS nua: "
+
+#: .././modules/pam_stress/pam_stress.c:492
+msgid "Retype new STRESS password: "
+msgstr "Iontráil focal faire STRESS nua arís: "
+
+#: .././modules/pam_stress/pam_stress.c:521
+msgid "Verification mis-typed; password unchanged"
+msgstr "Clóscríobhadh deimhniú go mícheart; níor athraíodh focal faire"
+
+#: .././modules/pam_tally/pam_tally.c:541
+#: .././modules/pam_tally2/pam_tally2.c:596
+#, c-format
+msgid "Account temporary locked (%ld seconds left)"
+msgstr "Cuireadh an cuntas faoi ghlas go sealadach (%ld soicind fágtha)"
+
+#: .././modules/pam_tally/pam_tally.c:566
+#: .././modules/pam_tally2/pam_tally2.c:575
+#, c-format
+msgid "Account locked due to %u failed logins"
+msgstr "Cuireadh an cuntas faoi ghlas mar gheall ar %u logáil isteach teipthe"
+
+#: .././modules/pam_tally/pam_tally.c:777
+#: .././modules/pam_tally2/pam_tally2.c:884
+msgid "Authentication error"
+msgstr "Earráid fhíordheimhnithe"
+
+#: .././modules/pam_tally/pam_tally.c:778
+#: .././modules/pam_tally2/pam_tally2.c:885
+msgid "Service error"
+msgstr "Earráid seirbhíse"
+
+#: .././modules/pam_tally/pam_tally.c:779
+#: .././modules/pam_tally2/pam_tally2.c:886
+msgid "Unknown user"
+msgstr "Úsáideoir anaithnid"
+
+#: .././modules/pam_tally/pam_tally.c:780
+#: .././modules/pam_tally2/pam_tally2.c:887
+msgid "Unknown error"
+msgstr "Earráid anaithnid"
+
+#: .././modules/pam_tally/pam_tally.c:796
+#: .././modules/pam_tally2/pam_tally2.c:906
+#, c-format
+msgid "%s: Bad number given to --reset=\n"
+msgstr "%s: Tugadh drochuimhir do --reset=\n"
+
+#: .././modules/pam_tally/pam_tally.c:800
+#: .././modules/pam_tally2/pam_tally2.c:910
+#, c-format
+msgid "%s: Unrecognised option %s\n"
+msgstr "%s: Rogha anaithnid %s\n"
+
+#: .././modules/pam_tally/pam_tally.c:812
+#, c-format
+msgid ""
+"%s: [--file rooted-filename] [--user username] [--reset[=n]] [--quiet]\n"
+msgstr ""
+"%s: [--file ainm-comhad-le-fréamh] [--user úsáideoir] [--reset[=u]]\n"
+"[--quiet]\n"
+
+#: .././modules/pam_tally/pam_tally.c:886
+#: .././modules/pam_tally2/pam_tally2.c:1036
+#, c-format
+msgid "%s: Can't reset all users to non-zero\n"
+msgstr "%s: Ní féidir gach úsáideoir a athrú go neamhnialasach\n"
+
+#: .././modules/pam_tally2/pam_tally2.c:937
+#, c-format
+msgid "Login           Failures Latest failure     From\n"
+msgstr "Logáil isteach  Teipeanna  Teip is déanaí  Ó\n"
+
+#: .././modules/pam_tally2/pam_tally2.c:953
+#, c-format
+msgid ""
+"%s: [-f rooted-filename] [--file rooted-filename]\n"
+"   [-u username] [--user username]\n"
+"   [-r] [--reset[=n]] [--quiet]\n"
+msgstr ""
+"%s: [-f ainm-comhad-le-fréamh] [--file ainm-comhad-le-fréamh]\n"
+"   [-u úsáideoir] [--user úsáideoir]\n"
+"   [-r] [--reset[=u]] [--quiet]\n"
+
+#: .././modules/pam_timestamp/pam_timestamp.c:339
+#, c-format
+msgid "Access granted (last access was %ld seconds ago)."
+msgstr "Bronnadh rochtain (bhí an rochtain is déanaí %ld soicind ó shin)."
+
+#: .././modules/pam_unix/pam_unix_acct.c:236
+#: .././modules/pam_unix/pam_unix_acct.c:258
+msgid "Your account has expired; please contact your system administrator"
+msgstr ""
+"Chuaigh do chuntas as feidhm; déan téagmháil le do riarthóir córais, le do "
+"thoil"
+
+#: .././modules/pam_unix/pam_unix_acct.c:244
+msgid "You are required to change your password immediately (root enforced)"
+msgstr "Ní mór duit d'fhocal faire a athrú láithreach (forfheidhmítear fréamh)"
+
+#: .././modules/pam_unix/pam_unix_acct.c:250
+msgid "You are required to change your password immediately (password aged)"
+msgstr ""
+"Ní mór duit d'fhocal faire a athrú láithreach (chuaigh focal faire in aos)"
+
+#: .././modules/pam_unix/pam_unix_acct.c:271
+#: .././modules/pam_unix/pam_unix_acct.c:278
+#, c-format
+msgid "Warning: your password will expire in %d day"
+msgid_plural "Warning: your password will expire in %d days"
+msgstr[0] "Rabhadh: rachaidh d'fhocal faire as feidhm i gceann %d lá"
+msgstr[1] "Rabhadh: rachaidh d'fhocal faire as feidhm i gceann %d lá"
+msgstr[2] "Rabhadh: rachaidh d'fhocal faire as feidhm i gceann %d lá"
+msgstr[3] "Rabhadh: rachaidh d'fhocal faire as feidhm i gceann %d lá"
+msgstr[4] "Rabhadh: rachaidh d'fhocal faire as feidhm i gceann %d lá"
+
+#. TRANSLATORS: only used if dngettext is not supported
+#: .././modules/pam_unix/pam_unix_acct.c:283
+#, c-format
+msgid "Warning: your password will expire in %d days"
+msgstr "Rabhadh: rachaidh d'fhocal faire as feidhm i gceann %d lá"
+
+#: .././modules/pam_unix/pam_unix_passwd.c:385
+msgid "NIS password could not be changed."
+msgstr "Níorbh fhéidir focal faire NIS a athrú."
+
+#: .././modules/pam_unix/pam_unix_passwd.c:492
+msgid "You must choose a longer password"
+msgstr "Caithfidh tú focal faire níos faide a roghnú"
+
+#. instruct user what is happening
+#: .././modules/pam_unix/pam_unix_passwd.c:597
+#, c-format
+msgid "Changing password for %s."
+msgstr "Focal faire %s á athrú."
+
+#: .././modules/pam_unix/pam_unix_passwd.c:608
+msgid "(current) UNIX password: "
+msgstr "Focal faire UNIX (reatha): "
+
+#: .././modules/pam_unix/pam_unix_passwd.c:643
+msgid "You must wait longer to change your password"
+msgstr "Caithfidh tú fanacht níos faide chun d'fhocal faire a athrú"
+
+#: .././modules/pam_unix/pam_unix_passwd.c:703
+msgid "Enter new UNIX password: "
+msgstr "Iontráil focal faire UNIX nua: "
+
+#: .././modules/pam_unix/pam_unix_passwd.c:704
+msgid "Retype new UNIX password: "
+msgstr "Iontráil focal faire UNIX nua arís:"
