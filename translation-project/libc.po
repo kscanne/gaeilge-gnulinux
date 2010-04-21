@@ -666,12 +666,12 @@ msgstr ""
 #: locale/programs/ld-collate.c:414
 #, c-format
 msgid "`%.*s' already defined as collating symbol"
-msgstr ""
+msgstr "socraíodh `%.*s' mar shiombail chomhordaithe cheana"
 
 #: locale/programs/ld-collate.c:421
 #, c-format
 msgid "`%.*s' already defined as collating element"
-msgstr ""
+msgstr "socraíodh `%.*s' mar eilimint chomhordaithe cheana"
 
 #: locale/programs/ld-collate.c:452 locale/programs/ld-collate.c:478
 #, c-format
@@ -692,7 +692,7 @@ msgstr "%s: an iomarca rialacha; ní raibh ach %d ag an chéad iontráil"
 #: locale/programs/ld-collate.c:596
 #, c-format
 msgid "%s: not enough sorting rules"
-msgstr ""
+msgstr "%s: níl go leor rialacha sórtála ann"
 
 #: locale/programs/ld-collate.c:761
 #, c-format
@@ -800,7 +800,7 @@ msgstr "%s: athfhógra ar rannóg `%s'"
 #: locale/programs/ld-collate.c:2910
 #, c-format
 msgid "%s: unknown character in collating symbol name"
-msgstr ""
+msgstr "%s: carachtar anaithnid in ainm na siombaile comhordaithe"
 
 #: locale/programs/ld-collate.c:3042
 #, c-format
@@ -3493,7 +3493,7 @@ msgstr "Ainm nó seirbhís anaithnid"
 
 #: posix/../sysdeps/posix/gai_strerror.c:39
 msgid "Servname not supported for ai_socktype"
-msgstr "ní ghlactar le hainm freastalaithe do 'ai_socktype'"
+msgstr "Ní thacaítear le hainm freastalaithe do 'ai_socktype'"
 
 #: posix/../sysdeps/posix/gai_strerror.c:40
 msgid "ai_socktype not supported"
@@ -3609,7 +3609,7 @@ msgstr "Slonn ionadaíochta neamhbhailí"
 
 #: posix/regcomp.c:156
 msgid "Invalid collation character"
-msgstr "Carachtar neamhbhailí cóimheasa"
+msgstr "Carachtar neamhbhailí comhordaithe"
 
 #: posix/regcomp.c:159
 msgid "Invalid character class name"

@@ -6245,7 +6245,7 @@ msgstr "ll/mm/bb"
 #. DLG_ToggleCase_LowerCase
 #: po/tmp/ap_String_Id.h.h:2575
 msgid "lowercase"
-msgstr "cás íochtarach"
+msgstr "cás íochtair"
 
 #. DLG_Options_Label_Minutes
 #: po/tmp/ap_String_Id.h.h:2577

@@ -64830,7 +64830,7 @@ msgstr ""
 
 #. EXPLANATORY NOTE for U+030B COMBINING DOUBLE ACUTE ACCENT
 msgid "Hungarian, Chuvash"
-msgstr "Ungáiris, Suvais"
+msgstr "Ungáiris, Suvaisis"
 
 #. EXPLANATORY NOTE for U+030D COMBINING VERTICAL LINE ABOVE
 msgid "this is not the Greek tonos"
@@ -65220,7 +65220,7 @@ msgstr ""
 
 #. EXPLANATORY NOTE for U+04AB CYRILLIC SMALL LETTER ES WITH DESCENDER
 msgid "Bashkir, Chuvash"
-msgstr "Baiscíris, Suvais"
+msgstr "Baiscíris, Suvaisis"
 
 #. EXPLANATORY NOTE for U+04AF CYRILLIC SMALL LETTER STRAIGHT U
 msgid "stem is straight, unlike LETTER U"

@@ -783,7 +783,7 @@ msgstr "%s: Níl aon úsáideoir darb ainm `%s'"
 #: src/uudecode.c:387
 #, c-format
 msgid "cannot access %s"
-msgstr "Ní féidir %s a rochtain"
+msgstr "ní féidir %s a rochtain"
 
 #: src/uudecode.c:392
 #, c-format

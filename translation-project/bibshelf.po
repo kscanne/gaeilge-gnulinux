@@ -1,15 +1,15 @@
 # Irish translations for bibshelf.
 # Copyright (C) 2004 Free Software Foundation, Inc.
 # This file is distributed under the same license as the bibshelf package.
-# Kevin Patrick Scannell <scannell@SLU.EDU>, 2004.
+# Kevin Patrick Scannell <scannell@SLU.EDU>, 2004, 2007.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: bibshelf 1.3.0\n"
+"Project-Id-Version: bibshelf 1.4.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2004-12-11 14:44+0100\n"
-"PO-Revision-Date: 2004-12-15 08:31-0500\n"
-"Last-Translator: Kevin Patrick Scannell <scannell@SLU.EDU>\n"
+"POT-Creation-Date: 2005-02-15 15:08+0100\n"
+"PO-Revision-Date: 2007-07-20 08:31-0500\n"
+"Last-Translator: Kevin Scannell <kscanne@gmail.com>\n"
 "Language-Team: Irish <gaeilge-gnulinux@lists.sourceforge.net>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=ISO-8859-1\n"
@@ -49,7 +49,7 @@ msgstr "Catagóir:"
 
 #: src/DialogBookEditor.cc:33 src/DialogBook.cc:36
 msgid "Rating:"
-msgstr "Meastachán:"
+msgstr "Rátáil:"
 
 #: src/DialogBookEditor.cc:34 src/DialogBook.cc:37
 msgid "Read:"
@@ -133,7 +133,7 @@ msgstr "Scéinséir"
 
 #: src/DialogBookEditor.cc:89
 msgid "Not yet rated"
-msgstr "Gan meastachán fós"
+msgstr "Gan mheastachán fós"
 
 #: src/DialogBookEditor.cc:175 src/DialogBook.cc:55
 msgid "Unnamed Book"
@@ -157,7 +157,7 @@ msgstr "Sórtáil de réir _Dáta a Léadh"
 
 #: src/DialogMain.cc:49
 msgid "Sort by _Rating"
-msgstr "Sórtáil de réir _Meastachán"
+msgstr "Sórtáil de réir _Rátála"
 
 #: src/DialogMain.cc:54
 msgid "Add Book"
@@ -224,7 +224,7 @@ msgstr "Léite ar..."
 
 #: src/GtkBookList.cc:71
 msgid "Rating"
-msgstr "Meastachán"
+msgstr "Rátáil"
 
 #: src/Controller.cc:48
 #, c-format
@@ -235,12 +235,16 @@ msgstr "Ní féidir an fillteán leabhair a chruthú nó a rochtain"
 #, c-format
 msgid ""
 "The folder containing the book documents could not be created.\n"
-"This usually happens due to a problem with the file access restrictions given to this program by the administrator.\n"
-"Please make sure that the program has all permissions on \"%s\" and try again. Sorry."
+"This usually happens due to a problem with the file access restrictions "
+"given to this program by the administrator.\n"
+"Please make sure that the program has all permissions on \"%s\" and try "
+"again. Sorry."
 msgstr ""
 "Níorbh fhéidir fillteán a chruthú le haghaidh na gcáipéisí leabhair.\n"
-"Go hiondúil, tarlaíonn earráid mar seo de bharr go bhfuil fadhb ann leis na ceadanna a thug riarthóir do chóras don chlár seo.\n"
-"Cinntigh go bhfuil na ceadanna cuí ag an chlár chun \"%s\" a rochtain agus bain triail as arís.  Tá brón orm."
+"Go hiondúil, tarlaíonn earráid mar seo de bharr go bhfuil fadhb ann leis na "
+"ceadanna a thug riarthóir do chórais don chlár seo.\n"
+"Cinntigh go bhfuil na ceadanna cuí ag an chlár chun \"%s\" a rochtain agus "
+"bain triail as arís.  Tá brón orm."
 
 #: src/Controller.cc:65
 #, c-format
@@ -251,12 +255,16 @@ msgstr "Ní féidir an fillteán leabhair a oscailt"
 #, c-format
 msgid ""
 "The folder containing the book documents could not be opened.\n"
-"This usually happens due to a problem with the file access restrictions given to this program by the administrator.\n"
-"Please make sure that the program has all permissions on \"%s\" and try again. Sorry."
+"This usually happens due to a problem with the file access restrictions "
+"given to this program by the administrator.\n"
+"Please make sure that the program has all permissions on \"%s\" and try "
+"again. Sorry."
 msgstr ""
 "Níorbh fhéidir an fillteán le haghaidh na gcáipéisí leabhair a oscailt.\n"
-"Go hiondúil, tarlaíonn earráid mar seo de bharr go bhfuil fadhb ann leis na ceadanna a thug riarthóir do chóras don chlár seo.\n"
-"Cinntigh go bhfuil na ceadanna cuí ag an chlár chun \"%s\" a rochtain agus bain triail as arís.  Tá brón orm."
+"Go hiondúil, tarlaíonn earráid mar seo de bharr go bhfuil fadhb ann leis na "
+"ceadanna a thug riarthóir do chóras don chlár seo.\n"
+"Cinntigh go bhfuil na ceadanna cuí ag an chlár chun \"%s\" a rochtain agus "
+"bain triail as arís.  Tá brón orm."
 
 #: src/Controller.cc:81
 #, c-format
@@ -280,13 +288,17 @@ msgstr "Ní féidir fillteán a chruthú do \"%s\""
 #: src/Controller.cc:224
 #, c-format
 msgid ""
-"One possible cause for this problem may be that this program has insufficient rights to create a new folder at the given location.\n"
+"One possible cause for this problem may be that this program has "
+"insufficient rights to create a new folder at the given location.\n"
 "\n"
-"Please make sure that the program has the permissions to write into \"%s\" and try again. Sorry."
+"Please make sure that the program has the permissions to write into \"%s\" "
+"and try again. Sorry."
 msgstr ""
-"Is féidir nach bhfuil cead ag an chlár seo chun fillteán nua a chruthú ag an suíomh ceaptha.\n"
+"Is féidir nach bhfuil cead ag an chlár seo chun fillteán nua a chruthú ag an "
+"suíomh ceaptha.\n"
 "\n"
-"Cinntigh go bhfuil na ceadanna cuí ag an chlár chun scríobh ar \"%s\" agus bain triail as arís.  Tá brón orm."
+"Cinntigh go bhfuil na ceadanna cuí ag an chlár chun scríobh ar \"%s\" agus "
+"bain triail as arís.  Tá brón orm."
 
 #: src/Controller.cc:233
 #, c-format
@@ -297,14 +309,21 @@ msgstr "Ní féidir an t-eolas faoina seanleabhair a scriosadh"
 #, c-format
 msgid ""
 "You have changed the author or the title of a book.\n"
-"Thus, the document holding the old name and author need to be deleted from your harddisk.\n"
-"However, the deletion of this document failed, probably due to a problem with the file access restrictions given to this program by the administrator.\n"
-"Please make sure that the program has all permissions on \"%s\" and try again. Sorry."
+"Thus, the document holding the old name and author need to be deleted from "
+"your harddisk.\n"
+"However, the deletion of this document failed, probably due to a problem "
+"with the file access restrictions given to this program by the "
+"administrator.\n"
+"Please make sure that the program has all permissions on \"%s\" and try "
+"again. Sorry."
 msgstr ""
 "Tá an teideal nó an t-údar den leabhar seo athraithe agat.\n"
-"Mar sin, ní mór duit an cháipéis a choimeádann an seanainm agus an seanúdar a scriosadh ó do dhiosca crua.\n"
-"Áfach, theip ar scriosadh na cáipéise seo, is dócha de bharr go bhfuil fadhb ann leis na ceadanna a thug riarthóir do chóras don chlár seo.\n"
-"Cinntigh go bhfuil na ceadanna cuí ag an chlár chun \"%s\" a rochtain agus bain triail as arís.  Tá brón orm."
+"Mar sin, ní mór duit an cháipéis a choimeádann an seanainm agus an seanúdar "
+"a scriosadh ó do dhiosca crua.\n"
+"Áfach, theip ar scriosadh na cáipéise seo, is dócha de bharr go bhfuil fadhb "
+"ann leis na ceadanna a thug riarthóir do chóras don chlár seo.\n"
+"Cinntigh go bhfuil na ceadanna cuí ag an chlár chun \"%s\" a rochtain agus "
+"bain triail as arís.  Tá brón orm."
 
 #: src/Controller.cc:248
 #, c-format
@@ -314,13 +333,17 @@ msgstr "Ní féidir an leabhar \"%s\" le \"%s\" a shábháil"
 #: src/Controller.cc:252
 #, c-format
 msgid ""
-"One possible cause for this problem may be that this program has insufficient rights to create a new file at the given location.\n"
+"One possible cause for this problem may be that this program has "
+"insufficient rights to create a new file at the given location.\n"
 "\n"
-"Please make sure that the program has the permissions to write into all folders below \"%s\" and try again. Sorry."
+"Please make sure that the program has the permissions to write into all "
+"folders below \"%s\" and try again. Sorry."
 msgstr ""
-"Is féidir nach bhfuil cead ag an chlár seo chun comhad nua a chruthú ag an suíomh ceaptha.\n"
+"Is féidir nach bhfuil cead ag an chlár seo chun comhad nua a chruthú ag an "
+"suíomh ceaptha.\n"
 "\n"
-"Cinntigh go bhfuil na ceadanna cuí ag an chlár chun scríobh ar gach fillteán faoi \"%s\" agus bain triail as arís.  Tá brón orm."
+"Cinntigh go bhfuil na ceadanna cuí ag an chlár chun scríobh ar gach fillteán "
+"faoi \"%s\" agus bain triail as arís.  Tá brón orm."
 
 #: src/Controller.cc:302
 #, c-format
@@ -330,15 +353,21 @@ msgstr "Ní féidir an leabhar \"%s\" le \"%s\" a scriosadh"
 #: src/Controller.cc:306
 #, c-format
 msgid ""
-"The document containing the book that you have been trying to remove could not be deleted.\n"
+"The document containing the book that you have been trying to remove could "
+"not be deleted.\n"
 "\n"
-"This usually happens due to a problem with the file access restrictions given to this program by the administrator.\n"
-"Please make sure that the program has all permissions on \"%s\" and try again. Sorry."
+"This usually happens due to a problem with the file access restrictions "
+"given to this program by the administrator.\n"
+"Please make sure that the program has all permissions on \"%s\" and try "
+"again. Sorry."
 msgstr ""
-"Níorbh fhéidir an cháipéis a choimeádann an leabhar gur mhaith leat a bhaint a scriosadh.\n"
+"Níorbh fhéidir an cháipéis a choimeádann an leabhar gur mhaith leat a bhaint "
+"a scriosadh.\n"
 "\n"
-"Go hiondúil, tarlaíonn earráid mar seo de bharr go bhfuil fadhb ann leis na ceadanna a thug riarthóir do chóras don chlár seo.\n"
-"Cinntigh go bhfuil na ceadanna cuí ag an chlár chun \"%s\" a rochtain agus bain triail as arís.  Tá brón orm."
+"Go hiondúil, tarlaíonn earráid mar seo de bharr go bhfuil fadhb ann leis na "
+"ceadanna a thug riarthóir do chóras don chlár seo.\n"
+"Cinntigh go bhfuil na ceadanna cuí ag an chlár chun \"%s\" a rochtain agus "
+"bain triail as arís.  Tá brón orm."
 
 #: src/DialogBookDelete.cc:42
 #, c-format
@@ -347,7 +376,9 @@ msgstr "Scrios an leabhar \"%s\" le \"%s\"?"
 
 #: src/DialogBookDelete.cc:43
 msgid "Deletion of a book will destroy its data and can not be reversed."
-msgstr "Má scriosfaidh tú leabhar, scriosfar na sonraí atá gaolmhar leis agus ní féidir an oibríocht a chur ar ceal."
+msgstr ""
+"Má scriosann tú leabhar, scriosfar na sonraí a bhaineann leis agus ní "
+"féidir an oibríocht a chur ar ceal."
 
 #: src/DialogAbout.cc:45
 msgid "Translation of this version by:"
@@ -359,12 +390,14 @@ msgstr "Kevin Scannell"
 
 #: src/DialogAbout.cc:52
 msgid ""
-"BibShelf was written and published under the terms of the GPL (General Public License V2)\n"
+"BibShelf was written and published under the terms of the GPL (General "
+"Public License V2)\n"
 "by Samuel Abels\n"
 "\n"
 "The application name was chosen by TheWalrus."
 msgstr ""
-"Scríobh Samuel Abels an clár BibShelf, agus is foilsithe é de réir na gcoinníollacha den GPL (General Public License V2)\n"
+"Scríobh Samuel Abels an clár BibShelf, agus is foilsithe é de réir na "
+"gcoinníollacha den GPL (General Public License V2)\n"
 "\n"
 "Roghnaigh TheWalrus ainm an fheidhmchláir."
 
@@ -379,4 +412,3 @@ msgstr "Cóipcheart 2004. Gach ceart cosanta."
 #: src/DialogBook.cc:43
 msgid "Edit Book"
 msgstr "Cuir Leabhair in Eagar"
-

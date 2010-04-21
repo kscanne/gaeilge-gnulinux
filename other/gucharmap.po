@@ -182,7 +182,7 @@ msgstr "<Plána 16 Úsáid Phríobháideach>"
 
 #: ../gucharmap/gucharmap-unicode-info.c:109
 msgid "<not assigned>"
-msgstr "<ní ceaptha>"
+msgstr "<gan sannadh>"
 
 #: ../gucharmap/gucharmap-unicode-info.c:120
 msgid "Other, Control"
@@ -206,7 +206,7 @@ msgstr "Eile, Ionadaí"
 
 #: ../gucharmap/gucharmap-unicode-info.c:125
 msgid "Letter, Lowercase"
-msgstr "Litir, Beag"
+msgstr "Litir, Cás Íochtair"
 
 #: ../gucharmap/gucharmap-unicode-info.c:126
 msgid "Letter, Modifier"
@@ -222,7 +222,7 @@ msgstr "Litir, Teideal"
 
 #: ../gucharmap/gucharmap-unicode-info.c:129
 msgid "Letter, Uppercase"
-msgstr "Litir, Mór"
+msgstr "Litir, Cás Uachtair"
 
 #: ../gucharmap/gucharmap-unicode-info.c:130
 msgid "Mark, Spacing Combining"

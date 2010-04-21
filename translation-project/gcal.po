@@ -1168,7 +1168,7 @@ msgstr "Panama"
 
 #: src/hd-data.c:687
 msgid "Peru"
-msgstr "An Peiriú"
+msgstr "Peiriú"
 
 #: src/hd-data.c:688
 msgid "French Polynesia"

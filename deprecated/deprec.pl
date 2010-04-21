@@ -40,7 +40,7 @@ while ($ARGV = shift @ARGV) {
 	local $SIG{__WARN__} = 'my_warn';
 	$aref = Locale::PO->load_file_asarray($ARGV);
 }
-	print "Checking PO file $ARGV...\n";
+	print "Checking PO file $ARGV for deprecated translations...\n";
 	foreach my $msg (@$aref) {
 		my $id = $msg->msgid();
 		my $str = $msg->msgstr();

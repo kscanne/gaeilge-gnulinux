@@ -90,11 +90,11 @@ msgstr "Slonn ionadaíochta neamhbhailí"
 
 #: lib/regex.c:1028
 msgid "Invalid collation character"
-msgstr "Carachtar neamhbhailí cóimheasa"
+msgstr "Carachtar neamhbhailí comhordaithe"
 
 #: lib/regex.c:1031
 msgid "Invalid character class name"
-msgstr "Aicme neamhbhailí charachtair"
+msgstr "Ainm neamhbhailí ar cicme charachtar"
 
 #: lib/regex.c:1034
 msgid "Trailing backslash"

@@ -152,7 +152,7 @@ msgstr "Slonn ionadaíochta neamhbhailí"
 
 #: lib/regex.c:1311
 msgid "Invalid collation character"
-msgstr "Carachtar neamhbhailí cóimheasa"
+msgstr "Carachtar neamhbhailí comhordaithe"
 
 #: lib/regex.c:1314
 msgid "Invalid character class name"

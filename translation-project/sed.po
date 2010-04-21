@@ -1,24 +1,24 @@
 # Irish translations for sed
 # Copyright (C) 2003, 2004 Free Software Foundation, Inc.
-# Kevin Patrick Scannell <scannell@SLU.EDU>, 2003, 2004.
+# Kevin Patrick Scannell <scannell@SLU.EDU>, 2003, 2004, 2006, 2008.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: sed 4.1.4\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2004-11-11 15:28+0100\n"
-"PO-Revision-Date: 2005-04-18 11:04-0500\n"
-"Last-Translator: Kevin Patrick Scannell <scannell@SLU.EDU>\n"
+"Project-Id-Version: sed 4.2.0\n"
+"Report-Msgid-Bugs-To: bonzini@gnu.org\n"
+"POT-Creation-Date: 2007-06-29 10:24+0200\n"
+"PO-Revision-Date: 2008-01-13 11:04-0500\n"
+"Last-Translator: Kevin Scannell <kscanne@gmail.com>\n"
 "Language-Team: Irish <gaeilge-gnulinux@lists.sourceforge.net>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=ISO-8859-1\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : (n>2 && n<7) ? 2 :"
 "(n>6 && n<11) ? 3 : 4;\n"
 
 #: sed/compile.c:162
 msgid "multiple `!'s"
-msgstr "`!'-anna iomadúla"
+msgstr "`!'-anna iomadÃºla"
 
 #: sed/compile.c:163
 msgid "unexpected `,'"
@@ -26,7 +26,7 @@ msgstr "`,' gan choinne"
 
 #: sed/compile.c:164
 msgid "invalid usage of +N or ~N as first address"
-msgstr "ní féidir +N nó ~N a úsáid mar an chéad seoladh"
+msgstr "nÃ­ fÃ©idir +N nÃ³ ~N a ÃºsÃ¡id mar an chÃ©ad seoladh"
 
 #: sed/compile.c:165
 msgid "unmatched `{'"
@@ -42,39 +42,39 @@ msgstr "carachtair breise i ndiaidh an ordaithe"
 
 #: sed/compile.c:168
 msgid "expected \\ after `a', `c' or `i'"
-msgstr "bhíothas ag súil le \\ i ndiaidh `a', `c', nó `i'"
+msgstr "bhÃ­othas ag sÃºil le \\ i ndiaidh `a', `c', nÃ³ `i'"
 
 #: sed/compile.c:169
 msgid "`}' doesn't want any addresses"
-msgstr "Níl fáilte roimh sheoltaí le `}'"
+msgstr "NÃ­l fÃ¡ilte roimh sheoltaÃ­ le `}'"
 
 #: sed/compile.c:170
 msgid ": doesn't want any addresses"
-msgstr "Níl fáilte roimh sheoltaí le `:'"
+msgstr "NÃ­l fÃ¡ilte roimh sheoltaÃ­ le `:'"
 
 #: sed/compile.c:171
 msgid "comments don't accept any addresses"
-msgstr "níl fáilte roimh sheoltaí le nótaí tráchta"
+msgstr "nÃ­l fÃ¡ilte roimh sheoltaÃ­ le nÃ³taÃ­ trÃ¡chta"
 
 #: sed/compile.c:172
 msgid "missing command"
-msgstr "ordú ar iarraidh"
+msgstr "ordÃº ar iarraidh"
 
 #: sed/compile.c:173
 msgid "command only uses one address"
-msgstr "ní úsáidtear an t-ordú ach seoladh amháin"
+msgstr "nÃ­ ÃºsÃ¡idtear an t-ordÃº ach seoladh amhÃ¡in"
 
 #: sed/compile.c:174
 msgid "unterminated address regex"
-msgstr "seoladh regex gan chríochnú"
+msgstr "seoladh regex gan chrÃ­ochnÃº"
 
 #: sed/compile.c:175
 msgid "unterminated `s' command"
-msgstr "ordú `s' gan chríochnú"
+msgstr "ordÃº `s' gan chrÃ­ochnÃº"
 
 #: sed/compile.c:176
 msgid "unterminated `y' command"
-msgstr "ordú `y' gan chríochnú"
+msgstr "ordÃº `y' gan chrÃ­ochnÃº"
 
 #: sed/compile.c:177
 msgid "unknown option to `s'"
@@ -90,122 +90,126 @@ msgstr "an iomarca roghanna `g' i ndiaidh `s'"
 
 #: sed/compile.c:180
 msgid "multiple number options to `s' command"
-msgstr "an iomarca roghanna uimhriúla i ndiaidh `s'"
+msgstr "an iomarca roghanna uimhriÃºla i ndiaidh `s'"
 
 #: sed/compile.c:181
 msgid "number option to `s' command may not be zero"
-msgstr "ní cheadaítear nialas mar rogha uimhriúil leis an ordú `s'"
+msgstr "nÃ­ cheadaÃ­tear nialas mar rogha uimhriÃºil leis an ordÃº `s'"
 
 #: sed/compile.c:182
 msgid "strings for `y' command are different lengths"
-msgstr "níl aon fhad amháin ar na teaghráin leis an ordú `y'"
+msgstr "nÃ­l aon fhad amhÃ¡in ar na teaghrÃ¡in leis an ordÃº `y'"
 
 #: sed/compile.c:183
 msgid "delimiter character is not a single-byte character"
-msgstr "tá an teormharcóir ina charachtar ilbheart"
+msgstr "tÃ¡ an teormharcÃ³ir ina charachtar ilbheart"
 
 #: sed/compile.c:184
 msgid "expected newer version of sed"
-msgstr "bhíothas ag súil le leagan `sed' níos úire"
+msgstr "bhÃ­othas ag sÃºil le leagan `sed' nÃ­os Ãºire"
 
 #: sed/compile.c:185
 msgid "invalid usage of line address 0"
-msgstr "ní féidir an seoladh líne 0 a úsáid"
+msgstr "nÃ­ fÃ©idir an seoladh lÃ­ne 0 a ÃºsÃ¡id"
 
 #: sed/compile.c:186
 #, c-format
 msgid "unknown command: `%c'"
-msgstr "ordú anaithnid: `%c'"
+msgstr "ordÃº anaithnid: `%c'"
 
 #: sed/compile.c:209
 #, c-format
 msgid "%s: file %s line %lu: %s\n"
-msgstr "%s: comhad %s líne %lu: %s\n"
+msgstr "%s: comhad %s lÃ­ne %lu: %s\n"
 
 #: sed/compile.c:212
 #, c-format
 msgid "%s: -e expression #%lu, char %lu: %s\n"
 msgstr "%s: -e slonn #%lu, char %lu: %s\n"
 
-#: sed/compile.c:1644
+#: sed/compile.c:1645
 #, c-format
 msgid "can't find label for jump to `%s'"
-msgstr "níl aon fháil ar an lipéad `%s' don léim"
+msgstr "nÃ­l aon fhÃ¡il ar an lipÃ©ad `%s' don lÃ©im"
 
-#: sed/execute.c:649
+#: sed/execute.c:699
 #, c-format
 msgid "%s: can't read %s: %s\n"
-msgstr "%s: ní féidir %s a léamh: %s\n"
+msgstr "%s: nÃ­ fÃ©idir %s a lÃ©amh: %s\n"
 
 # Irish is nice this way, no initial mutation on 'rud'! -- KPS
 # Include all three b/c I'm using template version of "Plural-Forms"
-#: sed/execute.c:672
+#: sed/execute.c:722
 #, c-format
 msgid "couldn't edit %s: is a terminal"
-msgstr "níorbh fhéidir %s a chur in eagar; is teirminéal é"
+msgstr "nÃ­orbh fhÃ©idir %s a chur in eagar; is teirminÃ©al Ã©"
 
-#: sed/execute.c:676
+#: sed/execute.c:727
 #, c-format
 msgid "couldn't edit %s: not a regular file"
-msgstr "níorbh fhéidir %s a chur in eagar: ní gnáthchomhad é"
+msgstr "nÃ­orbh fhÃ©idir %s a chur in eagar: nÃ­ gnÃ¡thchomhad Ã©"
 
-#: sed/execute.c:683 lib/utils.c:196
+#: sed/execute.c:734 sed/utils.c:233
 #, c-format
 msgid "couldn't open temporary file %s: %s"
-msgstr "níorbh fhéidir an comhad sealadach %s a oscailt: %s"
+msgstr "nÃ­orbh fhÃ©idir an comhad sealadach %s a oscailt: %s"
 
-#: sed/execute.c:1207 sed/execute.c:1388
+#: sed/execute.c:1266 sed/execute.c:1446
 msgid "error in subprocess"
-msgstr "earráid i bhfo-phróiseas"
+msgstr "earrÃ¡id i bhfo-phrÃ³iseas"
 
-#: sed/execute.c:1209
+#: sed/execute.c:1268
 msgid "option `e' not supported"
-msgstr "níl an rogha `e' ar fáil"
+msgstr "nÃ­l an rogha `e' ar fÃ¡il"
 
-#: sed/execute.c:1390
+#: sed/execute.c:1448
 msgid "`e' command not supported"
-msgstr "níl an t-ordú `e' ar fáil"
+msgstr "nÃ­l an t-ordÃº `e' ar fÃ¡il"
 
-#: sed/regexp.c:39
+#: sed/execute.c:1788
+msgid "no input files"
+msgstr "gan inchomhad"
+
+#: sed/regexp.c:41
 msgid "no previous regular expression"
-msgstr "níl aon slonn ionadaíochta roimhe seo"
+msgstr "nÃ­l aon slonn ionadaÃ­ochta roimhe seo"
 
-#: sed/regexp.c:40
+#: sed/regexp.c:42
 msgid "cannot specify modifiers on empty regexp"
-msgstr "ní féidir mionathraitheoirí a shonrú le slonn bán"
+msgstr "nÃ­ fÃ©idir mionathraitheoirÃ­ a shonrÃº le slonn bÃ¡n"
 
-#: sed/regexp.c:134
+#: sed/regexp.c:131
 #, c-format
 msgid "invalid reference \\%d on `s' command's RHS"
-msgstr "tagairt neamhbhailí \\%d ar dheis ordú `s'"
+msgstr "tagairt neamhbhailÃ­ \\%d ar dheis ordÃº `s'"
 
-#: sed/sed.c:93
+#: sed/sed.c:101
 msgid ""
 "  -R, --regexp-perl\n"
 "                 use Perl 5's regular expressions syntax in the script.\n"
 msgstr ""
 "  -R, --regexp-perl\n"
-"                 bain úsáid as sloinn ionadaíochta atá ag Perl 5.\n"
+"                 bain ÃºsÃ¡id as sloinn ionadaÃ­ochta atÃ¡ ag Perl 5.\n"
 
-#: sed/sed.c:98
+#: sed/sed.c:106
 #, c-format
 msgid ""
 "Usage: %s [OPTION]... {script-only-if-no-other-script} [input-file]...\n"
 "\n"
 msgstr ""
-"Úsáid: %s [ROGHA]... {script-mura-bhfuil-script-eile} [inchomhad]...\n"
+"ÃšsÃ¡id: %s [ROGHA]... {script-mura-bhfuil-script-eile} [inchomhad]...\n"
 "\n"
 
-#: sed/sed.c:102
+#: sed/sed.c:110
 #, c-format
 msgid ""
 "  -n, --quiet, --silent\n"
 "                 suppress automatic printing of pattern space\n"
 msgstr ""
 "  -n, --quiet, --silent\n"
-"                 stop priontáil uathoibríoch den spás patrúin\n"
+"                 stop priontÃ¡il uathoibrÃ­och den spÃ¡s patrÃºin\n"
 
-#: sed/sed.c:104
+#: sed/sed.c:112
 #, c-format
 msgid ""
 "  -e script, --expression=script\n"
@@ -214,26 +218,48 @@ msgstr ""
 "  -e script, --expression=script\n"
 "                 cuir an script leis na horduithe le rith\n"
 
-#: sed/sed.c:106
+#: sed/sed.c:114
 #, c-format
 msgid ""
 "  -f script-file, --file=script-file\n"
-"                 add the contents of script-file to the commands to be executed\n"
+"                 add the contents of script-file to the commands to be "
+"executed\n"
 msgstr ""
 "  -f comhad-script, --file=comhad-script\n"
-"                 cuir na línte i `comhad-script' leis na horduithe le rith\n"
+"                 cuir na lÃ­nte i `comhad-script' leis na horduithe le rith\n"
 
-#: sed/sed.c:108
+#: sed/sed.c:117
+#, c-format
+msgid ""
+"  --follow-symlinks\n"
+"                 follow symlinks when processing in place\n"
+msgstr ""
+"  --follow-symlinks\n"
+"                 lean naisc shiombalacha mÃ¡ phrÃ³iseÃ¡iltear an comhad san\n"
+"                  Ã¡it a bhfuil sÃ©\n"
+
+#: sed/sed.c:120
 #, c-format
 msgid ""
 "  -i[SUFFIX], --in-place[=SUFFIX]\n"
 "                 edit files in place (makes backup if extension supplied)\n"
 msgstr ""
-"  -i[IARMHÍR], --in-place[=IARMHÍR]\n"
-"                 cuir eagar ar chomhaid san áit a bhfuil siad (agus déan\n"
-"                 cúltaca má tá IARMHÍR tugtha\n"
+"  -i[IARMHÃR], --in-place[=IARMHÃR]\n"
+"                 cuir eagar ar chomhaid san Ã¡it a bhfuil siad (agus dÃ©an\n"
+"                 cÃºltaca mÃ¡ thugtar IARMHÃR)\n"
 
-#: sed/sed.c:110
+#: sed/sed.c:123
+#, c-format
+msgid ""
+"  -b, --binary\n"
+"                 open files in binary mode (CR+LFs are not processed "
+"specially)\n"
+msgstr ""
+"  -b, --binary\n"
+"                 oscail comhaid sa mhÃ³d dÃ©nÃ¡rtha (nÃ­ phrÃ³iseÃ¡iltear CR+LFanna\n"
+"                    ar bhealach speisialta)\n"
+
+#: sed/sed.c:126
 #, c-format
 msgid ""
 "  -l N, --line-length=N\n"
@@ -242,56 +268,59 @@ msgstr ""
 "  -l N, --line-length=N\n"
 "                 ceap an fad timfhillte le haghaidh an ordaithe `l'\n"
 
-#: sed/sed.c:112
+#: sed/sed.c:128
 #, c-format
 msgid ""
 "  --posix\n"
 "                 disable all GNU extensions.\n"
 msgstr ""
 "  --posix\n"
-"                 díchumasaigh gach feabhsúchán GNU.\n"
+"                 dÃ­chumasaigh gach feabhsÃºchÃ¡n GNU.\n"
 
-#: sed/sed.c:114
+#: sed/sed.c:130
 #, c-format
 msgid ""
 "  -r, --regexp-extended\n"
 "                 use extended regular expressions in the script.\n"
 msgstr ""
 "  -r, --regexp-extended\n"
-"                 úsáid sloinn ionadaíochta feabhsaithe sa script.\n"
+"                 ÃºsÃ¡id sloinn ionadaÃ­ochta feabhsaithe sa script.\n"
 
-#: sed/sed.c:117
+#: sed/sed.c:133
 #, c-format
 msgid ""
 "  -s, --separate\n"
-"                 consider files as separate rather than as a single continuous\n"
+"                 consider files as separate rather than as a single "
+"continuous\n"
 "                 long stream.\n"
 msgstr ""
 "  -s, --separate\n"
-"                 féach ar comhaid ina leith seachas mar shruth leanúnach.\n"
+"                 fÃ©ach ar chomhaid ina leith seachas mar shruth leanÃºnach.\n"
 
-#: sed/sed.c:120
+#: sed/sed.c:136
 #, c-format
 msgid ""
 "  -u, --unbuffered\n"
-"                 load minimal amounts of data from the input files and flush\n"
+"                 load minimal amounts of data from the input files and "
+"flush\n"
 "                 the output buffers more often\n"
 msgstr ""
 "  -u, --unbuffered\n"
-"                 luchtaigh bloic bheaga ó na comhaid ionchuir agus sruthlaigh\n"
-"                 na maoláin aschuir níos minice\n"
+"                 luchtaigh bloic bheaga Ã³ na comhaid ionchuir agus "
+"sruthlaigh\n"
+"                 na maolÃ¡in aschuir nÃ­os minice\n"
 
-#: sed/sed.c:123
+#: sed/sed.c:139
 #, c-format
 msgid "      --help     display this help and exit\n"
-msgstr "      --help     taispeáin an chabhair seo agus scoir\n"
+msgstr "      --help     taispeÃ¡in an chabhair seo agus scoir\n"
 
-#: sed/sed.c:124
+#: sed/sed.c:140
 #, c-format
 msgid "      --version  output version information and exit\n"
-msgstr "      --version  taispeáin eolas faoin leagan agus scoir\n"
+msgstr "      --version  taispeÃ¡in eolas faoin leagan agus scoir\n"
 
-#: sed/sed.c:125
+#: sed/sed.c:141
 #, c-format
 msgid ""
 "\n"
@@ -302,27 +331,27 @@ msgid ""
 "\n"
 msgstr ""
 "\n"
-"Mura bhfuil rogha -e, --expression, -f, nó --file ann, glacfar an chéad\n"
-"argóint nach raibh ina rogha mar an script `sed' a léirmhíniú.  Tá gach\n"
-"argóint eile an t-ainm do chomhad ionchuir; mura bhfuil comhad ann\n"
-"léigh ón ionchur caighdeánach.\n"
+"Mura bhfuil rogha -e, --expression, -f, nÃ³ --file ann, glacfar an chÃ©ad\n"
+"argÃ³int nach raibh ina rogha mar an script `sed' a lÃ©irmhÃ­niÃº.  TÃ¡ gach\n"
+"argÃ³int eile an t-ainm do chomhad ionchuir; mura bhfuil comhad ann\n"
+"lÃ©igh Ã³n ghnÃ¡th-ionchur.\n"
 "\n"
 
-#: sed/sed.c:131
+#: sed/sed.c:147
 #, c-format
 msgid ""
 "E-mail bug reports to: %s .\n"
 "Be sure to include the word ``%s'' somewhere in the ``Subject:'' field.\n"
 msgstr ""
-"Seol tuairiscí fabhtanna chuig: %s .\n"
-"Cuir an focal ``%s'' áit éigin sa líne ``Subject:'' le do thoil.\n"
+"Seol tuairiscÃ­ fabhtanna chuig: %s .\n"
+"Cuir an focal ``%s'' Ã¡it Ã©igin sa lÃ­ne ``Subject:'' le do thoil.\n"
 
-#: sed/sed.c:268
+#: sed/sed.c:299
 #, c-format
 msgid "super-sed version %s\n"
 msgstr "super-sed, leagan %s\n"
 
-#: sed/sed.c:269
+#: sed/sed.c:300
 #, c-format
 msgid ""
 "based on GNU sed version %s\n"
@@ -331,12 +360,12 @@ msgstr ""
 "bunaithe ar GNU sed, leagan %s\n"
 "\n"
 
-#: sed/sed.c:271
+#: sed/sed.c:302
 #, c-format
 msgid "GNU sed version %s\n"
 msgstr "GNU sed, leagan %s\n"
 
-#: sed/sed.c:273
+#: sed/sed.c:304
 #, c-format
 msgid ""
 "%s\n"
@@ -345,112 +374,127 @@ msgid ""
 "to the extent permitted by law.\n"
 msgstr ""
 "%s\n"
-"Is saorbhogearra an ríomhchlár seo; féach ar an bhunchód le haghaidh\n"
-"coinníollacha cóipeála.  Níl baránta AR BITH ann; go fiú níl baránta ann\n"
-"d'INDÍOLTACHT nó FEILIÚNACHT D'FHEIDHM AR LEITH, an oiread atá ceadaithe\n"
-"de réir dlí.\n"
+"Is saorbhogearra an rÃ­omhchlÃ¡r seo; fÃ©ach ar an bhunchÃ³d le haghaidh\n"
+"coinnÃ­ollacha cÃ³ipeÃ¡la.  NÃ­l barÃ¡nta AR BITH ann; go fiÃº nÃ­l barÃ¡nta ann\n"
+"d'INDÃOLTACHT nÃ³ FEILIÃšNACHT D'FHEIDHM AR LEITH, an oiread atÃ¡ ceadaithe\n"
+"de rÃ©ir dlÃ­.\n"
 
-#: lib/utils.c:98 lib/utils.c:336
+#: sed/utils.c:104 sed/utils.c:444
 #, c-format
 msgid "cannot remove %s: %s"
-msgstr "ní féidir %s a scriosadh: %s"
+msgstr "nÃ­ fÃ©idir %s a scriosadh: %s"
 
-#: lib/utils.c:143
+#: sed/utils.c:174
 #, c-format
 msgid "couldn't open file %s: %s"
-msgstr "níorbh fhéidir an comhad %s a oscailt: %s"
+msgstr "nÃ­orbh fhÃ©idir an comhad %s a oscailt: %s"
+
+#: sed/utils.c:197
+#, c-format
+msgid "couldn't attach to %s: %s"
+msgstr "nÃ­orbh fhÃ©idir ceangal le %s: %s"
 
 # Irish is nice this way, no initial mutation on 'rud'! -- KPS
 # Include all three b/c I'm using template version of "Plural-Forms"
-#: lib/utils.c:220
+#: sed/utils.c:251
 #, c-format
 msgid "couldn't write %d item to %s: %s"
 msgid_plural "couldn't write %d items to %s: %s"
-msgstr[0] "níorbh fhéidir %d rud a scríobh i %s: %s"
-msgstr[1] "níorbh fhéidir %d rud a scríobh i %s: %s"
-msgstr[2] "níorbh fhéidir %d rud a scríobh i %s: %s"
-msgstr[3] "níorbh fhéidir %d rud a scríobh i %s: %s"
-msgstr[4] "níorbh fhéidir %d rud a scríobh i %s: %s"
+msgstr[0] "nÃ­orbh fhÃ©idir %d rud a scrÃ­obh i %s: %s"
+msgstr[1] "nÃ­orbh fhÃ©idir %d rud a scrÃ­obh i %s: %s"
+msgstr[2] "nÃ­orbh fhÃ©idir %d rud a scrÃ­obh i %s: %s"
+msgstr[3] "nÃ­orbh fhÃ©idir %d rud a scrÃ­obh i %s: %s"
+msgstr[4] "nÃ­orbh fhÃ©idir %d rud a scrÃ­obh i %s: %s"
 
-#: lib/utils.c:235 lib/utils.c:251
+#: sed/utils.c:266 sed/utils.c:282
 #, c-format
 msgid "read error on %s: %s"
-msgstr "earráid ag léamh %s: %s"
+msgstr "earrÃ¡id ag lÃ©amh %s: %s"
 
-#: lib/utils.c:341
+#: sed/utils.c:384
+#, c-format
+msgid "couldn't follow symlink %s: %s"
+msgstr "nÃ­orbh fhÃ©idir nasc siombalach %s a leanÃºint: %s"
+
+#: sed/utils.c:418
+#, c-format
+msgid "cannot stat %s: %s"
+msgstr "nÃ­ fÃ©idir %s a 'stat': %s"
+
+#: sed/utils.c:449
 #, c-format
 msgid "cannot rename %s: %s"
-msgstr "ní féidir %s a athainmniú: %s"
+msgstr "nÃ­ fÃ©idir %s a athainmniÃº: %s"
 
-#: lib/regcomp.c:150
+#: lib/regcomp.c:131
 msgid "Success"
-msgstr "D'éirigh leis"
+msgstr "D'Ã©irigh leis"
 
-#: lib/regcomp.c:153
+#: lib/regcomp.c:134
 msgid "No match"
-msgstr "Níl a leithéid ann"
+msgstr "NÃ­l a leithÃ©id ann"
 
-#: lib/regcomp.c:156
+#: lib/regcomp.c:137
 msgid "Invalid regular expression"
-msgstr "Slonn ionadaíochta neamhbhailí"
+msgstr "Slonn ionadaÃ­ochta neamhbhailÃ­"
 
-#: lib/regcomp.c:159
+#: lib/regcomp.c:140
 msgid "Invalid collation character"
-msgstr "Carachtar neamhbhailí cóimheasa"
+msgstr "Carachtar neamhbhailÃ­ comhordaithe"
 
-#: lib/regcomp.c:162
+#: lib/regcomp.c:143
 msgid "Invalid character class name"
-msgstr "Ainm neamhbhailí ar aicme charachtar"
+msgstr "Ainm neamhbhailÃ­ ar aicme charachtar"
 
-#: lib/regcomp.c:165
+#: lib/regcomp.c:146
 msgid "Trailing backslash"
-msgstr "Cúlslais ag deireadh"
+msgstr "CÃºlslais ag deireadh"
 
 # coinage - KPS
-#: lib/regcomp.c:168
+#: lib/regcomp.c:149
 msgid "Invalid back reference"
-msgstr "Cúltagairt neamhbhailí"
+msgstr "CÃºltagairt neamhbhailÃ­"
 
-#: lib/regcomp.c:171
+#: lib/regcomp.c:152
 msgid "Unmatched [ or [^"
-msgstr "[ nó [^ corr"
+msgstr "[ nÃ³ [^ corr"
 
-#: lib/regcomp.c:174
+#: lib/regcomp.c:155
 msgid "Unmatched ( or \\("
-msgstr "( nó \\( corr"
+msgstr "( nÃ³ \\( corr"
 
-#: lib/regcomp.c:177
+#: lib/regcomp.c:158
 msgid "Unmatched \\{"
 msgstr "\\{ corr"
 
-#: lib/regcomp.c:180
+#: lib/regcomp.c:161
 msgid "Invalid content of \\{\\}"
-msgstr "Ábhar neamhbhailí idir \\{\\}"
+msgstr "Ãbhar neamhbhailÃ­ idir \\{\\}"
 
-#: lib/regcomp.c:183
+#: lib/regcomp.c:164
 msgid "Invalid range end"
-msgstr "Deireadh raoin neamhbhailí"
+msgstr "Deireadh raoin neamhbhailÃ­"
 
-#: lib/regcomp.c:186
+#: lib/regcomp.c:167
 msgid "Memory exhausted"
-msgstr "Cuimhne ídithe"
+msgstr "Cuimhne Ã­dithe"
 
-#: lib/regcomp.c:189
+#: lib/regcomp.c:170
 msgid "Invalid preceding regular expression"
-msgstr "Is neamhbhailí an slonn ionadaíochta roimhe seo"
+msgstr "Is neamhbhailÃ­ an slonn ionadaÃ­ochta roimhe seo"
 
-#: lib/regcomp.c:192
+#: lib/regcomp.c:173
 msgid "Premature end of regular expression"
-msgstr "Deireadh le slonn ionadaíochta gan choinne"
+msgstr "Deireadh le slonn ionadaÃ­ochta gan choinne"
 
-#: lib/regcomp.c:195
+#: lib/regcomp.c:176
 msgid "Regular expression too big"
-msgstr "Slonn ionadaíochta rómhór"
+msgstr "Slonn ionadaÃ­ochta rÃ³mhÃ³r"
 
-#: lib/regcomp.c:198
+#: lib/regcomp.c:179
 msgid "Unmatched ) or \\)"
-msgstr ") nó \\) corr"
+msgstr ") nÃ³ \\) corr"
 
-#: lib/regcomp.c:690
+#: lib/regcomp.c:680
 msgid "No previous regular expression"
-msgstr "Níl aon slonn ionadaíochta roimhe seo"
+msgstr "NÃ­l aon slonn ionadaÃ­ochta roimhe seo"

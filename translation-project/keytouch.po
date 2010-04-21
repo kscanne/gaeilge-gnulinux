@@ -1,29 +1,29 @@
 # Irish translations for keytouch.
 # Copyright (C) 2006 Free Software Foundation, Inc.
 # This file is distributed under the same license as the keytouch package.
-# Kevin Patrick Scannell <scannell@SLU.EDU>, 2006.
+# Kevin Patrick Scannell <scannell@SLU.EDU>, 2006, 2007.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: keytouch 2.2-b3\n"
+"Project-Id-Version: keytouch 2.3.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2006-06-26 20:14+0200\n"
-"PO-Revision-Date: 2006-07-16 16:16-0500\n"
-"Last-Translator: Kevin Patrick Scannell <scannell@SLU.EDU>\n"
+"POT-Creation-Date: 2006-10-19 20:17+0200\n"
+"PO-Revision-Date: 2007-09-17 16:16-0500\n"
+"Last-Translator: Kevin Scannell <kscanne@gmail.com>\n"
 "Language-Team: Irish <gaeilge-gnulinux@lists.sourceforge.net>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=ISO-8859-1\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: src/main.c:66 src/memory.c:46 src/memory.c:65
+#: src/main.c:68 src/memory.c:46 src/memory.c:65
 msgid "Could not allocate memory."
 msgstr "Níorbh fhéidir cuimhne a dháileadh."
 
-#: src/main.c:88
+#: src/main.c:90
 msgid "No keyboard was specified, please select your keyboard."
 msgstr "Níor sonraíodh méarchlár. Roghnaigh méarchlár, le do thoil."
 
-#: src/main.c:95
+#: src/main.c:101
 #, c-format
 msgid ""
 "%s\n"
@@ -114,8 +114,8 @@ msgid "Special action plugins"
 msgstr "Breiseáin speisialta ghnímh"
 
 #: src/interface.c:544
-msgid "Documents directory:"
-msgstr "Comhadlann na gcáipéisí:"
+msgid "Mixer channel:"
+msgstr "Cainéal meascthóra:"
 
 #: src/interface.c:552
 msgid "Home page:"
@@ -149,7 +149,7 @@ msgstr "Cláir sheachtracha"
 msgid "Pre_ferences"
 msgstr "Sain_roghanna"
 
-#: src/interface.c:695 src/interface.c:1075
+#: src/interface.c:695 src/interface.c:1057
 msgid "Version:"
 msgstr "Leagan:"
 
@@ -157,7 +157,7 @@ msgstr "Leagan:"
 msgid "Developer:"
 msgstr "Forbróir:"
 
-#: src/interface.c:709 src/interface.c:1082
+#: src/interface.c:709 src/interface.c:1064
 msgid "License:"
 msgstr "Ceadúnas:"
 
@@ -185,24 +185,24 @@ msgstr "Eolas"
 msgid "Help & A_bout"
 msgstr "Ca_bhair & Eolas"
 
-#: src/interface.c:1040
+#: src/interface.c:1022
 msgid "Plugin Information"
 msgstr "Eolas faoin Bhreiseán"
 
-#: src/interface.c:1061
+#: src/interface.c:1043
 msgid "Plugin name:"
 msgstr "Ainm an bhreiseáin:"
 
-#: src/interface.c:1068
+#: src/interface.c:1050
 msgid "Author:"
 msgstr "Údar:"
 
-#: src/interface.c:1089 src/interface.c:1096 src/interface.c:1103
-#: src/interface.c:1110 src/interface.c:1124
+#: src/interface.c:1071 src/interface.c:1078 src/interface.c:1085
+#: src/interface.c:1092 src/interface.c:1106
 msgid "-"
 msgstr "-"
 
-#: src/interface.c:1117
+#: src/interface.c:1099
 msgid ""
 "-\n"
 "\n"
@@ -210,27 +210,27 @@ msgstr ""
 "-\n"
 "\n"
 
-#: src/interface.c:1131
+#: src/interface.c:1113
 msgid "Functions:"
 msgstr "Feidhmeanna:"
 
-#: src/interface.c:1138
+#: src/interface.c:1120
 msgid "Description:"
 msgstr "Cur Síos:"
 
-#: src/interface.c:1202
+#: src/interface.c:1184
 msgid "Choose application"
 msgstr "Roghnaigh feidhmchlár"
 
-#: src/interface.c:1219
+#: src/interface.c:1201
 msgid "Select the application:"
 msgstr "Roghnaigh an feidhmchlár:"
 
-#: src/interface.c:1238
+#: src/interface.c:1220
 msgid "Application command:"
 msgstr "Ordú feidhmchláir:"
 
-#: src/callbacks.c:81
+#: src/callbacks.c:84
 msgid ""
 "To change the keyboard keyTouch has to be closed. After you changed the "
 "keyboard keyTouch will be started again."
@@ -238,16 +238,16 @@ msgstr ""
 "Ní mór duit keyTouch a dhúnadh chun an méarchlár a athrú. Tosófar keyTouch "
 "tar éis do chuid athruithe a chur i bhfeidhm."
 
-#: src/callbacks.c:190
+#: src/callbacks.c:193
 #, c-format
 msgid "Do you really want to remove the plugin \"%s\"?"
 msgstr "An bhfuil tú cinnte gur mhaith leat an breiseán \"%s\" a bhaint?"
 
-#: src/callbacks.c:228
+#: src/callbacks.c:231
 msgid "Import plugin"
 msgstr "Iompórtáil breiseán"
 
-#: src/callbacks.c:368
+#: src/callbacks.c:299
 msgid "user_manual.html"
 msgstr "user_manual.html"
 
@@ -256,49 +256,50 @@ msgstr "user_manual.html"
 msgid "Couldn't find pixmap file: %s"
 msgstr "Níorbh fhéidir an mapa picteilíní a aimsiú: %s"
 
-#: src/config.c:156
+#: src/config.c:160
 msgid "The keyboard (configuration) file contains an invalid action element."
 msgstr "Tá eilimint neamhbhailí ghnímh i gcomhad chumraíocht an mhéarchláir."
 
-#: src/config.c:167
-msgid "The keyboard (configuration) file contains an invalid action-type value."
+#: src/config.c:171
+msgid ""
+"The keyboard (configuration) file contains an invalid action-type value."
 msgstr "Tá luach neamhbhailí ghnímh i gcomhad chumraíocht an mhéarchláir."
 
-#: src/config.c:227
+#: src/config.c:231
 msgid "The keyboard file contains an incomplete key element."
 msgstr "Tá eilimint neamhiomlán eochrach sa chomhad méarchláir."
 
-#: src/config.c:307
+#: src/config.c:311
 #, c-format
 msgid "The keyboard file '%s' does not exist."
 msgstr "Níl comhad méarchláir '%s' ann."
 
-#: src/config.c:312
+#: src/config.c:316
 #, c-format
 msgid "You have no permissions to read from keyboard file '%s'."
 msgstr "Níl cead agat comhad méarchláir '%s' a léamh."
 
-#: src/config.c:318
+#: src/config.c:322
 #, c-format
 msgid "'%s' is an invalid keyboard file."
 msgstr "Is comhad neamhbhailí méarchláir é '%s'."
 
-#: src/config.c:327
+#: src/config.c:331
 #, c-format
 msgid "The keyboard file '%s' does not contain a keyboard element."
 msgstr "Níl eilimint mhéarchláir i gcomhad méarchláir '%s'."
 
-#: src/config.c:334
+#: src/config.c:338
 #, c-format
 msgid "The keyboard file '%s' does not contain a key-list element."
 msgstr "Níl eilimint eochairliosta i gcomhad méarchláir '%s'."
 
-#: src/config.c:341
+#: src/config.c:345
 #, c-format
 msgid "The keyboard file '%s' is invalid."
 msgstr "Is neamhbhailí é comhad méarchláir '%s'."
 
-#: src/config.c:473
+#: src/config.c:477
 #, c-format
 msgid ""
 "The keyboard configuration file contains a key, named '%s', which does not "
@@ -307,12 +308,12 @@ msgstr ""
 "Tá eochair darb ainm '%s' i gcomhad chumraíocht an mhéarchláir, ach níl sé i "
 "do chomhad méarchlár."
 
-#: src/config.c:789
+#: src/config.c:793
 #, c-format
 msgid "An error occurred while writing the preferences file \"%s\"."
 msgstr "Tharla earráid agus comhad sainroghanna \"%s\" á scríobh."
 
-#: src/config.c:1150
+#: src/config.c:1154
 #, c-format
 msgid "An error occurred while writing the keyboard configuration file \"%s\"."
 msgstr "Tharla earráid agus comhad cumraíochta \"%s\" á scríobh."
@@ -324,15 +325,15 @@ msgid ""
 "program will continue without loading the plugins in this directory."
 msgstr ""
 "Níl comhadlann na mbreiseán '%s' ann ar chor ar bith, agus níorbh fhéidir an "
-"chomhadlann a chruthú. Leanfaidh an clár seo ar aghaidh, ach gan na breiseáin "
-"ón chomhadlann seo."
+"chomhadlann a chruthú. Leanfaidh an clár seo ar aghaidh, ach gan na "
+"breiseáin ón chomhadlann seo."
 
 #: src/plugin_control.c:61
 #, c-format
 msgid ""
 "Removing plugin \"%s\" failed. The reason for this is probably because this "
-"plugin is not located in your home directory and you don't have permission to "
-"remove a plugin in that is available for the whole system."
+"plugin is not located in your home directory and you don't have permission "
+"to remove a plugin in that is available for the whole system."
 msgstr ""
 "Theip ar bhaint \"%s\". Is dócha gur theip air seo de bharr nach bhfuil an "
 "breiseán seo suiteáilte i do chomhadlann bhaile, agus nach bhfuil cead agat "
@@ -367,13 +368,17 @@ msgid ""
 "run 'firefox'.\n"
 "Please set your browser in the preferences tab."
 msgstr ""
-"De bhrí nach bhfuil brabhsálaí socraithe agat sa chluaisín sainroghanna, agus "
-"de bhrí nach féidir le keyTouch do thimpeallacht deisce a aithint, déanfaidh "
-"keyTouch iarracht ar 'firefox' a rith.\n"
+"De bhrí nach bhfuil brabhsálaí socraithe agat sa chluaisín sainroghanna, "
+"agus de bhrí nach féidir le keyTouch do thimpeallacht deisce a aithint, "
+"déanfaidh keyTouch iarracht ar 'firefox' a rith.\n"
 "Socraigh do bhrabhsálaí sa chluaisín sainroghanna."
 
+#~ msgid "Documents directory:"
+#~ msgstr "Comhadlann na gcáipéisí:"
+
 #~ msgid "The keyboard configuration file contains an incomplete key element."
-#~ msgstr "Tá eilimint neamhiomlán eochrach i gcomhad chumraíocht an mhéarchláir."
+#~ msgstr ""
+#~ "Tá eilimint neamhiomlán eochrach i gcomhad chumraíocht an mhéarchláir."
 
 #~ msgid "The keyboard configuration file does not contain a keyboard element."
 #~ msgstr "Níl eilimint mhéarchláir i gcomhad chumraíocht an mhéarchláir."
@@ -393,5 +398,9 @@ msgstr ""
 #~ msgid "'%s' is invalid"
 #~ msgstr "Is neamhbhailí é '%s'"
 
-#~ msgid "'%s' is invalid because it has no current-keyboard element as the root element"
-#~ msgstr "Is neamhbhailí é '%s' toisc nach bhfuil eilimint \"current-keyboard\" mar fhréamheilimint"
+#~ msgid ""
+#~ "'%s' is invalid because it has no current-keyboard element as the root "
+#~ "element"
+#~ msgstr ""
+#~ "Is neamhbhailí é '%s' toisc nach bhfuil eilimint \"current-keyboard\" mar "
+#~ "fhréamheilimint"

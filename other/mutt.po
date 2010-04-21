@@ -2697,11 +2697,11 @@ msgstr "scríobh an focal le ceannlitir"
 
 #: keymap_alldefs.h:84
 msgid "convert the word to lower case"
-msgstr "tiontaigh an focal go cás íochtair"
+msgstr "tiontaigh an focal go dtí an cás íochtair"
 
 #: keymap_alldefs.h:85
 msgid "convert the word to upper case"
-msgstr "tiontaigh an focal go cás uachtair"
+msgstr "tiontaigh an focal go dtí an cás uachtair"
 
 #: keymap_alldefs.h:86
 msgid "enter a muttrc command"
