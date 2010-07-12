@@ -12,7 +12,7 @@ msgstr ""
 "Last-Translator: Kevin Scannell <kscanne@gmail.com>\n"
 "Language-Team: Irish <gaeilge-gnulinux@lists.sourceforge.net>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=ISO-8859-1\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 #: src/args.c:610
@@ -20,13 +20,13 @@ msgid ""
 "usage: indent file [-o outfile ] [ options ]\n"
 "       indent file1 file2 ... fileN [ options ]\n"
 msgstr ""
-"˙s·id: indent comhad [-o aschomhad] [ roghanna ]\n"
+"√∫s√°id: indent comhad [-o aschomhad] [ roghanna ]\n"
 "       indent comhad1 comhad2 ... comhadN [ roghanna ]\n"
 
 #: src/args.c:676
 #, c-format
 msgid "%s: missing argument to parameter %s\n"
-msgstr "%s: t· argÛint de dhÌth i ndiaidh an pharaimÈadair %s\n"
+msgstr "%s: t√° arg√≥int de dh√≠th i ndiaidh an pharaim√©adair %s\n"
 
 #: src/args.c:801
 #, c-format
@@ -46,63 +46,63 @@ msgstr "GNU indent %s\n"
 #: src/args.c:912
 #, c-format
 msgid "%s: option ``%s'' requires a numeric parameter\n"
-msgstr "%s: t· paraimÈadar uimhri˙il de dhÌth tar Èis rogha ``%s''\n"
+msgstr "%s: t√° paraim√©adar uimhri√∫il de dh√≠th tar √©is rogha ``%s''\n"
 
 #: src/args.c:920
 #, c-format
 msgid "set_option: internal error: p_type %d\n"
-msgstr "set_option: earr·id inmhe·nach: p_type %d\n"
+msgstr "set_option: earr√°id inmhe√°nach: p_type %d\n"
 
 #: src/args.c:976
 msgid "Profile contains an unterminated comment"
-msgstr "T· nÛta tr·chta gan chrÌochn˙ sa phrÛifÌl"
+msgstr "T√° n√≥ta tr√°chta gan chr√≠ochn√∫ sa phr√≥if√≠l"
 
 #: src/args.c:1014
 msgid "Profile contains unpalatable characters"
-msgstr "T· carachtair dho-ghlactha sa phrÛifÌl"
+msgstr "T√° carachtair dho-ghlactha sa phr√≥if√≠l"
 
 #: src/args.c:1182
 #, c-format
 msgid "File named by environment variable %s does not exist or is not readable"
-msgstr "NÌl an comhad ainmnithe in athrÛg timpeallachta %s ann, nÛ nÌl sÈ inlÈite"
+msgstr "N√≠l an comhad ainmnithe in athr√≥g timpeallachta %s ann, n√≥ n√≠l s√© inl√©ite"
 
 # Irish is clearer
 #: src/backup.c:466
 #, c-format
 msgid "indent:  Strange version-control value\n"
-msgstr "indent:  Luach aisteach don athrÛg thimpeallachta VERSION_CONTROL\n"
+msgstr "indent:  Luach aisteach don athr√≥g thimpeallachta VERSION_CONTROL\n"
 
 # Irish is clearer
 #: src/backup.c:467
 #, c-format
 msgid "indent:  Using numbered-existing\n"
-msgstr "indent:  `numbered_existing' in ˙s·id\n"
+msgstr "indent:  `numbered_existing' in √∫s√°id\n"
 
 #: src/backup.c:498
 #, c-format
 msgid "indent: Can't make backup filename of %s\n"
-msgstr "indent: NÌorbh fhÈidir comhad c˙ltaca de %s a dhÈanamh\n"
+msgstr "indent: N√≠orbh fh√©idir comhad c√∫ltaca de %s a dh√©anamh\n"
 
 #: src/backup.c:506
 #, c-format
 msgid "Can't open backup file %s"
-msgstr "NÌorbh fhÈidir an comhad c˙ltaca %s a oscailt"
+msgstr "N√≠orbh fh√©idir an comhad c√∫ltaca %s a oscailt"
 
 #: src/backup.c:513
 #, c-format
 msgid "Can't write to backup file %s"
-msgstr "NÌorbh fhÈidir scrÌobh a dhÈanamh sa chomhad c˙ltaca %s"
+msgstr "N√≠orbh fh√©idir scr√≠obh a dh√©anamh sa chomhad c√∫ltaca %s"
 
 #: src/backup.c:526
 #, c-format
 msgid "Can't preserve modification time on backup file %s"
 msgstr ""
-"NÌorbh fhÈidir an t-am mionathraithe a choime·d ar an chomhad c˙ltaca %s"
+"N√≠orbh fh√©idir an t-am mionathraithe a choime√°d ar an chomhad c√∫ltaca %s"
 
 #: src/globs.c:49 src/globs.c:74
 #, c-format
 msgid "indent: Virtual memory exhausted.\n"
-msgstr "indent: Cuimhne fhÌor˙il Ìdithe.\n"
+msgstr "indent: Cuimhne fh√≠or√∫il √≠dithe.\n"
 
 #: src/globs.c:93
 #, c-format
@@ -112,12 +112,12 @@ msgstr "indent: %s:%d: %s:"
 #: src/globs.c:109
 #, c-format
 msgid "indent: Fatal Error: "
-msgstr "indent: Earr·id Mharfach: "
+msgstr "indent: Earr√°id Mharfach: "
 
 #: src/globs.c:119
 #, c-format
 msgid "indent: System Error: "
-msgstr "indent: Earr·id ChÛrais: "
+msgstr "indent: Earr√°id Ch√≥rais: "
 
 #: src/globs.h:27
 msgid "Warning"
@@ -125,11 +125,11 @@ msgstr "Rabhadh"
 
 #: src/globs.h:31
 msgid "Error"
-msgstr "Earr·id"
+msgstr "Earr√°id"
 
 #: src/indent.c:187
 msgid "Ran out of memory"
-msgstr "Cuimhne Ìdithe"
+msgstr "Cuimhne √≠dithe"
 
 #: src/indent.c:596 src/indent.c:1318
 #, c-format
@@ -138,7 +138,7 @@ msgstr "%c breise"
 
 #: src/indent.c:1440 src/indent.c:1466 src/indent.c:2624
 msgid "Line broken"
-msgstr "LÌne bhriste"
+msgstr "L√≠ne bhriste"
 
 #: src/indent.c:2115
 msgid "Unmatched #else"
@@ -154,98 +154,98 @@ msgstr "#endif corr"
 
 #: src/indent.c:2563
 msgid "EOF encountered in comment"
-msgstr "Buaileadh comhadchrÌoch i nÛta tr·chta"
+msgstr "Buaileadh comhadchr√≠och i n√≥ta tr√°chta"
 
 # in FARF -KPS
 #: src/indent.c:2802
 msgid "Unexpected end of file"
-msgstr "ComhadchrÌoch gan choinne"
+msgstr "Comhadchr√≠och gan choinne"
 
 #: src/indent.c:2808
 #, c-format
 msgid "There were %d non-blank output lines and %d comments\n"
-msgstr "%d lÌne aschuir le h·bhar agus %d nÛta tr·chta\n"
+msgstr "%d l√≠ne aschuir le h√°bhar agus %d n√≥ta tr√°chta\n"
 
 #: src/indent.c:2812
 #, c-format
 msgid "(Lines with comments)/(Lines with code): %6.3f\n"
-msgstr "(LÌnte le nÛtaÌ tr·chta)/(LÌnte le bunchÛd): %6.3f\n"
+msgstr "(L√≠nte le n√≥ta√≠ tr√°chta)/(L√≠nte le bunch√≥d): %6.3f\n"
 
 #: src/indent.c:2836
 msgid "Line broken 2"
-msgstr "LÌne bhriste 2"
+msgstr "L√≠ne bhriste 2"
 
 #: src/indent.c:3059
 #, c-format
 msgid "indent: only one output file (2nd was %s)\n"
-msgstr "indent: nÌ cheadaÌtear ach aschomhad amh·in (an dara ceann: %s)\n"
+msgstr "indent: n√≠ cheada√≠tear ach aschomhad amh√°in (an dara ceann: %s)\n"
 
 #: src/indent.c:3068 src/indent.c:3094
 #, c-format
 msgid "indent: only one input file when output file is specified\n"
 msgstr ""
-"indent: nÌ cheadaÌtear ach inchomhad amh·in nuair at· aschomhad ceaptha\n"
+"indent: n√≠ cheada√≠tear ach inchomhad amh√°in nuair at√° aschomhad ceaptha\n"
 
 #: src/indent.c:3082 src/indent.c:3129
 #, c-format
 msgid "indent: can't have filenames when specifying standard input\n"
 msgstr ""
-"indent: nÌ cheadaÌtear comhaid agus an t-ionchur caighde·nach sonraithe\n"
+"indent: n√≠ cheada√≠tear comhaid agus an t-ionchur caighde√°nach sonraithe\n"
 
 #: src/indent.c:3102
 #, c-format
 msgid "indent: only one input file when stdout is used\n"
 msgstr ""
-"indent: nÌ cheadaÌtear ach inchomhad amh·in leis an aschur caighde·nach\n"
+"indent: n√≠ cheada√≠tear ach inchomhad amh√°in leis an aschur caighde√°nach\n"
 
 #: src/indent.c:3138
 msgid "command line"
-msgstr "lÌne na n-orduithe"
+msgstr "l√≠ne na n-orduithe"
 
 #: src/indent.c:3330
 #, c-format
 msgid "Read profile %s\n"
-msgstr "PrÛifÌl %s lÈite\n"
+msgstr "Pr√≥if√≠l %s l√©ite\n"
 
 #: src/code_io.c:169
 msgid "Internal buffering error"
-msgstr "Earr·id mhaol·naithe inmhe·nach"
+msgstr "Earr√°id mhaol√°naithe inmhe√°nach"
 
 #: src/code_io.c:262
 #, c-format
 msgid "Can't open input file %s"
-msgstr "NÌ fÈidir an t-inchomhad %s a oscailt"
+msgstr "N√≠ f√©idir an t-inchomhad %s a oscailt"
 
 # French use "stat()" too
 #: src/code_io.c:267
 #, c-format
 msgid "Can't stat input file %s"
-msgstr "NÌ fÈidir an t-inchomhad %s a rochtain le stat()"
+msgstr "N√≠ f√©idir an t-inchomhad %s a rochtain le stat()"
 
 #: src/code_io.c:272
 #, c-format
 msgid "Warning: Zero-length file %s"
-msgstr "Rabhadh: T· an comhad %s folamh"
+msgstr "Rabhadh: T√° an comhad %s folamh"
 
 #: src/code_io.c:280
 #, c-format
 msgid "File %s is too big to read"
-msgstr "T· an comhad %s rÛmhÛr"
+msgstr "T√° an comhad %s r√≥mh√≥r"
 
 #: src/code_io.c:288
 #, c-format
 msgid "System problem reading file %s"
-msgstr "Fadhb leis an gcÛras agus comhad %s · lÈamh"
+msgstr "Fadhb leis an gc√≥ras agus comhad %s √° l√©amh"
 
 #: src/code_io.c:312
 #, c-format
 msgid "Error reading input file %s"
-msgstr "Earr·id agus inchomhad %s · lÈamh"
+msgstr "Earr√°id agus inchomhad %s √° l√©amh"
 
 #: src/code_io.c:317
 #, c-format
 msgid "Error closeing input file %s"
-msgstr "Earr·id agus inchomhad %s · dh˙nadh"
+msgstr "Earr√°id agus inchomhad %s √° dh√∫nadh"
 
 #: src/code_io.c:505
 #, c-format
@@ -255,34 +255,34 @@ msgstr "Rabhadh: Carachtair NULL sa chomhad %s\n"
 # in FARF -KPS
 #: src/lexi.c:787
 msgid "Unterminated character constant"
-msgstr "Tairiseach carachtair gan chrÌochn˙"
+msgstr "Tairiseach carachtair gan chr√≠ochn√∫"
 
 # in FARF -KPS
 #: src/lexi.c:788
 msgid "Unterminated string constant"
-msgstr "Tairiseach teaghr·in gan chrÌochn˙"
+msgstr "Tairiseach teaghr√°in gan chr√≠ochn√∫"
 
 #: src/lexi.c:1034
 #, c-format
 msgid "old style assignment ambiguity in \"=%c\".  Assuming \"= %c\"\n"
 msgstr ""
-"t· an slonn \"=%c\" dÈbhrÌoch (sannach·n ar an sean-nÛs).  Glacadh le \"= %c"
+"t√° an slonn \"=%c\" d√©bhr√≠och (sannach√°n ar an sean-n√≥s).  Glacadh le \"= %c"
 "\"\n"
 
 #: src/output.c:1312
 #, c-format
 msgid "indent: can't create %s\n"
-msgstr "indent: nÌ fÈidir %s a chruth˙\n"
+msgstr "indent: n√≠ f√©idir %s a chruth√∫\n"
 
 #: src/output.c:1351
 #, c-format
 msgid "Can't close output file %s"
-msgstr "NÌ fÈidir an t-aschomhad %s a dh˙nadh"
+msgstr "N√≠ f√©idir an t-aschomhad %s a dh√∫nadh"
 
 #: src/output.c:1364
 #, c-format
 msgid "Can't preserve modification time on output file %s"
-msgstr "NÌorbh fhÈidir an t-am mionathraithe a choime·d ar an aschomhad %s"
+msgstr "N√≠orbh fh√©idir an t-am mionathraithe a choime√°d ar an aschomhad %s"
 
 #: src/parse.c:447
 msgid "Unmatched 'else'"
@@ -290,11 +290,11 @@ msgstr "'else' corr"
 
 #: src/parse.c:473
 msgid "Stmt nesting error."
-msgstr "R·iteas neadaithe go mÌcheart."
+msgstr "R√°iteas neadaithe go m√≠cheart."
 
 #: src/parse.c:515
 msgid "Unknown code to parser"
-msgstr "CÛd anaithnid chuig an phars·laÌ"
+msgstr "C√≥d anaithnid chuig an phars√°la√≠"
 
 # cf French -KPS
 #: src/parse.c:525
@@ -305,11 +305,11 @@ msgstr "ParseStack [%d]:\n"
 #: src/parse.c:529
 #, c-format
 msgid "  stack[%d] =>   stack: %d   ind_level: %d\n"
-msgstr "  cruach[%d]=>   cruach: %d  leibhÈal: %d\n"
+msgstr "  cruach[%d]=>   cruach: %d  leibh√©al: %d\n"
 
 #: src/wildexp.c:126
 msgid "CANNOT FIND '@' FILE!"
-msgstr "NÕ F…IDIR AN COMHAD '@' A FH¡IL!"
+msgstr "N√ç F√âIDIR AN COMHAD '@' A FH√ÅIL!"
 
 #~ msgid "usage: indent file [-o outfile ] [ options ]\n"
-#~ msgstr "˙s·id: indent comhad [-o aschomhad ] [ roghanna ]\n"
+#~ msgstr "√∫s√°id: indent comhad [-o aschomhad ] [ roghanna ]\n"

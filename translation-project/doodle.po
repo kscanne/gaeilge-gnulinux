@@ -12,76 +12,76 @@ msgstr ""
 "Last-Translator: Kevin Patrick Scannell <kscanne@gmail.com>\n"
 "Language-Team: Irish <gaeilge-gnulinux@lists.sourceforge.net>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=ISO-8859-1\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 #: src/doodle/doodle.c:67
 msgid "consider strings to match if DISTANCE letters are different"
-msgstr "glac le teaghr·in mar an gcÈanna m· t· FAD litir dhifri˙il ann, ar a laghad"
+msgstr "glac le teaghr√°in mar an gc√©anna m√° t√° FAD litir dhifri√∫il ann, ar a laghad"
 
 #: src/doodle/doodle.c:69
 msgid "build database (default is to search)"
-msgstr "cruthaigh bunachar sonraÌ (cuardach rÈamhshocraithe)"
+msgstr "cruthaigh bunachar sonra√≠ (cuardach r√©amhshocraithe)"
 
 #: src/doodle/doodle.c:71
 msgid "use the generic plaintext extractor for the language with the 2-letter language code LANG (use when building database)"
-msgstr "˙s·id an t-asbhainteoir ginear·lta tÈacs le haghaidh na teanga leis an chÛd LANG de rÈir ISO-639-1 (˙s·id agus an bunachar sonraÌ · thÛg·il)"
+msgstr "√∫s√°id an t-asbhainteoir ginear√°lta t√©acs le haghaidh na teanga leis an ch√≥d LANG de r√©ir ISO-639-1 (√∫s√°id agus an bunachar sonra√≠ √° th√≥g√°il)"
 
 #: src/doodle/doodle.c:73 src/doodle/doodled.c:64
 msgid "use location FILENAME to store doodle database"
-msgstr "s·bh·il an bunachar sonraÌ doodle sa chomhad FILENAME"
+msgstr "s√°bh√°il an bunachar sonra√≠ doodle sa chomhad FILENAME"
 
 #: src/doodle/doodle.c:75
 msgid "for each matching file, print the extracted keywords"
-msgstr "taispe·in na lorgfhocail asbhainte do gach ceann de na comhaid chomhoiri˙naithe"
+msgstr "taispe√°in na lorgfhocail asbhainte do gach ceann de na comhaid chomhoiri√∫naithe"
 
 #: src/doodle/doodle.c:77
 msgid "add the filename to the list of keywords (use when building database)"
-msgstr "cuir an t-ainm comhaid leis an liosta lorgfhocal (˙s·id agus an bunachar sonraÌ · thÛg·il)"
+msgstr "cuir an t-ainm comhaid leis an liosta lorgfhocal (√∫s√°id agus an bunachar sonra√≠ √° th√≥g√°il)"
 
 #: src/doodle/doodle.c:79 src/doodle/doodled.c:70
 msgid "print this help page"
-msgstr "priont·il an leathanach cabhrach seo"
+msgstr "priont√°il an leathanach cabhrach seo"
 
 #: src/doodle/doodle.c:81
 msgid "compute hash using the given ALGORITHM (currently sha1 or md5)"
-msgstr "˙s·id an tALGARTAM haise·la tugtha (sha1 nÛ md5 faoi l·thair)"
+msgstr "√∫s√°id an tALGARTAM haise√°la tugtha (sha1 n√≥ md5 faoi l√°thair)"
 
 #: src/doodle/doodle.c:83
 msgid "be case-insensitive (use when searching)"
-msgstr "dÈan neamhshuim ar cheannlitreacha vs. litreacha beaga (agus ag cuardach)"
+msgstr "d√©an neamhshuim ar cheannlitreacha vs. litreacha beaga (agus ag cuardach)"
 
 #: src/doodle/doodle.c:85 src/doodle/doodled.c:74
 msgid "load an extractor plugin named LIBRARY"
-msgstr "luchtaigh breise·n asbhainteora agus ainm LEABHARLANN air"
+msgstr "luchtaigh breise√°n asbhainteora agus ainm LEABHARLANN air"
 
 #: src/doodle/doodle.c:87
 msgid "log keywords to a file named FILENAME"
-msgstr "log·il lorgfhocail i gCOMHAD"
+msgstr "log√°il lorgfhocail i gCOMHAD"
 
 #: src/doodle/doodle.c:89 src/doodle/doodled.c:78
 msgid "do not load default set of extractor plugins"
-msgstr "n· luchtaigh na breise·in asbhainteora rÈamhshocraithe"
+msgstr "n√° luchtaigh na breise√°in asbhainteora r√©amhshocraithe"
 
 #: src/doodle/doodle.c:91 src/doodle/doodled.c:80
 msgid "set the memory limit to SIZE MB (for the tree)."
-msgstr "socraigh an t-uasmhÈid cuimhne mar M…ID MB (don ghÈagchÛras)."
+msgstr "socraigh an t-uasmh√©id cuimhne mar M√âID MB (don gh√©agch√≥ras)."
 
 #: src/doodle/doodle.c:93
 msgid "print suffix tree (for debugging)"
-msgstr "taispe·in an gÈagchÛras iarmhÌre (le haghaidh dÌfhabhtaithe)"
+msgstr "taispe√°in an g√©agch√≥ras iarmh√≠re (le haghaidh d√≠fhabhtaithe)"
 
 #: src/doodle/doodle.c:95 src/doodle/doodled.c:82
 msgid "exclude given paths from building or searching"
-msgstr "f·g na conairÌ tugtha as le linn tÛg·il nÛ cuardach"
+msgstr "f√°g na conair√≠ tugtha as le linn t√≥g√°il n√≥ cuardach"
 
 #: src/doodle/doodle.c:97 src/doodle/doodled.c:84
 msgid "print the version number"
-msgstr "taispe·in an leagan"
+msgstr "taispe√°in an leagan"
 
 #: src/doodle/doodle.c:99 src/doodle/doodled.c:86
 msgid "be verbose"
-msgstr "bÌ foclach"
+msgstr "b√≠ foclach"
 
 #: src/doodle/doodle.c:102
 msgid "doodle [OPTIONS] ([FILENAMES]*|[KEYWORDS]*)"
@@ -89,7 +89,7 @@ msgstr "doodle [ROGHANNA] ([COMHAID]*|[LORGFHOCAIL]*)"
 
 #: src/doodle/doodle.c:103
 msgid "Index and search meta-data of files."
-msgstr "InnÈacsaigh agus cuardaigh meiteashonraÌ de chomhaid."
+msgstr "Inn√©acsaigh agus cuardaigh meiteashonra√≠ de chomhaid."
 
 #: src/doodle/doodle.c:148
 #, c-format
@@ -105,37 +105,37 @@ msgstr "Theip ar ghlao '%s' do chomhad '%s': %s\n"
 #: src/doodle/doodle.c:199
 #, c-format
 msgid "Processing '%s'\n"
-msgstr "'%s' · phrÛise·il\n"
+msgstr "'%s' √° phr√≥ise√°il\n"
 
 #: src/doodle/doodle.c:222 src/doodle/doodled.c:601
 #, c-format
 msgid "No database specified.  Aborting.\n"
-msgstr "NÌl aon bhunachar sonraÌ tugtha.  Ag tobscor.\n"
+msgstr "N√≠l aon bhunachar sonra√≠ tugtha.  Ag tobscor.\n"
 
 #: src/doodle/doodle.c:227 src/doodle/doodled.c:608
 #, c-format
 msgid "'%s' is an invalid database filename (has a colon) for building database (option '%s').\n"
-msgstr "NÌl '%s' ina ainm comhaid bailÌ (t· idirstad ann) le haghaidh tÛg·la (rogha '%s').\n"
+msgstr "N√≠l '%s' ina ainm comhaid bail√≠ (t√° idirstad ann) le haghaidh t√≥g√°la (rogha '%s').\n"
 
 #: src/doodle/doodle.c:259 src/doodle/doodled.c:590
 #, c-format
 msgid "Could not open '%s' for logging: %s.\n"
-msgstr "NÌorbh fhÈidir '%s' a oscailt chun log·il: %s.\n"
+msgstr "N√≠orbh fh√©idir '%s' a oscailt chun log√°il: %s.\n"
 
 #: src/doodle/doodle.c:269 src/doodle/doodled.c:483
 #, c-format
 msgid "Indexing '%s'\n"
-msgstr "'%s' · innÈacs˙\n"
+msgstr "'%s' √° inn√©acs√∫\n"
 
 #: src/doodle/doodle.c:333
 #, c-format
 msgid "Keywords for matching file '%s':\n"
-msgstr "Lorgfhocail do chomhad comhoiri˙naithe '%s':\n"
+msgstr "Lorgfhocail do chomhad comhoiri√∫naithe '%s':\n"
 
 #: src/doodle/doodle.c:360 src/doodle/doodle.c:399
 #, c-format
 msgid "No database specified. Aborting.\n"
-msgstr "NÌl aon bhunachar sonraÌ ceaptha.  Ag tobscor.\n"
+msgstr "N√≠l aon bhunachar sonra√≠ ceaptha.  Ag tobscor.\n"
 
 #: src/doodle/doodle.c:365 src/doodle/doodle.c:404
 #, c-format
@@ -145,17 +145,17 @@ msgstr "Theip ar ghlao '%s' do chomhad '%s': %s.\n"
 #: src/doodle/doodle.c:439
 #, c-format
 msgid "Searching for '%s':\n"
-msgstr "Ag dÈanamh cuardach ar '%s':\n"
+msgstr "Ag d√©anamh cuardach ar '%s':\n"
 
 #: src/doodle/doodle.c:442
 #, c-format
 msgid "Warning: search string is longer than %d characters, search will not work.\n"
-msgstr "Rabhadh: t· an teaghr·n cuardaigh nÌos faide n· %d carachtar, nÌ fheidhmeoidh an cuardach.\n"
+msgstr "Rabhadh: t√° an teaghr√°n cuardaigh n√≠os faide n√° %d carachtar, n√≠ fheidhmeoidh an cuardach.\n"
 
 #: src/doodle/doodle.c:447
 #, c-format
 msgid "Warning: search string is longer than %d characters, search may not work properly.\n"
-msgstr "Rabhadh: t· an teaghr·n cuardaigh nÌos faide n· %d carachtar, is fÈidir nach bhfeidhmeoidh an cuardach go ceart.\n"
+msgstr "Rabhadh: t√° an teaghr√°n cuardaigh n√≠os faide n√° %d carachtar, is f√©idir nach bhfeidhmeoidh an cuardach go ceart.\n"
 
 #: src/doodle/doodle.c:459 src/doodle/doodle.c:469
 #, c-format
@@ -165,18 +165,18 @@ msgstr "\tAr iarraidh!\n"
 #: src/doodle/doodle.c:543 src/doodle/doodle.c:605 src/doodle/doodled.c:867
 #, c-format
 msgid "You must pass a number to the '%s' option.\n"
-msgstr "NÌ fol·ir rogha uimhri˙il leis an rogha '%s'.\n"
+msgstr "N√≠ fol√°ir rogha uimhri√∫il leis an rogha '%s'.\n"
 
 #: src/doodle/doodle.c:548 src/doodle/doodle.c:559 src/doodle/doodle.c:564
 #: src/doodle/doodle.c:569 src/doodle/doodle.c:592 src/doodle/doodle.c:621
 #, c-format
 msgid "The options '%s' and '%s' cannot be used together!\n"
-msgstr "nÌ cheadaÌtear na roghanna '%s' agus '%s' le chÈile!\n"
+msgstr "n√≠ cheada√≠tear na roghanna '%s' agus '%s' le ch√©ile!\n"
 
 #: src/doodle/doodle.c:610 src/doodle/doodled.c:872
 #, c-format
 msgid "Specified memory limit is too high.\n"
-msgstr "Is rÛ-ard an t-uasmhÈid cuimhne tugtha.\n"
+msgstr "Is r√≥-ard an t-uasmh√©id cuimhne tugtha.\n"
 
 #: src/doodle/doodle.c:635 src/doodle/doodled.c:889
 #, c-format
@@ -186,25 +186,25 @@ msgstr "Leagan %s\n"
 #: src/doodle/doodle.c:640 src/doodle/doodled.c:894
 #, c-format
 msgid "Use '--help' to get a list of options.\n"
-msgstr "Bain ˙s·id as '--help' le haghaidh nÌos mÛ roghanna.\n"
+msgstr "Bain √∫s√°id as '--help' le haghaidh n√≠os m√≥ roghanna.\n"
 
 #: src/doodle/doodle.c:649
 #, c-format
 msgid "Invoke with filenames or directories to index!\n"
-msgstr "Cuir ar si˙l le hainmneacha comhaid nÛ comhadlanna chun innÈacs a dhÈanamh!\n"
+msgstr "Cuir ar si√∫l le hainmneacha comhaid n√≥ comhadlanna chun inn√©acs a dh√©anamh!\n"
 
 #: src/doodle/doodle.c:650
 #, c-format
 msgid "Invoke with query terms to search for!\n"
-msgstr "Cuir ar si˙l le focail chun cuardach a dhÈanamh!\n"
+msgstr "Cuir ar si√∫l le focail chun cuardach a dh√©anamh!\n"
 
 #: src/doodle/doodled.c:61
 msgid "use the generic plaintext extractor for the language with the 2-letter language code LANG"
-msgstr "˙s·id an t-asbhainteoir ginear·lta tÈacs le haghaidh na teanga leis an chÛd LANG de rÈir ISO-639-1"
+msgstr "√∫s√°id an t-asbhainteoir ginear√°lta t√©acs le haghaidh na teanga leis an ch√≥d LANG de r√©ir ISO-639-1"
 
 #: src/doodle/doodled.c:66
 msgid "run in debug mode, do not daemonize"
-msgstr "rith sa mhÛd dÌfhabhtaithe, n· rith mar dheamhan"
+msgstr "rith sa mh√≥d d√≠fhabhtaithe, n√° rith mar dheamhan"
 
 #: src/doodle/doodled.c:68
 msgid "add the filename to the list of keywords"
@@ -212,11 +212,11 @@ msgstr "cuir an t-ainm comhaid leis an liosta lorgfhocal"
 
 #: src/doodle/doodled.c:72
 msgid "compute hash using the given ALGORITHM"
-msgstr "˙s·id an tALGARTAM haise·la tugtha"
+msgstr "√∫s√°id an tALGARTAM haise√°la tugtha"
 
 #: src/doodle/doodled.c:76
 msgid "log activity to a file named FILENAME"
-msgstr "˙s·id logchomhad darbh ainm COMHAD"
+msgstr "√∫s√°id logchomhad darbh ainm COMHAD"
 
 #: src/doodle/doodled.c:89
 msgid "doodled [OPTIONS] [FILENAMES]"
@@ -224,11 +224,11 @@ msgstr "doodled [ROGHANNA] [COMHAID]"
 
 #: src/doodle/doodled.c:90
 msgid "Continuously index files in the background."
-msgstr "InnÈacsaigh comhaid go lean˙nach sa ch˙lra."
+msgstr "Inn√©acsaigh comhaid go lean√∫nach sa ch√∫lra."
 
 #: src/doodle/doodled.c:191
 msgid "Event processing thread created.\n"
-msgstr "CruthaÌodh sn·ithe le haghaidh prÛise·la teagmhas.\n"
+msgstr "Crutha√≠odh sn√°ithe le haghaidh pr√≥ise√°la teagmhas.\n"
 
 #: src/doodle/doodled.c:206 src/doodle/doodled.c:225 src/doodle/index.c:141
 #: src/doodle/index.c:149 src/doodle/index.c:172 src/doodle/tree.c:181
@@ -240,32 +240,32 @@ msgstr "Theip ar ghlao '%s': %s\n"
 #: src/doodle/doodled.c:384
 #, c-format
 msgid "Will monitor directory '%s' for changes.\n"
-msgstr "DÈan monatÛireacht ar athruithe sa chomhadlann '%s'.\n"
+msgstr "D√©an monat√≥ireacht ar athruithe sa chomhadlann '%s'.\n"
 
 #: src/doodle/doodled.c:431
 #, c-format
 msgid "Processing file '%s'.\n"
-msgstr "Comhad '%s' · phrÛise·il.\n"
+msgstr "Comhad '%s' √° phr√≥ise√°il.\n"
 
 #: src/doodle/doodled.c:459
 msgid "Main worker thread created.\n"
-msgstr "CruthaÌodh an prÌomhshn·ithe oibre.\n"
+msgstr "Crutha√≠odh an pr√≠omhshn√°ithe oibre.\n"
 
 #: src/doodle/doodled.c:470
 msgid "Failed to spawn event processing thread.\n"
-msgstr "Theip ar thos˙ an tsn·ithe le haghaidh prÛise·la teagmhas.\n"
+msgstr "Theip ar thos√∫ an tsn√°ithe le haghaidh pr√≥ise√°la teagmhas.\n"
 
 #: src/doodle/doodled.c:477
 msgid "Registering with FAM for file system events.\n"
-msgstr "Ag cl·r˙ le FAM le haghaidh teagmhas an chÛrais comhad.\n"
+msgstr "Ag cl√°r√∫ le FAM le haghaidh teagmhas an ch√≥rais comhad.\n"
 
 #: src/doodle/doodled.c:500
 msgid "doodled startup complete.  Now waiting for FAM events.\n"
-msgstr "Tos˙ doodled curtha i gcrÌch.  Ag feitheamh le teagmhais FAM anois.\n"
+msgstr "Tos√∫ doodled curtha i gcr√≠ch.  Ag feitheamh le teagmhais FAM anois.\n"
 
 #: src/doodle/doodled.c:550
 msgid "Error disconnecting from fam.\n"
-msgstr "Earr·id le linn dÌnasctha Û fam.\n"
+msgstr "Earr√°id le linn d√≠nasctha √≥ fam.\n"
 
 #: src/doodle/doodled.c:638
 msgid "Failed to connect to fam.  Aborting.\n"
@@ -274,29 +274,29 @@ msgstr "Theip ar nascadh le fam.  Ag tobscor.\n"
 #: src/doodle/doodled.c:663
 #, c-format
 msgid "Failed to create worker thread: %s"
-msgstr "Theip ar chruth˙ an tsn·ithe oibre: %s"
+msgstr "Theip ar chruth√∫ an tsn√°ithe oibre: %s"
 
 #: src/doodle/doodled.c:676
 msgid "doodled is shutting down.\n"
-msgstr "doodled · stopadh.\n"
+msgstr "doodled √° stopadh.\n"
 
 #: src/doodle/doodled.c:680
 msgid "No files exist that doodled would monitor for changes.  Exiting.\n"
-msgstr "NÌl aon chomhad ann ar a ndÈanfadh doodled monatÛireacht.  Ag scor.\n"
+msgstr "N√≠l aon chomhad ann ar a nd√©anfadh doodled monat√≥ireacht.  Ag scor.\n"
 
 #: src/doodle/doodled.c:688
 #, c-format
 msgid "Cancelling fam monitor '%s'.\n"
-msgstr "MonatÛir fam '%s' · cheal˙.\n"
+msgstr "Monat√≥ir fam '%s' √° cheal√∫.\n"
 
 #: src/doodle/doodled.c:709
 msgid "Unloading libextractor plugins.\n"
-msgstr "Breise·in libextractor · ndÌlucht˙.\n"
+msgstr "Breise√°in libextractor √° nd√≠lucht√∫.\n"
 
 #: src/doodle/doodled.c:901
 #, c-format
 msgid "Invoke with filenames or directories to monitor!\n"
-msgstr "Cuir ar si˙l le hainmneacha comhaid nÛ comhadlanna le monatÛiri˙!\n"
+msgstr "Cuir ar si√∫l le hainmneacha comhaid n√≥ comhadlanna le monat√≥iri√∫!\n"
 
 #: src/doodle/files.c:71 src/doodle/tree.c:328 src/doodle/tree.c:710
 #: src/doodle/tree.c:1077 src/doodle/tree.c:1384 src/doodle/tree.c:1400
@@ -304,37 +304,37 @@ msgstr "Cuir ar si˙l le hainmneacha comhaid nÛ comhadlanna le monatÛiri˙!\n"
 #: src/doodle/tree.c:2356 src/doodle/tree.c:2385
 #, c-format
 msgid "Assertion failed at %s:%d.\n"
-msgstr "Theip ar dhearbh˙ ag %s:%d.\n"
+msgstr "Theip ar dhearbh√∫ ag %s:%d.\n"
 
 #: src/doodle/files.c:107
 #, c-format
 msgid "Scanning '%s'\n"
-msgstr "'%s' · scanadh\n"
+msgstr "'%s' √° scanadh\n"
 
 #: src/doodle/files.c:115
 #, c-format
 msgid "Access to directory '%s' was denied.\n"
-msgstr "Di˙ltaÌodh cead rochtana ar an chomhadlann '%s'.\n"
+msgstr "Di√∫lta√≠odh cead rochtana ar an chomhadlann '%s'.\n"
 
 #: src/doodle/getopt.c:673
 #, c-format
 msgid "%s: option `%s' is ambiguous\n"
-msgstr "%s: T· an rogha `%s' dÈbhrÌoch\n"
+msgstr "%s: T√° an rogha `%s' d√©bhr√≠och\n"
 
 #: src/doodle/getopt.c:698
 #, c-format
 msgid "%s: option `--%s' doesn't allow an argument\n"
-msgstr "%s: nÌ cheadaÌtear argÛint i ndiaidh na rogha `--%s'\n"
+msgstr "%s: n√≠ cheada√≠tear arg√≥int i ndiaidh na rogha `--%s'\n"
 
 #: src/doodle/getopt.c:704
 #, c-format
 msgid "%s: option `%c%s' doesn't allow an argument\n"
-msgstr "%s: nÌ cheadaÌtear argÛint i ndiaidh na rogha `%c%s'\n"
+msgstr "%s: n√≠ cheada√≠tear arg√≥int i ndiaidh na rogha `%c%s'\n"
 
 #: src/doodle/getopt.c:721 src/doodle/getopt.c:892
 #, c-format
 msgid "%s: option `%s' requires an argument\n"
-msgstr "%s: t· argÛint de dhÌth i ndiaidh na rogha `%s'\n"
+msgstr "%s: t√° arg√≥int de dh√≠th i ndiaidh na rogha `%s'\n"
 
 #: src/doodle/getopt.c:750
 #, c-format
@@ -354,32 +354,32 @@ msgstr "%s: rogha neamhcheadaithe -- %c\n"
 #: src/doodle/getopt.c:782
 #, c-format
 msgid "%s: invalid option -- %c\n"
-msgstr "%s: rogha neamhbhailÌ -- %c\n"
+msgstr "%s: rogha neamhbhail√≠ -- %c\n"
 
 #: src/doodle/getopt.c:811 src/doodle/getopt.c:941
 #, c-format
 msgid "%s: option requires an argument -- %c\n"
-msgstr "%s: t· argÛint de dhÌth i ndiaidh na rogha -- %c\n"
+msgstr "%s: t√° arg√≥int de dh√≠th i ndiaidh na rogha -- %c\n"
 
 #: src/doodle/getopt.c:859
 #, c-format
 msgid "%s: option `-W %s' is ambiguous\n"
-msgstr "%s: T· an rogha `-W %s' dÈbhrÌoch\n"
+msgstr "%s: T√° an rogha `-W %s' d√©bhr√≠och\n"
 
 #: src/doodle/getopt.c:877
 #, c-format
 msgid "%s: option `-W %s' doesn't allow an argument\n"
-msgstr "%s: nÌ cheadaÌtear argÛint i ndiaidh na rogha `-W %s'\n"
+msgstr "%s: n√≠ cheada√≠tear arg√≥int i ndiaidh na rogha `-W %s'\n"
 
 #: src/doodle/grow.c:41
 #, c-format
 msgid "FATAL: MALLOC called with size 0!\n"
-msgstr "MARFACH: ghlaodh MALLOC le hargÛint 0!\n"
+msgstr "MARFACH: ghlaodh MALLOC le harg√≥int 0!\n"
 
 #: src/doodle/grow.c:46
 #, c-format
 msgid "FATAL: MALLOC called with size < 0!\n"
-msgstr "MARFACH: glaodh MALLOC le hargÛint dhi˙ltach!\n"
+msgstr "MARFACH: glaodh MALLOC le harg√≥int dhi√∫ltach!\n"
 
 #: src/doodle/grow.c:52 src/doodle/grow.c:70
 #, c-format
@@ -389,12 +389,12 @@ msgstr "MARFACH: %s\n"
 #: src/doodle/grow.c:64
 #, c-format
 msgid "FATAL: STRDUP called with str NULL!\n"
-msgstr "MARFACH: glaodh STRDUP le hargÛint NULL!\n"
+msgstr "MARFACH: glaodh STRDUP le harg√≥int NULL!\n"
 
 #: src/doodle/grow.c:100
 #, c-format
 msgid "FATAL: can not allocate %u * %d elements (number too large) at %s:%d.\n"
-msgstr "MARFACH: nÌ fÈidir %u * %d rÈada a dh·ileadh (uimhir rÛmhÛr) ag %s:%d.\n"
+msgstr "MARFACH: n√≠ f√©idir %u * %d r√©ada a dh√°ileadh (uimhir r√≥mh√≥r) ag %s:%d.\n"
 
 #: src/doodle/help.c:51
 #, c-format
@@ -403,28 +403,28 @@ msgid ""
 "%s\n"
 "\n"
 msgstr ""
-"⁄s·id: %s\n"
+"√ös√°id: %s\n"
 "%s\n"
 "\n"
 
 #: src/doodle/help.c:54
 #, c-format
 msgid "Arguments mandatory for long options are also mandatory for short options.\n"
-msgstr "Is riachtanach le rogha ghearr aon argÛint at· riachtanach leis an rogha fhada.\n"
+msgstr "Is riachtanach le rogha ghearr aon arg√≥int at√° riachtanach leis an rogha fhada.\n"
 
 #: src/doodle/index.c:161
 msgid "Loading default set of libextractor plugins.\n"
-msgstr "Breise·in rÈamhshocraithe libextractor · lucht˙.\n"
+msgstr "Breise√°in r√©amhshocraithe libextractor √° lucht√∫.\n"
 
 #: src/doodle/index.c:165
 #, c-format
 msgid "Loading libextractor plugins: '%s'\n"
-msgstr "Breise·in libextractor · lucht˙: '%s'\n"
+msgstr "Breise√°in libextractor √° lucht√∫: '%s'\n"
 
 #: src/doodle/tree.c:194
 #, c-format
 msgid "Short read at offset %llu (attempted to read %llu bytes).\n"
-msgstr "Easpa ar lÈamh ag frith·ireamh %llu (ag iarraidh %llu beart a lÈamh).\n"
+msgstr "Easpa ar l√©amh ag frith√°ireamh %llu (ag iarraidh %llu beart a l√©amh).\n"
 
 #: src/doodle/tree.c:212
 #, c-format
@@ -434,7 +434,7 @@ msgstr "Theip ar '%s': %s\n"
 #: src/doodle/tree.c:226
 #, c-format
 msgid "Short write at offset %llu (wanted to write %llu bytes).\n"
-msgstr "Easpa ar scrÌobh ag frith·ireamh %llu (ag iarraidh %llu beart a scrÌobh).\n"
+msgstr "Easpa ar scr√≠obh ag frith√°ireamh %llu (ag iarraidh %llu beart a scr√≠obh).\n"
 
 #: src/doodle/tree.c:415 src/doodle/tree.c:437 src/doodle/tree.c:473
 #: src/doodle/tree.c:502 src/doodle/tree.c:664 src/doodle/tree.c:1119
@@ -446,88 +446,88 @@ msgid ""
 "Assertion failed at %s:%d.\n"
 "Database format error!\n"
 msgstr ""
-"Theip ar dhearbh˙ ag %s:%d.\n"
-"Earr·id i bhform·id bhunachar sonraÌ!\n"
+"Theip ar dhearbh√∫ ag %s:%d.\n"
+"Earr√°id i bhform√°id bhunachar sonra√≠!\n"
 
 #: src/doodle/tree.c:1046
 #, c-format
 msgid "Memory limit (%u bytes) hit, serializing some data.\n"
-msgstr "UasmhÈid cuimhne (%u beart) sroichte, ag srath˙ roinnt sonraÌ.\n"
+msgstr "Uasmh√©id cuimhne (%u beart) sroichte, ag srath√∫ roinnt sonra√≠.\n"
 
 #: src/doodle/tree.c:1084
 #, c-format
 msgid "Reduced memory consumption for suffix tree to %u bytes.\n"
-msgstr "LaghdaÌodh cuimhne don ghÈagchÛras iarmhÌre go %u beart.\n"
+msgstr "Laghda√≠odh cuimhne don gh√©agch√≥ras iarmh√≠re go %u beart.\n"
 
 #: src/doodle/tree.c:1394
 #, c-format
 msgid "Assertion failed at %s:%d: %llu > %llu or %llu > %llu.\n"
-msgstr "Theip ar dhearbh˙ ag %s:%d: %llu > %llu nÛ %llu > %llu.\n"
+msgstr "Theip ar dhearbh√∫ ag %s:%d: %llu > %llu n√≥ %llu > %llu.\n"
 
 #: src/doodle/tree.c:1514
 #, c-format
 msgid "Assertion failed at %s:%d: %llu > %llu.\n"
-msgstr "Theip ar dhearbh˙ ag %s:%d: %llu > %llu.\n"
+msgstr "Theip ar dhearbh√∫ ag %s:%d: %llu > %llu.\n"
 
 #: src/doodle/tree.c:1592
 #, c-format
 msgid "Could not open '%s': %s\n"
-msgstr "NÌorbh fhÈidir '%s' a oscailt: %s\n"
+msgstr "N√≠orbh fh√©idir '%s' a oscailt: %s\n"
 
 #: src/doodle/tree.c:1602 src/doodle/tree.c:1811
 #, c-format
 msgid "Could not lock database '%s': %s\n"
-msgstr "NÌorbh fhÈidir bunachar sonraÌ '%s' a chur faoi ghlas: %s\n"
+msgstr "N√≠orbh fh√©idir bunachar sonra√≠ '%s' a chur faoi ghlas: %s\n"
 
 #: src/doodle/tree.c:1627
 #, c-format
 msgid "Database file '%s' is from incomplete database build.  I will remove it and rebuild the database.\n"
-msgstr "Th·inig an comhad bunachair sonraÌ '%s' as tÛg·il neamhioml·n.  Scriosfaidh mÈ È agus atÛgfaidh mÈ an bunachar sonraÌ.\n"
+msgstr "Th√°inig an comhad bunachair sonra√≠ '%s' as t√≥g√°il neamhioml√°n.  Scriosfaidh m√© √© agus at√≥gfaidh m√© an bunachar sonra√≠.\n"
 
 #: src/doodle/tree.c:1633
 #, c-format
 msgid "Could not unlink '%s': %s\n"
-msgstr "NÌorbh fhÈidir '%s' a dhÌnascadh: %s\n"
+msgstr "N√≠orbh fh√©idir '%s' a dh√≠nascadh: %s\n"
 
 #: src/doodle/tree.c:1641
 #, c-format
 msgid "Database file '%s' has wrong magic code.\n"
-msgstr "T· uimhir dhraÌochta mhÌcheart ar an gcomhad '%s'.\n"
+msgstr "T√° uimhir dhra√≠ochta mh√≠cheart ar an gcomhad '%s'.\n"
 
 #: src/doodle/tree.c:1708
 #, c-format
 msgid "Error reading database '%s' at %s.%d.\n"
-msgstr "Earr·id agus an bunachar sonraÌ '%s' · lÈamh ag %s.%d.\n"
+msgstr "Earr√°id agus an bunachar sonra√≠ '%s' √° l√©amh ag %s.%d.\n"
 
 #: src/doodle/tree.c:1784
 #, c-format
 msgid "Database '%s' does not exist.\n"
-msgstr "NÌl a leithÈid de bhunachar sonraÌ '%s'.\n"
+msgstr "N√≠l a leith√©id de bhunachar sonra√≠ '%s'.\n"
 
 #: src/doodle/tree.c:1802
 #, c-format
 msgid "Error creating database '%s' at %s:%d: %s\n"
-msgstr "Earr·id agus bunachar sonraÌ '%s' · chruth˙ ag %s:%d: %s\n"
+msgstr "Earr√°id agus bunachar sonra√≠ '%s' √° chruth√∫ ag %s:%d: %s\n"
 
 #: src/doodle/tree.c:1928
 #, c-format
 msgid "Could not open temporary file '%s': %s\n"
-msgstr "NÌorbh fhÈidir comhad sealadach '%s' a oscailt: %s\n"
+msgstr "N√≠orbh fh√©idir comhad sealadach '%s' a oscailt: %s\n"
 
 #: src/doodle/tree.c:1942
 #, c-format
 msgid "Writing doodle database to temporary file '%s'.\n"
-msgstr "Ag scrÌobh bunachair sonraÌ doodle chuig comhad sealadach '%s'.\n"
+msgstr "Ag scr√≠obh bunachair sonra√≠ doodle chuig comhad sealadach '%s'.\n"
 
 #: src/doodle/tree.c:2018
 #, c-format
 msgid "Could not remove old database '%s': %s\n"
-msgstr "NÌorbh fhÈidir seanbhunachar sonraÌ '%s' a bhaint: %s\n"
+msgstr "N√≠orbh fh√©idir seanbhunachar sonra√≠ '%s' a bhaint: %s\n"
 
 #: src/doodle/tree.c:2025
 #, c-format
 msgid "Could not rename temporary file '%s' to '%s: %s\n"
-msgstr "NÌorbh fhÈidir comhad sealadach '%s' a athainmni˙ go '%s': %s\n"
+msgstr "N√≠orbh fh√©idir comhad sealadach '%s' a athainmni√∫ go '%s': %s\n"
 
 #: src/doodle/tree.c:2080 src/doodle/tree.c:2138 src/doodle/tree.c:2220
 #: src/doodle/tree.c:2234 src/doodle/tree.c:2519 src/doodle/tree.c:2533
@@ -536,7 +536,7 @@ msgstr "NÌorbh fhÈidir comhad sealadach '%s' a athainmni˙ go '%s': %s\n"
 #: src/doodle/tree.c:2714 src/doodle/tree.c:2736 src/doodle/tree.c:3191
 #, c-format
 msgid "Assertion failed at %s:%d!\n"
-msgstr "Theip ar dhearbh˙ ag %s:%d!\n"
+msgstr "Theip ar dhearbh√∫ ag %s:%d!\n"
 
 #: src/doodle/tree.c:2292
 #, c-format
@@ -546,21 +546,21 @@ msgstr "Lorgfhocal nua '%s' don chomhad '%s'.\n"
 #: src/doodle/tree.c:2916
 #, c-format
 msgid "Removing the keywords for file '%s'.\n"
-msgstr "Lorgfhocail do chomhad '%s' · mbaint.\n"
+msgstr "Lorgfhocail do chomhad '%s' √° mbaint.\n"
 
 #: src/doodle/tree.c:2984 src/doodle/tree.c:3045
 msgid "Scanning filesystem in order to remove obsolete entries from existing database.\n"
-msgstr "CÛras comhad · scanadh chun go scriostar iontr·lacha i lÈig Ûn bhunachar sonraÌ at· ann.\n"
+msgstr "C√≥ras comhad √° scanadh chun go scriostar iontr√°lacha i l√©ig √≥n bhunachar sonra√≠ at√° ann.\n"
 
 #: src/doodle/tree.c:3003 src/doodle/tree.c:3064
 #, c-format
 msgid "File '%s' could not be accessed: %s. Removing file from index.\n"
-msgstr "NÌorbh fhÈidir an comhad '%s' a rochtain: %s.  ¡ scriosadh Ûn innÈacs.\n"
+msgstr "N√≠orbh fh√©idir an comhad '%s' a rochtain: %s.  √Å scriosadh √≥n inn√©acs.\n"
 
 #: src/doodle/tree.c:3010 src/doodle/tree.c:3071
 #, c-format
 msgid "File '%s' is not a regular file. Removing file from index.\n"
-msgstr "NÌl '%s' ina ghn·thchomhad.  ¡ scriosadh Ûn innÈacs.\n"
+msgstr "N√≠l '%s' ina ghn√°thchomhad.  √Å scriosadh √≥n inn√©acs.\n"
 
 #~ msgid "Call to '%s' on file '%s' failed: %s\n"
 #~ msgstr "Theip ar ghlao '%s' do chomhad '%s': %s\n"

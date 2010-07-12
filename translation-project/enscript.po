@@ -10,28 +10,28 @@ msgstr ""
 "Last-Translator: Kevin Patrick Scannell <kscanne@gmail.com>\n"
 "Language-Team: Irish <gaeilge-gnulinux@lists.sourceforge.net>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=ISO-8859-1\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 #: compat/getopt.c:628
 #, c-format
 msgid "%s: option `%s' is ambiguous\n"
-msgstr "%s: Tá an rogha `%s' débhríoch\n"
+msgstr "%s: TÃ¡ an rogha `%s' dÃ©bhrÃ­och\n"
 
 #: compat/getopt.c:652
 #, c-format
 msgid "%s: option `--%s' doesn't allow an argument\n"
-msgstr "%s: ní cheadaítear argóint i ndiaidh na rogha `--%s'\n"
+msgstr "%s: nÃ­ cheadaÃ­tear argÃ³int i ndiaidh na rogha `--%s'\n"
 
 #: compat/getopt.c:657
 #, c-format
 msgid "%s: option `%c%s' doesn't allow an argument\n"
-msgstr "%s: ní cheadaítear argóint i ndiaidh na rogha `%c%s'\n"
+msgstr "%s: nÃ­ cheadaÃ­tear argÃ³int i ndiaidh na rogha `%c%s'\n"
 
 #: compat/getopt.c:674 compat/getopt.c:847
 #, c-format
 msgid "%s: option `%s' requires an argument\n"
-msgstr "%s: tá argóint de dhíth i ndiaidh na rogha `%s'\n"
+msgstr "%s: tÃ¡ argÃ³int de dhÃ­th i ndiaidh na rogha `%s'\n"
 
 #: compat/getopt.c:703
 #, c-format
@@ -51,73 +51,73 @@ msgstr "%s: rogha neamhcheadaithe -- %c\n"
 #: compat/getopt.c:736
 #, c-format
 msgid "%s: invalid option -- %c\n"
-msgstr "%s: rogha neamhbhailí -- %c\n"
+msgstr "%s: rogha neamhbhailÃ­ -- %c\n"
 
 #: compat/getopt.c:766 compat/getopt.c:896
 #, c-format
 msgid "%s: option requires an argument -- %c\n"
-msgstr "%s: tá argóint de dhíth i ndiaidh na rogha -- %c\n"
+msgstr "%s: tÃ¡ argÃ³int de dhÃ­th i ndiaidh na rogha -- %c\n"
 
 #: compat/getopt.c:813
 #, c-format
 msgid "%s: option `-W %s' is ambiguous\n"
-msgstr "%s: Tá an rogha `-W %s' débhríoch\n"
+msgstr "%s: TÃ¡ an rogha `-W %s' dÃ©bhrÃ­och\n"
 
 #: compat/getopt.c:831
 #, c-format
 msgid "%s: option `-W %s' doesn't allow an argument\n"
-msgstr "%s: ní cheadaítear argóint i ndiaidh na rogha `-W %s'\n"
+msgstr "%s: nÃ­ cheadaÃ­tear argÃ³int i ndiaidh na rogha `-W %s'\n"
 
 #: compat/xalloc.c:70
 #, c-format
 msgid "xmalloc(): couldn't allocate %d bytes\n"
-msgstr "xmalloc(): níorbh fhéidir %d beart a dháileadh\n"
+msgstr "xmalloc(): nÃ­orbh fhÃ©idir %d beart a dhÃ¡ileadh\n"
 
 #: compat/xalloc.c:88
 #, c-format
 msgid "xcalloc(): couldn't allocate %d bytes\n"
-msgstr "xcalloc(): níorbh fhéidir %d beart a dháileadh\n"
+msgstr "xcalloc(): nÃ­orbh fhÃ©idir %d beart a dhÃ¡ileadh\n"
 
 #: compat/xalloc.c:109
 #, c-format
 msgid "xrealloc(): couldn't reallocate %d bytes\n"
-msgstr "xrealloc(): níorbh fhéidir %d beart a dháileadh\n"
+msgstr "xrealloc(): nÃ­orbh fhÃ©idir %d beart a dhÃ¡ileadh\n"
 
 #: compat/regex.c:996
 msgid "Success"
-msgstr "D'éirigh leis"
+msgstr "D'Ã©irigh leis"
 
 #: compat/regex.c:997
 msgid "No match"
-msgstr "Níl a leithéid ann"
+msgstr "NÃ­l a leithÃ©id ann"
 
 #: compat/regex.c:998
 msgid "Invalid regular expression"
-msgstr "Slonn ionadaíochta neamhbhailí"
+msgstr "Slonn ionadaÃ­ochta neamhbhailÃ­"
 
 #: compat/regex.c:999
 msgid "Invalid collation character"
-msgstr "Carachtar neamhbhailí comhordaithe"
+msgstr "Carachtar neamhbhailÃ­ comhordaithe"
 
 #: compat/regex.c:1000
 msgid "Invalid character class name"
-msgstr "Ainm neamhbhailí ar aicme charachtar"
+msgstr "Ainm neamhbhailÃ­ ar aicme charachtar"
 
 #: compat/regex.c:1001
 msgid "Trailing backslash"
-msgstr "Cúlslais ag deireadh"
+msgstr "CÃºlslais ag deireadh"
 
 #: compat/regex.c:1002
 msgid "Invalid back reference"
-msgstr "Cúltagairt neamhbhailí"
+msgstr "CÃºltagairt neamhbhailÃ­"
 
 #: compat/regex.c:1003
 msgid "Unmatched [ or [^"
-msgstr "[ nó [^ corr"
+msgstr "[ nÃ³ [^ corr"
 
 #: compat/regex.c:1004
 msgid "Unmatched ( or \\("
-msgstr "( nó \\( corr"
+msgstr "( nÃ³ \\( corr"
 
 #: compat/regex.c:1005
 msgid "Unmatched \\{"
@@ -125,54 +125,54 @@ msgstr "\\{ corr"
 
 #: compat/regex.c:1006
 msgid "Invalid content of \\{\\}"
-msgstr "Ábhar neamhbhailí idir \\{\\}"
+msgstr "Ãbhar neamhbhailÃ­ idir \\{\\}"
 
 #: compat/regex.c:1007
 msgid "Invalid range end"
-msgstr "Deireadh raoin neamhbhailí"
+msgstr "Deireadh raoin neamhbhailÃ­"
 
 #: compat/regex.c:1008
 msgid "Memory exhausted"
-msgstr "Cuimhne ídithe"
+msgstr "Cuimhne Ã­dithe"
 
 #: compat/regex.c:1009
 msgid "Invalid preceding regular expression"
-msgstr "Is neamhbhailí an slonn ionadaíochta roimhe seo"
+msgstr "Is neamhbhailÃ­ an slonn ionadaÃ­ochta roimhe seo"
 
 #: compat/regex.c:1010
 msgid "Premature end of regular expression"
-msgstr "Deireadh le slonn ionadaíochta gan choinne"
+msgstr "Deireadh le slonn ionadaÃ­ochta gan choinne"
 
 #: compat/regex.c:1011
 msgid "Regular expression too big"
-msgstr "Slonn ionadaíochta rómhór"
+msgstr "Slonn ionadaÃ­ochta rÃ³mhÃ³r"
 
 #: compat/regex.c:1012
 msgid "Unmatched ) or \\)"
-msgstr ") nó \\) corr"
+msgstr ") nÃ³ \\) corr"
 
 #: compat/regex.c:5458
 msgid "No previous regular expression"
-msgstr "Níl aon slonn ionadaíochta roimhe seo"
+msgstr "NÃ­l aon slonn ionadaÃ­ochta roimhe seo"
 
 #: src/main.c:966
 #, no-c-format
 msgid "$3v $-40N $3% pages $4L lines  $E $C"
-msgstr "$3v $-40N $3% leathanaigh $4L línte  $E $C"
+msgstr "$3v $-40N $3% leathanaigh $4L lÃ­nte  $E $C"
 
 #: src/main.c:996
 #, c-format
 msgid "couldn't get passwd entry for uid=%d: %s"
-msgstr "ní raibh aon fháil ar an iontráil passwd do uid=%d: %s"
+msgstr "nÃ­ raibh aon fhÃ¡il ar an iontrÃ¡il passwd do uid=%d: %s"
 
 #: src/main.c:1088
 #, c-format
 msgid "couldn't read config file \"%s/%s\": %s"
-msgstr "níorbh fhéidir an comhad cumraíochta \"%s/%s\" a léamh: %s"
+msgstr "nÃ­orbh fhÃ©idir an comhad cumraÃ­ochta \"%s/%s\" a lÃ©amh: %s"
 
 #: src/main.c:1092
 msgid "I did also try the following directories:"
-msgstr "Bhain mé triail as na comhadlanna seo a leanas freisin:"
+msgstr "Bhain mÃ© triail as na comhadlanna seo a leanas freisin:"
 
 #: src/main.c:1093 src/main.c:1094 src/main.c:1095
 #, c-format
@@ -189,7 +189,7 @@ msgstr "\t../../lib"
 
 #: src/main.c:1099
 msgid "This is probably an installation error.  Please, try to rebuild:"
-msgstr "Is dócha gur earráid suiteála í seo.  Déan iarracht é a atógáil:"
+msgstr "Is dÃ³cha gur earrÃ¡id suiteÃ¡la Ã­ seo.  DÃ©an iarracht Ã© a atÃ³gÃ¡il:"
 
 #: src/main.c:1100
 msgid "\tmake distclean"
@@ -197,7 +197,7 @@ msgstr "\tmake distclean"
 
 #: src/main.c:1101
 msgid "\t./configure --prefix=PREFIX"
-msgstr "\t./configure --prefix=RÉIMÍR"
+msgstr "\t./configure --prefix=RÃ‰IMÃR"
 
 #: src/main.c:1102
 msgid "\tmake"
@@ -213,7 +213,7 @@ msgstr "\tmake install"
 
 #: src/main.c:1106
 msgid "or set the environment variable `ENSCRIPT_LIBRARY' to point to your"
-msgstr "nó socraigh an athróg thimpeallachta `ENSCRIPT_LIBRARY' a bheith"
+msgstr "nÃ³ socraigh an athrÃ³g thimpeallachta `ENSCRIPT_LIBRARY' a bheith"
 
 #: src/main.c:1108
 msgid "library directory."
@@ -222,12 +222,12 @@ msgstr "comhadlann na leabharlann s'agat."
 #: src/main.c:1180
 #, c-format
 msgid "unknown encoding: %s"
-msgstr "ionchódú anaithnid: %s"
+msgstr "ionchÃ³dÃº anaithnid: %s"
 
 #: src/main.c:1199
 #, c-format
 msgid "couldn't open AFM library: %s"
-msgstr "níorbh fhéidir leabharlann AFM a oscailt: %s"
+msgstr "nÃ­orbh fhÃ©idir leabharlann AFM a oscailt: %s"
 
 #: src/main.c:1228
 msgid ""
@@ -235,85 +235,85 @@ msgid ""
 "name             width\theight\tllx\tlly\turx\tury\n"
 "------------------------------------------------------------\n"
 msgstr ""
-"meáin ar eolas:\n"
+"meÃ¡in ar eolas:\n"
 "ainm             leithead\tairde\tllx\tlly\turx\tury\n"
 "------------------------------------------------------------\n"
 
 #: src/main.c:1247
 #, c-format
 msgid "do not know anything about media \"%s\""
-msgstr "níl fhios agam faoi mheán \"%s\""
+msgstr "nÃ­l fhios agam faoi mheÃ¡n \"%s\""
 
 #: src/main.c:1291
 #, c-format
 msgid "set new marginals for media `%s' (%dx%d): llx=%d, lly=%d, urx=%d, ury=%d\n"
-msgstr "socraigh imill nua le haghaidh meáin `%s' (%d×%d): llx=%d, lly=%d, urx=%d, ury=%d\n"
+msgstr "socraigh imill nua le haghaidh meÃ¡in `%s' (%dÃ—%d): llx=%d, lly=%d, urx=%d, ury=%d\n"
 
 #: src/main.c:1302
 #, c-format
 msgid "illegal page label format \"%s\""
-msgstr "formáid neamhcheadaithe \"%s\" ar lipéid leathanaigh"
+msgstr "formÃ¡id neamhcheadaithe \"%s\" ar lipÃ©id leathanaigh"
 
 #: src/main.c:1314
 #, c-format
 msgid "illegal non-printable format \"%s\""
-msgstr "formáid neamhcheadaithe neamh-inphriontáilte \"%s\""
+msgstr "formÃ¡id neamhcheadaithe neamh-inphriontÃ¡ilte \"%s\""
 
 #: src/main.c:1328
 #, c-format
 msgid "illegal style for wrapped line marker: \"%s\""
-msgstr "stíl neamhcheadaithe ar mharcálaí na línte timfhillte: \"%s\""
+msgstr "stÃ­l neamhcheadaithe ar mharcÃ¡laÃ­ na lÃ­nte timfhillte: \"%s\""
 
 #: src/main.c:1338
 #, c-format
 msgid "illegal N-up argument: %d"
-msgstr "argóint neamhcheadaithe N-suas: %d"
+msgstr "argÃ³int neamhcheadaithe N-suas: %d"
 
 #: src/main.c:1343
 #, c-format
 msgid "N-up argument must be power of 2: %d"
-msgstr "Caithfidh an argóint N-suas a bheith cumhacht de 2: %d"
+msgstr "Caithfidh an argÃ³int N-suas a bheith cumhacht de 2: %d"
 
 #: src/main.c:1420
 #, c-format
 msgid "malformed underlay position: %s"
-msgstr "ionad míchumtha an fholeatháin: %s"
+msgstr "ionad mÃ­chumtha an fholeathÃ¡in: %s"
 
 #: src/main.c:1443
 #, c-format
 msgid "illegal underlay style: %s"
-msgstr "stíl neamhcheadaithe an fholeatháin: %s"
+msgstr "stÃ­l neamhcheadaithe an fholeathÃ¡in: %s"
 
 #: src/main.c:1470
 msgid ""
 "Highlighting is supported for the following languages and file formats:\n"
 "\n"
 msgstr ""
-"Tacaítear le haibhsiú le haghaidh na dteangacha agus na bhformáidí comhaid seo a leanas:\n"
+"TacaÃ­tear le haibhsiÃº le haghaidh na dteangacha agus na bhformÃ¡idÃ­ comhaid seo a leanas:\n"
 "\n"
 
 #: src/main.c:1641
 #, c-format
 msgid "couldn't create temporary toc file: %s"
-msgstr "níorbh fhéidir comhad sealadach cláir na n-ábhar a chruthú: %s"
+msgstr "nÃ­orbh fhÃ©idir comhad sealadach clÃ¡ir na n-Ã¡bhar a chruthÃº: %s"
 
 #: src/main.c:1688
 #, c-format
 msgid "couldn't stat input file \"%s\": %s"
-msgstr "níorbh fhéidir inchomhad \"%s\" a `stat': %s"
+msgstr "nÃ­orbh fhÃ©idir inchomhad \"%s\" a `stat': %s"
 
 #: src/main.c:1708
 #, c-format
 msgid "couldn't rewind toc file: %s"
-msgstr "níorbh fhéidir comhad cláir na n-ábhar a atochras: %s"
+msgstr "nÃ­orbh fhÃ©idir comhad clÃ¡ir na n-Ã¡bhar a atochras: %s"
 
 #: src/main.c:1714
 msgid "Table of Contents"
-msgstr "Clár Ábhair"
+msgstr "ClÃ¡r Ãbhair"
 
 #: src/main.c:1743
 msgid "no output generated\n"
-msgstr "níor gineadh aschur ar bith\n"
+msgstr "nÃ­or gineadh aschur ar bith\n"
 
 #: src/main.c:1748
 #, c-format
@@ -322,17 +322,17 @@ msgstr "seoladh an t-aschur chuig %s\n"
 
 #: src/main.c:1749 src/main.c:1773
 msgid "printer"
-msgstr "printéir"
+msgstr "printÃ©ir"
 
 #: src/main.c:1751
 #, c-format
 msgid "output left in %s\n"
-msgstr "fágadh an t-aschur i %s\n"
+msgstr "fÃ¡gadh an t-aschur i %s\n"
 
 #: src/main.c:1769
 #, c-format
 msgid "[ %d pages * %d copy ]"
-msgstr "[ %d leathanach * %d cóip ]"
+msgstr "[ %d leathanach * %d cÃ³ip ]"
 
 #: src/main.c:1772
 #, c-format
@@ -342,12 +342,12 @@ msgstr " seolta chuig %s\n"
 #: src/main.c:1775
 #, c-format
 msgid " left in %s\n"
-msgstr " fágtha i %s\n"
+msgstr " fÃ¡gtha i %s\n"
 
 #: src/main.c:1780
 #, c-format
 msgid "%d lines were %s\n"
-msgstr "%d línte %s\n"
+msgstr "%d lÃ­nte %s\n"
 
 #: src/main.c:1782
 msgid "truncated"
@@ -364,31 +364,31 @@ msgstr "%d carachtar ar iarraidh\n"
 
 #: src/main.c:1792
 msgid "missing character codes (decimal):\n"
-msgstr "cóid charachtair ar iarraidh (deachúlach):\n"
+msgstr "cÃ³id charachtair ar iarraidh (deachÃºlach):\n"
 
 #: src/main.c:1800
 #, c-format
 msgid "%d non-printable characters\n"
-msgstr "%d carachtair neamh-inphriontáilte\n"
+msgstr "%d carachtair neamh-inphriontÃ¡ilte\n"
 
 #: src/main.c:1805
 msgid "non-printable character codes (decimal):\n"
-msgstr "cóid charachtair neamh-inphriontáilte (deachúlach):\n"
+msgstr "cÃ³id charachtair neamh-inphriontÃ¡ilte (deachÃºlach):\n"
 
 #: src/main.c:1854
 #, c-format
 msgid "couldn't open printer `%s': %s"
-msgstr "níorbh fhéidir printéir `%s' a oscailt: %s"
+msgstr "nÃ­orbh fhÃ©idir printÃ©ir `%s' a oscailt: %s"
 
 #: src/main.c:1863
 #, c-format
 msgid "couldn't create output file \"%s\": %s"
-msgstr "níorbh fhéidir aschomhad \"%s\" a chruthú: %s"
+msgstr "nÃ­orbh fhÃ©idir aschomhad \"%s\" a chruthÃº: %s"
 
 #: src/main.c:1880
 #, c-format
 msgid "couldn't close output file \"%s\": %s"
-msgstr "níorbh fhéidir aschomhad \"%s\" a dhúnadh: %s"
+msgstr "nÃ­orbh fhÃ©idir aschomhad \"%s\" a dhÃºnadh: %s"
 
 #: src/main.c:1938
 #, c-format
@@ -396,13 +396,13 @@ msgid ""
 "syntax error in option string %s=\"%s\":\n"
 "missing end of quotation: %c"
 msgstr ""
-"earráid chomhréire i dteaghrán rogha %s=\"%s\":\n"
+"earrÃ¡id chomhrÃ©ire i dteaghrÃ¡n rogha %s=\"%s\":\n"
 "deireadh an athfhriotail ar iarraidh: %c"
 
 #: src/main.c:1970
 #, c-format
 msgid "warning: didn't process following options from environment variable %s:\n"
-msgstr "rabhadh: níor próiseáladh na roghanna seo a leanas ón athróg thimpeallachta %s:\n"
+msgstr "rabhadh: nÃ­or prÃ³iseÃ¡ladh na roghanna seo a leanas Ã³n athrÃ³g thimpeallachta %s:\n"
 
 #: src/main.c:1974
 #, c-format
@@ -411,50 +411,50 @@ msgstr "  rogha %d = \"%s\"\n"
 
 #: src/main.c:2020
 msgid "number of columns must be larger than zero"
-msgstr "caithfidh líon na gcolún a bheith níos mó ná 0"
+msgstr "caithfidh lÃ­on na gcolÃºn a bheith nÃ­os mÃ³ nÃ¡ 0"
 
 #: src/main.c:2078
 msgid "file alignment must be larger than zero"
-msgstr "caithfidh ailíniú an chomhaid a bheith níos mó ná 0"
+msgstr "caithfidh ailÃ­niÃº an chomhaid a bheith nÃ­os mÃ³ nÃ¡ 0"
 
 #: src/main.c:2133 src/main.c:2139 src/main.c:2350 src/util.c:415
 #, c-format
 msgid "malformed font spec: %s"
-msgstr "sonraíocht mhíchumtha chló: %s"
+msgstr "sonraÃ­ocht mhÃ­chumtha chlÃ³: %s"
 
 #: src/main.c:2155
 #, c-format
 msgid "couldn't find header definition file \"%s.hdr\""
-msgstr "níorbh fhéidir comhad sainmhínithe an cheanntáisc \"%s.hdr\""
+msgstr "nÃ­orbh fhÃ©idir comhad sainmhÃ­nithe an cheanntÃ¡isc \"%s.hdr\""
 
 #: src/main.c:2199
 #, c-format
 msgid "must print at least one line per each page: %s"
-msgstr "ní mór líne amháin ar a laghad a phriontáil sa leathanach: %s"
+msgstr "nÃ­ mÃ³r lÃ­ne amhÃ¡in ar a laghad a phriontÃ¡il sa leathanach: %s"
 
 #: src/main.c:2219
 #, c-format
 msgid "%s: illegal newline character specifier: '%s': expected 'n' or 'r'\n"
-msgstr "%s: sonraitheoir neamhcheadaithe ar línte nua: '%s': bhíothas ag súil le 'n' nó 'r'\n"
+msgstr "%s: sonraitheoir neamhcheadaithe ar lÃ­nte nua: '%s': bhÃ­othas ag sÃºil le 'n' nÃ³ 'r'\n"
 
 #: src/main.c:2308
 #, c-format
 msgid "malformed argument `%s' for option -W, --option: no comma found"
-msgstr "argóint mhíchumtha `%s' i ndiaidh na rogha -W, --option: níor aimsíodh camóg"
+msgstr "argÃ³int mhÃ­chumtha `%s' i ndiaidh na rogha -W, --option: nÃ­or aimsÃ­odh camÃ³g"
 
 #: src/main.c:2313
 #, c-format
 msgid "helper application specification must be single character: %s"
-msgstr "caithfidh sonraitheoir an fheidhmchláir chabhraigh a bheith ina charachtar aonair: %s"
+msgstr "caithfidh sonraitheoir an fheidhmchlÃ¡ir chabhraigh a bheith ina charachtar aonair: %s"
 
 #: src/main.c:2409
 msgid "slice must be greater than zero"
-msgstr "caithfidh slis a bheith níos mó ná 0"
+msgstr "caithfidh slis a bheith nÃ­os mÃ³ nÃ¡ 0"
 
 #: src/main.c:2490 states/main.c:320
 #, c-format
 msgid "Try `%s --help' for more information.\n"
-msgstr "Bain triail as `%s --help' chun tuilleadh eolais a fháil.\n"
+msgstr "Bain triail as `%s --help' chun tuilleadh eolais a fhÃ¡il.\n"
 
 #: src/main.c:2510
 #, c-format
@@ -477,27 +477,27 @@ msgid ""
 "                             pass a page device definition to output\n"
 "  -e, --escapes[=CHAR]       enable special escape interpretation\n"
 msgstr ""
-"Úsáid: %s [ROGHA]... [COMHAD]...\n"
-"Is riachtanach le rogha ghearr aon argóint atá riachtanach leis an rogha fhada.\n"
-"  -#                         ar comhbhrí le -n, --copies\n"
-"  -1                         ar comhbhrí le --columns=1\n"
-"  -2                         ar comhbhrí le --columns=2\n"
-"      --columns=NUM          sonraigh líon na gcolún sa leathanach\n"
-"  -a, --pages=LEATHANAIGH    sonraigh na leathanaigh le priontáil\n"
-"  -A, --file-align=AILÍNIGH  ailínigh comhaid ionchurtha\n"
-"  -b, --header=CEANNTÁSC     socraigh ceanntásc an leathanaigh\n"
-"  -B, --no-header            gan ceanntásca leathanaigh\n"
-"  -c, --truncate-lines       gearr línte fada (fill de réir réamhshocraithe)\n"
+"ÃšsÃ¡id: %s [ROGHA]... [COMHAD]...\n"
+"Is riachtanach le rogha ghearr aon argÃ³int atÃ¡ riachtanach leis an rogha fhada.\n"
+"  -#                         ar comhbhrÃ­ le -n, --copies\n"
+"  -1                         ar comhbhrÃ­ le --columns=1\n"
+"  -2                         ar comhbhrÃ­ le --columns=2\n"
+"      --columns=NUM          sonraigh lÃ­on na gcolÃºn sa leathanach\n"
+"  -a, --pages=LEATHANAIGH    sonraigh na leathanaigh le priontÃ¡il\n"
+"  -A, --file-align=AILÃNIGH  ailÃ­nigh comhaid ionchurtha\n"
+"  -b, --header=CEANNTÃSC     socraigh ceanntÃ¡sc an leathanaigh\n"
+"  -B, --no-header            gan ceanntÃ¡sca leathanaigh\n"
+"  -c, --truncate-lines       gearr lÃ­nte fada (fill de rÃ©ir rÃ©amhshocraithe)\n"
 "  -C, --line-numbers[=TOSACH]\n"
-"                             taispeáin an líne-uimhir ag tosach gach líne\n"
-"  -d                         ar comhbhrí le --printer\n"
+"                             taispeÃ¡in an lÃ­ne-uimhir ag tosach gach lÃ­ne\n"
+"  -d                         ar comhbhrÃ­ le --printer\n"
 "  -D, --setpagedevice=EOCHAIR[:LUACH]\n"
-"                             seol eolas faoin ghléas leathanaigh chuig aschur\n"
-"  -e, --escapes[=CARACHTAR]  cumasaigh léirmhíniú speisialta éalaithe\n"
+"                             seol eolas faoin ghlÃ©as leathanaigh chuig aschur\n"
+"  -e, --escapes[=CARACHTAR]  cumasaigh lÃ©irmhÃ­niÃº speisialta Ã©alaithe\n"
 
 #: src/main.c:2530
 msgid "  -E, --highlight[=LANG]     highlight source code\n"
-msgstr "  -E, --highlight[=TEANGA]   aibhsigh cód foinseach\n"
+msgstr "  -E, --highlight[=TEANGA]   aibhsigh cÃ³d foinseach\n"
 
 #: src/main.c:2533
 msgid ""
@@ -518,20 +518,20 @@ msgid ""
 "                               --lines-per-page=66, --no-header, --portrait,\n"
 "                               --columns=1\n"
 msgstr ""
-"  -f, --font=AINM            úsáid cló AINM le haghaidh an phríomhthéacs\n"
-"  -F, --header-font=AINM     úsáid cló AINM le haghaidh na gceanntásc\n"
-"  -g, --print-anyway         neamhní (rogha chomhoiriúnachta)\n"
-"  -G                         ar comhbhrí le --fancy-header\n"
-"      --fancy-header[=AINM]  roghnaigh ceanntásc maisiúil leathanaigh\n"
-"  -h, --no-job-header        ná húsáid leathanach ceanntáisc an jab\n"
-"  -H, --highlight-bars=UIMH  socraigh airde na mbarraí aibhsithe\n"
-"  -i, --indent=UIMHIR        socraigh an t-eangú a bheith UIMHIR carachtar\n"
-"  -I, --filter=ORDÚ          léigh inchomhaid trí scagaire ionchurtha ORDÚ\n"
-"  -j, --borders              priontáil imlínte timpeall na gcolún\n"
-"  -J,                        ar comhbhrí le --title\n"
-"  -k, --page-prefeed         cumasaigh réamhfhotha an leathanaigh\n"
-"  -K, --no-page-prefeed      díchumasaigh réamhfhotha an leathanaigh\n"
-"  -l, --lineprinter          insamhail línephrintéir; ar comhbhrí le:\n"
+"  -f, --font=AINM            ÃºsÃ¡id clÃ³ AINM le haghaidh an phrÃ­omhthÃ©acs\n"
+"  -F, --header-font=AINM     ÃºsÃ¡id clÃ³ AINM le haghaidh na gceanntÃ¡sc\n"
+"  -g, --print-anyway         neamhnÃ­ (rogha chomhoiriÃºnachta)\n"
+"  -G                         ar comhbhrÃ­ le --fancy-header\n"
+"      --fancy-header[=AINM]  roghnaigh ceanntÃ¡sc maisiÃºil leathanaigh\n"
+"  -h, --no-job-header        nÃ¡ hÃºsÃ¡id leathanach ceanntÃ¡isc an jab\n"
+"  -H, --highlight-bars=UIMH  socraigh airde na mbarraÃ­ aibhsithe\n"
+"  -i, --indent=UIMHIR        socraigh an t-eangÃº a bheith UIMHIR carachtar\n"
+"  -I, --filter=ORDÃš          lÃ©igh inchomhaid trÃ­ scagaire ionchurtha ORDÃš\n"
+"  -j, --borders              priontÃ¡il imlÃ­nte timpeall na gcolÃºn\n"
+"  -J,                        ar comhbhrÃ­ le --title\n"
+"  -k, --page-prefeed         cumasaigh rÃ©amhfhotha an leathanaigh\n"
+"  -K, --no-page-prefeed      dÃ­chumasaigh rÃ©amhfhotha an leathanaigh\n"
+"  -l, --lineprinter          insamhail lÃ­nephrintÃ©ir; ar comhbhrÃ­ le:\n"
 "                               --lines-per-page=66, --no-header, --portrait,\n"
 "                               --columns=1\n"
 
@@ -552,21 +552,21 @@ msgid ""
 "  -r, --landscape            print in landscape mode\n"
 "  -R, --portrait             print in portrait mode\n"
 msgstr ""
-"  -L, --lines-per-page=UIMH  socraigh líon na línte le priontáil\n"
+"  -L, --lines-per-page=UIMH  socraigh lÃ­on na lÃ­nte le priontÃ¡il\n"
 "                                ar gach leathanach\n"
-"  -m, --mail                 seol ríomhphost ag am críochnaithe\n"
-"  -M, --media=AINM           úsáid meán aschurtha AINM\n"
-"  -n, --copies=UIMHIR        priontáil UIMHIR cóip de gach leathanach\n"
-"  -N, --newline=NL           roghnaigh carachtar líne nua.  Is féidir na\n"
-"                               luachanna seo a leanas: n (`\\n') nó r (`\\r')\n"
-"  -o                         ar comhbhrí le --output\n"
-"  -O, --missing-characters   taispeáin carachtair atá ar iarraidh\n"
-"  -p, --output=COMHAD        fág an t-aschur go COMHAD. Más `-' é an COMHAD,\n"
-"                               fág an t-aschur go stdout.\n"
-"  -P, --printer=AINM         priontáil an t-aschur go dtí an printéir AINM\n"
-"  -q, --quiet, --silent      bí an-tostach\n"
-"  -r, --landscape            priontáil sa mhód tírdhreacha\n"
-"  -R, --portrait             priontáil sa mhód portráide\n"
+"  -m, --mail                 seol rÃ­omhphost ag am crÃ­ochnaithe\n"
+"  -M, --media=AINM           ÃºsÃ¡id meÃ¡n aschurtha AINM\n"
+"  -n, --copies=UIMHIR        priontÃ¡il UIMHIR cÃ³ip de gach leathanach\n"
+"  -N, --newline=NL           roghnaigh carachtar lÃ­ne nua.  Is fÃ©idir na\n"
+"                               luachanna seo a leanas: n (`\\n') nÃ³ r (`\\r')\n"
+"  -o                         ar comhbhrÃ­ le --output\n"
+"  -O, --missing-characters   taispeÃ¡in carachtair atÃ¡ ar iarraidh\n"
+"  -p, --output=COMHAD        fÃ¡g an t-aschur go COMHAD. MÃ¡s `-' Ã© an COMHAD,\n"
+"                               fÃ¡g an t-aschur go stdout.\n"
+"  -P, --printer=AINM         priontÃ¡il an t-aschur go dtÃ­ an printÃ©ir AINM\n"
+"  -q, --quiet, --silent      bÃ­ an-tostach\n"
+"  -r, --landscape            priontÃ¡il sa mhÃ³d tÃ­rdhreacha\n"
+"  -R, --portrait             priontÃ¡il sa mhÃ³d portrÃ¡ide\n"
 
 #: src/main.c:2567
 msgid ""
@@ -589,21 +589,21 @@ msgid ""
 msgstr ""
 "  -s, --baselineskip=UIMHIR  socraigh baselineskip\n"
 "  -S, --statusdict=EOCHAIR[:LUACH]\n"
-"                             seol sainmhíniú ar statusdict go dtí an t-aschur\n"
+"                             seol sainmhÃ­niÃº ar statusdict go dtÃ­ an t-aschur\n"
 "  -t, --title=TEIDEAL        socraigh TEIDEAL an jab ar an leathanach meirge.\n"
-"                                Socraíonn an rogha seo ainm an inchomhaid ó\n"
+"                                SocraÃ­onn an rogha seo ainm an inchomhaid Ã³\n"
 "                                stdin freisin.\n"
-"  -T, --tabsize=UIMHIR       socraigh méid táib\n"
-"  -u, --underlay[=TÉACS]     priontáil TÉACS faoi gach leathanach\n"
-"  -U, --nup=UIMHIR           priontáil UIMHIR leathanach loighciúil ar gach\n"
+"  -T, --tabsize=UIMHIR       socraigh mÃ©id tÃ¡ib\n"
+"  -u, --underlay[=TÃ‰ACS]     priontÃ¡il TÃ‰ACS faoi gach leathanach\n"
+"  -U, --nup=UIMHIR           priontÃ¡il UIMHIR leathanach loighciÃºil ar gach\n"
 "                                leathanach aschurtha\n"
-"  -v, --verbose              bí foclach\n"
-"  -V, --version              taispeáin an leagan\n"
+"  -v, --verbose              bÃ­ foclach\n"
+"  -V, --version              taispeÃ¡in an leagan\n"
 "  -w, --language=TEANGA      socraigh an teanga aschurtha\n"
-"  -W, --options=CLÁR,ROGHA   seol an ROGHA go dtí an CLÁR cabhrach\n"
-"  -X, --encoding=AINM        úsáid an t-ionchódú ionchurtha AINM\n"
-"  -z, --no-formfeed          ná léirmhínigh carachtair fhoirmfhotha\n"
-"  -Z, --pass-through         seol trí chomhaid PostScript agus PCL gan athrú\n"
+"  -W, --options=CLÃR,ROGHA   seol an ROGHA go dtÃ­ an CLÃR cabhrach\n"
+"  -X, --encoding=AINM        ÃºsÃ¡id an t-ionchÃ³dÃº ionchurtha AINM\n"
+"  -z, --no-formfeed          nÃ¡ lÃ©irmhÃ­nigh carachtair fhoirmfhotha\n"
+"  -Z, --pass-through         seol trÃ­ chomhaid PostScript agus PCL gan athrÃº\n"
 
 #: src/main.c:2585
 msgid ""
@@ -620,15 +620,15 @@ msgid ""
 msgstr ""
 "Roghanna fada:\n"
 "  --color[=boole]            cruthaigh aschur datha le staideanna\n"
-"  --continuous-page-numbers  uimhrigh leathanaigh trasna inchomhaid; .i. ná\n"
+"  --continuous-page-numbers  uimhrigh leathanaigh trasna inchomhaid; .i. nÃ¡\n"
 "                             tosaigh na huimhreacha ag tosach gach comhaid.\n"
-"  --download-font=AINM       íosluchtaigh an chlófhoireann AINM\n"
+"  --download-font=AINM       Ã­osluchtaigh an chlÃ³fhoireann AINM\n"
 "  --extended-return-values   cumasaigh luachanna breisithe fillte\n"
-"  --filter-stdin=AINM        conas a thaispeántar stdin go dtí an\n"
+"  --filter-stdin=AINM        conas a thaispeÃ¡ntar stdin go dtÃ­ an\n"
 "                                scagaire ionchurtha\n"
-"  --footer=BUNTÁSC           socraigh buntásc na leathanach\n"
-"  --h-column-height=AIRDE    socraigh AIRDE na gcolún cothrománach\n"
-"  --help                     taispeáin an chabhair seo agus scoir\n"
+"  --footer=BUNTÃSC           socraigh buntÃ¡sc na leathanach\n"
+"  --h-column-height=AIRDE    socraigh AIRDE na gcolÃºn cothromÃ¡nach\n"
+"  --help                     taispeÃ¡in an chabhair seo agus scoir\n"
 
 #: src/main.c:2596
 msgid ""
@@ -642,16 +642,16 @@ msgid ""
 "                             mark wrapped lines in the output with STYLE\n"
 "  --non-printable-format=FMT specify how non-printable chars are printed\n"
 msgstr ""
-"  --help-highlight           déan cur síos ar gach teanga agus gach formáid\n"
+"  --help-highlight           dÃ©an cur sÃ­os ar gach teanga agus gach formÃ¡id\n"
 "                               chomhaid le haghaidh --highlight\n"
-"  --highlight-bar-gray=UIMH  taispeáin barraí aibhsithe le liath UIMH (0 - 1)\n"
-"  --list-media               taispeáin ainmneacha ar gach meán ar eolas\n"
-"  --margins=CLÉ:DEAS:BARR:BUN\n"
+"  --highlight-bar-gray=UIMH  taispeÃ¡in barraÃ­ aibhsithe le liath UIMH (0 - 1)\n"
+"  --list-media               taispeÃ¡in ainmneacha ar gach meÃ¡n ar eolas\n"
+"  --margins=CLÃ‰:DEAS:BARR:BUN\n"
 "                             coigeartaigh imill an leathanaigh\n"
-"  --mark-wrapped-lines[STÍL]\n"
-"                             marcáil línte fillte san aschur de réir STÍL\n"
-"  --non-printable-format=FMD conas a thaispeántar carachtair neamh-\n"
-"                               inphriontáilte\n"
+"  --mark-wrapped-lines[STÃL]\n"
+"                             marcÃ¡il lÃ­nte fillte san aschur de rÃ©ir STÃL\n"
+"  --non-printable-format=FMD conas a thaispeÃ¡ntar carachtair neamh-\n"
+"                               inphriontÃ¡ilte\n"
 
 #: src/main.c:2607
 msgid ""
@@ -664,16 +664,16 @@ msgid ""
 "  --printer-options=OPTIONS  pass extra options to the printer command\n"
 "  --rotate-even-pages        rotate even-numbered pages 180 degrees\n"
 msgstr ""
-"  --nup-columnwise           leag leathanaigh amach de réir colún sa\n"
-"                                mhód priontála N-suas\n"
-"  --nup-xpad=UIMHIR          socraigh x-stuáil an leathanaigh le haghaidh\n"
-"                                priontála N-suas\n"
-"  --nup-ypad=UIMHIR          socraigh y-stuáil an leathanaigh le haghaidh\n"
-"                                priontála N-suas\n"
-"  --page-label-format=FMD    socraigh formáid na lipéad leathanaigh\n"
-"  --ps-level=LEIBHÉAL        socraigh LEIBHÉAL na teanga PostScript\n"
-"  --printer-options=ROGHANNA seol roghanna breise go dtí an t-ordú priontála\n"
-"  --rotate-even-pages        rothlaigh leathanaigh chothroma trí 180 céim\n"
+"  --nup-columnwise           leag leathanaigh amach de rÃ©ir colÃºn sa\n"
+"                                mhÃ³d priontÃ¡la N-suas\n"
+"  --nup-xpad=UIMHIR          socraigh x-stuÃ¡il an leathanaigh le haghaidh\n"
+"                                priontÃ¡la N-suas\n"
+"  --nup-ypad=UIMHIR          socraigh y-stuÃ¡il an leathanaigh le haghaidh\n"
+"                                priontÃ¡la N-suas\n"
+"  --page-label-format=FMD    socraigh formÃ¡id na lipÃ©ad leathanaigh\n"
+"  --ps-level=LEIBHÃ‰AL        socraigh LEIBHÃ‰AL na teanga PostScript\n"
+"  --printer-options=ROGHANNA seol roghanna breise go dtÃ­ an t-ordÃº priontÃ¡la\n"
+"  --rotate-even-pages        rothlaigh leathanaigh chothroma trÃ­ 180 cÃ©im\n"
 
 #: src/main.c:2617
 msgid ""
@@ -689,17 +689,17 @@ msgid ""
 "  --ul-style=STYLE           print underlays with style STYLE\n"
 "  --word-wrap                wrap long lines from word boundaries\n"
 msgstr ""
-"  --slice=UIMHIR             priontáil slis ingearach UIMHIR\n"
-"  --style=STÍL               úsáid an STÍL aibhsithe seo\n"
-"  --swap-even-page-margins   malartaigh na himill ar an taobh clé agus ar an\n"
+"  --slice=UIMHIR             priontÃ¡il slis ingearach UIMHIR\n"
+"  --style=STÃL               ÃºsÃ¡id an STÃL aibhsithe seo\n"
+"  --swap-even-page-margins   malartaigh na himill ar an taobh clÃ© agus ar an\n"
 "                               taobh deas le haghaidh gach leathanach cothrom\n"
-"  --toc                      priontáil clár na n-ábhar\n"
-"  --ul-angle=UILLINN         socraigh UILLINN an téacs foleata\n"
-"  --ul-font=AINM             priontáil foleatháin le clófhoireann AINM\n"
-"  --ul-gray=UIMHIR           priontáil foleatháin le liath UIMHIR\n"
-"  --ul-position=IONAD        socraigh IONAD tosaithe an fholeatháin\n"
-"  --ul-style=STÍL            priontáil foleatháin de réir na STÍLE\n"
-"  --word-wrap                timfhill línte fada ó theorainneacha focal\n"
+"  --toc                      priontÃ¡il clÃ¡r na n-Ã¡bhar\n"
+"  --ul-angle=UILLINN         socraigh UILLINN an tÃ©acs foleata\n"
+"  --ul-font=AINM             priontÃ¡il foleathÃ¡in le clÃ³fhoireann AINM\n"
+"  --ul-gray=UIMHIR           priontÃ¡il foleathÃ¡in le liath UIMHIR\n"
+"  --ul-position=IONAD        socraigh IONAD tosaithe an fholeathÃ¡in\n"
+"  --ul-style=STÃL            priontÃ¡il foleathÃ¡in de rÃ©ir na STÃLE\n"
+"  --word-wrap                timfhill lÃ­nte fada Ã³ theorainneacha focal\n"
 
 #: src/main.c:2631
 msgid ""
@@ -707,50 +707,50 @@ msgid ""
 "Report bugs to mtr@iki.fi.\n"
 msgstr ""
 "\n"
-"Seol tuairiscí fabhtanna chuig mtr@iki.fi.\n"
+"Seol tuairiscÃ­ fabhtanna chuig mtr@iki.fi.\n"
 
 #: src/psgen.c:324
 #, c-format
 msgid "couldn't find prolog \"%s\": %s\n"
-msgstr "níorbh fhéidir réamhfhocal \"%s\" a aimsiú: %s\n"
+msgstr "nÃ­orbh fhÃ©idir rÃ©amhfhocal \"%s\" a aimsiÃº: %s\n"
 
 #: src/psgen.c:332
 #, c-format
 msgid "couldn't find encoding file \"%s.enc\": %s\n"
-msgstr "níorbh fhéidir comhad ionchódaithe \"%s.enc\" a aimsiú: %s\n"
+msgstr "nÃ­orbh fhÃ©idir comhad ionchÃ³daithe \"%s.enc\" a aimsiÃº: %s\n"
 
 #: src/psgen.c:464
 #, c-format
 msgid "couldn't find header definition file \"%s.hdr\": %s\n"
-msgstr "níorbh fhéidir comhad sainmhínithe an cheanntáisc \"%s.hdr\" a aimsiú: %s\n"
+msgstr "nÃ­orbh fhÃ©idir comhad sainmhÃ­nithe an cheanntÃ¡isc \"%s.hdr\" a aimsiÃº: %s\n"
 
 #: src/psgen.c:608
 #, c-format
 msgid "processing file \"%s\"...\n"
-msgstr "comhad \"%s\" á phróiseáil...\n"
+msgstr "comhad \"%s\" Ã¡ phrÃ³iseÃ¡il...\n"
 
 #: src/psgen.c:906
 #, c-format
 msgid "EPS file \"%s\" is too large for page\n"
-msgstr "Is rómhór don leathanach é an comhad EPS \"%s\"\n"
+msgstr "Is rÃ³mhÃ³r don leathanach Ã© an comhad EPS \"%s\"\n"
 
 #: src/psgen.c:979
 msgid "user font encoding can be only the system's default or `ps'"
-msgstr "ní cheadaítear ionchódú cló an úsáideora ach amháin réamhshocrú an chórais, nó `ps'"
+msgstr "nÃ­ cheadaÃ­tear ionchÃ³dÃº clÃ³ an ÃºsÃ¡ideora ach amhÃ¡in rÃ©amhshocrÃº an chÃ³rais, nÃ³ `ps'"
 
 #: src/psgen.c:1220
 #, c-format
 msgid "unknown special escape: %s"
-msgstr "éalúchán anaithnid speisialta: %s"
+msgstr "Ã©alÃºchÃ¡n anaithnid speisialta: %s"
 
 #: src/psgen.c:1346
 #, c-format
 msgid "illegal option %c for ^@epsf escape"
-msgstr "rogha neamhcheadaithe %c d'éalúchán ^@epsf"
+msgstr "rogha neamhcheadaithe %c d'Ã©alÃºchÃ¡n ^@epsf"
 
 #: src/psgen.c:1352
 msgid "malformed ^@epsf escape: no ']' after options"
-msgstr "éalúchán míchumtha ^@epsf: níl ']' i ndiaidh na roghanna"
+msgstr "Ã©alÃºchÃ¡n mÃ­chumtha ^@epsf: nÃ­l ']' i ndiaidh na roghanna"
 
 #: src/psgen.c:1364
 #, c-format
@@ -758,21 +758,21 @@ msgid ""
 "too long file name for ^@epsf escape:\n"
 "%.*s"
 msgstr ""
-"comhadainm rófhada d'éalúchán ^@epsf:\n"
+"comhadainm rÃ³fhada d'Ã©alÃºchÃ¡n ^@epsf:\n"
 "%.*s"
 
 #: src/psgen.c:1368
 msgid "unexpected EOF while scanning ^@epsf escape"
-msgstr "comhadchríoch gan choinne agus éalúchán ^@epsf á scanadh"
+msgstr "comhadchrÃ­och gan choinne agus Ã©alÃºchÃ¡n ^@epsf Ã¡ scanadh"
 
 #: src/psgen.c:1374
 msgid "malformed ^@epsf escape: no '{' found"
-msgstr "éalúchán míchumtha ^@epsf: níor aimsíodh '{'"
+msgstr "Ã©alÃºchÃ¡n mÃ­chumtha ^@epsf: nÃ­or aimsÃ­odh '{'"
 
 #: src/psgen.c:1432
 #, c-format
 msgid "malformed %s escape: no '{' found"
-msgstr "éalúchán míchumtha %s: níor aimsíodh '{'"
+msgstr "Ã©alÃºchÃ¡n mÃ­chumtha %s: nÃ­or aimsÃ­odh '{'"
 
 #: src/psgen.c:1446
 #, c-format
@@ -780,43 +780,43 @@ msgid ""
 "too long argument for %s escape:\n"
 "%.*s"
 msgstr ""
-"argóint rófhada d'éalúchán %s:\n"
+"argÃ³int rÃ³fhada d'Ã©alÃºchÃ¡n %s:\n"
 "%.*s"
 
 #: src/psgen.c:1465
 #, c-format
 msgid "malformed font spec for ^@font escape: %s"
-msgstr "sonraíocht mhíchumtha chló d'éalúchán ^@font: %s"
+msgstr "sonraÃ­ocht mhÃ­chumtha chlÃ³ d'Ã©alÃºchÃ¡n ^@font: %s"
 
 #: src/psgen.c:1501
 #, c-format
 msgid "malformed color spec for ^@%s escape: %s"
-msgstr "sonraíocht mhíchumtha datha d'éalúchán ^@%s: %s"
+msgstr "sonraÃ­ocht mhÃ­chumtha datha d'Ã©alÃºchÃ¡n ^@%s: %s"
 
 #: src/psgen.c:1525
 #, c-format
 msgid "invalid value for ^@shade escape: %s"
-msgstr "luach neamhbhailí ar éalúchán ^@shade: %s"
+msgstr "luach neamhbhailÃ­ ar Ã©alÃºchÃ¡n ^@shade: %s"
 
 #: src/psgen.c:1533
 #, c-format
 msgid "invalid value for ^@bggray escape: %s"
-msgstr "luach neamhbhailí ar éalúchán ^@bggray: %s"
+msgstr "luach neamhbhailÃ­ ar Ã©alÃºchÃ¡n ^@bggray: %s"
 
 #: src/psgen.c:2397
 #, c-format
 msgid "epsf: couldn't open pipe to command \"%s\": %s\n"
-msgstr "epsf: níorbh fhéidir píopa a oscailt go hordú \"%s\": %s\n"
+msgstr "epsf: nÃ­orbh fhÃ©idir pÃ­opa a oscailt go hordÃº \"%s\": %s\n"
 
 #: src/psgen.c:2430
 #, c-format
 msgid "couldn't open EPS file \"%s\": %s\n"
-msgstr "níorbh fhéidir comhad EPS \"%s\" a oscailt: %s\n"
+msgstr "nÃ­orbh fhÃ©idir comhad EPS \"%s\" a oscailt: %s\n"
 
 #: src/psgen.c:2467
 #, c-format
 msgid "EPS file \"%s\" does not start with \"%%!\" magic\n"
-msgstr "Ní thosaíonn an comhad EPS \"%s\" le draíocht  \"%%!\"\n"
+msgstr "NÃ­ thosaÃ­onn an comhad EPS \"%s\" le draÃ­ocht  \"%%!\"\n"
 
 #: src/psgen.c:2492
 #, c-format
@@ -824,38 +824,38 @@ msgid ""
 "EPS file \"%s\" contains malformed %%%%BoundingBox row:\n"
 "\"%.*s\"\n"
 msgstr ""
-"Tá ró míchumtha %%%%BoundingBox sa chomhad EPS \"%s\":\n"
+"TÃ¡ rÃ³ mÃ­chumtha %%%%BoundingBox sa chomhad EPS \"%s\":\n"
 "\"%.*s\"\n"
 
 #: src/psgen.c:2517
 #, c-format
 msgid "EPS file \"%s\" is not a valid EPS file\n"
-msgstr "Ní comhad bailí EPS é an comhad \"%s\"\n"
+msgstr "NÃ­ comhad bailÃ­ EPS Ã© an comhad \"%s\"\n"
 
 #: src/psgen.c:2659
 #, c-format
 msgid "passing through all input files for output language `%s'\n"
-msgstr "ag dul trí gach inchomhad le haghaidh teanga aschurtha `%s'\n"
+msgstr "ag dul trÃ­ gach inchomhad le haghaidh teanga aschurtha `%s'\n"
 
 #: src/psgen.c:2711
 #, c-format
 msgid "passing through %s file \"%s\"\n"
-msgstr "ag dul trí chomhad %s \"%s\"\n"
+msgstr "ag dul trÃ­ chomhad %s \"%s\"\n"
 
 #: src/psgen.c:2814
 #, c-format
 msgid "couldn't create temporary divert file: %s"
-msgstr "níorbh fhéidir comhad sealadach atreoraithe a chruthú: %s"
+msgstr "nÃ­orbh fhÃ©idir comhad sealadach atreoraithe a chruthÃº: %s"
 
 #: src/psgen.c:2831
 #, c-format
 msgid "couldn't rewind divert file: %s"
-msgstr "níorbh fhéidir an comhad atreoraithe a atochras: %s"
+msgstr "nÃ­orbh fhÃ©idir an comhad atreoraithe a atochras: %s"
 
 #: src/util.c:95
 #, c-format
 msgid "missing argument: %s"
-msgstr "argóint ar iarraidh: %s"
+msgstr "argÃ³int ar iarraidh: %s"
 
 #: src/util.c:185 src/util.c:213
 #, c-format
@@ -865,7 +865,7 @@ msgstr "luach neamhcheadaithe \"%s\" ar rogha %s"
 #: src/util.c:201
 #, c-format
 msgid "invalid value \"%s\" for option %s"
-msgstr "luach neamhbhailí \"%s\" ar rogha %s"
+msgstr "luach neamhbhailÃ­ \"%s\" ar rogha %s"
 
 #: src/util.c:439
 #, c-format
@@ -882,110 +882,110 @@ msgstr "%s:%d: %%Format: gan ainm"
 #: src/util.c:627
 #, c-format
 msgid "%s:%d: %%Format: too long name, maxlen=%d"
-msgstr "%s:%d: %%Format: ainm rófhada, uasmhéid=%d"
+msgstr "%s:%d: %%Format: ainm rÃ³fhada, uasmhÃ©id=%d"
 
 # leave "Format"
 #: src/util.c:650
 #, c-format
 msgid "%s:%d: %%Format: name \"%s\" is already defined"
-msgstr "%s:%d: %%Format: sainmhíníodh ainm \"%s\" cheana"
+msgstr "%s:%d: %%Format: sainmhÃ­nÃ­odh ainm \"%s\" cheana"
 
 # leave HeaderHeight
 #: src/util.c:671
 #, c-format
 msgid "%s:%d: %%HeaderHeight: no argument"
-msgstr "%s:%d: %%HeaderHeight: gan argóint"
+msgstr "%s:%d: %%HeaderHeight: gan argÃ³int"
 
 # leave FooterHeight
 #: src/util.c:693
 #, c-format
 msgid "%s:%d: %%FooterHeight: no argument"
-msgstr "%s:%d: %%FooterHeight: gan argóint"
+msgstr "%s:%d: %%FooterHeight: gan argÃ³int"
 
 #: src/util.c:840
 #, c-format
 msgid "%s: warning: font size is negative\n"
-msgstr "%s: rabhadh: clómhéid dhiúltach\n"
+msgstr "%s: rabhadh: clÃ³mhÃ©id dhiÃºltach\n"
 
 #: src/util.c:842
 #, c-format
 msgid "%s: warning: font width is negative\n"
-msgstr "%s: rabhadh: leithead diúltach an chló\n"
+msgstr "%s: rabhadh: leithead diÃºltach an chlÃ³\n"
 
 #: src/util.c:844
 #, c-format
 msgid "%s: warning: font height is negative\n"
-msgstr "%s: rabhadh: airde dhiúltach an chló\n"
+msgstr "%s: rabhadh: airde dhiÃºltach an chlÃ³\n"
 
 #: src/util.c:863
 #, c-format
 msgid "reading AFM info for font \"%s\"\n"
-msgstr "eolas AFM á léamh le haghaidh cló \"%s\"\n"
+msgstr "eolas AFM Ã¡ lÃ©amh le haghaidh clÃ³ \"%s\"\n"
 
 #: src/util.c:896
 #, c-format
 msgid "couldn't open AFM file for font \"%s\", using default\n"
-msgstr "níorbh fhéidir an comhad AFM a oscailt le haghaidh cló \"%s\", ag úsáid an réamhshocrú\n"
+msgstr "nÃ­orbh fhÃ©idir an comhad AFM a oscailt le haghaidh clÃ³ \"%s\", ag ÃºsÃ¡id an rÃ©amhshocrÃº\n"
 
 #: src/util.c:903
 #, c-format
 msgid "couldn't open AFM file for the default font: %s"
-msgstr "níorbh fhéidir an comhad AFM a oscailt le haghaidh an chló réamhshocraithe: %s"
+msgstr "nÃ­orbh fhÃ©idir an comhad AFM a oscailt le haghaidh an chlÃ³ rÃ©amhshocraithe: %s"
 
 #: src/util.c:1092
 #, c-format
 msgid "downloading font \"%s\"\n"
-msgstr "cló \"%s\" á íosluchtú\n"
+msgstr "clÃ³ \"%s\" Ã¡ Ã­osluchtÃº\n"
 
 #: src/util.c:1097
 #, c-format
 msgid "couldn't open font description file \"%s\": %s\n"
-msgstr "níorbh fhéidir comhad clófhoirne \"%s\" a oscailt: %s\n"
+msgstr "nÃ­orbh fhÃ©idir comhad clÃ³fhoirne \"%s\" a oscailt: %s\n"
 
 #: src/util.c:1387
 #, c-format
 msgid "%s: too long format for %%D{} escape"
-msgstr "%s: formáid rófhada d'éalúchán %%D{}"
+msgstr "%s: formÃ¡id rÃ³fhada d'Ã©alÃºchÃ¡n %%D{}"
 
 #: src/util.c:1472
 #, c-format
 msgid "%s: unknown `%%' escape `%c' (%d)"
-msgstr "%s: éalúchán anaithnid `%%' `%c' (%d)"
+msgstr "%s: Ã©alÃºchÃ¡n anaithnid `%%' `%c' (%d)"
 
 #: src/util.c:1510
 #, c-format
 msgid "%s: no closing ')' for $() escape"
-msgstr "%s: gan ')' d'éalúchán $()"
+msgstr "%s: gan ')' d'Ã©alÃºchÃ¡n $()"
 
 #: src/util.c:1513
 #, c-format
 msgid "%s: too long variable name for $() escape"
-msgstr "%s: ainm rófhada athróige d'éalúchán $()"
+msgstr "%s: ainm rÃ³fhada athrÃ³ige d'Ã©alÃºchÃ¡n $()"
 
 #: src/util.c:1540
 #, c-format
 msgid "%s: too long format for $D{} escape"
-msgstr "%s: formáid rófhada d'éalúchán $D{}"
+msgstr "%s: formÃ¡id rÃ³fhada d'Ã©alÃºchÃ¡n $D{}"
 
 #: src/util.c:1628
 #, c-format
 msgid "%s: unknown `$' escape `%c' (%d)"
-msgstr "%s: éalúchán anaithnid `$' `%c' (%d)"
+msgstr "%s: Ã©alÃºchÃ¡n anaithnid `$' `%c' (%d)"
 
 #: src/util.c:1819
 #, c-format
 msgid "malformed float dimension: \"%s\""
-msgstr "toise míchumtha snámhphointe: \"%s\""
+msgstr "toise mÃ­chumtha snÃ¡mhphointe: \"%s\""
 
 #: src/util.c:1936
 #, c-format
 msgid "couldn't open input filter \"%s\" for file \"%s\": %s"
-msgstr "níorbh fhéidir scagaire ionchurtha \"%s\" a oscailt le haghaidh an chomhaid \"%s\": %s"
+msgstr "nÃ­orbh fhÃ©idir scagaire ionchurtha \"%s\" a oscailt le haghaidh an chomhaid \"%s\": %s"
 
 #: src/util.c:1953
 #, c-format
 msgid "couldn't open input file \"%s\": %s"
-msgstr "níorbh fhéidir inchomhad \"%s\" a oscailt: %s"
+msgstr "nÃ­orbh fhÃ©idir inchomhad \"%s\" a oscailt: %s"
 
 #: src/mkafmmap.c:173
 #, c-format
@@ -999,11 +999,11 @@ msgstr "stdout"
 #: src/mkafmmap.c:181
 #, c-format
 msgid "%s: couldn't open output file \"%s\""
-msgstr "%s: níorbh fhéidir aschomhad \"%s\" a oscailt"
+msgstr "%s: nÃ­orbh fhÃ©idir aschomhad \"%s\" a oscailt"
 
 #: src/mkafmmap.c:195
 msgid "couldn't create AFM library"
-msgstr "níorbh fhéidir leabharlann AFM a chruthú"
+msgstr "nÃ­orbh fhÃ©idir leabharlann AFM a chruthÃº"
 
 #: src/mkafmmap.c:244
 #, c-format
@@ -1016,25 +1016,25 @@ msgid ""
 "                          stdout.\n"
 "  -V, --version           print version number\n"
 msgstr ""
-"Úsáid: %s [ROGHA]... COMHAD...\n"
-"Is riachtanach le rogha ghearr aon argóint atá riachtanach leis an rogha fhada.\n"
-"  -h, --help              Taispeáin an chabhair seo agus scoir\n"
-"  -p, --output-file=AINM  Priontáil aschur go comhad AINM (de réir\n"
-"                            réamhshocraithe, \"font.map\").  Más `-' é an\n"
-"                            COMHAD, scríobh aschur go stdout.\n"
-"  -V, --version           Taispeáin eolas faoin leagan\n"
+"ÃšsÃ¡id: %s [ROGHA]... COMHAD...\n"
+"Is riachtanach le rogha ghearr aon argÃ³int atÃ¡ riachtanach leis an rogha fhada.\n"
+"  -h, --help              TaispeÃ¡in an chabhair seo agus scoir\n"
+"  -p, --output-file=AINM  PriontÃ¡il aschur go comhad AINM (de rÃ©ir\n"
+"                            rÃ©amhshocraithe, \"font.map\").  MÃ¡s `-' Ã© an\n"
+"                            COMHAD, scrÃ­obh aschur go stdout.\n"
+"  -V, --version           TaispeÃ¡in eolas faoin leagan\n"
 
 #: states/lex.l:169 states/lex.l:175
 msgid "error: EOF in comment"
-msgstr "earráid: comhadchríoch i nóta tráchta"
+msgstr "earrÃ¡id: comhadchrÃ­och i nÃ³ta trÃ¡chta"
 
 #: states/lex.l:206
 msgid "error: EOF in string constant"
-msgstr "earráid: comhadchríoch i dteaghrán tairiseach"
+msgstr "earrÃ¡id: comhadchrÃ­och i dteaghrÃ¡n tairiseach"
 
 #: states/lex.l:313
 msgid "error: EOF in regular expression"
-msgstr "earráid: comhadchríoch i slonn ionadaíochta"
+msgstr "earrÃ¡id: comhadchrÃ­och i slonn ionadaÃ­ochta"
 
 #: states/main.c:199
 #, c-format
@@ -1044,27 +1044,27 @@ msgstr "staideanna le haghaidh %s GNU %s"
 #: states/main.c:254
 #, c-format
 msgid "%s: malformed variable definition \"%s\"\n"
-msgstr "%s: sainmhíniú míchumtha ar athróg \"%s\"\n"
+msgstr "%s: sainmhÃ­niÃº mÃ­chumtha ar athrÃ³g \"%s\"\n"
 
 #: states/main.c:282
 #, c-format
 msgid "%s: couldn't create output file \"%s\": %s\n"
-msgstr "%s: níorbh fhéidir aschomhad \"%s\" a chruthú: %s\n"
+msgstr "%s: nÃ­orbh fhÃ©idir aschomhad \"%s\" a chruthÃº: %s\n"
 
 #: states/main.c:313
 #, c-format
 msgid "%s: unknown warning level `%s'\n"
-msgstr "%s: leibhéal anaithnid rabhaidh `%s'\n"
+msgstr "%s: leibhÃ©al anaithnid rabhaidh `%s'\n"
 
 #: states/main.c:362 states/main.c:398 states/prims.c:1377 states/utils.c:229
 #, c-format
 msgid "%s: out of memory\n"
-msgstr "%s: cuimhne ídithe\n"
+msgstr "%s: cuimhne Ã­dithe\n"
 
 #: states/main.c:423
 #, c-format
 msgid "%s: couldn't open input file `%s': %s\n"
-msgstr "%s: níorbh fhéidir inchomhad `%s' a oscailt: %s\n"
+msgstr "%s: nÃ­orbh fhÃ©idir inchomhad `%s' a oscailt: %s\n"
 
 #: states/main.c:447
 #, c-format
@@ -1072,8 +1072,8 @@ msgid ""
 "Usage: %s [OPTION]... [FILE]...\n"
 "Mandatory arguments to long options are mandatory for short options too.\n"
 msgstr ""
-"Úsáid: %s [ROGHA]... [COMHAD]...\n"
-"Is riachtanach le rogha ghearr aon argóint atá riachtanach leis an rogha fhada.\n"
+"ÃšsÃ¡id: %s [ROGHA]... [COMHAD]...\n"
+"Is riachtanach le rogha ghearr aon argÃ³int atÃ¡ riachtanach leis an rogha fhada.\n"
 
 #: states/main.c:451
 msgid ""
@@ -1087,31 +1087,31 @@ msgid ""
 "  -V, --version              print version number\n"
 "  -W, --warning=LEVEL        set the warning level to LEVEL\n"
 msgstr ""
-"  -D, --define=ATHRÓG=LUACH  sainmhínigh ATHRÓG leis an LUACH seo\n"
-"  -f, --file=COMHAD          léigh sainmhínithe de staideanna ó CHOMHAD\n"
-"  -h, --help                 taispeáin an chabhair seo agus scoir\n"
-"  -o, --output=COMHAD        sábháil an t-aschur i gCOMHAD\n"
+"  -D, --define=ATHRÃ“G=LUACH  sainmhÃ­nigh ATHRÃ“G leis an LUACH seo\n"
+"  -f, --file=COMHAD          lÃ©igh sainmhÃ­nithe de staideanna Ã³ CHOMHAD\n"
+"  -h, --help                 taispeÃ¡in an chabhair seo agus scoir\n"
+"  -o, --output=COMHAD        sÃ¡bhÃ¡il an t-aschur i gCOMHAD\n"
 "  -p, --path=CONAIR          socraigh an CHONAIR luchtaithe\n"
 "  -s, --state=AINM           tosaigh le staid AINM\n"
-"  -v, --verbose              bí foclach\n"
-"  -V, --version              taispeáin an leagan\n"
-"  -W, --warning=LEIBHÉAL     socraigh an LEIBHÉAL rabhaidh\n"
+"  -v, --verbose              bÃ­ foclach\n"
+"  -V, --version              taispeÃ¡in an leagan\n"
+"  -W, --warning=LEIBHÃ‰AL     socraigh an LEIBHÃ‰AL rabhaidh\n"
 
 #: states/prims.c:46
 #, c-format
 msgid "%s:%d: %s: too few arguments\n"
-msgstr "%s:%d: %s: easpa argóintí\n"
+msgstr "%s:%d: %s: easpa argÃ³intÃ­\n"
 
 #: states/prims.c:56
 #, c-format
 msgid "%s:%d: %s: too many arguments\n"
-msgstr "%s:%d: %s: an iomarca argóintí\n"
+msgstr "%s:%d: %s: an iomarca argÃ³intÃ­\n"
 
 #: states/prims.c:109 states/prims.c:129 states/prims.c:255 states/prims.c:428
 #: states/prims.c:903
 #, c-format
 msgid "%s:%d: %s: illegal argument type\n"
-msgstr "%s:%d: %s: cineál neamhcheadaithe argóinte\n"
+msgstr "%s:%d: %s: cineÃ¡l neamhcheadaithe argÃ³inte\n"
 
 #: states/prims.c:470
 #, c-format
@@ -1121,159 +1121,159 @@ msgstr "%s: scaoll: "
 #: states/prims.c:504
 #, c-format
 msgid "%s:%d: %s: malformed version string `%s'\n"
-msgstr "%s:%d: %s: teaghrán míchumtha leagain `%s'\n"
+msgstr "%s:%d: %s: teaghrÃ¡n mÃ­chumtha leagain `%s'\n"
 
 #: states/prims.c:519
 #, c-format
 msgid "%s: FATAL ERROR: States version %s or higher is required for this script\n"
-msgstr "%s: EARRÁID MHARFACH: Tá gá le leagan %s nó níos mó i gcomhair na scripte seo\n"
+msgstr "%s: EARRÃID MHARFACH: TÃ¡ gÃ¡ le leagan %s nÃ³ nÃ­os mÃ³ i gcomhair na scripte seo\n"
 
 #: states/prims.c:610 states/prims.c:1276
 #, c-format
 msgid "%s:%d: %s: start offset is bigger than end offset\n"
-msgstr "%s:%d: %s: tá an fritháireamh tosaithe níos mó ná an fritháireamh deiridh\n"
+msgstr "%s:%d: %s: tÃ¡ an frithÃ¡ireamh tosaithe nÃ­os mÃ³ nÃ¡ an frithÃ¡ireamh deiridh\n"
 
 #: states/prims.c:619 states/prims.c:635 states/prims.c:1282
 #, c-format
 msgid "%s:%d: %s: offset out of range\n"
-msgstr "%s:%d: %s: fritháireamh as raon\n"
+msgstr "%s:%d: %s: frithÃ¡ireamh as raon\n"
 
 #: states/prims.c:653
 #, c-format
 msgid "%s:%d: %s: illegal argument\n"
-msgstr "%s:%d: %s: argóint neamhcheadaithe\n"
+msgstr "%s:%d: %s: argÃ³int neamhcheadaithe\n"
 
 #: states/prims.c:700
 #, c-format
 msgid "%s:%d: %s: illegal regexp character syntax: %c\n"
-msgstr "%s:%d: %s: comhréir neamhcheadaithe ar charachtar i slonn ionadaíochta: %c\n"
+msgstr "%s:%d: %s: comhrÃ©ir neamhcheadaithe ar charachtar i slonn ionadaÃ­ochta: %c\n"
 
 #: states/prims.c:915
 #, c-format
 msgid "%s:%d: %s: couldn't define state `%s'\n"
-msgstr "%s:%d: %s: níorbh fhéidir staid `%s' a shainmhíniú\n"
+msgstr "%s:%d: %s: nÃ­orbh fhÃ©idir staid `%s' a shainmhÃ­niÃº\n"
 
 #: states/prims.c:1012
 #, c-format
 msgid "%s: primitive `%s': too few arguments for format\n"
-msgstr "%s: bunaíoch `%s': níl go leor argóintí don fhormáid\n"
+msgstr "%s: bunaÃ­och `%s': nÃ­l go leor argÃ³intÃ­ don fhormÃ¡id\n"
 
 #: states/prims.c:1040
 #, c-format
 msgid "%s:%d: %s: argument %d doesn't match format\n"
-msgstr "%s:%d: %s: níl argóint %d comhoiriúnach leis an bhformáid\n"
+msgstr "%s:%d: %s: nÃ­l argÃ³int %d comhoiriÃºnach leis an bhformÃ¡id\n"
 
 #: states/prims.c:1080
 #, c-format
 msgid "%s:%d: %s: no extra options can be specified for %%s\n"
-msgstr "%s:%d: %s: ní cheadaítear roghanna breise le %%s\n"
+msgstr "%s:%d: %s: nÃ­ cheadaÃ­tear roghanna breise le %%s\n"
 
 #: states/prims.c:1089
 #, c-format
 msgid "%s:%d: %s: illegal type specifier `%c'\n"
-msgstr "%s:%d: %s: sonraitheoir neamhcheadaithe cineáil `%c'\n"
+msgstr "%s:%d: %s: sonraitheoir neamhcheadaithe cineÃ¡il `%c'\n"
 
 #: states/process.c:117
 #, c-format
 msgid "%s: undefined state `%s'\n"
-msgstr "%s: staid `%s' gan sainmhíniú\n"
+msgstr "%s: staid `%s' gan sainmhÃ­niÃº\n"
 
 #: states/process.c:198
 #, c-format
 msgid "%s: error: undefined variable `%s'\n"
-msgstr "%s: earráid: athróg `%s' gan sainmhíniú\n"
+msgstr "%s: earrÃ¡id: athrÃ³g `%s' gan sainmhÃ­niÃº\n"
 
 #: states/process.c:292
 #, c-format
 msgid "%s: undefined super state `%s'\n"
-msgstr "%s: sárstaid `%s' gan sainmhíniú\n"
+msgstr "%s: sÃ¡rstaid `%s' gan sainmhÃ­niÃº\n"
 
 #: states/utils.c:262
 #, c-format
 msgid "%s:%d: couldn't compile regular expression \"%s\": %s\n"
-msgstr "%s:%d: níorbh fhéidir slonn ionadaíochta \"%s\" a thiomsú: %s\n"
+msgstr "%s:%d: nÃ­orbh fhÃ©idir slonn ionadaÃ­ochta \"%s\" a thiomsÃº: %s\n"
 
 #: states/utils.c:451 states/utils.c:479
 #, c-format
 msgid "%s: ouf of memory"
-msgstr "%s: cuimhne ídithe"
+msgstr "%s: cuimhne Ã­dithe"
 
 #: states/utils.c:456
 #, c-format
 msgid "warning: redefining state `%s'"
-msgstr "rabhadh: staid `%s' á shainmhíniú arís"
+msgstr "rabhadh: staid `%s' Ã¡ shainmhÃ­niÃº arÃ­s"
 
 #: states/utils.c:483
 #, c-format
 msgid "%s:%d: warning: redefining subroutine `%s'\n"
-msgstr "%s:%d: rabhadh: foghnáthamh `%s' á shainmhíniú arís\n"
+msgstr "%s:%d: rabhadh: foghnÃ¡thamh `%s' Ã¡ shainmhÃ­niÃº arÃ­s\n"
 
 #: states/utils.c:580
 #, c-format
 msgid "%s:%d: error: undefined variable `%s'\n"
-msgstr "%s:%d: earráid: athróg `%s' gan sainmhíniú\n"
+msgstr "%s:%d: earrÃ¡id: athrÃ³g `%s' gan sainmhÃ­niÃº\n"
 
 #: states/utils.c:618
 #, c-format
 msgid "%s:%d: error: couldn't set variable `%s'\n"
-msgstr "%s:%d: earráid: níorbh fhéidir athróg `%s' a shocrú\n"
+msgstr "%s:%d: earrÃ¡id: nÃ­orbh fhÃ©idir athrÃ³g `%s' a shocrÃº\n"
 
 #: states/utils.c:769
 #, c-format
 msgid "%s:%d: error: expression between illegal types\n"
-msgstr "%s:%d: earráid: slonn idir cineálacha neamhcheadaithe\n"
+msgstr "%s:%d: earrÃ¡id: slonn idir cineÃ¡lacha neamhcheadaithe\n"
 
 #: states/utils.c:867
 #, c-format
 msgid "%s:%d: error: too few arguments for subroutine\n"
-msgstr "%s:%d: earráid: níl go leor argóintí don fhoghnáthamh\n"
+msgstr "%s:%d: earrÃ¡id: nÃ­l go leor argÃ³intÃ­ don fhoghnÃ¡thamh\n"
 
 #: states/utils.c:874
 #, c-format
 msgid "%s:%d: error: too many arguments for subroutine\n"
-msgstr "%s:%d: earráid: an iomarca argóintí don fhoghnáthamh\n"
+msgstr "%s:%d: earrÃ¡id: an iomarca argÃ³intÃ­ don fhoghnÃ¡thamh\n"
 
 #: states/utils.c:928
 #, c-format
 msgid "%s:%d: error: undefined procedure `%s'\n"
-msgstr "%s:%d: earráid: gnás `%s' gan sainmhíniú\n"
+msgstr "%s:%d: earrÃ¡id: gnÃ¡s `%s' gan sainmhÃ­niÃº\n"
 
 #: states/utils.c:1020
 #, c-format
 msgid "%s:%d: error: illegal lvalue for assignment\n"
-msgstr "%s:%d: earráid: cléluach neamhcheadaithe i sannachán\n"
+msgstr "%s:%d: earrÃ¡id: clÃ©luach neamhcheadaithe i sannachÃ¡n\n"
 
 #: states/utils.c:1028 states/utils.c:1112
 #, c-format
 msgid "%s:%d: error: array reference index is not integer\n"
-msgstr "%s:%d: earráid: ní slánuimhir é an t-innéacs eagair\n"
+msgstr "%s:%d: earrÃ¡id: nÃ­ slÃ¡nuimhir Ã© an t-innÃ©acs eagair\n"
 
 #: states/utils.c:1034
 #, c-format
 msgid "%s:%d: error: negative array reference index\n"
-msgstr "%s:%d: earráid: is diúltach é an t-innéacs eagair\n"
+msgstr "%s:%d: earrÃ¡id: is diÃºltach Ã© an t-innÃ©acs eagair\n"
 
 #: states/utils.c:1085
 #, c-format
 msgid "%s:%d: error: illegal rvalue for string assignment\n"
-msgstr "%s:%d: earráid: deasluach neamhcheadaithe i sannachán teaghráin\n"
+msgstr "%s:%d: earrÃ¡id: deasluach neamhcheadaithe i sannachÃ¡n teaghrÃ¡in\n"
 
 #: states/utils.c:1104
 #, c-format
 msgid "%s:%d: error: illegal type for array reference\n"
-msgstr "%s:%d: earráid: cineál neamhcheadaithe de thagairt eagair\n"
+msgstr "%s:%d: earrÃ¡id: cineÃ¡l neamhcheadaithe de thagairt eagair\n"
 
 #: states/utils.c:1121
 #, c-format
 msgid "%s:%d: error: array reference index out of rance\n"
-msgstr "%s:%d: earráid: innéacs eagair as raon\n"
+msgstr "%s:%d: earrÃ¡id: innÃ©acs eagair as raon\n"
 
 #: states/utils.c:1347
 #, c-format
 msgid "%s: couldn't open definition file `%s': %s\n"
-msgstr "%s: níorbh fhéidir comhad sainmhínithe `%s' a oscailt: %s\n"
+msgstr "%s: nÃ­orbh fhÃ©idir comhad sainmhÃ­nithe `%s' a oscailt: %s\n"
 
 #: states/utils.c:1403
 #, c-format
 msgid "%s: autoloading `%s' from `%s'\n"
-msgstr "%s: `%s' á uasluchtú ó `%s'\n"
+msgstr "%s: `%s' Ã¡ uasluchtÃº Ã³ `%s'\n"

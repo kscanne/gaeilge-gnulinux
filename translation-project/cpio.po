@@ -13,7 +13,7 @@ msgstr ""
 "Last-Translator: Kevin Scannell <kscanne@gmail.com>\n"
 "Language-Team: Irish <gaeilge-gnulinux@lists.sourceforge.net>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=ISO-8859-1\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : (n>2 && n<7) ? 2 :"
 "(n>6 && n<11) ? 3 : 4;\n"
@@ -80,8 +80,8 @@ msgstr ""
 #, fuzzy, c-format
 msgid "Try `%s --help' or `%s --usage' for more information.\n"
 msgstr ""
-"Caithfidh tú ceann de na roghanna -oipt.\n"
-"Bain triail as `%s --help' nó `%s --usage' chun tuilleadh eolais a fháil.\n"
+"Caithfidh tÃº ceann de na roghanna -oipt.\n"
+"Bain triail as `%s --help' nÃ³ `%s --usage' chun tuilleadh eolais a fhÃ¡il.\n"
 
 #: lib/argp-help.c:1710
 #, c-format
@@ -95,12 +95,12 @@ msgstr ""
 #: lib/argp-parse.c:81
 #, fuzzy
 msgid "give this help list"
-msgstr "Taispeáin an chabhair seo agus scoir"
+msgstr "TaispeÃ¡in an chabhair seo agus scoir"
 
 #: lib/argp-parse.c:82
 #, fuzzy
 msgid "give a short usage message"
-msgstr "Taispeáin beagán eolais faoin úsáid agus scoir"
+msgstr "TaispeÃ¡in beagÃ¡n eolais faoin ÃºsÃ¡id agus scoir"
 
 #: lib/argp-parse.c:83 tests/genfile.c:130
 #, fuzzy
@@ -117,12 +117,12 @@ msgstr ""
 
 #: lib/argp-parse.c:85 src/main.c:237
 msgid "hang for SECS seconds (default 3600)"
-msgstr "moill de SOIC soicind (réamhshocrú: 3600)"
+msgstr "moill de SOIC soicind (rÃ©amhshocrÃº: 3600)"
 
 #: lib/argp-parse.c:142
 #, fuzzy
 msgid "print program version"
-msgstr "Taispeáin an leagan"
+msgstr "TaispeÃ¡in an leagan"
 
 #: lib/argp-parse.c:158
 #, c-format
@@ -132,7 +132,7 @@ msgstr ""
 #: lib/argp-parse.c:611
 #, fuzzy, c-format
 msgid "%s: Too many arguments\n"
-msgstr "An iomarca argóintí"
+msgstr "An iomarca argÃ³intÃ­"
 
 #: lib/argp-parse.c:754
 msgid "(PROGRAM ERROR) Option should have been recognized!?"
@@ -141,27 +141,27 @@ msgstr ""
 #: lib/closeout.c:73 src/util.c:93 src/util.c:96 src/util.c:145
 #, c-format
 msgid "write error"
-msgstr "earráid sa scríobh"
+msgstr "earrÃ¡id sa scrÃ­obh"
 
 #: lib/getopt.c:530 lib/getopt.c:546
 #, c-format
 msgid "%s: option `%s' is ambiguous\n"
-msgstr "%s: Tá an rogha `%s' débhríoch\n"
+msgstr "%s: TÃ¡ an rogha `%s' dÃ©bhrÃ­och\n"
 
 #: lib/getopt.c:579 lib/getopt.c:583
 #, c-format
 msgid "%s: option `--%s' doesn't allow an argument\n"
-msgstr "%s: ní cheadaítear argóint i ndiaidh na rogha `--%s'\n"
+msgstr "%s: nÃ­ cheadaÃ­tear argÃ³int i ndiaidh na rogha `--%s'\n"
 
 #: lib/getopt.c:592 lib/getopt.c:597
 #, c-format
 msgid "%s: option `%c%s' doesn't allow an argument\n"
-msgstr "%s: ní cheadaítear argóint i ndiaidh na rogha `%c%s'\n"
+msgstr "%s: nÃ­ cheadaÃ­tear argÃ³int i ndiaidh na rogha `%c%s'\n"
 
 #: lib/getopt.c:640 lib/getopt.c:659 lib/getopt.c:975 lib/getopt.c:994
 #, c-format
 msgid "%s: option `%s' requires an argument\n"
-msgstr "%s: tá argóint de dhíth i ndiaidh na rogha `%s'\n"
+msgstr "%s: tÃ¡ argÃ³int de dhÃ­th i ndiaidh na rogha `%s'\n"
 
 #: lib/getopt.c:697 lib/getopt.c:700
 #, c-format
@@ -181,27 +181,27 @@ msgstr "%s: rogha neamhcheadaithe -- %c\n"
 #: lib/getopt.c:772 lib/getopt.c:775
 #, c-format
 msgid "%s: invalid option -- %c\n"
-msgstr "%s: rogha neamhbhailí -- %c\n"
+msgstr "%s: rogha neamhbhailÃ­ -- %c\n"
 
 #: lib/getopt.c:827 lib/getopt.c:843 lib/getopt.c:1047 lib/getopt.c:1065
 #, c-format
 msgid "%s: option requires an argument -- %c\n"
-msgstr "%s: tá argóint de dhíth i ndiaidh na rogha -- %c\n"
+msgstr "%s: tÃ¡ argÃ³int de dhÃ­th i ndiaidh na rogha -- %c\n"
 
 #: lib/getopt.c:896 lib/getopt.c:912
 #, c-format
 msgid "%s: option `-W %s' is ambiguous\n"
-msgstr "%s: Tá an rogha `-W %s' débhríoch\n"
+msgstr "%s: TÃ¡ an rogha `-W %s' dÃ©bhrÃ­och\n"
 
 #: lib/getopt.c:936 lib/getopt.c:954
 #, c-format
 msgid "%s: option `-W %s' doesn't allow an argument\n"
-msgstr "%s: ní cheadaítear argóint i ndiaidh na rogha `-W %s'\n"
+msgstr "%s: nÃ­ cheadaÃ­tear argÃ³int i ndiaidh na rogha `-W %s'\n"
 
 #: lib/obstack.c:423 lib/obstack.c:425 lib/xalloc-die.c:34
 #, fuzzy
 msgid "memory exhausted"
-msgstr "cuimhne fhíorúil ídithe"
+msgstr "cuimhne fhÃ­orÃºil Ã­dithe"
 
 #: lib/openat-die.c:33
 #, c-format
@@ -234,72 +234,72 @@ msgstr "%s: Rabhadh: Theip ar fheidhm %s"
 #: lib/paxerror.c:93
 #, c-format
 msgid "%s: Cannot change mode to %s"
-msgstr "%s: Ní féidir an mód a athrú go %s"
+msgstr "%s: NÃ­ fÃ©idir an mÃ³d a athrÃº go %s"
 
 #: lib/paxerror.c:101
 #, c-format
 msgid "%s: Cannot change ownership to uid %lu, gid %lu"
-msgstr "%s: Ní féidir an t-úinéir a athrú go UID %lu, GID %lu"
+msgstr "%s: NÃ­ fÃ©idir an t-ÃºinÃ©ir a athrÃº go UID %lu, GID %lu"
 
 #: lib/paxerror.c:127
 #, c-format
 msgid "%s: Cannot hard link to %s"
-msgstr "%s: Ní féidir nasc crua a dhéanamh le %s"
+msgstr "%s: NÃ­ fÃ©idir nasc crua a dhÃ©anamh le %s"
 
 #: lib/paxerror.c:179 lib/paxerror.c:211
 #, c-format
 msgid "%s: Read error at byte %s, while reading %lu byte"
 msgid_plural "%s: Read error at byte %s, while reading %lu bytes"
-msgstr[0] "%s: Earráid sa léamh ag beart %s agus %lu bheart á léamh"
-msgstr[1] "%s: Earráid sa léamh ag beart %s agus %lu bheart á léamh"
-msgstr[2] "%s: Earráid sa léamh ag beart %s agus %lu bheart á léamh"
-msgstr[3] "%s: Earráid sa léamh ag beart %s agus %lu mbeart á léamh"
-msgstr[4] "%s: Earráid sa léamh ag beart %s agus %lu beart á léamh"
+msgstr[0] "%s: EarrÃ¡id sa lÃ©amh ag beart %s agus %lu bheart Ã¡ lÃ©amh"
+msgstr[1] "%s: EarrÃ¡id sa lÃ©amh ag beart %s agus %lu bheart Ã¡ lÃ©amh"
+msgstr[2] "%s: EarrÃ¡id sa lÃ©amh ag beart %s agus %lu bheart Ã¡ lÃ©amh"
+msgstr[3] "%s: EarrÃ¡id sa lÃ©amh ag beart %s agus %lu mbeart Ã¡ lÃ©amh"
+msgstr[4] "%s: EarrÃ¡id sa lÃ©amh ag beart %s agus %lu beart Ã¡ lÃ©amh"
 
 #: lib/paxerror.c:192
 #, c-format
 msgid "%s: Warning: Read error at byte %s, while reading %lu byte"
 msgid_plural "%s: Warning: Read error at byte %s, while reading %lu bytes"
-msgstr[0] "%s: Rabhadh: Earráid sa léamh ag beart %s agus %lu bheart á léamh"
-msgstr[1] "%s: Rabhadh: Earráid sa léamh ag beart %s agus %lu bheart á léamh"
-msgstr[2] "%s: Rabhadh: Earráid sa léamh ag beart %s agus %lu bheart á léamh"
-msgstr[3] "%s: Rabhadh: Earráid sa léamh ag beart %s agus %lu mbeart á léamh"
-msgstr[4] "%s: Rabhadh: Earráid sa léamh ag beart %s agus %lu beart á léamh"
+msgstr[0] "%s: Rabhadh: EarrÃ¡id sa lÃ©amh ag beart %s agus %lu bheart Ã¡ lÃ©amh"
+msgstr[1] "%s: Rabhadh: EarrÃ¡id sa lÃ©amh ag beart %s agus %lu bheart Ã¡ lÃ©amh"
+msgstr[2] "%s: Rabhadh: EarrÃ¡id sa lÃ©amh ag beart %s agus %lu bheart Ã¡ lÃ©amh"
+msgstr[3] "%s: Rabhadh: EarrÃ¡id sa lÃ©amh ag beart %s agus %lu mbeart Ã¡ lÃ©amh"
+msgstr[4] "%s: Rabhadh: EarrÃ¡id sa lÃ©amh ag beart %s agus %lu beart Ã¡ lÃ©amh"
 
 #: lib/paxerror.c:259
 #, c-format
 msgid "%s: Cannot seek to %s"
-msgstr "%s: Ní féidir 'seek' a dhéanamh ag %s"
+msgstr "%s: NÃ­ fÃ©idir 'seek' a dhÃ©anamh ag %s"
 
 #: lib/paxerror.c:275
 #, c-format
 msgid "%s: Warning: Cannot seek to %s"
-msgstr "%s: Rabhadh: Ní féidir 'seek' a dhéanamh ag %s"
+msgstr "%s: Rabhadh: NÃ­ fÃ©idir 'seek' a dhÃ©anamh ag %s"
 
 #: lib/paxerror.c:284
 #, c-format
 msgid "%s: Cannot create symlink to %s"
-msgstr "%s: Ní féidir nasc siombalach a dhéanamh le %s"
+msgstr "%s: NÃ­ fÃ©idir nasc siombalach a dhÃ©anamh le %s"
 
 #: lib/paxerror.c:349
 #, c-format
 msgid "%s: Wrote only %lu of %lu byte"
 msgid_plural "%s: Wrote only %lu of %lu bytes"
-msgstr[0] "%s: Níor scríobhadh ach %lu as %lu bheart"
-msgstr[1] "%s: Níor scríobhadh ach %lu as %lu bheart"
-msgstr[2] "%s: Níor scríobhadh ach %lu as %lu bheart"
-msgstr[3] "%s: Níor scríobhadh ach %lu as %lu mbeart"
-msgstr[4] "%s: Níor scríobhadh ach %lu as %lu beart"
+msgstr[0] "%s: NÃ­or scrÃ­obhadh ach %lu as %lu bheart"
+msgstr[1] "%s: NÃ­or scrÃ­obhadh ach %lu as %lu bheart"
+msgstr[2] "%s: NÃ­or scrÃ­obhadh ach %lu as %lu bheart"
+msgstr[3] "%s: NÃ­or scrÃ­obhadh ach %lu as %lu mbeart"
+msgstr[4] "%s: NÃ­or scrÃ­obhadh ach %lu as %lu beart"
 
 #: lib/paxnames.c:155
 #, c-format
 msgid "Removing leading `%s' from member names"
-msgstr "Gach `%s' tosaigh á bhaint amach as ainmneacha baill"
+msgstr "Gach `%s' tosaigh Ã¡ bhaint amach as ainmneacha baill"
 
 #: lib/paxnames.c:156
 #, c-format
 msgid "Removing leading `%s' from hard link targets"
-msgstr "Gach `%s' tosaigh á bhaint amach as spriocanna na nasc crua"
+msgstr "Gach `%s' tosaigh Ã¡ bhaint amach as spriocanna na nasc crua"
 
 #: lib/paxnames.c:169
 msgid "Substituting `.' for empty member name"
@@ -339,7 +339,7 @@ msgstr ""
 #: lib/rtapelib.c:299
 #, c-format
 msgid "exec/tcp: Service not available"
-msgstr "exec/tcp: Níl an tseirbhís ar fáil"
+msgstr "exec/tcp: NÃ­l an tseirbhÃ­s ar fÃ¡il"
 
 #: lib/rtapelib.c:303
 #, c-format
@@ -354,7 +354,7 @@ msgstr "stdout"
 #: lib/rtapelib.c:512
 #, c-format
 msgid "Cannot execute remote shell"
-msgstr "Ní féidir cianbhlaosc a rith"
+msgstr "NÃ­ fÃ©idir cianbhlaosc a rith"
 
 #. TRANSLATORS: Translate "(C)" to the copyright symbol
 #. (C-in-a-circle), if this symbol is available in the user's
@@ -521,7 +521,7 @@ msgstr ""
 #: rmt/rmt.c:474
 #, fuzzy
 msgid "Premature end of file"
-msgstr "comhadchríoch gan choinne"
+msgstr "comhadchrÃ­och gan choinne"
 
 #: rmt/rmt.c:672
 msgid "Garbage command"
@@ -545,57 +545,57 @@ msgstr "athainmnigh %s -> "
 #: src/copyin.c:95 src/copyout.c:562
 #, c-format
 msgid "%s: file name too long"
-msgstr "%s: comhadainm rófhada"
+msgstr "%s: comhadainm rÃ³fhada"
 
 #: src/copyin.c:181 src/copyin.c:528 src/copyin.c:553 src/copyin.c:1524
 #, c-format
 msgid "%s: checksum error (0x%lx, should be 0x%lx)"
-msgstr "%s: earráid i suim sheiceála (0x%lx, ba chóir bheith 0x%lx)"
+msgstr "%s: earrÃ¡id i suim sheiceÃ¡la (0x%lx, ba chÃ³ir bheith 0x%lx)"
 
 #: src/copyin.c:208 src/copypass.c:129
 #, c-format
 msgid "%s not created: newer or same age version exists"
-msgstr "níor cruthaíodh %s: tá leagan níos nuaí ann, nó den aois chéanna"
+msgstr "nÃ­or cruthaÃ­odh %s: tÃ¡ leagan nÃ­os nuaÃ­ ann, nÃ³ den aois chÃ©anna"
 
 #: src/copyin.c:218 src/copypass.c:137
 #, c-format
 msgid "cannot remove current %s"
-msgstr "ní féidir %s reatha a bhaint"
+msgstr "nÃ­ fÃ©idir %s reatha a bhaint"
 
 #: src/copyin.c:279 src/copyin.c:476 src/copyin.c:683 src/copypass.c:433
 #, c-format
 msgid "cannot link %s to %s"
-msgstr "ní féidir %s a nascadh le %s"
+msgstr "nÃ­ fÃ©idir %s a nascadh le %s"
 
 #: src/copyin.c:509
 #, c-format
 msgid "cannot swap halfwords of %s: odd number of halfwords"
-msgstr "ní féidir leathfhocail de %s a bhabhtáil: tá uimhir chorr ann"
+msgstr "nÃ­ fÃ©idir leathfhocail de %s a bhabhtÃ¡il: tÃ¡ uimhir chorr ann"
 
 #: src/copyin.c:517
 #, c-format
 msgid "cannot swap bytes of %s: odd number of bytes"
-msgstr "ní féidir bearta de %s a bhabhtáil: tá uimhir chorr ann"
+msgstr "nÃ­ fÃ©idir bearta de %s a bhabhtÃ¡il: tÃ¡ uimhir chorr ann"
 
 #: src/copyin.c:642
 #, c-format
 msgid "%s is not a directory"
-msgstr "ní comhadlann é %s"
+msgstr "nÃ­ comhadlann Ã© %s"
 
 #: src/copyin.c:755
 #, c-format
 msgid "%s: Cannot symlink to %s"
-msgstr "%s: Ní féidir nasc siombalach a dhéanamh le %s"
+msgstr "%s: NÃ­ fÃ©idir nasc siombalach a dhÃ©anamh le %s"
 
 #: src/copyin.c:809 src/copyout.c:851 src/copypass.c:356
 #, c-format
 msgid "%s: unknown file type"
-msgstr "%s: cineál anaithnid comhaid"
+msgstr "%s: cineÃ¡l anaithnid comhaid"
 
 #: src/copyin.c:994 src/copyin.c:1001
 #, c-format
 msgid "Malformed number %.*s"
-msgstr "Uimhir mhíchumtha %.*s"
+msgstr "Uimhir mhÃ­chumtha %.*s"
 
 #: src/copyin.c:1011
 #, c-format
@@ -610,12 +610,12 @@ msgstr "deireadh na cartlainne gan choinne"
 #: src/copyin.c:1266
 #, c-format
 msgid "warning: archive header has reverse byte-order"
-msgstr "rabhadh: is san ord iompaithe iad na bearta i gceanntásc na cartlainne"
+msgstr "rabhadh: is san ord iompaithe iad na bearta i gceanntÃ¡sc na cartlainne"
 
 #: src/copyin.c:1413
 #, c-format
 msgid "standard input is closed"
-msgstr "tá an t-ionchur caighdeánach dúnta"
+msgstr "tÃ¡ an t-ionchur caighdeÃ¡nach dÃºnta"
 
 #: src/copyin.c:1579 src/copyout.c:894 src/copypass.c:374
 #, c-format
@@ -630,17 +630,17 @@ msgstr[4] "%lu bloc\n"
 #: src/copyout.c:51 src/copyout.c:60
 #, c-format
 msgid "cannot read checksum for %s"
-msgstr "ní féidir suim sheiceála a léamh do %s"
+msgstr "nÃ­ fÃ©idir suim sheiceÃ¡la a lÃ©amh do %s"
 
 #: src/copyout.c:300
 #, c-format
 msgid "%s: field width not sufficient for storing %s"
-msgstr "%s: níl an réimse sách leathan chun %s a stóráil"
+msgstr "%s: nÃ­l an rÃ©imse sÃ¡ch leathan chun %s a stÃ³rÃ¡il"
 
 #: src/copyout.c:308
 #, c-format
 msgid "%s: truncating %s"
-msgstr "%s: %s á teascadh"
+msgstr "%s: %s Ã¡ teascadh"
 
 #: src/copyout.c:343 src/copyout.c:406 src/copyout.c:480
 msgid "inode number"
@@ -648,7 +648,7 @@ msgstr "uimhir inode"
 
 #: src/copyout.c:346 src/copyout.c:409 src/copyout.c:484
 msgid "file mode"
-msgstr "mód comhaid"
+msgstr "mÃ³d comhaid"
 
 #: src/copyout.c:349 src/copyout.c:411 src/copyout.c:488
 msgid "uid"
@@ -660,7 +660,7 @@ msgstr "gid"
 
 #: src/copyout.c:355 src/copyout.c:416 src/copyout.c:496
 msgid "number of links"
-msgstr "líon na nasc"
+msgstr "lÃ­on na nasc"
 
 #: src/copyout.c:358 src/copyout.c:421
 msgid "modification time"
@@ -668,19 +668,19 @@ msgstr "am mionathraithe"
 
 #: src/copyout.c:361 src/copyout.c:428 src/copyout.c:515
 msgid "file size"
-msgstr "méid comhaid"
+msgstr "mÃ©id comhaid"
 
 #: src/copyout.c:365
 msgid "device major number"
-msgstr "príomhuimhir ghléis"
+msgstr "prÃ­omhuimhir ghlÃ©is"
 
 #: src/copyout.c:369
 msgid "device minor number"
-msgstr "mionuimhir ghléis"
+msgstr "mionuimhir ghlÃ©is"
 
 #: src/copyout.c:373
 msgid "rdev major"
-msgstr "príomh-rdev"
+msgstr "prÃ­omh-rdev"
 
 #: src/copyout.c:377
 msgid "rdev minor"
@@ -688,11 +688,11 @@ msgstr "mion-rdev"
 
 #: src/copyout.c:381 src/copyout.c:424 src/copyout.c:505
 msgid "name size"
-msgstr "méid ainm"
+msgstr "mÃ©id ainm"
 
 #: src/copyout.c:403
 msgid "device number"
-msgstr "uimhir ghléis"
+msgstr "uimhir ghlÃ©is"
 
 #: src/copyout.c:418
 msgid "rdev"
@@ -701,27 +701,27 @@ msgstr "rdev"
 #: src/copyout.c:476
 #, c-format
 msgid "%s: truncating inode number"
-msgstr "%s: uimhir inode á teascadh"
+msgstr "%s: uimhir inode Ã¡ teascadh"
 
 #: src/copyout.c:620
 #, c-format
 msgid "standard output is closed"
-msgstr "is dúnta é an t-aschur caighdeánach"
+msgstr "is dÃºnta Ã© an t-aschur caighdeÃ¡nach"
 
 #: src/copyout.c:641 src/copypass.c:86
 #, c-format
 msgid "blank line ignored"
-msgstr "rinneadh neamhshuim ar líne bhán"
+msgstr "rinneadh neamhshuim ar lÃ­ne bhÃ¡n"
 
 #: src/copyout.c:776
 #, c-format
 msgid "%s not dumped: not a regular file"
-msgstr "níor dumpáladh %s: ní gnáthchomhad é"
+msgstr "nÃ­or dumpÃ¡ladh %s: nÃ­ gnÃ¡thchomhad Ã©"
 
 #: src/copyout.c:827
 #, c-format
 msgid "%s: symbolic link too long"
-msgstr "%s: nasc siombalach rófhada"
+msgstr "%s: nasc siombalach rÃ³fhada"
 
 #: src/copypass.c:428
 #, c-format
@@ -740,90 +740,90 @@ msgid ""
 "  # Copy files named in name-list to destination-directory\n"
 "  cpio -p destination-directory < name-list\n"
 msgstr ""
-"Cóipeálann `cpio' GNU comhaid go (agus ó) cartlanna\n"
+"CÃ³ipeÃ¡lann `cpio' GNU comhaid go (agus Ã³) cartlanna\n"
 "\n"
-"Samplaí:\n"
-"  # Cóipeáil na comhaid sonraithe i ainm-liosta go dtí an chartlann\n"
+"SamplaÃ­:\n"
+"  # CÃ³ipeÃ¡il na comhaid sonraithe i ainm-liosta go dtÃ­ an chartlann\n"
 "  cpio -o < ainm-liosta [> cartlann]\n"
 "  # Bain comhaid as an chartlann\n"
 "  cpio -i [< cartlann]\n"
-"  # Cóipeáil na comhaid sonraithe i ainm-liosta go dtí an sprioc-"
+"  # CÃ³ipeÃ¡il na comhaid sonraithe i ainm-liosta go dtÃ­ an sprioc-"
 "chomhadlann\n"
 "  cpio -p sprioc-chomhadlann < ainm-liosta\n"
 
 #: src/main.c:81
 #, c-format
 msgid "%s is meaningless with %s"
-msgstr "is gan bhrí é %s gan %s"
+msgstr "is gan bhrÃ­ Ã© %s gan %s"
 
 #: src/main.c:87
 msgid "Main operation mode:"
-msgstr "Príomh-mhód oibre:"
+msgstr "PrÃ­omh-mhÃ³d oibre:"
 
 #: src/main.c:89
 msgid "Create the archive (run in copy-out mode)"
-msgstr "Cruthaigh an chartlann (rith sa mhód cóipeála amach)"
+msgstr "Cruthaigh an chartlann (rith sa mhÃ³d cÃ³ipeÃ¡la amach)"
 
 #: src/main.c:91
 msgid "Extract files from an archive (run in copy-in mode)"
-msgstr "Bain comhaid as cartlann (rith sa mhód cóipeála isteach)"
+msgstr "Bain comhaid as cartlann (rith sa mhÃ³d cÃ³ipeÃ¡la isteach)"
 
 #: src/main.c:93
 msgid "Run in copy-pass mode"
-msgstr "Rith sa mhód cóipeála trasna"
+msgstr "Rith sa mhÃ³d cÃ³ipeÃ¡la trasna"
 
 #: src/main.c:95
 msgid "Print a table of contents of the input"
-msgstr "Priontáil clár na n-ábhar den ionchur"
+msgstr "PriontÃ¡il clÃ¡r na n-Ã¡bhar den ionchur"
 
 #: src/main.c:101
 msgid "Operation modifiers valid in any mode:"
-msgstr "Mionathraitheoirí oibre atá bailí i mód ar bith:"
+msgstr "MionathraitheoirÃ­ oibre atÃ¡ bailÃ­ i mÃ³d ar bith:"
 
 #: src/main.c:103 src/main.c:170 src/main.c:199
 msgid "[[USER@]HOST:]FILE-NAME"
-msgstr "[[ÚSÁIDEOIR@]ÓSTRÍOMHAIRE:]COMHADAINM"
+msgstr "[[ÃšSÃIDEOIR@]Ã“STRÃOMHAIRE:]COMHADAINM"
 
 #: src/main.c:104
 msgid ""
 "Use this FILE-NAME instead of standard input or output. Optional USER and "
 "HOST specify the user and host names in case of a remote archive"
 msgstr ""
-"Úsáid an COMHADAINM seo in ionad aschur nó ionchur caighdeánach. Sonraíonn "
-"ÚSÁIDEOIR agus ÓSTRÍOMHAIRE (roghnach) an t-úsáideoir agus an t-óstainm "
-"nuair atá cartlann chianda i gceist"
+"ÃšsÃ¡id an COMHADAINM seo in ionad aschur nÃ³ ionchur caighdeÃ¡nach. SonraÃ­onn "
+"ÃšSÃIDEOIR agus Ã“STRÃOMHAIRE (roghnach) an t-ÃºsÃ¡ideoir agus an t-Ã³stainm "
+"nuair atÃ¡ cartlann chianda i gceist"
 
 #: src/main.c:106
 msgid "Archive file is local, even if its name contains colons"
-msgstr "Is logánta é an comhad cartlainne, fiú má tá idirstadanna ina ainm"
+msgstr "Is logÃ¡nta Ã© an comhad cartlainne, fiÃº mÃ¡ tÃ¡ idirstadanna ina ainm"
 
 #: src/main.c:107 tests/genfile.c:153
 msgid "FORMAT"
-msgstr "FORMÁID"
+msgstr "FORMÃID"
 
 #: src/main.c:108
 msgid "Use given archive FORMAT"
-msgstr "Úsáid an FHORMÁID tugtha chartlainne"
+msgstr "ÃšsÃ¡id an FHORMÃID tugtha chartlainne"
 
 #: src/main.c:110
 msgid "Set the I/O block size to 5120 bytes"
-msgstr "Socraigh méid na mbloc I/A a bheith 5120 beart"
+msgstr "Socraigh mÃ©id na mbloc I/A a bheith 5120 beart"
 
 #: src/main.c:111
 msgid "BLOCK-SIZE"
-msgstr "MÉID-NA-MBLOC"
+msgstr "MÃ‰ID-NA-MBLOC"
 
 #: src/main.c:112
 msgid "Set the I/O block size to BLOCK-SIZE * 512 bytes"
-msgstr "Socraigh méid na mbloc I/A a bheith MÉID-NA-MBLOC * 512 beart"
+msgstr "Socraigh mÃ©id na mbloc I/A a bheith MÃ‰ID-NA-MBLOC * 512 beart"
 
 #: src/main.c:114
 msgid "Use the old portable (ASCII) archive format"
-msgstr "Úsáid an tseanfhormáid iniompartha (ASCII) chartlainne"
+msgstr "ÃšsÃ¡id an tseanfhormÃ¡id iniompartha (ASCII) chartlainne"
 
 #: src/main.c:116
 msgid "Print a \".\" for each file processed"
-msgstr "Priontáil \".\" nuair atá gach comhad próiseáilte"
+msgstr "PriontÃ¡il \".\" nuair atÃ¡ gach comhad prÃ³iseÃ¡ilte"
 
 #: src/main.c:117 tests/genfile.c:166
 msgid "NUMBER"
@@ -831,49 +831,49 @@ msgstr "UIMHIR"
 
 #: src/main.c:118
 msgid "Set the I/O block size to the given NUMBER of bytes"
-msgstr "Socraigh méid na mbloc I/A a bheith an UIMHIR sonraithe"
+msgstr "Socraigh mÃ©id na mbloc I/A a bheith an UIMHIR sonraithe"
 
 #: src/main.c:119 tests/genfile.c:169
 msgid "STRING"
-msgstr "TEAGHRÁN"
+msgstr "TEAGHRÃN"
 
 #: src/main.c:120
 msgid "Print STRING when the end of a volume of the backup media is reached"
 msgstr ""
-"Priontáil TEAGHRÁN nuair a shroichtear deireadh an imleabhair ar an meán "
-"cúltaca"
+"PriontÃ¡il TEAGHRÃN nuair a shroichtear deireadh an imleabhair ar an meÃ¡n "
+"cÃºltaca"
 
 #: src/main.c:123
 msgid "Only copy files that do not match any of the given patterns"
 msgstr ""
-"Ná cóipeáil ach na comhaid nach bhfuil comhoiriúnach le haon cheann de na "
-"patrúin shonraithe"
+"NÃ¡ cÃ³ipeÃ¡il ach na comhaid nach bhfuil comhoiriÃºnach le haon cheann de na "
+"patrÃºin shonraithe"
 
 #: src/main.c:125
 msgid "In the verbose table of contents listing, show numeric UID and GID"
 msgstr ""
-"Agus clár na n-ábhar á thaispeáint go foclach, taispeáin UID agus GID "
-"uimhriúil"
+"Agus clÃ¡r na n-Ã¡bhar Ã¡ thaispeÃ¡int go foclach, taispeÃ¡in UID agus GID "
+"uimhriÃºil"
 
 #: src/main.c:127 tests/genfile.c:163 tests/genfile.c:190
 msgid "COMMAND"
-msgstr "ORDÚ"
+msgstr "ORDÃš"
 
 #: src/main.c:128
 msgid "Use remote COMMAND instead of rsh"
-msgstr "Úsáid an tORDÚ cianda in ionad rsh"
+msgstr "ÃšsÃ¡id an tORDÃš cianda in ionad rsh"
 
 #: src/main.c:130
 msgid "Do not print the number of blocks copied"
-msgstr "Ná taispeáin líon na mbloc cóipeáilte"
+msgstr "NÃ¡ taispeÃ¡in lÃ­on na mbloc cÃ³ipeÃ¡ilte"
 
 #: src/main.c:132
 msgid "Verbosely list the files processed"
-msgstr "Taispeáin gach comhad atá próiseáilte, go foclach"
+msgstr "TaispeÃ¡in gach comhad atÃ¡ prÃ³iseÃ¡ilte, go foclach"
 
 #: src/main.c:135
 msgid "Enable debugging info"
-msgstr "Cumasaigh faisnéis dífhabhtaithe"
+msgstr "Cumasaigh faisnÃ©is dÃ­fhabhtaithe"
 
 #: src/main.c:137
 msgid "FLAG"
@@ -884,12 +884,12 @@ msgid ""
 "Control warning display. Currently FLAG is one of 'none', 'truncate', 'all'. "
 "Multiple options accumulate."
 msgstr ""
-"Rialaigh taispeáint na rabhadh. Faoi láthair, is BRATACH ceann de 'none', "
-"'truncate', nó 'all'. Úsáidtear roghanna iomadúla le chéile."
+"Rialaigh taispeÃ¡int na rabhadh. Faoi lÃ¡thair, is BRATACH ceann de 'none', "
+"'truncate', nÃ³ 'all'. ÃšsÃ¡idtear roghanna iomadÃºla le chÃ©ile."
 
 #: src/main.c:144
 msgid "Operation modifiers valid only in copy-in mode:"
-msgstr "Mionathraitheoirí oibre atá bailí sa mhód cóipeála isteach amháin::"
+msgstr "MionathraitheoirÃ­ oibre atÃ¡ bailÃ­ sa mhÃ³d cÃ³ipeÃ¡la isteach amhÃ¡in::"
 
 #: src/main.c:145 src/main.c:151 tests/genfile.c:132 tests/genfile.c:180
 #: tests/genfile.c:184 tests/genfile.c:187
@@ -900,84 +900,84 @@ msgstr "COMHAD"
 msgid ""
 "Read additional patterns specifying filenames to extract or list from FILE"
 msgstr ""
-"Léigh patrúin bhreisithe a shonraíonn comhadainmneacha le baint amach nó le "
-"taispeáint, ó CHOMHAD"
+"LÃ©igh patrÃºin bhreisithe a shonraÃ­onn comhadainmneacha le baint amach nÃ³ le "
+"taispeÃ¡int, Ã³ CHOMHAD"
 
 #: src/main.c:148
 msgid ""
 "When reading a CRC format archive, only verify the CRC's of each file in the "
 "archive, don't actually extract the files"
 msgstr ""
-"Agus cartlann i bhformáid CRC á léamh, fíoraigh an CRC de gach comhad sa "
-"chartlann, ach ná bain na comhaid amach"
+"Agus cartlann i bhformÃ¡id CRC Ã¡ lÃ©amh, fÃ­oraigh an CRC de gach comhad sa "
+"chartlann, ach nÃ¡ bain na comhaid amach"
 
 #: src/main.c:150
 msgid "Interactively rename files"
-msgstr "Athainmnigh comhaid go hidirghníomhach"
+msgstr "Athainmnigh comhaid go hidirghnÃ­omhach"
 
 #: src/main.c:154
 msgid ""
 "Swap both halfwords of words and bytes of halfwords in the data. Equivalent "
 "to -sS"
 msgstr ""
-"Babhtáil leathfhocail d'fhocail agus bearta de leathfhocail sna sonraí. Ar "
-"comhbhrí le -sS"
+"BabhtÃ¡il leathfhocail d'fhocail agus bearta de leathfhocail sna sonraÃ­. Ar "
+"comhbhrÃ­ le -sS"
 
 #: src/main.c:156
 msgid "Swap the bytes of each halfword in the files"
-msgstr "Babhtáil na bearta i ngach leathfhocal sna comhaid"
+msgstr "BabhtÃ¡il na bearta i ngach leathfhocal sna comhaid"
 
 #: src/main.c:158
 msgid "Swap the halfwords of each word (4 bytes) in the files"
-msgstr "Babhtáil na leathfhocail de gach focal (4 bheart) sna comhaid"
+msgstr "BabhtÃ¡il na leathfhocail de gach focal (4 bheart) sna comhaid"
 
 #: src/main.c:161
 msgid "Extract files to standard output"
-msgstr "Bain comhaid amach go dtí an t-aschur caighdeánach"
+msgstr "Bain comhaid amach go dtÃ­ an t-aschur caighdeÃ¡nach"
 
 #: src/main.c:167
 msgid "Operation modifiers valid only in copy-out mode:"
-msgstr "Mionathraitheoirí oibre atá bailí sa mhód cóipeála amach amháin:"
+msgstr "MionathraitheoirÃ­ oibre atÃ¡ bailÃ­ sa mhÃ³d cÃ³ipeÃ¡la amach amhÃ¡in:"
 
 #: src/main.c:169
 msgid "Append to an existing archive."
-msgstr "Iarcheangail le cartlann atá ann."
+msgstr "Iarcheangail le cartlann atÃ¡ ann."
 
 #: src/main.c:171
 msgid ""
 "Archive filename to use instead of standard output. Optional USER and HOST "
 "specify the user and host names in case of a remote archive"
 msgstr ""
-"Ainm na cartlainne le húsáid in ionad aschuir caighdeánach. Sonraíonn "
-"ÚSÁIDEOIR agus ÓSTRÍOMHAIRE (roghnach) an t-úsáideoir agus an t-óstainm "
-"nuair atá cartlann chianda i gceist"
+"Ainm na cartlainne le hÃºsÃ¡id in ionad aschuir caighdeÃ¡nach. SonraÃ­onn "
+"ÃšSÃIDEOIR agus Ã“STRÃOMHAIRE (roghnach) an t-ÃºsÃ¡ideoir agus an t-Ã³stainm "
+"nuair atÃ¡ cartlann chianda i gceist"
 
 #: src/main.c:177
 msgid "Operation modifiers valid only in copy-pass mode:"
-msgstr "Mionathraitheoirí oibre atá bailí sa mhód cóipeála trasna amháin:"
+msgstr "MionathraitheoirÃ­ oibre atÃ¡ bailÃ­ sa mhÃ³d cÃ³ipeÃ¡la trasna amhÃ¡in:"
 
 #: src/main.c:179
 msgid "Link files instead of copying them, when  possible"
-msgstr "Nasc comhaid in ionad iad a chóipeáil, nuair is féidir"
+msgstr "Nasc comhaid in ionad iad a chÃ³ipeÃ¡il, nuair is fÃ©idir"
 
 #: src/main.c:186
 msgid "Operation modifiers valid in copy-in and copy-out modes:"
 msgstr ""
-"Mionathraitheoirí oibre atá bailí sa mhóid chóipeála isteach agus chóipeála "
+"MionathraitheoirÃ­ oibre atÃ¡ bailÃ­ sa mhÃ³id chÃ³ipeÃ¡la isteach agus chÃ³ipeÃ¡la "
 "amach:"
 
 #: src/main.c:188
 msgid "Do not strip file system prefix components from the file names"
-msgstr "Ná struipeáil réimíreanna córais comhaid ó ainmneacha comhaid"
+msgstr "NÃ¡ struipeÃ¡il rÃ©imÃ­reanna cÃ³rais comhaid Ã³ ainmneacha comhaid"
 
 #: src/main.c:191
 msgid "Create all files relative to the current directory"
-msgstr "Cruthaigh gach comhad coibhneasta ón chomhadlann reatha"
+msgstr "Cruthaigh gach comhad coibhneasta Ã³n chomhadlann reatha"
 
 #: src/main.c:196
 msgid "Operation modifiers valid in copy-out and copy-pass modes:"
 msgstr ""
-"Mionathraitheoirí oibre atá bailí sa mhóid chóipeála amach agus chóipeála "
+"MionathraitheoirÃ­ oibre atÃ¡ bailÃ­ sa mhÃ³id chÃ³ipeÃ¡la amach agus chÃ³ipeÃ¡la "
 "trasna:"
 
 #: src/main.c:198
@@ -985,85 +985,85 @@ msgid ""
 "A list of filenames is terminated by a null character instead of a newline"
 msgstr ""
 "Cuirtear deireadh le liosta de chomhadainmneacha le carachtar nialasach, in "
-"ionad líne nua"
+"ionad lÃ­ne nua"
 
 #: src/main.c:200
 msgid ""
 "Archive filename to use instead of standard input. Optional USER and HOST "
 "specify the user and host names in case of a remote archive"
 msgstr ""
-"Ainm na cartlainne le húsáid in ionad ionchuir caighdeánach. Sonraíonn "
-"ÚSÁIDEOIR agus ÓSTRÍOMHAIRE (roghnach) an t-úsáideoir agus an t-óstainm "
-"nuair atá cartlann chianda i gceist"
+"Ainm na cartlainne le hÃºsÃ¡id in ionad ionchuir caighdeÃ¡nach. SonraÃ­onn "
+"ÃšSÃIDEOIR agus Ã“STRÃOMHAIRE (roghnach) an t-ÃºsÃ¡ideoir agus an t-Ã³stainm "
+"nuair atÃ¡ cartlann chianda i gceist"
 
 #: src/main.c:202
 msgid ""
 "Dereference  symbolic  links  (copy  the files that they point to instead of "
 "copying the links)."
 msgstr ""
-"Lean naisc shiombalacha (.i. cóipeáil na comhaid a bhfuil nasctha leo, in "
-"ionad na nasc féin)."
+"Lean naisc shiombalacha (.i. cÃ³ipeÃ¡il na comhaid a bhfuil nasctha leo, in "
+"ionad na nasc fÃ©in)."
 
 #: src/main.c:203
 msgid "[USER][:.][GROUP]"
-msgstr "[ÚSÁIDEOIR][:.][GRÚPA]"
+msgstr "[ÃšSÃIDEOIR][:.][GRÃšPA]"
 
 #: src/main.c:204
 msgid ""
 "Set the ownership of all files created to the specified USER and/or GROUP"
 msgstr ""
-"Socraigh an tÚSÁIDEOIR agus/nó an GRÚPA sonraithe a bheith an t-úinéir de "
-"gach comhad a chruthaítear"
+"Socraigh an tÃšSÃIDEOIR agus/nÃ³ an GRÃšPA sonraithe a bheith an t-ÃºinÃ©ir de "
+"gach comhad a chruthaÃ­tear"
 
 #: src/main.c:206
 msgid "Reset the access times of files after reading them"
-msgstr "Athshocraigh an t-am rochtana de gach comhad i ndiaidh é a léamh"
+msgstr "Athshocraigh an t-am rochtana de gach comhad i ndiaidh Ã© a lÃ©amh"
 
 #: src/main.c:212
 msgid "Operation modifiers valid in copy-in and copy-pass modes:"
 msgstr ""
-"Mionathraitheoirí oibre atá bailí sa mhóid chóipeála isteach agus chóipeála "
+"MionathraitheoirÃ­ oibre atÃ¡ bailÃ­ sa mhÃ³id chÃ³ipeÃ¡la isteach agus chÃ³ipeÃ¡la "
 "trasna:"
 
 #: src/main.c:214
 msgid "Retain previous file modification times when creating files"
-msgstr "Coinnigh na hamanna mionathraithe roimhe seo agus comhaid á gcruthú"
+msgstr "Coinnigh na hamanna mionathraithe roimhe seo agus comhaid Ã¡ gcruthÃº"
 
 #: src/main.c:216
 msgid "Create leading directories where needed"
-msgstr "Cruthaigh comhadlanna tosaithe nuair atá gá leo"
+msgstr "Cruthaigh comhadlanna tosaithe nuair atÃ¡ gÃ¡ leo"
 
 #: src/main.c:218
 msgid "Do not change the ownership of the files"
-msgstr "Ná hathraigh úinéirí na gcomhad"
+msgstr "NÃ¡ hathraigh ÃºinÃ©irÃ­ na gcomhad"
 
 #: src/main.c:220
 msgid "Replace all files unconditionally"
-msgstr "Athchuir gach comhad gan choinníoll"
+msgstr "Athchuir gach comhad gan choinnÃ­oll"
 
 #: src/main.c:222
 msgid "Write files with large blocks of zeros as sparse files"
-msgstr "Scríobh comhaid le bloic mhóra de nialais mar ghannchomhaid"
+msgstr "ScrÃ­obh comhaid le bloic mhÃ³ra de nialais mar ghannchomhaid"
 
 #: src/main.c:228
 msgid "Informative options:"
-msgstr "Roghanna faisnéiseacha:"
+msgstr "Roghanna faisnÃ©iseacha:"
 
 #: src/main.c:230
 msgid "Give this help list"
-msgstr "Taispeáin an chabhair seo agus scoir"
+msgstr "TaispeÃ¡in an chabhair seo agus scoir"
 
 #: src/main.c:231
 msgid "Give a short usage message"
-msgstr "Taispeáin beagán eolais faoin úsáid agus scoir"
+msgstr "TaispeÃ¡in beagÃ¡n eolais faoin ÃºsÃ¡id agus scoir"
 
 #: src/main.c:232
 msgid "Print license and exit"
-msgstr "Taispeáin an ceadúnas agus scoir"
+msgstr "TaispeÃ¡in an ceadÃºnas agus scoir"
 
 #: src/main.c:233
 msgid "Print program version"
-msgstr "Taispeáin an leagan"
+msgstr "TaispeÃ¡in an leagan"
 
 #: src/main.c:250
 #, c-format
@@ -1083,18 +1083,18 @@ msgid ""
 "   Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA\n"
 "\n"
 msgstr ""
-"   Is saorbhogearra é GNU cpio; is féidir leat é a scaipeadh agus/nó\n"
-"   a athrú de réir na gcoinníollacha den GNU General Public License mar atá\n"
-"   foilsithe ag an Free Software Foundation; faoi leagan 3 den cheadúnas,\n"
-"   nó (más mian leat) aon leagan níos déanaí.\n"
+"   Is saorbhogearra Ã© GNU cpio; is fÃ©idir leat Ã© a scaipeadh agus/nÃ³\n"
+"   a athrÃº de rÃ©ir na gcoinnÃ­ollacha den GNU General Public License mar atÃ¡\n"
+"   foilsithe ag an Free Software Foundation; faoi leagan 3 den cheadÃºnas,\n"
+"   nÃ³ (mÃ¡s mian leat) aon leagan nÃ­os dÃ©anaÃ­.\n"
 "\n"
-"   Scaiptear GNU cpio le súil go mbeidh sé áisiúil, ach GAN AON BARÁNTA;\n"
-"   go fiú gan an barántas intuigthe d'INDÍOLTACHT nó FEILIÚNACHT D'FHEIDHM\n"
-"   AR LEITH.  Féach ar an GNU General Public License chun níos mó\n"
-"   sonraí a fháil.\n"
+"   Scaiptear GNU cpio le sÃºil go mbeidh sÃ© Ã¡isiÃºil, ach GAN AON BARÃNTA;\n"
+"   go fiÃº gan an barÃ¡ntas intuigthe d'INDÃOLTACHT nÃ³ FEILIÃšNACHT D'FHEIDHM\n"
+"   AR LEITH.  FÃ©ach ar an GNU General Public License chun nÃ­os mÃ³\n"
+"   sonraÃ­ a fhÃ¡il.\n"
 "\n"
-"   Ba chóir go mbeifeá tar éis cóip den GNU General Public License a fháil\n"
-"   in éineacht le GNU cpio; mura bhfuair, scríobh chuig an Free Software\n"
+"   Ba chÃ³ir go mbeifeÃ¡ tar Ã©is cÃ³ip den GNU General Public License a fhÃ¡il\n"
+"   in Ã©ineacht le GNU cpio; mura bhfuair, scrÃ­obh chuig an Free Software\n"
 "   Foundation, Inc., 51 Franklin Street, Fifth Floor,\n"
 "   Boston, MA 02110-1301 USA\n"
 "\n"
@@ -1102,12 +1102,12 @@ msgstr ""
 #: src/main.c:334 src/main.c:351
 #, c-format
 msgid "invalid block size"
-msgstr "méid neamhbhailí bloc"
+msgstr "mÃ©id neamhbhailÃ­ bloc"
 
 #: src/main.c:340 src/main.c:372
 #, c-format
 msgid "Archive format multiply defined"
-msgstr "Sainmhíníodh formáid na cartlainne níos mó ná uair amháin"
+msgstr "SainmhÃ­nÃ­odh formÃ¡id na cartlainne nÃ­os mÃ³ nÃ¡ uair amhÃ¡in"
 
 #: src/main.c:390
 #, c-format
@@ -1115,28 +1115,28 @@ msgid ""
 "invalid archive format `%s'; valid formats are:\n"
 "crc newc odc bin ustar tar (all-caps also recognized)"
 msgstr ""
-"formáid neamhbhailí chartlainne `%s'; is iad seo na formáidí bailí:\n"
-"crc newc odc bin ustar tar (glactar leo sa chás uachtair freisin)"
+"formÃ¡id neamhbhailÃ­ chartlainne `%s'; is iad seo na formÃ¡idÃ­ bailÃ­:\n"
+"crc newc odc bin ustar tar (glactar leo sa chÃ¡s uachtair freisin)"
 
 #: src/main.c:397 src/main.c:447 src/main.c:461
 #, c-format
 msgid "Mode already defined"
-msgstr "Sainmhíníodh an mód cheana"
+msgstr "SainmhÃ­nÃ­odh an mÃ³d cheana"
 
 #: src/main.c:441
 #, c-format
 msgid "--no-preserve-owner cannot be used with --owner"
-msgstr "ní féidir --no-preserve-owner a úsáid in éineacht le --owner"
+msgstr "nÃ­ fÃ©idir --no-preserve-owner a ÃºsÃ¡id in Ã©ineacht le --owner"
 
 #: src/main.c:484
 #, c-format
 msgid "--owner cannot be used with --no-preserve-owner"
-msgstr "ní féidir --owner a úsáid in éineacht le --no-preserve-owner"
+msgstr "nÃ­ fÃ©idir --owner a ÃºsÃ¡id in Ã©ineacht le --no-preserve-owner"
 
 #: src/main.c:531
 #, c-format
 msgid "Invalid value for --warning option: %s"
-msgstr "Luach neamhbhailí ar an rogha --warning: %s"
+msgstr "Luach neamhbhailÃ­ ar an rogha --warning: %s"
 
 #: src/main.c:584
 msgid "[destination-directory]"
@@ -1148,73 +1148,73 @@ msgid ""
 "You must specify one of -oipt options.\n"
 "Try `%s --help' or `%s --usage' for more information.\n"
 msgstr ""
-"Caithfidh tú ceann de na roghanna -oipt.\n"
-"Bain triail as `%s --help' nó `%s --usage' chun tuilleadh eolais a fháil.\n"
+"Caithfidh tÃº ceann de na roghanna -oipt.\n"
+"Bain triail as `%s --help' nÃ³ `%s --usage' chun tuilleadh eolais a fhÃ¡il.\n"
 
 #: src/main.c:647
 #, c-format
 msgid "Both -I and -F are used in copy-in mode"
-msgstr "Úsáidtear -I agus -F araon sa mhód cóipeála isteach"
+msgstr "ÃšsÃ¡idtear -I agus -F araon sa mhÃ³d cÃ³ipeÃ¡la isteach"
 
 #: src/main.c:659 src/main.c:695
 #, c-format
 msgid "Too many arguments"
-msgstr "An iomarca argóintí"
+msgstr "An iomarca argÃ³intÃ­"
 
 #: src/main.c:678
 #, c-format
 msgid ""
 "--append is used but no archive file name is given (use -F or -O options)"
 msgstr ""
-"Rogha --append in úsáid, ach níor sonraíodh ainm cartlainne (úsáid roghanna -"
-"F nó -O)"
+"Rogha --append in ÃºsÃ¡id, ach nÃ­or sonraÃ­odh ainm cartlainne (ÃºsÃ¡id roghanna -"
+"F nÃ³ -O)"
 
 #: src/main.c:684
 #, c-format
 msgid "Both -O and -F are used in copy-out mode"
-msgstr "Úsáidtear -O agus -F araon sa mhód cóipeála amach"
+msgstr "ÃšsÃ¡idtear -O agus -F araon sa mhÃ³d cÃ³ipeÃ¡la amach"
 
 #: src/main.c:697
 #, c-format
 msgid "Not enough arguments"
-msgstr "Easpa argóintí"
+msgstr "Easpa argÃ³intÃ­"
 
 #: src/main.c:701
 #, c-format
 msgid "Archive format is not specified in copy-pass mode (use --format option)"
 msgstr ""
-"Níor sonraíodh formáid na cartlainne sa mhód cóipeála trasna (úsáid an rogha "
+"NÃ­or sonraÃ­odh formÃ¡id na cartlainne sa mhÃ³d cÃ³ipeÃ¡la trasna (ÃºsÃ¡id an rogha "
 "--format)"
 
 #: src/main.c:723
 #, c-format
 msgid "-F can be used only with --create or --extract"
-msgstr "ní cheadaítear -F a úsáid gan --create nó --extract"
+msgstr "nÃ­ cheadaÃ­tear -F a ÃºsÃ¡id gan --create nÃ³ --extract"
 
 #: src/main.c:726
 #, c-format
 msgid "Cannot open %s"
-msgstr "Ní féidir %s a oscailt"
+msgstr "NÃ­ fÃ©idir %s a oscailt"
 
 #: src/main.c:798
 #, c-format
 msgid "error closing archive"
-msgstr "earráid agus cartlann á dúnadh"
+msgstr "earrÃ¡id agus cartlann Ã¡ dÃºnadh"
 
 #: src/makepath.c:96 src/makepath.c:155
 #, c-format
 msgid "cannot make directory `%s'"
-msgstr "ní féidir comhadlann `%s' a chruthú"
+msgstr "nÃ­ fÃ©idir comhadlann `%s' a chruthÃº"
 
 #: src/makepath.c:131 src/makepath.c:181
 #, c-format
 msgid "`%s' exists but is not a directory"
-msgstr "tá `%s' ann cheana, ach ní comhadlann é"
+msgstr "tÃ¡ `%s' ann cheana, ach nÃ­ comhadlann Ã©"
 
 #: src/mt.c:183
 #, c-format
 msgid "%s is not a character special file"
-msgstr "ní comhad speisialta den chineál `carachtar' é %s"
+msgstr "nÃ­ comhad speisialta den chineÃ¡l `carachtar' Ã© %s"
 
 #: src/mt.c:196 src/mt.c:205
 #, c-format
@@ -1227,13 +1227,13 @@ msgid ""
 "Usage: %s [-V] [-f device] [--file=device] [--rsh-command=command]\n"
 "\t[--help] [--version] operation [count]\n"
 msgstr ""
-"Úsáid: %s [-V] [-f gléas] [--file=gléas] [--rsh-command=ordú]\n"
-"\t[--help] [--version] oibríocht [líon]\n"
+"ÃšsÃ¡id: %s [-V] [-f glÃ©as] [--file=glÃ©as] [--rsh-command=ordÃº]\n"
+"\t[--help] [--version] oibrÃ­ocht [lÃ­on]\n"
 
 #: src/mt.c:307
 #, c-format
 msgid "no tape device specified"
-msgstr "níor sonraíodh gléas téipe"
+msgstr "nÃ­or sonraÃ­odh glÃ©as tÃ©ipe"
 
 #: src/mt.c:320
 #, c-format
@@ -1248,104 +1248,104 @@ msgstr "%s: theip ar rmtclose"
 #: src/tar.c:308
 #, c-format
 msgid "invalid header: checksum error"
-msgstr "ceanntásc neamhbhailí: earráid i suim sheiceála"
+msgstr "ceanntÃ¡sc neamhbhailÃ­: earrÃ¡id i suim sheiceÃ¡la"
 
 #: src/userspec.c:116
 msgid "invalid user"
-msgstr "úsáideoir neamhbhailí"
+msgstr "ÃºsÃ¡ideoir neamhbhailÃ­"
 
 #: src/userspec.c:122
 msgid "cannot get the login group of a numeric UID"
-msgstr "níl aon fháil ar an ghrúpa don UID uimhriúil seo"
+msgstr "nÃ­l aon fhÃ¡il ar an ghrÃºpa don UID uimhriÃºil seo"
 
 #: src/userspec.c:162
 msgid "invalid group"
-msgstr "grúpa neamhbhailí"
+msgstr "grÃºpa neamhbhailÃ­"
 
 #: src/util.c:207 src/util.c:376
 #, c-format
 msgid "read error"
-msgstr "earráid sa léamh"
+msgstr "earrÃ¡id sa lÃ©amh"
 
 #: src/util.c:210
 #, c-format
 msgid "premature end of file"
-msgstr "comhadchríoch gan choinne"
+msgstr "comhadchrÃ­och gan choinne"
 
 #: src/util.c:495 src/util.c:545
 #, c-format
 msgid "File %s shrunk by %s byte, padding with zeros"
 msgid_plural "File %s shrunk by %s bytes, padding with zeros"
-msgstr[0] "Chrap comhad %s (%s bheart); á stuáil le nialais"
-msgstr[1] "Chrap comhad %s (%s bheart); á stuáil le nialais"
-msgstr[2] "Chrap comhad %s (%s bheart); á stuáil le nialais"
-msgstr[3] "Chrap comhad %s (%s mbeart); á stuáil le nialais"
-msgstr[4] "Chrap comhad %s (%s beart); á stuáil le nialais"
+msgstr[0] "Chrap comhad %s (%s bheart); Ã¡ stuÃ¡il le nialais"
+msgstr[1] "Chrap comhad %s (%s bheart); Ã¡ stuÃ¡il le nialais"
+msgstr[2] "Chrap comhad %s (%s bheart); Ã¡ stuÃ¡il le nialais"
+msgstr[3] "Chrap comhad %s (%s mbeart); Ã¡ stuÃ¡il le nialais"
+msgstr[4] "Chrap comhad %s (%s beart); Ã¡ stuÃ¡il le nialais"
 
 #: src/util.c:501 src/util.c:551
 #, c-format
 msgid "Read error at byte %lld in file %s, padding with zeros"
-msgstr "Earráid sa léamh ag beart %lld i gcomhad %s; á stuáil le nialais"
+msgstr "EarrÃ¡id sa lÃ©amh ag beart %lld i gcomhad %s; Ã¡ stuÃ¡il le nialais"
 
 #: src/util.c:586
 #, c-format
 msgid "File %s grew, %<PRIuMAX> new byte not copied"
 msgid_plural "File %s grew, %<PRIuMAX> new bytes not copied"
-msgstr[0] "D'fhás comhad %s, níor cóipeáladh %<PRIuMAX> beart nua"
-msgstr[1] "D'fhás comhad %s, níor cóipeáladh %<PRIuMAX> beart nua"
-msgstr[2] "D'fhás comhad %s, níor cóipeáladh %<PRIuMAX> beart nua"
-msgstr[3] "D'fhás comhad %s, níor cóipeáladh %<PRIuMAX> beart nua"
-msgstr[4] "D'fhás comhad %s, níor cóipeáladh %<PRIuMAX> beart nua"
+msgstr[0] "D'fhÃ¡s comhad %s, nÃ­or cÃ³ipeÃ¡ladh %<PRIuMAX> beart nua"
+msgstr[1] "D'fhÃ¡s comhad %s, nÃ­or cÃ³ipeÃ¡ladh %<PRIuMAX> beart nua"
+msgstr[2] "D'fhÃ¡s comhad %s, nÃ­or cÃ³ipeÃ¡ladh %<PRIuMAX> beart nua"
+msgstr[3] "D'fhÃ¡s comhad %s, nÃ­or cÃ³ipeÃ¡ladh %<PRIuMAX> beart nua"
+msgstr[4] "D'fhÃ¡s comhad %s, nÃ­or cÃ³ipeÃ¡ladh %<PRIuMAX> beart nua"
 
 #: src/util.c:592
 #, c-format
 msgid "File %s was modified while being copied"
-msgstr "Mionathraíodh comhad %s le linn é a chóipeáil"
+msgstr "MionathraÃ­odh comhad %s le linn Ã© a chÃ³ipeÃ¡il"
 
 #: src/util.c:620
 #, c-format
 msgid "virtual memory exhausted"
-msgstr "cuimhne fhíorúil ídithe"
+msgstr "cuimhne fhÃ­orÃºil Ã­dithe"
 
 #: src/util.c:626
 #, c-format
 msgid "Creating intermediate directory `%s'"
-msgstr "Comhadlann idirmheánach `%s' á cruthú"
+msgstr "Comhadlann idirmheÃ¡nach `%s' Ã¡ cruthÃº"
 
 #: src/util.c:663 src/util.c:669
 #, c-format
 msgid "cannot seek on output"
-msgstr "ní féidir 'seek' a dhéanamh san aschur"
+msgstr "nÃ­ fÃ©idir 'seek' a dhÃ©anamh san aschur"
 
 #: src/util.c:841
 #, c-format
 msgid "Found end of tape.  Load next tape and press RETURN. "
 msgstr ""
-"Aimsíodh críoch na téipe.  Luchtaigh an chéad téip eile agus brúigh RETURN. "
+"AimsÃ­odh crÃ­och na tÃ©ipe.  Luchtaigh an chÃ©ad tÃ©ip eile agus brÃºigh RETURN. "
 
 #: src/util.c:843
 #, c-format
 msgid "Found end of tape.  To continue, type device/file name when ready.\n"
 msgstr ""
-"Aimsíodh críoch na téipe.  Chun dul ar aghaidh, iontráil ainm an ghléis nó "
-"comhadainm nuair atá tú réidh.\n"
+"AimsÃ­odh crÃ­och na tÃ©ipe.  Chun dul ar aghaidh, iontrÃ¡il ainm an ghlÃ©is nÃ³ "
+"comhadainm nuair atÃ¡ tÃº rÃ©idh.\n"
 
 #: src/util.c:866
 #, c-format
 msgid "To continue, type device/file name when ready.\n"
 msgstr ""
-"Chun dul ar aghaidh, iontráil ainm an ghléis nó comhadainm nuair atá tú "
-"réidh.\n"
+"Chun dul ar aghaidh, iontrÃ¡il ainm an ghlÃ©is nÃ³ comhadainm nuair atÃ¡ tÃº "
+"rÃ©idh.\n"
 
 #: src/util.c:891
 #, c-format
 msgid "internal error: tape descriptor changed from %d to %d"
-msgstr "earráid inmheánach: d'athraigh tuarascálaí na téipe ó %d go %d"
+msgstr "earrÃ¡id inmheÃ¡nach: d'athraigh tuarascÃ¡laÃ­ na tÃ©ipe Ã³ %d go %d"
 
 #: src/util.c:1422
 #, c-format
 msgid "%s: Unexpected inconsistency when making directory"
-msgstr "%s: Rud éigin bunoscionn gan súil leis agus comhadlann á cruthú"
+msgstr "%s: Rud Ã©igin bunoscionn gan sÃºil leis agus comhadlann Ã¡ cruthÃº"
 
 #: tests/genfile.c:112
 msgid ""
@@ -1356,7 +1356,7 @@ msgstr ""
 #: tests/genfile.c:127
 #, fuzzy
 msgid "File creation options:"
-msgstr "Roghanna faisnéiseacha:"
+msgstr "Roghanna faisnÃ©iseacha:"
 
 #: tests/genfile.c:128 tests/genfile.c:139
 msgid "SIZE"
@@ -1369,7 +1369,7 @@ msgstr ""
 #: tests/genfile.c:131
 #, fuzzy
 msgid "Write to file NAME, instead of standard output"
-msgstr "Bain comhaid amach go dtí an t-aschur caighdeánach"
+msgstr "Bain comhaid amach go dtÃ­ an t-aschur caighdeÃ¡nach"
 
 #: tests/genfile.c:133
 msgid "Read file names from FILE"
@@ -1390,7 +1390,7 @@ msgstr ""
 #: tests/genfile.c:140
 #, fuzzy
 msgid "Size of a block for sparse file"
-msgstr "Scríobh comhaid le bloic mhóra de nialais mar ghannchomhaid"
+msgstr "ScrÃ­obh comhaid le bloic mhÃ³ra de nialais mar ghannchomhaid"
 
 #: tests/genfile.c:142
 msgid "Generate sparse file. Rest of the command line gives the file map."
@@ -1457,12 +1457,12 @@ msgstr ""
 #: tests/genfile.c:191
 #, fuzzy
 msgid "Execute COMMAND"
-msgstr "ORDÚ"
+msgstr "ORDÃš"
 
 #: tests/genfile.c:241
 #, fuzzy, c-format
 msgid "Invalid size: %s"
-msgstr "méid neamhbhailí bloc"
+msgstr "mÃ©id neamhbhailÃ­ bloc"
 
 #: tests/genfile.c:246
 #, c-format
@@ -1497,12 +1497,12 @@ msgstr ""
 #: tests/genfile.c:665 tests/genfile.c:679
 #, fuzzy, c-format
 msgid "cannot open `%s'"
-msgstr "Ní féidir %s a oscailt"
+msgstr "NÃ­ fÃ©idir %s a oscailt"
 
 #: tests/genfile.c:428
 #, fuzzy
 msgid "cannot seek"
-msgstr "ní féidir 'seek' a dhéanamh san aschur"
+msgstr "nÃ­ fÃ©idir 'seek' a dhÃ©anamh san aschur"
 
 #: tests/genfile.c:445
 #, c-format
@@ -1527,7 +1527,7 @@ msgstr ""
 #: tests/genfile.c:654
 #, fuzzy, c-format
 msgid "cannot set time on `%s'"
-msgstr "ní féidir comhadlann `%s' a chruthú"
+msgstr "nÃ­ fÃ©idir comhadlann `%s' a chruthÃº"
 
 #: tests/genfile.c:808
 #, c-format
@@ -1567,15 +1567,15 @@ msgstr ""
 #: tests/genfile.c:867
 #, fuzzy, c-format
 msgid "too many arguments"
-msgstr "An iomarca argóintí"
+msgstr "An iomarca argÃ³intÃ­"
 
 #~ msgid "error %d"
-#~ msgstr "earráid %d"
+#~ msgstr "earrÃ¡id %d"
 
 #~ msgid "%s: Read error at byte %s, reading %lu byte"
 #~ msgid_plural "%s: Read error at byte %s, reading %lu bytes"
-#~ msgstr[0] "%s: Earráid sa léamh ag beart %s, %lu bheart á léamh"
-#~ msgstr[1] "%s: Earráid sa léamh ag beart %s, %lu bheart á léamh"
-#~ msgstr[2] "%s: Earráid sa léamh ag beart %s, %lu bheart á léamh"
-#~ msgstr[3] "%s: Earráid sa léamh ag beart %s, %lu mbeart á léamh"
-#~ msgstr[4] "%s: Earráid sa léamh ag beart %s, %lu beart á léamh"
+#~ msgstr[0] "%s: EarrÃ¡id sa lÃ©amh ag beart %s, %lu bheart Ã¡ lÃ©amh"
+#~ msgstr[1] "%s: EarrÃ¡id sa lÃ©amh ag beart %s, %lu bheart Ã¡ lÃ©amh"
+#~ msgstr[2] "%s: EarrÃ¡id sa lÃ©amh ag beart %s, %lu bheart Ã¡ lÃ©amh"
+#~ msgstr[3] "%s: EarrÃ¡id sa lÃ©amh ag beart %s, %lu mbeart Ã¡ lÃ©amh"
+#~ msgstr[4] "%s: EarrÃ¡id sa lÃ©amh ag beart %s, %lu beart Ã¡ lÃ©amh"

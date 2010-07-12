@@ -13,7 +13,7 @@ msgstr ""
 "Last-Translator: Kevin Patrick Scannell <scannell@SLU.EDU>\n"
 "Language-Team: Irish <gaeilge-gnulinux@lists.sourceforge.net>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=ISO-8859-1\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 #: info/echo-area.c:284 info/session.c:689
@@ -62,11 +62,11 @@ msgstr ""
 
 #: info/echo-area.c:480
 msgid "Insert this character"
-msgstr "Ions·igh an carachtar seo"
+msgstr "Ions√°igh an carachtar seo"
 
 #: info/echo-area.c:498
 msgid "Insert a TAB character"
-msgstr "Ions·igh t·b"
+msgstr "Ions√°igh t√°b"
 
 #: info/echo-area.c:505
 msgid "Transpose characters at point"
@@ -147,7 +147,7 @@ msgstr ""
 
 #: info/footnotes.h:26
 msgid "---------- Footnotes ----------"
-msgstr "---------- FonÛtaÌ ----------"
+msgstr "---------- Fon√≥ta√≠ ----------"
 
 #: info/indices.c:172
 msgid "Look up a string in the index for this file"
@@ -768,7 +768,7 @@ msgstr ""
 #: info/infokey.c:201
 #, c-format
 msgid "cannot open input file `%s'"
-msgstr "nÌ fÈidir an t-inchomhad `%s' a oscailt"
+msgstr "n√≠ f√©idir an t-inchomhad `%s' a oscailt"
 
 #: info/infokey.c:215
 #, c-format
@@ -843,7 +843,7 @@ msgstr ""
 #: info/infokey.c:890
 #, c-format
 msgid "\"%s\", line %u: "
-msgstr "\"%s\", lÌne %u: "
+msgstr "\"%s\", l√≠ne %u: "
 
 #: info/infokey.c:906
 #, c-format
@@ -995,7 +995,7 @@ msgstr ""
 
 #: info/session.c:650
 msgid "Move to the end of the line"
-msgstr "TÈigh go deireadh na lÌne"
+msgstr "T√©igh go deireadh na l√≠ne"
 
 #: info/session.c:670
 msgid "Move to the start of the line"
@@ -1326,7 +1326,7 @@ msgstr ""
 
 #: info/session.c:3165 info/session.c:3287 info/session.c:3347
 msgid "Done."
-msgstr "CrÌochnaithe."
+msgstr "Cr√≠ochnaithe."
 
 #: info/session.c:3220
 #, c-format
@@ -1371,7 +1371,7 @@ msgstr ""
 
 #: info/session.c:3671 info/session.c:3678
 msgid "Search backward"
-msgstr "Cuardaigh ar gc˙l"
+msgstr "Cuardaigh ar gc√∫l"
 
 #: info/session.c:3672 info/session.c:3678
 msgid "Search"
@@ -1573,22 +1573,22 @@ msgstr ""
 #: lib/getopt.c:551 lib/getopt.c:570
 #, c-format
 msgid "%s: option `%s' is ambiguous\n"
-msgstr "%s: T· an rogha `%s' dÈbhrÌoch\n"
+msgstr "%s: T√° an rogha `%s' d√©bhr√≠och\n"
 
 #: lib/getopt.c:603 lib/getopt.c:607
 #, c-format
 msgid "%s: option `--%s' doesn't allow an argument\n"
-msgstr "%s: nÌ cheadaÌtear argÛint i ndiaidh na rogha `--%s'\n"
+msgstr "%s: n√≠ cheada√≠tear arg√≥int i ndiaidh na rogha `--%s'\n"
 
 #: lib/getopt.c:616 lib/getopt.c:621
 #, c-format
 msgid "%s: option `%c%s' doesn't allow an argument\n"
-msgstr "%s: nÌ cheadaÌtear argÛint i ndiaidh na rogha `%c%s'\n"
+msgstr "%s: n√≠ cheada√≠tear arg√≥int i ndiaidh na rogha `%c%s'\n"
 
 #: lib/getopt.c:667 lib/getopt.c:689 lib/getopt.c:1020 lib/getopt.c:1042
 #, c-format
 msgid "%s: option `%s' requires an argument\n"
-msgstr "%s: t· argÛint de dhÌth i ndiaidh na rogha `%s'\n"
+msgstr "%s: t√° arg√≥int de dh√≠th i ndiaidh na rogha `%s'\n"
 
 #: lib/getopt.c:727 lib/getopt.c:730
 #, c-format
@@ -1608,22 +1608,22 @@ msgstr "%s: rogha neamhcheadaithe -- %c\n"
 #: lib/getopt.c:805 lib/getopt.c:808
 #, c-format
 msgid "%s: invalid option -- %c\n"
-msgstr "%s: rogha neamhbhailÌ -- %c\n"
+msgstr "%s: rogha neamhbhail√≠ -- %c\n"
 
 #: lib/getopt.c:863 lib/getopt.c:882 lib/getopt.c:1095 lib/getopt.c:1116
 #, c-format
 msgid "%s: option requires an argument -- %c\n"
-msgstr "%s: t· argÛint de dhÌth i ndiaidh na rogha -- %c\n"
+msgstr "%s: t√° arg√≥int de dh√≠th i ndiaidh na rogha -- %c\n"
 
 #: lib/getopt.c:935 lib/getopt.c:954
 #, c-format
 msgid "%s: option `-W %s' is ambiguous\n"
-msgstr "%s: T· an rogha `-W %s' dÈbhrÌoch\n"
+msgstr "%s: T√° an rogha `-W %s' d√©bhr√≠och\n"
 
 #: lib/getopt.c:978 lib/getopt.c:999
 #, c-format
 msgid "%s: option `-W %s' doesn't allow an argument\n"
-msgstr "%s: nÌ cheadaÌtear argÛint i ndiaidh na rogha `-W %s'\n"
+msgstr "%s: n√≠ cheada√≠tear arg√≥int i ndiaidh na rogha `-W %s'\n"
 
 #: makeinfo/cmds.c:520 makeinfo/cmds.c:542
 #, c-format
@@ -1632,7 +1632,7 @@ msgstr ""
 
 #: makeinfo/cmds.c:585
 msgid "January"
-msgstr "Ean·ir"
+msgstr "Ean√°ir"
 
 #: makeinfo/cmds.c:585
 msgid "February"
@@ -1640,11 +1640,11 @@ msgstr "Feabhra"
 
 #: makeinfo/cmds.c:585
 msgid "March"
-msgstr "M·rta"
+msgstr "M√°rta"
 
 #: makeinfo/cmds.c:585
 msgid "April"
-msgstr "Aibre·n"
+msgstr "Aibre√°n"
 
 #: makeinfo/cmds.c:585
 msgid "May"
@@ -1656,27 +1656,27 @@ msgstr "Meitheamh"
 
 #: makeinfo/cmds.c:586
 msgid "July"
-msgstr "I˙il"
+msgstr "I√∫il"
 
 #: makeinfo/cmds.c:586
 msgid "August"
-msgstr "L˙nasa"
+msgstr "L√∫nasa"
 
 #: makeinfo/cmds.c:586
 msgid "September"
-msgstr "Me·n FÛmhair"
+msgstr "Me√°n F√≥mhair"
 
 #: makeinfo/cmds.c:586
 msgid "October"
-msgstr "Deireadh FÛmhair"
+msgstr "Deireadh F√≥mhair"
 
 #: makeinfo/cmds.c:587
 msgid "November"
-msgstr "MÌ na Samhna"
+msgstr "M√≠ na Samhna"
 
 #: makeinfo/cmds.c:587
 msgid "December"
-msgstr "MÌ na Nollag"
+msgstr "M√≠ na Nollag"
 
 #: makeinfo/cmds.c:936
 #, c-format
@@ -1728,7 +1728,7 @@ msgstr ""
 
 #: makeinfo/cmds.c:1775 makeinfo/cmds.c:1805 makeinfo/makeinfo.c:4144
 msgid "none"
-msgstr "neamhnÌ"
+msgstr "neamhn√≠"
 
 #: makeinfo/cmds.c:1789
 #, c-format
@@ -1737,7 +1737,7 @@ msgstr ""
 
 #: makeinfo/cmds.c:1803
 msgid "insert"
-msgstr "ions·igh"
+msgstr "ions√°igh"
 
 #: makeinfo/defun.c:84
 msgid "Missing `}' in @def arg"
@@ -1757,7 +1757,7 @@ msgstr ""
 
 #: makeinfo/defun.c:413
 msgid "Variable"
-msgstr "AthrÛg"
+msgstr "Athr√≥g"
 
 #: makeinfo/defun.c:416
 msgid "User Option"
@@ -1779,7 +1779,7 @@ msgstr "as"
 #: makeinfo/defun.c:509 makeinfo/defun.c:513 makeinfo/defun.c:517
 #: makeinfo/defun.c:551 makeinfo/defun.c:650 makeinfo/xml.c:2234
 msgid "on"
-msgstr "ar si˙l"
+msgstr "ar si√∫l"
 
 #: makeinfo/defun.c:711
 #, c-format
@@ -1825,7 +1825,7 @@ msgstr ""
 
 #: makeinfo/footnote.c:302 makeinfo/index.c:189
 msgid "Footnotes"
-msgstr "FonÛtaÌ"
+msgstr "Fon√≥ta√≠"
 
 #: makeinfo/html.c:87
 #, c-format
@@ -2083,7 +2083,7 @@ msgstr ""
 #: makeinfo/makeinfo.c:340
 #, c-format
 msgid "Try `%s --help' for more information.\n"
-msgstr "Bain triail as `%s --help' chun tuilleadh eolais a fh·il.\n"
+msgstr "Bain triail as `%s --help' chun tuilleadh eolais a fh√°il.\n"
 
 #: makeinfo/makeinfo.c:343
 #, c-format
@@ -2480,7 +2480,7 @@ msgstr ""
 
 #: makeinfo/node.c:1363
 msgid "Menu"
-msgstr "Roghchl·r"
+msgstr "Roghchl√°r"
 
 #: makeinfo/node.c:1365
 msgid "Cross"
@@ -2581,7 +2581,7 @@ msgstr ""
 
 #: makeinfo/toc.c:197 makeinfo/toc.c:271 makeinfo/toc.c:273
 msgid "Table of Contents"
-msgstr "Cl·r ¡bhair"
+msgstr "Cl√°r √Åbhair"
 
 #: makeinfo/toc.c:304 makeinfo/toc.c:337 makeinfo/toc.c:339
 msgid "Short Contents"
@@ -2748,7 +2748,7 @@ msgstr ""
 #: util/texindex.c:270
 #, c-format
 msgid "Usage: %s [OPTION]... FILE...\n"
-msgstr "⁄s·id: %s [ROGHA]... COMHAD...\n"
+msgstr "√ös√°id: %s [ROGHA]... COMHAD...\n"
 
 #: util/texindex.c:271
 #, c-format

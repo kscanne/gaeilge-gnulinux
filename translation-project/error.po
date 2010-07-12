@@ -10,28 +10,28 @@ msgstr ""
 "Last-Translator: Kevin Patrick Scannell <scannell@SLU.EDU>\n"
 "Language-Team: Irish <gaeilge-gnulinux@lists.sourceforge.net>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=ISO-8859-1\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8-bit\n"
 
 msgid ".lib section in a.out corrupted"
-msgstr "Tá an pháirt .lib den chomhad a.out truaillithe"
+msgstr "TÃ¡ an phÃ¡irt .lib den chomhad a.out truaillithe"
 
 # coinage - KPS
 msgid "Accessing a corrupted shared library"
 msgstr "Ag rochtain comhleabharlainne truaillithe"
 
 msgid "Address already in use"
-msgstr "Seoladh in úsáid cheana féin"
+msgstr "Seoladh in ÃºsÃ¡id cheana fÃ©in"
 
 msgid "Address family not supported by protocol"
-msgstr "Níl an aicme sheolta ar fáil leis an phrótacal seo"
+msgstr "NÃ­l an aicme sheolta ar fÃ¡il leis an phrÃ³tacal seo"
 
 # compare fr - KPS
 msgid "Advertise error"
-msgstr "Earráid fhógartha"
+msgstr "EarrÃ¡id fhÃ³gartha"
 
 msgid "Arg list too long"
-msgstr "Liosta argóintí rófhada"
+msgstr "Liosta argÃ³intÃ­ rÃ³fhada"
 
 # coinage - KPS
 msgid "Attempting to link in too many shared libraries"
@@ -43,327 +43,327 @@ msgstr "Drochsheoladh"
 msgid "Bad file number"
 msgstr "Drochuimhir chomhaid"
 
-# FARF has "comhad clónna"
+# FARF has "comhad clÃ³nna"
 msgid "Bad font file format"
-msgstr "Comhad clófhoirne earráideach"
+msgstr "Comhad clÃ³fhoirne earrÃ¡ideach"
 
 msgid "Block device required"
-msgstr "Ní foláir gléas blocála a úsáid"
+msgstr "NÃ­ folÃ¡ir glÃ©as blocÃ¡la a ÃºsÃ¡id"
 
 # FARF - KPS
 msgid "Broken pipe"
-msgstr "Píopa briste"
+msgstr "PÃ­opa briste"
 
 msgid "Can not access a needed shared library"
-msgstr "Ní féidir comhleabharlann riachtanach a rochtain"
+msgstr "NÃ­ fÃ©idir comhleabharlann riachtanach a rochtain"
 
 msgid "Cannot assign requested address"
-msgstr "Ní féidir an seoladh a dháileadh mar a iarradh"
+msgstr "NÃ­ fÃ©idir an seoladh a dhÃ¡ileadh mar a iarradh"
 
 # execute.  See French - KPS
 msgid "Cannot exec a shared library directly"
-msgstr "Ní féidir comhleabharlann a rith go díreach"
+msgstr "NÃ­ fÃ©idir comhleabharlann a rith go dÃ­reach"
 
-# coinage - ceann iompair = transport endpoint (like "ceann scríbe") - KPS
+# coinage - ceann iompair = transport endpoint (like "ceann scrÃ­be") - KPS
 msgid "Cannot send after transport endpoint shutdown"
-msgstr "Ní féidir rud ar bith a sheoladh i ndiaidh dúnadh cinn iompair"
+msgstr "NÃ­ fÃ©idir rud ar bith a sheoladh i ndiaidh dÃºnadh cinn iompair"
 
 msgid "Channel number out of range"
-msgstr "Uimhir chainéil as raon"
+msgstr "Uimhir chainÃ©il as raon"
 
 msgid "Communication error on send"
-msgstr "Earráid chumarsáide ag iarraidh seolta"
+msgstr "EarrÃ¡id chumarsÃ¡ide ag iarraidh seolta"
 
 msgid "Connection refused"
-msgstr "Nasc diúltaithe"
+msgstr "Nasc diÃºltaithe"
 
-# comhghleacaí=peer in FARF - KPS
+# comhghleacaÃ­=peer in FARF - KPS
 msgid "Connection reset by peer"
-msgstr "D'athshocraigh an comhghleacaí an nasc"
+msgstr "D'athshocraigh an comhghleacaÃ­ an nasc"
 
 msgid "Connection timed out"
 msgstr "Nasc imithe thar am"
 
 msgid "Cross-device link"
-msgstr "Nasc idir gléasanna"
+msgstr "Nasc idir glÃ©asanna"
 
 msgid "Destination address required"
-msgstr "Ní foláir seoladh ceann scríbe"
+msgstr "NÃ­ folÃ¡ir seoladh ceann scrÃ­be"
 
 msgid "Device not a stream"
-msgstr "Ní sruth an gléas é"
+msgstr "NÃ­ sruth an glÃ©as Ã©"
 
 msgid "Device or resource busy"
-msgstr "Is gafa é an gléas nó acmhainn"
+msgstr "Is gafa Ã© an glÃ©as nÃ³ acmhainn"
 
 msgid "Directory not empty"
-msgstr "Níl an chomhadlann folamh"
+msgstr "NÃ­l an chomhadlann folamh"
 
 msgid "Exchange full"
-msgstr "Tá an malartán lán"
+msgstr "TÃ¡ an malartÃ¡n lÃ¡n"
 
 # cf. French - KPS
 msgid "Exec format error"
-msgstr "Earráid fhormáidithe exec()"
+msgstr "EarrÃ¡id fhormÃ¡idithe exec()"
 
 msgid "File descriptor in bad state"
-msgstr "Tuarascálaí comhaid ina dhrochstaid"
+msgstr "TuarascÃ¡laÃ­ comhaid ina dhrochstaid"
 
 msgid "File exists"
-msgstr "Tá an comhad ann cheana"
+msgstr "TÃ¡ an comhad ann cheana"
 
 msgid "File locking deadlock error"
-msgstr "Earráid leamhsháinne ag iarraidh comhad a ghlasáil"
+msgstr "EarrÃ¡id leamhshÃ¡inne ag iarraidh comhad a ghlasÃ¡il"
 
 msgid "File name too long"
-msgstr "Tá ainm an chomhaid rófhada"
+msgstr "TÃ¡ ainm an chomhaid rÃ³fhada"
 
 msgid "File table overflow"
-msgstr "Tábla comhaid thar maoil"
+msgstr "TÃ¡bla comhaid thar maoil"
 
 msgid "File too large"
-msgstr "Tá an comhad rómhór"
+msgstr "TÃ¡ an comhad rÃ³mhÃ³r"
 
 msgid "Function not implemented"
-msgstr "Níl an fheidhm ar fáil"
+msgstr "NÃ­l an fheidhm ar fÃ¡il"
 
 msgid "Host is down"
-msgstr "Tá ainghléas ar an óstríomhaire"
+msgstr "TÃ¡ ainghlÃ©as ar an Ã³strÃ­omhaire"
 
 msgid "I/O error"
-msgstr "Earráid I/A"
+msgstr "EarrÃ¡id I/A"
 
 msgid "Identifier removed"
-msgstr "Aitheantóir díbeartha"
+msgstr "AitheantÃ³ir dÃ­beartha"
 
 msgid "Illegal byte sequence"
-msgstr "Seicheamh bearta neamhbhailí"
+msgstr "Seicheamh bearta neamhbhailÃ­"
 
 # don't conflate with cuardach=search ? - KPS
 msgid "Illegal seek"
-msgstr "`seek' neamhbhailí"
+msgstr "`seek' neamhbhailÃ­"
 
 msgid "Interrupted system call"
-msgstr "Briseadh isteach ar glaoch ar an gcóras"
+msgstr "Briseadh isteach ar glaoch ar an gcÃ³ras"
 
 msgid "Interrupted system call should be restarted"
-msgstr "Is ceart atosú a dhéanamh ar an glaoch córais a bhí briste"
+msgstr "Is ceart atosÃº a dhÃ©anamh ar an glaoch cÃ³rais a bhÃ­ briste"
 
 msgid "Invalid argument"
-msgstr "Argóint neamhbhailí"
+msgstr "ArgÃ³int neamhbhailÃ­"
 
 msgid "Invalid exchange"
-msgstr "Malartán neamhbhailí"
+msgstr "MalartÃ¡n neamhbhailÃ­"
 
 msgid "Invalid request code"
-msgstr "Cód iarratais neamhbhailí"
+msgstr "CÃ³d iarratais neamhbhailÃ­"
 
 # FARF - KPS
 msgid "Invalid request descriptor"
-msgstr "Tuarascálaí iarratais neamhbhailí"
+msgstr "TuarascÃ¡laÃ­ iarratais neamhbhailÃ­"
 
 msgid "Invalid slot"
-msgstr "Sliotán neamhbhailí"
+msgstr "SliotÃ¡n neamhbhailÃ­"
 
 # gender? - KPS
 msgid "Is a directory"
-msgstr "Is comhadlann é"
+msgstr "Is comhadlann Ã©"
 
 msgid "Is a named type file"
-msgstr "Is comhad ainmnithe é"
+msgstr "Is comhad ainmnithe Ã©"
 
 msgid "Level 2 halted"
-msgstr "Leibhéal 2 ar stad"
+msgstr "LeibhÃ©al 2 ar stad"
 
 msgid "Level 2 not synchronized"
-msgstr "Níl leibhéal 2 sioncrónach"
+msgstr "NÃ­l leibhÃ©al 2 sioncrÃ³nach"
 
 msgid "Level 3 halted"
-msgstr "Leibhéal 3 ar stad"
+msgstr "LeibhÃ©al 3 ar stad"
 
 msgid "Level 3 reset"
-msgstr "Leibhéal 3 athshocraithe"
+msgstr "LeibhÃ©al 3 athshocraithe"
 
 msgid "Link has been severed"
-msgstr "Dínascadh"
+msgstr "DÃ­nascadh"
 
 msgid "Link number out of range"
 msgstr "Uimhir naisc as raon"
 
 msgid "Machine is not on the network"
-msgstr "Níl an ríomhaire sa líonra"
+msgstr "NÃ­l an rÃ­omhaire sa lÃ­onra"
 
 msgid "Math argument out of domain of func"
-msgstr "Níl an argóint mhatamaitice sa réimse ceadaithe"
+msgstr "NÃ­l an argÃ³int mhatamaitice sa rÃ©imse ceadaithe"
 
 # my coinage - KPS
 msgid "Math result not representable"
-msgstr "Níl an toradh matamaitice inléirithe"
+msgstr "NÃ­l an toradh matamaitice inlÃ©irithe"
 
 msgid "Message too long"
-msgstr "Teachtaireacht rófhada"
+msgstr "Teachtaireacht rÃ³fhada"
 
 # cf French
 msgid "Multihop attempted"
-msgstr "Iarracht ar nascadh trí nóid iomadúla"
+msgstr "Iarracht ar nascadh trÃ­ nÃ³id iomadÃºla"
 
 msgid "Name not unique on network"
-msgstr "Níl an t-ainm uathúil sa líonra"
+msgstr "NÃ­l an t-ainm uathÃºil sa lÃ­onra"
 
 msgid "Network dropped connection because of reset"
-msgstr "Thréig an líonra an nasc de bharr athshocrú"
+msgstr "ThrÃ©ig an lÃ­onra an nasc de bharr athshocrÃº"
 
 msgid "Network is down"
-msgstr "Tá ainghléas ar an líonra"
+msgstr "TÃ¡ ainghlÃ©as ar an lÃ­onra"
 
 msgid "Network is unreachable"
-msgstr "Tá an líonra dorochtana"
+msgstr "TÃ¡ an lÃ­onra dorochtana"
 
 msgid "No CSI structure available"
-msgstr "Níl struchtúr CSI ar fáil"
+msgstr "NÃ­l struchtÃºr CSI ar fÃ¡il"
 
 msgid "No XENIX semaphores available"
-msgstr "Níl séamafóir XENIX ar fáil"
+msgstr "NÃ­l sÃ©amafÃ³ir XENIX ar fÃ¡il"
 
 # OLT - KPS
 msgid "No anode"
-msgstr "Ní aon anóid ann"
+msgstr "NÃ­ aon anÃ³id ann"
 
 msgid "No buffer space available"
-msgstr "Níl aon stór maoláin ar fáil"
+msgstr "NÃ­l aon stÃ³r maolÃ¡in ar fÃ¡il"
 
 # :) KPS
 msgid "No child processes"
-msgstr "Níl sliocht ar phróiseas ar bith"
+msgstr "NÃ­l sliocht ar phrÃ³iseas ar bith"
 
 msgid "No data available"
-msgstr "Níl aon sonra ar fáil"
+msgstr "NÃ­l aon sonra ar fÃ¡il"
 
 msgid "No message of desired type"
-msgstr "Níl aon theachtaireacht ann den chineál seo"
+msgstr "NÃ­l aon theachtaireacht ann den chineÃ¡l seo"
 
 msgid "No record locks available"
-msgstr "Níl glais taifead ar fáil"
+msgstr "NÃ­l glais taifead ar fÃ¡il"
 
 msgid "No route to host"
-msgstr "Níl aon bhealach go dtí an óstríomhaire"
+msgstr "NÃ­l aon bhealach go dtÃ­ an Ã³strÃ­omhaire"
 
 msgid "No space left on device"
-msgstr "Níl aon spás fágtha ar an ghléas"
+msgstr "NÃ­l aon spÃ¡s fÃ¡gtha ar an ghlÃ©as"
 
 msgid "No such device"
-msgstr "Níl a leithéid de ghléas ann"
+msgstr "NÃ­l a leithÃ©id de ghlÃ©as ann"
 
 msgid "No such device or address"
-msgstr "Níl a leithéid de ghléas ná de sheoladh ann"
+msgstr "NÃ­l a leithÃ©id de ghlÃ©as nÃ¡ de sheoladh ann"
 
 msgid "No such file or directory"
-msgstr "Níl a leithéid de chomhad ná de chomhadlann ann"
+msgstr "NÃ­l a leithÃ©id de chomhad nÃ¡ de chomhadlann ann"
 
 msgid "No such process"
-msgstr "Níl a leithéid de phróiseas ann"
+msgstr "NÃ­l a leithÃ©id de phrÃ³iseas ann"
 
 # cf. French - KPS
 msgid "Not a XENIX named type file"
-msgstr "Ní comhad den chineál `XENIX named' é"
+msgstr "NÃ­ comhad den chineÃ¡l `XENIX named' Ã©"
 
 msgid "Not a data message"
-msgstr "Ní teachtaireacht shonraí é"
+msgstr "NÃ­ teachtaireacht shonraÃ­ Ã©"
 
 msgid "Not a directory"
-msgstr "Ní comhadlann é"
+msgstr "NÃ­ comhadlann Ã©"
 
 msgid "Not a typewriter"
-msgstr "Ní clóscríobhán é"
+msgstr "NÃ­ clÃ³scrÃ­obhÃ¡n Ã©"
 
 # oibiacht for concrete CS objects in FARF - KPS
 msgid "Object is remote"
-msgstr "Tá an oibiacht cian"
+msgstr "TÃ¡ an oibiacht cian"
 
 msgid "Operation already in progress"
-msgstr "Tá an oibríocht ar siúl cheana"
+msgstr "TÃ¡ an oibrÃ­ocht ar siÃºl cheana"
 
 msgid "Operation not permitted"
-msgstr "Oibríocht neamhcheadaithe"
+msgstr "OibrÃ­ocht neamhcheadaithe"
 
 msgid "Operation not supported on transport endpoint"
-msgstr "Níl an oibríocht ar fáil ag ceann iompair"
+msgstr "NÃ­l an oibrÃ­ocht ar fÃ¡il ag ceann iompair"
 
 msgid "Operation now in progress"
-msgstr "Oibríocht ar siúl anois"
+msgstr "OibrÃ­ocht ar siÃºl anois"
 
 msgid "Operation would block"
-msgstr "Bhlocálfadh an oibríocht seo"
+msgstr "BhlocÃ¡lfadh an oibrÃ­ocht seo"
 
 msgid "Out of memory"
-msgstr "Cuimhne ídithe"
+msgstr "Cuimhne Ã­dithe"
 
 msgid "Out of streams resources"
-msgstr "Acmhainní sreafa ídithe"
+msgstr "AcmhainnÃ­ sreafa Ã­dithe"
 
 msgid "Package not installed"
-msgstr "Níl an pacáiste suiteáilte"
+msgstr "NÃ­l an pacÃ¡iste suiteÃ¡ilte"
 
 msgid "Permission denied"
-msgstr "Cead diúltaithe"
+msgstr "Cead diÃºltaithe"
 
 msgid "Protocol driver not attached"
-msgstr "Níl an tiománaí prótacail ceangailte"
+msgstr "NÃ­l an tiomÃ¡naÃ­ prÃ³tacail ceangailte"
 
 msgid "Protocol error"
-msgstr "Earráid phrótacail"
+msgstr "EarrÃ¡id phrÃ³tacail"
 
 msgid "Protocol family not supported"
-msgstr "Níl an aicme phrótacail ar fáil"
+msgstr "NÃ­l an aicme phrÃ³tacail ar fÃ¡il"
 
 msgid "Protocol not available"
-msgstr "Níl an prótacal ar fáil"
+msgstr "NÃ­l an prÃ³tacal ar fÃ¡il"
 
 msgid "Protocol not supported"
-msgstr "Níl an prótacal ar fáil"
+msgstr "NÃ­l an prÃ³tacal ar fÃ¡il"
 
 msgid "Protocol wrong type for socket"
-msgstr "Níl an prótacal ar fáil leis an chineál seo soicéid"
+msgstr "NÃ­l an prÃ³tacal ar fÃ¡il leis an chineÃ¡l seo soicÃ©id"
 
 msgid "RFS specific error"
-msgstr "Earráid ag baint le `RFS'"
+msgstr "EarrÃ¡id ag baint le `RFS'"
 
 msgid "Read-only file system"
-msgstr "Córas comhaid inléite amháin"
+msgstr "CÃ³ras comhaid inlÃ©ite amhÃ¡in"
 
 msgid "Remote I/O error"
-msgstr "Earráid I/A i gcéin"
+msgstr "EarrÃ¡id I/A i gcÃ©in"
 
 msgid "Remote address changed"
-msgstr "Tháinig athrú ar chiansheoladh"
+msgstr "ThÃ¡inig athrÃº ar chiansheoladh"
 
 msgid "Resource deadlock would occur"
-msgstr "Thabharfaí leamhsháinn acmhainní"
+msgstr "ThabharfaÃ­ leamhshÃ¡inn acmhainnÃ­"
 
 msgid "Socket operation on non-socket"
-msgstr "Oibríocht shoicéid ar rud nach ina shoicéad"
+msgstr "OibrÃ­ocht shoicÃ©id ar rud nach ina shoicÃ©ad"
 
 msgid "Socket type not supported"
-msgstr "Ní soicéid den chineál seo ar fáil"
+msgstr "NÃ­ soicÃ©id den chineÃ¡l seo ar fÃ¡il"
 
 msgid "Software caused connection abort"
-msgstr "Thobscoir an bogearraí an nasc"
+msgstr "Thobscoir an bogearraÃ­ an nasc"
 
 # cf. French - KPS
 msgid "Srmount error"
-msgstr "Earráid srmount()"
+msgstr "EarrÃ¡id srmount()"
 
 msgid "Stale NFS file handle"
-msgstr "Tá an chlib chomhaid NFS as dáta"
+msgstr "TÃ¡ an chlib chomhaid NFS as dÃ¡ta"
 
 msgid "Streams pipe error"
-msgstr "Earráid i bpíopa srutha"
+msgstr "EarrÃ¡id i bpÃ­opa srutha"
 
 msgid "Structure needs cleaning"
-msgstr "Ní mór an struchtúr a ghlanadh"
+msgstr "NÃ­ mÃ³r an struchtÃºr a ghlanadh"
 
 msgid "Text file busy"
-msgstr "Tá an téacschomhad gafa"
+msgstr "TÃ¡ an tÃ©acschomhad gafa"
 
 msgid "Timer expired"
 msgstr "Am caite"
@@ -375,23 +375,23 @@ msgid "Too many open files"
 msgstr "An iomarca comhad oscailte"
 
 msgid "Too many references: cannot splice"
-msgstr "An iomarca tagairtí: ní féidir spladhsáil a dhéanamh"
+msgstr "An iomarca tagairtÃ­: nÃ­ fÃ©idir spladhsÃ¡il a dhÃ©anamh"
 
 msgid "Too many symbolic links encountered"
 msgstr "An iomarca nasc shiombalacha"
 
 msgid "Too many users"
-msgstr "An iomarca úsáideoirí"
+msgstr "An iomarca ÃºsÃ¡ideoirÃ­"
 
 msgid "Transport endpoint is already connected"
-msgstr "Tá an ceann iompair ceangailte cheana féin"
+msgstr "TÃ¡ an ceann iompair ceangailte cheana fÃ©in"
 
 msgid "Transport endpoint is not connected"
-msgstr "Níl an ceann iompair ceangailte"
+msgstr "NÃ­l an ceann iompair ceangailte"
 
 msgid "Try again"
-msgstr "Déan iarracht arís"
+msgstr "DÃ©an iarracht arÃ­s"
 
 # data type from FARF - KPS
 msgid "Value too large for defined data type"
-msgstr "Tá an luach rómhór ag an chineál sonraí"
+msgstr "TÃ¡ an luach rÃ³mhÃ³r ag an chineÃ¡l sonraÃ­"

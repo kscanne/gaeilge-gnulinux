@@ -12,7 +12,7 @@ msgstr ""
 "Last-Translator: Kevin Scannell <kscanne@gmail.com>\n"
 "Language-Team: Irish <gaeilge-gnulinux@lists.sourceforge.net>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=ISO-8859-1\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../src/menu.c:31
@@ -29,19 +29,19 @@ msgstr "/Comhad/_Oscail..."
 
 #: ../src/menu.c:37
 msgid "/File/_Save"
-msgstr "/Comhad/_S·bh·il"
+msgstr "/Comhad/_S√°bh√°il"
 
 #: ../src/menu.c:39
 msgid "/File/Save _As..."
-msgstr "/Comhad/S·bh·il _Mar..."
+msgstr "/Comhad/S√°bh√°il _Mar..."
 
 #: ../src/menu.c:45
 msgid "/File/Print Pre_view"
-msgstr "/Comhad/RÈamh_amharc Priont·la"
+msgstr "/Comhad/R√©amh_amharc Priont√°la"
 
 #: ../src/menu.c:48
 msgid "/File/_Print..."
-msgstr "/Comhad/_Priont·il..."
+msgstr "/Comhad/_Priont√°il..."
 
 #: ../src/menu.c:55
 msgid "/File/_Quit"
@@ -57,7 +57,7 @@ msgstr "/Eagar/_Cealaigh"
 
 #: ../src/menu.c:61
 msgid "/Edit/_Redo"
-msgstr "/Eagar/_AthdhÈan"
+msgstr "/Eagar/_Athdh√©an"
 
 #: ../src/menu.c:65
 msgid "/Edit/Cu_t"
@@ -65,7 +65,7 @@ msgstr "/Eagar/_Gearr"
 
 #: ../src/menu.c:67
 msgid "/Edit/_Copy"
-msgstr "/Eagar/CÛi_pe·il"
+msgstr "/Eagar/C√≥i_pe√°il"
 
 #: ../src/menu.c:69
 msgid "/Edit/_Paste"
@@ -101,7 +101,7 @@ msgstr "/Cuardach/_Ionadaigh..."
 
 #: ../src/menu.c:89
 msgid "/Search/_Jump To..."
-msgstr "/Cuardach/_LÈim Go..."
+msgstr "/Cuardach/_L√©im Go..."
 
 #: ../src/menu.c:91
 msgid "/_Options"
@@ -109,7 +109,7 @@ msgstr "/_Roghanna"
 
 #: ../src/menu.c:93
 msgid "/Options/_Font..."
-msgstr "/Roghanna/_ClÛ..."
+msgstr "/Roghanna/_Cl√≥..."
 
 #: ../src/menu.c:95
 msgid "/Options/_Word Wrap"
@@ -117,11 +117,11 @@ msgstr "/Roghanna/_Timfhilleadh"
 
 #: ../src/menu.c:97
 msgid "/Options/_Line Numbers"
-msgstr "/Roghanna/LÌne-Uimhreacha"
+msgstr "/Roghanna/L√≠ne-Uimhreacha"
 
 #: ../src/menu.c:101
 msgid "/Options/_Auto Indent"
-msgstr "/Roghanna/_Eang˙ UathoibrÌoch"
+msgstr "/Roghanna/_Eang√∫ Uathoibr√≠och"
 
 #: ../src/menu.c:103
 msgid "/_Help"
@@ -133,7 +133,7 @@ msgstr "/Cabhair/_Faoi seo"
 
 #: ../src/callback.c:316
 msgid "GTK+ based simple text editor"
-msgstr "EagarthÛir simplÌ bunaithe ar GTK+"
+msgstr "Eagarth√≥ir simpl√≠ bunaithe ar GTK+"
 
 #: ../src/callback.c:321
 msgid "translator-credits"
@@ -142,33 +142,33 @@ msgstr "Kevin Scannell <scannell@slu.edu>"
 #: ../src/view.c:62
 #, c-format
 msgid "Save changes to '%s'?"
-msgstr "S·bh·il athruithe i '%s'?"
+msgstr "S√°bh√°il athruithe i '%s'?"
 
 #: ../src/font.c:44
 msgid "Font"
-msgstr "ClÛ"
+msgstr "Cl√≥"
 
 #: ../src/selector.c:99
 #, c-format
 msgid "Current Locale (%s)"
-msgstr "Logchaighde·n Reatha (%s)"
+msgstr "Logchaighde√°n Reatha (%s)"
 
 #: ../src/selector.c:130
 msgid "Other Codeset"
-msgstr "IonchÛd˙ Eile"
+msgstr "Ionch√≥d√∫ Eile"
 
 #: ../src/selector.c:170
 msgid "Code_set:"
-msgstr "IonchÛd˙:"
+msgstr "Ionch√≥d√∫:"
 
 #: ../src/selector.c:192
 #, c-format
 msgid "'%s' is not supported"
-msgstr "NÌ thacaÌtear le '%s'"
+msgstr "N√≠ thaca√≠tear le '%s'"
 
 #: ../src/selector.c:253
 msgid "Auto-Detect"
-msgstr "Braith go hUathoibrÌoch"
+msgstr "Braith go hUathoibr√≠och"
 
 #: ../src/selector.c:305
 msgid "Open"
@@ -176,16 +176,16 @@ msgstr "Oscail"
 
 #: ../src/selector.c:305
 msgid "Save As"
-msgstr "S·bh·il Mar"
+msgstr "S√°bh√°il Mar"
 
 #: ../src/selector.c:329
 msgid "C_haracter Coding:"
-msgstr "Ionc_hÛd˙ Carachtar:"
+msgstr "Ionc_h√≥d√∫ Carachtar:"
 
 #: ../src/selector.c:400
 #, c-format
 msgid "'%s' already exists. Overwrite?"
-msgstr "T· '%s' ann cheana. ForscrÌobh?"
+msgstr "T√° '%s' ann cheana. Forscr√≠obh?"
 
 #: ../src/file.c:55
 msgid "Untitled"
@@ -194,19 +194,19 @@ msgstr "Gan Teideal"
 #: ../src/file.c:212
 #, c-format
 msgid "Can't convert codeset to '%s'"
-msgstr "NÌ fÈidir an t-ionchÛd˙ a thiont˙ go '%s'"
+msgstr "N√≠ f√©idir an t-ionch√≥d√∫ a thiont√∫ go '%s'"
 
 #: ../src/file.c:225
 msgid "Can't open file to write"
-msgstr "NÌ fÈidir an comhad a oscailt chun scrÌobh ann"
+msgstr "N√≠ f√©idir an comhad a oscailt chun scr√≠obh ann"
 
 #: ../src/file.c:230
 msgid "Can't write file"
-msgstr "NÌ fÈidir an comhad a scrÌobh"
+msgstr "N√≠ f√©idir an comhad a scr√≠obh"
 
 #: ../src/search.c:140
 msgid "Search string not found"
-msgstr "Teaghr·n gan aimsi˙"
+msgstr "Teaghr√°n gan aimsi√∫"
 
 #: ../src/search.c:193
 msgid "Replace?"
@@ -215,7 +215,7 @@ msgstr "Ionadaigh?"
 #: ../src/search.c:260
 #, c-format
 msgid "%d strings replaced"
-msgstr "IonadaÌodh %d teaghr·n"
+msgstr "Ionada√≠odh %d teaghr√°n"
 
 #: ../src/search.c:306
 msgid "Replace"
@@ -227,7 +227,7 @@ msgstr "Aimsigh"
 
 #: ../src/search.c:326
 msgid "Fi_nd what:"
-msgstr "Cad is mian leat _aimsi˙:"
+msgstr "Cad is mian leat _aimsi√∫:"
 
 #: ../src/search.c:342
 msgid "Re_place with:"
@@ -235,7 +235,7 @@ msgstr "_Ionadaigh le:"
 
 #: ../src/search.c:356
 msgid "_Match case"
-msgstr "_Comhoiri˙naigh an c·s"
+msgstr "_Comhoiri√∫naigh an c√°s"
 
 #: ../src/search.c:361
 msgid "Replace _all at once"
@@ -243,27 +243,27 @@ msgstr "Ionadaigh d'aon _iarraidh"
 
 #: ../src/search.c:412
 msgid "Jump To"
-msgstr "LÈim Go"
+msgstr "L√©im Go"
 
 #: ../src/search.c:418
 msgid "_Jump"
-msgstr "_LÈim"
+msgstr "_L√©im"
 
 #: ../src/search.c:425
 msgid "_Line number:"
-msgstr "_LÌne-uimhir:"
+msgstr "_L√≠ne-uimhir:"
 
 #: ../src/about.c:102
 msgid "Credits"
-msgstr "Admh·lacha"
+msgstr "Admh√°lacha"
 
 #: ../src/about.c:137
 msgid "Written by"
-msgstr "ScrÌofa ag"
+msgstr "Scr√≠ofa ag"
 
 #: ../src/about.c:140
 msgid "Documented by"
-msgstr "DoicimÈadaithe ag"
+msgstr "Doicim√©adaithe ag"
 
 #: ../src/about.c:146
 msgid "Translated by"
@@ -271,11 +271,11 @@ msgstr "Aistrithe ag"
 
 #: ../src/about.c:197
 msgid "C_redits"
-msgstr "A_dmh·lacha"
+msgstr "A_dmh√°lacha"
 
 #: ../src/about.c:199
 msgid "_Credits"
-msgstr "_Admh·lacha"
+msgstr "_Admh√°lacha"
 
 #: ../src/about.c:209
 #, c-format
@@ -284,12 +284,12 @@ msgstr "Maidir le %s"
 
 #: ../src/gnomeprint.c:261
 msgid "Print"
-msgstr "Priont·il"
+msgstr "Priont√°il"
 
 #: ../src/gnomeprint.c:291
 msgid "Print Preview"
-msgstr "RÈamhamharc Priont·la"
+msgstr "R√©amhamharc Priont√°la"
 
 #: ../data/leafpad.desktop.in.h:1
 msgid "Simple text editor"
-msgstr "EagarthÛir simplÌ"
+msgstr "Eagarth√≥ir simpl√≠"

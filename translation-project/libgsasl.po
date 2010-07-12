@@ -12,7 +12,7 @@ msgstr ""
 "Last-Translator: Kevin Scannell <kscanne@gmail.com>\n"
 "Language-Team: Irish <gaeilge-gnulinux@lists.sourceforge.net>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=ISO-8859-1\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 #: src/error.c:44
@@ -21,231 +21,231 @@ msgstr "Rath ar libgsasl"
 
 #: src/error.c:45
 msgid "SASL mechanism needs more data"
-msgstr "Teastaíonn an sásra SASL tuilleadh sonraí"
+msgstr "TeastaÃ­onn an sÃ¡sra SASL tuilleadh sonraÃ­"
 
 #: src/error.c:46
 msgid "Unknown SASL mechanism"
-msgstr "Sásra SASL anaithnid"
+msgstr "SÃ¡sra SASL anaithnid"
 
 #: src/error.c:48
 msgid "SASL mechanism called too many times"
-msgstr "Glaodh an sásra SASL an iomarca uaire"
+msgstr "Glaodh an sÃ¡sra SASL an iomarca uaire"
 
 #: src/error.c:50
 msgid "SASL function needs larger buffer (internal error)"
-msgstr "Teastaíonn feidhm SASL maolán níos mó (earráid inmheánach)"
+msgstr "TeastaÃ­onn feidhm SASL maolÃ¡n nÃ­os mÃ³ (earrÃ¡id inmheÃ¡nach)"
 
 #: src/error.c:51
 msgid "Could not open file in SASL library"
-msgstr "Níorbh fhéidir comhad a oscailt sa leabharlann SASL"
+msgstr "NÃ­orbh fhÃ©idir comhad a oscailt sa leabharlann SASL"
 
 #: src/error.c:52
 msgid "Could not close file in SASL library"
-msgstr "Níorbh fhéidir comhad a dhúnadh sa leabharlann SASL"
+msgstr "NÃ­orbh fhÃ©idir comhad a dhÃºnadh sa leabharlann SASL"
 
 #: src/error.c:53
 msgid "Memory allocation error in SASL library"
-msgstr "Earráid agus cuimhne á riar sa leabharlann SASL"
+msgstr "EarrÃ¡id agus cuimhne Ã¡ riar sa leabharlann SASL"
 
 #: src/error.c:54
 msgid "Base 64 coding error in SASL library"
-msgstr "Earráid ionchódaithe (bonn 64) sa leabharlann SASL"
+msgstr "EarrÃ¡id ionchÃ³daithe (bonn 64) sa leabharlann SASL"
 
 #: src/error.c:55
 msgid "Low-level crypto error in SASL library"
-msgstr "Earráid chriptithe íseal-leibhéil sa leabharlann SASL"
+msgstr "EarrÃ¡id chriptithe Ã­seal-leibhÃ©il sa leabharlann SASL"
 
 #: src/error.c:58
 msgid ""
 "SASL mechanism needs gsasl_client_callback_anonymous() callback (application "
 "error)"
 msgstr ""
-"Teastaíonn an sásra SASL feidhm gsasl_client_callback_anonymous() (earráid "
-"fheidhmchláir)"
+"TeastaÃ­onn an sÃ¡sra SASL feidhm gsasl_client_callback_anonymous() (earrÃ¡id "
+"fheidhmchlÃ¡ir)"
 
 #: src/error.c:61
 msgid ""
 "SASL mechanism needs gsasl_client_callback_password() callback (application "
 "error)"
 msgstr ""
-"Teastaíonn an sásra SASL feidhm gsasl_client_callback_password() (earráid "
-"fheidhmchláir)"
+"TeastaÃ­onn an sÃ¡sra SASL feidhm gsasl_client_callback_password() (earrÃ¡id "
+"fheidhmchlÃ¡ir)"
 
 #: src/error.c:64
 msgid ""
 "SASL mechanism needs gsasl_client_callback_passcode() callback (application "
 "error)"
 msgstr ""
-"Teastaíonn an sásra SASL feidhm gsasl_client_callback_passcode() (earráid "
-"fheidhmchláir)"
+"TeastaÃ­onn an sÃ¡sra SASL feidhm gsasl_client_callback_passcode() (earrÃ¡id "
+"fheidhmchlÃ¡ir)"
 
 #: src/error.c:67
 msgid ""
 "SASL mechanism needs gsasl_client_callback_pin() callback (application error)"
 msgstr ""
-"Teastaíonn an sásra SASL feidhm gsasl_client_callback_pin() (earráid "
-"fheidhmchláir)"
+"TeastaÃ­onn an sÃ¡sra SASL feidhm gsasl_client_callback_pin() (earrÃ¡id "
+"fheidhmchlÃ¡ir)"
 
 #: src/error.c:70
 msgid ""
 "SASL mechanism needs gsasl_client_callback_authorization_id() callback "
 "(application error)"
 msgstr ""
-"Teastaíonn an sásra SASL feidhm gsasl_client_callback_authorization_id() "
-"(earráid fheidhmchláir)"
+"TeastaÃ­onn an sÃ¡sra SASL feidhm gsasl_client_callback_authorization_id() "
+"(earrÃ¡id fheidhmchlÃ¡ir)"
 
 #: src/error.c:73
 msgid ""
 "SASL mechanism needs gsasl_client_callback_authentication_id() callback "
 "(application error)"
 msgstr ""
-"Teastaíonn an sásra SASL feidhm gsasl_client_callback_authentication_id() "
-"(earráid fheidhmchláir)"
+"TeastaÃ­onn an sÃ¡sra SASL feidhm gsasl_client_callback_authentication_id() "
+"(earrÃ¡id fheidhmchlÃ¡ir)"
 
 #: src/error.c:76
 msgid ""
 "SASL mechanism needs gsasl_client_callback_service() callback (application "
 "error)"
 msgstr ""
-"Teastaíonn an sásra SASL feidhm gsasl_client_callback_service() (earráid "
-"fheidhmchláir)"
+"TeastaÃ­onn an sÃ¡sra SASL feidhm gsasl_client_callback_service() (earrÃ¡id "
+"fheidhmchlÃ¡ir)"
 
 #: src/error.c:79
 msgid ""
 "SASL mechanism needs gsasl_server_callback_validate() callback (application "
 "error)"
 msgstr ""
-"Teastaíonn an sásra SASL feidhm gsasl_server_callback_validate() (earráid "
-"fheidhmchláir)"
+"TeastaÃ­onn an sÃ¡sra SASL feidhm gsasl_server_callback_validate() (earrÃ¡id "
+"fheidhmchlÃ¡ir)"
 
 #: src/error.c:82
 msgid ""
 "SASL mechanism needs gsasl_server_callback_cram_md5() callback (application "
 "error)"
 msgstr ""
-"Teastaíonn an sásra SASL feidhm gsasl_server_callback_cram_md5() (earráid "
-"fheidhmchláir)"
+"TeastaÃ­onn an sÃ¡sra SASL feidhm gsasl_server_callback_cram_md5() (earrÃ¡id "
+"fheidhmchlÃ¡ir)"
 
 #: src/error.c:85
 msgid ""
 "SASL mechanism needs gsasl_server_callback_digest_md5() callback (application "
 "error)"
 msgstr ""
-"Teastaíonn an sásra SASL feidhm gsasl_server_callback_digest_md5() (earráid "
-"fheidhmchláir)"
+"TeastaÃ­onn an sÃ¡sra SASL feidhm gsasl_server_callback_digest_md5() (earrÃ¡id "
+"fheidhmchlÃ¡ir)"
 
 #: src/error.c:88
 msgid ""
 "SASL mechanism needs gsasl_server_callback_external() callback (application "
 "error)"
 msgstr ""
-"Teastaíonn an sásra SASL feidhm gsasl_server_callback_external() (earráid "
-"fheidhmchláir)"
+"TeastaÃ­onn an sÃ¡sra SASL feidhm gsasl_server_callback_external() (earrÃ¡id "
+"fheidhmchlÃ¡ir)"
 
 #: src/error.c:91
 msgid ""
 "SASL mechanism needs gsasl_server_callback_anonymous() callback (application "
 "error)"
 msgstr ""
-"Teastaíonn an sásra SASL feidhm gsasl_server_callback_anonymous() (earráid "
-"fheidhmchláir)"
+"TeastaÃ­onn an sÃ¡sra SASL feidhm gsasl_server_callback_anonymous() (earrÃ¡id "
+"fheidhmchlÃ¡ir)"
 
 #: src/error.c:94
 msgid ""
 "SASL mechanism needs gsasl_server_callback_realm() callback (application "
 "error)"
 msgstr ""
-"Teastaíonn an sásra SASL feidhm gsasl_server_callback_realm() (earráid "
-"fheidhmchláir)"
+"TeastaÃ­onn an sÃ¡sra SASL feidhm gsasl_server_callback_realm() (earrÃ¡id "
+"fheidhmchlÃ¡ir)"
 
 #: src/error.c:97
 msgid ""
 "SASL mechanism needs gsasl_server_callback_securid() callback (application "
 "error)"
 msgstr ""
-"Teastaíonn an sásra SASL feidhm gsasl_server_callback_securid() (earráid "
-"fheidhmchláir)"
+"TeastaÃ­onn an sÃ¡sra SASL feidhm gsasl_server_callback_securid() (earrÃ¡id "
+"fheidhmchlÃ¡ir)"
 
 #: src/error.c:100
 msgid ""
 "SASL mechanism needs gsasl_server_callback_service() callback (application "
 "error)"
 msgstr ""
-"Teastaíonn an sásra SASL feidhm gsasl_server_callback_service() (earráid "
-"fheidhmchláir)"
+"TeastaÃ­onn an sÃ¡sra SASL feidhm gsasl_server_callback_service() (earrÃ¡id "
+"fheidhmchlÃ¡ir)"
 
 #: src/error.c:103
 msgid ""
 "SASL mechanism needs gsasl_server_callback_gssapi() callback (application "
 "error)"
 msgstr ""
-"Teastaíonn an sásra SASL feidhm gsasl_server_callback_gssapi() (earráid "
-"fheidhmchláir)"
+"TeastaÃ­onn an sÃ¡sra SASL feidhm gsasl_server_callback_gssapi() (earrÃ¡id "
+"fheidhmchlÃ¡ir)"
 
 #: src/error.c:106
 msgid ""
 "SASL mechanism needs gsasl_server_callback_retrieve() callback (application "
 "error)"
 msgstr ""
-"Teastaíonn an sásra SASL feidhm gsasl_server_callback_retrieve() (earráid "
-"fheidhmchláir)"
+"TeastaÃ­onn an sÃ¡sra SASL feidhm gsasl_server_callback_retrieve() (earrÃ¡id "
+"fheidhmchlÃ¡ir)"
 
 #: src/error.c:109
 msgid "Failed to perform Unicode Normalization on string."
-msgstr "Theip ar normalú Unicode ar teaghrán."
+msgstr "Theip ar normalÃº Unicode ar teaghrÃ¡n."
 
 #: src/error.c:111
 msgid "Could not prepare internationalized (non-ASCII) string."
-msgstr "Níorbh fhéidir teaghrán idirnáisiúntaithe (nach ASCII) a ullmhú."
+msgstr "NÃ­orbh fhÃ©idir teaghrÃ¡n idirnÃ¡isiÃºntaithe (nach ASCII) a ullmhÃº."
 
 #: src/error.c:113
 msgid "SASL mechanism could not parse input"
-msgstr "Níorbh fhéidir leis an sásra SASL an t-ionchur a pharsáil"
+msgstr "NÃ­orbh fhÃ©idir leis an sÃ¡sra SASL an t-ionchur a pharsÃ¡il"
 
 #: src/error.c:114
 msgid "Error authenticating user"
-msgstr "Earráid agus úsáideoir á fhíordheimhniú"
+msgstr "EarrÃ¡id agus ÃºsÃ¡ideoir Ã¡ fhÃ­ordheimhniÃº"
 
 #: src/error.c:116
 msgid "Cannot get internal library handle (library error)"
 msgstr ""
-"Ní féidir lorgán leabharlainne inmheánach a fháil (earráid leabharlainne)"
+"NÃ­ fÃ©idir lorgÃ¡n leabharlainne inmheÃ¡nach a fhÃ¡il (earrÃ¡id leabharlainne)"
 
 #: src/error.c:117
 msgid "Integrity error in application payload"
-msgstr "Earráid sláine sa phálasta feidhmchláir"
+msgstr "EarrÃ¡id slÃ¡ine sa phÃ¡lasta feidhmchlÃ¡ir"
 
 #: src/error.c:118
 msgid "No more realms available (non-fatal)"
-msgstr "Níl tuilleadh ríochtaí ar fáil (ní marfach)"
+msgstr "NÃ­l tuilleadh rÃ­ochtaÃ­ ar fÃ¡il (nÃ­ marfach)"
 
 #: src/error.c:120
 msgid "Client-side functionality not available in library (application error)"
 msgstr ""
-"Níl feidhmiúlacht den chliant le fáil sa leabharlann (earráid fheidhmchláir)"
+"NÃ­l feidhmiÃºlacht den chliant le fÃ¡il sa leabharlann (earrÃ¡id fheidhmchlÃ¡ir)"
 
 #: src/error.c:123
 msgid "Server-side functionality not available in library (application error)"
 msgstr ""
-"Níl feidhmiúlacht den fhreastalaí le fáil sa leabharlann (earráid "
-"fheidhmchláir)"
+"NÃ­l feidhmiÃºlacht den fhreastalaÃ­ le fÃ¡il sa leabharlann (earrÃ¡id "
+"fheidhmchlÃ¡ir)"
 
 #: src/error.c:126
 msgid ""
 "GSSAPI library could not deallocate memory in gss_release_buffer() in SASL "
 "library.  This is a serious internal error."
 msgstr ""
-"Níorbh fhéidir leis an leabharlann GSSAPI cuimhne a saoradh i "
-"gss_release_buffer() sa leabharlann SASL.  Is earráid inmheánach trom í seo."
+"NÃ­orbh fhÃ©idir leis an leabharlann GSSAPI cuimhne a saoradh i "
+"gss_release_buffer() sa leabharlann SASL.  Is earrÃ¡id inmheÃ¡nach trom Ã­ seo."
 
 #: src/error.c:130
 msgid ""
 "GSSAPI library could not understand a peer name in gss_import_name() in SASL "
 "library.  This is most likely due to incorrect service and/or hostnames."
 msgstr ""
-"Níor thuig leabharlann GSSAPI ainm comhghleacaí i gss_import_name() sa "
-"leabharlann SASL.  Is dócha go bhfuil sé seo mar thoradh ar ainm mhícheart ar "
-"an seirbhís nó ar an óstríomhaire."
+"NÃ­or thuig leabharlann GSSAPI ainm comhghleacaÃ­ i gss_import_name() sa "
+"leabharlann SASL.  Is dÃ³cha go bhfuil sÃ© seo mar thoradh ar ainm mhÃ­cheart ar "
+"an seirbhÃ­s nÃ³ ar an Ã³strÃ­omhaire."
 
 #: src/error.c:134
 msgid ""
@@ -253,9 +253,9 @@ msgid ""
 "gss_init_sec_context() in SASL library.  This is most likely due insufficient "
 "credentials or malicious interactions."
 msgstr ""
-"Earráid GSSAPI sa chliant agus comhthéacs slándála á socrú i "
-"gss_init_sec_context() sa leabharlann SASL.  Is dócha go bhfuil sé seo mar "
-"thoradh ar dintiúirí easpacha nó idirghnímh mailíseacha."
+"EarrÃ¡id GSSAPI sa chliant agus comhthÃ©acs slÃ¡ndÃ¡la Ã¡ socrÃº i "
+"gss_init_sec_context() sa leabharlann SASL.  Is dÃ³cha go bhfuil sÃ© seo mar "
+"thoradh ar dintiÃºirÃ­ easpacha nÃ³ idirghnÃ­mh mailÃ­seacha."
 
 #: src/error.c:138
 msgid ""
@@ -263,24 +263,24 @@ msgid ""
 "gss_init_sec_context() in SASL library.  This is most likely due insufficient "
 "credentials or malicious interactions."
 msgstr ""
-"Earráid GSSAPI san fhreastalaí agus comhthéacs slándála á socrú i "
-"gss_init_sec_context() sa leabharlann SASL.  Is dócha go bhfuil sé seo mar "
-"thoradh ar dintiúirí easpacha nó idirghnímh mailíseacha."
+"EarrÃ¡id GSSAPI san fhreastalaÃ­ agus comhthÃ©acs slÃ¡ndÃ¡la Ã¡ socrÃº i "
+"gss_init_sec_context() sa leabharlann SASL.  Is dÃ³cha go bhfuil sÃ© seo mar "
+"thoradh ar dintiÃºirÃ­ easpacha nÃ³ idirghnÃ­mh mailÃ­seacha."
 
 #: src/error.c:142
 msgid ""
 "GSSAPI error while decrypting or decoding data in gss_unwrap() in SASL "
 "library.  This is most likely due to data corruption."
 msgstr ""
-"Earráid GSSAPI agus sonraí á ndíchriptiú nó á ndíchódú i gss_unwrap() sa "
-"leabharlann SASL.  Is dócha go bhfuil sé seo mar thoradh ar sonraí "
+"EarrÃ¡id GSSAPI agus sonraÃ­ Ã¡ ndÃ­chriptiÃº nÃ³ Ã¡ ndÃ­chÃ³dÃº i gss_unwrap() sa "
+"leabharlann SASL.  Is dÃ³cha go bhfuil sÃ© seo mar thoradh ar sonraÃ­ "
 "truaillithe."
 
 #: src/error.c:145
 msgid ""
 "GSSAPI error while encrypting or encoding data in gss_wrap() in SASL library."
 msgstr ""
-"Earráid GSSAPI agus sonraí á gcriptiú nó á n-ionchódú i gss_wrap() sa "
+"EarrÃ¡id GSSAPI agus sonraÃ­ Ã¡ gcriptiÃº nÃ³ Ã¡ n-ionchÃ³dÃº i gss_wrap() sa "
 "leabharlann SASL."
 
 #: src/error.c:148
@@ -289,90 +289,90 @@ msgid ""
 "This is most likely due to not having the proper Kerberos key available in /"
 "etc/krb5.keytab on the server."
 msgstr ""
-"Earráid GSSAPI agus dintiúirí á bhfáil i gss_acquire_cred() sa leabharlann "
-"SASL.  Is dócha go bhfuil sé seo mar thoradh ar easpa eochair Kerberos go cuí "
-"i etc/krb5.keytab ar an fhreastalaí."
+"EarrÃ¡id GSSAPI agus dintiÃºirÃ­ Ã¡ bhfÃ¡il i gss_acquire_cred() sa leabharlann "
+"SASL.  Is dÃ³cha go bhfuil sÃ© seo mar thoradh ar easpa eochair Kerberos go cuÃ­ "
+"i etc/krb5.keytab ar an fhreastalaÃ­."
 
 #: src/error.c:152
 msgid ""
 "GSSAPI error creating a display name denoting the client in gss_display_name"
 "() in SASL library.  This is probably because the client supplied bad data."
 msgstr ""
-"Earráid GSSAPI agus ainm taispeána don chliant á chruthú i gss_display_name() "
-"sa leabharlann SASL.  Is dócha go bhfuil sé seo mar thoradh ar sonraí "
-"truaillithe ón chliant."
+"EarrÃ¡id GSSAPI agus ainm taispeÃ¡na don chliant Ã¡ chruthÃº i gss_display_name() "
+"sa leabharlann SASL.  Is dÃ³cha go bhfuil sÃ© seo mar thoradh ar sonraÃ­ "
+"truaillithe Ã³n chliant."
 
 #: src/error.c:156
 msgid ""
 "Other entity requested integrity or confidentiality protection in GSSAPI "
 "mechanism but this is currently not implemented."
 msgstr ""
-"D'iarr aonán eile cosaint sláine nó rúndachta sa shásra GSSAPI ach níl an gné "
-"seo ar fáil faoi láthair."
+"D'iarr aonÃ¡n eile cosaint slÃ¡ine nÃ³ rÃºndachta sa shÃ¡sra GSSAPI ach nÃ­l an gnÃ© "
+"seo ar fÃ¡il faoi lÃ¡thair."
 
 #: src/error.c:159
 msgid "Kerberos V5 initialization failure."
-msgstr "Theip ar thúsú Kerberos V5."
+msgstr "Theip ar thÃºsÃº Kerberos V5."
 
 #: src/error.c:161
 msgid "Kerberos V5 internal error."
-msgstr "Earráid inmheánach Kerberos V5."
+msgstr "EarrÃ¡id inmheÃ¡nach Kerberos V5."
 
 #: src/error.c:163
 msgid "SecurID needs additional passcode."
-msgstr "Cód faire sa bhreis de dhíth ar SecurID."
+msgstr "CÃ³d faire sa bhreis de dhÃ­th ar SecurID."
 
 #: src/error.c:165
 msgid "SecurID needs new pin."
-msgstr "UAP nua de dhíth ar SecurID."
+msgstr "UAP nua de dhÃ­th ar SecurID."
 
 #: src/error.c:167
 msgid "The provided library handle was invalid (application error)"
 msgstr ""
-"Is neamhbhailí an lorgán leabharlainne a bhí tugtha (earráid fheidhmchláir)"
+"Is neamhbhailÃ­ an lorgÃ¡n leabharlainne a bhÃ­ tugtha (earrÃ¡id fheidhmchlÃ¡ir)"
 
 #: src/error.c:169
 msgid "No callback specified by caller (application error)."
-msgstr "Níor thug an glaoiteoir feidhm chuí (earráid fheidhmchláir)."
+msgstr "NÃ­or thug an glaoiteoir feidhm chuÃ­ (earrÃ¡id fheidhmchlÃ¡ir)."
 
 #: src/error.c:171
 msgid "Authentication failed because the anonymous token was not provided."
 msgstr ""
-"Theip ar fhíordheimhniú gan ainm ós rud é nár socraíodh ceadchomhartha gan "
+"Theip ar fhÃ­ordheimhniÃº gan ainm Ã³s rud Ã© nÃ¡r socraÃ­odh ceadchomhartha gan "
 "ainm."
 
 #: src/error.c:174
 msgid ""
 "Authentication failed because the authentication identity was not provided."
 msgstr ""
-"Theip ar fhíordheimhniú ós rud é nár socraíodh aitheantas fíordheimhnithe."
+"Theip ar fhÃ­ordheimhniÃº Ã³s rud Ã© nÃ¡r socraÃ­odh aitheantas fÃ­ordheimhnithe."
 
 #: src/error.c:177
 msgid ""
 "Authentication failed because the authorization identity was not provided."
 msgstr ""
-"Theip ar fhíordheimhniú ós rud é nár socraíodh an t-aitheantas údáraithe."
+"Theip ar fhÃ­ordheimhniÃº Ã³s rud Ã© nÃ¡r socraÃ­odh an t-aitheantas ÃºdÃ¡raithe."
 
 #: src/error.c:180
 msgid "Authentication failed because the password was not provided."
-msgstr "Theip ar fhíordheimhniú ós rud é nár tugadh an focal faire."
+msgstr "Theip ar fhÃ­ordheimhniÃº Ã³s rud Ã© nÃ¡r tugadh an focal faire."
 
 #: src/error.c:182
 msgid "Authentication failed because the passcode was not provided."
-msgstr "Theip ar fhíordheimhniú ós rud é nár tugadh an paschód."
+msgstr "Theip ar fhÃ­ordheimhniÃº Ã³s rud Ã© nÃ¡r tugadh an paschÃ³d."
 
 #: src/error.c:184
 msgid "Authentication failed because the pin code was not provided."
-msgstr "Theip ar fhíordheimhniú ós rud é nár tugadh an UAP."
+msgstr "Theip ar fhÃ­ordheimhniÃº Ã³s rud Ã© nÃ¡r tugadh an UAP."
 
 #: src/error.c:186
 msgid "Authentication failed because the service name was not provided."
-msgstr "Theip ar fhíordheimhniú ós rud é nár tugadh an t-ainm seirbhíse."
+msgstr "Theip ar fhÃ­ordheimhniÃº Ã³s rud Ã© nÃ¡r tugadh an t-ainm seirbhÃ­se."
 
 #: src/error.c:188
 msgid "Authentication failed because the host name was not provided."
-msgstr "Theip ar fhíordheimhniú ós rud é nár tugadh an t-óstainm."
+msgstr "Theip ar fhÃ­ordheimhniÃº Ã³s rud Ã© nÃ¡r tugadh an t-Ã³stainm."
 
 #: src/error.c:206
 msgid "Libgsasl unknown error"
-msgstr "Libgsasl: earráid anaithnid"
+msgstr "Libgsasl: earrÃ¡id anaithnid"

@@ -10,28 +10,28 @@ msgstr ""
 "Last-Translator: Kevin Patrick Scannell <scannell@SLU.EDU>\n"
 "Language-Team: Irish <gaeilge-gnulinux@lists.sourceforge.net>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=ISO-8859-1\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 #: lib/getopt.c:677
 #, c-format
 msgid "%s: option `%s' is ambiguous\n"
-msgstr "%s: T· an rogha `%s' dÈbhrÌoch\n"
+msgstr "%s: T√° an rogha `%s' d√©bhr√≠och\n"
 
 #: lib/getopt.c:702
 #, c-format
 msgid "%s: option `--%s' doesn't allow an argument\n"
-msgstr "%s: nÌ cheadaÌtear argÛint i ndiaidh na rogha `--%s'\n"
+msgstr "%s: n√≠ cheada√≠tear arg√≥int i ndiaidh na rogha `--%s'\n"
 
 #: lib/getopt.c:707
 #, c-format
 msgid "%s: option `%c%s' doesn't allow an argument\n"
-msgstr "%s: nÌ cheadaÌtear argÛint i ndiaidh na rogha `%c%s'\n"
+msgstr "%s: n√≠ cheada√≠tear arg√≥int i ndiaidh na rogha `%c%s'\n"
 
 #: lib/getopt.c:725 lib/getopt.c:898
 #, c-format
 msgid "%s: option `%s' requires an argument\n"
-msgstr "%s: t· argÛint de dhÌth i ndiaidh na rogha `%s'\n"
+msgstr "%s: t√° arg√≥int de dh√≠th i ndiaidh na rogha `%s'\n"
 
 #. --option
 #: lib/getopt.c:754
@@ -54,63 +54,63 @@ msgstr "%s: rogha neamhcheadaithe -- %c\n"
 #: lib/getopt.c:787
 #, c-format
 msgid "%s: invalid option -- %c\n"
-msgstr "%s: rogha neamhbhailÌ -- %c\n"
+msgstr "%s: rogha neamhbhail√≠ -- %c\n"
 
 #. 1003.2 specifies the format of this message.
 #: lib/getopt.c:817 lib/getopt.c:947
 #, c-format
 msgid "%s: option requires an argument -- %c\n"
-msgstr "%s: t· argÛint de dhÌth i ndiaidh na rogha -- %c\n"
+msgstr "%s: t√° arg√≥int de dh√≠th i ndiaidh na rogha -- %c\n"
 
 #: lib/getopt.c:864
 #, c-format
 msgid "%s: option `-W %s' is ambiguous\n"
-msgstr "%s: T· an rogha `-W %s' dÈbhrÌoch\n"
+msgstr "%s: T√° an rogha `-W %s' d√©bhr√≠och\n"
 
 #: lib/getopt.c:882
 #, c-format
 msgid "%s: option `-W %s' doesn't allow an argument\n"
-msgstr "%s: nÌ cheadaÌtear argÛint i ndiaidh na rogha `-W %s'\n"
+msgstr "%s: n√≠ cheada√≠tear arg√≥int i ndiaidh na rogha `-W %s'\n"
 
 #: lib/obstack.c:471
 msgid "memory exhausted"
-msgstr "cuimhne Ìdithe"
+msgstr "cuimhne √≠dithe"
 
 #: lib/regex.c:1019
 msgid "Success"
-msgstr "D'Èirigh leis"
+msgstr "D'√©irigh leis"
 
 #: lib/regex.c:1022
 msgid "No match"
-msgstr "NÌl a leithÈid ann"
+msgstr "N√≠l a leith√©id ann"
 
 #: lib/regex.c:1025
 msgid "Invalid regular expression"
-msgstr "Slonn ionadaÌochta neamhbhailÌ"
+msgstr "Slonn ionada√≠ochta neamhbhail√≠"
 
 #: lib/regex.c:1028
 msgid "Invalid collation character"
-msgstr "Carachtar neamhbhailÌ comhordaithe"
+msgstr "Carachtar neamhbhail√≠ comhordaithe"
 
 #: lib/regex.c:1031
 msgid "Invalid character class name"
-msgstr "Ainm neamhbhailÌ ar cicme charachtar"
+msgstr "Ainm neamhbhail√≠ ar cicme charachtar"
 
 #: lib/regex.c:1034
 msgid "Trailing backslash"
-msgstr "C˙lslais ag deireadh"
+msgstr "C√∫lslais ag deireadh"
 
 #: lib/regex.c:1037
 msgid "Invalid back reference"
-msgstr "C˙ltagairt neamhbhailÌ"
+msgstr "C√∫ltagairt neamhbhail√≠"
 
 #: lib/regex.c:1040
 msgid "Unmatched [ or [^"
-msgstr "[ nÛ [^ corr"
+msgstr "[ n√≥ [^ corr"
 
 #: lib/regex.c:1043
 msgid "Unmatched ( or \\("
-msgstr "( nÛ \\( corr"
+msgstr "( n√≥ \\( corr"
 
 #: lib/regex.c:1046
 msgid "Unmatched \\{"
@@ -118,81 +118,81 @@ msgstr "\\{ corr"
 
 #: lib/regex.c:1049
 msgid "Invalid content of \\{\\}"
-msgstr "¡bhar neamhbhailÌ idir \\{\\}"
+msgstr "√Åbhar neamhbhail√≠ idir \\{\\}"
 
 #: lib/regex.c:1052
 msgid "Invalid range end"
-msgstr "Deireadh raoin neamhbhailÌ"
+msgstr "Deireadh raoin neamhbhail√≠"
 
 #: lib/regex.c:1055 lib/xmalloc.c:82
 msgid "Memory exhausted"
-msgstr "Cuimhne Ìdithe"
+msgstr "Cuimhne √≠dithe"
 
 #: lib/regex.c:1058
 msgid "Invalid preceding regular expression"
-msgstr "Is neamhbhailÌ an slonn ionadaÌochta roimhe seo"
+msgstr "Is neamhbhail√≠ an slonn ionada√≠ochta roimhe seo"
 
 #: lib/regex.c:1061
 msgid "Premature end of regular expression"
-msgstr "Deireadh le slonn ionadaÌochta gan choinne"
+msgstr "Deireadh le slonn ionada√≠ochta gan choinne"
 
 #: lib/regex.c:1064
 msgid "Regular expression too big"
-msgstr "Slonn ionadaÌochta rÛmhÛr"
+msgstr "Slonn ionada√≠ochta r√≥mh√≥r"
 
 #: lib/regex.c:1067
 msgid "Unmatched ) or \\)"
-msgstr ") nÛ \\) corr"
+msgstr ") n√≥ \\) corr"
 
 #: lib/regex.c:5564
 msgid "No previous regular expression"
-msgstr "NÌl aon slonn ionadaÌochta roimhe seo"
+msgstr "N√≠l aon slonn ionada√≠ochta roimhe seo"
 
 #: src/builtin.c:349
 #, c-format
 msgid "Warning: Too few arguments to built-in `%s'"
-msgstr "Rabhadh: NÌl go leor argÛintÌ ann don fheidhm insuite `%s'"
+msgstr "Rabhadh: N√≠l go leor arg√≥int√≠ ann don fheidhm insuite `%s'"
 
 #: src/builtin.c:355
 #, c-format
 msgid "Warning: Excess arguments to built-in `%s' ignored"
-msgstr "Rabhadh: ag dÈanamh neamhshuim ar argÛintÌ breise don fheidhm insuite `%s'"
+msgstr "Rabhadh: ag d√©anamh neamhshuim ar arg√≥int√≠ breise don fheidhm insuite `%s'"
 
 #: src/builtin.c:383
 #, c-format
 msgid "Non-numeric argument to built-in `%s'"
-msgstr "ArgÛint neamhuimhri˙il don fheidhm insuite `%s'"
+msgstr "Arg√≥int neamhuimhri√∫il don fheidhm insuite `%s'"
 
 #: src/builtin.c:494
 msgid "INTERNAL ERROR: Bad token data type in define_macro ()"
-msgstr "EARR¡ID INMHE¡NACH: Droch-chine·l sonraÌ comhartha i define_macro ()"
+msgstr "EARR√ÅID INMHE√ÅNACH: Droch-chine√°l sonra√≠ comhartha i define_macro ()"
 
 #: src/builtin.c:681 src/builtin.c:780 src/builtin.c:1423 src/builtin.c:1447
 #, c-format
 msgid "Undefined name %s"
-msgstr "Ainm %s gan sainmhÌni˙"
+msgstr "Ainm %s gan sainmh√≠ni√∫"
 
 #: src/builtin.c:721
 msgid "INTERNAL ERROR: Builtin not found in builtin table!"
-msgstr "EARR¡ID INMHE¡NACH: NÌor aimsÌodh feidhm insuite sa t·bla insuite!"
+msgstr "EARR√ÅID INMHE√ÅNACH: N√≠or aims√≠odh feidhm insuite sa t√°bla insuite!"
 
 #: src/builtin.c:729
 msgid "INTERNAL ERROR: Bad token data type in m4_dumpdef ()"
-msgstr "EARR¡ID INMHE¡NACH: Droch-chine·l sonraÌ comhartha i m4_dumpdef ()"
+msgstr "EARR√ÅID INMHE√ÅNACH: Droch-chine√°l sonra√≠ comhartha i m4_dumpdef ()"
 
 #: src/builtin.c:804
 #, c-format
 msgid "Undefined name `%s'"
-msgstr "Ainm `%s' gan sainmhÌni˙"
+msgstr "Ainm `%s' gan sainmh√≠ni√∫"
 
 #: src/builtin.c:842
 msgid "INTERNAL ERROR: Bad symbol type in m4_defn ()"
-msgstr "EARR¡ID INMHE¡NACH: Droch-chine·l siombaile i m4_defn ()"
+msgstr "EARR√ÅID INMHE√ÅNACH: Droch-chine√°l siombaile i m4_defn ()"
 
 #: src/builtin.c:908
 #, c-format
 msgid "Cannot open pipe to command `%s'"
-msgstr "NÌ fÈidir pÌopa a oscailt go hord˙ `%s'"
+msgstr "N√≠ f√©idir p√≠opa a oscailt go hord√∫ `%s'"
 
 #: src/builtin.c:948
 #, c-format
@@ -201,79 +201,79 @@ msgstr "Bunuimhir as raon i eval (bunuimhir = %d)"
 
 #: src/builtin.c:957
 msgid "Negative width to eval"
-msgstr "Leithead di˙ltach i eval"
+msgstr "Leithead di√∫ltach i eval"
 
 #: src/builtin.c:1063
 #, c-format
 msgid "Non-numeric argument to %s"
-msgstr "ArgÛint neamhuimhri˙il chun %s"
+msgstr "Arg√≥int neamhuimhri√∫il chun %s"
 
 #: src/builtin.c:1075
 #, c-format
 msgid "Cannot undivert %s"
-msgstr "NÌ fÈidir %s a dÌ-atreor˙"
+msgstr "N√≠ f√©idir %s a d√≠-atreor√∫"
 
 #: src/builtin.c:1223
 #, c-format
 msgid "Undefined syntax code %c"
-msgstr "CÛd comhrÈire %c gan sainmhÌni˙"
+msgstr "C√≥d comhr√©ire %c gan sainmh√≠ni√∫"
 
 #: src/builtin.c:1274 src/freeze.c:211
 #, c-format
 msgid "Cannot open %s"
-msgstr "NÌ fÈidir %s a oscailt"
+msgstr "N√≠ f√©idir %s a oscailt"
 
 #: src/builtin.c:1483
 #, c-format
 msgid "Debugmode: bad debug flags: `%s'"
-msgstr "MÛd dÌfhabhtaithe: drochbhratacha dÌfhabhtaithe: `%s'"
+msgstr "M√≥d d√≠fhabhtaithe: drochbhratacha d√≠fhabhtaithe: `%s'"
 
 #: src/builtin.c:1519
 #, c-format
 msgid "Cannot set error file: %s"
-msgstr "NÌ fÈidir an comhad earr·ide a shocr˙: %s"
+msgstr "N√≠ f√©idir an comhad earr√°ide a shocr√∫: %s"
 
 #: src/builtin.c:1740
 msgid "WARNING: \\0 will disappear, use \\& instead in replacements"
-msgstr "RABHADH: Rachaidh \\0 as radharc, ˙s·id \\& ina ionad i dteaghr·in ionadaÌochta"
+msgstr "RABHADH: Rachaidh \\0 as radharc, √∫s√°id \\& ina ionad i dteaghr√°in ionada√≠ochta"
 
 #: src/builtin.c:1801 src/builtin.c:1861 src/input.c:1014
 #, c-format
 msgid "Bad regular expression `%s': %s"
-msgstr "Slonn ionadaÌochta neamhbhailÌ `%s': %s"
+msgstr "Slonn ionada√≠ochta neamhbhail√≠ `%s': %s"
 
 #: src/builtin.c:1812 src/builtin.c:1885
 #, c-format
 msgid "Error matching regular expression `%s'"
-msgstr "Earr·id le linn cuardaigh ar shlonn ionadaÌochta `%s'"
+msgstr "Earr√°id le linn cuardaigh ar shlonn ionada√≠ochta `%s'"
 
 #: src/debug.c:380
 msgid "INTERNAL ERROR: Builtin not found in builtin table! (trace_pre ())"
-msgstr "EARR¡ID INMHE¡NACH: NÌor aimsÌodh feidhm insuite sa t·bla insuite! (trace_pre ())"
+msgstr "EARR√ÅID INMHE√ÅNACH: N√≠or aims√≠odh feidhm insuite sa t√°bla insuite! (trace_pre ())"
 
 #: src/debug.c:388
 msgid "INTERNAL ERROR: Bad token data type (trace_pre ())"
-msgstr "EARR¡ID INMHE¡NACH: Droch-chine·l sonraÌ comhartha (trace_pre ())"
+msgstr "EARR√ÅID INMHE√ÅNACH: Droch-chine√°l sonra√≠ comhartha (trace_pre ())"
 
 #: src/eval.c:309
 #, c-format
 msgid "Bad expression in eval (missing right parenthesis): %s"
-msgstr "Slonn neamhbhailÌ i eval (l˙ibÌn deas ar iarraidh): %s"
+msgstr "Slonn neamhbhail√≠ i eval (l√∫ib√≠n deas ar iarraidh): %s"
 
 #: src/eval.c:315
 #, c-format
 msgid "Bad expression in eval: %s"
-msgstr "Slonn neamhbhailÌ i eval: %s"
+msgstr "Slonn neamhbhail√≠ i eval: %s"
 
 #: src/eval.c:320
 #, c-format
 msgid "Bad expression in eval (bad input): %s"
-msgstr "Slonn neamhbhailÌ i eval (droch-ionchur): %s"
+msgstr "Slonn neamhbhail√≠ i eval (droch-ionchur): %s"
 
 #: src/eval.c:325
 #, c-format
 msgid "Bad expression in eval (excess input): %s"
-msgstr "Slonn neamhbhailÌ i eval (ionchur sa bhreis): %s"
+msgstr "Slonn neamhbhail√≠ i eval (ionchur sa bhreis): %s"
 
 #: src/eval.c:330
 #, c-format
@@ -287,97 +287,97 @@ msgstr "Modulo le nialas i eval: %s"
 
 #: src/eval.c:340
 msgid "INTERNAL ERROR: Bad error code in evaluate ()"
-msgstr "EARR¡ID INMHE¡NACH: Droch-chÛd earr·ide i evaluate ()"
+msgstr "EARR√ÅID INMHE√ÅNACH: Droch-ch√≥d earr√°ide i evaluate ()"
 
 #: src/eval.c:594
 msgid "INTERNAL ERROR: Bad comparison operator in cmp_term ()"
-msgstr "EARR¡ID INMHE¡NACH: Drochoibreoir compar·ide i cmp_term ()"
+msgstr "EARR√ÅID INMHE√ÅNACH: Drochoibreoir compar√°ide i cmp_term ()"
 
 #: src/eval.c:639
 msgid "INTERNAL ERROR: Bad shift operator in shift_term ()"
-msgstr "EARR¡ID INMHE¡NACH: Drochoibreoir iomlaoide i shift_term ()"
+msgstr "EARR√ÅID INMHE√ÅNACH: Drochoibreoir iomlaoide i shift_term ()"
 
 #: src/eval.c:738
 msgid "INTERNAL ERROR: Bad operator in mult_term ()"
-msgstr "EARR¡ID INMHE¡NACH: Drochoibreoir i mult_term ()"
+msgstr "EARR√ÅID INMHE√ÅNACH: Drochoibreoir i mult_term ()"
 
 #: src/freeze.c:119
 msgid "INTERNAL ERROR: Built-in not found in builtin table!"
-msgstr "EARR¡ID INMHE¡NACH: NÌor aimsÌodh feidhm insuite sa t·bla insuite!"
+msgstr "EARR√ÅID INMHE√ÅNACH: N√≠or aims√≠odh feidhm insuite sa t√°bla insuite!"
 
 #: src/freeze.c:132
 msgid "INTERNAL ERROR: Bad token data type in freeze_one_symbol ()"
-msgstr "EARR¡ID INMHE¡NACH: Droch-chine·l sonraÌ comhartha i freeze_one_symbol ()"
+msgstr "EARR√ÅID INMHE√ÅNACH: Droch-chine√°l sonra√≠ comhartha i freeze_one_symbol ()"
 
 #: src/freeze.c:163
 msgid "Expecting line feed in frozen file"
-msgstr "Ag s˙il le fotha lÌne i gcomhad sioctha"
+msgstr "Ag s√∫il le fotha l√≠ne i gcomhad sioctha"
 
 #: src/freeze.c:165
 #, c-format
 msgid "Expecting character `%c' in frozen file"
-msgstr "Ag s˙il le carachtar `%c' i gcomhad sioctha"
+msgstr "Ag s√∫il le carachtar `%c' i gcomhad sioctha"
 
 #: src/freeze.c:222
 msgid "Ill-formated frozen file"
-msgstr "Comhad sioctha mÌchumtha"
+msgstr "Comhad sioctha m√≠chumtha"
 
 #: src/freeze.c:277 src/freeze.c:293
 msgid "Premature end of frozen file"
-msgstr "ComhadchrÌoch gan choinne i gcomhad sioctha"
+msgstr "Comhadchr√≠och gan choinne i gcomhad sioctha"
 
 #: src/freeze.c:327
 #, c-format
 msgid "`%s' from frozen file not found in builtin table!"
-msgstr "NÌor aimsÌodh `%s' as comhad sioctha sa t·bla insuite!"
+msgstr "N√≠or aims√≠odh `%s' as comhad sioctha sa t√°bla insuite!"
 
 #: src/input.c:318
 #, c-format
 msgid "Input reverted to %s, line %d"
-msgstr "D'fhill an t-ionchur ar %s, lÌne %d"
+msgstr "D'fhill an t-ionchur ar %s, l√≠ne %d"
 
 #: src/input.c:346
 #, c-format
 msgid "Input read from %s"
-msgstr "LÈadh an t-ionchur Û %s"
+msgstr "L√©adh an t-ionchur √≥ %s"
 
 #: src/input.c:506
 msgid "INTERNAL ERROR: Recursive push_string!"
-msgstr "EARR¡ID INMHE¡NACH: push_string athch˙rsach!"
+msgstr "EARR√ÅID INMHE√ÅNACH: push_string athch√∫rsach!"
 
 #: src/input.c:623
 msgid "INTERNAL ERROR: Bad call to init_macro_token ()"
-msgstr "EARR¡ID INMHE¡NACH: Drochghlao ar init_macro_token ()"
+msgstr "EARR√ÅID INMHE√ÅNACH: Drochghlao ar init_macro_token ()"
 
 #: src/input.c:663
 msgid "INTERNAL ERROR: Input stack botch in next_char ()"
-msgstr "EARR¡ID INMHE¡NACH: Rinneadh praiseach den chruach ionchurtha i next_char ()"
+msgstr "EARR√ÅID INMHE√ÅNACH: Rinneadh praiseach den chruach ionchurtha i next_char ()"
 
 #: src/input.c:700
 msgid "INTERNAL ERROR: Input stack botch in peek_input ()"
-msgstr "EARR¡ID INMHE¡NACH: Rinneadh praiseach den chruach ionchurtha i peek_input ()"
+msgstr "EARR√ÅID INMHE√ÅNACH: Rinneadh praiseach den chruach ionchurtha i peek_input ()"
 
 #: src/input.c:805
 msgid "NONE"
-msgstr "NEAMHNÕ"
+msgstr "NEAMHN√ç"
 
 #: src/input.c:1199 src/input.c:1226
 msgid "ERROR: EOF in string"
-msgstr "EARR¡ID: comhadchrÌoch i dteaghr·n"
+msgstr "EARR√ÅID: comhadchr√≠och i dteaghr√°n"
 
 #: src/m4.c:119
 msgid "ERROR: Stack overflow.  (Infinite define recursion?)"
-msgstr "EARR¡ID: Cruach thar maoil.  (Athch˙rs·il `define' ÈigrÌochta?)"
+msgstr "EARR√ÅID: Cruach thar maoil.  (Athch√∫rs√°il `define' √©igr√≠ochta?)"
 
 #: src/m4.c:146
 #, c-format
 msgid "Try `%s --help' for more information.\n"
-msgstr "Bain triail as `%s --help' chun tuilleadh eolais a fh·il.\n"
+msgstr "Bain triail as `%s --help' chun tuilleadh eolais a fh√°il.\n"
 
 #: src/m4.c:150
 #, c-format
 msgid "Usage: %s [OPTION]... [FILE]...\n"
-msgstr "⁄s·id: %s [ROGHA]... [COMHAD]...\n"
+msgstr "√ös√°id: %s [ROGHA]... [COMHAD]...\n"
 
 #: src/m4.c:151
 msgid ""
@@ -392,20 +392,20 @@ msgid ""
 "  -Q, --quiet, --silent        suppress some warnings for builtins\n"
 "  -P, --prefix-builtins        force a `m4_' prefix to all builtins\n"
 msgstr ""
-"Is riachtanach le rogha ghearr aon argÛint at· riachtanach leis an rogha\n"
-"fhada.  Mar an gcÈanna le hargÛintÌ roghnacha.\n"
+"Is riachtanach le rogha ghearr aon arg√≥int at√° riachtanach leis an rogha\n"
+"fhada.  Mar an gc√©anna le harg√≥int√≠ roghnacha.\n"
 "\n"
-"MÛid oibre:\n"
-"      --help                   taispe·in an chabhair seo agus scoir\n"
-"      --version                taispe·in eolas faoin leagan agus scoir\n"
-"  -e, --interactive            aschur gan maol·n˙; gan idirbhristeacha\n"
-"  -E, --fatal-warnings         stop i ndiaidh an chÈad rabhaidh\n"
+"M√≥id oibre:\n"
+"      --help                   taispe√°in an chabhair seo agus scoir\n"
+"      --version                taispe√°in eolas faoin leagan agus scoir\n"
+"  -e, --interactive            aschur gan maol√°n√∫; gan idirbhristeacha\n"
+"  -E, --fatal-warnings         stop i ndiaidh an ch√©ad rabhaidh\n"
 "  -Q, --quiet, --silent        ceil roinnt rabhaidh d'fheidhmeanna insuite\n"
-"  -P, --prefix-builtins        Èiligh an rÈimÌr `m4_' ar gach feidhm insuite\n"
+"  -P, --prefix-builtins        √©iligh an r√©im√≠r `m4_' ar gach feidhm insuite\n"
 
 #: src/m4.c:164
 msgid "  -W, --word-regexp=REGEXP     use REGEXP for macro name syntax\n"
-msgstr "  -W, --word-regexp=SLONN      ˙s·id SLONN do chomhrÈir na n-ainmneacha macra\n"
+msgstr "  -W, --word-regexp=SLONN      √∫s√°id SLONN do chomhr√©ir na n-ainmneacha macra\n"
 
 #: src/m4.c:169
 msgid ""
@@ -415,9 +415,9 @@ msgid ""
 "  -M, --load-module=MODULE          load dynamic MODULE from M4MODPATH\n"
 msgstr ""
 "\n"
-"GnÈithe maidir leis an lucht˙ beo:\n"
-"  -m, --module-directory=COMHADLANN cuir COMHADLANN sa chonair chuardach mod˙l\n"
-"  -M, --load-module=MOD⁄L           luchtaigh MOD⁄L beo Û M4MODPATH\n"
+"Gn√©ithe maidir leis an lucht√∫ beo:\n"
+"  -m, --module-directory=COMHADLANN cuir COMHADLANN sa chonair chuardach mod√∫l\n"
+"  -M, --load-module=MOD√öL           luchtaigh MOD√öL beo √≥ M4MODPATH\n"
 
 #: src/m4.c:176
 msgid ""
@@ -429,11 +429,11 @@ msgid ""
 "  -s, --synclines              generate `#line NO \"FILE\"' lines\n"
 msgstr ""
 "\n"
-"GnÈithe an rÈamhphrÛise·laÌ:\n"
-"  -I, --include=COMHADLANN     cuardach COMHADLANN ar chomhaid cheannt·isc\n"
-"  -D, --define=AINM[=LUACH]    iontr·il AINM le LUACH, is È sin nÛ folamh\n"
+"Gn√©ithe an r√©amhphr√≥ise√°la√≠:\n"
+"  -I, --include=COMHADLANN     cuardach COMHADLANN ar chomhaid cheannt√°isc\n"
+"  -D, --define=AINM[=LUACH]    iontr√°il AINM le LUACH, is √© sin n√≥ folamh\n"
 "  -U, --undefine=AINM          scrios AINM insuite\n"
-"  -s, --synclines              gin lÌnte `#line NO \"FILE\"'\n"
+"  -s, --synclines              gin l√≠nte `#line NO \"FILE\"'\n"
 
 #: src/m4.c:184
 msgid ""
@@ -444,9 +444,9 @@ msgid ""
 "  -L, --nesting-limit=NUMBER   change artificial nesting limit\n"
 msgstr ""
 "\n"
-"Rial˙ na dteorainneacha:\n"
-"  -G, --traditional            m˙ch gach eisÌnteacht GNU\n"
-"  -H, --hashsize=PRÕOMHA       mÈid hais-t·bla na siombailÌ\n"
+"Rial√∫ na dteorainneacha:\n"
+"  -G, --traditional            m√∫ch gach eis√≠nteacht GNU\n"
+"  -H, --hashsize=PR√çOMHA       m√©id hais-t√°bla na siombail√≠\n"
 "  -L, --nesting-limit=UIMHIR   athraigh an teorainn shaorga neadaithe\n"
 
 #: src/m4.c:191
@@ -458,8 +458,8 @@ msgid ""
 msgstr ""
 "\n"
 "Comhaid shioctha:\n"
-"  -F, --freeze-state=COMHAD    dÈan staid shioctha ag deireadh COMHAD\n"
-"  -R, --reload-state=COMHAD    athluchtaigh staid shioctha Û thosach an CHOMHAID\n"
+"  -F, --freeze-state=COMHAD    d√©an staid shioctha ag deireadh COMHAD\n"
+"  -R, --reload-state=COMHAD    athluchtaigh staid shioctha √≥ thosach an CHOMHAID\n"
 
 #: src/m4.c:197
 msgid ""
@@ -471,11 +471,11 @@ msgid ""
 "  -o, --error-output=FILE      redirect debug and trace output\n"
 msgstr ""
 "\n"
-"DÌfhabht˙:\n"
-"  -d, --debug=[BRATACHA]       socraigh an leibhÈal dÌfhabhtaithe (gan BRATACHA => `aeq')\n"
-"  -t, --trace=AINM             lorg AINM nuair at· sÈ sainmhÌnithe\n"
-"  -l, --arglength=UIMHIR       cuir teorainn le mÈid lorg macraÌ\n"
-"  -o, --error-output=COMHAD    athsheol an t-aschur dÌfhabhtaithe/loirg\n"
+"D√≠fhabht√∫:\n"
+"  -d, --debug=[BRATACHA]       socraigh an leibh√©al d√≠fhabhtaithe (gan BRATACHA => `aeq')\n"
+"  -t, --trace=AINM             lorg AINM nuair at√° s√© sainmh√≠nithe\n"
+"  -l, --arglength=UIMHIR       cuir teorainn le m√©id lorg macra√≠\n"
+"  -o, --error-output=COMHAD    athsheol an t-aschur d√≠fhabhtaithe/loirg\n"
 
 #: src/m4.c:205
 msgid ""
@@ -495,16 +495,16 @@ msgid ""
 msgstr ""
 "\n"
 "Is iad seo na BRATACHA:\n"
-"  t   lorg gach glao macra, nÌ hamh·in na cinn le `traceon'\n"
-"  a   taispe·in na fÌorargÛintÌ\n"
-"  e   taispe·in scaoileadh macra\n"
-"  q   ˙s·id athfhriotal m·s g·, leis an bhrat `a' nÛ `e'\n"
-"  c   taispe·in roimh `collect', tar Èis `collect' agus tar Èis `call'\n"
-"  x   cuir aitheantas uath˙il macra leis, ˙s·ideach le `c'\n"
+"  t   lorg gach glao macra, n√≠ hamh√°in na cinn le `traceon'\n"
+"  a   taispe√°in na f√≠orarg√≥int√≠\n"
+"  e   taispe√°in scaoileadh macra\n"
+"  q   √∫s√°id athfhriotal m√°s g√°, leis an bhrat `a' n√≥ `e'\n"
+"  c   taispe√°in roimh `collect', tar √©is `collect' agus tar √©is `call'\n"
+"  x   cuir aitheantas uath√∫il macra leis, √∫s√°ideach le `c'\n"
 "  f   tabhair ainm an inchomhaid reatha\n"
-"  l   tabhair an lÌne-uimhir reatha ionchuir\n"
-"  p   taispe·in torthaÌ na gcuardach conairÌ\n"
-"  i   taispe·in athruithe in inchomhaid\n"
+"  l   tabhair an l√≠ne-uimhir reatha ionchuir\n"
+"  p   taispe√°in tortha√≠ na gcuardach conair√≠\n"
+"  i   taispe√°in athruithe in inchomhaid\n"
 "  V   gach ceann acu seo thuas\n"
 
 #: src/m4.c:220
@@ -513,7 +513,7 @@ msgid ""
 "If no FILE or if FILE is `-', standard input is read.\n"
 msgstr ""
 "\n"
-"Mura bhfuil COMHAD ann, nÛ m·s `-' È, lÈigh Ûn ionchur caighde·nach.\n"
+"Mura bhfuil COMHAD ann, n√≥ m√°s `-' √©, l√©igh √≥n ionchur caighde√°nach.\n"
 
 #: src/m4.c:225
 msgid ""
@@ -521,22 +521,22 @@ msgid ""
 "Report bugs to <bug-m4@gnu.org>.\n"
 msgstr ""
 "\n"
-"Seol tuairiscÌ fabhtanna chuig <bug-m4@gnu.org>.\n"
+"Seol tuairisc√≠ fabhtanna chuig <bug-m4@gnu.org>.\n"
 
 #: src/m4.c:414
 #, c-format
 msgid "Bad debug flags: `%s'"
-msgstr "Bratacha neamhbhailÌ dÌfhabhtaithe: `%s'"
+msgstr "Bratacha neamhbhail√≠ d√≠fhabhtaithe: `%s'"
 
 #: src/m4.c:436
 #, c-format
 msgid "ERROR: failed to add search directory `%s'"
-msgstr "EARR¡ID: theip ar chur comhadlann chuardaigh `%s' leis"
+msgstr "EARR√ÅID: theip ar chur comhadlann chuardaigh `%s' leis"
 
 #: src/m4.c:440
 #, c-format
 msgid "ERROR: failed to add search directory `%s': %s"
-msgstr "EARR¡ID: theip ar chur comhadlann chuardaigh `%s' leis: %s"
+msgstr "EARR√ÅID: theip ar chur comhadlann chuardaigh `%s' leis: %s"
 
 #: src/m4.c:460
 msgid " (options:"
@@ -544,86 +544,86 @@ msgstr " (roghanna:"
 
 #: src/m4.c:542
 msgid "INTERNAL ERROR: Bad code in deferred arguments"
-msgstr "EARR¡ID INMHE¡NACH: Droch-chÛd sna hargÛintÌ iarchurtha"
+msgstr "EARR√ÅID INMHE√ÅNACH: Droch-ch√≥d sna harg√≥int√≠ iarchurtha"
 
 #: src/macro.c:97
 msgid "INTERNAL ERROR: Bad token type in expand_token ()"
-msgstr "EARR¡ID INMHE¡NACH: Droch-chine·l comhartha i expand_token ()"
+msgstr "EARR√ÅID INMHE√ÅNACH: Droch-chine√°l comhartha i expand_token ()"
 
 #: src/macro.c:163
 msgid "ERROR: EOF in argument list"
-msgstr "EARR¡ID: comhadchrÌoch i liosta na n-argÛintÌ"
+msgstr "EARR√ÅID: comhadchr√≠och i liosta na n-arg√≥int√≠"
 
 #: src/macro.c:182
 msgid "INTERNAL ERROR: Bad token type in expand_argument ()"
-msgstr "EARR¡ID INMHE¡NACH: Droch-chine·l comhartha i expand_argument ()"
+msgstr "EARR√ÅID INMHE√ÅNACH: Droch-chine√°l comhartha i expand_argument ()"
 
 #: src/macro.c:259
 msgid "INTERNAL ERROR: Bad symbol type in call_macro ()"
-msgstr "EARR¡ID INMHE¡NACH: Droch-chine·l siombaile i call_macro ()"
+msgstr "EARR√ÅID INMHE√ÅNACH: Droch-chine√°l siombaile i call_macro ()"
 
 #: src/macro.c:288
 #, c-format
 msgid "ERROR: Recursion limit of %d exceeded, use -L<N> to change it"
-msgstr "EARR¡ID: Doimhneacht athch˙rs·la nÌos mÛ n· an t-uasmhÈid %d, ˙s·id -L<N> chun È a athr˙"
+msgstr "EARR√ÅID: Doimhneacht athch√∫rs√°la n√≠os m√≥ n√° an t-uasmh√©id %d, √∫s√°id -L<N> chun √© a athr√∫"
 
 #: src/module.c:123
 #, c-format
 msgid "ERROR: failed to initialise modules: %s"
-msgstr "EARR¡ID: theip ar th˙s˙ mod˙il: %s"
+msgstr "EARR√ÅID: theip ar th√∫s√∫ mod√∫il: %s"
 
 #: src/module.c:221
 #, c-format
 msgid "ERROR: cannot find module: `%s'"
-msgstr "EARR¡ID: mod˙l gan aimsi˙: `%s'"
+msgstr "EARR√ÅID: mod√∫l gan aimsi√∫: `%s'"
 
 #: src/module.c:224
 #, c-format
 msgid "ERROR: cannot find module: `%s': %s"
-msgstr "EARR¡ID: mod˙l gan aimsi˙: `%s': %s"
+msgstr "EARR√ÅID: mod√∫l gan aimsi√∫: `%s': %s"
 
 #: src/module.c:274
 msgid "ERROR: cannot close modules"
-msgstr "EARR¡ID: nÌ fÈidir mod˙il a dh˙nadh"
+msgstr "EARR√ÅID: n√≠ f√©idir mod√∫il a dh√∫nadh"
 
 #: src/module.c:277
 #, c-format
 msgid "ERROR: cannot cannot close modules: %s"
-msgstr "EARR¡ID: nÌ fÈidir mod˙il a dh˙nadh: %s"
+msgstr "EARR√ÅID: n√≠ f√©idir mod√∫il a dh√∫nadh: %s"
 
 #: src/module.c:284
 #, c-format
 msgid "ERROR: cannot close module: `%s'"
-msgstr "EARR¡ID: nÌ fÈidir mod˙l a dh˙nadh: `%s'"
+msgstr "EARR√ÅID: n√≠ f√©idir mod√∫l a dh√∫nadh: `%s'"
 
 #: src/module.c:288
 #, c-format
 msgid "ERROR: cannot cannot close module: `%s': %s"
-msgstr "EARR¡ID: nÌ fÈidir mod˙l a dh˙nadh: `%s': %s"
+msgstr "EARR√ÅID: n√≠ f√©idir mod√∫l a dh√∫nadh: `%s': %s"
 
 #: src/output.c:262
 msgid "ERROR: Cannot create temporary file for diversion"
-msgstr "EARR¡ID: NÌ fÈidir comhad sealadach a chruth˙ le haghaidh atreoraithe"
+msgstr "EARR√ÅID: N√≠ f√©idir comhad sealadach a chruth√∫ le haghaidh atreoraithe"
 
 #: src/output.c:272
 msgid "ERROR: Cannot flush diversion to temporary file"
-msgstr "EARR¡ID: NÌ fÈidir atreor˙ a shruthl˙ go comhad sealadach"
+msgstr "EARR√ÅID: N√≠ f√©idir atreor√∫ a shruthl√∫ go comhad sealadach"
 
 #: src/output.c:356
 msgid "ERROR: Copying inserted file"
-msgstr "EARR¡ID: Comhad ions·ite · chÛipe·il"
+msgstr "EARR√ÅID: Comhad ions√°ite √° ch√≥ipe√°il"
 
 #: src/output.c:537
 msgid "ERROR: Reading inserted file"
-msgstr "EARR¡ID: Comhad ions·ite · lÈamh"
+msgstr "EARR√ÅID: Comhad ions√°ite √° l√©amh"
 
 #: src/output.c:636
 msgid "Cannot stat diversion"
-msgstr "NÌ fÈidir atreor˙ a `stat'"
+msgstr "N√≠ f√©idir atreor√∫ a `stat'"
 
 #: src/output.c:639
 msgid "Diversion too large"
-msgstr "Atreor˙ rÛmhÛr"
+msgstr "Atreor√∫ r√≥mh√≥r"
 
 #: src/path.c:157
 #, c-format
@@ -634,23 +634,23 @@ msgstr "D'aimsigh cuardach conaire ar `%s' seo a leanas: `%s'"
 #. if the stack limit has not been reached.
 #: src/stackovf.c:175
 msgid "VMEM limit exceeded?\n"
-msgstr "Teorainn VMEM s·raithe?\n"
+msgstr "Teorainn VMEM s√°raithe?\n"
 
 #: src/stackovf.c:197
 msgid ""
 "Memory bounds violation detected (SIGSEGV).  Either a stack overflow\n"
 "occurred, or there is a bug in "
 msgstr ""
-"S·raÌodh teorainneacha cuimhne (SIGSEGV).  T· cruach thar maoil, is\n"
-"È sin nÛ t· fabht i "
+"S√°ra√≠odh teorainneacha cuimhne (SIGSEGV).  T√° cruach thar maoil, is\n"
+"√© sin n√≥ t√° fabht i "
 
 #: src/stackovf.c:202
 msgid ".  Check for possible infinite recursion.\n"
-msgstr ".  Seice·il nach bhfuil athch˙rs·il ÈigrÌochta ann.\n"
+msgstr ".  Seice√°il nach bhfuil athch√∫rs√°il √©igr√≠ochta ann.\n"
 
 #: src/symtab.c:190
 msgid "INTERNAL ERROR: Illegal mode to symbol_lookup ()"
-msgstr "EARR¡ID INMHE¡NACH: MÛd neamhcheadaithe i symbol_lookup ()"
+msgstr "EARR√ÅID INMHE√ÅNACH: M√≥d neamhcheadaithe i symbol_lookup ()"
 
 #: src/symtab.c:243
 #, c-format

@@ -12,7 +12,7 @@ msgstr ""
 "Last-Translator: Kevin Patrick Scannell <scannell@SLU.EDU>\n"
 "Language-Team: Irish <gaeilge-gnulinux@lists.sourceforge.net>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=ISO-8859-1\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : (n>2 && n<7) ? 2 :"
 "(n>6 && n<11) ? 3 : 4;\n"
@@ -20,52 +20,52 @@ msgstr ""
 #: lib/argmatch.c:120
 #, c-format
 msgid "invalid argument `%s' for `%s'"
-msgstr "argóint neamhbhailí `%s' do `%s'"
+msgstr "argÃ³int neamhbhailÃ­ `%s' do `%s'"
 
 #: lib/argmatch.c:121
 #, c-format
 msgid "ambiguous argument `%s' for `%s'"
-msgstr "argóint dhébhríoch `%s' do `%s'"
+msgstr "argÃ³int dhÃ©bhrÃ­och `%s' do `%s'"
 
 #: lib/argmatch.c:139
 #, c-format
 msgid "Valid arguments are:"
-msgstr "Na hargóintí bailí:"
+msgstr "Na hargÃ³intÃ­ bailÃ­:"
 
 #: lib/closeout.c:66
 msgid "write error"
-msgstr "earráid sa scríobh"
+msgstr "earrÃ¡id sa scrÃ­obh"
 
 #: lib/copy-file.c:65 src/file-list.c:56 src/open-po.c:118 src/read-mo.c:245
 #: src/read-tcl.c:125 src/urlget.c:200 src/xgettext.c:1557 src/xgettext.c:1570
 #: src/xgettext.c:1580
 #, c-format
 msgid "error while opening \"%s\" for reading"
-msgstr "earráid agus \"%s\" á oscailt chun é a léamh"
+msgstr "earrÃ¡id agus \"%s\" Ã¡ oscailt chun Ã© a lÃ©amh"
 
 #: lib/copy-file.c:72
 #, c-format
 msgid "cannot open backup file \"%s\" for writing"
-msgstr "ní féidir comhad cúltaca \"%s\" a oscailt chun scríobh ann"
+msgstr "nÃ­ fÃ©idir comhad cÃºltaca \"%s\" a oscailt chun scrÃ­obh ann"
 
 #: lib/copy-file.c:80 src/urlget.c:212
 #, c-format
 msgid "error reading \"%s\""
-msgstr "earráid agus \"%s\" á léamh"
+msgstr "earrÃ¡id agus \"%s\" Ã¡ lÃ©amh"
 
 #: lib/copy-file.c:85 lib/copy-file.c:89
 #, c-format
 msgid "error writing \"%s\""
-msgstr "earráid agus \"%s\" á scríobh"
+msgstr "earrÃ¡id agus \"%s\" Ã¡ scrÃ­obh"
 
 #: lib/copy-file.c:91 src/urlget.c:222
 #, c-format
 msgid "error after reading \"%s\""
-msgstr "earráid tar éis \"%s\" á léamh"
+msgstr "earrÃ¡id tar Ã©is \"%s\" Ã¡ lÃ©amh"
 
 #: lib/error.c:137 lib/error.c:165
 msgid "Unknown system error"
-msgstr "Earráid chórais anaithnid"
+msgstr "EarrÃ¡id chÃ³rais anaithnid"
 
 #: lib/execute.c:182 lib/execute.c:258 lib/execute.c:300 lib/pipe-bidi.c:178
 #: lib/pipe-bidi.c:265 lib/pipe-bidi.c:305 lib/pipe-in.c:194 lib/pipe-in.c:274
@@ -73,27 +73,27 @@ msgstr "Earráid chórais anaithnid"
 #: lib/wait-process.c:336 lib/wait-process.c:403
 #, c-format
 msgid "%s subprocess failed"
-msgstr "theip ar fhophróiseas %s"
+msgstr "theip ar fhophrÃ³iseas %s"
 
 #: lib/getopt.c:689 lib/getopt.c:701
 #, c-format
 msgid "%s: option `%s' is ambiguous\n"
-msgstr "%s: Tá an rogha `%s' débhríoch\n"
+msgstr "%s: TÃ¡ an rogha `%s' dÃ©bhrÃ­och\n"
 
 #: lib/getopt.c:734 lib/getopt.c:738
 #, c-format
 msgid "%s: option `--%s' doesn't allow an argument\n"
-msgstr "%s: ní cheadaítear argóint i ndiaidh na rogha `--%s'\n"
+msgstr "%s: nÃ­ cheadaÃ­tear argÃ³int i ndiaidh na rogha `--%s'\n"
 
 #: lib/getopt.c:747 lib/getopt.c:752
 #, c-format
 msgid "%s: option `%c%s' doesn't allow an argument\n"
-msgstr "%s: ní cheadaítear argóint i ndiaidh na rogha `%c%s'\n"
+msgstr "%s: nÃ­ cheadaÃ­tear argÃ³int i ndiaidh na rogha `%c%s'\n"
 
 #: lib/getopt.c:788 lib/getopt.c:801 lib/getopt.c:1090 lib/getopt.c:1103
 #, c-format
 msgid "%s: option `%s' requires an argument\n"
-msgstr "%s: tá argóint de dhíth i ndiaidh na rogha `%s'\n"
+msgstr "%s: tÃ¡ argÃ³int de dhÃ­th i ndiaidh na rogha `%s'\n"
 
 #: lib/getopt.c:839 lib/getopt.c:842
 #, c-format
@@ -113,50 +113,50 @@ msgstr "%s: rogha neamhcheadaithe -- %c\n"
 #: lib/getopt.c:909 lib/getopt.c:912
 #, c-format
 msgid "%s: invalid option -- %c\n"
-msgstr "%s: rogha neamhbhailí -- %c\n"
+msgstr "%s: rogha neamhbhailÃ­ -- %c\n"
 
 #: lib/getopt.c:959 lib/getopt.c:970 lib/getopt.c:1156 lib/getopt.c:1169
 #, c-format
 msgid "%s: option requires an argument -- %c\n"
-msgstr "%s: tá argóint de dhíth i ndiaidh na rogha -- %c\n"
+msgstr "%s: tÃ¡ argÃ³int de dhÃ­th i ndiaidh na rogha -- %c\n"
 
 #: lib/getopt.c:1022 lib/getopt.c:1033
 #, c-format
 msgid "%s: option `-W %s' is ambiguous\n"
-msgstr "%s: Tá an rogha `-W %s' débhríoch\n"
+msgstr "%s: TÃ¡ an rogha `-W %s' dÃ©bhrÃ­och\n"
 
 #: lib/getopt.c:1057 lib/getopt.c:1069
 #, c-format
 msgid "%s: option `-W %s' doesn't allow an argument\n"
-msgstr "%s: ní cheadaítear argóint i ndiaidh na rogha `-W %s'\n"
+msgstr "%s: nÃ­ cheadaÃ­tear argÃ³int i ndiaidh na rogha `-W %s'\n"
 
 #: lib/javacomp.c:467
 #, c-format
 msgid "Java compiler not found, try installing gcj or set $JAVAC"
-msgstr "Tiomsaitheoir Java gan aimsiú; suiteáil gcj nó socraigh $JAVAC"
+msgstr "Tiomsaitheoir Java gan aimsiÃº; suiteÃ¡il gcj nÃ³ socraigh $JAVAC"
 
 #: lib/javaexec.c:420
 #, c-format
 msgid "Java virtual machine not found, try installing gij or set $JAVA"
-msgstr "Meaisín fíorúil Java gan aimsiú, suiteáil gij nó socraigh $JAVA"
+msgstr "MeaisÃ­n fÃ­orÃºil Java gan aimsiÃº, suiteÃ¡il gij nÃ³ socraigh $JAVA"
 
 #: lib/obstack.c:491 lib/obstack.c:494 lib/xerror.c:51 lib/xmalloc.c:41
 #: lib/xsetenv.c:40 src/po-lex.c:89 src/po-lex.c:118 src/x-glade.c:390
 #, c-format
 msgid "memory exhausted"
-msgstr "cuimhne ídithe"
+msgstr "cuimhne Ã­dithe"
 
 #: lib/pipe-bidi.c:129 lib/pipe-bidi.c:131 lib/pipe-bidi.c:206
 #: lib/pipe-bidi.c:208 lib/pipe-in.c:142 lib/pipe-in.c:219 lib/pipe-out.c:142
 #: lib/pipe-out.c:219
 #, c-format
 msgid "cannot create pipe"
-msgstr "ní féidir píopa a chruthú"
+msgstr "nÃ­ fÃ©idir pÃ­opa a chruthÃº"
 
 #: lib/w32spawn.h:48
 #, c-format
 msgid "DuplicateHandle failed with error code 0x%08x"
-msgstr "Theip ar DuplicateHandle le cód earráide 0x%08x"
+msgstr "Theip ar DuplicateHandle le cÃ³d earrÃ¡ide 0x%08x"
 
 #: lib/w32spawn.h:53
 #, c-format
@@ -166,12 +166,12 @@ msgstr "theip ar _open_osfhandle"
 #: lib/wait-process.c:279 lib/wait-process.c:311 lib/wait-process.c:369
 #, c-format
 msgid "%s subprocess"
-msgstr "fo-phróiseas %s"
+msgstr "fo-phrÃ³iseas %s"
 
 #: lib/wait-process.c:328 lib/wait-process.c:395
 #, c-format
 msgid "%s subprocess got fatal signal %d"
-msgstr "fuair fo-phróiseas %s comhartha marfach %d"
+msgstr "fuair fo-phrÃ³iseas %s comhartha marfach %d"
 
 #: src/format-awk.c:493 src/format-elisp.c:341 src/format-librep.c:305
 #: src/format-pascal.c:394 src/format-perl.c:571 src/format-php.c:341
@@ -179,14 +179,14 @@ msgstr "fuair fo-phróiseas %s comhartha marfach %d"
 #, c-format
 msgid ""
 "a format specification for argument %u, as in '%s', doesn't exist in 'msgid'"
-msgstr "níl sonrú formáide le haghaidh argóinte %u, mar '%s', sa 'msgid'"
+msgstr "nÃ­l sonrÃº formÃ¡ide le haghaidh argÃ³inte %u, mar '%s', sa 'msgid'"
 
 #: src/format-awk.c:508 src/format-elisp.c:356 src/format-librep.c:320
 #: src/format-pascal.c:409 src/format-perl.c:586 src/format-php.c:356
 #: src/format-qt.c:135 src/format-tcl.c:395 src/format-ycp.c:136
 #, c-format
 msgid "a format specification for argument %u doesn't exist in '%s'"
-msgstr "níl sonrú formáide le haghaidh argóinte %u i '%s'"
+msgstr "nÃ­l sonrÃº formÃ¡ide le haghaidh argÃ³inte %u i '%s'"
 
 #: src/format-awk.c:533 src/format-c.c:865 src/format-elisp.c:381
 #: src/format-gcc-internal.c:283 src/format-librep.c:345
@@ -513,10 +513,10 @@ msgid ""
 "This is free software; see the source for copying conditions.  There is NO\n"
 "warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.\n"
 msgstr ""
-"Copyright © %s Free Software Foundation, Inc.\n"
-"Is saorbhogearra an ríomhchlár seo; féach ar an bhunchód le haghaidh\n"
-"coinníollacha cóipeála.  Níl baránta ar bith ann; go fiú níl baránta ann\n"
-"d'INDÍOLTACHT nó FEILIÚNACHT D'FHEIDHM AR LEITH.\n"
+"Copyright Â© %s Free Software Foundation, Inc.\n"
+"Is saorbhogearra an rÃ­omhchlÃ¡r seo; fÃ©ach ar an bhunchÃ³d le haghaidh\n"
+"coinnÃ­ollacha cÃ³ipeÃ¡la.  NÃ­l barÃ¡nta ar bith ann; go fiÃº nÃ­l barÃ¡nta ann\n"
+"d'INDÃOLTACHT nÃ³ FEILIÃšNACHT D'FHEIDHM AR LEITH.\n"
 
 #: src/hostname.c:187 src/msgattrib.c:316 src/msgcat.c:268 src/msgcmp.c:145
 #: src/msgcomm.c:265 src/msgconv.c:222 src/msgen.c:208 src/msgexec.c:182
@@ -530,7 +530,7 @@ msgstr "Le %s.\n"
 #: src/hostname.c:197 src/msginit.c:281
 #, c-format
 msgid "too many arguments"
-msgstr "an iomarca argóintí"
+msgstr "an iomarca argÃ³intÃ­"
 
 #: src/hostname.c:210 src/msgattrib.c:372 src/msgcat.c:327 src/msgcmp.c:176
 #: src/msgcomm.c:333 src/msgconv.c:280 src/msgen.c:258 src/msgexec.c:234
@@ -539,12 +539,12 @@ msgstr "an iomarca argóintí"
 #: src/xgettext.c:710
 #, c-format
 msgid "Try `%s --help' for more information.\n"
-msgstr "Bain triail as `%s --help' chun tuilleadh eolais a fháil.\n"
+msgstr "Bain triail as `%s --help' chun tuilleadh eolais a fhÃ¡il.\n"
 
 #: src/hostname.c:214 src/msginit.c:361
 #, c-format
 msgid "Usage: %s [OPTION]\n"
-msgstr "Úsáid: %s [ROGHA]\n"
+msgstr "ÃšsÃ¡id: %s [ROGHA]\n"
 
 #: src/hostname.c:218
 #, c-format
@@ -581,7 +581,7 @@ msgstr ""
 #: src/xgettext.c:856
 #, c-format
 msgid "Informative output:\n"
-msgstr "Aschur faisnéiseach:\n"
+msgstr "Aschur faisnÃ©iseach:\n"
 
 #: src/hostname.c:233 src/msgattrib.c:478 src/msgcat.c:427 src/msgcmp.c:221
 #: src/msgcomm.c:429 src/msgconv.c:358 src/msgen.c:333 src/msgexec.c:278
@@ -590,7 +590,7 @@ msgstr "Aschur faisnéiseach:\n"
 #: src/xgettext.c:858
 #, c-format
 msgid "  -h, --help                  display this help and exit\n"
-msgstr "  -h, --help                  taispeáin an chabhair seo agus scoir\n"
+msgstr "  -h, --help                  taispeÃ¡in an chabhair seo agus scoir\n"
 
 #: src/hostname.c:235 src/msgattrib.c:480 src/msgcat.c:429 src/msgcmp.c:223
 #: src/msgcomm.c:431 src/msgconv.c:360 src/msgen.c:335 src/msgexec.c:280
@@ -600,7 +600,7 @@ msgstr "  -h, --help                  taispeáin an chabhair seo agus scoir\n"
 #, c-format
 msgid "  -V, --version               output version information and exit\n"
 msgstr ""
-"  -V, --version               taispeáin eolas faoin leagan agus scoir\n"
+"  -V, --version               taispeÃ¡in eolas faoin leagan agus scoir\n"
 
 #: src/hostname.c:238 src/msgattrib.c:483 src/msgcat.c:432 src/msgcmp.c:226
 #: src/msgcomm.c:434 src/msgconv.c:363 src/msgen.c:338 src/msgexec.c:283
@@ -608,7 +608,7 @@ msgstr ""
 #: src/msgmerge.c:547 src/msgunfmt.c:513 src/msguniq.c:396 src/urlget.c:183
 #: src/xgettext.c:863
 msgid "Report bugs to <bug-gnu-gettext@gnu.org>.\n"
-msgstr "Seol tuairiscí fabhtanna chuig <bug-gnu-gettext@gnu.org>.\n"
+msgstr "Seol tuairiscÃ­ fabhtanna chuig <bug-gnu-gettext@gnu.org>.\n"
 
 #: src/hostname.c:254 src/hostname.c:260 src/hostname.c:267
 #, c-format
@@ -635,7 +635,7 @@ msgstr "Is comheisiatach iad na roghanna %s agus %s"
 #: src/msgattrib.c:376 src/msgconv.c:284 src/msggrep.c:437 src/msguniq.c:304
 #, c-format
 msgid "Usage: %s [OPTION] [INPUTFILE]\n"
-msgstr "Úsáid: %s [ROGHA] [INCHOMHAD]\n"
+msgstr "ÃšsÃ¡id: %s [ROGHA] [INCHOMHAD]\n"
 
 #: src/msgattrib.c:381
 #, c-format, no-wrap
@@ -652,7 +652,7 @@ msgstr ""
 msgid ""
 "Mandatory arguments to long options are mandatory for short options too.\n"
 msgstr ""
-"Is riachtanach le rogha ghearr aon argóint atá riachtanach leis an rogha "
+"Is riachtanach le rogha ghearr aon argÃ³int atÃ¡ riachtanach leis an rogha "
 "fhada.\n"
 
 #: src/msgattrib.c:388 src/msgcat.c:351 src/msgcmp.c:197 src/msgcomm.c:356
@@ -681,7 +681,7 @@ msgstr ""
 #: src/msggrep.c:456 src/msgunfmt.c:436 src/msguniq.c:329
 #, c-format
 msgid "If no input file is given or if it is -, standard input is read.\n"
-msgstr "Mura bhfuil comhad ann, nó más `-' é, léigh ón ionchur caighdeánach.\n"
+msgstr "Mura bhfuil comhad ann, nÃ³ mÃ¡s `-' Ã©, lÃ©igh Ã³n ionchur caighdeÃ¡nach.\n"
 
 #: src/msgattrib.c:397 src/msgcat.c:362 src/msgcomm.c:367 src/msgconv.c:304
 #: src/msgen.c:286 src/msgfilter.c:391 src/msgfmt.c:648 src/msggrep.c:459
@@ -689,7 +689,7 @@ msgstr "Mura bhfuil comhad ann, nó más `-' é, léigh ón ionchur caighdeánach.\n"
 #: src/xgettext.c:739
 #, c-format
 msgid "Output file location:\n"
-msgstr "Suíomh an aschomhaid:\n"
+msgstr "SuÃ­omh an aschomhaid:\n"
 
 #: src/msgattrib.c:399 src/msgcat.c:364 src/msgcomm.c:369 src/msgconv.c:306
 #: src/msgen.c:288 src/msgfilter.c:393 src/msgfmt.c:650 src/msggrep.c:461
@@ -717,26 +717,26 @@ msgstr ""
 msgid ""
 "      --translated            keep translated, remove untranslated messages\n"
 msgstr ""
-"      --translated            coinnigh teachtaireachtaí aistrithe, bain na "
-"cinn gan aistriú\n"
+"      --translated            coinnigh teachtaireachtaÃ­ aistrithe, bain na "
+"cinn gan aistriÃº\n"
 
 #: src/msgattrib.c:409
 #, c-format
 msgid ""
 "      --untranslated          keep untranslated, remove translated messages\n"
 msgstr ""
-"      --untranslated          coinnigh teachtaireachtaí gan aistriú, bain na "
+"      --untranslated          coinnigh teachtaireachtaÃ­ gan aistriÃº, bain na "
 "cinn aistrithe\n"
 
 #: src/msgattrib.c:411
 #, c-format
 msgid "      --no-fuzzy              remove 'fuzzy' marked messages\n"
-msgstr "      --no-fuzzy              bain teachtaireachtaí 'doiléir'\n"
+msgstr "      --no-fuzzy              bain teachtaireachtaÃ­ 'doilÃ©ir'\n"
 
 #: src/msgattrib.c:413
 #, c-format
 msgid "      --only-fuzzy            keep 'fuzzy' marked messages\n"
-msgstr "      --only-fuzzy            coinnigh teachtaireachtaí 'doiléir'\n"
+msgstr "      --only-fuzzy            coinnigh teachtaireachtaÃ­ 'doilÃ©ir'\n"
 
 #: src/msgattrib.c:415
 #, c-format
@@ -802,7 +802,7 @@ msgstr ""
 #: src/msguniq.c:347
 #, c-format
 msgid "Input file syntax:\n"
-msgstr "Comhréir an inchomhaid:\n"
+msgstr "ComhrÃ©ir an inchomhaid:\n"
 
 #: src/msgattrib.c:441 src/msgconv.c:321 src/msgen.c:296 src/msgexec.c:271
 #: src/msgfilter.c:416 src/msggrep.c:500 src/msginit.c:392 src/msguniq.c:349
@@ -825,7 +825,7 @@ msgstr ""
 #: src/xgettext.c:814
 #, c-format
 msgid "Output details:\n"
-msgstr "Mionsonraí aschurtha:\n"
+msgstr "MionsonraÃ­ aschurtha:\n"
 
 #: src/msgattrib.c:448 src/msgcat.c:397 src/msgcomm.c:397 src/msgconv.c:328
 #: src/msgen.c:303 src/msgmerge.c:508 src/msgunfmt.c:482 src/msguniq.c:361
@@ -834,8 +834,8 @@ msgstr "Mionsonraí aschurtha:\n"
 msgid ""
 "  -e, --no-escape             do not use C escapes in output (default)\n"
 msgstr ""
-"  -e, --no-escape             ná húsáid éalúcháin C san aschur "
-"(réamhshocrú)\n"
+"  -e, --no-escape             nÃ¡ hÃºsÃ¡id Ã©alÃºchÃ¡in C san aschur "
+"(rÃ©amhshocrÃº)\n"
 
 #: src/msgattrib.c:450 src/msgcat.c:399 src/msgcomm.c:399 src/msgconv.c:330
 #: src/msgen.c:305 src/msgfilter.c:425 src/msgmerge.c:510 src/msgunfmt.c:484
@@ -844,7 +844,7 @@ msgstr ""
 msgid ""
 "  -E, --escape                use C escapes in output, no extended chars\n"
 msgstr ""
-"  -E, --escape                úsáid éalúcháin C san aschur, gan carachtair "
+"  -E, --escape                ÃºsÃ¡id Ã©alÃºchÃ¡in C san aschur, gan carachtair "
 "bhreisithe\n"
 
 #: src/msgattrib.c:452 src/msgcat.c:401 src/msgcomm.c:401 src/msgconv.c:332
@@ -852,19 +852,19 @@ msgstr ""
 #: src/msgunfmt.c:486 src/msguniq.c:365 src/xgettext.c:820
 #, c-format
 msgid "      --force-po              write PO file even if empty\n"
-msgstr "      --force-po              scríobh comhad PO, fiú más folamh é\n"
+msgstr "      --force-po              scrÃ­obh comhad PO, fiÃº mÃ¡s folamh Ã©\n"
 
 #: src/msgattrib.c:454 src/msgcat.c:403 src/msgcomm.c:403 src/msguniq.c:367
 #: src/xgettext.c:822
 #, c-format
 msgid "  -i, --indent                write the .po file using indented style\n"
-msgstr "  -i, --indent                scríobh comhad .po i stíl eangaithe\n"
+msgstr "  -i, --indent                scrÃ­obh comhad .po i stÃ­l eangaithe\n"
 
 #: src/msgattrib.c:456 src/msgcat.c:405 src/msgcomm.c:405 src/msguniq.c:369
 #: src/xgettext.c:824
 #, c-format
 msgid "      --no-location           do not write '#: filename:line' lines\n"
-msgstr "      --no-location           ná scríobh línte '#: comhadainm:líne'\n"
+msgstr "      --no-location           nÃ¡ scrÃ­obh lÃ­nte '#: comhadainm:lÃ­ne'\n"
 
 #: src/msgattrib.c:458 src/msgcat.c:407 src/msgcomm.c:407 src/msguniq.c:371
 #: src/xgettext.c:826
@@ -872,7 +872,7 @@ msgstr "      --no-location           ná scríobh línte '#: comhadainm:líne'\n"
 msgid ""
 "  -n, --add-location          generate '#: filename:line' lines (default)\n"
 msgstr ""
-"  -n, --add-location          gin línte '#: comhadainm:líne' (réamhshocrú)\n"
+"  -n, --add-location          gin lÃ­nte '#: comhadainm:lÃ­ne' (rÃ©amhshocrÃº)\n"
 
 #: src/msgattrib.c:460 src/msgcat.c:409 src/msgcomm.c:409 src/msguniq.c:373
 #: src/xgettext.c:828
@@ -917,7 +917,7 @@ msgstr ""
 #: src/msguniq.c:384 src/xgettext.c:839
 #, c-format
 msgid "  -s, --sort-output           generate sorted output\n"
-msgstr "  -s, --sort-output           gin aschur sórtáilte\n"
+msgstr "  -s, --sort-output           gin aschur sÃ³rtÃ¡ilte\n"
 
 #: src/msgattrib.c:473 src/msgcat.c:422 src/msgcomm.c:422 src/msgconv.c:353
 #: src/msgen.c:328 src/msgfilter.c:450 src/msgmerge.c:533 src/msguniq.c:386
@@ -934,7 +934,7 @@ msgstr ""
 #: src/msgcat.c:331 src/msgcomm.c:337 src/xgettext.c:714
 #, c-format
 msgid "Usage: %s [OPTION] [INPUTFILE]...\n"
-msgstr "Úsáid: %s [ROGHA] [INCHOMHAD]...\n"
+msgstr "ÃšsÃ¡id: %s [ROGHA] [INCHOMHAD]...\n"
 
 #: src/msgcat.c:336
 #, c-format, no-wrap
@@ -964,7 +964,7 @@ msgstr ""
 #: src/xgettext.c:736
 #, c-format
 msgid "If input file is -, standard input is read.\n"
-msgstr "Más `-' é an t-inchomhad, léigh ón ionchur caighdeánach.\n"
+msgstr "MÃ¡s `-' Ã© an t-inchomhad, lÃ©igh Ã³n ionchur caighdeÃ¡nach.\n"
 
 #: src/msgcat.c:372 src/msgcomm.c:377
 #, c-format
@@ -1027,7 +1027,7 @@ msgstr ""
 #: src/msgcmp.c:180 src/msgmerge.c:425
 #, c-format
 msgid "Usage: %s [OPTION] def.po ref.pot\n"
-msgstr "Úsáid: %s [ROGHA] min.po tag.pot\n"
+msgstr "ÃšsÃ¡id: %s [ROGHA] min.po tag.pot\n"
 
 #: src/msgcmp.c:185
 #, c-format, no-wrap
@@ -1043,17 +1043,17 @@ msgstr ""
 #: src/msgcmp.c:199
 #, c-format
 msgid "  def.po                      translations\n"
-msgstr "  min.po                      aistriúcháin\n"
+msgstr "  min.po                      aistriÃºchÃ¡in\n"
 
 #: src/msgcmp.c:201
 #, c-format
 msgid "  ref.pot                     references to the sources\n"
-msgstr "  tag.pot                     tagairtí do na foinsí\n"
+msgstr "  tag.pot                     tagairtÃ­ do na foinsÃ­\n"
 
 #: src/msgcmp.c:206 src/msgmerge.c:491
 #, c-format
 msgid "Operation modifiers:\n"
-msgstr "Bunathraitheoirí oibre:\n"
+msgstr "BunathraitheoirÃ­ oibre:\n"
 
 #: src/msgcmp.c:208 src/msgmerge.c:493
 #, c-format
@@ -1080,17 +1080,17 @@ msgstr ""
 #: src/msgcmp.c:396
 #, c-format
 msgid "warning: this message is not used"
-msgstr "rabhadh: níl an teachtaireacht seo infheicthe"
+msgstr "rabhadh: nÃ­l an teachtaireacht seo infheicthe"
 
 #: src/msgcmp.c:403
 #, c-format
 msgid "found %d fatal error"
 msgid_plural "found %d fatal errors"
-msgstr[0] "aimsíodh %d earráid mharfach"
-msgstr[1] "aimsíodh %d earráid mharfach"
-msgstr[2] "aimsíodh %d earráid mharfach"
-msgstr[3] "aimsíodh %d n-earráid mharfach"
-msgstr[4] "aimsíodh %d earráid mharfach"
+msgstr[0] "aimsÃ­odh %d earrÃ¡id mharfach"
+msgstr[1] "aimsÃ­odh %d earrÃ¡id mharfach"
+msgstr[2] "aimsÃ­odh %d earrÃ¡id mharfach"
+msgstr[3] "aimsÃ­odh %d n-earrÃ¡id mharfach"
+msgstr[4] "aimsÃ­odh %d earrÃ¡id mharfach"
 
 #: src/msgcomm.c:294
 #, c-format
@@ -1175,7 +1175,7 @@ msgstr ""
 #: src/msgen.c:262
 #, c-format
 msgid "Usage: %s [OPTION] INPUTFILE\n"
-msgstr "Úsáid: %s [ROGHA] INCHOMHAD\n"
+msgstr "ÃšsÃ¡id: %s [ROGHA] INCHOMHAD\n"
 
 #: src/msgen.c:267
 #, c-format, no-wrap
@@ -1199,7 +1199,7 @@ msgstr "ainm ordaithe ar iarraidh"
 #: src/msgexec.c:238
 #, c-format
 msgid "Usage: %s [OPTION] COMMAND [COMMAND-OPTION]\n"
-msgstr "Úsáid: %s [ROGHA] ORDÚ [ROGHA-ORDAITHE]\n"
+msgstr "ÃšsÃ¡id: %s [ROGHA] ORDÃš [ROGHA-ORDAITHE]\n"
 
 #: src/msgexec.c:243
 #, c-format, no-wrap
@@ -1226,7 +1226,7 @@ msgstr ""
 #: src/msgexec.c:322
 #, c-format
 msgid "write to stdout failed"
-msgstr "theip ar scríobh ar aschur caighdeánach"
+msgstr "theip ar scrÃ­obh ar aschur caighdeÃ¡nach"
 
 #: src/msgexec.c:345 src/msgfilter.c:637
 #, c-format
@@ -1284,7 +1284,7 @@ msgstr ""
 msgid ""
 "  -n, --quiet, --silent       suppress automatic printing of pattern space\n"
 msgstr ""
-"  -n, --quiet, --silent       ná priontáil an spás patrúin go huathoibríoch\n"
+"  -n, --quiet, --silent       nÃ¡ priontÃ¡il an spÃ¡s patrÃºin go huathoibrÃ­och\n"
 
 #: src/msgfilter.c:423 src/msggrep.c:507
 #, c-format
@@ -1306,7 +1306,7 @@ msgstr ""
 #: src/msgfilter.c:560
 #, c-format
 msgid "Not yet implemented."
-msgstr "Níl ar fáil fós."
+msgstr "NÃ­l ar fÃ¡il fÃ³s."
 
 #: src/msgfilter.c:589
 #, c-format
@@ -1331,7 +1331,7 @@ msgstr ""
 #: src/msgfmt.c:315
 #, c-format
 msgid "the argument to %s should be a single punctuation character"
-msgstr "is gá an argóint le %s a bheith ina carachtar poncaíochta aonair"
+msgstr "is gÃ¡ an argÃ³int le %s a bheith ina carachtar poncaÃ­ochta aonair"
 
 #: src/msgfmt.c:418 src/msgfmt.c:440 src/msgfmt.c:462 src/msgunfmt.c:313
 #: src/msgunfmt.c:336
@@ -1368,26 +1368,26 @@ msgstr[4] "%d teachtaireacht aistrithe"
 #, c-format
 msgid ", %d fuzzy translation"
 msgid_plural ", %d fuzzy translations"
-msgstr[0] ", %d aistriúchán doiléir"
-msgstr[1] ", %d aistriúchán doiléir"
-msgstr[2] ", %d aistriúchán doiléir"
-msgstr[3] ", %d n-aistriúchán doiléir"
-msgstr[4] ", %d aistriúchán doiléir"
+msgstr[0] ", %d aistriÃºchÃ¡n doilÃ©ir"
+msgstr[1] ", %d aistriÃºchÃ¡n doilÃ©ir"
+msgstr[2] ", %d aistriÃºchÃ¡n doilÃ©ir"
+msgstr[3] ", %d n-aistriÃºchÃ¡n doilÃ©ir"
+msgstr[4] ", %d aistriÃºchÃ¡n doilÃ©ir"
 
 #: src/msgfmt.c:590
 #, c-format
 msgid ", %d untranslated message"
 msgid_plural ", %d untranslated messages"
-msgstr[0] ", %d teachtaireacht gan aistriú"
-msgstr[1] ", %d theachtaireacht gan aistriú"
-msgstr[2] ", %d theachtaireacht gan aistriú"
-msgstr[3] ", %d dteachtaireacht gan aistriú"
-msgstr[4] ", %d teachtaireacht gan aistriú"
+msgstr[0] ", %d teachtaireacht gan aistriÃº"
+msgstr[1] ", %d theachtaireacht gan aistriÃº"
+msgstr[2] ", %d theachtaireacht gan aistriÃº"
+msgstr[3] ", %d dteachtaireacht gan aistriÃº"
+msgstr[4] ", %d teachtaireacht gan aistriÃº"
 
 #: src/msgfmt.c:610
 #, c-format
 msgid "Usage: %s [OPTION] filename.po ...\n"
-msgstr "Úsáid: %s [ROGHA] comhad.po ...\n"
+msgstr "ÃšsÃ¡id: %s [ROGHA] comhad.po ...\n"
 
 #: src/msgfmt.c:614
 #, c-format
@@ -1400,8 +1400,8 @@ msgid ""
 "Mandatory arguments to long options are mandatory for short options too.\n"
 "Similarly for optional arguments.\n"
 msgstr ""
-"Is riachtanach le rogha ghearr aon argóint atá riachtanach leis an rogha fhada.\n"
-"Mar an gcéanna le hargóintí roghnacha.\n"
+"Is riachtanach le rogha ghearr aon argÃ³int atÃ¡ riachtanach leis an rogha fhada.\n"
+"Mar an gcÃ©anna le hargÃ³intÃ­ roghnacha.\n"
 
 #: src/msgfmt.c:626
 #, c-format
@@ -1411,7 +1411,7 @@ msgstr "  comhad.po ...               inchomhaid\n"
 #: src/msgfmt.c:633 src/msgmerge.c:457 src/msgunfmt.c:421 src/xgettext.c:771
 #, c-format
 msgid "Operation mode:\n"
-msgstr "Mód oibre:\n"
+msgstr "MÃ³d oibre:\n"
 
 #: src/msgfmt.c:635
 #, c-format
@@ -1458,7 +1458,7 @@ msgstr ""
 #: src/msgfmt.c:654 src/xgettext.c:747
 #, c-format
 msgid "If output file is -, output is written to standard output.\n"
-msgstr "Más '-' é an t-aschomhad, scríobh go dtí an t-aschur caighdeánach.\n"
+msgstr "MÃ¡s '-' Ã© an t-aschomhad, scrÃ­obh go dtÃ­ an t-aschur caighdeÃ¡nach.\n"
 
 #: src/msgfmt.c:657
 #, c-format
@@ -1648,12 +1648,12 @@ msgstr ""
 #: src/msgfmt.c:1044
 #, c-format
 msgid "invalid nplurals value"
-msgstr "luach nplurals neamhbhailí"
+msgstr "luach nplurals neamhbhailÃ­"
 
 #: src/msgfmt.c:1058
 #, c-format
 msgid "invalid plural expression"
-msgstr "slonn neamhbhailí iolra"
+msgstr "slonn neamhbhailÃ­ iolra"
 
 #: src/msgfmt.c:1077 src/msgfmt.c:1092
 #, c-format
@@ -1739,7 +1739,7 @@ msgstr ""
 #: src/msgfmt.c:1396
 #, c-format
 msgid "headerfield `%s' missing in header\n"
-msgstr "réimse `%s' ar iarraidh sa cheanntásc\n"
+msgstr "rÃ©imse `%s' ar iarraidh sa cheanntÃ¡sc\n"
 
 #: src/msgfmt.c:1400
 #, c-format
@@ -1888,7 +1888,7 @@ msgstr ""
 #: src/msginit.c:346
 #, c-format
 msgid "Created %s.\n"
-msgstr "Cruthaíodh %s.\n"
+msgstr "CruthaÃ­odh %s.\n"
 
 #: src/msginit.c:366
 #, c-format, no-wrap
@@ -1942,7 +1942,7 @@ msgstr ""
 #: src/msginit.c:465 src/msginit.c:470
 #, c-format
 msgid "error reading current directory"
-msgstr "earráid agus an chomhadlann reatha á léamh"
+msgstr "earrÃ¡id agus an chomhadlann reatha Ã¡ lÃ©amh"
 
 #: src/msginit.c:478
 msgid ""
@@ -2112,7 +2112,7 @@ msgstr ""
 
 #: src/msgmerge.c:395
 msgid "backup type"
-msgstr "cineál cúltaca"
+msgstr "cineÃ¡l cÃºltaca"
 
 #: src/msgmerge.c:430
 #, c-format, no-wrap
@@ -2183,12 +2183,12 @@ msgid ""
 "  existing, nil   numbered if numbered backups exist, simple otherwise\n"
 "  simple, never   always make simple backups\n"
 msgstr ""
-"Is féidir an modh rialaithe na bhfoinsí a roghnú le `--backup', nó leis an\n"
-"athróg thimpeallachta VERSION_CONTROL.  Seo duit na luachanna bailí:\n"
-"  none, off       ná déan cúltacaí choíche (fiú má tá --backup ceaptha)\n"
-"  numbered, t     déan cúltacaí agus uimhreacha orthu\n"
-"  existing, nil   numbered má tá uimhreacha orthu anois, simple mura bhfuil\n"
-"  simple, never   déan cúltacaí simplí i gcónaí\n"
+"Is fÃ©idir an modh rialaithe na bhfoinsÃ­ a roghnÃº le `--backup', nÃ³ leis an\n"
+"athrÃ³g thimpeallachta VERSION_CONTROL.  Seo duit na luachanna bailÃ­:\n"
+"  none, off       nÃ¡ dÃ©an cÃºltacaÃ­ choÃ­che (fiÃº mÃ¡ tÃ¡ --backup ceaptha)\n"
+"  numbered, t     dÃ©an cÃºltacaÃ­ agus uimhreacha orthu\n"
+"  existing, nil   numbered mÃ¡ tÃ¡ uimhreacha orthu anois, simple mura bhfuil\n"
+"  simple, never   dÃ©an cÃºltacaÃ­ simplÃ­ i gcÃ³naÃ­\n"
 
 #: src/msgmerge.c:486
 #, c-format
@@ -2197,7 +2197,7 @@ msgid ""
 "SIMPLE_BACKUP_SUFFIX\n"
 "environment variable.\n"
 msgstr ""
-"Is é `~' an iarmhír cúltaca, mura dtugtar é le --suffix nó an athróg "
+"Is Ã© `~' an iarmhÃ­r cÃºltaca, mura dtugtar Ã© le --suffix nÃ³ an athrÃ³g "
 "thimpeallachta SIMPLE_BACKUP_SUFFIX.\n"
 
 #: src/msgmerge.c:495
@@ -2230,17 +2230,17 @@ msgstr ""
 # used in the stats page table
 #: src/msgmerge.c:1233
 msgid " done.\n"
-msgstr " déanta.\n"
+msgstr " dÃ©anta.\n"
 
 #: src/msgunfmt.c:291 src/msgunfmt.c:300 src/msgunfmt.c:323
 #, c-format
 msgid "%s and explicit file names are mutually exclusive"
-msgstr "is comheisiatach iad %s agus léirainmneacha comhaid"
+msgstr "is comheisiatach iad %s agus lÃ©irainmneacha comhaid"
 
 #: src/msgunfmt.c:410
 #, c-format
 msgid "Usage: %s [OPTION] [FILE]...\n"
-msgstr "Úsáid: %s [ROGHA] [COMHAD]...\n"
+msgstr "ÃšsÃ¡id: %s [ROGHA] [COMHAD]...\n"
 
 #: src/msgunfmt.c:414
 #, c-format
@@ -2373,7 +2373,7 @@ msgstr ""
 
 #: src/po-charset.c:293
 msgid "Continuing anyway."
-msgstr "Ag leanúint mar sin féin."
+msgstr "Ag leanÃºint mar sin fÃ©in."
 
 #: src/po-charset.c:296
 #, c-format
@@ -2442,12 +2442,12 @@ msgstr ""
 #: src/po-lex.c:103 src/po-lex.c:132
 #, c-format
 msgid "too many errors, aborting"
-msgstr "an iomarca earráidí, ag tobscor"
+msgstr "an iomarca earrÃ¡idÃ­, ag tobscor"
 
 #: src/po-lex.c:458 src/po-lex.c:522 src/write-po.c:555 src/write-po.c:661
 #, c-format
 msgid "invalid multibyte sequence"
-msgstr "éalúchán neamhbhailí"
+msgstr "Ã©alÃºchÃ¡n neamhbhailÃ­"
 
 #: src/po-lex.c:486
 #, c-format
@@ -2472,7 +2472,7 @@ msgstr "theip ar iconv"
 #: src/x-tcl.c:152 src/x-ycp.c:91
 #, c-format
 msgid "error while reading \"%s\""
-msgstr "earráid agus \"%s\" á léamh"
+msgstr "earrÃ¡id agus \"%s\" Ã¡ lÃ©amh"
 
 #: src/po-lex.c:737
 #, c-format
@@ -2537,12 +2537,12 @@ msgstr ""
 #: src/read-stringtable.c:804
 #, c-format
 msgid "%s:%lu: warning: unterminated string"
-msgstr "%s:%lu: rabhadh: teaghrán gan chríochnú"
+msgstr "%s:%lu: rabhadh: teaghrÃ¡n gan chrÃ­ochnÃº"
 
 #: src/read-stringtable.c:815
 #, c-format
 msgid "%s:%lu: warning: syntax error"
-msgstr "%s:%lu: rabhadh: earráid chomhréire"
+msgstr "%s:%lu: rabhadh: earrÃ¡id chomhrÃ©ire"
 
 #: src/read-stringtable.c:878 src/read-stringtable.c:900
 #, c-format
@@ -2567,7 +2567,7 @@ msgstr ""
 #: src/urlget.c:166
 #, c-format
 msgid "Usage: %s [OPTION] URL FILE\n"
-msgstr "Úsáid: %s [ROGHA] URL COMHAD\n"
+msgstr "ÃšsÃ¡id: %s [ROGHA] URL COMHAD\n"
 
 #: src/urlget.c:171
 #, c-format, no-wrap
@@ -2589,7 +2589,7 @@ msgstr ""
 #: src/write-java.c:992
 #, c-format
 msgid "cannot create a temporary directory using template \"%s\""
-msgstr "ní féidir comhadlann sealadach a chruthú leis an teimpléad \"%s\""
+msgstr "nÃ­ fÃ©idir comhadlann sealadach a chruthÃº leis an teimplÃ©ad \"%s\""
 
 #: src/write-java.c:1005
 #, c-format
@@ -2599,7 +2599,7 @@ msgstr ""
 #: src/write-java.c:1063 src/write-java.c:1076
 #, c-format
 msgid "failed to create \"%s\""
-msgstr "níorbh fhéidir \"%s\" a chruthú"
+msgstr "nÃ­orbh fhÃ©idir \"%s\" a chruthÃº"
 
 #: src/write-java.c:1084 src/write-mo.c:726 src/write-po.c:1126
 #: src/write-qt.c:530 src/write-tcl.c:204
@@ -2664,12 +2664,12 @@ msgstr ""
 #: src/write-po.c:1107
 #, c-format
 msgid "cannot create output file \"%s\""
-msgstr "ní féidir aschomhad \"%s\" a chruthú"
+msgstr "nÃ­ fÃ©idir aschomhad \"%s\" a chruthÃº"
 
 #: src/write-po.c:1114
 #, no-c-format
 msgid "standard output"
-msgstr "aschur caighdeánach"
+msgstr "aschur caighdeÃ¡nach"
 
 #: src/write-qt.c:475
 msgid ""
@@ -2693,23 +2693,23 @@ msgstr ""
 #: src/x-awk.c:345 src/x-python.c:396
 #, c-format
 msgid "%s:%d: warning: unterminated string"
-msgstr "%s:%d: rabhadh: teaghrán gan chríochnú"
+msgstr "%s:%d: rabhadh: teaghrÃ¡n gan chrÃ­ochnÃº"
 
 #: src/x-awk.c:596
 #, c-format
 msgid "%s:%d: warning: unterminated regular expression"
-msgstr "%s:%d: rabhadh: slonn ionadaíochta gan chríochnú"
+msgstr "%s:%d: rabhadh: slonn ionadaÃ­ochta gan chrÃ­ochnÃº"
 
 # in FARF -KPS
 #: src/x-c.c:1093 src/x-java.c:826
 #, c-format
 msgid "%s:%d: warning: unterminated character constant"
-msgstr "%s:%d: rabhadh: tairiseach carachtair gan chríochnú"
+msgstr "%s:%d: rabhadh: tairiseach carachtair gan chrÃ­ochnÃº"
 
 #: src/x-c.c:1117
 #, c-format
 msgid "%s:%d: warning: unterminated string literal"
-msgstr "%s:%d: rabhadh: tairiseach teaghráin gan chríochnú"
+msgstr "%s:%d: rabhadh: tairiseach teaghrÃ¡in gan chrÃ­ochnÃº"
 
 #: src/x-glade.c:413 src/x-glade.c:420
 #, c-format
@@ -2726,7 +2726,7 @@ msgstr ""
 #: src/x-java.c:829
 #, c-format
 msgid "%s:%d: warning: unterminated string constant"
-msgstr "%s:%d: rabhadh: tairiseach teaghráin gan chríochnú"
+msgstr "%s:%d: rabhadh: tairiseach teaghrÃ¡in gan chrÃ­ochnÃº"
 
 #: src/x-java.c:1323
 #, c-format
@@ -2786,7 +2786,7 @@ msgstr ""
 #: src/x-rst.c:107
 #, c-format
 msgid "%s:%d: invalid string definition"
-msgstr "%s:%d: sainmhíniú neamhbhailí teaghráin"
+msgstr "%s:%d: sainmhÃ­niÃº neamhbhailÃ­ teaghrÃ¡in"
 
 #: src/x-rst.c:171
 #, c-format
@@ -3015,7 +3015,7 @@ msgstr ""
 
 #: src/xgettext.c:1548
 msgid "standard input"
-msgstr "ionchur caighdeánach"
+msgstr "ionchur caighdeÃ¡nach"
 
 #: src/xgettext.c:1660
 #, c-format

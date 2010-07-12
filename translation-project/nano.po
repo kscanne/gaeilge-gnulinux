@@ -1448,7 +1448,7 @@ msgstr "Caomhnaigh eochracha XON (^Q) agus XOFF (^S)"
 
 #: src/nano.c:883
 msgid "Silently ignore startup issues like rc file errors"
-msgstr ""
+msgstr "Déan neamhaird d'fhadhbanna tosaithe gan rabhadh, mar shampla earráidí sa chomhad rc"
 
 #: src/nano.c:885
 msgid "-r <#cols>"
@@ -1528,12 +1528,12 @@ msgstr "Sábháil an maolán athraithe (NÓ SCRIOSFAR DO CHUID ATHRUITHE) ? "
 
 #: src/nano.c:1061
 msgid "Couldn't reopen stdin from keyboard, sorry\n"
-msgstr ""
+msgstr "Níorbh fhéidir an t-ionchur caighdeánach a oscailt ón mhéarchlár, tá brón orm\n"
 
 #: src/nano.c:1084
 #, c-format
 msgid "Reading from stdin, ^C to abort\n"
-msgstr ""
+msgstr "Ag oscailt ón ionchur caighdeánach, ^C = tobscor\n"
 
 #: src/nano.c:1152
 msgid "Received SIGHUP or SIGTERM\n"

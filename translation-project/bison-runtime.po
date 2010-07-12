@@ -12,47 +12,47 @@ msgstr ""
 "Last-Translator: Kevin Patrick Scannell <scannell@SLU.EDU>\n"
 "Language-Team: Irish <gaeilge-gnulinux@lists.sourceforge.net>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=ISO-8859-1\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 #: data/glr.c:917 data/yacc.c:584
 msgid "syntax error: cannot back up"
-msgstr "earráid chomhréire: ní féidir cúlú"
+msgstr "earrÃ¡id chomhrÃ©ire: nÃ­ fÃ©idir cÃºlÃº"
 
 #: data/glr.c:1795
 msgid "syntax is ambiguous"
-msgstr "comhréir dhébhríoch"
+msgstr "comhrÃ©ir dhÃ©bhrÃ­och"
 
 #: data/glr.c:2087 data/glr.c:2093 data/glr.c:2374 data/lalr1.cc:872
 #: data/yacc.c:1307 data/yacc.c:1335
 msgid "syntax error"
-msgstr "earráid chomhréire"
+msgstr "earrÃ¡id chomhrÃ©ire"
 
 #: data/glr.c:2408 data/yacc.c:1117 data/yacc.c:1459
 msgid "memory exhausted"
-msgstr "cuimhne ídithe"
+msgstr "cuimhne Ã­dithe"
 
 #: data/yacc.c:869
 #, c-format
 msgid "syntax error, unexpected %s"
-msgstr "earráid chomhréire, %s gan choinne"
+msgstr "earrÃ¡id chomhrÃ©ire, %s gan choinne"
 
 #: data/yacc.c:870
 #, c-format
 msgid "syntax error, unexpected %s, expecting %s"
-msgstr "earráid chomhréire, %s gan choinne, bhíothas ag súil le %s"
+msgstr "earrÃ¡id chomhrÃ©ire, %s gan choinne, bhÃ­othas ag sÃºil le %s"
 
 #: data/yacc.c:871
 #, c-format
 msgid "syntax error, unexpected %s, expecting %s or %s"
-msgstr "earráid chomhréire, %s gan choinne, bhíothas ag súil le %s nó %s"
+msgstr "earrÃ¡id chomhrÃ©ire, %s gan choinne, bhÃ­othas ag sÃºil le %s nÃ³ %s"
 
 #: data/yacc.c:872
 #, c-format
 msgid "syntax error, unexpected %s, expecting %s or %s or %s"
-msgstr "earráid chomhréire, %s gan choinne, bhíothas ag súil le %s nó %s nó %s"
+msgstr "earrÃ¡id chomhrÃ©ire, %s gan choinne, bhÃ­othas ag sÃºil le %s nÃ³ %s nÃ³ %s"
 
 #: data/yacc.c:873
 #, c-format
 msgid "syntax error, unexpected %s, expecting %s or %s or %s or %s"
-msgstr "earráid chomhréire, %s gan choinne, bhíothas ag súil le %s nó %s nó %s nó %s"
+msgstr "earrÃ¡id chomhrÃ©ire, %s gan choinne, bhÃ­othas ag sÃºil le %s nÃ³ %s nÃ³ %s nÃ³ %s"

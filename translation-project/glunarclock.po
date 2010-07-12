@@ -12,28 +12,28 @@ msgstr ""
 "Last-Translator: Kevin Patrick Scannell <scannell@SLU.EDU>\n"
 "Language-Team: Irish <gaeilge-gnulinux@lists.sourceforge.net>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=ISO-8859-1\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../src/GNOME_GLunarclockApplet_Factory.server.in.in.h:1
 msgid "Accessories"
-msgstr "Oiri˙intÌ"
+msgstr "Oiri√∫int√≠"
 
 #: ../src/GNOME_GLunarclockApplet_Factory.server.in.in.h:2
 msgid "Factory for creating the glunarclock applet"
-msgstr "Monarcha chun an feidhmchl·irÌn glunarclock a chruth˙"
+msgstr "Monarcha chun an feidhmchl√°ir√≠n glunarclock a chruth√∫"
 
 #: ../src/GNOME_GLunarclockApplet_Factory.server.in.in.h:3
 msgid "GLunarclock Applet Factory"
-msgstr "Monarcha Fheidhmchl·irÌn GLunarclock"
+msgstr "Monarcha Fheidhmchl√°ir√≠n GLunarclock"
 
 #: ../src/GNOME_GLunarclockApplet_Factory.server.in.in.h:4
 msgid "Lunar Clock"
-msgstr "An Clog GealaÌ"
+msgstr "An Clog Geala√≠"
 
 #: ../src/GNOME_GLunarclockApplet_Factory.server.in.in.h:5
 msgid "Monitor the current phase of the moon"
-msgstr "Coinnigh s˙il ar chÈim na gealaÌ"
+msgstr "Coinnigh s√∫il ar ch√©im na geala√≠"
 
 #: ../src/GNOME_GLunarclockApplet.xml.h:1
 msgid "_About..."
@@ -49,7 +49,7 @@ msgstr "_Sainroghanna..."
 
 #: ../src/glunarclock.schemas.in.h:1
 msgid "Flip image in southern hemisphere"
-msgstr "Tiontaigh Ìomh· sa leathsfÈar theas"
+msgstr "Tiontaigh √≠omh√° sa leathsf√©ar theas"
 
 #: ../src/glunarclock.schemas.in.h:2
 msgid "Geographic latitude"
@@ -57,7 +57,7 @@ msgstr "Domhanleithead geografach"
 
 #: ../src/glunarclock.schemas.in.h:3
 msgid "Geographic latitude for which moon data is calculated"
-msgstr "Domhanleithead geografach le haghaidh sonraÌ gealaÌ"
+msgstr "Domhanleithead geografach le haghaidh sonra√≠ geala√≠"
 
 #: ../src/glunarclock.schemas.in.h:4
 msgid "Geographic longitude"
@@ -65,7 +65,7 @@ msgstr "Domhanfhad geografach"
 
 #: ../src/glunarclock.schemas.in.h:5
 msgid "Geographic longitude for which moon data is calculated"
-msgstr "Domhanfhad geografach le haghaidh sonraÌ gealaÌ"
+msgstr "Domhanfhad geografach le haghaidh sonra√≠ geala√≠"
 
 #: ../src/glunarclock.schemas.in.h:6
 msgid "Latitude value is north"
@@ -77,20 +77,20 @@ msgstr "Is thoir an luach domhanfhaid"
 
 #: ../src/glunarclock.schemas.in.h:8
 msgid "The moon image pixmap"
-msgstr "An mapa picteilÌnÌ den ghealach"
+msgstr "An mapa picteil√≠n√≠ den ghealach"
 
 #: ../src/glunarclock.schemas.in.h:9
 msgid "The number of frames in the moon image pixmap"
-msgstr "LÌon na bhfr·maÌ sa mhapa picteilÌnÌ den ghealach"
+msgstr "L√≠on na bhfr√°ma√≠ sa mhapa picteil√≠n√≠ den ghealach"
 
 #: ../src/glunarclock.c:79
 #, c-format
 msgid "There was an error displaying help: %s"
-msgstr "NÌorbh fhÈidir cabhair a thaispe·int: %s"
+msgstr "N√≠orbh fh√©idir cabhair a thaispe√°int: %s"
 
 #: ../src/glunarclock.c:203
 msgid "GNOME Lunar Clock displays the current phase of the moon and pertinent astronomical data."
-msgstr "Taispe·nann an clog gealaÌ GNOME cÈim reatha na gealaÌ agus sonraÌ rÈalteolaÌochta cuÌ."
+msgstr "Taispe√°nann an clog geala√≠ GNOME c√©im reatha na geala√≠ agus sonra√≠ r√©alteola√≠ochta cu√≠."
 
 #: ../src/glunarclock.c:213
 msgid "Josh Buhl <jbuhl@users.sourceforge.net>"
@@ -102,37 +102,37 @@ msgstr "Mike Henderson: wmMoonClock"
 
 #: ../src/glunarclock.c:215
 msgid "Wanda & George: Applet Stuff"
-msgstr "Wanda agus George: Feidhmchl·irÌnÌ"
+msgstr "Wanda agus George: Feidhmchl√°ir√≠n√≠"
 
 #: ../src/glunarclock.c:216
 msgid "Nissen: cartoon moon graphics"
-msgstr "Nissen: grafaic chart˙nach ghealaÌ"
+msgstr "Nissen: grafaic chart√∫nach gheala√≠"
 
 #: ../src/glunarclock.c:217
 msgid "Lots of friendly translators: po files"
-msgstr "AistritheoirÌ cairdi˙la go leor: comhaid po"
+msgstr "Aistritheoir√≠ cairdi√∫la go leor: comhaid po"
 
 #: ../src/glunarclock.c:232
 msgid "GNOME Lunar Clock"
-msgstr "An Clog GealaÌ GNOME"
+msgstr "An Clog Geala√≠ GNOME"
 
 # See de Bhaldraithe under "up" for this idiom
 #: ../src/glunarclock.c:622
 msgid "The moon is currently above the horizon."
-msgstr "T· an ghealach ina suÌ faoi l·thair"
+msgstr "T√° an ghealach ina su√≠ faoi l√°thair"
 
 #: ../src/glunarclock.c:624
 msgid "The moon is currently below the horizon."
-msgstr "T· an ghealach imithe faoi"
+msgstr "T√° an ghealach imithe faoi"
 
 #: ../src/glunarclock.c:872
 #, c-format
 msgid "There was an error loading moon image: %s"
-msgstr "NÌorbh fhÈidir Ìomh· na gealaÌ a lucht˙: %s"
+msgstr "N√≠orbh fh√©idir √≠omh√° na geala√≠ a lucht√∫: %s"
 
 #: ../src/glunarclock.glade.h:1
 msgid "Above Horizon"
-msgstr "Ina SuÌ"
+msgstr "Ina Su√≠"
 
 #: ../src/glunarclock.glade.h:2
 msgid "Altitude"
@@ -144,15 +144,15 @@ msgstr "Asamat"
 
 #: ../src/glunarclock.glade.h:4
 msgid "Browse"
-msgstr "Brabhs·il"
+msgstr "Brabhs√°il"
 
 #: ../src/glunarclock.glade.h:5
 msgid "Days to Full Moon"
-msgstr "Laethanta go dtÌ an Ghealach Nua"
+msgstr "Laethanta go dt√≠ an Ghealach Nua"
 
 #: ../src/glunarclock.glade.h:6
 msgid "Days to New Moon"
-msgstr "Laethanta go dtÌ an Ghealach Nua"
+msgstr "Laethanta go dt√≠ an Ghealach Nua"
 
 #: ../src/glunarclock.glade.h:7
 msgid "Declination"
@@ -160,7 +160,7 @@ msgstr "Diallas"
 
 #: ../src/glunarclock.glade.h:8
 msgid "Distance from Earth"
-msgstr "Fad Ûn Domhan"
+msgstr "Fad √≥n Domhan"
 
 #: ../src/glunarclock.glade.h:9
 msgid "East"
@@ -173,55 +173,55 @@ msgstr "Cuid de thimthriall"
 # guessing that _F conflicts with _Flip below?
 #: ../src/glunarclock.glade.h:11
 msgid "Frame_s in image file:"
-msgstr "_Fr·maÌ i gcomhad Ìomh·"
+msgstr "_Fr√°ma√≠ i gcomhad √≠omh√°"
 
 #: ../src/glunarclock.glade.h:12
 msgid "GNOME Lunar Clock Preferences"
-msgstr "Sainroghanna ar son an chloig gealaÌ GNOME"
+msgstr "Sainroghanna ar son an chloig geala√≠ GNOME"
 
 #: ../src/glunarclock.glade.h:13
 msgid "Latitude (decimal degrees): "
-msgstr "Domhanleithead (cÈimeanna deach˙lacha): "
+msgstr "Domhanleithead (c√©imeanna deach√∫lacha): "
 
 #: ../src/glunarclock.glade.h:14
 msgid "Local Apparent Time"
-msgstr "Am Dealraitheach ¡iti˙il"
+msgstr "Am Dealraitheach √Åiti√∫il"
 
 #: ../src/glunarclock.glade.h:15
 msgid "Local Mean Time"
-msgstr "Me·n-Am ¡iti˙il"
+msgstr "Me√°n-Am √Åiti√∫il"
 
 #: ../src/glunarclock.glade.h:16
 msgid "Local Sidereal Time"
-msgstr "RÈalt-Am ¡iti˙il"
+msgstr "R√©alt-Am √Åiti√∫il"
 
 #: ../src/glunarclock.glade.h:17
 msgid "Local Standard Time"
-msgstr "Am Caighde·nach ¡iti˙il"
+msgstr "Am Caighde√°nach √Åiti√∫il"
 
 #: ../src/glunarclock.glade.h:18
 msgid "Location"
-msgstr "SuÌomh"
+msgstr "Su√≠omh"
 
 #: ../src/glunarclock.glade.h:19
 msgid "Longitude (decimal degrees):"
-msgstr "Domhanfhad (cÈimeanna deach˙lacha): "
+msgstr "Domhanfhad (c√©imeanna deach√∫lacha): "
 
 #: ../src/glunarclock.glade.h:20
 msgid "Moon Data"
-msgstr "SonraÌ na GealaÌ"
+msgstr "Sonra√≠ na Geala√≠"
 
 #: ../src/glunarclock.glade.h:21
 msgid "Moon Image"
-msgstr "Õomh· na GealaÌ"
+msgstr "√çomh√° na Geala√≠"
 
 #: ../src/glunarclock.glade.h:22
 msgid "Moon's Appearance"
-msgstr "Dealramh na GealaÌ"
+msgstr "Dealramh na Geala√≠"
 
 #: ../src/glunarclock.glade.h:23
 msgid "Moon's Coordinates"
-msgstr "Comhordan·idÌ na GealaÌ"
+msgstr "Comhordan√°id√≠ na Geala√≠"
 
 # Making these up.  Should look in Focloir Realteolaiochta...
 #: ../src/glunarclock.glade.h:24
@@ -230,12 +230,12 @@ msgstr "Gealach Anuas"
 
 #: ../src/glunarclock.glade.h:25
 msgid "Moonrise & Moonset (Universal Time)"
-msgstr "…irÌ 7 Dul Faoin Ghealach (Am UilÌoch)"
+msgstr "√âir√≠ 7 Dul Faoin Ghealach (Am Uil√≠och)"
 
 # Making these up.  Should look in Focloir Realteolaiochta...
 #: ../src/glunarclock.glade.h:26
 msgid "Moonup"
-msgstr "Gealach AnÌos"
+msgstr "Gealach An√≠os"
 
 #: ../src/glunarclock.glade.h:27
 msgid "North"
@@ -259,11 +259,11 @@ msgstr "Inniu"
 
 #: ../src/glunarclock.glade.h:32
 msgid "Tomorrow"
-msgstr "Am·rach"
+msgstr "Am√°rach"
 
 #: ../src/glunarclock.glade.h:33
 msgid "Universal Time"
-msgstr "Am UilÌoch"
+msgstr "Am Uil√≠och"
 
 #: ../src/glunarclock.glade.h:34
 msgid "West"
@@ -271,23 +271,23 @@ msgstr "Iarthar"
 
 #: ../src/glunarclock.glade.h:35
 msgid "Yesterday"
-msgstr "InnÈ"
+msgstr "Inn√©"
 
 #: ../src/glunarclock.glade.h:36
 msgid "_Flip image in southern hemisphere"
-msgstr "_Tiontaigh Ìomh· sa leathsfÈar theas"
+msgstr "_Tiontaigh √≠omh√° sa leathsf√©ar theas"
 
 #: ../src/glunarclock.glade.h:37
 msgid "_Moon image filename:"
-msgstr "Ainm comhad den Ìomh· _ghealaÌ"
+msgstr "Ainm comhad den √≠omh√° _gheala√≠"
 
 #: ../src/moondata.c:133
 msgid "no rise"
-msgstr "nÌl ÈirÌ ar bith"
+msgstr "n√≠l √©ir√≠ ar bith"
 
 #: ../src/moondata.c:140
 msgid "no set"
-msgstr "nÌl aon dul faoi"
+msgstr "n√≠l aon dul faoi"
 
 #. g_snprintf(buf, size, _("%4.2f Days"), moondata.MoonAge);
 #. gtk_label_set_text(GTK_LABEL(mw.age), buf);
@@ -303,20 +303,20 @@ msgstr "%2d%"
 #. gtk_label_set_text(GTK_LABEL(mw.nwm), buf);
 #: ../src/moondata.c:293
 msgid "Yes"
-msgstr "T·"
+msgstr "T√°"
 
 #: ../src/moondata.c:293
 msgid "No"
-msgstr "NÌl"
+msgstr "N√≠l"
 
 #~ msgid "Flip image in southern hemesphere"
-#~ msgstr "Tiontaigh Ìomh· sa leathsfÈar theas"
+#~ msgstr "Tiontaigh √≠omh√° sa leathsf√©ar theas"
 
 #~ msgid "*"
 #~ msgstr "*"
 
 #~ msgid "Age of Moon"
-#~ msgstr "Aois na GealaÌ"
+#~ msgstr "Aois na Geala√≠"
 
 #~ msgid "%4.2f Days"
-#~ msgstr "%4.2f L·"
+#~ msgstr "%4.2f L√°"

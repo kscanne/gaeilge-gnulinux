@@ -11,7 +11,7 @@ msgstr ""
 "Last-Translator: Kevin Scannell <kscanne@gmail.com>\n"
 "Language-Team: Irish <gaeilge-gnulinux@lists.sourceforge.net>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=ISO-8859-1\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 #: src/main/extract.c:49
@@ -21,7 +21,7 @@ msgid ""
 "%s\n"
 "\n"
 msgstr ""
-"⁄s·id: %s\n"
+"√ös√°id: %s\n"
 "%s\n"
 "\n"
 
@@ -30,86 +30,86 @@ msgstr ""
 msgid ""
 "Arguments mandatory for long options are also mandatory for short options.\n"
 msgstr ""
-"Is riachtanach le rogha ghearr aon argÛint at· riachtanach leis an rogha "
+"Is riachtanach le rogha ghearr aon arg√≥int at√° riachtanach leis an rogha "
 "fhada.\n"
 
 #: src/main/extract.c:126
 msgid "do not remove any duplicates"
-msgstr "n· bain macasamhla amach"
+msgstr "n√° bain macasamhla amach"
 
 #: src/main/extract.c:128
 msgid "print output in bibtex format"
-msgstr "priont·il aschur i bhform·id bibtex"
+msgstr "priont√°il aschur i bhform√°id bibtex"
 
 #: src/main/extract.c:130
 msgid ""
 "use the generic plaintext extractor for the language with the 2-letter "
 "language code LANG"
 msgstr ""
-"˙s·id an t-asbhainteoir ginear·lta tÈacs le haghaidh na teanga leis an chÛd "
-"LANG de rÈir ISO-639-1"
+"√∫s√°id an t-asbhainteoir ginear√°lta t√©acs le haghaidh na teanga leis an ch√≥d "
+"LANG de r√©ir ISO-639-1"
 
 #: src/main/extract.c:132
 msgid "remove duplicates only if types match"
-msgstr "bain macasamhla amach m· mheaitse·lann na cine·lacha"
+msgstr "bain macasamhla amach m√° mheaitse√°lann na cine√°lacha"
 
 #: src/main/extract.c:134
 msgid "use the filename as a keyword (loads filename-extractor plugin)"
 msgstr ""
-"˙s·id an comhadainm mar lorgfhocal (luchtÛfar breise·n asbhainteora na "
+"√∫s√°id an comhadainm mar lorgfhocal (lucht√≥far breise√°n asbhainteora na "
 "gcomhadainmneacha)"
 
 #: src/main/extract.c:136
 msgid "produce grep-friendly output (all results on one line per file)"
 msgstr ""
-"aschur is fÈidir prÛise·il le grep (gach toradh ar lÌne amh·in sa chomhad)"
+"aschur is f√©idir pr√≥ise√°il le grep (gach toradh ar l√≠ne amh√°in sa chomhad)"
 
 #: src/main/extract.c:138
 msgid "print this help"
-msgstr "taispe·in an chabhair seo"
+msgstr "taispe√°in an chabhair seo"
 
 #: src/main/extract.c:140
 msgid "compute hash using the given ALGORITHM (currently sha1 or md5)"
-msgstr "˙s·id an tALGARTAM haise·la tugtha (sha1 nÛ md5 faoi l·thair)"
+msgstr "√∫s√°id an tALGARTAM haise√°la tugtha (sha1 n√≥ md5 faoi l√°thair)"
 
 #: src/main/extract.c:142
 msgid "load an extractor plugin named LIBRARY"
-msgstr "luchtaigh breise·n asbhainteora darb ainm LEABHARLANN"
+msgstr "luchtaigh breise√°n asbhainteora darb ainm LEABHARLANN"
 
 #: src/main/extract.c:144
 msgid "list all keyword types"
-msgstr "taispe·in gach cine·l lorgfhocail"
+msgstr "taispe√°in gach cine√°l lorgfhocail"
 
 #: src/main/extract.c:146
 msgid "do not use the default set of extractor plugins"
-msgstr "n· h˙s·id na breise·in asbhainteora rÈamhshocraithe"
+msgstr "n√° h√∫s√°id na breise√°in asbhainteora r√©amhshocraithe"
 
 #: src/main/extract.c:148
 msgid "print only keywords of the given TYPE (use -L to get a list)"
 msgstr ""
-"n· taispe·in ach lorgfhocail den CHINE¡L tugtha (˙s·id -L chun liosta a "
-"fh·il)"
+"n√° taispe√°in ach lorgfhocail den CHINE√ÅL tugtha (√∫s√°id -L chun liosta a "
+"fh√°il)"
 
 #: src/main/extract.c:150
 msgid "remove duplicates even if keyword types do not match"
-msgstr "bain macasamhla amach, fi˙ mura meaitse·lann na cine·lacha lorgfhocail"
+msgstr "bain macasamhla amach, fi√∫ mura meaitse√°lann na cine√°lacha lorgfhocail"
 
 #: src/main/extract.c:152
 msgid "use keyword splitting (loads split-extractor plugin)"
 msgstr ""
-"˙s·id scoilteadh lorgfhocal (luchtÛfar an breise·n asbhainteora scoilte)"
+"√∫s√°id scoilteadh lorgfhocal (lucht√≥far an breise√°n asbhainteora scoilte)"
 
 #: src/main/extract.c:154
 msgid "print the version number"
-msgstr "taispe·in an leagan"
+msgstr "taispe√°in an leagan"
 
 #: src/main/extract.c:156
 msgid "be verbose"
-msgstr "bÌ foclach"
+msgstr "b√≠ foclach"
 
 #: src/main/extract.c:158
 msgid "do not print keywords of the given TYPE"
-msgstr "n· taispe·in lorgfhocail den CHINE¡L tugtha"
+msgstr "n√° taispe√°in lorgfhocail den CHINE√ÅL tugtha"
 
 #: src/main/extract.c:161
 msgid "extract [OPTIONS] [FILENAME]*"
@@ -117,17 +117,17 @@ msgstr "extract [ROGHANNA] [COMHADAINM]*"
 
 #: src/main/extract.c:162
 msgid "Extract metadata from files."
-msgstr "Bain meiteashonraÌ as comhaid."
+msgstr "Bain meiteashonra√≠ as comhaid."
 
 #: src/main/extract.c:190 src/main/extractor.c:1513
 #, c-format
 msgid "%s - (binary)\n"
-msgstr "%s - (dÈn·rtha)\n"
+msgstr "%s - (d√©n√°rtha)\n"
 
 #: src/main/extract.c:201 src/main/extractor.c:1518
 #, c-format
 msgid "INVALID TYPE - %s\n"
-msgstr "CINE¡L NEAMHBHAILÕ - %s\n"
+msgstr "CINE√ÅL NEAMHBHAIL√ç - %s\n"
 
 #: src/main/extract.c:320 src/main/extractor.c:47
 msgid "title"
@@ -139,11 +139,11 @@ msgstr "comhadainm"
 
 #: src/main/extract.c:327 src/main/extractor.c:48
 msgid "author"
-msgstr "˙dar"
+msgstr "√∫dar"
 
 #: src/main/extract.c:331 src/main/extractor.c:50
 msgid "description"
-msgstr "cur sÌos"
+msgstr "cur s√≠os"
 
 #: src/main/extract.c:333 src/main/extractor.c:62
 msgid "keywords"
@@ -151,15 +151,15 @@ msgstr "lorgfhocail"
 
 #: src/main/extract.c:335 src/main/extractor.c:51
 msgid "comment"
-msgstr "nÛta tr·chta"
+msgstr "n√≥ta tr√°chta"
 
 #: src/main/extract.c:339 src/main/extractor.c:52
 msgid "date"
-msgstr "d·ta"
+msgstr "d√°ta"
 
 #: src/main/extract.c:341 src/main/extractor.c:74
 msgid "creation date"
-msgstr "d·ta a cruthaÌodh"
+msgstr "d√°ta a crutha√≠odh"
 
 #: src/main/extract.c:369 src/main/extractor.c:53
 msgid "publisher"
@@ -171,22 +171,22 @@ msgstr "eagras"
 
 #: src/main/extract.c:377 src/main/extractor.c:61
 msgid "subject"
-msgstr "·bhar"
+msgstr "√°bhar"
 
 #: src/main/extract.c:381 src/main/extractor.c:78
 msgid "page count"
-msgstr "lÌon na leathanach"
+msgstr "l√≠on na leathanach"
 
 #: src/main/extract.c:537
 #, c-format
 msgid "You must specify an argument for the `%s' option (option ignored).\n"
 msgstr ""
-"NÌ mÛr duit argÛint a thabhairt i ndiaidh na rogha `%s' (· ligean thart).\n"
+"N√≠ m√≥r duit arg√≥int a thabhairt i ndiaidh na rogha `%s' (√° ligean thart).\n"
 
 #: src/main/extract.c:607
 #, c-format
 msgid "Use --help to get a list of options.\n"
-msgstr "Bain ˙s·id as '--help' le haghaidh nÌos mÛ roghanna.\n"
+msgstr "Bain √∫s√°id as '--help' le haghaidh n√≠os m√≥ roghanna.\n"
 
 #: src/main/extract.c:663
 #, c-format
@@ -204,11 +204,11 @@ msgstr "anaithnid"
 
 #: src/main/extractor.c:46
 msgid "mimetype"
-msgstr "Cine·l MIME"
+msgstr "Cine√°l MIME"
 
 #: src/main/extractor.c:49
 msgid "artist"
-msgstr "ealaÌontÛir"
+msgstr "eala√≠ont√≥ir"
 
 #: src/main/extractor.c:54
 msgid "language"
@@ -220,11 +220,11 @@ msgstr "albam"
 
 #: src/main/extractor.c:56
 msgid "genre"
-msgstr "se·nra"
+msgstr "se√°nra"
 
 #: src/main/extractor.c:57
 msgid "location"
-msgstr "suÌomh"
+msgstr "su√≠omh"
 
 #: src/main/extractor.c:58
 msgid "version"
@@ -232,7 +232,7 @@ msgstr "leagan"
 
 #: src/main/extractor.c:60
 msgid "copyright"
-msgstr "cÛipcheart"
+msgstr "c√≥ipcheart"
 
 #: src/main/extractor.c:63
 msgid "contributor"
@@ -240,15 +240,15 @@ msgstr "cuiditheoir"
 
 #: src/main/extractor.c:64
 msgid "resource-type"
-msgstr "cine·l-acmhainne"
+msgstr "cine√°l-acmhainne"
 
 #: src/main/extractor.c:65
 msgid "format"
-msgstr "form·id"
+msgstr "form√°id"
 
 #: src/main/extractor.c:66
 msgid "resource-identifier"
-msgstr "aitheantÛir-acmhainne"
+msgstr "aitheant√≥ir-acmhainne"
 
 #: src/main/extractor.c:67
 msgid "source"
@@ -260,15 +260,15 @@ msgstr "gaol"
 
 #: src/main/extractor.c:69
 msgid "coverage"
-msgstr "cl˙dach"
+msgstr "cl√∫dach"
 
 #: src/main/extractor.c:70
 msgid "software"
-msgstr "bogearraÌ"
+msgstr "bogearra√≠"
 
 #: src/main/extractor.c:71
 msgid "disclaimer"
-msgstr "sÈanadh"
+msgstr "s√©anadh"
 
 #: src/main/extractor.c:72
 msgid "warning"
@@ -280,7 +280,7 @@ msgstr "aistrithe"
 
 #: src/main/extractor.c:75
 msgid "modification date"
-msgstr "d·ta mionathraithe"
+msgstr "d√°ta mionathraithe"
 
 #: src/main/extractor.c:76
 msgid "creator"
@@ -288,19 +288,19 @@ msgstr "cruthaitheoir"
 
 #: src/main/extractor.c:77
 msgid "producer"
-msgstr "t·irgeoir"
+msgstr "t√°irgeoir"
 
 #: src/main/extractor.c:79
 msgid "page orientation"
-msgstr "treoshuÌomh an leathanaigh"
+msgstr "treoshu√≠omh an leathanaigh"
 
 #: src/main/extractor.c:80
 msgid "paper size"
-msgstr "p·ipÈarmhÈid"
+msgstr "p√°ip√©armh√©id"
 
 #: src/main/extractor.c:81
 msgid "used fonts"
-msgstr "clÛfhoirne ˙s·idte"
+msgstr "cl√≥fhoirne √∫s√°idte"
 
 #: src/main/extractor.c:82
 msgid "page order"
@@ -312,7 +312,7 @@ msgstr "cruthaithe ar son"
 
 #: src/main/extractor.c:84
 msgid "magnification"
-msgstr "formhÈad˙"
+msgstr "formh√©ad√∫"
 
 #: src/main/extractor.c:85
 msgid "release"
@@ -320,11 +320,11 @@ msgstr "scaoileadh"
 
 #: src/main/extractor.c:86
 msgid "group"
-msgstr "gr˙pa"
+msgstr "gr√∫pa"
 
 #: src/main/extractor.c:87
 msgid "size"
-msgstr "mÈid"
+msgstr "m√©id"
 
 #: src/main/extractor.c:88
 msgid "summary"
@@ -332,31 +332,31 @@ msgstr "achoimre"
 
 #: src/main/extractor.c:89
 msgid "packager"
-msgstr "pac·isteoir"
+msgstr "pac√°isteoir"
 
 #: src/main/extractor.c:90
 msgid "vendor"
-msgstr "dÌoltÛir"
+msgstr "d√≠olt√≥ir"
 
 #: src/main/extractor.c:91
 msgid "license"
-msgstr "cead˙nas"
+msgstr "cead√∫nas"
 
 #: src/main/extractor.c:92
 msgid "distribution"
-msgstr "d·ileadh"
+msgstr "d√°ileadh"
 
 #: src/main/extractor.c:93
 msgid "build-host"
-msgstr "ÛstrÌomhaire-tÛg·la"
+msgstr "√≥str√≠omhaire-t√≥g√°la"
 
 #: src/main/extractor.c:94
 msgid "operating system"
-msgstr "cÛras oibri˙ch·in"
+msgstr "c√≥ras oibri√∫ch√°in"
 
 #: src/main/extractor.c:95
 msgid "dependency"
-msgstr "sple·chas"
+msgstr "sple√°chas"
 
 #: src/main/extractor.c:96
 msgid "MD4"
@@ -384,7 +384,7 @@ msgstr "taifeach"
 
 #: src/main/extractor.c:102
 msgid "category"
-msgstr "catagÛir"
+msgstr "catag√≥ir"
 
 #: src/main/extractor.c:103
 msgid "book title"
@@ -392,59 +392,59 @@ msgstr "teideal an leabhair"
 
 #: src/main/extractor.c:104
 msgid "priority"
-msgstr "tosaÌocht"
+msgstr "tosa√≠ocht"
 
 #: src/main/extractor.c:105
 msgid "conflicts"
-msgstr "coinbhleachtaÌ"
+msgstr "coinbhleachta√≠"
 
 #: src/main/extractor.c:106
 msgid "replaces"
-msgstr "ionadaÌonn"
+msgstr "ionada√≠onn"
 
 #: src/main/extractor.c:107
 msgid "provides"
-msgstr "sol·thraÌonn"
+msgstr "sol√°thra√≠onn"
 
 #: src/main/extractor.c:108
 msgid "conductor"
-msgstr "sti˙rthÛir"
+msgstr "sti√∫rth√≥ir"
 
 #: src/main/extractor.c:109
 msgid "interpreter"
-msgstr "lÈirmhÌnitheoir"
+msgstr "l√©irmh√≠nitheoir"
 
 #: src/main/extractor.c:110
 msgid "owner"
-msgstr "˙inÈir"
+msgstr "√∫in√©ir"
 
 #: src/main/extractor.c:111
 msgid "lyrics"
-msgstr "liricÌ"
+msgstr "liric√≠"
 
 #: src/main/extractor.c:112
 msgid "media type"
-msgstr "cine·l an mhe·in"
+msgstr "cine√°l an mhe√°in"
 
 #: src/main/extractor.c:113
 msgid "contact"
-msgstr "teagmh·il"
+msgstr "teagmh√°il"
 
 #: src/main/extractor.c:114
 msgid "binary thumbnail data"
-msgstr "sonraÌ dÈn·rtha mionsamhla"
+msgstr "sonra√≠ d√©n√°rtha mionsamhla"
 
 #: src/main/extractor.c:115
 msgid "publication date"
-msgstr "d·ta foilsithe"
+msgstr "d√°ta foilsithe"
 
 #: src/main/extractor.c:116
 msgid "camera make"
-msgstr "dÈant˙s an cheamara"
+msgstr "d√©ant√∫s an cheamara"
 
 #: src/main/extractor.c:117
 msgid "camera model"
-msgstr "dÈanamh an cheamara"
+msgstr "d√©anamh an cheamara"
 
 #: src/main/extractor.c:118
 msgid "exposure"
@@ -452,7 +452,7 @@ msgstr "nochtadh"
 
 #: src/main/extractor.c:119
 msgid "aperture"
-msgstr "crÛ"
+msgstr "cr√≥"
 
 #: src/main/extractor.c:120
 msgid "exposure bias"
@@ -468,11 +468,11 @@ msgstr "laofacht splaince"
 
 #: src/main/extractor.c:123
 msgid "focal length"
-msgstr "fad fÛcais"
+msgstr "fad f√≥cais"
 
 #: src/main/extractor.c:124
 msgid "focal length (35mm equivalent)"
-msgstr "fad fÛcais (35mm coibhÈiseach)"
+msgstr "fad f√≥cais (35mm coibh√©iseach)"
 
 #: src/main/extractor.c:125
 msgid "iso speed"
@@ -480,31 +480,31 @@ msgstr "luas ISO"
 
 #: src/main/extractor.c:126
 msgid "exposure mode"
-msgstr "mÛd nochta"
+msgstr "m√≥d nochta"
 
 #: src/main/extractor.c:127
 msgid "metering mode"
-msgstr "mÛd mÈadr·la"
+msgstr "m√≥d m√©adr√°la"
 
 #: src/main/extractor.c:128
 msgid "macro mode"
-msgstr "mÛd macra"
+msgstr "m√≥d macra"
 
 #: src/main/extractor.c:129
 msgid "image quality"
-msgstr "c·ilÌocht Ìomh·"
+msgstr "c√°il√≠ocht √≠omh√°"
 
 #: src/main/extractor.c:130
 msgid "white balance"
-msgstr "cothromaÌocht bh·n"
+msgstr "cothroma√≠ocht bh√°n"
 
 #: src/main/extractor.c:131
 msgid "orientation"
-msgstr "treoshuÌomh"
+msgstr "treoshu√≠omh"
 
 #: src/main/extractor.c:132
 msgid "template"
-msgstr "teimplÈad"
+msgstr "teimpl√©ad"
 
 #: src/main/extractor.c:133
 msgid "split"
@@ -512,27 +512,27 @@ msgstr "roinn"
 
 #: src/main/extractor.c:134
 msgid "product version"
-msgstr "leagan an t·irge"
+msgstr "leagan an t√°irge"
 
 #: src/main/extractor.c:135
 msgid "last saved by"
-msgstr "s·bh·ilte is dÈanaÌ ag"
+msgstr "s√°bh√°ilte is d√©ana√≠ ag"
 
 #: src/main/extractor.c:136
 msgid "last printed"
-msgstr "priont·ilte"
+msgstr "priont√°ilte"
 
 #: src/main/extractor.c:137
 msgid "word count"
-msgstr "lÌon na bhfocal"
+msgstr "l√≠on na bhfocal"
 
 #: src/main/extractor.c:138
 msgid "character count"
-msgstr "lÌon na gcarachtar"
+msgstr "l√≠on na gcarachtar"
 
 #: src/main/extractor.c:139
 msgid "total editing time"
-msgstr "am ioml·n eagair"
+msgstr "am ioml√°n eagair"
 
 #: src/main/extractor.c:140
 msgid "thumbnails"
@@ -540,15 +540,15 @@ msgstr "mionsamhlacha"
 
 #: src/main/extractor.c:141
 msgid "security"
-msgstr "sl·nd·il"
+msgstr "sl√°nd√°il"
 
 #: src/main/extractor.c:142
 msgid "created by software"
-msgstr "cruthaithe ag bogearraÌ"
+msgstr "cruthaithe ag bogearra√≠"
 
 #: src/main/extractor.c:143
 msgid "modified by software"
-msgstr "mionathraithe ag bogearraÌ"
+msgstr "mionathraithe ag bogearra√≠"
 
 #: src/main/extractor.c:144
 msgid "revision history"
@@ -556,7 +556,7 @@ msgstr "stair leasaithe"
 
 #: src/main/extractor.c:145
 msgid "lower case conversion"
-msgstr "tiont˙ go c·s Ìochtair"
+msgstr "tiont√∫ go c√°s √≠ochtair"
 
 #: src/main/extractor.c:146
 msgid "company"
@@ -564,7 +564,7 @@ msgstr "comhlacht"
 
 #: src/main/extractor.c:147
 msgid "generator"
-msgstr "gineadÛir"
+msgstr "ginead√≥ir"
 
 #: src/main/extractor.c:148
 msgid "character set"
@@ -572,19 +572,19 @@ msgstr "tacar carachtar"
 
 #: src/main/extractor.c:149
 msgid "line count"
-msgstr "lÌon na lÌnte"
+msgstr "l√≠on na l√≠nte"
 
 #: src/main/extractor.c:150
 msgid "paragraph count"
-msgstr "lÌon na n-alt"
+msgstr "l√≠on na n-alt"
 
 #: src/main/extractor.c:151
 msgid "editing cycles"
-msgstr "timthriallta eagarthÛireachta"
+msgstr "timthriallta eagarth√≥ireachta"
 
 #: src/main/extractor.c:152
 msgid "scale"
-msgstr "sc·la"
+msgstr "sc√°la"
 
 #: src/main/extractor.c:153
 msgid "manager"
@@ -592,7 +592,7 @@ msgstr "bainisteoir"
 
 #: src/main/extractor.c:154
 msgid "director"
-msgstr "sti˙rthÛir"
+msgstr "sti√∫rth√≥ir"
 
 #: src/main/extractor.c:155
 msgid "duration"
@@ -604,7 +604,7 @@ msgstr "eolas"
 
 #: src/main/extractor.c:157
 msgid "full name"
-msgstr "ainm ioml·n"
+msgstr "ainm ioml√°n"
 
 #: src/main/extractor.c:158
 msgid "chapter"
@@ -620,23 +620,23 @@ msgstr "nasc"
 
 #: src/main/extractor.c:161
 msgid "music CD identifier"
-msgstr "aitheantas dl˙thdhiosca ceoil"
+msgstr "aitheantas dl√∫thdhiosca ceoil"
 
 #: src/main/extractor.c:162
 msgid "play counter"
-msgstr "·iritheoir seinnte"
+msgstr "√°iritheoir seinnte"
 
 #: src/main/extractor.c:163
 msgid "popularity meter"
-msgstr "mÈadar Èilimh"
+msgstr "m√©adar √©ilimh"
 
 #: src/main/extractor.c:164
 msgid "content type"
-msgstr "cine·l an ·bhair"
+msgstr "cine√°l an √°bhair"
 
 #: src/main/extractor.c:165
 msgid "encoded by"
-msgstr "ionchÛdaithe ag"
+msgstr "ionch√≥daithe ag"
 
 #: src/main/extractor.c:166
 msgid "time"
@@ -644,7 +644,7 @@ msgstr "am"
 
 #: src/main/extractor.c:167
 msgid "musician credits list"
-msgstr "admh·lacha na gceoltÛirÌ"
+msgstr "admh√°lacha na gceolt√≥ir√≠"
 
 #: src/main/extractor.c:168
 msgid "mood"
@@ -652,23 +652,23 @@ msgstr "fonn"
 
 #: src/main/extractor.c:169
 msgid "format version"
-msgstr "leagan na form·ide"
+msgstr "leagan na form√°ide"
 
 #: src/main/extractor.c:170
 msgid "television system"
-msgstr "cÛras teilifÌse"
+msgstr "c√≥ras teilif√≠se"
 
 #: src/main/extractor.c:171
 msgid "song count"
-msgstr "lÌon na n-amhr·n"
+msgstr "l√≠on na n-amhr√°n"
 
 #: src/main/extractor.c:172
 msgid "starting song"
-msgstr "amhr·n tosaigh"
+msgstr "amhr√°n tosaigh"
 
 #: src/main/extractor.c:173
 msgid "hardware dependency"
-msgstr "sple·chas crua-earraÌ"
+msgstr "sple√°chas crua-earra√≠"
 
 #: src/main/extractor.c:174
 msgid "ripper"
@@ -676,7 +676,7 @@ msgstr "sracaire"
 
 #: src/main/extractor.c:175
 msgid "filesize"
-msgstr "mÈid comhaid"
+msgstr "m√©id comhaid"
 
 #: src/main/extractor.c:176
 msgid "track number"
@@ -684,7 +684,7 @@ msgstr "uimhir an riain"
 
 #: src/main/extractor.c:177
 msgid "international standard recording code"
-msgstr "cÛd caighde·nach idirn·isi˙nta taifeadta"
+msgstr "c√≥d caighde√°nach idirn√°isi√∫nta taifeadta"
 
 #: src/main/extractor.c:178
 msgid "disc number"
@@ -693,7 +693,7 @@ msgstr "uimhir an diosca"
 #: src/main/extractor.c:598
 #, c-format
 msgid "Initialization of plugin mechanism failed: %s!\n"
-msgstr "Theip ar th˙s˙ meicnÌocht na mbreise·n: %s!\n"
+msgstr "Theip ar th√∫s√∫ meicn√≠ocht na mbreise√°n: %s!\n"
 
 #: src/main/extractor.c:752
 #, c-format
@@ -701,39 +701,39 @@ msgid ""
 "Resolving symbol `%s' in library `%s' failed, so I tried `%s', but that "
 "failed also.  Errors are: `%s' and `%s'.\n"
 msgstr ""
-"NÌorbh fhÈidir siombail `%s' a rÈiteach i leabharlann `%s'.  D· bhrÌ sin, "
-"bhain mÈ triail as `%s', ach theip ar an cheann sin freisin.  Na hearr·idÌ: `"
+"N√≠orbh fh√©idir siombail `%s' a r√©iteach i leabharlann `%s'.  D√° bhr√≠ sin, "
+"bhain m√© triail as `%s', ach theip ar an cheann sin freisin.  Na hearr√°id√≠: `"
 "%s' agus `%s'.\n"
 
 #: src/main/extractor.c:781
 #, c-format
 msgid "Loading `%s' plugin failed: %s\n"
-msgstr "Theip ar lucht˙ an bhreise·in `%s': %s\n"
+msgstr "Theip ar lucht√∫ an bhreise√°in `%s': %s\n"
 
 #: src/main/extractor.c:986
 #, c-format
 msgid "Unloading plugin `%s' failed!\n"
-msgstr "Theip ar dhÌlucht˙ an bhreise·in `%s'!\n"
+msgstr "Theip ar dh√≠lucht√∫ an bhreise√°in `%s'!\n"
 
 #: src/main/getopt.c:684
 #, c-format
 msgid "%s: option `%s' is ambiguous\n"
-msgstr "%s: T· an rogha `%s' dÈbhrÌoch\n"
+msgstr "%s: T√° an rogha `%s' d√©bhr√≠och\n"
 
 #: src/main/getopt.c:709
 #, c-format
 msgid "%s: option `--%s' doesn't allow an argument\n"
-msgstr "%s: nÌ cheadaÌtear argÛint i ndiaidh na rogha `--%s'\n"
+msgstr "%s: n√≠ cheada√≠tear arg√≥int i ndiaidh na rogha `--%s'\n"
 
 #: src/main/getopt.c:715
 #, c-format
 msgid "%s: option `%c%s' doesn't allow an argument\n"
-msgstr "%s: nÌ cheadaÌtear argÛint i ndiaidh na rogha `%c%s'\n"
+msgstr "%s: n√≠ cheada√≠tear arg√≥int i ndiaidh na rogha `%c%s'\n"
 
 #: src/main/getopt.c:732 src/main/getopt.c:903
 #, c-format
 msgid "%s: option `%s' requires an argument\n"
-msgstr "%s: t· argÛint de dhÌth i ndiaidh na rogha `%s'\n"
+msgstr "%s: t√° arg√≥int de dh√≠th i ndiaidh na rogha `%s'\n"
 
 #: src/main/getopt.c:761
 #, c-format
@@ -753,22 +753,22 @@ msgstr "%s: rogha neamhcheadaithe -- %c\n"
 #: src/main/getopt.c:793
 #, c-format
 msgid "%s: invalid option -- %c\n"
-msgstr "%s: rogha neamhbhailÌ -- %c\n"
+msgstr "%s: rogha neamhbhail√≠ -- %c\n"
 
 #: src/main/getopt.c:822 src/main/getopt.c:952
 #, c-format
 msgid "%s: option requires an argument -- %c\n"
-msgstr "%s: t· argÛint de dhÌth i ndiaidh na rogha -- %c\n"
+msgstr "%s: t√° arg√≥int de dh√≠th i ndiaidh na rogha -- %c\n"
 
 #: src/main/getopt.c:870
 #, c-format
 msgid "%s: option `-W %s' is ambiguous\n"
-msgstr "%s: T· an rogha `-W %s' dÈbhrÌoch\n"
+msgstr "%s: T√° an rogha `-W %s' d√©bhr√≠och\n"
 
 #: src/main/getopt.c:888
 #, c-format
 msgid "%s: option `-W %s' doesn't allow an argument\n"
-msgstr "%s: nÌ cheadaÌtear argÛint i ndiaidh na rogha `-W %s'\n"
+msgstr "%s: n√≠ cheada√≠tear arg√≥int i ndiaidh na rogha `-W %s'\n"
 
 #: src/plugins/filenameextractor.c:64
 msgid "GB"
@@ -789,17 +789,17 @@ msgstr "Beart"
 #: src/plugins/jpegextractor.c:188
 #, c-format
 msgid "%ux%u dots per inch"
-msgstr "%u◊%u poncanna san orlach"
+msgstr "%u√ó%u poncanna san orlach"
 
 #: src/plugins/jpegextractor.c:196
 #, c-format
 msgid "%ux%u dots per cm"
-msgstr "%u◊%u poncanna sa cm"
+msgstr "%u√ó%u poncanna sa cm"
 
 #: src/plugins/jpegextractor.c:204
 #, c-format
 msgid "%ux%u dots per inch?"
-msgstr "%u◊%u poncanna san orlach?"
+msgstr "%u√ó%u poncanna san orlach?"
 
 #: src/plugins/manextractor.c:150
 msgid "Commands"
@@ -807,7 +807,7 @@ msgstr "Orduithe"
 
 #: src/plugins/manextractor.c:154
 msgid "System calls"
-msgstr "Glaonna ar an chÛras"
+msgstr "Glaonna ar an ch√≥ras"
 
 #: src/plugins/manextractor.c:158
 msgid "Library calls"
@@ -819,19 +819,19 @@ msgstr "Comhaid speisialta"
 
 #: src/plugins/manextractor.c:166
 msgid "File formats and conventions"
-msgstr "Form·idÌ comhaid agus coinbhinsi˙in"
+msgstr "Form√°id√≠ comhaid agus coinbhinsi√∫in"
 
 #: src/plugins/manextractor.c:171
 msgid "Games"
-msgstr "CluichÌ"
+msgstr "Cluich√≠"
 
 #: src/plugins/manextractor.c:175
 msgid "Conventions and miscellaneous"
-msgstr "Coinbhinsi˙in agus rudaÌ eile"
+msgstr "Coinbhinsi√∫in agus ruda√≠ eile"
 
 #: src/plugins/manextractor.c:180
 msgid "System management commands"
-msgstr "Orduithe bainisteoireacht an chÛrais"
+msgstr "Orduithe bainisteoireacht an ch√≥rais"
 
 #: src/plugins/manextractor.c:185
 msgid "Kernel routines"
@@ -855,7 +855,7 @@ msgstr "Damhsa"
 
 #: src/plugins/mp3extractor.c:55 src/plugins/qtextractor.c:34
 msgid "Disco"
-msgstr "DioscÛ"
+msgstr "Diosc√≥"
 
 #: src/plugins/mp3extractor.c:56 src/plugins/qtextractor.c:35
 msgid "Funk"
@@ -915,7 +915,7 @@ msgstr "Teicneo"
 
 #: src/plugins/mp3extractor.c:70 src/plugins/qtextractor.c:49
 msgid "Industrial"
-msgstr "TionsclaÌoch"
+msgstr "Tionscla√≠och"
 
 #: src/plugins/mp3extractor.c:71 src/plugins/qtextractor.c:50
 msgid "Alternative"
@@ -927,7 +927,7 @@ msgstr "Ska"
 
 #: src/plugins/mp3extractor.c:73 src/plugins/qtextractor.c:52
 msgid "Death Metal"
-msgstr "B·smhiotal"
+msgstr "B√°smhiotal"
 
 #: src/plugins/mp3extractor.c:74 src/plugins/qtextractor.c:53
 msgid "Pranks"
@@ -959,11 +959,11 @@ msgstr "Snagcheol+Func"
 
 #: src/plugins/mp3extractor.c:81 src/plugins/qtextractor.c:60
 msgid "Fusion"
-msgstr "Comhle·"
+msgstr "Comhle√°"
 
 #: src/plugins/mp3extractor.c:82 src/plugins/qtextractor.c:61
 msgid "Trance"
-msgstr "T·mhnÈal"
+msgstr "T√°mhn√©al"
 
 #: src/plugins/mp3extractor.c:83 src/plugins/qtextractor.c:62
 msgid "Classical"
@@ -975,7 +975,7 @@ msgstr "Ionstraimeach"
 
 #: src/plugins/mp3extractor.c:85 src/plugins/qtextractor.c:64
 msgid "Acid"
-msgstr "AigÈad"
+msgstr "Aig√©ad"
 
 #: src/plugins/mp3extractor.c:86 src/plugins/qtextractor.c:65
 msgid "House"
@@ -987,7 +987,7 @@ msgstr "Cluiche"
 
 #: src/plugins/mp3extractor.c:88 src/plugins/qtextractor.c:67
 msgid "Sound Clip"
-msgstr "GearrthÛg Fhuaime"
+msgstr "Gearrth√≥g Fhuaime"
 
 #: src/plugins/mp3extractor.c:89 src/plugins/qtextractor.c:68
 msgid "Gospel"
@@ -1015,7 +1015,7 @@ msgstr "Punc"
 
 #: src/plugins/mp3extractor.c:95 src/plugins/qtextractor.c:74
 msgid "Space"
-msgstr "Sp·s"
+msgstr "Sp√°s"
 
 #: src/plugins/mp3extractor.c:96 src/plugins/qtextractor.c:75
 msgid "Meditative"
@@ -1043,7 +1043,7 @@ msgstr "An Tonn Dhubh"
 
 #: src/plugins/mp3extractor.c:102 src/plugins/qtextractor.c:81
 msgid "Techno-Industrial"
-msgstr "Teicneo-TionsclaÌoch"
+msgstr "Teicneo-Tionscla√≠och"
 
 #: src/plugins/mp3extractor.c:103 src/plugins/qtextractor.c:82
 msgid "Electronic"
@@ -1051,7 +1051,7 @@ msgstr "Leictreonach"
 
 #: src/plugins/mp3extractor.c:104 src/plugins/qtextractor.c:83
 msgid "Pop-Folk"
-msgstr "Popcheol TÌre"
+msgstr "Popcheol T√≠re"
 
 #: src/plugins/mp3extractor.c:105 src/plugins/qtextractor.c:84
 msgid "Eurodance"
@@ -1067,7 +1067,7 @@ msgstr "Rac Deisceartach"
 
 #: src/plugins/mp3extractor.c:108 src/plugins/qtextractor.c:87
 msgid "Comedy"
-msgstr "CoimÈide"
+msgstr "Coim√©ide"
 
 #: src/plugins/mp3extractor.c:109 src/plugins/qtextractor.c:88
 msgid "Cult"
@@ -1079,11 +1079,11 @@ msgstr "Rapcheol Gangstaeir"
 
 #: src/plugins/mp3extractor.c:111 src/plugins/qtextractor.c:90
 msgid "Top 40"
-msgstr "CnagshingilÌ"
+msgstr "Cnagshingil√≠"
 
 #: src/plugins/mp3extractor.c:112 src/plugins/qtextractor.c:91
 msgid "Christian Rap"
-msgstr "Rapcheol CrÌostaÌ"
+msgstr "Rapcheol Cr√≠osta√≠"
 
 #: src/plugins/mp3extractor.c:113 src/plugins/qtextractor.c:92
 msgid "Pop/Funk"
@@ -1095,7 +1095,7 @@ msgstr "Dufair"
 
 #: src/plugins/mp3extractor.c:115 src/plugins/qtextractor.c:94
 msgid "Native American"
-msgstr "Indiach-Mheirice·nach"
+msgstr "Indiach-Mheirice√°nach"
 
 #: src/plugins/mp3extractor.c:116 src/plugins/qtextractor.c:95
 msgid "Cabaret"
@@ -1107,23 +1107,23 @@ msgstr "Tonn Nua"
 
 #: src/plugins/mp3extractor.c:118 src/plugins/qtextractor.c:97
 msgid "Psychedelic"
-msgstr "SÌcideileach"
+msgstr "S√≠cideileach"
 
 #: src/plugins/mp3extractor.c:119 src/plugins/qtextractor.c:98
 msgid "Rave"
-msgstr "RÈibhcheol"
+msgstr "R√©ibhcheol"
 
 #: src/plugins/mp3extractor.c:120 src/plugins/qtextractor.c:99
 msgid "Showtunes"
-msgstr "SeÛthi˙ineanna"
+msgstr "Se√≥thi√∫ineanna"
 
 #: src/plugins/mp3extractor.c:121 src/plugins/qtextractor.c:100
 msgid "Trailer"
-msgstr "TrÈilÈar"
+msgstr "Tr√©il√©ar"
 
 #: src/plugins/mp3extractor.c:122 src/plugins/qtextractor.c:101
 msgid "Lo-Fi"
-msgstr "Õsle-DÌlse"
+msgstr "√çsle-D√≠lse"
 
 #: src/plugins/mp3extractor.c:123 src/plugins/qtextractor.c:102
 msgid "Tribal"
@@ -1131,11 +1131,11 @@ msgstr "Treibheach"
 
 #: src/plugins/mp3extractor.c:124 src/plugins/qtextractor.c:103
 msgid "Acid Punk"
-msgstr "Punc AigÈadach"
+msgstr "Punc Aig√©adach"
 
 #: src/plugins/mp3extractor.c:125 src/plugins/qtextractor.c:104
 msgid "Acid Jazz"
-msgstr "Snagcheol AigÈadach"
+msgstr "Snagcheol Aig√©adach"
 
 #: src/plugins/mp3extractor.c:126 src/plugins/qtextractor.c:105
 msgid "Polka"
@@ -1163,11 +1163,11 @@ msgstr "Ceol na nDaoine"
 
 #: src/plugins/mp3extractor.c:132 src/plugins/qtextractor.c:111
 msgid "Folk/Rock"
-msgstr "Ceol TÌre/Rac-Cheol"
+msgstr "Ceol T√≠re/Rac-Cheol"
 
 #: src/plugins/mp3extractor.c:133 src/plugins/qtextractor.c:112
 msgid "National Folk"
-msgstr "Ceol an N·isi˙in"
+msgstr "Ceol an N√°isi√∫in"
 
 #: src/plugins/mp3extractor.c:134 src/plugins/qtextractor.c:113
 msgid "Swing"
@@ -1175,7 +1175,7 @@ msgstr "Luasc-Cheol"
 
 #: src/plugins/mp3extractor.c:135 src/plugins/qtextractor.c:114
 msgid "Fast-Fusion"
-msgstr "Comhle· Tapa"
+msgstr "Comhle√° Tapa"
 
 #: src/plugins/mp3extractor.c:136 src/plugins/qtextractor.c:115
 msgid "Bebob"
@@ -1207,11 +1207,11 @@ msgstr "Rac Gotach"
 
 #: src/plugins/mp3extractor.c:143 src/plugins/qtextractor.c:122
 msgid "Progressive Rock"
-msgstr "Rac For·sach"
+msgstr "Rac For√°sach"
 
 #: src/plugins/mp3extractor.c:144 src/plugins/qtextractor.c:123
 msgid "Psychedelic Rock"
-msgstr "Rac SÌcideileach"
+msgstr "Rac S√≠cideileach"
 
 #: src/plugins/mp3extractor.c:145 src/plugins/qtextractor.c:124
 msgid "Symphonic Rock"
@@ -1223,19 +1223,19 @@ msgstr "Rac-Cheol Mall"
 
 #: src/plugins/mp3extractor.c:147 src/plugins/qtextractor.c:126
 msgid "Big Band"
-msgstr "Banna MÛr"
+msgstr "Banna M√≥r"
 
 #: src/plugins/mp3extractor.c:148 src/plugins/qtextractor.c:127
 msgid "Chorus"
-msgstr "CÛr"
+msgstr "C√≥r"
 
 #: src/plugins/mp3extractor.c:149 src/plugins/qtextractor.c:128
 msgid "Easy Listening"
-msgstr "RÈcheol"
+msgstr "R√©cheol"
 
 #: src/plugins/mp3extractor.c:150 src/plugins/qtextractor.c:129
 msgid "Acoustic"
-msgstr "Fuaimi˙il"
+msgstr "Fuaimi√∫il"
 
 #: src/plugins/mp3extractor.c:151 src/plugins/qtextractor.c:130
 msgid "Humour"
@@ -1251,7 +1251,7 @@ msgstr "Chanson"
 
 #: src/plugins/mp3extractor.c:154 src/plugins/qtextractor.c:133
 msgid "Opera"
-msgstr "Ceoldr·ma"
+msgstr "Ceoldr√°ma"
 
 #: src/plugins/mp3extractor.c:155 src/plugins/qtextractor.c:134
 msgid "Chamber Music"
@@ -1259,7 +1259,7 @@ msgstr "Ceol Aireagail"
 
 #: src/plugins/mp3extractor.c:156 src/plugins/qtextractor.c:135
 msgid "Sonata"
-msgstr "Son·id"
+msgstr "Son√°id"
 
 #: src/plugins/mp3extractor.c:157 src/plugins/qtextractor.c:136
 msgid "Symphony"
@@ -1267,7 +1267,7 @@ msgstr "Siansa"
 
 #: src/plugins/mp3extractor.c:158 src/plugins/qtextractor.c:137
 msgid "Booty Bass"
-msgstr "Dord B˙itÌ"
+msgstr "Dord B√∫it√≠"
 
 #: src/plugins/mp3extractor.c:159 src/plugins/qtextractor.c:138
 msgid "Primus"
@@ -1275,7 +1275,7 @@ msgstr "Primus"
 
 #: src/plugins/mp3extractor.c:160 src/plugins/qtextractor.c:139
 msgid "Porn Groove"
-msgstr "PornGr˙ibh"
+msgstr "PornGr√∫ibh"
 
 #: src/plugins/mp3extractor.c:161 src/plugins/qtextractor.c:140
 msgid "Satire"
@@ -1291,7 +1291,7 @@ msgstr "Club"
 
 #: src/plugins/mp3extractor.c:164 src/plugins/qtextractor.c:143
 msgid "Tango"
-msgstr "TangÛ"
+msgstr "Tang√≥"
 
 #: src/plugins/mp3extractor.c:165 src/plugins/qtextractor.c:144
 msgid "Samba"
@@ -1299,15 +1299,15 @@ msgstr "Samba"
 
 #: src/plugins/mp3extractor.c:166 src/plugins/qtextractor.c:145
 msgid "Folklore"
-msgstr "BÈaloideas"
+msgstr "B√©aloideas"
 
 #: src/plugins/mp3extractor.c:167 src/plugins/qtextractor.c:146
 msgid "Ballad"
-msgstr "BailÈad"
+msgstr "Bail√©ad"
 
 #: src/plugins/mp3extractor.c:168 src/plugins/qtextractor.c:147
 msgid "Power Ballad"
-msgstr "BailÈad Cumhachta"
+msgstr "Bail√©ad Cumhachta"
 
 #: src/plugins/mp3extractor.c:169 src/plugins/qtextractor.c:148
 msgid "Rhythmic Soul"
@@ -1315,11 +1315,11 @@ msgstr "Anamcheol Rithimeach"
 
 #: src/plugins/mp3extractor.c:170 src/plugins/qtextractor.c:149
 msgid "Freestyle"
-msgstr "SaorstÌl"
+msgstr "Saorst√≠l"
 
 #: src/plugins/mp3extractor.c:171 src/plugins/qtextractor.c:150
 msgid "Duet"
-msgstr "DÌsÈad"
+msgstr "D√≠s√©ad"
 
 #: src/plugins/mp3extractor.c:172 src/plugins/qtextractor.c:151
 msgid "Punk Rock"
@@ -1327,7 +1327,7 @@ msgstr "Punc-Rac"
 
 #: src/plugins/mp3extractor.c:173 src/plugins/qtextractor.c:152
 msgid "Drum Solo"
-msgstr "AonrÈad Druma"
+msgstr "Aonr√©ad Druma"
 
 #: src/plugins/mp3extractor.c:174 src/plugins/qtextractor.c:153
 msgid "A Cappella"
@@ -1355,15 +1355,15 @@ msgstr "Clubtheach"
 
 #: src/plugins/mp3extractor.c:180 src/plugins/qtextractor.c:159
 msgid "Hardcore"
-msgstr "FÌorchrua"
+msgstr "F√≠orchrua"
 
 #: src/plugins/mp3extractor.c:181 src/plugins/qtextractor.c:160
 msgid "Terror"
-msgstr "Uaf·s"
+msgstr "Uaf√°s"
 
 #: src/plugins/mp3extractor.c:182 src/plugins/qtextractor.c:161
 msgid "Indie"
-msgstr "Neamhsple·ch"
+msgstr "Neamhsple√°ch"
 
 #: src/plugins/mp3extractor.c:183 src/plugins/qtextractor.c:162
 msgid "BritPop"
@@ -1383,7 +1383,7 @@ msgstr "Buille"
 
 #: src/plugins/mp3extractor.c:187 src/plugins/qtextractor.c:166
 msgid "Christian Gangsta Rap"
-msgstr "Rapcheol CrÌostaÌ Gangstaeir"
+msgstr "Rapcheol Cr√≠osta√≠ Gangstaeir"
 
 #: src/plugins/mp3extractor.c:188 src/plugins/qtextractor.c:167
 msgid "Heavy Metal"
@@ -1399,11 +1399,11 @@ msgstr "Trasach"
 
 #: src/plugins/mp3extractor.c:191 src/plugins/qtextractor.c:170
 msgid "Contemporary Christian"
-msgstr "CrÌostaÌ Comhaimseartha"
+msgstr "Cr√≠osta√≠ Comhaimseartha"
 
 #: src/plugins/mp3extractor.c:192 src/plugins/qtextractor.c:171
 msgid "Christian Rock"
-msgstr "Rac-Cheol CrÌostaÌ"
+msgstr "Rac-Cheol Cr√≠osta√≠"
 
 #: src/plugins/mp3extractor.c:193 src/plugins/qtextractor.c:172
 msgid "Merengue"
@@ -1415,9 +1415,9 @@ msgstr "Salsa"
 
 #: src/plugins/mp3extractor.c:195 src/plugins/qtextractor.c:174
 msgid "Thrash Metal"
-msgstr "Miotal Traise·la"
+msgstr "Miotal Traise√°la"
 
-# no "È"
+# no "√©"
 #: src/plugins/mp3extractor.c:196 src/plugins/qtextractor.c:175
 msgid "Anime"
 msgstr "Anime"
@@ -1428,11 +1428,11 @@ msgstr "JPap"
 
 #: src/plugins/mp3extractor.c:198 src/plugins/qtextractor.c:177
 msgid "Synthpop"
-msgstr "Popcheol sintÈiseach"
+msgstr "Popcheol sint√©iseach"
 
 #: src/plugins/mp3extractor.c:444 src/plugins/wavextractor.c:119
 msgid "stereo"
-msgstr "steiriÛ"
+msgstr "steiri√≥"
 
 #: src/plugins/mp3extractor.c:444 src/plugins/wavextractor.c:119
 msgid "mono"
@@ -1448,35 +1448,35 @@ msgstr "Gan Phrofadh"
 
 #: src/plugins/ole2/ole2extractor.c:260
 msgid "Traditional Chinese"
-msgstr "SÌnis Traidisi˙nta"
+msgstr "S√≠nis Traidisi√∫nta"
 
 #: src/plugins/ole2/ole2extractor.c:262
 msgid "Simplified Chinese"
-msgstr "SÌnis Simplithe"
+msgstr "S√≠nis Simplithe"
 
 #: src/plugins/ole2/ole2extractor.c:270
 msgid "Swiss German"
-msgstr "Gearm·inis EilvÈiseach"
+msgstr "Gearm√°inis Eilv√©iseach"
 
 #: src/plugins/ole2/ole2extractor.c:274
 msgid "U.S. English"
-msgstr "BÈarla S.A.M."
+msgstr "B√©arla S.A.M."
 
 #: src/plugins/ole2/ole2extractor.c:276
 msgid "U.K. English"
-msgstr "BÈarla Sasanach"
+msgstr "B√©arla Sasanach"
 
 #: src/plugins/ole2/ole2extractor.c:278
 msgid "Australian English"
-msgstr "BÈarla Astr·lach"
+msgstr "B√©arla Astr√°lach"
 
 #: src/plugins/ole2/ole2extractor.c:280
 msgid "Castilian Spanish"
-msgstr "Sp·innis ChaistÌleach"
+msgstr "Sp√°innis Chaist√≠leach"
 
 #: src/plugins/ole2/ole2extractor.c:282
 msgid "Mexican Spanish"
-msgstr "Sp·innis Mheicsiceach"
+msgstr "Sp√°innis Mheicsiceach"
 
 #: src/plugins/ole2/ole2extractor.c:288
 msgid "Belgian French"
@@ -1488,11 +1488,11 @@ msgstr "Fraincis Cheanadach"
 
 #: src/plugins/ole2/ole2extractor.c:292
 msgid "Swiss French"
-msgstr "Fraincis EilvÈiseach"
+msgstr "Fraincis Eilv√©iseach"
 
 #: src/plugins/ole2/ole2extractor.c:302
 msgid "Swiss Italian"
-msgstr "Iod·ilis EilvÈiseach"
+msgstr "Iod√°ilis Eilv√©iseach"
 
 #: src/plugins/ole2/ole2extractor.c:310
 msgid "Belgian Dutch"
@@ -1500,19 +1500,19 @@ msgstr "Ollainnis Bheilgeach"
 
 #: src/plugins/ole2/ole2extractor.c:312
 msgid "Norwegian Bokmal"
-msgstr "Ioruais BokmÂl"
+msgstr "Ioruais Bokm√•l"
 
 #: src/plugins/ole2/ole2extractor.c:322
 msgid "Rhaeto-Romanic"
-msgstr "Raeta-RÛm·insis"
+msgstr "Raeta-R√≥m√°insis"
 
 #: src/plugins/ole2/ole2extractor.c:328
 msgid "Croato-Serbian (Latin)"
-msgstr "Seirbea-ChrÛitis (Laidineach)"
+msgstr "Seirbea-Chr√≥itis (Laidineach)"
 
 #: src/plugins/ole2/ole2extractor.c:330
 msgid "Serbo-Croatian (Cyrillic)"
-msgstr "Seirbea-ChrÛitis (Coireallach)"
+msgstr "Seirbea-Chr√≥itis (Coireallach)"
 
 #: src/plugins/ole2/ole2extractor.c:358
 msgid "Farsi"
@@ -1521,7 +1521,7 @@ msgstr "Fairsis"
 #: src/plugins/ole2/ole2extractor.c:420
 #, c-format
 msgid "Revision #%u: Author '%s' worked on '%s'"
-msgstr "Leas˙ #%u: D'oibrigh ˙dar '%s' ar '%s'"
+msgstr "Leas√∫ #%u: D'oibrigh √∫dar '%s' ar '%s'"
 
 #: src/plugins/printable/dictionary-builder.c:97
 #, c-format
@@ -1529,14 +1529,14 @@ msgid ""
 "Please provide the name of the language you are building\n"
 "a dictionary for.  For example:\n"
 msgstr ""
-"Tabhair uait ainm na teanga ina bhfuil t˙ ag tÛg·il foclÛra.\n"
+"Tabhair uait ainm na teanga ina bhfuil t√∫ ag t√≥g√°il focl√≥ra.\n"
 "Mar shampla:\n"
 
 #: src/plugins/printable/dictionary-builder.c:111
 #: src/plugins/printable/dictionary-builder.c:165
 #, c-format
 msgid "Error opening file `%s': %s\n"
-msgstr "Earr·id agus comhad `%s' · oscailt: %s\n"
+msgstr "Earr√°id agus comhad `%s' √° oscailt: %s\n"
 
 #: src/plugins/printable/dictionary-builder.c:118
 #, c-format
@@ -1544,13 +1544,13 @@ msgid ""
 "Error allocating: %s\n"
 "."
 msgstr ""
-"Earr·id le linn d·ilte: %s\n"
+"Earr√°id le linn d√°ilte: %s\n"
 "."
 
 #: src/plugins/printable/dictionary-builder.c:132
 #, c-format
 msgid "Increase ALLOCSIZE (in %s).\n"
-msgstr "MÈadaigh ALLOCSIZE (i %s).\n"
+msgstr "M√©adaigh ALLOCSIZE (i %s).\n"
 
 #: src/plugins/riffextractor.c:151
 #, c-format
@@ -1565,19 +1565,19 @@ msgstr "RPM Foinse %d.%d"
 #: src/plugins/rpm/rpmextractor.c:3225
 #, c-format
 msgid "Binary RPM %d.%d"
-msgstr "RPM DÈn·rtha %d.%d"
+msgstr "RPM D√©n√°rtha %d.%d"
 
 #~ msgid "os"
-#~ msgstr "cÛras"
+#~ msgstr "c√≥ras"
 
 #~ msgid "Arabic"
 #~ msgstr "Araibis"
 
 #~ msgid "Bulgarian"
-#~ msgstr "Bulg·iris"
+#~ msgstr "Bulg√°iris"
 
 #~ msgid "Catalan"
-#~ msgstr "CatalÛinis"
+#~ msgstr "Catal√≥inis"
 
 #~ msgid "Czech"
 #~ msgstr "Seicis"
@@ -1586,10 +1586,10 @@ msgstr "RPM DÈn·rtha %d.%d"
 #~ msgstr "Danmhairgis"
 
 #~ msgid "German"
-#~ msgstr "Gearm·inis"
+#~ msgstr "Gearm√°inis"
 
 #~ msgid "Greek"
-#~ msgstr "GrÈigis"
+#~ msgstr "Gr√©igis"
 
 #~ msgid "Finnish"
 #~ msgstr "Fionlainnis"
@@ -1601,19 +1601,19 @@ msgstr "RPM DÈn·rtha %d.%d"
 #~ msgstr "Eabhrais"
 
 #~ msgid "Hungarian"
-#~ msgstr "Ung·iris"
+#~ msgstr "Ung√°iris"
 
 #~ msgid "Icelandic"
-#~ msgstr "Õoslainnis"
+#~ msgstr "√çoslainnis"
 
 #~ msgid "Italian"
-#~ msgstr "Iod·ilis"
+#~ msgstr "Iod√°ilis"
 
 #~ msgid "Japanese"
-#~ msgstr "Seap·inis"
+#~ msgstr "Seap√°inis"
 
 #~ msgid "Korean"
-#~ msgstr "CÛirÈis"
+#~ msgstr "C√≥ir√©is"
 
 #~ msgid "Dutch"
 #~ msgstr "Ollainnis"
@@ -1625,28 +1625,28 @@ msgstr "RPM DÈn·rtha %d.%d"
 #~ msgstr "Polainnis"
 
 #~ msgid "Brazilian Portuguese"
-#~ msgstr "PortaingÈilis na BrasaÌle"
+#~ msgstr "Portaing√©ilis na Brasa√≠le"
 
 #~ msgid "Portuguese"
-#~ msgstr "PortaingÈilis"
+#~ msgstr "Portaing√©ilis"
 
 #~ msgid "Romanian"
-#~ msgstr "RÛm·inis"
+#~ msgstr "R√≥m√°inis"
 
 #~ msgid "Russian"
-#~ msgstr "R˙isis"
+#~ msgstr "R√∫isis"
 
 #~ msgid "Slovak"
-#~ msgstr "SlÛvaicis"
+#~ msgstr "Sl√≥vaicis"
 
 #~ msgid "Albanian"
-#~ msgstr "Alb·inis"
+#~ msgstr "Alb√°inis"
 
 #~ msgid "Swedish"
 #~ msgstr "Sualainnis"
 
 #~ msgid "Thai"
-#~ msgstr "TÈalainnis"
+#~ msgstr "T√©alainnis"
 
 #~ msgid "Turkish"
 #~ msgstr "Tuircis"
@@ -1655,43 +1655,43 @@ msgstr "RPM DÈn·rtha %d.%d"
 #~ msgstr "Urdais"
 
 #~ msgid "Bahasa"
-#~ msgstr "IndinÈisis"
+#~ msgstr "Indin√©isis"
 
 #~ msgid "Ukrainian"
-#~ msgstr "⁄cr·inis"
+#~ msgstr "√öcr√°inis"
 
 #~ msgid "Byelorussian"
-#~ msgstr "Bealar˙isis"
+#~ msgstr "Bealar√∫isis"
 
 #~ msgid "Slovenian"
-#~ msgstr "SlÛivÈinis"
+#~ msgstr "Sl√≥iv√©inis"
 
 #~ msgid "Estonian"
-#~ msgstr "EastÛinis"
+#~ msgstr "East√≥inis"
 
 #~ msgid "Latvian"
 #~ msgstr "Laitvis"
 
 #~ msgid "Lithuanian"
-#~ msgstr "Liotu·inis"
+#~ msgstr "Liotu√°inis"
 
 #~ msgid "Basque"
 #~ msgstr "Bascais"
 
 #~ msgid "Macedonian"
-#~ msgstr "MacadÛinis"
+#~ msgstr "Macad√≥inis"
 
 #~ msgid "Afrikaans"
-#~ msgstr "Afrac·inis"
+#~ msgstr "Afrac√°inis"
 
 #~ msgid "Malaysian"
 #~ msgstr "Malaeis"
 
 #~ msgid "%s (Build %s)"
-#~ msgstr "%s (TÛg·il %s)"
+#~ msgstr "%s (T√≥g√°il %s)"
 
 #~ msgid "Please provide a list of klp files as arguments.\n"
-#~ msgstr "Tabhair uait liosta de chomhaid klp mar argÛintÌ, le do thoil.\n"
+#~ msgstr "Tabhair uait liosta de chomhaid klp mar arg√≥int√≠, le do thoil.\n"
 
 #~ msgid "Fatal: could not allocate (%s at %s:%d).\n"
-#~ msgstr "Earr·id mharfach: nÌorbh fhÈidir d·ileadh (%s ag %s:%d).\n"
+#~ msgstr "Earr√°id mharfach: n√≠orbh fh√©idir d√°ileadh (%s ag %s:%d).\n"

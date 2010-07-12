@@ -12,12 +12,12 @@ msgstr ""
 "Last-Translator: Kevin Patrick Scannell <scannell@SLU.EDU>\n"
 "Language-Team: Irish <gaeilge-gnulinux@lists.sourceforge.net>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=ISO-8859-1\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 #: lib/c-stack.c:244
 msgid "program error"
-msgstr "earr·id chl·ir"
+msgstr "earr√°id chl√°ir"
 
 #: lib/c-stack.c:245
 msgid "stack overflow"
@@ -25,15 +25,15 @@ msgstr "cruach thar maoil"
 
 #: lib/error.c:127
 msgid "Unknown system error"
-msgstr "Earr·id chÛrais anaithnid"
+msgstr "Earr√°id ch√≥rais anaithnid"
 
 #: lib/file-type.c:42
 msgid "regular empty file"
-msgstr "gn·thchomhad folamh"
+msgstr "gn√°thchomhad folamh"
 
 #: lib/file-type.c:42
 msgid "regular file"
-msgstr "gn·thchomhad"
+msgstr "gn√°thchomhad"
 
 #: lib/file-type.c:45
 msgid "directory"
@@ -41,11 +41,11 @@ msgstr "comhadlann"
 
 #: lib/file-type.c:48
 msgid "block special file"
-msgstr "comhad speisialta den chine·l `bloc'"
+msgstr "comhad speisialta den chine√°l `bloc'"
 
 #: lib/file-type.c:51
 msgid "character special file"
-msgstr "comhad speisialta den chine·l `carachtar'"
+msgstr "comhad speisialta den chine√°l `carachtar'"
 
 # `TITA' ?! -KPS
 #: lib/file-type.c:54
@@ -58,15 +58,15 @@ msgstr "nasc siombalach"
 
 #: lib/file-type.c:60
 msgid "socket"
-msgstr "soicÈad"
+msgstr "soic√©ad"
 
 #: lib/file-type.c:63
 msgid "message queue"
-msgstr "ci˙ teachtaireachta"
+msgstr "ci√∫ teachtaireachta"
 
 #: lib/file-type.c:66
 msgid "semaphore"
-msgstr "sÈamafÛr"
+msgstr "s√©amaf√≥r"
 
 # FARF --KPS
 #: lib/file-type.c:69
@@ -75,7 +75,7 @@ msgstr "comhad comhchuimhne"
 
 #: lib/file-type.c:72
 msgid "typed memory object"
-msgstr "comhad cuimhne le cine·l"
+msgstr "comhad cuimhne le cine√°l"
 
 #: lib/file-type.c:74
 msgid "weird file"
@@ -84,22 +84,22 @@ msgstr "comhad aisteach"
 #: lib/getopt.c:570 lib/getopt.c:589
 #, c-format
 msgid "%s: option `%s' is ambiguous\n"
-msgstr "%s: T· an rogha `%s' dÈbhrÌoch\n"
+msgstr "%s: T√° an rogha `%s' d√©bhr√≠och\n"
 
 #: lib/getopt.c:622 lib/getopt.c:626
 #, c-format
 msgid "%s: option `--%s' doesn't allow an argument\n"
-msgstr "%s: nÌ cheadaÌtear argÛint i ndiaidh na rogha `--%s'\n"
+msgstr "%s: n√≠ cheada√≠tear arg√≥int i ndiaidh na rogha `--%s'\n"
 
 #: lib/getopt.c:635 lib/getopt.c:640
 #, c-format
 msgid "%s: option `%c%s' doesn't allow an argument\n"
-msgstr "%s: nÌ cheadaÌtear argÛint i ndiaidh na rogha `%c%s'\n"
+msgstr "%s: n√≠ cheada√≠tear arg√≥int i ndiaidh na rogha `%c%s'\n"
 
 #: lib/getopt.c:686 lib/getopt.c:708 lib/getopt.c:1039 lib/getopt.c:1061
 #, c-format
 msgid "%s: option `%s' requires an argument\n"
-msgstr "%s: t· argÛint de dhÌth i ndiaidh na rogha `%s'\n"
+msgstr "%s: t√° arg√≥int de dh√≠th i ndiaidh na rogha `%s'\n"
 
 #: lib/getopt.c:746 lib/getopt.c:749
 #, c-format
@@ -119,62 +119,62 @@ msgstr "%s: rogha neamhcheadaithe -- %c\n"
 #: lib/getopt.c:824 lib/getopt.c:827
 #, c-format
 msgid "%s: invalid option -- %c\n"
-msgstr "%s: rogha neamhbhailÌ -- %c\n"
+msgstr "%s: rogha neamhbhail√≠ -- %c\n"
 
 #: lib/getopt.c:882 lib/getopt.c:901 lib/getopt.c:1114 lib/getopt.c:1135
 #, c-format
 msgid "%s: option requires an argument -- %c\n"
-msgstr "%s: t· argÛint de dhÌth i ndiaidh na rogha -- %c\n"
+msgstr "%s: t√° arg√≥int de dh√≠th i ndiaidh na rogha -- %c\n"
 
 #: lib/getopt.c:954 lib/getopt.c:973
 #, c-format
 msgid "%s: option `-W %s' is ambiguous\n"
-msgstr "%s: T· an rogha `-W %s' dÈbhrÌoch\n"
+msgstr "%s: T√° an rogha `-W %s' d√©bhr√≠och\n"
 
 #: lib/getopt.c:997 lib/getopt.c:1018
 #, c-format
 msgid "%s: option `-W %s' doesn't allow an argument\n"
-msgstr "%s: nÌ cheadaÌtear argÛint i ndiaidh na rogha `-W %s'\n"
+msgstr "%s: n√≠ cheada√≠tear arg√≥int i ndiaidh na rogha `-W %s'\n"
 
 #: lib/regex.c:1302
 msgid "Success"
-msgstr "D'Èirigh leis"
+msgstr "D'√©irigh leis"
 
 # #-#-#-#-#  findutils-4.2.6.ga.po (findutils 4.2.6)  #-#-#-#-#
 # ugh.  Not clear what kind of things we're matching -- KPS
 #: lib/regex.c:1305
 msgid "No match"
-msgstr "NÌl a leithÈid ann"
+msgstr "N√≠l a leith√©id ann"
 
 #: lib/regex.c:1308
 msgid "Invalid regular expression"
-msgstr "Slonn ionadaÌochta neamhbhailÌ"
+msgstr "Slonn ionada√≠ochta neamhbhail√≠"
 
 #: lib/regex.c:1311
 msgid "Invalid collation character"
-msgstr "Carachtar neamhbhailÌ comhordaithe"
+msgstr "Carachtar neamhbhail√≠ comhordaithe"
 
 #: lib/regex.c:1314
 msgid "Invalid character class name"
-msgstr "Ainm neamhbhailÌ ar aicme charachtar"
+msgstr "Ainm neamhbhail√≠ ar aicme charachtar"
 
 #: lib/regex.c:1317
 msgid "Trailing backslash"
-msgstr "C˙lslais ag deireadh"
+msgstr "C√∫lslais ag deireadh"
 
 # #-#-#-#-#  sed-4.1.1.ga.po (sed 4.1.1)  #-#-#-#-#
 # coinage - KPS
 #: lib/regex.c:1320
 msgid "Invalid back reference"
-msgstr "C˙ltagairt neamhbhailÌ"
+msgstr "C√∫ltagairt neamhbhail√≠"
 
 #: lib/regex.c:1323
 msgid "Unmatched [ or [^"
-msgstr "[ nÛ [^ corr"
+msgstr "[ n√≥ [^ corr"
 
 #: lib/regex.c:1326
 msgid "Unmatched ( or \\("
-msgstr "( nÛ \\( corr"
+msgstr "( n√≥ \\( corr"
 
 #: lib/regex.c:1329
 msgid "Unmatched \\{"
@@ -182,39 +182,39 @@ msgstr "\\{ corr"
 
 #: lib/regex.c:1332
 msgid "Invalid content of \\{\\}"
-msgstr "¡bhar neamhbhailÌ idir \\{\\}"
+msgstr "√Åbhar neamhbhail√≠ idir \\{\\}"
 
 #: lib/regex.c:1335
 msgid "Invalid range end"
-msgstr "Deireadh raoin neamhbhailÌ"
+msgstr "Deireadh raoin neamhbhail√≠"
 
 #: lib/regex.c:1338
 msgid "Memory exhausted"
-msgstr "Cuimhne Ìdithe"
+msgstr "Cuimhne √≠dithe"
 
 #: lib/regex.c:1341
 msgid "Invalid preceding regular expression"
-msgstr "Is neamhbhailÌ an slonn ionadaÌochta roimhe seo"
+msgstr "Is neamhbhail√≠ an slonn ionada√≠ochta roimhe seo"
 
 #: lib/regex.c:1344
 msgid "Premature end of regular expression"
-msgstr "Deireadh le slonn ionadaÌochta gan choinne"
+msgstr "Deireadh le slonn ionada√≠ochta gan choinne"
 
 #: lib/regex.c:1347
 msgid "Regular expression too big"
-msgstr "Slonn ionadaÌochta rÛmhÛr"
+msgstr "Slonn ionada√≠ochta r√≥mh√≥r"
 
 #: lib/regex.c:1350
 msgid "Unmatched ) or \\)"
-msgstr ") nÛ \\) corr"
+msgstr ") n√≥ \\) corr"
 
 #: lib/regex.c:7915
 msgid "No previous regular expression"
-msgstr "NÌl aon slonn ionadaÌochta roimhe seo"
+msgstr "N√≠l aon slonn ionada√≠ochta roimhe seo"
 
 #: lib/xmalloc.c:53
 msgid "memory exhausted"
-msgstr "cuimhne Ìdithe"
+msgstr "cuimhne √≠dithe"
 
 #. TRANSLATORS: %s denotes an author name.
 #: lib/version-etc.c:78
@@ -329,52 +329,52 @@ msgid ""
 "This is free software; see the source for copying conditions.  There is NO\n"
 "warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.\n"
 msgstr ""
-"Is saorbhogearra an rÌomhchl·r seo; fÈach ar an bhunchÛd le haghaidh\n"
-"coinnÌollacha cÛipe·la.  NÌl bar·nta ar bith ann; go fi˙ nÌl bar·nta ann\n"
-"d'INDÕOLTACHT nÛ FEILI⁄NACHT D'FHEIDHM AR LEITH.\n"
+"Is saorbhogearra an r√≠omhchl√°r seo; f√©ach ar an bhunch√≥d le haghaidh\n"
+"coinn√≠ollacha c√≥ipe√°la.  N√≠l bar√°nta ar bith ann; go fi√∫ n√≠l bar√°nta ann\n"
+"d'IND√çOLTACHT n√≥ FEILI√öNACHT D'FHEIDHM AR LEITH.\n"
 
 #: src/analyze.c:782 src/diff.c:1273
 #, c-format
 msgid "Files %s and %s differ\n"
-msgstr "T· difrÌocht idir na comhaid %s agus %s\n"
+msgstr "T√° difr√≠ocht idir na comhaid %s agus %s\n"
 
 #: src/analyze.c:1028 src/diff3.c:1417 src/util.c:533
 msgid "No newline at end of file"
-msgstr "Gan lÌne nua ag an chomhadchrÌoch"
+msgstr "Gan l√≠ne nua ag an chomhadchr√≠och"
 
 #: src/cmp.c:115 src/diff.c:840 src/diff3.c:412 src/sdiff.c:168
 #, c-format
 msgid "Try `%s --help' for more information."
-msgstr "Bain triail as `%s --help' chun tuilleadh eolais a fh·il."
+msgstr "Bain triail as `%s --help' chun tuilleadh eolais a fh√°il."
 
 #: src/cmp.c:135
 #, c-format
 msgid "invalid --ignore-initial value `%s'"
-msgstr "luach neamhbhailÌ --ignore-initial `%s'"
+msgstr "luach neamhbhail√≠ --ignore-initial `%s'"
 
 #: src/cmp.c:145
 msgid "options -l and -s are incompatible"
-msgstr "NÌl na roghanna -l agus -s comhoiri˙nach"
+msgstr "N√≠l na roghanna -l agus -s comhoiri√∫nach"
 
 #: src/cmp.c:153 src/diff.c:849 src/diff3.c:420 src/sdiff.c:177
 #: src/sdiff.c:319 src/sdiff.c:326 src/sdiff.c:914 src/util.c:193
 #: src/util.c:286 src/util.c:293
 msgid "write failed"
-msgstr "theip ar scrÌobh"
+msgstr "theip ar scr√≠obh"
 
 #: src/cmp.c:155 src/diff.c:851 src/diff.c:1344 src/diff3.c:422
 #: src/sdiff.c:179
 msgid "standard output"
-msgstr "aschur caighde·nach"
+msgstr "aschur caighde√°nach"
 
 #: src/cmp.c:159
 msgid "-b  --print-bytes  Print differing bytes."
-msgstr "-b  --print-bytes  Taispe·in na bearta at· difri˙la."
+msgstr "-b  --print-bytes  Taispe√°in na bearta at√° difri√∫la."
 
 #: src/cmp.c:160
 msgid "-i SKIP  --ignore-initial=SKIP  Skip the first SKIP bytes of input."
 msgstr ""
-"-i UIMHIR  --ignore-initial=UIMHIR Gabh thar an chÈad UIMHIR beart "
+"-i UIMHIR  --ignore-initial=UIMHIR Gabh thar an ch√©ad UIMHIR beart "
 "ionchurtha."
 
 #: src/cmp.c:161
@@ -384,42 +384,42 @@ msgstr "-i SCIP1:SCIP2  --ignore-initial=SCIP1:SCIP2"
 #: src/cmp.c:162
 msgid ""
 "  Skip the first SKIP1 bytes of FILE1 and the first SKIP2 bytes of FILE2."
-msgstr "  Gabh thar an chÈad SCIP1 beart as COMHAD1 agus SCIP2 as COMHAD2."
+msgstr "  Gabh thar an ch√©ad SCIP1 beart as COMHAD1 agus SCIP2 as COMHAD2."
 
 #: src/cmp.c:163
 msgid "-l  --verbose  Output byte numbers and values of all differing bytes."
 msgstr ""
-"-l  --verbose  Taispe·in uimhreacha agus luachanna do bhearta uile difri˙la."
+"-l  --verbose  Taispe√°in uimhreacha agus luachanna do bhearta uile difri√∫la."
 
 #: src/cmp.c:164
 msgid "-n LIMIT  --bytes=LIMIT  Compare at most LIMIT bytes."
-msgstr "-n TEOR  --bytes=TEOR  Cuir TEOR beart i gcompar·id, ar a mhÈad."
+msgstr "-n TEOR  --bytes=TEOR  Cuir TEOR beart i gcompar√°id, ar a mh√©ad."
 
 #: src/cmp.c:165
 msgid "-s  --quiet  --silent  Output nothing; yield exit status only."
-msgstr "-s  --quiet  --silent  N· haschuir rud ar bith; gin st·das scortha."
+msgstr "-s  --quiet  --silent  N√° haschuir rud ar bith; gin st√°das scortha."
 
 #: src/cmp.c:166 src/diff.c:928 src/diff3.c:441 src/sdiff.c:205
 msgid "-v  --version  Output version info."
-msgstr "-v  --version  Taispe·in eolas faoin leagan."
+msgstr "-v  --version  Taispe√°in eolas faoin leagan."
 
 #: src/cmp.c:167 src/diff.c:929 src/diff3.c:442 src/sdiff.c:206
 msgid "--help  Output this help."
-msgstr "--help  Taispe·in an chabhair seo.."
+msgstr "--help  Taispe√°in an chabhair seo.."
 
 #: src/cmp.c:176
 #, c-format
 msgid "Usage: %s [OPTION]... FILE1 [FILE2 [SKIP1 [SKIP2]]]\n"
-msgstr "⁄s·id: %s [ROGHA]... COMHAD1 [COMHAD2 [SCIPE¡IL1 [SCIPE¡IL2]]]\n"
+msgstr "√ös√°id: %s [ROGHA]... COMHAD1 [COMHAD2 [SCIPE√ÅIL1 [SCIPE√ÅIL2]]]\n"
 
 #: src/cmp.c:178
 msgid "Compare two files byte by byte."
-msgstr "Cuir dh· chomhad i gcompar·id, beart le beart."
+msgstr "Cuir dh√° chomhad i gcompar√°id, beart le beart."
 
 #: src/cmp.c:182
 msgid "SKIP1 and SKIP2 are the number of bytes to skip in each file."
 msgstr ""
-"Is Èard at· i SCIP1 agus SCIP2 n· lÌonta na mbeart a scipe·il i ngach comhad."
+"Is √©ard at√° i SCIP1 agus SCIP2 n√° l√≠onta na mbeart a scipe√°il i ngach comhad."
 
 #: src/cmp.c:183
 msgid ""
@@ -427,26 +427,26 @@ msgid ""
 "kB 1000, K 1024, MB 1,000,000, M 1,048,576,\n"
 "GB 1,000,000,000, G 1,073,741,824, and so on for T, P, E, Z, Y."
 msgstr ""
-"Is fÈidir na hiarmhÌreanna a leanas a chur i ndiaidh SCIP:\n"
+"Is f√©idir na hiarmh√≠reanna a leanas a chur i ndiaidh SCIP:\n"
 "kB 1000, K 1024, MB 1,000,000, M 1,048,576,\n"
 "GB 1,000,000,000, G 1,073,741,824, srl. do T, P, E, Z, Y."
 
 #: src/cmp.c:186
 msgid "If a FILE is `-' or missing, read standard input."
-msgstr "Mura bhfuil COMHAD ann, nÛ m·s `-' È, lÈigh Ûn ionchur caighde·nach."
+msgstr "Mura bhfuil COMHAD ann, n√≥ m√°s `-' √©, l√©igh √≥n ionchur caighde√°nach."
 
 #: src/cmp.c:187 src/diff.c:934 src/sdiff.c:224
 msgid "Exit status is 0 if inputs are the same, 1 if different, 2 if trouble."
-msgstr "St·das scortha: 0 m·s ionann iad, 1 m·s difri˙il, 2 m· t· fadhb ann."
+msgstr "St√°das scortha: 0 m√°s ionann iad, 1 m√°s difri√∫il, 2 m√° t√° fadhb ann."
 
 #: src/cmp.c:188 src/diff.c:936 src/diff3.c:462 src/sdiff.c:225
 msgid "Report bugs to <bug-gnu-utils@gnu.org>."
-msgstr "Seol tuairiscÌ fabhtanna chuig <bug-gnu-utils@gnu.org>."
+msgstr "Seol tuairisc√≠ fabhtanna chuig <bug-gnu-utils@gnu.org>."
 
 #: src/cmp.c:232
 #, c-format
 msgid "invalid --bytes value `%s'"
-msgstr "luach neamhbhailÌ --bytes `%s'"
+msgstr "luach neamhbhail√≠ --bytes `%s'"
 
 #: src/cmp.c:247
 msgid "Torbjorn Granlund"
@@ -465,12 +465,12 @@ msgstr "oibreann breise `%s'"
 #: src/cmp.c:481
 #, c-format
 msgid "%s %s differ: byte %s, line %s\n"
-msgstr "%s %s difri˙il: beart %s, lÌne %s\n"
+msgstr "%s %s difri√∫il: beart %s, l√≠ne %s\n"
 
 #: src/cmp.c:497
 #, c-format
 msgid "%s %s differ: byte %s, line %s is %3o %s %3o %s\n"
-msgstr "%s %s difri˙il: beart %s, lÌne %s = %3o %s %3o %s\n"
+msgstr "%s %s difri√∫il: beart %s, l√≠ne %s = %3o %s %3o %s\n"
 
 #: src/cmp.c:545
 #, c-format
@@ -480,107 +480,107 @@ msgstr "cmp: EOF ar %s\n"
 #: src/diff.c:322
 #, c-format
 msgid "invalid context length `%s'"
-msgstr "Fad neamhbhailÌ comhthÈacs `%s'"
+msgstr "Fad neamhbhail√≠ comhth√©acs `%s'"
 
 #: src/diff.c:405
 msgid "pagination not supported on this host"
-msgstr "NÌ thacaÌtear leis an uimhri˙ leathanach ar an ÛstrÌomhaire seo"
+msgstr "N√≠ thaca√≠tear leis an uimhri√∫ leathanach ar an √≥str√≠omhaire seo"
 
 #: src/diff.c:420 src/diff3.c:297
 msgid "too many file label options"
-msgstr "an iomarca argÛintÌ do lipÈid chomhaid"
+msgstr "an iomarca arg√≥int√≠ do lip√©id chomhaid"
 
 #: src/diff.c:498
 #, c-format
 msgid "invalid width `%s'"
-msgstr "leithead neamhbhailÌ `%s'"
+msgstr "leithead neamhbhail√≠ `%s'"
 
 #: src/diff.c:502
 msgid "conflicting width options"
-msgstr "roghanna leithid contr·rtha"
+msgstr "roghanna leithid contr√°rtha"
 
 #: src/diff.c:526
 #, c-format
 msgid "invalid horizon length `%s'"
-msgstr "fad lÈaslÌne neamhbhailÌ `%s'"
+msgstr "fad l√©asl√≠ne neamhbhail√≠ `%s'"
 
 #: src/diff.c:573
 #, c-format
 msgid "invalid tabsize `%s'"
-msgstr "t· an mhÈid th·ib `%s' neamhbhailÌ"
+msgstr "t√° an mh√©id th√°ib `%s' neamhbhail√≠"
 
 #: src/diff.c:577
 msgid "conflicting tabsize options"
-msgstr "Roghanna t·bmhÈid contr·rtha"
+msgstr "Roghanna t√°bmh√©id contr√°rtha"
 
 #: src/diff.c:647
 #, c-format
 msgid "`-%ld' option is obsolete; use `-%c %ld'"
-msgstr "t· an rogha `-%ld' as feidhm; bain ˙s·id as `-%c %ld'"
+msgstr "t√° an rogha `-%ld' as feidhm; bain √∫s√°id as `-%c %ld'"
 
 #: src/diff.c:659
 #, c-format
 msgid "`-%ld' option is obsolete; omit it"
-msgstr "t· an rogha `-%ld' as feidhm; f·g È ar l·r"
+msgstr "t√° an rogha `-%ld' as feidhm; f√°g √© ar l√°r"
 
 #: src/diff.c:732
 msgid "--from-file and --to-file both specified"
-msgstr "tugadh --from-file agus --to-file lena chÈile"
+msgstr "tugadh --from-file agus --to-file lena ch√©ile"
 
 #: src/diff.c:855
 msgid "Compare files line by line."
-msgstr "DÈan compar·id idir na comhaid, lÌne ar lÌne."
+msgstr "D√©an compar√°id idir na comhaid, l√≠ne ar l√≠ne."
 
 #: src/diff.c:857
 msgid "-i  --ignore-case  Ignore case differences in file contents."
-msgstr "-i  --ignore-case  N· bÌ c·sÌogair le hinneachar na gcomhad."
+msgstr "-i  --ignore-case  N√° b√≠ c√°s√≠ogair le hinneachar na gcomhad."
 
 #: src/diff.c:858
 msgid "--ignore-file-name-case  Ignore case when comparing file names."
-msgstr "--ignore-file-name-case  N· bÌ c·sÌogair le hainmneacha comhaid."
+msgstr "--ignore-file-name-case  N√° b√≠ c√°s√≠ogair le hainmneacha comhaid."
 
 #: src/diff.c:859
 msgid "--no-ignore-file-name-case  Consider case when comparing file names."
 msgstr ""
-"--no-ignore-file-name-case  BÌ c·sÌogair maidir le hainmneacha comhaid."
+"--no-ignore-file-name-case  B√≠ c√°s√≠ogair maidir le hainmneacha comhaid."
 
 #: src/diff.c:860 src/sdiff.c:186
 msgid "-E  --ignore-tab-expansion  Ignore changes due to tab expansion."
 msgstr ""
-"-E  --ignore-tab-expansion  DÈan neamhshuim ar athruithe Û leathn˙ na dt·ib."
+"-E  --ignore-tab-expansion  D√©an neamhshuim ar athruithe √≥ leathn√∫ na dt√°ib."
 
 #: src/diff.c:861 src/sdiff.c:187
 msgid "-b  --ignore-space-change  Ignore changes in the amount of white space."
-msgstr "-b  --ignore-space-change  DÈan neamhshuim ar mhÈid an sp·is b·n."
+msgstr "-b  --ignore-space-change  D√©an neamhshuim ar mh√©id an sp√°is b√°n."
 
 #: src/diff.c:862
 msgid "-w  --ignore-all-space  Ignore all white space."
-msgstr "-w  --ignore-all-space  DÈan neamhshuim ar sp·s b·n go hioml·n."
+msgstr "-w  --ignore-all-space  D√©an neamhshuim ar sp√°s b√°n go hioml√°n."
 
 #: src/diff.c:863 src/sdiff.c:189
 msgid "-B  --ignore-blank-lines  Ignore changes whose lines are all blank."
-msgstr "-B  --ignore-blank-lines  DÈan neamhshuim ar lÌnte folmha."
+msgstr "-B  --ignore-blank-lines  D√©an neamhshuim ar l√≠nte folmha."
 
 #: src/diff.c:864 src/sdiff.c:190
 msgid ""
 "-I RE  --ignore-matching-lines=RE  Ignore changes whose lines all match RE."
 msgstr ""
-"-I SI  --ignore-matching-lines=RE  DÈan neamhshuim ar lÌnte at· "
-"comhoiri˙nach\n"
+"-I SI  --ignore-matching-lines=RE  D√©an neamhshuim ar l√≠nte at√° "
+"comhoiri√∫nach\n"
 "                                     leis an slonn SI."
 
 #: src/diff.c:865 src/diff3.c:437 src/sdiff.c:191
 msgid "--strip-trailing-cr  Strip trailing carriage return on input."
 msgstr ""
-"--strip-trailing-cr  Dealaigh aisfhilleadh carr·iste Û gach lÌne ionchurtha."
+"--strip-trailing-cr  Dealaigh aisfhilleadh carr√°iste √≥ gach l√≠ne ionchurtha."
 
 #: src/diff.c:867
 msgid "--binary  Read and write data in binary mode."
-msgstr "--binary  LÈigh agus scrÌobh sonraÌ sa mhÛd dÈn·rtha."
+msgstr "--binary  L√©igh agus scr√≠obh sonra√≠ sa mh√≥d d√©n√°rtha."
 
 #: src/diff.c:869 src/diff3.c:436 src/sdiff.c:192
 msgid "-a  --text  Treat all files as text."
-msgstr "-a  --text  Caith le gach comhad mar thÈacschomhad."
+msgstr "-a  --text  Caith le gach comhad mar th√©acschomhad."
 
 #: src/diff.c:871
 msgid ""
@@ -592,18 +592,18 @@ msgid ""
 "  -p  --show-c-function  Show which C function each change is in.\n"
 "  -F RE  --show-function-line=RE  Show the most recent line matching RE."
 msgstr ""
-"-c  -C UIMHIR --context[=UIMHIR] Taispe·in UIMHIR lÌne de chomhthÈacs\n"
-"                                   cÛipe·ilte (rÈamhshocr˙ = 3).\n"
-"-u  -U UIMHIR --unified[=UIMHIR] Taispe·in UIMHIR lÌne de chomhthÈacs\n"
-"                                   aontaithe (rÈamhshocr˙ = 3).\n"
-"  --label LIP…AD  Bain ˙s·id as LIP…AD in ionad ainm comhaid.\n"
-"  -p  --show-c-function  Taispe·in an fheidhm C do gach difrÌocht.\n"
-"  -F SI  --show-function-line=SI  Taispe·in an lÌne is dÈanaÌ at·\n"
-"                                    comhoiri˙nach leis an slonn SI."
+"-c  -C UIMHIR --context[=UIMHIR] Taispe√°in UIMHIR l√≠ne de chomhth√©acs\n"
+"                                   c√≥ipe√°ilte (r√©amhshocr√∫ = 3).\n"
+"-u  -U UIMHIR --unified[=UIMHIR] Taispe√°in UIMHIR l√≠ne de chomhth√©acs\n"
+"                                   aontaithe (r√©amhshocr√∫ = 3).\n"
+"  --label LIP√âAD  Bain √∫s√°id as LIP√âAD in ionad ainm comhaid.\n"
+"  -p  --show-c-function  Taispe√°in an fheidhm C do gach difr√≠ocht.\n"
+"  -F SI  --show-function-line=SI  Taispe√°in an l√≠ne is d√©ana√≠ at√°\n"
+"                                    comhoiri√∫nach leis an slonn SI."
 
 #: src/diff.c:876
 msgid "-q  --brief  Output only whether files differ."
-msgstr "-q  --brief  N· taispe·in ach difri˙il nÛ nach ea."
+msgstr "-q  --brief  N√° taispe√°in ach difri√∫il n√≥ nach ea."
 
 #: src/diff.c:877
 msgid "-e  --ed  Output an ed script."
@@ -624,37 +624,37 @@ msgid ""
 "  --left-column  Output only the left column of common lines.\n"
 "  --suppress-common-lines  Do not output common lines."
 msgstr ""
-"-y  --side-by-side  Taispe·in le dh· chol˙n.\n"
-"  -W UIMH --width=UIMH Taispe·in UIMH carachtar sa lÌne ar a mhÈad,\n"
-"                         (rÈamhshocr˙=130).\n"
-"  --left-column  N· taispe·in ach an col˙n ar clÈ do lÌnte cÈanna\n"
-"  --suppress-common-lines  N· taispe·in lÌnte cÈanna."
+"-y  --side-by-side  Taispe√°in le dh√° chol√∫n.\n"
+"  -W UIMH --width=UIMH Taispe√°in UIMH carachtar sa l√≠ne ar a mh√©ad,\n"
+"                         (r√©amhshocr√∫=130).\n"
+"  --left-column  N√° taispe√°in ach an col√∫n ar cl√© do l√≠nte c√©anna\n"
+"  --suppress-common-lines  N√° taispe√°in l√≠nte c√©anna."
 
 #: src/diff.c:884
 msgid "-D NAME  --ifdef=NAME  Output merged file to show `#ifdef NAME' diffs."
 msgstr ""
-"-D AINM  --ifdef=AINM  Taispe·in comhad cumaiscthe chun na diff-aÌ\n"
-"                                `#ifdef AINM' a lÈiri˙"
+"-D AINM  --ifdef=AINM  Taispe√°in comhad cumaiscthe chun na diff-a√≠\n"
+"                                `#ifdef AINM' a l√©iri√∫"
 
 #: src/diff.c:885
 msgid ""
 "--GTYPE-group-format=GFMT  Similar, but format GTYPE input groups with GFMT."
 msgstr ""
-"--GCINL-group-format=GFMD  Taispe·in gr˙paÌ GCINL ionchuir de rÈir GFMD."
+"--GCINL-group-format=GFMD  Taispe√°in gr√∫pa√≠ GCINL ionchuir de r√©ir GFMD."
 
 #: src/diff.c:886
 msgid "--line-format=LFMT  Similar, but format all input lines with LFMT."
-msgstr "--line-format=LFMD  Taispe·in gach lÌne ionchuir de rÈir LFMD."
+msgstr "--line-format=LFMD  Taispe√°in gach l√≠ne ionchuir de r√©ir LFMD."
 
 #: src/diff.c:887
 msgid ""
 "--LTYPE-line-format=LFMT  Similar, but format LTYPE input lines with LFMT."
 msgstr ""
-"--LCINL-line-format=LFMD   Taispe·in lÌnte LCINL ionchuir de rÈir LFMD."
+"--LCINL-line-format=LFMD   Taispe√°in l√≠nte LCINL ionchuir de r√©ir LFMD."
 
 #: src/diff.c:888
 msgid "  LTYPE is `old', `new', or `unchanged'.  GTYPE is LTYPE or `changed'."
-msgstr "  LCINL = `old', `new', nÛ `unchanged'.  GCINL = LCINL nÛ `changed'."
+msgstr "  LCINL = `old', `new', n√≥ `unchanged'.  GCINL = LCINL n√≥ `changed'."
 
 #: src/diff.c:889
 msgid ""
@@ -670,15 +670,15 @@ msgid ""
 "        E  F-1\n"
 "        M  L+1"
 msgstr ""
-"  Is Èard at· i GFMT n·:\n"
-"    %<  lÌnte as COMHAD1\n"
-"    %>  lÌnte as COMHAD2\n"
-"    %=  lÌnte at· i gCOMHAD1 agus COMHAD2 araon\n"
-"    %[-][LEITHEAD][.[SONR⁄]]{doxX}LITIR  sonr˙ do litir mar C `printf'\n"
-"      Is LITIR mar a leanas (agus litreacha beaga don ghr˙pa `old'):\n"
-"        F  an chÈad lÌne-uimhir\n"
-"        L  an lÌne-uimhir dheiridh\n"
-"        N  lÌon na lÌnte = L-F+1\n"
+"  Is √©ard at√° i GFMT n√°:\n"
+"    %<  l√≠nte as COMHAD1\n"
+"    %>  l√≠nte as COMHAD2\n"
+"    %=  l√≠nte at√° i gCOMHAD1 agus COMHAD2 araon\n"
+"    %[-][LEITHEAD][.[SONR√ö]]{doxX}LITIR  sonr√∫ do litir mar C `printf'\n"
+"      Is LITIR mar a leanas (agus litreacha beaga don ghr√∫pa `old'):\n"
+"        F  an ch√©ad l√≠ne-uimhir\n"
+"        L  an l√≠ne-uimhir dheiridh\n"
+"        N  l√≠on na l√≠nte = L-F+1\n"
 "        E  F-1\n"
 "        M  L+1"
 
@@ -689,10 +689,10 @@ msgid ""
 "    %l  contents of line, excluding any trailing newline\n"
 "    %[-][WIDTH][.[PREC]]{doxX}n  printf-style spec for input line number"
 msgstr ""
-"  Is Èard at· i LFMT n·::\n"
-"    %L  ·bhar na lÌne\n"
-"    %l  ·bhar na lÌne, gan aon lÌne nua\n"
-"    %[-][LEITHEAD][.[SONR⁄]]{doxX}n  sonr˙ do lÌne-uimhir mar C `printf'"
+"  Is √©ard at√° i LFMT n√°::\n"
+"    %L  √°bhar na l√≠ne\n"
+"    %l  √°bhar na l√≠ne, gan aon l√≠ne nua\n"
+"    %[-][LEITHEAD][.[SONR√ö]]{doxX}n  sonr√∫ do l√≠ne-uimhir mar C `printf'"
 
 #: src/diff.c:904
 msgid ""
@@ -701,10 +701,10 @@ msgid ""
 "    %c'C'  the single character C\n"
 "    %c'\\OOO'  the character with octal code OOO"
 msgstr ""
-"  Is fÈidir na teaghr·in a leanas a bheith i GLA nÛ LLA:\n"
+"  Is f√©idir na teaghr√°in a leanas a bheith i GLA n√≥ LLA:\n"
 "    %%  %\n"
-"    %c'C'  an carachtar litri˙il C\n"
-"    %c'\\OOO'  an carachtar le cÛd ochtn·rtha OOO"
+"    %c'C'  an carachtar litri√∫il C\n"
+"    %c'\\OOO'  an carachtar le c√≥d ochtn√°rtha OOO"
 
 #: src/diff.c:909
 msgid "-l  --paginate  Pass the output through `pr' to paginate it."
@@ -712,19 +712,19 @@ msgstr "-l  --paginate  uimhrigh leathanaigh le `pr'."
 
 #: src/diff.c:910 src/sdiff.c:198
 msgid "-t  --expand-tabs  Expand tabs to spaces in output."
-msgstr "-t  --expand-tabs  leathnaigh t·ib go sp·sanna san aschur."
+msgstr "-t  --expand-tabs  leathnaigh t√°ib go sp√°sanna san aschur."
 
 #: src/diff.c:911 src/diff3.c:438
 msgid "-T  --initial-tab  Make tabs line up by prepending a tab."
-msgstr "-T  --initial-tab  AilÌnigh t·ib trÌ th·b a chur in ionad sp·s tosaigh."
+msgstr "-T  --initial-tab  Ail√≠nigh t√°ib tr√≠ th√°b a chur in ionad sp√°s tosaigh."
 
 #: src/diff.c:912 src/sdiff.c:199
 msgid "--tabsize=NUM  Tab stops are every NUM (default 8) print columns."
-msgstr "--tabsize=UIMH T·bstop gach UIMH col˙n (rÈamhshocr˙=8)."
+msgstr "--tabsize=UIMH T√°bstop gach UIMH col√∫n (r√©amhshocr√∫=8)."
 
 #: src/diff.c:914
 msgid "-r  --recursive  Recursively compare any subdirectories found."
-msgstr "-r  --recursive  Cuir fochomhadlanna i gcompar·id go hathch˙rsach."
+msgstr "-r  --recursive  Cuir fochomhadlanna i gcompar√°id go hathch√∫rsach."
 
 #: src/diff.c:915
 msgid "-N  --new-file  Treat absent files as empty."
@@ -733,103 +733,103 @@ msgstr "-N  --new-file  Caith le comhad ar iarraidh mar chomhad folamh."
 #: src/diff.c:916
 msgid "--unidirectional-new-file  Treat absent first files as empty."
 msgstr ""
-"--unidirectional-new-file  M·s ar iarraidh, caith leis an chÈad chomhad\n"
+"--unidirectional-new-file  M√°s ar iarraidh, caith leis an ch√©ad chomhad\n"
 "                                     mar chomhad folamh."
 
 #: src/diff.c:917
 msgid "-s  --report-identical-files  Report when two files are the same."
 msgstr ""
-"-s  --report-identical-files  Tuairiscigh nuair at· dh· chomhad comhionanna."
+"-s  --report-identical-files  Tuairiscigh nuair at√° dh√° chomhad comhionanna."
 
 #: src/diff.c:918
 msgid "-x PAT  --exclude=PAT  Exclude files that match PAT."
 msgstr ""
-"-X SLONN --exclude=SLONN F·g comhaid as m· t· siad comhoiri˙nacha le SLONN."
+"-X SLONN --exclude=SLONN F√°g comhaid as m√° t√° siad comhoiri√∫nacha le SLONN."
 
 #: src/diff.c:919
 msgid ""
 "-X FILE  --exclude-from=FILE  Exclude files that match any pattern in FILE."
 msgstr ""
-"-X COMHAD --exclude-from=COMHAD F·g comhaid as m· t· siad comhoiri˙nacha le "
+"-X COMHAD --exclude-from=COMHAD F√°g comhaid as m√° t√° siad comhoiri√∫nacha le "
 "haon\n"
-"                                    slonn ionadaÌochta as an CHOMHAD."
+"                                    slonn ionada√≠ochta as an CHOMHAD."
 
 #: src/diff.c:920
 msgid ""
 "-S FILE  --starting-file=FILE  Start with FILE when comparing directories."
 msgstr ""
-"-S COMHAD --starting-file=COMHAD Tosaigh le COMHAD agus comhadlanna · "
-"gcÛimheas."
+"-S COMHAD --starting-file=COMHAD Tosaigh le COMHAD agus comhadlanna √° "
+"gc√≥imheas."
 
 #: src/diff.c:921
 msgid ""
 "--from-file=FILE1  Compare FILE1 to all operands.  FILE1 can be a directory."
 msgstr ""
-"--from-file=COMHAD Cuir COMHAD (nÛ comhadlann) i gcompar·id le gach oibreann."
+"--from-file=COMHAD Cuir COMHAD (n√≥ comhadlann) i gcompar√°id le gach oibreann."
 
 #: src/diff.c:922
 msgid ""
 "--to-file=FILE2  Compare all operands to FILE2.  FILE2 can be a directory."
 msgstr ""
-"--to-file=COMHAD Cuir gach oibreann i gcompar·id le COMHAD (nÛ comhadlann)."
+"--to-file=COMHAD Cuir gach oibreann i gcompar√°id le COMHAD (n√≥ comhadlann)."
 
 #: src/diff.c:924
 msgid "--horizon-lines=NUM  Keep NUM lines of the common prefix and suffix."
-msgstr "--horizon-lines=UIMH  Coinnigh UIMH lÌne den rÈimÌr/iarmhÌr choiteann."
+msgstr "--horizon-lines=UIMH  Coinnigh UIMH l√≠ne den r√©im√≠r/iarmh√≠r choiteann."
 
 #: src/diff.c:925 src/sdiff.c:201
 msgid "-d  --minimal  Try hard to find a smaller set of changes."
-msgstr "-d  --minimal  Obair go crua le haghaidh nÌos l˙ athruithe."
+msgstr "-d  --minimal  Obair go crua le haghaidh n√≠os l√∫ athruithe."
 
 #: src/diff.c:926
 msgid ""
 "--speed-large-files  Assume large files and many scattered small changes."
 msgstr ""
-"--speed-large-files   Comhaid mÛra agus go leor mionathruithe forleata."
+"--speed-large-files   Comhaid m√≥ra agus go leor mionathruithe forleata."
 
 #: src/diff.c:931
 msgid ""
 "FILES are `FILE1 FILE2' or `DIR1 DIR2' or `DIR FILE...' or `FILE... DIR'."
 msgstr ""
-"COMHAID = `COMHAD1 COMHAD2' nÛ `COMHADLANN1 COMHADLANN2' nÛ `COMHADLANN "
-"COMHAD...' nÛ `COMHAD... COMHADLANN'."
+"COMHAID = `COMHAD1 COMHAD2' n√≥ `COMHADLANN1 COMHADLANN2' n√≥ `COMHADLANN "
+"COMHAD...' n√≥ `COMHAD... COMHADLANN'."
 
 #: src/diff.c:932
 msgid ""
 "If --from-file or --to-file is given, there are no restrictions on FILES."
 msgstr ""
-"M· t· --from-file nÛ --to-file tugtha, nÌl a leithÈid de shrian ar COMHAID."
+"M√° t√° --from-file n√≥ --to-file tugtha, n√≠l a leith√©id de shrian ar COMHAID."
 
 #: src/diff.c:933 src/diff3.c:460 src/sdiff.c:223
 msgid "If a FILE is `-', read standard input."
-msgstr "M·s '-' È an COMHAD, lÈigh Ûn ionchur caighde·nach."
+msgstr "M√°s '-' √© an COMHAD, l√©igh √≥n ionchur caighde√°nach."
 
 #: src/diff.c:945
 #, c-format
 msgid "Usage: %s [OPTION]... FILES\n"
-msgstr "⁄s·id: %s [ROGHA]... COMHAID\n"
+msgstr "√ös√°id: %s [ROGHA]... COMHAID\n"
 
 #: src/diff.c:974
 #, c-format
 msgid "conflicting %s option value `%s'"
-msgstr "luach contr·rtha don rogha %s: `%s'"
+msgstr "luach contr√°rtha don rogha %s: `%s'"
 
 #: src/diff.c:987
 msgid "conflicting output style options"
-msgstr "roghanna contr·rtha le haghaidh na stÌle aschuir"
+msgstr "roghanna contr√°rtha le haghaidh na st√≠le aschuir"
 
 #: src/diff.c:1053 src/diff.c:1248
 #, c-format
 msgid "Only in %s: %s\n"
-msgstr "I %s amh·in: %s\n"
+msgstr "I %s amh√°in: %s\n"
 
 #: src/diff.c:1180
 msgid "cannot compare `-' to a directory"
-msgstr "nÌ fÈidir `-' a chur i gcompar·id le comhadlann"
+msgstr "n√≠ f√©idir `-' a chur i gcompar√°id le comhadlann"
 
 #: src/diff.c:1212
 msgid "-D option not supported with directories"
-msgstr "NÌl an rogha -D ar f·il do chomhadlanna"
+msgstr "N√≠l an rogha -D ar f√°il do chomhadlanna"
 
 #: src/diff.c:1221
 #, c-format
@@ -839,7 +839,7 @@ msgstr "Fochomhadlanna i gcoitianta: %s agus %s\n"
 #: src/diff.c:1258
 #, c-format
 msgid "File %s is a %s while file %s is a %s\n"
-msgstr "T· comhad %s ina %s ach t· comhad %s ina %s\n"
+msgstr "T√° comhad %s ina %s ach t√° comhad %s ina %s\n"
 
 #: src/diff.c:1335
 #, c-format
@@ -848,54 +848,54 @@ msgstr "Is comhionann iad na comhaid %s agus %s\n"
 
 #: src/diff3.c:310
 msgid "incompatible options"
-msgstr "roghanna neamh-chomhoiri˙nacha"
+msgstr "roghanna neamh-chomhoiri√∫nacha"
 
 #: src/diff3.c:350
 msgid "`-' specified for more than one input file"
-msgstr "bhÌ `-' tugtha le haghaidh nÌos mÛ n· inchomhad amh·in"
+msgstr "bh√≠ `-' tugtha le haghaidh n√≠os m√≥ n√° inchomhad amh√°in"
 
 #: src/diff3.c:393 src/diff3.c:1242 src/diff3.c:1645 src/diff3.c:1700
 #: src/sdiff.c:311 src/sdiff.c:883 src/sdiff.c:894
 msgid "read failed"
-msgstr "theip ar lÈamh"
+msgstr "theip ar l√©amh"
 
 #: src/diff3.c:426
 msgid "-e  --ed  Output unmerged changes from OLDFILE to YOURFILE into MYFILE."
 msgstr ""
-"-e  --ed  ScrÌobh i MOCHOMHAD na hathruithe neamhchumaiscthe Û SEANCHOMHAD "
+"-e  --ed  Scr√≠obh i MOCHOMHAD na hathruithe neamhchumaiscthe √≥ SEANCHOMHAD "
 "go DOCHOMHAD."
 
 #: src/diff3.c:427
 msgid "-E  --show-overlap  Output unmerged changes, bracketing conflicts."
 msgstr ""
-"-E  --show-overlap  Taispe·in na hathruithe neamhchumaiscthe agus cuir "
-"coinbhleachtaÌ idir l˙ibÌnÌ."
+"-E  --show-overlap  Taispe√°in na hathruithe neamhchumaiscthe agus cuir "
+"coinbhleachta√≠ idir l√∫ib√≠n√≠."
 
 #: src/diff3.c:428
 msgid "-A  --show-all  Output all changes, bracketing conflicts."
 msgstr ""
-"-A  --show-all  Taispe·in gach athr˙ agus cuir coinbhleachtaÌ idir l˙ibÌnÌ."
+"-A  --show-all  Taispe√°in gach athr√∫ agus cuir coinbhleachta√≠ idir l√∫ib√≠n√≠."
 
 #: src/diff3.c:429
 msgid "-x  --overlap-only  Output overlapping changes."
-msgstr "-x  --overlap-only  Taispe·in na hathruithe forluiteacha."
+msgstr "-x  --overlap-only  Taispe√°in na hathruithe forluiteacha."
 
 #: src/diff3.c:430
 msgid "-X  Output overlapping changes, bracketing them."
-msgstr "-X  Taispe·in na hathruithe forluiteacha, idir l˙ibÌnÌ."
+msgstr "-X  Taispe√°in na hathruithe forluiteacha, idir l√∫ib√≠n√≠."
 
 #: src/diff3.c:431
 msgid "-3  --easy-only  Output unmerged nonoverlapping changes."
-msgstr "-3  --easy-only  Taispe·in athruithe neamhchumaiscthe forluiteacha."
+msgstr "-3  --easy-only  Taispe√°in athruithe neamhchumaiscthe forluiteacha."
 
 #: src/diff3.c:433
 msgid "-m  --merge  Output merged file instead of ed script (default -A)."
 msgstr ""
-"-m  --merge  Taispe·in comhad cumaiscthe in ionad script ed (rÈamhshocr˙ -A)."
+"-m  --merge  Taispe√°in comhad cumaiscthe in ionad script ed (r√©amhshocr√∫ -A)."
 
 #: src/diff3.c:434
 msgid "-L LABEL  --label=LABEL  Use LABEL instead of file name."
-msgstr "-L LIP…AD  --label=LIP…AD  ⁄s·id LIP…AD in ionad ainm comhaid."
+msgstr "-L LIP√âAD  --label=LIP√âAD  √ös√°id LIP√âAD in ionad ainm comhaid."
 
 #: src/diff3.c:435
 msgid "-i  Append `w' and `q' commands to ed scripts."
@@ -904,25 +904,25 @@ msgstr "-i  Cuir na horduithe `w' agus `q' le scripteanna `ed'."
 #: src/diff3.c:439 src/sdiff.c:203
 msgid "--diff-program=PROGRAM  Use PROGRAM to compare files."
 msgstr ""
-"--diff-program=CL¡R     Bain ˙s·id as an CL¡R chun comhaid a chur i "
-"gcompar·id."
+"--diff-program=CL√ÅR     Bain √∫s√°id as an CL√ÅR chun comhaid a chur i "
+"gcompar√°id."
 
 #: src/diff3.c:451
 #, c-format
 msgid "Usage: %s [OPTION]... MYFILE OLDFILE YOURFILE\n"
-msgstr "⁄s·id: %s [ROGHA]... MOCHOMHAD SEANCHOMHAD DOCHOMHAD\n"
+msgstr "√ös√°id: %s [ROGHA]... MOCHOMHAD SEANCHOMHAD DOCHOMHAD\n"
 
 #: src/diff3.c:453
 msgid "Compare three files line by line."
-msgstr "Cuir trÌ chomhad i gcompar·id, lÌne ar lÌne."
+msgstr "Cuir tr√≠ chomhad i gcompar√°id, l√≠ne ar l√≠ne."
 
 #: src/diff3.c:461
 msgid "Exit status is 0 if successful, 1 if conflicts, 2 if trouble."
-msgstr "St·das scortha = 0 (rath˙il), 1 (coinbhleachtaÌ), 2 (trioblÛid)."
+msgstr "St√°das scortha = 0 (rath√∫il), 1 (coinbhleachta√≠), 2 (triobl√≥id)."
 
 #: src/diff3.c:655
 msgid "internal error: screwup in format of diff blocks"
-msgstr "earr·id inmhe·nach: form·id de na bloic diff trÌna chÈile"
+msgstr "earr√°id inmhe√°nach: form√°id de na bloic diff tr√≠na ch√©ile"
 
 #: src/diff3.c:948
 #, c-format
@@ -931,44 +931,44 @@ msgstr "%s: theip ar diff: "
 
 #: src/diff3.c:970
 msgid "internal error: invalid diff type in process_diff"
-msgstr "earr·id inmhe·nach: cine·l neamhbhailÌ diff san fheidhm process_diff"
+msgstr "earr√°id inmhe√°nach: cine√°l neamhbhail√≠ diff san fheidhm process_diff"
 
 #: src/diff3.c:995
 msgid "invalid diff format; invalid change separator"
-msgstr "form·id diff neamhbhailÌ; teormharcÛir neamhbhailÌ idir athruithe"
+msgstr "form√°id diff neamhbhail√≠; teormharc√≥ir neamhbhail√≠ idir athruithe"
 
 #: src/diff3.c:1252
 msgid "invalid diff format; incomplete last line"
-msgstr "form·id neamhbhailÌ diff; lÌne deiridh neamhioml·n"
+msgstr "form√°id neamhbhail√≠ diff; l√≠ne deiridh neamhioml√°n"
 
 #: src/diff3.c:1276 src/sdiff.c:279 src/util.c:303
 #, c-format
 msgid "subsidiary program `%s' could not be invoked"
-msgstr "nÌorbh fhÈidir an fochl·r `%s' a rith"
+msgstr "n√≠orbh fh√©idir an fochl√°r `%s' a rith"
 
 #: src/diff3.c:1278 src/sdiff.c:281 src/util.c:305
 #, c-format
 msgid "subsidiary program `%s' not found"
-msgstr "fochl·r `%s' gan aimsi˙"
+msgstr "fochl√°r `%s' gan aimsi√∫"
 
 #: src/diff3.c:1280 src/sdiff.c:283 src/util.c:307
 #, c-format
 msgid "subsidiary program `%s' failed"
-msgstr "theip ar an fhochl·r `%s'"
+msgstr "theip ar an fhochl√°r `%s'"
 
 #: src/diff3.c:1281 src/sdiff.c:284 src/util.c:308
 #, c-format
 msgid "subsidiary program `%s' failed (exit status %d)"
-msgstr "theip ar an fhochl·r `%s' (st·das scortha %d)"
+msgstr "theip ar an fhochl√°r `%s' (st√°das scortha %d)"
 
 #: src/diff3.c:1301
 msgid "invalid diff format; incorrect leading line chars"
-msgstr "form·id neamhbhailÌ diff; carachtair mhÌchearta ag tosach na lÌne"
+msgstr "form√°id neamhbhail√≠ diff; carachtair mh√≠chearta ag tosach na l√≠ne"
 
 #: src/diff3.c:1374
 msgid "internal error: invalid diff type passed to output"
 msgstr ""
-"earr·id inmhe·nach: seachadadh cine·l neamhbhailÌ diff go dtÌ an aschur"
+"earr√°id inmhe√°nach: seachadadh cine√°l neamhbhail√≠ diff go dt√≠ an aschur"
 
 #: src/diff3.c:1647 src/diff3.c:1704
 msgid "input file shrank"
@@ -978,57 +978,57 @@ msgstr "crapadh an t-inchomhad"
 #, c-format
 msgid "cannot compare file names `%s' and `%s'"
 msgstr ""
-"nÌ fÈidir na hainmneacha comhaid `%s' agus `%s' a chur i gcompar·id le chÈile"
+"n√≠ f√©idir na hainmneacha comhaid `%s' agus `%s' a chur i gcompar√°id le ch√©ile"
 
 #: src/sdiff.c:183
 msgid "-o FILE  --output=FILE  Operate interactively, sending output to FILE."
 msgstr ""
-"-o COMHAD --output=COMHAD MÛd idirghnÌomhach, ag scrÌobh an aschuir i "
+"-o COMHAD --output=COMHAD M√≥d idirghn√≠omhach, ag scr√≠obh an aschuir i "
 "gCOMHAD."
 
 #: src/sdiff.c:185
 msgid "-i  --ignore-case  Consider upper- and lower-case to be the same."
-msgstr "-i  --ignore-case  N· bÌ c·sÌogair."
+msgstr "-i  --ignore-case  N√° b√≠ c√°s√≠ogair."
 
 #: src/sdiff.c:188
 msgid "-W  --ignore-all-space  Ignore all white space."
-msgstr "-W  --ignore-all-space  DÈan neamhshuim ar sp·sanna b·n go hioml·n."
+msgstr "-W  --ignore-all-space  D√©an neamhshuim ar sp√°sanna b√°n go hioml√°n."
 
 #: src/sdiff.c:194
 msgid "-w NUM  --width=NUM  Output at most NUM (default 130) print columns."
 msgstr ""
-"-w UIMH --width=UIMH  UIMH col˙n priont·la ar a mhÈad (rÈamhshocr˙=130)."
+"-w UIMH --width=UIMH  UIMH col√∫n priont√°la ar a mh√©ad (r√©amhshocr√∫=130)."
 
 #: src/sdiff.c:195
 msgid "-l  --left-column  Output only the left column of common lines."
-msgstr "-l  --left-column  N· taispe·in an col˙n ar dheis m·s ionann iad."
+msgstr "-l  --left-column  N√° taispe√°in an col√∫n ar dheis m√°s ionann iad."
 
 #: src/sdiff.c:196
 msgid "-s  --suppress-common-lines  Do not output common lines."
-msgstr "-s  --suppress-common-lines  N· taispe·in lÌnte at· i bp·irt acu."
+msgstr "-s  --suppress-common-lines  N√° taispe√°in l√≠nte at√° i bp√°irt acu."
 
 #: src/sdiff.c:202
 msgid ""
 "-H  --speed-large-files  Assume large files and many scattered small changes."
 msgstr ""
-"-H  --speed-large-files  Comhaid mÛra agus go leor mionathruithe forleata."
+"-H  --speed-large-files  Comhaid m√≥ra agus go leor mionathruithe forleata."
 
 #: src/sdiff.c:215
 #, c-format
 msgid "Usage: %s [OPTION]... FILE1 FILE2\n"
-msgstr "⁄s·id: %s [ROGHA]... COMHAD1 COMHAD2\n"
+msgstr "√ös√°id: %s [ROGHA]... COMHAD1 COMHAD2\n"
 
 #: src/sdiff.c:216
 msgid "Side-by-side merge of file differences."
-msgstr "Cumaisc difrÌochtaÌ idir na comhaid, taobh le taobh."
+msgstr "Cumaisc difr√≠ochta√≠ idir na comhaid, taobh le taobh."
 
 #: src/sdiff.c:333
 msgid "cannot interactively merge standard input"
-msgstr "nÌ fÈidir an t-ionchur caighde·nach a chumasc go hidirghnÌomhach"
+msgstr "n√≠ f√©idir an t-ionchur caighde√°nach a chumasc go hidirghn√≠omhach"
 
 #: src/sdiff.c:594
 msgid "both files to be compared are directories"
-msgstr "is comhadlanna iad na comhaid le cur i gcompar·id"
+msgstr "is comhadlanna iad na comhaid le cur i gcompar√°id"
 
 #: src/sdiff.c:857
 msgid ""
@@ -1043,13 +1043,13 @@ msgid ""
 "v:\tVerbosely include common lines.\n"
 "q:\tQuit.\n"
 msgstr ""
-"ed:\tCuir na leaganacha araon in eagar, agus ceannt·sc le gach.\n"
-"eb:\tCuir na leaganacha araon in eagar, agus ansin bain ˙s·id astu.\n"
-"el:\tCuir an leagan ar clÈ in eagar, agus ansin bain ˙s·id as.\n"
-"er:\tCuir an leagan ar dheis in eagar, agus ansin bain ˙s·id as.\n"
+"ed:\tCuir na leaganacha araon in eagar, agus ceannt√°sc le gach.\n"
+"eb:\tCuir na leaganacha araon in eagar, agus ansin bain √∫s√°id astu.\n"
+"el:\tCuir an leagan ar cl√© in eagar, agus ansin bain √∫s√°id as.\n"
+"er:\tCuir an leagan ar dheis in eagar, agus ansin bain √∫s√°id as.\n"
 "e:\tCuir leagan nua in eagar.\n"
-"l:\tBain ˙s·id as an leagan ar clÈ.\n"
-"r:\tBain ˙s·id as an leagan ar dheis.\n"
-"s:\tCuir comhlÌnte san ·ireamh go balbh.\n"
-"v:\tCuir comhlÌnte san ·ireamh go foclach.\n"
+"l:\tBain √∫s√°id as an leagan ar cl√©.\n"
+"r:\tBain √∫s√°id as an leagan ar dheis.\n"
+"s:\tCuir comhl√≠nte san √°ireamh go balbh.\n"
+"v:\tCuir comhl√≠nte san √°ireamh go foclach.\n"
 "q:\tScoir.\n"

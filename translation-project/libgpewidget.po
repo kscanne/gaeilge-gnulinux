@@ -12,7 +12,7 @@ msgstr ""
 "Last-Translator: Kevin Scannell <kscanne@gmail.com>\n"
 "Language-Team: Irish <gaeilge-gnulinux@lists.sourceforge.net>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=ISO-8859-1\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../colordialog.c:164 ../colordialog.c:177
@@ -21,7 +21,7 @@ msgstr "Dath roghnaithe"
 
 #: ../colordialog.c:165 ../colordialog.c:178
 msgid "Selected colour value in the dialog."
-msgstr "Luach datha roghnaithe sa dialÛg."
+msgstr "Luach datha roghnaithe sa dial√≥g."
 
 #: ../colordialog.c:351
 msgid "Red"
@@ -41,21 +41,21 @@ msgstr "Roghnaigh dath"
 
 #: ../dirbrowser.c:189
 msgid "No directory is selected."
-msgstr "NÌl comhadlann ar bith roghnaithe agat."
+msgstr "N√≠l comhadlann ar bith roghnaithe agat."
 
 #: ../errorbox.c:45
 #, c-format
 msgid "GPE-ERROR: %s\n"
-msgstr "GPE-EARR¡ID: %s\n"
+msgstr "GPE-EARR√ÅID: %s\n"
 
 #: ../pixmaps.c:223
 #, c-format
 msgid "Icon \"%s\" not loaded."
-msgstr "NÌl deilbhÌn \"%s\" luchtaithe."
+msgstr "N√≠l deilbh√≠n \"%s\" luchtaithe."
 
 #: ../question.c:178
 msgid "Question"
 msgstr "Ceist"
 
 #~ msgid "No help available."
-#~ msgstr "NÌl cabhair ar bith le f·il."
+#~ msgstr "N√≠l cabhair ar bith le f√°il."

@@ -10,7 +10,7 @@ msgstr ""
 "Last-Translator: Kevin Patrick Scannell <scannell@SLU.EDU>\n"
 "Language-Team: Irish <gaeilge-gnulinux@lists.sourceforge.net>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=ISO-8859-1\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8-bit\n"
 
 #: spvw.d:419
@@ -23,7 +23,7 @@ msgid ""
 "*** - Program stack overflow. RESET"
 msgstr ""
 "\n"
-"*** - Cruach an chláir thar maoil. ATHSHOCRÚ"
+"*** - Cruach an chlÃ¡ir thar maoil. ATHSHOCRÃš"
 
 #: spvw.d:498
 msgid ""
@@ -31,7 +31,7 @@ msgid ""
 "*** - Lisp stack overflow. RESET"
 msgstr ""
 "\n"
-"*** - Cruach Lisp thar maoil. ATHSHOCRÚ"
+"*** - Cruach Lisp thar maoil. ATHSHOCRÃš"
 
 #: spvw.d:617
 msgid "~: malloc() failed"
@@ -46,11 +46,11 @@ msgstr ""
 
 #: spvw.d:695
 msgid "Unknown FSUBR signature: %d %d %d\n"
-msgstr "Síniú FSUBR anaithnid: %d %d %d\n"
+msgstr "SÃ­niÃº FSUBR anaithnid: %d %d %d\n"
 
 #: spvw.d:803
 msgid "Unknown SUBR signature: %d %d %d %d"
-msgstr "Síniú SUBR anaithnid: %d %d %d %d"
+msgstr "SÃ­niÃº SUBR anaithnid: %d %d %d %d"
 
 #: spvw.d:1479
 msgid "module `%s' requires package %s.\n"
@@ -61,8 +61,8 @@ msgid ""
 "is an ANSI Common Lisp.\n"
 "Usage:  "
 msgstr ""
-"Is ANSI Common Lisp é.\n"
-"Úsáid:  "
+"Is ANSI Common Lisp Ã©.\n"
+"ÃšsÃ¡id:  "
 
 #: spvw.d:1520
 msgid ""
@@ -74,19 +74,19 @@ msgstr ""
 
 #: spvw.d:1524
 msgid "Informative output:\n"
-msgstr "Aschur faisnéiseach:\n"
+msgstr "Aschur faisnÃ©iseach:\n"
 
 #: spvw.d:1525
 msgid " -h, --help    - print this help and exit\n"
-msgstr " -h, --help    - taispeáin an chabhair seo agus scoir\n"
+msgstr " -h, --help    - taispeÃ¡in an chabhair seo agus scoir\n"
 
 #: spvw.d:1526
 msgid " --version     - print the version information\n"
-msgstr " --version     - taispeáin eolas faoin leagan agus scoir\n"
+msgstr " --version     - taispeÃ¡in eolas faoin leagan agus scoir\n"
 
 #: spvw.d:1527
 msgid " --license     - print the licensing information\n"
-msgstr " --license     - taispeáin eolas faoin cheadúnas\n"
+msgstr " --license     - taispeÃ¡in eolas faoin cheadÃºnas\n"
 
 #: spvw.d:1528
 msgid "Memory image selection:\n"
@@ -94,7 +94,7 @@ msgstr ""
 
 #: spvw.d:1529
 msgid " -B lisplibdir - set the installation directory\n"
-msgstr " -B lbhrlnlisp - socraigh an chomhadlann shuiteála\n"
+msgstr " -B lbhrlnlisp - socraigh an chomhadlann shuiteÃ¡la\n"
 
 #: spvw.d:1531
 msgid " -K linkingset - use this executable and memory image\n"
@@ -106,11 +106,11 @@ msgstr ""
 
 #: spvw.d:1534
 msgid " -m size       - memory size (size = xxxxxxxB or xxxxKB or xMB)\n"
-msgstr " -m méid       - méid na cuimhne (méid = xxxxxxxB nó xxxxKB nó xMB)\n"
+msgstr " -m mÃ©id       - mÃ©id na cuimhne (mÃ©id = xxxxxxxB nÃ³ xxxxKB nÃ³ xMB)\n"
 
 #: spvw.d:1536
 msgid " -s size       - stack size (size = xxxxxxxB or xxxxKB or xMB)\n"
-msgstr " -s méid       - méid na cruaiche (méid = xxxxxxxB nó xxxxKB nó xMB)\n"
+msgstr " -s mÃ©id       - mÃ©id na cruaiche (mÃ©id = xxxxxxxB nÃ³ xxxxKB nÃ³ xMB)\n"
 
 #: spvw.d:1539
 msgid " -t tmpdir     - temporary directory for memmap\n"
@@ -118,15 +118,15 @@ msgstr " -t cmhdlnn    - comhadlann shealadach le haghaidh memmap\n"
 
 #: spvw.d:1541
 msgid "Internationalization:\n"
-msgstr "Idirnáisiúnú:\n"
+msgstr "IdirnÃ¡isiÃºnÃº:\n"
 
 #: spvw.d:1542
 msgid " -L language   - set user language\n"
-msgstr " -L teanga     - socraigh teanga an úsáideora\n"
+msgstr " -L teanga     - socraigh teanga an ÃºsÃ¡ideora\n"
 
 #: spvw.d:1543
 msgid " -N nlsdir     - NLS catalog directory\n"
-msgstr " -N cmhdlann   - comhadlann na gcatalóga NLS\n"
+msgstr " -N cmhdlann   - comhadlann na gcatalÃ³ga NLS\n"
 
 #: spvw.d:1544
 msgid " -Edomain encoding - set encoding\n"
@@ -145,7 +145,7 @@ msgstr ""
 
 #: spvw.d:1549
 msgid " -w            - wait for a keypress after program termination\n"
-msgstr " -w            - fan le heochairbhrú tar éis críochnú an chláir\n"
+msgstr " -w            - fan le heochairbhrÃº tar Ã©is crÃ­ochnÃº an chlÃ¡ir\n"
 
 #: spvw.d:1550
 msgid " -I            - be ILISP-friendly\n"
@@ -161,7 +161,7 @@ msgstr ""
 
 #: spvw.d:1553
 msgid " -traditional  - traditional (undoes -ansi)\n"
-msgstr " -traditional  - traidisiúnta (díghníomhachtaigh -ansi)\n"
+msgstr " -traditional  - traidisiÃºnta (dÃ­ghnÃ­omhachtaigh -ansi)\n"
 
 #: spvw.d:1554
 msgid " -p package    - start in the package\n"
@@ -173,17 +173,17 @@ msgstr ""
 
 #: spvw.d:1556
 msgid " -norc         - do not load the user ~/.clisprc file\n"
-msgstr " -norc         - ná luchtaigh an comhad úsáideora ~/.clisprc\n"
+msgstr " -norc         - nÃ¡ luchtaigh an comhad ÃºsÃ¡ideora ~/.clisprc\n"
 
 #: spvw.d:1557
 msgid " -i file       - load initfile (can be repeated)\n"
 msgstr ""
-" -i comhad     - luchtaigh comhad túsaithe (is féidir níos mó ná uair "
-"amháin)\n"
+" -i comhad     - luchtaigh comhad tÃºsaithe (is fÃ©idir nÃ­os mÃ³ nÃ¡ uair "
+"amhÃ¡in)\n"
 
 #: spvw.d:1558
 msgid "Actions:\n"
-msgstr "Gníomhartha:\n"
+msgstr "GnÃ­omhartha:\n"
 
 #: spvw.d:1559
 msgid " -c [-l] lispfile [-o outputfile] - compile LISPFILE\n"
@@ -195,7 +195,7 @@ msgstr " -x sloinn      - rith na sloinn, agus ansin scoir\n"
 
 #: spvw.d:1561
 msgid " lispfile [argument ...] - load lispfile, then exit\n"
-msgstr " cmhdlisp [argóint ...]  - luchtaigh cmhdlisp agus ansin scoir\n"
+msgstr " cmhdlisp [argÃ³int ...]  - luchtaigh cmhdlisp agus ansin scoir\n"
 
 #: spvw.d:1562
 msgid "These actions put CLISP into a batch mode, which is overridden by\n"
@@ -216,7 +216,7 @@ msgstr ""
 
 #: spvw.d:1871
 msgid "Syntax for %s: nnnnnnn or nnnnKB or nMB\n"
-msgstr "Comhréir %s: nnnnnnn nó nnnnKB nó nMB\n"
+msgstr "ComhrÃ©ir %s: nnnnnnn nÃ³ nnnnKB nÃ³ nMB\n"
 
 #: spvw.d:1875
 msgid "%s out of range\n"
@@ -224,15 +224,15 @@ msgstr "is as raon %s\n"
 
 #: spvw.d:1888
 msgid "memory size"
-msgstr "méid na cuimhne"
+msgstr "mÃ©id na cuimhne"
 
 #: spvw.d:1899
 msgid "stack size"
-msgstr "méid na cruaiche"
+msgstr "mÃ©id na cruaiche"
 
 #: spvw.d:2025
 msgid "CLISP: -a is deprecated, use -ansi\n"
-msgstr "CLISP: tá -a i léig; bain úsáid as -ansi\n"
+msgstr "CLISP: tÃ¡ -a i lÃ©ig; bain ÃºsÃ¡id as -ansi\n"
 
 #: spvw.d:2271
 msgid ""
@@ -242,7 +242,7 @@ msgstr ""
 
 #: spvw.d:2277
 msgid "Only %d bytes available.\n"
-msgstr "Gan ach %d beart ar fáil.\n"
+msgstr "Gan ach %d beart ar fÃ¡il.\n"
 
 #: spvw.d:2520
 msgid "Could not determine the end of the SP stack!\n"
@@ -254,7 +254,7 @@ msgid ""
 "WARNING: No initialization file specified.\n"
 msgstr ""
 "\n"
-"RABHADH: Níor sonraíodh comhad túsaithe.\n"
+"RABHADH: NÃ­or sonraÃ­odh comhad tÃºsaithe.\n"
 
 #: spvw.d:2754 spvw.d:2764
 msgid "Please try: "
@@ -266,7 +266,7 @@ msgid ""
 "WARNING: No installation directory specified.\n"
 msgstr ""
 "\n"
-"RABHADH: Níor sonraíodh comhadlann shuiteála.\n"
+"RABHADH: NÃ­or sonraÃ­odh comhadlann shuiteÃ¡la.\n"
 
 #: spvw.d:2915
 msgid ""
@@ -274,19 +274,19 @@ msgid ""
 "WARNING: no such package: "
 msgstr ""
 "\n"
-"RABHADH: níl a leithéid de phacáiste ann: "
+"RABHADH: nÃ­l a leithÃ©id de phacÃ¡iste ann: "
 
 #: spvw.d:2995
 msgid "%s: Not enough memory for Lisp.\n"
-msgstr "%s: Níl leor cuimhne saor le haghaidh Lisp.\n"
+msgstr "%s: NÃ­l leor cuimhne saor le haghaidh Lisp.\n"
 
 #: spvw.d:3042 reploop.lisp:682
 msgid "Bye."
-msgstr "Slán."
+msgstr "SlÃ¡n."
 
 #: spvw.d:3050
 msgid "Press a key to terminate..."
-msgstr "Brúigh eochair ar bith chun scor..."
+msgstr "BrÃºigh eochair ar bith chun scor..."
 
 #: spvw_alloca.d:47
 msgid ""
@@ -294,7 +294,7 @@ msgid ""
 "*** - Virtual memory exhausted. RESET"
 msgstr ""
 "\n"
-"*** - Cuimhne fhíorúil ídithe. ATHSHOCRÚ"
+"*** - Cuimhne fhÃ­orÃºil Ã­dithe. ATHSHOCRÃš"
 
 #: spvw_alloca.d:49
 msgid ""
@@ -302,7 +302,7 @@ msgid ""
 "*** - Memory exhausted. RESET"
 msgstr ""
 "\n"
-"*** - Cuimhne ídithe. ATHSHOCRÚ"
+"*** - Cuimhne Ã­dithe. ATHSHOCRÃš"
 
 #: spvw_mmap.d:66 spvw_mmap.d:196 spvw_mmap.d:355 spvw_multimap.d:160
 msgid "Cannot map memory to address 0x%x .\n"
@@ -322,7 +322,7 @@ msgstr "Theip ar CreateFileMapping()."
 
 #: spvw_mmap.d:232
 msgid "MapViewOfFileEx(addr=0x%x,off=0x%x) failed."
-msgstr "Theip ar MapViewOfFileEx(seoladh=0x%x,fritháireamh=0x%x)."
+msgstr "Theip ar MapViewOfFileEx(seoladh=0x%x,frithÃ¡ireamh=0x%x)."
 
 #: spvw_mmap.d:238
 msgid "MapViewOfFileEx() returned 0x%x instead of 0x%x.\n"
@@ -338,7 +338,7 @@ msgstr "Theip ar VirtualProtect()."
 
 #: spvw_mmap.d:335 spvw_multimap.d:114 spvw_multimap.d:189
 msgid "Cannot open <%s>."
-msgstr "Ní féidir <%s> a oscailt."
+msgstr "NÃ­ fÃ©idir <%s> a oscailt."
 
 #: spvw_multimap.d:138
 msgid "msync(0x%x,0x%x,MS_INVALIDATE) failed."
@@ -346,15 +346,15 @@ msgstr "Theip ar msync(0x%x,0x%x,MS_INVALIDATE)."
 
 #: spvw_multimap.d:198
 msgid "Cannot delete <%s>."
-msgstr "Ní féidir <%s> a scriosadh."
+msgstr "NÃ­ fÃ©idir <%s> a scriosadh."
 
 #: spvw_multimap.d:211
 msgid "** WARNING: ** Too little free disk space for <%s>.\n"
-msgstr "** RABHADH: ** Níl go leor spás diosca saor le haghaidh <%s>.\n"
+msgstr "** RABHADH: ** NÃ­l go leor spÃ¡s diosca saor le haghaidh <%s>.\n"
 
 #: spvw_multimap.d:212
 msgid "Please restart LISP with less memory (option -m).\n"
-msgstr "Cuir LISP ar siúl as úr le níos lú cuimhne (rogha -m).\n"
+msgstr "Cuir LISP ar siÃºl as Ãºr le nÃ­os lÃº cuimhne (rogha -m).\n"
 
 #: spvw_multimap.d:220
 msgid "Cannot make <%s> long enough."
@@ -362,11 +362,11 @@ msgstr ""
 
 #: spvw_multimap.d:234
 msgid "Cannot fill <%s>."
-msgstr "Ní féidir <%s> a líonadh."
+msgstr "NÃ­ fÃ©idir <%s> a lÃ­onadh."
 
 #: spvw_multimap.d:247 spvw_multimap.d:281
 msgid "Cannot close <%s>."
-msgstr "Ní féidir <%s> a dhúnadh."
+msgstr "NÃ­ fÃ©idir <%s> a dhÃºnadh."
 
 #: spvw_multimap.d:319
 msgid "Recompile your operating system with SYSV IPC support.\n"
@@ -382,7 +382,7 @@ msgstr ""
 
 #: spvw_multimap.d:366 spvw_multimap.d:372
 msgid "%s: Cannot fill shared memory."
-msgstr "%s: Ní féidir comhchuimhne a líonadh."
+msgstr "%s: NÃ­ fÃ©idir comhchuimhne a lÃ­onadh."
 
 #: spvw_multimap.d:385
 msgid "Cannot remove shared memory segment."
@@ -406,7 +406,7 @@ msgstr ""
 
 #: spvw_sigint.d:69 spvw_sigint.d:132
 msgid "Ctrl-C: User break"
-msgstr "Ctrl-C: Idirbhriseadh úsáideora"
+msgstr "Ctrl-C: Idirbhriseadh ÃºsÃ¡ideora"
 
 #: spvw_garcol.d:2225
 msgid "munmap() failed."
@@ -428,7 +428,7 @@ msgstr ""
 
 #: spvw_memfile.d:243
 msgid "disk full"
-msgstr "diosca lán"
+msgstr "diosca lÃ¡n"
 
 #: spvw_memfile.d:779
 msgid "%s: operating system error during load of initialization file `%s'\n"
@@ -436,7 +436,7 @@ msgstr ""
 
 #: spvw_memfile.d:1246
 msgid "%s: Cannot map the initialization file `%s' into memory."
-msgstr "%s: Ní féidir an comhad túsaithe `%s' a luchtú isteach sa chuimhne."
+msgstr "%s: NÃ­ fÃ©idir an comhad tÃºsaithe `%s' a luchtÃº isteach sa chuimhne."
 
 #: spvw_memfile.d:1514
 msgid "%s: operating system error during load of initialization file `%s'"
@@ -445,19 +445,19 @@ msgstr ""
 #: spvw_memfile.d:1519
 msgid "%s: initialization file `%s' was not created by this version of CLISP\n"
 msgstr ""
-"%s: ní raibh an comhad túsaithe `%s' cruthaithe ag an leagan seo de CLISP\n"
+"%s: nÃ­ raibh an comhad tÃºsaithe `%s' cruthaithe ag an leagan seo de CLISP\n"
 
 #: spvw_memfile.d:1522
 msgid "%s: not enough memory for initialization\n"
-msgstr "%s: níl go leor cuimhne chun túsú\n"
+msgstr "%s: nÃ­l go leor cuimhne chun tÃºsÃº\n"
 
 #: eval.d:837
 msgid "EVAL: variable ~ has no value"
-msgstr "EVAL: níl luach ag an athróg ~"
+msgstr "EVAL: nÃ­l luach ag an athrÃ³g ~"
 
 #: eval.d:1424
 msgid "Too many documentation strings in ~"
-msgstr "An iomarca teaghrán doiciméadaithe i ~"
+msgstr "An iomarca teaghrÃ¡n doicimÃ©adaithe i ~"
 
 #: eval.d:1624
 msgid "~: lambda-list for ~ is missing"
@@ -469,11 +469,11 @@ msgstr ""
 
 #: eval.d:1745
 msgid "~: illegal declaration ~"
-msgstr "~: fógra neamhcheadaithe ~"
+msgstr "~: fÃ³gra neamhcheadaithe ~"
 
 #: eval.d:1838
 msgid "~: variable specification after ~ too long: ~"
-msgstr "~: sonrú rófhada athróige tar éis ~: ~"
+msgstr "~: sonrÃº rÃ³fhada athrÃ³ige tar Ã©is ~: ~"
 
 #: eval.d:1876
 msgid "~: ~ var must be followed by ~ or ~ or end of list: ~"
@@ -485,7 +485,7 @@ msgstr ""
 
 #: eval.d:1974
 msgid "~: incorrect variable specification after ~: ~"
-msgstr "~: sonrú mícheart athróige tar éis ~: ~"
+msgstr "~: sonrÃº mÃ­cheart athrÃ³ige tar Ã©is ~: ~"
 
 #: eval.d:1982
 msgid "~: ~ must be followed by ~ or end of list: ~"
@@ -501,7 +501,7 @@ msgstr ""
 
 #: eval.d:2040
 msgid "~: too many parameters in the lambda-list ~"
-msgstr "~: an iomarca paraiméadar sa liosta-lambda ~"
+msgstr "~: an iomarca paraimÃ©adar sa liosta-lambda ~"
 
 #: eval.d:2047
 msgid "~: a dot in a lambda-list is allowed only for macros, not here: ~"
@@ -509,27 +509,27 @@ msgstr ""
 
 #: eval.d:2118
 msgid "~: ~ is a special operator, not a function"
-msgstr "~: is oibreoir speisialta é ~, ní feidhm é"
+msgstr "~: is oibreoir speisialta Ã© ~, nÃ­ feidhm Ã©"
 
 #: eval.d:2129
 msgid "~: ~ is a macro, not a function"
-msgstr "~: is macra é ~, ní feidhm é"
+msgstr "~: is macra Ã© ~, nÃ­ feidhm Ã©"
 
 #: eval.d:2404
 msgid "EVAL/APPLY: too few arguments given to ~"
-msgstr "EVAL/APPLY: níl go leor argóintí go ~"
+msgstr "EVAL/APPLY: nÃ­l go leor argÃ³intÃ­ go ~"
 
 #: eval.d:2486
 msgid "EVAL/APPLY: too many arguments given to ~"
-msgstr "EVAL/APPLY: an iomarca argóintí go ~"
+msgstr "EVAL/APPLY: an iomarca argÃ³intÃ­ go ~"
 
 #: eval.d:3051
 msgid "EVAL: too few parameters for special operator ~: ~"
-msgstr "EVAL: níl go leor paraiméadair le haghaidh an oibreora speisialta ~: ~"
+msgstr "EVAL: nÃ­l go leor paraimÃ©adair le haghaidh an oibreora speisialta ~: ~"
 
 #: eval.d:3064
 msgid "EVAL: too many parameters for special operator ~: ~"
-msgstr "EVAL: an iomarca paraiméadar le haghaidh an oibreora speisialta ~: ~"
+msgstr "EVAL: an iomarca paraimÃ©adar le haghaidh an oibreora speisialta ~: ~"
 
 #: eval.d:3076
 msgid "EVAL: dotted parameter list for special operator ~: ~"
@@ -537,11 +537,11 @@ msgstr ""
 
 #: eval.d:3136
 msgid "EVAL: too few arguments given to ~: ~"
-msgstr "EVAL: níl go leor argóintí go ~: ~"
+msgstr "EVAL: nÃ­l go leor argÃ³intÃ­ go ~: ~"
 
 #: eval.d:3145
 msgid "EVAL: too many arguments given to ~: ~"
-msgstr "EVAL: an iomarca argóintí go ~: ~"
+msgstr "EVAL: an iomarca argÃ³intÃ­ go ~: ~"
 
 #: eval.d:3154
 msgid "EVAL: argument list given to ~ is dotted: ~"
@@ -553,11 +553,11 @@ msgstr ""
 
 #: eval.d:3992
 msgid "APPLY: too many arguments given to ~"
-msgstr "APPLY: an iomarca argóintí go ~"
+msgstr "APPLY: an iomarca argÃ³intÃ­ go ~"
 
 #: eval.d:3999
 msgid "APPLY: too few arguments given to ~"
-msgstr "APPLY: níl go leor argóintí go ~"
+msgstr "APPLY: nÃ­l go leor argÃ³intÃ­ go ~"
 
 #: eval.d:6429 eval.d:6443
 msgid "~: symbol ~ has no value"
@@ -569,7 +569,7 @@ msgstr ""
 
 #: eval.d:7081 control.d:2194
 msgid "~: too many arguments given to ~"
-msgstr "~: an iomarca argóintí go ~"
+msgstr "~: an iomarca argÃ³intÃ­ go ~"
 
 #: eval.d:7258 eval.d:7292
 msgid "(~ ~): the tagbody of the tags ~ has already been left"
@@ -589,7 +589,7 @@ msgstr ""
 
 #: eval.d:8356
 msgid "undefined bytecode in ~ at byte ~"
-msgstr "beartchód gan sainmhíniú i ~ ag beart ~"
+msgstr "beartchÃ³d gan sainmhÃ­niÃº i ~ ag beart ~"
 
 #: eval.d:8364
 msgid "too many return values"
@@ -625,7 +625,7 @@ msgstr ""
 
 #: control.d:418
 msgid "~: illegal variable specification ~"
-msgstr "~: sonrú neamhbhailí athróige ~"
+msgstr "~: sonrÃº neamhbhailÃ­ athrÃ³ige ~"
 
 #: control.d:545
 msgid "~: symbol ~ is declared special and must not be declared a macro"
@@ -637,15 +637,15 @@ msgstr ""
 
 #: control.d:582
 msgid "~: too many variables and/or declarations"
-msgstr "~: an iomarca athróga agus/nó fógraí"
+msgstr "~: an iomarca athrÃ³ga agus/nÃ³ fÃ³graÃ­"
 
 #: control.d:840
 msgid "~: ~ is not a function specification"
-msgstr "~: ní sonraíocht feidhme é ~"
+msgstr "~: nÃ­ sonraÃ­ocht feidhme Ã© ~"
 
 #: control.d:1015
 msgid "~: ~ is not a macro specification"
-msgstr "~: ní sonraíocht macra é ~"
+msgstr "~: nÃ­ sonraÃ­ocht macra Ã© ~"
 
 #: control.d:1022
 msgid "~: macro name ~ should be a symbol"
@@ -701,7 +701,7 @@ msgstr "~: an iomarca luachanna"
 
 #: control.d:1723
 msgid "~: too many arguments to ~"
-msgstr "~: an iomarca argóintí go ~"
+msgstr "~: an iomarca argÃ³intÃ­ go ~"
 
 #: control.d:1967
 msgid "Argument ~ is not a macroexpansion environment"
@@ -709,7 +709,7 @@ msgstr ""
 
 #: control.d:2024
 msgid "declarations ~ are not allowed here"
-msgstr "ní cheadaítear fógraí ~ anseo"
+msgstr "nÃ­ cheadaÃ­tear fÃ³graÃ­ ~ anseo"
 
 #: control.d:2045
 msgid "~: ~ evaluated to the values ~, not of type ~"
@@ -717,11 +717,11 @@ msgstr ""
 
 #: control.d:2056
 msgid "~: bad declaration ~"
-msgstr "~: drochfhógra ~"
+msgstr "~: drochfhÃ³gra ~"
 
 #: control.d:2267
 msgid "no doc-strings allowed here: ~"
-msgstr "ní cheadaítear teaghráin dhoiciméadaithe anseo: ~"
+msgstr "nÃ­ cheadaÃ­tear teaghrÃ¡in dhoicimÃ©adaithe anseo: ~"
 
 #: control.d:2286
 msgid "keyword argument list ~ has an odd length"
@@ -743,7 +743,7 @@ msgstr ""
 
 #: encoding.d:61
 msgid "incomplete byte sequence at end of buffer for ~"
-msgstr "seicheamh neamhiomlán ag deireadh an mhaoláin le haghaidh ~"
+msgstr "seicheamh neamhiomlÃ¡n ag deireadh an mhaolÃ¡in le haghaidh ~"
 
 #: encoding.d:323
 msgid "character #x$$$$$$$$ in ~ conversion, not an UTF-32 character"
@@ -774,7 +774,7 @@ msgstr ""
 #: pathname.d:7372 pathname.d:8258 stream.d:3008 stream.d:3114 stream.d:15903
 #: hashtabl.d:1272 error.d:1052
 msgid "~: illegal ~ argument ~"
-msgstr "~: argóint ~ neamhcheadaithe ~"
+msgstr "~: argÃ³int ~ neamhcheadaithe ~"
 
 #: encoding.d:2450
 msgid "~: ~ is not a 1:1 encoding"
@@ -786,7 +786,7 @@ msgstr ""
 
 #: pathname.d:696 pathname.d:740
 msgid "~: illegal hostname ~"
-msgstr "~: óstainm neamhcheadaithe ~"
+msgstr "~: Ã³stainm neamhcheadaithe ~"
 
 #: pathname.d:756
 msgid "~: host should be NIL, not ~"
@@ -808,15 +808,15 @@ msgstr ""
 
 #: pathname.d:1691
 msgid "~: there is no user named ~"
-msgstr "~: níl aon úsáideoir darb ainm ~"
+msgstr "~: nÃ­l aon ÃºsÃ¡ideoir darb ainm ~"
 
 #: pathname.d:1750
 msgid "~: there is no environment variable ~"
-msgstr "~: níl aon athróg thimpeallachta ~"
+msgstr "~: nÃ­l aon athrÃ³g thimpeallachta ~"
 
 #: pathname.d:1906
 msgid "~: syntax error in filename ~ at position ~"
-msgstr "~: earráid chomhréire in ainm comhaid ~, ionad ~"
+msgstr "~: earrÃ¡id chomhrÃ©ire in ainm comhaid ~, ionad ~"
 
 #: pathname.d:1922 pathname.d:1937
 msgid "~: hosts ~ and ~ of ~ should coincide"
@@ -828,11 +828,11 @@ msgstr ""
 
 #: pathname.d:2144
 msgid "~: endless loop while resolving ~"
-msgstr "~: lúb éigríochta agus ~ á scaoileadh"
+msgstr "~: lÃºb Ã©igrÃ­ochta agus ~ Ã¡ scaoileadh"
 
 #: pathname.d:2171
 msgid "~: unknown logical host ~ in ~"
-msgstr "~: óstríomhaire loighciúil anaithnid ~ i ~"
+msgstr "~: Ã³strÃ­omhaire loighciÃºil anaithnid ~ i ~"
 
 #: pathname.d:2183
 msgid "~: No replacement rule for ~ is known."
@@ -858,11 +858,11 @@ msgstr ""
 
 #: pathname.d:3786
 msgid "wildcards are not allowed here: ~"
-msgstr "ní cheadaítear saoróga anseo: ~"
+msgstr "nÃ­ cheadaÃ­tear saorÃ³ga anseo: ~"
 
 #: pathname.d:3821
 msgid "~: argument ~ should be ~, ~, ~, ~, ~, ~ or ~"
-msgstr "~: ba chóir argóint ~ a bheith ~, ~, ~, ~, ~, ~ nó ~"
+msgstr "~: ba chÃ³ir argÃ³int ~ a bheith ~, ~, ~, ~, ~, ~ nÃ³ ~"
 
 #: pathname.d:4767
 msgid "~: replacement pieces ~ do not fit into ~"
@@ -874,7 +874,7 @@ msgstr ""
 
 #: pathname.d:4894
 msgid "(~ ~ ~ ~) is ambiguous: ~"
-msgstr "is débhríoch é (~ ~ ~ ~): ~"
+msgstr "is dÃ©bhrÃ­och Ã© (~ ~ ~ ~): ~"
 
 #: pathname.d:4915
 msgid "nonexistent directory: ~"
@@ -882,7 +882,7 @@ msgstr "comhadlann ar iarraidh: ~"
 
 #: pathname.d:4924
 msgid "~: file ~ already exists"
-msgstr "~: tá comhad ~ ann cheana"
+msgstr "~: tÃ¡ comhad ~ ann cheana"
 
 #: pathname.d:5140
 msgid "no directory ~ above ~"
@@ -890,11 +890,11 @@ msgstr ""
 
 #: pathname.d:5147
 msgid "\"..\\\\\" after \"...\\\\\" is invalid: ~"
-msgstr "ní cheadaítear \"..\\\\\" tar éis \"...\\\\\": ~"
+msgstr "nÃ­ cheadaÃ­tear \"..\\\\\" tar Ã©is \"...\\\\\": ~"
 
 #: pathname.d:5325
 msgid "UNIX error while GETWD: ~"
-msgstr "Earráid UNIX le linn GETWD: ~"
+msgstr "EarrÃ¡id UNIX le linn GETWD: ~"
 
 #: pathname.d:5332
 msgid "UNIX GETWD returned ~"
@@ -906,7 +906,7 @@ msgstr ""
 
 #: pathname.d:5465
 msgid "~: ~ names a directory, not a file"
-msgstr "~: is comhadlann é ~, ní comhad é"
+msgstr "~: is comhadlann Ã© ~, nÃ­ comhad Ã©"
 
 #: pathname.d:5619
 msgid "no file name given: ~"
@@ -914,11 +914,11 @@ msgstr ""
 
 #: pathname.d:5630
 msgid "not a directory: ~"
-msgstr "ní comhadlann é: ~"
+msgstr "nÃ­ comhadlann Ã©: ~"
 
 #: pathname.d:5675
 msgid "~: file ~ does not exist"
-msgstr "~: níl an comhad ~ ann"
+msgstr "~: nÃ­l an comhad ~ ann"
 
 #: pathname.d:5708
 msgid "~: pathname with type but without name makes no sense: ~"
@@ -934,11 +934,11 @@ msgstr ""
 
 #: pathname.d:7471
 msgid "root directory not allowed here: ~"
-msgstr "ní cheadaítear fréamhchomhadlann anseo: ~"
+msgstr "nÃ­ cheadaÃ­tear frÃ©amhchomhadlann anseo: ~"
 
 #: pathname.d:7563
 msgid "Creating directory: "
-msgstr "Comhadlann á cruthú: "
+msgstr "Comhadlann Ã¡ cruthÃº: "
 
 #: pathname.d:8734
 msgid ""
@@ -947,7 +947,7 @@ msgstr ""
 
 #: stream.d:269 stream.d:13404
 msgid "~ on ~ is illegal"
-msgstr "ní cheadaítear ~ ar ~"
+msgstr "nÃ­ cheadaÃ­tear ~ ar ~"
 
 #: stream.d:543 stream.d:597 stream.d:752
 msgid "Return value ~ of call to ~ should be an integer between ~ and ~."
@@ -1060,7 +1060,7 @@ msgstr ""
 
 #: stream.d:10314
 msgid "cannot output to standard output"
-msgstr "ní féidir a scríobh ar aschur caighdeánach"
+msgstr "nÃ­ fÃ©idir a scrÃ­obh ar aschur caighdeÃ¡nach"
 
 #: stream.d:11505
 msgid "environment has no TERM variable"
@@ -1084,15 +1084,15 @@ msgstr ""
 
 #: stream.d:11536
 msgid "insufficient terminal: cannot clear screen"
-msgstr "teirminéal easpach: ní féidir an scáileán a ghlanadh"
+msgstr "teirminÃ©al easpach: nÃ­ fÃ©idir an scÃ¡ileÃ¡n a ghlanadh"
 
 #: stream.d:11540
 msgid "insufficient terminal: cannot position cursor randomly"
-msgstr "teirminéal easpach: ní féidir an cúrsóir chur in ionad randamach"
+msgstr "teirminÃ©al easpach: nÃ­ fÃ©idir an cÃºrsÃ³ir chur in ionad randamach"
 
 #: stream.d:12001
 msgid "~: package SCREEN is not implemented"
-msgstr "~: níl an pacáiste SCREEN ar fáil"
+msgstr "~: nÃ­l an pacÃ¡iste SCREEN ar fÃ¡il"
 
 #: stream.d:13124
 msgid "host should be string, not ~"
@@ -1120,7 +1120,7 @@ msgstr ""
 #: error.d:742 error.d:752 error.d:783 error.d:836 error.d:846 error.d:892
 #: error.d:1120 lisparit.d:335 lisparit.d:352 lisparit.d:369 lisparit.d:386
 msgid "~: ~ is not a ~"
-msgstr "~: níl ~ ina ~"
+msgstr "~: nÃ­l ~ ina ~"
 
 #: stream.d:13457
 msgid "~: argument ~ is neither an open SOCKET-STREAM nor a positive FIXNUM"
@@ -1132,15 +1132,15 @@ msgstr ""
 
 #: stream.d:13684
 msgid "~: argument ~ is not a SOCKET-STREAM"
-msgstr "~: ní SOCKET-STREAM í argóint ~"
+msgstr "~: nÃ­ SOCKET-STREAM Ã­ argÃ³int ~"
 
 #: stream.d:13703 stream.d:16377
 msgid "~: argument ~ is not an open ~"
-msgstr "~: níl argóint ~ ina ~ oscailte"
+msgstr "~: nÃ­l argÃ³int ~ ina ~ oscailte"
 
 #: stream.d:13890
 msgid "~: list ~ is too long (~ maximum)"
-msgstr "~: liosta ~ rófhada (uasmhéid ~)"
+msgstr "~: liosta ~ rÃ³fhada (uasmhÃ©id ~)"
 
 #: stream.d:14081
 msgid "~: argument ~ should be ~."
@@ -1148,7 +1148,7 @@ msgstr ""
 
 #: stream.d:14256
 msgid "Invalid direction ~ for handle ~"
-msgstr "Treoir neamhbhailí ~ le haghaidh an hanla ~"
+msgstr "Treoir neamhbhailÃ­ ~ le haghaidh an hanla ~"
 
 #: stream.d:14282
 msgid "~: ~ should be a handle, handle stream, or direction"
@@ -1156,7 +1156,7 @@ msgstr ""
 
 #: stream.d:14469
 msgid "The value of ~ is not a stream: ~"
-msgstr "Níl an luach de ~ ina shruth: ~"
+msgstr "NÃ­l an luach de ~ ina shruth: ~"
 
 #: stream.d:14471
 msgid "The value of ~ is not an appropriate stream: ~"
@@ -1170,11 +1170,11 @@ msgstr ""
 # Map Expat error codes to error strings
 #: stream.d:14496
 msgid "readline library: out of memory."
-msgstr "leabharlann readline: cuimhne ídithe."
+msgstr "leabharlann readline: cuimhne Ã­dithe."
 
 #: stream.d:14800
 msgid "~: The ~ of ~ cannot be changed from ~ to ~."
-msgstr "~: Ní féidir an ~ de ~ a athrú ó ~ go ~."
+msgstr "~: NÃ­ fÃ©idir an ~ de ~ a athrÃº Ã³ ~ go ~."
 
 #: stream.d:15856
 msgid "Return value ~ of call to ~ is not a fixnum >= 0 or NIL."
@@ -1202,7 +1202,7 @@ msgstr ""
 
 #: stream.d:16294 stream.d:16304
 msgid "~ is not a ~, cannot be output onto ~"
-msgstr "níl ~ ina ~, ní féidir é a aschur ar ~"
+msgstr "nÃ­l ~ ina ~, nÃ­ fÃ©idir Ã© a aschur ar ~"
 
 #: stream.d:16407
 msgid "~: position argument should be ~ or ~ or a nonnegative integer, not ~"
@@ -1215,7 +1215,7 @@ msgstr ""
 #: io.d:602 hashtabl.d:1475 error.d:918 error.d:928 error.d:945 error.d:958
 #: error.d:988
 msgid "~: argument ~ is not a ~"
-msgstr "~: níl argóint ~ ina ~"
+msgstr "~: nÃ­l argÃ³int ~ ina ~"
 
 #: io.d:755
 msgid "~: ~ is a dispatch macro character"
@@ -1227,7 +1227,7 @@ msgstr ""
 
 #: io.d:831
 msgid "~: digit $ not allowed as sub-char"
-msgstr "~: ní cheadaítear digit $ mar fo-charachtar"
+msgstr "~: nÃ­ cheadaÃ­tear digit $ mar fo-charachtar"
 
 #: io.d:878
 msgid "~: new value ~ should be ~, ~, ~ or ~."
@@ -1255,7 +1255,7 @@ msgstr ""
 
 #: io.d:1280
 msgid "~ from ~: illegal character ~"
-msgstr "~ ó ~: carachtar neamhcheadaithe ~"
+msgstr "~ Ã³ ~: carachtar neamhcheadaithe ~"
 
 #: io.d:1291
 msgid "~: input stream ~ ends within a token after single escape character"
@@ -1300,23 +1300,23 @@ msgstr ""
 
 #: io.d:2156
 msgid "~ from ~: there is no package with name ~"
-msgstr "~ ó ~: níl aon phacáiste leis an ainm ~"
+msgstr "~ Ã³ ~: nÃ­l aon phacÃ¡iste leis an ainm ~"
 
 #: io.d:2182
 msgid "~ from ~: ~ has no external symbol with name ~"
-msgstr "~ ó ~: níl aon shiombail sheachtrach ag ~ leis an ainm ~"
+msgstr "~ Ã³ ~: nÃ­l aon shiombail sheachtrach ag ~ leis an ainm ~"
 
 #: io.d:2220
 msgid "~ from ~: token \".\" not allowed here"
-msgstr "~ ó ~: ní cheadaítear comhartha \".\" anseo"
+msgstr "~ Ã³ ~: nÃ­ cheadaÃ­tear comhartha \".\" anseo"
 
 #: io.d:2265 io.d:6205
 msgid "~: the value of ~ has been arbitrarily altered"
-msgstr "~: athraíodh an luach de ~ go treallach"
+msgstr "~: athraÃ­odh an luach de ~ go treallach"
 
 #: io.d:2279
 msgid "~: no entry for ~ from ~ in ~ = ~"
-msgstr "~: níl aon iontráil do ~ ó ~ i ~ = ~"
+msgstr "~: nÃ­l aon iontrÃ¡il do ~ Ã³ ~ i ~ = ~"
 
 #: io.d:2485
 msgid "~ from ~: illegal end of dotted list"
@@ -1332,7 +1332,7 @@ msgstr ""
 
 #: io.d:2716
 msgid "~ from ~: no number allowed between # and $"
-msgstr "~ ó ~: ní cheadaítear uimhir idir # agus $"
+msgstr "~ Ã³ ~: nÃ­ cheadaÃ­tear uimhir idir # agus $"
 
 #: io.d:2809
 msgid "~: input stream ~ ends within a comment #$ ... $#"
@@ -1344,7 +1344,7 @@ msgstr ""
 
 #: io.d:2953
 msgid "~ from ~: there is no character with name ~"
-msgstr "~ ó ~: níl aon charachtar darb ainm ~"
+msgstr "~ Ã³ ~: nÃ­l aon charachtar darb ainm ~"
 
 #: io.d:3012
 msgid "~ from ~: token ~ after #$ is not a rational number in base ~"
@@ -1364,7 +1364,7 @@ msgstr ""
 
 #: io.d:3172
 msgid "~ from ~: token expected after #:"
-msgstr "~ ó ~: ag súil le comhartha tar éis #:"
+msgstr "~ Ã³ ~: ag sÃºil le comhartha tar Ã©is #:"
 
 #: io.d:3199
 msgid "~ from ~: token ~ after #: should contain no colon"
@@ -1404,7 +1404,7 @@ msgstr ""
 
 #: io.d:3645
 msgid "~ from ~: label #~? too large"
-msgstr "~ ó ~: lipéad #~? rómhór"
+msgstr "~ Ã³ ~: lipÃ©ad #~? rÃ³mhÃ³r"
 
 #: io.d:3666
 msgid ""
@@ -1413,15 +1413,15 @@ msgstr ""
 
 #: io.d:3684
 msgid "~ from ~: label #~= may not be defined twice"
-msgstr "~ ó ~: ní cheadaítear an lipéad #~= a bheith sainmhínithe faoi dhó"
+msgstr "~ Ã³ ~: nÃ­ cheadaÃ­tear an lipÃ©ad #~= a bheith sainmhÃ­nithe faoi dhÃ³"
 
 #: io.d:3709
 msgid "~ from ~: #~= #~# is illegal"
-msgstr "~ ó ~: ní cheadaítear #~= #~#"
+msgstr "~ Ã³ ~: nÃ­ cheadaÃ­tear #~= #~#"
 
 #: io.d:3732
 msgid "~ from ~: undefined label #~#"
-msgstr "~ ó ~: lipéad #~# gan sainmhíniú"
+msgstr "~ Ã³ ~: lipÃ©ad #~# gan sainmhÃ­niÃº"
 
 #: io.d:3747
 msgid "~ from ~: objects printed as #<...> cannot be read back in"
@@ -1433,7 +1433,7 @@ msgstr ""
 
 #: io.d:3832
 msgid "~ from ~: illegal feature ~"
-msgstr "~ ó ~: airí neamhcheadaithe ~"
+msgstr "~ Ã³ ~: airÃ­ neamhcheadaithe ~"
 
 #: io.d:3956
 msgid ""
@@ -1447,15 +1447,15 @@ msgstr ""
 
 #: io.d:3979 io.d:4003
 msgid "~ from ~: bad ~"
-msgstr "~ ó ~: ~ dona"
+msgstr "~ Ã³ ~: ~ dona"
 
 #: io.d:4034
 msgid "~ from ~: no structure of type ~ has been defined"
-msgstr "~ ó ~: ní sainmhíníodh aon struchtúr den chineál ~"
+msgstr "~ Ã³ ~: nÃ­ sainmhÃ­nÃ­odh aon struchtÃºr den chineÃ¡l ~"
 
 #: io.d:4043
 msgid "~ from ~: bad ~ for ~"
-msgstr "~ ó ~: ~ dona le haghaidh ~"
+msgstr "~ Ã³ ~: ~ dona le haghaidh ~"
 
 #: io.d:4054
 msgid ""
@@ -1527,11 +1527,11 @@ msgstr "~: droch ~"
 
 #: io.d:9012
 msgid "~: an unknown record type has been generated!"
-msgstr "~: gineadh taifead de chineál anaithnid!"
+msgstr "~: gineadh taifead de chineÃ¡l anaithnid!"
 
 #: io.d:9531
 msgid "~: argument ~ is too large"
-msgstr "~: argóint ~ rómhór"
+msgstr "~: argÃ³int ~ rÃ³mhÃ³r"
 
 #: io.d:9551
 msgid "~: argument ~ should be ~ or ~."
@@ -1543,7 +1543,7 @@ msgstr ""
 
 #: array.d:230
 msgid "index too large"
-msgstr "innéacs rómhór"
+msgstr "innÃ©acs rÃ³mhÃ³r"
 
 #: array.d:235
 msgid ""
@@ -1574,7 +1574,7 @@ msgstr ""
 
 #: array.d:446
 msgid "~: index ~ for ~ is out of range"
-msgstr "~: is as raon an t-innéacs ~ le haghaidh ~"
+msgstr "~: is as raon an t-innÃ©acs ~ le haghaidh ~"
 
 #: array.d:494
 msgid "~: cannot retrieve values from an array of element type NIL"
@@ -1699,7 +1699,7 @@ msgstr ""
 #: array.d:4780
 msgid "~: cannot displace array ~ to itself"
 msgstr ""
-"ní féidir an chomhadlann %s a chóipeáil isteach sa chomhadlann féin, %s"
+"nÃ­ fÃ©idir an chomhadlann %s a chÃ³ipeÃ¡il isteach sa chomhadlann fÃ©in, %s"
 
 #: array.d:4802
 msgid "~: array ~ has no fill-pointer"
@@ -1727,7 +1727,7 @@ msgstr ""
 
 #: hashtabl.d:1129
 msgid "internal error occured while resizing ~"
-msgstr "tharla earráid inmheánach le linn athmhéadaithe ~"
+msgstr "tharla earrÃ¡id inmheÃ¡nach le linn athmhÃ©adaithe ~"
 
 #: hashtabl.d:1226
 msgid "~: argument ~ should be ~, ~, ~, ~ or ~."
@@ -1747,7 +1747,7 @@ msgstr ""
 
 #: hashtabl.d:1433
 msgid "~: internal error while building ~"
-msgstr "~: earráid inmheánach le linn tógála ~"
+msgstr "~: earrÃ¡id inmheÃ¡nach le linn tÃ³gÃ¡la ~"
 
 #: list.d:1047
 msgid "~: ~ is not a pair"
@@ -1759,7 +1759,7 @@ msgstr ""
 
 #: list.d:1930
 msgid "~: index ~ too large for ~"
-msgstr "~: tá an t-innéacs ~ rómhór le haghaidh ~"
+msgstr "~: tÃ¡ an t-innÃ©acs ~ rÃ³mhÃ³r le haghaidh ~"
 
 #: list.d:1988
 msgid "~: start index ~ too large for ~"
@@ -1838,7 +1838,7 @@ msgstr ""
 
 #: package.d:1180
 msgid "UNEXPORT in ~ is illegal"
-msgstr "Ní cheadaítear UNEXPORT i ~"
+msgstr "NÃ­ cheadaÃ­tear UNEXPORT i ~"
 
 #: package.d:1199
 msgid "UNEXPORT works only on accessible symbols, not on ~ in ~"
@@ -1868,7 +1868,7 @@ msgstr ""
 
 #: package.d:1309
 msgid "the symbol to export, "
-msgstr "an tsiombail le heaspórtáil, "
+msgstr "an tsiombail le heaspÃ³rtÃ¡il, "
 
 #: package.d:1321
 msgid "the old symbol, "
@@ -1897,7 +1897,7 @@ msgstr ""
 
 #: package.d:1858
 msgid "~: There is no package with name ~"
-msgstr "~: Níl aon phacáiste ann darbh ainm ~"
+msgstr "~: NÃ­l aon phacÃ¡iste ann darbh ainm ~"
 
 #: package.d:1875
 msgid "~: argument should be a package or a package name, not ~"
@@ -1905,7 +1905,7 @@ msgstr ""
 
 #: package.d:1986
 msgid "~: there is already a package named ~"
-msgstr "~: tá pacáiste ann cheana darbh ainm ~"
+msgstr "~: tÃ¡ pacÃ¡iste ann cheana darbh ainm ~"
 
 #: package.d:2221
 msgid "~: argument should be a symbol or a list of symbols, not ~"
@@ -1913,23 +1913,23 @@ msgstr ""
 
 #: package.d:2337
 msgid "a package with name ~S already exists."
-msgstr "tá pacáiste ann leis an ainm ~S cheana."
+msgstr "tÃ¡ pacÃ¡iste ann leis an ainm ~S cheana."
 
 #: package.d:2362
 msgid "You can input another name."
-msgstr "Is féidir leat ainm eile a iontráil."
+msgstr "Is fÃ©idir leat ainm eile a iontrÃ¡il."
 
 #: package.d:2363
 msgid "Please input new package name:"
-msgstr "Iontráil ainm nua ar an phacáiste le do thoil:"
+msgstr "IontrÃ¡il ainm nua ar an phacÃ¡iste le do thoil:"
 
 #: package.d:2371
 msgid "You can input another nickname."
-msgstr "Is féidir leat leasainm eile a iontráil."
+msgstr "Is fÃ©idir leat leasainm eile a iontrÃ¡il."
 
 #: package.d:2372
 msgid "Please input new package nickname:"
-msgstr "Iontráil leasainm nua ar an phacáiste le do thoil:"
+msgstr "IontrÃ¡il leasainm nua ar an phacÃ¡iste le do thoil:"
 
 #: package.d:2428
 msgid "Cannot change the case sensitiveness of ~."
@@ -1937,15 +1937,15 @@ msgstr ""
 
 #: package.d:2493
 msgid "Ignore."
-msgstr "Déan neamhshuim."
+msgstr "DÃ©an neamhshuim."
 
 #: package.d:2494
 msgid "~S: There is no package with name ~S."
-msgstr "~S: Níl aon phacáiste ann darbh ainm ~S."
+msgstr "~S: NÃ­l aon phacÃ¡iste ann darbh ainm ~S."
 
 #: package.d:2522
 msgid "~*Delete ~S anyway."
-msgstr "~*Scrios ~S mar sin féin."
+msgstr "~*Scrios ~S mar sin fÃ©in."
 
 #: package.d:2523
 msgid "~S: ~S is used by ~{~S~^, ~}."
@@ -1961,7 +1961,7 @@ msgstr ""
 
 #: record.d:40
 msgid "~: ~ is not a record"
-msgstr "~: ní taifead é ~"
+msgstr "~: nÃ­ taifead Ã© ~"
 
 #: record.d:96 charstrg.d:2820
 msgid "~: ~ ~ should be of type ~"
@@ -1969,7 +1969,7 @@ msgstr ""
 
 #: record.d:129
 msgid "~: ~ is not a structure of type ~"
-msgstr "~: níl ~ ina structúr den chineál ~"
+msgstr "~: nÃ­l ~ ina structÃºr den chineÃ¡l ~"
 
 #: record.d:176
 msgid "~: Slot ~ of ~ has no value"
@@ -1977,11 +1977,11 @@ msgstr ""
 
 #: record.d:276
 msgid "~: ~ is not a closure"
-msgstr "~: ní clabhsúr é ~"
+msgstr "~: nÃ­ clabhsÃºr Ã© ~"
 
 #: record.d:286
 msgid "~: This is not a compiled closure: ~"
-msgstr "~: Ní clabhsúr tiomsaithe é ~"
+msgstr "~: NÃ­ clabhsÃºr tiomsaithe Ã© ~"
 
 #: record.d:354
 msgid "~ is not a valid code-vector byte"
@@ -2045,7 +2045,7 @@ msgstr ""
 
 #: sequence.d:2125
 msgid "~: sequence ~ is too long"
-msgstr "~: tá an seicheamh ~ rófhada"
+msgstr "~: tÃ¡ an seicheamh ~ rÃ³fhada"
 
 #: sequence.d:2594
 msgid "too long sequence ~"
@@ -2141,7 +2141,7 @@ msgstr ""
 
 #: debug.d:776
 msgid "~: ~ is not a stack pointer"
-msgstr "~: ní pointeoir cruaiche é ~"
+msgstr "~: nÃ­ pointeoir cruaiche Ã© ~"
 
 #: debug.d:966
 msgid "~: ~ is not a pointer to an EVAL/APPLY frame"
@@ -2205,7 +2205,7 @@ msgid ""
 "  Next environment: "
 msgstr ""
 "\n"
-"  An chéad timpeallacht eile: "
+"  An chÃ©ad timpeallacht eile: "
 
 #: debug.d:1194
 msgid ""
@@ -2289,7 +2289,7 @@ msgstr ""
 
 #: debug.d:1340
 msgid "~: unknown frame type"
-msgstr "~: cineál anaithnid fráma"
+msgstr "~: cineÃ¡l anaithnid frÃ¡ma"
 
 #: error.d:57
 msgid "Unprintable error message"
@@ -2349,7 +2349,7 @@ msgstr ""
 
 #: error.d:1053
 msgid "~: argument ~ is not a character set"
-msgstr "~: níl argóint ~ ina tacar carachtar"
+msgstr "~: nÃ­l argÃ³int ~ ina tacar carachtar"
 
 #: error.d:1071
 msgid "~: keyword arguments in ~ should occur pairwise"
@@ -2367,11 +2367,11 @@ msgstr ""
 
 #: error.d:1155
 msgid "~: undefined function ~"
-msgstr "~: feidhm ~ gan sainmhíniú"
+msgstr "~: feidhm ~ gan sainmhÃ­niÃº"
 
 #: error.d:1203
 msgid "~: ~ is not a function name"
-msgstr "~: ní ainm feidhme é ~"
+msgstr "~: nÃ­ ainm feidhme Ã© ~"
 
 #: error.d:1219
 msgid ""
@@ -2442,36 +2442,36 @@ msgstr ""
 
 #: errunix.d:63
 msgid "Operation not permitted"
-msgstr "Oibríocht neamhcheadaithe"
+msgstr "OibrÃ­ocht neamhcheadaithe"
 
 #: errunix.d:69
 msgid "No such file or directory"
-msgstr "Níl a leithéid de chomhad ná de chomhadlann ann"
+msgstr "NÃ­l a leithÃ©id de chomhad nÃ¡ de chomhadlann ann"
 
 #: errunix.d:75
 msgid "No such process"
-msgstr "Níl a leithéid de phróiseas ann"
+msgstr "NÃ­l a leithÃ©id de phrÃ³iseas ann"
 
 #: errunix.d:81
 msgid "Interrupted system call"
-msgstr "Briseadh isteach ar glaoch ar an gcóras"
+msgstr "Briseadh isteach ar glaoch ar an gcÃ³ras"
 
 #: errunix.d:87
 msgid "I/O error"
-msgstr "Earráid I/A"
+msgstr "EarrÃ¡id I/A"
 
 #: errunix.d:93
 msgid "No such device or address"
-msgstr "Níl a leithéid de ghléas ná de sheoladh ann"
+msgstr "NÃ­l a leithÃ©id de ghlÃ©as nÃ¡ de sheoladh ann"
 
 #: errunix.d:99
 msgid "Arg list too long"
-msgstr "Liosta argóintí rófhada"
+msgstr "Liosta argÃ³intÃ­ rÃ³fhada"
 
 # cf. French - KPS
 #: errunix.d:105
 msgid "Exec format error"
-msgstr "Earráid fhormáidithe exec()"
+msgstr "EarrÃ¡id fhormÃ¡idithe exec()"
 
 #: errunix.d:111
 msgid "Bad file number"
@@ -2480,7 +2480,7 @@ msgstr "Drochuimhir chomhaid"
 # :) KPS
 #: errunix.d:117
 msgid "No child processes"
-msgstr "Níl sliocht ar phróiseas ar bith"
+msgstr "NÃ­l sliocht ar phrÃ³iseas ar bith"
 
 #: errunix.d:123
 msgid "No more processes"
@@ -2488,11 +2488,11 @@ msgstr ""
 
 #: errunix.d:129
 msgid "Not enough memory"
-msgstr "Cuimhne ídithe"
+msgstr "Cuimhne Ã­dithe"
 
 #: errunix.d:135
 msgid "Permission denied"
-msgstr "Cead diúltaithe"
+msgstr "Cead diÃºltaithe"
 
 #: errunix.d:141
 msgid "Bad address"
@@ -2500,7 +2500,7 @@ msgstr "Drochsheoladh"
 
 #: errunix.d:147
 msgid "Block device required"
-msgstr "Ní foláir gléas blocála a úsáid"
+msgstr "NÃ­ folÃ¡ir glÃ©as blocÃ¡la a ÃºsÃ¡id"
 
 #: errunix.d:153
 msgid "Device busy"
@@ -2508,19 +2508,19 @@ msgstr ""
 
 #: errunix.d:159
 msgid "File exists"
-msgstr "Tá an comhad ann cheana"
+msgstr "TÃ¡ an comhad ann cheana"
 
 #: errunix.d:165
 msgid "Cross-device link"
-msgstr "Nasc idir gléasanna"
+msgstr "Nasc idir glÃ©asanna"
 
 #: errunix.d:171
 msgid "No such device"
-msgstr "Níl a leithéid de ghléas ann"
+msgstr "NÃ­l a leithÃ©id de ghlÃ©as ann"
 
 #: errunix.d:177
 msgid "Not a directory"
-msgstr "Ní comhadlann é"
+msgstr "NÃ­ comhadlann Ã©"
 
 # #-#-#-#-#  error-0.0.ga.po (error 0.0)  #-#-#-#-#
 # gender? - KPS
@@ -2529,15 +2529,15 @@ msgstr "Ní comhadlann é"
 # gender? - KPS
 #: errunix.d:183
 msgid "Is a directory"
-msgstr "Is comhadlann é"
+msgstr "Is comhadlann Ã©"
 
 #: errunix.d:189
 msgid "Invalid argument"
-msgstr "Argóint neamhbhailí"
+msgstr "ArgÃ³int neamhbhailÃ­"
 
 #: errunix.d:195
 msgid "File table overflow"
-msgstr "Tábla comhaid thar maoil"
+msgstr "TÃ¡bla comhaid thar maoil"
 
 #: errunix.d:201
 msgid "Too many open files"
@@ -2549,24 +2549,24 @@ msgstr ""
 
 #: errunix.d:213
 msgid "Text file busy"
-msgstr "Tá an téacschomhad gafa"
+msgstr "TÃ¡ an tÃ©acschomhad gafa"
 
 #: errunix.d:219
 msgid "File too large"
-msgstr "Tá an comhad rómhór"
+msgstr "TÃ¡ an comhad rÃ³mhÃ³r"
 
 #: errunix.d:225
 msgid "No space left on device"
-msgstr "Níl aon spás fágtha ar an ghléas"
+msgstr "NÃ­l aon spÃ¡s fÃ¡gtha ar an ghlÃ©as"
 
 # don't conflate with cuardach=search ? - KPS
 #: errunix.d:231
 msgid "Illegal seek"
-msgstr "`seek' neamhbhailí"
+msgstr "`seek' neamhbhailÃ­"
 
 #: errunix.d:237
 msgid "Read-only file system"
-msgstr "Córas comhaid inléite amháin"
+msgstr "CÃ³ras comhaid inlÃ©ite amhÃ¡in"
 
 #: errunix.d:243
 msgid "Too many links"
@@ -2578,23 +2578,23 @@ msgstr ""
 
 #: errunix.d:259
 msgid "Argument out of domain"
-msgstr "Níl an argóint sa réimse ceadaithe"
+msgstr "NÃ­l an argÃ³int sa rÃ©imse ceadaithe"
 
 #: errunix.d:265
 msgid "Result too large"
-msgstr "Toradh rómhór"
+msgstr "Toradh rÃ³mhÃ³r"
 
 #: errunix.d:272
 msgid "Operation would block"
-msgstr "Bhlocálfadh an oibríocht seo"
+msgstr "BhlocÃ¡lfadh an oibrÃ­ocht seo"
 
 #: errunix.d:278
 msgid "Operation now in progress"
-msgstr "Oibríocht ar siúl anois"
+msgstr "OibrÃ­ocht ar siÃºl anois"
 
 #: errunix.d:284
 msgid "Operation already in progress"
-msgstr "Tá an oibríocht ar siúl cheana"
+msgstr "TÃ¡ an oibrÃ­ocht ar siÃºl cheana"
 
 #: errunix.d:291
 msgid "Too many levels of symbolic links"
@@ -2602,15 +2602,15 @@ msgstr "An iomarca nasc siombalach"
 
 #: errunix.d:297
 msgid "File name too long"
-msgstr "Tá ainm an chomhaid rófhada"
+msgstr "TÃ¡ ainm an chomhaid rÃ³fhada"
 
 #: errunix.d:303
 msgid "Directory not empty"
-msgstr "Níl an chomhadlann folamh"
+msgstr "NÃ­l an chomhadlann folamh"
 
 #: errunix.d:310
 msgid "Stale NFS file handle"
-msgstr "Tá an chlib chomhaid NFS as dáta"
+msgstr "TÃ¡ an chlib chomhaid NFS as dÃ¡ta"
 
 #: errunix.d:316
 msgid "Too many levels of remote in path"
@@ -2618,80 +2618,80 @@ msgstr ""
 
 #: errunix.d:323
 msgid "Socket operation on non-socket"
-msgstr "Oibríocht shoicéid ar rud nach ina shoicéad"
+msgstr "OibrÃ­ocht shoicÃ©id ar rud nach ina shoicÃ©ad"
 
 #: errunix.d:329
 msgid "Destination address required"
-msgstr "Ní foláir seoladh ceann scríbe"
+msgstr "NÃ­ folÃ¡ir seoladh ceann scrÃ­be"
 
 #: errunix.d:335
 msgid "Message too long"
-msgstr "Teachtaireacht rófhada"
+msgstr "Teachtaireacht rÃ³fhada"
 
 #: errunix.d:341
 msgid "Protocol wrong type for socket"
-msgstr "Níl an prótacal ar fáil leis an chineál seo soicéid"
+msgstr "NÃ­l an prÃ³tacal ar fÃ¡il leis an chineÃ¡l seo soicÃ©id"
 
 #: errunix.d:347
 msgid "Option not supported by protocol"
-msgstr "Níl an rogha seo ar fáil leis an phrótacal seo"
+msgstr "NÃ­l an rogha seo ar fÃ¡il leis an phrÃ³tacal seo"
 
 #: errunix.d:353
 msgid "Protocol not supported"
-msgstr "Níl an prótacal ar fáil"
+msgstr "NÃ­l an prÃ³tacal ar fÃ¡il"
 
 #: errunix.d:359
 msgid "Socket type not supported"
-msgstr "Ní soicéid den chineál seo ar fáil"
+msgstr "NÃ­ soicÃ©id den chineÃ¡l seo ar fÃ¡il"
 
 #: errunix.d:365
 msgid "Operation not supported on socket"
-msgstr "Oibríocht gan tacaíocht ar shoicéad"
+msgstr "OibrÃ­ocht gan tacaÃ­ocht ar shoicÃ©ad"
 
 #: errunix.d:371
 msgid "Protocol family not supported"
-msgstr "Níl an aicme phrótacail ar fáil"
+msgstr "NÃ­l an aicme phrÃ³tacail ar fÃ¡il"
 
 #: errunix.d:377
 msgid "Address family not supported by protocol family"
-msgstr "Níl an aicme sheolta ar fáil leis an phrótacal seo"
+msgstr "NÃ­l an aicme sheolta ar fÃ¡il leis an phrÃ³tacal seo"
 
 #: errunix.d:383
 msgid "Address already in use"
-msgstr "Seoladh in úsáid cheana féin"
+msgstr "Seoladh in ÃºsÃ¡id cheana fÃ©in"
 
 #: errunix.d:389
 msgid "Cannot assign requested address"
-msgstr "Ní féidir an seoladh a dháileadh mar a iarradh"
+msgstr "NÃ­ fÃ©idir an seoladh a dhÃ¡ileadh mar a iarradh"
 
 #: errunix.d:395
 msgid "Network is down"
-msgstr "Tá ainghléas ar an líonra"
+msgstr "TÃ¡ ainghlÃ©as ar an lÃ­onra"
 
 #: errunix.d:401
 msgid "Network is unreachable"
-msgstr "Tá an líonra dorochtana"
+msgstr "TÃ¡ an lÃ­onra dorochtana"
 
 #: errunix.d:407
 msgid "Network dropped connection on reset"
-msgstr "Thréig an líonra an nasc de bharr athshocrú"
+msgstr "ThrÃ©ig an lÃ­onra an nasc de bharr athshocrÃº"
 
 #: errunix.d:413
 msgid "Software caused connection abort"
-msgstr "Thobscoir an bogearraí an nasc"
+msgstr "Thobscoir an bogearraÃ­ an nasc"
 
-# comhghleacaí=peer in FARF - KPS
+# comhghleacaÃ­=peer in FARF - KPS
 #: errunix.d:419
 msgid "Connection reset by peer"
-msgstr "D'athshocraigh an comhghleacaí an nasc"
+msgstr "D'athshocraigh an comhghleacaÃ­ an nasc"
 
 #: errunix.d:425
 msgid "No buffer space available"
-msgstr "Níl aon stór maoláin ar fáil"
+msgstr "NÃ­l aon stÃ³r maolÃ¡in ar fÃ¡il"
 
 #: errunix.d:431
 msgid "Socket is already connected"
-msgstr "Tá an soicéad nasctha cheana féin"
+msgstr "TÃ¡ an soicÃ©ad nasctha cheana fÃ©in"
 
 #: errunix.d:437
 msgid "Socket is not connected"
@@ -2703,7 +2703,7 @@ msgstr ""
 
 #: errunix.d:449
 msgid "Too many references: cannot splice"
-msgstr "An iomarca tagairtí: ní féidir spladhsáil a dhéanamh"
+msgstr "An iomarca tagairtÃ­: nÃ­ fÃ©idir spladhsÃ¡il a dhÃ©anamh"
 
 # make explicit the consequence - KPS
 #: errunix.d:455
@@ -2712,7 +2712,7 @@ msgstr "Nasc imithe thar am"
 
 #: errunix.d:461
 msgid "Connection refused"
-msgstr "Nasc diúltaithe"
+msgstr "Nasc diÃºltaithe"
 
 #: errunix.d:466
 msgid "Remote peer released connection"
@@ -2720,15 +2720,15 @@ msgstr ""
 
 #: errunix.d:471
 msgid "Host is down"
-msgstr "Tá ainghléas ar an óstríomhaire"
+msgstr "TÃ¡ ainghlÃ©as ar an Ã³strÃ­omhaire"
 
 #: errunix.d:477
 msgid "Host is unreachable"
-msgstr "Tá an t-óstríomhaire dorochtana"
+msgstr "TÃ¡ an t-Ã³strÃ­omhaire dorochtana"
 
 #: errunix.d:482
 msgid "Networking error"
-msgstr "Earráid líonra"
+msgstr "EarrÃ¡id lÃ­onra"
 
 #: errunix.d:488
 msgid "Too many processes"
@@ -2736,7 +2736,7 @@ msgstr ""
 
 #: errunix.d:494
 msgid "Too many users"
-msgstr "An iomarca úsáideoirí"
+msgstr "An iomarca ÃºsÃ¡ideoirÃ­"
 
 #: errunix.d:500
 msgid "Disk quota exceeded"
@@ -2752,87 +2752,87 @@ msgstr "Am caite"
 
 #: errunix.d:519
 msgid "Out of stream resources"
-msgstr "Acmhainní sreafa ídithe"
+msgstr "AcmhainnÃ­ sreafa Ã­dithe"
 
 #: errunix.d:525
 msgid "No message of desired type"
-msgstr "Níl aon theachtaireacht ann den chineál seo"
+msgstr "NÃ­l aon theachtaireacht ann den chineÃ¡l seo"
 
 #: errunix.d:531
 msgid "Not a data message"
-msgstr "Ní teachtaireacht shonraí é"
+msgstr "NÃ­ teachtaireacht shonraÃ­ Ã©"
 
 #: errunix.d:538
 msgid "Identifier removed"
-msgstr "Aitheantóir díbeartha"
+msgstr "AitheantÃ³ir dÃ­beartha"
 
 #: errunix.d:545
 msgid "Resource deadlock would occur"
-msgstr "Thabharfaí leamhsháinn acmhainní"
+msgstr "ThabharfaÃ­ leamhshÃ¡inn acmhainnÃ­"
 
 #: errunix.d:551
 msgid "No record locks available"
-msgstr "Níl glais taifead ar fáil"
+msgstr "NÃ­l glais taifead ar fÃ¡il"
 
 #: errunix.d:558
 msgid "Machine is not on the network"
-msgstr "Níl an ríomhaire sa líonra"
+msgstr "NÃ­l an rÃ­omhaire sa lÃ­onra"
 
 # oibiacht for concrete CS objects in FARF - KPS
 #: errunix.d:564 errunix.d:570
 msgid "Object is remote"
-msgstr "Tá an oibiacht cian"
+msgstr "TÃ¡ an oibiacht cian"
 
 #: errunix.d:576
 msgid "Link has been severed"
-msgstr "Dínascadh"
+msgstr "DÃ­nascadh"
 
 # compare fr - KPS
 #: errunix.d:582
 msgid "Advertise error"
-msgstr "Earráid fhógartha"
+msgstr "EarrÃ¡id fhÃ³gartha"
 
 # cf. French - KPS
 #: errunix.d:588
 msgid "Srmount error"
-msgstr "Earráid srmount()"
+msgstr "EarrÃ¡id srmount()"
 
 #: errunix.d:594
 msgid "Communication error on send"
-msgstr "Earráid chumarsáide ag iarraidh seolta"
+msgstr "EarrÃ¡id chumarsÃ¡ide ag iarraidh seolta"
 
 #: errunix.d:600
 msgid "Protocol error"
-msgstr "Earráid phrótacail"
+msgstr "EarrÃ¡id phrÃ³tacail"
 
 # cf French
 #: errunix.d:606
 msgid "Multihop attempted"
-msgstr "Iarracht ar nascadh trí nóid iomadúla"
+msgstr "Iarracht ar nascadh trÃ­ nÃ³id iomadÃºla"
 
 #: errunix.d:618
 msgid "Remote address changed"
-msgstr "Tháinig athrú ar chiansheoladh"
+msgstr "ThÃ¡inig athrÃº ar chiansheoladh"
 
 #: errunix.d:625
 msgid "Function not implemented"
-msgstr "Níl an fheidhm ar fáil"
+msgstr "NÃ­l an fheidhm ar fÃ¡il"
 
 #: errunix.d:654
 msgid "UNIX error "
-msgstr "Earráid UNIX "
+msgstr "EarrÃ¡id UNIX "
 
 #: errunix.d:656
 msgid "UNIX library error "
-msgstr "Earráid leabharlainne UNIX "
+msgstr "EarrÃ¡id leabharlainne UNIX "
 
 #: errwin32.d:3873
 msgid "Win32 error "
-msgstr "Earráid Win32 "
+msgstr "EarrÃ¡id Win32 "
 
 #: errwin32.d:3922
 msgid "Winsock error "
-msgstr "Earráid Winsock "
+msgstr "EarrÃ¡id Winsock "
 
 #: misc.d:110
 msgid "This file was produced by another lisp version, must be recompiled."
@@ -2840,7 +2840,7 @@ msgstr ""
 
 #: misc.d:426
 msgid "~ (~ ~): out of memory"
-msgstr "~ (~ ~): cuimhne ídithe"
+msgstr "~ (~ ~): cuimhne Ã­dithe"
 
 #: misc.d:481
 msgid "~: type of attribute ~ is unsupported"
@@ -2848,7 +2848,7 @@ msgstr ""
 
 #: misc.d:494
 msgid "ANSI C program"
-msgstr "Clár ANSI C"
+msgstr "ClÃ¡r ANSI C"
 
 #: misc.d:501
 msgid "GNU C++ "
@@ -2888,7 +2888,7 @@ msgstr ""
 
 #: predtype.d:2226
 msgid "~: invalid type specification ~"
-msgstr "~: sonrú neamhbhailí cineáil ~"
+msgstr "~: sonrÃº neamhbhailÃ­ cineÃ¡il ~"
 
 #: predtype.d:2233
 msgid "~: ~ cannot be coerced to type ~"
@@ -2912,7 +2912,7 @@ msgstr ""
 
 #: symbol.d:363
 msgid "~: invalid argument ~"
-msgstr "~: argóint neamhbhailí ~"
+msgstr "~: argÃ³int neamhbhailÃ­ ~"
 
 #: symbol.d:377
 msgid ""
@@ -2938,7 +2938,7 @@ msgstr "roinnt le nialas"
 
 #: aridecl.d:344
 msgid "floating point overflow"
-msgstr "snámhphointe thar maoil"
+msgstr "snÃ¡mhphointe thar maoil"
 
 #: aridecl.d:352
 msgid "floating point underflow"
@@ -2974,7 +2974,7 @@ msgstr ""
 
 #: intdiv.d:361
 msgid "quotient ~ / ~ is not an integer"
-msgstr "Níl an líon ~ / ~ ina shlánuimhir"
+msgstr "NÃ­l an lÃ­on ~ / ~ ina shlÃ¡nuimhir"
 
 #: lfloat.d:5
 msgid "long float too long"
@@ -2982,7 +2982,7 @@ msgstr ""
 
 #: flo_konv.d:436
 msgid "floating point NaN occurred"
-msgstr "tharla NaN snámhphointe"
+msgstr "tharla NaN snÃ¡mhphointe"
 
 #: flo_rest.d:39
 msgid ""
@@ -3011,7 +3011,7 @@ msgstr ""
 
 #: affi.d:116
 msgid "~: Bad argument: ~"
-msgstr "~: Drochargóint: ~"
+msgstr "~: DrochargÃ³int: ~"
 
 #: affi.d:137
 msgid "~: ~ is not a valid address"
@@ -3140,11 +3140,11 @@ msgstr ""
 
 #: foreign.d:3636
 msgid "~: Cannot open library ~: ~"
-msgstr "~: Ní féidir leabharlann ~ a oscailt: ~"
+msgstr "~: NÃ­ fÃ©idir leabharlann ~ a oscailt: ~"
 
 #: foreign.d:3638
 msgid "~: Cannot open library ~"
-msgstr "~: Ní féidir leabharlann a oscailt: ~"
+msgstr "~: NÃ­ fÃ©idir leabharlann a oscailt: ~"
 
 #: foreign.d:3674 foreign.d:3675
 msgid "~: no dynamic object named ~ in library ~"
@@ -3152,7 +3152,7 @@ msgstr ""
 
 #: foreign.d:3781
 msgid "~: ~ is not a library"
-msgstr "~: Ní leabharlann í ~"
+msgstr "~: NÃ­ leabharlann Ã­ ~"
 
 #: init.lisp:393
 msgid "special operator"
@@ -3232,7 +3232,7 @@ msgstr ""
 
 #: init.lisp:909
 msgid "~S: invalid form ~S"
-msgstr "~S: foirm neamhbhailí ~S"
+msgstr "~S: foirm neamhbhailÃ­ ~S"
 
 #: init.lisp:924
 msgid "code contains a dotted list, ending with ~S"
@@ -3284,7 +3284,7 @@ msgstr ""
 
 #: init.lisp:1348
 msgid "Loading file "
-msgstr "Comhad á luchtú "
+msgstr "Comhad Ã¡ luchtÃº "
 
 #: init.lisp:1383 defs1.lisp:424
 msgid "Loaded file "
@@ -3498,7 +3498,7 @@ msgstr ""
 
 #: macros1.lisp:130
 msgid "Invalid syntax in ~S form: ~S."
-msgstr "Comhréir neamhbhailí i bhfoirm ~S: ~S."
+msgstr "ComhrÃ©ir neamhbhailÃ­ i bhfoirm ~S: ~S."
 
 #: macros1.lisp:228 places.lisp:421 places.lisp:644
 msgid "~S called with an odd number of arguments: ~S"
@@ -3554,7 +3554,7 @@ msgstr "~% ~S Nua: "
 
 #: macros2.lisp:50
 msgid "Retry"
-msgstr "Athdhéan"
+msgstr "AthdhÃ©an"
 
 #: macros2.lisp:52
 msgid "You may input new values for ~S."
@@ -3622,12 +3622,12 @@ msgstr ""
 
 #: defs1.lisp:443
 msgid " from file "
-msgstr " ó chomhad "
+msgstr " Ã³ chomhad "
 
 # used in the stats page table
 #: defs1.lisp:448
 msgid " done"
-msgstr " déanta"
+msgstr " dÃ©anta"
 
 #: defs1.lisp:481
 msgid "No translations for logical host ~S found"
@@ -3667,7 +3667,7 @@ msgstr ""
 
 #: places.lisp:254
 msgid "~S: Too many arguments: ~S"
-msgstr "~S: An iomarca argóintí: ~S"
+msgstr "~S: An iomarca argÃ³intÃ­: ~S"
 
 #: places.lisp:257
 msgid "~S: The documentation string must be a string: ~S"
@@ -3707,7 +3707,7 @@ msgstr ""
 
 #: places.lisp:656
 msgid "~S: too few arguments: ~S"
-msgstr "~S: níl go leor argóintí ann: ~S"
+msgstr "~S: nÃ­l go leor argÃ³intÃ­ ann: ~S"
 
 #: places.lisp:816 places.lisp:876
 msgid "~S is only defined for functions of the form #'symbol."
@@ -3729,7 +3729,7 @@ msgstr ""
 
 #: type.lisp:32
 msgid "~S: invalid type specification ~S"
-msgstr "~S: sonrú neamhbhailí cineáil ~S"
+msgstr "~S: sonrÃº neamhbhailÃ­ cineÃ¡il ~S"
 
 #: type.lisp:91 compiler.lisp:6764
 msgid "~S: argument to SATISFIES must be a symbol: ~S"
@@ -3765,7 +3765,7 @@ msgstr ""
 
 #: defstruct.lisp:415
 msgid "~S ~S: At most one :INCLUDE argument may be specified: ~S"
-msgstr "~S ~S: Ní féidir níos mó ná argóint amháin go :INCLUDE a shonrú: ~S"
+msgstr "~S ~S: NÃ­ fÃ©idir nÃ­os mÃ³ nÃ¡ argÃ³int amhÃ¡in go :INCLUDE a shonrÃº: ~S"
 
 #: defstruct.lisp:422
 msgid ""
@@ -3779,7 +3779,7 @@ msgstr "~S ~S: rogha anaithnid ~S"
 
 #: defstruct.lisp:437 clos.lisp:2881 condition.lisp:111
 msgid "~S ~S: invalid syntax in ~S option: ~S"
-msgstr "~S ~S: comhréir neamhbhailí i rogha ~S: ~S"
+msgstr "~S ~S: comhrÃ©ir neamhbhailÃ­ i rogha ~S: ~S"
 
 #: defstruct.lisp:440 clos.lisp:2826 condition.lisp:114
 msgid "~S ~S: not a ~S option: ~S"
@@ -3791,7 +3791,7 @@ msgstr ""
 
 #: defstruct.lisp:483
 msgid "~S ~S: invalid :TYPE option ~S"
-msgstr "~S ~S: rogha neamhbhailí :TYPE ~S"
+msgstr "~S ~S: rogha neamhbhailÃ­ :TYPE ~S"
 
 #: defstruct.lisp:488
 msgid "~S ~S: The :INITIAL-OFFSET must be a nonnegative integer, not ~S"
@@ -3951,7 +3951,7 @@ msgstr ""
 
 #: format.lisp:1642
 msgid "~~<...~~:> not implemented yet"
-msgstr "níl ~~<...~~:> ar fáil fós"
+msgstr "nÃ­l ~~<...~~:> ar fÃ¡il fÃ³s"
 
 #: format.lisp:1669
 msgid "Prefix for logical block must be constant"
@@ -3967,7 +3967,7 @@ msgstr ""
 
 #: format.lisp:2434
 msgid "Error: ~~:@> not implemented"
-msgstr "Earráid: níl ~~:@> ar fáil"
+msgstr "EarrÃ¡id: nÃ­l ~~:@> ar fÃ¡il"
 
 #: international.lisp:47
 msgid "Language ~S is not defined"
@@ -4007,7 +4007,7 @@ msgstr ""
 
 #: trace.lisp:166
 msgid "~S: undefined function ~S"
-msgstr "~S: feidhm gan sainmhíniú: ~S"
+msgstr "~S: feidhm gan sainmhÃ­niÃº: ~S"
 
 #: trace.lisp:168
 msgid "~S: cannot trace special operator ~S"
@@ -4055,7 +4055,7 @@ msgstr " i gcomhad ~S"
 
 #: compiler.lisp:1711
 msgid " in line ~D"
-msgstr " ag líne ~D"
+msgstr " ag lÃ­ne ~D"
 
 #: compiler.lisp:1712
 msgid " in lines ~D..~D"
@@ -4075,11 +4075,11 @@ msgstr ""
 
 #: compiler.lisp:1893
 msgid "Form too short, too few arguments: ~S"
-msgstr "Foirm róghearr, níl go leor argóintí ann: ~S"
+msgstr "Foirm rÃ³ghearr, nÃ­l go leor argÃ³intÃ­ ann: ~S"
 
 #: compiler.lisp:1896
 msgid "Form too long, too many arguments: ~S"
-msgstr "Foirm rófhada, an iomarca argóintí: ~S"
+msgstr "Foirm rÃ³fhada, an iomarca argÃ³intÃ­: ~S"
 
 #: compiler.lisp:2128
 msgid "Not the name of a function: ~S"
@@ -4129,11 +4129,11 @@ msgstr ""
 
 #: compiler.lisp:3050
 msgid "Function ~s is not defined"
-msgstr "Feidhm ~s gan sainmhíniú"
+msgstr "Feidhm ~s gan sainmhÃ­niÃº"
 
 #: compiler.lisp:3054
 msgid "Function ~s is deprecated~@[, use ~s instead~]"
-msgstr "Tá an fheidhm ~s i léig~@[, bain úsáid as ~s ina áit~]"
+msgstr "TÃ¡ an fheidhm ~s i lÃ©ig~@[, bain ÃºsÃ¡id as ~s ina Ã¡it~]"
 
 #: compiler.lisp:3118
 msgid ""
@@ -4269,11 +4269,11 @@ msgstr ""
 
 #: compiler.lisp:5933
 msgid "Too many arguments to ~S"
-msgstr "An iomarca argóintí go ~S"
+msgstr "An iomarca argÃ³intÃ­ go ~S"
 
 #: compiler.lisp:5944
 msgid "Too few arguments to ~S"
-msgstr "Níl go leor argóintí go ~S"
+msgstr "NÃ­l go leor argÃ³intÃ­ go ~S"
 
 #: compiler.lisp:6350
 msgid "Arithmetic operand ~s must evaluate to a number, not ~s"
@@ -4291,7 +4291,7 @@ msgstr ""
 
 #: compiler.lisp:9940
 msgid "~S cannot be compiled"
-msgstr "Ní féidir ~S a thiomsú"
+msgstr "NÃ­ fÃ©idir ~S a thiomsÃº"
 
 #: compiler.lisp:9983
 msgid "Name of function to be compiled must be a symbol, not ~S"
@@ -4307,7 +4307,7 @@ msgstr ""
 
 #: compiler.lisp:10014 disassem.lisp:9
 msgid "Undefined function ~S"
-msgstr "Feidhm ~S gan sainmhíniú"
+msgstr "Feidhm ~S gan sainmhÃ­niÃº"
 
 #: compiler.lisp:10028
 msgid "Not a lambda expression nor a function: ~S"
@@ -4379,7 +4379,7 @@ msgstr ""
 
 #: compiler.lisp:10502
 msgid "~%~S optional argument~:P~%"
-msgstr "~%~S argóint roghnach~:P~%"
+msgstr "~%~S argÃ³int roghnach~:P~%"
 
 #: compiler.lisp:10504
 msgid "Rest parameter"
@@ -4427,7 +4427,7 @@ msgstr "~S ~A: rogha anaithnid ~S"
 
 #: defs2.lisp:155
 msgid "~S ~A: invalid syntax in ~S option: ~S"
-msgstr "~S ~A: comhréir neamhbhailí i rogha ~S: ~S"
+msgstr "~S ~A: comhrÃ©ir neamhbhailÃ­ i rogha ~S: ~S"
 
 #: defs2.lisp:158
 msgid "~S ~A: not a ~S option: ~S"
@@ -4477,7 +4477,7 @@ msgstr ""
 
 #: loop.lisp:304
 msgid "~S: missing variable."
-msgstr "~S: athróg ar iarraidh."
+msgstr "~S: athrÃ³g ar iarraidh."
 
 #: loop.lisp:313
 msgid "~S: After ~S, ~S is interpreted as a type specification"
@@ -4659,7 +4659,7 @@ msgstr ""
 
 #: clos.lisp:678
 msgid "~S ~S: invalid option ~S"
-msgstr "~S ~S: rogha neamhbhailí ~S"
+msgstr "~S ~S: rogha neamhbhailÃ­ ~S"
 
 #: clos.lisp:749
 msgid "~S: class definition circularity: ~S depends on itself"
@@ -4696,7 +4696,7 @@ msgstr ""
 
 #: clos.lisp:1951
 msgid "Too few arguments to ~S: ~S"
-msgstr "Níl go leor argóintí go ~S: ~S"
+msgstr "NÃ­l go leor argÃ³intÃ­ go ~S: ~S"
 
 #: clos.lisp:2076
 msgid "The generic function ~S is being modified, but has already been called."
@@ -4779,7 +4779,7 @@ msgstr ""
 
 #: clos.lisp:2850
 msgid "~S ~S: Only one ~S string is allowed"
-msgstr "~S ~S: Ní cheadaítear ach teaghrán amháin ~S"
+msgstr "~S ~S: NÃ­ cheadaÃ­tear ach teaghrÃ¡n amhÃ¡in ~S"
 
 #: clos.lisp:2863
 msgid "~S ~S: Invalid method combination: ~S"
@@ -5002,11 +5002,11 @@ msgstr ""
 
 #: beossock.lisp:73 beossock.lisp:83
 msgid "service does not exist: ~A/~A"
-msgstr "níl a leithéid de sheirbhís: ~A/~A"
+msgstr "nÃ­l a leithÃ©id de sheirbhÃ­s: ~A/~A"
 
 #: runprog.lisp:159
 msgid "~S: File ~S already exists"
-msgstr "~S: Tá an comhad ~S ann cheana"
+msgstr "~S: TÃ¡ an comhad ~S ann cheana"
 
 #: query.lisp:12
 msgid " (y/n) "
@@ -5026,7 +5026,7 @@ msgstr ""
 
 #: reploop.lisp:93
 msgid "[*package* invalid]"
-msgstr "[*pacáiste* neamhbhailí]"
+msgstr "[*pacÃ¡iste* neamhbhailÃ­]"
 
 #: reploop.lisp:114
 msgid "~&Reset *PACKAGE* to ~s"
@@ -5044,7 +5044,7 @@ msgstr ""
 
 #: reploop.lisp:202
 msgid "~&Printed ~D frames"
-msgstr "~&Priontáladh ~D fráma"
+msgstr "~&PriontÃ¡ladh ~D frÃ¡ma"
 
 #: reploop.lisp:224
 msgid "Values: "
@@ -5182,11 +5182,11 @@ msgstr ""
 
 #: describe.lisp:58
 msgid "variable"
-msgstr "athróg"
+msgstr "athrÃ³g"
 
 #: describe.lisp:65
 msgid "type"
-msgstr "cineál"
+msgstr "cineÃ¡l"
 
 #: describe.lisp:71
 msgid "class"
@@ -5252,7 +5252,7 @@ msgstr ""
 
 #: describe.lisp:194
 msgid "an encoding."
-msgstr "ionchódú."
+msgstr "ionchÃ³dÃº."
 
 #: describe.lisp:199
 msgid "a GC-invisible pointer to ~S."
@@ -5340,7 +5340,7 @@ msgstr ""
 
 #: describe.lisp:275
 msgid ", a variable"
-msgstr ", athróg"
+msgstr ", athrÃ³g"
 
 #: describe.lisp:277
 msgid " (macro: ~s)"
@@ -5364,7 +5364,7 @@ msgstr "oibreoir speisialta"
 
 #: describe.lisp:290
 msgid " with macro definition"
-msgstr " le sainmhíniú macra"
+msgstr " le sainmhÃ­niÃº macra"
 
 #: describe.lisp:292
 msgid "a~:[~; deprecated~] function"
@@ -5493,7 +5493,7 @@ msgstr ""
 
 #: describe.lisp:396
 msgid "a deleted package."
-msgstr "pacáiste scriosta."
+msgstr "pacÃ¡iste scriosta."
 
 #: describe.lisp:399
 msgid "an ~s hash table with ~[no entries~:;~:*~:d entr~:[y~;ies~]~]."
@@ -5522,7 +5522,7 @@ msgstr " (veicteoir)"
 
 #: describe.lisp:430
 msgid " with no storage"
-msgstr " gan stóráil"
+msgstr " gan stÃ³rÃ¡il"
 
 #: describe.lisp:431
 msgid " of ~As"
@@ -5542,7 +5542,7 @@ msgstr ""
 
 #: describe.lisp:442
 msgid " (a string)"
-msgstr " (teaghrán)"
+msgstr " (teaghrÃ¡n)"
 
 #: describe.lisp:445
 msgid " (a "
@@ -5558,7 +5558,7 @@ msgstr ""
 
 #: describe.lisp:448
 msgid "~A string)"
-msgstr "teaghrán ~A)"
+msgstr "teaghrÃ¡n ~A)"
 
 #: describe.lisp:455
 msgid "a foreign function of foreign type ~S."
@@ -5594,7 +5594,7 @@ msgstr ""
 
 #: describe.lisp:534
 msgid "~%Argument list: "
-msgstr "~%Liosta argóintí: "
+msgstr "~%Liosta argÃ³intÃ­: "
 
 #: room.lisp:17
 msgid "~S: argument must be ~S, ~S or ~S, not ~S"
@@ -5602,7 +5602,7 @@ msgstr ""
 
 #: room.lisp:51 room.lisp:215
 msgid "Total"
-msgstr "Iomlán"
+msgstr "IomlÃ¡n"
 
 #: room.lisp:59
 msgid ""
@@ -5616,7 +5616,7 @@ msgstr ""
 
 #: edit.lisp:82
 msgid "~S cannot be edited."
-msgstr "ní féidir ~S a chur in eagar."
+msgstr "nÃ­ fÃ©idir ~S a chur in eagar."
 
 #: edit.lisp:101
 msgid "~S: source code for ~S not available."
@@ -5650,7 +5650,7 @@ msgstr ""
 
 #: foreign1.lisp:134
 msgid "Invalid ~S component: ~S"
-msgstr "Comhpháirt ~S neamhbhailí: ~S"
+msgstr "ComhphÃ¡irt ~S neamhbhailÃ­: ~S"
 
 #: foreign1.lisp:194
 msgid "Incomplete FFI type ~S is not allowed here."
@@ -5662,15 +5662,15 @@ msgstr ""
 
 #: foreign1.lisp:201
 msgid "Invalid FFI type: ~S"
-msgstr "Cineál neamhbhailí FFI: ~S"
+msgstr "CineÃ¡l neamhbhailÃ­ FFI: ~S"
 
 #: foreign1.lisp:267
 msgid "Invalid option in ~S: ~S"
-msgstr "Rogha neamhbhailí i ~S: ~S"
+msgstr "Rogha neamhbhailÃ­ i ~S: ~S"
 
 #: foreign1.lisp:270
 msgid "Only one ~S option is allowed: ~S"
-msgstr "Ní cheadaítear ach aon rogha amháin ~S: ~S"
+msgstr "NÃ­ cheadaÃ­tear ach aon rogha amhÃ¡in ~S: ~S"
 
 #: foreign1.lisp:318
 msgid "Invalid parameter specification in ~S: ~S"
@@ -5704,7 +5704,7 @@ msgstr ""
 
 #: foreign1.lisp:846 foreign1.lisp:902
 msgid "~s is deprecated, use ~s instead"
-msgstr "tá ~s i léig, bain úsáid as ~s ina áit"
+msgstr "tÃ¡ ~s i lÃ©ig, bain ÃºsÃ¡id as ~s ina Ã¡it"
 
 #: foreign1.lisp:985
 msgid "~S: :OUT argument is not a pointer: ~S"

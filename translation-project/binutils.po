@@ -12,13 +12,13 @@ msgstr ""
 "Last-Translator: Kevin Patrick Scannell <scannell@SLU.EDU>\n"
 "Language-Team: Irish <gaeilge-gnulinux@lists.sourceforge.net>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=ISO-8859-1\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 #: addr2line.c:73
 #, c-format
 msgid "Usage: %s [option(s)] [addr(s)]\n"
-msgstr "⁄s·id: %s [rogha(nna)] [seoladh/seoltaÌ]\n"
+msgstr "√ös√°id: %s [rogha(nna)] [seoladh/seolta√≠]\n"
 
 #: addr2line.c:74
 #, c-format
@@ -88,7 +88,7 @@ msgstr " orduithe:\n"
 #: ar.c:226
 #, c-format
 msgid "  d            - delete file(s) from the archive\n"
-msgstr "  d            - scrios comha(i)d Ûn chartlann\n"
+msgstr "  d            - scrios comha(i)d √≥n chartlann\n"
 
 #: ar.c:227
 #, c-format
@@ -98,7 +98,7 @@ msgstr "  m[ab]        - bog comha(i)d sa chartlann\n"
 #: ar.c:228
 #, c-format
 msgid "  p            - print file(s) found in the archive\n"
-msgstr "  p            - priont·il comh(i)d Ûn chartlann\n"
+msgstr "  p            - priont√°il comh(i)d √≥n chartlann\n"
 
 #: ar.c:229
 #, c-format
@@ -114,7 +114,7 @@ msgstr ""
 #: ar.c:231
 #, c-format
 msgid "  t            - display contents of archive\n"
-msgstr "  t            - taispe·in inneachar na cartlainne\n"
+msgstr "  t            - taispe√°in inneachar na cartlainne\n"
 
 #: ar.c:232
 #, c-format
@@ -196,7 +196,7 @@ msgstr ""
 #: ar.c:253
 #, c-format
 msgid "Usage: %s [options] archive\n"
-msgstr "⁄s·id: %s [roghanna] cartlann\n"
+msgstr "√ös√°id: %s [roghanna] cartlann\n"
 
 #: ar.c:254
 #, c-format
@@ -211,8 +211,8 @@ msgid ""
 "  -V --version                 Print version information\n"
 msgstr ""
 " Is iad seo na roghanna:\n"
-"  -h --help                    Taispe·in an chabhair seo\n"
-"  -V --version                 Taispe·in eolas faoin leagan\n"
+"  -h --help                    Taispe√°in an chabhair seo\n"
+"  -V --version                 Taispe√°in eolas faoin leagan\n"
 
 #: ar.c:483
 msgid "two different operation options specified"
@@ -247,7 +247,7 @@ msgstr ""
 #: ar.c:737
 #, c-format
 msgid "creating %s"
-msgstr "%s · chruth˙"
+msgstr "%s √° chruth√∫"
 
 #: ar.c:786 ar.c:836 ar.c:1154 objcopy.c:1603
 #, c-format
@@ -268,7 +268,7 @@ msgstr ""
 #: ar.c:806 ar.c:873
 #, c-format
 msgid "%s is not a valid archive"
-msgstr "nÌ cartlann bhailÌ È %s"
+msgstr "n√≠ cartlann bhail√≠ √© %s"
 
 #: ar.c:841
 #, c-format
@@ -278,12 +278,12 @@ msgstr ""
 #: ar.c:1059
 #, c-format
 msgid "No member named `%s'\n"
-msgstr "NÌl ball ann darb ainm `%s'\n"
+msgstr "N√≠l ball ann darb ainm `%s'\n"
 
 #: ar.c:1109
 #, c-format
 msgid "no entry %s in archive %s!"
-msgstr "nÌl iontr·il %s sa chartlann %s!"
+msgstr "n√≠l iontr√°il %s sa chartlann %s!"
 
 #: ar.c:1246
 #, c-format
@@ -293,12 +293,12 @@ msgstr ""
 #: arsup.c:83
 #, c-format
 msgid "No entry %s in archive.\n"
-msgstr "NÌl iontr·il %s sa chartlann.\n"
+msgstr "N√≠l iontr√°il %s sa chartlann.\n"
 
 #: arsup.c:109
 #, c-format
 msgid "Can't open file %s\n"
-msgstr "NÌ fÈidir comhad %s a oscailt\n"
+msgstr "N√≠ f√©idir comhad %s a oscailt\n"
 
 #: arsup.c:162
 #, c-format
@@ -328,7 +328,7 @@ msgstr ""
 #: arsup.c:258 arsup.c:368 arsup.c:394
 #, c-format
 msgid "%s: can't open file %s\n"
-msgstr "%s: nÌ fÈidir comhad %s a oscailt\n"
+msgstr "%s: n√≠ f√©idir comhad %s a oscailt\n"
 
 #: arsup.c:312 arsup.c:390 arsup.c:471
 #, c-format
@@ -414,12 +414,12 @@ msgstr ""
 #: coffdump.c:105
 #, c-format
 msgid "#lines %d "
-msgstr "#lÌne %d "
+msgstr "#l√≠ne %d "
 
 #: coffdump.c:459 sysdump.c:648
 #, c-format
 msgid "Usage: %s [option(s)] in-file\n"
-msgstr "⁄s·id: %s [rogha(nna)] inchomhad\n"
+msgstr "√ös√°id: %s [rogha(nna)] inchomhad\n"
 
 #: coffdump.c:460
 #, c-format
@@ -435,8 +435,8 @@ msgid ""
 "\n"
 msgstr ""
 " Is iad seo na roghanna:\n"
-"  -h --help              Taispe·in an chabhair seo\n"
-"  -v --version           Taispe·in leagan an chl·ir\n"
+"  -h --help              Taispe√°in an chabhair seo\n"
+"  -v --version           Taispe√°in leagan an chl√°ir\n"
 "\n"
 
 #: coffdump.c:527 srconv.c:1819 sysdump.c:710
@@ -1641,7 +1641,7 @@ msgstr ""
 #: nm.c:262 objdump.c:232
 #, c-format
 msgid "Report bugs to %s.\n"
-msgstr "Seol tuairiscÌ fabhtanna chuig %s.\n"
+msgstr "Seol tuairisc√≠ fabhtanna chuig %s.\n"
 
 #: nm.c:294
 #, c-format
@@ -2038,7 +2038,7 @@ msgstr ""
 
 #: objcopy.c:1912
 msgid "size"
-msgstr "mÈid"
+msgstr "m√©id"
 
 #: objcopy.c:1926
 msgid "vma"
@@ -2547,7 +2547,7 @@ msgstr ""
 
 #: readelf.c:1629
 msgid "None"
-msgstr "NeamhnÌ"
+msgstr "Neamhn√≠"
 
 #: readelf.c:2229
 msgid "Standalone App"
@@ -2634,7 +2634,7 @@ msgstr ""
 
 #: readelf.c:2948 readelf.c:2964 readelf.c:5906
 msgid "none"
-msgstr "neamhnÌ"
+msgstr "neamhn√≠"
 
 #: readelf.c:2965
 msgid "2's complement, little endian"
@@ -2766,7 +2766,7 @@ msgstr ""
 #: readelf.c:6450 readelf.c:6464 readelf.c:11493 readelf.c:11912
 #: readelf.c:11979
 msgid "Out of memory\n"
-msgstr "Cuimhne Ìdithe\n"
+msgstr "Cuimhne √≠dithe\n"
 
 #: readelf.c:3172
 #, c-format
@@ -3141,7 +3141,7 @@ msgstr ""
 #: readelf.c:5554
 #, c-format
 msgid "Configuration file"
-msgstr "Comhad cumraÌochta"
+msgstr "Comhad cumra√≠ochta"
 
 #: readelf.c:5558
 #, c-format
@@ -3434,7 +3434,7 @@ msgstr ""
 
 #: readelf.c:6797 readelf.c:6813 readelf.c:10967 readelf.c:11159
 msgid "Out of memory"
-msgstr "Cuimhne Ìdithe"
+msgstr "Cuimhne √≠dithe"
 
 #: readelf.c:6862
 #, c-format
@@ -5000,7 +5000,7 @@ msgstr ""
 #: strings.c:206
 #, c-format
 msgid "invalid number %s"
-msgstr "uimhir neamhbhailÌ %s"
+msgstr "uimhir neamhbhail√≠ %s"
 
 #: strings.c:643
 #, c-format

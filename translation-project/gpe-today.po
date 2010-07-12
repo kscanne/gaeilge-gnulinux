@@ -11,7 +11,7 @@ msgstr ""
 "Last-Translator: Kevin Patrick Scannell <scannell@SLU.EDU>\n"
 "Language-Team: Irish <gaeilge-gnulinux@lists.sourceforge.net>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=ISO-8859-1\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 #: main.c:179 gpe-today.desktop.in.h:2
@@ -20,19 +20,19 @@ msgstr "Achoimre"
 
 #: todo.c:40
 msgid "No todo items"
-msgstr "Níl aon tasc le déanamh"
+msgstr "NÃ­l aon tasc le dÃ©anamh"
 
 #: calendar.c:104
 msgid "No events today"
-msgstr "Níl imeacht ar bith inniu"
+msgstr "NÃ­l imeacht ar bith inniu"
 
 #: calendar.c:132
 msgid "All day event"
-msgstr "Imeacht tríd an lá go léir"
+msgstr "Imeacht trÃ­d an lÃ¡ go lÃ©ir"
 
 #: xsettings.c:80
 msgid "Cannot create XSettings client"
-msgstr "Ní fhéadadh cliant XSettings a chruthú"
+msgstr "NÃ­ fhÃ©adadh cliant XSettings a chruthÃº"
 
 #: gpe-today.desktop.in.h:1
 msgid "GPE Today"

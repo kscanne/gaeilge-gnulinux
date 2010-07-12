@@ -12,7 +12,7 @@ msgstr ""
 "Last-Translator: Kevin Scannell <kscanne@gmail.com>\n"
 "Language-Team: Irish <gaeilge-gnulinux@lists.sourceforge.net>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=ISO-8859-1\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 #: src/main.c:107
@@ -21,21 +21,21 @@ msgid ""
 "Error while loading the evdev module: \n"
 "%s"
 msgstr ""
-"Tharla earráid agus modúl evdev á luchtú: \n"
+"Tharla earrÃ¡id agus modÃºl evdev Ã¡ luchtÃº: \n"
 "%s"
 
 #: src/main.c:113
 #, c-format
 msgid "No event devices are available in %s."
-msgstr "Níl gléas teagmhais ar bith ar fáil i %s."
+msgstr "NÃ­l glÃ©as teagmhais ar bith ar fÃ¡il i %s."
 
 #: src/interface.c:50
 msgid "Select keyboard"
-msgstr "Roghnaigh méarchlár"
+msgstr "Roghnaigh mÃ©archlÃ¡r"
 
 #: src/interface.c:65
 msgid "Please select your keyboard:"
-msgstr "Roghnaigh do mhéarchlár:"
+msgstr "Roghnaigh do mhÃ©archlÃ¡r:"
 
 #: src/interface.c:98
 msgid ""
@@ -46,14 +46,14 @@ msgid ""
 "Note USB keyboards have two event devices. The first is for all \"normal\" "
 "keys and the second for the extra function keys. Choose the second device."
 msgstr ""
-"Tá \"gléas teagmhais\" ag gach uile ghléas ionchurtha. Tá gach gléas "
-"teagmhais sa liosta thuas. Ba chóir duit an gléas teagmhais a bhaineann le "
-"do mhéarchlár a roghnú.\n"
-"Cliceáil \"OK\" nuair a roghnaíonn tú an méarchlár agus seiceálfaidh an clár "
-"seo an bhfuil an gléas ceart roghnaithe agat.\n"
-"Tabhair faoi deara go bhfuil dhá ghléas teagmhais ag méarchláir USB. Is le "
-"haghaidh na \"gnátheochracha\" é an chéad cheann, agus is le haghaidh na "
-"feidhmeochracha é an dara ceann. Roghnaigh an dara gléas."
+"TÃ¡ \"glÃ©as teagmhais\" ag gach uile ghlÃ©as ionchurtha. TÃ¡ gach glÃ©as "
+"teagmhais sa liosta thuas. Ba chÃ³ir duit an glÃ©as teagmhais a bhaineann le "
+"do mhÃ©archlÃ¡r a roghnÃº.\n"
+"CliceÃ¡il \"OK\" nuair a roghnaÃ­onn tÃº an mÃ©archlÃ¡r agus seiceÃ¡lfaidh an clÃ¡r "
+"seo an bhfuil an glÃ©as ceart roghnaithe agat.\n"
+"Tabhair faoi deara go bhfuil dhÃ¡ ghlÃ©as teagmhais ag mÃ©archlÃ¡ir USB. Is le "
+"haghaidh na \"gnÃ¡theochracha\" Ã© an chÃ©ad cheann, agus is le haghaidh na "
+"feidhmeochracha Ã© an dara ceann. Roghnaigh an dara glÃ©as."
 
 #: src/interface.c:108 src/interface.c:907
 msgid "<b>Help information:</b>"
@@ -73,7 +73,7 @@ msgstr "_Eagar"
 
 #: src/interface.c:299
 msgid "Change _keyboard..."
-msgstr "Athraigh an _méarchlár..."
+msgstr "Athraigh an _mÃ©archlÃ¡r..."
 
 #: src/interface.c:306
 msgid "_Help"
@@ -85,7 +85,7 @@ msgstr "_Eolas"
 
 #: src/interface.c:333
 msgid "Manufacturer:"
-msgstr "Déantóir:"
+msgstr "DÃ©antÃ³ir:"
 
 #: src/interface.c:340
 msgid "Model:"
@@ -93,7 +93,7 @@ msgstr "Samhail:"
 
 #: src/interface.c:359
 msgid "Keyboard"
-msgstr "Méarchlár"
+msgstr "MÃ©archlÃ¡r"
 
 #: src/interface.c:416
 msgid "Name:"
@@ -101,7 +101,7 @@ msgstr "Ainm:"
 
 #: src/interface.c:423 src/callbacks.c:59
 msgid "Scancode:"
-msgstr "Scanchód:"
+msgstr "ScanchÃ³d:"
 
 #: src/interface.c:463 src/interface.c:602
 msgid "_Change..."
@@ -109,11 +109,11 @@ msgstr "_Athraigh..."
 
 #: src/interface.c:475
 msgid "_Program:"
-msgstr "_Clár:"
+msgstr "_ClÃ¡r:"
 
 #: src/interface.c:503
 msgid "Plugin:"
-msgstr "Breiseán:"
+msgstr "BreiseÃ¡n:"
 
 #: src/interface.c:510
 msgid "Function:"
@@ -121,27 +121,27 @@ msgstr "Feidhm:"
 
 #: src/interface.c:541
 msgid "Plugin"
-msgstr "Breiseán"
+msgstr "BreiseÃ¡n"
 
 #: src/interface.c:546
 msgid "Special _action:"
-msgstr "_Gníomh speisialta:"
+msgstr "_GnÃ­omh speisialta:"
 
 #: src/interface.c:554
 msgid "Default:"
-msgstr "Réamhshocrú:"
+msgstr "RÃ©amhshocrÃº:"
 
 #: src/interface.c:561
 msgid "Keycode:"
-msgstr "Cód eochrach:"
+msgstr "CÃ³d eochrach:"
 
 #: src/interface.c:583
 msgid "The keys code sent when the keyboard is connected via USB"
-msgstr "Cód eochrach a sheoltar nuair a dhéantar ceangal leis an méarchlár trí USB"
+msgstr "CÃ³d eochrach a sheoltar nuair a dhÃ©antar ceangal leis an mÃ©archlÃ¡r trÃ­ USB"
 
 #: src/interface.c:606
 msgid "USB code:"
-msgstr "Cód USB:"
+msgstr "CÃ³d USB:"
 
 #: src/interface.c:613
 msgid "Key settings"
@@ -153,7 +153,7 @@ msgstr "Eochracha"
 
 #: src/interface.c:778
 msgid "Press key"
-msgstr "Brúigh eochair"
+msgstr "BrÃºigh eochair"
 
 #: src/interface.c:852
 msgid "New key"
@@ -161,19 +161,19 @@ msgstr "Eochair nua"
 
 #: src/interface.c:870
 msgid "Please enter the name of the new key:"
-msgstr "Iontráil ainm ar an eochair nua:"
+msgstr "IontrÃ¡il ainm ar an eochair nua:"
 
 #: src/interface.c:897
 msgid ""
 "Choose an appropriate name for the key. Is there for example a text label on "
 "the key, use the label as the key's name."
 msgstr ""
-"Tabhair ainm oiriúnach ar an eochair. Má tá lipéad téacs ar an eochair, mar "
-"shampla, úsáid é sin mar ainm."
+"Tabhair ainm oiriÃºnach ar an eochair. MÃ¡ tÃ¡ lipÃ©ad tÃ©acs ar an eochair, mar "
+"shampla, ÃºsÃ¡id Ã© sin mar ainm."
 
 #: src/interface.c:965 src/interface.c:1025
 msgid "Contact information"
-msgstr "Eolas teagmhála"
+msgstr "Eolas teagmhÃ¡la"
 
 #: src/interface.c:983
 msgid ""
@@ -181,9 +181,9 @@ msgid ""
 "used for the administration of the keyboard files.\n"
 "The e-mail address must be real in order to send the keyboard file."
 msgstr ""
-"Líon isteach d'ainm agus do sheoladh ríomhphoist. Úsáidfear an fhaisnéis seo "
-"chun an comhad méarchláir a bhainistiú.\n"
-"Ní mór duit fíorsheoladh a thabhairt chun an comhad méarchlár a sheoladh."
+"LÃ­on isteach d'ainm agus do sheoladh rÃ­omhphoist. ÃšsÃ¡idfear an fhaisnÃ©is seo "
+"chun an comhad mÃ©archlÃ¡ir a bhainistiÃº.\n"
+"NÃ­ mÃ³r duit fÃ­orsheoladh a thabhairt chun an comhad mÃ©archlÃ¡r a sheoladh."
 
 #: src/interface.c:999
 msgid "Your name:"
@@ -191,7 +191,7 @@ msgstr "D'ainm:"
 
 #: src/interface.c:1006
 msgid "E-mail address:"
-msgstr "Seoladh ríomhphoist:"
+msgstr "Seoladh rÃ­omhphoist:"
 
 #: src/interface.c:1094
 msgid "About keyTouch-editor"
@@ -203,15 +203,15 @@ msgstr "Leagan:"
 
 #: src/interface.c:1137
 msgid "Developer:"
-msgstr "Forbróir:"
+msgstr "ForbrÃ³ir:"
 
 #: src/interface.c:1151
 msgid "License:"
-msgstr "Ceadúnas:"
+msgstr "CeadÃºnas:"
 
 #: src/interface.c:1165
 msgid "Website:"
-msgstr "Suíomh Gréasáin:"
+msgstr "SuÃ­omh GrÃ©asÃ¡in:"
 
 #: src/interface.c:1172
 msgid "http://keytouch.sf.net"
@@ -219,11 +219,11 @@ msgstr "http://keytouch.sf.net/"
 
 #: src/callbacks.c:58
 msgid "Press the extra function key."
-msgstr "Brúigh an fheidhmeochair bhreise."
+msgstr "BrÃºigh an fheidhmeochair bhreise."
 
 #: src/callbacks.c:60
 msgid "Event description:"
-msgstr "Cur síos ar an teagmhas:"
+msgstr "Cur sÃ­os ar an teagmhas:"
 
 #: src/callbacks.c:104
 msgid ""
@@ -232,13 +232,13 @@ msgid ""
 "when this window does not disappear after\n"
 "pressing the key."
 msgstr ""
-"Brúigh ceann de na feidhmeochracha breise.\n"
-"Brúigh \"Cealaigh\" agus roghnaigh gléas teagmhais eile\n"
-"má bhrúnn tú an eochair ach fanann an fhuinneog."
+"BrÃºigh ceann de na feidhmeochracha breise.\n"
+"BrÃºigh \"Cealaigh\" agus roghnaigh glÃ©as teagmhais eile\n"
+"mÃ¡ bhrÃºnn tÃº an eochair ach fanann an fhuinneog."
 
 #: src/callbacks.c:134
 msgid "Please select the event device for your keyboard."
-msgstr "Roghnaigh an gléas teagmhais le haghaidh do mhéarchláir."
+msgstr "Roghnaigh an glÃ©as teagmhais le haghaidh do mhÃ©archlÃ¡ir."
 
 #: src/callbacks.c:267
 msgid ""
@@ -246,44 +246,44 @@ msgid ""
 "This will help other people with the same keyboard.\n"
 "Only say \"Yes\" when the keyboard file is finished."
 msgstr ""
-"Ar mhaith leat an comhad méarchláir seo a sheoladh chuig forbróir keyTouch?\n"
-"Cabhróidh sé le daoine a bhfuil an méarchlár céanna acu.\n"
-"Ná habair \"Yes\" mura bhfuil an comhad curtha i gcrích."
+"Ar mhaith leat an comhad mÃ©archlÃ¡ir seo a sheoladh chuig forbrÃ³ir keyTouch?\n"
+"CabhrÃ³idh sÃ© le daoine a bhfuil an mÃ©archlÃ¡r cÃ©anna acu.\n"
+"NÃ¡ habair \"Yes\" mura bhfuil an comhad curtha i gcrÃ­ch."
 
 #: src/callbacks.c:297
 msgid "Save keyboard file"
-msgstr "Sábháil an comhad méarchláir"
+msgstr "SÃ¡bhÃ¡il an comhad mÃ©archlÃ¡ir"
 
 #: src/callbacks.c:318
 #, c-format
 msgid ""
 "A file named \"%s\" already exists. Are you sure you want to overwrite it?"
 msgstr ""
-"Tá comhad darb ainm \"%s\" ann cheana. An bhfuil tú cinnte gur mian leat "
-"scríobh air?"
+"TÃ¡ comhad darb ainm \"%s\" ann cheana. An bhfuil tÃº cinnte gur mian leat "
+"scrÃ­obh air?"
 
 #: src/callbacks.c:329
 #, c-format
 msgid "Failed to save \"%s\"."
-msgstr "Theip ar shábháil \"%s\"."
+msgstr "Theip ar shÃ¡bhÃ¡il \"%s\"."
 
 #: src/callbacks.c:338 src/evdev.c:77 src/evdev.c:234 src/evdev.c:244
 #: src/key_list.c:232 src/key_list.c:274 src/key_list.c:296 src/key_list.c:322
 #: src/memory.c:46 src/memory.c:65
 msgid "Could not allocate memory."
-msgstr "Níorbh fhéidir cuimhne a dháileadh."
+msgstr "NÃ­orbh fhÃ©idir cuimhne a dhÃ¡ileadh."
 
 #: src/callbacks.c:343
 msgid "Failed to send the keyboard file."
-msgstr "Theip ar sheoladh an chomhaid méarchláir."
+msgstr "Theip ar sheoladh an chomhaid mÃ©archlÃ¡ir."
 
 #: src/callbacks.c:353
 msgid ""
 "The keyboard file has been saved successfully, but cannot yet be imported in "
 "keyTouch because it is not a valid keyboard file."
 msgstr ""
-"D'éirigh le sábháil an chomhaid mhéarchláir, ach ní féidir é a iompórtáil "
-"fós toisc nach bhfuil sé bailí mar chomhad méarchláir."
+"D'Ã©irigh le sÃ¡bhÃ¡il an chomhaid mhÃ©archlÃ¡ir, ach nÃ­ fÃ©idir Ã© a iompÃ³rtÃ¡il "
+"fÃ³s toisc nach bhfuil sÃ© bailÃ­ mar chomhad mÃ©archlÃ¡ir."
 
 #: src/callbacks.c:396
 #, c-format
@@ -291,91 +291,91 @@ msgid ""
 "The keyboard file \"%s\" has been modified.\n"
 "Do you want to save your changes?"
 msgstr ""
-"Athraíodh an comhad méarchláir \"%s\".\n"
-"Ar mhaith leat do chuid athruithe a shábháil?"
+"AthraÃ­odh an comhad mÃ©archlÃ¡ir \"%s\".\n"
+"Ar mhaith leat do chuid athruithe a shÃ¡bhÃ¡il?"
 
 #: src/callbacks.c:452
 msgid "Open keyboard file"
-msgstr "Oscail comhad méarchláir"
+msgstr "Oscail comhad mÃ©archlÃ¡ir"
 
 #: src/callbacks.c:657
 msgid "Cannot add the key because the name is already in the list."
 msgstr ""
-"Ní féidir an eochair a chur leis toisc go bhfuil an t-ainm sa liosta cheana."
+"NÃ­ fÃ©idir an eochair a chur leis toisc go bhfuil an t-ainm sa liosta cheana."
 
 #: src/support.c:90 src/support.c:114
 #, c-format
 msgid "Couldn't find pixmap file: %s"
-msgstr "Níorbh fhéidir an mapa picteilíní a aimsiú: %s"
+msgstr "NÃ­orbh fhÃ©idir an mapa picteilÃ­nÃ­ a aimsiÃº: %s"
 
 #: src/config.c:132
 msgid "The keyboard file contains an invalid action element."
-msgstr "Tá eilimint neamhbhailí ghnímh sa chomhad méarchláir."
+msgstr "TÃ¡ eilimint neamhbhailÃ­ ghnÃ­mh sa chomhad mÃ©archlÃ¡ir."
 
 #: src/config.c:146
 msgid "The keyboard file contains an invalid action-type value."
-msgstr "Tá luach neamhbhailí ghnímh sa chomhad méarchláir."
+msgstr "TÃ¡ luach neamhbhailÃ­ ghnÃ­mh sa chomhad mÃ©archlÃ¡ir."
 
 #: src/config.c:221 src/config.c:273 src/check_syntax.c:214
 msgid "The keyboard file contains an incomplete key element."
-msgstr "Tá eilimint neamhiomlán eochrach sa chomhad méarchláir."
+msgstr "TÃ¡ eilimint neamhiomlÃ¡n eochrach sa chomhad mÃ©archlÃ¡ir."
 
 #: src/config.c:431
 #, c-format
 msgid "'%s' is an invalid keyboard file."
-msgstr "Is comhad neamhbhailí méarchláir é '%s'."
+msgstr "Is comhad neamhbhailÃ­ mÃ©archlÃ¡ir Ã© '%s'."
 
 #: src/config.c:439
 #, c-format
 msgid "The keyboard file '%s' does not contain a keyboard element."
-msgstr "Níl eilimint mhéarchláir i gcomhad méarchláir '%s'."
+msgstr "NÃ­l eilimint mhÃ©archlÃ¡ir i gcomhad mÃ©archlÃ¡ir '%s'."
 
 #: src/config.c:449
 #, c-format
 msgid "The keyboard file '%s' does not contain a key-list element."
-msgstr "Níl eilimint eochairliosta i gcomhad méarchláir '%s'."
+msgstr "NÃ­l eilimint eochairliosta i gcomhad mÃ©archlÃ¡ir '%s'."
 
 #: src/config.c:459
 #, c-format
 msgid "The keyboard file '%s' is invalid."
-msgstr "Is neamhbhailí é comhad méarchláir '%s'."
+msgstr "Is neamhbhailÃ­ Ã© comhad mÃ©archlÃ¡ir '%s'."
 
 #: src/config.c:478
 #, c-format
 msgid "Failed to read the keyboard name from %s."
-msgstr "Níorbh fhéidir ainm an mhéarchláir a léamh ó %s."
+msgstr "NÃ­orbh fhÃ©idir ainm an mhÃ©archlÃ¡ir a lÃ©amh Ã³ %s."
 
 #: src/config.c:886
 #, c-format
 msgid "'%s' is not a valid XML document."
-msgstr "Níl '%s' bailí mar cháipéis XML."
+msgstr "NÃ­l '%s' bailÃ­ mar chÃ¡ipÃ©is XML."
 
 #: src/evdev.c:230
 msgid "Unknown reason"
-msgstr "Ní fios cén fáth"
+msgstr "NÃ­ fios cÃ©n fÃ¡th"
 
 #: src/get_scancode.c:98
 msgid "Failed to read events."
-msgstr "Níorbh fhéidir teagmhais a léamh."
+msgstr "NÃ­orbh fhÃ©idir teagmhais a lÃ©amh."
 
 #: src/get_scancode.c:179
 #, c-format
 msgid "Could not open event device '%s'."
-msgstr "Níorbh fhéidir gléas teagmhais '%s' a oscailt."
+msgstr "NÃ­orbh fhÃ©idir glÃ©as teagmhais '%s' a oscailt."
 
 #: src/get_scancode.c:272
 #, c-format
 msgid "Could not open ACPI socket file '%s'."
-msgstr "Níorbh fhéidir comhad soicéid ACPI '%s' a oscailt."
+msgstr "NÃ­orbh fhÃ©idir comhad soicÃ©id ACPI '%s' a oscailt."
 
 #. *********** Create the view ***********
 #: src/set_data.c:379
 msgid "Device"
-msgstr "Gléas"
+msgstr "GlÃ©as"
 
 #: src/set_data.c:380
 msgid "Device name"
-msgstr "Ainm an ghléis"
+msgstr "Ainm an ghlÃ©is"
 
 #: src/set_data.c:381
 msgid "Bus"
@@ -386,100 +386,100 @@ msgid ""
 "The keyboard file contains an invalid action element (where the action is a "
 "plugin)."
 msgstr ""
-"Tá eilimint neamhbhailí ghnímh sa chomhad méarchláir (agus is breiseán é an "
-"gníomh seo)."
+"TÃ¡ eilimint neamhbhailÃ­ ghnÃ­mh sa chomhad mÃ©archlÃ¡ir (agus is breiseÃ¡n Ã© an "
+"gnÃ­omh seo)."
 
 #: src/check_syntax.c:114
 #, c-format
 msgid "The keyboard file contains the invalid action-type value '%s'."
-msgstr "Tá luach neamhbhailí ghnímh '%s' sa chomhad méarchláir."
+msgstr "TÃ¡ luach neamhbhailÃ­ ghnÃ­mh '%s' sa chomhad mÃ©archlÃ¡ir."
 
 #: src/check_syntax.c:222
 msgid "The keyboard file contains an empty key-name element."
-msgstr "Tá eilimint fholamh ainm-eochrach sa chomhad méarchláir."
+msgstr "TÃ¡ eilimint fholamh ainm-eochrach sa chomhad mÃ©archlÃ¡ir."
 
 #: src/check_syntax.c:231
 #, c-format
 msgid "The keyboard file contains more than once a key named '%s'."
-msgstr "Tá níos mó ná eochair amháin sa chomhad méarchláir darb ainm '%s'."
+msgstr "TÃ¡ nÃ­os mÃ³ nÃ¡ eochair amhÃ¡in sa chomhad mÃ©archlÃ¡ir darb ainm '%s'."
 
 #: src/check_syntax.c:254
 #, c-format
 msgid "'%s' is an invalid scancode."
-msgstr "Is comhad neamhbhailí méarchláir é '%s'."
+msgstr "Is comhad neamhbhailÃ­ mÃ©archlÃ¡ir Ã© '%s'."
 
 #: src/check_syntax.c:268
 #, c-format
 msgid "'%s' is an invalid USB code."
-msgstr "Is cód neamhbhailí USB é '%s'."
+msgstr "Is cÃ³d neamhbhailÃ­ USB Ã© '%s'."
 
 #: src/check_syntax.c:284
 #, c-format
 msgid "Keycode %s is used more than once."
-msgstr "Cód eochrach %s in úsáid níos mó ná uair amháin."
+msgstr "CÃ³d eochrach %s in ÃºsÃ¡id nÃ­os mÃ³ nÃ¡ uair amhÃ¡in."
 
 #: src/check_syntax.c:296
 msgid "The keyboard file contains an empty keycode."
-msgstr "Tá cód folamh eochrach sa chomhad méarchláir."
+msgstr "TÃ¡ cÃ³d folamh eochrach sa chomhad mÃ©archlÃ¡ir."
 
 #: src/check_syntax.c:300
 #, c-format
 msgid "'%s' is an invalid keycode."
-msgstr "Is comhad neamhbhailí méarchláir é '%s'."
+msgstr "Is comhad neamhbhailÃ­ mÃ©archlÃ¡ir Ã© '%s'."
 
 #: src/check_syntax.c:368
 #, c-format
 msgid "The last-change-date \"%s\" of the keyboard file is not a valid date."
-msgstr "Ní dáta bailí é an dáta athraithe \"%s\" sa chomhad méarchláir."
+msgstr "NÃ­ dÃ¡ta bailÃ­ Ã© an dÃ¡ta athraithe \"%s\" sa chomhad mÃ©archlÃ¡ir."
 
 #: src/check_syntax.c:456
 msgid ""
 "The keyboard file does not provide enough information about the keyboard "
 "model."
-msgstr "Níl go leor eolais faoi shamhail an mhéarchláir sa chomhad méarchláir."
+msgstr "NÃ­l go leor eolais faoi shamhail an mhÃ©archlÃ¡ir sa chomhad mÃ©archlÃ¡ir."
 
 #: src/check_syntax.c:467 src/check_syntax.c:474
 #, c-format
 msgid "The 'usb-info' element does not contain a '%s' element."
-msgstr "Níl aon eilimint '%s' san eilimint 'usb-info'."
+msgstr "NÃ­l aon eilimint '%s' san eilimint 'usb-info'."
 
 #: src/check_syntax.c:485
 #, c-format
 msgid "'%s' is an invalid vendor ID."
-msgstr "Is aitheantas neamhbhailí díoltóra é '%s'."
+msgstr "Is aitheantas neamhbhailÃ­ dÃ­oltÃ³ra Ã© '%s'."
 
 #: src/check_syntax.c:498
 #, c-format
 msgid "'%s' is an invalid product ID."
-msgstr "Is aitheantas neamhbhailí táirge é '%s'."
+msgstr "Is aitheantas neamhbhailÃ­ tÃ¡irge Ã© '%s'."
 
 #: src/check_syntax.c:555
 msgid "The keyboard file does not contain a keyboard element."
-msgstr "Níl eilimint mhéarchláir sa chomhad méarchláir."
+msgstr "NÃ­l eilimint mhÃ©archlÃ¡ir sa chomhad mÃ©archlÃ¡ir."
 
 #: src/check_syntax.c:567
 msgid "The keyboard file does not contain a key-list element."
-msgstr "Níl eilimint eochairliosta sa chomhad méarchláir."
+msgstr "NÃ­l eilimint eochairliosta sa chomhad mÃ©archlÃ¡ir."
 
 #: src/check_syntax.c:574
 #, c-format
 msgid ""
 "The \"keyboard\" element in the keyboard file does not contain a %s element."
-msgstr "Níl eilimint %s san eilimint \"keyboard\" sa chomhad méarchláir."
+msgstr "NÃ­l eilimint %s san eilimint \"keyboard\" sa chomhad mÃ©archlÃ¡ir."
 
 #: src/check_syntax.c:579
 msgid ""
 "The syntax version of the keyboard file is not compatible with this version "
 "of keyTouch."
 msgstr ""
-"Níl an leagan comhréire den chomhad méarchláir comhoiriúnach leis an leagan "
+"NÃ­l an leagan comhrÃ©ire den chomhad mÃ©archlÃ¡ir comhoiriÃºnach leis an leagan "
 "seo de keyTouch."
 
 #: src/check_syntax.c:589 src/check_syntax.c:594 src/check_syntax.c:599
 #: src/check_syntax.c:604
 #, c-format
 msgid "The keyboard file does not contain any %s element."
-msgstr "Níl eilimint eochairliosta i gcomhad méarchláir '%s'."
+msgstr "NÃ­l eilimint eochairliosta i gcomhad mÃ©archlÃ¡ir '%s'."
 
 #~ msgid "No scancode. This key is identified by its keycode."
-#~ msgstr "Gan scanchód. Aithnítear an eochair seo lena cód eochrach."
+#~ msgstr "Gan scanchÃ³d. AithnÃ­tear an eochair seo lena cÃ³d eochrach."

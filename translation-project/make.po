@@ -12,54 +12,54 @@ msgstr ""
 "Last-Translator: Kevin Patrick Scannell <scannell@SLU.EDU>\n"
 "Language-Team: Irish <gaeilge-gnulinux@lists.sourceforge.net>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=ISO-8859-1\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ar.c:53
 #, c-format
 msgid "attempt to use unsupported feature: `%s'"
-msgstr "rinneadh iarracht ar ghné gan tacaíocht a úsáid: `%s'"
+msgstr "rinneadh iarracht ar ghnÃ© gan tacaÃ­ocht a ÃºsÃ¡id: `%s'"
 
 #: ar.c:137
 msgid "touch archive member is not available on VMS"
-msgstr "ní féidir ball cartlainne a `touch'áil ar VMS"
+msgstr "nÃ­ fÃ©idir ball cartlainne a `touch'Ã¡il ar VMS"
 
 #: ar.c:168
 #, c-format
 msgid "touch: Archive `%s' does not exist"
-msgstr "touch: Níl an chartlann `%s' ann"
+msgstr "touch: NÃ­l an chartlann `%s' ann"
 
 #: ar.c:171
 #, c-format
 msgid "touch: `%s' is not a valid archive"
-msgstr "touch: Níl `%s' ina cartlann bhailí"
+msgstr "touch: NÃ­l `%s' ina cartlann bhailÃ­"
 
 #: ar.c:178
 #, c-format
 msgid "touch: Member `%s' does not exist in `%s'"
-msgstr "touch: Níl a leithéid de bhall `%s' i `%s'"
+msgstr "touch: NÃ­l a leithÃ©id de bhall `%s' i `%s'"
 
 #: ar.c:185
 #, c-format
 msgid "touch: Bad return code from ar_member_touch on `%s'"
-msgstr "touch: Droch-chód aisfhillidh ó ar_member_touch ar `%s'"
+msgstr "touch: Droch-chÃ³d aisfhillidh Ã³ ar_member_touch ar `%s'"
 
 #: arscan.c:69
 #, c-format
 msgid "lbr$set_module failed to extract module info, status = %d"
 msgstr ""
-"níorbh fhéidir le lbr$set_module an t-eolas modúil a bhaint amach, stádas = %d"
+"nÃ­orbh fhÃ©idir le lbr$set_module an t-eolas modÃºil a bhaint amach, stÃ¡das = %d"
 
 #: arscan.c:154
 #, c-format
 msgid "lbr$ini_control failed with status = %d"
-msgstr "theip ar lbr$ini_control le stádas = %d"
+msgstr "theip ar lbr$ini_control le stÃ¡das = %d"
 
 #: arscan.c:165
 #, c-format
 msgid "unable to open library `%s' to lookup member `%s'"
 msgstr ""
-"ní féidir leabharlann `%s' a oscailt chun cuardach a dhéanamh ar an mball `%s'"
+"nÃ­ fÃ©idir leabharlann `%s' a oscailt chun cuardach a dhÃ©anamh ar an mball `%s'"
 
 #: arscan.c:825
 #, c-format
@@ -68,17 +68,17 @@ msgstr "Ball `%s'%s: %ld beart ag %ld (%ld).\n"
 
 #: arscan.c:826
 msgid " (name might be truncated)"
-msgstr " (is féidir go bhfuil an t-ainm teasctha)"
+msgstr " (is fÃ©idir go bhfuil an t-ainm teasctha)"
 
 #: arscan.c:828
 #, c-format
 msgid "  Date %s"
-msgstr "  Dáta %s"
+msgstr "  DÃ¡ta %s"
 
 #: arscan.c:829
 #, c-format
 msgid "  uid = %d, gid = %d, mode = 0%o.\n"
-msgstr "  uid = %d, gid = %d, mód = 0%o.\n"
+msgstr "  uid = %d, gid = %d, mÃ³d = 0%o.\n"
 
 #: commands.c:422
 msgid "*** Break.\n"
@@ -87,22 +87,22 @@ msgstr "*** Briseadh.\n"
 #: commands.c:545
 #, c-format
 msgid "*** [%s] Archive member `%s' may be bogus; not deleted"
-msgstr "*** [%s] Is féidir gur ball bréige é `%s'; ní scriosadh"
+msgstr "*** [%s] Is fÃ©idir gur ball brÃ©ige Ã© `%s'; nÃ­ scriosadh"
 
 #: commands.c:548
 #, c-format
 msgid "*** Archive member `%s' may be bogus; not deleted"
-msgstr "*** Is féidir gur ball bréige é `%s'; ní scriosadh"
+msgstr "*** Is fÃ©idir gur ball brÃ©ige Ã© `%s'; nÃ­ scriosadh"
 
 #: commands.c:561
 #, c-format
 msgid "*** [%s] Deleting file `%s'"
-msgstr "*** [%s] Comhad `%s' á scriosadh"
+msgstr "*** [%s] Comhad `%s' Ã¡ scriosadh"
 
 #: commands.c:563
 #, c-format
 msgid "*** Deleting file `%s'"
-msgstr "*** Comhad `%s' á scriosadh"
+msgstr "*** Comhad `%s' Ã¡ scriosadh"
 
 #: commands.c:599
 msgid "#  commands to execute"
@@ -115,7 +115,7 @@ msgstr " (insuite):"
 #: commands.c:604
 #, c-format
 msgid " (from `%s', line %lu):\n"
-msgstr " (ó `%s', líne %lu):\n"
+msgstr " (Ã³ `%s', lÃ­ne %lu):\n"
 
 #: dir.c:983
 msgid ""
@@ -128,22 +128,22 @@ msgstr ""
 #: dir.c:995
 #, c-format
 msgid "# %s: could not be stat'd.\n"
-msgstr "# %s: níorbh fhéidir é a stat.\n"
+msgstr "# %s: nÃ­orbh fhÃ©idir Ã© a stat.\n"
 
 #: dir.c:999
 #, c-format
 msgid "# %s (key %s, mtime %d): could not be opened.\n"
-msgstr "# %s (eochair %s, am-m %d): ní féidir é a oscailt.\n"
+msgstr "# %s (eochair %s, am-m %d): nÃ­ fÃ©idir Ã© a oscailt.\n"
 
 #: dir.c:1003
 #, c-format
 msgid "# %s (device %d, inode [%d,%d,%d]): could not be opened.\n"
-msgstr "# %s (gléas %d, i-nód [%d,%d,%d]): ní féidir é a oscailt.\n"
+msgstr "# %s (glÃ©as %d, i-nÃ³d [%d,%d,%d]): nÃ­ fÃ©idir Ã© a oscailt.\n"
 
 #: dir.c:1008
 #, c-format
 msgid "# %s (device %ld, inode %ld): could not be opened.\n"
-msgstr "# %s (gléas %ld, i-nód %ld): níorbh fhéidir é a oscailt.\n"
+msgstr "# %s (glÃ©as %ld, i-nÃ³d %ld): nÃ­orbh fhÃ©idir Ã© a oscailt.\n"
 
 #: dir.c:1035
 #, c-format
@@ -153,16 +153,16 @@ msgstr "# %s (eochair %s, am-m %d): "
 #: dir.c:1039
 #, c-format
 msgid "# %s (device %d, inode [%d,%d,%d]): "
-msgstr "# %s (gléas %d, i-nód [%d,%d,%d]): "
+msgstr "# %s (glÃ©as %d, i-nÃ³d [%d,%d,%d]): "
 
 #: dir.c:1044
 #, c-format
 msgid "# %s (device %ld, inode %ld): "
-msgstr "# %s (gléas %ld, i-nód %ld): "
+msgstr "# %s (glÃ©as %ld, i-nÃ³d %ld): "
 
 #: dir.c:1050 dir.c:1071
 msgid "No"
-msgstr "Ná Déan"
+msgstr "NÃ¡ DÃ©an"
 
 #: dir.c:1053 dir.c:1074
 msgid " files, "
@@ -170,39 +170,39 @@ msgstr " comhad, "
 
 #: dir.c:1055 dir.c:1076
 msgid "no"
-msgstr "níl"
+msgstr "nÃ­l"
 
 #: dir.c:1058
 msgid " impossibilities"
-msgstr " rudaí neamhfhéideartha"
+msgstr " rudaÃ­ neamhfhÃ©ideartha"
 
 #: dir.c:1062
 msgid " so far."
-msgstr " go dtí seo."
+msgstr " go dtÃ­ seo."
 
 #: dir.c:1079
 #, c-format
 msgid " impossibilities in %lu directories.\n"
-msgstr " rudaí neamhfhéideartha i %lu comhadlann.\n"
+msgstr " rudaÃ­ neamhfhÃ©ideartha i %lu comhadlann.\n"
 
 #: expand.c:128
 #, c-format
 msgid "Recursive variable `%s' references itself (eventually)"
-msgstr "Déanann an athróg athchúrsach `%s' tagairt dó féin (sa deireadh)"
+msgstr "DÃ©anann an athrÃ³g athchÃºrsach `%s' tagairt dÃ³ fÃ©in (sa deireadh)"
 
 #: expand.c:266
 msgid "unterminated variable reference"
-msgstr "tagairt athróige gan chríochnú"
+msgstr "tagairt athrÃ³ige gan chrÃ­ochnÃº"
 
 #: file.c:270
 #, c-format
 msgid "Commands were specified for file `%s' at %s:%lu,"
-msgstr "Sonraíodh orduithe le haghaidh comhaid `%s' ag %s:%lu,"
+msgstr "SonraÃ­odh orduithe le haghaidh comhaid `%s' ag %s:%lu,"
 
 #: file.c:275
 #, c-format
 msgid "Commands for file `%s' were found by implicit rule search,"
-msgstr "Aimsíodh orduithe le haghaidh `%s' trí chuardach ar rialacha intuigthe,"
+msgstr "AimsÃ­odh orduithe le haghaidh `%s' trÃ­ chuardach ar rialacha intuigthe,"
 
 #: file.c:278
 #, c-format
@@ -213,32 +213,32 @@ msgstr "ach anois is ionann iad na comhaid `%s' agus `%s'."
 #, c-format
 msgid "Commands for `%s' will be ignored in favor of those for `%s'."
 msgstr ""
-"Déanfar neamhshuim ar orduithe le haghaidh `%s'; úsáidfear na cinn le "
+"DÃ©anfar neamhshuim ar orduithe le haghaidh `%s'; ÃºsÃ¡idfear na cinn le "
 "haghaidh `%s' ina n-ionad."
 
 #: file.c:301
 #, c-format
 msgid "can't rename single-colon `%s' to double-colon `%s'"
-msgstr "ní féidir idirstad aonair `%s' a athainmnigh le hidirstad dúbailte `%s'"
+msgstr "nÃ­ fÃ©idir idirstad aonair `%s' a athainmnigh le hidirstad dÃºbailte `%s'"
 
 #: file.c:306
 #, c-format
 msgid "can't rename double-colon `%s' to single-colon `%s'"
-msgstr "ní féidir idirstad dúbailte `%s' a athainmniú le hidirstad aonair `%s'"
+msgstr "nÃ­ fÃ©idir idirstad dÃºbailte `%s' a athainmniÃº le hidirstad aonair `%s'"
 
 #: file.c:381
 #, c-format
 msgid "*** Deleting intermediate file `%s'"
-msgstr "*** Comhad idirmheánach `%s' á scriosadh"
+msgstr "*** Comhad idirmheÃ¡nach `%s' Ã¡ scriosadh"
 
 #: file.c:385
 msgid "Removing intermediate files...\n"
-msgstr "Comhaid idirmheánacha á mbaint...\n"
+msgstr "Comhaid idirmheÃ¡nacha Ã¡ mbaint...\n"
 
 #: file.c:781
 #, c-format
 msgid "%s: Timestamp out of range; substituting %s"
-msgstr "%s: Stampa ama as raon; %s á úsáid ina ionad"
+msgstr "%s: Stampa ama as raon; %s Ã¡ ÃºsÃ¡id ina ionad"
 
 #: file.c:782
 msgid "Current time"
@@ -246,23 +246,23 @@ msgstr "An t-am anois"
 
 #: file.c:881
 msgid "# Not a target:"
-msgstr "# Ní sprioc é:"
+msgstr "# NÃ­ sprioc Ã©:"
 
 #: file.c:903
 msgid "#  Precious file (prerequisite of .PRECIOUS)."
-msgstr "#  Comhad luachmhar (réamhriachtanas de .PRECIOUS)."
+msgstr "#  Comhad luachmhar (rÃ©amhriachtanas de .PRECIOUS)."
 
 #: file.c:905
 msgid "#  Phony target (prerequisite of .PHONY)."
-msgstr "#  Sprioc bhréige (réamhriachtanas de .PHONY)."
+msgstr "#  Sprioc bhrÃ©ige (rÃ©amhriachtanas de .PHONY)."
 
 #: file.c:907
 msgid "#  Command-line target."
-msgstr "#  Sprioc líne na n-orduithe."
+msgstr "#  Sprioc lÃ­ne na n-orduithe."
 
 #: file.c:909
 msgid "#  A default, MAKEFILES, or -include/sinclude makefile."
-msgstr "#  Makefile réamhshocraithe, nó ó MAKEFILES, nó -include/sinclude."
+msgstr "#  Makefile rÃ©amhshocraithe, nÃ³ Ã³ MAKEFILES, nÃ³ -include/sinclude."
 
 #: file.c:911
 msgid "#  Implicit rule search has been done."
@@ -270,28 +270,28 @@ msgstr "#  Rinneadh cuardach ar rialacha intuigthe."
 
 #: file.c:912
 msgid "#  Implicit rule search has not been done."
-msgstr "#  Ní dhearna cuardach ar rialacha intuigthe."
+msgstr "#  NÃ­ dhearna cuardach ar rialacha intuigthe."
 
 #: file.c:914
 #, c-format
 msgid "#  Implicit/static pattern stem: `%s'\n"
-msgstr "#  Stoc patrúin intuigthe/statach: `%s'\n"
+msgstr "#  Stoc patrÃºin intuigthe/statach: `%s'\n"
 
 #: file.c:916
 msgid "#  File is an intermediate prerequisite."
-msgstr "#  Tá an comhad ina réamhriachtanas idirmheánach."
+msgstr "#  TÃ¡ an comhad ina rÃ©amhriachtanas idirmheÃ¡nach."
 
 #: file.c:919
 msgid "#  Also makes:"
-msgstr "#  Déantar fosta:"
+msgstr "#  DÃ©antar fosta:"
 
 #: file.c:925
 msgid "#  Modification time never checked."
-msgstr "#  Níor seiceáladh an t-am mionathraithe riamh."
+msgstr "#  NÃ­or seiceÃ¡ladh an t-am mionathraithe riamh."
 
 #: file.c:927
 msgid "#  File does not exist."
-msgstr "#  Níl a leithéid de chomhad ann."
+msgstr "#  NÃ­l a leithÃ©id de chomhad ann."
 
 #: file.c:929
 msgid "#  File is very old."
@@ -304,39 +304,39 @@ msgstr "#  Athraithe %s\n"
 
 #: file.c:937
 msgid "#  File has been updated."
-msgstr "#  Nuashonraíodh an comhad."
+msgstr "#  NuashonraÃ­odh an comhad."
 
 #: file.c:937
 msgid "#  File has not been updated."
-msgstr "#  Níor nuashonraíodh an comhad."
+msgstr "#  NÃ­or nuashonraÃ­odh an comhad."
 
 #: file.c:941
 msgid "#  Commands currently running (THIS IS A BUG)."
-msgstr "#  Tá orduithe ann atá ag rith faoi láthair (IS FABHT É SEO)."
+msgstr "#  TÃ¡ orduithe ann atÃ¡ ag rith faoi lÃ¡thair (IS FABHT Ã‰ SEO)."
 
 #: file.c:944
 msgid "#  Dependencies commands running (THIS IS A BUG)."
-msgstr "#  Tá orduithe spleáchais ag rith (IS FABHT É SEO)."
+msgstr "#  TÃ¡ orduithe spleÃ¡chais ag rith (IS FABHT Ã‰ SEO)."
 
 #: file.c:953
 msgid "#  Successfully updated."
-msgstr "#  D'éirigh leis an nuashonrú."
+msgstr "#  D'Ã©irigh leis an nuashonrÃº."
 
 #: file.c:957
 msgid "#  Needs to be updated (-q is set)."
-msgstr "#  Tá gá le nuashonrú (-q ceaptha)."
+msgstr "#  TÃ¡ gÃ¡ le nuashonrÃº (-q ceaptha)."
 
 #: file.c:960
 msgid "#  Failed to be updated."
-msgstr "#  Theip ar nuashonrú."
+msgstr "#  Theip ar nuashonrÃº."
 
 #: file.c:963
 msgid "#  Invalid value in `update_status' member!"
-msgstr "#  Luach neamhbhailí sa bhall `update_status'!"
+msgstr "#  Luach neamhbhailÃ­ sa bhall `update_status'!"
 
 #: file.c:970
 msgid "#  Invalid value in `command_state' member!"
-msgstr "#  Luach neamhbhailí sa bhall `command_state'!"
+msgstr "#  Luach neamhbhailÃ­ sa bhall `command_state'!"
 
 #: file.c:989
 msgid ""
@@ -353,24 +353,24 @@ msgid ""
 "# "
 msgstr ""
 "\n"
-"# comhaid hais-tábla stait:\n"
+"# comhaid hais-tÃ¡bla stait:\n"
 "# "
 
 #: function.c:759
 msgid "non-numeric first argument to `word' function"
-msgstr "tá an chéad argóint neamhuimhriúil leis an fheidhm `word'"
+msgstr "tÃ¡ an chÃ©ad argÃ³int neamhuimhriÃºil leis an fheidhm `word'"
 
 #: function.c:764
 msgid "first argument to `word' function must be greater than 0"
-msgstr "caithfidh an chéad argóint leis an fheidhm `word' a bheith deimhneach"
+msgstr "caithfidh an chÃ©ad argÃ³int leis an fheidhm `word' a bheith deimhneach"
 
 #: function.c:785
 msgid "non-numeric first argument to `wordlist' function"
-msgstr "is neamhuimhriúil í an chéad argóint leis an fheidhm `wordlist'"
+msgstr "is neamhuimhriÃºil Ã­ an chÃ©ad argÃ³int leis an fheidhm `wordlist'"
 
 #: function.c:787
 msgid "non-numeric second argument to `wordlist' function"
-msgstr "is neamhuimhriúil í an dara hargóint leis an fheidhm `wordlist'"
+msgstr "is neamhuimhriÃºil Ã­ an dara hargÃ³int leis an fheidhm `wordlist'"
 
 #: function.c:1453
 #, c-format
@@ -394,42 +394,42 @@ msgstr "windows32_openpipe (): theip ar process_init_fd()\n"
 #: function.c:1725
 #, c-format
 msgid "Cleaning up temporary batch file %s\n"
-msgstr "Baisc-chomhad sealadach %s á ghlanadh\n"
+msgstr "Baisc-chomhad sealadach %s Ã¡ ghlanadh\n"
 
 #: function.c:2101
 #, c-format
 msgid "insufficient number of arguments (%d) to function `%s'"
-msgstr "easpa argóintí (%d) d'fheidhm `%s'"
+msgstr "easpa argÃ³intÃ­ (%d) d'fheidhm `%s'"
 
 #: function.c:2113
 #, c-format
 msgid "unimplemented on this platform: function `%s'"
-msgstr "níl an fheidhm `%s' ar fáil ar an chóras seo"
+msgstr "nÃ­l an fheidhm `%s' ar fÃ¡il ar an chÃ³ras seo"
 
 #: function.c:2163
 #, c-format
 msgid "unterminated call to function `%s': missing `%c'"
-msgstr "glao ar fheidhm `%s' gan chríochnú: `%c' ar iarraidh"
+msgstr "glao ar fheidhm `%s' gan chrÃ­ochnÃº: `%c' ar iarraidh"
 
 #: getopt.c:663
 #, c-format
 msgid "%s: option `%s' is ambiguous\n"
-msgstr "%s: Tá an rogha `%s' débhríoch\n"
+msgstr "%s: TÃ¡ an rogha `%s' dÃ©bhrÃ­och\n"
 
 #: getopt.c:687
 #, c-format
 msgid "%s: option `--%s' doesn't allow an argument\n"
-msgstr "%s: ní cheadaítear argóint i ndiaidh na rogha `--%s'\n"
+msgstr "%s: nÃ­ cheadaÃ­tear argÃ³int i ndiaidh na rogha `--%s'\n"
 
 #: getopt.c:692
 #, c-format
 msgid "%s: option `%c%s' doesn't allow an argument\n"
-msgstr "%s: ní cheadaítear argóint i ndiaidh na rogha `%c%s'\n"
+msgstr "%s: nÃ­ cheadaÃ­tear argÃ³int i ndiaidh na rogha `%c%s'\n"
 
 #: getopt.c:709 getopt.c:882
 #, c-format
 msgid "%s: option `%s' requires an argument\n"
-msgstr "%s: tá argóint de dhíth i ndiaidh na rogha `%s'\n"
+msgstr "%s: tÃ¡ argÃ³int de dhÃ­th i ndiaidh na rogha `%s'\n"
 
 #: getopt.c:738
 #, c-format
@@ -449,124 +449,124 @@ msgstr "%s: rogha neamhcheadaithe -- %c\n"
 #: getopt.c:771
 #, c-format
 msgid "%s: invalid option -- %c\n"
-msgstr "%s: rogha neamhbhailí -- %c\n"
+msgstr "%s: rogha neamhbhailÃ­ -- %c\n"
 
 #: getopt.c:801 getopt.c:931
 #, c-format
 msgid "%s: option requires an argument -- %c\n"
-msgstr "%s: tá argóint de dhíth i ndiaidh na rogha -- %c\n"
+msgstr "%s: tÃ¡ argÃ³int de dhÃ­th i ndiaidh na rogha -- %c\n"
 
 #: getopt.c:848
 #, c-format
 msgid "%s: option `-W %s' is ambiguous\n"
-msgstr "%s: Tá an rogha `-W %s' débhríoch\n"
+msgstr "%s: TÃ¡ an rogha `-W %s' dÃ©bhrÃ­och\n"
 
 #: getopt.c:866
 #, c-format
 msgid "%s: option `-W %s' doesn't allow an argument\n"
-msgstr "%s: ní cheadaítear argóint i ndiaidh na rogha `-W %s'\n"
+msgstr "%s: nÃ­ cheadaÃ­tear argÃ³int i ndiaidh na rogha `-W %s'\n"
 
 #: hash.c:51
 #, c-format
 msgid "can't allocate %ld bytes for hash table: memory exhausted"
-msgstr "ní féidir %ld beart a dháileadh le haghaidh hais-tábla: cuimhne ídithe"
+msgstr "nÃ­ fÃ©idir %ld beart a dhÃ¡ileadh le haghaidh hais-tÃ¡bla: cuimhne Ã­dithe"
 
 #: hash.c:282
 #, c-format
 msgid "Load=%ld/%ld=%.0f%%, "
-msgstr "Lód=%ld/%ld=%.0f%%, "
+msgstr "LÃ³d=%ld/%ld=%.0f%%, "
 
 #: hash.c:284
 #, c-format
 msgid "Rehash=%d, "
-msgstr "Ath-haiseáil=%d, "
+msgstr "Ath-haiseÃ¡il=%d, "
 
 #: hash.c:285
 #, c-format
 msgid "Collisions=%ld/%ld=%.0f%%"
-msgstr "Tuairteanna haiseála=%ld/%ld=%.0f%%"
+msgstr "Tuairteanna haiseÃ¡la=%ld/%ld=%.0f%%"
 
 #: implicit.c:41
 #, c-format
 msgid "Looking for an implicit rule for `%s'.\n"
-msgstr "Ag déanamh cuardach ar riail intuigthe le haghaidh `%s'.\n"
+msgstr "Ag dÃ©anamh cuardach ar riail intuigthe le haghaidh `%s'.\n"
 
 #: implicit.c:57
 #, c-format
 msgid "Looking for archive-member implicit rule for `%s'.\n"
 msgstr ""
-"Ag déanamh cuardach ar riail intuigthe le haghaidh bhall cartlainne `%s'.\n"
+"Ag dÃ©anamh cuardach ar riail intuigthe le haghaidh bhall cartlainne `%s'.\n"
 
 #: implicit.c:319
 msgid "Avoiding implicit rule recursion.\n"
-msgstr "Athchúrsáil de bharr rialacha intuigthe á seachaint.\n"
+msgstr "AthchÃºrsÃ¡il de bharr rialacha intuigthe Ã¡ seachaint.\n"
 
 #: implicit.c:476
 #, c-format
 msgid "Trying pattern rule with stem `%.*s'.\n"
-msgstr "Ag baint triail as riail phatrúin le stoc `%.*s'.\n"
+msgstr "Ag baint triail as riail phatrÃºin le stoc `%.*s'.\n"
 
 #: implicit.c:667
 #, c-format
 msgid "Rejecting impossible implicit prerequisite `%s'.\n"
-msgstr "Réamhriachtanas intuigthe neamhfhéideartha `%s' á dhiúltú.\n"
+msgstr "RÃ©amhriachtanas intuigthe neamhfhÃ©ideartha `%s' Ã¡ dhiÃºltÃº.\n"
 
 #: implicit.c:668
 #, c-format
 msgid "Rejecting impossible rule prerequisite `%s'.\n"
-msgstr "Réamhriachtanas neamhfhéideartha rialach `%s' á dhiúltú.\n"
+msgstr "RÃ©amhriachtanas neamhfhÃ©ideartha rialach `%s' Ã¡ dhiÃºltÃº.\n"
 
 #: implicit.c:678
 #, c-format
 msgid "Trying implicit prerequisite `%s'.\n"
-msgstr "Ag baint triail as an réamhriachtanas intuigthe `%s'.\n"
+msgstr "Ag baint triail as an rÃ©amhriachtanas intuigthe `%s'.\n"
 
 #: implicit.c:679
 #, c-format
 msgid "Trying rule prerequisite `%s'.\n"
-msgstr "Ag baint triail as an réamhriachtanas rialach `%s'.\n"
+msgstr "Ag baint triail as an rÃ©amhriachtanas rialach `%s'.\n"
 
 #: implicit.c:710
 #, c-format
 msgid "Found prerequisite `%s' as VPATH `%s'\n"
-msgstr "Aimsíodh réamhriachtanas `%s' mar VPATH `%s'\n"
+msgstr "AimsÃ­odh rÃ©amhriachtanas `%s' mar VPATH `%s'\n"
 
 #: implicit.c:730
 #, c-format
 msgid "Looking for a rule with intermediate file `%s'.\n"
-msgstr "Ag déanamh cuardach ar riail le comhad idirmheánach `%s'.\n"
+msgstr "Ag dÃ©anamh cuardach ar riail le comhad idirmheÃ¡nach `%s'.\n"
 
 #: job.c:321
 msgid "Cannot create a temporary file\n"
-msgstr "Ní féidir comhad sealadach a chruthú\n"
+msgstr "NÃ­ fÃ©idir comhad sealadach a chruthÃº\n"
 
 #: job.c:388
 #, c-format
 msgid "*** [%s] Error 0x%x (ignored)"
-msgstr "*** [%s] Earráid 0x%x (rinneadh neamhshuim air)"
+msgstr "*** [%s] EarrÃ¡id 0x%x (rinneadh neamhshuim air)"
 
 #: job.c:389
 #, c-format
 msgid "*** [%s] Error 0x%x"
-msgstr "*** [%s] Earráid 0x%x"
+msgstr "*** [%s] EarrÃ¡id 0x%x"
 
 #: job.c:393
 #, c-format
 msgid "[%s] Error %d (ignored)"
-msgstr "[%s] Earráid %d (rinneadh neamhshuim)"
+msgstr "[%s] EarrÃ¡id %d (rinneadh neamhshuim)"
 
 #: job.c:394
 #, c-format
 msgid "*** [%s] Error %d"
-msgstr "*** [%s] Earráid %d"
+msgstr "*** [%s] EarrÃ¡id %d"
 
 #: job.c:399
 msgid " (core dumped)"
-msgstr " (córdhumpa)"
+msgstr " (cÃ³rdhumpa)"
 
 #: job.c:488
 msgid "*** Waiting for unfinished jobs...."
-msgstr "*** Ag fanacht le jabanna neamhchríochnaithe..."
+msgstr "*** Ag fanacht le jabanna neamhchrÃ­ochnaithe..."
 
 #: job.c:518
 #, c-format
@@ -580,26 +580,26 @@ msgstr " (cianda)"
 #: job.c:698
 #, c-format
 msgid "Reaping losing child 0x%08lx PID %ld %s\n"
-msgstr "Mac caillteach á bhaint: 0x%08lx PID %ld %s\n"
+msgstr "Mac caillteach Ã¡ bhaint: 0x%08lx PID %ld %s\n"
 
 #: job.c:699
 #, c-format
 msgid "Reaping winning child 0x%08lx PID %ld %s\n"
-msgstr "Mac buaiteach á bhaint: 0x%08lx PID %ld %s\n"
+msgstr "Mac buaiteach Ã¡ bhaint: 0x%08lx PID %ld %s\n"
 
 #: job.c:704
 #, c-format
 msgid "Cleaning up temp batch file %s\n"
-msgstr "Baisc-chomhad sealadach %s á ghlanadh\n"
+msgstr "Baisc-chomhad sealadach %s Ã¡ ghlanadh\n"
 
 #: job.c:802
 #, c-format
 msgid "Removing child 0x%08lx PID %ld%s from chain.\n"
-msgstr "Mac 0x%08lx PID %ld%s á dhealú ón slabhra.\n"
+msgstr "Mac 0x%08lx PID %ld%s Ã¡ dhealÃº Ã³n slabhra.\n"
 
 #: job.c:862
 msgid "write jobserver"
-msgstr "scríobh jabfhreastalaí"
+msgstr "scrÃ­obh jabfhreastalaÃ­"
 
 #: job.c:864
 #, c-format
@@ -609,7 +609,7 @@ msgstr "Saoradh ceadchomhartha le haghaidh mac 0x%08lx (%s).\n"
 #: job.c:1383
 #, c-format
 msgid "process_easy() failed to launch process (e=%ld)\n"
-msgstr "theip ar process_easy(); níor tosaíodh próiseas (e=%ld)\n"
+msgstr "theip ar process_easy(); nÃ­or tosaÃ­odh prÃ³iseas (e=%ld)\n"
 
 #: job.c:1387 job.c:2020
 #, c-format
@@ -618,7 +618,7 @@ msgid ""
 "Counted %d args in failed launch\n"
 msgstr ""
 "\n"
-"%d argóint sa tosú theipthe\n"
+"%d argÃ³int sa tosÃº theipthe\n"
 
 #: job.c:1455
 #, c-format
@@ -632,70 +632,70 @@ msgstr "Fuarthas ceadchomhartha le haghaidh mac 0x%08lx (%s).\n"
 
 #: job.c:1718
 msgid "read jobs pipe"
-msgstr "léadh píopa na jabanna"
+msgstr "lÃ©adh pÃ­opa na jabanna"
 
 #: job.c:1832
 msgid "cannot enforce load limits on this operating system"
-msgstr "ní féidir srianta lóid a chur i bhfeidhm ar an chóras oibriúcháin seo"
+msgstr "nÃ­ fÃ©idir srianta lÃ³id a chur i bhfeidhm ar an chÃ³ras oibriÃºchÃ¡in seo"
 
 #: job.c:1834
 msgid "cannot enforce load limit: "
-msgstr "ní féidir srian lóid a chur i bhfeidhm: "
+msgstr "nÃ­ fÃ©idir srian lÃ³id a chur i bhfeidhm: "
 
 #: job.c:1907
 msgid "no more file handles: could not duplicate stdin\n"
-msgstr "níl aon hanla comhaid le fáil: níorbh fhéidir stdin a chóipeáil\n"
+msgstr "nÃ­l aon hanla comhaid le fÃ¡il: nÃ­orbh fhÃ©idir stdin a chÃ³ipeÃ¡il\n"
 
 #: job.c:1909
 msgid "no more file handles: could not duplicate stdout\n"
-msgstr "níl aon hanla comhaid le fáil: níorbh fhéidir stdout a chóipeáil\n"
+msgstr "nÃ­l aon hanla comhaid le fÃ¡il: nÃ­orbh fhÃ©idir stdout a chÃ³ipeÃ¡il\n"
 
 #: job.c:1937
 msgid "Could not restore stdin\n"
-msgstr "Níorbh fhéidir stdin a athchóiriú\n"
+msgstr "NÃ­orbh fhÃ©idir stdin a athchÃ³iriÃº\n"
 
 #: job.c:1945
 msgid "Could not restore stdout\n"
-msgstr "Níorbh fhéidir stdout a athchóiriú\n"
+msgstr "NÃ­orbh fhÃ©idir stdout a athchÃ³iriÃº\n"
 
 #: job.c:2016
 #, c-format
 msgid "process_easy() failed failed to launch process (e=%ld)\n"
-msgstr "theip ar process_easy(); níor tosaíodh próiseas (e=%ld)\n"
+msgstr "theip ar process_easy(); nÃ­or tosaÃ­odh prÃ³iseas (e=%ld)\n"
 
 #: job.c:2046
 #, c-format
 msgid "make reaped child pid %ld, still waiting for pid %ld\n"
-msgstr "ghin make mac le pid %ld, ag feitheamh le pid %ld fós\n"
+msgstr "ghin make mac le pid %ld, ag feitheamh le pid %ld fÃ³s\n"
 
 #: job.c:2085
 #, c-format
 msgid "%s: Command not found"
-msgstr "%s: Ní bhfuarthas an t-ordú"
+msgstr "%s: NÃ­ bhfuarthas an t-ordÃº"
 
 #: job.c:2145
 #, c-format
 msgid "%s: Shell program not found"
-msgstr "%s: Ní bhfuarthas an clár blaoisce"
+msgstr "%s: NÃ­ bhfuarthas an clÃ¡r blaoisce"
 
 #: job.c:2154
 msgid "spawnvpe: environment space might be exhausted"
-msgstr "spawnvpe: is féidir gur ídithe í cuimhne na timpeallachta"
+msgstr "spawnvpe: is fÃ©idir gur Ã­dithe Ã­ cuimhne na timpeallachta"
 
 #: job.c:2363
 #, c-format
 msgid "$SHELL changed (was `%s', now `%s')\n"
-msgstr "Athraíodh $SHELL (ba `%s' é, agus is `%s' é anois)\n"
+msgstr "AthraÃ­odh $SHELL (ba `%s' Ã©, agus is `%s' Ã© anois)\n"
 
 #: job.c:2789
 #, c-format
 msgid "Creating temporary batch file %s\n"
-msgstr "Baisc-chomhad sealadach %s á chruthú\n"
+msgstr "Baisc-chomhad sealadach %s Ã¡ chruthÃº\n"
 
 #: job.c:2902
 #, c-format
 msgid "%s (line %d) Bad shell context (!unixy && !batch_mode_shell)\n"
-msgstr "%s (líne %d) Droch-chomhthéacs blaoisce (!unixy && !batch_mode_shell)\n"
+msgstr "%s (lÃ­ne %d) Droch-chomhthÃ©acs blaoisce (!unixy && !batch_mode_shell)\n"
 
 #: main.c:291
 msgid "Options:\n"
@@ -703,11 +703,11 @@ msgstr "Roghanna:\n"
 
 #: main.c:292
 msgid "  -b, -m                      Ignored for compatibility.\n"
-msgstr "  -b, -m                      Déan neamhshuim (comhoiriúnacht)\n"
+msgstr "  -b, -m                      DÃ©an neamhshuim (comhoiriÃºnacht)\n"
 
 #: main.c:294
 msgid "  -B, --always-make           Unconditionally make all targets.\n"
-msgstr "  -B, --always-make           Déan gach sprioc, gan choinníollacha.\n"
+msgstr "  -B, --always-make           DÃ©an gach sprioc, gan choinnÃ­ollacha.\n"
 
 #: main.c:296
 msgid ""
@@ -715,18 +715,18 @@ msgid ""
 "                              Change to DIRECTORY before doing anything.\n"
 msgstr ""
 "  -C COMHADLANN, --directory=COMHADLANN\n"
-"                              Téigh go COMHADLANN roimh dhéanamh aon rud.\n"
+"                              TÃ©igh go COMHADLANN roimh dhÃ©anamh aon rud.\n"
 
 #: main.c:299
 msgid "  -d                          Print lots of debugging information.\n"
-msgstr "  -d                          Taispeáin go leor eolas dífhabhtaithe.\n"
+msgstr "  -d                          TaispeÃ¡in go leor eolas dÃ­fhabhtaithe.\n"
 
 #: main.c:301
 msgid ""
 "  --debug[=FLAGS]             Print various types of debugging information.\n"
 msgstr ""
-"  --debug[=BRATACHA]          Taispeáin eolas fabhtaithe de chineálacha "
-"éagsúla.\n"
+"  --debug[=BRATACHA]          TaispeÃ¡in eolas fabhtaithe de chineÃ¡lacha "
+"Ã©agsÃºla.\n"
 
 #: main.c:303
 msgid ""
@@ -734,7 +734,7 @@ msgid ""
 "                              Environment variables override makefiles.\n"
 msgstr ""
 "  -e, --environment-overrides\n"
-"                              Sáraíonn athróga timpeallachta makefileanna.\n"
+"                              SÃ¡raÃ­onn athrÃ³ga timpeallachta makefileanna.\n"
 
 #: main.c:306
 msgid ""
@@ -742,15 +742,15 @@ msgid ""
 "                              Read FILE as a makefile.\n"
 msgstr ""
 "  -f COMHAD, --file=COMHAD, --makefile=COMHAD\n"
-"                              Léigh COMHAD mar makefile.\n"
+"                              LÃ©igh COMHAD mar makefile.\n"
 
 #: main.c:309
 msgid "  -h, --help                  Print this message and exit.\n"
-msgstr "  -h, --help                  Taispeáin an chabhair seo agus scoir.\n"
+msgstr "  -h, --help                  TaispeÃ¡in an chabhair seo agus scoir.\n"
 
 #: main.c:311
 msgid "  -i, --ignore-errors         Ignore errors from commands.\n"
-msgstr "  -i, --ignore-errors         Déan neamhshuim ar earráidí ó orduithe.\n"
+msgstr "  -i, --ignore-errors         DÃ©an neamhshuim ar earrÃ¡idÃ­ Ã³ orduithe.\n"
 
 #: main.c:313
 msgid ""
@@ -766,15 +766,15 @@ msgid ""
 "  -j [N], --jobs[=N]          Allow N jobs at once; infinite jobs with no "
 "arg.\n"
 msgstr ""
-"  -j [N], --jobs[=N]          Ceadaigh N jab le chéile; éigríoch mura "
+"  -j [N], --jobs[=N]          Ceadaigh N jab le chÃ©ile; Ã©igrÃ­och mura "
 "gceaptar arg.\n"
 
 #: main.c:318
 msgid ""
 "  -k, --keep-going            Keep going when some targets can't be made.\n"
 msgstr ""
-"  -k, --keep-going            Lean ar aghaidh fiú nach féidir sprioc a "
-"dhéanamh.\n"
+"  -k, --keep-going            Lean ar aghaidh fiÃº nach fÃ©idir sprioc a "
+"dhÃ©anamh.\n"
 
 #: main.c:320
 msgid ""
@@ -783,16 +783,16 @@ msgid ""
 "N.\n"
 msgstr ""
 "  -l [N], --load-average[=N], --max-load[=N]\n"
-"                              Ná tosaigh jabanna iomadúla mura bhfuil an lód "
-"níos lú ná N.\n"
+"                              NÃ¡ tosaigh jabanna iomadÃºla mura bhfuil an lÃ³d "
+"nÃ­os lÃº nÃ¡ N.\n"
 
 #: main.c:323
 msgid ""
 "  -L, --check-symlink-times   Use the latest mtime between symlinks and "
 "target.\n"
 msgstr ""
-"  -L, --check-symlink-times   Úsáid an t-am modhnaithe is déanaí, ar an nasc\n"
-"                                 siombalach nó ar an sprioc.\n"
+"  -L, --check-symlink-times   ÃšsÃ¡id an t-am modhnaithe is dÃ©anaÃ­, ar an nasc\n"
+"                                 siombalach nÃ³ ar an sprioc.\n"
 
 #: main.c:325
 msgid ""
@@ -801,8 +801,8 @@ msgid ""
 "them.\n"
 msgstr ""
 "  -n, --just-print, --dry-run, --recon\n"
-"                              Ná rith aon ordú; taispeáin torthaí mar dhea "
-"amháin.\n"
+"                              NÃ¡ rith aon ordÃº; taispeÃ¡in torthaÃ­ mar dhea "
+"amhÃ¡in.\n"
 
 #: main.c:328
 msgid ""
@@ -811,34 +811,34 @@ msgid ""
 "it.\n"
 msgstr ""
 "  -o COMHAD, --old-file=COMHAD, --assume-old=COMHAD\n"
-"                              Caith le COMHAD mar cheann cianaosta; ná "
-"hathdhéan é.\n"
+"                              Caith le COMHAD mar cheann cianaosta; nÃ¡ "
+"hathdhÃ©an Ã©.\n"
 
 #: main.c:331
 msgid "  -p, --print-data-base       Print make's internal database.\n"
 msgstr ""
-"  -p, --print-data-base       Taispeáin an bunachar sonraí inmheánach.\n"
+"  -p, --print-data-base       TaispeÃ¡in an bunachar sonraÃ­ inmheÃ¡nach.\n"
 
 #: main.c:333
 msgid ""
 "  -q, --question              Run no commands; exit status says if up to "
 "date.\n"
 msgstr ""
-"  -q, --question              Ná rith aon ordú; stádas scortha = 0 mura gá le "
-"nuashonrú.\n"
+"  -q, --question              NÃ¡ rith aon ordÃº; stÃ¡das scortha = 0 mura gÃ¡ le "
+"nuashonrÃº.\n"
 
 #: main.c:335
 msgid "  -r, --no-builtin-rules      Disable the built-in implicit rules.\n"
 msgstr ""
-"  -r, --no-builtin-rules      Díchumasaigh na rialacha intuigthe insuite.\n"
+"  -r, --no-builtin-rules      DÃ­chumasaigh na rialacha intuigthe insuite.\n"
 
 #: main.c:337
 msgid "  -R, --no-builtin-variables  Disable the built-in variable settings.\n"
-msgstr "  -R, --no-builtin-variables  Díchumasaigh na hathróga insuite.\n"
+msgstr "  -R, --no-builtin-variables  DÃ­chumasaigh na hathrÃ³ga insuite.\n"
 
 #: main.c:339
 msgid "  -s, --silent, --quiet       Don't echo commands.\n"
-msgstr "  -s, --silent, --quiet       Ná déan macalla ar orduithe.\n"
+msgstr "  -s, --silent, --quiet       NÃ¡ dÃ©an macalla ar orduithe.\n"
 
 #: main.c:341
 msgid ""
@@ -846,30 +846,30 @@ msgid ""
 "                              Turns off -k.\n"
 msgstr ""
 "  -S, --no-keep-going, --stop\n"
-"                              Múch -k.\n"
+"                              MÃºch -k.\n"
 
 #: main.c:344
 msgid "  -t, --touch                 Touch targets instead of remaking them.\n"
 msgstr ""
 "  -t, --touch                 Teagmhaigh spriocanna in ionad iad a "
-"athdhéanamh.\n"
+"athdhÃ©anamh.\n"
 
 #: main.c:346
 msgid ""
 "  -v, --version               Print the version number of make and exit.\n"
 msgstr ""
-"  -v, --version               Taispeáin eolas faoin leagan agus scoir.\n"
+"  -v, --version               TaispeÃ¡in eolas faoin leagan agus scoir.\n"
 
 #: main.c:348
 msgid "  -w, --print-directory       Print the current directory.\n"
-msgstr "  -w, --print-directory       Taispeáin an chomhadlann reatha.\n"
+msgstr "  -w, --print-directory       TaispeÃ¡in an chomhadlann reatha.\n"
 
 #: main.c:350
 msgid ""
 "  --no-print-directory        Turn off -w, even if it was turned on "
 "implicitly.\n"
 msgstr ""
-"  --no-print-directory        Múch -w, fiú má tá sé i bhfeidhm go "
+"  --no-print-directory        MÃºch -w, fiÃº mÃ¡ tÃ¡ sÃ© i bhfeidhm go "
 "hintuigthe.\n"
 
 #: main.c:352
@@ -878,29 +878,29 @@ msgid ""
 "                              Consider FILE to be infinitely new.\n"
 msgstr ""
 "  -W COMHAD, --what-if=COMHAD, --new-file=COMHAD, --assume-new=COMHAD\n"
-"                              Caith le COMHAD mar cheann úrnua (go "
-"héigríoch).\n"
+"                              Caith le COMHAD mar cheann Ãºrnua (go "
+"hÃ©igrÃ­och).\n"
 
 #: main.c:355
 msgid ""
 "  --warn-undefined-variables  Warn when an undefined variable is referenced.\n"
 msgstr ""
-"  --warn-undefined-variables  Tabhair rabhadh má dhéantar tagairt d'athróg "
-"gan sainmhíniú.\n"
+"  --warn-undefined-variables  Tabhair rabhadh mÃ¡ dhÃ©antar tagairt d'athrÃ³g "
+"gan sainmhÃ­niÃº.\n"
 
 #: main.c:549
 msgid "empty string invalid as file name"
-msgstr "ní féidir teaghrán folamh a úsáid mar ainm comhaid"
+msgstr "nÃ­ fÃ©idir teaghrÃ¡n folamh a ÃºsÃ¡id mar ainm comhaid"
 
 #: main.c:630
 #, c-format
 msgid "unknown debug level specification `%s'"
-msgstr "sonrú anaithnid `%s' ar an leibhéal dífhabhtaithe"
+msgstr "sonrÃº anaithnid `%s' ar an leibhÃ©al dÃ­fhabhtaithe"
 
 #: main.c:670
 #, c-format
 msgid "%s: Interrupt/Exception caught (code = 0x%lx, addr = 0x%lx)\n"
-msgstr "%s: Fuarthas idirbhriseadh/eisceacht (cód = 0x%lx, seoladh = 0x%lx)\n"
+msgstr "%s: Fuarthas idirbhriseadh/eisceacht (cÃ³d = 0x%lx, seoladh = 0x%lx)\n"
 
 #: main.c:677
 #, c-format
@@ -912,25 +912,25 @@ msgid ""
 "ExceptionAddress = %lx\n"
 msgstr ""
 "\n"
-"Glaodh scagaire eisceachta gan láimhseáil ón chlár %s\n"
-"CódEisceachta = %lx\n"
+"Glaodh scagaire eisceachta gan lÃ¡imhseÃ¡il Ã³n chlÃ¡r %s\n"
+"CÃ³dEisceachta = %lx\n"
 "BratachaEisceachta = %lx\n"
 "SeoladhEisceachta = %lx\n"
 
 #: main.c:685
 #, c-format
 msgid "Access violation: write operation at address %lx\n"
-msgstr "Sárú rochtana: oibríocht scríofa ag seoladh %lx\n"
+msgstr "SÃ¡rÃº rochtana: oibrÃ­ocht scrÃ­ofa ag seoladh %lx\n"
 
 #: main.c:686
 #, c-format
 msgid "Access violation: read operation at address %lx\n"
-msgstr "Sárú rochtana: oibríocht léimh ag seoladh %lx\n"
+msgstr "SÃ¡rÃº rochtana: oibrÃ­ocht lÃ©imh ag seoladh %lx\n"
 
 #: main.c:762 main.c:773
 #, c-format
 msgid "find_and_set_shell setting default_shell = %s\n"
-msgstr "tá find_and_set_shell ag socrú default_shell = %s\n"
+msgstr "tÃ¡ find_and_set_shell ag socrÃº default_shell = %s\n"
 
 #: main.c:814
 #, c-format
@@ -940,16 +940,16 @@ msgstr "shocraigh find_and_set_shell conair chuardaigh default_shell = %s\n"
 #: main.c:1236
 #, c-format
 msgid "%s is suspending for 30 seconds..."
-msgstr "cuirfear %s ar fionraí ar feadh tréimhse 30 soicind..."
+msgstr "cuirfear %s ar fionraÃ­ ar feadh trÃ©imhse 30 soicind..."
 
 #: main.c:1238
 #, c-format
 msgid "done sleep(30). Continuing.\n"
-msgstr "sleep(30) críochnaithe. Ag gabháil ar aghaidh.\n"
+msgstr "sleep(30) crÃ­ochnaithe. Ag gabhÃ¡il ar aghaidh.\n"
 
 #: main.c:1466
 msgid "Makefile from standard input specified twice."
-msgstr "Sonraíodh Makefile ón ionchur caighdeánach faoi dhó."
+msgstr "SonraÃ­odh Makefile Ã³n ionchur caighdeÃ¡nach faoi dhÃ³."
 
 #: main.c:1505 vmsjobs.c:486
 msgid "fopen (temporary file)"
@@ -961,79 +961,79 @@ msgstr "fwrite (comhad sealadach)"
 
 #: main.c:1640
 msgid "Parallel jobs (-j) are not supported on this platform."
-msgstr "Níl jabanna parailéalacha (-j) ar fáil ar an gcóras seo."
+msgstr "NÃ­l jabanna parailÃ©alacha (-j) ar fÃ¡il ar an gcÃ³ras seo."
 
 #: main.c:1641
 msgid "Resetting to single job (-j1) mode."
-msgstr "Á athshocrú le haghaidh jabanna aonair (-j1)."
+msgstr "Ã athshocrÃº le haghaidh jabanna aonair (-j1)."
 
 #: main.c:1656
 msgid "internal error: multiple --jobserver-fds options"
-msgstr "earráid inmheánach: roghanna --jobserver-fds iomadúla"
+msgstr "earrÃ¡id inmheÃ¡nach: roghanna --jobserver-fds iomadÃºla"
 
 #: main.c:1664
 #, c-format
 msgid "internal error: invalid --jobserver-fds string `%s'"
-msgstr "earráid inmheánach: teaghrán neamhbhailí --jobserver-fds `%s'"
+msgstr "earrÃ¡id inmheÃ¡nach: teaghrÃ¡n neamhbhailÃ­ --jobserver-fds `%s'"
 
 #: main.c:1674
 msgid "warning: -jN forced in submake: disabling jobserver mode."
-msgstr "rabhadh: -jN fórsáilte i bhfo-make: mód jabfhreastalaí á dhíchumasú."
+msgstr "rabhadh: -jN fÃ³rsÃ¡ilte i bhfo-make: mÃ³d jabfhreastalaÃ­ Ã¡ dhÃ­chumasÃº."
 
 #: main.c:1684
 msgid "dup jobserver"
-msgstr "jabfhreastalaí dup"
+msgstr "jabfhreastalaÃ­ dup"
 
 #: main.c:1687
 msgid "warning: jobserver unavailable: using -j1.  Add `+' to parent make rule."
 msgstr ""
-"rabhadh: níl jabfhreastalaí ar fáil: ag baint úsáid as -j1.  Cuir `+' leis an "
-"máthair-riail."
+"rabhadh: nÃ­l jabfhreastalaÃ­ ar fÃ¡il: ag baint ÃºsÃ¡id as -j1.  Cuir `+' leis an "
+"mÃ¡thair-riail."
 
 #: main.c:1710
 msgid "creating jobs pipe"
-msgstr "píopa na jabanna á chruthú"
+msgstr "pÃ­opa na jabanna Ã¡ chruthÃº"
 
 #: main.c:1725
 msgid "init jobserver pipe"
-msgstr "píopa an jabfhreastalaí á thúsú"
+msgstr "pÃ­opa an jabfhreastalaÃ­ Ã¡ thÃºsÃº"
 
 #: main.c:1744
 msgid "Symbolic links not supported: disabling -L."
-msgstr "ní thacaítear le naisc shiombalacha: -L á dhíchumasú."
+msgstr "nÃ­ thacaÃ­tear le naisc shiombalacha: -L Ã¡ dhÃ­chumasÃº."
 
 #: main.c:1820
 msgid "Updating makefiles....\n"
-msgstr "Makefileanna á nuashonrú....\n"
+msgstr "Makefileanna Ã¡ nuashonrÃº....\n"
 
 #: main.c:1845
 #, c-format
 msgid "Makefile `%s' might loop; not remaking it.\n"
-msgstr "is féidir go lúbfar an Makefile `%s'; ní athdhéanfar é.\n"
+msgstr "is fÃ©idir go lÃºbfar an Makefile `%s'; nÃ­ athdhÃ©anfar Ã©.\n"
 
 #: main.c:1924
 #, c-format
 msgid "Failed to remake makefile `%s'."
-msgstr "Theip ar athdhéanamh an makefile `%s'."
+msgstr "Theip ar athdhÃ©anamh an makefile `%s'."
 
 #: main.c:1941
 #, c-format
 msgid "Included makefile `%s' was not found."
-msgstr "Níor aimsíodh an makefile `%s' san áireamh."
+msgstr "NÃ­or aimsÃ­odh an makefile `%s' san Ã¡ireamh."
 
 #: main.c:1946
 #, c-format
 msgid "Makefile `%s' was not found"
-msgstr "Níor aimsíodh an makefile `%s'"
+msgstr "NÃ­or aimsÃ­odh an makefile `%s'"
 
 #: main.c:2016
 msgid "Couldn't change back to original directory."
-msgstr "Níorbh fhéidir an chomhadlann oibre a athrú ar ais."
+msgstr "NÃ­orbh fhÃ©idir an chomhadlann oibre a athrÃº ar ais."
 
 #: main.c:2024
 #, c-format
 msgid "Re-executing[%u]:"
-msgstr "Á rith arís[%u]:"
+msgstr "Ã rith arÃ­s[%u]:"
 
 #: main.c:2140
 msgid "unlink (temporary file): "
@@ -1041,28 +1041,28 @@ msgstr "unlink (comhad sealadach): "
 
 #: main.c:2169
 msgid ".DEFAULT_GOAL contains more than one target"
-msgstr "tá níos mó ná aon sprioc amháin i .DEFAULT_GOAL"
+msgstr "tÃ¡ nÃ­os mÃ³ nÃ¡ aon sprioc amhÃ¡in i .DEFAULT_GOAL"
 
 #: main.c:2189
 msgid "No targets specified and no makefile found"
-msgstr "Níor sonraíodh aon sprioc agus níor aimsíodh aon makefile"
+msgstr "NÃ­or sonraÃ­odh aon sprioc agus nÃ­or aimsÃ­odh aon makefile"
 
 #: main.c:2191
 msgid "No targets"
-msgstr "Níl aon sprioc ann"
+msgstr "NÃ­l aon sprioc ann"
 
 #: main.c:2196
 msgid "Updating goal targets....\n"
-msgstr "Cinn sprice á nuashonrú....\n"
+msgstr "Cinn sprice Ã¡ nuashonrÃº....\n"
 
 #: main.c:2222
 msgid "warning:  Clock skew detected.  Your build may be incomplete."
-msgstr "rabhadh:  Clog ar sceabha.  Is féidir go bhfuil an tógáil neamhiomlán."
+msgstr "rabhadh:  Clog ar sceabha.  Is fÃ©idir go bhfuil an tÃ³gÃ¡il neamhiomlÃ¡n."
 
 #: main.c:2383
 #, c-format
 msgid "Usage: %s [options] [target] ...\n"
-msgstr "Úsáid: %s [roghanna] [sprioc] ...\n"
+msgstr "ÃšsÃ¡id: %s [roghanna] [sprioc] ...\n"
 
 #: main.c:2389
 #, c-format
@@ -1071,7 +1071,7 @@ msgid ""
 "This program built for %s\n"
 msgstr ""
 "\n"
-"Tógadh an clár seo le haghaidh %s\n"
+"TÃ³gadh an clÃ¡r seo le haghaidh %s\n"
 
 #: main.c:2391
 #, c-format
@@ -1080,22 +1080,22 @@ msgid ""
 "This program built for %s (%s)\n"
 msgstr ""
 "\n"
-"Tógadh an clár seo le haghaidh %s (%s)\n"
+"TÃ³gadh an clÃ¡r seo le haghaidh %s (%s)\n"
 
 #: main.c:2394
 #, c-format
 msgid "Report bugs to <bug-make@gnu.org>\n"
-msgstr "Seol tuairiscí fabhtanna chuig <bug-make@gnu.org>\n"
+msgstr "Seol tuairiscÃ­ fabhtanna chuig <bug-make@gnu.org>\n"
 
 #: main.c:2466
 #, c-format
 msgid "the `-%c' option requires a non-empty string argument"
-msgstr "caithfidh tú teaghrán nach folamh a thabhairt mar argóint le `-%c'"
+msgstr "caithfidh tÃº teaghrÃ¡n nach folamh a thabhairt mar argÃ³int le `-%c'"
 
 #: main.c:2518
 #, c-format
 msgid "the `-%c' option requires a positive integral argument"
-msgstr "caithfidh tú slánuimhir dheimhneach a thabhairt mar argóint le `-%c'"
+msgstr "caithfidh tÃº slÃ¡nuimhir dheimhneach a thabhairt mar argÃ³int le `-%c'"
 
 #: main.c:2942
 #, c-format
@@ -1104,9 +1104,9 @@ msgid ""
 "%sThere is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A\n"
 "%sPARTICULAR PURPOSE.\n"
 msgstr ""
-"%sIs saorbhogearra an ríomhchlár seo; féach ar an bhunchód le haghaidh\n"
-"%scoinníollacha cóipeála.  Níl baránta ar bith ann; go fiú níl baránta ann\n"
-"%sd'INDÍOLTACHT nó FEILIÚNACHT D'FHEIDHM AR LEITH.\n"
+"%sIs saorbhogearra an rÃ­omhchlÃ¡r seo; fÃ©ach ar an bhunchÃ³d le haghaidh\n"
+"%scoinnÃ­ollacha cÃ³ipeÃ¡la.  NÃ­l barÃ¡nta ar bith ann; go fiÃº nÃ­l barÃ¡nta ann\n"
+"%sd'INDÃOLTACHT nÃ³ FEILIÃšNACHT D'FHEIDHM AR LEITH.\n"
 
 #: main.c:2948
 #, c-format
@@ -1115,7 +1115,7 @@ msgid ""
 "%sThis program built for %s\n"
 msgstr ""
 "\n"
-"%sTógadh an clár seo le haghaidh %s\n"
+"%sTÃ³gadh an clÃ¡r seo le haghaidh %s\n"
 
 #: main.c:2950
 #, c-format
@@ -1124,7 +1124,7 @@ msgid ""
 "%sThis program built for %s (%s)\n"
 msgstr ""
 "\n"
-"%sTógadh an clár seo le haghaidh %s (%s)\n"
+"%sTÃ³gadh an clÃ¡r seo le haghaidh %s (%s)\n"
 
 #: main.c:2968
 #, c-format
@@ -1133,7 +1133,7 @@ msgid ""
 "# Make data base, printed on %s"
 msgstr ""
 "\n"
-"# Bunachar sonraí Make, priontáilte ar %s"
+"# Bunachar sonraÃ­ Make, priontÃ¡ilte ar %s"
 
 #: main.c:2978
 #, c-format
@@ -1142,7 +1142,7 @@ msgid ""
 "# Finished Make data base on %s\n"
 msgstr ""
 "\n"
-"# Críochnaíodh an bunachar sonraí Make seo ar %s\n"
+"# CrÃ­ochnaÃ­odh an bunachar sonraÃ­ Make seo ar %s\n"
 
 #: main.c:3101
 #, c-format
@@ -1191,7 +1191,7 @@ msgstr ".  Stop.\n"
 #: misc.c:306
 #, c-format
 msgid "Unknown error %d"
-msgstr "Earráid anaithnid %d"
+msgstr "EarrÃ¡id anaithnid %d"
 
 #: misc.c:316
 #, c-format
@@ -1205,20 +1205,20 @@ msgstr "%s: %s"
 
 #: misc.c:344 misc.c:359 misc.c:376 read.c:3127
 msgid "virtual memory exhausted"
-msgstr "cuimhne fhíorúil ídithe"
+msgstr "cuimhne fhÃ­orÃºil Ã­dithe"
 
 #: misc.c:646
 #, c-format
 msgid "%s: user %lu (real %lu), group %lu (real %lu)\n"
-msgstr "%s: úsáideoir %lu (fíor %lu), grúpa %lu (fíor %lu)\n"
+msgstr "%s: ÃºsÃ¡ideoir %lu (fÃ­or %lu), grÃºpa %lu (fÃ­or %lu)\n"
 
 #: misc.c:667
 msgid "Initialized access"
-msgstr "Rochtain túsaithe"
+msgstr "Rochtain tÃºsaithe"
 
 #: misc.c:746
 msgid "User access"
-msgstr "Rochtain úsáideora"
+msgstr "Rochtain ÃºsÃ¡ideora"
 
 #: misc.c:794
 msgid "Make access"
@@ -1231,25 +1231,25 @@ msgstr "Rochtain mic"
 #: misc.c:892
 #, c-format
 msgid "write error: %s"
-msgstr "earráid sa scríobh: %s"
+msgstr "earrÃ¡id sa scrÃ­obh: %s"
 
 #: misc.c:894
 msgid "write error"
-msgstr "earráid sa scríobh"
+msgstr "earrÃ¡id sa scrÃ­obh"
 
 #: read.c:160
 msgid "Reading makefiles...\n"
-msgstr "Makefileanna á léamh...\n"
+msgstr "Makefileanna Ã¡ lÃ©amh...\n"
 
 #: read.c:315
 #, c-format
 msgid "Reading makefile `%s'"
-msgstr "Makefile `%s' á léamh"
+msgstr "Makefile `%s' Ã¡ lÃ©amh"
 
 #: read.c:317
 #, c-format
 msgid " (no default goal)"
-msgstr " (gan ceann sprice réamhshocraithe)"
+msgstr " (gan ceann sprice rÃ©amhshocraithe)"
 
 #: read.c:319
 #, c-format
@@ -1264,11 +1264,11 @@ msgstr " (is cuma)"
 #: read.c:323
 #, c-format
 msgid " (no ~ expansion)"
-msgstr " (ná fairsing ~)"
+msgstr " (nÃ¡ fairsing ~)"
 
 #: read.c:623
 msgid "invalid syntax in conditional"
-msgstr "comhréir neamhbhailí i gcoinníollach"
+msgstr "comhrÃ©ir neamhbhailÃ­ i gcoinnÃ­ollach"
 
 #: read.c:633
 msgid "extraneous `endef'"
@@ -1276,7 +1276,7 @@ msgstr "`endef' breise"
 
 #: read.c:645 read.c:673 variable.c:1316
 msgid "empty variable name"
-msgstr "ainm folamh athróige"
+msgstr "ainm folamh athrÃ³ige"
 
 #: read.c:662
 msgid "empty `override' directive"
@@ -1284,11 +1284,11 @@ msgstr "treoir `override' folamh"
 
 #: read.c:687
 msgid "invalid `override' directive"
-msgstr "treoir neamhbhailí `override'"
+msgstr "treoir neamhbhailÃ­ `override'"
 
 #: read.c:854
 msgid "commands commence before first target"
-msgstr "tá orduithe ann roimh an chéad sprioc"
+msgstr "tÃ¡ orduithe ann roimh an chÃ©ad sprioc"
 
 #: read.c:905
 msgid "missing rule before commands"
@@ -1301,20 +1301,20 @@ msgstr "deighilteoir%s ar iarraidh"
 
 #: read.c:994
 msgid " (did you mean TAB instead of 8 spaces?)"
-msgstr " (Ar mhian leat TÁB in ionad ocht spás?)"
+msgstr " (Ar mhian leat TÃB in ionad ocht spÃ¡s?)"
 
 #: read.c:1152
 msgid "missing target pattern"
-msgstr "patrún sprice ar iarraidh"
+msgstr "patrÃºn sprice ar iarraidh"
 
 #: read.c:1154
 msgid "multiple target patterns"
-msgstr "patrúin iomadúla sprice"
+msgstr "patrÃºin iomadÃºla sprice"
 
 #: read.c:1158
 #, c-format
 msgid "target pattern contains no `%%'"
-msgstr "níl aon `%%' sa phatrún sprice"
+msgstr "nÃ­l aon `%%' sa phatrÃºn sprice"
 
 #: read.c:1286
 msgid "missing `endif'"
@@ -1322,16 +1322,16 @@ msgstr "`endif' ar iarraidh"
 
 #: read.c:1377
 msgid "Extraneous text after `endef' directive"
-msgstr "Téacs gan mhaith i ndiaidh treorach `endef'"
+msgstr "TÃ©acs gan mhaith i ndiaidh treorach `endef'"
 
 #: read.c:1411
 msgid "missing `endef', unterminated `define'"
-msgstr "`endef' ar iarraidh, `define' gan chríochnú"
+msgstr "`endef' ar iarraidh, `define' gan chrÃ­ochnÃº"
 
 #: read.c:1454
 #, c-format
 msgid "Extraneous text after `%s' directive"
-msgstr "Téacs gan mhaith i ndiaidh treorach `%s'"
+msgstr "TÃ©acs gan mhaith i ndiaidh treorach `%s'"
 
 #: read.c:1463 read.c:1477
 #, c-format
@@ -1340,111 +1340,111 @@ msgstr "`%s' breise"
 
 #: read.c:1482
 msgid "only one `else' per conditional"
-msgstr "ní cheadaítear ach aon `else' amháin le gach coinníollach"
+msgstr "nÃ­ cheadaÃ­tear ach aon `else' amhÃ¡in le gach coinnÃ­ollach"
 
 #: read.c:1824
 msgid "Malformed target-specific variable definition"
-msgstr "Is míchumtha é an sainmhíniú athróige (le haghaidh aon sprioc amháin)"
+msgstr "Is mÃ­chumtha Ã© an sainmhÃ­niÃº athrÃ³ige (le haghaidh aon sprioc amhÃ¡in)"
 
 #: read.c:1886
 msgid "prerequisites cannot be defined in command scripts"
-msgstr "ní féidir réamhriachtanais a shonrú i scripteanna ordaithe"
+msgstr "nÃ­ fÃ©idir rÃ©amhriachtanais a shonrÃº i scripteanna ordaithe"
 
 #: read.c:1921
 msgid "mixed implicit and static pattern rules"
-msgstr "rialacha intuigthe agus rialacha statacha measctha le chéile"
+msgstr "rialacha intuigthe agus rialacha statacha measctha le chÃ©ile"
 
 #: read.c:1924
 msgid "mixed implicit and normal rules"
-msgstr "rialacha intuigthe agus gnáthrialacha measctha le chéile"
+msgstr "rialacha intuigthe agus gnÃ¡thrialacha measctha le chÃ©ile"
 
 #: read.c:1954
 #, c-format
 msgid "target `%s' doesn't match the target pattern"
-msgstr "níl an sprioc `%s' comhoiriúnach leis an phatrún sprice"
+msgstr "nÃ­l an sprioc `%s' comhoiriÃºnach leis an phatrÃºn sprice"
 
 #: read.c:1973 read.c:2074
 #, c-format
 msgid "target file `%s' has both : and :: entries"
-msgstr "tá iontrálacha : agus :: araon ann don chomhad sprice `%s'"
+msgstr "tÃ¡ iontrÃ¡lacha : agus :: araon ann don chomhad sprice `%s'"
 
 #: read.c:1979
 #, c-format
 msgid "target `%s' given more than once in the same rule."
-msgstr "tá an sprioc `%s' i riail amháin níos mó ná uair amháin."
+msgstr "tÃ¡ an sprioc `%s' i riail amhÃ¡in nÃ­os mÃ³ nÃ¡ uair amhÃ¡in."
 
 #: read.c:1988
 #, c-format
 msgid "warning: overriding commands for target `%s'"
-msgstr "rabhadh: ag sárú na n-orduithe le haghaidh na sprice `%s'"
+msgstr "rabhadh: ag sÃ¡rÃº na n-orduithe le haghaidh na sprice `%s'"
 
 #: read.c:1991
 #, c-format
 msgid "warning: ignoring old commands for target `%s'"
-msgstr "rabhadh: ag déanamh neamhshuim ar sheanorduithe le haghaidh sprice `%s'"
+msgstr "rabhadh: ag dÃ©anamh neamhshuim ar sheanorduithe le haghaidh sprice `%s'"
 
 #: read.c:2575
 msgid "warning: NUL character seen; rest of line ignored"
 msgstr ""
-"rabhadh: chonacthas carachtar NUL; ag déanamh neamhshuim ar an chuid eile den "
-"líne"
+"rabhadh: chonacthas carachtar NUL; ag dÃ©anamh neamhshuim ar an chuid eile den "
+"lÃ­ne"
 
 #: remake.c:229
 #, c-format
 msgid "Nothing to be done for `%s'."
-msgstr "Níl faic le déanamh i gcomhair `%s'."
+msgstr "NÃ­l faic le dÃ©anamh i gcomhair `%s'."
 
 #: remake.c:230
 #, c-format
 msgid "`%s' is up to date."
-msgstr "Níl gá le `%s' a nuashonrú."
+msgstr "NÃ­l gÃ¡ le `%s' a nuashonrÃº."
 
 #: remake.c:297
 #, c-format
 msgid "Pruning file `%s'.\n"
-msgstr "Comhad `%s' á bhearradh.\n"
+msgstr "Comhad `%s' Ã¡ bhearradh.\n"
 
 #: remake.c:349
 #, c-format
 msgid "%sNo rule to make target `%s'%s"
-msgstr "%sNíl aon riail chun an sprioc `%s' a dhéanamh%s"
+msgstr "%sNÃ­l aon riail chun an sprioc `%s' a dhÃ©anamh%s"
 
 #: remake.c:351
 #, c-format
 msgid "%sNo rule to make target `%s', needed by `%s'%s"
 msgstr ""
-"%sNíl aon riail chun an sprioc `%s' a dhéanamh, riachtanach le haghaidh `%s'%s"
+"%sNÃ­l aon riail chun an sprioc `%s' a dhÃ©anamh, riachtanach le haghaidh `%s'%s"
 
 #: remake.c:378
 #, c-format
 msgid "Considering target file `%s'.\n"
-msgstr "Comhad sprice `%s' idir lámha.\n"
+msgstr "Comhad sprice `%s' idir lÃ¡mha.\n"
 
 #: remake.c:385
 #, c-format
 msgid "Recently tried and failed to update file `%s'.\n"
 msgstr ""
-"Rinneadh iarracht ar an chomhad `%s' a nuashonrú le déanaí, agus theip air.\n"
+"Rinneadh iarracht ar an chomhad `%s' a nuashonrÃº le dÃ©anaÃ­, agus theip air.\n"
 
 #: remake.c:400
 #, c-format
 msgid "File `%s' was considered already.\n"
-msgstr "Rinneadh scrúdú ar an chomhad `%s' cheana.\n"
+msgstr "Rinneadh scrÃºdÃº ar an chomhad `%s' cheana.\n"
 
 #: remake.c:410
 #, c-format
 msgid "Still updating file `%s'.\n"
-msgstr "Comhad `%s' á nuashonrú fós.\n"
+msgstr "Comhad `%s' Ã¡ nuashonrÃº fÃ³s.\n"
 
 #: remake.c:413
 #, c-format
 msgid "Finished updating file `%s'.\n"
-msgstr "Nuashonraíodh an comhad `%s'.\n"
+msgstr "NuashonraÃ­odh an comhad `%s'.\n"
 
 #: remake.c:434
 #, c-format
 msgid "File `%s' does not exist.\n"
-msgstr "Níl a leithéid de chomhad `%s' ann.\n"
+msgstr "NÃ­l a leithÃ©id de chomhad `%s' ann.\n"
 
 #: remake.c:441
 #, c-format
@@ -1455,139 +1455,139 @@ msgstr "*** Warning: comhad .LOW_RESOLUTION_TIME `%s' le stampa ama ardtaifeach"
 #: remake.c:454 remake.c:962
 #, c-format
 msgid "Found an implicit rule for `%s'.\n"
-msgstr "Aimsíodh riail intuigthe le haghaidh `%s'.\n"
+msgstr "AimsÃ­odh riail intuigthe le haghaidh `%s'.\n"
 
 #: remake.c:456 remake.c:964
 #, c-format
 msgid "No implicit rule found for `%s'.\n"
-msgstr "Níor aimsíodh aon riail intuigthe le haghaidh `%s'.\n"
+msgstr "NÃ­or aimsÃ­odh aon riail intuigthe le haghaidh `%s'.\n"
 
 #: remake.c:462 remake.c:970
 #, c-format
 msgid "Using default commands for `%s'.\n"
-msgstr "Ag baint úsáid as orduithe réamhshocraithe le haghaidh `%s'.\n"
+msgstr "Ag baint ÃºsÃ¡id as orduithe rÃ©amhshocraithe le haghaidh `%s'.\n"
 
 #: remake.c:484 remake.c:996
 #, c-format
 msgid "Circular %s <- %s dependency dropped."
-msgstr "Tréigeadh an spleáchas ciorclach %s <- %s."
+msgstr "TrÃ©igeadh an spleÃ¡chas ciorclach %s <- %s."
 
 #: remake.c:601
 #, c-format
 msgid "Finished prerequisites of target file `%s'.\n"
-msgstr "Críochnaíodh na réamhriachtanais den chomhad sprice `%s'.\n"
+msgstr "CrÃ­ochnaÃ­odh na rÃ©amhriachtanais den chomhad sprice `%s'.\n"
 
 #: remake.c:607
 #, c-format
 msgid "The prerequisites of `%s' are being made.\n"
-msgstr "Réamhriachtanais de `%s' á ndéanamh anois.\n"
+msgstr "RÃ©amhriachtanais de `%s' Ã¡ ndÃ©anamh anois.\n"
 
 #: remake.c:620
 #, c-format
 msgid "Giving up on target file `%s'.\n"
-msgstr "Ag tréigean an chomhaid sprice `%s'.\n"
+msgstr "Ag trÃ©igean an chomhaid sprice `%s'.\n"
 
 #: remake.c:625
 #, c-format
 msgid "Target `%s' not remade because of errors."
-msgstr "Ní dhearna an sprioc `%s' arís ós rud é go bhfuil earráidí ann."
+msgstr "NÃ­ dhearna an sprioc `%s' arÃ­s Ã³s rud Ã© go bhfuil earrÃ¡idÃ­ ann."
 
 #: remake.c:677
 #, c-format
 msgid "Prerequisite `%s' is order-only for target `%s'.\n"
 msgstr ""
-"Sonraíonn an réamhriachtanas `%s' ord rite amháin le haghaidh sprice `%s'.\n"
+"SonraÃ­onn an rÃ©amhriachtanas `%s' ord rite amhÃ¡in le haghaidh sprice `%s'.\n"
 
 #: remake.c:682
 #, c-format
 msgid "Prerequisite `%s' of target `%s' does not exist.\n"
-msgstr "Níl an réamhriachtanas `%s' den sprioc `%s' ann.\n"
+msgstr "NÃ­l an rÃ©amhriachtanas `%s' den sprioc `%s' ann.\n"
 
 #: remake.c:687
 #, c-format
 msgid "Prerequisite `%s' is newer than target `%s'.\n"
-msgstr "Tá an réamhriachtanas `%s' níos nuaí ná an sprioc `%s'.\n"
+msgstr "TÃ¡ an rÃ©amhriachtanas `%s' nÃ­os nuaÃ­ nÃ¡ an sprioc `%s'.\n"
 
 #: remake.c:690
 #, c-format
 msgid "Prerequisite `%s' is older than target `%s'.\n"
-msgstr "Tá an réamhriachtanas `%s' níos sine ná an sprioc `%s'.\n"
+msgstr "TÃ¡ an rÃ©amhriachtanas `%s' nÃ­os sine nÃ¡ an sprioc `%s'.\n"
 
 #: remake.c:708
 #, c-format
 msgid "Target `%s' is double-colon and has no prerequisites.\n"
-msgstr "Tá dhá idirstad ag an sprioc `%s' agus níl aon réamhriachtanas aice.\n"
+msgstr "TÃ¡ dhÃ¡ idirstad ag an sprioc `%s' agus nÃ­l aon rÃ©amhriachtanas aice.\n"
 
 #: remake.c:715
 #, c-format
 msgid "No commands for `%s' and no prerequisites actually changed.\n"
-msgstr "Níl aon ordú le haghaidh `%s' agus níor athraigh aon réamhriachtanas.\n"
+msgstr "NÃ­l aon ordÃº le haghaidh `%s' agus nÃ­or athraigh aon rÃ©amhriachtanas.\n"
 
 #: remake.c:720
 #, c-format
 msgid "Making `%s' due to always-make flag.\n"
-msgstr "`%s' á dhéanamh de bharr bratach --always-make.\n"
+msgstr "`%s' Ã¡ dhÃ©anamh de bharr bratach --always-make.\n"
 
 #: remake.c:728
 #, c-format
 msgid "No need to remake target `%s'"
-msgstr "Níl gá leis an sprioc `%s' a athdhéanamh"
+msgstr "NÃ­l gÃ¡ leis an sprioc `%s' a athdhÃ©anamh"
 
 #: remake.c:730
 #, c-format
 msgid "; using VPATH name `%s'"
-msgstr "; ag baint úsáid as ainm VPATH `%s'"
+msgstr "; ag baint ÃºsÃ¡id as ainm VPATH `%s'"
 
 #: remake.c:750
 #, c-format
 msgid "Must remake target `%s'.\n"
-msgstr "Caithfidh an sprioc `%s' a athdhéanamh.\n"
+msgstr "Caithfidh an sprioc `%s' a athdhÃ©anamh.\n"
 
 #: remake.c:756
 #, c-format
 msgid "  Ignoring VPATH name `%s'.\n"
-msgstr "  Ag déanamh neamhshuim ar ainm VPATH `%s'.\n"
+msgstr "  Ag dÃ©anamh neamhshuim ar ainm VPATH `%s'.\n"
 
 #: remake.c:765
 #, c-format
 msgid "Commands of `%s' are being run.\n"
-msgstr "Orduithe de `%s' á rith.\n"
+msgstr "Orduithe de `%s' Ã¡ rith.\n"
 
 #: remake.c:772
 #, c-format
 msgid "Failed to remake target file `%s'.\n"
-msgstr "Theip ar athdhéanamh an sprioc-chomhaid `%s'.\n"
+msgstr "Theip ar athdhÃ©anamh an sprioc-chomhaid `%s'.\n"
 
 #: remake.c:775
 #, c-format
 msgid "Successfully remade target file `%s'.\n"
-msgstr "D'éirigh le hathdhéanamh an sprioc-chomhaid `%s'.\n"
+msgstr "D'Ã©irigh le hathdhÃ©anamh an sprioc-chomhaid `%s'.\n"
 
 #: remake.c:778
 #, c-format
 msgid "Target file `%s' needs remade under -q.\n"
-msgstr "Tá gá leis an chomhad sprice `%s' a athdhéanamh leis an rogha -q.\n"
+msgstr "TÃ¡ gÃ¡ leis an chomhad sprice `%s' a athdhÃ©anamh leis an rogha -q.\n"
 
 #: remake.c:1306
 #, c-format
 msgid "Warning: File `%s' has modification time in the future"
-msgstr "Rabhadh: Tá an t-am mionathraithe den chomhad `%s' sa todhchaí"
+msgstr "Rabhadh: TÃ¡ an t-am mionathraithe den chomhad `%s' sa todhchaÃ­"
 
 #: remake.c:1313
 #, c-format
 msgid "Warning: File `%s' has modification time %.2g s in the future"
 msgstr ""
-"Rabhadh: Tá an t-am mionathraithe den chomhad `%s' %.2g soicind sa todhchaí"
+"Rabhadh: TÃ¡ an t-am mionathraithe den chomhad `%s' %.2g soicind sa todhchaÃ­"
 
 #: remake.c:1511
 #, c-format
 msgid ".LIBPATTERNS element `%s' is not a pattern"
-msgstr "Níl eilimint .LIBPATTERNS `%s' ina patrún"
+msgstr "NÃ­l eilimint .LIBPATTERNS `%s' ina patrÃºn"
 
 #: remote-cstms.c:125
 #, c-format
 msgid "Customs won't export: %s\n"
-msgstr "Ní easpórtálfar Customs: %s\n"
+msgstr "NÃ­ easpÃ³rtÃ¡lfar Customs: %s\n"
 
 #: rule.c:548
 msgid ""
@@ -1603,7 +1603,7 @@ msgid ""
 "# No implicit rules."
 msgstr ""
 "\n"
-"# Níl aon riail intuigthe."
+"# NÃ­l aon riail intuigthe."
 
 #: rule.c:566
 #, c-format
@@ -1616,12 +1616,12 @@ msgstr ""
 
 #: rule.c:575
 msgid " terminal."
-msgstr " teirminéal."
+msgstr " teirminÃ©al."
 
 #: rule.c:583
 #, c-format
 msgid "BUG: num_pattern_rules wrong!  %u != %u"
-msgstr "FABHT: num_pattern_rules mícheart!  %u != %u"
+msgstr "FABHT: num_pattern_rules mÃ­cheart!  %u != %u"
 
 #: signame.c:85
 msgid "unknown signal"
@@ -1661,7 +1661,7 @@ msgstr "Gaiste EMT"
 
 #: signame.c:119
 msgid "Floating point exception"
-msgstr "Eisceacht snámhphointe"
+msgstr "Eisceacht snÃ¡mhphointe"
 
 #: signame.c:122
 msgid "Killed"
@@ -1669,7 +1669,7 @@ msgstr "Maraithe"
 
 #: signame.c:125
 msgid "Bus error"
-msgstr "Busearráid"
+msgstr "BusearrÃ¡id"
 
 #: signame.c:128
 msgid "Segmentation fault"
@@ -1677,15 +1677,15 @@ msgstr "Fabht deighilte"
 
 #: signame.c:131
 msgid "Bad system call"
-msgstr "Drochghlao ar an gcóras"
+msgstr "Drochghlao ar an gcÃ³ras"
 
 #: signame.c:134
 msgid "Broken pipe"
-msgstr "Píopa briste"
+msgstr "PÃ­opa briste"
 
 #: signame.c:137
 msgid "Alarm clock"
-msgstr "Clog aláraim"
+msgstr "Clog alÃ¡raim"
 
 #: signame.c:140
 msgid "Terminated"
@@ -1701,7 +1701,7 @@ msgstr "Comhartha saincheaptha 2"
 
 #: signame.c:151 signame.c:154
 msgid "Child exited"
-msgstr "Scoir an mhacphróiseas"
+msgstr "Scoir an mhacphrÃ³iseas"
 
 #: signame.c:157
 msgid "Power failure"
@@ -1725,23 +1725,23 @@ msgstr "Stoptha (comhartha)"
 
 #: signame.c:172
 msgid "CPU time limit exceeded"
-msgstr "Teorainn ama LAP sáraithe"
+msgstr "Teorainn ama LAP sÃ¡raithe"
 
 #: signame.c:175
 msgid "File size limit exceeded"
-msgstr "Uasmhéid na gcomhad sáraithe"
+msgstr "UasmhÃ©id na gcomhad sÃ¡raithe"
 
 #: signame.c:178
 msgid "Virtual timer expired"
-msgstr "Am fíorúil caite"
+msgstr "Am fÃ­orÃºil caite"
 
 #: signame.c:181
 msgid "Profiling timer expired"
-msgstr "Am próifíle caite"
+msgstr "Am prÃ³ifÃ­le caite"
 
 #: signame.c:187
 msgid "Window changed"
-msgstr "Athraíodh an fhuinneog"
+msgstr "AthraÃ­odh an fhuinneog"
 
 #: signame.c:190
 msgid "Continued"
@@ -1749,11 +1749,11 @@ msgstr "Leanta"
 
 #: signame.c:193
 msgid "Urgent I/O condition"
-msgstr "Staid phráinneach A/I"
+msgstr "Staid phrÃ¡inneach A/I"
 
 #: signame.c:200 signame.c:209
 msgid "I/O possible"
-msgstr "A/I indéanta"
+msgstr "A/I indÃ©anta"
 
 #: signame.c:203
 msgid "SIGWIND"
@@ -1777,7 +1777,7 @@ msgstr "Iarratas ar eolas"
 
 #: signame.c:221
 msgid "Floating point co-processor not available"
-msgstr "Níl comhphróiseálaí snámhphointe ar fáil"
+msgstr "NÃ­l comhphrÃ³iseÃ¡laÃ­ snÃ¡mhphointe ar fÃ¡il"
 
 #: strcache.c:210
 #, c-format
@@ -1786,26 +1786,26 @@ msgid ""
 "%s # of strings in strcache: %d\n"
 msgstr ""
 "\n"
-"%s líon na dteaghrán i strcache: %d\n"
+"%s lÃ­on na dteaghrÃ¡n i strcache: %d\n"
 
 #: strcache.c:211
 #, c-format
 msgid "%s # of strcache buffers: %d\n"
-msgstr "%s líon na maolán strcache: %d\n"
+msgstr "%s lÃ­on na maolÃ¡n strcache: %d\n"
 
 #: strcache.c:212
 #, c-format
 msgid "%s strcache size: total = %d / max = %d / min = %d / avg = %d\n"
-msgstr "%s méid strcache: iomlán = %d / uas = %d / íos = %d / meán = %d\n"
+msgstr "%s mÃ©id strcache: iomlÃ¡n = %d / uas = %d / Ã­os = %d / meÃ¡n = %d\n"
 
 #: strcache.c:214
 #, c-format
 msgid "%s strcache free: total = %d / max = %d / min = %d / avg = %d\n"
-msgstr "%s strcache saor: iomlán = %d / uas = %d / íos = %d / meán = %d\n"
+msgstr "%s strcache saor: iomlÃ¡n = %d / uas = %d / Ã­os = %d / meÃ¡n = %d\n"
 
 #: variable.c:1369
 msgid "default"
-msgstr "réamhshocraithe"
+msgstr "rÃ©amhshocraithe"
 
 #: variable.c:1372
 msgid "environment"
@@ -1821,7 +1821,7 @@ msgstr "timpeallacht le -e"
 
 #: variable.c:1381
 msgid "command line"
-msgstr "líne na n-orduithe"
+msgstr "lÃ­ne na n-orduithe"
 
 #: variable.c:1384
 msgid "`override' directive"
@@ -1829,16 +1829,16 @@ msgstr "treoir `override'"
 
 #: variable.c:1387
 msgid "automatic"
-msgstr "uathoibríoch"
+msgstr "uathoibrÃ­och"
 
 #: variable.c:1396
 #, c-format
 msgid " (from `%s', line %lu)"
-msgstr " (ó `%s', líne %lu)"
+msgstr " (Ã³ `%s', lÃ­ne %lu)"
 
 #: variable.c:1438
 msgid "# variable set hash-table stats:\n"
-msgstr "# athróg tacar hais-tábla stait:\n"
+msgstr "# athrÃ³g tacar hais-tÃ¡bla stait:\n"
 
 #: variable.c:1449
 msgid ""
@@ -1846,7 +1846,7 @@ msgid ""
 "# Variables\n"
 msgstr ""
 "\n"
-"# Athróga\n"
+"# AthrÃ³ga\n"
 
 #: variable.c:1453
 msgid ""
@@ -1854,7 +1854,7 @@ msgid ""
 "# Pattern-specific Variable Values"
 msgstr ""
 "\n"
-"# Luachanna Athróige sainiúil don phatrún"
+"# Luachanna AthrÃ³ige sainiÃºil don phatrÃºn"
 
 #: variable.c:1467
 msgid ""
@@ -1862,7 +1862,7 @@ msgid ""
 "# No pattern-specific variable values."
 msgstr ""
 "\n"
-"# Níl aon luach athróige atá sainiúil don phatrún."
+"# NÃ­l aon luach athrÃ³ige atÃ¡ sainiÃºil don phatrÃºn."
 
 #: variable.c:1469
 #, c-format
@@ -1871,12 +1871,12 @@ msgid ""
 "# %u pattern-specific variable values"
 msgstr ""
 "\n"
-"# %u luach athróige atá sainiúil don phatrún"
+"# %u luach athrÃ³ige atÃ¡ sainiÃºil don phatrÃºn"
 
 #: variable.h:189
 #, c-format
 msgid "warning: undefined variable `%.*s'"
-msgstr "rabhadh: athróg gan sainmhíniú: `%.*s'"
+msgstr "rabhadh: athrÃ³g gan sainmhÃ­niÃº: `%.*s'"
 
 #: vmsfunctions.c:94
 #, c-format
@@ -1886,22 +1886,22 @@ msgstr "Theip ar sys$cuardach le %d\n"
 #: vmsjobs.c:71
 #, c-format
 msgid "Warning: Empty redirection\n"
-msgstr "Rabhadh: Atreorú folamh\n"
+msgstr "Rabhadh: AtreorÃº folamh\n"
 
 #: vmsjobs.c:175
 #, c-format
 msgid "internal error: `%s' command_state"
-msgstr "earráid inmheánach: `%s' command_state"
+msgstr "earrÃ¡id inmheÃ¡nach: `%s' command_state"
 
 #: vmsjobs.c:268
 #, c-format
 msgid "-warning, CTRL-Y will leave sub-process(es) around.\n"
-msgstr "-rabhadh, fágfaidh CTRL-Y fo-phróisis gan ghlanadh.\n"
+msgstr "-rabhadh, fÃ¡gfaidh CTRL-Y fo-phrÃ³isis gan ghlanadh.\n"
 
 #: vmsjobs.c:284
 #, c-format
 msgid "-warning, you may have to re-enable CTRL-Y handling from DCL.\n"
-msgstr "-rabhadh, is féidir gur gá duit ionramháil CTRL-Y a athchumasú ó DCL.\n"
+msgstr "-rabhadh, is fÃ©idir gur gÃ¡ duit ionramhÃ¡il CTRL-Y a athchumasÃº Ã³ DCL.\n"
 
 #: vmsjobs.c:407
 #, c-format
@@ -1921,37 +1921,37 @@ msgstr "RM INSUITE %s\n"
 #: vmsjobs.c:457
 #, c-format
 msgid "Unknown builtin command '%s'\n"
-msgstr "Ordú anaithnid insuite '%s'\n"
+msgstr "OrdÃº anaithnid insuite '%s'\n"
 
 #: vmsjobs.c:479
 #, c-format
 msgid "Error, empty command\n"
-msgstr "Earráid, ordú folamh\n"
+msgstr "EarrÃ¡id, ordÃº folamh\n"
 
 #: vmsjobs.c:491
 #, c-format
 msgid "Redirected input from %s\n"
-msgstr "Atreoraíodh ionchur ó %s\n"
+msgstr "AtreoraÃ­odh ionchur Ã³ %s\n"
 
 #: vmsjobs.c:498
 #, c-format
 msgid "Redirected error to %s\n"
-msgstr "Atreoraíodh earráidí go %s\n"
+msgstr "AtreoraÃ­odh earrÃ¡idÃ­ go %s\n"
 
 #: vmsjobs.c:505
 #, c-format
 msgid "Redirected output to %s\n"
-msgstr "Atreoraíodh aschur go %s\n"
+msgstr "AtreoraÃ­odh aschur go %s\n"
 
 #: vmsjobs.c:568
 #, c-format
 msgid "Executing %s instead\n"
-msgstr "%s á rith ina áit\n"
+msgstr "%s Ã¡ rith ina Ã¡it\n"
 
 #: vmsjobs.c:668
 #, c-format
 msgid "Error spawning, %d\n"
-msgstr "Earráid le linn sceitheadh, %d\n"
+msgstr "EarrÃ¡id le linn sceitheadh, %d\n"
 
 #: vpath.c:571
 msgid ""
@@ -1959,11 +1959,11 @@ msgid ""
 "# VPATH Search Paths\n"
 msgstr ""
 "\n"
-"# VPATH Conairí Cuardaigh\n"
+"# VPATH ConairÃ­ Cuardaigh\n"
 
 #: vpath.c:588
 msgid "# No `vpath' search paths."
-msgstr "# Níl aon chonair chuardaigh `vpath'."
+msgstr "# NÃ­l aon chonair chuardaigh `vpath'."
 
 #: vpath.c:590
 #, c-format
@@ -1980,7 +1980,7 @@ msgid ""
 "# No general (`VPATH' variable) search path."
 msgstr ""
 "\n"
-"# Níl aon chonair ghinearálta cuardaigh (athróg `VPATH')."
+"# NÃ­l aon chonair ghinearÃ¡lta cuardaigh (athrÃ³g `VPATH')."
 
 #: vpath.c:599
 msgid ""
@@ -1989,5 +1989,5 @@ msgid ""
 "# "
 msgstr ""
 "\n"
-"# Conair ghinearálta cuardaigh (athróg `VPATH'):\n"
+"# Conair ghinearÃ¡lta cuardaigh (athrÃ³g `VPATH'):\n"
 "# "

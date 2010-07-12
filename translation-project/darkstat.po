@@ -11,7 +11,7 @@ msgstr ""
 "Last-Translator: Kevin Patrick Scannell <scannell@SLU.EDU>\n"
 "Language-Team: Irish <gaeilge-gnulinux@lists.sourceforge.net>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=ISO-8859-1\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 #: src/www.c:95 src/www.c:110
@@ -28,7 +28,7 @@ msgstr "amach"
 
 #: src/www.c:96 src/www.c:111
 msgid "Maximum:"
-msgstr "UasmhÈid:"
+msgstr "Uasmh√©id:"
 
 # appears singular in Irish after a number!
 #: src/www.c:96 src/www.c:111 src/www.c:274 src/www.c:286
@@ -37,11 +37,11 @@ msgstr "beart"
 
 #: src/www.c:194 src/www.c:261
 msgid "main"
-msgstr "prÌomhchl·r"
+msgstr "pr√≠omhchl√°r"
 
 #: src/www.c:194 src/www.c:392
 msgid "hosts"
-msgstr "ÛstrÌomhairÌ"
+msgstr "√≥str√≠omhair√≠"
 
 #: src/www.c:194 src/www.c:521
 msgid "ports"
@@ -49,7 +49,7 @@ msgstr "poirt"
 
 #: src/www.c:194 src/www.c:648
 msgid "protocols"
-msgstr "prÛtacail"
+msgstr "pr√≥tacail"
 
 #: src/www.c:195 src/www.c:357
 msgid "graphs"
@@ -71,7 +71,7 @@ msgstr "Is sea"
 #: src/www.c:238
 #, c-format
 msgid "This page is being refreshed every %s seconds."
-msgstr "T· an leathanach seo · athnuachan gach %s soicind."
+msgstr "T√° an leathanach seo √° athnuachan gach %s soicind."
 
 #: src/www.c:243
 msgid "Change"
@@ -83,25 +83,25 @@ msgstr "Stad"
 
 #: src/www.c:273 src/www.c:285
 msgid "Packets captured:"
-msgstr "PaicÈid ghafa:"
+msgstr "Paic√©id ghafa:"
 
 #. TRANSLATORS: This means total data captured
 #: src/www.c:274 src/www.c:286 src/www.c:1229
 msgid "Data off the wire:"
-msgstr "SonraÌ ioml·n gafa:"
+msgstr "Sonra√≠ ioml√°n gafa:"
 
 #: src/www.c:275 src/www.c:287
 msgid "Unique hosts:"
-msgstr "”strÌomhairÌ uath˙la:"
+msgstr "√ìstr√≠omhair√≠ uath√∫la:"
 
 #: src/www.c:313
 msgid "Counting"
-msgstr "¡ireamh"
+msgstr "√Åireamh"
 
 # Singular form in Irish!
 #: src/www.c:315
 msgid "days"
-msgstr "l·"
+msgstr "l√°"
 
 #: src/www.c:317
 msgid "hours"
@@ -109,7 +109,7 @@ msgstr "uair"
 
 #: src/www.c:319
 msgid "minutes"
-msgstr "nÛimÈad"
+msgstr "n√≥im√©ad"
 
 #: src/www.c:320
 msgid "seconds"
@@ -117,48 +117,48 @@ msgstr "soicind"
 
 #: src/www.c:325
 msgid "Running since:"
-msgstr "Ar bun Û:"
+msgstr "Ar bun √≥:"
 
 #: src/www.c:328 src/www.c:363
 msgid "Last 60 seconds"
-msgstr "60 soicind is dÈanaÌ"
+msgstr "60 soicind is d√©ana√≠"
 
 # join with next two
 #: src/www.c:339
 msgid "DNS resolution is"
-msgstr "T· rÈiteach DNS"
+msgstr "T√° r√©iteach DNS"
 
 #: src/www.c:340
 msgid "on"
-msgstr "ar si˙l"
+msgstr "ar si√∫l"
 
 #: src/www.c:341
 msgid "off"
-msgstr "m˙chta"
+msgstr "m√∫chta"
 
 #. TRANSLATORS: "Cycling once" means the DNS thread will go through the
 #. host database once and then stop, instead of cycling forever
 #. (which is what "on" means)
 #: src/www.c:342 src/www.c:1234
 msgid "cycling once"
-msgstr "· athfhilleadh aon uair"
+msgstr "√° athfhilleadh aon uair"
 
 #: src/www.c:366
 msgid "Last 60 minutes"
-msgstr "60 nÛimÈad is dÈanaÌ"
+msgstr "60 n√≥im√©ad is d√©ana√≠"
 
 #: src/www.c:369
 msgid "Last 24 hours"
-msgstr "24 uair is dÈanaÌ"
+msgstr "24 uair is d√©ana√≠"
 
 #: src/www.c:372
 msgid "Last 30 days"
-msgstr "30 l· is dÈanaÌ"
+msgstr "30 l√° is d√©ana√≠"
 
 #: src/www.c:397
 #, c-format
 msgid "Hosts (sorted by %s, top %d)"
-msgstr "”strÌomhairÌ (sÛrt·ilte de rÈir %s, an %d is fearr)"
+msgstr "√ìstr√≠omhair√≠ (s√≥rt√°ilte de r√©ir %s, an %d is fearr)"
 
 #: src/www.c:398 src/www.c:404 src/www.c:526 src/www.c:533
 msgid "incoming"
@@ -170,7 +170,7 @@ msgstr "amach"
 
 #: src/www.c:399 src/www.c:405 src/www.c:527 src/www.c:534
 msgid "total"
-msgstr "ioml·n"
+msgstr "ioml√°n"
 
 #: src/www.c:399 src/www.c:405 src/www.c:432
 msgid "IP"
@@ -179,16 +179,16 @@ msgstr "IP"
 #: src/www.c:403
 #, c-format
 msgid "Hosts (sorted by %s)"
-msgstr "”strÌomhairÌ (sÛrt·ilte de rÈir %s)"
+msgstr "√ìstr√≠omhair√≠ (s√≥rt√°ilte de r√©ir %s)"
 
 #: src/www.c:432 src/www.c:434 src/www.c:435 src/www.c:436 src/www.c:559
 #: src/www.c:560 src/www.c:561 src/www.c:562
 msgid "full"
-msgstr "l·n"
+msgstr "l√°n"
 
 #: src/www.c:433
 msgid "Hostname"
-msgstr "”stainm"
+msgstr "√ìstainm"
 
 #: src/www.c:434 src/www.c:560 src/www.c:663
 msgid "In"
@@ -200,12 +200,12 @@ msgstr "Amach"
 
 #: src/www.c:436 src/www.c:562 src/www.c:663
 msgid "Total"
-msgstr "Ioml·n"
+msgstr "Ioml√°n"
 
 #: src/www.c:525
 #, c-format
 msgid "Ports (TCP, sorted by %s, top %d)"
-msgstr "Poirt (TCP, sÛrt·ilte de rÈir %s, an %d is fearr)"
+msgstr "Poirt (TCP, s√≥rt√°ilte de r√©ir %s, an %d is fearr)"
 
 #: src/www.c:527 src/www.c:534
 msgid "port number"
@@ -214,7 +214,7 @@ msgstr "uimhir phoirt"
 #: src/www.c:532
 #, c-format
 msgid "Ports (TCP, sorted by %s)"
-msgstr "Poirt (TCP, sÛrt·ilte de rÈir %s)"
+msgstr "Poirt (TCP, s√≥rt√°ilte de r√©ir %s)"
 
 #: src/www.c:559
 msgid "Port"
@@ -222,7 +222,7 @@ msgstr "Port"
 
 #: src/www.c:663
 msgid "Protocol"
-msgstr "PrÛtacal"
+msgstr "Pr√≥tacal"
 
 #: src/www.c:663
 msgid "Other"
@@ -230,11 +230,11 @@ msgstr "Eile"
 
 #: src/www.c:745
 msgid "Not Implemented"
-msgstr "NÌl Ar F·il"
+msgstr "N√≠l Ar F√°il"
 
 #: src/www.c:746
 msgid "Whatever the heck you just requested, I can't generate."
-msgstr "CibÈ rud damanta a bhfuil t˙ ag iarraidh, nÌ fÈidir liom È a chruth˙."
+msgstr "Cib√© rud damanta a bhfuil t√∫ ag iarraidh, n√≠ f√©idir liom √© a chruth√∫."
 
 #: src/www.c:761
 msgid "Not Found"
@@ -242,14 +242,14 @@ msgstr "Ar Iarraidh"
 
 #: src/www.c:762
 msgid "Whatever you just requested, I don't have."
-msgstr "CibÈ rud a bhfuil t˙ ag iarraidh, nÌl sÈ agam."
+msgstr "Cib√© rud a bhfuil t√∫ ag iarraidh, n√≠l s√© agam."
 
 #. TRANSLATORS: This is the redirect hint, it's only visible to people
 #. whose browsers can't handle HTTP Location: redirects
 #. correctly.
 #: src/www.c:782
 msgid "Go <a href=\"/\">here</a>."
-msgstr "FÈach air <a href=\"/\">seo</a>."
+msgstr "F√©ach air <a href=\"/\">seo</a>."
 
 #. TRANSLATORS: This is the only message written to the terminal screen
 #. when darkstat is starting up.  Please keep this in

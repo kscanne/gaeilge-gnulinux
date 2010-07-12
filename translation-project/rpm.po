@@ -11,7 +11,7 @@ msgstr ""
 "Last-Translator: Kevin Patrick Scannell <scannell@SLU.EDU>\n"
 "Language-Team: Irish <gaeilge-gnulinux@lists.sourceforge.net>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=ISO-8859-1\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 #: build.c:40
@@ -119,7 +119,7 @@ msgstr "RPM leagan %s\n"
 
 #: rpmqv.c:136
 msgid "Copyright (C) 1998-2002 - Red Hat, Inc.\n"
-msgstr "Copyright © 1998-2002 - Red Hat, Inc.\n"
+msgstr "Copyright ¬© 1998-2002 - Red Hat, Inc.\n"
 
 #: rpmqv.c:137
 msgid ""
@@ -543,7 +543,7 @@ msgstr ""
 #: build/files.c:1927 build/pack.c:156
 #, c-format
 msgid "line: %s\n"
-msgstr "lÌne: %s\n"
+msgstr "l√≠ne: %s\n"
 
 #: build/files.c:2318
 #, c-format
@@ -659,7 +659,7 @@ msgstr "readRPM: oscail %s: %s\n"
 #: build/pack.c:305
 #, c-format
 msgid "readRPM: read %s: %s\n"
-msgstr "readRPM: lÈigh %s: %s\n"
+msgstr "readRPM: l√©igh %s: %s\n"
 
 #: build/pack.c:314 build/pack.c:543
 #, c-format
@@ -1315,7 +1315,7 @@ msgstr ""
 
 #: lib/cpio.c:236
 msgid "Internal error"
-msgstr "Earr·id inmhe·nach"
+msgstr "Earr√°id inmhe√°nach"
 
 #: lib/cpio.c:237
 msgid "Archive file not in header"
@@ -1635,11 +1635,11 @@ msgstr ""
 
 #: lib/poptALL.c:231
 msgid "send stdout to CMD"
-msgstr "seol stdout go dtÌ an ORD⁄"
+msgstr "seol stdout go dt√≠ an ORD√ö"
 
 #: lib/poptALL.c:232
 msgid "CMD"
-msgstr "ORD⁄"
+msgstr "ORD√ö"
 
 #: lib/poptALL.c:243
 msgid "use ROOT as top level directory"
@@ -1647,7 +1647,7 @@ msgstr ""
 
 #: lib/poptALL.c:244
 msgid "ROOT"
-msgstr "FR…AMH"
+msgstr "FR√âAMH"
 
 #: lib/poptALL.c:247
 msgid "display known query tags"
@@ -1667,7 +1667,7 @@ msgstr ""
 
 #: lib/poptALL.c:255
 msgid "print the version of rpm being used"
-msgstr "taispe·in an leagan de rpm at· in ˙s·id"
+msgstr "taispe√°in an leagan de rpm at√° in √∫s√°id"
 
 #: lib/poptALL.c:268
 msgid "debug payload file state machine"
@@ -1687,7 +1687,7 @@ msgstr ""
 
 #: lib/poptALL.c:290
 msgid "debug rpmio I/O"
-msgstr "dÌfhabhtaigh I/A rpmio"
+msgstr "d√≠fhabhtaigh I/A rpmio"
 
 #: lib/poptALL.c:298
 msgid "debug URL cache handling"
@@ -1755,19 +1755,19 @@ msgstr ""
 
 #: lib/poptI.c:179
 msgid "erase (uninstall) package"
-msgstr "lÈirscrios (dÌshuite·il) pac·iste"
+msgstr "l√©irscrios (d√≠shuite√°il) pac√°iste"
 
 #: lib/poptI.c:179
 msgid "<package>+"
-msgstr "<pac·iste>+"
+msgstr "<pac√°iste>+"
 
 #: lib/poptI.c:182 lib/poptI.c:219
 msgid "do not install configuration files"
-msgstr "n· suite·il comhaid chumraÌochta"
+msgstr "n√° suite√°il comhaid chumra√≠ochta"
 
 #: lib/poptI.c:185 lib/poptI.c:224
 msgid "do not install documentation"
-msgstr "n· suite·il doicimÈad˙"
+msgstr "n√° suite√°il doicim√©ad√∫"
 
 #: lib/poptI.c:187
 msgid "skip files with leading component <path> "
@@ -1787,7 +1787,7 @@ msgstr ""
 
 #: lib/poptI.c:196 lib/poptI.c:212 lib/poptI.c:305
 msgid "<packagefile>+"
-msgstr "<comhadpac·iste>+"
+msgstr "<comhadpac√°iste>+"
 
 #: lib/poptI.c:198
 msgid "print hash marks as package installs (good with -v)"
@@ -1807,11 +1807,11 @@ msgstr ""
 
 #: lib/poptI.c:209
 msgid "install documentation"
-msgstr "suite·il doicimÈad˙"
+msgstr "suite√°il doicim√©ad√∫"
 
 #: lib/poptI.c:212
 msgid "install package(s)"
-msgstr "suite·il pac·ist(e/Ì)"
+msgstr "suite√°il pac√°ist(e/√≠)"
 
 #: lib/poptI.c:215
 msgid "update the database, but do not modify the filesystem"
@@ -1836,22 +1836,22 @@ msgstr ""
 #: lib/poptI.c:242
 #, c-format
 msgid "do not execute %%pre scriptlet (if any)"
-msgstr "n· rith scriptÌn %%pre (m· t· ann)"
+msgstr "n√° rith script√≠n %%pre (m√° t√° ann)"
 
 #: lib/poptI.c:245
 #, c-format
 msgid "do not execute %%post scriptlet (if any)"
-msgstr "n· rith scriptÌn %%post (m· t· ann)"
+msgstr "n√° rith script√≠n %%post (m√° t√° ann)"
 
 #: lib/poptI.c:248
 #, c-format
 msgid "do not execute %%preun scriptlet (if any)"
-msgstr "n· rith scriptÌn %%preun (m· t· ann)"
+msgstr "n√° rith script√≠n %%preun (m√° t√° ann)"
 
 #: lib/poptI.c:251
 #, c-format
 msgid "do not execute %%postun scriptlet (if any)"
-msgstr "n· rith scriptÌn %%postun (m· t· ann)"
+msgstr "n√° rith script√≠n %%postun (m√° t√° ann)"
 
 #: lib/poptI.c:261
 msgid "do not execute any scriptlet(s) triggered by this package"
@@ -1921,7 +1921,7 @@ msgstr ""
 
 #: lib/poptI.c:299
 msgid "<date>"
-msgstr "<d·ta>"
+msgstr "<d√°ta>"
 
 #: lib/poptI.c:301
 msgid "don't install, but tell if it would work or not"
@@ -2477,7 +2477,7 @@ msgstr ""
 
 #: lib/rpminstall.c:190
 msgid "Preparing..."
-msgstr "¡ Ullmh˙..."
+msgstr "√Å Ullmh√∫..."
 
 #: lib/rpminstall.c:192
 msgid "Preparing packages for installation..."
@@ -3489,7 +3489,7 @@ msgstr ""
 
 #: rpmio/rpmio.c:664
 msgid "Success"
-msgstr "D'Èirigh leis"
+msgstr "D'√©irigh leis"
 
 #: rpmio/rpmio.c:667
 msgid "Bad server response"
@@ -3551,12 +3551,12 @@ msgstr ""
 #. !< RPMLOG_EMERG
 #: rpmio/rpmlog.c:142 rpmio/rpmlog.c:143 rpmio/rpmlog.c:144
 msgid "fatal error: "
-msgstr "earr·id mharfach: "
+msgstr "earr√°id mharfach: "
 
 #. !< RPMLOG_CRIT
 #: rpmio/rpmlog.c:145
 msgid "error: "
-msgstr "earr·id: "
+msgstr "earr√°id: "
 
 #. !< RPMLOG_ERR
 #: rpmio/rpmlog.c:146

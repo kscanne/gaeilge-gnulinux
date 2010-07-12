@@ -12,7 +12,7 @@ msgstr ""
 "Last-Translator: Kevin Scannell <kscanne@gmail.com>\n"
 "Language-Team: Irish <gaeilge-gnulinux@lists.sourceforge.net>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=ISO-8859-1\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 #: src/Book.cc:26
@@ -25,15 +25,15 @@ msgstr "Leabhar Nua"
 
 #: src/Book.cc:28
 msgid "Undefined"
-msgstr "Gan SainmhÌni˙"
+msgstr "Gan Sainmh√≠ni√∫"
 
 #: src/Book.cc:178
 msgid "Not yet read"
-msgstr "Gan lÈamh fÛs"
+msgstr "Gan l√©amh f√≥s"
 
 #: src/DialogBookEditor.cc:29 src/DialogBook.cc:28
 msgid "Author:"
-msgstr "⁄dar:"
+msgstr "√ödar:"
 
 #: src/DialogBookEditor.cc:30 src/DialogBook.cc:30
 msgid "Title:"
@@ -45,15 +45,15 @@ msgstr "ISBN:"
 
 #: src/DialogBookEditor.cc:32 src/DialogBook.cc:34
 msgid "Category:"
-msgstr "CatagÛir:"
+msgstr "Catag√≥ir:"
 
 #: src/DialogBookEditor.cc:33 src/DialogBook.cc:36
 msgid "Rating:"
-msgstr "R·t·il:"
+msgstr "R√°t√°il:"
 
 #: src/DialogBookEditor.cc:34 src/DialogBook.cc:37
 msgid "Read:"
-msgstr "LÈite:"
+msgstr "L√©ite:"
 
 #: src/DialogBookEditor.cc:36 src/DialogBook.cc:39
 msgid "Summary:"
@@ -61,15 +61,15 @@ msgstr "Achoimre:"
 
 #: src/DialogBookEditor.cc:37 src/DialogBook.cc:41
 msgid "Review:"
-msgstr "LÈirmheas:"
+msgstr "L√©irmheas:"
 
 #: src/DialogBookEditor.cc:66
 msgid "Biography"
-msgstr "BeathaisnÈis"
+msgstr "Beathaisn√©is"
 
 #: src/DialogBookEditor.cc:67
 msgid "Children"
-msgstr "LeanaÌ"
+msgstr "Leana√≠"
 
 #: src/DialogBookEditor.cc:68
 msgid "Classic"
@@ -77,7 +77,7 @@ msgstr "Clasaiceach"
 
 #: src/DialogBookEditor.cc:69
 msgid "Drama"
-msgstr "Dr·maÌocht"
+msgstr "Dr√°ma√≠ocht"
 
 #: src/DialogBookEditor.cc:70
 msgid "Fiction"
@@ -85,7 +85,7 @@ msgstr "Ficsean"
 
 #: src/DialogBookEditor.cc:71
 msgid "Health"
-msgstr "Sl·inte"
+msgstr "Sl√°inte"
 
 #: src/DialogBookEditor.cc:72
 msgid "History"
@@ -93,7 +93,7 @@ msgstr "Stair"
 
 #: src/DialogBookEditor.cc:73
 msgid "Horror"
-msgstr "Uaf·s"
+msgstr "Uaf√°s"
 
 #: src/DialogBookEditor.cc:74
 msgid "Humor"
@@ -105,11 +105,11 @@ msgstr "Eile"
 
 #: src/DialogBookEditor.cc:76
 msgid "Poetry"
-msgstr "FilÌocht"
+msgstr "Fil√≠ocht"
 
 #: src/DialogBookEditor.cc:77
 msgid "Reference"
-msgstr "TagairtÌ"
+msgstr "Tagairt√≠"
 
 #: src/DialogBookEditor.cc:78
 msgid "Religion"
@@ -117,23 +117,23 @@ msgstr "Creideamh"
 
 #: src/DialogBookEditor.cc:79
 msgid "Romance"
-msgstr "ScÈalta Gr·"
+msgstr "Sc√©alta Gr√°"
 
 #: src/DialogBookEditor.cc:80
 msgid "Science"
-msgstr "EolaÌocht"
+msgstr "Eola√≠ocht"
 
 #: src/DialogBookEditor.cc:81
 msgid "Science Fiction"
-msgstr "Ficsean EolaÌochta"
+msgstr "Ficsean Eola√≠ochta"
 
 #: src/DialogBookEditor.cc:82
 msgid "Thriller"
-msgstr "ScÈinsÈir"
+msgstr "Sc√©ins√©ir"
 
 #: src/DialogBookEditor.cc:89
 msgid "Not yet rated"
-msgstr "Gan mheastach·n fÛs"
+msgstr "Gan mheastach√°n f√≥s"
 
 #: src/DialogBookEditor.cc:175 src/DialogBook.cc:55
 msgid "Unnamed Book"
@@ -141,23 +141,23 @@ msgstr "Leabhar gan ainm"
 
 #: src/DialogMain.cc:29
 msgid "Sort by _Author"
-msgstr "SÛrt·il de rÈir ˙d_ar"
+msgstr "S√≥rt√°il de r√©ir √∫d_ar"
 
 #: src/DialogMain.cc:34
 msgid "Sort by _Title"
-msgstr "SÛrt·il de rÈir _Teideal"
+msgstr "S√≥rt√°il de r√©ir _Teideal"
 
 #: src/DialogMain.cc:39
 msgid "Sort by _Category"
-msgstr "SÛrt·il de rÈir _CatagÛir"
+msgstr "S√≥rt√°il de r√©ir _Catag√≥ir"
 
 #: src/DialogMain.cc:44
 msgid "Sort by Read _Date"
-msgstr "SÛrt·il de rÈir _D·ta a LÈadh"
+msgstr "S√≥rt√°il de r√©ir _D√°ta a L√©adh"
 
 #: src/DialogMain.cc:49
 msgid "Sort by _Rating"
-msgstr "SÛrt·il de rÈir _R·t·la"
+msgstr "S√≥rt√°il de r√©ir _R√°t√°la"
 
 #: src/DialogMain.cc:54
 msgid "Add Book"
@@ -169,7 +169,7 @@ msgstr "Scrios Leabhar"
 
 #: src/DialogMain.cc:60
 msgid "Show Details"
-msgstr "Taispe·in SonraÌ"
+msgstr "Taispe√°in Sonra√≠"
 
 #: src/DialogMain.cc:72
 msgid "_File"
@@ -190,7 +190,7 @@ msgstr "_Eolas"
 #: src/DialogMain.cc:182 src/DialogMain.cc:277
 #, c-format
 msgid "Book Organizer"
-msgstr "Cl·r Eagraithe Leabhair"
+msgstr "Cl√°r Eagraithe Leabhair"
 
 #: src/DialogMain.cc:200
 msgid "Unknown ISBN"
@@ -199,7 +199,7 @@ msgstr "ISBN Anaithnid"
 #: src/DialogMain.cc:274
 #, c-format
 msgid "%s - Book Organizer"
-msgstr "%s - Cl·r Eagraithe Leabhair"
+msgstr "%s - Cl√°r Eagraithe Leabhair"
 
 #: src/DialogMain.cc:286
 msgid "Booklist "
@@ -212,24 +212,24 @@ msgstr "(%i leabhar sa liosta):"
 
 #: src/GtkBookList.cc:49
 msgid "Author and Title"
-msgstr "⁄dar agus Teideal"
+msgstr "√ödar agus Teideal"
 
 #: src/GtkBookList.cc:65
 msgid "Category"
-msgstr "CatagÛir"
+msgstr "Catag√≥ir"
 
 #: src/GtkBookList.cc:68
 msgid "Read on..."
-msgstr "LÈite ar..."
+msgstr "L√©ite ar..."
 
 #: src/GtkBookList.cc:71
 msgid "Rating"
-msgstr "R·t·il"
+msgstr "R√°t√°il"
 
 #: src/Controller.cc:48
 #, c-format
 msgid "Unable to create or access the book folder"
-msgstr "NÌ fÈidir an fillte·n leabhair a chruth˙ nÛ a rochtain"
+msgstr "N√≠ f√©idir an fillte√°n leabhair a chruth√∫ n√≥ a rochtain"
 
 #: src/Controller.cc:51
 #, c-format
@@ -240,16 +240,16 @@ msgid ""
 "Please make sure that the program has all permissions on \"%s\" and try "
 "again. Sorry."
 msgstr ""
-"NÌorbh fhÈidir fillte·n a chruth˙ le haghaidh na gc·ipÈisÌ leabhair.\n"
-"Go hiond˙il, tarlaÌonn earr·id mar seo de bharr go bhfuil fadhb ann leis na "
-"ceadanna a thug riarthÛir do chÛrais don chl·r seo.\n"
-"Cinntigh go bhfuil na ceadanna cuÌ ag an chl·r chun \"%s\" a rochtain agus "
-"bain triail as arÌs.  T· brÛn orm."
+"N√≠orbh fh√©idir fillte√°n a chruth√∫ le haghaidh na gc√°ip√©is√≠ leabhair.\n"
+"Go hiond√∫il, tarla√≠onn earr√°id mar seo de bharr go bhfuil fadhb ann leis na "
+"ceadanna a thug riarth√≥ir do ch√≥rais don chl√°r seo.\n"
+"Cinntigh go bhfuil na ceadanna cu√≠ ag an chl√°r chun \"%s\" a rochtain agus "
+"bain triail as ar√≠s.  T√° br√≥n orm."
 
 #: src/Controller.cc:65
 #, c-format
 msgid "Unable to open the book folder"
-msgstr "NÌ fÈidir an fillte·n leabhair a oscailt"
+msgstr "N√≠ f√©idir an fillte√°n leabhair a oscailt"
 
 #: src/Controller.cc:68
 #, c-format
@@ -260,16 +260,16 @@ msgid ""
 "Please make sure that the program has all permissions on \"%s\" and try "
 "again. Sorry."
 msgstr ""
-"NÌorbh fhÈidir an fillte·n le haghaidh na gc·ipÈisÌ leabhair a oscailt.\n"
-"Go hiond˙il, tarlaÌonn earr·id mar seo de bharr go bhfuil fadhb ann leis na "
-"ceadanna a thug riarthÛir do chÛras don chl·r seo.\n"
-"Cinntigh go bhfuil na ceadanna cuÌ ag an chl·r chun \"%s\" a rochtain agus "
-"bain triail as arÌs.  T· brÛn orm."
+"N√≠orbh fh√©idir an fillte√°n le haghaidh na gc√°ip√©is√≠ leabhair a oscailt.\n"
+"Go hiond√∫il, tarla√≠onn earr√°id mar seo de bharr go bhfuil fadhb ann leis na "
+"ceadanna a thug riarth√≥ir do ch√≥ras don chl√°r seo.\n"
+"Cinntigh go bhfuil na ceadanna cu√≠ ag an chl√°r chun \"%s\" a rochtain agus "
+"bain triail as ar√≠s.  T√° br√≥n orm."
 
 #: src/Controller.cc:81
 #, c-format
 msgid "Welcome to %s"
-msgstr "F·ilte go %s"
+msgstr "F√°ilte go %s"
 
 #: src/Controller.cc:83
 #, c-format
@@ -278,12 +278,12 @@ msgstr "Leagan %s"
 
 #: src/Controller.cc:85
 msgid "To view a book, please select an item from the booklist."
-msgstr "Chun breathn˙ ar leabhar, roghnaigh mÌr Ûn liosta leabhar le do thoil."
+msgstr "Chun breathn√∫ ar leabhar, roghnaigh m√≠r √≥n liosta leabhar le do thoil."
 
 #: src/Controller.cc:220
 #, c-format
 msgid "Unable to create a folder for \"%s\""
-msgstr "NÌ fÈidir fillte·n a chruth˙ do \"%s\""
+msgstr "N√≠ f√©idir fillte√°n a chruth√∫ do \"%s\""
 
 #: src/Controller.cc:224
 #, c-format
@@ -294,16 +294,16 @@ msgid ""
 "Please make sure that the program has the permissions to write into \"%s\" "
 "and try again. Sorry."
 msgstr ""
-"Is fÈidir nach bhfuil cead ag an chl·r seo chun fillte·n nua a chruth˙ ag an "
-"suÌomh ceaptha.\n"
+"Is f√©idir nach bhfuil cead ag an chl√°r seo chun fillte√°n nua a chruth√∫ ag an "
+"su√≠omh ceaptha.\n"
 "\n"
-"Cinntigh go bhfuil na ceadanna cuÌ ag an chl·r chun scrÌobh ar \"%s\" agus "
-"bain triail as arÌs.  T· brÛn orm."
+"Cinntigh go bhfuil na ceadanna cu√≠ ag an chl√°r chun scr√≠obh ar \"%s\" agus "
+"bain triail as ar√≠s.  T√° br√≥n orm."
 
 #: src/Controller.cc:233
 #, c-format
 msgid "Unable to delete old book information"
-msgstr "NÌ fÈidir an t-eolas faoina seanleabhair a scriosadh"
+msgstr "N√≠ f√©idir an t-eolas faoina seanleabhair a scriosadh"
 
 #: src/Controller.cc:236
 #, c-format
@@ -317,18 +317,18 @@ msgid ""
 "Please make sure that the program has all permissions on \"%s\" and try "
 "again. Sorry."
 msgstr ""
-"T· an teideal nÛ an t-˙dar den leabhar seo athraithe agat.\n"
-"Mar sin, nÌ mÛr duit an ch·ipÈis a choime·dann an seanainm agus an sean˙dar "
-"a scriosadh Û do dhiosca crua.\n"
-"¡fach, theip ar scriosadh na c·ipÈise seo, is dÛcha de bharr go bhfuil fadhb "
-"ann leis na ceadanna a thug riarthÛir do chÛras don chl·r seo.\n"
-"Cinntigh go bhfuil na ceadanna cuÌ ag an chl·r chun \"%s\" a rochtain agus "
-"bain triail as arÌs.  T· brÛn orm."
+"T√° an teideal n√≥ an t-√∫dar den leabhar seo athraithe agat.\n"
+"Mar sin, n√≠ m√≥r duit an ch√°ip√©is a choime√°dann an seanainm agus an sean√∫dar "
+"a scriosadh √≥ do dhiosca crua.\n"
+"√Åfach, theip ar scriosadh na c√°ip√©ise seo, is d√≥cha de bharr go bhfuil fadhb "
+"ann leis na ceadanna a thug riarth√≥ir do ch√≥ras don chl√°r seo.\n"
+"Cinntigh go bhfuil na ceadanna cu√≠ ag an chl√°r chun \"%s\" a rochtain agus "
+"bain triail as ar√≠s.  T√° br√≥n orm."
 
 #: src/Controller.cc:248
 #, c-format
 msgid "Unable to save the book \"%s\" by \"%s\""
-msgstr "NÌ fÈidir an leabhar \"%s\" le \"%s\" a sh·bh·il"
+msgstr "N√≠ f√©idir an leabhar \"%s\" le \"%s\" a sh√°bh√°il"
 
 #: src/Controller.cc:252
 #, c-format
@@ -339,16 +339,16 @@ msgid ""
 "Please make sure that the program has the permissions to write into all "
 "folders below \"%s\" and try again. Sorry."
 msgstr ""
-"Is fÈidir nach bhfuil cead ag an chl·r seo chun comhad nua a chruth˙ ag an "
-"suÌomh ceaptha.\n"
+"Is f√©idir nach bhfuil cead ag an chl√°r seo chun comhad nua a chruth√∫ ag an "
+"su√≠omh ceaptha.\n"
 "\n"
-"Cinntigh go bhfuil na ceadanna cuÌ ag an chl·r chun scrÌobh ar gach fillte·n "
-"faoi \"%s\" agus bain triail as arÌs.  T· brÛn orm."
+"Cinntigh go bhfuil na ceadanna cu√≠ ag an chl√°r chun scr√≠obh ar gach fillte√°n "
+"faoi \"%s\" agus bain triail as ar√≠s.  T√° br√≥n orm."
 
 #: src/Controller.cc:302
 #, c-format
 msgid "Unable to delete the book \"%s\" by \"%s\""
-msgstr "NÌ fÈidir an leabhar \"%s\" le \"%s\" a scriosadh"
+msgstr "N√≠ f√©idir an leabhar \"%s\" le \"%s\" a scriosadh"
 
 #: src/Controller.cc:306
 #, c-format
@@ -361,13 +361,13 @@ msgid ""
 "Please make sure that the program has all permissions on \"%s\" and try "
 "again. Sorry."
 msgstr ""
-"NÌorbh fhÈidir an ch·ipÈis a choime·dann an leabhar gur mhaith leat a bhaint "
+"N√≠orbh fh√©idir an ch√°ip√©is a choime√°dann an leabhar gur mhaith leat a bhaint "
 "a scriosadh.\n"
 "\n"
-"Go hiond˙il, tarlaÌonn earr·id mar seo de bharr go bhfuil fadhb ann leis na "
-"ceadanna a thug riarthÛir do chÛras don chl·r seo.\n"
-"Cinntigh go bhfuil na ceadanna cuÌ ag an chl·r chun \"%s\" a rochtain agus "
-"bain triail as arÌs.  T· brÛn orm."
+"Go hiond√∫il, tarla√≠onn earr√°id mar seo de bharr go bhfuil fadhb ann leis na "
+"ceadanna a thug riarth√≥ir do ch√≥ras don chl√°r seo.\n"
+"Cinntigh go bhfuil na ceadanna cu√≠ ag an chl√°r chun \"%s\" a rochtain agus "
+"bain triail as ar√≠s.  T√° br√≥n orm."
 
 #: src/DialogBookDelete.cc:42
 #, c-format
@@ -377,12 +377,12 @@ msgstr "Scrios an leabhar \"%s\" le \"%s\"?"
 #: src/DialogBookDelete.cc:43
 msgid "Deletion of a book will destroy its data and can not be reversed."
 msgstr ""
-"M· scriosann t˙ leabhar, scriosfar na sonraÌ a bhaineann leis agus nÌ "
-"fÈidir an oibrÌocht a chur ar ceal."
+"M√° scriosann t√∫ leabhar, scriosfar na sonra√≠ a bhaineann leis agus n√≠ "
+"f√©idir an oibr√≠ocht a chur ar ceal."
 
 #: src/DialogAbout.cc:45
 msgid "Translation of this version by:"
-msgstr "Arna aistri˙ go Gaeilge ag:"
+msgstr "Arna aistri√∫ go Gaeilge ag:"
 
 #: src/DialogAbout.cc:46
 msgid "translator_credits"
@@ -396,18 +396,18 @@ msgid ""
 "\n"
 "The application name was chosen by TheWalrus."
 msgstr ""
-"ScrÌobh Samuel Abels an cl·r BibShelf, agus is foilsithe È de rÈir na "
-"gcoinnÌollacha den GPL (General Public License V2)\n"
+"Scr√≠obh Samuel Abels an cl√°r BibShelf, agus is foilsithe √© de r√©ir na "
+"gcoinn√≠ollacha den GPL (General Public License V2)\n"
 "\n"
-"Roghnaigh TheWalrus ainm an fheidhmchl·ir."
+"Roghnaigh TheWalrus ainm an fheidhmchl√°ir."
 
 #: src/DialogAbout.cc:57
 msgid "Thank You for using BibShelf!"
-msgstr "Go raibh mÌle maith agat as BibShelf a ˙s·id!"
+msgstr "Go raibh m√≠le maith agat as BibShelf a √∫s√°id!"
 
 #: src/DialogAbout.cc:60
 msgid "Copyright 2004. All rights reserved."
-msgstr "CÛipcheart 2004. Gach ceart cosanta."
+msgstr "C√≥ipcheart 2004. Gach ceart cosanta."
 
 #: src/DialogBook.cc:43
 msgid "Edit Book"

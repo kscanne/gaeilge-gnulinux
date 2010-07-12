@@ -11,34 +11,34 @@ msgstr ""
 "Last-Translator: Kevin Patrick Scannell <scannell@SLU.EDU>\n"
 "Language-Team: Irish <gaeilge-gnulinux@lists.sourceforge.net>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=ISO-8859-1\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 #: src/messages.h:24
 #, c-format
 msgid "!! bad syntax in shellcode definitions, ignoring (line %d)\n"
-msgstr "!! droch-chomhrÈir sna sainmhÌnuithe blaosc-chÛid, ag dÈanamh neamhshuim (lÌne %d)\n"
+msgstr "!! droch-chomhr√©ir sna sainmh√≠nuithe blaosc-ch√≥id, ag d√©anamh neamhshuim (l√≠ne %d)\n"
 
 #: src/messages.h:25
 msgid ""
 "!! failed to open shellcode definitions file, please fix your configuration\n"
 msgstr ""
-"!! theip ar oscailt comhaid shainmhÌnuithe blaosc-chÛid, deisigh do chumraÌocht le do thoil\n"
+"!! theip ar oscailt comhaid shainmh√≠nuithe blaosc-ch√≥id, deisigh do chumra√≠ocht le do thoil\n"
 
 #: src/messages.h:28
 #, c-format
 msgid ".s using `%s' as the configuration script for this session\n"
-msgstr ".s `%s' · ˙s·id mar script chumraÌochta le haghaidh an sheisi˙in seo\n"
+msgstr ".s `%s' √° √∫s√°id mar script chumra√≠ochta le haghaidh an sheisi√∫in seo\n"
 
 #: src/messages.h:31
 #, c-format
 msgid "!! failed to load config, file not found: %s\n"
-msgstr "!! theip ar lucht˙ cumraÌochta, comhad gan aimsi˙: %s\n"
+msgstr "!! theip ar lucht√∫ cumra√≠ochta, comhad gan aimsi√∫: %s\n"
 
 #: src/messages.h:32
 #, c-format
 msgid "!! failed to load perl script, file not found: %s\n"
-msgstr "!! theip ar lucht˙ scripte perl, comhad gan aimsi˙: %s\n"
+msgstr "!! theip ar lucht√∫ scripte perl, comhad gan aimsi√∫: %s\n"
 
 #: src/messages.h:33
 msgid "!! failed to execute perl script, exiting!\n"
@@ -46,62 +46,62 @@ msgstr "!! theip ar rith scripte perl, ag scor!\n"
 
 #: src/messages.h:34
 msgid "!! malloc() failed - virtual memory is exhausted\n"
-msgstr "!! theip ar malloc() - cuimhne fhÌor˙il Ìdithe\n"
+msgstr "!! theip ar malloc() - cuimhne fh√≠or√∫il √≠dithe\n"
 
 #: src/messages.h:35
 msgid "!! configuration variable `MSG_TRIGGER_SIZE' is too small\n"
-msgstr "!! t· an athrÛg chumraÌochta `MSG_TRIGGER_SIZE' rÛbheag\n"
+msgstr "!! t√° an athr√≥g chumra√≠ochta `MSG_TRIGGER_SIZE' r√≥bheag\n"
 
 #: src/messages.h:36
 msgid "!! CAPTURE DIRECTORY NOT FOUND - ATTEMPTING TO CREATE..\n"
-msgstr "!! COMHADLANN GABH¡LA GAN AIMSI⁄ - AG IARRAIDH Õ A CHRUTH⁄..\n"
+msgstr "!! COMHADLANN GABH√ÅLA GAN AIMSI√ö - AG IARRAIDH √ç A CHRUTH√ö..\n"
 
 #: src/messages.h:37
 msgid "!! YOUR SYSTEM DOES NOT SUPPORT mkdir()\n"
-msgstr "!! NÕL mkdir() AR F¡IL AR DO CH”RAS\n"
+msgstr "!! N√çL mkdir() AR F√ÅIL AR DO CH√ìRAS\n"
 
 #: src/messages.h:38
 msgid "!! YOU'LL NEED TO MANUALLY CREATE THE FOLLOWING DIRECTORY:\n"
-msgstr "!! NÕ M”R DUIT AN CHOMHADLANN A LEANAS A CHRUTH⁄:\n"
+msgstr "!! N√ç M√ìR DUIT AN CHOMHADLANN A LEANAS A CHRUTH√ö:\n"
 
 #: src/messages.h:39
 msgid "!! IMPOST WILL USE THE DEFAULT OPTIONS (A LIST WILL BE DISPLAYED)\n"
-msgstr "!! ⁄S¡IDFIDH IMPOST NA ROGHANNA R…AMHSHOCRAITHE (TAISPE¡NFAR LIOSTA)\n"
+msgstr "!! √öS√ÅIDFIDH IMPOST NA ROGHANNA R√âAMHSHOCRAITHE (TAISPE√ÅNFAR LIOSTA)\n"
 
 #: src/messages.h:41
 #, c-format
 msgid "!! Created directory: '%s'\n"
-msgstr "!! CruthaÌodh comhadlann: '%s'\n"
+msgstr "!! Crutha√≠odh comhadlann: '%s'\n"
 
 # CRL next update.
 #: src/messages.h:44
 #, c-format
 msgid "%s closing (%d) connection with %s\n"
-msgstr "T· %s ag d˙nadh (%d) a nasc le %s\n"
+msgstr "T√° %s ag d√∫nadh (%d) a nasc le %s\n"
 
 #: src/messages.h:45
 #, c-format
 msgid " - Capture file: %s\n"
-msgstr " - Comhad gabh·la: %s\n"
+msgstr " - Comhad gabh√°la: %s\n"
 
 #: src/messages.h:46
 #, c-format
 msgid ".s loading script: `%s'\n"
-msgstr ".s ag lucht˙ scripte: `%s'\n"
+msgstr ".s ag lucht√∫ scripte: `%s'\n"
 
 #: src/messages.h:47
 msgid "shutdown: unloading Perl script...\n"
-msgstr "shutdown: script Perl · dhÌlucht˙...\n"
+msgstr "shutdown: script Perl √° dh√≠lucht√∫...\n"
 
 #: src/messages.h:48
 #, c-format
 msgid "%s SERVER STARTED, BINDED SOCKET ON PORT %d\n"
-msgstr "FRIOTH¡LAÕ %s CURTHA AR SI⁄L, CEANGLAÕODH SOIC…AD AR PORT %d\n"
+msgstr "FRIOTH√ÅLA√ç %s CURTHA AR SI√öL, CEANGLA√çODH SOIC√âAD AR PORT %d\n"
 
 #: src/messages.h:49
 #, c-format
 msgid "%s INITIALIZING PACKET SNIFFER\n"
-msgstr "%s SM⁄RTHANNACH PAIC…AD ¡ TH⁄S⁄\n"
+msgstr "%s SM√öRTHANNACH PAIC√âAD √Å TH√öS√ö\n"
 
 #: src/messages.h:50
 msgid ".i Waiting for connections...\n"
@@ -120,16 +120,16 @@ msgstr "D'ordaigh script %s a nasc le %s a bhriseadh\n"
 #: src/messages.h:53
 #, c-format
 msgid "               Socket descriptor: %d\n"
-msgstr "               tuarasc·laÌ soicÈid: %d\n"
+msgstr "               tuarasc√°la√≠ soic√©id: %d\n"
 
 #: src/messages.h:54
 msgid "Exiting...\n"
-msgstr "Ag …irÌ As...\n"
+msgstr "Ag √âir√≠ As...\n"
 
 #: src/messages.h:55
 #, c-format
 msgid "%s Accepted connection from %s\n"
-msgstr "%s Glacadh nasc isteach Û %s\n"
+msgstr "%s Glacadh nasc isteach √≥ %s\n"
 
 #: src/messages.h:58
 #, c-format
@@ -149,19 +149,19 @@ msgstr "hd%d Heics: %s Ascii %s\n"
 #: src/messages.h:61
 #, c-format
 msgid "hd%d last line repeated %d times\n"
-msgstr "hd%d lÌne is dÈanaÌ %d uair\n"
+msgstr "hd%d l√≠ne is d√©ana√≠ %d uair\n"
 
 #: src/messages.h:64
 msgid ".c Checking x86 `NOP sled' type.\n"
-msgstr ".c Ag seice·il cine·l x86 `NOP sled'.\n"
+msgstr ".c Ag seice√°il cine√°l x86 `NOP sled'.\n"
 
 #: src/messages.h:65
 msgid ".c Checking for X86 operation codes: "
-msgstr ".c Ag seice·il cÛid oibrÌochta X86: "
+msgstr ".c Ag seice√°il c√≥id oibr√≠ochta X86: "
 
 #: src/messages.h:66
 msgid ".c Checking for SPARC operation codes: "
-msgstr ".c Ag seice·il cÛid oibrÌochta SPARC: "
+msgstr ".c Ag seice√°il c√≥id oibr√≠ochta SPARC: "
 
 #: src/messages.h:67
 msgid "yes\n"
@@ -169,58 +169,58 @@ msgstr "is sea\n"
 
 #: src/messages.h:68
 msgid "no\n"
-msgstr "nÌ hea\n"
+msgstr "n√≠ hea\n"
 
 #: src/messages.h:70
 msgid "DATA SEGMENT"
-msgstr "DEIGHLE¡N SONRAÕ"
+msgstr "DEIGHLE√ÅN SONRA√ç"
 
 #: src/messages.h:73
 #, c-format
 msgid ".d Detected suspicious buffer (%d bytes)\n"
-msgstr ".d Braitheadh maol·n amhrasach (%d beart)\n"
+msgstr ".d Braitheadh maol√°n amhrasach (%d beart)\n"
 
 #: src/messages.h:74
 msgid ".d Zero `known' operation codes were found\n"
-msgstr ".d NÌl aon chÛd oibrÌochta `aitheanta' ar f·il\n"
+msgstr ".d N√≠l aon ch√≥d oibr√≠ochta `aitheanta' ar f√°il\n"
 
 #: src/messages.h:75
 #, c-format
 msgid ".i  Generic x86 NOP code (Intel 0x90) used for padding (%d times)\n"
-msgstr ".i  CÛd NOP ginear·lta x86 (Intel 0x90) in ˙s·id le stu·il (%d den chine·l seo)\n"
+msgstr ".i  C√≥d NOP ginear√°lta x86 (Intel 0x90) in √∫s√°id le stu√°il (%d den chine√°l seo)\n"
 
 #: src/messages.h:76
 #, c-format
 msgid ".i Style of `NOP' padding (aka `sled'): %s\n"
-msgstr ".i StÌl stu·la `NOP' (ar a dtugtar `sled' fosta): %s\n"
+msgstr ".i St√≠l stu√°la `NOP' (ar a dtugtar `sled' fosta): %s\n"
 
 #: src/messages.h:77
 #, c-format
 msgid " - ^ single no operation (0x%x:'%c') repeated %d times\n"
-msgstr " - ^ treoir bh·n (0x%x:'%c') leantach %d uaire\n"
+msgstr " - ^ treoir bh√°n (0x%x:'%c') leantach %d uaire\n"
 
 #: src/messages.h:78
 msgid ".i Saving received message history and suspicious buffer\n"
-msgstr ".i Stair na dteachtaireachtaÌ faighte agus maol·n amhrasach · s·bh·il\n"
+msgstr ".i Stair na dteachtaireachta√≠ faighte agus maol√°n amhrasach √° s√°bh√°il\n"
 
 #: src/messages.h:79
 #, c-format
 msgid ".c  Shellcode match: %s\n"
-msgstr ".c  Blaosc-chÛd comhoiri˙naithe: %s\n"
+msgstr ".c  Blaosc-ch√≥d comhoiri√∫naithe: %s\n"
 
 #: src/messages.h:80
 #, c-format
 msgid ".g  First instruction code position: %d, hexidecimal: \\x%x\n"
-msgstr ".g  Ionad an chÈad chÛd treoracha: %d, heics: \\x%x\n"
+msgstr ".g  Ionad an ch√©ad ch√≥d treoracha: %d, heics: \\x%x\n"
 
 #: src/messages.h:81
 msgid ".g  Possibility: `ADMmutate' polymorphing\n"
-msgstr ".g  FÈidearthacht: `ADMmutate' · pholamorf˙\n"
+msgstr ".g  F√©idearthacht: `ADMmutate' √° pholamorf√∫\n"
 
 #: src/messages.h:82
 #, c-format
 msgid ".g  Possible x86 return address = `0x%lx' (last 4 non-NOP bytes)\n"
-msgstr ".g  Seoladh fillte x86 fÈideartha = `0x%lx' (4 beart deireanach nach ina NOP)\n"
+msgstr ".g  Seoladh fillte x86 f√©ideartha = `0x%lx' (4 beart deireanach nach ina NOP)\n"
 
 #: src/messages.h:83
 #, c-format
@@ -230,7 +230,7 @@ msgstr ".i tosach an `NOP' SPARC: beart %d\n"
 #: src/messages.h:84
 #, c-format
 msgid ".i Found `0x%.2x%.2x%.2x%.2x' (SPARC no operation)\n"
-msgstr ".i AimsÌodh `0x%.2x%.2x%.2x%.2x' (treoir bh·n SPARC)\n"
+msgstr ".i Aims√≠odh `0x%.2x%.2x%.2x%.2x' (treoir bh√°n SPARC)\n"
 
 #: src/messages.h:86
 msgid "1 byte (repeating)"
@@ -239,7 +239,7 @@ msgstr "1 beart (timthriallach)"
 #: src/messages.h:87
 #, c-format
 msgid "repeating %d byte pattern"
-msgstr "patr˙n %d beart timthriallach"
+msgstr "patr√∫n %d beart timthriallach"
 
 #: src/messages.h:88
 msgid "random"
