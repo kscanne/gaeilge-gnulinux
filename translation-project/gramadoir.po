@@ -333,23 +333,23 @@ msgstr "Ní dócha go raibh intinn agat an modh foshuiteach a úsáid anseo"
 #. but there is no need to escape the quotes the way they are in the msgid.
 #: messages.txt:22
 msgid "Usually used in the set phrase \\/\\1\\/"
-msgstr "Ní úsáidtear an focal seo ach san abairtín «\\1» de ghnáth"
+msgstr "Ní úsáidtear an focal seo ach san abairtín ‘\\1’ de ghnáth"
 
 #: messages.txt:23
 msgid "You should use \\/\\1\\/ here instead"
-msgstr "Ba chóir duit «\\1» a úsáid anseo"
+msgstr "Ba chóir duit ‘\\1’ a úsáid anseo"
 
 #: messages.txt:24
 msgid "Non-standard form of \\/\\1\\/"
-msgstr "Foirm neamhchaighdeánach de «\\1»"
+msgstr "Foirm neamhchaighdeánach de ‘\\1’"
 
 #: messages.txt:25
 msgid "Derived from a non-standard form of \\/\\1\\/"
-msgstr "Bunaithe ar fhoirm neamhchaighdeánach de «\\1»"
+msgstr "Bunaithe ar fhoirm neamhchaighdeánach de ‘\\1’"
 
 #: messages.txt:26
 msgid "Derived incorrectly from the root \\/\\1\\/"
-msgstr "Bunaithe go mícheart ar an bhfréamh «\\1»"
+msgstr "Bunaithe go mícheart ar an bhfréamh ‘\\1’"
 
 #: messages.txt:27
 msgid "Unknown word"
@@ -358,41 +358,41 @@ msgstr "Focal anaithnid"
 #. TRANSLATORS: \\1 is substituted with one or more suggested replacements
 #: messages.txt:29
 msgid "Unknown word: \\/\\1\\/?"
-msgstr "Focal anaithnid: «\\1»?"
+msgstr "Focal anaithnid: ‘\\1’?"
 
 #: messages.txt:30
 msgid "Valid word but \\/\\1\\/ is more common"
-msgstr "Focal ceart ach tá «\\1» níos coitianta"
+msgstr "Focal ceart ach tá ‘\\1’ níos coitianta"
 
 #: messages.txt:31
 msgid "Not in database but apparently formed from the root \\/\\1\\/"
-msgstr "Focal anaithnid ach bunaithe ar «\\1» is dócha"
+msgstr "Focal anaithnid ach bunaithe ar ‘\\1’ is dócha"
 
 #: messages.txt:32
 msgid "The word \\/\\1\\/ is not needed"
-msgstr "Níl gá leis an fhocal «\\1»"
+msgstr "Níl gá leis an fhocal ‘\\1’"
 
 #: messages.txt:33
 msgid "Do you mean \\/\\1\\/?"
-msgstr "An raibh «\\1» ar intinn agat?"
+msgstr "An raibh ‘\\1’ ar intinn agat?"
 
 #: messages.txt:34
 msgid "Derived form of common misspelling \\/\\1\\/?"
-msgstr "Bunaithe ar fhocal mílitrithe go coitianta «\\1»?"
+msgstr "Bunaithe ar fhocal mílitrithe go coitianta ‘\\1’?"
 
 #: messages.txt:35
 msgid "Not in database but may be a compound \\/\\1\\/?"
-msgstr "Focal anaithnid ach b'fhéidir gur comhfhocal «\\1» é?"
+msgstr "Focal anaithnid ach b'fhéidir gur comhfhocal ‘\\1’ é?"
 
 #: messages.txt:36
 msgid "Not in database but may be a non-standard compound \\/\\1\\/?"
 msgstr ""
-"Focal anaithnid ach b'fhéidir gur comhfhocal neamhchaighdeánach «\\1» é?"
+"Focal anaithnid ach b'fhéidir gur comhfhocal neamhchaighdeánach ‘\\1’ é?"
 
 #: messages.txt:37
 msgid "Possibly a foreign word (the sequence \\/\\1\\/ is highly improbable)"
 msgstr ""
-"B'fhéidir gur focal iasachta é seo (tá na litreacha «\\1» neamhchoitianta)"
+"B'fhéidir gur focal iasachta é seo (tá na litreacha ‘\\1’ neamhchoitianta)"
 
 #: messages.txt:38
 msgid "Gender disagreement"
@@ -409,31 +409,31 @@ msgstr "Tuiseal mícheart"
 #. TRANSLATORS: Rules specific to the Irish language (ga)
 #: messages.txt:42
 msgid "Prefix \\/h\\/ missing"
-msgstr "Réamhlitir «h» ar iarraidh"
+msgstr "Réamhlitir ‘h’ ar iarraidh"
 
 #: messages.txt:43
 msgid "Prefix \\/t\\/ missing"
-msgstr "Réamhlitir «t» ar iarraidh"
+msgstr "Réamhlitir ‘t’ ar iarraidh"
 
 #: messages.txt:44
 msgid "Prefix \\/d'\\/ missing"
-msgstr "Réamhlitir «d'» ar iarraidh"
+msgstr "Réamhlitir ‘d'’ ar iarraidh"
 
 #: messages.txt:45
 msgid "Unnecessary prefix \\/h\\/"
-msgstr "Réamhlitir «h» gan ghá"
+msgstr "Réamhlitir ‘h’ gan ghá"
 
 #: messages.txt:46
 msgid "Unnecessary prefix \\/t\\/"
-msgstr "Réamhlitir «t» gan ghá"
+msgstr "Réamhlitir ‘t’ gan ghá"
 
 #: messages.txt:47
 msgid "Unnecessary prefix \\/d'\\/"
-msgstr "Réamhlitir «d'» gan ghá"
+msgstr "Réamhlitir ‘d'’ gan ghá"
 
 #: messages.txt:48
 msgid "Unnecessary prefix \\/b'\\/"
-msgstr "Réamhlitir «b'» gan ghá"
+msgstr "Réamhlitir ‘b'’ gan ghá"
 
 #. TRANSLATORS: "Mutation" refers to either "lenition" or "eclipsis" (see below)
 #: messages.txt:50
@@ -458,7 +458,7 @@ msgstr "Ní gá leis an dara séimhiú"
 msgid ""
 "Often the preposition \\/\\1\\/ causes lenition, but this case is unclear"
 msgstr ""
-"Leanann séimhiú an réamhfhocal «\\1» go minic, ach ní léir é sa chás seo"
+"Leanann séimhiú an réamhfhocal ‘\\1’ go minic, ach ní léir é sa chás seo"
 
 #: messages.txt:57
 msgid "Lenition missing"
@@ -489,7 +489,7 @@ msgstr "Níl gá leis an fhoirm spleách"
 
 #: messages.txt:66
 msgid "The synthetic (combined) form, ending in \\/\\1\\/, is often used here"
-msgstr "Is an fhoirm tháite, leis an iarmhír «\\1», a úsáidtear go minic"
+msgstr "Is an fhoirm tháite, leis an iarmhír ‘\\1’, a úsáidtear go minic"
 
 #. TRANSLATORS: Rules specific to the Cornish language (kw)
 #: messages.txt:68
@@ -510,7 +510,7 @@ msgstr "An cúigiú claochlú (measctha) ar iarraidh"
 
 #: messages.txt:72
 msgid "Fifth (mixed) mutation after 'th missing"
-msgstr "An cúigiú claochlú (measctha) i ndiaidh «'th» ar iarraidh"
+msgstr "An cúigiú claochlú (measctha) i ndiaidh ‘'th’ ar iarraidh"
 
 #. TRANSLATORS: Rules specific to the Welsh language (cy)
 #: messages.txt:74
@@ -523,7 +523,7 @@ msgid "This word violates the rules of Igbo vowel harmony"
 msgstr "Tagann an focal seo salach ar chomhréir na ngutaí in Íogbóis"
 
 #~ msgid "Valid word but more often found in place of \\/\\1\\/"
-#~ msgstr "Focal ceart ach aimsítear é níos minice in ionad «\\1»"
+#~ msgstr "Focal ceart ach aimsítear é níos minice in ionad ‘\\1’"
 
 #~ msgid ""
 #~ "    --aspell       suggest corrections for misspellings (requires GNU "

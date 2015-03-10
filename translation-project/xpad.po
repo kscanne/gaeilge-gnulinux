@@ -129,7 +129,7 @@ msgstr "_Scrollbharra"
 
 #: ../src/xpad-pad.c:1489
 msgid "_Window Decorations"
-msgstr "Maisiúcháin _Fuinneoga"
+msgstr "Maisiúcháin _Fhuinneog"
 
 #: ../src/xpad-pad.c:1492
 msgid "_Notes"

@@ -159,7 +159,7 @@ msgstr "dáta"
 
 #: src/main/extract.c:341 src/main/extractor.c:74
 msgid "creation date"
-msgstr "dáta a cruthaíodh"
+msgstr "dáta ar a cruthaíodh é"
 
 #: src/main/extract.c:369 src/main/extractor.c:53
 msgid "publisher"

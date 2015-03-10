@@ -1078,7 +1078,7 @@ msgstr "Saipan"
 
 #: src/hd-data.c:662
 msgid "Martinique"
-msgstr "An Mhartainíc"
+msgstr "Martainíc"
 
 #: src/hd-data.c:663
 msgid "Mauritania"
