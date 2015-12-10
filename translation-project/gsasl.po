@@ -1,7 +1,7 @@
 # Irish translations for gsasl.
 # Copyright (C) 2003 Free Software Foundation, Inc.
 # This file is distributed under the same license as the gsasl package.
-# Kevin Patrick Scannell <scannell@SLU.EDU>, 2004, 2006, 2008, 2009.
+# Kevin Patrick Scannell <kscanne@gmail.com>, 2004, 2006, 2008, 2009.
 msgid ""
 msgstr ""
 "Project-Id-Version: gsasl 1.1\n"

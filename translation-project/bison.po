@@ -1,7 +1,7 @@
 # Irish translations for bison.
 # Copyright (C) 2004 Free Software Foundation, Inc.
 # This file is distributed under the same license as the bison package.
-# Kevin Patrick Scannell <scannell@SLU.EDU>, 2004, 2006, 2008, 2010, 2012
+# Kevin Patrick Scannell <kscanne@gmail.com>, 2004, 2006, 2008, 2010, 2012
 msgid ""
 msgstr ""
 "Project-Id-Version: bison 2.5\n"

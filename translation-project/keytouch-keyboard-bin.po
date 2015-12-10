@@ -1,7 +1,7 @@
 # Irish translations for keytouch-keyboard-bin.
 # Copyright (C) 2006 Free Software Foundation, Inc.
 # This file is distributed under the same license as the keytouch package.
-# Kevin Patrick Scannell <scannell@SLU.EDU>, 2006, 2008.
+# Kevin Patrick Scannell <kscanne@gmail.com>, 2006, 2008.
 msgid ""
 msgstr ""
 "Project-Id-Version: keytouch-keyboard-bin 2.4.0-b1\n"

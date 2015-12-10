@@ -1,7 +1,7 @@
 # Irish translations for diffutils.
 # Copyright (C) 2004 Free Software Foundation, Inc.
 # This file is distributed under the same license as the diffutils package.
-# Kevin Patrick Scannell <scannell@SLU.EDU>, 2004.
+# Kevin Patrick Scannell <kscanne@gmail.com>, 2004.
 #
 msgid ""
 msgstr ""
@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2004-04-13 00:07-0700\n"
 "PO-Revision-Date: 2004-12-03 13:47-0500\n"
-"Last-Translator: Kevin Patrick Scannell <scannell@SLU.EDU>\n"
+"Last-Translator: Kevin Patrick Scannell <kscanne@gmail.com>\n"
 "Language-Team: Irish <gaeilge-gnulinux@lists.sourceforge.net>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"

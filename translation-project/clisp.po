@@ -1,13 +1,13 @@
 # Irish translations for CLISP
 # Copyright (C) 1992-2004 Bruno Haible, Michael Stoll, Marcus Daniels, Sam Steingold
-# Kevin Patrick Scannell <scannell@SLU.EDU>, 2005.
+# Kevin Patrick Scannell <kscanne@gmail.com>, 2005.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: clisp 2.32.91\n"
 "POT-Creation-Date: 2004-03-10 12:50:51 EST\n"
 "PO-Revision-Date: 2005-02-10 12:50:51 EST\n"
-"Last-Translator: Kevin Patrick Scannell <scannell@SLU.EDU>\n"
+"Last-Translator: Kevin Patrick Scannell <kscanne@gmail.com>\n"
 "Language-Team: Irish <gaeilge-gnulinux@lists.sourceforge.net>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"

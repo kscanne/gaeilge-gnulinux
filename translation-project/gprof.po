@@ -1,7 +1,7 @@
 # Irish translations for gprof.
 # Copyright (C) 2005 Free Software Foundation, Inc.
 # This file is distributed under the same license as the gprof package.
-# Kevin Patrick Scannell <scannell@SLU.EDU>, 2005, 2007.
+# Kevin Patrick Scannell <kscanne@gmail.com>, 2005, 2007.
 msgid ""
 msgstr ""
 "Project-Id-Version: gprof 2.17.90\n"

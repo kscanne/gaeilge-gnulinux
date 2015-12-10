@@ -1,7 +1,7 @@
 # Irish translations for keytouch.
 # Copyright (C) 2006 Free Software Foundation, Inc.
 # This file is distributed under the same license as the keytouch package.
-# Kevin Patrick Scannell <scannell@SLU.EDU>, 2006, 2007.
+# Kevin Patrick Scannell <kscanne@gmail.com>, 2006, 2007.
 #
 msgid ""
 msgstr ""

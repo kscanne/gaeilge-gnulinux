@@ -1,7 +1,7 @@
 # Irish translations for flex.
 # Copyright (C) 2008 The Flex Project (msgids)
 # This file is distributed under the same license as the flex package.
-# Kevin Patrick Scannell <scannell@SLU.EDU>, 2003, 2006, 2008.
+# Kevin Patrick Scannell <kscanne@gmail.com>, 2003, 2006, 2008.
 msgid ""
 msgstr ""
 "Project-Id-Version: flex 2.5.34\n"

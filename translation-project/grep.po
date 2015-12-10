@@ -1,7 +1,7 @@
 # Irish translations for grep.
 # Copyright (C) 2003 Free Software Foundation, Inc.
 # This file is distributed under the same license as the grep package.
-# Kevin Patrick Scannell <scannell@SLU.EDU>, 2003, 2007, 2009, 2011.
+# Kevin Patrick Scannell <kscanne@gmail.com>, 2003, 2007, 2009, 2011.
 msgid ""
 msgstr ""
 "Project-Id-Version: grep 2.8\n"

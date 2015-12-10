@@ -1,7 +1,7 @@
 # Irish translations for latrine.
 # Copyright (C) 2005 Free Software Foundation, Inc.
 # This file is distributed under the same license as the latrine package.
-# Kevin Patrick Scannell <scannell@SLU.EDU>, 2005, 2007
+# Kevin Patrick Scannell <kscanne@gmail.com>, 2005, 2007
 #
 msgid ""
 msgstr ""
@@ -178,7 +178,7 @@ msgstr "%s, nasctha le %s, zlib %s\n"
 #: options.c:350
 #, c-format
 msgid "English localization by Martin A. Godisch <martin@godisch.de>\n"
-msgstr "Aistriúchán Gaeilge le Kevin P. Scannell <scannell@slu.edu>\n"
+msgstr "Aistriúchán Gaeilge le Kevin P. Scannell <kscanne@gmail.com>\n"
 
 #: options.c:361
 #, c-format

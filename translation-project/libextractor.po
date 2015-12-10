@@ -1,7 +1,7 @@
 # Irish translations for libextractor
 # Copyright (C) 2005 Free Software Foundation, Inc.
 # This file is distributed under the same license as the libextractor package.
-# Kevin Patrick Scannell <scannell@SLU.EDU>, 2005, 2006, 2007, 2008.
+# Kevin Patrick Scannell <kscanne@gmail.com>, 2005, 2006, 2007, 2008.
 msgid ""
 msgstr ""
 "Project-Id-Version: libextractor 0.5.20\n"

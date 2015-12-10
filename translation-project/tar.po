@@ -1,7 +1,7 @@
 # Irish translations for tar.
 # Copyright (C) 2003, 2004 Free Software Foundation, Inc.
 # This file is distributed under the same license as the tar package.
-# Kevin Patrick Scannell <scannell@SLU.EDU>, 2003, 2004, 2006, 2007, 2008, 2009.
+# Kevin Patrick Scannell <kscanne@gmail.com>, 2003, 2004, 2006, 2007, 2008, 2009.
 msgid ""
 msgstr ""
 "Project-Id-Version: tar 1.22\n"

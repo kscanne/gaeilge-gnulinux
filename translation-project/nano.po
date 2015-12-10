@@ -1,7 +1,7 @@
 # Irish translations for nano.
 # Copyright (C) 2006 Free Software Foundation, Inc.
 # This file is distributed under the same license as the nano package.
-# Kevin Patrick Scannell <scannell@SLU.EDU>, 2006, 2008.
+# Kevin Patrick Scannell <kscanne@gmail.com>, 2006, 2008.
 #
 msgid ""
 msgstr ""

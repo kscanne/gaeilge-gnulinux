@@ -1,6 +1,6 @@
 # Irish translations for idutils.
 # Copyright (C) 2005 Free Software Foundation, Inc.
-# Kevin Patrick Scannell <scannell@SLU.EDU>, 2005, 2007.
+# Kevin Patrick Scannell <kscanne@gmail.com>, 2005, 2007.
 #
 msgid ""
 msgstr ""

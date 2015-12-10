@@ -1,7 +1,7 @@
 # Irish translations for doodle.
 # Copyright (C) 2004 Christian Grothoff
 # This file is distributed under the same license as the doodle package.
-# Kevin Patrick Scannell <scannell@SLU.EDU>, 2004, 2006.
+# Kevin Patrick Scannell <kscanne@gmail.com>, 2004, 2006.
 #
 msgid ""
 msgstr ""

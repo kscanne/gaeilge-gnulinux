@@ -1,7 +1,7 @@
 # Irish translations for gettext-runtime.
 # Copyright (C) 2004 Free Software Foundation, Inc.
 # This file is distributed under the same license as the gettext-runtime package.
-# Kevin Patrick Scannell <scannell@SLU.EDU>, 2005, 2006, 2007.
+# Kevin Patrick Scannell <kscanne@gmail.com>, 2005, 2006, 2007.
 msgid ""
 msgstr ""
 "Project-Id-Version: gettext-runtime 0.16.2-pre5\n"

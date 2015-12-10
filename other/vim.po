@@ -3872,7 +3872,7 @@ msgstr "E354: Ainm neamhbhailí tabhaill: '%s'"
 
 msgid "Messages maintainer: Bram Moolenaar <Bram@vim.org>"
 msgstr ""
-"Cothaitheoir na dteachtaireachtaí: Kevin P. Scannell <scannell@slu.edu>"
+"Cothaitheoir na dteachtaireachtaí: Kevin P. Scannell <kscanne@gmail.com>"
 
 msgid "Interrupt: "
 msgstr "Idirbhriseadh: "

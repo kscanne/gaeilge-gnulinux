@@ -1,6 +1,6 @@
 # Irish translations for sed
 # Copyright (C) 2003, 2004 Free Software Foundation, Inc.
-# Kevin Patrick Scannell <scannell@SLU.EDU>, 2003, 2004, 2006, 2008.
+# Kevin Patrick Scannell <kscanne@gmail.com>, 2003, 2004, 2006, 2008.
 #
 msgid ""
 msgstr ""
